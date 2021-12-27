@@ -1,0 +1,24 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+05-Dashboard,Chrome 96.0.4664.110,,,2021-12-22 01:21:54,2021-12-22 01:25:18,3m - 24.284s,FAILED
+,,,,,,,
+Test Cases/05-Dashboard/TCD-01 (User Login),Chrome 96.0.4664.110,User navigates to dashboard category,,2021-12-22 01:21:54,2021-12-22 01:23:32,1m - 37.308s,FAILED
+"openBrowser("""")",Chrome 96.0.4664.110,,,2021-12-22 01:21:55,2021-12-22 01:21:59,3.868s,PASSED
+"navigateToUrl(""https://app.everleagues.com/"")",Chrome 96.0.4664.110,,,2021-12-22 01:21:59,2021-12-22 01:22:55,56.033s,PASSED
+maximizeWindow(),Chrome 96.0.4664.110,,,2021-12-22 01:22:55,2021-12-22 01:22:55,0.167s,PASSED
+"setText(findTestObject(""Object Repository/01-Login/input_Email_email""), ""testerapp001@mailinator.com"")",Chrome 96.0.4664.110,,,2021-12-22 01:22:55,2021-12-22 01:22:56,0.970s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/01-Login/input_Email_password""), ""8yFRyszE6U6jvsCn51OQbg=="")",Chrome 96.0.4664.110,,,2021-12-22 01:22:56,2021-12-22 01:22:57,0.635s,PASSED
+"click(findTestObject(""Object Repository/01-Login/button_Sign in""))",Chrome 96.0.4664.110,,,2021-12-22 01:22:57,2021-12-22 01:22:57,0.711s,PASSED
+delay(2),Chrome 96.0.4664.110,,,2021-12-22 01:22:57,2021-12-22 01:22:59,2.049s,PASSED
+"verifyElementVisible(findTestObject(""05-Dashboard/MatToolBar_Everleagues""))",Chrome 96.0.4664.110,,,2021-12-22 01:22:59,2021-12-22 01:23:32,32.285s,FAILED
+,,,,,,,
+Test Cases/05-Dashboard/TCD-02 (Notification Card),Chrome 96.0.4664.110,Verifies notification cards,,2021-12-22 01:23:32,2021-12-22 01:24:06,34.678s,FAILED
+delay(2),Chrome 96.0.4664.110,,,2021-12-22 01:23:32,2021-12-22 01:23:34,2.003s,PASSED
+"verifyElementVisible(findTestObject(""05-Dashboard/MatToolBar_Everleagues""))",Chrome 96.0.4664.110,,,2021-12-22 01:23:34,2021-12-22 01:24:06,32.186s,FAILED
+,,,,,,,
+Test Cases/05-Dashboard/TCD-03 (Dismiss Button),Chrome 96.0.4664.110,Verifies dismiss button if clickable,,2021-12-22 01:24:06,2021-12-22 01:24:41,34.742s,FAILED
+delay(2),Chrome 96.0.4664.110,,,2021-12-22 01:24:07,2021-12-22 01:24:09,2.004s,PASSED
+"verifyElementClickable(findTestObject(""05-Dashboard/button_Dismiss""))",Chrome 96.0.4664.110,,,2021-12-22 01:24:09,2021-12-22 01:24:41,32.217s,FAILED
+,,,,,,,
+Test Cases/05-Dashboard/TCD-04 (View Connection),Chrome 96.0.4664.110,Verifies view connection if clickable,,2021-12-22 01:24:41,2021-12-22 01:25:18,36.926s,FAILED
+delay(2),Chrome 96.0.4664.110,,,2021-12-22 01:24:42,2021-12-22 01:24:44,2.004s,PASSED
+"verifyElementClickable(findTestObject(""05-Dashboard/button_View Connection""))",Chrome 96.0.4664.110,,,2021-12-22 01:24:44,2021-12-22 01:25:18,34.362s,FAILED

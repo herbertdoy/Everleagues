@@ -1,0 +1,46 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+04-Side Icons,Chrome 96.0.4664.110,,,2021-12-17 13:17:37,2021-12-17 13:21:47,4m - 10.018s,FAILED
+,,,,,,,
+Test Cases/01-Login/01-Login (valid credentials),Chrome 96.0.4664.110,,,2021-12-17 13:17:38,2021-12-17 13:19:02,1m - 24.143s,PASSED
+"openBrowser("""")",Chrome 96.0.4664.110,,,2021-12-17 13:17:38,2021-12-17 13:17:43,4.164s,PASSED
+"navigateToUrl(""https://app.everleagues.com/"")",Chrome 96.0.4664.110,,,2021-12-17 13:17:43,2021-12-17 13:18:54,1m - 11.750s,PASSED
+maximizeWindow(),Chrome 96.0.4664.110,,,2021-12-17 13:18:54,2021-12-17 13:18:55,0.172s,PASSED
+"setText(findTestObject(""Object Repository/01-Login/input_Email_email""), ""testerapp001@mailinator.com"")",Chrome 96.0.4664.110,,,2021-12-17 13:18:55,2021-12-17 13:18:55,0.802s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/01-Login/input_Email_password""), ""8yFRyszE6U6jvsCn51OQbg=="")",Chrome 96.0.4664.110,,,2021-12-17 13:18:55,2021-12-17 13:18:56,0.607s,PASSED
+"click(findTestObject(""Object Repository/01-Login/button_Sign in""))",Chrome 96.0.4664.110,,,2021-12-17 13:18:56,2021-12-17 13:18:57,1.012s,PASSED
+delay(3),Chrome 96.0.4664.110,,,2021-12-17 13:18:57,2021-12-17 13:19:00,3.046s,PASSED
+delay(2),Chrome 96.0.4664.110,,,2021-12-17 13:19:00,2021-12-17 13:19:02,2.004s,PASSED
+,,,,,,,
+Test Cases/04-Side Icons (Organization)/TCSI-01 (Local Hospital),Chrome 96.0.4664.110,Navigates on Local Hospital Page and verifies the elements.,,2021-12-17 13:19:02,2021-12-17 13:19:43,41.246s,FAILED
+"click(findTestObject(""04-Side Icons(Organization)/HeaderNavigator/SideNavHeader""))",Chrome 96.0.4664.110,,,2021-12-17 13:19:02,2021-12-17 13:19:35,32.436s,PASSED
+delay(1),Chrome 96.0.4664.110,,,2021-12-17 13:19:35,2021-12-17 13:19:36,1.006s,PASSED
+"click(findTestObject(""04-Side Icons(Organization)/HeaderNavigator/button_My Organizations""))",Chrome 96.0.4664.110,,,2021-12-17 13:19:36,2021-12-17 13:19:36,0.416s,PASSED
+delay(1),Chrome 96.0.4664.110,,,2021-12-17 13:19:36,2021-12-17 13:19:37,1.003s,PASSED
+"click(findTestObject(""04-Side Icons(Organization)/HeaderNavigator/button_Organization""))",Chrome 96.0.4664.110,,,2021-12-17 13:19:37,2021-12-17 13:19:38,0.389s,PASSED
+delay(5),Chrome 96.0.4664.110,,,2021-12-17 13:19:38,2021-12-17 13:19:43,5.003s,PASSED
+"click(findTestObject(""04-Side Icons(Organization)/button_local_hospital""))",Chrome 96.0.4664.110,,,2021-12-17 13:19:43,2021-12-17 13:19:43,0.515s,FAILED
+,,,,,,,
+Test Cases/04-Side Icons (Organization)/TCSI-02 (Add Contact),Chrome 96.0.4664.110,Navigates on Add Contact Page and verifies the elements.,,2021-12-17 13:19:43,2021-12-17 13:20:23,39.555s,FAILED
+delay(5),Chrome 96.0.4664.110,,,2021-12-17 13:19:44,2021-12-17 13:19:49,5.004s,PASSED
+"click(findTestObject(""04-Side Icons(Organization)/button_person_add""))",Chrome 96.0.4664.110,,,2021-12-17 13:19:49,2021-12-17 13:19:49,0.537s,PASSED
+delay(2),Chrome 96.0.4664.110,,,2021-12-17 13:19:49,2021-12-17 13:19:51,2.004s,PASSED
+"verifyElementVisible(findTestObject(""04-Side Icons(Organization)/Add New User Verifications/h4_Invite New User (Header)_1""))",Chrome 96.0.4664.110,,,2021-12-17 13:19:51,2021-12-17 13:20:23,31.569s,FAILED
+,,,,,,,
+Test Cases/04-Side Icons (Organization)/TCSI-03 (2FA),Chrome 96.0.4664.110,Navigates on 2FA Page and verifies the elements.,,2021-12-17 13:20:23,2021-12-17 13:20:29,6.094s,FAILED
+delay(5),Chrome 96.0.4664.110,,,2021-12-17 13:20:23,2021-12-17 13:20:28,5.004s,PASSED
+"click(findTestObject(""04-Side Icons(Organization)/button_2FA""))",Chrome 96.0.4664.110,,,2021-12-17 13:20:28,2021-12-17 13:20:29,0.659s,FAILED
+,,,,,,,
+Test Cases/04-Side Icons (Organization)/TCSI-04 (Client Assignment),Chrome 96.0.4664.110,Navigates on Client Assignment Page and verifies the elements.,,2021-12-17 13:20:29,2021-12-17 13:21:07,38.369s,FAILED
+delay(3),Chrome 96.0.4664.110,,,2021-12-17 13:20:29,2021-12-17 13:20:32,3.002s,PASSED
+"click(findTestObject(""04-Side Icons(Organization)/button_client_assignment""))",Chrome 96.0.4664.110,,,2021-12-17 13:20:32,2021-12-17 13:20:33,0.423s,PASSED
+delay(3),Chrome 96.0.4664.110,,,2021-12-17 13:20:33,2021-12-17 13:20:36,3.002s,PASSED
+"verifyElementVisible(findTestObject(""04-Side Icons(Organization)/Client Assignment Verifications/div_Employees_1""))",Chrome 96.0.4664.110,,,2021-12-17 13:20:36,2021-12-17 13:21:07,31.496s,FAILED
+,,,,,,,
+Test Cases/04-Side Icons (Organization)/TCSI-05 (Hide Quick Shortcuts),Chrome 96.0.4664.110,Click Quick Shortcut and verify the buttons,,2021-12-17 13:21:07,2021-12-17 13:21:47,40.024s,FAILED
+"click(findTestObject(""04-Side Icons(Organization)/HeaderNavigator/SideNavHeader""))",Chrome 96.0.4664.110,,,2021-12-17 13:21:08,2021-12-17 13:21:08,0.441s,PASSED
+delay(1),Chrome 96.0.4664.110,,,2021-12-17 13:21:08,2021-12-17 13:21:09,1.004s,PASSED
+"click(findTestObject(""04-Side Icons(Organization)/HeaderNavigator/button_My Organizations""))",Chrome 96.0.4664.110,,,2021-12-17 13:21:09,2021-12-17 13:21:10,0.394s,PASSED
+delay(1),Chrome 96.0.4664.110,,,2021-12-17 13:21:10,2021-12-17 13:21:11,1.002s,PASSED
+"click(findTestObject(""04-Side Icons(Organization)/HeaderNavigator/button_Organization""))",Chrome 96.0.4664.110,,,2021-12-17 13:21:11,2021-12-17 13:21:11,0.366s,PASSED
+delay(5),Chrome 96.0.4664.110,,,2021-12-17 13:21:11,2021-12-17 13:21:16,5.002s,PASSED
+"click(findTestObject(""04-Side Icons(Organization)/QuickShortCuts""))",Chrome 96.0.4664.110,,,2021-12-17 13:21:16,2021-12-17 13:21:47,31.377s,FAILED

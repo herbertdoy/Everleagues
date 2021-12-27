@@ -1,0 +1,26 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+05-Dashboard,Chrome 96.0.4664.110,,,2021-12-17 13:23:28,2021-12-17 13:26:55,3m - 27.992s,FAILED
+,,,,,,,
+Test Cases/05-Dashboard/TCD-01 (User Login),Chrome 96.0.4664.110,User navigates to dashboard category,,2021-12-17 13:23:28,2021-12-17 13:25:08,1m - 40.032s,PASSED
+"openBrowser("""")",Chrome 96.0.4664.110,,,2021-12-17 13:23:29,2021-12-17 13:23:32,3.643s,PASSED
+"navigateToUrl(""https://app.everleagues.com/"")",Chrome 96.0.4664.110,,,2021-12-17 13:23:32,2021-12-17 13:24:56,1m - 23.806s,PASSED
+maximizeWindow(),Chrome 96.0.4664.110,,,2021-12-17 13:24:56,2021-12-17 13:24:56,0.194s,PASSED
+"setText(findTestObject(""Object Repository/01-Login/input_Email_email""), ""testerapp001@mailinator.com"")",Chrome 96.0.4664.110,,,2021-12-17 13:24:56,2021-12-17 13:24:58,1.303s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/01-Login/input_Email_password""), ""8yFRyszE6U6jvsCn51OQbg=="")",Chrome 96.0.4664.110,,,2021-12-17 13:24:58,2021-12-17 13:24:58,0.662s,PASSED
+"click(findTestObject(""Object Repository/01-Login/button_Sign in""))",Chrome 96.0.4664.110,,,2021-12-17 13:24:58,2021-12-17 13:24:59,0.976s,PASSED
+delay(2),Chrome 96.0.4664.110,,,2021-12-17 13:24:59,2021-12-17 13:25:01,2.049s,PASSED
+"verifyElementVisible(findTestObject(""05-Dashboard/MatToolBar_Everleagues""))",Chrome 96.0.4664.110,,,2021-12-17 13:25:01,2021-12-17 13:25:08,6.820s,PASSED
+,,,,,,,
+Test Cases/05-Dashboard/TCD-02 (Notification Card),Chrome 96.0.4664.110,Verifies notification cards,,2021-12-17 13:25:08,2021-12-17 13:25:48,39.406s,FAILED
+delay(2),Chrome 96.0.4664.110,,,2021-12-17 13:25:09,2021-12-17 13:25:11,2.003s,PASSED
+"verifyElementVisible(findTestObject(""05-Dashboard/MatToolBar_Everleagues""))",Chrome 96.0.4664.110,,,2021-12-17 13:25:11,2021-12-17 13:25:13,2.298s,PASSED
+delay(3),Chrome 96.0.4664.110,,,2021-12-17 13:25:13,2021-12-17 13:25:16,3.003s,PASSED
+"verifyElementVisible(findTestObject(""05-Dashboard/Notification Box""))",Chrome 96.0.4664.110,,,2021-12-17 13:25:16,2021-12-17 13:25:48,31.566s,FAILED
+,,,,,,,
+Test Cases/05-Dashboard/TCD-03 (Dismiss Button),Chrome 96.0.4664.110,Verifies dismiss button if clickable,,2021-12-17 13:25:48,2021-12-17 13:26:21,33.878s,FAILED
+delay(2),Chrome 96.0.4664.110,,,2021-12-17 13:25:48,2021-12-17 13:25:50,2.004s,PASSED
+"verifyElementClickable(findTestObject(""05-Dashboard/button_Dismiss""))",Chrome 96.0.4664.110,,,2021-12-17 13:25:50,2021-12-17 13:26:21,31.463s,FAILED
+,,,,,,,
+Test Cases/05-Dashboard/TCD-04 (View Connection),Chrome 96.0.4664.110,Verifies view connection if clickable,,2021-12-17 13:26:21,2021-12-17 13:26:55,34.048s,FAILED
+delay(2),Chrome 96.0.4664.110,,,2021-12-17 13:26:22,2021-12-17 13:26:24,2.003s,PASSED
+"verifyElementClickable(findTestObject(""05-Dashboard/button_View Connection""))",Chrome 96.0.4664.110,,,2021-12-17 13:26:24,2021-12-17 13:26:55,31.534s,FAILED
