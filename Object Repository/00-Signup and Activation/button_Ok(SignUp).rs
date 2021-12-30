@@ -1,25 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Ok(SignUp)</name>
+   <name>button_Ok(signup)</name>
    <tag></tag>
-   <elementGuidId>5c8fe0eb-4bdb-4cc5-83db-10666823f59f</elementGuidId>
+   <elementGuidId>9dac828a-5f5c-4cd3-9377-078d0b8f2f95</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>button.mat-raised-button.mat-primary.cdk-focused.cdk-mouse-focused</value>
+         <value>mat-dialog-actions.mat-dialog-actions > button.mat-focus-indicator.mat-raised-button.mat-button-base.mat-primary</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//button[@type='button'])[2]</value>
+         <value>//button[@type = 'button' and @class = 'mat-focus-indicator mat-raised-button mat-button-base mat-primary' and (text() = 'Ok' or . = 'Ok')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
       <type>Main</type>
       <value>button</value>
    </webElementProperties>
@@ -33,16 +40,9 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>type</name>
-      <type>Main</type>
-      <value>button</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>mat-raised-button mat-primary cdk-focused cdk-mouse-focused</value>
+      <value>mat-focus-indicator mat-raised-button mat-button-base mat-primary</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,6 +50,13 @@
       <name>ng-reflect-color</name>
       <type>Main</type>
       <value>primary</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-reflect-type</name>
+      <type>Main</type>
+      <value>button</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -63,7 +70,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;mat-dialog-0&quot;)/app-dialog-success-msg[@class=&quot;ng-star-inserted&quot;]/section[1]/mat-dialog-actions[@class=&quot;mat-dialog-actions&quot;]/button[@class=&quot;mat-raised-button mat-primary cdk-focused cdk-mouse-focused&quot;]</value>
+      <value>id(&quot;mat-dialog-0&quot;)/app-dialog-success-msg[@class=&quot;ng-star-inserted&quot;]/section[1]/mat-dialog-actions[@class=&quot;mat-dialog-actions&quot;]/button[@class=&quot;mat-focus-indicator mat-raised-button mat-button-base mat-primary&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

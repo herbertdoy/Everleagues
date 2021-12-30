@@ -6,15 +6,19 @@
    <elementGuidId>c004f44d-6519-4936-8688-f4d770ee1a9e</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>button.push-top-sm.mat-raised-button.mat-primary.cdk-focused.cdk-mouse-focused</value>
+         <key>XPATH</key>
+         <value>//button[@type='button']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Password'])[1]/following::button[1]</value>
+         <key>CSS</key>
+         <value>button.mat-focus-indicator.push-top-sm.ng-tns-c482-0.mat-raised-button.mat-button-base.mat-primary</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'button' and (text() = 'Sign in' or . = 'Sign in')]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -24,11 +28,11 @@
       <value>button</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>class</name>
+      <name>type</name>
       <type>Main</type>
-      <value>push-top-sm mat-raised-button mat-primary cdk-focused cdk-mouse-focused</value>
+      <value>button</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -40,9 +44,9 @@
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>ng-reflect-color</name>
+      <name>class</name>
       <type>Main</type>
-      <value>primary</value>
+      <value>mat-focus-indicator push-top-sm ng-tns-c482-0 mat-raised-button mat-button-base mat-primary</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -56,10 +60,52 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[1]/app-root[1]/app-login-page[@class=&quot;ng-tns-c2-0 ng-trigger ng-trigger-routerAnimation ng-star-inserted&quot;]/section[@class=&quot;ng-tns-c2-0&quot;]/article[@class=&quot;ng-tns-c2-0&quot;]/mat-card[@class=&quot;mat-card ng-tns-c2-0 ng-star-inserted&quot;]/mat-card-content[@class=&quot;text-center mat-card-content ng-tns-c2-0&quot;]/form[@class=&quot;push-top-sm ng-valid ng-dirty ng-touched&quot;]/button[@class=&quot;push-top-sm mat-raised-button mat-primary cdk-focused cdk-mouse-focused&quot;]</value>
+      <value>/html[1]/body[1]/app-root[1]/app-login-page[@class=&quot;ng-tns-c482-0 ng-trigger ng-trigger-routerAnimation ng-star-inserted&quot;]/section[@class=&quot;ng-tns-c482-0&quot;]/article[@class=&quot;ng-tns-c482-0&quot;]/mat-card[@class=&quot;mat-card mat-focus-indicator ng-tns-c482-0 ng-star-inserted&quot;]/mat-card-content[@class=&quot;mat-card-content text-center&quot;]/form[@class=&quot;push-top-sm ng-tns-c482-0 ng-dirty ng-valid ng-touched&quot;]/button[@class=&quot;mat-focus-indicator push-top-sm ng-tns-c482-0 mat-raised-button mat-button-base mat-primary&quot;]</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-reflect-color</name>
+      <type>Main</type>
+      <value>primary</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@type='button']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Password'])[1]/following::button[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Email'])[1]/following::button[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Forgot password?'])[1]/preceding::button[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//form/button</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
@@ -71,13 +117,6 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Email'])[1]/following::button[1]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Forgot password?'])[1]/preceding::button[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

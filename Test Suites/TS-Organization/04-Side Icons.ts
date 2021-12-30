@@ -15,7 +15,7 @@
       <guid>5fe9e574-8944-46a0-a5b7-38d0fcd211bf</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/01-Login/01-Login (valid credentials)</testCaseId>
+      <testCaseId>Test Cases/01-Login/04-Login (valid credentials)</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>7dafadd0-1750-456e-b2a0-e1f53a5334fc</guid>
