@@ -37,15 +37,15 @@ WebUI.switchToWindowTitle('Mailinator')
 
 WebUI.delay(2)
 
-WebUI.setText(findTestObject('00-Signup and Activation/Mailinator/input_Mailinator_addOverlay'), GlobalVariable.email)
+WebUI.setText(findTestObject('null'), GlobalVariable.email)
 
-WebUI.sendKeys(findTestObject('00-Signup and Activation/Mailinator/input_Mailinator_addOverlay'), Keys.chord(Keys.ENTER))
-
-WebUI.delay(3)
-
-WebUI.click(findTestObject('00-Signup and Activation/Mailinator/Email(2)'))
+WebUI.sendKeys(findTestObject('null'), Keys.chord(Keys.ENTER))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('00-Signup and Activation/Mailinator/a_Activation link (2)'))
+WebUI.click(findTestObject('null'))
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('null'))
 

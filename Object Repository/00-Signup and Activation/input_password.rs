@@ -10,15 +10,15 @@
          <value>#mat-input-3</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>/html/body/app-root/app-verify-membership/section/article/mat-card/mat-card-content/div[2]/form/div/div[4]/div[1]/mat-form-field</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>//input[@name = 'password' and @type = 'password' and @placeholder = 'Password']</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@name = 'password' and @type = 'password']</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

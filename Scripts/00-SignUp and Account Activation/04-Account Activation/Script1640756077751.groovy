@@ -15,15 +15,13 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 
 WebUI.delay(3)
 
-WebUI.executeJavaScript('window.open();', [])
+WebUI.openBrowser('')
 
-currentWindow = WebUI.getWindowIndex()
-
-//Go in to new tab
-WebUI.switchToWindowIndex(currentWindow + 1)
+WebUI.maximizeWindow()
 
 WebUI.navigateToUrl('https://www.mailinator.com/')
 

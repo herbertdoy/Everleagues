@@ -15,6 +15,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 
 WebUI.delay(2)
 
@@ -28,4 +29,8 @@ WebUI.setText(findTestObject('00-Signup and Activation/input_lastName'), 'tester
 WebUI.delay(2)
 
 WebUI.click(findTestObject('Object Repository/00-Signup and Activation/button_Sign up'))
+
+WebUI.delay(2)
+
+WebUI.closeBrowser()
 
