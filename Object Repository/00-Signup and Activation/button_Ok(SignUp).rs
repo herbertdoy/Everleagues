@@ -6,15 +6,19 @@
    <elementGuidId>9dac828a-5f5c-4cd3-9377-078d0b8f2f95</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>//button[@type = 'button' and @class = 'mat-focus-indicator mat-raised-button mat-button-base mat-primary' and (text() = 'Ok' or . = 'Ok')]</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>mat-dialog-actions.mat-dialog-actions > button.mat-focus-indicator.mat-raised-button.mat-button-base.mat-primary</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//button[@type = 'button' and @class = 'mat-focus-indicator mat-raised-button mat-button-base mat-primary' and (text() = 'Ok' or . = 'Ok')]</value>
+         <key>BASIC</key>
+         <value>//button[@type = 'button' and (text() = 'Ok' or . = 'Ok')]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +42,7 @@
       <value>primary</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>

@@ -18,19 +18,15 @@ import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 
 WebUI.delay(3)
 
-currentWindow = WebUI.getWindowIndex()
-
-WebUI.switchToWindowIndex(currentWindow + 1)
-
-WebUI.delay(3)
-
 WebUI.closeWindowTitle('Mailinator')
 
 WebUI.delay(2)
 
-WebUI.setText(findTestObject('00-Signup and Activation/input_password'), 'qa24680P', FailureHandling.STOP_ON_FAILURE)
+WebUI.switchToWindowIndex(0)
 
-WebUI.setText(findTestObject('00-Signup and Activation/input_ConfirmPassword'), 'qa24680P', FailureHandling.STOP_ON_FAILURE)
+WebUI.setEncryptedText(findTestObject('00-Signup and Activation/input_password'), '8yFRyszE6U6jvsCn51OQbg==', FailureHandling.STOP_ON_FAILURE)
+
+WebUI.setEncryptedText(findTestObject('00-Signup and Activation/input_ConfirmPassword'), '8yFRyszE6U6jvsCn51OQbg==', FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(2)
 
@@ -49,6 +45,8 @@ WebUI.click(findTestObject('00-Signup and Activation/button_Confirm'))
 WebUI.delay(2)
 
 WebUI.verifyElementVisible(findTestObject('00-Signup and Activation/Sign Up Success'))
+
+WebUI.delay(2)
 
 WebUI.click(findTestObject('00-Signup and Activation/button_Ok(signup)'))
 
