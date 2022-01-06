@@ -14,38 +14,42 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
+import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
+import org.openqa.selenium.Keys as Keys
 
-WebUI.delay(3)
+WebUI.openBrowser('')
 
-WebUI.click(findTestObject('null'))
+WebUI.navigateToUrl('https://lab.everleagues.com/login?returnUrl=%2Fmain%2Fdashboard')
 
-WebUI.delay(3)
+WebUI.maximizeWindow()
 
-WebUI.verifyElementVisible(findTestObject('null'))
+WebUI.setText(findTestObject('04-Side Icons(Organization)/Add Contact/Email Field'), 'testuser01@mailinator.com')
 
-WebUI.verifyElementVisible(findTestObject('null'))
+WebUI.setEncryptedText(findTestObject('04-Side Icons(Organization)/Add Contact/Password Field'), '8yFRyszE6U6jvsCn51OQbg==')
 
-WebUI.verifyElementVisible(findTestObject('null'))
+WebUI.click(findTestObject('04-Side Icons(Organization)/Add Contact/button_Sign in'))
 
-WebUI.verifyElementVisible(findTestObject('null'))
+WebUI.click(findTestObject('04-Side Icons(Organization)/Add Contact/Side Menu double arrow icon'))
 
-WebUI.verifyElementVisible(findTestObject('null'))
+WebUI.click(findTestObject('04-Side Icons(Organization)/Add Contact/button_My Organizations'))
 
-WebUI.verifyElementVisible(findTestObject('null'))
+WebUI.click(findTestObject('04-Side Icons(Organization)/Add Contact/button_Automation Test Org'))
+
+WebUI.verifyElementVisible(findTestObject('04-Side Icons(Organization)/2FA/span_Automation Test Org'))
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('null'))
+WebUI.click(findTestObject('04-Side Icons(Organization)/Client Assignment/button_Client assignment'))
 
-WebUI.delay(2)
+WebUI.delay(3)
 
-WebUI.verifyElementVisible(findTestObject('null'))
+WebUI.verifyElementVisible(findTestObject('04-Side Icons(Organization)/Client Assignment/h4_CLIENT ASSIGNMENT'))
 
-WebUI.verifyElementVisible(findTestObject('null'))
+WebUI.verifyElementVisible(findTestObject('04-Side Icons(Organization)/Client Assignment/div_By Employee'))
 
-WebUI.verifyElementVisible(findTestObject('null'))
+WebUI.verifyElementVisible(findTestObject('04-Side Icons(Organization)/Client Assignment/div_By Client'))
 
-WebUI.verifyElementVisible(findTestObject('null'))
+WebUI.delay(3)
 
-WebUI.verifyElementVisible(findTestObject('null'))
+WebUI.closeBrowser()
 

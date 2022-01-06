@@ -37,7 +37,15 @@ WebUI.click(findTestObject('04-Side Icons(Organization)/Add Contact/button_Autom
 
 WebUI.verifyElementVisible(findTestObject('04-Side Icons(Organization)/Add Contact/span_Automation Test Org'))
 
+WebUI.delay(3)
+
 WebUI.click(findTestObject('04-Side Icons(Organization)/Add Contact/button_add new user'))
 
+WebUI.delay(3)
+
 WebUI.verifyElementVisible(findTestObject('04-Side Icons(Organization)/Add Contact/add new user modal'))
+
+WebUI.delay(2)
+
+WebUI.closeBrowser()
 
