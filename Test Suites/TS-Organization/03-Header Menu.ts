@@ -21,30 +21,6 @@
       <guid>7ef572d5-1b80-4cbe-af75-6cba7a070a9c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/03-Header Menu/TCHM-02 (View Profile)</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>85e868ea-5d93-4666-8d46-9bfba69dbfbe</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/03-Header Menu/TCHM-03 (Profile)</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>996bed9a-f023-4cb4-a4e7-2887c94c9a1e</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/03-Header Menu/TCHM-04 (Security)</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>afca2e81-8176-4b54-a12c-41221821cd9c</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/03-Header Menu/TCHM-05 (Settings)</testCaseId>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>6b3b29dd-c642-4703-a882-c0eaa86ba14e</variableId>
-      </variableLink>
+      <testCaseId>Test Cases/03-Header Menu/04- View Profile</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
