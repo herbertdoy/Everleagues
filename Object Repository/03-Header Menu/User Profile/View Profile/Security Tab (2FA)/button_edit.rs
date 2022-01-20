@@ -6,16 +6,16 @@
    <elementGuidId>ca4e9ee9-1372-4c8b-9fe5-8ae861c6fed5</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+         <value>button.mat-focus-indicator.mat-icon-button.mat-button-base.ng-tns-c564-33.ng-star-inserted</value>
+      </entry>
+      <entry>
          <key>BASIC</key>
-         <value>//button[@type = 'button' and @class = 'mat-focus-indicator mat-icon-button mat-button-base ng-tns-c564-33 ng-star-inserted']</value>
+         <value>//button[@type = 'button' and (text() = 'edit' or . = 'edit')]</value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>(//button[@type='button'])[7]</value>
-      </entry>
-      <entry>
-         <key>CSS</key>
-         <value>button.mat-focus-indicator.mat-icon-button.mat-button-base.ng-tns-c564-33.ng-star-inserted</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -35,14 +35,14 @@
       <value>button</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>mat-focus-indicator mat-icon-button mat-button-base ng-tns-c564-33 ng-star-inserted</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>

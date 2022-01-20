@@ -39,41 +39,13 @@ WebUI.click(findTestObject('03-Header Menu/User Profile/Users Profile menu and n
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/div_Security'))
+WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/div_Settings'))
 
 WebUI.delay(1)
 
-WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Security Tab (2FA)/2FA_toggle'))
+WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/View Profile/Settings/Dashboard Card'))
 
-WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/View Profile/Security Tab (2FA)/Success_enable'))
+WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/View Profile/Settings/Email Frequency'))
 
-WebUI.delay(1)
-
-WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Security Tab (2FA)/button_edit'))
-
-WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/View Profile/Security Tab (2FA)/2FA Phone Number modal'))
-
-WebUI.delay(1)
-
-WebUI.setText(findTestObject('03-Header Menu/User Profile/View Profile/Security Tab (2FA)/input_phone number'), '+639212968902')
-
-WebUI.delay(2)
-
-WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Security Tab (2FA)/button_Next'))
-
-WebUI.delay(1)
-
-WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/View Profile/Security Tab (2FA)/ver_code_success'))
-
-WebUI.delay(2)
-
-WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Security Tab (2FA)/button_Cancel'))
-
-WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Security Tab (2FA)/2FA_toggle'))
-
-WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/View Profile/Security Tab (2FA)/Success_disable'))
-
-WebUI.delay(2)
-
-WebUI.closeBrowser()
+WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/View Profile/Settings/Timezone'))
 

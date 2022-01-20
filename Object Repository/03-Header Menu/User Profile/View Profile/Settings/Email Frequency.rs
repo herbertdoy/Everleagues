@@ -1,86 +1,96 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>ver_code_success</name>
+   <name>Email Frequency</name>
    <tag></tag>
-   <elementGuidId>6997f213-66ec-437b-909d-5f4d1a4d8013</elementGuidId>
+   <elementGuidId>ada1c15f-6498-4d87-82ae-d30931c8fd3c</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>div.mat-dialog-content > div > div</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>id(&quot;mat-dialog-3&quot;)/app-dialog-2fa-phone[@class=&quot;ng-star-inserted&quot;]/section[@class=&quot;dialog-container ng-star-inserted&quot;]/form[@class=&quot;ng-untouched ng-pristine ng-valid&quot;]/div[@class=&quot;mat-dialog-content&quot;]/div[1]/div[1]</value>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//div[@class='mat-dialog-content']//div)[2]</value>
+         <value>//mat-tab-body[@id='mat-tab-content-0-2']/div/mat-card[3]/mat-card-title</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>div</value>
+      <value>mat-card-title</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>text</name>
+      <name>class</name>
       <type>Main</type>
-      <value> A 6 digit verification code was sent to  +639955189602. Please enter the code to proceed. </value>
+      <value>mat-card-title</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Email Frequency </value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;mat-dialog-3&quot;)/app-dialog-2fa-phone[@class=&quot;ng-star-inserted&quot;]/section[@class=&quot;dialog-container ng-star-inserted&quot;]/form[@class=&quot;ng-untouched ng-pristine ng-valid&quot;]/div[@class=&quot;mat-dialog-content&quot;]/div[1]/div[1]</value>
+      <value>id(&quot;mat-tab-content-0-2&quot;)/div[@class=&quot;mat-tab-body-content ng-tns-c360-48 ng-trigger ng-trigger-translateTab&quot;]/mat-card[@class=&quot;mat-card mat-focus-indicator ng-star-inserted&quot;]/mat-card-title[@class=&quot;mat-card-title&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//mat-dialog-container[@id='mat-dialog-3']/app-dialog-2fa-phone/section/form/div/div/div</value>
+      <value>//mat-tab-body[@id='mat-tab-content-0-2']/div/mat-card[3]/mat-card-title</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Enter code'])[1]/following::div[3]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Select timezone'])[1]/following::mat-card-title[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Delete Phone'])[1]/following::div[8]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='(UTC+08:00) Kuala Lumpur, Singapore'])[1]/following::mat-card-title[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Enter verification code'])[1]/preceding::div[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Every 4 hours'])[1]/preceding::mat-card-title[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Verify'])[1]/preceding::div[8]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Select preference'])[1]/preceding::mat-card-title[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Email Frequency']/parent::*</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//form/div/div/div</value>
+      <value>//mat-card[3]/mat-card-title</value>
    </webElementXpaths>
 </WebElementEntity>
