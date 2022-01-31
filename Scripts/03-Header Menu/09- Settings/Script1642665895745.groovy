@@ -33,11 +33,9 @@ WebUI.delay(2)
 
 WebUI.click(findTestObject('03-Header Menu/User Profile/Users Profile menu and notification button/div_User drop down menu button'))
 
-WebUI.delay(1)
+WebUI.delay(2)
 
 WebUI.click(findTestObject('03-Header Menu/User Profile/Users Profile menu and notification button/h4_View Profile'))
-
-WebUI.delay(2)
 
 WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/div_Settings'))
 
@@ -48,4 +46,88 @@ WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/View Prof
 WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/View Profile/Settings/Email Frequency'))
 
 WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/View Profile/Settings/Timezone'))
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Settings/Timezone selector'))
+
+WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Settings/span_(UTC0800) Beijing, Chongqing, Hong Kong, Urumqi'))
+
+WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Settings/button_Save'))
+
+WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/View Profile/Settings/Successfully msg'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Settings/Timezone selector'))
+
+WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Settings/span_(UTC0800) Kuala Lumpur, Singapore'))
+
+WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Settings/button_Save'))
+
+WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/View Profile/Settings/Successfully msg'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Settings/Email Frequency selector'))
+
+WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Settings/span_None'))
+
+WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Settings/button_Save'))
+
+WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/View Profile/Settings/Successfully msg'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Settings/Email Frequency selector'))
+
+WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Settings/span_Every 2 hours'))
+
+WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Settings/button_Save'))
+
+WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/View Profile/Settings/Successfully msg'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Settings/Email Frequency selector'))
+
+WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Settings/span_Every 6 hours'))
+
+WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Settings/button_Save'))
+
+WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/View Profile/Settings/Successfully msg'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Settings/Email Frequency selector'))
+
+WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Settings/span_Every 12 hours'))
+
+WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Settings/button_Save'))
+
+WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/View Profile/Settings/Successfully msg'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Settings/Email Frequency selector'))
+
+WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Settings/span_Once a day (9pm local time)'))
+
+WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Settings/button_Save'))
+
+WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/View Profile/Settings/Successfully msg'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Settings/Email Frequency selector'))
+
+WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Settings/span_Every 4 hours'))
+
+WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Settings/button_Save'))
+
+WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/View Profile/Settings/Successfully msg'))
+
+WebUI.delay(2)
+
+WebUI.closeBrowser()
 
