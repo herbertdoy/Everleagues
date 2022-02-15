@@ -13,8 +13,12 @@
          <key>CSS</key>
          <value>a.mat-focus-indicator.ng-tns-c511-26.mat-button.mat-button-base.no-route > span.mat-button-wrapper > div.text</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Income and Expense ' or . = 'Income and Expense ')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

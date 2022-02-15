@@ -7,11 +7,15 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//button[@type='button'])[6]</value>
+         <value>(//button[contains(@class,'mat-focus-indicator mat-menu-trigger')])[2]</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>button.mat-focus-indicator.mat-menu-trigger.language-select.mat-button.mat-button-base.cdk-focused.cdk-mouse-focused</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'button' and (text() = 'English' or . = 'English')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

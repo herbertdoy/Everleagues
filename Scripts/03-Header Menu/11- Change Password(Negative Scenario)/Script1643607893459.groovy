@@ -105,5 +105,3 @@ WebUI.verifyElementNotClickable(findTestObject('03-Header Menu/User Profile/Chan
 
 WebUI.delay(2)
 
-WebUI.closeBrowser()
-

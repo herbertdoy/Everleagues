@@ -6,6 +6,10 @@
    <elementGuidId>0cd711b5-6eff-4753-a641-bc0781a7ea61</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[7]</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>button.mat-focus-indicator.ng-tns-c564-130.mat-raised-button.mat-button-base.mat-primary</value>
       </entry>
@@ -13,12 +17,8 @@
          <key>BASIC</key>
          <value>//*[@type = 'button' and (text() = ' Save' or . = ' Save')]</value>
       </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>(//button[@type='button'])[7]</value>
-      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

@@ -13,8 +13,12 @@
          <key>CSS</key>
          <value>button.mat-focus-indicator.mat-menu-item.ng-tns-c311-271.cdk-focused.cdk-mouse-focused</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'button' and (text() = 'English' or . = 'English')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

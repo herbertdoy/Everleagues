@@ -6,15 +6,19 @@
    <elementGuidId>57cc6b72-b0b5-455b-a46c-4ac0b5652364</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>//span[text()='Profile updated']</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>snack-bar-container.mat-snack-bar-container.ng-tns-c39-71.ng-trigger.ng-trigger-state.mat-snack-bar-center.ng-star-inserted</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='cdk-overlay-14']/snack-bar-container</value>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Profile updatedOK' or . = 'Profile updatedOK')]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

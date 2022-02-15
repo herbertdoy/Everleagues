@@ -81,6 +81,6 @@
       <guid>555767f2-50a4-4972-99e6-1e8a41ebb96a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/03-Header Menu/12-Change Pasword(Positive Scenario)</testCaseId>
+      <testCaseId>Test Cases/03-Header Menu/12-Change Password(Positive Scenario)</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

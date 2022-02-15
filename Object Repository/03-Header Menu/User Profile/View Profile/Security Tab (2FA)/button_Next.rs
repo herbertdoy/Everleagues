@@ -6,6 +6,10 @@
    <elementGuidId>dc9d120e-3786-4916-8c18-5c89d9af7a89</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'button' and (text() = 'Next' or . = 'Next')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>(//button[@type='button'])[12]</value>
       </entry>
@@ -14,7 +18,7 @@
          <value>button.mat-focus-indicator.mat-raised-button.mat-button-base</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

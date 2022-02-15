@@ -17,26 +17,6 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('https://lab.everleagues.com/login?returnUrl=%2Fmain%2Fdashboard')
-
-WebUI.maximizeWindow()
-
-WebUI.setText(findTestObject('02-Side Icons(Organization)/Add Contact/Email Field'), 'testuser02@mailinator.com')
-
-WebUI.setEncryptedText(findTestObject('02-Side Icons(Organization)/Add Contact/Password Field'), '8yFRyszE6U6jvsCn51OQbg==')
-
-WebUI.click(findTestObject('02-Side Icons(Organization)/Add Contact/button_Sign in'))
-
-WebUI.delay(2)
-
-WebUI.click(findTestObject('03-Header Menu/User Profile/Users Profile menu and notification button/div_User drop down menu button'))
-
-WebUI.delay(2)
-
-WebUI.click(findTestObject('03-Header Menu/User Profile/Users Profile menu and notification button/h4_View Profile'))
-
 WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/div_Contact Info'))
 
 WebUI.delay(1)
@@ -164,4 +144,6 @@ WebUI.verifyElementNotClickable(findTestObject('03-Header Menu/User Profile/View
 WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Contact Info/button_Cancel'))
 
 WebUI.delay(2)
+
+WebUI.closeBrowser()
 

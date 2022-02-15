@@ -7,11 +7,14 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//button[@type='button'])[15]</value>
+         <value>//button[text()='繁體中文']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'button' and (text() = '繁體中文' or . = '繁體中文')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

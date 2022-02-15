@@ -11,14 +11,14 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//mat-dialog-container[@id='mat-dialog-3']/app-dialog-2fa-phone/section/form/div/div/div</value>
+         <value>//div[text()='Failed to send SMS']</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>div.warn-color.ng-star-inserted</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

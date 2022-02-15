@@ -96,5 +96,3 @@ WebUI.verifyElementVisible(findTestObject('03-Header Menu/Hamburger Button/div_H
 
 WebUI.delay(3)
 
-WebUI.closeBrowser()
-
