@@ -18,7 +18,7 @@
          <value>button.mat-focus-indicator.mat-menu-trigger.mat-menu-item.mat-menu-item-submenu-trigger.ng-star-inserted.mat-menu-item-highlighted</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

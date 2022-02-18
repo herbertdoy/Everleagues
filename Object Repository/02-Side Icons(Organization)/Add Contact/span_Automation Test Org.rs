@@ -6,12 +6,16 @@
    <elementGuidId>0fc79ac8-70ce-4fd7-a81b-3f21f2393a4a</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Automation Test Org' or . = 'Automation Test Org')]</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>span.mat-menu-trigger.org-name</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='AT'])[1]/preceding::span[1]</value>
+         <value>(//div[@class='org-name-container']//span)[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

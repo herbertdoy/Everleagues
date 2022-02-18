@@ -6,6 +6,10 @@
    <elementGuidId>56278a91-73cd-4c7b-8f30-ca715bb2f5b9</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'button' and (text() = ' Automation Test Org ' or . = ' Automation Test Org ')]</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>button.mat-focus-indicator.mat-menu-item.ng-star-inserted.cdk-focused.cdk-mouse-focused</value>
       </entry>
@@ -14,7 +18,7 @@
          <value>(//button[@type='button'])[14]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
