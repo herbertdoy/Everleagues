@@ -6,6 +6,10 @@
    <elementGuidId>f529fc1e-3041-47f5-8d72-9ee566c0aad6</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>xpath1645092024911</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>(//div[@class='field half-width']//label)[1]</value>
       </entry>
