@@ -17,3 +17,71 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://lab.everleagues.com/')
+
+WebUI.maximizeWindow()
+
+WebUI.setText(findTestObject('02-Side Icons(Organization)/Add Contact/Email Field'), 'testuser02@mailinator.com')
+
+WebUI.setEncryptedText(findTestObject('02-Side Icons(Organization)/Add Contact/Password Field'), '8yFRyszE6U6jvsCn51OQbg==')
+
+WebUI.click(findTestObject('02-Side Icons(Organization)/Add Contact/button_Sign in'))
+
+WebUI.delay(2)
+
+WebUI.verifyElementVisible(findTestObject('02-Side Icons(Organization)/Add Contact/span_Automation Test Org'))
+
+WebUI.click(findTestObject('05-Chat/01- Creating a Chat group/div_Chat'))
+
+WebUI.delay(1)
+
+WebUI.verifyElementVisible(findTestObject('05-Chat/01- Creating a Chat group/h4_CHAT'))
+
+WebUI.verifyElementVisible(findTestObject('05-Chat/01- Creating a Chat group/div_No chat available'))
+
+WebUI.verifyElementVisible(findTestObject('05-Chat/01- Creating a Chat group/h5_Chat securely with your contacts here'))
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('05-Chat/01- Creating a Chat group/new chat icon'))
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('05-Chat/01- Creating a Chat group/div_New Group Chat'))
+
+WebUI.delay(1)
+
+WebUI.verifyElementVisible(findTestObject('05-Chat/01- Creating a Chat group/span_Add group participant'))
+
+WebUI.verifyElementNotPresent(findTestObject('05-Chat/01- Creating a Chat group/button_arrow_forward'), 0)
+
+WebUI.delay(1)
+
+WebUI.setText(findTestObject('05-Chat/01- Creating a Chat group/input_newGroupName'), 'Automation Chat')
+
+WebUI.click(findTestObject('05-Chat/01- Creating a Chat group/div_GTGG tester'))
+
+WebUI.verifyElementVisible(findTestObject('05-Chat/01- Creating a Chat group/GG tester added'))
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('05-Chat/01- Creating a Chat group/div_GTGG tester 2'))
+
+WebUI.verifyElementVisible(findTestObject('05-Chat/01- Creating a Chat group/GG tester 2 added'))
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('05-Chat/01- Creating a Chat group/button_arrow_forward'))
+
+WebUI.verifyElementVisible(findTestObject('05-Chat/01- Creating a Chat group/div_Creating Chat'))
+
+WebUI.delay(3)
+
+WebUI.verifyElementVisible(findTestObject('05-Chat/01- Creating a Chat group/div_Automation Chat'))
+
+WebUI.delay(1)
+
+WebUI.closeBrowser()
+

@@ -57,5 +57,3 @@ WebUI.verifyElementVisible(findTestObject('04-Add my Organizations/Free limited 
 
 WebUI.delay(1)
 
-WebUI.closeBrowser()
-

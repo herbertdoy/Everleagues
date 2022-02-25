@@ -61,13 +61,9 @@ WebUI.verifyElementVisible(findTestObject('04-Add my Organizations/Pay as you go
 
 WebUI.verifyElementVisible(findTestObject('04-Add my Organizations/Pay as you go Plan/div_ Postal Code is required error'))
 
-WebUI.delay(1)
-
-WebUI.click(findTestObject('04-Add my Organizations/Pay as you go Plan/cardnumber test'))
-
 WebUI.delay(2)
 
-WebUI.setText(findTestObject('04-Add my Organizations/Pay as you go Plan/cardnumber test2'), '12345678901114')
+WebUI.setText(findTestObject('04-Add my Organizations/Pay as you go Plan/input_cardnumber (1)'), '12345678901114')
 
 WebUI.click(findTestObject('04-Add my Organizations/Pay as you go Plan/input_exp-date'))
 

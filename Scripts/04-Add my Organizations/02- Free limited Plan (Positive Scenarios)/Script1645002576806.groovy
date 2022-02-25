@@ -17,24 +17,6 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('https://lab.everleagues.com/')
-
-WebUI.maximizeWindow()
-
-WebUI.setText(findTestObject('02-Side Icons(Organization)/Add Contact/Email Field'), 'testuser02@mailinator.com')
-
-WebUI.setEncryptedText(findTestObject('02-Side Icons(Organization)/Add Contact/Password Field'), '8yFRyszE6U6jvsCn51OQbg==')
-
-WebUI.click(findTestObject('02-Side Icons(Organization)/Add Contact/button_Sign in'))
-
-WebUI.delay(2)
-
-WebUI.click(findTestObject('04-Add my Organizations/Free limited Plan/span_Add My Organization'))
-
-WebUI.verifyElementVisible(findTestObject('04-Add my Organizations/Free limited Plan/Add my org modal'))
-
 WebUI.delay(2)
 
 WebUI.setText(findTestObject('04-Add my Organizations/Free limited Plan/input_orgName'), 'GG Automation')

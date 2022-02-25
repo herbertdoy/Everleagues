@@ -28,7 +28,7 @@ WebUI.navigateToUrl('https://www.mailinator.com/')
 WebUI.delay(3)
 
 'make sure the email is the same email found in testcase 03-Signup(Correct details)'
-WebUI.setText(findTestObject('00-Signup and Activation/zMailinator/input_LOGIN_search'), 'autotester07@mailinator.com')
+WebUI.setText(findTestObject('00-Signup and Activation/zMailinator/input_LOGIN_search'), 'autotester09@mailinator.com')
 
 WebUI.click(findTestObject('00-Signup and Activation/zMailinator/gobutton'), FailureHandling.STOP_ON_FAILURE)
 
