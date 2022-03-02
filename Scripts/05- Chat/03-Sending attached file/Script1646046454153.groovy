@@ -39,8 +39,11 @@ WebUI.delay(1)
 
 WebUI.click(findTestObject('05-Chat/02-Sending chat messages/div_AC'))
 
+WebUI.delay(3)
+
+'This is a .jpg [make sure to change your filepath for the image before running the automation]'
 CustomKeywords.'uploadpackage.Upload.uploadFile'(findTestObject('Object Repository/05-Chat/03-Sending attached file/button_attach_file'), 
-    'C:\\Users\\User\\Desktop\\DAMAGE PHOTOS\\qa.jpg')
+    'C:\\Users\\User\\Desktop\\EL automation\\qa.jpg')
 
 WebUI.delay(5)
 
@@ -48,5 +51,42 @@ WebUI.click(findTestObject('05-Chat/02-Sending chat messages/button_send'))
 
 WebUI.delay(5)
 
+'either you remove this script or you change the element coz its setup to verify the file I uploaded'
 WebUI.verifyElementVisible(findTestObject('05-Chat/03-Sending attached file/img_You_inserted'))
+
+WebUI.refresh()
+
+WebUI.delay(15)
+
+'This is a .pdf [make sure to change your filepath for the image before running the automation'
+WebUI.uploadFileWithDragAndDrop(findTestObject('Object Repository/05-Chat/02-Sending chat messages/textarea__msg'), 'C:\\Users\\User\\Desktop\\EL automation\\sample.pdf')
+
+WebUI.delay(5)
+
+WebUI.click(findTestObject('05-Chat/02-Sending chat messages/button_send'))
+
+WebUI.delay(5)
+
+'either you remove this script or you change the element coz its setup to verify the file I uploaded'
+WebUI.verifyElementVisible(findTestObject('05-Chat/03-Sending attached file/span_sample.pdf'))
+
+WebUI.refresh()
+
+WebUI.delay(15)
+
+'This is a .mp4 [make sure to change your filepath for the image before running the automation'
+WebUI.uploadFileWithDragAndDrop(findTestObject('Object Repository/05-Chat/02-Sending chat messages/textarea__msg'), 'C:\\Users\\User\\Desktop\\EL automation\\video.mp4')
+
+WebUI.delay(5)
+
+WebUI.click(findTestObject('05-Chat/02-Sending chat messages/button_send'))
+
+WebUI.delay(20)
+
+'either you remove this script or you change the element coz its setup to verify the file I uploaded'
+WebUI.verifyElementVisible(findTestObject('05-Chat/03-Sending attached file/span_video.mp4'))
+
+WebUI.delay(5)
+
+WebUI.closeBrowser()
 
