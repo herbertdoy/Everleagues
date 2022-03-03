@@ -44,17 +44,25 @@ WebUI.click(findTestObject('00-Signup and Activation/button_Confirm'))
 
 WebUI.delay(2)
 
-WebUI.verifyElementVisible(findTestObject('00-Signup and Activation/Sign Up Success'))
+WebUI.verifyElementVisible(findTestObject('00-Signup and Activation/h4_Welcome to Everleagues'))
+
+WebUI.verifyElementVisible(findTestObject('00-Signup and Activation/span_CREATE A BUSINESS ORGANIZATION'))
+
+WebUI.verifyElementVisible(findTestObject('00-Signup and Activation/span_INVITE FRIENDS  FAMILY'))
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('00-Signup and Activation/button_DO THIS LATER'))
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('00-Signup and Activation/button_Ok(signup)'))
+WebUI.verifyElementVisible(findTestObject('00-Signup and Activation/Create your first organization Card'))
 
-WebUI.delay(3)
+WebUI.verifyElementVisible(findTestObject('00-Signup and Activation/Still not sure where to start Card'))
 
-WebUI.verifyElementVisible(findTestObject('00-Signup and Activation/Add my organization tray'))
+WebUI.verifyElementVisible(findTestObject('00-Signup and Activation/Welcome to Everleagues Card'))
 
-WebUI.delay(3)
+WebUI.delay(2)
 
 WebUI.closeBrowser()
 

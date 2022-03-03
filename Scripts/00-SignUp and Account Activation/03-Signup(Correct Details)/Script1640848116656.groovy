@@ -20,7 +20,7 @@ import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 WebUI.delay(2)
 
 'always change the number in the email to the next one before starting the automation'
-WebUI.setText(findTestObject('00-Signup and Activation/input_Email'), 'autotester09@mailinator.com')
+WebUI.setText(findTestObject('00-Signup and Activation/input_Email'), 'autotester12@mailinator.com')
 
 WebUI.setText(findTestObject('00-Signup and Activation/input_firstName'), 'GG')
 
