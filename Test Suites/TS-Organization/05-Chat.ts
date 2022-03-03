@@ -17,4 +17,28 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/05- Chat/01-Creating a Chat group</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>609d7462-ad70-490e-95b8-62657ac5a4e1</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/05- Chat/02-Sending chat messages</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>287cb5f7-701c-4e56-bc34-ffded13fbacd</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/05- Chat/03-Sending attached file</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>28ded651-13d2-4340-9deb-4ff82fcdb7f1</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/05- Chat/04-Sending a video conference invite</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>e0898dee-c253-438a-9570-5b0383f36720</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/05- Chat/05-Schedule a meeting</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>
