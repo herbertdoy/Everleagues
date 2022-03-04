@@ -57,9 +57,11 @@ WebUI.click(findTestObject('04-Add my Organizations/Free limited Plan/span_Usage
 
 WebUI.switchToWindowIndex(1)
 
-assert WebUI.getUrl() == 'https://www.everleagues.com/pricing'
+WebUI.delay(5)
 
-WebUI.closeWindowUrl('https://www.everleagues.com/pricing')
+assert WebUI.getUrl() == 'https://www.everleagues.com/pricing/'
+
+WebUI.closeWindowUrl('https://www.everleagues.com/pricing/')
 
 WebUI.switchToWindowIndex(0)
 
@@ -68,6 +70,8 @@ WebUI.delay(1)
 WebUI.click(findTestObject('04-Add my Organizations/Free limited Plan/a_Software as a service (SaaS) subscription agreement'))
 
 WebUI.switchToWindowIndex(1)
+
+WebUI.delay(5)
 
 assert WebUI.getUrl() == 'https://www.everleagues.com/saas-agreement/'
 
@@ -95,7 +99,7 @@ WebUI.verifyElementVisible(findTestObject('04-Add my Organizations/Free limited 
 
 WebUI.verifyElementVisible(findTestObject('04-Add my Organizations/Free limited Plan/button_LEARN MORE'))
 
-WebUI.delay(1)
+WebUI.delay(4)
 
 WebUI.click(findTestObject('04-Add my Organizations/Free limited Plan/button_DO THIS LATER'))
 

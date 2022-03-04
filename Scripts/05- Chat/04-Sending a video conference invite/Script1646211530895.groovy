@@ -17,30 +17,6 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('https://lab.everleagues.com/')
-
-WebUI.maximizeWindow()
-
-WebUI.setText(findTestObject('02-Side Icons(Organization)/Add Contact/Email Field'), 'testuser02@mailinator.com')
-
-WebUI.setEncryptedText(findTestObject('02-Side Icons(Organization)/Add Contact/Password Field'), '8yFRyszE6U6jvsCn51OQbg==')
-
-WebUI.click(findTestObject('02-Side Icons(Organization)/Add Contact/button_Sign in'))
-
-WebUI.delay(2)
-
-WebUI.verifyElementVisible(findTestObject('02-Side Icons(Organization)/Add Contact/span_Automation Test Org'))
-
-WebUI.click(findTestObject('05-Chat/01- Creating a Chat group/div_Chat'))
-
-WebUI.delay(1)
-
-WebUI.click(findTestObject('05-Chat/02-Sending chat messages/div_AC'))
-
-WebUI.delay(3)
-
 WebUI.click(findTestObject('05-Chat/04-Sending a video conference invite/button_videocam'))
 
 WebUI.delay(2)
@@ -49,7 +25,5 @@ WebUI.click(findTestObject('05-Chat/02-Sending chat messages/button_send'))
 
 WebUI.verifyElementVisible(findTestObject('05-Chat/04-Sending a video conference invite/div_Video Conference'))
 
-WebUI.delay(1)
-
-WebUI.closeBrowser()
+WebUI.delay(5)
 

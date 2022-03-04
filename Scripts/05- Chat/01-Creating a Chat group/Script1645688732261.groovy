@@ -81,7 +81,5 @@ WebUI.delay(3)
 
 WebUI.verifyElementVisible(findTestObject('05-Chat/01- Creating a Chat group/div_Automation Chat'))
 
-WebUI.delay(1)
-
-WebUI.closeBrowser()
+WebUI.delay(5)
 

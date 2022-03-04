@@ -41,4 +41,16 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/05- Chat/05-Schedule a meeting</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>1a711185-62b5-4e39-904e-fd9bd2ad85af</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/05- Chat/06-Hiding a chat</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>68bf47ce-e440-4909-9f75-884bc7c0b461</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/05- Chat/07-Group Info</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>
