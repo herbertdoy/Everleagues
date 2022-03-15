@@ -7,14 +7,18 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Feb-18 2021'])[1]/following::div[58]</value>
+         <value>(//div[@class='mat-list-text']//span)[1]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'New Group Chat' or . = 'New Group Chat')]</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>a.mat-list-item.mat-focus-indicator.ng-tns-c645-320.mat-2-line.mat-list-item-avatar.mat-list-item-with-avatar > div.mat-list-item-content</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

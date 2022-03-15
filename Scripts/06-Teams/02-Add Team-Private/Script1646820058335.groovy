@@ -29,7 +29,51 @@ WebUI.setEncryptedText(findTestObject('02-Side Icons(Organization)/Add Contact/P
 
 WebUI.click(findTestObject('02-Side Icons(Organization)/Add Contact/button_Sign in'))
 
-WebUI.delay(2)
+WebUI.delay(3)
+
+WebUI.click(findTestObject('06-Teams/For 2FA/button_Confirm_2FA'))
+
+WebUI.executeJavaScript('window.open();', [])
+
+currentWindow = WebUI.getWindowIndex()
+
+WebUI.delay(3)
+
+WebUI.switchToWindowIndex(currentWindow + 1)
+
+WebUI.navigateToUrl('https://www.mailinator.com/')
+
+WebUI.delay(3)
+
+WebUI.setText(findTestObject('00-Signup and Activation/zMailinator/input_LOGIN_search'), 'testuser02@mailinator.com')
+
+WebUI.click(findTestObject('00-Signup and Activation/zMailinator/gobutton'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('00-Signup and Activation/zMailinator/Email - everleagues'))
+
+WebUI.delay(3)
+
+String code = WebUI.getText(findTestObject('Object Repository/06-Teams/For 2FA/2FA code'))
+
+WebUI.delay(3)
+
+WebUI.closeWindowTitle('Mailinator')
+
+WebUI.delay(3)
+
+WebUI.switchToWindowIndex(0)
+
+WebUI.delay(3)
+
+WebUI.setText(findTestObject('Object Repository/06-Teams/For 2FA/input_Enter verification code_code'), code)
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('06-Teams/For 2FA/button_Verify_2FA'))
+
+WebUI.delay(5)
 
 WebUI.click(findTestObject('06-Teams/button_doublearrow'))
 
@@ -62,4 +106,54 @@ WebUI.verifyElementVisible(findTestObject('06-Teams/button_Private'))
 WebUI.delay(3)
 
 WebUI.click(findTestObject('06-Teams/button_Private'))
+
+WebUI.delay(3)
+
+WebUI.verifyElementVisible(findTestObject('06-Teams/02-Add Team-Private/Add team- Private'))
+
+WebUI.verifyElementVisible(findTestObject('06-Teams/02-Add Team-Private/div_Settings'))
+
+WebUI.verifyElementVisible(findTestObject('06-Teams/02-Add Team-Private/div_Members'))
+
+WebUI.verifyElementNotClickable(findTestObject('06-Teams/01-Add Team-Public/button_Create'))
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('06-Teams/01-Add Team-Public/input_teamName'))
+
+WebUI.click(findTestObject('06-Teams/01-Add Team-Public/Org unit'))
+
+WebUI.verifyElementVisible(findTestObject('06-Teams/01-Add Team-Public/h4_Select an organization unit'))
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('06-Teams/01-Add Team-Public/div_GG Automation'))
+
+WebUI.click(findTestObject('06-Teams/01-Add Team-Public/button_Select'))
+
+WebUI.verifyElementVisible(findTestObject('06-Teams/01-Add Team-Public/Error Team name'))
+
+WebUI.delay(3)
+
+WebUI.setText(findTestObject('06-Teams/01-Add Team-Public/input_teamName'), 'Auto Team Private')
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('06-Teams/02-Add Team-Private/div_Members'))
+
+WebUI.verifyElementVisible(findTestObject('06-Teams/02-Add Team-Private/Members dialog box'))
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('06-Teams/01-Add Team-Public/button_Create'))
+
+WebUI.verifyElementVisible(findTestObject('06-Teams/01-Add Team-Public/span_Successfully added new team'))
+
+WebUI.delay(3)
+
+WebUI.verifyElementVisible(findTestObject('06-Teams/02-Add Team-Private/span_Auto Team Private'))
+
+WebUI.delay(3)
+
+WebUI.closeBrowser()
 

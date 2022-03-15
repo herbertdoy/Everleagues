@@ -1,0 +1,29 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+05-Chat,Chrome 99.0.4844.51,,,2022-03-10 20:46:04,2022-03-10 20:52:09,6m - 4.800s,FAILED
+,,,,,,,
+Test Cases/05- Chat/01-Creating a Chat group,Chrome 99.0.4844.51,,,2022-03-10 20:46:05,2022-03-10 20:48:52,2m - 47.520s,FAILED
+"openBrowser("""")",Chrome 99.0.4844.51,,,2022-03-10 20:46:05,2022-03-10 20:46:07,2.184s,PASSED
+"navigateToUrl(""https://lab.everleagues.com/"")",Chrome 99.0.4844.51,,,2022-03-10 20:46:07,2022-03-10 20:48:21,2m - 13.443s,PASSED
+maximizeWindow(),Chrome 99.0.4844.51,,,2022-03-10 20:48:21,2022-03-10 20:48:21,0.139s,PASSED
+"setText(findTestObject(""02-Side Icons(Organization)/Add Contact/Email Field""), ""testuser02@mailinator.com"")",Chrome 99.0.4844.51,,,2022-03-10 20:48:21,2022-03-10 20:48:52,31.372s,FAILED
+,,,,,,,
+Test Cases/05- Chat/02-Sending chat messages,Chrome 99.0.4844.51,,,2022-03-10 20:48:52,2022-03-10 20:49:24,31.609s,FAILED
+"click(findTestObject(""05-Chat/02-Sending chat messages/div_AC""))",Chrome 99.0.4844.51,,,2022-03-10 20:48:53,2022-03-10 20:49:24,31.328s,FAILED
+,,,,,,,
+Test Cases/05- Chat/03-Sending attached file,Chrome 99.0.4844.51,,,2022-03-10 20:49:24,2022-03-10 20:49:59,34.611s,FAILED
+delay(3),Chrome 99.0.4844.51,,,2022-03-10 20:49:24,2022-03-10 20:49:27,3.041s,PASSED
+"uploadpackage.Upload.uploadFile(findTestObject(""Object Repository/05-Chat/03-Sending attached file/button_attach_file""), ""C:\Users\User\Desktop\EL automation\qa.jpg"")",Chrome 99.0.4844.51,This is a .jpg [make sure to change your filepath for the image before running the automation],,2022-03-10 20:49:27,2022-03-10 20:49:59,31.264s,FAILED
+,,,,,,,
+Test Cases/05- Chat/04-Sending a video conference invite,Chrome 99.0.4844.51,,,2022-03-10 20:49:59,2022-03-10 20:50:30,31.531s,FAILED
+"click(findTestObject(""05-Chat/04-Sending a video conference invite/button_videocam""))",Chrome 99.0.4844.51,,,2022-03-10 20:49:59,2022-03-10 20:50:30,31.256s,FAILED
+,,,,,,,
+Test Cases/05- Chat/05-Schedule a meeting,Chrome 99.0.4844.51,,,2022-03-10 20:50:30,2022-03-10 20:51:02,31.719s,FAILED
+"click(findTestObject(""05-Chat/05-Schedule a meeting/button_schedule a meeting""))",Chrome 99.0.4844.51,,,2022-03-10 20:50:30,2022-03-10 20:51:02,31.396s,FAILED
+,,,,,,,
+Test Cases/05- Chat/06-Hiding a chat,Chrome 99.0.4844.51,,,2022-03-10 20:51:02,2022-03-10 20:51:37,34.765s,FAILED
+delay(3),Chrome 99.0.4844.51,,,2022-03-10 20:51:02,2022-03-10 20:51:05,3.009s,PASSED
+"click(findTestObject(""05-Chat/06-Hiding a chat/ellipsis_chat setting""))",Chrome 99.0.4844.51,,,2022-03-10 20:51:05,2022-03-10 20:51:37,31.459s,FAILED
+,,,,,,,
+Test Cases/05- Chat/07-Group Info,Chrome 99.0.4844.51,,,2022-03-10 20:51:37,2022-03-10 20:52:09,32.729s,FAILED
+delay(1),Chrome 99.0.4844.51,,,2022-03-10 20:51:37,2022-03-10 20:51:38,1.013s,PASSED
+"click(findTestObject(""05-Chat/02-Sending chat messages/div_AC""))",Chrome 99.0.4844.51,,,2022-03-10 20:51:38,2022-03-10 20:52:09,31.430s,FAILED

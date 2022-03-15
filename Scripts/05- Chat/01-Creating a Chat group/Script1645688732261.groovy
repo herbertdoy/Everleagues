@@ -43,11 +43,11 @@ WebUI.verifyElementVisible(findTestObject('05-Chat/01- Creating a Chat group/div
 
 WebUI.verifyElementVisible(findTestObject('05-Chat/01- Creating a Chat group/h5_Chat securely with your contacts here'))
 
-WebUI.delay(1)
+WebUI.delay(3)
 
 WebUI.click(findTestObject('05-Chat/01- Creating a Chat group/new chat icon'))
 
-WebUI.delay(1)
+WebUI.delay(5)
 
 WebUI.click(findTestObject('05-Chat/01- Creating a Chat group/div_New Group Chat'))
 
