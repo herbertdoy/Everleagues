@@ -6,6 +6,10 @@
    <elementGuidId>1ce5df1d-7646-4bb9-9ad5-a4cdd652730f</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//input[@placeholder = 'Email']</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//input[@id='mat-input-5']</value>
       </entry>
@@ -14,10 +18,10 @@
          <value>#mat-input-5</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -45,7 +49,7 @@
       <value>testuser01@mailinator.com</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>

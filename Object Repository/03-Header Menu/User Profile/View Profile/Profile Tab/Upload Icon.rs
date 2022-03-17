@@ -6,18 +6,22 @@
    <elementGuidId>d3b4fe94-6ca6-4b6d-b92b-5ef9d5b450fc</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>mat-icon.mat-icon.notranslate.edit-img-button.mat-white.ng-tns-c564-33.material-icons.mat-icon-no-color.ng-star-inserted</value>
+         <key>BASIC</key>
+         <value>//mat-icon[@ng-reflect-message = 'Edit image' and (text() = ' create ' or . = ' create ')]</value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>//*[@id=&quot;mat-tab-content-0-0&quot;]/div/mat-card/mat-card-content/div[1]/div/mat-icon</value>
       </entry>
+      <entry>
+         <key>CSS</key>
+         <value>mat-icon.mat-icon.notranslate.edit-img-button.mat-white.ng-tns-c564-33.material-icons.mat-icon-no-color.ng-star-inserted</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -73,7 +77,7 @@
       <value>white</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>ng-reflect-message</name>
       <type>Main</type>

@@ -6,6 +6,10 @@
    <elementGuidId>e8244262-dd9c-42f0-8ca4-69c2e96ccaa6</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//input[@placeholder = 'Last Name']</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//input[@id='mat-input-4']</value>
       </entry>
@@ -14,10 +18,10 @@
          <value>#mat-input-4</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -59,7 +63,7 @@
       <value>test</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>

@@ -6,17 +6,21 @@
    <elementGuidId>8e6483bb-28c2-42c6-a17c-91aa571f773a</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
+         <key>BASIC</key>
+         <value>//h4[(text() = 'Change Password' or . = 'Change Password')]</value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>//div[@id='cdk-overlay-0']/div/div/mat-nav-list/a[2]/div/div[2]/h4</value>
       </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>

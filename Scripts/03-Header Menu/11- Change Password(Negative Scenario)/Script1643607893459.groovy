@@ -31,6 +31,50 @@ WebUI.click(findTestObject('02-Side Icons(Organization)/Add Contact/button_Sign 
 
 WebUI.delay(2)
 
+WebUI.click(findTestObject('06-Teams/For 2FA/button_Confirm_2FA'))
+
+WebUI.executeJavaScript('window.open();', [])
+
+currentWindow = WebUI.getWindowIndex()
+
+WebUI.delay(3)
+
+WebUI.switchToWindowIndex(currentWindow + 1)
+
+WebUI.navigateToUrl('https://www.mailinator.com/')
+
+WebUI.delay(3)
+
+WebUI.setText(findTestObject('00-Signup and Activation/zMailinator/input_LOGIN_search'), 'testuser02@mailinator.com')
+
+WebUI.click(findTestObject('00-Signup and Activation/zMailinator/gobutton'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('00-Signup and Activation/zMailinator/Email - everleagues'))
+
+WebUI.delay(3)
+
+String code = WebUI.getText(findTestObject('Object Repository/06-Teams/For 2FA/2FA code'))
+
+WebUI.delay(3)
+
+WebUI.closeWindowTitle('Mailinator')
+
+WebUI.delay(3)
+
+WebUI.switchToWindowIndex(0)
+
+WebUI.delay(3)
+
+WebUI.setText(findTestObject('Object Repository/06-Teams/For 2FA/input_Enter verification code_code'), code)
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('06-Teams/For 2FA/button_Verify_2FA'))
+
+WebUI.delay(5)
+
 WebUI.click(findTestObject('03-Header Menu/User Profile/Users Profile menu and notification button/div_User drop down menu button'))
 
 WebUI.delay(2)

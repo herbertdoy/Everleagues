@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.delay(2)
+WebUI.delay(3)
 
 WebUI.setText(findTestObject('03-Header Menu/User Profile/View Profile/Profile Tab/input_FirstName'), 'THIS IS')
 

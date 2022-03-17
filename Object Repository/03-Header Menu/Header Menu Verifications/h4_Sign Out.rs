@@ -6,17 +6,21 @@
    <elementGuidId>3fd096bb-4b4a-4b52-99f4-380f185c6c66</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
+         <key>BASIC</key>
+         <value>//h4[(text() = 'Sign Out' or . = 'Sign Out')]</value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>//div[@id='cdk-overlay-0']/div/div/mat-nav-list/a[3]/div/div[2]/h4</value>
       </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>

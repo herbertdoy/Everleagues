@@ -6,18 +6,22 @@
    <elementGuidId>f85ddf64-5347-48e6-aa4c-3583a96b62de</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#mat-dialog-0</value>
+         <key>BASIC</key>
+         <value>//mat-dialog-container[(text() = 'Invite New UserUserAdditional SettingsmailEmail *account_circleFirst Name *Last Name *personRoleRole *businesscreateOrganization Unit *Send InvitationCancel' or . = 'Invite New UserUserAdditional SettingsmailEmail *account_circleFirst Name *Last Name *personRoleRole *businesscreateOrganization Unit *Send InvitationCancel')]</value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>//mat-dialog-container[@id='mat-dialog-0']</value>
       </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#mat-dialog-0</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -45,7 +49,7 @@
       <value>mat-dialog-container ng-tns-c31-46 ng-trigger ng-trigger-dialogContainer ng-star-inserted</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
