@@ -7,11 +7,15 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//mat-dialog-container[@id='mat-dialog-6']</value>
+         <value>members dialog box</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#mat-dialog-6</value>
+         <value>#mat-dialog-0</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//mat-dialog-container[(text() = 'Add TeamSettingsMembersEnter name/group to invite here INVITE searchFind existing member of this teamcancel Name  arrow_upward  Org Role  arrow_upward  Member Type  arrow_upward   GG TESTER Owner Owner Row per page: 1-1 of 1skip_previousnavigate_beforenavigate_nextskip_nextCreateCancel' or . = 'Add TeamSettingsMembersEnter name/group to invite here INVITE searchFind existing member of this teamcancel Name  arrow_upward  Org Role  arrow_upward  Member Type  arrow_upward   GG TESTER Owner Owner Row per page: 1-1 of 1skip_previousnavigate_beforenavigate_nextskip_nextCreateCancel')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -42,14 +46,14 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>mat-dialog-container ng-tns-c31-72 ng-trigger ng-trigger-dialogContainer ng-star-inserted</value>
+      <value>mat-dialog-container ng-tns-c33-31 ng-trigger ng-trigger-dialogContainer ng-star-inserted</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>mat-dialog-6</value>
+      <value>mat-dialog-0</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,35 +67,35 @@
       <matchCondition>equals</matchCondition>
       <name>aria-labelledby</name>
       <type>Main</type>
-      <value>mat-dialog-title-7</value>
+      <value>mat-dialog-title-1</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Add TeamSettingsMembersEnter name/group to invite here INVITE searchFind existing member of this teamcancel Name  arrow_upward  Org Role  arrow_upward  Member Type  arrow_upward   GTGG TESTER Owner Owner Row per page: 1-1 of 1skip_previousnavigate_beforenavigate_nextskip_nextCreateCancel</value>
+      <value>Add TeamSettingsMembersEnter name/group to invite here INVITE searchFind existing member of this teamcancel Name  arrow_upward  Org Role  arrow_upward  Member Type  arrow_upward   GG TESTER Owner Owner Row per page: 1-1 of 1skip_previousnavigate_beforenavigate_nextskip_nextCreateCancel</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;mat-dialog-6&quot;)</value>
+      <value>id(&quot;mat-dialog-0&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//mat-dialog-container[@id='mat-dialog-6']</value>
+      <value>//mat-dialog-container[@id='mat-dialog-0']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='cdk-overlay-10']/mat-dialog-container</value>
+      <value>//div[@id='cdk-overlay-3']/mat-dialog-container</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,6 +123,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//mat-dialog-container[@id = 'mat-dialog-6' and (text() = 'Add TeamSettingsMembersEnter name/group to invite here INVITE searchFind existing member of this teamcancel Name  arrow_upward  Org Role  arrow_upward  Member Type  arrow_upward   GTGG TESTER Owner Owner Row per page: 1-1 of 1skip_previousnavigate_beforenavigate_nextskip_nextCreateCancel' or . = 'Add TeamSettingsMembersEnter name/group to invite here INVITE searchFind existing member of this teamcancel Name  arrow_upward  Org Role  arrow_upward  Member Type  arrow_upward   GTGG TESTER Owner Owner Row per page: 1-1 of 1skip_previousnavigate_beforenavigate_nextskip_nextCreateCancel')]</value>
+      <value>//mat-dialog-container[@id = 'mat-dialog-0' and (text() = 'Add TeamSettingsMembersEnter name/group to invite here INVITE searchFind existing member of this teamcancel Name  arrow_upward  Org Role  arrow_upward  Member Type  arrow_upward   GG TESTER Owner Owner Row per page: 1-1 of 1skip_previousnavigate_beforenavigate_nextskip_nextCreateCancel' or . = 'Add TeamSettingsMembersEnter name/group to invite here INVITE searchFind existing member of this teamcancel Name  arrow_upward  Org Role  arrow_upward  Member Type  arrow_upward   GG TESTER Owner Owner Row per page: 1-1 of 1skip_previousnavigate_beforenavigate_nextskip_nextCreateCancel')]</value>
    </webElementXpaths>
 </WebElementEntity>

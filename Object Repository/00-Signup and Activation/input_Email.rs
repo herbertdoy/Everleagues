@@ -13,11 +13,15 @@
          <key>CSS</key>
          <value>#mat-input-0</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@type = 'email' and @name = 'email' and @placeholder = 'Email']</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -80,7 +84,7 @@
       <value>Email</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>

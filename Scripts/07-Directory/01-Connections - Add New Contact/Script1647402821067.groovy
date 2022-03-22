@@ -123,5 +123,33 @@ WebUI.verifyElementVisible(findTestObject('07-Directory/Connections/div_Last Nam
 
 WebUI.delay(3)
 
-WebUI.acceptAlert()
+WebUI.setText(findTestObject('07-Directory/Connections/input_firstName'), 'GG')
+
+WebUI.setText(findTestObject('07-Directory/Connections/input_lastName'), 'Auto')
+
+WebUI.setText(findTestObject('07-Directory/Connections/input_Type_email'), 'autotester@mailinator.com')
+
+WebUI.click(findTestObject('07-Directory/Connections/input_Type_phone'))
+
+WebUI.click(findTestObject('07-Directory/Connections/button_area code'))
+
+WebUI.delay(3)
+
+WebUI.verifyElementVisible(findTestObject('07-Directory/Connections/area code modal'))
+
+WebUI.click(findTestObject('07-Directory/Connections/button_United States 1'))
+
+WebUI.delay(3)
+
+WebUI.setText(findTestObject('07-Directory/Connections/input_Type_phone'), '2345678901')
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('07-Directory/Connections/add address'))
+
+WebUI.verifyElementVisible(findTestObject('07-Directory/Connections/Edit address modal'))
+
+WebUI.delay(3)
+
+WebUI.closeBrowser()
 

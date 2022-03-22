@@ -6,15 +6,19 @@
    <elementGuidId>89d80738-4109-476c-9a83-908e4afd0e32</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>//div[@ng-reflect-fx-flex='70px']//img[1]</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>img.img-avatar.ng-tns-c564-130.ng-star-inserted</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//mat-tab-body[@id='mat-tab-content-6-0']/div/mat-card/mat-card-content/div/div/img</value>
+         <key>BASIC</key>
+         <value>//*[@src = 'assets/avatars/contact_default.png']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

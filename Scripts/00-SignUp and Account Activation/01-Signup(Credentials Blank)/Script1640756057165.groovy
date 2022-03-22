@@ -19,9 +19,9 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.maximizeWindow()
-
 WebUI.navigateToUrl('https://lab.everleagues.com/')
+
+WebUI.maximizeWindow()
 
 WebUI.click(findTestObject('00-Signup and Activation/span_Sign up'))
 

@@ -6,12 +6,16 @@
    <elementGuidId>10f45516-4a04-4025-afc9-fc501341d1eb</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//mat-dialog-container[@role = 'dialog' and (text() = 'Add New ContactFirst Name *Last Name * mail TypeEmailremove_circle_outline phone Type+1remove_circle_outlineAddress:add_circle_outlineCompanyPositionSelect Labels...NotesCreateCancel' or . = 'Add New ContactFirst Name *Last Name * mail TypeEmailremove_circle_outline phone Type+1remove_circle_outlineAddress:add_circle_outlineCompanyPositionSelect Labels...NotesCreateCancel')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
-         <value>//mat-dialog-container[@id='mat-dialog-12']</value>
+         <value>//mat-dialog-container[@id='mat-dialog-8']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#mat-dialog-12</value>
+         <value>#mat-dialog-8</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -42,14 +46,14 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>mat-dialog-container ng-tns-c33-243 ng-trigger ng-trigger-dialogContainer ng-star-inserted</value>
+      <value>mat-dialog-container ng-tns-c33-211 ng-trigger ng-trigger-dialogContainer ng-star-inserted</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>mat-dialog-12</value>
+      <value>mat-dialog-8</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -63,49 +67,49 @@
       <matchCondition>equals</matchCondition>
       <name>aria-labelledby</name>
       <type>Main</type>
-      <value>mat-dialog-title-12</value>
+      <value>mat-dialog-title-8</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Add New ContactFirst Name *Field is required Last Name * mail TypeEmailremove_circle_outline phone Type+1remove_circle_outlineAddress:add_circle_outlineCompanyPositionSelect Labels...NotesCreateCancel</value>
+      <value>Add New ContactFirst Name *Last Name * mail TypeEmailremove_circle_outline phone Type+1remove_circle_outlineAddress:add_circle_outlineCompanyPositionSelect Labels...NotesCreateCancel</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;mat-dialog-12&quot;)</value>
+      <value>id(&quot;mat-dialog-8&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//mat-dialog-container[@id='mat-dialog-12']</value>
+      <value>//mat-dialog-container[@id='mat-dialog-8']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='cdk-overlay-23']/mat-dialog-container</value>
+      <value>//div[@id='cdk-overlay-44']/mat-dialog-container</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Save your contacts here and throw your business cards away.'])[1]/following::mat-dialog-container[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Work'])[1]/following::mat-dialog-container[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='none'])[2]/following::mat-dialog-container[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='autotester01@mailinator.com'])[1]/following::mat-dialog-container[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,6 +123,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//mat-dialog-container[@id = 'mat-dialog-12' and (text() = 'Add New ContactFirst Name *Field is required Last Name * mail TypeEmailremove_circle_outline phone Type+1remove_circle_outlineAddress:add_circle_outlineCompanyPositionSelect Labels...NotesCreateCancel' or . = 'Add New ContactFirst Name *Field is required Last Name * mail TypeEmailremove_circle_outline phone Type+1remove_circle_outlineAddress:add_circle_outlineCompanyPositionSelect Labels...NotesCreateCancel')]</value>
+      <value>//mat-dialog-container[@id = 'mat-dialog-8' and (text() = 'Add New ContactFirst Name *Last Name * mail TypeEmailremove_circle_outline phone Type+1remove_circle_outlineAddress:add_circle_outlineCompanyPositionSelect Labels...NotesCreateCancel' or . = 'Add New ContactFirst Name *Last Name * mail TypeEmailremove_circle_outline phone Type+1remove_circle_outlineAddress:add_circle_outlineCompanyPositionSelect Labels...NotesCreateCancel')]</value>
    </webElementXpaths>
 </WebElementEntity>

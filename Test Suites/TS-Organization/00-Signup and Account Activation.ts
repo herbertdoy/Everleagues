@@ -30,15 +30,9 @@
       <testCaseId>Test Cases/00-SignUp and Account Activation/03-Signup(Correct Details)</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>765f5ad3-a234-4f3d-b574-8f8996cfb298</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/00-SignUp and Account Activation/04-Account Activation</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>80858b10-bbe5-4474-a1d0-c85a5e5774ed</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/00-SignUp and Account Activation/05-Set password</testCaseId>
+      <testCaseId>Test Cases/00-SignUp and Account Activation/04-Set password</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

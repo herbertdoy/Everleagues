@@ -7,24 +7,28 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>/html/body/app-root/app-simple-sign-up/section/article/mat-card/mat-card-content/form/div/div[1]/mat-form-field/div/div[3]/div/mat-error</value>
+         <value>//mat-error[@id='mat-error-5']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#mat-error-17</value>
+         <value>#mat-error-5</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//mat-error[@role = 'alert' and (text() = ' testuser01@mailinator.com already exists. Please enter another ID' or . = ' testuser01@mailinator.com already exists. Please enter another ID')]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>mat-error</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>role</name>
       <type>Main</type>
@@ -35,35 +39,35 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>mat-error ng-tns-c108-27 ng-star-inserted</value>
+      <value>mat-error ng-tns-c238-76 ng-star-inserted</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>mat-error-17</value>
+      <value>mat-error-5</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value> test@test.com already exists. Please enter another ID</value>
+      <value> testuser01@mailinator.com already exists. Please enter another ID</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;mat-error-17&quot;)</value>
+      <value>id(&quot;mat-error-5&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//mat-error[@id='mat-error-17']</value>
+      <value>//mat-error[@id='mat-error-5']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -91,7 +95,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='test@test.com already exists. Please enter another ID']/parent::*</value>
+      <value>//*/text()[normalize-space(.)='testuser01@mailinator.com already exists. Please enter another ID']/parent::*</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,5 +103,12 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//mat-error</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//mat-error[@id = 'mat-error-5' and (text() = ' testuser01@mailinator.com already exists. Please enter another ID' or . = ' testuser01@mailinator.com already exists. Please enter another ID')]</value>
    </webElementXpaths>
 </WebElementEntity>

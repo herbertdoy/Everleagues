@@ -17,4 +17,10 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/06-Teams/01- Add Team- Public</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>f209899a-ab48-4c2b-9077-81e1aa15e30e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/06-Teams/02-Add Team-Private</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>

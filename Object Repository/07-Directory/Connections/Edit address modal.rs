@@ -7,15 +7,15 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//mat-dialog-container[(text() = 'Edit AddressStreet 1 *Street 2Zip / Postal Code *City *State *Country *Address TypeSaveCancel' or . = 'Edit AddressStreet 1 *Street 2Zip / Postal Code *City *State *Country *Address TypeSaveCancel')]</value>
+         <value>//mat-dialog-container[@role = 'dialog' and (text() = 'Edit AddressStreet 1 *Street 2Zip / Postal Code *City *State *Country *Address TypeSaveCancel' or . = 'Edit AddressStreet 1 *Street 2Zip / Postal Code *City *State *Country *Address TypeSaveCancel')]</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//mat-dialog-container[@id='mat-dialog-18']</value>
+         <value>//mat-dialog-container[@id='mat-dialog-6']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#mat-dialog-18</value>
+         <value>#mat-dialog-6</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -46,17 +46,17 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>mat-dialog-container ng-tns-c33-334 ng-trigger ng-trigger-dialogContainer ng-star-inserted</value>
+      <value>mat-dialog-container ng-tns-c33-193 ng-trigger ng-trigger-dialogContainer ng-star-inserted</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>mat-dialog-18</value>
+      <value>mat-dialog-6</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>role</name>
       <type>Main</type>
@@ -67,7 +67,7 @@
       <matchCondition>equals</matchCondition>
       <name>aria-labelledby</name>
       <type>Main</type>
-      <value>mat-dialog-title-18</value>
+      <value>mat-dialog-title-6</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -81,21 +81,21 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;mat-dialog-18&quot;)</value>
+      <value>id(&quot;mat-dialog-6&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//mat-dialog-container[@id='mat-dialog-18']</value>
+      <value>//mat-dialog-container[@id='mat-dialog-6']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='cdk-overlay-46']/mat-dialog-container</value>
+      <value>//div[@id='cdk-overlay-41']/mat-dialog-container</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -123,6 +123,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//mat-dialog-container[@id = 'mat-dialog-18' and (text() = 'Edit AddressStreet 1 *Street 2Zip / Postal Code *City *State *Country *Address TypeSaveCancel' or . = 'Edit AddressStreet 1 *Street 2Zip / Postal Code *City *State *Country *Address TypeSaveCancel')]</value>
+      <value>//mat-dialog-container[@id = 'mat-dialog-6' and (text() = 'Edit AddressStreet 1 *Street 2Zip / Postal Code *City *State *Country *Address TypeSaveCancel' or . = 'Edit AddressStreet 1 *Street 2Zip / Postal Code *City *State *Country *Address TypeSaveCancel')]</value>
    </webElementXpaths>
 </WebElementEntity>

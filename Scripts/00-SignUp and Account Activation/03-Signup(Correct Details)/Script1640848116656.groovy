@@ -20,7 +20,7 @@ import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 WebUI.delay(2)
 
 'always change the number in the email to the next one before starting the automation'
-WebUI.setText(findTestObject('00-Signup and Activation/input_Email'), 'autotester14@mailinator.com')
+WebUI.setText(findTestObject('00-Signup and Activation/input_Email'), 'autotester15@mailinator.com')
 
 WebUI.setText(findTestObject('00-Signup and Activation/input_firstName'), 'GG')
 
@@ -32,5 +32,46 @@ WebUI.click(findTestObject('Object Repository/00-Signup and Activation/button_Si
 
 WebUI.delay(2)
 
-WebUI.closeBrowser()
+WebUI.executeJavaScript('window.open();', [])
+
+currentWindow = WebUI.getWindowIndex()
+
+WebUI.delay(3)
+
+WebUI.switchToWindowIndex(currentWindow + 1)
+
+WebUI.navigateToUrl('https://www.mailinator.com/')
+
+WebUI.delay(3)
+
+'always match this email to the email above'
+WebUI.setText(findTestObject('00-Signup and Activation/zMailinator/input_LOGIN_search'), 'autotester15@mailinator.com')
+
+WebUI.click(findTestObject('00-Signup and Activation/zMailinator/gobutton'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('00-Signup and Activation/zMailinator/Email - everleagues'))
+
+WebUI.delay(3)
+
+String code = WebUI.getText(findTestObject('Object Repository/06-Teams/For 2FA/2FA code'))
+
+WebUI.delay(3)
+
+WebUI.closeWindowTitle('Mailinator')
+
+WebUI.delay(3)
+
+WebUI.switchToWindowIndex(0)
+
+WebUI.delay(3)
+
+WebUI.setText(findTestObject('Object Repository/06-Teams/For 2FA/input_Enter verification code_code'), code)
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('06-Teams/For 2FA/button_Verify_2FA'))
+
+WebUI.delay(5)
 
