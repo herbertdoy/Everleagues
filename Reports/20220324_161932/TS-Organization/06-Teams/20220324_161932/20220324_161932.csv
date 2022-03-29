@@ -1,0 +1,69 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+06-Teams,Chrome 99.0.4844.82,,,2022-03-24 16:19:35,2022-03-24 16:21:59,2m - 24.213s,FAILED
+,,,,,,,
+Test Cases/06-Teams/01- Add Team- Public,Chrome 99.0.4844.82,,,2022-03-24 16:19:35,2022-03-24 16:21:54,2m - 18.738s,FAILED
+"openBrowser("""")",Chrome 99.0.4844.82,,,2022-03-24 16:19:36,2022-03-24 16:19:38,2.487s,PASSED
+"navigateToUrl(""https://lab.everleagues.com/"")",Chrome 99.0.4844.82,,,2022-03-24 16:19:38,2022-03-24 16:20:00,22.010s,PASSED
+maximizeWindow(),Chrome 99.0.4844.82,,,2022-03-24 16:20:00,2022-03-24 16:20:00,0.165s,PASSED
+"setText(findTestObject(""02-Side Icons(Organization)/Add Contact/Email Field""), ""testuser02@mailinator.com"")",Chrome 99.0.4844.82,,,2022-03-24 16:20:00,2022-03-24 16:20:01,0.859s,PASSED
+"setEncryptedText(findTestObject(""02-Side Icons(Organization)/Add Contact/Password Field""), ""8yFRyszE6U6jvsCn51OQbg=="")",Chrome 99.0.4844.82,,,2022-03-24 16:20:01,2022-03-24 16:20:02,0.597s,PASSED
+"click(findTestObject(""02-Side Icons(Organization)/Add Contact/button_Sign in""))",Chrome 99.0.4844.82,,,2022-03-24 16:20:02,2022-03-24 16:20:03,1.502s,PASSED
+delay(2),Chrome 99.0.4844.82,,,2022-03-24 16:20:03,2022-03-24 16:20:05,2.036s,PASSED
+"click(findTestObject(""06-Teams/For 2FA/button_Confirm_2FA""))",Chrome 99.0.4844.82,,,2022-03-24 16:20:05,2022-03-24 16:20:06,0.367s,PASSED
+"executeJavaScript(""window.open();"", [])",Chrome 99.0.4844.82,,,2022-03-24 16:20:06,2022-03-24 16:20:06,0.082s,PASSED
+currentWindow = getWindowIndex(),Chrome 99.0.4844.82,,,2022-03-24 16:20:06,2022-03-24 16:20:06,0.029s,PASSED
+delay(3),Chrome 99.0.4844.82,,,2022-03-24 16:20:06,2022-03-24 16:20:09,3.005s,PASSED
+switchToWindowIndex(currentWindow + 1),Chrome 99.0.4844.82,,,2022-03-24 16:20:09,2022-03-24 16:20:09,0.034s,PASSED
+"navigateToUrl(""https://www.mailinator.com/"")",Chrome 99.0.4844.82,,,2022-03-24 16:20:09,2022-03-24 16:20:11,2.288s,PASSED
+delay(3),Chrome 99.0.4844.82,,,2022-03-24 16:20:11,2022-03-24 16:20:14,3.008s,PASSED
+"setText(findTestObject(""00-Signup and Activation/zMailinator/input_LOGIN_search""), ""testuser02@mailinator.com"")",Chrome 99.0.4844.82,,,2022-03-24 16:20:14,2022-03-24 16:20:15,0.693s,PASSED
+"click(findTestObject(""00-Signup and Activation/zMailinator/gobutton""), STOP_ON_FAILURE)",Chrome 99.0.4844.82,,,2022-03-24 16:20:15,2022-03-24 16:20:16,1.193s,PASSED
+delay(3),Chrome 99.0.4844.82,,,2022-03-24 16:20:16,2022-03-24 16:20:19,3.010s,PASSED
+"click(findTestObject(""00-Signup and Activation/zMailinator/Email - everleagues""))",Chrome 99.0.4844.82,,,2022-03-24 16:20:19,2022-03-24 16:20:19,0.385s,PASSED
+delay(3),Chrome 99.0.4844.82,,,2022-03-24 16:20:19,2022-03-24 16:20:22,3.008s,PASSED
+"code = getText(findTestObject(""Object Repository/06-Teams/For 2FA/2FA code""))",Chrome 99.0.4844.82,,,2022-03-24 16:20:22,2022-03-24 16:20:23,0.497s,PASSED
+delay(3),Chrome 99.0.4844.82,,,2022-03-24 16:20:23,2022-03-24 16:20:26,3.016s,PASSED
+"closeWindowTitle(""Mailinator"")",Chrome 99.0.4844.82,,,2022-03-24 16:20:26,2022-03-24 16:20:26,0.148s,PASSED
+delay(3),Chrome 99.0.4844.82,,,2022-03-24 16:20:26,2022-03-24 16:20:29,3.018s,PASSED
+switchToWindowIndex(0),Chrome 99.0.4844.82,,,2022-03-24 16:20:29,2022-03-24 16:20:29,0.021s,PASSED
+delay(3),Chrome 99.0.4844.82,,,2022-03-24 16:20:29,2022-03-24 16:20:32,3.014s,PASSED
+"setText(findTestObject(""Object Repository/06-Teams/For 2FA/input_Enter verification code_code""), code)",Chrome 99.0.4844.82,,,2022-03-24 16:20:32,2022-03-24 16:20:33,0.890s,PASSED
+delay(3),Chrome 99.0.4844.82,,,2022-03-24 16:20:33,2022-03-24 16:20:36,3.013s,PASSED
+"click(findTestObject(""06-Teams/For 2FA/button_Verify_2FA""))",Chrome 99.0.4844.82,,,2022-03-24 16:20:36,2022-03-24 16:20:37,0.577s,PASSED
+delay(5),Chrome 99.0.4844.82,,,2022-03-24 16:20:37,2022-03-24 16:20:42,5.014s,PASSED
+"click(findTestObject(""06-Teams/button_doublearrow""))",Chrome 99.0.4844.82,,,2022-03-24 16:20:42,2022-03-24 16:20:43,1.656s,PASSED
+"click(findTestObject(""06-Teams/button_My Organizations""))",Chrome 99.0.4844.82,,,2022-03-24 16:20:43,2022-03-24 16:20:44,0.500s,PASSED
+"click(findTestObject(""06-Teams/button_GG Automation""))",Chrome 99.0.4844.82,,,2022-03-24 16:20:44,2022-03-24 16:20:45,0.930s,PASSED
+delay(4),Chrome 99.0.4844.82,,,2022-03-24 16:20:45,2022-03-24 16:20:49,4.015s,PASSED
+"verifyElementVisible(findTestObject(""06-Teams/span_GG Automation""))",Chrome 99.0.4844.82,,,2022-03-24 16:20:49,2022-03-24 16:20:49,0.365s,PASSED
+delay(2),Chrome 99.0.4844.82,,,2022-03-24 16:20:49,2022-03-24 16:20:51,2.006s,PASSED
+"click(findTestObject(""03-Header Menu/Hamburger Button/div_Teams""))",Chrome 99.0.4844.82,,,2022-03-24 16:20:51,2022-03-24 16:20:52,0.487s,PASSED
+delay(2),Chrome 99.0.4844.82,,,2022-03-24 16:20:52,2022-03-24 16:20:54,2.009s,PASSED
+"verifyElementVisible(findTestObject(""06-Teams/h4_TEAMS""))",Chrome 99.0.4844.82,,,2022-03-24 16:20:54,2022-03-24 16:20:54,0.353s,PASSED
+delay(3),Chrome 99.0.4844.82,,,2022-03-24 16:20:54,2022-03-24 16:20:57,3.017s,PASSED
+"click(findTestObject(""06-Teams/Add Team""))",Chrome 99.0.4844.82,,,2022-03-24 16:20:57,2022-03-24 16:20:57,0.420s,PASSED
+delay(3),Chrome 99.0.4844.82,,,2022-03-24 16:20:57,2022-03-24 16:21:00,3.009s,PASSED
+"verifyElementVisible(findTestObject(""06-Teams/button_Public""))",Chrome 99.0.4844.82,,,2022-03-24 16:21:00,2022-03-24 16:21:01,0.353s,PASSED
+"verifyElementVisible(findTestObject(""06-Teams/button_Private""))",Chrome 99.0.4844.82,,,2022-03-24 16:21:01,2022-03-24 16:21:01,0.343s,PASSED
+delay(3),Chrome 99.0.4844.82,,,2022-03-24 16:21:01,2022-03-24 16:21:04,3.005s,PASSED
+"click(findTestObject(""06-Teams/button_Public""))",Chrome 99.0.4844.82,,,2022-03-24 16:21:04,2022-03-24 16:21:05,0.437s,PASSED
+"verifyElementVisible(findTestObject(""06-Teams/01-Add Team-Public/Add Team_Public""))",Chrome 99.0.4844.82,,,2022-03-24 16:21:05,2022-03-24 16:21:05,0.492s,PASSED
+"verifyElementNotClickable(findTestObject(""06-Teams/01-Add Team-Public/button_Create""))",Chrome 99.0.4844.82,,,2022-03-24 16:21:05,2022-03-24 16:21:06,0.785s,PASSED
+delay(3),Chrome 99.0.4844.82,,,2022-03-24 16:21:06,2022-03-24 16:21:09,3.009s,PASSED
+"click(findTestObject(""06-Teams/01-Add Team-Public/input_teamName""))",Chrome 99.0.4844.82,,,2022-03-24 16:21:09,2022-03-24 16:21:09,0.447s,PASSED
+"click(findTestObject(""06-Teams/01-Add Team-Public/Org unit""))",Chrome 99.0.4844.82,,,2022-03-24 16:21:09,2022-03-24 16:21:10,0.512s,PASSED
+"verifyElementVisible(findTestObject(""06-Teams/01-Add Team-Public/h4_Select an organization unit""))",Chrome 99.0.4844.82,,,2022-03-24 16:21:10,2022-03-24 16:21:10,0.500s,PASSED
+delay(3),Chrome 99.0.4844.82,,,2022-03-24 16:21:10,2022-03-24 16:21:13,3.003s,PASSED
+"click(findTestObject(""06-Teams/01-Add Team-Public/div_GG Automation""))",Chrome 99.0.4844.82,,,2022-03-24 16:21:13,2022-03-24 16:21:14,0.386s,PASSED
+"click(findTestObject(""06-Teams/01-Add Team-Public/button_Select""))",Chrome 99.0.4844.82,,,2022-03-24 16:21:14,2022-03-24 16:21:14,0.404s,PASSED
+"verifyElementVisible(findTestObject(""06-Teams/01-Add Team-Public/Error Team name""))",Chrome 99.0.4844.82,,,2022-03-24 16:21:14,2022-03-24 16:21:15,0.899s,PASSED
+delay(3),Chrome 99.0.4844.82,,,2022-03-24 16:21:15,2022-03-24 16:21:18,3.009s,PASSED
+"setText(findTestObject(""06-Teams/01-Add Team-Public/input_teamName""), ""Auto Team Public"")",Chrome 99.0.4844.82,,,2022-03-24 16:21:18,2022-03-24 16:21:19,0.889s,PASSED
+"click(findTestObject(""06-Teams/01-Add Team-Public/button_Create""))",Chrome 99.0.4844.82,,,2022-03-24 16:21:19,2022-03-24 16:21:19,0.437s,PASSED
+delay(3),Chrome 99.0.4844.82,,,2022-03-24 16:21:19,2022-03-24 16:21:22,3.017s,PASSED
+"verifyElementVisible(findTestObject(""06-Teams/01-Add Team-Public/span_Successfully added new team""))",Chrome 99.0.4844.82,,,2022-03-24 16:21:22,2022-03-24 16:21:54,31.612s,FAILED
+,,,,,,,
+Test Cases/06-Teams/02-Add Team-Private,Chrome 99.0.4844.82,,,2022-03-24 16:21:54,2022-03-24 16:21:59,5.152s,FAILED
+"openBrowser("""")",Chrome 99.0.4844.82,,,2022-03-24 16:21:54,2022-03-24 16:21:56,2.049s,PASSED
+"navigateToUrl(""https://lab.everleagues.com/"")",Chrome 99.0.4844.82,,,2022-03-24 16:21:56,2022-03-24 16:21:59,2.685s,PASSED
+maximizeWindow(),Chrome 99.0.4844.82,,,2022-03-24 16:21:59,2022-03-24 16:21:59,0.033s,FAILED

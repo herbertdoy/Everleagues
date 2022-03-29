@@ -41,7 +41,7 @@ WebUI.closeBrowser()
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://lab.everleagues.com/login?returnUrl=%2Fmain%2Fdashboard')
+WebUI.navigateToUrl('https://lab.everleagues.com/')
 
 WebUI.maximizeWindow()
 

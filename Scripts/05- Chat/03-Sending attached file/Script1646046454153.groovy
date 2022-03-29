@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.delay(3)
+WebUI.delay(5)
 
 'This is a .jpg [make sure to change your filepath for the image before running the automation]'
 CustomKeywords.'uploadpackage.Upload.uploadFile'(findTestObject('Object Repository/05-Chat/03-Sending attached file/button_attach_file'), 
@@ -27,7 +27,7 @@ WebUI.delay(5)
 
 WebUI.click(findTestObject('05-Chat/02-Sending chat messages/button_send'))
 
-WebUI.delay(5)
+WebUI.delay(20)
 
 'either you remove this script or you change the element coz its setup to verify the file I uploaded'
 WebUI.verifyElementVisible(findTestObject('05-Chat/03-Sending attached file/img_You_inserted'))
@@ -43,7 +43,7 @@ WebUI.delay(5)
 
 WebUI.click(findTestObject('05-Chat/02-Sending chat messages/button_send'))
 
-WebUI.delay(5)
+WebUI.delay(20)
 
 'either you remove this script or you change the element coz its setup to verify the file I uploaded'
 WebUI.verifyElementVisible(findTestObject('05-Chat/03-Sending attached file/span_sample.pdf'))
