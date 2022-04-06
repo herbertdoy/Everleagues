@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+02-Side Icons,Chrome 99.0.4844.84,,,2022-03-29 13:28:16,2022-03-29 13:32:43,4m - 27.764s,FAILED
+,,,,,,,
+Test Cases/02-Side Icons (Organization)/01- (Add Contact),Chrome 99.0.4844.84,Navigates on Add Contact Page and verifies the elements.,,2022-03-29 13:28:16,2022-03-29 13:31:02,2m - 45.650s,FAILED
+"openBrowser("""")",Chrome 99.0.4844.84,,,2022-03-29 13:28:16,2022-03-29 13:28:19,2.307s,PASSED
+"navigateToUrl(""https://lab.everleagues.com/login?returnUrl=%2Fmain%2Fdashboard"")",Chrome 99.0.4844.84,,,2022-03-29 13:28:19,2022-03-29 13:30:30,2m - 11.464s,PASSED
+maximizeWindow(),Chrome 99.0.4844.84,,,2022-03-29 13:30:30,2022-03-29 13:30:30,0.155s,PASSED
+"setText(findTestObject(""02-Side Icons(Organization)/Add Contact/Email Field""), ""testuser01@mailinator.com"")",Chrome 99.0.4844.84,,,2022-03-29 13:30:30,2022-03-29 13:31:02,31.329s,FAILED
+,,,,,,,
+Test Cases/02-Side Icons (Organization)/02-(2FA),Chrome 99.0.4844.84,Navigates on 2FA Page and verifies the elements.,,2022-03-29 13:31:02,2022-03-29 13:31:36,34.653s,FAILED
+delay(3),Chrome 99.0.4844.84,,,2022-03-29 13:31:02,2022-03-29 13:31:05,3.029s,PASSED
+"click(findTestObject(""02-Side Icons(Organization)/2FA/button_2FA""))",Chrome 99.0.4844.84,,,2022-03-29 13:31:05,2022-03-29 13:31:36,31.323s,FAILED
+,,,,,,,
+Test Cases/02-Side Icons (Organization)/03-(Client Assignment),Chrome 99.0.4844.84,Navigates on Client Assignment Page and verifies the elements.,,2022-03-29 13:31:36,2022-03-29 13:32:10,33.512s,FAILED
+delay(2),Chrome 99.0.4844.84,,,2022-03-29 13:31:37,2022-03-29 13:31:39,2.011s,PASSED
+"click(findTestObject(""02-Side Icons(Organization)/Client Assignment/button_Client assignment""))",Chrome 99.0.4844.84,,,2022-03-29 13:31:39,2022-03-29 13:32:10,31.221s,FAILED
+,,,,,,,
+Test Cases/02-Side Icons (Organization)/04-(Hide Quick Shortcuts),Chrome 99.0.4844.84,Click Quick Shortcut and verify the buttons,,2022-03-29 13:32:10,2022-03-29 13:32:43,33.646s,FAILED
+delay(2),Chrome 99.0.4844.84,,,2022-03-29 13:32:10,2022-03-29 13:32:12,2.007s,PASSED
+"click(findTestObject(""02-Side Icons(Organization)/Hide Quick Shortcuts/button_hide quick shortcuts""))",Chrome 99.0.4844.84,,,2022-03-29 13:32:12,2022-03-29 13:32:43,31.383s,FAILED

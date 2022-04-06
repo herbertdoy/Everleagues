@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_edit channel</name>
+   <tag></tag>
+   <elementGuidId>fcb33c6d-db98-4790-999e-3f40cbf4867f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//button[@type = 'button' and @ng-reflect-message = 'Edit Channel' and (text() = 'create' or . = 'create')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.mat-menu-wrapper.el-action-menu > button.mat-focus-indicator.mat-icon-button.mat-button-base</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[14]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>permission-type</name>
+      <type>Main</type>
+      <value>CHANNEL_UPDATE</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-focus-indicator mat-icon-button mat-button-base</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-reflect-permission-type</name>
+      <type>Main</type>
+      <value>CHANNEL_UPDATE</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-reflect-message</name>
+      <type>Main</type>
+      <value>Edit Channel</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>action-menu-desc</name>
+      <type>Main</type>
+      <value>Edit Channel</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-describedby</name>
+      <type>Main</type>
+      <value>cdk-describedby-message-164</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>create</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mat-tab-content-2-1&quot;)/div[@class=&quot;mat-tab-body-content ng-tns-c361-189 ng-trigger ng-trigger-translateTab&quot;]/div[@class=&quot;push-top-sm ng-star-inserted&quot;]/div[@class=&quot;ng-star-inserted&quot;]/app-dialog-team-channel[1]/section[@class=&quot;dialog-container dialog-team-channel&quot;]/div[@class=&quot;white-container&quot;]/div[@class=&quot;container-body&quot;]/perfect-scrollbar[@class=&quot;perfect-scrollbar&quot;]/div[@class=&quot;ps&quot;]/div[@class=&quot;ps-content&quot;]/td-data-table[@class=&quot;ng-untouched ng-valid ng-dirty&quot;]/div[@class=&quot;td-data-table-scrollable&quot;]/table[@class=&quot;td-data-table&quot;]/tbody[@class=&quot;td-data-table-body&quot;]/tr[@class=&quot;td-data-table-row ng-star-inserted&quot;]/td[@class=&quot;td-data-table-cell ng-star-inserted&quot;]/div[@class=&quot;td-data-table-cell-content-wrapper&quot;]/div[@class=&quot;row-controls-wrapper ng-star-inserted&quot;]/div[@class=&quot;row-controls ng-star-inserted&quot;]/table-button-list[1]/div[@class=&quot;button-list-container&quot;]/div[@class=&quot;mat-menu-wrapper el-action-menu&quot;]/button[@class=&quot;mat-focus-indicator mat-icon-button mat-button-base&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[14]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//mat-tab-body[@id='mat-tab-content-2-1']/div/div/div/app-dialog-team-channel/section/div/div[2]/perfect-scrollbar/div/div/td-data-table/div/table/tbody/tr/td[3]/div/div/div/table-button-list/div/div/button</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='No'])[1]/following::button[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Auto Channel'])[2]/following::button[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='General'])[4]/preceding::button[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Yes'])[1]/preceding::button[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//table-button-list/div/div/button</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = 'create' or . = 'create')]</value>
+   </webElementXpaths>
+</WebElementEntity>
