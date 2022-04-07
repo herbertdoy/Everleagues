@@ -6,15 +6,19 @@
    <elementGuidId>74c32a58-6f41-4730-a643-cf4123cfad94</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//button[@type = 'button' and (text() = 'PublicPublic team channels are visible to all members in the current OU and sub OUs. Only the team owner and admins may create posts.' or . = 'PublicPublic team channels are visible to all members in the current OU and sub OUs. Only the team owner and admins may create posts.')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
-         <value>(//button[@type='button'])[10]</value>
+         <value>//button[@type = 'button' and (text() = 'PublicPublic team channels are visible to all members in the current organization and its sub organization units. Only the team owner and admins may create posts.' or . = 'PublicPublic team channels are visible to all members in the current organization and its sub organization units. Only the team owner and admins may create posts.')]</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>button.mat-focus-indicator.team-type-btn.ng-tns-c630-52.mat-raised-button.mat-button-base</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

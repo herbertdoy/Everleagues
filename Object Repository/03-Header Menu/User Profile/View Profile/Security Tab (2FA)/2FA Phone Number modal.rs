@@ -6,19 +6,19 @@
    <elementGuidId>fb992cfa-f84f-4002-bb0e-3e715480fb70</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//h4[@class = 'mat-dialog-title' and (text() = 'Edit 2FA Phone Number' or . = 'Edit 2FA Phone Number')]</value>
+         <key>XPATH</key>
+         <value>//h4[@class = 'mat-dialog-title' and (text() = 'Edit 2FA Phone Number (including country code)' or . = 'Edit 2FA Phone Number (including country code)')]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//h4[@id='mat-dialog-title-2']</value>
+         <key>BASIC</key>
+         <value>//h4[@class = 'mat-dialog-title' and (text() = 'Edit 2FA Phone Number' or . = 'Edit 2FA Phone Number')]</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>#mat-dialog-title-2</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

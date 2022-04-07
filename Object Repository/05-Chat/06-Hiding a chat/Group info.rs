@@ -6,15 +6,19 @@
    <elementGuidId>b9eb6a35-df83-4864-b4aa-600484206717</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>mat-toolbar.mat-toolbar.chat-toolbar.ng-tns-c174-58.mat-toolbar-single-row</value>
+         <key>BASIC</key>
+         <value>//mat-toolbar[(text() = 'arrow_back Group info ' or . = 'arrow_back Group info ')]</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Today'])[1]/following::mat-toolbar[1]</value>
+         <value>//*[(text() = 'arrow_forward Group info ' or . = 'arrow_forward Group info ')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>mat-toolbar.mat-toolbar.chat-toolbar.ng-tns-c174-58.mat-toolbar-single-row</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
