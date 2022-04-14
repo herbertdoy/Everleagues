@@ -201,6 +201,8 @@ WebUI.delay(3)
 
 WebUI.click(findTestObject('06-Teams/03-Edit Team - Private/div_Settings'))
 
+WebUI.delay(3)
+
 WebUI.verifyElementVisible(findTestObject('06-Teams/03-Edit Team - Private/Private_settings'))
 
 WebUI.delay(3)

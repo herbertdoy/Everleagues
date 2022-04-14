@@ -155,3 +155,13 @@ WebUI.verifyElementVisible(findTestObject('06-Teams/03-Edit Team - Private/Succe
 
 WebUI.delay(3)
 
+WebUI.click(findTestObject('06-Teams/03-Edit Team - Private/div_Settings'))
+
+WebUI.delay(3)
+
+WebUI.verifyElementVisible(findTestObject('06-Teams/04-Edit Team-Public/Public_settings'))
+
+WebUI.delay(3)
+
+WebUI.closeBrowser()
+
