@@ -99,8 +99,45 @@ WebUI.click(findTestObject('06-Teams/05- Teams-General Channel/div_General'))
 
 WebUI.delay(3)
 
-CustomKeywords.'uploadpackage.Upload.uploadFile'(findTestObject('Object Repository/03-Header Menu/User Profile/View Profile/Profile Tab/button_folderBrowse'), 
-    'C:\\Users\\User\\Desktop\\EL automation\\sample.pdf')
+WebUI.uploadFile(findTestObject('06-Teams/05- Teams-General Channel/button_attache_file'), 'C:\\Users\\User\\Desktop\\EL automation\\sample.pdf')
+
+WebUI.verifyElementVisible(findTestObject('06-Teams/05- Teams-General Channel/added PDF'))
 
 WebUI.click(findTestObject('06-Teams/05- Teams-General Channel/button_send'))
+
+WebUI.verifyElementVisible(findTestObject('06-Teams/05- Teams-General Channel/added new post msg'))
+
+WebUI.verifyElementVisible(findTestObject('06-Teams/05- Teams-General Channel/posted pdf'))
+
+WebUI.delay(10)
+
+WebUI.uploadFile(findTestObject('06-Teams/05- Teams-General Channel/button_add image'), 'C:\\Users\\User\\Desktop\\EL automation\\qa.jpg')
+
+WebUI.verifyElementVisible(findTestObject('06-Teams/05- Teams-General Channel/added image'))
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('06-Teams/05- Teams-General Channel/button_send'))
+
+WebUI.verifyElementVisible(findTestObject('06-Teams/05- Teams-General Channel/added new post msg'))
+
+WebUI.delay(3)
+
+WebUI.verifyElementVisible(findTestObject('06-Teams/05- Teams-General Channel/posted image'))
+
+WebUI.delay(10)
+
+WebUI.uploadFile(findTestObject('06-Teams/05- Teams-General Channel/button_attache_file'), 'C:\\Users\\User\\Desktop\\EL automation\\video.mp4')
+
+WebUI.verifyElementVisible(findTestObject('06-Teams/05- Teams-General Channel/added video'))
+
+WebUI.click(findTestObject('06-Teams/05- Teams-General Channel/button_send'))
+
+WebUI.delay(5)
+
+WebUI.verifyElementVisible(findTestObject('06-Teams/05- Teams-General Channel/added new post msg'))
+
+WebUI.verifyElementVisible(findTestObject('06-Teams/05- Teams-General Channel/posted video'))
+
+WebUI.delay(10)
 

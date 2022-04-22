@@ -95,9 +95,35 @@ WebUI.click(findTestObject('02-Side Icons(Organization)/Add Contact/button_add n
 
 WebUI.delay(3)
 
-WebUI.verifyElementVisible(findTestObject('02-Side Icons(Organization)/Add Contact/add new user modal'))
+WebUI.verifyElementVisible(findTestObject('02-Side Icons(Organization)/Add Contact/User Invitation modal'))
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('02-Side Icons(Organization)/Add Contact/button_Cancel_add user'))
+WebUI.click(findTestObject('02-Side Icons(Organization)/Add Contact/Invite a single user option'))
+
+WebUI.verifyElementVisible(findTestObject('02-Side Icons(Organization)/Add Contact/Invite New user modal'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('02-Side Icons(Organization)/Add Contact/button_Cancel'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('02-Side Icons(Organization)/Add Contact/button_add new user'))
+
+WebUI.delay(3)
+
+WebUI.verifyElementVisible(findTestObject('02-Side Icons(Organization)/Add Contact/User Invitation modal'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('02-Side Icons(Organization)/Add Contact/Invite batch user option'))
+
+WebUI.verifyElementVisible(findTestObject('02-Side Icons(Organization)/Add Contact/Import CSV file modal'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('02-Side Icons(Organization)/Add Contact/button_Cancel'))
+
+WebUI.delay(2)
 

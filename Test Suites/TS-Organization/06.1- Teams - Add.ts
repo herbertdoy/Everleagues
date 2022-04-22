@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>06-Teams</name>
+   <name>06.1- Teams - Add</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -16,11 +16,13 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/06-Teams/01- Add Team- Public</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>f209899a-ab48-4c2b-9077-81e1aa15e30e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/06-Teams/02-Add Team-Private</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

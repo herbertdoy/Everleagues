@@ -7,14 +7,18 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//button[@type='button'])[13]</value>
+         <value>//div[@class='el-post-footer']//input[1]</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>div.el-post-footer > div > button.mat-focus-indicator.mat-icon-button.mat-button-base</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//button[@type = 'button' and (text() = 'attach_file' or . = 'attach_file')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>78aa38a5-b0df-433c-b98d-2067b4b4c488</webElementGuid>
+      <webElementGuid>d222577d-3d50-4c15-9547-3d94119ec56b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +34,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>997f8d2a-1033-4edd-b49c-746cc32ef42f</webElementGuid>
+      <webElementGuid>1d5d610d-203a-46ba-9b94-55db2c8a4e58</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +42,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-focus-indicator mat-icon-button mat-button-base</value>
-      <webElementGuid>8cf04ad3-2bb4-462e-b2c7-70f42beb691e</webElementGuid>
+      <webElementGuid>d8b13b69-56d1-43f1-9219-7879aa5c9018</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +50,7 @@
       <name>text</name>
       <type>Main</type>
       <value>attach_file</value>
-      <webElementGuid>5f10f483-8b88-4fd4-90c2-439c89ee9621</webElementGuid>
+      <webElementGuid>31af3e52-6484-4d4d-906a-cb8bf8404665</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +58,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/app-root[1]/app-main-page[@class=&quot;ng-tns-c479-5 ng-trigger ng-trigger-routerAnimation ng-star-inserted&quot;]/mat-sidenav-container[@class=&quot;mat-drawer-container mat-sidenav-container ng-tns-c479-5 mat-drawer-transition&quot;]/mat-sidenav-content[@class=&quot;mat-drawer-content mat-sidenav-content&quot;]/div[@class=&quot;wrapper&quot;]/app-teams[@class=&quot;ng-tns-c628-75 ng-star-inserted&quot;]/section[@class=&quot;teams-section ng-tns-c628-75&quot;]/div[@class=&quot;ng-tns-c628-75&quot;]/app-channel[@class=&quot;ng-tns-c629-92 ng-tns-c628-75 ng-trigger ng-trigger-routerAnimation ng-star-inserted&quot;]/section[@class=&quot;table-listing ng-tns-c629-92&quot;]/div[@class=&quot;ng-tns-c629-92 ng-star-inserted&quot;]/div[@class=&quot;ng-tns-c629-92&quot;]/div[@class=&quot;ng-tns-c629-92&quot;]/div[@class=&quot;ng-tns-c629-92&quot;]/app-markdown-composer[@class=&quot;ng-tns-c629-92 ng-star-inserted&quot;]/mat-card[@class=&quot;mat-card mat-focus-indicator markdown-composer&quot;]/div[2]/div[@class=&quot;el-post-footer&quot;]/div[1]/button[@class=&quot;mat-focus-indicator mat-icon-button mat-button-base&quot;]</value>
-      <webElementGuid>ab98b377-51e2-4c4f-b989-c02578dc84ea</webElementGuid>
+      <webElementGuid>209c2749-4857-4e47-bbe6-df5865c6d8e9</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -62,7 +66,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[13]</value>
-      <webElementGuid>34ecea0c-bce8-48fc-b208-7f682bc4ab15</webElementGuid>
+      <webElementGuid>e91c9b98-ebbc-4411-b530-108dde057210</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Heading'])[1]/following::button[1]</value>
-      <webElementGuid>5b8aa8d5-9030-45f9-9c36-72e3e01062c0</webElementGuid>
+      <webElementGuid>976978ec-f54d-4726-875c-43f1ce3f8341</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Files'])[1]/following::button[1]</value>
-      <webElementGuid>e5e59300-cb88-4fd1-a0d0-2685e5fb395e</webElementGuid>
+      <webElementGuid>d4b42045-8bb2-4ca9-aadd-8c3f78c462d3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Search Results'])[1]/preceding::button[4]</value>
-      <webElementGuid>4e59d0e7-dfcf-4de1-a97a-468c7e692548</webElementGuid>
+      <webElementGuid>3fb964fb-1056-4fd5-8d57-dbbba3117b2a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Hide Quick Shortcuts'])[1]/preceding::button[10]</value>
-      <webElementGuid>d497db48-8cf8-4465-bd86-e93f4b2c33fc</webElementGuid>
+      <webElementGuid>a7b4c16d-d9aa-40f6-be64-7328f404b6be</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +106,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//mat-card/div[2]/div/div/button</value>
-      <webElementGuid>a5a4557d-3c09-4298-ad88-8375fb6ed334</webElementGuid>
+      <webElementGuid>3c524b81-9a15-45fd-8cdc-46e4ef660cb7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,6 +114,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = 'attach_file' or . = 'attach_file')]</value>
-      <webElementGuid>d1003d39-2efa-44b8-9dfb-b2528730c8fd</webElementGuid>
+      <webElementGuid>a3937a7e-b1c3-4ede-8678-43946ff8cf38</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

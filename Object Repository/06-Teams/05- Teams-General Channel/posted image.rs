@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>posted image</name>
+   <tag></tag>
+   <elementGuidId>fafbd892-869a-4e48-bfee-084855d1276c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>img.media-img</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//img[contains(@src,'blob:https://lab.everleagues.com/480bd49e-4e6f-4f25-8c80-39396462f869')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>b20b1615-7e65-4f3a-a549-0e68b24e0e98</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>media-img</value>
+      <webElementGuid>9306100d-5adf-4c9d-9e2b-b7b98ff3ee7b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>blob:https://lab.everleagues.com/480bd49e-4e6f-4f25-8c80-39396462f869</value>
+      <webElementGuid>fc9a5697-aa77-48e2-9b21-2186058dd83a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/app-root[1]/app-main-page[@class=&quot;ng-tns-c479-5 ng-trigger ng-trigger-routerAnimation ng-star-inserted&quot;]/mat-sidenav-container[@class=&quot;mat-drawer-container mat-sidenav-container ng-tns-c479-5 mat-drawer-transition&quot;]/mat-sidenav-content[@class=&quot;mat-drawer-content mat-sidenav-content&quot;]/div[@class=&quot;wrapper&quot;]/app-teams[@class=&quot;ng-tns-c694-40 ng-star-inserted&quot;]/section[@class=&quot;teams-section ng-tns-c694-40&quot;]/div[@class=&quot;ng-tns-c694-40&quot;]/app-channel[@class=&quot;ng-tns-c695-41 ng-tns-c694-40 ng-trigger ng-trigger-routerAnimation ng-star-inserted&quot;]/section[@class=&quot;table-listing ng-tns-c695-41&quot;]/div[@class=&quot;ng-tns-c695-41 ng-star-inserted&quot;]/div[@class=&quot;ng-tns-c695-41&quot;]/div[@class=&quot;ng-tns-c695-41&quot;]/perfect-scrollbar[@class=&quot;post-perfect-scrollbar ng-tns-c695-41 ng-star-inserted&quot;]/div[@class=&quot;ps&quot;]/div[@class=&quot;ps-content&quot;]/div[@class=&quot;ng-tns-c695-41 ng-star-inserted&quot;]/el-post[@class=&quot;ng-tns-c695-41 ng-star-inserted&quot;]/mat-card[@class=&quot;mat-card mat-focus-indicator el-post user-post-highlight&quot;]/mat-card-content[@class=&quot;mat-card-content&quot;]/div[@class=&quot;media-container ng-star-inserted&quot;]/img[@class=&quot;media-img&quot;]</value>
+      <webElementGuid>5342b6b7-306b-4ea8-a74e-050ec474d99e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:img</name>
+      <type>Main</type>
+      <value>//img[contains(@src,'blob:https://lab.everleagues.com/480bd49e-4e6f-4f25-8c80-39396462f869')]</value>
+      <webElementGuid>37f66467-fc4c-4896-a7da-27ed5165d37e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//mat-card-content/div/img</value>
+      <webElementGuid>cd32e594-04d0-4e0e-84b0-025984e7c535</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//img[@src = 'blob:https://lab.everleagues.com/480bd49e-4e6f-4f25-8c80-39396462f869']</value>
+      <webElementGuid>d5fef3bb-323e-4edb-a38b-ac5e259dd381</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

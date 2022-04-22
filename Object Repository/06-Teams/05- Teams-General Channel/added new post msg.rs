@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>added new post msg</name>
+   <tag></tag>
+   <elementGuidId>ab4546af-21d7-47df-9182-ebb39a4c3cf3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='cdk-overlay-38']/snack-bar-container</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>snack-bar-container.mat-snack-bar-container.ng-tns-c41-121.ng-trigger.ng-trigger-state.mat-snack-bar-center.ng-star-inserted</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>snack-bar-container</value>
+      <webElementGuid>2a133a9b-bb0f-4ee4-a487-a86947a49417</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-snack-bar-container ng-tns-c41-121 ng-trigger ng-trigger-state mat-snack-bar-center ng-star-inserted</value>
+      <webElementGuid>d2553e43-ad24-476a-ad65-4a05d359722d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>status</value>
+      <webElementGuid>7425a2c3-34c9-4c81-bee6-1bf1f8c44c37</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Added new postOK</value>
+      <webElementGuid>0fd6a026-9f29-4f0f-bf91-b87b7998d6ce</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;cdk-overlay-38&quot;)/snack-bar-container[@class=&quot;mat-snack-bar-container ng-tns-c41-121 ng-trigger ng-trigger-state mat-snack-bar-center ng-star-inserted&quot;]</value>
+      <webElementGuid>5628f75c-c30f-43e0-936c-75fe1055728b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='cdk-overlay-38']/snack-bar-container</value>
+      <webElementGuid>d97c9919-909e-48c3-8e2d-8a2f0ea397dc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Added new post'])[1]/following::snack-bar-container[1]</value>
+      <webElementGuid>7e9755a4-98a6-47ab-beaf-05b28c5f4823</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Search Results'])[1]/following::snack-bar-container[1]</value>
+      <webElementGuid>59fb1084-f5c2-474d-b24f-a65c9b9f3f11</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//snack-bar-container</value>
+      <webElementGuid>6f5c08a5-2f5b-4a28-939c-f552c758043e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//snack-bar-container[(text() = 'Added new postOK' or . = 'Added new postOK')]</value>
+      <webElementGuid>4677029d-cd4e-4420-bb44-13a2f868874a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

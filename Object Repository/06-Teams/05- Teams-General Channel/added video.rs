@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>added video</name>
+   <tag></tag>
+   <elementGuidId>df5a4ee0-c3bb-4eee-8cdc-59245c4a8cfe</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.file-container.ng-star-inserted</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Heading'])[1]/following::div[9]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>13c09c68-9bea-4fed-9907-200ea61004c0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>fxlayout</name>
+      <type>Main</type>
+      <value>row</value>
+      <webElementGuid>83d2d374-c8bc-47d0-b0ae-57f451b9762f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>fxlayoutalign</name>
+      <type>Main</type>
+      <value>start center</value>
+      <webElementGuid>a0e8771a-6cbf-481d-a808-11a9b02f42fe</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>fxlayoutgap</name>
+      <type>Main</type>
+      <value>16px</value>
+      <webElementGuid>acec900b-f279-4f35-a206-cc74d4878b00</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>file-container ng-star-inserted</value>
+      <webElementGuid>fbf88e4c-5fa5-4732-8ca6-3042bf60833d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-reflect-fx-layout</name>
+      <type>Main</type>
+      <value>row</value>
+      <webElementGuid>f5217b49-260b-422e-acda-28d0d24b1592</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-reflect-fx-layout-gap</name>
+      <type>Main</type>
+      <value>16px</value>
+      <webElementGuid>3240fbcc-bc26-4ef7-9fa6-04d0cb5c1bd7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-reflect-fx-layout-align</name>
+      <type>Main</type>
+      <value>start center</value>
+      <webElementGuid>5b81e6a2-a693-4fe5-ae41-e6b68aa15839</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>descriptionvideo.mp4cancel</value>
+      <webElementGuid>6f17b7c5-1efc-43cb-b05e-36c8081b3735</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/app-root[1]/app-main-page[@class=&quot;ng-tns-c479-5 ng-trigger ng-trigger-routerAnimation ng-star-inserted&quot;]/mat-sidenav-container[@class=&quot;mat-drawer-container mat-sidenav-container ng-tns-c479-5 mat-drawer-transition&quot;]/mat-sidenav-content[@class=&quot;mat-drawer-content mat-sidenav-content&quot;]/div[@class=&quot;wrapper&quot;]/app-teams[@class=&quot;ng-tns-c694-39 ng-star-inserted&quot;]/section[@class=&quot;teams-section ng-tns-c694-39&quot;]/div[@class=&quot;ng-tns-c694-39&quot;]/app-channel[@class=&quot;ng-tns-c695-40 ng-tns-c694-39 ng-trigger ng-trigger-routerAnimation ng-star-inserted&quot;]/section[@class=&quot;table-listing ng-tns-c695-40&quot;]/div[@class=&quot;ng-tns-c695-40 ng-star-inserted&quot;]/div[@class=&quot;ng-tns-c695-40&quot;]/div[@class=&quot;ng-tns-c695-40&quot;]/div[@class=&quot;ng-tns-c695-40&quot;]/app-markdown-composer[@class=&quot;ng-tns-c695-40 ng-star-inserted&quot;]/mat-card[@class=&quot;mat-card mat-focus-indicator markdown-composer&quot;]/div[1]/div[1]/div[@class=&quot;file-container ng-star-inserted&quot;]</value>
+      <webElementGuid>2cb3732e-3084-4798-9fff-319f76381da2</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Heading'])[1]/following::div[9]</value>
+      <webElementGuid>d467eb69-6941-4f35-bfab-8a58be35e607</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Files'])[1]/following::div[27]</value>
+      <webElementGuid>ae387777-4a6c-4fa8-ae0f-529ed156582c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Search Results'])[1]/preceding::div[20]</value>
+      <webElementGuid>4b77d7a5-300b-4818-81ed-54baad4c7705</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//mat-card/div/div/div[2]</value>
+      <webElementGuid>55470e6c-8dab-4db8-8d40-46242c3c2a6a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'descriptionvideo.mp4cancel' or . = 'descriptionvideo.mp4cancel')]</value>
+      <webElementGuid>3ee03e1d-522e-45a2-84b3-316ea79dc6f1</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

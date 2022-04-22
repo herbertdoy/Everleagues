@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Invite batch user option</name>
+   <tag></tag>
+   <elementGuidId>f1c7c380-ba8c-4bde-8916-2a654c4fa13b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//mat-dialog-container[@id='mat-dialog-1']/app-dialog-invitation-method/section/div/div[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>63b685f4-c5a5-41c1-b8c0-3aeb6d77bed2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>invite-method-container</value>
+      <webElementGuid>6a216d5d-8aa6-4c8c-a4b6-a155ffffb644</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Invite batch of users via CSV file </value>
+      <webElementGuid>72c8e003-58cd-4fc7-8fad-b406cd154b11</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mat-dialog-1&quot;)/app-dialog-invitation-method[@class=&quot;ng-star-inserted&quot;]/section[@class=&quot;dialog-container&quot;]/div[@class=&quot;mat-dialog-content&quot;]/div[@class=&quot;invite-method-container&quot;]</value>
+      <webElementGuid>65baed94-c5b9-418d-ba96-6ee0b8a50d51</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//mat-dialog-container[@id='mat-dialog-1']/app-dialog-invitation-method/section/div/div[2]</value>
+      <webElementGuid>0414cc5e-39cb-4335-b03e-2bb327f09c8a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Invite a single user'])[1]/following::div[1]</value>
+      <webElementGuid>bafe321b-9adb-46c8-91e6-8584b31ef740</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='User Invitation'])[1]/following::div[5]</value>
+      <webElementGuid>cc80a37a-68c9-4e9b-b532-890a79c0f925</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/preceding::div[4]</value>
+      <webElementGuid>d2aaeae1-d8db-4001-b3ef-aa8913163137</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//section/div/div[2]</value>
+      <webElementGuid>27f3b6cd-f2e8-46ec-aa80-0727145a8cba</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = ' Invite batch of users via CSV file ' or . = ' Invite batch of users via CSV file ')]</value>
+      <webElementGuid>cdb3eec7-9d45-4733-a26d-cc1443dc0896</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

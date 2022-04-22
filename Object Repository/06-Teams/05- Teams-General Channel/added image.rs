@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>added image</name>
+   <tag></tag>
+   <elementGuidId>11b13ba6-126b-447e-b8a4-8d2f6bba7fb1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.file-container.ng-star-inserted</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Heading'])[1]/following::div[9]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>5d48c22c-e6d6-4d10-9469-6df6ea7ca6c6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>fxlayout</name>
+      <type>Main</type>
+      <value>row</value>
+      <webElementGuid>c8a73076-90de-444b-a25f-6490feb0d702</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>fxlayoutalign</name>
+      <type>Main</type>
+      <value>start center</value>
+      <webElementGuid>e64b2663-5791-44f1-b013-271088f89f95</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>fxlayoutgap</name>
+      <type>Main</type>
+      <value>16px</value>
+      <webElementGuid>2cf13e13-1912-41b2-8ee5-be0f36dba7d1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>file-container ng-star-inserted</value>
+      <webElementGuid>d62a2b61-4fa6-4cf8-a6b6-41e39f68a066</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-reflect-fx-layout</name>
+      <type>Main</type>
+      <value>row</value>
+      <webElementGuid>e18aa6a8-ad5f-46cb-9354-363bea858264</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-reflect-fx-layout-gap</name>
+      <type>Main</type>
+      <value>16px</value>
+      <webElementGuid>3f1bfff8-2501-428e-9d94-8520e345cc78</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-reflect-fx-layout-align</name>
+      <type>Main</type>
+      <value>start center</value>
+      <webElementGuid>f5032d99-dee2-434b-bb28-843abbde3ab3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>imageqa.jpgcancel</value>
+      <webElementGuid>7e94eb93-e0e6-4586-8965-71a86c161c6a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/app-root[1]/app-main-page[@class=&quot;ng-tns-c479-5 ng-trigger ng-trigger-routerAnimation ng-star-inserted&quot;]/mat-sidenav-container[@class=&quot;mat-drawer-container mat-sidenav-container ng-tns-c479-5 mat-drawer-transition&quot;]/mat-sidenav-content[@class=&quot;mat-drawer-content mat-sidenav-content&quot;]/div[@class=&quot;wrapper&quot;]/app-teams[@class=&quot;ng-tns-c694-40 ng-star-inserted&quot;]/section[@class=&quot;teams-section ng-tns-c694-40&quot;]/div[@class=&quot;ng-tns-c694-40&quot;]/app-channel[@class=&quot;ng-tns-c695-41 ng-tns-c694-40 ng-trigger ng-trigger-routerAnimation ng-star-inserted&quot;]/section[@class=&quot;table-listing ng-tns-c695-41&quot;]/div[@class=&quot;ng-tns-c695-41 ng-star-inserted&quot;]/div[@class=&quot;ng-tns-c695-41&quot;]/div[@class=&quot;ng-tns-c695-41&quot;]/div[@class=&quot;ng-tns-c695-41&quot;]/app-markdown-composer[@class=&quot;ng-tns-c695-41 ng-star-inserted&quot;]/mat-card[@class=&quot;mat-card mat-focus-indicator markdown-composer&quot;]/div[1]/div[1]/div[@class=&quot;file-container ng-star-inserted&quot;]</value>
+      <webElementGuid>ccd84701-1d30-4eb5-b49b-5e924bb017da</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Heading'])[1]/following::div[9]</value>
+      <webElementGuid>3763cb35-d323-4cf3-9f82-e32d4156e475</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Files'])[1]/following::div[27]</value>
+      <webElementGuid>ad5c0fe6-f5ba-4ef9-88b3-38186f520bfa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Search Results'])[1]/preceding::div[20]</value>
+      <webElementGuid>80e239c6-5c2b-4375-9494-f17110ed1455</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//mat-card/div/div/div[2]</value>
+      <webElementGuid>5f79eadb-c453-426e-9a41-e64c9b895182</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'imageqa.jpgcancel' or . = 'imageqa.jpgcancel')]</value>
+      <webElementGuid>a881f961-ccfb-424f-9029-d8ce24783a48</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
