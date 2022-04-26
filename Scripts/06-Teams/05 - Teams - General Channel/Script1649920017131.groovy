@@ -135,9 +135,17 @@ WebUI.click(findTestObject('06-Teams/05- Teams-General Channel/button_send'))
 
 WebUI.delay(5)
 
-WebUI.verifyElementVisible(findTestObject('06-Teams/05- Teams-General Channel/added new post msg'))
-
 WebUI.verifyElementVisible(findTestObject('06-Teams/05- Teams-General Channel/posted video'))
 
 WebUI.delay(10)
+
+WebUI.setText(findTestObject('06-Teams/05- Teams-General Channel/Input field_post'), 'This is automation')
+
+WebUI.click(findTestObject('06-Teams/05- Teams-General Channel/button_send'))
+
+WebUI.delay(3)
+
+WebUI.verifyElementVisible(findTestObject('06-Teams/05- Teams-General Channel/added new post msg'))
+
+WebUI.verifyElementVisible(findTestObject('06-Teams/05- Teams-General Channel/posted_This is automation'))
 

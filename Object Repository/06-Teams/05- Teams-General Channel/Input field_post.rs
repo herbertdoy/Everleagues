@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Input field_post</name>
+   <tag></tag>
+   <elementGuidId>4e0c6305-5f44-463e-80b8-15176b5ecb88</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>/p[@class=&quot;NgxEditor__Placeholder&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@class='NgxEditor']//div[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>e0f88116-f9c2-4bfa-99bf-6b3d1d422bd5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-placeholder</name>
+      <type>Main</type>
+      <value>Start typing your new post here</value>
+      <webElementGuid>6a236a11-11dd-4049-858a-9121eeea57b8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>NgxEditor__Placeholder</value>
+      <webElementGuid>0377cfd5-3479-4a18-a1f1-b8dead0c58df</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/p[@class=&quot;NgxEditor__Placeholder&quot;]</value>
+      <webElementGuid>d0085cdb-cd5e-4438-80d6-ec8d4427ce66</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
