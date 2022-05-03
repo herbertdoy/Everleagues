@@ -96,7 +96,7 @@ WebUI.verifyElementNotVisible(findTestObject('03-Header Menu/Hamburger Button/di
 
 WebUI.verifyElementNotVisible(findTestObject('03-Header Menu/Hamburger Button/div_Storage (beta)'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementNotVisible(findTestObject('03-Header Menu/Hamburger Button/div_EZSign (beta)'), FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementNotVisible(findTestObject('03-Header Menu/Hamburger Button/div_ELSign'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementNotVisible(findTestObject('03-Header Menu/Hamburger Button/div_Income and Expense'), FailureHandling.STOP_ON_FAILURE)
 
@@ -128,7 +128,7 @@ WebUI.verifyElementVisible(findTestObject('03-Header Menu/Hamburger Button/div_O
 
 WebUI.verifyElementVisible(findTestObject('03-Header Menu/Hamburger Button/div_Storage (beta)'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementVisible(findTestObject('03-Header Menu/Hamburger Button/div_EZSign (beta)'), FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementVisible(findTestObject('03-Header Menu/Hamburger Button/div_ELSign'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementVisible(findTestObject('03-Header Menu/Hamburger Button/div_Income and Expense'), FailureHandling.STOP_ON_FAILURE)
 

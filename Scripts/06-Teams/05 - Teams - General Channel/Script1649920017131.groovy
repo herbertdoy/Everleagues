@@ -149,3 +149,5 @@ WebUI.verifyElementVisible(findTestObject('06-Teams/05- Teams-General Channel/ad
 
 WebUI.verifyElementVisible(findTestObject('06-Teams/05- Teams-General Channel/posted_This is automation'))
 
+WebUI.delay(3)
+

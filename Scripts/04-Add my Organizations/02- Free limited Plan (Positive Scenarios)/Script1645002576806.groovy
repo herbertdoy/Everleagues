@@ -59,9 +59,9 @@ WebUI.switchToWindowIndex(1)
 
 WebUI.delay(5)
 
-assert WebUI.getUrl() == 'https://www.everleagues.com/pricing/'
+assert WebUI.getUrl() == 'https://www.everleagues.com/pricing'
 
-WebUI.closeWindowUrl('https://www.everleagues.com/pricing/')
+WebUI.closeWindowUrl('https://www.everleagues.com/pricing')
 
 WebUI.switchToWindowIndex(0)
 
