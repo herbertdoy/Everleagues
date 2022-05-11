@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>ellipsis 3</name>
+   <tag></tag>
+   <elementGuidId>1b82dd7b-7ed9-44ae-b057-2e092f60d2c1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.mat-focus-indicator.mat-menu-trigger.el-post-controls.mat-icon-button.mat-button-base.ng-star-inserted.cdk-focused.cdk-mouse-focused</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//mat-card-header[@class='mat-card-header el-post-header']//button)[3]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>561c3cbe-7941-4b73-8f7c-bf7d01dff204</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-haspopup</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>44aa29af-e2a3-478b-af91-c686fbaa971b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>7efb620c-d748-42e9-8baa-8d52ba40867e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-focus-indicator mat-menu-trigger el-post-controls mat-icon-button mat-button-base ng-star-inserted cdk-focused cdk-mouse-focused</value>
+      <webElementGuid>b1d8a8f1-dc1d-463c-aa4b-fd5e1e9d4df9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-reflect-menu</name>
+      <type>Main</type>
+      <value>[object Object]</value>
+      <webElementGuid>a6950daa-a146-4f31-9757-b2291f75eda5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-reflect-disabled</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>f7b663e3-fc11-4c89-aad3-633d98662c95</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>more_vert</value>
+      <webElementGuid>98840052-cb8e-49c5-97e6-46309f67e3de</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/app-root[1]/app-main-page[@class=&quot;ng-tns-c479-5 ng-trigger ng-trigger-routerAnimation ng-star-inserted&quot;]/mat-sidenav-container[@class=&quot;mat-drawer-container mat-sidenav-container ng-tns-c479-5 mat-drawer-transition&quot;]/mat-sidenav-content[@class=&quot;mat-drawer-content mat-sidenav-content&quot;]/div[@class=&quot;wrapper&quot;]/app-teams[@class=&quot;ng-tns-c694-50 ng-star-inserted&quot;]/section[@class=&quot;teams-section ng-tns-c694-50&quot;]/div[@class=&quot;ng-tns-c694-50&quot;]/app-channel[@class=&quot;ng-tns-c695-51 ng-tns-c694-50 ng-trigger ng-trigger-routerAnimation ng-star-inserted&quot;]/section[@class=&quot;table-listing ng-tns-c695-51&quot;]/div[@class=&quot;ng-tns-c695-51 ng-star-inserted&quot;]/div[@class=&quot;ng-tns-c695-51&quot;]/div[@class=&quot;ng-tns-c695-51&quot;]/perfect-scrollbar[@class=&quot;post-perfect-scrollbar ng-tns-c695-51 ng-star-inserted&quot;]/div[@class=&quot;ps ps--active-y&quot;]/div[@class=&quot;ps-content&quot;]/div[@class=&quot;ng-tns-c695-51 ng-star-inserted&quot;]/el-post[@class=&quot;ng-tns-c695-51 ng-star-inserted&quot;]/mat-card[@class=&quot;mat-card mat-focus-indicator el-post user-post-highlight&quot;]/mat-card-header[@class=&quot;mat-card-header el-post-header&quot;]/div[2]/div[1]/button[@class=&quot;mat-focus-indicator mat-menu-trigger el-post-controls mat-icon-button mat-button-base ng-star-inserted cdk-focused cdk-mouse-focused&quot;]</value>
+      <webElementGuid>50696011-370c-432f-91c4-24b11616fbff</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[23]</value>
+      <webElementGuid>1a906826-92ef-4145-8724-96db3f878318</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Today'])[4]/following::button[1]</value>
+      <webElementGuid>9bd4c650-f4b3-4ed4-bce2-fd3e96861b4e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='sample.pdf'])[1]/preceding::button[1]</value>
+      <webElementGuid>a010d19f-d29c-4699-b852-769ec455ec6e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Reply'])[4]/preceding::button[1]</value>
+      <webElementGuid>f0631bdc-a3d6-4bb9-8a23-ab56b397f349</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/el-post/mat-card/mat-card-header/div[2]/div/button</value>
+      <webElementGuid>3e522f82-cde5-48d0-929a-fb34fe93f0a7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = 'more_vert' or . = 'more_vert')]</value>
+      <webElementGuid>39c026d9-67ca-4d5b-9fc6-49dee8a5eac9</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

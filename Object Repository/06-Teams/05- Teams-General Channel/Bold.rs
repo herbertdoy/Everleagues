@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Bold</name>
+   <tag></tag>
+   <elementGuidId>560bd07a-7083-4aba-9212-4e9ca5eb2fc4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>strong</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='postText']/p/strong</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>strong</value>
+      <webElementGuid>d157e01f-0061-4c7f-80b8-9f9b5b40d1c3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Bold</value>
+      <webElementGuid>de87ee5c-1b66-4f2e-a9eb-4992db7d008d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/app-root[1]/app-main-page[@class=&quot;ng-tns-c479-5 ng-trigger ng-trigger-routerAnimation ng-star-inserted&quot;]/mat-sidenav-container[@class=&quot;mat-drawer-container mat-sidenav-container ng-tns-c479-5 mat-drawer-transition&quot;]/mat-sidenav-content[@class=&quot;mat-drawer-content mat-sidenav-content&quot;]/div[@class=&quot;wrapper&quot;]/app-teams[@class=&quot;ng-tns-c694-59 ng-star-inserted&quot;]/section[@class=&quot;teams-section ng-tns-c694-59&quot;]/div[@class=&quot;ng-tns-c694-59&quot;]/app-channel[@class=&quot;ng-tns-c695-60 ng-tns-c694-59 ng-trigger ng-trigger-routerAnimation ng-star-inserted&quot;]/section[@class=&quot;table-listing ng-tns-c695-60&quot;]/div[@class=&quot;ng-tns-c695-60 ng-star-inserted&quot;]/div[@class=&quot;ng-tns-c695-60&quot;]/div[@class=&quot;ng-tns-c695-60&quot;]/perfect-scrollbar[@class=&quot;post-perfect-scrollbar ng-tns-c695-60 ng-star-inserted&quot;]/div[@class=&quot;ps&quot;]/div[@class=&quot;ps-content&quot;]/div[@class=&quot;ng-tns-c695-60 ng-star-inserted&quot;]/el-post[@class=&quot;ng-tns-c695-60 ng-star-inserted&quot;]/mat-card[@class=&quot;mat-card mat-focus-indicator el-post user-post-highlight&quot;]/mat-card-content[@class=&quot;mat-card-content&quot;]/p[@class=&quot;post-content ng-star-inserted&quot;]/read-more[1]/div[@id=&quot;postText&quot;]/p[1]/strong[1]</value>
+      <webElementGuid>42c6e2db-cf61-4f30-94b2-56a5bdd3888b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='postText']/p/strong</value>
+      <webElementGuid>690d3e92-580f-4aa9-a46e-57ea6b7e0e29</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Today'])[2]/following::strong[1]</value>
+      <webElementGuid>a6687231-f97d-43a9-b332-a38f89af19e8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Reply'])[2]/preceding::strong[1]</value>
+      <webElementGuid>9ffeae76-9288-44a2-af36-2f8a79db2a4c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Search Results'])[1]/preceding::strong[1]</value>
+      <webElementGuid>d0a568e5-9a79-4b46-8868-1d117916f93a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//strong</value>
+      <webElementGuid>8dbaa970-0f50-4f20-9ec3-5e8d3799cc06</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//strong[(text() = 'Bold' or . = 'Bold')]</value>
+      <webElementGuid>08b61bd3-5bde-44ee-a054-84e365da71f0</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

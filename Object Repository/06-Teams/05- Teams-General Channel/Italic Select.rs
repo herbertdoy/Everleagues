@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Italic Select</name>
+   <tag></tag>
+   <elementGuidId>03a72135-44a4-4124-9f86-b0dd68e0575a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Files'])[1]/following::div[11]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>443ed6c4-4629-4ed6-b62b-41c29a526566</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>NgxEditor__MenuItem--IconContainer</value>
+      <webElementGuid>d535c8a7-60ad-4b17-8e59-5d6903ac14d3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>title</name>
+      <type>Main</type>
+      <value>Italic</value>
+      <webElementGuid>32f927a5-3142-4617-b2f9-34295aec8b5e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/app-root[1]/app-main-page[@class=&quot;ng-tns-c479-5 ng-trigger ng-trigger-routerAnimation ng-star-inserted&quot;]/mat-sidenav-container[@class=&quot;mat-drawer-container mat-sidenav-container ng-tns-c479-5 mat-drawer-transition&quot;]/mat-sidenav-content[@class=&quot;mat-drawer-content mat-sidenav-content&quot;]/div[@class=&quot;wrapper&quot;]/app-teams[@class=&quot;ng-tns-c694-59 ng-star-inserted&quot;]/section[@class=&quot;teams-section ng-tns-c694-59&quot;]/div[@class=&quot;ng-tns-c694-59&quot;]/app-channel[@class=&quot;ng-tns-c695-60 ng-tns-c694-59 ng-trigger ng-trigger-routerAnimation ng-star-inserted&quot;]/section[@class=&quot;table-listing ng-tns-c695-60&quot;]/div[@class=&quot;ng-tns-c695-60 ng-star-inserted&quot;]/div[@class=&quot;ng-tns-c695-60&quot;]/div[@class=&quot;ng-tns-c695-60&quot;]/div[@class=&quot;ng-tns-c695-60&quot;]/app-markdown-composer[@class=&quot;ng-tns-c695-60 ng-star-inserted&quot;]/mat-card[@class=&quot;mat-card mat-focus-indicator markdown-composer&quot;]/div[1]/div[1]/div[@class=&quot;NgxEditor__Wrapper&quot;]/ngx-editor-menu[1]/div[@class=&quot;NgxEditor__MenuBar&quot;]/ngx-toggle-command[@class=&quot;NgxEditor__MenuItem NgxEditor__MenuItem--Icon ng-star-inserted&quot;]/div[@class=&quot;NgxEditor__MenuItem--IconContainer&quot;]</value>
+      <webElementGuid>4deac666-8973-4bc4-a32c-8dc36fb4ed6a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Files'])[1]/following::div[11]</value>
+      <webElementGuid>1083b6d9-23fb-4364-bb51-2739c8551f9e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Posts'])[1]/following::div[11]</value>
+      <webElementGuid>78562bb2-4d68-4239-9b1c-e718ad5ee3fc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Heading'])[1]/preceding::div[7]</value>
+      <webElementGuid>a23b83c2-6383-44a7-ac47-aff991c4177d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//ngx-toggle-command[2]/div</value>
+      <webElementGuid>4f936a41-7a14-4ecd-96e9-0cb7fcb1a5ff</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[@title = 'Italic']</value>
+      <webElementGuid>e33d5aa0-123f-4c8a-a26e-c726dede9f12</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
