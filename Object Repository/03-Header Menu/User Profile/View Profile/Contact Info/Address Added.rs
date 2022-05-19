@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Address Added</name>
+   <tag></tag>
+   <elementGuidId>b352cfcb-51a7-4063-895d-58c0c689238f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>mat-list.mat-list.mat-list-base.address-container.ng-tns-c569-36.ng-star-inserted</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//mat-tab-body[@id='mat-tab-content-0-3']/div/mat-card/mat-card-content/div[7]/mat-list</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>mat-list</value>
+      <webElementGuid>d3961773-4321-466e-af71-d23e2b346304</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-list mat-list-base address-container ng-tns-c569-36 ng-star-inserted</value>
+      <webElementGuid>ef686d52-07c0-427a-a1e0-386c297961ec</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>05 Testcorner Automation54321 Test CityTest StateTest CountryWorkeditremove_circle_outline</value>
+      <webElementGuid>4a92fb40-388f-4ff6-8467-0f6120692eee</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mat-tab-content-0-3&quot;)/div[@class=&quot;mat-tab-body-content ng-tns-c361-56 ng-trigger ng-trigger-translateTab&quot;]/mat-card[@class=&quot;mat-card mat-focus-indicator ng-star-inserted&quot;]/mat-card-content[@class=&quot;mat-card-content&quot;]/div[@class=&quot;ng-tns-c569-36&quot;]/mat-list[@class=&quot;mat-list mat-list-base address-container ng-tns-c569-36 ng-star-inserted&quot;]</value>
+      <webElementGuid>6d134044-ea4f-4a0a-83e6-09fbd82e7325</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//mat-tab-body[@id='mat-tab-content-0-3']/div/mat-card/mat-card-content/div[7]/mat-list</value>
+      <webElementGuid>2dcab221-dc7d-4b8b-afbc-a2bb2d3d0804</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Address'])[1]/following::mat-list[1]</value>
+      <webElementGuid>7e9e9aee-4291-4899-a4f3-105f94bc36f9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Type'])[2]/following::mat-list[1]</value>
+      <webElementGuid>7cf38bc2-a5df-4861-8663-ebd2f7144be9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//mat-list</value>
+      <webElementGuid>6af2e45e-9779-45a6-901a-0f97acf280b0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//mat-list[(text() = '05 Testcorner Automation54321 Test CityTest StateTest CountryWorkeditremove_circle_outline' or . = '05 Testcorner Automation54321 Test CityTest StateTest CountryWorkeditremove_circle_outline')]</value>
+      <webElementGuid>fb94eac1-fe61-4730-9b9b-13279f034893</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
