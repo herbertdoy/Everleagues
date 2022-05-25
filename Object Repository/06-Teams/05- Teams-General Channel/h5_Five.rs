@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>h5_Five</name>
+   <tag></tag>
+   <elementGuidId>276aafc3-165a-4e94-bd2a-c5b0315830ec</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='postText']/h5</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#postText > h5</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h5</value>
+      <webElementGuid>cdadbbe1-6c64-4cbf-85e1-a5fdb415a145</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Five</value>
+      <webElementGuid>8b300e47-ed83-4775-b255-77df488c2e20</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/app-root[1]/app-main-page[@class=&quot;ng-tns-c479-5 ng-trigger ng-trigger-routerAnimation ng-star-inserted&quot;]/mat-sidenav-container[@class=&quot;mat-drawer-container mat-sidenav-container ng-tns-c479-5 mat-drawer-transition mat-drawer-container-has-open&quot;]/mat-sidenav-content[@class=&quot;mat-drawer-content mat-sidenav-content&quot;]/div[@class=&quot;wrapper&quot;]/app-teams[@class=&quot;ng-tns-c694-38 ng-star-inserted&quot;]/section[@class=&quot;teams-section ng-tns-c694-38&quot;]/div[@class=&quot;ng-tns-c694-38&quot;]/app-channel[@class=&quot;ng-tns-c695-39 ng-tns-c694-38 ng-trigger ng-trigger-routerAnimation ng-star-inserted&quot;]/section[@class=&quot;table-listing ng-tns-c695-39&quot;]/div[@class=&quot;ng-tns-c695-39 ng-star-inserted&quot;]/div[@class=&quot;ng-tns-c695-39&quot;]/div[@class=&quot;ng-tns-c695-39&quot;]/perfect-scrollbar[@class=&quot;post-perfect-scrollbar ng-tns-c695-39 ng-star-inserted&quot;]/div[@class=&quot;ps&quot;]/div[@class=&quot;ps-content&quot;]/div[@class=&quot;ng-tns-c695-39 ng-star-inserted&quot;]/el-post[@class=&quot;ng-tns-c695-39 ng-star-inserted&quot;]/mat-card[@class=&quot;mat-card mat-focus-indicator el-post user-post-highlight&quot;]/mat-card-content[@class=&quot;mat-card-content&quot;]/p[@class=&quot;post-content ng-star-inserted&quot;]/read-more[1]/div[@id=&quot;postText&quot;]/h5[1]</value>
+      <webElementGuid>df65030f-00f5-42c2-b864-4d4fe311c995</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='postText']/h5</value>
+      <webElementGuid>18ff74e1-43a8-4c3a-912a-2d3d1ca698e7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Today'])[1]/following::h5[1]</value>
+      <webElementGuid>ccf9c5f2-c5d7-4264-b9ff-9815c81a117d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Reply'])[1]/preceding::h5[1]</value>
+      <webElementGuid>89ecbbba-934f-46a6-97d7-dbb8f9f21387</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Five']/parent::*</value>
+      <webElementGuid>0099e700-32ae-4eae-a284-d08bae13b932</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//read-more/div/h5</value>
+      <webElementGuid>8a897e69-fe4d-48f2-b636-9e4a3f1a1037</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h5[(text() = 'Five' or . = 'Five')]</value>
+      <webElementGuid>3ac2cdee-65f1-4073-8c5f-a932094bac47</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

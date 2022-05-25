@@ -81,9 +81,15 @@ WebUI.verifyElementVisible(findTestObject('04-Add my Organizations/Free limited 
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('04-Add my Organizations/Free limited Plan/button_Create'))
+WebUI.click(findTestObject('04-Add my Organizations/Free limited Plan/input_orgName'))
 
-WebUI.delay(1)
+WebUI.click(findTestObject('04-Add my Organizations/Free limited Plan/input_org alias'))
+
+WebUI.click(findTestObject('04-Add my Organizations/Free limited Plan/div_Service Industry_select-arrow'))
+
+WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.ESCAPE))
+
+WebUI.delay(3)
 
 WebUI.verifyElementVisible(findTestObject('04-Add my Organizations/Free limited Plan/div_OrganizationName_error'))
 

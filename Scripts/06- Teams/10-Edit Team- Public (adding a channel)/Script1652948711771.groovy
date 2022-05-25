@@ -109,18 +109,6 @@ WebUI.verifyElementNotClickable(findTestObject('06-Teams/03-Edit Team - Private/
 
 WebUI.delay(3)
 
-WebUI.verifyElementVisible(findTestObject('06-Teams/03-Edit Team - Private/div_Auto Channel'))
-
-WebUI.delay(3)
-
-WebUI.click(findTestObject('06-Teams/03-Edit Team - Private/button_edit channel'))
-
-WebUI.verifyElementVisible(findTestObject('06-Teams/03-Edit Team - Private/Edit channel modal'))
-
-WebUI.verifyElementNotClickable(findTestObject('06-Teams/03-Edit Team - Private/button_Save'))
-
-WebUI.delay(3)
-
 WebUI.click(findTestObject('06-Teams/03-Edit Team - Private/input_channel name'))
 
 WebUI.click(findTestObject('06-Teams/03-Edit Team - Private/h4_Add Channel'))
@@ -134,6 +122,10 @@ WebUI.setText(findTestObject('06-Teams/03-Edit Team - Private/input_channel name
 WebUI.click(findTestObject('06-Teams/03-Edit Team - Private/button_Add'))
 
 WebUI.verifyElementVisible(findTestObject('06-Teams/03-Edit Team - Private/Successfully added channel to team'))
+
+WebUI.delay(3)
+
+WebUI.verifyElementVisible(findTestObject('06-Teams/03-Edit Team - Private/div_Auto Channel'))
 
 WebUI.delay(3)
 

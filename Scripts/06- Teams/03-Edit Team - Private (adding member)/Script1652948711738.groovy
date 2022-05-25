@@ -123,17 +123,3 @@ WebUI.verifyElementVisible(findTestObject('06-Teams/03-Edit Team - Private/added
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('06-Teams/03-Edit Team - Private/div_Channels'))
-
-WebUI.verifyElementVisible(findTestObject('06-Teams/03-Edit Team - Private/div_Showing channels in team_Add Channel'))
-
-WebUI.delay(3)
-
-WebUI.click(findTestObject('06-Teams/03-Edit Team - Private/div_Add Channel'))
-
-WebUI.verifyElementVisible(findTestObject('06-Teams/03-Edit Team - Private/add channel modal'))
-
-WebUI.verifyElementNotClickable(findTestObject('06-Teams/03-Edit Team - Private/button_Add'))
-
-WebUI.delay(3)
-

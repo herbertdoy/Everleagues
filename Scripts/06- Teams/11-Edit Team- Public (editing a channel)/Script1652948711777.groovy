@@ -17,6 +17,14 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.click(findTestObject('06-Teams/03-Edit Team - Private/button_edit channel'))
+
+WebUI.verifyElementVisible(findTestObject('06-Teams/03-Edit Team - Private/Edit channel modal'))
+
+WebUI.verifyElementNotClickable(findTestObject('06-Teams/03-Edit Team - Private/button_Save'))
+
+WebUI.delay(3)
+
 WebUI.setText(findTestObject('06-Teams/03-Edit Team - Private/input_Edit Channel name'), 'Auto Channel Edit')
 
 WebUI.click(findTestObject('06-Teams/03-Edit Team - Private/button_Save'))

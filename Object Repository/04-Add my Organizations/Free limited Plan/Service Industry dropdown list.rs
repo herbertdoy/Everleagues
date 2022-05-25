@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Service Industry dropdown list</name>
+   <tag></tag>
+   <elementGuidId>9271b3cc-02d9-4d64-b6dc-7aebae9db1bd</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='mat-select-0-panel']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#mat-select-0-panel</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>020b42c2-d107-44e6-8902-30ada3702d42</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ng-tns-c246-41 ng-trigger ng-trigger-transformPanel mat-select-panel mat-primary</value>
+      <webElementGuid>4db2a816-c155-4349-9c3d-50def5958342</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>mat-select-0-panel</value>
+      <webElementGuid>742de03e-5858-41b8-a2c5-aebf59c03fbb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> CPA/EA/Accounting Firms  Law Firms  Medical Service/Physian/Dentist Office  Education  Real Estate  Other Service Business  Product Business  Community  Non Profit Organizations </value>
+      <webElementGuid>89217ec9-35a5-4433-a3c5-f6728b16a44f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mat-select-0-panel&quot;)</value>
+      <webElementGuid>d064c5dc-098c-43ed-9860-4adab31ef337</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//div[@id='mat-select-0-panel']</value>
+      <webElementGuid>3e2a950c-61c5-4616-8e14-556263320c12</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='cdk-overlay-5']/div/div</value>
+      <webElementGuid>416eb4b6-0f7c-4202-bca0-7c8c6bf72c3a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/following::div[8]</value>
+      <webElementGuid>188c5cd0-bc28-4e7e-8947-1241e06543db</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Create'])[1]/following::div[10]</value>
+      <webElementGuid>22c8a764-7db0-4cce-a7b4-eea1575f572b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div[4]/div/div/div</value>
+      <webElementGuid>7ac79e5f-9e9a-4170-bfcc-f490b4f5405d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[@id = 'mat-select-0-panel' and (text() = ' CPA/EA/Accounting Firms  Law Firms  Medical Service/Physian/Dentist Office  Education  Real Estate  Other Service Business  Product Business  Community  Non Profit Organizations ' or . = ' CPA/EA/Accounting Firms  Law Firms  Medical Service/Physian/Dentist Office  Education  Real Estate  Other Service Business  Product Business  Community  Non Profit Organizations ')]</value>
+      <webElementGuid>f5120726-95ba-4e29-91fa-117e69d4bc1a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

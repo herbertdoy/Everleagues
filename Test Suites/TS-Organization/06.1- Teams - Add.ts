@@ -12,17 +12,17 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>f9c1d0a9-c2ae-462e-bc31-2aca6c5889d3</testSuiteGuid>
    <testCaseLink>
-      <guid>6b5463a6-07f7-43eb-82c2-eae6598ce021</guid>
+      <guid>c649e396-8ebe-431f-91d6-74c9d484685b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/08-Edit Team - Private (deleting a channel)/01- Add Team- Public</testCaseId>
+      <testCaseId>Test Cases/06- Teams/01- Add Team- Public</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>f209899a-ab48-4c2b-9077-81e1aa15e30e</guid>
+      <guid>64a89423-40ae-438a-9419-de8b511a4be9</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/08-Edit Team - Private (deleting a channel)/02-Add Team-Private</testCaseId>
+      <testCaseId>Test Cases/06- Teams/02-Add Team-Private</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
