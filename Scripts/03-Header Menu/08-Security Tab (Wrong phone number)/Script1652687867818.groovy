@@ -33,6 +33,8 @@ WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Security Ta
 
 WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Security Tab (2FA)/2FA_toggle'))
 
+WebUI.delay(2)
+
 WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/View Profile/Security Tab (2FA)/Success_disable'))
 
 WebUI.delay(2)

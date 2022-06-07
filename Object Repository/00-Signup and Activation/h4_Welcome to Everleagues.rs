@@ -6,12 +6,16 @@
    <elementGuidId>5954c290-2d6e-47b1-8ede-500637354a6f</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+         <value>#mat-dialog-title-0</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//h4[@id='mat-dialog-title-0']</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>#mat-dialog-title-0</value>
+         <key>BASIC</key>
+         <value>//h4[@class = 'mat-dialog-title' and (text() = 'Welcome to Everleagues!' or . = 'Welcome to Everleagues!')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -22,20 +26,23 @@
       <name>tag</name>
       <type>Main</type>
       <value>h4</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>mat-dialog-title</value>
+      <webElementGuid>dbb52777-28f9-471d-94e3-c9cc1e0a70e7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-dialog-title</value>
+      <webElementGuid>5d7eaed3-598d-47e5-8300-516c30ebd1bd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
       <value>mat-dialog-title-0</value>
+      <webElementGuid>640c1735-8feb-4571-80d5-1f8cbffcd8a8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -43,6 +50,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Welcome to Everleagues!</value>
+      <webElementGuid>3608d390-8ea7-4abf-9a38-f504238fe609</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,6 +58,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-dialog-title-0&quot;)</value>
+      <webElementGuid>e35cd743-af4c-4fec-9e7b-47f38e3f02cd</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -57,6 +66,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//h4[@id='mat-dialog-title-0']</value>
+      <webElementGuid>2d4358f7-8e0f-485a-baf3-40402d057f54</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -64,6 +74,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-dialog-container[@id='mat-dialog-0']/app-dialog-welcome-new-account/section/h4</value>
+      <webElementGuid>61f85b81-7d7f-4f8f-a1ae-6c8e783c3437</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,6 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('id(', '&quot;', 'mat-dialog-title-0', '&quot;', ')')])[1]/following::h4[1]</value>
+      <webElementGuid>8a143b0f-cdd6-4af5-b57d-976eac6918a2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,6 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='`'])[2]/following::h4[1]</value>
+      <webElementGuid>4555e7e9-9398-44d0-a3e8-00e5db08e1f1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,6 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Personal Space'])[2]/preceding::h4[1]</value>
+      <webElementGuid>1504baad-ec1a-4401-9e01-b20d84273528</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -92,6 +106,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Business Organization'])[1]/preceding::h4[1]</value>
+      <webElementGuid>0ffd7928-e104-4f02-8158-a589348f54bc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,6 +114,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//section/h4</value>
+      <webElementGuid>4e42d5bc-d218-4774-86ac-5a2e88e82922</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,5 +122,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//h4[@id = 'mat-dialog-title-0' and (text() = 'Welcome to Everleagues!' or . = 'Welcome to Everleagues!')]</value>
+      <webElementGuid>ddddfe27-e01c-4dff-8371-283ebec85663</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

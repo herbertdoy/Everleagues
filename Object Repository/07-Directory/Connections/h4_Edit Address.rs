@@ -1,121 +1,131 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>add address</name>
+   <name>h4_Edit Address</name>
    <tag></tag>
-   <elementGuidId>bbcd9d99-8e01-406e-9378-90e29e0cadea</elementGuidId>
+   <elementGuidId>6acd0a8b-4aa5-46ed-81fa-7ad6dd9eb0a4</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//mat-icon[(text() = 'add_circle_outline' or . = 'add_circle_outline')]</value>
+         <key>CSS</key>
+         <value>#mat-dialog-title-3</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//mat-icon[text()='add_circle_outline'])[2]</value>
-      </entry>
-      <entry>
-         <key>CSS</key>
-         <value>input-contact-address > div.ng-star-inserted > button.mat-focus-indicator.mat-icon-button.mat-button-base > span.mat-button-wrapper > mat-icon.mat-icon.notranslate.material-icons.mat-icon-no-color</value>
+         <value>//h4[@id='mat-dialog-title-3']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>mat-icon</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>role</name>
-      <type>Main</type>
-      <value>img</value>
+      <value>h4</value>
+      <webElementGuid>41d44f0a-a980-4359-9786-9bc15f58b969</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>mat-icon notranslate material-icons mat-icon-no-color</value>
+      <value>mat-dialog-title ng-star-inserted</value>
+      <webElementGuid>668c1c92-15db-465f-9074-0182b269eeda</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>aria-hidden</name>
+      <name>id</name>
       <type>Main</type>
-      <value>true</value>
+      <value>mat-dialog-title-3</value>
+      <webElementGuid>13540e62-9184-4557-b412-fc10ddc35fe6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>add_circle_outline</value>
+      <value>Edit Address</value>
+      <webElementGuid>fe30e36c-fb27-41a7-b5c3-8379ae6352fe</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;mat-dialog-16&quot;)/app-dialog-add-contact[@class=&quot;ng-star-inserted&quot;]/section[@class=&quot;dialog-container dialog-add-contact&quot;]/form[@class=&quot;ng-pristine ng-invalid ng-touched&quot;]/div[@class=&quot;mat-dialog-content&quot;]/perfect-scrollbar[1]/div[@class=&quot;ps ps--active-y&quot;]/div[@class=&quot;ps-content&quot;]/div[@class=&quot;container-body&quot;]/div[1]/input-contact-address[1]/div[@class=&quot;ng-star-inserted&quot;]/button[@class=&quot;mat-focus-indicator mat-icon-button mat-button-base&quot;]/span[@class=&quot;mat-button-wrapper&quot;]/mat-icon[@class=&quot;mat-icon notranslate material-icons mat-icon-no-color&quot;]</value>
+      <value>id(&quot;mat-dialog-title-3&quot;)</value>
+      <webElementGuid>1e2b1769-1f39-45a1-a89b-ddda7c859c21</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//h4[@id='mat-dialog-title-3']</value>
+      <webElementGuid>ffb04eb5-0e7c-4187-99ed-9bd17a11ff80</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//mat-dialog-container[@id='mat-dialog-16']/app-dialog-add-contact/section/form/div/perfect-scrollbar/div/div/div/div/input-contact-address/div[2]/button/span/mat-icon</value>
+      <value>//mat-dialog-container[@id='mat-dialog-3']/app-dialog-profile-address/section/form/h4</value>
+      <webElementGuid>3be3755d-0e3f-4fa4-9d8a-ae79dd9bf3b9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Address:'])[1]/following::mat-icon[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/following::h4[1]</value>
+      <webElementGuid>9414460b-9e78-4133-be9e-485b72b39a8d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Type'])[2]/following::mat-icon[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Create'])[1]/following::h4[1]</value>
+      <webElementGuid>eb36b9ca-46b0-4259-bc56-effc6e83359a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Company'])[1]/preceding::mat-icon[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Street 1'])[1]/preceding::h4[1]</value>
+      <webElementGuid>c1dfb62e-4cd2-489b-9a36-99c1256aacaa</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Position'])[1]/preceding::mat-icon[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Street 2'])[1]/preceding::h4[1]</value>
+      <webElementGuid>2dc43dfa-e139-4916-8c20-fbcf656a608a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='add_circle_outline']/parent::*</value>
+      <value>//*/text()[normalize-space(.)='Edit Address']/parent::*</value>
+      <webElementGuid>bc1f28ab-9205-4bc5-a84c-ff9aa837807e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/button/span/mat-icon</value>
+      <value>//app-dialog-profile-address/section/form/h4</value>
+      <webElementGuid>ae831828-2b93-4a3b-af02-0c708c361b08</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//mat-icon[(text() = 'add_circle_outline' or . = 'add_circle_outline')]</value>
+      <value>//h4[@id = 'mat-dialog-title-3' and (text() = 'Edit Address' or . = 'Edit Address')]</value>
+      <webElementGuid>0666a1f2-7ce5-41b6-9137-d0a00b3c2bc2</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

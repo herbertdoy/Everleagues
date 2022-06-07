@@ -145,11 +145,75 @@ WebUI.setText(findTestObject('07-Directory/Connections/input_Type_phone'), '2345
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('07-Directory/Connections/add address'))
+WebUI.click(findTestObject('07-Directory/Connections/button_add_address'))
+
+WebUI.click(findTestObject('07-Directory/Connections/button_add_address'))
 
 WebUI.verifyElementVisible(findTestObject('07-Directory/Connections/Edit address modal'))
 
 WebUI.delay(3)
 
-WebUI.closeBrowser()
+WebUI.click(findTestObject('07-Directory/Connections/input_Edit Address_street1'))
+
+WebUI.click(findTestObject('07-Directory/Connections/input_Street 1_street2'))
+
+WebUI.click(findTestObject('07-Directory/Connections/input_Street 2_postcode'))
+
+WebUI.click(findTestObject('07-Directory/Connections/input_Zip  Postal Code_city'))
+
+WebUI.click(findTestObject('07-Directory/Connections/input_City_state'))
+
+WebUI.click(findTestObject('07-Directory/Connections/input_State_country'))
+
+WebUI.click(findTestObject('07-Directory/Connections/input_Country_addressLabel'))
+
+WebUI.delay(3)
+
+WebUI.verifyElementVisible(findTestObject('07-Directory/Connections/span_Work'))
+
+WebUI.verifyElementVisible(findTestObject('07-Directory/Connections/span_Personal'))
+
+WebUI.verifyElementVisible(findTestObject('07-Directory/Connections/span_Other'))
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('07-Directory/Connections/h4_Edit Address'))
+
+WebUI.delay(3)
+
+WebUI.verifyElementVisible(findTestObject('07-Directory/Connections/street 1 error'))
+
+WebUI.verifyElementVisible(findTestObject('07-Directory/Connections/post code error'))
+
+WebUI.verifyElementVisible(findTestObject('07-Directory/Connections/city error'))
+
+WebUI.verifyElementVisible(findTestObject('07-Directory/Connections/state error'))
+
+WebUI.verifyElementVisible(findTestObject('07-Directory/Connections/country error'))
+
+WebUI.delay(3)
+
+WebUI.setText(findTestObject('07-Directory/Connections/input_Edit Address_street1'), 'Auto street 1')
+
+WebUI.setText(findTestObject('07-Directory/Connections/input_Street 1_street2'), 'Auto street 2')
+
+WebUI.setText(findTestObject('07-Directory/Connections/input_Street 2_postcode'), '54321')
+
+WebUI.setText(findTestObject('07-Directory/Connections/input_Zip  Postal Code_city'), 'Auto city')
+
+WebUI.setText(findTestObject('07-Directory/Connections/input_City_state'), 'Auto state')
+
+WebUI.setText(findTestObject('07-Directory/Connections/input_State_country'), 'Auto country')
+
+WebUI.click(findTestObject('07-Directory/Connections/input_Country_addressLabel'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('07-Directory/Connections/span_Work'))
+
+WebUI.click(findTestObject('07-Directory/Connections/address_Save'))
+
+WebUI.delay(3)
+
+WebUI.verifyElementVisible(findTestObject('07-Directory/Connections/added address'))
 
