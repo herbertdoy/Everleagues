@@ -39,6 +39,8 @@ WebUI.delay(2)
 
 WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Profile Tab/button_Save'))
 
+WebUI.delay(3)
+
 WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/View Profile/Profile Tab/success msg'))
 
 WebUI.delay(2)
@@ -59,6 +61,4 @@ WebUI.delay(3)
 WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/View Profile/Contact Info/Successfully changed profile image'))
 
 WebUI.delay(3)
-
-
 

@@ -17,79 +17,43 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('https://lab.everleagues.com/')
-
-WebUI.maximizeWindow()
-
-WebUI.setText(findTestObject('02-Side Icons(Organization)/Add Contact/Email Field'), 'testuser02@mailinator.com')
-
-WebUI.setEncryptedText(findTestObject('02-Side Icons(Organization)/Add Contact/Password Field'), '8yFRyszE6U6jvsCn51OQbg==')
-
-WebUI.click(findTestObject('02-Side Icons(Organization)/Add Contact/button_Sign in'))
-
-WebUI.delay(3)
-
-WebUI.click(findTestObject('06-Teams/For 2FA/button_Confirm_2FA'))
-
-WebUI.executeJavaScript('window.open();', [])
-
-currentWindow = WebUI.getWindowIndex()
-
-WebUI.delay(3)
-
-WebUI.switchToWindowIndex(currentWindow + 1)
-
-WebUI.navigateToUrl('https://www.mailinator.com/')
-
-WebUI.delay(3)
-
-WebUI.setText(findTestObject('00-Signup and Activation/zMailinator/input_LOGIN_search'), 'testuser02@mailinator.com')
-
-WebUI.click(findTestObject('00-Signup and Activation/zMailinator/gobutton'), FailureHandling.STOP_ON_FAILURE)
-
-WebUI.delay(3)
-
-WebUI.click(findTestObject('00-Signup and Activation/zMailinator/Email - everleagues'))
-
-WebUI.delay(3)
-
-String code = WebUI.getText(findTestObject('Object Repository/06-Teams/For 2FA/2FA code'))
-
-WebUI.delay(3)
-
-WebUI.closeWindowTitle('Mailinator')
-
-WebUI.delay(3)
-
-WebUI.switchToWindowIndex(0)
-
-WebUI.delay(3)
-
-WebUI.setText(findTestObject('Object Repository/06-Teams/For 2FA/input_Enter verification code_code'), code)
-
-WebUI.delay(3)
-
-WebUI.click(findTestObject('06-Teams/For 2FA/button_Verify_2FA'))
-
-WebUI.delay(5)
-
-WebUI.click(findTestObject('03-Header Menu/Hamburger Button/div_Directory'))
-
-WebUI.delay(3)
-
-WebUI.verifyElementVisible(findTestObject('07-Directory/Connections/div_Connections'))
-
-WebUI.verifyElementVisible(findTestObject('07-Directory/Connections/div_Labels'))
-
-WebUI.delay(3)
-
-WebUI.click(findTestObject('07-Directory/Connections/div_Connections'))
-
 WebUI.delay(3)
 
 WebUI.click(findTestObject('07-Directory/Connections/div_added user'))
 
 WebUI.click(findTestObject('07-Directory/Connections/zContact Profile/button_invite'))
+
+WebUI.delay(3)
+
+WebUI.verifyElementVisible(findTestObject('07-Directory/Connections/zContact Profile/Invite new user modal'))
+
+WebUI.verifyElementNotClickable(findTestObject('07-Directory/Connections/zContact Profile/button_Send Invitation'))
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('07-Directory/Connections/zContact Profile/Role'))
+
+WebUI.clickOffset(findTestObject('07-Directory/Connections/zContact Profile/h4_Invite New User'), 100, 100)
+
+WebUI.verifyElementVisible(findTestObject('07-Directory/Connections/zContact Profile/Select a role error'))
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('07-Directory/Connections/zContact Profile/Role'))
+
+WebUI.verifyElementVisible(findTestObject('07-Directory/Connections/zContact Profile/span_Client'))
+
+WebUI.verifyElementVisible(findTestObject('07-Directory/Connections/zContact Profile/span_CoWorker'))
+
+WebUI.verifyElementVisible(findTestObject('07-Directory/Connections/zContact Profile/span_Partner'))
+
+WebUI.click(findTestObject('07-Directory/Connections/zContact Profile/span_CoWorker'))
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('07-Directory/Connections/zContact Profile/button_Send Invitation'))
+
+WebUI.verifyElementVisible(findTestObject('07-Directory/Connections/zContact Profile/Successfully invited user'))
+
+WebUI.closeBrowser()
 

@@ -1,0 +1,117 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+07-Directory,Chrome 102.0.5005.115,,,2022-06-20 20:00:12,2022-06-20 20:03:03,2m - 51.608s,PASSED
+,,,,,,,
+Test Cases/07-Directory/01 -Connections - Add New Contact (required field is blank),Chrome 102.0.5005.115,,,2022-06-20 20:00:12,2022-06-20 20:02:04,1m - 51.865s,PASSED
+"openBrowser("""")",Chrome 102.0.5005.115,,,2022-06-20 20:00:13,2022-06-20 20:00:15,2.258s,PASSED
+"navigateToUrl(""https://lab.everleagues.com/"")",Chrome 102.0.5005.115,,,2022-06-20 20:00:15,2022-06-20 20:00:47,32.381s,PASSED
+maximizeWindow(),Chrome 102.0.5005.115,,,2022-06-20 20:00:47,2022-06-20 20:00:47,0.159s,PASSED
+"setText(findTestObject(""02-Side Icons(Organization)/Add Contact/Email Field""), ""testuser02@mailinator.com"")",Chrome 102.0.5005.115,,,2022-06-20 20:00:47,2022-06-20 20:00:48,0.823s,PASSED
+"setEncryptedText(findTestObject(""02-Side Icons(Organization)/Add Contact/Password Field""), ""8yFRyszE6U6jvsCn51OQbg=="")",Chrome 102.0.5005.115,,,2022-06-20 20:00:48,2022-06-20 20:00:49,0.504s,PASSED
+"click(findTestObject(""02-Side Icons(Organization)/Add Contact/button_Sign in""))",Chrome 102.0.5005.115,,,2022-06-20 20:00:49,2022-06-20 20:00:49,0.840s,PASSED
+delay(3),Chrome 102.0.5005.115,,,2022-06-20 20:00:49,2022-06-20 20:00:53,3.042s,PASSED
+"click(findTestObject(""06-Teams/For 2FA/button_Confirm_2FA""))",Chrome 102.0.5005.115,,,2022-06-20 20:00:53,2022-06-20 20:00:53,0.371s,PASSED
+"executeJavaScript(""window.open();"", [])",Chrome 102.0.5005.115,,,2022-06-20 20:00:53,2022-06-20 20:00:53,0.076s,PASSED
+currentWindow = getWindowIndex(),Chrome 102.0.5005.115,,,2022-06-20 20:00:53,2022-06-20 20:00:53,0.024s,PASSED
+delay(3),Chrome 102.0.5005.115,,,2022-06-20 20:00:53,2022-06-20 20:00:56,3.010s,PASSED
+switchToWindowIndex(currentWindow + 1),Chrome 102.0.5005.115,,,2022-06-20 20:00:56,2022-06-20 20:00:56,0.034s,PASSED
+"navigateToUrl(""https://www.mailinator.com/"")",Chrome 102.0.5005.115,,,2022-06-20 20:00:56,2022-06-20 20:00:59,2.615s,PASSED
+delay(3),Chrome 102.0.5005.115,,,2022-06-20 20:00:59,2022-06-20 20:01:02,3.010s,PASSED
+"setText(findTestObject(""00-Signup and Activation/zMailinator/input_LOGIN_search""), ""testuser02@mailinator.com"")",Chrome 102.0.5005.115,,,2022-06-20 20:01:02,2022-06-20 20:01:02,0.754s,PASSED
+"click(findTestObject(""00-Signup and Activation/zMailinator/gobutton""), STOP_ON_FAILURE)",Chrome 102.0.5005.115,,,2022-06-20 20:01:02,2022-06-20 20:01:04,1.925s,PASSED
+delay(3),Chrome 102.0.5005.115,,,2022-06-20 20:01:04,2022-06-20 20:01:07,3.006s,PASSED
+"click(findTestObject(""00-Signup and Activation/zMailinator/Email - everleagues""))",Chrome 102.0.5005.115,,,2022-06-20 20:01:07,2022-06-20 20:01:08,0.392s,PASSED
+delay(3),Chrome 102.0.5005.115,,,2022-06-20 20:01:08,2022-06-20 20:01:11,3.005s,PASSED
+"code = getText(findTestObject(""Object Repository/06-Teams/For 2FA/2FA code""))",Chrome 102.0.5005.115,,,2022-06-20 20:01:11,2022-06-20 20:01:11,0.498s,PASSED
+delay(3),Chrome 102.0.5005.115,,,2022-06-20 20:01:11,2022-06-20 20:01:14,3.018s,PASSED
+"closeWindowTitle(""Mailinator"")",Chrome 102.0.5005.115,,,2022-06-20 20:01:14,2022-06-20 20:01:14,0.126s,PASSED
+delay(3),Chrome 102.0.5005.115,,,2022-06-20 20:01:14,2022-06-20 20:01:17,3.008s,PASSED
+switchToWindowIndex(0),Chrome 102.0.5005.115,,,2022-06-20 20:01:17,2022-06-20 20:01:17,0.033s,PASSED
+delay(3),Chrome 102.0.5005.115,,,2022-06-20 20:01:17,2022-06-20 20:01:20,3.004s,PASSED
+"setText(findTestObject(""Object Repository/06-Teams/For 2FA/input_Enter verification code_code""), code)",Chrome 102.0.5005.115,,,2022-06-20 20:01:20,2022-06-20 20:01:21,0.869s,PASSED
+delay(3),Chrome 102.0.5005.115,,,2022-06-20 20:01:21,2022-06-20 20:01:24,3.010s,PASSED
+"click(findTestObject(""06-Teams/For 2FA/button_Verify_2FA""))",Chrome 102.0.5005.115,,,2022-06-20 20:01:24,2022-06-20 20:01:25,0.654s,PASSED
+delay(5),Chrome 102.0.5005.115,,,2022-06-20 20:01:25,2022-06-20 20:01:30,5.015s,PASSED
+"click(findTestObject(""03-Header Menu/Hamburger Button/div_Directory""))",Chrome 102.0.5005.115,,,2022-06-20 20:01:30,2022-06-20 20:01:32,1.787s,PASSED
+delay(3),Chrome 102.0.5005.115,,,2022-06-20 20:01:32,2022-06-20 20:01:35,3.005s,PASSED
+"verifyElementVisible(findTestObject(""07-Directory/Connections/div_Connections""))",Chrome 102.0.5005.115,,,2022-06-20 20:01:35,2022-06-20 20:01:35,0.381s,PASSED
+"verifyElementVisible(findTestObject(""07-Directory/Connections/div_Labels""))",Chrome 102.0.5005.115,,,2022-06-20 20:01:35,2022-06-20 20:01:36,0.341s,PASSED
+delay(3),Chrome 102.0.5005.115,,,2022-06-20 20:01:36,2022-06-20 20:01:39,3.009s,PASSED
+"click(findTestObject(""07-Directory/Connections/div_Connections""))",Chrome 102.0.5005.115,,,2022-06-20 20:01:39,2022-06-20 20:01:39,0.495s,PASSED
+delay(3),Chrome 102.0.5005.115,,,2022-06-20 20:01:39,2022-06-20 20:01:42,3.013s,PASSED
+"verifyElementVisible(findTestObject(""07-Directory/Connections/h4_CONNECTIONS""))",Chrome 102.0.5005.115,,,2022-06-20 20:01:42,2022-06-20 20:01:42,0.352s,PASSED
+"verifyElementVisible(findTestObject(""07-Directory/Connections/h5_Save your contacts here and throw your business cards away""))",Chrome 102.0.5005.115,,,2022-06-20 20:01:42,2022-06-20 20:01:43,0.353s,PASSED
+"verifyElementVisible(findTestObject(""07-Directory/Connections/button_search""))",Chrome 102.0.5005.115,,,2022-06-20 20:01:43,2022-06-20 20:01:43,0.407s,PASSED
+"verifyElementVisible(findTestObject(""07-Directory/Connections/button_add new contact""))",Chrome 102.0.5005.115,,,2022-06-20 20:01:43,2022-06-20 20:01:44,1.342s,PASSED
+"verifyElementVisible(findTestObject(""07-Directory/Connections/button_Filter""))",Chrome 102.0.5005.115,,,2022-06-20 20:01:44,2022-06-20 20:01:45,0.367s,PASSED
+delay(3),Chrome 102.0.5005.115,,,2022-06-20 20:01:45,2022-06-20 20:01:48,3.006s,PASSED
+"click(findTestObject(""07-Directory/Connections/button_add new contact""))",Chrome 102.0.5005.115,,,2022-06-20 20:01:48,2022-06-20 20:01:49,1.154s,PASSED
+delay(3),Chrome 102.0.5005.115,,,2022-06-20 20:01:49,2022-06-20 20:01:52,3.015s,PASSED
+"verifyElementVisible(findTestObject(""07-Directory/Connections/Add new contact modal""))",Chrome 102.0.5005.115,,,2022-06-20 20:01:52,2022-06-20 20:01:52,0.362s,PASSED
+delay(3),Chrome 102.0.5005.115,,,2022-06-20 20:01:52,2022-06-20 20:01:55,3.009s,PASSED
+"click(findTestObject(""07-Directory/Connections/input_firstName""))",Chrome 102.0.5005.115,,,2022-06-20 20:01:55,2022-06-20 20:01:56,0.395s,PASSED
+"click(findTestObject(""07-Directory/Connections/input_lastName""))",Chrome 102.0.5005.115,,,2022-06-20 20:01:56,2022-06-20 20:01:56,0.516s,PASSED
+"click(findTestObject(""07-Directory/Connections/input_Type_email""))",Chrome 102.0.5005.115,,,2022-06-20 20:01:56,2022-06-20 20:01:57,0.504s,PASSED
+delay(3),Chrome 102.0.5005.115,,,2022-06-20 20:01:57,2022-06-20 20:02:00,3.006s,PASSED
+"verifyElementVisible(findTestObject(""07-Directory/Connections/div_First Name Field is required""))",Chrome 102.0.5005.115,,,2022-06-20 20:02:00,2022-06-20 20:02:00,0.356s,PASSED
+"verifyElementVisible(findTestObject(""07-Directory/Connections/div_Last Name Field is required""))",Chrome 102.0.5005.115,,,2022-06-20 20:02:00,2022-06-20 20:02:01,0.407s,PASSED
+"verifyElementNotClickable(findTestObject(""07-Directory/Connections/button_Create""))",Chrome 102.0.5005.115,,,2022-06-20 20:02:01,2022-06-20 20:02:01,0.371s,PASSED
+delay(3),Chrome 102.0.5005.115,,,2022-06-20 20:02:01,2022-06-20 20:02:04,3.009s,PASSED
+,,,,,,,
+Test Cases/07-Directory/02 -Connections - Add New Contact (Fill out required field),Chrome 102.0.5005.115,,,2022-06-20 20:02:04,2022-06-20 20:02:11,7.509s,PASSED
+"setText(findTestObject(""07-Directory/Connections/input_firstName""), ""GG"")",Chrome 102.0.5005.115,,,2022-06-20 20:02:04,2022-06-20 20:02:05,0.721s,PASSED
+"setText(findTestObject(""07-Directory/Connections/input_lastName""), ""Auto"")",Chrome 102.0.5005.115,,,2022-06-20 20:02:05,2022-06-20 20:02:06,0.900s,PASSED
+"setText(findTestObject(""07-Directory/Connections/input_Type_email""), ""autotester02@mailinator.com"")",Chrome 102.0.5005.115,,,2022-06-20 20:02:06,2022-06-20 20:02:07,1.377s,PASSED
+"click(findTestObject(""07-Directory/Connections/input_Type_phone""))",Chrome 102.0.5005.115,,,2022-06-20 20:02:07,2022-06-20 20:02:08,0.554s,PASSED
+"click(findTestObject(""07-Directory/Connections/button_area code""))",Chrome 102.0.5005.115,,,2022-06-20 20:02:08,2022-06-20 20:02:08,0.670s,PASSED
+delay(3),Chrome 102.0.5005.115,,,2022-06-20 20:02:08,2022-06-20 20:02:11,3.005s,PASSED
+,,,,,,,
+Test Cases/07-Directory/03 -Connections - Add New Contact (add phone number),Chrome 102.0.5005.115,,,2022-06-20 20:02:11,2022-06-20 20:02:19,7.948s,PASSED
+"verifyElementVisible(findTestObject(""07-Directory/Connections/area code modal""))",Chrome 102.0.5005.115,,,2022-06-20 20:02:12,2022-06-20 20:02:12,0.353s,PASSED
+"click(findTestObject(""07-Directory/Connections/button_United States 1""))",Chrome 102.0.5005.115,,,2022-06-20 20:02:12,2022-06-20 20:02:13,0.464s,PASSED
+delay(3),Chrome 102.0.5005.115,,,2022-06-20 20:02:13,2022-06-20 20:02:16,3.012s,PASSED
+"setText(findTestObject(""07-Directory/Connections/input_Type_phone""), ""2345678901"")",Chrome 102.0.5005.115,,,2022-06-20 20:02:16,2022-06-20 20:02:16,0.830s,PASSED
+delay(3),Chrome 102.0.5005.115,,,2022-06-20 20:02:16,2022-06-20 20:02:19,3.006s,PASSED
+,,,,,,,
+Test Cases/07-Directory/04 -Connections - Add New Contact (address required fields blank),Chrome 102.0.5005.115,,,2022-06-20 20:02:19,2022-06-20 20:02:44,24.898s,PASSED
+"click(findTestObject(""07-Directory/Connections/button_add_address""))",Chrome 102.0.5005.115,,,2022-06-20 20:02:20,2022-06-20 20:02:20,0.375s,PASSED
+"click(findTestObject(""07-Directory/Connections/button_add_address""))",Chrome 102.0.5005.115,,,2022-06-20 20:02:20,2022-06-20 20:02:21,0.734s,PASSED
+"verifyElementVisible(findTestObject(""07-Directory/Connections/Edit address modal""))",Chrome 102.0.5005.115,,,2022-06-20 20:02:21,2022-06-20 20:02:21,0.657s,PASSED
+delay(3),Chrome 102.0.5005.115,,,2022-06-20 20:02:21,2022-06-20 20:02:24,3.008s,PASSED
+"click(findTestObject(""07-Directory/Connections/input_Edit Address_street1""))",Chrome 102.0.5005.115,,,2022-06-20 20:02:24,2022-06-20 20:02:25,0.395s,PASSED
+"click(findTestObject(""07-Directory/Connections/input_Street 1_street2""))",Chrome 102.0.5005.115,,,2022-06-20 20:02:25,2022-06-20 20:02:25,0.609s,PASSED
+"click(findTestObject(""07-Directory/Connections/input_Street 2_postcode""))",Chrome 102.0.5005.115,,,2022-06-20 20:02:25,2022-06-20 20:02:26,0.570s,PASSED
+"click(findTestObject(""07-Directory/Connections/input_Zip  Postal Code_city""))",Chrome 102.0.5005.115,,,2022-06-20 20:02:26,2022-06-20 20:02:27,0.607s,PASSED
+"click(findTestObject(""07-Directory/Connections/input_City_state""))",Chrome 102.0.5005.115,,,2022-06-20 20:02:27,2022-06-20 20:02:27,0.607s,PASSED
+"click(findTestObject(""07-Directory/Connections/input_State_country""))",Chrome 102.0.5005.115,,,2022-06-20 20:02:27,2022-06-20 20:02:28,0.492s,PASSED
+"click(findTestObject(""07-Directory/Connections/input_Country_addressLabel""))",Chrome 102.0.5005.115,,,2022-06-20 20:02:28,2022-06-20 20:02:29,1.183s,PASSED
+delay(3),Chrome 102.0.5005.115,,,2022-06-20 20:02:29,2022-06-20 20:02:32,3.012s,PASSED
+"verifyElementVisible(findTestObject(""07-Directory/Connections/span_Work""))",Chrome 102.0.5005.115,,,2022-06-20 20:02:32,2022-06-20 20:02:32,0.381s,PASSED
+"verifyElementVisible(findTestObject(""07-Directory/Connections/span_Personal""))",Chrome 102.0.5005.115,,,2022-06-20 20:02:32,2022-06-20 20:02:33,0.342s,PASSED
+"verifyElementVisible(findTestObject(""07-Directory/Connections/span_Other""))",Chrome 102.0.5005.115,,,2022-06-20 20:02:33,2022-06-20 20:02:33,0.359s,PASSED
+delay(3),Chrome 102.0.5005.115,,,2022-06-20 20:02:33,2022-06-20 20:02:36,3.008s,PASSED
+"click(findTestObject(""07-Directory/Connections/h4_Edit Address""))",Chrome 102.0.5005.115,,,2022-06-20 20:02:36,2022-06-20 20:02:36,0.430s,PASSED
+delay(3),Chrome 102.0.5005.115,,,2022-06-20 20:02:36,2022-06-20 20:02:39,3.005s,PASSED
+"verifyElementVisible(findTestObject(""07-Directory/Connections/street 1 error""))",Chrome 102.0.5005.115,,,2022-06-20 20:02:39,2022-06-20 20:02:40,0.366s,PASSED
+"verifyElementVisible(findTestObject(""07-Directory/Connections/post code error""))",Chrome 102.0.5005.115,,,2022-06-20 20:02:40,2022-06-20 20:02:40,0.357s,PASSED
+"verifyElementVisible(findTestObject(""07-Directory/Connections/city error""))",Chrome 102.0.5005.115,,,2022-06-20 20:02:40,2022-06-20 20:02:41,0.375s,PASSED
+"verifyElementVisible(findTestObject(""07-Directory/Connections/state error""))",Chrome 102.0.5005.115,,,2022-06-20 20:02:41,2022-06-20 20:02:41,0.367s,PASSED
+"verifyElementVisible(findTestObject(""07-Directory/Connections/country error""))",Chrome 102.0.5005.115,,,2022-06-20 20:02:41,2022-06-20 20:02:41,0.362s,PASSED
+delay(3),Chrome 102.0.5005.115,,,2022-06-20 20:02:41,2022-06-20 20:02:44,3.015s,PASSED
+,,,,,,,
+Test Cases/07-Directory/05 -Connections - Add New Contact (add address successfully and add new contact successfully),Chrome 102.0.5005.115,,,2022-06-20 20:02:44,2022-06-20 20:03:03,19.032s,PASSED
+"setText(findTestObject(""07-Directory/Connections/input_Edit Address_street1""), ""Auto street 1"")",Chrome 102.0.5005.115,,,2022-06-20 20:02:45,2022-06-20 20:02:45,0.787s,PASSED
+"setText(findTestObject(""07-Directory/Connections/input_Street 1_street2""), ""Auto street 2"")",Chrome 102.0.5005.115,,,2022-06-20 20:02:45,2022-06-20 20:02:46,1.005s,PASSED
+"setText(findTestObject(""07-Directory/Connections/input_Street 2_postcode""), ""54321"")",Chrome 102.0.5005.115,,,2022-06-20 20:02:46,2022-06-20 20:02:47,0.848s,PASSED
+"setText(findTestObject(""07-Directory/Connections/input_Zip  Postal Code_city""), ""Auto city"")",Chrome 102.0.5005.115,,,2022-06-20 20:02:47,2022-06-20 20:02:48,0.844s,PASSED
+"setText(findTestObject(""07-Directory/Connections/input_City_state""), ""Auto state"")",Chrome 102.0.5005.115,,,2022-06-20 20:02:48,2022-06-20 20:02:49,0.955s,PASSED
+"setText(findTestObject(""07-Directory/Connections/input_State_country""), ""Auto country"")",Chrome 102.0.5005.115,,,2022-06-20 20:02:49,2022-06-20 20:02:50,1.038s,PASSED
+"click(findTestObject(""07-Directory/Connections/input_Country_addressLabel""), STOP_ON_FAILURE)",Chrome 102.0.5005.115,,,2022-06-20 20:02:50,2022-06-20 20:02:51,0.589s,PASSED
+delay(3),Chrome 102.0.5005.115,,,2022-06-20 20:02:51,2022-06-20 20:02:54,3.016s,PASSED
+"click(findTestObject(""07-Directory/Connections/span_Work""))",Chrome 102.0.5005.115,,,2022-06-20 20:02:54,2022-06-20 20:02:55,0.844s,PASSED
+"click(findTestObject(""07-Directory/Connections/address_Save""))",Chrome 102.0.5005.115,,,2022-06-20 20:02:55,2022-06-20 20:02:55,0.602s,PASSED
+delay(3),Chrome 102.0.5005.115,,,2022-06-20 20:02:55,2022-06-20 20:02:58,3.007s,PASSED
+"verifyElementVisible(findTestObject(""07-Directory/Connections/added address""))",Chrome 102.0.5005.115,,,2022-06-20 20:02:58,2022-06-20 20:02:59,0.722s,PASSED
+"click(findTestObject(""07-Directory/Connections/button_Create""))",Chrome 102.0.5005.115,,,2022-06-20 20:02:59,2022-06-20 20:02:59,0.424s,PASSED
+delay(3),Chrome 102.0.5005.115,,,2022-06-20 20:02:59,2022-06-20 20:03:02,3.009s,PASSED
+"verifyElementVisible(findTestObject(""07-Directory/Connections/div_added user""))",Chrome 102.0.5005.115,,,2022-06-20 20:03:02,2022-06-20 20:03:03,0.368s,PASSED
+closeBrowser(),Chrome 102.0.5005.115,,,2022-06-20 20:03:03,2022-06-20 20:03:03,0.695s,PASSED

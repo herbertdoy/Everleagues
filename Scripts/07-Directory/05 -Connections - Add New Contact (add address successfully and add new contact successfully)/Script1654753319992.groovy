@@ -47,5 +47,3 @@ WebUI.delay(3)
 
 WebUI.verifyElementVisible(findTestObject('07-Directory/Connections/div_added user'))
 
-WebUI.closeBrowser()
-

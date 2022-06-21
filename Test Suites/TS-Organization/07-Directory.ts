@@ -46,4 +46,11 @@
       <testCaseId>Test Cases/07-Directory/05 -Connections - Add New Contact (add address successfully and add new contact successfully)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
+   <testCaseLink>
+      <guid>7abdcbfe-f4a2-4a97-8981-4e08edd2b366</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/07-Directory/06- Connections - Invite contact as new user</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
 </TestSuiteEntity>
