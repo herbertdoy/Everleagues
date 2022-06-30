@@ -55,5 +55,5 @@ WebUI.click(findTestObject('07-Directory/Connections/zContact Profile/button_Sen
 
 WebUI.verifyElementVisible(findTestObject('07-Directory/Connections/zContact Profile/Successfully invited user'))
 
-WebUI.closeBrowser()
+WebUI.click(findTestObject('07-Directory/Connections/zContact Profile/button_OK'))
 

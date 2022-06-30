@@ -105,6 +105,8 @@ WebUI.click(findTestObject('07-Directory/Connections/button_add new contact'))
 
 WebUI.delay(3)
 
+WebUI.click(findTestObject('07-Directory/Connections/input_Type_email'))
+
 WebUI.verifyElementVisible(findTestObject('07-Directory/Connections/Add new contact modal'))
 
 WebUI.delay(3)

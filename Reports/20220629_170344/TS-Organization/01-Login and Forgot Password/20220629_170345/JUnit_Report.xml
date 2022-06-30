@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="01-Login and Forgot Password" time="171.245" tests="8" failures="0" errors="0">
+   <testsuite name="01-Login and Forgot Password" tests="8" failures="0" errors="0" time="171.245" skipped="0" timestamp="2022-06-29 17:03:48" hostname="User - DESKTOP-QCRNR4M" id="Test Suites/TS-Organization/01-Login and Forgot Password">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\User\\Katalon Studio\\EverleaguesMain\\Reports\\20220629_170344\\TS-Organization\\01-Login and Forgot Password\\20220629_170345"/>
+         <property name="logFiles" value="C:\\Users\\User\\Katalon Studio\\EverleaguesMain\\Reports\\20220629_170344\\TS-Organization\\01-Login and Forgot Password\\20220629_170345\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="User - DESKTOP-QCRNR4M"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.3.5.208"/>
+         <property name="browser" value="Chrome 102.0.5005.115"/>
+         <property name="hostAddress" value="192.168.5.89"/>
+         <property name="sessionId" value="b8ba16f881eee421a1250fdc6834d0cb"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/01-Login and Forgot Password/01-Login(Credentials Blank)" time="40.905" classname="Test Cases/01-Login and Forgot Password/01-Login(Credentials Blank)" status="PASSED">
+         <system-out><![CDATA[2022-06-29 17:03:48 - [TEST_CASE][PASSED] - Test Cases/01-Login and Forgot Password/01-Login(Credentials Blank): Test Cases/01-Login and Forgot Password/01-Login(Credentials Blank)
+
+2022-06-29 17:03:49 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-06-29 17:03:49 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-06-29 17:03:49 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-06-29 17:03:51 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-06-29 17:03:51 - [TEST_STEP][PASSED] - navigateToUrl("https://lab.everleagues.com/"): Navigate to 'https://lab.everleagues.com/' successfully
+
+2022-06-29 17:04:23 - [MESSAGE][PASSED] - Navigate to 'https://lab.everleagues.com/' successfully
+
+2022-06-29 17:04:23 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-06-29 17:04:23 - [MESSAGE][PASSED] - Current window maximized
+
+2022-06-29 17:04:23 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("01-Login and Forgot Password/Login_Card"), 0): Object 'Object Repository/01-Login and Forgot Password/Login_Card' is present
+
+2022-06-29 17:04:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-06-29 17:04:24 - [MESSAGE][PASSED] - Object 'Object Repository/01-Login and Forgot Password/Login_Card' is present
+
+2022-06-29 17:04:24 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-06-29 17:04:26 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-06-29 17:04:26 - [TEST_STEP][PASSED] - verifyElementNotClickable(findTestObject("01-Login and Forgot Password/button_Sign in")): Object 'Object Repository/01-Login and Forgot Password/button_Sign in' is NOT clickable
+
+2022-06-29 17:04:26 - [MESSAGE][PASSED] - Object 'Object Repository/01-Login and Forgot Password/button_Sign in' is NOT clickable
+
+2022-06-29 17:04:26 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-06-29 17:04:29 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/01-Login and Forgot Password/02-Login(Wrong Email)" time="11.5" classname="Test Cases/01-Login and Forgot Password/02-Login(Wrong Email)" status="PASSED">
+         <system-out><![CDATA[2022-06-29 17:04:29 - [TEST_CASE][PASSED] - Test Cases/01-Login and Forgot Password/02-Login(Wrong Email): Test Cases/01-Login and Forgot Password/02-Login(Wrong Email)
+
+2022-06-29 17:04:30 - [TEST_STEP][PASSED] - setText(findTestObject("01-Login and Forgot Password/input_Email_email"), "unregisteredemail@test.com"): Text 'unregisteredemail@test.com' is set on object 'Object Repository/01-Login and Forgot Password/input_Email_email'
+
+2022-06-29 17:04:30 - [MESSAGE][PASSED] - Text 'unregisteredemail@test.com' is set on object 'Object Repository/01-Login and Forgot Password/input_Email_email'
+
+2022-06-29 17:04:30 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("01-Login and Forgot Password/input_Email_password"), "pUQNV8a0dCQ="): Text ****** has been set on object 'Object Repository/01-Login and Forgot Password/input_Email_password'
+
+2022-06-29 17:04:31 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/01-Login and Forgot Password/input_Email_password'
+
+2022-06-29 17:04:31 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-06-29 17:04:34 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-29 17:04:34 - [TEST_STEP][PASSED] - click(findTestObject("01-Login and Forgot Password/button_Sign in")): Object: 'Object Repository/01-Login and Forgot Password/button_Sign in' is clicked on
+
+2022-06-29 17:04:34 - [MESSAGE][PASSED] - Object: 'Object Repository/01-Login and Forgot Password/button_Sign in' is clicked on
+
+2022-06-29 17:04:34 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-06-29 17:04:37 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-29 17:04:37 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("01-Login and Forgot Password/Invalid email error"), 0): Object 'Object Repository/01-Login and Forgot Password/Invalid email error' is present
+
+2022-06-29 17:04:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-06-29 17:04:38 - [MESSAGE][PASSED] - Object 'Object Repository/01-Login and Forgot Password/Invalid email error' is present
+
+2022-06-29 17:04:38 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-06-29 17:04:41 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/01-Login and Forgot Password/03-Login(Valid email, wrong pass)" time="13.7" classname="Test Cases/01-Login and Forgot Password/03-Login(Valid email, wrong pass)" status="PASSED">
+         <system-out><![CDATA[2022-06-29 17:04:41 - [TEST_CASE][PASSED] - Test Cases/01-Login and Forgot Password/03-Login(Valid email, wrong pass): Test Cases/01-Login and Forgot Password/03-Login(Valid email, wrong pass)
+
+2022-06-29 17:04:41 - [TEST_STEP][PASSED] - setText(findTestObject("01-Login and Forgot Password/input_Email_email"), "testuser01@mailinator.com"): Text 'testuser01@mailinator.com' is set on object 'Object Repository/01-Login and Forgot Password/input_Email_email'
+
+2022-06-29 17:04:42 - [MESSAGE][PASSED] - Text 'testuser01@mailinator.com' is set on object 'Object Repository/01-Login and Forgot Password/input_Email_email'
+
+2022-06-29 17:04:42 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("01-Login and Forgot Password/input_Email_password"), "OxgQgnWTiECE3BxjMAl2ng=="): Text ****** has been set on object 'Object Repository/01-Login and Forgot Password/input_Email_password'
+
+2022-06-29 17:04:42 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/01-Login and Forgot Password/input_Email_password'
+
+2022-06-29 17:04:42 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-06-29 17:04:44 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-06-29 17:04:44 - [TEST_STEP][PASSED] - click(findTestObject("01-Login and Forgot Password/show pass button")): Object: 'Object Repository/01-Login and Forgot Password/show pass button' is clicked on
+
+2022-06-29 17:04:45 - [MESSAGE][PASSED] - Object: 'Object Repository/01-Login and Forgot Password/show pass button' is clicked on
+
+2022-06-29 17:04:45 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-06-29 17:04:48 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-29 17:04:48 - [TEST_STEP][PASSED] - click(findTestObject("01-Login and Forgot Password/button_Sign in")): Object: 'Object Repository/01-Login and Forgot Password/button_Sign in' is clicked on
+
+2022-06-29 17:04:48 - [MESSAGE][PASSED] - Object: 'Object Repository/01-Login and Forgot Password/button_Sign in' is clicked on
+
+2022-06-29 17:04:48 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-06-29 17:04:51 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-29 17:04:51 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("01-Login and Forgot Password/Invalid user name or password"), 0): Object 'Object Repository/01-Login and Forgot Password/Invalid user name or password' is present
+
+2022-06-29 17:04:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-06-29 17:04:52 - [MESSAGE][PASSED] - Object 'Object Repository/01-Login and Forgot Password/Invalid user name or password' is present
+
+2022-06-29 17:04:52 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-06-29 17:04:55 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/01-Login and Forgot Password/04-Login (valid credentials)" time="60.058" classname="Test Cases/01-Login and Forgot Password/04-Login (valid credentials)" status="PASSED">
+         <system-out><![CDATA[2022-06-29 17:04:55 - [TEST_CASE][PASSED] - Test Cases/01-Login and Forgot Password/04-Login (valid credentials): Test Cases/01-Login and Forgot Password/04-Login (valid credentials)
+
+2022-06-29 17:04:55 - [TEST_STEP][PASSED] - setText(findTestObject("01-Login and Forgot Password/input_Email_email"), "testuser01@mailinator.com"): Text 'testuser01@mailinator.com' is set on object 'Object Repository/01-Login and Forgot Password/input_Email_email'
+
+2022-06-29 17:04:56 - [MESSAGE][PASSED] - Text 'testuser01@mailinator.com' is set on object 'Object Repository/01-Login and Forgot Password/input_Email_email'
+
+2022-06-29 17:04:56 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("01-Login and Forgot Password/input_Email_password2"), "8yFRyszE6U6jvsCn51OQbg=="): Text ****** has been set on object 'Object Repository/01-Login and Forgot Password/input_Email_password2'
+
+2022-06-29 17:04:57 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/01-Login and Forgot Password/input_Email_password2'
+
+2022-06-29 17:04:57 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-06-29 17:04:59 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-06-29 17:04:59 - [TEST_STEP][PASSED] - click(findTestObject("01-Login and Forgot Password/show pass button")): Object: 'Object Repository/01-Login and Forgot Password/show pass button' is clicked on
+
+2022-06-29 17:04:59 - [MESSAGE][PASSED] - Object: 'Object Repository/01-Login and Forgot Password/show pass button' is clicked on
+
+2022-06-29 17:04:59 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-06-29 17:05:02 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-29 17:05:02 - [TEST_STEP][PASSED] - click(findTestObject("01-Login and Forgot Password/button_Sign in")): Object: 'Object Repository/01-Login and Forgot Password/button_Sign in' is clicked on
+
+2022-06-29 17:05:03 - [MESSAGE][PASSED] - Object: 'Object Repository/01-Login and Forgot Password/button_Sign in' is clicked on
+
+2022-06-29 17:05:03 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-06-29 17:05:06 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-29 17:05:06 - [TEST_STEP][PASSED] - click(findTestObject("06-Teams/For 2FA/button_Confirm_2FA")): Object: 'Object Repository/06-Teams/For 2FA/button_Confirm_2FA' is clicked on
+
+2022-06-29 17:05:06 - [MESSAGE][PASSED] - Object: 'Object Repository/06-Teams/For 2FA/button_Confirm_2FA' is clicked on
+
+2022-06-29 17:05:06 - [TEST_STEP][PASSED] - executeJavaScript("window.open();", []): Execute JavaScript 'window.open();' successfully
+
+2022-06-29 17:05:06 - [MESSAGE][PASSED] - Execute JavaScript 'window.open();' successfully
+
+2022-06-29 17:05:06 - [TEST_STEP][PASSED] - currentWindow = getWindowIndex(): Current window's index is: 0
+
+2022-06-29 17:05:06 - [MESSAGE][PASSED] - Current window's index is: 0
+
+2022-06-29 17:05:06 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-06-29 17:05:09 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-29 17:05:09 - [TEST_STEP][PASSED] - switchToWindowIndex(currentWindow + 1): Switched to window with index: '1'
+
+2022-06-29 17:05:09 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2022-06-29 17:05:09 - [TEST_STEP][PASSED] - navigateToUrl("https://www.mailinator.com/"): Navigate to 'https://www.mailinator.com/' successfully
+
+2022-06-29 17:05:12 - [MESSAGE][PASSED] - Navigate to 'https://www.mailinator.com/' successfully
+
+2022-06-29 17:05:12 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-06-29 17:05:15 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-29 17:05:15 - [TEST_STEP][PASSED] - setText(findTestObject("00-Signup and Activation/zMailinator/input_LOGIN_search"), "testuser01@mailinator.com"): Text 'testuser01@mailinator.com' is set on object 'Object Repository/00-Signup and Activation/zMailinator/input_LOGIN_search'
+
+2022-06-29 17:05:16 - [MESSAGE][PASSED] - Text 'testuser01@mailinator.com' is set on object 'Object Repository/00-Signup and Activation/zMailinator/input_LOGIN_search'
+
+2022-06-29 17:05:16 - [TEST_STEP][PASSED] - click(findTestObject("00-Signup and Activation/zMailinator/gobutton"), STOP_ON_FAILURE): Object: 'Object Repository/00-Signup and Activation/zMailinator/gobutton' is clicked on
+
+2022-06-29 17:05:17 - [MESSAGE][PASSED] - Object: 'Object Repository/00-Signup and Activation/zMailinator/gobutton' is clicked on
+
+2022-06-29 17:05:17 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-06-29 17:05:20 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-29 17:05:20 - [TEST_STEP][PASSED] - click(findTestObject("00-Signup and Activation/zMailinator/Email - everleagues")): Object: 'Object Repository/00-Signup and Activation/zMailinator/Email - everleagues' is clicked on
+
+2022-06-29 17:05:21 - [MESSAGE][PASSED] - Object: 'Object Repository/00-Signup and Activation/zMailinator/Email - everleagues' is clicked on
+
+2022-06-29 17:05:21 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-06-29 17:05:24 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-29 17:05:24 - [TEST_STEP][PASSED] - code = getText(findTestObject("Object Repository/06-Teams/For 2FA/2FA code")): Text of object 'Object Repository/06-Teams/For 2FA/2FA code' is: '392391'
+
+2022-06-29 17:05:24 - [MESSAGE][PASSED] - Text of object 'Object Repository/06-Teams/For 2FA/2FA code' is: '392391'
+
+2022-06-29 17:05:24 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-06-29 17:05:27 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-29 17:05:27 - [TEST_STEP][PASSED] - closeWindowTitle("Mailinator"): Window with title: 'Mailinator' is closed
+
+2022-06-29 17:05:27 - [MESSAGE][PASSED] - Window with title: 'Mailinator' is closed
+
+2022-06-29 17:05:27 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-06-29 17:05:30 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-29 17:05:30 - [TEST_STEP][PASSED] - switchToWindowIndex(0): Switched to window with index: '0'
+
+2022-06-29 17:05:30 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2022-06-29 17:05:30 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-06-29 17:05:33 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-29 17:05:33 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/06-Teams/For 2FA/input_Enter verification code_code"), code): Text '392391' is set on object 'Object Repository/06-Teams/For 2FA/input_Enter verification code_code'
+
+2022-06-29 17:05:34 - [MESSAGE][PASSED] - Text '392391' is set on object 'Object Repository/06-Teams/For 2FA/input_Enter verification code_code'
+
+2022-06-29 17:05:34 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-06-29 17:05:37 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-29 17:05:37 - [TEST_STEP][PASSED] - click(findTestObject("06-Teams/For 2FA/button_Verify_2FA")): Object: 'Object Repository/06-Teams/For 2FA/button_Verify_2FA' is clicked on
+
+2022-06-29 17:05:38 - [MESSAGE][PASSED] - Object: 'Object Repository/06-Teams/For 2FA/button_Verify_2FA' is clicked on
+
+2022-06-29 17:05:38 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-06-29 17:05:43 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-06-29 17:05:43 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("01-Login and Forgot Password/h4_EVERLEAGUES (v0.11.16 build 324)"), 0): Object 'Object Repository/01-Login and Forgot Password/h4_EVERLEAGUES (v0.11.16 build 324)' is present
+
+2022-06-29 17:05:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-06-29 17:05:45 - [MESSAGE][PASSED] - Object 'Object Repository/01-Login and Forgot Password/h4_EVERLEAGUES (v0.11.16 build 324)' is present
+
+2022-06-29 17:05:45 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2022-06-29 17:05:55 - [MESSAGE][PASSED] - Delayed 10 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/01-Login and Forgot Password/05-Logout" time="8.968" classname="Test Cases/01-Login and Forgot Password/05-Logout" status="PASSED">
+         <system-out><![CDATA[2022-06-29 17:05:55 - [TEST_CASE][PASSED] - Test Cases/01-Login and Forgot Password/05-Logout: Test Cases/01-Login and Forgot Password/05-Logout
+
+2022-06-29 17:05:55 - [TEST_STEP][PASSED] - click(findTestObject("01-Login and Forgot Password/User menu drop")): Object: 'Object Repository/01-Login and Forgot Password/User menu drop' is clicked on
+
+2022-06-29 17:05:56 - [MESSAGE][PASSED] - Object: 'Object Repository/01-Login and Forgot Password/User menu drop' is clicked on
+
+2022-06-29 17:05:56 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-06-29 17:05:58 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-06-29 17:05:58 - [TEST_STEP][PASSED] - click(findTestObject("01-Login and Forgot Password/h4_Sign Out"), STOP_ON_FAILURE): Object: 'Object Repository/01-Login and Forgot Password/h4_Sign Out' is clicked on
+
+2022-06-29 17:05:58 - [MESSAGE][PASSED] - Object: 'Object Repository/01-Login and Forgot Password/h4_Sign Out' is clicked on
+
+2022-06-29 17:05:58 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-06-29 17:06:00 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-06-29 17:06:00 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("01-Login and Forgot Password/Login_Card"), 0): Object 'Object Repository/01-Login and Forgot Password/Login_Card' is present
+
+2022-06-29 17:06:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-06-29 17:06:01 - [MESSAGE][PASSED] - Object 'Object Repository/01-Login and Forgot Password/Login_Card' is present
+
+2022-06-29 17:06:01 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-06-29 17:06:04 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/01-Login and Forgot Password/06-Forgot Password(Credentials Blank)" time="6.516" classname="Test Cases/01-Login and Forgot Password/06-Forgot Password(Credentials Blank)" status="PASSED">
+         <system-out><![CDATA[2022-06-29 17:06:04 - [TEST_CASE][PASSED] - Test Cases/01-Login and Forgot Password/06-Forgot Password(Credentials Blank): Test Cases/01-Login and Forgot Password/06-Forgot Password(Credentials Blank)
+
+2022-06-29 17:06:04 - [TEST_STEP][PASSED] - click(findTestObject("01-Login and Forgot Password/zForgot Password/a_Forgot password")): Object: 'Object Repository/01-Login and Forgot Password/zForgot Password/a_Forgot password' is clicked on
+
+2022-06-29 17:06:04 - [MESSAGE][PASSED] - Object: 'Object Repository/01-Login and Forgot Password/zForgot Password/a_Forgot password' is clicked on
+
+2022-06-29 17:06:04 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("01-Login and Forgot Password/zForgot Password/span_Reset Password"), 0): Object 'Object Repository/01-Login and Forgot Password/zForgot Password/span_Reset Password' is present
+
+2022-06-29 17:06:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-06-29 17:06:05 - [MESSAGE][PASSED] - Object 'Object Repository/01-Login and Forgot Password/zForgot Password/span_Reset Password' is present
+
+2022-06-29 17:06:05 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-06-29 17:06:07 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-06-29 17:06:07 - [TEST_STEP][PASSED] - verifyElementNotClickable(findTestObject("01-Login and Forgot Password/zForgot Password/button_Reset Password")): Object 'Object Repository/01-Login and Forgot Password/zForgot Password/button_Reset Password' is NOT clickable
+
+2022-06-29 17:06:07 - [MESSAGE][PASSED] - Object 'Object Repository/01-Login and Forgot Password/zForgot Password/button_Reset Password' is NOT clickable
+
+2022-06-29 17:06:07 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-06-29 17:06:10 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/01-Login and Forgot Password/07-Forgot Password(Wrong email)" time="10.882" classname="Test Cases/01-Login and Forgot Password/07-Forgot Password(Wrong email)" status="PASSED">
+         <system-out><![CDATA[2022-06-29 17:06:10 - [TEST_CASE][PASSED] - Test Cases/01-Login and Forgot Password/07-Forgot Password(Wrong email): Test Cases/01-Login and Forgot Password/07-Forgot Password(Wrong email)
+
+2022-06-29 17:06:10 - [TEST_STEP][PASSED] - setText(findTestObject("01-Login and Forgot Password/zForgot Password/Reset pass email field"), "unregisteredemail@test.com"): Text 'unregisteredemail@test.com' is set on object 'Object Repository/01-Login and Forgot Password/zForgot Password/Reset pass email field'
+
+2022-06-29 17:06:11 - [MESSAGE][PASSED] - Text 'unregisteredemail@test.com' is set on object 'Object Repository/01-Login and Forgot Password/zForgot Password/Reset pass email field'
+
+2022-06-29 17:06:11 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-06-29 17:06:13 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-06-29 17:06:13 - [TEST_STEP][PASSED] - click(findTestObject("01-Login and Forgot Password/zForgot Password/button_Reset Password")): Object: 'Object Repository/01-Login and Forgot Password/zForgot Password/button_Reset Password' is clicked on
+
+2022-06-29 17:06:14 - [MESSAGE][PASSED] - Object: 'Object Repository/01-Login and Forgot Password/zForgot Password/button_Reset Password' is clicked on
+
+2022-06-29 17:06:14 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("01-Login and Forgot Password/zForgot Password/Reset pass- wrong email"), 0): Object 'Object Repository/01-Login and Forgot Password/zForgot Password/Reset pass- wrong email' is present
+
+2022-06-29 17:06:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-06-29 17:06:15 - [MESSAGE][PASSED] - Object 'Object Repository/01-Login and Forgot Password/zForgot Password/Reset pass- wrong email' is present
+
+2022-06-29 17:06:15 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-06-29 17:06:18 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-29 17:06:18 - [TEST_STEP][PASSED] - click(findTestObject("01-Login and Forgot Password/zForgot Password/button_Back to login")): Object: 'Object Repository/01-Login and Forgot Password/zForgot Password/button_Back to login' is clicked on
+
+2022-06-29 17:06:18 - [MESSAGE][PASSED] - Object: 'Object Repository/01-Login and Forgot Password/zForgot Password/button_Back to login' is clicked on
+
+2022-06-29 17:06:18 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-06-29 17:06:21 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/01-Login and Forgot Password/08-Forgot Password(Correct Email)" time="18.346" classname="Test Cases/01-Login and Forgot Password/08-Forgot Password(Correct Email)" status="PASSED">
+         <system-out><![CDATA[2022-06-29 17:06:21 - [TEST_CASE][PASSED] - Test Cases/01-Login and Forgot Password/08-Forgot Password(Correct Email): Test Cases/01-Login and Forgot Password/08-Forgot Password(Correct Email)
+
+2022-06-29 17:06:21 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-06-29 17:06:23 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-06-29 17:06:23 - [TEST_STEP][PASSED] - click(findTestObject("01-Login and Forgot Password/zForgot Password/a_Forgot password")): Object: 'Object Repository/01-Login and Forgot Password/zForgot Password/a_Forgot password' is clicked on
+
+2022-06-29 17:06:24 - [MESSAGE][PASSED] - Object: 'Object Repository/01-Login and Forgot Password/zForgot Password/a_Forgot password' is clicked on
+
+2022-06-29 17:06:24 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("01-Login and Forgot Password/zForgot Password/span_Reset Password"), 0): Object 'Object Repository/01-Login and Forgot Password/zForgot Password/span_Reset Password' is present
+
+2022-06-29 17:06:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-06-29 17:06:24 - [MESSAGE][PASSED] - Object 'Object Repository/01-Login and Forgot Password/zForgot Password/span_Reset Password' is present
+
+2022-06-29 17:06:24 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-06-29 17:06:26 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-06-29 17:06:26 - [TEST_STEP][PASSED] - setText(findTestObject("01-Login and Forgot Password/zForgot Password/Reset pass email field"), "testuser01@mailinator.com"): Text 'testuser01@mailinator.com' is set on object 'Object Repository/01-Login and Forgot Password/zForgot Password/Reset pass email field'
+
+2022-06-29 17:06:27 - [MESSAGE][PASSED] - Text 'testuser01@mailinator.com' is set on object 'Object Repository/01-Login and Forgot Password/zForgot Password/Reset pass email field'
+
+2022-06-29 17:06:27 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-06-29 17:06:29 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-06-29 17:06:29 - [TEST_STEP][PASSED] - click(findTestObject("01-Login and Forgot Password/zForgot Password/button_Reset Password")): Object: 'Object Repository/01-Login and Forgot Password/zForgot Password/button_Reset Password' is clicked on
+
+2022-06-29 17:06:30 - [MESSAGE][PASSED] - Object: 'Object Repository/01-Login and Forgot Password/zForgot Password/button_Reset Password' is clicked on
+
+2022-06-29 17:06:30 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("01-Login and Forgot Password/zForgot Password/Reset pass - success msg"), 0): Object 'Object Repository/01-Login and Forgot Password/zForgot Password/Reset pass - success msg' is present
+
+2022-06-29 17:06:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-06-29 17:06:31 - [MESSAGE][PASSED] - Object 'Object Repository/01-Login and Forgot Password/zForgot Password/Reset pass - success msg' is present
+
+2022-06-29 17:06:31 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-06-29 17:06:33 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-06-29 17:06:33 - [TEST_STEP][PASSED] - click(findTestObject("01-Login and Forgot Password/zForgot Password/button_Back to login")): Object: 'Object Repository/01-Login and Forgot Password/zForgot Password/button_Back to login' is clicked on
+
+2022-06-29 17:06:33 - [MESSAGE][PASSED] - Object: 'Object Repository/01-Login and Forgot Password/zForgot Password/button_Back to login' is clicked on
+
+2022-06-29 17:06:33 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-06-29 17:06:36 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-29 17:06:36 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("01-Login and Forgot Password/Login_Card")): Object 'Object Repository/01-Login and Forgot Password/Login_Card' is visible
+
+2022-06-29 17:06:37 - [MESSAGE][PASSED] - Object 'Object Repository/01-Login and Forgot Password/Login_Card' is visible
+
+2022-06-29 17:06:37 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-06-29 17:06:39 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-06-29 17:06:39 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-06-29 17:06:39 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-06-29 17:03:48 - [TEST_SUITE][PASSED] - 01-Login and Forgot Password: Test Cases/01-Login and Forgot Password/08-Forgot Password(Correct Email)]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

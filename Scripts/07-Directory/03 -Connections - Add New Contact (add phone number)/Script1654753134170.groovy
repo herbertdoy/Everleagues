@@ -19,11 +19,11 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.verifyElementVisible(findTestObject('07-Directory/Connections/area code modal'))
 
-WebUI.click(findTestObject('07-Directory/Connections/button_United States 1'))
+WebUI.click(findTestObject('07-Directory/Connections/button_Australia'))
 
 WebUI.delay(3)
 
-WebUI.setText(findTestObject('07-Directory/Connections/input_Type_phone'), '2345678901')
+WebUI.setText(findTestObject('07-Directory/Connections/input_Type_phone'), '488827341')
 
 WebUI.delay(3)
 
