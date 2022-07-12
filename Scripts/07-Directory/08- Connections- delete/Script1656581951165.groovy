@@ -31,5 +31,3 @@ WebUI.verifyElementVisible(findTestObject('07-Directory/Connections/zContact Pro
 
 WebUI.delay(2)
 
-WebUI.closeBrowser()
-

@@ -1,0 +1,85 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+04-Add my Organizations,Chrome 103.0.5060.114,,,2022-07-08 17:53:21,2022-07-08 17:55:16,1m - 55.051s,FAILED
+,,,,,,,
+Test Cases/04-Add my Organizations/01- Free limited Plan (Blank fields),Chrome 103.0.5060.114,,,2022-07-08 17:53:21,2022-07-08 17:54:44,1m - 22.621s,PASSED
+"openBrowser("""")",Chrome 103.0.5060.114,,,2022-07-08 17:53:22,2022-07-08 17:53:24,2.342s,PASSED
+"navigateToUrl(""https://lab.everleagues.com/"")",Chrome 103.0.5060.114,,,2022-07-08 17:53:24,2022-07-08 17:53:49,25.316s,PASSED
+maximizeWindow(),Chrome 103.0.5060.114,,,2022-07-08 17:53:49,2022-07-08 17:53:50,0.172s,PASSED
+"setText(findTestObject(""02-Side Icons(Organization)/Add Contact/Email Field""), ""testuser02@mailinator.com"")",Chrome 103.0.5060.114,,,2022-07-08 17:53:50,2022-07-08 17:53:50,0.787s,PASSED
+"setEncryptedText(findTestObject(""02-Side Icons(Organization)/Add Contact/Password Field""), ""8yFRyszE6U6jvsCn51OQbg=="")",Chrome 103.0.5060.114,,,2022-07-08 17:53:50,2022-07-08 17:53:52,1.119s,PASSED
+"click(findTestObject(""02-Side Icons(Organization)/Add Contact/button_Sign in""))",Chrome 103.0.5060.114,,,2022-07-08 17:53:52,2022-07-08 17:53:52,0.744s,PASSED
+delay(2),Chrome 103.0.5060.114,,,2022-07-08 17:53:52,2022-07-08 17:53:54,2.033s,PASSED
+"click(findTestObject(""06-Teams/For 2FA/button_Confirm_2FA""))",Chrome 103.0.5060.114,,,2022-07-08 17:53:54,2022-07-08 17:53:55,0.361s,PASSED
+"executeJavaScript(""window.open();"", [])",Chrome 103.0.5060.114,,,2022-07-08 17:53:55,2022-07-08 17:53:55,0.059s,PASSED
+currentWindow = getWindowIndex(),Chrome 103.0.5060.114,,,2022-07-08 17:53:55,2022-07-08 17:53:55,0.024s,PASSED
+delay(3),Chrome 103.0.5060.114,,,2022-07-08 17:53:55,2022-07-08 17:53:58,3.011s,PASSED
+switchToWindowIndex(currentWindow + 1),Chrome 103.0.5060.114,,,2022-07-08 17:53:58,2022-07-08 17:53:58,0.033s,PASSED
+"navigateToUrl(""https://www.mailinator.com/"")",Chrome 103.0.5060.114,,,2022-07-08 17:53:58,2022-07-08 17:54:00,2.287s,PASSED
+delay(3),Chrome 103.0.5060.114,,,2022-07-08 17:54:00,2022-07-08 17:54:03,3.006s,PASSED
+"setText(findTestObject(""00-Signup and Activation/zMailinator/input_LOGIN_search""), ""testuser02@mailinator.com"")",Chrome 103.0.5060.114,,,2022-07-08 17:54:03,2022-07-08 17:54:04,0.721s,PASSED
+"click(findTestObject(""00-Signup and Activation/zMailinator/gobutton""), STOP_ON_FAILURE)",Chrome 103.0.5060.114,,,2022-07-08 17:54:04,2022-07-08 17:54:05,1.080s,PASSED
+delay(3),Chrome 103.0.5060.114,,,2022-07-08 17:54:05,2022-07-08 17:54:08,3.010s,PASSED
+"click(findTestObject(""00-Signup and Activation/zMailinator/Email - everleagues""))",Chrome 103.0.5060.114,,,2022-07-08 17:54:08,2022-07-08 17:54:08,0.380s,PASSED
+delay(3),Chrome 103.0.5060.114,,,2022-07-08 17:54:08,2022-07-08 17:54:11,3.013s,PASSED
+"code = getText(findTestObject(""Object Repository/06-Teams/For 2FA/2FA code""))",Chrome 103.0.5060.114,,,2022-07-08 17:54:11,2022-07-08 17:54:12,0.508s,PASSED
+delay(3),Chrome 103.0.5060.114,,,2022-07-08 17:54:12,2022-07-08 17:54:15,3.005s,PASSED
+"closeWindowTitle(""Mailinator"")",Chrome 103.0.5060.114,,,2022-07-08 17:54:15,2022-07-08 17:54:15,0.162s,PASSED
+delay(3),Chrome 103.0.5060.114,,,2022-07-08 17:54:15,2022-07-08 17:54:18,3.004s,PASSED
+switchToWindowIndex(0),Chrome 103.0.5060.114,,,2022-07-08 17:54:18,2022-07-08 17:54:18,0.019s,PASSED
+delay(3),Chrome 103.0.5060.114,,,2022-07-08 17:54:18,2022-07-08 17:54:21,3.019s,PASSED
+"setText(findTestObject(""Object Repository/06-Teams/For 2FA/input_Enter verification code_code""), code)",Chrome 103.0.5060.114,,,2022-07-08 17:54:21,2022-07-08 17:54:22,0.744s,PASSED
+delay(3),Chrome 103.0.5060.114,,,2022-07-08 17:54:22,2022-07-08 17:54:25,3.009s,PASSED
+"click(findTestObject(""06-Teams/For 2FA/button_Verify_2FA""))",Chrome 103.0.5060.114,,,2022-07-08 17:54:25,2022-07-08 17:54:25,0.566s,PASSED
+delay(5),Chrome 103.0.5060.114,,,2022-07-08 17:54:25,2022-07-08 17:54:30,5.011s,PASSED
+"click(findTestObject(""04-Add my Organizations/Free limited Plan/span_Add My Organization""))",Chrome 103.0.5060.114,,,2022-07-08 17:54:30,2022-07-08 17:54:31,1.137s,PASSED
+"verifyElementVisible(findTestObject(""04-Add my Organizations/Free limited Plan/Add my org modal""))",Chrome 103.0.5060.114,,,2022-07-08 17:54:31,2022-07-08 17:54:32,0.908s,PASSED
+delay(2),Chrome 103.0.5060.114,,,2022-07-08 17:54:32,2022-07-08 17:54:34,2.004s,PASSED
+"click(findTestObject(""04-Add my Organizations/Free limited Plan/input_orgName""))",Chrome 103.0.5060.114,,,2022-07-08 17:54:34,2022-07-08 17:54:35,0.487s,PASSED
+"click(findTestObject(""04-Add my Organizations/Free limited Plan/input_org alias""))",Chrome 103.0.5060.114,,,2022-07-08 17:54:35,2022-07-08 17:54:35,0.374s,PASSED
+"click(findTestObject(""04-Add my Organizations/Free limited Plan/div_Service Industry_select-arrow""))",Chrome 103.0.5060.114,,,2022-07-08 17:54:35,2022-07-08 17:54:36,0.613s,PASSED
+"sendKeys(findTestObject(null), Keys.chord(ESCAPE))",Chrome 103.0.5060.114,,,2022-07-08 17:54:36,2022-07-08 17:54:36,0.589s,PASSED
+delay(3),Chrome 103.0.5060.114,,,2022-07-08 17:54:36,2022-07-08 17:54:39,3.008s,PASSED
+"verifyElementVisible(findTestObject(""04-Add my Organizations/Free limited Plan/div_OrganizationName_error""))",Chrome 103.0.5060.114,,,2022-07-08 17:54:39,2022-07-08 17:54:40,0.387s,PASSED
+"verifyElementVisible(findTestObject(""04-Add my Organizations/Free limited Plan/div_Organization Alias_error""))",Chrome 103.0.5060.114,,,2022-07-08 17:54:40,2022-07-08 17:54:40,0.355s,PASSED
+"verifyElementVisible(findTestObject(""04-Add my Organizations/Free limited Plan/div_Service Industry_error""))",Chrome 103.0.5060.114,,,2022-07-08 17:54:40,2022-07-08 17:54:41,0.809s,PASSED
+delay(3),Chrome 103.0.5060.114,,,2022-07-08 17:54:41,2022-07-08 17:54:44,3.004s,PASSED
+,,,,,,,
+Test Cases/04-Add my Organizations/02- Free limited Plan (Used Org Alias),Chrome 103.0.5060.114,,,2022-07-08 17:54:44,2022-07-08 17:54:50,5.598s,PASSED
+"setText(findTestObject(""04-Add my Organizations/Free limited Plan/input_org alias""), ""1234"")",Chrome 103.0.5060.114,,,2022-07-08 17:54:44,2022-07-08 17:54:45,0.800s,PASSED
+"click(findTestObject(""04-Add my Organizations/Free limited Plan/input_orgName""))",Chrome 103.0.5060.114,,,2022-07-08 17:54:45,2022-07-08 17:54:46,0.463s,PASSED
+"verifyElementVisible(findTestObject(""04-Add my Organizations/Free limited Plan/mat-error_1234 already exists. Please enter another ID""))",Chrome 103.0.5060.114,,,2022-07-08 17:54:46,2022-07-08 17:54:47,1.046s,PASSED
+delay(3),Chrome 103.0.5060.114,,,2022-07-08 17:54:47,2022-07-08 17:54:50,3.015s,PASSED
+,,,,,,,
+Test Cases/04-Add my Organizations/03- Free limited Plan (Positive Scenarios),Chrome 103.0.5060.114,,,2022-07-08 17:54:50,2022-07-08 17:55:16,26.509s,FAILED
+delay(2),Chrome 103.0.5060.114,,,2022-07-08 17:54:50,2022-07-08 17:54:52,2.010s,PASSED
+"setText(findTestObject(""04-Add my Organizations/Free limited Plan/input_orgName""), ""GG Automation"")",Chrome 103.0.5060.114,,,2022-07-08 17:54:52,2022-07-08 17:54:53,0.756s,PASSED
+"setText(findTestObject(""04-Add my Organizations/Free limited Plan/input_org alias""), ""GGAutoAlias"")",Chrome 103.0.5060.114,,,2022-07-08 17:54:53,2022-07-08 17:54:54,0.885s,PASSED
+"click(findTestObject(""04-Add my Organizations/Free limited Plan/div_Service Industry_select-arrow""), STOP_ON_FAILURE)",Chrome 103.0.5060.114,,,2022-07-08 17:54:54,2022-07-08 17:54:54,0.568s,PASSED
+delay(1),Chrome 103.0.5060.114,,,2022-07-08 17:54:54,2022-07-08 17:54:55,1.015s,PASSED
+"verifyElementVisible(findTestObject(""04-Add my Organizations/Free limited Plan/span_CPA_EA_Accounting Firms""))",Chrome 103.0.5060.114,,,2022-07-08 17:54:55,2022-07-08 17:54:56,0.368s,PASSED
+"verifyElementVisible(findTestObject(""04-Add my Organizations/Free limited Plan/span_Law Firms""))",Chrome 103.0.5060.114,,,2022-07-08 17:54:56,2022-07-08 17:54:56,0.389s,PASSED
+"verifyElementVisible(findTestObject(""04-Add my Organizations/Free limited Plan/span_Medical Service_Physian_Dentist Office""))",Chrome 103.0.5060.114,,,2022-07-08 17:54:56,2022-07-08 17:54:56,0.386s,PASSED
+"verifyElementVisible(findTestObject(""04-Add my Organizations/Free limited Plan/span_Education""))",Chrome 103.0.5060.114,,,2022-07-08 17:54:56,2022-07-08 17:54:57,0.407s,PASSED
+"verifyElementVisible(findTestObject(""04-Add my Organizations/Free limited Plan/span_Real Estate""))",Chrome 103.0.5060.114,,,2022-07-08 17:54:57,2022-07-08 17:54:57,0.358s,PASSED
+"verifyElementVisible(findTestObject(""04-Add my Organizations/Free limited Plan/span_Other Service Business""))",Chrome 103.0.5060.114,,,2022-07-08 17:54:57,2022-07-08 17:54:57,0.390s,PASSED
+"verifyElementVisible(findTestObject(""04-Add my Organizations/Free limited Plan/span_Product Business""))",Chrome 103.0.5060.114,,,2022-07-08 17:54:57,2022-07-08 17:54:58,0.424s,PASSED
+"verifyElementVisible(findTestObject(""04-Add my Organizations/Free limited Plan/span_Community""))",Chrome 103.0.5060.114,,,2022-07-08 17:54:58,2022-07-08 17:54:58,0.357s,PASSED
+"verifyElementVisible(findTestObject(""04-Add my Organizations/Free limited Plan/span_Non Profit Organizations""))",Chrome 103.0.5060.114,,,2022-07-08 17:54:58,2022-07-08 17:54:59,0.391s,PASSED
+delay(1),Chrome 103.0.5060.114,,,2022-07-08 17:54:59,2022-07-08 17:55:00,1.002s,PASSED
+"click(findTestObject(""04-Add my Organizations/Free limited Plan/span_Other Service Business""))",Chrome 103.0.5060.114,,,2022-07-08 17:55:00,2022-07-08 17:55:00,0.439s,PASSED
+"click(findTestObject(""04-Add my Organizations/Free limited Plan/button_Next""))",Chrome 103.0.5060.114,,,2022-07-08 17:55:00,2022-07-08 17:55:01,1.072s,PASSED
+delay(1),Chrome 103.0.5060.114,,,2022-07-08 17:55:01,2022-07-08 17:55:02,1.005s,PASSED
+"verifyElementVisible(findTestObject(""04-Add my Organizations/Free limited Plan/add my org modal 2""))",Chrome 103.0.5060.114,,,2022-07-08 17:55:02,2022-07-08 17:55:03,0.351s,PASSED
+"click(findTestObject(""04-Add my Organizations/Free limited Plan/Free limited plan radio button""))",Chrome 103.0.5060.114,,,2022-07-08 17:55:03,2022-07-08 17:55:03,0.390s,PASSED
+delay(1),Chrome 103.0.5060.114,,,2022-07-08 17:55:03,2022-07-08 17:55:04,1.007s,PASSED
+"click(findTestObject(""04-Add my Organizations/Free limited Plan/span_Usage limit""))",Chrome 103.0.5060.114,,,2022-07-08 17:55:04,2022-07-08 17:55:04,0.484s,PASSED
+switchToWindowIndex(1),Chrome 103.0.5060.114,,,2022-07-08 17:55:04,2022-07-08 17:55:04,0.018s,PASSED
+delay(5),Chrome 103.0.5060.114,,,2022-07-08 17:55:04,2022-07-08 17:55:09,5.003s,PASSED
+"assert getUrl() == ""https://www.everleagues.com/pricing""",Chrome 103.0.5060.114,,,2022-07-08 17:55:09,2022-07-08 17:55:09,0.034s,PASSED
+"closeWindowUrl(""https://www.everleagues.com/pricing"")",Chrome 103.0.5060.114,,,2022-07-08 17:55:09,2022-07-08 17:55:10,0.201s,PASSED
+switchToWindowIndex(0),Chrome 103.0.5060.114,,,2022-07-08 17:55:10,2022-07-08 17:55:10,0.032s,PASSED
+delay(1),Chrome 103.0.5060.114,,,2022-07-08 17:55:10,2022-07-08 17:55:11,1.010s,PASSED
+"click(findTestObject(""04-Add my Organizations/Free limited Plan/a_open_in_newPricing detail""))",Chrome 103.0.5060.114,,,2022-07-08 17:55:11,2022-07-08 17:55:11,0.387s,PASSED
+switchToWindowIndex(1),Chrome 103.0.5060.114,,,2022-07-08 17:55:11,2022-07-08 17:55:11,0.020s,PASSED
+delay(5),Chrome 103.0.5060.114,,,2022-07-08 17:55:11,2022-07-08 17:55:16,5.003s,PASSED
+"assert getUrl() == ""https://www.everleagues.com/pricing/""",Chrome 103.0.5060.114,,,2022-07-08 17:55:16,2022-07-08 17:55:16,0.021s,FAILED

@@ -49,6 +49,12 @@ WebUI.delay(1)
 
 WebUI.click(findTestObject('04-Add my Organizations/Free limited Plan/span_Other Service Business'))
 
+WebUI.click(findTestObject('04-Add my Organizations/Free limited Plan/button_Next'))
+
+WebUI.delay(1)
+
+WebUI.verifyElementVisible(findTestObject('04-Add my Organizations/Free limited Plan/add my org modal 2'))
+
 WebUI.click(findTestObject('04-Add my Organizations/Free limited Plan/Free limited plan radio button'))
 
 WebUI.delay(1)
@@ -59,13 +65,37 @@ WebUI.switchToWindowIndex(1)
 
 WebUI.delay(5)
 
-assert WebUI.getUrl() == 'https://www.everleagues.com/pricing/'
+assert WebUI.getUrl() == 'https://www.everleagues.com/pricing'
 
-WebUI.closeWindowUrl('https://www.everleagues.com/pricing/')
+WebUI.closeWindowUrl('https://www.everleagues.com/pricing')
 
 WebUI.switchToWindowIndex(0)
 
 WebUI.delay(1)
+
+WebUI.click(findTestObject('04-Add my Organizations/Free limited Plan/a_open_in_newPricing detail'))
+
+WebUI.switchToWindowIndex(1)
+
+WebUI.delay(5)
+
+assert WebUI.getUrl() == 'https://www.everleagues.com/pricing'
+
+WebUI.closeWindowUrl('https://www.everleagues.com/pricing')
+
+WebUI.switchToWindowIndex(0)
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('04-Add my Organizations/Free limited Plan/button_Next2'))
+
+WebUI.delay(1)
+
+WebUI.verifyElementVisible(findTestObject('04-Add my Organizations/Free limited Plan/add my org modal 3'))
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('04-Add my Organizations/Free limited Plan/SaaS checkbox'))
 
 WebUI.click(findTestObject('04-Add my Organizations/Free limited Plan/a_Software as a service (SaaS) subscription agreement'))
 
@@ -78,10 +108,6 @@ assert WebUI.getUrl() == 'https://www.everleagues.com/saas-agreement/'
 WebUI.closeWindowUrl('https://www.everleagues.com/saas-agreement/')
 
 WebUI.switchToWindowIndex(0)
-
-WebUI.delay(1)
-
-WebUI.click(findTestObject('04-Add my Organizations/Free limited Plan/SaaS checkbox'))
 
 WebUI.delay(1)
 

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>h4_LABELS</name>
+   <tag></tag>
+   <elementGuidId>59daaee3-0a42-41dd-83a5-72704495feb0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Everleagues © All Rights Reserved'])[1]/following::h4[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>h4.ng-tns-c481-5</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h4</value>
+      <webElementGuid>aeebded5-7bf0-4d62-b4b0-90c28db9fbb9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ng-tns-c481-5</value>
+      <webElementGuid>8eb313ff-6755-4e75-bfeb-0d835b20dfb3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>LABELS</value>
+      <webElementGuid>8dc7e74c-a345-4a26-9348-40dd0b6c4fda</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/app-root[1]/app-main-page[@class=&quot;ng-tns-c481-5 ng-trigger ng-trigger-routerAnimation ng-star-inserted&quot;]/mat-sidenav-container[@class=&quot;mat-drawer-container mat-sidenav-container ng-tns-c481-5 mat-drawer-transition&quot;]/mat-sidenav-content[@class=&quot;mat-drawer-content mat-sidenav-content&quot;]/mat-toolbar[@class=&quot;mat-toolbar header-main-page mat-primary mat-toolbar-single-row&quot;]/div[@class=&quot;ng-tns-c481-5 ng-star-inserted&quot;]/h4[@class=&quot;ng-tns-c481-5&quot;]</value>
+      <webElementGuid>47fcf0b4-9c16-4154-8f6a-baa112187113</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Everleagues © All Rights Reserved'])[1]/following::h4[1]</value>
+      <webElementGuid>f736e1c3-f1d7-4c97-bff5-97cce78d30f4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Help'])[1]/following::h4[1]</value>
+      <webElementGuid>d29ae5c2-1063-4526-820d-71c0305c6a78</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='English'])[1]/preceding::h4[1]</value>
+      <webElementGuid>f8fa304d-b41c-4b48-b096-f8ac011a46a9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='GG TESTER'])[1]/preceding::h4[1]</value>
+      <webElementGuid>4d26113d-9e5c-4d58-8781-0e4f9188d99c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='LABELS']/parent::*</value>
+      <webElementGuid>e46791cb-1833-4f4a-9624-4b7574b403b9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//h4</value>
+      <webElementGuid>aed51094-bdee-4ea5-ada7-bd44143988d6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h4[(text() = 'LABELS' or . = 'LABELS')]</value>
+      <webElementGuid>3a5c5378-01be-4028-adad-4d9035659462</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

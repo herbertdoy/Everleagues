@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_open_in_newPricing detail</name>
+   <tag></tag>
+   <elementGuidId>3222d35a-0b9a-4d32-8b72-c5f71d4d3547</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//mat-dialog-container[@id='mat-dialog-5']/app-dialog-new-org/section/div/div[2]/div/form/mat-radio-group/div[2]/div/a</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@href = 'https://www.everleagues.com/pricing' and (text() = 'open_in_newPricing detail' or . = 'open_in_newPricing detail')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>49679763-19aa-4ab6-9a3c-ebc707d1b82a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>https://www.everleagues.com/pricing</value>
+      <webElementGuid>6e824a3e-140b-430e-81d6-f779aace323b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>fxlayoutalign</name>
+      <type>Main</type>
+      <value>center center</value>
+      <webElementGuid>d10a3976-6a84-419f-b683-d66f613978da</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>fxlayoutgap</name>
+      <type>Main</type>
+      <value>2px</value>
+      <webElementGuid>7993db36-e4b1-465a-9285-18e8816e9824</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>target</name>
+      <type>Main</type>
+      <value>_blank</value>
+      <webElementGuid>2398d3c2-fe1e-4633-b61a-97fa20edb602</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-reflect-fx-layout-gap</name>
+      <type>Main</type>
+      <value>2px</value>
+      <webElementGuid>ca9d0432-1210-4b5d-9db4-b30e0008cb5f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-reflect-fx-layout-align</name>
+      <type>Main</type>
+      <value>center center</value>
+      <webElementGuid>0865b48b-7975-4574-bc6c-f8849a248d0b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>open_in_newPricing detail</value>
+      <webElementGuid>eda079ab-feb7-4c9e-9395-a7f120ac34b9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mat-dialog-5&quot;)/app-dialog-new-org[@class=&quot;ng-star-inserted&quot;]/section[@class=&quot;dialog-container new-org-container&quot;]/div[@class=&quot;mat-dialog-content&quot;]/div[2]/div[@class=&quot;subscription-container&quot;]/form[@class=&quot;ng-untouched ng-pristine ng-valid&quot;]/mat-radio-group[@class=&quot;mat-radio-group ng-untouched ng-pristine ng-valid&quot;]/div[2]/div[@class=&quot;sub-details-container&quot;]/a[1]</value>
+      <webElementGuid>598fb6e0-133e-4715-a289-6c41c34f6a31</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//mat-dialog-container[@id='mat-dialog-5']/app-dialog-new-org/section/div/div[2]/div/form/mat-radio-group/div[2]/div/a</value>
+      <webElementGuid>159f9339-c636-4915-a5be-6f95421ed167</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Usage limit'])[1]/following::a[1]</value>
+      <webElementGuid>03499649-4942-4a8f-bad3-ff4793e22238</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Payment'])[1]/preceding::a[1]</value>
+      <webElementGuid>679d2912-9429-4728-860a-7b0c7c6b208f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, 'https://www.everleagues.com/pricing')])[2]</value>
+      <webElementGuid>f288260c-4ce7-4b1d-baae-e3f347b415e0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/a</value>
+      <webElementGuid>49b74f9a-284b-4508-bb8f-94a0e040fdca</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'https://www.everleagues.com/pricing' and (text() = 'open_in_newPricing detail' or . = 'open_in_newPricing detail')]</value>
+      <webElementGuid>8d83b91d-d3f1-45b2-8e3f-44e896afbbb3</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
