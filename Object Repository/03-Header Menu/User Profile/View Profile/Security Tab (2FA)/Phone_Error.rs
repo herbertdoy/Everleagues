@@ -3,119 +3,89 @@
    <description></description>
    <name>Phone_Error</name>
    <tag></tag>
-   <elementGuidId>5d914041-5882-485e-9547-f87a8b204ed0</elementGuidId>
+   <elementGuidId>37cf9769-df96-46cf-b80b-06809fb80050</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@id = 'mat-error-2' and (text() = 'Enter a valid phone number with country code (Eg: +1234567890) ' or . = 'Enter a valid phone number with country code (Eg: +1234567890) ')]</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
-         <value>//mat-error[text()='Enter a valid phone number with country code (Eg: +1234567890) ']</value>
+         <value>//mat-dialog-container[@id='mat-dialog-8']/app-dialog-2fa-phone/section/form/div/div/mat-form-field/div</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#mat-error-2</value>
+         <value>div.mat-form-field-wrapper.ng-tns-c110-103</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>mat-error</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>role</name>
-      <type>Main</type>
-      <value>alert</value>
+      <value>div</value>
+      <webElementGuid>53aa01d3-5308-4c27-9ae0-8d806610d126</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>mat-error ng-tns-c231-82</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>mat-error-2</value>
+      <value>mat-form-field-wrapper ng-tns-c110-103</value>
+      <webElementGuid>5782f031-feee-470d-8645-e709f89e251b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Enter a valid phone number with country code (Eg: +1234567890) </value>
+      <value>+93Phone Number *Enter a valid phone number</value>
+      <webElementGuid>d47bcd2a-1bff-4dee-a3d2-e77637f33580</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;mat-error-2&quot;)</value>
+      <value>id(&quot;mat-dialog-8&quot;)/app-dialog-2fa-phone[@class=&quot;ng-star-inserted&quot;]/section[@class=&quot;dialog-container ng-star-inserted&quot;]/form[@class=&quot;ng-pristine ng-invalid ng-touched&quot;]/div[@class=&quot;mat-dialog-content&quot;]/div[1]/mat-form-field[@class=&quot;mat-form-field ng-tns-c110-103 mat-primary mat-form-field-appearance-legacy mat-form-field-can-float mat-form-field-has-label mat-form-field-hide-placeholder ng-pristine ng-invalid mat-form-field-invalid ng-touched&quot;]/div[@class=&quot;mat-form-field-wrapper ng-tns-c110-103&quot;]</value>
+      <webElementGuid>c5327bf7-4cce-447d-995b-e23c4ce12733</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <type>Main</type>
-      <value>//mat-error[@id='mat-error-2']</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//mat-dialog-container[@id='mat-dialog-3']/app-dialog-2fa-phone/section/form/div/div/mat-form-field/div/div[3]/div/mat-error</value>
+      <value>//mat-dialog-container[@id='mat-dialog-8']/app-dialog-2fa-phone/section/form/div/div/mat-form-field/div</value>
+      <webElementGuid>0d38a507-7864-4883-8668-83d8ab77255f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Phone Number'])[1]/following::mat-error[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Edit 2FA Phone Number'])[1]/following::div[3]</value>
+      <webElementGuid>90d6c55a-4574-4c6b-bf9f-0dbab62d22f4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Edit 2FA Phone Number'])[1]/following::mat-error[1]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Next'])[1]/preceding::mat-error[1]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/preceding::mat-error[1]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Enter a valid phone number with country code (Eg: +1234567890)']/parent::*</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Phone'])[1]/following::div[29]</value>
+      <webElementGuid>a84bf0ee-fcd6-4e0a-ac87-53f6113b11f9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//mat-error</value>
+      <value>//div/div/mat-form-field/div</value>
+      <webElementGuid>05b6510c-0ae9-4f86-aed1-88eebe78924a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = '+93Phone Number *Enter a valid phone number' or . = '+93Phone Number *Enter a valid phone number')]</value>
+      <webElementGuid>a3f561e3-4779-4250-9056-00479aef81e2</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

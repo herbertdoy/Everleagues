@@ -1,0 +1,104 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+01-Login and Forgot Password,Chrome 103.0.5060.134,,,2022-07-22 12:23:47,2022-07-22 12:26:42,2m - 54.893s,PASSED
+,,,,,,,
+Test Cases/01-Login and Forgot Password/01-Login(Credentials Blank),Chrome 103.0.5060.134,,,2022-07-22 12:23:48,2022-07-22 12:24:34,46.399s,PASSED
+"openBrowser("""")",Chrome 103.0.5060.134,,,2022-07-22 12:23:48,2022-07-22 12:23:50,2.171s,PASSED
+"navigateToUrl(""https://lab.everleagues.com/"")",Chrome 103.0.5060.134,,,2022-07-22 12:23:50,2022-07-22 12:24:28,37.936s,PASSED
+maximizeWindow(),Chrome 103.0.5060.134,,,2022-07-22 12:24:28,2022-07-22 12:24:28,0.153s,PASSED
+"verifyElementPresent(findTestObject(""01-Login and Forgot Password/Login_Card""), 0)",Chrome 103.0.5060.134,,,2022-07-22 12:24:28,2022-07-22 12:24:29,0.390s,PASSED
+delay(2),Chrome 103.0.5060.134,,,2022-07-22 12:24:29,2022-07-22 12:24:31,2.037s,PASSED
+"verifyElementNotClickable(findTestObject(""01-Login and Forgot Password/button_Sign in""))",Chrome 103.0.5060.134,,,2022-07-22 12:24:31,2022-07-22 12:24:31,0.344s,PASSED
+delay(3),Chrome 103.0.5060.134,,,2022-07-22 12:24:31,2022-07-22 12:24:34,3.010s,PASSED
+,,,,,,,
+Test Cases/01-Login and Forgot Password/02-Login(Wrong Email),Chrome 103.0.5060.134,,,2022-07-22 12:24:34,2022-07-22 12:24:46,11.482s,PASSED
+"setText(findTestObject(""01-Login and Forgot Password/input_Email_email""), ""unregisteredemail@test.com"")",Chrome 103.0.5060.134,,,2022-07-22 12:24:34,2022-07-22 12:24:35,0.786s,PASSED
+"setEncryptedText(findTestObject(""01-Login and Forgot Password/input_Email_password""), ""pUQNV8a0dCQ="")",Chrome 103.0.5060.134,,,2022-07-22 12:24:35,2022-07-22 12:24:36,0.509s,PASSED
+delay(3),Chrome 103.0.5060.134,,,2022-07-22 12:24:36,2022-07-22 12:24:39,3.012s,PASSED
+"click(findTestObject(""01-Login and Forgot Password/button_Sign in""))",Chrome 103.0.5060.134,,,2022-07-22 12:24:39,2022-07-22 12:24:39,0.438s,PASSED
+delay(3),Chrome 103.0.5060.134,,,2022-07-22 12:24:39,2022-07-22 12:24:42,3.004s,PASSED
+"verifyElementPresent(findTestObject(""01-Login and Forgot Password/Invalid email error""), 0)",Chrome 103.0.5060.134,,,2022-07-22 12:24:42,2022-07-22 12:24:43,0.375s,PASSED
+delay(3),Chrome 103.0.5060.134,,,2022-07-22 12:24:43,2022-07-22 12:24:46,3.015s,PASSED
+,,,,,,,
+"Test Cases/01-Login and Forgot Password/03-Login(Valid email, wrong pass)",Chrome 103.0.5060.134,,,2022-07-22 12:24:46,2022-07-22 12:24:59,13.593s,PASSED
+"setText(findTestObject(""01-Login and Forgot Password/input_Email_email""), ""testuser01@mailinator.com"")",Chrome 103.0.5060.134,,,2022-07-22 12:24:46,2022-07-22 12:24:47,0.703s,PASSED
+"setEncryptedText(findTestObject(""01-Login and Forgot Password/input_Email_password""), ""OxgQgnWTiECE3BxjMAl2ng=="")",Chrome 103.0.5060.134,,,2022-07-22 12:24:47,2022-07-22 12:24:47,0.406s,PASSED
+delay(2),Chrome 103.0.5060.134,,,2022-07-22 12:24:47,2022-07-22 12:24:49,2.014s,PASSED
+"click(findTestObject(""01-Login and Forgot Password/show pass button""))",Chrome 103.0.5060.134,,,2022-07-22 12:24:49,2022-07-22 12:24:49,0.468s,PASSED
+delay(3),Chrome 103.0.5060.134,,,2022-07-22 12:24:49,2022-07-22 12:24:52,3.004s,PASSED
+"click(findTestObject(""01-Login and Forgot Password/button_Sign in""))",Chrome 103.0.5060.134,,,2022-07-22 12:24:52,2022-07-22 12:24:53,0.363s,PASSED
+delay(3),Chrome 103.0.5060.134,,,2022-07-22 12:24:53,2022-07-22 12:24:56,3.011s,PASSED
+"verifyElementPresent(findTestObject(""01-Login and Forgot Password/Invalid user name or password""), 0)",Chrome 103.0.5060.134,,,2022-07-22 12:24:56,2022-07-22 12:24:56,0.353s,PASSED
+delay(3),Chrome 103.0.5060.134,,,2022-07-22 12:24:56,2022-07-22 12:24:59,3.009s,PASSED
+,,,,,,,
+Test Cases/01-Login and Forgot Password/04-Login (valid credentials),Chrome 103.0.5060.134,,,2022-07-22 12:24:59,2022-07-22 12:25:58,59.264s,PASSED
+"setText(findTestObject(""01-Login and Forgot Password/input_Email_email""), ""testuser01@mailinator.com"")",Chrome 103.0.5060.134,,,2022-07-22 12:25:00,2022-07-22 12:25:00,0.740s,PASSED
+"setEncryptedText(findTestObject(""01-Login and Forgot Password/input_Email_password2""), ""8yFRyszE6U6jvsCn51OQbg=="")",Chrome 103.0.5060.134,,,2022-07-22 12:25:00,2022-07-22 12:25:01,0.425s,PASSED
+delay(2),Chrome 103.0.5060.134,,,2022-07-22 12:25:01,2022-07-22 12:25:03,2.010s,PASSED
+"click(findTestObject(""01-Login and Forgot Password/show pass button""))",Chrome 103.0.5060.134,,,2022-07-22 12:25:03,2022-07-22 12:25:03,0.391s,PASSED
+delay(3),Chrome 103.0.5060.134,,,2022-07-22 12:25:03,2022-07-22 12:25:06,3.005s,PASSED
+"click(findTestObject(""01-Login and Forgot Password/button_Sign in""))",Chrome 103.0.5060.134,,,2022-07-22 12:25:06,2022-07-22 12:25:07,0.397s,PASSED
+delay(3),Chrome 103.0.5060.134,,,2022-07-22 12:25:07,2022-07-22 12:25:10,3.013s,PASSED
+"click(findTestObject(""06-Teams/For 2FA/button_Confirm_2FA""))",Chrome 103.0.5060.134,,,2022-07-22 12:25:10,2022-07-22 12:25:10,0.354s,PASSED
+"executeJavaScript(""window.open();"", [])",Chrome 103.0.5060.134,,,2022-07-22 12:25:10,2022-07-22 12:25:10,0.064s,PASSED
+currentWindow = getWindowIndex(),Chrome 103.0.5060.134,,,2022-07-22 12:25:10,2022-07-22 12:25:10,0.020s,PASSED
+delay(3),Chrome 103.0.5060.134,,,2022-07-22 12:25:10,2022-07-22 12:25:13,3.014s,PASSED
+switchToWindowIndex(currentWindow + 1),Chrome 103.0.5060.134,,,2022-07-22 12:25:13,2022-07-22 12:25:13,0.033s,PASSED
+"navigateToUrl(""https://www.mailinator.com/"")",Chrome 103.0.5060.134,,,2022-07-22 12:25:13,2022-07-22 12:25:16,3.088s,PASSED
+delay(3),Chrome 103.0.5060.134,,,2022-07-22 12:25:16,2022-07-22 12:25:19,3.008s,PASSED
+"setText(findTestObject(""00-Signup and Activation/zMailinator/input_LOGIN_search""), ""testuser01@mailinator.com"")",Chrome 103.0.5060.134,,,2022-07-22 12:25:19,2022-07-22 12:25:20,0.669s,PASSED
+"click(findTestObject(""00-Signup and Activation/zMailinator/gobutton""), STOP_ON_FAILURE)",Chrome 103.0.5060.134,,,2022-07-22 12:25:20,2022-07-22 12:25:21,1.081s,PASSED
+delay(3),Chrome 103.0.5060.134,,,2022-07-22 12:25:21,2022-07-22 12:25:24,3.016s,PASSED
+"click(findTestObject(""00-Signup and Activation/zMailinator/Email - everleagues""))",Chrome 103.0.5060.134,,,2022-07-22 12:25:24,2022-07-22 12:25:24,0.363s,PASSED
+delay(3),Chrome 103.0.5060.134,,,2022-07-22 12:25:24,2022-07-22 12:25:27,3.005s,PASSED
+"code = getText(findTestObject(""Object Repository/06-Teams/For 2FA/2FA code""))",Chrome 103.0.5060.134,,,2022-07-22 12:25:27,2022-07-22 12:25:28,0.451s,PASSED
+delay(3),Chrome 103.0.5060.134,,,2022-07-22 12:25:28,2022-07-22 12:25:31,3.010s,PASSED
+"closeWindowTitle(""Mailinator"")",Chrome 103.0.5060.134,,,2022-07-22 12:25:31,2022-07-22 12:25:31,0.158s,PASSED
+delay(3),Chrome 103.0.5060.134,,,2022-07-22 12:25:31,2022-07-22 12:25:34,3.016s,PASSED
+switchToWindowIndex(0),Chrome 103.0.5060.134,,,2022-07-22 12:25:34,2022-07-22 12:25:34,0.019s,PASSED
+delay(3),Chrome 103.0.5060.134,,,2022-07-22 12:25:34,2022-07-22 12:25:37,3.014s,PASSED
+"setText(findTestObject(""Object Repository/06-Teams/For 2FA/input_Enter verification code_code""), code)",Chrome 103.0.5060.134,,,2022-07-22 12:25:37,2022-07-22 12:25:38,0.680s,PASSED
+delay(3),Chrome 103.0.5060.134,,,2022-07-22 12:25:38,2022-07-22 12:25:41,3.016s,PASSED
+"click(findTestObject(""06-Teams/For 2FA/button_Verify_2FA""))",Chrome 103.0.5060.134,,,2022-07-22 12:25:41,2022-07-22 12:25:41,0.521s,PASSED
+delay(5),Chrome 103.0.5060.134,,,2022-07-22 12:25:41,2022-07-22 12:25:46,5.003s,PASSED
+"verifyElementPresent(findTestObject(""01-Login and Forgot Password/h4_EVERLEAGUES (v0.11.16 build 324)""), 0)",Chrome 103.0.5060.134,,,2022-07-22 12:25:46,2022-07-22 12:25:48,2.337s,PASSED
+delay(10),Chrome 103.0.5060.134,,,2022-07-22 12:25:48,2022-07-22 12:25:58,10.014s,PASSED
+,,,,,,,
+Test Cases/01-Login and Forgot Password/05-Logout,Chrome 103.0.5060.134,,,2022-07-22 12:25:58,2022-07-22 12:26:07,8.431s,PASSED
+"click(findTestObject(""01-Login and Forgot Password/User menu drop""))",Chrome 103.0.5060.134,,,2022-07-22 12:25:59,2022-07-22 12:25:59,0.385s,PASSED
+delay(2),Chrome 103.0.5060.134,,,2022-07-22 12:25:59,2022-07-22 12:26:01,2.004s,PASSED
+"click(findTestObject(""01-Login and Forgot Password/h4_Sign Out""), STOP_ON_FAILURE)",Chrome 103.0.5060.134,,,2022-07-22 12:26:01,2022-07-22 12:26:02,0.392s,PASSED
+delay(2),Chrome 103.0.5060.134,,,2022-07-22 12:26:02,2022-07-22 12:26:04,2.013s,PASSED
+"verifyElementPresent(findTestObject(""01-Login and Forgot Password/Login_Card""), 0)",Chrome 103.0.5060.134,,,2022-07-22 12:26:04,2022-07-22 12:26:04,0.320s,PASSED
+delay(3),Chrome 103.0.5060.134,,,2022-07-22 12:26:04,2022-07-22 12:26:07,3.005s,PASSED
+,,,,,,,
+Test Cases/01-Login and Forgot Password/06-Forgot Password(Credentials Blank),Chrome 103.0.5060.134,,,2022-07-22 12:26:07,2022-07-22 12:26:14,6.570s,PASSED
+"click(findTestObject(""01-Login and Forgot Password/zForgot Password/a_Forgot password""))",Chrome 103.0.5060.134,,,2022-07-22 12:26:07,2022-07-22 12:26:08,0.444s,PASSED
+"verifyElementPresent(findTestObject(""01-Login and Forgot Password/zForgot Password/span_Reset Password""), 0)",Chrome 103.0.5060.134,,,2022-07-22 12:26:08,2022-07-22 12:26:08,0.491s,PASSED
+delay(2),Chrome 103.0.5060.134,,,2022-07-22 12:26:08,2022-07-22 12:26:10,2.011s,PASSED
+"verifyElementNotClickable(findTestObject(""01-Login and Forgot Password/zForgot Password/button_Reset Password""))",Chrome 103.0.5060.134,,,2022-07-22 12:26:10,2022-07-22 12:26:10,0.329s,PASSED
+delay(3),Chrome 103.0.5060.134,,,2022-07-22 12:26:10,2022-07-22 12:26:14,3.016s,PASSED
+,,,,,,,
+Test Cases/01-Login and Forgot Password/07-Forgot Password(Wrong email),Chrome 103.0.5060.134,,,2022-07-22 12:26:14,2022-07-22 12:26:24,10.852s,PASSED
+"setText(findTestObject(""01-Login and Forgot Password/zForgot Password/Reset pass email field""), ""unregisteredemail@test.com"")",Chrome 103.0.5060.134,,,2022-07-22 12:26:14,2022-07-22 12:26:14,0.677s,PASSED
+delay(2),Chrome 103.0.5060.134,,,2022-07-22 12:26:14,2022-07-22 12:26:16,2.007s,PASSED
+"click(findTestObject(""01-Login and Forgot Password/zForgot Password/button_Reset Password""))",Chrome 103.0.5060.134,,,2022-07-22 12:26:16,2022-07-22 12:26:17,0.409s,PASSED
+"verifyElementPresent(findTestObject(""01-Login and Forgot Password/zForgot Password/Reset pass- wrong email""), 0)",Chrome 103.0.5060.134,,,2022-07-22 12:26:17,2022-07-22 12:26:18,1.019s,PASSED
+delay(3),Chrome 103.0.5060.134,,,2022-07-22 12:26:18,2022-07-22 12:26:21,3.015s,PASSED
+"click(findTestObject(""01-Login and Forgot Password/zForgot Password/button_Back to login""))",Chrome 103.0.5060.134,,,2022-07-22 12:26:21,2022-07-22 12:26:21,0.434s,PASSED
+delay(3),Chrome 103.0.5060.134,,,2022-07-22 12:26:21,2022-07-22 12:26:24,3.014s,PASSED
+,,,,,,,
+Test Cases/01-Login and Forgot Password/08-Forgot Password(Correct Email),Chrome 103.0.5060.134,,,2022-07-22 12:26:24,2022-07-22 12:26:42,18.006s,PASSED
+delay(2),Chrome 103.0.5060.134,,,2022-07-22 12:26:25,2022-07-22 12:26:27,2.015s,PASSED
+"click(findTestObject(""01-Login and Forgot Password/zForgot Password/a_Forgot password""))",Chrome 103.0.5060.134,,,2022-07-22 12:26:27,2022-07-22 12:26:27,0.371s,PASSED
+"verifyElementPresent(findTestObject(""01-Login and Forgot Password/zForgot Password/span_Reset Password""), 0)",Chrome 103.0.5060.134,,,2022-07-22 12:26:27,2022-07-22 12:26:27,0.471s,PASSED
+delay(2),Chrome 103.0.5060.134,,,2022-07-22 12:26:27,2022-07-22 12:26:30,2.012s,PASSED
+"setText(findTestObject(""01-Login and Forgot Password/zForgot Password/Reset pass email field""), ""testuser01@mailinator.com"")",Chrome 103.0.5060.134,,,2022-07-22 12:26:30,2022-07-22 12:26:30,0.677s,PASSED
+delay(2),Chrome 103.0.5060.134,,,2022-07-22 12:26:30,2022-07-22 12:26:32,2.015s,PASSED
+"click(findTestObject(""01-Login and Forgot Password/zForgot Password/button_Reset Password""))",Chrome 103.0.5060.134,,,2022-07-22 12:26:32,2022-07-22 12:26:33,0.355s,PASSED
+"verifyElementPresent(findTestObject(""01-Login and Forgot Password/zForgot Password/Reset pass - success msg""), 0)",Chrome 103.0.5060.134,,,2022-07-22 12:26:33,2022-07-22 12:26:34,1.232s,PASSED
+delay(2),Chrome 103.0.5060.134,,,2022-07-22 12:26:34,2022-07-22 12:26:36,2.010s,PASSED
+"click(findTestObject(""01-Login and Forgot Password/zForgot Password/button_Back to login""))",Chrome 103.0.5060.134,,,2022-07-22 12:26:36,2022-07-22 12:26:36,0.440s,PASSED
+delay(3),Chrome 103.0.5060.134,,,2022-07-22 12:26:36,2022-07-22 12:26:39,3.018s,PASSED
+"verifyElementVisible(findTestObject(""01-Login and Forgot Password/Login_Card""))",Chrome 103.0.5060.134,,,2022-07-22 12:26:39,2022-07-22 12:26:40,0.336s,PASSED
+delay(2),Chrome 103.0.5060.134,,,2022-07-22 12:26:40,2022-07-22 12:26:42,2.007s,PASSED
+closeBrowser(),Chrome 103.0.5060.134,,,2022-07-22 12:26:42,2022-07-22 12:26:42,0.768s,PASSED

@@ -3,19 +3,15 @@
    <description></description>
    <name>input_Email</name>
    <tag></tag>
-   <elementGuidId>1ce5df1d-7646-4bb9-9ad5-a4cdd652730f</elementGuidId>
+   <elementGuidId>961b954e-44af-4e23-b240-0904c7195128</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//input[@placeholder = 'Email']</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
-         <value>//input[@id='mat-input-5']</value>
+         <value>//mat-tab-body[@id='mat-tab-content-0-1']/div/mat-card/mat-card-content/div[2]/mat-form-field/div/div/div</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#mat-input-5</value>
+         <value>div.mat-form-field-infix.ng-tns-c110-41</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -25,83 +21,79 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>input</value>
+      <value>div</value>
+      <webElementGuid>b24d8ba7-0bfa-4081-ac37-c6f7e1aab221</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>mat-input-element mat-form-field-autofill-control ng-tns-c231-37 cdk-text-field-autofill-monitored ng-untouched ng-pristine</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>ng-reflect-placeholder</name>
-      <type>Main</type>
-      <value>Email</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>ng-reflect-model</name>
-      <type>Main</type>
-      <value>testuser01@mailinator.com</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>mat-input-5</value>
+      <value>mat-form-field-infix ng-tns-c110-41</value>
+      <webElementGuid>e90f958d-dd04-464a-b971-cea9f114a2a1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>placeholder</name>
+      <name>text</name>
       <type>Main</type>
       <value>Email</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>aria-invalid</name>
-      <type>Main</type>
-      <value>false</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>aria-required</name>
-      <type>Main</type>
-      <value>false</value>
+      <webElementGuid>b1a6ab5d-121f-4767-8afb-e6f023ffe024</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;mat-input-5&quot;)</value>
+      <value>id(&quot;mat-tab-content-0-1&quot;)/div[@class=&quot;mat-tab-body-content ng-tns-c361-48 ng-trigger ng-trigger-translateTab&quot;]/mat-card[@class=&quot;mat-card mat-focus-indicator ng-star-inserted&quot;]/mat-card-content[@class=&quot;mat-card-content&quot;]/div[@class=&quot;ng-tns-c572-37&quot;]/mat-form-field[@class=&quot;mat-form-field full-width name-field ng-tns-c572-37 ng-tns-c110-41 mat-primary mat-form-field-type-mat-input mat-form-field-appearance-legacy mat-form-field-can-float mat-form-field-has-label mat-form-field-hide-placeholder ng-untouched ng-pristine mat-form-field-should-float mat-form-field-disabled&quot;]/div[@class=&quot;mat-form-field-wrapper ng-tns-c110-41&quot;]/div[@class=&quot;mat-form-field-flex ng-tns-c110-41&quot;]/div[@class=&quot;mat-form-field-infix ng-tns-c110-41&quot;]</value>
+      <webElementGuid>88a08884-e805-4735-9d5e-b1c6b61b1e1d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
+      <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//input[@id='mat-input-5']</value>
+      <value>//mat-tab-body[@id='mat-tab-content-0-1']/div/mat-card/mat-card-content/div[2]/mat-form-field/div/div/div</value>
+      <webElementGuid>b37715ee-aa82-4ada-b983-7ea1459dfb50</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
+      <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//mat-tab-body[@id='mat-tab-content-0-1']/div/mat-card/mat-card-content/div[2]/mat-form-field/div/div/div/input</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Two Factor Authentication'])[1]/following::div[9]</value>
+      <webElementGuid>f59ca3d5-9acd-4819-8080-dfb703748cbb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Contact Info'])[1]/following::div[15]</value>
+      <webElementGuid>a968af47-2254-457f-a7f9-900849bd7a42</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Phone'])[1]/preceding::div[5]</value>
+      <webElementGuid>eca10722-bec3-4fd5-bc2e-f6361c495445</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div/div/input</value>
+      <value>//mat-form-field/div/div/div</value>
+      <webElementGuid>9e3ed9ef-4fd9-449c-b1b9-96943368e998</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Email' or . = 'Email')]</value>
+      <webElementGuid>efba083b-b482-4263-866e-f690d90963cd</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -81,13 +81,13 @@ WebUI.delay(3)
 
 WebUI.click(findTestObject('03-Header Menu/Hamburger Button/div_Operation'))
 
-WebUI.verifyElementVisible(findTestObject('08-Operations/Client Assignment'))
+WebUI.verifyElementVisible(findTestObject('08-Operations/Client_Assignment'))
 
-WebUI.verifyElementVisible(findTestObject('08-Operations/Private Circle'))
+WebUI.verifyElementVisible(findTestObject('08-Operations/Private_Circle'))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('08-Operations/Client Assignment'))
+WebUI.click(findTestObject('08-Operations/Client_Assignment'))
 
 WebUI.verifyElementVisible(findTestObject('08-Operations/Client Assignment/Client Assignment Page'))
 

@@ -3,19 +3,19 @@
    <description></description>
    <name>input_phone number</name>
    <tag></tag>
-   <elementGuidId>3be958e6-56f1-45b6-87eb-7f4578d6a062</elementGuidId>
+   <elementGuidId>bb1b4ecf-6002-4293-aeb5-2bd45025b1c8</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//input[@type = 'tel' and @placeholder = 'Phone Number']</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
-         <value>//div[@class='mat-form-field-infix ng-tns-c231-113']//input[1]</value>
+         <value>//input[@id='mat-input-31']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#mat-input-18</value>
+         <value>#mat-input-31</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@type = 'tel']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -26,20 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>pattern</name>
-      <type>Main</type>
-      <value>((?:\+|00)[17](?: |\-)?|(?:\+|00)[1-9]\d{0,2}(?: |\-)?|(?:\+|00)1\-\d{3}(?: |\-)?)?(0\d|\([0-9]{3}\)|[1-9]{0,3})(?:((?: |\-)[0-9]{2}){4}|((?:[0-9]{2}){4})|((?: |\-)[0-9]{3}(?: |\-)[0-9]{4})|([0-9]{7}))</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>name</name>
-      <type>Main</type>
-      <value>phone</value>
+      <webElementGuid>00c08e66-68ad-4ffa-9df9-56f146fb55cd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -47,41 +34,23 @@
       <name>type</name>
       <type>Main</type>
       <value>tel</value>
+      <webElementGuid>e19cf6b4-da9c-416a-8392-6ea4ccfa4302</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>maxlength</name>
+      <name>autocomplete</name>
       <type>Main</type>
-      <value>50</value>
+      <value>off</value>
+      <webElementGuid>eb1e3f72-7daf-4c7d-b825-961c061d054b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>mat-input-element mat-form-field-autofill-control ng-tns-c231-99 cdk-text-field-autofill-monitored ng-untouched ng-pristine ng-invalid</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>ng-reflect-maxlength</name>
-      <type>Main</type>
-      <value>50</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>ng-reflect-pattern</name>
-      <type>Main</type>
-      <value>((?:\+|00)[17](?: |\-)?|(?:\+|</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>ng-reflect-name</name>
-      <type>Main</type>
-      <value>phone</value>
+      <value>mat-input-element mat-form-field-autofill-control cdk-text-field-autofill-monitored ng-untouched ng-pristine ng-valid</value>
+      <webElementGuid>2e88b12c-d782-4a71-9478-867e9ef182db</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -89,34 +58,31 @@
       <name>ng-reflect-type</name>
       <type>Main</type>
       <value>tel</value>
+      <webElementGuid>1d160759-7573-406a-9128-24c09061d562</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>ng-reflect-placeholder</name>
-      <type>Main</type>
-      <value>Phone Number</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>ng-reflect-readonly</name>
+      <name>ng-reflect-disabled</name>
       <type>Main</type>
       <value>false</value>
+      <webElementGuid>04dc39c5-8f0a-428e-be9e-29bc2e3586d3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-reflect-is-disabled</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>5689574f-d93f-4c68-a493-d8538da88993</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>mat-input-18</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>placeholder</name>
-      <type>Main</type>
-      <value>Phone Number</value>
+      <value>mat-input-31</value>
+      <webElementGuid>bf9b4623-8db7-41a3-a050-99aa1fbc0f9d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -124,40 +90,54 @@
       <name>aria-invalid</name>
       <type>Main</type>
       <value>false</value>
+      <webElementGuid>5c46f655-a61a-48b5-af27-7ad3a7c2d0de</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>aria-required</name>
       <type>Main</type>
-      <value>true</value>
+      <value>false</value>
+      <webElementGuid>fb651c24-affb-4e98-86d5-cda9138dd2ca</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;mat-input-18&quot;)</value>
+      <value>id(&quot;mat-input-31&quot;)</value>
+      <webElementGuid>77a15760-0b5f-4df6-bc14-0d1d269bc52a</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='mat-input-18']</value>
+      <value>//input[@id='mat-input-31']</value>
+      <webElementGuid>5b71792f-6895-4fe3-af73-49d7ebb2d149</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//mat-dialog-container[@id='mat-dialog-5']/app-dialog-2fa-phone/section/form/div/div/mat-form-field/div/div/div/input</value>
+      <value>//ngx-mat-intl-tel-input[@id='ngx-mat-intl-tel-input-9']/div/input</value>
+      <webElementGuid>10a39df6-a851-4871-9937-80deb84429ba</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div/div/mat-form-field/div/div/div/input</value>
+      <value>//ngx-mat-intl-tel-input/div/input</value>
+      <webElementGuid>42292ca6-2d54-4ebc-bfc1-ee38abdf34fe</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@type = 'tel' and @id = 'mat-input-31']</value>
+      <webElementGuid>70093f2e-2832-4283-a2a3-d144d76b7b2b</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

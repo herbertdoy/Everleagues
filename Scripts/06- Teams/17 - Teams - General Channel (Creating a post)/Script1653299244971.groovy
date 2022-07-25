@@ -23,7 +23,7 @@ WebUI.setText(findTestObject('06-Teams/05- Teams-General Channel/Input field_pos
 
 WebUI.click(findTestObject('06-Teams/05- Teams-General Channel/button_send'))
 
-WebUI.delay(3)
+WebUI.delay(2)
 
 WebUI.verifyElementVisible(findTestObject('06-Teams/05- Teams-General Channel/added new post msg'))
 

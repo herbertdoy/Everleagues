@@ -6,16 +6,16 @@
    <elementGuidId>fb992cfa-f84f-4002-bb0e-3e715480fb70</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//h4[@class = 'mat-dialog-title' and (text() = 'Edit 2FA Phone Number (including country code)' or . = 'Edit 2FA Phone Number (including country code)')]</value>
+         <key>CSS</key>
+         <value>#mat-dialog-title-2</value>
       </entry>
       <entry>
          <key>BASIC</key>
          <value>//h4[@class = 'mat-dialog-title' and (text() = 'Edit 2FA Phone Number' or . = 'Edit 2FA Phone Number')]</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>#mat-dialog-title-2</value>
+         <key>XPATH</key>
+         <value>//mat-dialog-container[(text() = 'Edit 2FA Phone Number+93Phone Number *NextCancel' or . = 'Edit 2FA Phone Number+93Phone Number *NextCancel')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -26,6 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>h4</value>
+      <webElementGuid>e498429f-f054-47cf-bfb9-65c726ead11b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -33,6 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-dialog-title</value>
+      <webElementGuid>633e4691-67fc-4a93-9cc2-c8ad51f92ee5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -40,6 +42,7 @@
       <name>id</name>
       <type>Main</type>
       <value>mat-dialog-title-2</value>
+      <webElementGuid>fe44e1da-5e1e-47b0-afa9-851fa8258f7b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -47,6 +50,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Edit 2FA Phone Number</value>
+      <webElementGuid>bc83549d-d226-4f71-a42c-faad3725216e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,6 +58,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-dialog-title-2&quot;)</value>
+      <webElementGuid>6f1e77ea-1558-4b24-bed0-db14b6fc19b2</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -61,6 +66,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//h4[@id='mat-dialog-title-2']</value>
+      <webElementGuid>b75b9cfa-0919-4dff-89a9-3bdeb38089e1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -68,6 +74,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-dialog-container[@id='mat-dialog-2']/app-dialog-2fa-phone/section/form/h4</value>
+      <webElementGuid>dc40ba2b-d3c7-4e82-82e0-f23cddf5d8a4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -75,6 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Delete Phone'])[1]/following::h4[1]</value>
+      <webElementGuid>f95027a4-b788-4199-adb3-b269a9403969</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,6 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Delete Email'])[1]/following::h4[1]</value>
+      <webElementGuid>a534f0ee-1c60-45bc-9274-60931539c486</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -89,6 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Phone Number'])[1]/preceding::h4[1]</value>
+      <webElementGuid>7203f5c6-f34f-4d17-b019-9a2a46c89125</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -96,6 +106,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Enter a valid phone number with country code (Eg: +1234567890)'])[1]/preceding::h4[1]</value>
+      <webElementGuid>295a6441-4abf-457a-8c3b-41b288c0b4b4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,6 +114,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Edit 2FA Phone Number']/parent::*</value>
+      <webElementGuid>35b3761d-1830-4d19-ba45-bcaac23892fd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,5 +122,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//form/h4</value>
+      <webElementGuid>8d2b21f6-3d5d-4c50-ad1f-672c3e1d24cd</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

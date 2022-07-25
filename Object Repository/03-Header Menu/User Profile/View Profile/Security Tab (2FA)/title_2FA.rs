@@ -3,7 +3,7 @@
    <description></description>
    <name>title_2FA</name>
    <tag></tag>
-   <elementGuidId>304d760e-6c30-4aaf-963e-6a7469fb9746</elementGuidId>
+   <elementGuidId>af471906-66bf-4fae-8265-0ce31413e429</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -13,22 +13,28 @@
          <key>CSS</key>
          <value>mat-card-title.mat-card-title</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//mat-card-title[@class = 'mat-card-title' and (text() = ' 2FA ' or . = ' 2FA ')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>mat-card-title</value>
+      <webElementGuid>f3863f0c-f25f-48a5-a3cc-623efc4e7839</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>mat-card-title</value>
+      <webElementGuid>a15d71fa-7186-4166-a8ee-a601f9a857d3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -36,13 +42,15 @@
       <name>text</name>
       <type>Main</type>
       <value> 2FA </value>
+      <webElementGuid>5f2e648e-c6b2-4547-8daf-eb4d0ff8afd2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;mat-tab-content-0-1&quot;)/div[@class=&quot;mat-tab-body-content ng-tns-c360-44 ng-trigger ng-trigger-translateTab&quot;]/mat-card[@class=&quot;mat-card mat-focus-indicator ng-star-inserted&quot;]/mat-card-title[@class=&quot;mat-card-title&quot;]</value>
+      <value>id(&quot;mat-tab-content-0-1&quot;)/div[@class=&quot;mat-tab-body-content ng-tns-c361-48 ng-trigger ng-trigger-translateTab&quot;]/mat-card[@class=&quot;mat-card mat-focus-indicator ng-star-inserted&quot;]/mat-card-title[@class=&quot;mat-card-title&quot;]</value>
+      <webElementGuid>5b23ab68-1045-489c-8086-b587f35ea290</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -50,6 +58,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-tab-body[@id='mat-tab-content-0-1']/div/mat-card/mat-card-title</value>
+      <webElementGuid>e5133180-97f9-4525-9de2-f5090788ca43</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -57,6 +66,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Contact Info'])[1]/following::mat-card-title[1]</value>
+      <webElementGuid>af3b10ab-7c26-4457-8b21-4c564776fa52</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -64,6 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Settings'])[2]/following::mat-card-title[1]</value>
+      <webElementGuid>caaaa965-3767-4f40-bd9d-4fb23fc36317</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,6 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Two Factor Authentication'])[1]/preceding::mat-card-title[1]</value>
+      <webElementGuid>272e1486-c319-41c6-903c-1f120da211ce</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,6 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Email'])[1]/preceding::mat-card-title[1]</value>
+      <webElementGuid>415f2cc7-6334-4b6e-bed6-d782711f03fe</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,6 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='2FA']/parent::*</value>
+      <webElementGuid>c6fdd800-1a5f-4383-a093-feac50aa2633</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -92,5 +106,14 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//mat-card-title</value>
+      <webElementGuid>07c692a9-d003-4ccc-bd8a-6b653f2bcf06</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//mat-card-title[(text() = ' 2FA ' or . = ' 2FA ')]</value>
+      <webElementGuid>2bee5810-cf99-4f1c-9192-1681ba0e5a26</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

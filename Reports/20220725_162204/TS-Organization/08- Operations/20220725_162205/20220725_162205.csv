@@ -1,0 +1,97 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+08- Operations,Chrome 103.0.5060.134,,,2022-07-25 16:22:08,2022-07-25 16:24:40,2m - 31.973s,PASSED
+,,,,,,,
+Test Cases/08- Operations/01 - Client Assignment - Select Org unit,Chrome 103.0.5060.134,Need to add this autotester03@mailinator.com as a CLIENT under connection before running this TC,,2022-07-25 16:22:08,2022-07-25 16:23:41,1m - 32.683s,PASSED
+"openBrowser("""")",Chrome 103.0.5060.134,,,2022-07-25 16:22:08,2022-07-25 16:22:11,2.226s,PASSED
+"navigateToUrl(""https://lab.everleagues.com/"")",Chrome 103.0.5060.134,,,2022-07-25 16:22:11,2022-07-25 16:22:45,34.569s,PASSED
+maximizeWindow(),Chrome 103.0.5060.134,,,2022-07-25 16:22:45,2022-07-25 16:22:45,0.155s,PASSED
+"setText(findTestObject(""02-Side Icons(Organization)/Add Contact/Email Field""), ""testuser02@mailinator.com"")",Chrome 103.0.5060.134,,,2022-07-25 16:22:45,2022-07-25 16:22:47,1.421s,PASSED
+"setEncryptedText(findTestObject(""02-Side Icons(Organization)/Add Contact/Password Field""), ""8yFRyszE6U6jvsCn51OQbg=="")",Chrome 103.0.5060.134,,,2022-07-25 16:22:47,2022-07-25 16:22:47,0.472s,PASSED
+"click(findTestObject(""02-Side Icons(Organization)/Add Contact/button_Sign in""))",Chrome 103.0.5060.134,,,2022-07-25 16:22:47,2022-07-25 16:22:48,0.762s,PASSED
+delay(3),Chrome 103.0.5060.134,,,2022-07-25 16:22:48,2022-07-25 16:22:51,3.036s,PASSED
+"click(findTestObject(""06-Teams/For 2FA/button_Confirm_2FA""))",Chrome 103.0.5060.134,,,2022-07-25 16:22:51,2022-07-25 16:22:51,0.419s,PASSED
+"executeJavaScript(""window.open();"", [])",Chrome 103.0.5060.134,,,2022-07-25 16:22:51,2022-07-25 16:22:52,0.062s,PASSED
+currentWindow = getWindowIndex(),Chrome 103.0.5060.134,,,2022-07-25 16:22:52,2022-07-25 16:22:52,0.028s,PASSED
+delay(3),Chrome 103.0.5060.134,,,2022-07-25 16:22:52,2022-07-25 16:22:55,3.004s,PASSED
+switchToWindowIndex(currentWindow + 1),Chrome 103.0.5060.134,,,2022-07-25 16:22:55,2022-07-25 16:22:55,0.035s,PASSED
+"navigateToUrl(""https://www.mailinator.com/"")",Chrome 103.0.5060.134,,,2022-07-25 16:22:55,2022-07-25 16:22:57,2.199s,PASSED
+delay(3),Chrome 103.0.5060.134,,,2022-07-25 16:22:57,2022-07-25 16:23:00,3.012s,PASSED
+"setText(findTestObject(""00-Signup and Activation/zMailinator/input_LOGIN_search""), ""testuser02@mailinator.com"")",Chrome 103.0.5060.134,,,2022-07-25 16:23:00,2022-07-25 16:23:01,0.675s,PASSED
+"click(findTestObject(""00-Signup and Activation/zMailinator/gobutton""), STOP_ON_FAILURE)",Chrome 103.0.5060.134,,,2022-07-25 16:23:01,2022-07-25 16:23:02,1.048s,PASSED
+delay(3),Chrome 103.0.5060.134,,,2022-07-25 16:23:02,2022-07-25 16:23:05,3.017s,PASSED
+"click(findTestObject(""00-Signup and Activation/zMailinator/Email - everleagues""))",Chrome 103.0.5060.134,,,2022-07-25 16:23:05,2022-07-25 16:23:05,0.374s,PASSED
+delay(3),Chrome 103.0.5060.134,,,2022-07-25 16:23:05,2022-07-25 16:23:08,3.006s,PASSED
+"code = getText(findTestObject(""Object Repository/06-Teams/For 2FA/2FA code""))",Chrome 103.0.5060.134,,,2022-07-25 16:23:08,2022-07-25 16:23:08,0.454s,PASSED
+delay(3),Chrome 103.0.5060.134,,,2022-07-25 16:23:08,2022-07-25 16:23:11,3.008s,PASSED
+"closeWindowTitle(""Mailinator"")",Chrome 103.0.5060.134,,,2022-07-25 16:23:11,2022-07-25 16:23:12,0.154s,PASSED
+delay(3),Chrome 103.0.5060.134,,,2022-07-25 16:23:12,2022-07-25 16:23:15,3.012s,PASSED
+switchToWindowIndex(0),Chrome 103.0.5060.134,,,2022-07-25 16:23:15,2022-07-25 16:23:15,0.017s,PASSED
+delay(3),Chrome 103.0.5060.134,,,2022-07-25 16:23:15,2022-07-25 16:23:18,3.013s,PASSED
+"setText(findTestObject(""Object Repository/06-Teams/For 2FA/input_Enter verification code_code""), code)",Chrome 103.0.5060.134,,,2022-07-25 16:23:18,2022-07-25 16:23:19,1.055s,PASSED
+delay(3),Chrome 103.0.5060.134,,,2022-07-25 16:23:19,2022-07-25 16:23:22,3.007s,PASSED
+"click(findTestObject(""06-Teams/For 2FA/button_Verify_2FA""))",Chrome 103.0.5060.134,,,2022-07-25 16:23:22,2022-07-25 16:23:22,0.649s,PASSED
+delay(5),Chrome 103.0.5060.134,,,2022-07-25 16:23:22,2022-07-25 16:23:27,5.014s,PASSED
+"click(findTestObject(""03-Header Menu/Hamburger Button/div_Directory""))",Chrome 103.0.5060.134,,,2022-07-25 16:23:27,2022-07-25 16:23:28,0.365s,PASSED
+delay(3),Chrome 103.0.5060.134,,,2022-07-25 16:23:28,2022-07-25 16:23:31,3.018s,PASSED
+"click(findTestObject(""03-Header Menu/Hamburger Button/div_Operation""))",Chrome 103.0.5060.134,,,2022-07-25 16:23:31,2022-07-25 16:23:31,0.389s,PASSED
+"verifyElementVisible(findTestObject(""08-Operations/Client_Assignment""))",Chrome 103.0.5060.134,,,2022-07-25 16:23:31,2022-07-25 16:23:32,0.455s,PASSED
+"verifyElementVisible(findTestObject(""08-Operations/Private_Circle""))",Chrome 103.0.5060.134,,,2022-07-25 16:23:32,2022-07-25 16:23:32,0.364s,PASSED
+delay(3),Chrome 103.0.5060.134,,,2022-07-25 16:23:32,2022-07-25 16:23:35,3.017s,PASSED
+"click(findTestObject(""08-Operations/Client_Assignment""))",Chrome 103.0.5060.134,,,2022-07-25 16:23:35,2022-07-25 16:23:36,0.688s,PASSED
+"verifyElementVisible(findTestObject(""08-Operations/Client Assignment/Client Assignment Page""))",Chrome 103.0.5060.134,,,2022-07-25 16:23:36,2022-07-25 16:23:36,0.787s,PASSED
+delay(3),Chrome 103.0.5060.134,,,2022-07-25 16:23:36,2022-07-25 16:23:39,3.013s,PASSED
+"click(findTestObject(""08-Operations/Client Assignment/Org unit edit""))",Chrome 103.0.5060.134,,,2022-07-25 16:23:39,2022-07-25 16:23:40,0.412s,PASSED
+"verifyElementVisible(findTestObject(""08-Operations/Client Assignment/Select org unit modal""))",Chrome 103.0.5060.134,,,2022-07-25 16:23:40,2022-07-25 16:23:40,0.465s,PASSED
+"click(findTestObject(""08-Operations/Client Assignment/button_Select_org unit select""))",Chrome 103.0.5060.134,,,2022-07-25 16:23:40,2022-07-25 16:23:41,0.351s,PASSED
+,,,,,,,
+Test Cases/08- Operations/02 - Client Assignment by Employee,Chrome 103.0.5060.134,,,2022-07-25 16:23:41,2022-07-25 16:24:08,26.878s,PASSED
+delay(3),Chrome 103.0.5060.134,,,2022-07-25 16:23:41,2022-07-25 16:23:44,3.014s,PASSED
+"verifyElementNotClickable(findTestObject(""08-Operations/Client Assignment/button_ Assign""))",Chrome 103.0.5060.134,,,2022-07-25 16:23:44,2022-07-25 16:23:44,0.327s,PASSED
+"verifyElementNotClickable(findTestObject(""08-Operations/Client Assignment/button_Unassign""))",Chrome 103.0.5060.134,,,2022-07-25 16:23:44,2022-07-25 16:23:45,0.325s,PASSED
+delay(3),Chrome 103.0.5060.134,,,2022-07-25 16:23:45,2022-07-25 16:23:48,3.011s,PASSED
+"click(findTestObject(""08-Operations/Client Assignment/div_GG TESTER""))",Chrome 103.0.5060.134,,,2022-07-25 16:23:48,2022-07-25 16:23:48,0.409s,PASSED
+"verifyElementVisible(findTestObject(""08-Operations/Client Assignment/Clients column""))",Chrome 103.0.5060.134,,,2022-07-25 16:23:48,2022-07-25 16:23:49,0.448s,PASSED
+"verifyElementVisible(findTestObject(""08-Operations/Client Assignment/Assigned Clients empty""))",Chrome 103.0.5060.134,,,2022-07-25 16:23:49,2022-07-25 16:23:49,0.342s,PASSED
+delay(3),Chrome 103.0.5060.134,,,2022-07-25 16:23:49,2022-07-25 16:23:52,3.006s,PASSED
+"click(findTestObject(""08-Operations/Client Assignment/div_GTGG Tester 3""))",Chrome 103.0.5060.134,,,2022-07-25 16:23:52,2022-07-25 16:23:52,0.408s,PASSED
+"verifyElementClickable(findTestObject(""08-Operations/Client Assignment/button_ Assign""))",Chrome 103.0.5060.134,,,2022-07-25 16:23:52,2022-07-25 16:23:53,0.438s,PASSED
+"click(findTestObject(""08-Operations/Client Assignment/button_ Assign""))",Chrome 103.0.5060.134,,,2022-07-25 16:23:53,2022-07-25 16:23:53,0.379s,PASSED
+"verifyElementVisible(findTestObject(""08-Operations/Client Assignment/Updated assignment msg""))",Chrome 103.0.5060.134,,,2022-07-25 16:23:53,2022-07-25 16:23:55,1.430s,PASSED
+delay(3),Chrome 103.0.5060.134,,,2022-07-25 16:23:55,2022-07-25 16:23:58,3.007s,PASSED
+"verifyElementVisible(findTestObject(""08-Operations/Client Assignment/Client column Empty""))",Chrome 103.0.5060.134,,,2022-07-25 16:23:58,2022-07-25 16:23:58,0.336s,PASSED
+"verifyElementVisible(findTestObject(""08-Operations/Client Assignment/Assigned clients column""))",Chrome 103.0.5060.134,,,2022-07-25 16:23:58,2022-07-25 16:23:58,0.323s,PASSED
+delay(3),Chrome 103.0.5060.134,,,2022-07-25 16:23:58,2022-07-25 16:24:01,3.016s,PASSED
+"click(findTestObject(""08-Operations/Client Assignment/div_GTGG Tester 3""))",Chrome 103.0.5060.134,,,2022-07-25 16:24:01,2022-07-25 16:24:02,0.362s,PASSED
+"verifyElementClickable(findTestObject(""08-Operations/Client Assignment/button_Unassign""))",Chrome 103.0.5060.134,,,2022-07-25 16:24:02,2022-07-25 16:24:02,0.457s,PASSED
+"click(findTestObject(""08-Operations/Client Assignment/button_Unassign""))",Chrome 103.0.5060.134,,,2022-07-25 16:24:02,2022-07-25 16:24:02,0.376s,PASSED
+"verifyElementVisible(findTestObject(""08-Operations/Client Assignment/Updated assignment msg""))",Chrome 103.0.5060.134,,,2022-07-25 16:24:02,2022-07-25 16:24:04,1.436s,PASSED
+delay(3),Chrome 103.0.5060.134,,,2022-07-25 16:24:04,2022-07-25 16:24:07,3.008s,PASSED
+"verifyElementVisible(findTestObject(""08-Operations/Client Assignment/Clients column""))",Chrome 103.0.5060.134,,,2022-07-25 16:24:07,2022-07-25 16:24:07,0.337s,PASSED
+"verifyElementVisible(findTestObject(""08-Operations/Client Assignment/Assigned Clients empty""))",Chrome 103.0.5060.134,,,2022-07-25 16:24:07,2022-07-25 16:24:08,0.341s,PASSED
+,,,,,,,
+Test Cases/08- Operations/03 - Client Assignment by Client,Chrome 103.0.5060.134,,,2022-07-25 16:24:08,2022-07-25 16:24:40,32.057s,PASSED
+delay(3),Chrome 103.0.5060.134,,,2022-07-25 16:24:08,2022-07-25 16:24:11,3.002s,PASSED
+"click(findTestObject(""08-Operations/Client Assignment/div_By Client""))",Chrome 103.0.5060.134,,,2022-07-25 16:24:11,2022-07-25 16:24:11,0.432s,PASSED
+"verifyElementVisible(findTestObject(""08-Operations/Client Assignment/By Client modal""))",Chrome 103.0.5060.134,,,2022-07-25 16:24:11,2022-07-25 16:24:13,1.253s,PASSED
+"verifyElementNotClickable(findTestObject(""08-Operations/Client Assignment/button_ Assign""))",Chrome 103.0.5060.134,,,2022-07-25 16:24:13,2022-07-25 16:24:13,0.333s,PASSED
+"verifyElementNotClickable(findTestObject(""08-Operations/Client Assignment/button_Unassign""))",Chrome 103.0.5060.134,,,2022-07-25 16:24:13,2022-07-25 16:24:13,0.325s,PASSED
+delay(3),Chrome 103.0.5060.134,,,2022-07-25 16:24:13,2022-07-25 16:24:16,3.013s,PASSED
+"click(findTestObject(""08-Operations/Client Assignment/div_GTGG Tester 3""))",Chrome 103.0.5060.134,,,2022-07-25 16:24:16,2022-07-25 16:24:17,0.367s,PASSED
+"verifyElementVisible(findTestObject(""08-Operations/Client Assignment/Employees column""))",Chrome 103.0.5060.134,,,2022-07-25 16:24:17,2022-07-25 16:24:17,0.541s,PASSED
+"verifyElementVisible(findTestObject(""08-Operations/Client Assignment/Assigned Employees empty""))",Chrome 103.0.5060.134,,,2022-07-25 16:24:17,2022-07-25 16:24:17,0.326s,PASSED
+delay(3),Chrome 103.0.5060.134,,,2022-07-25 16:24:17,2022-07-25 16:24:20,3.007s,PASSED
+"click(findTestObject(""08-Operations/Client Assignment/div_GG TESTER""))",Chrome 103.0.5060.134,,,2022-07-25 16:24:20,2022-07-25 16:24:21,0.345s,PASSED
+"click(findTestObject(""08-Operations/Client Assignment/button_ Assign""))",Chrome 103.0.5060.134,,,2022-07-25 16:24:21,2022-07-25 16:24:21,0.615s,PASSED
+"verifyElementVisible(findTestObject(""08-Operations/Client Assignment/Updated assignment msg""))",Chrome 103.0.5060.134,,,2022-07-25 16:24:21,2022-07-25 16:24:23,1.313s,PASSED
+delay(3),Chrome 103.0.5060.134,,,2022-07-25 16:24:23,2022-07-25 16:24:26,3.001s,PASSED
+"verifyElementVisible(findTestObject(""08-Operations/Client Assignment/Employees column after assign""))",Chrome 103.0.5060.134,,,2022-07-25 16:24:26,2022-07-25 16:24:26,0.328s,PASSED
+"verifyElementVisible(findTestObject(""08-Operations/Client Assignment/Assigned Employees - GG TESTER""))",Chrome 103.0.5060.134,,,2022-07-25 16:24:26,2022-07-25 16:24:26,0.326s,PASSED
+delay(3),Chrome 103.0.5060.134,,,2022-07-25 16:24:26,2022-07-25 16:24:29,3.013s,PASSED
+"click(findTestObject(""08-Operations/Client Assignment/div_GG TESTER""))",Chrome 103.0.5060.134,,,2022-07-25 16:24:29,2022-07-25 16:24:30,0.345s,PASSED
+"click(findTestObject(""08-Operations/Client Assignment/button_Unassign""))",Chrome 103.0.5060.134,,,2022-07-25 16:24:30,2022-07-25 16:24:30,0.589s,PASSED
+"verifyElementVisible(findTestObject(""08-Operations/Client Assignment/Updated assignment msg""))",Chrome 103.0.5060.134,,,2022-07-25 16:24:30,2022-07-25 16:24:32,1.367s,PASSED
+delay(3),Chrome 103.0.5060.134,,,2022-07-25 16:24:32,2022-07-25 16:24:35,3.014s,PASSED
+"verifyElementVisible(findTestObject(""08-Operations/Client Assignment/Employees column""))",Chrome 103.0.5060.134,,,2022-07-25 16:24:35,2022-07-25 16:24:36,0.865s,PASSED
+"verifyElementVisible(findTestObject(""08-Operations/Client Assignment/Assigned Employees empty""))",Chrome 103.0.5060.134,,,2022-07-25 16:24:36,2022-07-25 16:24:36,0.325s,PASSED
+delay(3),Chrome 103.0.5060.134,,,2022-07-25 16:24:36,2022-07-25 16:24:39,3.008s,PASSED
+closeBrowser(),Chrome 103.0.5060.134,,,2022-07-25 16:24:39,2022-07-25 16:24:40,0.717s,PASSED
