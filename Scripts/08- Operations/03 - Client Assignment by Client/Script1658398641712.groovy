@@ -65,5 +65,3 @@ WebUI.verifyElementVisible(findTestObject('08-Operations/Client Assignment/Assig
 
 WebUI.delay(3)
 
-WebUI.closeBrowser()
-
