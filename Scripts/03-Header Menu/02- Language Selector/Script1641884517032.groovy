@@ -88,7 +88,7 @@ WebUI.delay(2)
 
 WebUI.verifyElementVisible(findTestObject('03-Header Menu/Language/Language Div/div_Pannello di controllo'))
 
-WebUI.verifyElementVisible(findTestObject('03-Header Menu/Language/Language Div/div_Impostazioni'))
+WebUI.verifyElementVisible(findTestObject('03-Header Menu/Language/Language Div/div_Impostazioni'), FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.click(findTestObject('03-Header Menu/Language/button_Language Selector'))
 

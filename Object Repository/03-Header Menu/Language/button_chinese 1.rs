@@ -17,7 +17,7 @@
          <value>//*[@type = 'button' and (text() = '简体中文' or . = '简体中文')]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -25,6 +25,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
+      <webElementGuid>638eba0f-1b73-4f4e-8806-79e5649e203f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -32,6 +33,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
+      <webElementGuid>d063a529-b26a-4b37-a011-89b34183798e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,6 +41,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-focus-indicator mat-menu-item ng-tns-c311-6</value>
+      <webElementGuid>acb82913-5119-4b80-a97f-e9d4f42462c2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,6 +49,7 @@
       <name>ng-reflect-ng-style</name>
       <type>Main</type>
       <value>[object Object]</value>
+      <webElementGuid>3bd5efe7-25a6-4c47-a5b7-10f55606930b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,6 +57,7 @@
       <name>role</name>
       <type>Main</type>
       <value>menuitem</value>
+      <webElementGuid>0be0bcb2-cae5-4577-b939-152d727093e6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -60,6 +65,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>0</value>
+      <webElementGuid>13a09adc-3fcf-495b-aff3-e8463aa8265a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -67,6 +73,7 @@
       <name>aria-disabled</name>
       <type>Main</type>
       <value>false</value>
+      <webElementGuid>5f6a5c12-d3c7-4ea8-aaab-69d400cf25c1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -74,6 +81,7 @@
       <name>text</name>
       <type>Main</type>
       <value>简体中文</value>
+      <webElementGuid>5cec8287-c5d1-4cc5-9316-a73be38832aa</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -81,6 +89,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-menu-panel-1&quot;)/div[@class=&quot;mat-menu-content ng-tns-c311-6&quot;]/button[@class=&quot;mat-focus-indicator mat-menu-item ng-tns-c311-6&quot;]</value>
+      <webElementGuid>99dbbc60-e36e-4efb-87fb-0d75e0d3c021</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -88,6 +97,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[14]</value>
+      <webElementGuid>9505c106-b994-4f71-a230-b3342b38f47c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,6 +105,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='mat-menu-panel-1']/div/button[2]</value>
+      <webElementGuid>a3355358-5977-4cb1-9912-b45a1736363a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,6 +113,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='English'])[2]/following::button[1]</value>
+      <webElementGuid>206233b1-3e3c-47c2-a2f7-dfb3d1270dc9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,6 +121,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='User Guide'])[1]/following::button[6]</value>
+      <webElementGuid>70b0285e-088c-4218-9bea-824275b3cfc5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -116,6 +129,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='繁體中文'])[1]/preceding::button[1]</value>
+      <webElementGuid>a9454ab8-0427-4504-b64f-7ff05ccae903</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -123,6 +137,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Español'])[1]/preceding::button[2]</value>
+      <webElementGuid>b45518df-6dcd-48f6-96c8-e340f7811bcf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -130,6 +145,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='简体中文']/parent::*</value>
+      <webElementGuid>4c615207-a9b6-4979-be82-111d01ad89c3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -137,5 +153,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/div/div/button[2]</value>
+      <webElementGuid>3a0759e8-f1d6-46dc-b0da-ddd3241f7ca4</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

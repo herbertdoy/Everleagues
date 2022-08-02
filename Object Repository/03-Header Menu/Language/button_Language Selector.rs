@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//button[contains(@class,'mat-focus-indicator mat-menu-trigger')])[2]</value>
+         <value>(//mat-toolbar[contains(@class,'mat-toolbar header-main-page')]//button)[3]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -15,17 +15,18 @@
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//*[@type = 'button' and (text() = 'English' or . = 'English')]</value>
+         <value>//button[@type = 'button' and (text() = 'English' or . = 'English')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
+      <webElementGuid>c69648b5-5831-4ffc-affb-6d8f49080acf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -33,6 +34,7 @@
       <name>aria-haspopup</name>
       <type>Main</type>
       <value>true</value>
+      <webElementGuid>640547fb-bcd1-4406-a0c1-2ed9655bdcc4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -40,6 +42,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
+      <webElementGuid>e593b0fe-77e2-4bec-bf68-37f005ff438f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,6 +50,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-focus-indicator mat-menu-trigger language-select mat-button mat-button-base cdk-focused cdk-mouse-focused</value>
+      <webElementGuid>bccd1193-642d-4714-bd0d-9b3ed99fcac1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,6 +58,7 @@
       <name>ng-reflect-menu</name>
       <type>Main</type>
       <value>[object Object]</value>
+      <webElementGuid>6ccdccc5-35bf-43c7-9058-29d5a1ae7807</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -61,6 +66,7 @@
       <name>text</name>
       <type>Main</type>
       <value>English</value>
+      <webElementGuid>9debebdf-13d4-416a-8011-b7045d88c685</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -68,6 +74,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/app-root[1]/app-main-page[@class=&quot;ng-tns-c463-3 ng-trigger ng-trigger-routerAnimation ng-star-inserted&quot;]/mat-sidenav-container[@class=&quot;mat-drawer-container mat-sidenav-container ng-tns-c463-3 mat-drawer-transition mat-drawer-container-has-open&quot;]/mat-sidenav-content[@class=&quot;mat-drawer-content mat-sidenav-content&quot;]/mat-toolbar[@class=&quot;mat-toolbar header-main-page mat-primary mat-toolbar-single-row&quot;]/button[@class=&quot;mat-focus-indicator mat-menu-trigger language-select mat-button mat-button-base cdk-focused cdk-mouse-focused&quot;]</value>
+      <webElementGuid>a41a2f38-01f6-49a8-82fc-e04d86382842</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -75,6 +82,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[6]</value>
+      <webElementGuid>fe94c038-0783-4a19-9c9e-e455faf82b2c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,6 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='(v0.11.16 build 325)'])[1]/following::button[2]</value>
+      <webElementGuid>254481d4-a300-4726-9046-25461b37d222</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -89,6 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='GG Automation'])[1]/preceding::button[1]</value>
+      <webElementGuid>38d47d6a-1ef1-4667-8662-2d46f2cf9926</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -96,5 +106,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//button[3]</value>
+      <webElementGuid>101eac7e-dabc-47a5-a7cf-d72425af807e</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

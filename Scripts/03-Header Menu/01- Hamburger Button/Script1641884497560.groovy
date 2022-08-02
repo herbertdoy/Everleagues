@@ -100,7 +100,7 @@ WebUI.verifyElementNotVisible(findTestObject('03-Header Menu/Hamburger Button/di
 
 WebUI.verifyElementNotVisible(findTestObject('03-Header Menu/Hamburger Button/div_Income and Expense'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementNotVisible(findTestObject('03-Header Menu/Hamburger Button/div_ELNet'), FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementNotVisible(findTestObject('03-Header Menu/Hamburger Button/div_ELNet'), FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyElementNotVisible(findTestObject('03-Header Menu/Hamburger Button/div_Help'), FailureHandling.STOP_ON_FAILURE)
 
@@ -118,9 +118,9 @@ WebUI.verifyElementVisible(findTestObject('03-Header Menu/Hamburger Button/div_T
 
 WebUI.verifyElementVisible(findTestObject('03-Header Menu/Hamburger Button/div_Directory'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementVisible(findTestObject('03-Header Menu/Hamburger Button/div_Operation'), FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementVisible(findTestObject('03-Header Menu/Hamburger Button/div_Operation'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementVisible(findTestObject('03-Header Menu/Hamburger Button/div_Settings'), FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementVisible(findTestObject('03-Header Menu/Hamburger Button/div_Settings'), FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyElementVisible(findTestObject('03-Header Menu/Hamburger Button/div_Open Video Conference'), FailureHandling.STOP_ON_FAILURE)
 
@@ -130,7 +130,7 @@ WebUI.verifyElementVisible(findTestObject('03-Header Menu/Hamburger Button/div_E
 
 WebUI.verifyElementVisible(findTestObject('03-Header Menu/Hamburger Button/div_Income and Expense'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementVisible(findTestObject('03-Header Menu/Hamburger Button/div_ELNet'), FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementVisible(findTestObject('03-Header Menu/Hamburger Button/div_ELNet'), FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyElementVisible(findTestObject('03-Header Menu/Hamburger Button/div_Help'), FailureHandling.STOP_ON_FAILURE)
 
