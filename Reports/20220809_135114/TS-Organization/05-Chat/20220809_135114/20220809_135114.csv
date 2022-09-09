@@ -1,0 +1,72 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+05-Chat,Chrome 104.0.5112.81,,,2022-08-09 13:51:17,2022-08-09 13:55:06,3m - 49.852s,FAILED
+,,,,,,,
+Test Cases/05- Chat/01-Creating a Chat group,Chrome 104.0.5112.81,,,2022-08-09 13:51:17,2022-08-09 13:53:20,2m - 3.053s,FAILED
+"openBrowser("""")",Chrome 104.0.5112.81,,,2022-08-09 13:51:17,2022-08-09 13:51:20,2.204s,PASSED
+"navigateToUrl(""https://lab.everleagues.com/"")",Chrome 104.0.5112.81,,,2022-08-09 13:51:20,2022-08-09 13:51:46,26.360s,PASSED
+maximizeWindow(),Chrome 104.0.5112.81,,,2022-08-09 13:51:46,2022-08-09 13:51:46,0.160s,PASSED
+"setText(findTestObject(""02-Side Icons(Organization)/Add Contact/Email Field""), ""testuser02@mailinator.com"")",Chrome 104.0.5112.81,,,2022-08-09 13:51:46,2022-08-09 13:51:47,0.758s,PASSED
+"setEncryptedText(findTestObject(""02-Side Icons(Organization)/Add Contact/Password Field""), ""8yFRyszE6U6jvsCn51OQbg=="")",Chrome 104.0.5112.81,,,2022-08-09 13:51:47,2022-08-09 13:51:47,0.480s,PASSED
+"click(findTestObject(""02-Side Icons(Organization)/Add Contact/button_Sign in""))",Chrome 104.0.5112.81,,,2022-08-09 13:51:47,2022-08-09 13:51:48,0.722s,PASSED
+delay(2),Chrome 104.0.5112.81,,,2022-08-09 13:51:48,2022-08-09 13:51:50,2.026s,PASSED
+"click(findTestObject(""06-Teams/For 2FA/button_Confirm_2FA""))",Chrome 104.0.5112.81,,,2022-08-09 13:51:50,2022-08-09 13:51:50,0.375s,PASSED
+"executeJavaScript(""window.open();"", [])",Chrome 104.0.5112.81,,,2022-08-09 13:51:50,2022-08-09 13:51:50,0.057s,PASSED
+currentWindow = getWindowIndex(),Chrome 104.0.5112.81,,,2022-08-09 13:51:50,2022-08-09 13:51:50,0.025s,PASSED
+delay(3),Chrome 104.0.5112.81,,,2022-08-09 13:51:50,2022-08-09 13:51:53,3.010s,PASSED
+switchToWindowIndex(currentWindow + 1),Chrome 104.0.5112.81,,,2022-08-09 13:51:53,2022-08-09 13:51:54,0.035s,PASSED
+"navigateToUrl(""https://www.mailinator.com/"")",Chrome 104.0.5112.81,,,2022-08-09 13:51:54,2022-08-09 13:51:56,2.386s,PASSED
+delay(3),Chrome 104.0.5112.81,,,2022-08-09 13:51:56,2022-08-09 13:51:59,3.016s,PASSED
+"setText(findTestObject(""00-Signup and Activation/zMailinator/input_LOGIN_search""), ""testuser02@mailinator.com"")",Chrome 104.0.5112.81,,,2022-08-09 13:51:59,2022-08-09 13:52:00,0.680s,PASSED
+"click(findTestObject(""00-Signup and Activation/zMailinator/gobutton""), STOP_ON_FAILURE)",Chrome 104.0.5112.81,,,2022-08-09 13:52:00,2022-08-09 13:52:01,1.667s,PASSED
+delay(3),Chrome 104.0.5112.81,,,2022-08-09 13:52:01,2022-08-09 13:52:04,3.006s,PASSED
+"click(findTestObject(""00-Signup and Activation/zMailinator/Email - everleagues""))",Chrome 104.0.5112.81,,,2022-08-09 13:52:04,2022-08-09 13:52:05,0.365s,PASSED
+delay(3),Chrome 104.0.5112.81,,,2022-08-09 13:52:05,2022-08-09 13:52:08,3.006s,PASSED
+"code = getText(findTestObject(""Object Repository/06-Teams/For 2FA/2FA code""))",Chrome 104.0.5112.81,,,2022-08-09 13:52:08,2022-08-09 13:52:08,0.454s,PASSED
+delay(3),Chrome 104.0.5112.81,,,2022-08-09 13:52:08,2022-08-09 13:52:11,3.003s,PASSED
+"closeWindowTitle(""Mailinator"")",Chrome 104.0.5112.81,,,2022-08-09 13:52:11,2022-08-09 13:52:11,0.235s,PASSED
+delay(3),Chrome 104.0.5112.81,,,2022-08-09 13:52:11,2022-08-09 13:52:14,3.001s,PASSED
+switchToWindowIndex(0),Chrome 104.0.5112.81,,,2022-08-09 13:52:14,2022-08-09 13:52:14,0.018s,PASSED
+delay(3),Chrome 104.0.5112.81,,,2022-08-09 13:52:14,2022-08-09 13:52:17,3.015s,PASSED
+"setText(findTestObject(""Object Repository/06-Teams/For 2FA/input_Enter verification code_code""), code)",Chrome 104.0.5112.81,,,2022-08-09 13:52:17,2022-08-09 13:52:18,0.679s,PASSED
+delay(3),Chrome 104.0.5112.81,,,2022-08-09 13:52:18,2022-08-09 13:52:21,3.010s,PASSED
+"click(findTestObject(""06-Teams/For 2FA/button_Verify_2FA""))",Chrome 104.0.5112.81,,,2022-08-09 13:52:21,2022-08-09 13:52:22,0.576s,PASSED
+delay(5),Chrome 104.0.5112.81,,,2022-08-09 13:52:22,2022-08-09 13:52:27,5.010s,PASSED
+"click(findTestObject(""02-Side Icons(Organization)/Add Contact/Side Menu double arrow icon""))",Chrome 104.0.5112.81,,,2022-08-09 13:52:27,2022-08-09 13:52:27,0.472s,PASSED
+delay(2),Chrome 104.0.5112.81,,,2022-08-09 13:52:27,2022-08-09 13:52:29,2.011s,PASSED
+"click(findTestObject(""02-Side Icons(Organization)/Add Contact/button_My Organizations""))",Chrome 104.0.5112.81,,,2022-08-09 13:52:29,2022-08-09 13:52:29,0.363s,PASSED
+delay(2),Chrome 104.0.5112.81,,,2022-08-09 13:52:29,2022-08-09 13:52:31,2.001s,PASSED
+"click(findTestObject(""02-Side Icons(Organization)/Add Contact/button_Automation Test Org""))",Chrome 104.0.5112.81,,,2022-08-09 13:52:31,2022-08-09 13:52:32,0.451s,PASSED
+delay(2),Chrome 104.0.5112.81,,,2022-08-09 13:52:32,2022-08-09 13:52:34,2.007s,PASSED
+"verifyElementVisible(findTestObject(""02-Side Icons(Organization)/Add Contact/span_Automation Test Org""))",Chrome 104.0.5112.81,,,2022-08-09 13:52:34,2022-08-09 13:52:35,0.896s,PASSED
+"click(findTestObject(""05-Chat/01- Creating a Chat group/div_Chat""))",Chrome 104.0.5112.81,,,2022-08-09 13:52:35,2022-08-09 13:52:36,1.174s,PASSED
+delay(1),Chrome 104.0.5112.81,,,2022-08-09 13:52:36,2022-08-09 13:52:37,1.014s,PASSED
+"verifyElementVisible(findTestObject(""05-Chat/01- Creating a Chat group/h4_CHAT""))",Chrome 104.0.5112.81,,,2022-08-09 13:52:37,2022-08-09 13:52:37,0.380s,PASSED
+"verifyElementVisible(findTestObject(""05-Chat/01- Creating a Chat group/div_No chat available""))",Chrome 104.0.5112.81,,,2022-08-09 13:52:37,2022-08-09 13:52:38,0.372s,PASSED
+"verifyElementVisible(findTestObject(""05-Chat/01- Creating a Chat group/h5_Chat securely with your contacts here""))",Chrome 104.0.5112.81,,,2022-08-09 13:52:38,2022-08-09 13:52:38,0.372s,PASSED
+delay(3),Chrome 104.0.5112.81,,,2022-08-09 13:52:38,2022-08-09 13:52:41,3.009s,PASSED
+"click(findTestObject(""05-Chat/01- Creating a Chat group/new chat icon""))",Chrome 104.0.5112.81,,,2022-08-09 13:52:41,2022-08-09 13:52:42,0.736s,PASSED
+delay(5),Chrome 104.0.5112.81,,,2022-08-09 13:52:42,2022-08-09 13:52:47,5.010s,PASSED
+"click(findTestObject(""05-Chat/01- Creating a Chat group/div_New Group Chat""))",Chrome 104.0.5112.81,,,2022-08-09 13:52:47,2022-08-09 13:52:48,0.626s,PASSED
+delay(1),Chrome 104.0.5112.81,,,2022-08-09 13:52:48,2022-08-09 13:52:49,1.008s,PASSED
+"verifyElementVisible(findTestObject(""05-Chat/01- Creating a Chat group/span_Add group participant""))",Chrome 104.0.5112.81,,,2022-08-09 13:52:49,2022-08-09 13:53:20,31.406s,FAILED
+,,,,,,,
+Test Cases/05- Chat/02-Sending chat messages,Chrome 104.0.5112.81,,,2022-08-09 13:53:20,2022-08-09 13:53:52,31.643s,FAILED
+"click(findTestObject(""05-Chat/02-Sending chat messages/div_AC""))",Chrome 104.0.5112.81,,,2022-08-09 13:53:20,2022-08-09 13:53:52,31.359s,FAILED
+,,,,,,,
+Test Cases/05- Chat/03-Sending attached file,Chrome 104.0.5112.81,make sure to change file locations,,2022-08-09 13:53:52,2022-08-09 13:53:57,5.818s,FAILED
+delay(5),Chrome 104.0.5112.81,,,2022-08-09 13:53:52,2022-08-09 13:53:57,5.013s,PASSED
+"uploadpackage.Upload.uploadFile(findTestObject(""Object Repository/05-Chat/03-Sending attached file/button_attach_file""), ""C:\Users\User\Desktop\EL automation\qa.jpg"")",Chrome 104.0.5112.81,This is a .jpg [make sure to change your filepath for the image before running the automation],,2022-08-09 13:53:57,2022-08-09 13:53:57,0.499s,FAILED
+,,,,,,,
+Test Cases/05- Chat/04-Sending a video conference invite,Chrome 104.0.5112.81,,,2022-08-09 13:53:57,2022-08-09 13:53:58,0.978s,FAILED
+"click(findTestObject(""05-Chat/04-Sending a video conference invite/button_videocam""))",Chrome 104.0.5112.81,,,2022-08-09 13:53:58,2022-08-09 13:53:58,0.710s,FAILED
+,,,,,,,
+Test Cases/05- Chat/05-Schedule a meeting,Chrome 104.0.5112.81,,,2022-08-09 13:53:58,2022-08-09 13:53:59,1.045s,FAILED
+"click(findTestObject(""05-Chat/05-Schedule a meeting/button_schedule a meeting""))",Chrome 104.0.5112.81,,,2022-08-09 13:53:59,2022-08-09 13:53:59,0.716s,FAILED
+,,,,,,,
+Test Cases/05- Chat/06-Hiding a chat,Chrome 104.0.5112.81,,,2022-08-09 13:53:59,2022-08-09 13:54:34,34.459s,FAILED
+delay(3),Chrome 104.0.5112.81,,,2022-08-09 13:54:00,2022-08-09 13:54:03,3.002s,PASSED
+"click(findTestObject(""05-Chat/06-Hiding a chat/ellipsis_chat setting""))",Chrome 104.0.5112.81,,,2022-08-09 13:54:03,2022-08-09 13:54:34,31.188s,FAILED
+,,,,,,,
+Test Cases/05- Chat/07-Group Info,Chrome 104.0.5112.81,,,2022-08-09 13:54:34,2022-08-09 13:55:06,32.562s,FAILED
+delay(1),Chrome 104.0.5112.81,,,2022-08-09 13:54:34,2022-08-09 13:54:35,1.014s,PASSED
+"click(findTestObject(""05-Chat/02-Sending chat messages/div_AC""))",Chrome 104.0.5112.81,,,2022-08-09 13:54:35,2022-08-09 13:55:06,31.276s,FAILED

@@ -6,15 +6,19 @@
    <elementGuidId>e3835e9b-31d1-4d7c-9672-a602599b70ce</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='mat-input-73']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#mat-input-73</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@type = 'text' and @name = 'newGroupName' and @placeholder = 'Create a group name']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@type = 'text' and @name = 'newGroupName' and @placeholder = 'Group Name']</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -22,6 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
+      <webElementGuid>085a7f97-e909-4634-88cc-8543a84e2c69</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,6 +34,7 @@
       <name>maxlength</name>
       <type>Main</type>
       <value>50</value>
+      <webElementGuid>b15a197b-8823-442a-a2b1-c85f30c20595</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -36,6 +42,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
+      <webElementGuid>ef4d62f0-05ba-4953-aec2-8f8b4dccabc8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -43,6 +50,7 @@
       <name>name</name>
       <type>Main</type>
       <value>newGroupName</value>
+      <webElementGuid>6962c750-1a76-4275-b5df-989633ac1abb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,6 +58,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-input-element mat-form-field-autofill-control ng-tns-c231-350 cdk-text-field-autofill-monitored ng-untouched ng-pristine ng-valid</value>
+      <webElementGuid>eceabad0-0e71-4433-ba00-746574f243a1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -57,6 +66,7 @@
       <name>ng-reflect-maxlength</name>
       <type>Main</type>
       <value>50</value>
+      <webElementGuid>46afdcb5-2c40-4389-b0a9-05b9885fc3f9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -64,6 +74,7 @@
       <name>ng-reflect-name</name>
       <type>Main</type>
       <value>newGroupName</value>
+      <webElementGuid>88109f96-140f-4a89-9980-44df5526e063</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -71,6 +82,7 @@
       <name>ng-reflect-type</name>
       <type>Main</type>
       <value>text</value>
+      <webElementGuid>a855255b-6686-45f8-9f64-095c186a821e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,6 +90,7 @@
       <name>ng-reflect-placeholder</name>
       <type>Main</type>
       <value>Group Name</value>
+      <webElementGuid>25483dd2-fbcf-4c5b-9672-58a79076ec3e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -85,6 +98,7 @@
       <name>id</name>
       <type>Main</type>
       <value>mat-input-73</value>
+      <webElementGuid>ebbc0bba-e313-46d6-9b2b-ed3bb9f9462c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -92,6 +106,7 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>Group Name</value>
+      <webElementGuid>0d9bc7f0-a419-45a7-bc65-9d61391d4d18</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -99,6 +114,7 @@
       <name>aria-invalid</name>
       <type>Main</type>
       <value>false</value>
+      <webElementGuid>3a4216f1-9829-454f-b6be-8ccfbf7965c9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -106,6 +122,7 @@
       <name>aria-required</name>
       <type>Main</type>
       <value>false</value>
+      <webElementGuid>4bbd4ebc-35a6-4cbd-8707-2d0d1c1fd6e1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -113,6 +130,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-input-73&quot;)</value>
+      <webElementGuid>c1d0f50e-f495-4763-8fe5-33200f929d5f</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -120,6 +138,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='mat-input-73']</value>
+      <webElementGuid>88081767-0ffd-4b97-a574-2015a3c0bac2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -127,6 +146,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/div/mat-form-field/div/div/div/input</value>
+      <webElementGuid>b9191f51-a7c0-4b0e-ae04-1fdfea150c2b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,5 +154,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'text' and @name = 'newGroupName' and @id = 'mat-input-73' and @placeholder = 'Group Name']</value>
+      <webElementGuid>f73e6dd2-0867-47db-b3c6-82bbb1986342</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

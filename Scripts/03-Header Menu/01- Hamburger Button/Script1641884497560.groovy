@@ -76,7 +76,7 @@ WebUI.delay(5)
 
 WebUI.click(findTestObject('03-Header Menu/Hamburger Button/button_menu'))
 
-WebUI.delay(1)
+WebUI.delay(10)
 
 WebUI.verifyElementNotVisible(findTestObject('03-Header Menu/Hamburger Button/div_Add My Organization'), FailureHandling.STOP_ON_FAILURE)
 
@@ -104,7 +104,7 @@ WebUI.verifyElementNotVisible(findTestObject('03-Header Menu/Hamburger Button/di
 
 WebUI.verifyElementNotVisible(findTestObject('03-Header Menu/Hamburger Button/div_Help'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(3)
+WebUI.delay(10)
 
 WebUI.click(findTestObject('03-Header Menu/Hamburger Button/button_menu'))
 

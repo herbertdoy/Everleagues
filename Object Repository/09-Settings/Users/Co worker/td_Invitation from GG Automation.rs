@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>td_Invitation from GG Automation</name>
+   <tag></tag>
+   <elementGuidId>090a191d-3131-48d9-9975-211e95997bd9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//td[@onclick=&quot;showTheMessage('autotester04-1662445866-1261836879');&quot;])[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>td</value>
+      <webElementGuid>65d3034f-bb06-4324-95b5-7364137a5991</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onkeyup</name>
+      <type>Main</type>
+      <value>if (event.keyCode == 13) { showTheMessage('autotester04-1662445866-1261836879'); }</value>
+      <webElementGuid>0647c1cd-f040-4535-bafe-a4b08afbd268</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>showTheMessage('autotester04-1662445866-1261836879');</value>
+      <webElementGuid>7792bfbe-36d0-4d99-8c9e-e2ab25254b1a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ng-binding</value>
+      <webElementGuid>606123be-2742-4a51-98c2-c83d5f6df176</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+                    Invitation from GG Automation
+                </value>
+      <webElementGuid>92cda8d9-a8d3-4e8c-848d-b28f8a5b51c1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;row_autotester04-1662445866-1261836879&quot;)/td[@class=&quot;ng-binding&quot;]</value>
+      <webElementGuid>d0a6bdd9-11a3-4ee3-926e-0574baa98a87</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//td[@onclick=&quot;showTheMessage('autotester04-1662445866-1261836879');&quot;])[2]</value>
+      <webElementGuid>7bb71638-d7b9-4499-a6fe-9ddc8f87d6dc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//tr[@id='row_autotester04-1662445866-1261836879']/td[3]</value>
+      <webElementGuid>4b8e0d0f-4469-4b77-8e66-98d25093021f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='[GG Automation] via Everleagues'])[1]/following::td[1]</value>
+      <webElementGuid>d31a7c56-0254-4b69-9ee6-c9b5989beaf7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Received'])[2]/following::td[3]</value>
+      <webElementGuid>f06f8913-f243-44c1-a3ef-91c35f02ad03</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='FREE'])[2]/preceding::td[2]</value>
+      <webElementGuid>7211de7c-7c5b-4bb3-a72b-78edf336a636</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Get Verified!'])[1]/preceding::td[2]</value>
+      <webElementGuid>b133f89b-1f4d-47cb-8970-bf74ac8a7317</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Invitation from GG Automation']/parent::*</value>
+      <webElementGuid>dffed751-0eb4-46d6-a8da-e06bb099bafb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div/div/table/tbody/tr/td[3]</value>
+      <webElementGuid>859c8b48-62a1-4cb3-89b6-e41b38834b1e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//td[(text() = '
+                    Invitation from GG Automation
+                ' or . = '
+                    Invitation from GG Automation
+                ')]</value>
+      <webElementGuid>963137da-86ed-42ba-a540-7beefe363028</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

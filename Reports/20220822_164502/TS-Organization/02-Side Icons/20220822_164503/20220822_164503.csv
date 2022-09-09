@@ -1,0 +1,36 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+02-Side Icons,Chrome 104.0.5112.101,,,2022-08-22 16:45:06,2022-08-22 16:48:22,3m - 15.904s,FAILED
+,,,,,,,
+Test Cases/02-Side Icons (Organization)/01- (Add Contact),Chrome 104.0.5112.101,Navigates on Add Contact Page and verifies the elements.,,2022-08-22 16:45:06,2022-08-22 16:46:40,1m - 33.779s,FAILED
+"openBrowser("""")",Chrome 104.0.5112.101,,,2022-08-22 16:45:07,2022-08-22 16:45:09,2.323s,PASSED
+"navigateToUrl(""https://lab.everleagues.com/login?returnUrl=%2Fmain%2Fdashboard"")",Chrome 104.0.5112.101,,,2022-08-22 16:45:09,2022-08-22 16:45:46,36.492s,PASSED
+maximizeWindow(),Chrome 104.0.5112.101,,,2022-08-22 16:45:46,2022-08-22 16:45:46,0.042s,PASSED
+"setText(findTestObject(""02-Side Icons(Organization)/Add Contact/Email Field""), ""testuser01@mailinator.com"")",Chrome 104.0.5112.101,,,2022-08-22 16:45:46,2022-08-22 16:45:47,0.986s,PASSED
+"setEncryptedText(findTestObject(""02-Side Icons(Organization)/Add Contact/Password Field""), ""8yFRyszE6U6jvsCn51OQbg=="")",Chrome 104.0.5112.101,,,2022-08-22 16:45:47,2022-08-22 16:45:47,0.463s,PASSED
+"click(findTestObject(""02-Side Icons(Organization)/Add Contact/button_Sign in""))",Chrome 104.0.5112.101,,,2022-08-22 16:45:47,2022-08-22 16:45:48,0.853s,PASSED
+delay(2),Chrome 104.0.5112.101,,,2022-08-22 16:45:48,2022-08-22 16:45:50,2.035s,PASSED
+"click(findTestObject(""06-Teams/For 2FA/button_Confirm_2FA""))",Chrome 104.0.5112.101,,,2022-08-22 16:45:50,2022-08-22 16:45:50,0.359s,PASSED
+"executeJavaScript(""window.open();"", [])",Chrome 104.0.5112.101,,,2022-08-22 16:45:50,2022-08-22 16:45:51,0.066s,PASSED
+currentWindow = getWindowIndex(),Chrome 104.0.5112.101,,,2022-08-22 16:45:51,2022-08-22 16:45:51,0.027s,PASSED
+delay(3),Chrome 104.0.5112.101,,,2022-08-22 16:45:51,2022-08-22 16:45:54,3.016s,PASSED
+switchToWindowIndex(currentWindow + 1),Chrome 104.0.5112.101,,,2022-08-22 16:45:54,2022-08-22 16:45:54,0.034s,PASSED
+"navigateToUrl(""https://www.mailinator.com/"")",Chrome 104.0.5112.101,,,2022-08-22 16:45:54,2022-08-22 16:45:57,3.016s,PASSED
+delay(3),Chrome 104.0.5112.101,,,2022-08-22 16:45:57,2022-08-22 16:46:00,3.002s,PASSED
+"setText(findTestObject(""00-Signup and Activation/zMailinator/input_LOGIN_search""), ""testuser01@mailinator.com"")",Chrome 104.0.5112.101,,,2022-08-22 16:46:00,2022-08-22 16:46:00,0.700s,PASSED
+"click(findTestObject(""00-Signup and Activation/zMailinator/gobutton""), STOP_ON_FAILURE)",Chrome 104.0.5112.101,,,2022-08-22 16:46:00,2022-08-22 16:46:02,1.979s,PASSED
+delay(3),Chrome 104.0.5112.101,,,2022-08-22 16:46:02,2022-08-22 16:46:05,3.004s,PASSED
+"click(findTestObject(""00-Signup and Activation/zMailinator/Email - everleagues""))",Chrome 104.0.5112.101,,,2022-08-22 16:46:05,2022-08-22 16:46:06,0.363s,PASSED
+delay(3),Chrome 104.0.5112.101,,,2022-08-22 16:46:06,2022-08-22 16:46:09,3.009s,PASSED
+"code = getText(findTestObject(""Object Repository/06-Teams/For 2FA/2FA code""))",Chrome 104.0.5112.101,,,2022-08-22 16:46:09,2022-08-22 16:46:40,31.538s,FAILED
+,,,,,,,
+Test Cases/02-Side Icons (Organization)/02-(2FA),Chrome 104.0.5112.101,Navigates on 2FA Page and verifies the elements.,,2022-08-22 16:46:40,2022-08-22 16:47:15,34.619s,FAILED
+delay(3),Chrome 104.0.5112.101,,,2022-08-22 16:46:41,2022-08-22 16:46:44,3.010s,PASSED
+"click(findTestObject(""02-Side Icons(Organization)/2FA/button_2FA""))",Chrome 104.0.5112.101,,,2022-08-22 16:46:44,2022-08-22 16:47:15,31.328s,FAILED
+,,,,,,,
+Test Cases/02-Side Icons (Organization)/03-(Client Assignment),Chrome 104.0.5112.101,Navigates on Client Assignment Page and verifies the elements.,,2022-08-22 16:47:15,2022-08-22 16:47:49,33.670s,FAILED
+delay(2),Chrome 104.0.5112.101,,,2022-08-22 16:47:15,2022-08-22 16:47:17,2.015s,PASSED
+"click(findTestObject(""02-Side Icons(Organization)/Client Assignment/button_Client assignment""))",Chrome 104.0.5112.101,,,2022-08-22 16:47:17,2022-08-22 16:47:49,31.369s,FAILED
+,,,,,,,
+Test Cases/02-Side Icons (Organization)/04-(Hide Quick Shortcuts),Chrome 104.0.5112.101,Click Quick Shortcut and verify the buttons,,2022-08-22 16:47:49,2022-08-22 16:48:22,33.479s,FAILED
+delay(2),Chrome 104.0.5112.101,,,2022-08-22 16:47:49,2022-08-22 16:47:51,2.002s,PASSED
+"click(findTestObject(""02-Side Icons(Organization)/Hide Quick Shortcuts/button_hide quick shortcuts""))",Chrome 104.0.5112.101,,,2022-08-22 16:47:51,2022-08-22 16:48:22,31.231s,FAILED

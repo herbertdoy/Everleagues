@@ -1,0 +1,140 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+06.1- Teams - Add,Chrome 104.0.5112.102,,,2022-08-24 14:49:15,2022-08-24 14:52:52,3m - 37.009s,PASSED
+,,,,,,,
+Test Cases/06- Teams/01- Add Team- Public,Chrome 104.0.5112.102,,,2022-08-24 14:49:15,2022-08-24 14:51:01,1m - 45.458s,PASSED
+"openBrowser("""")",Chrome 104.0.5112.102,,,2022-08-24 14:49:16,2022-08-24 14:49:18,2.175s,PASSED
+"navigateToUrl(""https://lab.everleagues.com/"")",Chrome 104.0.5112.102,,,2022-08-24 14:49:18,2022-08-24 14:49:33,14.443s,PASSED
+maximizeWindow(),Chrome 104.0.5112.102,,,2022-08-24 14:49:33,2022-08-24 14:49:33,0.150s,PASSED
+"setText(findTestObject(""02-Side Icons(Organization)/Add Contact/Email Field""), ""testuser02@mailinator.com"")",Chrome 104.0.5112.102,,,2022-08-24 14:49:33,2022-08-24 14:49:33,0.772s,PASSED
+"setEncryptedText(findTestObject(""02-Side Icons(Organization)/Add Contact/Password Field""), ""8yFRyszE6U6jvsCn51OQbg=="")",Chrome 104.0.5112.102,,,2022-08-24 14:49:33,2022-08-24 14:49:34,0.460s,PASSED
+"click(findTestObject(""02-Side Icons(Organization)/Add Contact/button_Sign in""))",Chrome 104.0.5112.102,,,2022-08-24 14:49:34,2022-08-24 14:49:35,0.724s,PASSED
+delay(2),Chrome 104.0.5112.102,,,2022-08-24 14:49:35,2022-08-24 14:49:37,2.024s,PASSED
+"click(findTestObject(""06-Teams/For 2FA/button_Confirm_2FA""))",Chrome 104.0.5112.102,,,2022-08-24 14:49:37,2022-08-24 14:49:37,0.355s,PASSED
+"executeJavaScript(""window.open();"", [])",Chrome 104.0.5112.102,,,2022-08-24 14:49:37,2022-08-24 14:49:37,0.061s,PASSED
+currentWindow = getWindowIndex(),Chrome 104.0.5112.102,,,2022-08-24 14:49:37,2022-08-24 14:49:37,0.023s,PASSED
+delay(3),Chrome 104.0.5112.102,,,2022-08-24 14:49:37,2022-08-24 14:49:40,3.001s,PASSED
+switchToWindowIndex(currentWindow + 1),Chrome 104.0.5112.102,,,2022-08-24 14:49:40,2022-08-24 14:49:40,0.032s,PASSED
+"navigateToUrl(""https://www.mailinator.com/"")",Chrome 104.0.5112.102,,,2022-08-24 14:49:40,2022-08-24 14:49:42,1.950s,PASSED
+delay(3),Chrome 104.0.5112.102,,,2022-08-24 14:49:42,2022-08-24 14:49:45,3.005s,PASSED
+"setText(findTestObject(""00-Signup and Activation/zMailinator/input_LOGIN_search""), ""testuser02@mailinator.com"")",Chrome 104.0.5112.102,,,2022-08-24 14:49:45,2022-08-24 14:49:46,0.681s,PASSED
+"click(findTestObject(""00-Signup and Activation/zMailinator/gobutton""), STOP_ON_FAILURE)",Chrome 104.0.5112.102,,,2022-08-24 14:49:46,2022-08-24 14:49:48,1.965s,PASSED
+delay(3),Chrome 104.0.5112.102,,,2022-08-24 14:49:48,2022-08-24 14:49:51,3.002s,PASSED
+"click(findTestObject(""00-Signup and Activation/zMailinator/Email - everleagues""))",Chrome 104.0.5112.102,,,2022-08-24 14:49:51,2022-08-24 14:49:51,0.369s,PASSED
+delay(3),Chrome 104.0.5112.102,,,2022-08-24 14:49:51,2022-08-24 14:49:54,3.004s,PASSED
+"code = getText(findTestObject(""Object Repository/06-Teams/For 2FA/2FA code""))",Chrome 104.0.5112.102,,,2022-08-24 14:49:54,2022-08-24 14:49:55,0.452s,PASSED
+delay(3),Chrome 104.0.5112.102,,,2022-08-24 14:49:55,2022-08-24 14:49:58,3.007s,PASSED
+"closeWindowTitle(""Mailinator"")",Chrome 104.0.5112.102,,,2022-08-24 14:49:58,2022-08-24 14:49:58,0.188s,PASSED
+delay(3),Chrome 104.0.5112.102,,,2022-08-24 14:49:58,2022-08-24 14:50:01,3.011s,PASSED
+switchToWindowIndex(0),Chrome 104.0.5112.102,,,2022-08-24 14:50:01,2022-08-24 14:50:01,0.018s,PASSED
+delay(3),Chrome 104.0.5112.102,,,2022-08-24 14:50:01,2022-08-24 14:50:04,3.015s,PASSED
+"setText(findTestObject(""Object Repository/06-Teams/For 2FA/input_Enter verification code_code""), code)",Chrome 104.0.5112.102,,,2022-08-24 14:50:04,2022-08-24 14:50:05,0.982s,PASSED
+delay(3),Chrome 104.0.5112.102,,,2022-08-24 14:50:05,2022-08-24 14:50:08,3.014s,PASSED
+"click(findTestObject(""06-Teams/For 2FA/button_Verify_2FA""))",Chrome 104.0.5112.102,,,2022-08-24 14:50:08,2022-08-24 14:50:08,0.425s,PASSED
+delay(5),Chrome 104.0.5112.102,,,2022-08-24 14:50:08,2022-08-24 14:50:13,5.004s,PASSED
+"click(findTestObject(""06-Teams/button_doublearrow""))",Chrome 104.0.5112.102,,,2022-08-24 14:50:13,2022-08-24 14:50:15,1.782s,PASSED
+"click(findTestObject(""06-Teams/button_My Organizations""))",Chrome 104.0.5112.102,,,2022-08-24 14:50:15,2022-08-24 14:50:16,0.482s,PASSED
+"click(findTestObject(""06-Teams/button_GG Automation""))",Chrome 104.0.5112.102,,,2022-08-24 14:50:16,2022-08-24 14:50:16,0.899s,PASSED
+delay(4),Chrome 104.0.5112.102,,,2022-08-24 14:50:16,2022-08-24 14:50:20,4.013s,PASSED
+"verifyElementVisible(findTestObject(""06-Teams/span_GG Automation""))",Chrome 104.0.5112.102,,,2022-08-24 14:50:20,2022-08-24 14:50:21,0.337s,PASSED
+delay(2),Chrome 104.0.5112.102,,,2022-08-24 14:50:21,2022-08-24 14:50:23,2.002s,PASSED
+"click(findTestObject(""03-Header Menu/Hamburger Button/div_Teams""))",Chrome 104.0.5112.102,,,2022-08-24 14:50:23,2022-08-24 14:50:23,0.418s,PASSED
+delay(2),Chrome 104.0.5112.102,,,2022-08-24 14:50:23,2022-08-24 14:50:25,2.012s,PASSED
+"verifyElementVisible(findTestObject(""06-Teams/h4_TEAMS""))",Chrome 104.0.5112.102,,,2022-08-24 14:50:25,2022-08-24 14:50:26,0.337s,PASSED
+delay(3),Chrome 104.0.5112.102,,,2022-08-24 14:50:26,2022-08-24 14:50:29,3.010s,PASSED
+"click(findTestObject(""06-Teams/Add Team""))",Chrome 104.0.5112.102,,,2022-08-24 14:50:29,2022-08-24 14:50:29,0.580s,PASSED
+delay(3),Chrome 104.0.5112.102,,,2022-08-24 14:50:29,2022-08-24 14:50:32,3.017s,PASSED
+"verifyElementVisible(findTestObject(""06-Teams/button_Public""))",Chrome 104.0.5112.102,,,2022-08-24 14:50:32,2022-08-24 14:50:32,0.334s,PASSED
+"verifyElementVisible(findTestObject(""06-Teams/button_Private""))",Chrome 104.0.5112.102,,,2022-08-24 14:50:32,2022-08-24 14:50:33,0.343s,PASSED
+delay(3),Chrome 104.0.5112.102,,,2022-08-24 14:50:33,2022-08-24 14:50:36,3.006s,PASSED
+"click(findTestObject(""06-Teams/button_Public""))",Chrome 104.0.5112.102,,,2022-08-24 14:50:36,2022-08-24 14:50:36,0.409s,PASSED
+"verifyElementVisible(findTestObject(""06-Teams/01-Add Team-Public/Add Team_Public""))",Chrome 104.0.5112.102,,,2022-08-24 14:50:36,2022-08-24 14:50:37,0.477s,PASSED
+"verifyElementNotClickable(findTestObject(""06-Teams/01-Add Team-Public/button_Create""))",Chrome 104.0.5112.102,,,2022-08-24 14:50:37,2022-08-24 14:50:37,0.777s,PASSED
+delay(3),Chrome 104.0.5112.102,,,2022-08-24 14:50:37,2022-08-24 14:50:40,3.015s,PASSED
+"click(findTestObject(""06-Teams/01-Add Team-Public/input_teamName""))",Chrome 104.0.5112.102,,,2022-08-24 14:50:40,2022-08-24 14:50:41,0.364s,PASSED
+"click(findTestObject(""06-Teams/01-Add Team-Public/Org unit""))",Chrome 104.0.5112.102,,,2022-08-24 14:50:41,2022-08-24 14:50:41,0.396s,PASSED
+"verifyElementVisible(findTestObject(""06-Teams/01-Add Team-Public/h4_Select an organization unit""))",Chrome 104.0.5112.102,,,2022-08-24 14:50:41,2022-08-24 14:50:42,0.460s,PASSED
+delay(3),Chrome 104.0.5112.102,,,2022-08-24 14:50:42,2022-08-24 14:50:45,3.004s,PASSED
+"click(findTestObject(""06-Teams/01-Add Team-Public/div_GG Automation""))",Chrome 104.0.5112.102,,,2022-08-24 14:50:45,2022-08-24 14:50:45,0.425s,PASSED
+"click(findTestObject(""06-Teams/01-Add Team-Public/button_Select""))",Chrome 104.0.5112.102,,,2022-08-24 14:50:45,2022-08-24 14:50:46,0.372s,PASSED
+"verifyElementVisible(findTestObject(""06-Teams/01-Add Team-Public/Error Team name""))",Chrome 104.0.5112.102,,,2022-08-24 14:50:46,2022-08-24 14:50:46,0.881s,PASSED
+delay(3),Chrome 104.0.5112.102,,,2022-08-24 14:50:46,2022-08-24 14:50:49,3.008s,PASSED
+"setText(findTestObject(""06-Teams/01-Add Team-Public/input_teamName""), ""Auto Team Public"")",Chrome 104.0.5112.102,,,2022-08-24 14:50:49,2022-08-24 14:50:50,0.769s,PASSED
+"click(findTestObject(""06-Teams/01-Add Team-Public/button_Create""))",Chrome 104.0.5112.102,,,2022-08-24 14:50:50,2022-08-24 14:50:51,0.395s,PASSED
+delay(3),Chrome 104.0.5112.102,,,2022-08-24 14:50:51,2022-08-24 14:50:54,3.006s,PASSED
+"verifyElementVisible(findTestObject(""06-Teams/01-Add Team-Public/span_Successfully added new team""))",Chrome 104.0.5112.102,,,2022-08-24 14:50:54,2022-08-24 14:50:54,0.335s,PASSED
+delay(3),Chrome 104.0.5112.102,,,2022-08-24 14:50:54,2022-08-24 14:50:57,3.008s,PASSED
+"verifyElementVisible(findTestObject(""06-Teams/01-Add Team-Public/span_Auto Team Public""))",Chrome 104.0.5112.102,,,2022-08-24 14:50:57,2022-08-24 14:50:57,0.319s,PASSED
+delay(3),Chrome 104.0.5112.102,,,2022-08-24 14:50:57,2022-08-24 14:51:00,3.016s,PASSED
+closeBrowser(),Chrome 104.0.5112.102,,,2022-08-24 14:51:00,2022-08-24 14:51:01,0.697s,PASSED
+,,,,,,,
+Test Cases/06- Teams/02-Add Team-Private,Chrome 104.0.5112.102,,,2022-08-24 14:51:01,2022-08-24 14:52:52,1m - 51.258s,PASSED
+"openBrowser("""")",Chrome 104.0.5112.102,,,2022-08-24 14:51:01,2022-08-24 14:51:02,1.154s,PASSED
+"navigateToUrl(""https://lab.everleagues.com/"")",Chrome 104.0.5112.102,,,2022-08-24 14:51:02,2022-08-24 14:51:14,11.407s,PASSED
+maximizeWindow(),Chrome 104.0.5112.102,,,2022-08-24 14:51:14,2022-08-24 14:51:14,0.140s,PASSED
+"setText(findTestObject(""02-Side Icons(Organization)/Add Contact/Email Field""), ""testuser02@mailinator.com"")",Chrome 104.0.5112.102,,,2022-08-24 14:51:14,2022-08-24 14:51:15,0.698s,PASSED
+"setEncryptedText(findTestObject(""02-Side Icons(Organization)/Add Contact/Password Field""), ""8yFRyszE6U6jvsCn51OQbg=="")",Chrome 104.0.5112.102,,,2022-08-24 14:51:15,2022-08-24 14:51:15,0.415s,PASSED
+"click(findTestObject(""02-Side Icons(Organization)/Add Contact/button_Sign in""))",Chrome 104.0.5112.102,,,2022-08-24 14:51:15,2022-08-24 14:51:16,0.707s,PASSED
+delay(3),Chrome 104.0.5112.102,,,2022-08-24 14:51:16,2022-08-24 14:51:19,3.007s,PASSED
+"click(findTestObject(""06-Teams/For 2FA/button_Confirm_2FA""))",Chrome 104.0.5112.102,,,2022-08-24 14:51:19,2022-08-24 14:51:19,0.375s,PASSED
+"executeJavaScript(""window.open();"", [])",Chrome 104.0.5112.102,,,2022-08-24 14:51:19,2022-08-24 14:51:19,0.053s,PASSED
+currentWindow = getWindowIndex(),Chrome 104.0.5112.102,,,2022-08-24 14:51:19,2022-08-24 14:51:19,0.010s,PASSED
+delay(3),Chrome 104.0.5112.102,,,2022-08-24 14:51:19,2022-08-24 14:51:22,3.003s,PASSED
+switchToWindowIndex(currentWindow + 1),Chrome 104.0.5112.102,,,2022-08-24 14:51:22,2022-08-24 14:51:22,0.019s,PASSED
+"navigateToUrl(""https://www.mailinator.com/"")",Chrome 104.0.5112.102,,,2022-08-24 14:51:22,2022-08-24 14:51:24,2.054s,PASSED
+delay(3),Chrome 104.0.5112.102,,,2022-08-24 14:51:24,2022-08-24 14:51:27,3.005s,PASSED
+"setText(findTestObject(""00-Signup and Activation/zMailinator/input_LOGIN_search""), ""testuser02@mailinator.com"")",Chrome 104.0.5112.102,,,2022-08-24 14:51:27,2022-08-24 14:51:28,0.671s,PASSED
+"click(findTestObject(""00-Signup and Activation/zMailinator/gobutton""), STOP_ON_FAILURE)",Chrome 104.0.5112.102,,,2022-08-24 14:51:28,2022-08-24 14:51:30,2.247s,PASSED
+delay(3),Chrome 104.0.5112.102,,,2022-08-24 14:51:30,2022-08-24 14:51:33,3.008s,PASSED
+"click(findTestObject(""00-Signup and Activation/zMailinator/Email - everleagues""))",Chrome 104.0.5112.102,,,2022-08-24 14:51:33,2022-08-24 14:51:34,0.352s,PASSED
+delay(3),Chrome 104.0.5112.102,,,2022-08-24 14:51:34,2022-08-24 14:51:37,3.014s,PASSED
+"code = getText(findTestObject(""Object Repository/06-Teams/For 2FA/2FA code""))",Chrome 104.0.5112.102,,,2022-08-24 14:51:37,2022-08-24 14:51:37,0.425s,PASSED
+delay(3),Chrome 104.0.5112.102,,,2022-08-24 14:51:37,2022-08-24 14:51:40,3.003s,PASSED
+"closeWindowTitle(""Mailinator"")",Chrome 104.0.5112.102,,,2022-08-24 14:51:40,2022-08-24 14:51:40,0.188s,PASSED
+delay(3),Chrome 104.0.5112.102,,,2022-08-24 14:51:40,2022-08-24 14:51:43,3.002s,PASSED
+switchToWindowIndex(0),Chrome 104.0.5112.102,,,2022-08-24 14:51:43,2022-08-24 14:51:43,0.018s,PASSED
+delay(3),Chrome 104.0.5112.102,,,2022-08-24 14:51:43,2022-08-24 14:51:46,3.009s,PASSED
+"setText(findTestObject(""Object Repository/06-Teams/For 2FA/input_Enter verification code_code""), code)",Chrome 104.0.5112.102,,,2022-08-24 14:51:46,2022-08-24 14:51:47,0.887s,PASSED
+delay(3),Chrome 104.0.5112.102,,,2022-08-24 14:51:47,2022-08-24 14:51:50,3.002s,PASSED
+"click(findTestObject(""06-Teams/For 2FA/button_Verify_2FA""))",Chrome 104.0.5112.102,,,2022-08-24 14:51:50,2022-08-24 14:51:51,0.752s,PASSED
+delay(5),Chrome 104.0.5112.102,,,2022-08-24 14:51:51,2022-08-24 14:51:56,5.003s,PASSED
+"click(findTestObject(""06-Teams/button_doublearrow""))",Chrome 104.0.5112.102,,,2022-08-24 14:51:56,2022-08-24 14:51:57,1.120s,PASSED
+"click(findTestObject(""06-Teams/button_My Organizations""))",Chrome 104.0.5112.102,,,2022-08-24 14:51:57,2022-08-24 14:51:58,0.575s,PASSED
+"click(findTestObject(""06-Teams/button_GG Automation""))",Chrome 104.0.5112.102,,,2022-08-24 14:51:58,2022-08-24 14:51:58,0.795s,PASSED
+delay(4),Chrome 104.0.5112.102,,,2022-08-24 14:51:58,2022-08-24 14:52:02,4.005s,PASSED
+"verifyElementVisible(findTestObject(""06-Teams/span_GG Automation""))",Chrome 104.0.5112.102,,,2022-08-24 14:52:02,2022-08-24 14:52:03,0.333s,PASSED
+delay(2),Chrome 104.0.5112.102,,,2022-08-24 14:52:03,2022-08-24 14:52:05,2.002s,PASSED
+"click(findTestObject(""03-Header Menu/Hamburger Button/div_Teams""))",Chrome 104.0.5112.102,,,2022-08-24 14:52:05,2022-08-24 14:52:05,0.404s,PASSED
+delay(2),Chrome 104.0.5112.102,,,2022-08-24 14:52:05,2022-08-24 14:52:07,2.012s,PASSED
+"verifyElementVisible(findTestObject(""06-Teams/h4_TEAMS""))",Chrome 104.0.5112.102,,,2022-08-24 14:52:07,2022-08-24 14:52:07,0.321s,PASSED
+delay(3),Chrome 104.0.5112.102,,,2022-08-24 14:52:07,2022-08-24 14:52:10,3.004s,PASSED
+"click(findTestObject(""06-Teams/Add Team""))",Chrome 104.0.5112.102,,,2022-08-24 14:52:10,2022-08-24 14:52:11,0.398s,PASSED
+delay(3),Chrome 104.0.5112.102,,,2022-08-24 14:52:11,2022-08-24 14:52:14,3.012s,PASSED
+"verifyElementVisible(findTestObject(""06-Teams/button_Public""))",Chrome 104.0.5112.102,,,2022-08-24 14:52:14,2022-08-24 14:52:14,0.334s,PASSED
+"verifyElementVisible(findTestObject(""06-Teams/button_Private""))",Chrome 104.0.5112.102,,,2022-08-24 14:52:14,2022-08-24 14:52:15,0.328s,PASSED
+delay(3),Chrome 104.0.5112.102,,,2022-08-24 14:52:15,2022-08-24 14:52:18,3.003s,PASSED
+"click(findTestObject(""06-Teams/button_Private""))",Chrome 104.0.5112.102,,,2022-08-24 14:52:18,2022-08-24 14:52:18,0.485s,PASSED
+delay(3),Chrome 104.0.5112.102,,,2022-08-24 14:52:18,2022-08-24 14:52:21,3.017s,PASSED
+"verifyElementVisible(findTestObject(""06-Teams/02-Add Team-Private/Add team- Private""))",Chrome 104.0.5112.102,,,2022-08-24 14:52:21,2022-08-24 14:52:22,0.553s,PASSED
+"verifyElementVisible(findTestObject(""06-Teams/02-Add Team-Private/div_Settings""))",Chrome 104.0.5112.102,,,2022-08-24 14:52:22,2022-08-24 14:52:22,0.329s,PASSED
+"verifyElementVisible(findTestObject(""06-Teams/02-Add Team-Private/div_Members""))",Chrome 104.0.5112.102,,,2022-08-24 14:52:22,2022-08-24 14:52:22,0.344s,PASSED
+"verifyElementNotClickable(findTestObject(""06-Teams/01-Add Team-Public/button_Create""))",Chrome 104.0.5112.102,,,2022-08-24 14:52:22,2022-08-24 14:52:23,0.335s,PASSED
+delay(3),Chrome 104.0.5112.102,,,2022-08-24 14:52:23,2022-08-24 14:52:26,3.008s,PASSED
+"click(findTestObject(""06-Teams/01-Add Team-Public/input_teamName""))",Chrome 104.0.5112.102,,,2022-08-24 14:52:26,2022-08-24 14:52:26,0.351s,PASSED
+"click(findTestObject(""06-Teams/01-Add Team-Public/Org unit""))",Chrome 104.0.5112.102,,,2022-08-24 14:52:26,2022-08-24 14:52:26,0.405s,PASSED
+"verifyElementVisible(findTestObject(""06-Teams/01-Add Team-Public/h4_Select an organization unit""))",Chrome 104.0.5112.102,,,2022-08-24 14:52:26,2022-08-24 14:52:27,0.544s,PASSED
+delay(3),Chrome 104.0.5112.102,,,2022-08-24 14:52:27,2022-08-24 14:52:30,3.007s,PASSED
+"click(findTestObject(""06-Teams/01-Add Team-Public/div_GG Automation""))",Chrome 104.0.5112.102,,,2022-08-24 14:52:30,2022-08-24 14:52:30,0.424s,PASSED
+"click(findTestObject(""06-Teams/01-Add Team-Public/button_Select""))",Chrome 104.0.5112.102,,,2022-08-24 14:52:30,2022-08-24 14:52:31,0.361s,PASSED
+"verifyElementVisible(findTestObject(""06-Teams/01-Add Team-Public/Error Team name""))",Chrome 104.0.5112.102,,,2022-08-24 14:52:31,2022-08-24 14:52:32,1.007s,PASSED
+delay(3),Chrome 104.0.5112.102,,,2022-08-24 14:52:32,2022-08-24 14:52:35,3.007s,PASSED
+"setText(findTestObject(""06-Teams/01-Add Team-Public/input_teamName""), ""Auto Team Private"")",Chrome 104.0.5112.102,,,2022-08-24 14:52:35,2022-08-24 14:52:36,0.853s,PASSED
+delay(3),Chrome 104.0.5112.102,,,2022-08-24 14:52:36,2022-08-24 14:52:39,3.005s,PASSED
+"click(findTestObject(""06-Teams/02-Add Team-Private/div_Members""))",Chrome 104.0.5112.102,,,2022-08-24 14:52:39,2022-08-24 14:52:39,0.435s,PASSED
+"verifyElementVisible(findTestObject(""06-Teams/02-Add Team-Private/Members dialog box""))",Chrome 104.0.5112.102,,,2022-08-24 14:52:39,2022-08-24 14:52:40,1.314s,PASSED
+delay(3),Chrome 104.0.5112.102,,,2022-08-24 14:52:40,2022-08-24 14:52:43,3.014s,PASSED
+"click(findTestObject(""06-Teams/01-Add Team-Public/button_Create""))",Chrome 104.0.5112.102,,,2022-08-24 14:52:43,2022-08-24 14:52:44,0.409s,PASSED
+"verifyElementVisible(findTestObject(""06-Teams/01-Add Team-Public/span_Successfully added new team""))",Chrome 104.0.5112.102,,,2022-08-24 14:52:44,2022-08-24 14:52:45,1.400s,PASSED
+delay(3),Chrome 104.0.5112.102,,,2022-08-24 14:52:45,2022-08-24 14:52:48,3.001s,PASSED
+"verifyElementVisible(findTestObject(""06-Teams/02-Add Team-Private/span_Auto Team Private""))",Chrome 104.0.5112.102,,,2022-08-24 14:52:48,2022-08-24 14:52:48,0.336s,PASSED
+delay(3),Chrome 104.0.5112.102,,,2022-08-24 14:52:48,2022-08-24 14:52:51,3.015s,PASSED
+closeBrowser(),Chrome 104.0.5112.102,,,2022-08-24 14:52:51,2022-08-24 14:52:52,0.719s,PASSED

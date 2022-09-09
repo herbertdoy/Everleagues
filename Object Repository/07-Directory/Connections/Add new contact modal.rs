@@ -6,16 +6,16 @@
    <elementGuidId>10f45516-4a04-4025-afc9-fc501341d1eb</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//mat-dialog-container[@role = 'dialog' and (text() = 'Add New ContactFirst Name *Last Name * mail TypeEmailremove_circle_outline phone Type+1remove_circle_outlineAddress:add_circle_outlineCompanyPositionSelect Labels...NotesCreateCancel' or . = 'Add New ContactFirst Name *Last Name * mail TypeEmailremove_circle_outline phone Type+1remove_circle_outlineAddress:add_circle_outlineCompanyPositionSelect Labels...NotesCreateCancel')]</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>#mat-dialog-8</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//mat-dialog-container[(text() = 'Add New ContactFirst Name *Field is required Last Name * mail TypeEmailremove_circle_outline phone Type+93remove_circle_outlineAddress:add_circle_outlineCompanyPositionSelect Labels...NotesCreateCancel' or . = 'Add New ContactFirst Name *Field is required Last Name * mail TypeEmailremove_circle_outline phone Type+93remove_circle_outlineAddress:add_circle_outlineCompanyPositionSelect Labels...NotesCreateCancel')]</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//mat-dialog-container[@role = 'dialog' and (text() = 'Add New ContactFirst Name *Last Name * mail TypeEmailremove_circle_outline phone Type+1remove_circle_outlineAddress:add_circle_outlineCompanyPositionSelect Labels...NotesCreateCancel' or . = 'Add New ContactFirst Name *Last Name * mail TypeEmailremove_circle_outline phone Type+1remove_circle_outlineAddress:add_circle_outlineCompanyPositionSelect Labels...NotesCreateCancel')]</value>
+         <value>//mat-dialog-container[(text() = 'Add New ContactFirst Name *Field is required Last Name * mail TypeEmailremove_circle_outline phone Type+93Phoneremove_circle_outlineAddress:add_circle_outlineCompanyPositionSelect Labels...NotesCreateCancel' or . = 'Add New ContactFirst Name *Field is required Last Name * mail TypeEmailremove_circle_outline phone Type+93Phoneremove_circle_outlineAddress:add_circle_outlineCompanyPositionSelect Labels...NotesCreateCancel')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -26,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>mat-dialog-container</value>
-      <webElementGuid>9dd8276a-e621-49f1-bebe-df99b5454e4b</webElementGuid>
+      <webElementGuid>17d6ddbd-de71-40ea-a13e-77b7cc4a845e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -34,7 +34,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>-1</value>
-      <webElementGuid>69d551b5-3932-44cc-89a1-904242acef8c</webElementGuid>
+      <webElementGuid>027b25d2-019b-4a4c-9a47-fb62520b7189</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,7 +42,7 @@
       <name>aria-modal</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>5ccd4bcc-0eba-4ad5-a4dd-f0c100591aa5</webElementGuid>
+      <webElementGuid>a01286f5-b5aa-4486-ab3d-5c339b49ece3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,7 +50,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-dialog-container ng-tns-c33-211 ng-trigger ng-trigger-dialogContainer ng-star-inserted</value>
-      <webElementGuid>fe93565a-c800-49c6-9a81-fa1a67213d27</webElementGuid>
+      <webElementGuid>47c32829-11c7-4ce6-9bdd-15a08141be01</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -58,7 +58,7 @@
       <name>id</name>
       <type>Main</type>
       <value>mat-dialog-8</value>
-      <webElementGuid>1668a36b-b13d-4050-8eff-4f184730ed91</webElementGuid>
+      <webElementGuid>77a53c4e-5886-4be5-b21e-174860de720d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -66,7 +66,7 @@
       <name>role</name>
       <type>Main</type>
       <value>dialog</value>
-      <webElementGuid>6d69ff2c-64b2-4809-abea-42652a655534</webElementGuid>
+      <webElementGuid>61a2a10a-7f5b-4a9b-8494-0804dc986f1d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -74,7 +74,7 @@
       <name>aria-labelledby</name>
       <type>Main</type>
       <value>mat-dialog-title-8</value>
-      <webElementGuid>6fde5861-c678-490e-a757-1471d56a6c40</webElementGuid>
+      <webElementGuid>e3c3b6a1-927d-43ff-845d-3de08731c37f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -82,7 +82,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Add New ContactFirst Name *Last Name * mail TypeEmailremove_circle_outline phone Type+1remove_circle_outlineAddress:add_circle_outlineCompanyPositionSelect Labels...NotesCreateCancel</value>
-      <webElementGuid>12b05e62-0b6a-4e29-bdc3-e21aaaf52d84</webElementGuid>
+      <webElementGuid>36669143-78a7-4850-8353-8356da05cc49</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -90,7 +90,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-dialog-8&quot;)</value>
-      <webElementGuid>41f20e46-769e-4589-b146-6ea073156ec7</webElementGuid>
+      <webElementGuid>5ba95910-9d7e-408f-ac96-844921f37821</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -98,7 +98,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//mat-dialog-container[@id='mat-dialog-8']</value>
-      <webElementGuid>4e770e08-ddde-459b-8e17-2b0dad14f25f</webElementGuid>
+      <webElementGuid>d2de1a2a-9f34-4af8-9409-4263fe3c55bf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,7 +106,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='cdk-overlay-44']/mat-dialog-container</value>
-      <webElementGuid>7db74b41-ae70-4c8d-b2df-689c32bb2fd3</webElementGuid>
+      <webElementGuid>bf1e0d47-d0e4-4b76-95ca-933b862ad2a4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -114,7 +114,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Work'])[1]/following::mat-dialog-container[1]</value>
-      <webElementGuid>80acadd8-7fa8-4b09-af0a-61f6956d2bd1</webElementGuid>
+      <webElementGuid>0bd53c2d-c2e3-41af-894a-46b40000c525</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -122,7 +122,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='autotester01@mailinator.com'])[1]/following::mat-dialog-container[1]</value>
-      <webElementGuid>ec897cf2-eac8-4538-8218-42ed077dcccd</webElementGuid>
+      <webElementGuid>8b6cd888-901e-422c-ade8-3cb20e251325</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -130,7 +130,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//mat-dialog-container</value>
-      <webElementGuid>85a5e8c3-c39d-4d92-a9fb-bb08b93fbceb</webElementGuid>
+      <webElementGuid>8434811c-f87e-4471-8c2f-647af116cf79</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -138,6 +138,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//mat-dialog-container[@id = 'mat-dialog-8' and (text() = 'Add New ContactFirst Name *Last Name * mail TypeEmailremove_circle_outline phone Type+1remove_circle_outlineAddress:add_circle_outlineCompanyPositionSelect Labels...NotesCreateCancel' or . = 'Add New ContactFirst Name *Last Name * mail TypeEmailremove_circle_outline phone Type+1remove_circle_outlineAddress:add_circle_outlineCompanyPositionSelect Labels...NotesCreateCancel')]</value>
-      <webElementGuid>f48e3547-d069-4aa8-893c-085179194251</webElementGuid>
+      <webElementGuid>72bab588-3f1f-406d-bc4c-821fc1e0ff73</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

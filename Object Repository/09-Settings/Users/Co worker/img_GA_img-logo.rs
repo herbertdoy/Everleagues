@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>img_GA_img-logo</name>
+   <tag></tag>
+   <elementGuidId>a872467e-2d71-4753-ab7e-5a41f960bb0d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>img.img-logo</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//img</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>02408b29-d25e-42ea-9c0f-5b812ba29b41</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>/assets/logo/Logo_Final_Horizontal_Tagline.png</value>
+      <webElementGuid>aed1663f-802b-4360-913a-3b1c0e73d869</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>img-logo</value>
+      <webElementGuid>431b6615-33af-4a2b-9212-c2d03124fabf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/app-root[1]/app-verify-membership[1]/body[1]/section[1]/article[1]/mat-card[@class=&quot;mat-card mat-focus-indicator&quot;]/mat-card-content[@class=&quot;mat-card-content text-center&quot;]/div[@class=&quot;img-container&quot;]/a[@class=&quot;push-bottom-md&quot;]/img[@class=&quot;img-logo&quot;]</value>
+      <webElementGuid>ab096f33-8373-4f87-b7a6-d5c7add988e4</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//img</value>
+      <webElementGuid>af41d2c9-45ba-4bb9-8f43-32e0d515d09d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//img[@src = '/assets/logo/Logo_Final_Horizontal_Tagline.png']</value>
+      <webElementGuid>9dc53365-c522-4944-88f1-ecbb20795322</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

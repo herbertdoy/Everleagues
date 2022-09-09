@@ -1,0 +1,19 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+04-Add my Organizations,Chrome 104.0.5112.81,,,2022-08-09 13:44:04,2022-08-09 13:46:20,2m - 15.491s,FAILED
+,,,,,,,
+Test Cases/04-Add my Organizations/01- Free limited Plan (Blank fields),Chrome 104.0.5112.81,,,2022-08-09 13:44:05,2022-08-09 13:45:14,1m - 9.253s,FAILED
+"openBrowser("""")",Chrome 104.0.5112.81,,,2022-08-09 13:44:05,2022-08-09 13:44:07,2.207s,PASSED
+"navigateToUrl(""https://lab.everleagues.com/"")",Chrome 104.0.5112.81,,,2022-08-09 13:44:07,2022-08-09 13:44:38,30.536s,PASSED
+maximizeWindow(),Chrome 104.0.5112.81,,,2022-08-09 13:44:38,2022-08-09 13:44:38,0.160s,PASSED
+"setText(findTestObject(""02-Side Icons(Organization)/Add Contact/Email Field""), ""testuser02@mailinator.com"")",Chrome 104.0.5112.81,,,2022-08-09 13:44:38,2022-08-09 13:44:39,0.760s,PASSED
+"setEncryptedText(findTestObject(""02-Side Icons(Organization)/Add Contact/Password Field""), ""8yFRyszE6U6jvsCn51OQbg=="")",Chrome 104.0.5112.81,,,2022-08-09 13:44:39,2022-08-09 13:44:39,0.457s,PASSED
+"click(findTestObject(""02-Side Icons(Organization)/Add Contact/button_Sign in""))",Chrome 104.0.5112.81,,,2022-08-09 13:44:39,2022-08-09 13:44:40,0.956s,PASSED
+delay(2),Chrome 104.0.5112.81,,,2022-08-09 13:44:40,2022-08-09 13:44:42,2.027s,PASSED
+"click(findTestObject(""06-Teams/For 2FA/button_Confirm_2FA""))",Chrome 104.0.5112.81,,,2022-08-09 13:44:42,2022-08-09 13:45:14,31.767s,FAILED
+,,,,,,,
+Test Cases/04-Add my Organizations/02- Free limited Plan (Used Org Alias),Chrome 104.0.5112.81,,,2022-08-09 13:45:14,2022-08-09 13:45:46,31.934s,FAILED
+"setText(findTestObject(""04-Add my Organizations/Free limited Plan/input_org alias""), ""1234"")",Chrome 104.0.5112.81,,,2022-08-09 13:45:14,2022-08-09 13:45:46,31.649s,FAILED
+,,,,,,,
+Test Cases/04-Add my Organizations/03- Free limited Plan (Positive Scenarios),Chrome 104.0.5112.81,,,2022-08-09 13:45:46,2022-08-09 13:46:20,33.995s,FAILED
+delay(2),Chrome 104.0.5112.81,,,2022-08-09 13:45:46,2022-08-09 13:45:48,2.006s,PASSED
+"setText(findTestObject(""04-Add my Organizations/Free limited Plan/input_orgName""), ""GG Automation"")",Chrome 104.0.5112.81,,,2022-08-09 13:45:48,2022-08-09 13:46:20,31.662s,FAILED

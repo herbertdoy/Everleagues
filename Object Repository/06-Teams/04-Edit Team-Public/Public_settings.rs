@@ -7,14 +7,18 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//mat-tab-body[@id='mat-tab-content-0-1']/div/div/div/div</value>
+         <value>//div[(text() = 'Team Name *Organization UnitTeam TypePublicMember Visibility in Connections Allow members to create channels Allow members to do post creation Allow members to comment ' or . = 'Team Name *Organization UnitTeam TypePublicMember Visibility in Connections Allow members to create channels Allow members to do post creation Allow members to comment ')]</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>div.settings-form > div.ng-star-inserted</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[(text() = 'Team Name *Organization UnitTeam TypePublicMember Visibility Allow members to create channels Allow members to do post creation Allow members to comment ' or . = 'Team Name *Organization UnitTeam TypePublicMember Visibility Allow members to create channels Allow members to do post creation Allow members to comment ')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>6ff99f2a-4a8b-418b-9b69-44a3851f8225</webElementGuid>
+      <webElementGuid>d3da6731-a107-48d5-9126-cf8ddb42de32</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ng-star-inserted</value>
-      <webElementGuid>6c320bd8-f1ad-44a7-8505-bffb9f0da928</webElementGuid>
+      <webElementGuid>d34a1a0e-073f-4c34-a5ed-00b9b49d4841</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +42,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Team Name *Organization UnitTeam TypePublicMember Visibility Allow members to create channels Allow members to do post creation Allow members to comment </value>
-      <webElementGuid>ba993318-3fe4-46f0-8a14-4d3476e15a1e</webElementGuid>
+      <webElementGuid>e274b3ef-be7a-482b-b435-b1f7bbb03c58</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +50,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-tab-content-0-1&quot;)/div[@class=&quot;mat-tab-body-content ng-tns-c361-50 ng-trigger ng-trigger-translateTab&quot;]/div[@class=&quot;white-container scroll push-top-sm ng-star-inserted&quot;]/div[@class=&quot;settings-form&quot;]/div[@class=&quot;ng-star-inserted&quot;]</value>
-      <webElementGuid>b52c2155-f807-4347-aaa4-6b311b102a35</webElementGuid>
+      <webElementGuid>9b3dc67e-8174-409e-b9ac-3cd2abeb31f5</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +58,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-tab-body[@id='mat-tab-content-0-1']/div/div/div/div</value>
-      <webElementGuid>75eed66c-5a70-4a12-a9bb-52127aa8c2b6</webElementGuid>
+      <webElementGuid>58e3539a-582a-4674-939f-b3fd50a79d2a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +66,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Settings'])[2]/following::div[8]</value>
-      <webElementGuid>92fe32ad-6be3-448d-8f61-2fba4615856c</webElementGuid>
+      <webElementGuid>46154687-c8a1-4711-a093-afeec713ea18</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Channels'])[1]/following::div[10]</value>
-      <webElementGuid>97a39619-c0cd-40f3-b464-7ce69cd1a306</webElementGuid>
+      <webElementGuid>5183c40f-b274-4773-a28d-a280a05526f1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +82,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//mat-tab-body[2]/div/div/div/div</value>
-      <webElementGuid>19776c17-e854-4359-bc0f-381a0bd27473</webElementGuid>
+      <webElementGuid>e2727bef-f554-4898-8937-3f87901bd570</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,6 +90,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = 'Team Name *Organization UnitTeam TypePublicMember Visibility Allow members to create channels Allow members to do post creation Allow members to comment ' or . = 'Team Name *Organization UnitTeam TypePublicMember Visibility Allow members to create channels Allow members to do post creation Allow members to comment ')]</value>
-      <webElementGuid>7db1fcb5-9769-4f69-af9c-09d2cc03c146</webElementGuid>
+      <webElementGuid>b773c8ca-de98-44ad-a4df-4c47582d44ee</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

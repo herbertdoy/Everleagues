@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Sample csv.csv</name>
+   <tag></tag>
+   <elementGuidId>d1b4cffc-49d7-432c-8da8-863fa1df17b9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//mat-dialog-container[@id='mat-dialog-9']/app-dialog-csv-invite/section/div/div[2]/div[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.file-name</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[@class = 'file-name' and (text() = ' sample csv.csv ' or . = ' sample csv.csv ')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>334fb98b-a94e-4f92-ac8c-85ca160d510b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>file-name</value>
+      <webElementGuid>094f28ee-85e6-485e-b5a2-c05dd4fda489</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> sample csv.csv </value>
+      <webElementGuid>d837f5dd-2f9d-4171-bfb4-f128f7bb6c54</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mat-dialog-9&quot;)/app-dialog-csv-invite[@class=&quot;ng-star-inserted&quot;]/section[@class=&quot;dialog-container&quot;]/div[@class=&quot;mat-dialog-content ng-star-inserted&quot;]/div[@class=&quot;file-container&quot;]/div[@class=&quot;file-name&quot;]</value>
+      <webElementGuid>db529254-f0b7-485a-bdcb-2273ef2d0ad3</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//mat-dialog-container[@id='mat-dialog-9']/app-dialog-csv-invite/section/div/div[2]/div[2]</value>
+      <webElementGuid>71fbe0ac-3e6d-4754-9982-7ecff689391a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Choose File'])[1]/following::div[3]</value>
+      <webElementGuid>89290c0b-7206-41fe-97d7-2742910f4ba2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='here'])[1]/following::div[5]</value>
+      <webElementGuid>c7c92ed4-87e9-46ad-b5a9-f43443ad1ecf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Importing Organization Unit'])[1]/preceding::div[3]</value>
+      <webElementGuid>cc8b0e64-67cc-4654-978c-493293f139f2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Import'])[1]/preceding::div[13]</value>
+      <webElementGuid>cecc56d3-f1f3-42c5-8adf-efeecb2fc83c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='sample csv.csv']/parent::*</value>
+      <webElementGuid>f583354f-6d10-466b-b6af-0f2ebd7fb0b3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]</value>
+      <webElementGuid>2ad2e688-8c38-4156-9713-64bb0317bbd9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = ' sample csv.csv ' or . = ' sample csv.csv ')]</value>
+      <webElementGuid>ab3b5af8-1a2b-4e61-9464-03d1b9eb24ef</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

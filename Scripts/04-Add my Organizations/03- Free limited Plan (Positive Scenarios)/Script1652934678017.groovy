@@ -65,9 +65,9 @@ WebUI.switchToWindowIndex(1)
 
 WebUI.delay(5)
 
-assert WebUI.getUrl() == 'https://www.everleagues.com/pricing/'
+assert WebUI.getUrl() == 'https://www.everleagues.com/pricing'
 
-WebUI.closeWindowUrl('https://www.everleagues.com/pricing/')
+WebUI.closeWindowUrl('https://www.everleagues.com/pricing')
 
 WebUI.switchToWindowIndex(0)
 
@@ -79,9 +79,9 @@ WebUI.switchToWindowIndex(1)
 
 WebUI.delay(5)
 
-assert WebUI.getUrl() == 'https://www.everleagues.com/pricing/'
+assert WebUI.getUrl() == 'https://www.everleagues.com/pricing'
 
-WebUI.closeWindowUrl('https://www.everleagues.com/pricing/')
+WebUI.closeWindowUrl('https://www.everleagues.com/pricing')
 
 WebUI.switchToWindowIndex(0)
 
@@ -125,7 +125,7 @@ WebUI.verifyElementVisible(findTestObject('04-Add my Organizations/Free limited 
 
 WebUI.verifyElementVisible(findTestObject('04-Add my Organizations/Free limited Plan/button_LEARN MORE'))
 
-WebUI.delay(4)
+WebUI.delay(10)
 
 WebUI.click(findTestObject('04-Add my Organizations/Free limited Plan/button_DO THIS LATER'))
 

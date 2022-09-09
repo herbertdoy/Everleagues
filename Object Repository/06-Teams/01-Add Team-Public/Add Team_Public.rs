@@ -7,14 +7,18 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//mat-dialog-container[@id='mat-dialog-4']</value>
+         <value>//mat-dialog-container[(text() = 'Add TeamSettingsTeam Name *createOrganization Unit *Member Visibility in Connections Allow members to create channels Allow members to do post creation Allow members to comment CreateCancel' or . = 'Add TeamSettingsTeam Name *createOrganization Unit *Member Visibility in Connections Allow members to create channels Allow members to do post creation Allow members to comment CreateCancel')]</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>#mat-dialog-4</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//mat-dialog-container[(text() = 'Add TeamSettingsTeam Name *createOrganization Unit *Member Visibility Allow members to create channels Allow members to do post creation Allow members to comment CreateCancel' or . = 'Add TeamSettingsTeam Name *createOrganization Unit *Member Visibility Allow members to create channels Allow members to do post creation Allow members to comment CreateCancel')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -22,6 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>mat-dialog-container</value>
+      <webElementGuid>d00200ca-8e37-4421-9883-071a6cd2cb41</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,6 +34,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>-1</value>
+      <webElementGuid>571adecd-8911-48bf-ba71-e9394aa8ffc1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -36,6 +42,7 @@
       <name>aria-modal</name>
       <type>Main</type>
       <value>true</value>
+      <webElementGuid>6c049aae-8c0a-4d47-89bf-3f3d07713879</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,6 +50,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-dialog-container ng-tns-c31-86 ng-trigger ng-trigger-dialogContainer ng-star-inserted</value>
+      <webElementGuid>452d9548-9e5a-4648-a859-245c9e30e2c3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,6 +58,7 @@
       <name>id</name>
       <type>Main</type>
       <value>mat-dialog-4</value>
+      <webElementGuid>ac83e442-2bc2-405d-872f-dbc2e9697e8f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -57,6 +66,7 @@
       <name>role</name>
       <type>Main</type>
       <value>dialog</value>
+      <webElementGuid>49ebdbe3-d9db-4437-8cfd-b9df674c489c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -64,6 +74,7 @@
       <name>aria-labelledby</name>
       <type>Main</type>
       <value>mat-dialog-title-6</value>
+      <webElementGuid>968273a3-8586-4faf-83ee-6694d2912cf8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -71,6 +82,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Add TeamSettingsTeam Name *createOrganization Unit *Member Visibility Allow members to create channels Allow members to do post creation Allow members to comment CreateCancel</value>
+      <webElementGuid>96d41abe-6656-4a91-adbb-41fbcf062dbc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,6 +90,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-dialog-4&quot;)</value>
+      <webElementGuid>e2cf0ecd-181d-4425-b529-4c5d144a2378</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -85,6 +98,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//mat-dialog-container[@id='mat-dialog-4']</value>
+      <webElementGuid>ce96b43d-8d32-4ee6-840f-c51e711ae73a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -92,6 +106,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='cdk-overlay-18']/mat-dialog-container</value>
+      <webElementGuid>183c1dc6-d892-438b-94de-57a78f325f9f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,6 +114,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Edit Team'])[1]/following::mat-dialog-container[1]</value>
+      <webElementGuid>0f4dd3a5-28c5-4437-b77b-8f0ee4baabac</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,6 +122,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Manage Teams'])[1]/following::mat-dialog-container[1]</value>
+      <webElementGuid>b2cae6cf-9d93-42b3-a3d5-744cea6af2f0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -113,6 +130,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//mat-dialog-container</value>
+      <webElementGuid>a7447aa1-d6af-4a8c-9633-ff92da3e181d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -120,5 +138,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//mat-dialog-container[@id = 'mat-dialog-4' and (text() = 'Add TeamSettingsTeam Name *createOrganization Unit *Member Visibility Allow members to create channels Allow members to do post creation Allow members to comment CreateCancel' or . = 'Add TeamSettingsTeam Name *createOrganization Unit *Member Visibility Allow members to create channels Allow members to do post creation Allow members to comment CreateCancel')]</value>
+      <webElementGuid>c82d058a-568e-479d-8fa7-685480c45acd</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

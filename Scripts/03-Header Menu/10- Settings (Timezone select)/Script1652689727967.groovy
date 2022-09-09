@@ -35,6 +35,8 @@ WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Settings/sp
 
 WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Settings/button_Save'))
 
+WebUI.delay(1)
+
 WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/View Profile/Settings/Successfully msg'))
 
 WebUI.delay(2)
@@ -44,6 +46,8 @@ WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Settings/Ti
 WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Settings/span_(UTC0800) Kuala Lumpur, Singapore'))
 
 WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Settings/button_Save'))
+
+WebUI.delay(1)
 
 WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/View Profile/Settings/Successfully msg'))
 

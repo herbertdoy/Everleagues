@@ -57,7 +57,7 @@ WebUI.click(findTestObject('05-Chat/07-Group Info/button_Kick from group'))
 
 WebUI.delay(3)
 
-WebUI.verifyElementVisible(findTestObject('05-Chat/07-Group Info/Successfully removed user from group msg'))
+WebUI.verifyElementVisible(findTestObject('05-Chat/07-Group Info/Successfully removed user from group msg'), FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.delay(3)
 
