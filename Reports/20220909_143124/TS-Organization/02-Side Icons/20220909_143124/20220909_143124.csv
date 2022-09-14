@@ -1,0 +1,90 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+02-Side Icons,Chrome 105.0.0.0,,,2022-09-09 14:31:27,2022-09-09 14:33:34,2m - 7.505s,PASSED
+,,,,,,,
+Test Cases/02-Side Icons (Organization)/01- (Add Contact),Chrome 105.0.0.0,Navigates on Add Contact Page and verifies the elements.,,2022-09-09 14:31:27,2022-09-09 14:33:02,1m - 34.702s,PASSED
+"openBrowser("""")",Chrome 105.0.0.0,,,2022-09-09 14:31:27,2022-09-09 14:31:29,2.220s,PASSED
+"navigateToUrl(""https://lab.everleagues.com/login?returnUrl=%2Fmain%2Fdashboard"")",Chrome 105.0.0.0,,,2022-09-09 14:31:29,2022-09-09 14:31:45,15.522s,PASSED
+maximizeWindow(),Chrome 105.0.0.0,,,2022-09-09 14:31:45,2022-09-09 14:31:45,0.151s,PASSED
+"setText(findTestObject(""02-Side Icons(Organization)/Add Contact/Email Field""), ""testuser01@mailinator.com"")",Chrome 105.0.0.0,,,2022-09-09 14:31:45,2022-09-09 14:31:46,0.762s,PASSED
+"setEncryptedText(findTestObject(""02-Side Icons(Organization)/Add Contact/Password Field""), ""8yFRyszE6U6jvsCn51OQbg=="")",Chrome 105.0.0.0,,,2022-09-09 14:31:46,2022-09-09 14:31:46,0.471s,PASSED
+"click(findTestObject(""02-Side Icons(Organization)/Add Contact/button_Sign in""))",Chrome 105.0.0.0,,,2022-09-09 14:31:46,2022-09-09 14:31:47,0.722s,PASSED
+delay(2),Chrome 105.0.0.0,,,2022-09-09 14:31:47,2022-09-09 14:31:49,2.035s,PASSED
+"click(findTestObject(""06-Teams/For 2FA/button_Confirm_2FA""))",Chrome 105.0.0.0,,,2022-09-09 14:31:49,2022-09-09 14:31:49,0.356s,PASSED
+"executeJavaScript(""window.open();"", [])",Chrome 105.0.0.0,,,2022-09-09 14:31:49,2022-09-09 14:31:50,0.060s,PASSED
+currentWindow = getWindowIndex(),Chrome 105.0.0.0,,,2022-09-09 14:31:50,2022-09-09 14:31:50,0.020s,PASSED
+delay(3),Chrome 105.0.0.0,,,2022-09-09 14:31:50,2022-09-09 14:31:53,3.008s,PASSED
+switchToWindowIndex(currentWindow + 1),Chrome 105.0.0.0,,,2022-09-09 14:31:53,2022-09-09 14:31:53,0.033s,PASSED
+"navigateToUrl(""https://www.mailinator.com/"")",Chrome 105.0.0.0,,,2022-09-09 14:31:53,2022-09-09 14:31:55,2.810s,PASSED
+delay(3),Chrome 105.0.0.0,,,2022-09-09 14:31:55,2022-09-09 14:31:58,3.009s,PASSED
+"setText(findTestObject(""00-Signup and Activation/zMailinator/input_LOGIN_search""), ""testuser01@mailinator.com"")",Chrome 105.0.0.0,,,2022-09-09 14:31:58,2022-09-09 14:31:59,0.686s,PASSED
+"click(findTestObject(""00-Signup and Activation/zMailinator/gobutton""), STOP_ON_FAILURE)",Chrome 105.0.0.0,,,2022-09-09 14:31:59,2022-09-09 14:32:01,1.556s,PASSED
+delay(3),Chrome 105.0.0.0,,,2022-09-09 14:32:01,2022-09-09 14:32:04,3.013s,PASSED
+"click(findTestObject(""00-Signup and Activation/zMailinator/Email - everleagues""))",Chrome 105.0.0.0,,,2022-09-09 14:32:04,2022-09-09 14:32:04,0.361s,PASSED
+delay(3),Chrome 105.0.0.0,,,2022-09-09 14:32:04,2022-09-09 14:32:07,3.018s,PASSED
+"code = getText(findTestObject(""Object Repository/06-Teams/For 2FA/2FA code""))",Chrome 105.0.0.0,,,2022-09-09 14:32:07,2022-09-09 14:32:07,0.458s,PASSED
+delay(3),Chrome 105.0.0.0,,,2022-09-09 14:32:07,2022-09-09 14:32:11,3.004s,PASSED
+"closeWindowTitle(""Mailinator"")",Chrome 105.0.0.0,,,2022-09-09 14:32:11,2022-09-09 14:32:11,0.204s,PASSED
+delay(3),Chrome 105.0.0.0,,,2022-09-09 14:32:11,2022-09-09 14:32:14,3.012s,PASSED
+switchToWindowIndex(0),Chrome 105.0.0.0,,,2022-09-09 14:32:14,2022-09-09 14:32:14,0.017s,PASSED
+delay(3),Chrome 105.0.0.0,,,2022-09-09 14:32:14,2022-09-09 14:32:17,3.009s,PASSED
+"setText(findTestObject(""Object Repository/06-Teams/For 2FA/input_Enter verification code_code""), code)",Chrome 105.0.0.0,,,2022-09-09 14:32:17,2022-09-09 14:32:18,0.893s,PASSED
+delay(3),Chrome 105.0.0.0,,,2022-09-09 14:32:18,2022-09-09 14:32:21,3.005s,PASSED
+"click(findTestObject(""06-Teams/For 2FA/button_Verify_2FA""))",Chrome 105.0.0.0,,,2022-09-09 14:32:21,2022-09-09 14:32:21,0.743s,PASSED
+delay(5),Chrome 105.0.0.0,,,2022-09-09 14:32:21,2022-09-09 14:32:26,5.004s,PASSED
+"click(findTestObject(""02-Side Icons(Organization)/Add Contact/Side Menu double arrow icon""))",Chrome 105.0.0.0,,,2022-09-09 14:32:26,2022-09-09 14:32:27,0.901s,PASSED
+delay(2),Chrome 105.0.0.0,,,2022-09-09 14:32:27,2022-09-09 14:32:29,2.001s,PASSED
+"click(findTestObject(""02-Side Icons(Organization)/Add Contact/button_My Organizations""))",Chrome 105.0.0.0,,,2022-09-09 14:32:29,2022-09-09 14:32:30,0.406s,PASSED
+delay(2),Chrome 105.0.0.0,,,2022-09-09 14:32:30,2022-09-09 14:32:32,2.004s,PASSED
+"click(findTestObject(""02-Side Icons(Organization)/Add Contact/button_Automation Test Org""))",Chrome 105.0.0.0,,,2022-09-09 14:32:32,2022-09-09 14:32:32,0.469s,PASSED
+delay(2),Chrome 105.0.0.0,,,2022-09-09 14:32:32,2022-09-09 14:32:34,2.016s,PASSED
+"verifyElementVisible(findTestObject(""02-Side Icons(Organization)/Add Contact/span_Automation Test Org""))",Chrome 105.0.0.0,,,2022-09-09 14:32:34,2022-09-09 14:32:35,0.350s,PASSED
+delay(3),Chrome 105.0.0.0,,,2022-09-09 14:32:35,2022-09-09 14:32:38,3.015s,PASSED
+"click(findTestObject(""02-Side Icons(Organization)/Add Contact/button_add new user""))",Chrome 105.0.0.0,,,2022-09-09 14:32:38,2022-09-09 14:32:38,0.630s,PASSED
+delay(3),Chrome 105.0.0.0,,,2022-09-09 14:32:38,2022-09-09 14:32:41,3.014s,PASSED
+"verifyElementVisible(findTestObject(""02-Side Icons(Organization)/Add Contact/User Invitation modal""))",Chrome 105.0.0.0,,,2022-09-09 14:32:41,2022-09-09 14:32:42,0.989s,PASSED
+delay(2),Chrome 105.0.0.0,,,2022-09-09 14:32:42,2022-09-09 14:32:44,2.014s,PASSED
+"click(findTestObject(""02-Side Icons(Organization)/Add Contact/Invite a single user option""))",Chrome 105.0.0.0,,,2022-09-09 14:32:44,2022-09-09 14:32:45,0.347s,PASSED
+"verifyElementVisible(findTestObject(""02-Side Icons(Organization)/Add Contact/Invite New user modal""))",Chrome 105.0.0.0,,,2022-09-09 14:32:45,2022-09-09 14:32:46,1.213s,PASSED
+delay(2),Chrome 105.0.0.0,,,2022-09-09 14:32:46,2022-09-09 14:32:48,2.010s,PASSED
+"click(findTestObject(""02-Side Icons(Organization)/Add Contact/button_Cancel""))",Chrome 105.0.0.0,,,2022-09-09 14:32:48,2022-09-09 14:32:48,0.398s,PASSED
+delay(2),Chrome 105.0.0.0,,,2022-09-09 14:32:48,2022-09-09 14:32:50,2.006s,PASSED
+"click(findTestObject(""02-Side Icons(Organization)/Add Contact/button_add new user""))",Chrome 105.0.0.0,,,2022-09-09 14:32:50,2022-09-09 14:32:51,0.382s,PASSED
+delay(3),Chrome 105.0.0.0,,,2022-09-09 14:32:51,2022-09-09 14:32:54,3.013s,PASSED
+"verifyElementVisible(findTestObject(""02-Side Icons(Organization)/Add Contact/User Invitation modal""))",Chrome 105.0.0.0,,,2022-09-09 14:32:54,2022-09-09 14:32:54,0.334s,PASSED
+delay(2),Chrome 105.0.0.0,,,2022-09-09 14:32:54,2022-09-09 14:32:56,2.011s,PASSED
+"click(findTestObject(""02-Side Icons(Organization)/Add Contact/Invite batch user option""))",Chrome 105.0.0.0,,,2022-09-09 14:32:56,2022-09-09 14:32:56,0.373s,PASSED
+"verifyElementVisible(findTestObject(""02-Side Icons(Organization)/Add Contact/Import CSV file modal""))",Chrome 105.0.0.0,,,2022-09-09 14:32:56,2022-09-09 14:32:57,0.891s,PASSED
+delay(2),Chrome 105.0.0.0,,,2022-09-09 14:32:57,2022-09-09 14:32:59,2.005s,PASSED
+"click(findTestObject(""02-Side Icons(Organization)/Add Contact/button_Cancel""))",Chrome 105.0.0.0,,,2022-09-09 14:32:59,2022-09-09 14:33:00,0.362s,PASSED
+delay(2),Chrome 105.0.0.0,,,2022-09-09 14:33:00,2022-09-09 14:33:02,2.001s,PASSED
+,,,,,,,
+Test Cases/02-Side Icons (Organization)/02-(2FA),Chrome 105.0.0.0,Navigates on 2FA Page and verifies the elements.,,2022-09-09 14:33:02,2022-09-09 14:33:12,10.111s,PASSED
+delay(3),Chrome 105.0.0.0,,,2022-09-09 14:33:02,2022-09-09 14:33:05,3.004s,PASSED
+"click(findTestObject(""02-Side Icons(Organization)/2FA/button_2FA""))",Chrome 105.0.0.0,,,2022-09-09 14:33:05,2022-09-09 14:33:05,0.450s,PASSED
+delay(3),Chrome 105.0.0.0,,,2022-09-09 14:33:05,2022-09-09 14:33:08,3.015s,PASSED
+"verifyElementVisible(findTestObject(""02-Side Icons(Organization)/2FA/span_Two Factor Authentication""))",Chrome 105.0.0.0,,,2022-09-09 14:33:08,2022-09-09 14:33:09,0.364s,PASSED
+delay(3),Chrome 105.0.0.0,,,2022-09-09 14:33:09,2022-09-09 14:33:12,3.014s,PASSED
+,,,,,,,
+Test Cases/02-Side Icons (Organization)/03-(Client Assignment),Chrome 105.0.0.0,Navigates on Client Assignment Page and verifies the elements.,,2022-09-09 14:33:12,2022-09-09 14:33:22,9.919s,PASSED
+delay(2),Chrome 105.0.0.0,,,2022-09-09 14:33:12,2022-09-09 14:33:14,2.008s,PASSED
+"click(findTestObject(""02-Side Icons(Organization)/Client Assignment/button_Client assignment""))",Chrome 105.0.0.0,,,2022-09-09 14:33:14,2022-09-09 14:33:14,0.516s,PASSED
+delay(3),Chrome 105.0.0.0,,,2022-09-09 14:33:14,2022-09-09 14:33:17,3.010s,PASSED
+"verifyElementVisible(findTestObject(""02-Side Icons(Organization)/Client Assignment/h4_CLIENT ASSIGNMENT""))",Chrome 105.0.0.0,,,2022-09-09 14:33:17,2022-09-09 14:33:18,0.380s,PASSED
+"verifyElementVisible(findTestObject(""02-Side Icons(Organization)/Client Assignment/div_By Employee""))",Chrome 105.0.0.0,,,2022-09-09 14:33:18,2022-09-09 14:33:18,0.357s,PASSED
+"verifyElementVisible(findTestObject(""02-Side Icons(Organization)/Client Assignment/div_By Client""))",Chrome 105.0.0.0,,,2022-09-09 14:33:18,2022-09-09 14:33:19,0.359s,PASSED
+delay(3),Chrome 105.0.0.0,,,2022-09-09 14:33:19,2022-09-09 14:33:22,3.008s,PASSED
+,,,,,,,
+Test Cases/02-Side Icons (Organization)/04-(Hide Quick Shortcuts),Chrome 105.0.0.0,Click Quick Shortcut and verify the buttons,,2022-09-09 14:33:22,2022-09-09 14:33:34,12.491s,PASSED
+delay(2),Chrome 105.0.0.0,,,2022-09-09 14:33:22,2022-09-09 14:33:24,2.003s,PASSED
+"click(findTestObject(""02-Side Icons(Organization)/Hide Quick Shortcuts/button_hide quick shortcuts""))",Chrome 105.0.0.0,,,2022-09-09 14:33:24,2022-09-09 14:33:24,0.432s,PASSED
+delay(3),Chrome 105.0.0.0,,,2022-09-09 14:33:24,2022-09-09 14:33:27,3.003s,PASSED
+"verifyElementNotPresent(findTestObject(""02-Side Icons(Organization)/2FA/button_2FA""), 0)",Chrome 105.0.0.0,,,2022-09-09 14:33:27,2022-09-09 14:33:28,0.436s,PASSED
+"verifyElementNotPresent(findTestObject(""02-Side Icons(Organization)/Add Contact/button_add new user""), 0)",Chrome 105.0.0.0,,,2022-09-09 14:33:28,2022-09-09 14:33:28,0.321s,PASSED
+"verifyElementNotPresent(findTestObject(""02-Side Icons(Organization)/Client Assignment/button_Client assignment""), 0)",Chrome 105.0.0.0,,,2022-09-09 14:33:28,2022-09-09 14:33:28,0.311s,PASSED
+delay(3),Chrome 105.0.0.0,,,2022-09-09 14:33:28,2022-09-09 14:33:31,3.005s,PASSED
+"click(findTestObject(""02-Side Icons(Organization)/Hide Quick Shortcuts/button_Show quick shortcuts""))",Chrome 105.0.0.0,,,2022-09-09 14:33:31,2022-09-09 14:33:32,0.916s,PASSED
+"verifyElementVisible(findTestObject(""02-Side Icons(Organization)/2FA/button_2FA""))",Chrome 105.0.0.0,,,2022-09-09 14:33:32,2022-09-09 14:33:33,0.439s,PASSED
+"verifyElementVisible(findTestObject(""02-Side Icons(Organization)/Add Contact/button_add new user""))",Chrome 105.0.0.0,,,2022-09-09 14:33:33,2022-09-09 14:33:33,0.327s,PASSED
+"verifyElementVisible(findTestObject(""02-Side Icons(Organization)/Client Assignment/button_Client assignment""))",Chrome 105.0.0.0,,,2022-09-09 14:33:33,2022-09-09 14:33:33,0.325s,PASSED
+delay(0),Chrome 105.0.0.0,,,2022-09-09 14:33:33,2022-09-09 14:33:33,0.002s,PASSED
+closeBrowser(),Chrome 105.0.0.0,,,2022-09-09 14:33:33,2022-09-09 14:33:34,0.724s,PASSED
