@@ -6,16 +6,16 @@
    <elementGuidId>fb992cfa-f84f-4002-bb0e-3e715480fb70</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>//mat-dialog-container[(text() = 'Edit 2FA Phone Number+1Phone Number *Enter a valid phone numberNextCancel' or . = 'Edit 2FA Phone Number+1Phone Number *Enter a valid phone numberNextCancel')]</value>
+      </entry>
+      <entry>
          <key>CSS</key>
-         <value>#mat-dialog-title-2</value>
+         <value>#mat-dialog-1</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//h4[@class = 'mat-dialog-title' and (text() = 'Edit 2FA Phone Number' or . = 'Edit 2FA Phone Number')]</value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//mat-dialog-container[(text() = 'Edit 2FA Phone Number+93Phone Number *NextCancel' or . = 'Edit 2FA Phone Number+93Phone Number *NextCancel')]</value>
+         <value>//mat-dialog-container[@role = 'dialog' and (text() = 'Edit 2FA Phone Number+1Phone Number *Enter a valid phone numberNextCancel' or . = 'Edit 2FA Phone Number+1Phone Number *Enter a valid phone numberNextCancel')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -25,103 +25,119 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>h4</value>
-      <webElementGuid>e498429f-f054-47cf-bfb9-65c726ead11b</webElementGuid>
+      <value>mat-dialog-container</value>
+      <webElementGuid>c9a46036-0381-4cc0-83d3-00ac6fe9f4d6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>-1</value>
+      <webElementGuid>e3b7af26-e663-4acc-b58d-2bd77678b661</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-modal</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>ab0ee1dc-84ed-43c3-ae98-d8ba71343040</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>mat-dialog-title</value>
-      <webElementGuid>633e4691-67fc-4a93-9cc2-c8ad51f92ee5</webElementGuid>
+      <value>mat-dialog-container ng-tns-c33-59 ng-trigger ng-trigger-dialogContainer ng-star-inserted</value>
+      <webElementGuid>262aad96-68cd-4e17-95fa-663e7887f6ba</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>mat-dialog-title-2</value>
-      <webElementGuid>fe44e1da-5e1e-47b0-afa9-851fa8258f7b</webElementGuid>
+      <value>mat-dialog-1</value>
+      <webElementGuid>c8358101-8487-4c43-a1a0-1b944950862f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>dialog</value>
+      <webElementGuid>46548eb2-9d19-460b-9198-107260078a50</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-labelledby</name>
+      <type>Main</type>
+      <value>mat-dialog-title-1</value>
+      <webElementGuid>23ba75f8-4f7b-4679-abf6-53706056b5e8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Edit 2FA Phone Number</value>
-      <webElementGuid>bc83549d-d226-4f71-a42c-faad3725216e</webElementGuid>
+      <value>Edit 2FA Phone Number+1Phone Number *Enter a valid phone numberNextCancel</value>
+      <webElementGuid>d5a8317b-3e92-4fbe-98db-3c14f96f02aa</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;mat-dialog-title-2&quot;)</value>
-      <webElementGuid>6f1e77ea-1558-4b24-bed0-db14b6fc19b2</webElementGuid>
+      <value>id(&quot;mat-dialog-1&quot;)</value>
+      <webElementGuid>e101c70a-e38d-4299-b194-6d5401b2f8af</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//h4[@id='mat-dialog-title-2']</value>
-      <webElementGuid>b75b9cfa-0919-4dff-89a9-3bdeb38089e1</webElementGuid>
+      <value>//mat-dialog-container[@id='mat-dialog-1']</value>
+      <webElementGuid>706ca841-2a1c-44c2-ad9e-3eeb3788383a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//mat-dialog-container[@id='mat-dialog-2']/app-dialog-2fa-phone/section/form/h4</value>
-      <webElementGuid>dc40ba2b-d3c7-4e82-82e0-f23cddf5d8a4</webElementGuid>
+      <value>//div[@id='cdk-overlay-2']/mat-dialog-container</value>
+      <webElementGuid>5fbae3b9-d8c7-4192-9c2c-23395ebc23ec</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Delete Phone'])[1]/following::h4[1]</value>
-      <webElementGuid>f95027a4-b788-4199-adb3-b269a9403969</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Delete Phone'])[1]/following::mat-dialog-container[1]</value>
+      <webElementGuid>f4120bd0-3c57-4677-a0c5-055cbcfcee7c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Delete Email'])[1]/following::h4[1]</value>
-      <webElementGuid>a534f0ee-1c60-45bc-9274-60931539c486</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Phone Number'])[1]/preceding::h4[1]</value>
-      <webElementGuid>7203f5c6-f34f-4d17-b019-9a2a46c89125</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Enter a valid phone number with country code (Eg: +1234567890)'])[1]/preceding::h4[1]</value>
-      <webElementGuid>295a6441-4abf-457a-8c3b-41b288c0b4b4</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Edit 2FA Phone Number']/parent::*</value>
-      <webElementGuid>35b3761d-1830-4d19-ba45-bcaac23892fd</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Delete Email'])[1]/following::mat-dialog-container[1]</value>
+      <webElementGuid>b516e9b8-3106-49cb-8f56-389a6e994e40</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//form/h4</value>
-      <webElementGuid>8d2b21f6-3d5d-4c50-ad1f-672c3e1d24cd</webElementGuid>
+      <value>//mat-dialog-container</value>
+      <webElementGuid>56db1f3d-d489-4025-a332-052796687b2c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//mat-dialog-container[@id = 'mat-dialog-1' and (text() = 'Edit 2FA Phone Number+1Phone Number *Enter a valid phone numberNextCancel' or . = 'Edit 2FA Phone Number+1Phone Number *Enter a valid phone numberNextCancel')]</value>
+      <webElementGuid>111e3ff8-2c32-4e5f-a52f-5a3256395353</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

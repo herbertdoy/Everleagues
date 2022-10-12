@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//mat-option[@id='mat-option-1']/span</value>
+         <value>//span[@class = 'mat-option-text' and (text() = ' Co-worker ' or . = ' Co-worker ')]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -18,7 +18,7 @@
          <value>//span[@class = 'mat-option-text' and (text() = ' CoWorker ' or . = ' CoWorker ')]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -26,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>3b02b5d5-889e-45ee-91f6-e0106be8f010</webElementGuid>
+      <webElementGuid>b464ffb1-4b1c-410d-b282-2ab5c599c15b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -34,7 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-option-text</value>
-      <webElementGuid>8f3fc3a7-3c04-469d-92ee-bc189190f40c</webElementGuid>
+      <webElementGuid>ae558563-bc12-481a-ba57-067af53fddcb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -42,7 +42,7 @@
       <name>text</name>
       <type>Main</type>
       <value> CoWorker </value>
-      <webElementGuid>25a72b57-9ea5-48f0-8e8a-ca549ca370e5</webElementGuid>
+      <webElementGuid>4e13f2c3-dfaa-4a8b-b628-a56934585b2d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,7 +50,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-option-1&quot;)/span[@class=&quot;mat-option-text&quot;]</value>
-      <webElementGuid>5fcd16a5-ab84-42cd-bf70-045e9a353925</webElementGuid>
+      <webElementGuid>d9968359-2540-48ac-a693-73e0329fed50</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -58,7 +58,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-option[@id='mat-option-1']/span</value>
-      <webElementGuid>a8e7c4aa-2973-4f36-ac76-67f59c201bbe</webElementGuid>
+      <webElementGuid>47892dd4-7364-492b-885f-c2d43600bf96</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -66,7 +66,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Partner'])[1]/following::span[1]</value>
-      <webElementGuid>69e25712-29c0-46f9-900c-1b52bd921f6b</webElementGuid>
+      <webElementGuid>49152d9b-2281-4da1-8d8d-3734d5fd4b38</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -74,7 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/following::span[2]</value>
-      <webElementGuid>f02e42bb-1809-40ce-b230-571814feacda</webElementGuid>
+      <webElementGuid>07eac6e8-6a3c-44a1-824d-339f29425462</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Client'])[2]/preceding::span[1]</value>
-      <webElementGuid>52d2c156-d0a0-499f-a91b-b0dd040c3c9f</webElementGuid>
+      <webElementGuid>d5d5b35b-09ae-465b-9178-231434ff8492</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -90,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Hide Quick Shortcuts'])[1]/preceding::span[2]</value>
-      <webElementGuid>617c7bb2-7d15-4d56-8011-f473113e16a3</webElementGuid>
+      <webElementGuid>855d014b-8f34-475e-b050-4ea5309849eb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,7 +98,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//mat-option[2]/span</value>
-      <webElementGuid>a3162cbc-1390-4042-af62-bcb402d6bada</webElementGuid>
+      <webElementGuid>2d2e5d4d-4900-49fe-89b9-048f904c9e94</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,6 +106,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = ' CoWorker ' or . = ' CoWorker ')]</value>
-      <webElementGuid>3906a1e7-12a7-4f2f-ad4c-7fd93b2a9837</webElementGuid>
+      <webElementGuid>c16cc663-338d-469f-ab78-43e2c2f67d5d</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

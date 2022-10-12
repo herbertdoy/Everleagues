@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_GG TESTER</name>
+   <tag></tag>
+   <elementGuidId>70933f4e-4459-4a24-832a-b657d31c78a7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//tbody[@class='ui-treetable-tbody']//tr)[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>td.ng-tns-c651-37 > div.ng-tns-c651-37</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[@fxlayout = 'row' and @ng-reflect-fx-layout = 'row' and (text() = ' GG TESTER ' or . = ' GG TESTER ')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>ead3ad00-0143-47fa-ae7d-bbb780757ecc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>fxlayout</name>
+      <type>Main</type>
+      <value>row</value>
+      <webElementGuid>b06efe5c-0921-4e7b-9840-ee4b7177f211</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ng-tns-c651-37</value>
+      <webElementGuid>22ec61be-a19d-4fa6-a8b3-dc3b0b6e614a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-reflect-fx-layout</name>
+      <type>Main</type>
+      <value>row</value>
+      <webElementGuid>d5efb66d-2c4a-4396-a9d5-7b723b3f6eff</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> GG TESTER </value>
+      <webElementGuid>4c94ba54-af61-4053-a9dd-04a22ca0f467</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/app-root[1]/app-main-page[@class=&quot;ng-tns-c481-5 ng-trigger ng-trigger-routerAnimation ng-star-inserted&quot;]/mat-sidenav-container[@class=&quot;mat-drawer-container mat-sidenav-container ng-tns-c481-5 mat-drawer-transition&quot;]/mat-sidenav-content[@class=&quot;mat-drawer-content mat-sidenav-content&quot;]/div[@class=&quot;wrapper&quot;]/app-org-ou[@class=&quot;ng-tns-c651-37 ng-trigger ng-trigger-routerAnimation ng-star-inserted&quot;]/section[@class=&quot;ng-tns-c651-37&quot;]/article[@class=&quot;ou-container ng-tns-c651-37&quot;]/p-treetable[@class=&quot;ng-tns-c651-37&quot;]/div[@class=&quot;ui-treetable ui-widget ui-treetable-hoverable-rows&quot;]/div[@class=&quot;ui-treetable-wrapper ng-star-inserted&quot;]/table[@class=&quot;ui-treetable-table&quot;]/tbody[@class=&quot;ui-treetable-tbody&quot;]/tr[@class=&quot;ng-tns-c651-37 ng-star-inserted&quot;]/td[@class=&quot;ng-tns-c651-37&quot;]/div[@class=&quot;ng-tns-c651-37&quot;]</value>
+      <webElementGuid>6b5c135e-8955-4726-b12d-4eed1dd7a3ed</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='GG Automation'])[2]/following::div[1]</value>
+      <webElementGuid>367e9ee2-b3ba-4aa1-bbd0-233fa765544c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Members'])[1]/following::div[1]</value>
+      <webElementGuid>2f772db4-738c-4d7b-a1eb-2ff8ac36aca5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Hide Quick Shortcuts'])[1]/preceding::div[26]</value>
+      <webElementGuid>9de6beae-6b89-4375-8240-d6cc214c7e00</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Invite New User'])[1]/preceding::div[27]</value>
+      <webElementGuid>91c64adf-bbf4-4da7-8070-f4a2b5e85304</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[2]/div</value>
+      <webElementGuid>1c5a72cc-a324-4acb-ab61-9bd790feb702</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = ' GG TESTER ' or . = ' GG TESTER ')]</value>
+      <webElementGuid>418966e7-3c18-4ad8-abbc-00b115252848</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

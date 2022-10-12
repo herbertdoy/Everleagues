@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>warning_when_changing_role</name>
+   <tag></tag>
+   <elementGuidId>3dbb0a9f-6bc6-4076-b686-1a93d40d486e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//mat-hint[@id='mat-hint-0']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#mat-hint-0</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//mat-hint[(text() = 'Warning! Changing roles will remove user from any teams, channels and chats it is associated to. ' or . = 'Warning! Changing roles will remove user from any teams, channels and chats it is associated to. ')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>mat-hint</value>
+      <webElementGuid>0844bc5c-324e-4b4c-93cf-3734cd3c4fd0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-hint ng-star-inserted</value>
+      <webElementGuid>f6d8b935-2665-4055-9afa-4d482a6780fc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>mat-hint-0</value>
+      <webElementGuid>562a4a31-2f8f-4500-9946-752763175d57</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Warning! Changing roles will remove user from any teams, channels and chats it is associated to. </value>
+      <webElementGuid>53c52eb3-d939-4e3f-a986-7b5f2526fc54</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mat-hint-0&quot;)</value>
+      <webElementGuid>5eba1f8d-1ff5-443a-a9f3-fddb7ec76e51</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//mat-hint[@id='mat-hint-0']</value>
+      <webElementGuid>65454245-13ca-49b7-9218-15c5e8429e3e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//mat-dialog-container[@id='mat-dialog-1']/app-dialog-edit-user-role/section/form/div/div/mat-form-field/div/div[3]/div/mat-hint</value>
+      <webElementGuid>eb0c5bc1-2a5e-458e-b3af-caad6398dfba</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Role'])[2]/following::mat-hint[1]</value>
+      <webElementGuid>20ded1dd-b2ba-45e3-a4f2-e4ec1be22ff3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='CoWorker'])[3]/following::mat-hint[1]</value>
+      <webElementGuid>5440a72c-1b30-4c64-95af-9603bf83955a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='None'])[1]/preceding::mat-hint[1]</value>
+      <webElementGuid>192213e4-bf5b-49e5-867d-29d79bdd7cf5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Role Type'])[2]/preceding::mat-hint[1]</value>
+      <webElementGuid>927fc804-a1ae-42d5-a1d8-9382e4047837</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Warning! Changing roles will remove user from any teams, channels and chats it is associated to.']/parent::*</value>
+      <webElementGuid>4a281a4b-e509-4b6b-8a9a-577284d4bf7d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//mat-hint</value>
+      <webElementGuid>32b1cde4-6978-40db-8e2a-ebad75f385a0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//mat-hint[@id = 'mat-hint-0' and (text() = 'Warning! Changing roles will remove user from any teams, channels and chats it is associated to. ' or . = 'Warning! Changing roles will remove user from any teams, channels and chats it is associated to. ')]</value>
+      <webElementGuid>213b9388-8957-4242-9c29-bdfe4e9e73cf</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

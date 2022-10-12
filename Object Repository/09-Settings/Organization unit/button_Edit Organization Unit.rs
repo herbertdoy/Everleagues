@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Edit Organization Unit</name>
+   <tag></tag>
+   <elementGuidId>2304f9b4-82da-4828-83ef-5e3be768ebdf</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[18]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.mat-focus-indicator.mat-button-base.mat-menu-item.cdk-focused.cdk-mouse-focused</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'button' and (text() = 'Edit Organization Unit' or . = 'Edit Organization Unit')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>bdec996f-a0dc-475b-88ea-5dd29119df12</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>927229c6-367b-40be-b697-6b3f8a116cf2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>mattooltipposition</name>
+      <type>Main</type>
+      <value>above</value>
+      <webElementGuid>2e16673d-2dcb-4997-8ee0-663f23035957</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>permission-type</name>
+      <type>Main</type>
+      <value>OU_SUBOU_UPDATE</value>
+      <webElementGuid>0f1a03ec-7483-452f-9ca9-571ac83d2d95</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-focus-indicator mat-button-base mat-menu-item cdk-focused cdk-mouse-focused</value>
+      <webElementGuid>9c5a009c-238e-48de-9017-7104ef4d63dd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-reflect-permission-type</name>
+      <type>Main</type>
+      <value>OU_SUBOU_UPDATE</value>
+      <webElementGuid>7776b38e-ecfd-4065-87df-f7012c68fe53</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>action-menu-desc</name>
+      <type>Main</type>
+      <value>Edit Organization Unit</value>
+      <webElementGuid>f1d261d6-3f22-4cf2-b20e-03899a750f98</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Edit Organization Unit</value>
+      <webElementGuid>33f7df1e-7888-4d06-a634-b13b64e7f309</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mat-menu-panel-11&quot;)/div[@class=&quot;mat-menu-content ng-tns-c98-39&quot;]/div[@class=&quot;ng-tns-c98-39&quot;]/button[@class=&quot;mat-focus-indicator mat-button-base mat-menu-item cdk-focused cdk-mouse-focused&quot;]</value>
+      <webElementGuid>36084d9c-73fa-4e3b-9360-19885959c6d3</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[18]</value>
+      <webElementGuid>25380dc0-e42a-4b06-8849-304015582a82</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='mat-menu-panel-11']/div/div/button[2]</value>
+      <webElementGuid>d3f5d4fe-b916-411b-a7ce-8a6e93eb71bc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Delete Organization Unit'])[1]/following::button[1]</value>
+      <webElementGuid>bc5b1d54-17cb-41d1-b9b9-ba9a31ea8932</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add Organization Unit'])[1]/following::button[2]</value>
+      <webElementGuid>07fe672e-0fad-461d-8b22-0b81db6128a9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::button[1]</value>
+      <webElementGuid>a5e60e5e-83a3-4d31-b37d-0124e164d3cf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Alt'])[1]/preceding::button[1]</value>
+      <webElementGuid>82012013-b129-4e1b-a762-a99070239a20</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Edit Organization Unit']/parent::*</value>
+      <webElementGuid>1c3c4885-c449-40ae-8a39-011582ae4d28</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/div/button[2]</value>
+      <webElementGuid>7ad59094-1eec-4f38-9458-d9e444dcd5ab</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = 'Edit Organization Unit' or . = 'Edit Organization Unit')]</value>
+      <webElementGuid>cc860d19-5ae9-48eb-9caa-27d7f4c90b0b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

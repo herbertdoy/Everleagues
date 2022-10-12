@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Cancel</name>
+   <tag></tag>
+   <elementGuidId>51592d7b-32f8-4398-984d-83fa161dc9be</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[9]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.mat-focus-indicator.td-search-input-clear.mat-icon-button.mat-button-base.ng-tns-c113-40.ng-trigger.ng-trigger-searchState.ng-star-inserted.cdk-focused.cdk-mouse-focused</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//button[@type = 'button' and (text() = 'cancel' or . = 'cancel')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>71e3454f-3b71-4aba-a59d-a4b9132d2ca3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>c1347b55-59c3-4c53-ba3d-20c7bd8e28bd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-focus-indicator td-search-input-clear mat-icon-button mat-button-base ng-tns-c113-40 ng-trigger ng-trigger-searchState ng-star-inserted cdk-focused cdk-mouse-focused</value>
+      <webElementGuid>4fbf266c-e7c4-4931-88d7-58da77b1f961</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>cancel</value>
+      <webElementGuid>53e32cd5-ad0f-4139-a273-e009577afce2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mat-tab-content-0-0&quot;)/div[@class=&quot;mat-tab-body-content ng-tns-c361-48 ng-trigger ng-trigger-translateTab&quot;]/div[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;white-container ng-tns-c649-37&quot;]/div[@class=&quot;user-container-body ng-tns-c649-37&quot;]/mat-drawer-container[@class=&quot;mat-drawer-container ng-tns-c649-37 mat-drawer-transition&quot;]/mat-drawer-content[@class=&quot;mat-drawer-content&quot;]/app-user-table[1]/div[@class=&quot;pad-left-sm pad-right-sm&quot;]/td-search-box[@class=&quot;push-right-sm ng-tns-c114-39&quot;]/div[@class=&quot;td-search-box ng-tns-c114-39&quot;]/td-search-input[@class=&quot;ng-tns-c114-39 ng-tns-c113-40 ng-trigger ng-trigger-inputState ng-untouched ng-valid ng-dirty&quot;]/div[@class=&quot;td-search-input ng-tns-c113-40&quot;]/button[@class=&quot;mat-focus-indicator td-search-input-clear mat-icon-button mat-button-base ng-tns-c113-40 ng-trigger ng-trigger-searchState ng-star-inserted cdk-focused cdk-mouse-focused&quot;]</value>
+      <webElementGuid>b2b131a0-7db5-4c0c-bae8-6f7467873abb</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[9]</value>
+      <webElementGuid>352c5c58-7dbc-4ded-aa19-73b7eda88478</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//mat-tab-body[@id='mat-tab-content-0-0']/div/div/div/div[3]/mat-drawer-container/mat-drawer-content/app-user-table/div/td-search-box/div/td-search-input/div/button</value>
+      <webElementGuid>a669dbee-c428-499f-927d-4dff4965812b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Search here'])[1]/following::button[1]</value>
+      <webElementGuid>06828d73-b832-4a60-aad3-01d3d85c2173</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='GG Automation'])[2]/following::button[2]</value>
+      <webElementGuid>313f0628-4e36-4186-bf5e-cf1e047459a0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Name'])[1]/preceding::button[1]</value>
+      <webElementGuid>c5bac919-02a9-4421-8337-0772fc30eedd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Email'])[1]/preceding::button[1]</value>
+      <webElementGuid>44bb3f74-d0db-47ab-8103-1ee8d48d1e1e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td-search-input/div/button</value>
+      <webElementGuid>fcedd265-b21b-4097-9be6-180f7c3dd77b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = 'cancel' or . = 'cancel')]</value>
+      <webElementGuid>e635bfc3-ab1b-4881-aaeb-b4547652825b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

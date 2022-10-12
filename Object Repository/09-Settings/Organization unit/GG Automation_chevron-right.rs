@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>GG Automation_chevron-right</name>
+   <tag></tag>
+   <elementGuidId>f12b6f4e-5d1d-4f2d-8196-5523e7b1903c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//i[@ng-reflect-ng-class='pi pi-fw pi-chevron-right']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>4a57a632-28ba-48ac-8cb8-06c50ee6c87c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>fxlayout</name>
+      <type>Main</type>
+      <value>row</value>
+      <webElementGuid>308c4f10-8d88-4be1-9cfa-7c4cabc9eaa9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ng-tns-c577-5</value>
+      <webElementGuid>6fef65a9-6f56-49f5-8916-64e2cad9d477</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-reflect-fx-layout</name>
+      <type>Main</type>
+      <value>row</value>
+      <webElementGuid>85caac06-4ceb-488b-8af9-0dc60d5fbf1c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> 6 addlinkmode_edit</value>
+      <webElementGuid>9a8a52e1-50b9-49c7-a937-5ce68ff58837</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/app-root[1]/app-main-page[@class=&quot;ng-tns-c481-0 ng-trigger ng-trigger-routerAnimation ng-star-inserted&quot;]/mat-sidenav-container[@class=&quot;mat-drawer-container mat-sidenav-container ng-tns-c481-0&quot;]/mat-sidenav-content[@class=&quot;mat-drawer-content mat-sidenav-content&quot;]/div[@class=&quot;wrapper&quot;]/app-org-ou[@class=&quot;ng-tns-c577-5 ng-trigger ng-trigger-routerAnimation ng-star-inserted&quot;]/section[@class=&quot;ng-tns-c577-5&quot;]/article[@class=&quot;ou-container ng-tns-c577-5&quot;]/p-treetable[@class=&quot;ng-tns-c577-5&quot;]/div[@class=&quot;ui-treetable ui-widget ui-treetable-hoverable-rows&quot;]/div[@class=&quot;ui-treetable-wrapper ng-star-inserted&quot;]/table[@class=&quot;ui-treetable-table&quot;]/tbody[@class=&quot;ui-treetable-tbody&quot;]/tr[@class=&quot;ng-tns-c577-5 ng-star-inserted&quot;]/td[@class=&quot;ng-tns-c577-5&quot;]/div[@class=&quot;ng-tns-c577-5&quot;]</value>
+      <webElementGuid>6af9ba2f-98b1-404d-802c-f3cde082c191</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='GG TESTER'])[2]/following::div[1]</value>
+      <webElementGuid>3e349452-237d-4c87-8ca8-7a0d51417611</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='GG Automation'])[2]/following::div[2]</value>
+      <webElementGuid>1ec132ba-f33e-4d8b-95ef-f047f56453af</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::div[23]</value>
+      <webElementGuid>cc137795-8640-4209-929f-ed5d59305a26</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Alt'])[1]/preceding::div[23]</value>
+      <webElementGuid>69a7de10-0625-43d2-80e6-6c1a5ec59e23</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='6']/parent::*</value>
+      <webElementGuid>243f9a2c-1f42-4885-9f9f-966a3d4e6ccb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[3]/div</value>
+      <webElementGuid>7828b44c-e73a-41ea-87ae-1a1e5f85630b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = ' 6 addlinkmode_edit' or . = ' 6 addlinkmode_edit')]</value>
+      <webElementGuid>5ac91752-f87f-43e0-b5d2-46fa2d57d15a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

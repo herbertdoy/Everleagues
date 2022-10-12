@@ -1,0 +1,475 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+09-Settings,Chrome 106.0.0.0,,,2022-10-03 16:42:28,2022-10-03 16:57:10,14m - 41.710s,PASSED
+,,,,,,,
+Test Cases/09-Settings/01 - Users (Invite new user but field are blank),Chrome 106.0.0.0,,,2022-10-03 16:42:28,2022-10-03 16:44:04,1m - 35.432s,PASSED
+"openBrowser("""")",Chrome 106.0.0.0,,,2022-10-03 16:42:29,2022-10-03 16:42:31,2.149s,PASSED
+"navigateToUrl(""https://lab.everleagues.com/"")",Chrome 106.0.0.0,,,2022-10-03 16:42:31,2022-10-03 16:42:43,12.275s,PASSED
+maximizeWindow(),Chrome 106.0.0.0,,,2022-10-03 16:42:43,2022-10-03 16:42:43,0.148s,PASSED
+"setText(findTestObject(""02-Side Icons(Organization)/Add Contact/Email Field""), ""testuser02@mailinator.com"")",Chrome 106.0.0.0,,,2022-10-03 16:42:43,2022-10-03 16:42:44,0.788s,PASSED
+"setEncryptedText(findTestObject(""02-Side Icons(Organization)/Add Contact/Password Field""), ""8yFRyszE6U6jvsCn51OQbg=="")",Chrome 106.0.0.0,,,2022-10-03 16:42:44,2022-10-03 16:42:45,0.465s,PASSED
+"click(findTestObject(""02-Side Icons(Organization)/Add Contact/button_Sign in""))",Chrome 106.0.0.0,,,2022-10-03 16:42:45,2022-10-03 16:42:45,0.734s,PASSED
+delay(2),Chrome 106.0.0.0,,,2022-10-03 16:42:45,2022-10-03 16:42:47,2.030s,PASSED
+"click(findTestObject(""06-Teams/For 2FA/button_Confirm_2FA""))",Chrome 106.0.0.0,,,2022-10-03 16:42:47,2022-10-03 16:42:48,0.360s,PASSED
+"executeJavaScript(""window.open();"", [])",Chrome 106.0.0.0,,,2022-10-03 16:42:48,2022-10-03 16:42:48,0.060s,PASSED
+currentWindow = getWindowIndex(),Chrome 106.0.0.0,,,2022-10-03 16:42:48,2022-10-03 16:42:48,0.026s,PASSED
+delay(3),Chrome 106.0.0.0,,,2022-10-03 16:42:48,2022-10-03 16:42:51,3.003s,PASSED
+switchToWindowIndex(currentWindow + 1),Chrome 106.0.0.0,,,2022-10-03 16:42:51,2022-10-03 16:42:51,0.034s,PASSED
+"navigateToUrl(""https://www.mailinator.com/"")",Chrome 106.0.0.0,,,2022-10-03 16:42:51,2022-10-03 16:42:53,1.796s,PASSED
+delay(3),Chrome 106.0.0.0,,,2022-10-03 16:42:53,2022-10-03 16:42:56,3.016s,PASSED
+"setText(findTestObject(""00-Signup and Activation/zMailinator/input_LOGIN_search""), ""testuser02@mailinator.com"")",Chrome 106.0.0.0,,,2022-10-03 16:42:56,2022-10-03 16:42:56,0.666s,PASSED
+"click(findTestObject(""00-Signup and Activation/zMailinator/gobutton""), STOP_ON_FAILURE)",Chrome 106.0.0.0,,,2022-10-03 16:42:56,2022-10-03 16:42:58,1.670s,PASSED
+delay(3),Chrome 106.0.0.0,,,2022-10-03 16:42:58,2022-10-03 16:43:01,3.004s,PASSED
+"click(findTestObject(""00-Signup and Activation/zMailinator/Email - everleagues""))",Chrome 106.0.0.0,,,2022-10-03 16:43:01,2022-10-03 16:43:01,0.380s,PASSED
+delay(3),Chrome 106.0.0.0,,,2022-10-03 16:43:01,2022-10-03 16:43:04,3.005s,PASSED
+"code = getText(findTestObject(""Object Repository/06-Teams/For 2FA/2FA code""))",Chrome 106.0.0.0,,,2022-10-03 16:43:04,2022-10-03 16:43:05,0.456s,PASSED
+delay(3),Chrome 106.0.0.0,,,2022-10-03 16:43:05,2022-10-03 16:43:08,3.007s,PASSED
+"closeWindowTitle(""Mailinator"")",Chrome 106.0.0.0,,,2022-10-03 16:43:08,2022-10-03 16:43:08,0.203s,PASSED
+delay(3),Chrome 106.0.0.0,,,2022-10-03 16:43:08,2022-10-03 16:43:11,3.002s,PASSED
+switchToWindowIndex(0),Chrome 106.0.0.0,,,2022-10-03 16:43:11,2022-10-03 16:43:11,0.018s,PASSED
+delay(3),Chrome 106.0.0.0,,,2022-10-03 16:43:11,2022-10-03 16:43:14,3.001s,PASSED
+"setText(findTestObject(""Object Repository/06-Teams/For 2FA/input_Enter verification code_code""), code)",Chrome 106.0.0.0,,,2022-10-03 16:43:14,2022-10-03 16:43:15,0.673s,PASSED
+delay(3),Chrome 106.0.0.0,,,2022-10-03 16:43:15,2022-10-03 16:43:18,3.015s,PASSED
+"click(findTestObject(""06-Teams/For 2FA/button_Verify_2FA""))",Chrome 106.0.0.0,,,2022-10-03 16:43:18,2022-10-03 16:43:18,0.637s,PASSED
+delay(5),Chrome 106.0.0.0,,,2022-10-03 16:43:18,2022-10-03 16:43:23,5.004s,PASSED
+"click(findTestObject(""06-Teams/button_doublearrow""))",Chrome 106.0.0.0,,,2022-10-03 16:43:23,2022-10-03 16:43:24,0.361s,PASSED
+"click(findTestObject(""06-Teams/button_My Organizations""))",Chrome 106.0.0.0,,,2022-10-03 16:43:24,2022-10-03 16:43:24,0.577s,PASSED
+"click(findTestObject(""06-Teams/button_GG Automation""))",Chrome 106.0.0.0,,,2022-10-03 16:43:24,2022-10-03 16:43:25,0.793s,PASSED
+delay(4),Chrome 106.0.0.0,,,2022-10-03 16:43:25,2022-10-03 16:43:29,4.007s,PASSED
+"verifyElementVisible(findTestObject(""06-Teams/span_GG Automation""))",Chrome 106.0.0.0,,,2022-10-03 16:43:29,2022-10-03 16:43:30,0.685s,PASSED
+delay(10),Chrome 106.0.0.0,,,2022-10-03 16:43:30,2022-10-03 16:43:40,10.015s,PASSED
+"click(findTestObject(""03-Header Menu/Hamburger Button/div_Settings""))",Chrome 106.0.0.0,,,2022-10-03 16:43:40,2022-10-03 16:43:40,0.365s,PASSED
+"verifyElementVisible(findTestObject(""09-Settings/Users/div_Organization""))",Chrome 106.0.0.0,,,2022-10-03 16:43:40,2022-10-03 16:43:41,0.455s,PASSED
+"verifyElementVisible(findTestObject(""09-Settings/Users/div_Organization Units""))",Chrome 106.0.0.0,,,2022-10-03 16:43:41,2022-10-03 16:43:41,0.323s,PASSED
+"verifyElementVisible(findTestObject(""09-Settings/Users/div_Subscriptions""))",Chrome 106.0.0.0,,,2022-10-03 16:43:41,2022-10-03 16:43:41,0.551s,PASSED
+"verifyElementVisible(findTestObject(""09-Settings/Users/div_Users""))",Chrome 106.0.0.0,,,2022-10-03 16:43:41,2022-10-03 16:43:42,0.327s,PASSED
+delay(3),Chrome 106.0.0.0,,,2022-10-03 16:43:42,2022-10-03 16:43:45,3.009s,PASSED
+"click(findTestObject(""09-Settings/Users/div_Users""))",Chrome 106.0.0.0,,,2022-10-03 16:43:45,2022-10-03 16:43:45,0.663s,PASSED
+"verifyElementVisible(findTestObject(""09-Settings/Users/h4_USERS""))",Chrome 106.0.0.0,,,2022-10-03 16:43:45,2022-10-03 16:43:47,1.047s,PASSED
+"verifyElementVisible(findTestObject(""09-Settings/Users/User Page""))",Chrome 106.0.0.0,,,2022-10-03 16:43:47,2022-10-03 16:43:47,0.343s,PASSED
+delay(3),Chrome 106.0.0.0,,,2022-10-03 16:43:47,2022-10-03 16:43:50,3.007s,PASSED
+"click(findTestObject(""09-Settings/Users/button_add""))",Chrome 106.0.0.0,,,2022-10-03 16:43:50,2022-10-03 16:43:50,0.379s,PASSED
+"verifyElementVisible(findTestObject(""09-Settings/Users/User Invitation modal""))",Chrome 106.0.0.0,,,2022-10-03 16:43:50,2022-10-03 16:43:51,0.547s,PASSED
+delay(3),Chrome 106.0.0.0,,,2022-10-03 16:43:51,2022-10-03 16:43:54,3.013s,PASSED
+"click(findTestObject(""09-Settings/Users/add Invite a single user""))",Chrome 106.0.0.0,,,2022-10-03 16:43:54,2022-10-03 16:43:54,0.424s,PASSED
+"verifyElementVisible(findTestObject(""09-Settings/Users/Invite new user modal""))",Chrome 106.0.0.0,,,2022-10-03 16:43:54,2022-10-03 16:43:55,1.195s,PASSED
+"click(findTestObject(""09-Settings/Users/input_email""))",Chrome 106.0.0.0,,,2022-10-03 16:43:55,2022-10-03 16:43:56,0.360s,PASSED
+"click(findTestObject(""09-Settings/Users/input_firstName""))",Chrome 106.0.0.0,,,2022-10-03 16:43:56,2022-10-03 16:43:56,0.365s,PASSED
+"click(findTestObject(""09-Settings/Users/input_lastName""))",Chrome 106.0.0.0,,,2022-10-03 16:43:56,2022-10-03 16:43:57,0.482s,PASSED
+"click(findTestObject(""09-Settings/Users/span_Role""))",Chrome 106.0.0.0,,,2022-10-03 16:43:57,2022-10-03 16:43:57,0.485s,PASSED
+"clickOffset(findTestObject(""09-Settings/Users/h4_Invite New User""), 100, 100)",Chrome 106.0.0.0,,,2022-10-03 16:43:57,2022-10-03 16:43:58,0.603s,PASSED
+"verifyElementVisible(findTestObject(""09-Settings/Users/Email required""))",Chrome 106.0.0.0,,,2022-10-03 16:43:58,2022-10-03 16:43:59,1.097s,PASSED
+"verifyElementVisible(findTestObject(""09-Settings/Users/Firstname required""))",Chrome 106.0.0.0,,,2022-10-03 16:43:59,2022-10-03 16:43:59,0.357s,PASSED
+"verifyElementVisible(findTestObject(""09-Settings/Users/last name required""))",Chrome 106.0.0.0,,,2022-10-03 16:43:59,2022-10-03 16:44:00,0.543s,PASSED
+"verifyElementVisible(findTestObject(""09-Settings/Users/error_Select a role""))",Chrome 106.0.0.0,,,2022-10-03 16:44:00,2022-10-03 16:44:00,0.329s,PASSED
+delay(3),Chrome 106.0.0.0,,,2022-10-03 16:44:00,2022-10-03 16:44:03,3.013s,PASSED
+closeBrowser(),Chrome 106.0.0.0,,,2022-10-03 16:44:03,2022-10-03 16:44:04,0.684s,PASSED
+,,,,,,,
+Test Cases/09-Settings/02 - Users (Invite new user as co worker),Chrome 106.0.0.0,,,2022-10-03 16:44:04,2022-10-03 16:47:23,3m - 19.062s,PASSED
+"openBrowser("""")",Chrome 106.0.0.0,,,2022-10-03 16:44:04,2022-10-03 16:44:05,1.167s,PASSED
+"navigateToUrl(""https://lab.everleagues.com/"")",Chrome 106.0.0.0,,,2022-10-03 16:44:05,2022-10-03 16:44:32,26.632s,PASSED
+maximizeWindow(),Chrome 106.0.0.0,,,2022-10-03 16:44:32,2022-10-03 16:44:32,0.142s,PASSED
+"setText(findTestObject(""02-Side Icons(Organization)/Add Contact/Email Field""), ""testuser02@mailinator.com"")",Chrome 106.0.0.0,,,2022-10-03 16:44:32,2022-10-03 16:44:33,0.714s,PASSED
+"setEncryptedText(findTestObject(""02-Side Icons(Organization)/Add Contact/Password Field""), ""8yFRyszE6U6jvsCn51OQbg=="")",Chrome 106.0.0.0,,,2022-10-03 16:44:33,2022-10-03 16:44:33,0.421s,PASSED
+"click(findTestObject(""02-Side Icons(Organization)/Add Contact/button_Sign in""))",Chrome 106.0.0.0,,,2022-10-03 16:44:33,2022-10-03 16:44:34,0.702s,PASSED
+delay(2),Chrome 106.0.0.0,,,2022-10-03 16:44:34,2022-10-03 16:44:36,2.014s,PASSED
+"click(findTestObject(""06-Teams/For 2FA/button_Confirm_2FA""))",Chrome 106.0.0.0,,,2022-10-03 16:44:36,2022-10-03 16:44:36,0.362s,PASSED
+"executeJavaScript(""window.open();"", [])",Chrome 106.0.0.0,,,2022-10-03 16:44:36,2022-10-03 16:44:36,0.051s,PASSED
+currentWindow = getWindowIndex(),Chrome 106.0.0.0,,,2022-10-03 16:44:36,2022-10-03 16:44:36,0.012s,PASSED
+delay(3),Chrome 106.0.0.0,,,2022-10-03 16:44:36,2022-10-03 16:44:39,3.012s,PASSED
+switchToWindowIndex(currentWindow + 1),Chrome 106.0.0.0,,,2022-10-03 16:44:39,2022-10-03 16:44:39,0.018s,PASSED
+"navigateToUrl(""https://www.mailinator.com/"")",Chrome 106.0.0.0,,,2022-10-03 16:44:39,2022-10-03 16:44:41,1.790s,PASSED
+delay(3),Chrome 106.0.0.0,,,2022-10-03 16:44:41,2022-10-03 16:44:44,3.015s,PASSED
+"setText(findTestObject(""00-Signup and Activation/zMailinator/input_LOGIN_search""), ""testuser02@mailinator.com"")",Chrome 106.0.0.0,,,2022-10-03 16:44:44,2022-10-03 16:44:45,0.668s,PASSED
+"click(findTestObject(""00-Signup and Activation/zMailinator/gobutton""), STOP_ON_FAILURE)",Chrome 106.0.0.0,,,2022-10-03 16:44:45,2022-10-03 16:44:47,1.764s,PASSED
+delay(3),Chrome 106.0.0.0,,,2022-10-03 16:44:47,2022-10-03 16:44:50,3.011s,PASSED
+"click(findTestObject(""00-Signup and Activation/zMailinator/Email - everleagues""))",Chrome 106.0.0.0,,,2022-10-03 16:44:50,2022-10-03 16:44:50,0.351s,PASSED
+delay(3),Chrome 106.0.0.0,,,2022-10-03 16:44:50,2022-10-03 16:44:53,3.016s,PASSED
+"code = getText(findTestObject(""Object Repository/06-Teams/For 2FA/2FA code""))",Chrome 106.0.0.0,,,2022-10-03 16:44:53,2022-10-03 16:44:53,0.438s,PASSED
+delay(3),Chrome 106.0.0.0,,,2022-10-03 16:44:53,2022-10-03 16:44:56,3.009s,PASSED
+"closeWindowTitle(""Mailinator"")",Chrome 106.0.0.0,,,2022-10-03 16:44:56,2022-10-03 16:44:57,0.204s,PASSED
+delay(3),Chrome 106.0.0.0,,,2022-10-03 16:44:57,2022-10-03 16:45:00,3.012s,PASSED
+switchToWindowIndex(0),Chrome 106.0.0.0,,,2022-10-03 16:45:00,2022-10-03 16:45:00,0.018s,PASSED
+delay(3),Chrome 106.0.0.0,,,2022-10-03 16:45:00,2022-10-03 16:45:03,3.003s,PASSED
+"setText(findTestObject(""Object Repository/06-Teams/For 2FA/input_Enter verification code_code""), code)",Chrome 106.0.0.0,,,2022-10-03 16:45:03,2022-10-03 16:45:03,0.660s,PASSED
+delay(3),Chrome 106.0.0.0,,,2022-10-03 16:45:03,2022-10-03 16:45:06,3.015s,PASSED
+"click(findTestObject(""06-Teams/For 2FA/button_Verify_2FA""))",Chrome 106.0.0.0,,,2022-10-03 16:45:06,2022-10-03 16:45:07,0.406s,PASSED
+delay(5),Chrome 106.0.0.0,,,2022-10-03 16:45:07,2022-10-03 16:45:12,5.003s,PASSED
+"click(findTestObject(""06-Teams/button_doublearrow""))",Chrome 106.0.0.0,,,2022-10-03 16:45:12,2022-10-03 16:45:12,0.452s,PASSED
+"click(findTestObject(""06-Teams/button_My Organizations""))",Chrome 106.0.0.0,,,2022-10-03 16:45:12,2022-10-03 16:45:13,0.577s,PASSED
+"click(findTestObject(""06-Teams/button_GG Automation""))",Chrome 106.0.0.0,,,2022-10-03 16:45:13,2022-10-03 16:45:14,0.803s,PASSED
+delay(4),Chrome 106.0.0.0,,,2022-10-03 16:45:14,2022-10-03 16:45:18,4.005s,PASSED
+"verifyElementVisible(findTestObject(""06-Teams/span_GG Automation""))",Chrome 106.0.0.0,,,2022-10-03 16:45:18,2022-10-03 16:45:18,0.320s,PASSED
+delay(10),Chrome 106.0.0.0,,,2022-10-03 16:45:18,2022-10-03 16:45:28,10.010s,PASSED
+"click(findTestObject(""03-Header Menu/Hamburger Button/div_Settings""))",Chrome 106.0.0.0,,,2022-10-03 16:45:28,2022-10-03 16:45:28,0.364s,PASSED
+delay(3),Chrome 106.0.0.0,,,2022-10-03 16:45:28,2022-10-03 16:45:31,3.009s,PASSED
+"click(findTestObject(""09-Settings/Users/div_Users""))",Chrome 106.0.0.0,,,2022-10-03 16:45:31,2022-10-03 16:45:32,0.643s,PASSED
+delay(3),Chrome 106.0.0.0,,,2022-10-03 16:45:32,2022-10-03 16:45:35,3.003s,PASSED
+"click(findTestObject(""09-Settings/Users/button_add""))",Chrome 106.0.0.0,,,2022-10-03 16:45:35,2022-10-03 16:45:35,0.441s,PASSED
+delay(3),Chrome 106.0.0.0,,,2022-10-03 16:45:35,2022-10-03 16:45:38,3.012s,PASSED
+"click(findTestObject(""09-Settings/Users/add Invite a single user""))",Chrome 106.0.0.0,,,2022-10-03 16:45:38,2022-10-03 16:45:39,0.423s,PASSED
+delay(3),Chrome 106.0.0.0,,,2022-10-03 16:45:39,2022-10-03 16:45:42,3.013s,PASSED
+"setText(findTestObject(""09-Settings/Users/input_email""), ""autotester04@mailinator.com"")",Chrome 106.0.0.0,,,2022-10-03 16:45:42,2022-10-03 16:45:43,0.948s,PASSED
+"setText(findTestObject(""09-Settings/Users/input_firstName""), ""GG"")",Chrome 106.0.0.0,,,2022-10-03 16:45:43,2022-10-03 16:45:43,0.681s,PASSED
+"setText(findTestObject(""09-Settings/Users/input_lastName""), ""Auto Contact 2"")",Chrome 106.0.0.0,,,2022-10-03 16:45:43,2022-10-03 16:45:44,0.907s,PASSED
+"click(findTestObject(""09-Settings/Users/span_Role""))",Chrome 106.0.0.0,,,2022-10-03 16:45:44,2022-10-03 16:45:45,0.364s,PASSED
+"click(findTestObject(""09-Settings/Users/span_CoWorker""))",Chrome 106.0.0.0,,,2022-10-03 16:45:45,2022-10-03 16:45:45,0.503s,PASSED
+"click(findTestObject(""09-Settings/Users/button_Send Invitation""))",Chrome 106.0.0.0,,,2022-10-03 16:45:45,2022-10-03 16:45:46,1.044s,PASSED
+delay(2),Chrome 106.0.0.0,,,2022-10-03 16:45:46,2022-10-03 16:45:48,2.007s,PASSED
+"verifyElementVisible(findTestObject(""07-Directory/Connections/zContact Profile/Successfully invited user""))",Chrome 106.0.0.0,,,2022-10-03 16:45:48,2022-10-03 16:45:49,1.220s,PASSED
+delay(2),Chrome 106.0.0.0,,,2022-10-03 16:45:49,2022-10-03 16:45:51,2.010s,PASSED
+"executeJavaScript(""window.open();"", [])",Chrome 106.0.0.0,,,2022-10-03 16:45:51,2022-10-03 16:45:52,0.059s,PASSED
+currentWindow = getWindowIndex(),Chrome 106.0.0.0,,,2022-10-03 16:45:52,2022-10-03 16:45:52,0.008s,PASSED
+delay(3),Chrome 106.0.0.0,,,2022-10-03 16:45:52,2022-10-03 16:45:55,3.005s,PASSED
+switchToWindowIndex(currentWindow + 1),Chrome 106.0.0.0,,,2022-10-03 16:45:55,2022-10-03 16:45:55,0.019s,PASSED
+"navigateToUrl(""https://www.mailinator.com/"")",Chrome 106.0.0.0,,,2022-10-03 16:45:55,2022-10-03 16:45:56,1.165s,PASSED
+delay(3),Chrome 106.0.0.0,,,2022-10-03 16:45:56,2022-10-03 16:45:59,3.014s,PASSED
+"setText(findTestObject(""00-Signup and Activation/zMailinator/input_LOGIN_search""), ""autotester04@mailinator.com"")",Chrome 106.0.0.0,,,2022-10-03 16:45:59,2022-10-03 16:45:59,0.676s,PASSED
+"click(findTestObject(""00-Signup and Activation/zMailinator/gobutton""), STOP_ON_FAILURE)",Chrome 106.0.0.0,,,2022-10-03 16:45:59,2022-10-03 16:46:00,0.943s,PASSED
+delay(3),Chrome 106.0.0.0,,,2022-10-03 16:46:00,2022-10-03 16:46:03,3.009s,PASSED
+"closeWindowTitle(""Everleagues"")",Chrome 106.0.0.0,,,2022-10-03 16:46:03,2022-10-03 16:46:04,0.218s,PASSED
+switchToWindowIndex(0),Chrome 106.0.0.0,,,2022-10-03 16:46:04,2022-10-03 16:46:04,0.016s,PASSED
+"click(findTestObject(""09-Settings/Users/Co worker/td_Invitation from GG Automation""))",Chrome 106.0.0.0,,,2022-10-03 16:46:04,2022-10-03 16:46:04,0.353s,PASSED
+"click(findTestObject(""09-Settings/Users/Co worker/a_Click here to join GG Automation on EverLeagues""))",Chrome 106.0.0.0,,,2022-10-03 16:46:04,2022-10-03 16:46:05,0.983s,PASSED
+"closeWindowTitle(""Mailinator"")",Chrome 106.0.0.0,,,2022-10-03 16:46:05,2022-10-03 16:46:05,0.109s,PASSED
+switchToWindowIndex(0),Chrome 106.0.0.0,,,2022-10-03 16:46:05,2022-10-03 16:46:05,0.016s,PASSED
+"verifyElementVisible(findTestObject(""09-Settings/Users/Co worker/Logout before proceed modal""))",Chrome 106.0.0.0,,,2022-10-03 16:46:05,2022-10-03 16:46:11,5.994s,PASSED
+"click(findTestObject(""09-Settings/Users/Co worker/button_Yes""))",Chrome 106.0.0.0,,,2022-10-03 16:46:11,2022-10-03 16:46:11,0.364s,PASSED
+delay(3),Chrome 106.0.0.0,,,2022-10-03 16:46:11,2022-10-03 16:46:14,3.006s,PASSED
+"setText(findTestObject(""09-Settings/Users/Co worker/input_Email_email""), ""autotester04@mailinator.com"")",Chrome 106.0.0.0,,,2022-10-03 16:46:14,2022-10-03 16:46:15,0.668s,PASSED
+"setEncryptedText(findTestObject(""09-Settings/Users/Co worker/input__password""), ""8yFRyszE6U6jvsCn51OQbg=="")",Chrome 106.0.0.0,,,2022-10-03 16:46:15,2022-10-03 16:46:15,0.395s,PASSED
+"click(findTestObject(""02-Side Icons(Organization)/Add Contact/button_Sign in""))",Chrome 106.0.0.0,,,2022-10-03 16:46:15,2022-10-03 16:46:16,0.577s,PASSED
+delay(2),Chrome 106.0.0.0,,,2022-10-03 16:46:16,2022-10-03 16:46:18,2.016s,PASSED
+"click(findTestObject(""06-Teams/For 2FA/button_Confirm_2FA""))",Chrome 106.0.0.0,,,2022-10-03 16:46:18,2022-10-03 16:46:18,0.356s,PASSED
+"executeJavaScript(""window.open();"", [])",Chrome 106.0.0.0,,,2022-10-03 16:46:18,2022-10-03 16:46:19,0.054s,PASSED
+currentWindow = getWindowIndex(),Chrome 106.0.0.0,,,2022-10-03 16:46:19,2022-10-03 16:46:19,0.009s,PASSED
+delay(3),Chrome 106.0.0.0,,,2022-10-03 16:46:19,2022-10-03 16:46:22,3.015s,PASSED
+switchToWindowIndex(currentWindow + 1),Chrome 106.0.0.0,,,2022-10-03 16:46:22,2022-10-03 16:46:22,0.016s,PASSED
+"navigateToUrl(""https://www.mailinator.com/"")",Chrome 106.0.0.0,,,2022-10-03 16:46:22,2022-10-03 16:46:23,0.993s,PASSED
+delay(3),Chrome 106.0.0.0,,,2022-10-03 16:46:23,2022-10-03 16:46:26,3.015s,PASSED
+"setText(findTestObject(""00-Signup and Activation/zMailinator/input_LOGIN_search""), ""autotester04@mailinator.com"")",Chrome 106.0.0.0,,,2022-10-03 16:46:26,2022-10-03 16:46:26,0.673s,PASSED
+"click(findTestObject(""00-Signup and Activation/zMailinator/gobutton""), STOP_ON_FAILURE)",Chrome 106.0.0.0,,,2022-10-03 16:46:26,2022-10-03 16:46:27,0.945s,PASSED
+delay(3),Chrome 106.0.0.0,,,2022-10-03 16:46:27,2022-10-03 16:46:30,3.005s,PASSED
+"click(findTestObject(""00-Signup and Activation/zMailinator/Email - everleagues""))",Chrome 106.0.0.0,,,2022-10-03 16:46:30,2022-10-03 16:46:31,0.349s,PASSED
+delay(3),Chrome 106.0.0.0,,,2022-10-03 16:46:31,2022-10-03 16:46:34,3.019s,PASSED
+"codetwo = getText(findTestObject(""Object Repository/06-Teams/For 2FA/2FA code""))",Chrome 106.0.0.0,,,2022-10-03 16:46:34,2022-10-03 16:46:34,0.420s,PASSED
+delay(3),Chrome 106.0.0.0,,,2022-10-03 16:46:34,2022-10-03 16:46:37,3.010s,PASSED
+"closeWindowTitle(""Mailinator"")",Chrome 106.0.0.0,,,2022-10-03 16:46:37,2022-10-03 16:46:37,0.207s,PASSED
+delay(3),Chrome 106.0.0.0,,,2022-10-03 16:46:37,2022-10-03 16:46:40,3.014s,PASSED
+switchToWindowIndex(0),Chrome 106.0.0.0,,,2022-10-03 16:46:40,2022-10-03 16:46:40,0.019s,PASSED
+delay(3),Chrome 106.0.0.0,,,2022-10-03 16:46:40,2022-10-03 16:46:43,3.001s,PASSED
+"setText(findTestObject(""Object Repository/06-Teams/For 2FA/input_Enter verification code_code""), codetwo)",Chrome 106.0.0.0,,,2022-10-03 16:46:43,2022-10-03 16:46:44,0.895s,PASSED
+delay(3),Chrome 106.0.0.0,,,2022-10-03 16:46:44,2022-10-03 16:46:47,3.012s,PASSED
+"click(findTestObject(""06-Teams/For 2FA/button_Verify_2FA""))",Chrome 106.0.0.0,,,2022-10-03 16:46:47,2022-10-03 16:46:48,0.737s,PASSED
+delay(5),Chrome 106.0.0.0,,,2022-10-03 16:46:48,2022-10-03 16:46:53,5.006s,PASSED
+"executeJavaScript(""window.open();"", [])",Chrome 106.0.0.0,,,2022-10-03 16:46:53,2022-10-03 16:46:53,0.048s,PASSED
+currentWindow = getWindowIndex(),Chrome 106.0.0.0,,,2022-10-03 16:46:53,2022-10-03 16:46:53,0.009s,PASSED
+delay(3),Chrome 106.0.0.0,,,2022-10-03 16:46:53,2022-10-03 16:46:56,3.014s,PASSED
+switchToWindowIndex(currentWindow + 1),Chrome 106.0.0.0,,,2022-10-03 16:46:56,2022-10-03 16:46:56,0.018s,PASSED
+"navigateToUrl(""https://www.mailinator.com/"")",Chrome 106.0.0.0,,,2022-10-03 16:46:56,2022-10-03 16:46:57,1.011s,PASSED
+delay(3),Chrome 106.0.0.0,,,2022-10-03 16:46:57,2022-10-03 16:47:00,3.011s,PASSED
+"setText(findTestObject(""00-Signup and Activation/zMailinator/input_LOGIN_search""), ""autotester04@mailinator.com"")",Chrome 106.0.0.0,,,2022-10-03 16:47:00,2022-10-03 16:47:01,0.664s,PASSED
+"click(findTestObject(""00-Signup and Activation/zMailinator/gobutton""), STOP_ON_FAILURE)",Chrome 106.0.0.0,,,2022-10-03 16:47:01,2022-10-03 16:47:01,0.824s,PASSED
+delay(3),Chrome 106.0.0.0,,,2022-10-03 16:47:01,2022-10-03 16:47:04,3.017s,PASSED
+"closeWindowTitle(""Everleagues"")",Chrome 106.0.0.0,,,2022-10-03 16:47:04,2022-10-03 16:47:05,0.127s,PASSED
+switchToWindowIndex(0),Chrome 106.0.0.0,,,2022-10-03 16:47:05,2022-10-03 16:47:05,0.017s,PASSED
+"click(findTestObject(""09-Settings/Users/Co worker/td_Invitation from GG Automation""))",Chrome 106.0.0.0,,,2022-10-03 16:47:05,2022-10-03 16:47:05,0.362s,PASSED
+"click(findTestObject(""09-Settings/Users/Co worker/a_Click here to join GG Automation on EverLeagues""))",Chrome 106.0.0.0,,,2022-10-03 16:47:05,2022-10-03 16:47:06,0.987s,PASSED
+delay(3),Chrome 106.0.0.0,,,2022-10-03 16:47:06,2022-10-03 16:47:09,3.008s,PASSED
+"closeWindowTitle(""Mailinator"")",Chrome 106.0.0.0,,,2022-10-03 16:47:09,2022-10-03 16:47:09,0.111s,PASSED
+switchToWindowIndex(0),Chrome 106.0.0.0,,,2022-10-03 16:47:09,2022-10-03 16:47:09,0.016s,PASSED
+"verifyElementVisible(findTestObject(""09-Settings/Users/Co worker/Invite modal""))",Chrome 106.0.0.0,,,2022-10-03 16:47:09,2022-10-03 16:47:11,2.260s,PASSED
+"click(findTestObject(""09-Settings/Users/Co worker/button_Accept""))",Chrome 106.0.0.0,,,2022-10-03 16:47:11,2022-10-03 16:47:12,0.369s,PASSED
+delay(10),Chrome 106.0.0.0,,,2022-10-03 16:47:12,2022-10-03 16:47:22,10.017s,PASSED
+"verifyElementVisible(findTestObject(""09-Settings/Users/Co worker/div_Joined as CoWorker""))",Chrome 106.0.0.0,,,2022-10-03 16:47:22,2022-10-03 16:47:22,0.339s,PASSED
+closeBrowser(),Chrome 106.0.0.0,,,2022-10-03 16:47:22,2022-10-03 16:47:23,0.721s,PASSED
+,,,,,,,
+Test Cases/09-Settings/03 - Users (Invite new user as client),Chrome 106.0.0.0,,,2022-10-03 16:47:23,2022-10-03 16:51:03,3m - 40.245s,PASSED
+"openBrowser("""")",Chrome 106.0.0.0,,,2022-10-03 16:47:23,2022-10-03 16:47:24,1.153s,PASSED
+"navigateToUrl(""https://lab.everleagues.com/"")",Chrome 106.0.0.0,,,2022-10-03 16:47:24,2022-10-03 16:47:39,14.932s,PASSED
+maximizeWindow(),Chrome 106.0.0.0,,,2022-10-03 16:47:39,2022-10-03 16:47:39,0.149s,PASSED
+"setText(findTestObject(""02-Side Icons(Organization)/Add Contact/Email Field""), ""testuser02@mailinator.com"")",Chrome 106.0.0.0,,,2022-10-03 16:47:39,2022-10-03 16:47:40,0.695s,PASSED
+"setEncryptedText(findTestObject(""02-Side Icons(Organization)/Add Contact/Password Field""), ""8yFRyszE6U6jvsCn51OQbg=="")",Chrome 106.0.0.0,,,2022-10-03 16:47:40,2022-10-03 16:47:40,0.412s,PASSED
+"click(findTestObject(""02-Side Icons(Organization)/Add Contact/button_Sign in""))",Chrome 106.0.0.0,,,2022-10-03 16:47:40,2022-10-03 16:47:41,0.711s,PASSED
+delay(2),Chrome 106.0.0.0,,,2022-10-03 16:47:41,2022-10-03 16:47:43,2.008s,PASSED
+"click(findTestObject(""06-Teams/For 2FA/button_Confirm_2FA""))",Chrome 106.0.0.0,,,2022-10-03 16:47:43,2022-10-03 16:47:44,0.360s,PASSED
+"executeJavaScript(""window.open();"", [])",Chrome 106.0.0.0,,,2022-10-03 16:47:44,2022-10-03 16:47:44,0.051s,PASSED
+currentWindow = getWindowIndex(),Chrome 106.0.0.0,,,2022-10-03 16:47:44,2022-10-03 16:47:44,0.010s,PASSED
+delay(3),Chrome 106.0.0.0,,,2022-10-03 16:47:44,2022-10-03 16:47:47,3.012s,PASSED
+switchToWindowIndex(currentWindow + 1),Chrome 106.0.0.0,,,2022-10-03 16:47:47,2022-10-03 16:47:47,0.019s,PASSED
+"navigateToUrl(""https://www.mailinator.com/"")",Chrome 106.0.0.0,,,2022-10-03 16:47:47,2022-10-03 16:47:49,1.882s,PASSED
+delay(3),Chrome 106.0.0.0,,,2022-10-03 16:47:49,2022-10-03 16:47:52,3.015s,PASSED
+"setText(findTestObject(""00-Signup and Activation/zMailinator/input_LOGIN_search""), ""testuser02@mailinator.com"")",Chrome 106.0.0.0,,,2022-10-03 16:47:52,2022-10-03 16:47:52,0.713s,PASSED
+"click(findTestObject(""00-Signup and Activation/zMailinator/gobutton""), STOP_ON_FAILURE)",Chrome 106.0.0.0,,,2022-10-03 16:47:52,2022-10-03 16:47:54,1.671s,PASSED
+delay(3),Chrome 106.0.0.0,,,2022-10-03 16:47:54,2022-10-03 16:47:57,3.005s,PASSED
+"click(findTestObject(""00-Signup and Activation/zMailinator/Email - everleagues""))",Chrome 106.0.0.0,,,2022-10-03 16:47:57,2022-10-03 16:47:57,0.353s,PASSED
+delay(3),Chrome 106.0.0.0,,,2022-10-03 16:47:57,2022-10-03 16:48:00,3.016s,PASSED
+"code = getText(findTestObject(""Object Repository/06-Teams/For 2FA/2FA code""))",Chrome 106.0.0.0,,,2022-10-03 16:48:00,2022-10-03 16:48:01,0.422s,PASSED
+delay(3),Chrome 106.0.0.0,,,2022-10-03 16:48:01,2022-10-03 16:48:04,3.010s,PASSED
+"closeWindowTitle(""Mailinator"")",Chrome 106.0.0.0,,,2022-10-03 16:48:04,2022-10-03 16:48:04,0.189s,PASSED
+delay(3),Chrome 106.0.0.0,,,2022-10-03 16:48:04,2022-10-03 16:48:07,3.003s,PASSED
+switchToWindowIndex(0),Chrome 106.0.0.0,,,2022-10-03 16:48:07,2022-10-03 16:48:07,0.019s,PASSED
+delay(3),Chrome 106.0.0.0,,,2022-10-03 16:48:07,2022-10-03 16:48:10,3.015s,PASSED
+"setText(findTestObject(""Object Repository/06-Teams/For 2FA/input_Enter verification code_code""), code)",Chrome 106.0.0.0,,,2022-10-03 16:48:10,2022-10-03 16:48:11,1.091s,PASSED
+delay(3),Chrome 106.0.0.0,,,2022-10-03 16:48:11,2022-10-03 16:48:14,3.005s,PASSED
+"click(findTestObject(""06-Teams/For 2FA/button_Verify_2FA""))",Chrome 106.0.0.0,,,2022-10-03 16:48:14,2022-10-03 16:48:15,0.759s,PASSED
+delay(5),Chrome 106.0.0.0,,,2022-10-03 16:48:15,2022-10-03 16:48:20,5.012s,PASSED
+"click(findTestObject(""06-Teams/button_doublearrow""))",Chrome 106.0.0.0,,,2022-10-03 16:48:20,2022-10-03 16:48:21,1.233s,PASSED
+"click(findTestObject(""06-Teams/button_My Organizations""))",Chrome 106.0.0.0,,,2022-10-03 16:48:21,2022-10-03 16:48:22,0.576s,PASSED
+"click(findTestObject(""06-Teams/button_GG Automation""))",Chrome 106.0.0.0,,,2022-10-03 16:48:22,2022-10-03 16:48:22,0.789s,PASSED
+delay(4),Chrome 106.0.0.0,,,2022-10-03 16:48:22,2022-10-03 16:48:26,4.015s,PASSED
+"verifyElementVisible(findTestObject(""06-Teams/span_GG Automation""))",Chrome 106.0.0.0,,,2022-10-03 16:48:26,2022-10-03 16:48:27,0.335s,PASSED
+delay(10),Chrome 106.0.0.0,,,2022-10-03 16:48:27,2022-10-03 16:48:37,10.016s,PASSED
+"click(findTestObject(""03-Header Menu/Hamburger Button/div_Settings""))",Chrome 106.0.0.0,,,2022-10-03 16:48:37,2022-10-03 16:48:37,0.364s,PASSED
+delay(3),Chrome 106.0.0.0,,,2022-10-03 16:48:37,2022-10-03 16:48:40,3.013s,PASSED
+"click(findTestObject(""09-Settings/Users/div_Users""))",Chrome 106.0.0.0,,,2022-10-03 16:48:40,2022-10-03 16:48:41,0.680s,PASSED
+delay(3),Chrome 106.0.0.0,,,2022-10-03 16:48:41,2022-10-03 16:48:44,3.006s,PASSED
+"click(findTestObject(""09-Settings/Users/button_add""))",Chrome 106.0.0.0,,,2022-10-03 16:48:44,2022-10-03 16:48:44,0.436s,PASSED
+delay(3),Chrome 106.0.0.0,,,2022-10-03 16:48:44,2022-10-03 16:48:47,3.013s,PASSED
+"click(findTestObject(""09-Settings/Users/add Invite a single user""))",Chrome 106.0.0.0,,,2022-10-03 16:48:47,2022-10-03 16:48:48,0.361s,PASSED
+delay(3),Chrome 106.0.0.0,,,2022-10-03 16:48:48,2022-10-03 16:48:51,3.007s,PASSED
+"setText(findTestObject(""09-Settings/Users/input_email""), ""autotester09@mailinator.com"")",Chrome 106.0.0.0,,,2022-10-03 16:48:51,2022-10-03 16:48:52,0.907s,PASSED
+"setText(findTestObject(""09-Settings/Users/input_firstName""), ""GG"")",Chrome 106.0.0.0,,,2022-10-03 16:48:52,2022-10-03 16:48:52,0.691s,PASSED
+"setText(findTestObject(""09-Settings/Users/input_lastName""), ""Client"")",Chrome 106.0.0.0,,,2022-10-03 16:48:52,2022-10-03 16:48:53,0.818s,PASSED
+"click(findTestObject(""09-Settings/Users/span_Role""))",Chrome 106.0.0.0,,,2022-10-03 16:48:53,2022-10-03 16:48:54,0.488s,PASSED
+"click(findTestObject(""09-Settings/Users/span_Client""))",Chrome 106.0.0.0,,,2022-10-03 16:48:54,2022-10-03 16:48:54,0.501s,PASSED
+"click(findTestObject(""09-Settings/Users/button_Send Invitation""))",Chrome 106.0.0.0,,,2022-10-03 16:48:54,2022-10-03 16:48:55,1.042s,PASSED
+delay(2),Chrome 106.0.0.0,,,2022-10-03 16:48:55,2022-10-03 16:48:57,2.006s,PASSED
+"verifyElementVisible(findTestObject(""07-Directory/Connections/zContact Profile/Successfully invited user""))",Chrome 106.0.0.0,,,2022-10-03 16:48:57,2022-10-03 16:48:59,1.443s,PASSED
+delay(2),Chrome 106.0.0.0,,,2022-10-03 16:48:59,2022-10-03 16:49:01,2.007s,PASSED
+"click(findTestObject(""01-Login and Forgot Password/User menu drop""))",Chrome 106.0.0.0,,,2022-10-03 16:49:01,2022-10-03 16:49:01,0.353s,PASSED
+delay(2),Chrome 106.0.0.0,,,2022-10-03 16:49:01,2022-10-03 16:49:03,2.013s,PASSED
+"click(findTestObject(""01-Login and Forgot Password/h4_Sign Out""), STOP_ON_FAILURE)",Chrome 106.0.0.0,,,2022-10-03 16:49:03,2022-10-03 16:49:03,0.348s,PASSED
+delay(2),Chrome 106.0.0.0,,,2022-10-03 16:49:03,2022-10-03 16:49:05,2.011s,PASSED
+"verifyElementPresent(findTestObject(""01-Login and Forgot Password/Login_Card""), 0)",Chrome 106.0.0.0,,,2022-10-03 16:49:05,2022-10-03 16:49:06,0.538s,PASSED
+delay(3),Chrome 106.0.0.0,,,2022-10-03 16:49:06,2022-10-03 16:49:09,3.011s,PASSED
+closeBrowser(),Chrome 106.0.0.0,,,2022-10-03 16:49:09,2022-10-03 16:49:10,0.673s,PASSED
+"openBrowser("""")",Chrome 106.0.0.0,,,2022-10-03 16:49:10,2022-10-03 16:49:11,1.146s,PASSED
+"navigateToUrl(""https://lab.everleagues.com/"")",Chrome 106.0.0.0,,,2022-10-03 16:49:11,2022-10-03 16:49:48,37.656s,PASSED
+maximizeWindow(),Chrome 106.0.0.0,,,2022-10-03 16:49:48,2022-10-03 16:49:48,0.145s,PASSED
+"setText(findTestObject(""02-Side Icons(Organization)/Add Contact/Email Field""), ""autotester09@mailinator.com"")",Chrome 106.0.0.0,,,2022-10-03 16:49:48,2022-10-03 16:49:49,0.700s,PASSED
+"setEncryptedText(findTestObject(""02-Side Icons(Organization)/Add Contact/Password Field""), ""8yFRyszE6U6jvsCn51OQbg=="")",Chrome 106.0.0.0,,,2022-10-03 16:49:49,2022-10-03 16:49:50,0.415s,PASSED
+"click(findTestObject(""02-Side Icons(Organization)/Add Contact/button_Sign in""))",Chrome 106.0.0.0,,,2022-10-03 16:49:50,2022-10-03 16:49:50,0.813s,PASSED
+delay(2),Chrome 106.0.0.0,,,2022-10-03 16:49:50,2022-10-03 16:49:52,2.015s,PASSED
+"click(findTestObject(""06-Teams/For 2FA/button_Confirm_2FA""))",Chrome 106.0.0.0,,,2022-10-03 16:49:52,2022-10-03 16:49:53,0.358s,PASSED
+"executeJavaScript(""window.open();"", [])",Chrome 106.0.0.0,,,2022-10-03 16:49:53,2022-10-03 16:49:53,0.046s,PASSED
+currentWindow = getWindowIndex(),Chrome 106.0.0.0,,,2022-10-03 16:49:53,2022-10-03 16:49:53,0.013s,PASSED
+delay(3),Chrome 106.0.0.0,,,2022-10-03 16:49:53,2022-10-03 16:49:56,3.005s,PASSED
+switchToWindowIndex(currentWindow + 1),Chrome 106.0.0.0,,,2022-10-03 16:49:56,2022-10-03 16:49:56,0.018s,PASSED
+"navigateToUrl(""https://www.mailinator.com/"")",Chrome 106.0.0.0,,,2022-10-03 16:49:56,2022-10-03 16:49:58,1.831s,PASSED
+delay(3),Chrome 106.0.0.0,,,2022-10-03 16:49:58,2022-10-03 16:50:01,3.011s,PASSED
+"setText(findTestObject(""00-Signup and Activation/zMailinator/input_LOGIN_search""), ""autotester09@mailinator.com"")",Chrome 106.0.0.0,,,2022-10-03 16:50:01,2022-10-03 16:50:01,0.673s,PASSED
+"click(findTestObject(""00-Signup and Activation/zMailinator/gobutton""), STOP_ON_FAILURE)",Chrome 106.0.0.0,,,2022-10-03 16:50:01,2022-10-03 16:50:03,1.853s,PASSED
+delay(3),Chrome 106.0.0.0,,,2022-10-03 16:50:03,2022-10-03 16:50:06,3.013s,PASSED
+"click(findTestObject(""00-Signup and Activation/zMailinator/Email - everleagues""))",Chrome 106.0.0.0,,,2022-10-03 16:50:06,2022-10-03 16:50:07,0.361s,PASSED
+delay(3),Chrome 106.0.0.0,,,2022-10-03 16:50:07,2022-10-03 16:50:10,3.008s,PASSED
+"codetwo = getText(findTestObject(""Object Repository/06-Teams/For 2FA/2FA code""))",Chrome 106.0.0.0,,,2022-10-03 16:50:10,2022-10-03 16:50:10,0.420s,PASSED
+delay(3),Chrome 106.0.0.0,,,2022-10-03 16:50:10,2022-10-03 16:50:13,3.012s,PASSED
+"closeWindowTitle(""Mailinator"")",Chrome 106.0.0.0,,,2022-10-03 16:50:13,2022-10-03 16:50:13,0.190s,PASSED
+delay(3),Chrome 106.0.0.0,,,2022-10-03 16:50:13,2022-10-03 16:50:16,3.008s,PASSED
+switchToWindowIndex(0),Chrome 106.0.0.0,,,2022-10-03 16:50:16,2022-10-03 16:50:16,0.018s,PASSED
+delay(3),Chrome 106.0.0.0,,,2022-10-03 16:50:16,2022-10-03 16:50:19,3.003s,PASSED
+"setText(findTestObject(""Object Repository/06-Teams/For 2FA/input_Enter verification code_code""), codetwo)",Chrome 106.0.0.0,,,2022-10-03 16:50:19,2022-10-03 16:50:20,0.778s,PASSED
+delay(3),Chrome 106.0.0.0,,,2022-10-03 16:50:20,2022-10-03 16:50:23,3.005s,PASSED
+"click(findTestObject(""06-Teams/For 2FA/button_Verify_2FA""))",Chrome 106.0.0.0,,,2022-10-03 16:50:23,2022-10-03 16:50:24,0.790s,PASSED
+delay(5),Chrome 106.0.0.0,,,2022-10-03 16:50:24,2022-10-03 16:50:29,5.002s,PASSED
+"executeJavaScript(""window.open();"", [])",Chrome 106.0.0.0,,,2022-10-03 16:50:29,2022-10-03 16:50:29,0.045s,PASSED
+currentWindow = getWindowIndex(),Chrome 106.0.0.0,,,2022-10-03 16:50:29,2022-10-03 16:50:29,0.010s,PASSED
+delay(3),Chrome 106.0.0.0,,,2022-10-03 16:50:29,2022-10-03 16:50:32,3.003s,PASSED
+switchToWindowIndex(currentWindow + 1),Chrome 106.0.0.0,,,2022-10-03 16:50:32,2022-10-03 16:50:32,0.017s,PASSED
+"navigateToUrl(""https://www.mailinator.com/"")",Chrome 106.0.0.0,,,2022-10-03 16:50:32,2022-10-03 16:50:33,1.164s,PASSED
+delay(3),Chrome 106.0.0.0,,,2022-10-03 16:50:33,2022-10-03 16:50:36,3.004s,PASSED
+"setText(findTestObject(""00-Signup and Activation/zMailinator/input_LOGIN_search""), ""autotester09@mailinator.com"")",Chrome 106.0.0.0,,,2022-10-03 16:50:36,2022-10-03 16:50:37,0.662s,PASSED
+"click(findTestObject(""00-Signup and Activation/zMailinator/gobutton""), STOP_ON_FAILURE)",Chrome 106.0.0.0,,,2022-10-03 16:50:37,2022-10-03 16:50:38,0.858s,PASSED
+delay(3),Chrome 106.0.0.0,,,2022-10-03 16:50:38,2022-10-03 16:50:41,3.005s,PASSED
+"closeWindowTitle(""Everleagues"")",Chrome 106.0.0.0,,,2022-10-03 16:50:41,2022-10-03 16:50:41,0.173s,PASSED
+switchToWindowIndex(0),Chrome 106.0.0.0,,,2022-10-03 16:50:41,2022-10-03 16:50:41,0.015s,PASSED
+"click(findTestObject(""09-Settings/Users/Co worker/td_Invitation from GG Automation""))",Chrome 106.0.0.0,,,2022-10-03 16:50:41,2022-10-03 16:50:41,0.357s,PASSED
+"click(findTestObject(""09-Settings/Users/Co worker/a_Click here to join GG Automation on EverLeagues""))",Chrome 106.0.0.0,,,2022-10-03 16:50:41,2022-10-03 16:50:42,0.917s,PASSED
+"closeWindowTitle(""Mailinator"")",Chrome 106.0.0.0,,,2022-10-03 16:50:42,2022-10-03 16:50:42,0.108s,PASSED
+switchToWindowIndex(0),Chrome 106.0.0.0,,,2022-10-03 16:50:42,2022-10-03 16:50:42,0.016s,PASSED
+"verifyElementVisible(findTestObject(""09-Settings/Users/Client/Invite modal""))",Chrome 106.0.0.0,,,2022-10-03 16:50:42,2022-10-03 16:50:48,5.672s,PASSED
+"setText(findTestObject(""09-Settings/Users/Client/Company field""), ""QA Company"")",Chrome 106.0.0.0,,,2022-10-03 16:50:48,2022-10-03 16:50:49,0.677s,PASSED
+"click(findTestObject(""09-Settings/Users/Client/button_Accept""))",Chrome 106.0.0.0,,,2022-10-03 16:50:49,2022-10-03 16:50:49,0.496s,PASSED
+delay(10),Chrome 106.0.0.0,,,2022-10-03 16:50:49,2022-10-03 16:50:59,10.002s,PASSED
+"verifyElementVisible(findTestObject(""09-Settings/Users/Client/div_Joined as CLIENT""))",Chrome 106.0.0.0,,,2022-10-03 16:50:59,2022-10-03 16:50:59,0.323s,PASSED
+delay(3),Chrome 106.0.0.0,,,2022-10-03 16:50:59,2022-10-03 16:51:02,3.012s,PASSED
+closeBrowser(),Chrome 106.0.0.0,,,2022-10-03 16:51:02,2022-10-03 16:51:03,0.689s,PASSED
+,,,,,,,
+Test Cases/09-Settings/04 - Users (Invite new user as partner),Chrome 106.0.0.0,,,2022-10-03 16:51:03,2022-10-03 16:54:52,3m - 48.540s,PASSED
+"openBrowser("""")",Chrome 106.0.0.0,,,2022-10-03 16:51:03,2022-10-03 16:51:05,1.154s,PASSED
+"navigateToUrl(""https://lab.everleagues.com/"")",Chrome 106.0.0.0,,,2022-10-03 16:51:05,2022-10-03 16:51:53,48.965s,PASSED
+maximizeWindow(),Chrome 106.0.0.0,,,2022-10-03 16:51:53,2022-10-03 16:51:54,0.136s,PASSED
+"setText(findTestObject(""02-Side Icons(Organization)/Add Contact/Email Field""), ""testuser02@mailinator.com"")",Chrome 106.0.0.0,,,2022-10-03 16:51:54,2022-10-03 16:51:54,0.706s,PASSED
+"setEncryptedText(findTestObject(""02-Side Icons(Organization)/Add Contact/Password Field""), ""8yFRyszE6U6jvsCn51OQbg=="")",Chrome 106.0.0.0,,,2022-10-03 16:51:54,2022-10-03 16:51:55,0.409s,PASSED
+"click(findTestObject(""02-Side Icons(Organization)/Add Contact/button_Sign in""))",Chrome 106.0.0.0,,,2022-10-03 16:51:55,2022-10-03 16:51:56,1.136s,PASSED
+delay(2),Chrome 106.0.0.0,,,2022-10-03 16:51:56,2022-10-03 16:51:58,2.004s,PASSED
+"click(findTestObject(""06-Teams/For 2FA/button_Confirm_2FA""))",Chrome 106.0.0.0,,,2022-10-03 16:51:58,2022-10-03 16:51:58,0.357s,PASSED
+"executeJavaScript(""window.open();"", [])",Chrome 106.0.0.0,,,2022-10-03 16:51:58,2022-10-03 16:51:58,0.050s,PASSED
+currentWindow = getWindowIndex(),Chrome 106.0.0.0,,,2022-10-03 16:51:58,2022-10-03 16:51:58,0.009s,PASSED
+delay(3),Chrome 106.0.0.0,,,2022-10-03 16:51:58,2022-10-03 16:52:01,3.012s,PASSED
+switchToWindowIndex(currentWindow + 1),Chrome 106.0.0.0,,,2022-10-03 16:52:01,2022-10-03 16:52:01,0.018s,PASSED
+"navigateToUrl(""https://www.mailinator.com/"")",Chrome 106.0.0.0,,,2022-10-03 16:52:01,2022-10-03 16:52:03,2.117s,PASSED
+delay(3),Chrome 106.0.0.0,,,2022-10-03 16:52:03,2022-10-03 16:52:06,3.015s,PASSED
+"setText(findTestObject(""00-Signup and Activation/zMailinator/input_LOGIN_search""), ""testuser02@mailinator.com"")",Chrome 106.0.0.0,,,2022-10-03 16:52:06,2022-10-03 16:52:07,0.644s,PASSED
+"click(findTestObject(""00-Signup and Activation/zMailinator/gobutton""), STOP_ON_FAILURE)",Chrome 106.0.0.0,,,2022-10-03 16:52:07,2022-10-03 16:52:09,1.536s,PASSED
+delay(3),Chrome 106.0.0.0,,,2022-10-03 16:52:09,2022-10-03 16:52:12,3.008s,PASSED
+"click(findTestObject(""00-Signup and Activation/zMailinator/Email - everleagues""))",Chrome 106.0.0.0,,,2022-10-03 16:52:12,2022-10-03 16:52:12,0.364s,PASSED
+delay(3),Chrome 106.0.0.0,,,2022-10-03 16:52:12,2022-10-03 16:52:15,3.014s,PASSED
+"code = getText(findTestObject(""Object Repository/06-Teams/For 2FA/2FA code""))",Chrome 106.0.0.0,,,2022-10-03 16:52:15,2022-10-03 16:52:15,0.425s,PASSED
+delay(3),Chrome 106.0.0.0,,,2022-10-03 16:52:15,2022-10-03 16:52:18,3.003s,PASSED
+"closeWindowTitle(""Mailinator"")",Chrome 106.0.0.0,,,2022-10-03 16:52:18,2022-10-03 16:52:19,0.158s,PASSED
+delay(3),Chrome 106.0.0.0,,,2022-10-03 16:52:19,2022-10-03 16:52:22,3.002s,PASSED
+switchToWindowIndex(0),Chrome 106.0.0.0,,,2022-10-03 16:52:22,2022-10-03 16:52:22,0.018s,PASSED
+delay(3),Chrome 106.0.0.0,,,2022-10-03 16:52:22,2022-10-03 16:52:25,3.009s,PASSED
+"setText(findTestObject(""Object Repository/06-Teams/For 2FA/input_Enter verification code_code""), code)",Chrome 106.0.0.0,,,2022-10-03 16:52:25,2022-10-03 16:52:25,0.695s,PASSED
+delay(3),Chrome 106.0.0.0,,,2022-10-03 16:52:25,2022-10-03 16:52:28,3.014s,PASSED
+"click(findTestObject(""06-Teams/For 2FA/button_Verify_2FA""))",Chrome 106.0.0.0,,,2022-10-03 16:52:28,2022-10-03 16:52:29,0.534s,PASSED
+delay(5),Chrome 106.0.0.0,,,2022-10-03 16:52:29,2022-10-03 16:52:34,5.011s,PASSED
+"click(findTestObject(""06-Teams/button_doublearrow""))",Chrome 106.0.0.0,,,2022-10-03 16:52:34,2022-10-03 16:52:35,0.677s,PASSED
+"click(findTestObject(""06-Teams/button_My Organizations""))",Chrome 106.0.0.0,,,2022-10-03 16:52:35,2022-10-03 16:52:35,0.575s,PASSED
+"click(findTestObject(""06-Teams/button_GG Automation""))",Chrome 106.0.0.0,,,2022-10-03 16:52:35,2022-10-03 16:52:36,0.784s,PASSED
+delay(4),Chrome 106.0.0.0,,,2022-10-03 16:52:36,2022-10-03 16:52:40,4.011s,PASSED
+"verifyElementVisible(findTestObject(""06-Teams/span_GG Automation""))",Chrome 106.0.0.0,,,2022-10-03 16:52:40,2022-10-03 16:52:40,0.320s,PASSED
+delay(10),Chrome 106.0.0.0,,,2022-10-03 16:52:40,2022-10-03 16:52:50,10.014s,PASSED
+"click(findTestObject(""03-Header Menu/Hamburger Button/div_Settings""))",Chrome 106.0.0.0,,,2022-10-03 16:52:50,2022-10-03 16:52:51,0.351s,PASSED
+delay(3),Chrome 106.0.0.0,,,2022-10-03 16:52:51,2022-10-03 16:52:54,3.015s,PASSED
+"click(findTestObject(""09-Settings/Users/div_Users""))",Chrome 106.0.0.0,,,2022-10-03 16:52:54,2022-10-03 16:52:54,0.699s,PASSED
+delay(3),Chrome 106.0.0.0,,,2022-10-03 16:52:54,2022-10-03 16:52:57,3.001s,PASSED
+"click(findTestObject(""09-Settings/Users/button_add""))",Chrome 106.0.0.0,,,2022-10-03 16:52:57,2022-10-03 16:52:58,0.369s,PASSED
+delay(3),Chrome 106.0.0.0,,,2022-10-03 16:52:58,2022-10-03 16:53:01,3.002s,PASSED
+"click(findTestObject(""09-Settings/Users/add Invite a single user""))",Chrome 106.0.0.0,,,2022-10-03 16:53:01,2022-10-03 16:53:01,0.408s,PASSED
+delay(3),Chrome 106.0.0.0,,,2022-10-03 16:53:01,2022-10-03 16:53:04,3.001s,PASSED
+"setText(findTestObject(""09-Settings/Users/input_email""), ""autotester10@mailinator.com"")",Chrome 106.0.0.0,,,2022-10-03 16:53:04,2022-10-03 16:53:05,0.966s,PASSED
+"setText(findTestObject(""09-Settings/Users/input_firstName""), ""GG"")",Chrome 106.0.0.0,,,2022-10-03 16:53:05,2022-10-03 16:53:06,1.130s,PASSED
+"setText(findTestObject(""09-Settings/Users/input_lastName""), ""Partner"")",Chrome 106.0.0.0,,,2022-10-03 16:53:06,2022-10-03 16:53:07,0.821s,PASSED
+"click(findTestObject(""09-Settings/Users/span_Role""))",Chrome 106.0.0.0,,,2022-10-03 16:53:07,2022-10-03 16:53:07,0.479s,PASSED
+"click(findTestObject(""09-Settings/Users/span_Partner""))",Chrome 106.0.0.0,,,2022-10-03 16:53:07,2022-10-03 16:53:08,0.489s,PASSED
+"click(findTestObject(""09-Settings/Users/button_Send Invitation""))",Chrome 106.0.0.0,,,2022-10-03 16:53:08,2022-10-03 16:53:09,1.128s,PASSED
+delay(2),Chrome 106.0.0.0,,,2022-10-03 16:53:09,2022-10-03 16:53:11,2.006s,PASSED
+"verifyElementVisible(findTestObject(""07-Directory/Connections/zContact Profile/Successfully invited user""))",Chrome 106.0.0.0,,,2022-10-03 16:53:11,2022-10-03 16:53:13,1.514s,PASSED
+delay(2),Chrome 106.0.0.0,,,2022-10-03 16:53:13,2022-10-03 16:53:15,2.003s,PASSED
+"click(findTestObject(""01-Login and Forgot Password/User menu drop""))",Chrome 106.0.0.0,,,2022-10-03 16:53:15,2022-10-03 16:53:15,0.402s,PASSED
+delay(2),Chrome 106.0.0.0,,,2022-10-03 16:53:15,2022-10-03 16:53:17,2.014s,PASSED
+"click(findTestObject(""01-Login and Forgot Password/h4_Sign Out""), STOP_ON_FAILURE)",Chrome 106.0.0.0,,,2022-10-03 16:53:17,2022-10-03 16:53:17,0.349s,PASSED
+delay(2),Chrome 106.0.0.0,,,2022-10-03 16:53:17,2022-10-03 16:53:19,2.006s,PASSED
+"verifyElementPresent(findTestObject(""01-Login and Forgot Password/Login_Card""), 0)",Chrome 106.0.0.0,,,2022-10-03 16:53:19,2022-10-03 16:53:20,0.322s,PASSED
+delay(3),Chrome 106.0.0.0,,,2022-10-03 16:53:20,2022-10-03 16:53:23,3.001s,PASSED
+closeBrowser(),Chrome 106.0.0.0,,,2022-10-03 16:53:23,2022-10-03 16:53:23,0.686s,PASSED
+"openBrowser("""")",Chrome 106.0.0.0,,,2022-10-03 16:53:23,2022-10-03 16:53:25,1.146s,PASSED
+"navigateToUrl(""https://lab.everleagues.com/"")",Chrome 106.0.0.0,,,2022-10-03 16:53:25,2022-10-03 16:53:37,12.537s,PASSED
+maximizeWindow(),Chrome 106.0.0.0,,,2022-10-03 16:53:37,2022-10-03 16:53:37,0.136s,PASSED
+"setText(findTestObject(""02-Side Icons(Organization)/Add Contact/Email Field""), ""autotester10@mailinator.com"")",Chrome 106.0.0.0,,,2022-10-03 16:53:37,2022-10-03 16:53:38,0.703s,PASSED
+"setEncryptedText(findTestObject(""02-Side Icons(Organization)/Add Contact/Password Field""), ""8yFRyszE6U6jvsCn51OQbg=="")",Chrome 106.0.0.0,,,2022-10-03 16:53:38,2022-10-03 16:53:38,0.405s,PASSED
+"click(findTestObject(""02-Side Icons(Organization)/Add Contact/button_Sign in""))",Chrome 106.0.0.0,,,2022-10-03 16:53:38,2022-10-03 16:53:39,0.706s,PASSED
+delay(2),Chrome 106.0.0.0,,,2022-10-03 16:53:39,2022-10-03 16:53:41,2.004s,PASSED
+"click(findTestObject(""06-Teams/For 2FA/button_Confirm_2FA""))",Chrome 106.0.0.0,,,2022-10-03 16:53:41,2022-10-03 16:53:41,0.360s,PASSED
+"executeJavaScript(""window.open();"", [])",Chrome 106.0.0.0,,,2022-10-03 16:53:41,2022-10-03 16:53:41,0.052s,PASSED
+currentWindow = getWindowIndex(),Chrome 106.0.0.0,,,2022-10-03 16:53:41,2022-10-03 16:53:41,0.008s,PASSED
+delay(3),Chrome 106.0.0.0,,,2022-10-03 16:53:41,2022-10-03 16:53:44,3.011s,PASSED
+switchToWindowIndex(currentWindow + 1),Chrome 106.0.0.0,,,2022-10-03 16:53:44,2022-10-03 16:53:45,0.018s,PASSED
+"navigateToUrl(""https://www.mailinator.com/"")",Chrome 106.0.0.0,,,2022-10-03 16:53:45,2022-10-03 16:53:47,2.019s,PASSED
+delay(3),Chrome 106.0.0.0,,,2022-10-03 16:53:47,2022-10-03 16:53:50,3.011s,PASSED
+"setText(findTestObject(""00-Signup and Activation/zMailinator/input_LOGIN_search""), ""autotester10@mailinator.com"")",Chrome 106.0.0.0,,,2022-10-03 16:53:50,2022-10-03 16:53:50,0.667s,PASSED
+"click(findTestObject(""00-Signup and Activation/zMailinator/gobutton""), STOP_ON_FAILURE)",Chrome 106.0.0.0,,,2022-10-03 16:53:50,2022-10-03 16:53:52,1.627s,PASSED
+delay(3),Chrome 106.0.0.0,,,2022-10-03 16:53:52,2022-10-03 16:53:55,3.005s,PASSED
+"click(findTestObject(""00-Signup and Activation/zMailinator/Email - everleagues""))",Chrome 106.0.0.0,,,2022-10-03 16:53:55,2022-10-03 16:53:55,0.348s,PASSED
+delay(3),Chrome 106.0.0.0,,,2022-10-03 16:53:55,2022-10-03 16:53:58,3.001s,PASSED
+"codetwo = getText(findTestObject(""Object Repository/06-Teams/For 2FA/2FA code""))",Chrome 106.0.0.0,,,2022-10-03 16:53:58,2022-10-03 16:53:59,0.421s,PASSED
+delay(3),Chrome 106.0.0.0,,,2022-10-03 16:53:59,2022-10-03 16:54:02,3.014s,PASSED
+"closeWindowTitle(""Mailinator"")",Chrome 106.0.0.0,,,2022-10-03 16:54:02,2022-10-03 16:54:02,0.193s,PASSED
+delay(3),Chrome 106.0.0.0,,,2022-10-03 16:54:02,2022-10-03 16:54:05,3.006s,PASSED
+switchToWindowIndex(0),Chrome 106.0.0.0,,,2022-10-03 16:54:05,2022-10-03 16:54:05,0.018s,PASSED
+delay(3),Chrome 106.0.0.0,,,2022-10-03 16:54:05,2022-10-03 16:54:08,3.002s,PASSED
+"setText(findTestObject(""Object Repository/06-Teams/For 2FA/input_Enter verification code_code""), codetwo)",Chrome 106.0.0.0,,,2022-10-03 16:54:08,2022-10-03 16:54:09,0.890s,PASSED
+delay(3),Chrome 106.0.0.0,,,2022-10-03 16:54:09,2022-10-03 16:54:12,3.013s,PASSED
+"click(findTestObject(""06-Teams/For 2FA/button_Verify_2FA""))",Chrome 106.0.0.0,,,2022-10-03 16:54:12,2022-10-03 16:54:12,0.411s,PASSED
+delay(5),Chrome 106.0.0.0,,,2022-10-03 16:54:12,2022-10-03 16:54:17,5.007s,PASSED
+"executeJavaScript(""window.open();"", [])",Chrome 106.0.0.0,,,2022-10-03 16:54:17,2022-10-03 16:54:17,0.052s,PASSED
+currentWindow = getWindowIndex(),Chrome 106.0.0.0,,,2022-10-03 16:54:17,2022-10-03 16:54:17,0.013s,PASSED
+delay(3),Chrome 106.0.0.0,,,2022-10-03 16:54:17,2022-10-03 16:54:20,3.001s,PASSED
+switchToWindowIndex(currentWindow + 1),Chrome 106.0.0.0,,,2022-10-03 16:54:20,2022-10-03 16:54:20,0.018s,PASSED
+"navigateToUrl(""https://www.mailinator.com/"")",Chrome 106.0.0.0,,,2022-10-03 16:54:20,2022-10-03 16:54:21,1.192s,PASSED
+delay(3),Chrome 106.0.0.0,,,2022-10-03 16:54:21,2022-10-03 16:54:24,3.011s,PASSED
+"setText(findTestObject(""00-Signup and Activation/zMailinator/input_LOGIN_search""), ""autotester10@mailinator.com"")",Chrome 106.0.0.0,,,2022-10-03 16:54:24,2022-10-03 16:54:25,0.667s,PASSED
+"click(findTestObject(""00-Signup and Activation/zMailinator/gobutton""), STOP_ON_FAILURE)",Chrome 106.0.0.0,,,2022-10-03 16:54:25,2022-10-03 16:54:26,0.864s,PASSED
+delay(3),Chrome 106.0.0.0,,,2022-10-03 16:54:26,2022-10-03 16:54:29,3.008s,PASSED
+"closeWindowTitle(""Everleagues"")",Chrome 106.0.0.0,,,2022-10-03 16:54:29,2022-10-03 16:54:29,0.127s,PASSED
+switchToWindowIndex(0),Chrome 106.0.0.0,,,2022-10-03 16:54:29,2022-10-03 16:54:29,0.018s,PASSED
+"click(findTestObject(""09-Settings/Users/Co worker/td_Invitation from GG Automation""))",Chrome 106.0.0.0,,,2022-10-03 16:54:29,2022-10-03 16:54:29,0.354s,PASSED
+"click(findTestObject(""09-Settings/Users/Co worker/a_Click here to join GG Automation on EverLeagues""))",Chrome 106.0.0.0,,,2022-10-03 16:54:29,2022-10-03 16:54:30,0.921s,PASSED
+"closeWindowTitle(""Mailinator"")",Chrome 106.0.0.0,,,2022-10-03 16:54:30,2022-10-03 16:54:31,0.112s,PASSED
+switchToWindowIndex(0),Chrome 106.0.0.0,,,2022-10-03 16:54:31,2022-10-03 16:54:31,0.016s,PASSED
+"verifyElementVisible(findTestObject(""09-Settings/Users/Client/Invite modal""))",Chrome 106.0.0.0,,,2022-10-03 16:54:31,2022-10-03 16:54:36,5.895s,PASSED
+"setText(findTestObject(""09-Settings/Users/Client/Company field""), ""QA Company"")",Chrome 106.0.0.0,,,2022-10-03 16:54:36,2022-10-03 16:54:37,0.663s,PASSED
+"click(findTestObject(""09-Settings/Users/Client/button_Accept""))",Chrome 106.0.0.0,,,2022-10-03 16:54:37,2022-10-03 16:54:38,0.471s,PASSED
+delay(10),Chrome 106.0.0.0,,,2022-10-03 16:54:38,2022-10-03 16:54:48,10.011s,PASSED
+"verifyElementVisible(findTestObject(""09-Settings/Users/div_Joined as Partner""))",Chrome 106.0.0.0,,,2022-10-03 16:54:48,2022-10-03 16:54:48,0.336s,PASSED
+delay(3),Chrome 106.0.0.0,,,2022-10-03 16:54:48,2022-10-03 16:54:51,3.007s,PASSED
+closeBrowser(),Chrome 106.0.0.0,,,2022-10-03 16:54:51,2022-10-03 16:54:52,0.688s,PASSED
+,,,,,,,
+Test Cases/09-Settings/05 - Users (Invite batch of users via CSV file),Chrome 106.0.0.0,,,2022-10-03 16:54:52,2022-10-03 16:57:10,2m - 18.130s,PASSED
+"openBrowser("""")",Chrome 106.0.0.0,,,2022-10-03 16:54:52,2022-10-03 16:54:53,1.153s,PASSED
+"navigateToUrl(""https://lab.everleagues.com/"")",Chrome 106.0.0.0,,,2022-10-03 16:54:53,2022-10-03 16:55:32,39.321s,PASSED
+maximizeWindow(),Chrome 106.0.0.0,,,2022-10-03 16:55:32,2022-10-03 16:55:33,0.136s,PASSED
+"setText(findTestObject(""02-Side Icons(Organization)/Add Contact/Email Field""), ""testuser02@mailinator.com"")",Chrome 106.0.0.0,,,2022-10-03 16:55:33,2022-10-03 16:55:34,1.019s,PASSED
+"setEncryptedText(findTestObject(""02-Side Icons(Organization)/Add Contact/Password Field""), ""8yFRyszE6U6jvsCn51OQbg=="")",Chrome 106.0.0.0,,,2022-10-03 16:55:34,2022-10-03 16:55:34,0.415s,PASSED
+"click(findTestObject(""02-Side Icons(Organization)/Add Contact/button_Sign in""))",Chrome 106.0.0.0,,,2022-10-03 16:55:34,2022-10-03 16:55:35,0.719s,PASSED
+delay(2),Chrome 106.0.0.0,,,2022-10-03 16:55:35,2022-10-03 16:55:37,2.012s,PASSED
+"click(findTestObject(""06-Teams/For 2FA/button_Confirm_2FA""))",Chrome 106.0.0.0,,,2022-10-03 16:55:37,2022-10-03 16:55:37,0.359s,PASSED
+"executeJavaScript(""window.open();"", [])",Chrome 106.0.0.0,,,2022-10-03 16:55:37,2022-10-03 16:55:37,0.055s,PASSED
+currentWindow = getWindowIndex(),Chrome 106.0.0.0,,,2022-10-03 16:55:37,2022-10-03 16:55:37,0.009s,PASSED
+delay(3),Chrome 106.0.0.0,,,2022-10-03 16:55:37,2022-10-03 16:55:40,3.003s,PASSED
+switchToWindowIndex(currentWindow + 1),Chrome 106.0.0.0,,,2022-10-03 16:55:40,2022-10-03 16:55:40,0.018s,PASSED
+"navigateToUrl(""https://www.mailinator.com/"")",Chrome 106.0.0.0,,,2022-10-03 16:55:40,2022-10-03 16:55:43,2.411s,PASSED
+delay(3),Chrome 106.0.0.0,,,2022-10-03 16:55:43,2022-10-03 16:55:46,3.003s,PASSED
+"setText(findTestObject(""00-Signup and Activation/zMailinator/input_LOGIN_search""), ""testuser02@mailinator.com"")",Chrome 106.0.0.0,,,2022-10-03 16:55:46,2022-10-03 16:55:46,0.689s,PASSED
+"click(findTestObject(""00-Signup and Activation/zMailinator/gobutton""), STOP_ON_FAILURE)",Chrome 106.0.0.0,,,2022-10-03 16:55:46,2022-10-03 16:55:48,1.290s,PASSED
+delay(3),Chrome 106.0.0.0,,,2022-10-03 16:55:48,2022-10-03 16:55:51,3.001s,PASSED
+"click(findTestObject(""00-Signup and Activation/zMailinator/Email - everleagues""))",Chrome 106.0.0.0,,,2022-10-03 16:55:51,2022-10-03 16:55:51,0.351s,PASSED
+delay(3),Chrome 106.0.0.0,,,2022-10-03 16:55:51,2022-10-03 16:55:54,3.002s,PASSED
+"code = getText(findTestObject(""Object Repository/06-Teams/For 2FA/2FA code""))",Chrome 106.0.0.0,,,2022-10-03 16:55:54,2022-10-03 16:55:54,0.423s,PASSED
+delay(3),Chrome 106.0.0.0,,,2022-10-03 16:55:54,2022-10-03 16:55:57,3.004s,PASSED
+"closeWindowTitle(""Mailinator"")",Chrome 106.0.0.0,,,2022-10-03 16:55:57,2022-10-03 16:55:58,0.204s,PASSED
+delay(3),Chrome 106.0.0.0,,,2022-10-03 16:55:58,2022-10-03 16:56:01,3.004s,PASSED
+switchToWindowIndex(0),Chrome 106.0.0.0,,,2022-10-03 16:56:01,2022-10-03 16:56:01,0.018s,PASSED
+delay(3),Chrome 106.0.0.0,,,2022-10-03 16:56:01,2022-10-03 16:56:04,3.006s,PASSED
+"setText(findTestObject(""Object Repository/06-Teams/For 2FA/input_Enter verification code_code""), code)",Chrome 106.0.0.0,,,2022-10-03 16:56:04,2022-10-03 16:56:04,0.644s,PASSED
+delay(3),Chrome 106.0.0.0,,,2022-10-03 16:56:04,2022-10-03 16:56:07,3.016s,PASSED
+"click(findTestObject(""06-Teams/For 2FA/button_Verify_2FA""))",Chrome 106.0.0.0,,,2022-10-03 16:56:07,2022-10-03 16:56:08,0.642s,PASSED
+delay(5),Chrome 106.0.0.0,,,2022-10-03 16:56:08,2022-10-03 16:56:13,5.007s,PASSED
+"click(findTestObject(""06-Teams/button_doublearrow""))",Chrome 106.0.0.0,,,2022-10-03 16:56:13,2022-10-03 16:56:13,0.348s,PASSED
+"click(findTestObject(""06-Teams/button_My Organizations""))",Chrome 106.0.0.0,,,2022-10-03 16:56:13,2022-10-03 16:56:14,0.580s,PASSED
+"click(findTestObject(""06-Teams/button_GG Automation""))",Chrome 106.0.0.0,,,2022-10-03 16:56:14,2022-10-03 16:56:15,0.797s,PASSED
+delay(4),Chrome 106.0.0.0,,,2022-10-03 16:56:15,2022-10-03 16:56:19,4.017s,PASSED
+"verifyElementVisible(findTestObject(""06-Teams/span_GG Automation""))",Chrome 106.0.0.0,,,2022-10-03 16:56:19,2022-10-03 16:56:19,0.322s,PASSED
+delay(10),Chrome 106.0.0.0,,,2022-10-03 16:56:19,2022-10-03 16:56:29,10.007s,PASSED
+"click(findTestObject(""03-Header Menu/Hamburger Button/div_Settings""))",Chrome 106.0.0.0,,,2022-10-03 16:56:29,2022-10-03 16:56:29,0.408s,PASSED
+delay(3),Chrome 106.0.0.0,,,2022-10-03 16:56:29,2022-10-03 16:56:32,3.014s,PASSED
+"click(findTestObject(""09-Settings/Users/div_Users""))",Chrome 106.0.0.0,,,2022-10-03 16:56:32,2022-10-03 16:56:33,0.613s,PASSED
+delay(3),Chrome 106.0.0.0,,,2022-10-03 16:56:33,2022-10-03 16:56:36,3.014s,PASSED
+"click(findTestObject(""09-Settings/Users/button_add""))",Chrome 106.0.0.0,,,2022-10-03 16:56:36,2022-10-03 16:56:36,0.367s,PASSED
+delay(3),Chrome 106.0.0.0,,,2022-10-03 16:56:36,2022-10-03 16:56:39,3.008s,PASSED
+"click(findTestObject(""09-Settings/Users/Invite batch of users via CSV file""))",Chrome 106.0.0.0,,,2022-10-03 16:56:39,2022-10-03 16:56:40,0.425s,PASSED
+"verifyElementVisible(findTestObject(""09-Settings/Users/CSV Invite/Import CSV File modal""))",Chrome 106.0.0.0,,,2022-10-03 16:56:40,2022-10-03 16:56:41,0.873s,PASSED
+"verifyElementNotClickable(findTestObject(""09-Settings/Users/CSV Invite/button_Import""))",Chrome 106.0.0.0,,,2022-10-03 16:56:41,2022-10-03 16:56:41,0.332s,PASSED
+delay(3),Chrome 106.0.0.0,,,2022-10-03 16:56:41,2022-10-03 16:56:44,3.011s,PASSED
+"uploadpackage.Upload.uploadFile(findTestObject(""Object Repository/09-Settings/Users/CSV Invite/button_Choose File""), ""C:\Users\User\Desktop\EL automation\sample csv.csv"")",Chrome 106.0.0.0,,,2022-10-03 16:56:44,2022-10-03 16:56:45,0.541s,PASSED
+delay(3),Chrome 106.0.0.0,,,2022-10-03 16:56:45,2022-10-03 16:56:48,3.016s,PASSED
+"verifyElementVisible(findTestObject(""09-Settings/Users/CSV Invite/div_Sample csv.csv""))",Chrome 106.0.0.0,,,2022-10-03 16:56:48,2022-10-03 16:56:48,0.337s,PASSED
+"click(findTestObject(""09-Settings/Users/CSV Invite/button_Import""))",Chrome 106.0.0.0,,,2022-10-03 16:56:48,2022-10-03 16:56:48,0.379s,PASSED
+delay(10),Chrome 106.0.0.0,,,2022-10-03 16:56:48,2022-10-03 16:56:58,10.009s,PASSED
+"verifyElementVisible(findTestObject(""09-Settings/Users/CSV Invite/Success import modal""))",Chrome 106.0.0.0,,,2022-10-03 16:56:58,2022-10-03 16:56:59,0.334s,PASSED
+"click(findTestObject(""09-Settings/Users/CSV Invite/button_Close""))",Chrome 106.0.0.0,,,2022-10-03 16:56:59,2022-10-03 16:56:59,0.359s,PASSED
+"click(findTestObject(""09-Settings/Users/CSV Invite/Invited Users tab""))",Chrome 106.0.0.0,,,2022-10-03 16:56:59,2022-10-03 16:57:00,1.093s,PASSED
+delay(3),Chrome 106.0.0.0,,,2022-10-03 16:57:00,2022-10-03 16:57:03,3.009s,PASSED
+"verifyElementVisible(findTestObject(""09-Settings/Users/CSV Invite/div_CTCSV test3""))",Chrome 106.0.0.0,,,2022-10-03 16:57:03,2022-10-03 16:57:03,0.321s,PASSED
+"verifyElementVisible(findTestObject(""09-Settings/Users/CSV Invite/div_autotester08mailinator.com""))",Chrome 106.0.0.0,,,2022-10-03 16:57:03,2022-10-03 16:57:04,0.328s,PASSED
+"verifyElementVisible(findTestObject(""09-Settings/Users/CSV Invite/div_Partner""))",Chrome 106.0.0.0,,,2022-10-03 16:57:04,2022-10-03 16:57:04,0.327s,PASSED
+"verifyElementVisible(findTestObject(""09-Settings/Users/CSV Invite/div_CTCSV test2""))",Chrome 106.0.0.0,,,2022-10-03 16:57:04,2022-10-03 16:57:04,0.324s,PASSED
+"verifyElementVisible(findTestObject(""09-Settings/Users/CSV Invite/div_autotester07mailinator.com""))",Chrome 106.0.0.0,,,2022-10-03 16:57:04,2022-10-03 16:57:05,0.330s,PASSED
+"verifyElementVisible(findTestObject(""09-Settings/Users/CSV Invite/div_Client""))",Chrome 106.0.0.0,,,2022-10-03 16:57:05,2022-10-03 16:57:05,0.372s,PASSED
+"verifyElementVisible(findTestObject(""09-Settings/Users/CSV Invite/div_CTCSV test1""))",Chrome 106.0.0.0,,,2022-10-03 16:57:05,2022-10-03 16:57:05,0.326s,PASSED
+"verifyElementVisible(findTestObject(""09-Settings/Users/CSV Invite/div_autotester06mailinator.com""))",Chrome 106.0.0.0,,,2022-10-03 16:57:05,2022-10-03 16:57:06,0.332s,PASSED
+"verifyElementVisible(findTestObject(""09-Settings/Users/CSV Invite/div_Coworker""))",Chrome 106.0.0.0,,,2022-10-03 16:57:06,2022-10-03 16:57:06,0.325s,PASSED
+delay(3),Chrome 106.0.0.0,,,2022-10-03 16:57:06,2022-10-03 16:57:09,3.009s,PASSED
+closeBrowser(),Chrome 106.0.0.0,,,2022-10-03 16:57:09,2022-10-03 16:57:10,0.687s,PASSED

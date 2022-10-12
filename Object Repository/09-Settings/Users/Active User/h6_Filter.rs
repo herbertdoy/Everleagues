@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>h6_Filter</name>
+   <tag></tag>
+   <elementGuidId>d19de3d3-4a52-4365-a0e6-0834dc12b0eb</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//mat-tab-body[@id='mat-tab-content-0-0']/div/div/div/div[3]/mat-drawer-container/mat-drawer/div/perfect-scrollbar/div/div/div/div/h6</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>h6.ng-tns-c635-37</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//h6[(text() = ' Filter ' or . = ' Filter ')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h6</value>
+      <webElementGuid>614bfc23-d05b-48b0-ae9b-d786a79ca059</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ng-tns-c635-37</value>
+      <webElementGuid>2b7e79bb-380c-47e4-ac57-50908d53de60</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Filter </value>
+      <webElementGuid>318b2dce-7475-4b97-9b29-b75355017bdf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mat-tab-content-0-0&quot;)/div[@class=&quot;mat-tab-body-content ng-tns-c361-48 ng-trigger ng-trigger-translateTab&quot;]/div[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;white-container ng-tns-c635-37&quot;]/div[@class=&quot;user-container-body ng-tns-c635-37&quot;]/mat-drawer-container[@class=&quot;mat-drawer-container ng-tns-c635-37 mat-drawer-transition&quot;]/mat-drawer[@class=&quot;mat-drawer ng-tns-c192-38 ng-trigger ng-trigger-transform mat-drawer-end mat-drawer-side ng-star-inserted mat-drawer-opened&quot;]/div[@class=&quot;mat-drawer-inner-container ng-tns-c192-38&quot;]/perfect-scrollbar[@class=&quot;perfect-scrollbar ng-tns-c192-38&quot;]/div[@class=&quot;ps&quot;]/div[@class=&quot;ps-content&quot;]/div[@class=&quot;table-option-container&quot;]/div[@class=&quot;settings-title primary-text-color ng-tns-c635-37&quot;]/h6[@class=&quot;ng-tns-c635-37&quot;]</value>
+      <webElementGuid>732a2ab1-b643-4426-a25b-e7738eb38b50</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//mat-tab-body[@id='mat-tab-content-0-0']/div/div/div/div[3]/mat-drawer-container/mat-drawer/div/perfect-scrollbar/div/div/div/div/h6</value>
+      <webElementGuid>ba8c9a54-8ccf-4599-8eb9-a38c417c9fa8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Showing users from all organization units'])[1]/following::h6[1]</value>
+      <webElementGuid>53612e07-5f28-4694-999b-85d28bfe9fed</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Filter']/parent::*</value>
+      <webElementGuid>29a6c62d-73e0-479f-ac51-24e556c71dc4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//h6</value>
+      <webElementGuid>4a697468-0e68-4303-be0a-ffe31ecc6454</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h6[(text() = ' Filter ' or . = ' Filter ')]</value>
+      <webElementGuid>050e7824-9fa3-47f1-ab25-a4d1be6d7326</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_roleType</name>
+   <tag></tag>
+   <elementGuidId>5d366698-35f0-416a-ba89-9e86baf313bf</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//div[@ng-reflect-ng-switch='false']/following-sibling::div)[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.mat-select-arrow-wrapper.ng-tns-c246-72</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;mat-select-1&quot;)/div[@class=&quot;mat-select-trigger ng-tns-c246-72&quot;]/div[@class=&quot;mat-select-arrow-wrapper ng-tns-c246-72&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>1436b382-1e26-4e03-9875-c65c95c8c098</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-select-arrow-wrapper ng-tns-c246-72</value>
+      <webElementGuid>de604e1f-047e-4ead-86c7-5dfca7b0695b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mat-select-1&quot;)/div[@class=&quot;mat-select-trigger ng-tns-c246-72&quot;]/div[@class=&quot;mat-select-arrow-wrapper ng-tns-c246-72&quot;]</value>
+      <webElementGuid>3913f47e-7bd3-4e91-a157-bc14999c2317</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//mat-select[@id='mat-select-1']/div/div[2]</value>
+      <webElementGuid>be980de3-b113-4c6f-95e8-cb065aaa6bb5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='None'])[1]/following::div[1]</value>
+      <webElementGuid>221f812b-10f0-4528-bc9e-25659d5da51a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Warning! Changing roles will remove user from any teams, channels and chats it is associated to.'])[1]/following::div[8]</value>
+      <webElementGuid>8c558586-5856-4855-991e-b143e7f250be</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Role Type'])[2]/preceding::div[2]</value>
+      <webElementGuid>60b26472-709a-4b84-9af6-e7dcac21e619</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Save'])[1]/preceding::div[6]</value>
+      <webElementGuid>0062bd66-28f9-4d0e-a116-76394c784bc2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/div/mat-form-field/div/div/div/mat-select/div/div[2]</value>
+      <webElementGuid>98d2d7bb-8c15-426b-acb9-5e4089348452</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

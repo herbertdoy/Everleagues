@@ -7,14 +7,17 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//mat-tab-body[@id='mat-tab-content-0-1']/div/div/div[2]/app-invited-user-table/div[2]/perfect-scrollbar/div/div/td-data-table/div/table/tbody/tr/td[3]/div</value>
+         <value>//div[@class = 'td-data-table-cell-content-wrapper' and (text() = 'External Contact' or . = 'External Contact')]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[@class = 'td-data-table-cell-content-wrapper' and (text() = 'Partner' or . = 'Partner')]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -22,7 +25,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>fbec9980-30ae-489b-afe9-da9d49d11942</webElementGuid>
+      <webElementGuid>ae6dd218-cf36-4806-a88e-7eec6c15fc45</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +33,7 @@
       <name>class</name>
       <type>Main</type>
       <value>td-data-table-cell-content-wrapper</value>
-      <webElementGuid>561666fe-b0c0-43ae-828a-621b9f3cad44</webElementGuid>
+      <webElementGuid>7576c244-a1e2-479f-84d7-0bbf093fb953</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +41,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Partner</value>
-      <webElementGuid>aae4e51c-5a17-43c6-87b5-2d754802a238</webElementGuid>
+      <webElementGuid>46f9b486-5f13-4e1a-aed6-f8a60621d2fb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +49,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-tab-content-0-1&quot;)/div[@class=&quot;mat-tab-body-content ng-tns-c361-36 ng-trigger ng-trigger-translateTab&quot;]/div[@class=&quot;white-container ng-star-inserted&quot;]/div[@class=&quot;user-container-body ng-tns-c574-5&quot;]/app-invited-user-table[@class=&quot;ng-tns-c574-5&quot;]/div[@class=&quot;container-body&quot;]/perfect-scrollbar[1]/div[@class=&quot;ps&quot;]/div[@class=&quot;ps-content&quot;]/td-data-table[@class=&quot;ng-untouched ng-valid ng-dirty&quot;]/div[@class=&quot;td-data-table-scrollable&quot;]/table[@class=&quot;td-data-table&quot;]/tbody[@class=&quot;td-data-table-body&quot;]/tr[@class=&quot;td-data-table-row ng-star-inserted&quot;]/td[@class=&quot;td-data-table-cell ng-star-inserted&quot;]/div[@class=&quot;td-data-table-cell-content-wrapper&quot;]</value>
-      <webElementGuid>1d1b9471-2628-4688-8d73-d984a12240d0</webElementGuid>
+      <webElementGuid>d9f17a5b-9259-4e02-8b2d-ac00e44028b0</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +57,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-tab-body[@id='mat-tab-content-0-1']/div/div/div[2]/app-invited-user-table/div[2]/perfect-scrollbar/div/div/td-data-table/div/table/tbody/tr/td[3]/div</value>
-      <webElementGuid>f79a527a-e95d-46bb-bdc9-d2796e5f2f4e</webElementGuid>
+      <webElementGuid>64189eb1-541f-4e97-b51c-19cf531ca001</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +65,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='autotester08@mailinator.com'])[1]/following::div[1]</value>
-      <webElementGuid>e02b5e24-0968-4341-9286-cfb461f14780</webElementGuid>
+      <webElementGuid>a5680279-7f4a-45f9-b9e9-d2ced0c7459e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +73,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='CSV test3'])[1]/following::div[2]</value>
-      <webElementGuid>212035ec-5143-44d0-9243-07efeb998ec1</webElementGuid>
+      <webElementGuid>26215469-97ff-4068-99d1-bf0fe75be634</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +81,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Invited'])[1]/preceding::div[1]</value>
-      <webElementGuid>1b5c469f-1f55-4304-9756-f954defef337</webElementGuid>
+      <webElementGuid>708d8ecb-a39d-4fbf-adce-8666938ade35</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +89,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td[3]/div</value>
-      <webElementGuid>623f3132-2c29-4eca-ba31-a47e34be3eb7</webElementGuid>
+      <webElementGuid>77bce9ec-d5f3-4444-825a-e1e23b9d4d34</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,6 +97,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = 'Partner' or . = 'Partner')]</value>
-      <webElementGuid>beb9696f-01fd-4f1c-b1ca-887a7764d2eb</webElementGuid>
+      <webElementGuid>1f0cceff-4e88-4d75-bd06-8da3a014696e</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Warning All resources associated with this root organization will be permanently deleted</name>
+   <tag></tag>
+   <elementGuidId>19184bba-1748-49d0-8522-dcabafb93d02</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//mat-dialog-container[@id='mat-dialog-16']/app-dialog-delete-ou/section/div/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.warning-delete-root</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[@class = 'warning-delete-root' and (text() = 'Warning! All resources associated with this root organization will be permanently deleted.' or . = 'Warning! All resources associated with this root organization will be permanently deleted.')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>e91bece1-f782-4b0f-abb2-cd0c2ffbca0e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>warning-delete-root</value>
+      <webElementGuid>3e6086cd-3372-4023-a9c4-a331c25b2a61</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Warning! All resources associated with this root organization will be permanently deleted.</value>
+      <webElementGuid>eb680073-1707-408e-b331-116bb557c210</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mat-dialog-16&quot;)/app-dialog-delete-ou[@class=&quot;ng-star-inserted&quot;]/section[@class=&quot;dialog-container&quot;]/div[@class=&quot;mat-dialog-content&quot;]/span[@class=&quot;warning-delete-root&quot;]</value>
+      <webElementGuid>fcdaafee-6006-41b4-a811-b25d3c202e2a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//mat-dialog-container[@id='mat-dialog-16']/app-dialog-delete-ou/section/div/span</value>
+      <webElementGuid>097fa536-2173-4853-9744-d8af010cf48f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Delete Organization Unit'])[1]/following::span[1]</value>
+      <webElementGuid>e3583a93-f203-45b8-b5ff-284f3cf6bdb8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Delete'])[1]/preceding::span[1]</value>
+      <webElementGuid>6c66a378-5922-4fd3-b6f7-373f4a086197</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/preceding::span[3]</value>
+      <webElementGuid>1ce6a2cb-741b-4f08-b9a6-e7ad9438f22d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Warning! All resources associated with this root organization will be permanently deleted.']/parent::*</value>
+      <webElementGuid>7bf32e4f-9b4c-41fd-8b2b-f596a55b1cb4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//section/div/span</value>
+      <webElementGuid>ecdf7ab8-2331-4c1f-8473-af08e0da247e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Warning! All resources associated with this root organization will be permanently deleted.' or . = 'Warning! All resources associated with this root organization will be permanently deleted.')]</value>
+      <webElementGuid>7e491fdb-2fea-4139-bee1-c1f5624da7fd</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -45,7 +45,7 @@ WebUI.verifyElementVisible(findTestObject('07-Directory/Connections/zContact Pro
 
 WebUI.verifyElementVisible(findTestObject('07-Directory/Connections/zContact Profile/span_CoWorker'))
 
-WebUI.verifyElementVisible(findTestObject('07-Directory/Connections/zContact Profile/span_Partner'))
+WebUI.verifyElementVisible(findTestObject('07-Directory/Connections/zContact Profile/span_External Contact'))
 
 WebUI.click(findTestObject('07-Directory/Connections/zContact Profile/span_CoWorker'))
 
