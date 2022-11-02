@@ -175,5 +175,3 @@ WebUI.click(findTestObject('09-Settings/Users/Active User/button_OK'))
 
 WebUI.delay(5)
 
-WebUI.closeBrowser()
-

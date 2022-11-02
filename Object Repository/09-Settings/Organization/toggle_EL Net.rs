@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>toggle_EL Net</name>
+   <tag></tag>
+   <elementGuidId>3464b2dc-d895-4051-aab9-4bd88866738e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//div[@class='mat-slide-toggle-thumb'])[4]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>DIV</value>
+      <webElementGuid>24b85cd2-fa9a-4377-82f8-3dbf2a14c03a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>xpath1665647046801</value>
+      <webElementGuid>b1bf2b2e-1eca-459c-99b1-8b3345b02234</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

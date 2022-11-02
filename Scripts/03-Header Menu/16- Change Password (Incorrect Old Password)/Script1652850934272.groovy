@@ -35,5 +35,7 @@ WebUI.click(findTestObject('03-Header Menu/User Profile/Change Password/button_C
 
 WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/Change Password/Failed to change password'))
 
+WebUI.click(findTestObject('09-Settings/Users/Active User/button_Cancel_restore'))
+
 WebUI.delay(2)
 

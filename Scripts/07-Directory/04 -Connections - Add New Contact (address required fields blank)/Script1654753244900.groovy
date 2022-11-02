@@ -37,6 +37,8 @@ WebUI.click(findTestObject('07-Directory/Connections/input_City_state'))
 
 WebUI.click(findTestObject('07-Directory/Connections/input_State_country'))
 
+WebUI.doubleClick(findTestObject('07-Directory/Connections/input_Edit Address_street1'), FailureHandling.STOP_ON_FAILURE)
+
 WebUI.click(findTestObject('07-Directory/Connections/input_Country_addressLabel'))
 
 WebUI.delay(3)
@@ -61,7 +63,6 @@ WebUI.verifyElementVisible(findTestObject('07-Directory/Connections/city error')
 
 WebUI.verifyElementVisible(findTestObject('07-Directory/Connections/state error'))
 
-WebUI.verifyElementVisible(findTestObject('07-Directory/Connections/country error'))
-
+//WebUI.verifyElementVisible(findTestObject('07-Directory/Connections/country error'))
 WebUI.delay(3)
 

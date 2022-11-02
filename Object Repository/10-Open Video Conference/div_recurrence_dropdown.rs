@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_recurrence_dropdown</name>
+   <tag></tag>
+   <elementGuidId>cf225626-f03f-4185-9e36-1cd2aa97ed25</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[@ng-reflect-ng-switch = 'false' and (text() = 'Does not repeat' or . = 'Does not repeat')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//mat-select[@id='mat-select-0']/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.mat-select-value.ng-tns-c246-45</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>e8e38fd3-6670-4366-a49e-60125508e1c7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-select-value ng-tns-c246-45</value>
+      <webElementGuid>bfb476d5-63cf-4937-8ecf-456dafe4cd43</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-reflect-ng-switch</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>d590482d-1e65-499f-9e68-1ac6c1d9ef68</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Does not repeat</value>
+      <webElementGuid>3c563d7c-0c7f-4f16-8b56-f4e5b9cf1609</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mat-select-0&quot;)/div[@class=&quot;mat-select-trigger ng-tns-c246-45&quot;]/div[@class=&quot;mat-select-value ng-tns-c246-45&quot;]</value>
+      <webElementGuid>d340d7b4-d0e3-44ff-a490-eafd7d5cd678</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//mat-select[@id='mat-select-0']/div/div</value>
+      <webElementGuid>73817e7e-5e53-4bcc-8a94-63dd5013d7a9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='End Date'])[1]/following::div[20]</value>
+      <webElementGuid>d7160308-aeda-4966-864c-182f5ce0f30f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Start Date'])[1]/following::div[38]</value>
+      <webElementGuid>ef8f4500-9895-4ece-940c-cf06ad9258a5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Recurrence'])[1]/preceding::div[3]</value>
+      <webElementGuid>5c21f14f-d881-472a-b663-35b66c13ee2f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//mat-select/div/div</value>
+      <webElementGuid>47bc2552-eeef-4e98-a6ef-4c6d3037de3a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Does not repeat' or . = 'Does not repeat')]</value>
+      <webElementGuid>3e98156e-ca1c-4af1-b25f-9da5817d765c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

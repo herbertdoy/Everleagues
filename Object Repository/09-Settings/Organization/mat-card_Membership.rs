@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>mat-card_Membership</name>
+   <tag></tag>
+   <elementGuidId>8b87b0a1-fb21-4f1b-b63c-0a7a08c8743d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//mat-tab-body[@id='mat-tab-content-0-1']/div/section[2]/div/mat-card</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>mat-card</value>
+      <webElementGuid>b49e46e5-f464-40a1-996f-4001c29d7279</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-card mat-focus-indicator ng-tns-c588-5</value>
+      <webElementGuid>59fcd104-8809-4018-8ad2-37d94e306a92</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Membership Enable Auto Approve  By enabling this option, all join requests via URL will be automatically approved. </value>
+      <webElementGuid>927bc4ab-a71c-4fb7-8fad-33168deca59b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mat-tab-content-0-1&quot;)/div[@class=&quot;mat-tab-body-content ng-tns-c361-38 ng-trigger ng-trigger-translateTab&quot;]/section[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;ng-tns-c588-5&quot;]/mat-card[@class=&quot;mat-card mat-focus-indicator ng-tns-c588-5&quot;]</value>
+      <webElementGuid>9b8f573b-98cd-4231-91dd-b9769d90cb0d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//mat-tab-body[@id='mat-tab-content-0-1']/div/section[2]/div/mat-card</value>
+      <webElementGuid>ce651ccf-61a0-4e64-bf4b-c27fcbd25ed9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Enable chat message deletion'])[1]/following::mat-card[1]</value>
+      <webElementGuid>b835fa6d-f52f-4092-90d7-dcdf4c3c653a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Enable chat message editing'])[1]/following::mat-card[1]</value>
+      <webElementGuid>7cf30ce4-cfc8-41c0-aa95-f0e32bcda693</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//section[2]/div/mat-card</value>
+      <webElementGuid>e8a2bb35-3234-47b9-8848-9f50a1daa9fd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//mat-card[(text() = ' Membership Enable Auto Approve  By enabling this option, all join requests via URL will be automatically approved. ' or . = ' Membership Enable Auto Approve  By enabling this option, all join requests via URL will be automatically approved. ')]</value>
+      <webElementGuid>b4998cc2-cf1f-4c1d-9f6f-874eab2bc19f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

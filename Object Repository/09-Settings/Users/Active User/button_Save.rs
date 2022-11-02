@@ -6,12 +6,12 @@
    <elementGuidId>19f0e22e-5b45-48cb-82f7-3c21152a30d2</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(//button[@type='button'])[33]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>button.mat-focus-indicator.mat-raised-button.mat-button-base.cdk-focused.cdk-mouse-focused</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[33]</value>
       </entry>
       <entry>
          <key>BASIC</key>
@@ -26,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>68435f24-23d8-408f-ab06-9917a9e6c3e5</webElementGuid>
+      <webElementGuid>c2f11d63-3f62-4e32-bb3e-f0d3951ac040</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -34,7 +34,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>55bf9d62-9fa2-4b3b-a7f0-167e4b8e77fc</webElementGuid>
+      <webElementGuid>0ab019a6-090e-4f83-8ef5-5fd6b1524a20</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,7 +42,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-focus-indicator mat-raised-button mat-button-base cdk-focused cdk-mouse-focused</value>
-      <webElementGuid>44df587a-4b60-433b-b63d-92d1e2404417</webElementGuid>
+      <webElementGuid>47ede123-b4dc-487d-af20-61b8e5aa32e3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,7 +50,7 @@
       <name>ng-reflect-disabled</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>a64c7fd8-2820-448a-8167-f41593be07f1</webElementGuid>
+      <webElementGuid>75fe3c7a-5beb-43ff-b661-75ad7ae4ee95</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -58,7 +58,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Save</value>
-      <webElementGuid>da6f5ff7-8bc4-465a-aeac-4e5e39da678c</webElementGuid>
+      <webElementGuid>34b74ccf-9ceb-4fcb-9805-93843483ccae</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -66,7 +66,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-dialog-1&quot;)/app-dialog-edit-user-role[@class=&quot;ng-star-inserted&quot;]/section[@class=&quot;dialog-container ng-star-inserted&quot;]/form[@class=&quot;ng-valid ng-touched ng-dirty&quot;]/div[@class=&quot;mat-dialog-actions dialog-action&quot;]/div[@class=&quot;action-container&quot;]/button[@class=&quot;mat-focus-indicator mat-raised-button mat-button-base cdk-focused cdk-mouse-focused&quot;]</value>
-      <webElementGuid>2a248ac8-8cfd-4133-8097-8909784ce008</webElementGuid>
+      <webElementGuid>4cd01b7d-1da6-46e0-af28-05972a413664</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -74,7 +74,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[33]</value>
-      <webElementGuid>e58215dd-1ee7-4911-9cdb-f2072d753b45</webElementGuid>
+      <webElementGuid>f14e3b6f-df61-4262-991f-8dafd4f5f82e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,7 +82,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-dialog-container[@id='mat-dialog-1']/app-dialog-edit-user-role/section/form/div[2]/div/button</value>
-      <webElementGuid>0f6d3cb3-1518-4250-8b44-533d3e8446d0</webElementGuid>
+      <webElementGuid>90fa65ab-09ce-47a1-ad4f-033fec244c92</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -90,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Role Type'])[2]/following::button[1]</value>
-      <webElementGuid>6a32d6ab-6fbf-483d-97bb-7b7d5735e0bc</webElementGuid>
+      <webElementGuid>814c75e5-01f2-453c-b196-8db482761c46</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,7 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='IT'])[1]/following::button[1]</value>
-      <webElementGuid>f3eab58f-4059-495b-bd06-9acaebf630a9</webElementGuid>
+      <webElementGuid>4169d6b8-30c2-407c-8705-a039e603f7b4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,7 +106,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/preceding::button[1]</value>
-      <webElementGuid>6e361a63-d13e-432f-b028-a1346d31eb96</webElementGuid>
+      <webElementGuid>dae599e7-8535-4c0f-bf41-bcc278d4dd2b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -114,7 +114,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//form/div[2]/div/button</value>
-      <webElementGuid>4b482895-4cac-48e8-9078-4895b219e9e7</webElementGuid>
+      <webElementGuid>e4813949-3a67-4a6c-8b17-1ec56354096f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -122,6 +122,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = 'Save' or . = 'Save')]</value>
-      <webElementGuid>9bdc6c92-f93d-4766-aa35-530e9990bb8e</webElementGuid>
+      <webElementGuid>9b4e3f0b-3bde-4cc5-9683-a6c69b060356</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

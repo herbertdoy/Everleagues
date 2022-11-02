@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>toggle_EL HealthCheck</name>
+   <tag></tag>
+   <elementGuidId>bc8dfb75-b4a5-4a5c-9124-8521e74d720d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//div[@class='mat-slide-toggle-thumb'])[6]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>DIV</value>
+      <webElementGuid>ea950ea9-b440-4967-8740-21d1dd9b5eed</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>xpath1665647178393</value>
+      <webElementGuid>4ed0980b-0904-432b-927a-9ec3cb93941a</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>mat-icon_mood</name>
+   <tag></tag>
+   <elementGuidId>9f09d40e-0025-45d7-83d2-565ba99f05a6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//mat-icon[@role = 'img' and @aria-hidden = 'true' and (text() = 'mood' or . = 'mood')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>mat-icon.mat-icon.notranslate.ng-tns-c551-88.material-icons.mat-icon-no-color</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//div[@ng-reflect-ng-class='[object Object]']//div)[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>mat-icon</value>
+      <webElementGuid>5241aa6c-2da4-4ad5-b16e-17796beef37d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>ff02d6eb-25cd-4664-9726-9e81ad52dac1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-icon notranslate ng-tns-c551-88 material-icons mat-icon-no-color</value>
+      <webElementGuid>77d0552c-9d3f-4891-88a6-a827e0fb2b4e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-hidden</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>1bb4f8ae-6566-4f26-9143-8205ae5b9120</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>mood</value>
+      <webElementGuid>872a7e4a-7149-434e-b10b-160c8adfb329</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;msgid-1665998083630&quot;)/div[@class=&quot;reaction ng-tns-c551-88 ng-star-inserted&quot;]/mat-icon[@class=&quot;mat-icon notranslate ng-tns-c551-88 material-icons mat-icon-no-color&quot;]</value>
+      <webElementGuid>00c5224a-8b07-4c1a-99e5-8c915d66729f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='msgid-1665998083630']/div/mat-icon</value>
+      <webElementGuid>333fc9be-f289-4289-acdf-dff2459e470f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Today'])[2]/following::mat-icon[1]</value>
+      <webElementGuid>c83b3b6f-767f-4a5c-8e3f-c0e12a615d97</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Automation Chat'])[2]/following::mat-icon[3]</value>
+      <webElementGuid>d5233bdf-4106-4406-a3c6-be1d1ea160ed</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='You'])[2]/preceding::mat-icon[1]</value>
+      <webElementGuid>7ca9191c-39f8-44bc-a988-69f3c7ede143</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Testing automation'])[1]/preceding::mat-icon[2]</value>
+      <webElementGuid>dbc8d933-a352-4c9d-a245-ce3e17b80ada</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='mood']/parent::*</value>
+      <webElementGuid>8bf62276-5be1-473c-98d6-4213c53acd91</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/mat-icon</value>
+      <webElementGuid>c99ec715-31dd-4157-90f7-9e5975b56f18</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//mat-icon[(text() = 'mood' or . = 'mood')]</value>
+      <webElementGuid>3f001eb6-56f8-44ba-8ccb-d87ab25d8c54</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

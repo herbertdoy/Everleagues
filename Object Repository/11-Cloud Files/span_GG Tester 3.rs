@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_GG Tester 3</name>
+   <tag></tag>
+   <elementGuidId>58ea27d4-fb48-43d3-ade8-d5292f9f8529</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//mat-option[@id='mat-option-106']/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#mat-option-106 > span.mat-option-text</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>f6e07a6b-efe0-4de4-a5cf-720940dca312</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-option-text</value>
+      <webElementGuid>e97c58bc-26d3-4414-b440-7051e01f6938</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> GG Tester 3 </value>
+      <webElementGuid>ab47d541-ae5f-4d10-9c75-5d552fef551d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mat-option-106&quot;)/span[@class=&quot;mat-option-text&quot;]</value>
+      <webElementGuid>b53d5f89-0d6a-4787-89b7-88f87ee32ac5</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//mat-option[@id='mat-option-106']/span</value>
+      <webElementGuid>86fa948f-eb38-46a6-b4c6-c787b16c95fb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='GG Partner'])[1]/following::span[1]</value>
+      <webElementGuid>a6224ddd-2228-4884-9a06-81361843be34</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='GG tester'])[1]/following::span[2]</value>
+      <webElementGuid>8a14d447-cb66-46ef-aa02-e353d6d10a49</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='GG tester 2'])[1]/preceding::span[1]</value>
+      <webElementGuid>69785777-4527-47ae-b3eb-88eb1107fa6d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='GG Client'])[1]/preceding::span[2]</value>
+      <webElementGuid>9b4993d5-7987-4b3d-ac7f-eec38df28f06</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='GG Tester 3']/parent::*</value>
+      <webElementGuid>7f5196ea-2933-4ea7-9f31-06033165a5a0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//mat-option[3]/span</value>
+      <webElementGuid>7fe5a085-c975-4b3d-a412-22e9b9f69a69</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = ' GG Tester 3 ' or . = ' GG Tester 3 ')]</value>
+      <webElementGuid>47e3f6a0-aa4b-4b19-a992-5e1266ba0721</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

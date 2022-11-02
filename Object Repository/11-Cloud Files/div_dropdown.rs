@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_dropdown</name>
+   <tag></tag>
+   <elementGuidId>f4e3ecab-a3f7-46f8-9639-7fc53a3eec60</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.mat-select-arrow-wrapper.ng-tns-c246-109</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@ng-reflect-ng-switch='false']/following-sibling::div[1]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;mat-select-16&quot;)/div[@class=&quot;mat-select-trigger ng-tns-c246-109&quot;]/div[@class=&quot;mat-select-arrow-wrapper ng-tns-c246-109&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>56ff43ac-8e20-4b05-8746-f63d48ed92fd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-select-arrow-wrapper ng-tns-c246-109</value>
+      <webElementGuid>8302851b-e34d-407b-a30e-9b4a91cac868</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mat-select-16&quot;)/div[@class=&quot;mat-select-trigger ng-tns-c246-109&quot;]/div[@class=&quot;mat-select-arrow-wrapper ng-tns-c246-109&quot;]</value>
+      <webElementGuid>95242bc5-5952-4da0-ab1f-4ec24bde3c3a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//mat-select[@id='mat-select-16']/div/div[2]</value>
+      <webElementGuid>db7e03c7-8c2f-40eb-92b5-d68fa259456e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Viewer'])[1]/following::div[1]</value>
+      <webElementGuid>3b8a3122-7d41-4e0d-a5c9-93f1c46d93f3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add Users'])[1]/following::div[15]</value>
+      <webElementGuid>47e5acdc-35d2-4a0d-80da-72db74de81e4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Notify users'])[1]/preceding::div[12]</value>
+      <webElementGuid>92283d6a-d437-4bbe-90b8-27dc143410a4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Shared with'])[1]/preceding::div[14]</value>
+      <webElementGuid>b3f388c0-5d90-4487-bcd0-e605996f08c8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//mat-select/div/div[2]</value>
+      <webElementGuid>74f46cd2-2418-4cb0-b8c3-4e3f1ad0f5cd</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -7,14 +7,18 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//mat-dialog-container[@id='mat-dialog-1']/app-dialog-add-contact/section/form/div/perfect-scrollbar/div/div/div/div/input-contact-address/div</value>
+         <value>//div[@fxlayout = 'row' and (text() = 'Auto street 1Auto street 254321 Auto cityAuto stateUnited StatesWorkeditremove_circle_outline' or . = 'Auto street 1Auto street 254321 Auto cityAuto stateUnited StatesWorkeditremove_circle_outline')]</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>input-contact-address > div.ng-star-inserted</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[@fxlayout = 'row' and (text() = 'Auto street 1Auto street 254321 Auto cityAuto stateAuto countryWorkeditremove_circle_outline' or . = 'Auto street 1Auto street 254321 Auto cityAuto stateAuto countryWorkeditremove_circle_outline')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>06cb2c47-622f-4313-8310-5baa62eee062</webElementGuid>
+      <webElementGuid>7216c7be-5a10-4e71-be3f-54bafe919c0f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +34,7 @@
       <name>fxlayout</name>
       <type>Main</type>
       <value>row</value>
-      <webElementGuid>081df64a-7532-444e-bfc8-bcef4724a88f</webElementGuid>
+      <webElementGuid>1e60ae3f-d8ef-4064-839d-671825156f3c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +42,7 @@
       <name>ng-reflect-fx-layout</name>
       <type>Main</type>
       <value>row</value>
-      <webElementGuid>06f4af65-cf31-43fb-af72-a6c5c06b48b1</webElementGuid>
+      <webElementGuid>2373f3cd-ed69-4e96-b3e9-8c1fa480f344</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +50,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ng-star-inserted</value>
-      <webElementGuid>3f271100-3717-4a36-82d2-ec846664297f</webElementGuid>
+      <webElementGuid>4a38dbc0-84e2-4ae8-a1d4-aff3c3436334</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +58,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Auto street 1Auto street 254321 Auto cityAuto stateAuto countryWorkeditremove_circle_outline</value>
-      <webElementGuid>2f64ce3d-84a3-470d-83e3-6cff319a130c</webElementGuid>
+      <webElementGuid>b4662070-4bfa-49a2-ab3f-a616a50bf7b2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +66,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-dialog-1&quot;)/app-dialog-add-contact[@class=&quot;ng-star-inserted&quot;]/section[@class=&quot;dialog-container dialog-add-contact&quot;]/form[@class=&quot;ng-pristine ng-invalid ng-touched&quot;]/div[@class=&quot;mat-dialog-content&quot;]/perfect-scrollbar[1]/div[@class=&quot;ps ps--active-y&quot;]/div[@class=&quot;ps-content&quot;]/div[@class=&quot;container-body&quot;]/div[1]/input-contact-address[1]/div[@class=&quot;ng-star-inserted&quot;]</value>
-      <webElementGuid>919037e8-8492-41f7-aa5c-1fd14e043389</webElementGuid>
+      <webElementGuid>3ad40687-b062-4058-81a8-f25a889fea5f</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -70,7 +74,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-dialog-container[@id='mat-dialog-1']/app-dialog-add-contact/section/form/div/perfect-scrollbar/div/div/div/div/input-contact-address/div</value>
-      <webElementGuid>4b31ccae-296e-415b-a821-90cb3e657497</webElementGuid>
+      <webElementGuid>9f653aa4-4b4a-4873-adab-c39c508cf0f2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Address:'])[1]/following::div[1]</value>
-      <webElementGuid>e5af4c51-138f-4b7a-92a3-b9ea5d7c66c3</webElementGuid>
+      <webElementGuid>5db3e910-7e26-4a85-8a6c-e28388590f57</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Type'])[2]/following::div[20]</value>
-      <webElementGuid>613730a7-b0dd-46c9-bd5c-049c687a73b3</webElementGuid>
+      <webElementGuid>24155923-21ae-43e3-b444-b8b41a57b030</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +98,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//input-contact-address/div</value>
-      <webElementGuid>69f36f58-adc5-44ab-993d-3d5f0d036984</webElementGuid>
+      <webElementGuid>d2a11375-bb55-4b60-8e1c-e84b65dd356d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,6 +106,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = 'Auto street 1Auto street 254321 Auto cityAuto stateAuto countryWorkeditremove_circle_outline' or . = 'Auto street 1Auto street 254321 Auto cityAuto stateAuto countryWorkeditremove_circle_outline')]</value>
-      <webElementGuid>927736a0-4520-495a-aadb-a7ba670b30fc</webElementGuid>
+      <webElementGuid>0bda14ee-ef0c-4683-a537-3578acf2d498</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

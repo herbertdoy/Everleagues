@@ -41,6 +41,8 @@ WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Contact Inf
 
 WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Contact Info/input_country'))
 
+WebUI.doubleClick(findTestObject('03-Header Menu/User Profile/View Profile/Contact Info/input_state'))
+
 WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Contact Info/input_address type'))
 
 WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/View Profile/Contact Info/span_Work'))
@@ -57,8 +59,7 @@ WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/View Prof
 
 WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/View Profile/Contact Info/invalid state'))
 
-WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/View Profile/Contact Info/invalid country'))
-
+//WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/View Profile/Contact Info/invalid country'))
 WebUI.delay(2)
 
 WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Contact Info/input_street1'))
@@ -83,7 +84,9 @@ WebUI.setText(findTestObject('03-Header Menu/User Profile/View Profile/Contact I
 
 WebUI.setText(findTestObject('03-Header Menu/User Profile/View Profile/Contact Info/input_state'), 'Test State')
 
-WebUI.setText(findTestObject('03-Header Menu/User Profile/View Profile/Contact Info/input_country'), 'Test Country')
+WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Contact Info/input_country'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Contact Info/span_United States'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Contact Info/input_address type'))
 

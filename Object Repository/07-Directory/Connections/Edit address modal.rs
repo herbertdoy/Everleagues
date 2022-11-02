@@ -6,19 +6,19 @@
    <elementGuidId>d173061d-5c8f-4166-8e10-794f3cba9faf</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//mat-dialog-container[@role = 'dialog' and (text() = 'Edit AddressStreet 1 *Street 2Zip / Postal Code *City *State *Country *Address TypeSaveCancel' or . = 'Edit AddressStreet 1 *Street 2Zip / Postal Code *City *State *Country *Address TypeSaveCancel')]</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
-         <value>//mat-dialog-container[@id='mat-dialog-6']</value>
+         <value>//mat-dialog-container[@role = 'dialog' and (text() = 'Edit AddressStreet 1 *Street 2Zip / Postal Code *City *State * CountryAddress TypeSaveCancel' or . = 'Edit AddressStreet 1 *Street 2Zip / Postal Code *City *State * CountryAddress TypeSaveCancel')]</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>#mat-dialog-6</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//mat-dialog-container[@role = 'dialog' and (text() = 'Edit AddressStreet 1 *Street 2Zip / Postal Code *City *State *Country *Address TypeSaveCancel' or . = 'Edit AddressStreet 1 *Street 2Zip / Postal Code *City *State *Country *Address TypeSaveCancel')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -26,6 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>mat-dialog-container</value>
+      <webElementGuid>0d5f2bbc-488d-48fa-af43-9af6f192eeaf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -33,6 +34,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>-1</value>
+      <webElementGuid>2e569fbb-b2a5-4639-a361-681dfe090f3c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -40,6 +42,7 @@
       <name>aria-modal</name>
       <type>Main</type>
       <value>true</value>
+      <webElementGuid>587d2ad0-996d-474f-8556-534479be15fa</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,6 +50,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-dialog-container ng-tns-c33-193 ng-trigger ng-trigger-dialogContainer ng-star-inserted</value>
+      <webElementGuid>977b3fa5-2fab-4616-8025-0a9d3dc67e4f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,6 +58,7 @@
       <name>id</name>
       <type>Main</type>
       <value>mat-dialog-6</value>
+      <webElementGuid>702ca631-06f9-4212-83ec-9048bf0ff1f3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -61,6 +66,7 @@
       <name>role</name>
       <type>Main</type>
       <value>dialog</value>
+      <webElementGuid>adda8d1d-62a5-43c9-98b1-bcbbc0dcd5ba</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -68,6 +74,7 @@
       <name>aria-labelledby</name>
       <type>Main</type>
       <value>mat-dialog-title-6</value>
+      <webElementGuid>879d4f32-d5e0-4faa-b03b-56e291d92c28</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -75,6 +82,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Edit AddressStreet 1 *Street 2Zip / Postal Code *City *State *Country *Address TypeSaveCancel</value>
+      <webElementGuid>30f1444b-d12d-46e7-a51d-3b7bd185fe37</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -82,6 +90,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-dialog-6&quot;)</value>
+      <webElementGuid>28649691-a7a9-468b-8088-96887ceb6cd9</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -89,6 +98,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//mat-dialog-container[@id='mat-dialog-6']</value>
+      <webElementGuid>e9eecde3-945d-4ebc-8fb7-1d0c0ec3731e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -96,6 +106,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='cdk-overlay-41']/mat-dialog-container</value>
+      <webElementGuid>e4d5bc18-955f-4f2c-8e5d-86436b9907fb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,6 +114,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/following::mat-dialog-container[1]</value>
+      <webElementGuid>2ba02319-3169-4b4b-ad8d-4545e09af4d4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,6 +122,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Create'])[1]/following::mat-dialog-container[1]</value>
+      <webElementGuid>75ac9258-09f6-4e62-9ad9-2a825c1fa2c0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,6 +130,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[4]/div/mat-dialog-container</value>
+      <webElementGuid>178f5c95-e9ad-4758-bada-6e15a2ff2082</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -124,5 +138,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//mat-dialog-container[@id = 'mat-dialog-6' and (text() = 'Edit AddressStreet 1 *Street 2Zip / Postal Code *City *State *Country *Address TypeSaveCancel' or . = 'Edit AddressStreet 1 *Street 2Zip / Postal Code *City *State *Country *Address TypeSaveCancel')]</value>
+      <webElementGuid>1026bc71-e0fd-4bfb-aecd-b2d77636b874</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>mat-icon_cancel</name>
+   <tag></tag>
+   <elementGuidId>43b57f38-887e-4f2b-b3ec-84b8d0d2ed6f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>mat-icon.mat-icon.notranslate.info-cancel.material-icons.mat-icon-no-color</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='msgComposer']/div/mat-icon</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>mat-icon</value>
+      <webElementGuid>819368d1-7d86-4eeb-b85c-eebf24334e2a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>362bbe05-fb2a-4e40-aac0-cbef1dd0f2dc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-icon notranslate info-cancel material-icons mat-icon-no-color</value>
+      <webElementGuid>5c688edc-ce8a-4a1b-9d3a-2c88fa0d9094</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-hidden</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>62bf3c8b-9d68-424c-a42e-f3b95bc91a57</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>cancel </value>
+      <webElementGuid>ebd0d8fa-5e2f-46d6-bf21-584cc39f2965</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;msgComposer&quot;)/div[@class=&quot;reply-to-container ng-star-inserted&quot;]/mat-icon[@class=&quot;mat-icon notranslate info-cancel material-icons mat-icon-no-color&quot;]</value>
+      <webElementGuid>40e9b6f3-d9d7-4587-b73c-0e8ce1600822</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='msgComposer']/div/mat-icon</value>
+      <webElementGuid>2321c986-35b7-4e52-bb2f-9aeca8c06782</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='🤑'])[3]/following::mat-icon[1]</value>
+      <webElementGuid>63760662-35d9-4e25-8e4a-8c00eab25537</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='You'])[4]/following::mat-icon[1]</value>
+      <webElementGuid>48eb60ec-91ad-4bbd-b9f8-275cd43eb65f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Message...'])[1]/preceding::mat-icon[1]</value>
+      <webElementGuid>fe0a0d04-c13d-4ab0-9ac0-172ea59bda7c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Search'])[1]/preceding::mat-icon[7]</value>
+      <webElementGuid>5ae60367-0efd-42a8-a1aa-001f1616523c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//app-composer/div/div/mat-icon</value>
+      <webElementGuid>30cc9663-51b1-425b-a99f-be9c54d6e687</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//mat-icon[(text() = 'cancel ' or . = 'cancel ')]</value>
+      <webElementGuid>2820ecdb-4413-4e8d-9c13-8b9155e8236a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

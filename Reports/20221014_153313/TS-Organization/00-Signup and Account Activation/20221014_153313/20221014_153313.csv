@@ -1,0 +1,80 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+00-Signup and Account Activation,Chrome 106.0.0.0,,,2022-10-14 15:33:15,2022-10-14 15:35:12,1m - 57.086s,PASSED
+,,,,,,,
+Test Cases/00-SignUp and Account Activation/01-Signup(Credentials Blank),Chrome 106.0.0.0,,,2022-10-14 15:33:16,2022-10-14 15:33:45,29.078s,PASSED
+"openBrowser("""")",Chrome 106.0.0.0,,,2022-10-14 15:33:16,2022-10-14 15:33:18,2.368s,PASSED
+"navigateToUrl(""https://lab.everleagues.com/"")",Chrome 106.0.0.0,,,2022-10-14 15:33:18,2022-10-14 15:33:34,15.842s,PASSED
+maximizeWindow(),Chrome 106.0.0.0,,,2022-10-14 15:33:34,2022-10-14 15:33:34,0.159s,PASSED
+"click(findTestObject(""00-Signup and Activation/span_Sign up""))",Chrome 106.0.0.0,,,2022-10-14 15:33:34,2022-10-14 15:33:35,0.535s,PASSED
+delay(3),Chrome 106.0.0.0,,,2022-10-14 15:33:35,2022-10-14 15:33:38,3.041s,PASSED
+"verifyElementVisible(findTestObject(""00-Signup and Activation/div_Already have an account Log In""))",Chrome 106.0.0.0,,,2022-10-14 15:33:38,2022-10-14 15:33:38,0.403s,PASSED
+delay(3),Chrome 106.0.0.0,,,2022-10-14 15:33:38,2022-10-14 15:33:41,3.008s,PASSED
+"verifyElementNotClickable(findTestObject(""00-Signup and Activation/button_Sign up""))",Chrome 106.0.0.0,,,2022-10-14 15:33:41,2022-10-14 15:33:42,0.343s,PASSED
+delay(3),Chrome 106.0.0.0,,,2022-10-14 15:33:42,2022-10-14 15:33:45,3.012s,PASSED
+,,,,,,,
+Test Cases/00-SignUp and Account Activation/02-Signup(Wrong email),Chrome 106.0.0.0,,,2022-10-14 15:33:45,2022-10-14 15:33:54,9.430s,PASSED
+delay(3),Chrome 106.0.0.0,,,2022-10-14 15:33:45,2022-10-14 15:33:48,3.003s,PASSED
+"setText(findTestObject(""00-Signup and Activation/input_Email""), ""QATESTinvalidemailformat"")",Chrome 106.0.0.0,,,2022-10-14 15:33:48,2022-10-14 15:33:49,0.838s,PASSED
+delay(2),Chrome 106.0.0.0,,,2022-10-14 15:33:49,2022-10-14 15:33:51,2.017s,PASSED
+"click(findTestObject(""00-Signup and Activation/input_firstName""))",Chrome 106.0.0.0,,,2022-10-14 15:33:51,2022-10-14 15:33:51,0.372s,PASSED
+"verifyElementPresent(findTestObject(""00-Signup and Activation/error_valid email is required""), 0)",Chrome 106.0.0.0,,,2022-10-14 15:33:51,2022-10-14 15:33:52,0.446s,PASSED
+delay(0),Chrome 106.0.0.0,,,2022-10-14 15:33:52,2022-10-14 15:33:52,0.003s,PASSED
+"setText(findTestObject(""00-Signup and Activation/input_Email""), ""testuser01@mailinator.com"")",Chrome 106.0.0.0,,,2022-10-14 15:33:52,2022-10-14 15:33:53,0.981s,PASSED
+delay(0),Chrome 106.0.0.0,,,2022-10-14 15:33:53,2022-10-14 15:33:53,0.003s,PASSED
+"click(findTestObject(""00-Signup and Activation/input_firstName""))",Chrome 106.0.0.0,,,2022-10-14 15:33:53,2022-10-14 15:33:53,0.470s,PASSED
+"verifyElementVisible(findTestObject(""00-Signup and Activation/error_email already exists""))",Chrome 106.0.0.0,,,2022-10-14 15:33:53,2022-10-14 15:33:54,1.001s,PASSED
+delay(0),Chrome 106.0.0.0,,,2022-10-14 15:33:54,2022-10-14 15:33:54,0.001s,PASSED
+,,,,,,,
+Test Cases/00-SignUp and Account Activation/03-Signup(Correct Details),Chrome 106.0.0.0,"Make sure to change the email, everytime you run this test",,2022-10-14 15:33:54,2022-10-14 15:34:40,46.019s,PASSED
+delay(2),Chrome 106.0.0.0,,,2022-10-14 15:33:54,2022-10-14 15:33:56,2.014s,PASSED
+"setText(findTestObject(""00-Signup and Activation/input_Email""), ""autotester99@mailinator.com"")",Chrome 106.0.0.0,always change the number in the email to the next one before starting the automation,,2022-10-14 15:33:56,2022-10-14 15:33:57,0.690s,PASSED
+"setText(findTestObject(""00-Signup and Activation/input_firstName""), ""GG"")",Chrome 106.0.0.0,,,2022-10-14 15:33:57,2022-10-14 15:33:58,1.311s,PASSED
+"setText(findTestObject(""00-Signup and Activation/input_lastName""), ""tester"")",Chrome 106.0.0.0,,,2022-10-14 15:33:58,2022-10-14 15:33:59,0.870s,PASSED
+delay(2),Chrome 106.0.0.0,,,2022-10-14 15:33:59,2022-10-14 15:34:01,2.014s,PASSED
+"click(findTestObject(""Object Repository/00-Signup and Activation/button_Sign up""))",Chrome 106.0.0.0,,,2022-10-14 15:34:01,2022-10-14 15:34:02,0.377s,PASSED
+delay(2),Chrome 106.0.0.0,,,2022-10-14 15:34:02,2022-10-14 15:34:04,2.007s,PASSED
+"executeJavaScript(""window.open();"", [])",Chrome 106.0.0.0,,,2022-10-14 15:34:04,2022-10-14 15:34:04,0.055s,PASSED
+currentWindow = getWindowIndex(),Chrome 106.0.0.0,,,2022-10-14 15:34:04,2022-10-14 15:34:04,0.022s,PASSED
+delay(3),Chrome 106.0.0.0,,,2022-10-14 15:34:04,2022-10-14 15:34:07,3.006s,PASSED
+switchToWindowIndex(currentWindow + 1),Chrome 106.0.0.0,,,2022-10-14 15:34:07,2022-10-14 15:34:07,0.034s,PASSED
+"navigateToUrl(""https://www.mailinator.com/"")",Chrome 106.0.0.0,,,2022-10-14 15:34:07,2022-10-14 15:34:09,1.863s,PASSED
+delay(3),Chrome 106.0.0.0,,,2022-10-14 15:34:09,2022-10-14 15:34:12,3.014s,PASSED
+"setText(findTestObject(""00-Signup and Activation/zMailinator/input_LOGIN_search""), ""autotester99@mailinator.com"")",Chrome 106.0.0.0,always match this email to the email above,,2022-10-14 15:34:12,2022-10-14 15:34:12,0.684s,PASSED
+"click(findTestObject(""00-Signup and Activation/zMailinator/gobutton""), STOP_ON_FAILURE)",Chrome 106.0.0.0,,,2022-10-14 15:34:12,2022-10-14 15:34:14,2.006s,PASSED
+delay(3),Chrome 106.0.0.0,,,2022-10-14 15:34:14,2022-10-14 15:34:17,3.011s,PASSED
+"click(findTestObject(""00-Signup and Activation/zMailinator/Email - everleagues""))",Chrome 106.0.0.0,,,2022-10-14 15:34:17,2022-10-14 15:34:18,0.360s,PASSED
+delay(3),Chrome 106.0.0.0,,,2022-10-14 15:34:18,2022-10-14 15:34:21,3.011s,PASSED
+"code = getText(findTestObject(""Object Repository/06-Teams/For 2FA/2FA code""))",Chrome 106.0.0.0,,,2022-10-14 15:34:21,2022-10-14 15:34:21,0.465s,PASSED
+delay(3),Chrome 106.0.0.0,,,2022-10-14 15:34:21,2022-10-14 15:34:24,3.011s,PASSED
+"closeWindowTitle(""Mailinator"")",Chrome 106.0.0.0,,,2022-10-14 15:34:24,2022-10-14 15:34:24,0.209s,PASSED
+delay(3),Chrome 106.0.0.0,,,2022-10-14 15:34:24,2022-10-14 15:34:27,3.002s,PASSED
+switchToWindowIndex(0),Chrome 106.0.0.0,,,2022-10-14 15:34:27,2022-10-14 15:34:27,0.017s,PASSED
+delay(3),Chrome 106.0.0.0,,,2022-10-14 15:34:27,2022-10-14 15:34:30,3.013s,PASSED
+"setText(findTestObject(""Object Repository/06-Teams/For 2FA/input_Enter verification code_code""), code)",Chrome 106.0.0.0,,,2022-10-14 15:34:30,2022-10-14 15:34:31,0.772s,PASSED
+delay(3),Chrome 106.0.0.0,,,2022-10-14 15:34:31,2022-10-14 15:34:34,3.003s,PASSED
+"click(findTestObject(""06-Teams/For 2FA/button_Verify_2FA""))",Chrome 106.0.0.0,,,2022-10-14 15:34:34,2022-10-14 15:34:35,0.851s,PASSED
+delay(5),Chrome 106.0.0.0,,,2022-10-14 15:34:35,2022-10-14 15:34:40,5.002s,PASSED
+,,,,,,,
+Test Cases/00-SignUp and Account Activation/04-Set password,Chrome 106.0.0.0,,,2022-10-14 15:34:40,2022-10-14 15:35:12,32.186s,PASSED
+delay(2),Chrome 106.0.0.0,,,2022-10-14 15:34:40,2022-10-14 15:34:42,2.016s,PASSED
+"setEncryptedText(findTestObject(""00-Signup and Activation/input_password""), ""8yFRyszE6U6jvsCn51OQbg=="", STOP_ON_FAILURE)",Chrome 106.0.0.0,,,2022-10-14 15:34:42,2022-10-14 15:34:43,0.510s,PASSED
+"setEncryptedText(findTestObject(""00-Signup and Activation/input_ConfirmPassword""), ""8yFRyszE6U6jvsCn51OQbg=="", STOP_ON_FAILURE)",Chrome 106.0.0.0,,,2022-10-14 15:34:43,2022-10-14 15:34:44,0.842s,PASSED
+delay(2),Chrome 106.0.0.0,,,2022-10-14 15:34:44,2022-10-14 15:34:46,2.013s,PASSED
+"click(findTestObject(""00-Signup and Activation/show pass""))",Chrome 106.0.0.0,,,2022-10-14 15:34:46,2022-10-14 15:34:46,0.451s,PASSED
+"click(findTestObject(""00-Signup and Activation/show confirm pass""))",Chrome 106.0.0.0,,,2022-10-14 15:34:46,2022-10-14 15:34:47,0.819s,PASSED
+delay(2),Chrome 106.0.0.0,,,2022-10-14 15:34:47,2022-10-14 15:34:49,2.012s,PASSED
+"check(findTestObject(""00-Signup and Activation/div_checkbox""))",Chrome 106.0.0.0,,,2022-10-14 15:34:49,2022-10-14 15:34:49,0.392s,PASSED
+delay(2),Chrome 106.0.0.0,,,2022-10-14 15:34:49,2022-10-14 15:34:51,2.010s,PASSED
+"click(findTestObject(""00-Signup and Activation/button_Confirm""))",Chrome 106.0.0.0,,,2022-10-14 15:34:51,2022-10-14 15:34:52,0.371s,PASSED
+delay(10),Chrome 106.0.0.0,,,2022-10-14 15:34:52,2022-10-14 15:35:02,10.012s,PASSED
+"verifyElementVisible(findTestObject(""00-Signup and Activation/h4_Welcome to Everleagues""))",Chrome 106.0.0.0,,,2022-10-14 15:35:02,2022-10-14 15:35:02,0.587s,PASSED
+"verifyElementVisible(findTestObject(""00-Signup and Activation/span_CREATE A BUSINESS ORGANIZATION""))",Chrome 106.0.0.0,,,2022-10-14 15:35:02,2022-10-14 15:35:03,0.328s,PASSED
+"verifyElementVisible(findTestObject(""00-Signup and Activation/span_INVITE FRIENDS  FAMILY""))",Chrome 106.0.0.0,,,2022-10-14 15:35:03,2022-10-14 15:35:03,0.341s,PASSED
+delay(3),Chrome 106.0.0.0,,,2022-10-14 15:35:03,2022-10-14 15:35:06,3.006s,PASSED
+"click(findTestObject(""00-Signup and Activation/button_DO THIS LATER""))",Chrome 106.0.0.0,,,2022-10-14 15:35:06,2022-10-14 15:35:06,0.408s,PASSED
+delay(2),Chrome 106.0.0.0,,,2022-10-14 15:35:06,2022-10-14 15:35:08,2.017s,PASSED
+"verifyElementVisible(findTestObject(""00-Signup and Activation/Create your first organization Card""))",Chrome 106.0.0.0,,,2022-10-14 15:35:08,2022-10-14 15:35:09,0.333s,PASSED
+"verifyElementVisible(findTestObject(""00-Signup and Activation/Still not sure where to start Card""))",Chrome 106.0.0.0,,,2022-10-14 15:35:09,2022-10-14 15:35:09,0.326s,PASSED
+"verifyElementVisible(findTestObject(""00-Signup and Activation/Welcome to Everleagues Card""))",Chrome 106.0.0.0,,,2022-10-14 15:35:09,2022-10-14 15:35:09,0.342s,PASSED
+delay(2),Chrome 106.0.0.0,,,2022-10-14 15:35:09,2022-10-14 15:35:11,2.003s,PASSED
+closeBrowser(),Chrome 106.0.0.0,,,2022-10-14 15:35:11,2022-10-14 15:35:12,0.749s,PASSED

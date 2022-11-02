@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_By enabling this option, all join requests via URL will be automatically approved</name>
+   <tag></tag>
+   <elementGuidId>741e69b1-a5b8-49f8-b3de-9bba5cc7f0f3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//mat-tab-body[@id='mat-tab-content-0-1']/div/section[2]/div/mat-card/mat-card-content/div[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>8f03a2e0-74db-47c2-b149-c7c0cab9afdc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ng-tns-c588-5</value>
+      <webElementGuid>1db96b5f-3275-49b8-93e0-072de6f50f4b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> By enabling this option, all join requests via URL will be automatically approved. </value>
+      <webElementGuid>1b3ffcf0-dbdb-4395-904d-a030c3fd5ccc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mat-tab-content-0-1&quot;)/div[@class=&quot;mat-tab-body-content ng-tns-c361-38 ng-trigger ng-trigger-translateTab&quot;]/section[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;ng-tns-c588-5&quot;]/mat-card[@class=&quot;mat-card mat-focus-indicator ng-tns-c588-5&quot;]/mat-card-content[@class=&quot;mat-card-content&quot;]/div[@class=&quot;ng-tns-c588-5&quot;]</value>
+      <webElementGuid>96ee000f-b307-463c-ac7b-f3b69845a42f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//mat-tab-body[@id='mat-tab-content-0-1']/div/section[2]/div/mat-card/mat-card-content/div[2]</value>
+      <webElementGuid>789b4adb-4fa3-45dc-b556-30ad3252058e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Enable Auto Approve'])[1]/following::div[6]</value>
+      <webElementGuid>0b167beb-2daa-4a46-8d4c-f3e22561f0a8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Membership'])[1]/following::div[7]</value>
+      <webElementGuid>a22d4ab2-da3f-4ae8-84e9-042edc112b12</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tools'])[1]/preceding::div[1]</value>
+      <webElementGuid>b7e7c2c5-83be-4762-81dc-e36fd70abafc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Enable or disable tools by clicking on the toggle.'])[1]/preceding::div[1]</value>
+      <webElementGuid>0cc5087e-29e6-4ba2-a6c4-642a392841af</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='By enabling this option, all join requests via URL will be automatically approved.']/parent::*</value>
+      <webElementGuid>a09d4f12-d2a1-4092-bf13-53767bf50c07</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//section[2]/div/mat-card/mat-card-content/div[2]</value>
+      <webElementGuid>9424ca0f-4c5b-41ca-80ef-9b8d50ad3cb3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = ' By enabling this option, all join requests via URL will be automatically approved. ' or . = ' By enabling this option, all join requests via URL will be automatically approved. ')]</value>
+      <webElementGuid>12ba6af4-f517-4146-a39e-7c0c34c69516</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

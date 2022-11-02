@@ -126,17 +126,17 @@ WebUI.delay(3)
 
 WebUI.click(findTestObject('09-Settings/Users/Active User/button_Cancel'))
 
-WebUI.delay(4)
+//WebUI.delay(4)
 
-WebUI.click(findTestObject('09-Settings/Users/Active User/button_search'))
+//WebUI.click(findTestObject('09-Settings/Users/Active User/button_search'))
 
-WebUI.delay(3)
+//WebUI.delay(3)
 
-WebUI.setText(findTestObject('09-Settings/Users/Active User/Search field'), 'partner')
+//WebUI.setText(findTestObject('09-Settings/Users/Active User/Search field'), 'partner')
 
-WebUI.verifyElementVisible(findTestObject('09-Settings/Users/Active User/div_GPGG Partner'))
+//WebUI.verifyElementVisible(findTestObject('09-Settings/Users/Active User/div_GPGG Partner'))
 
-WebUI.delay(5)
+//WebUI.delay(5)
 
-WebUI.closeBrowser()
+//WebUI.closeBrowser()
 

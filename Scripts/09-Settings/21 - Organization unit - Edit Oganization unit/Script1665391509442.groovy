@@ -178,5 +178,3 @@ WebUI.verifyElementVisible(findTestObject('09-Settings/Organization unit/snack-b
 
 WebUI.delay(4)
 
-WebUI.closeBrowser()
-

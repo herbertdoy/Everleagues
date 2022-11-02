@@ -27,7 +27,9 @@ WebUI.setText(findTestObject('07-Directory/Connections/input_Zip  Postal Code_ci
 
 WebUI.setText(findTestObject('07-Directory/Connections/input_City_state'), 'Auto state')
 
-WebUI.setText(findTestObject('07-Directory/Connections/input_State_country'), 'Auto country')
+WebUI.click(findTestObject('07-Directory/Connections/input_State_country'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('07-Directory/Connections/option_united states'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('07-Directory/Connections/input_Country_addressLabel'), FailureHandling.STOP_ON_FAILURE)
 

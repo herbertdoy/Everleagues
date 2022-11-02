@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>mat-card_Chat Message Settings</name>
+   <tag></tag>
+   <elementGuidId>634e1d46-c4dd-4e64-b14b-1f8e24fa589d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//mat-tab-body[@id='mat-tab-content-0-1']/div/section/div/mat-card</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>mat-card.mat-card.mat-focus-indicator.ng-tns-c597-41</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>mat-card</value>
+      <webElementGuid>a3a37606-9043-4722-8cbf-0a78f0c40bcf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-card mat-focus-indicator ng-tns-c597-41</value>
+      <webElementGuid>fa75008b-379d-4ae2-9fcd-25044230c758</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Chat Message Settings Enable chat message editing Enable chat message deletion </value>
+      <webElementGuid>283e3c97-25bd-4c8d-ac3c-4b828f5b9feb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mat-tab-content-0-1&quot;)/div[@class=&quot;mat-tab-body-content ng-tns-c361-57 ng-trigger ng-trigger-translateTab&quot;]/section[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;ng-tns-c597-41&quot;]/mat-card[@class=&quot;mat-card mat-focus-indicator ng-tns-c597-41&quot;]</value>
+      <webElementGuid>65dc0b4d-a0f7-4e91-98fb-830ea2f6f4f4</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//mat-tab-body[@id='mat-tab-content-0-1']/div/section/div/mat-card</value>
+      <webElementGuid>e1f7c61e-d8ac-475a-8108-e6c1f7ad0461</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Settings'])[2]/following::mat-card[1]</value>
+      <webElementGuid>efa30da8-4a80-4e66-88bf-d0105a619842</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Profile'])[1]/following::mat-card[1]</value>
+      <webElementGuid>d7fbff1e-6e85-4c12-b094-f80715102c3f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//mat-card</value>
+      <webElementGuid>949242df-d0c4-4888-ab33-e6aa3e5f7b60</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//mat-card[(text() = ' Chat Message Settings Enable chat message editing Enable chat message deletion ' or . = ' Chat Message Settings Enable chat message editing Enable chat message deletion ')]</value>
+      <webElementGuid>a1a9aeea-5d7c-42cc-bd7a-8ad445291c3a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

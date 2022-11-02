@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Schedule</name>
+   <tag></tag>
+   <elementGuidId>62b161e9-b109-4bbd-afc7-ce4586bb4030</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//mat-radio-button[@id='mat-radio-6']/label/div[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#mat-radio-6 > label.mat-radio-label > div.mat-radio-label-content</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>2d92f16f-ccd2-4e4b-a079-eb234b59e56f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-radio-label-content</value>
+      <webElementGuid>496cc339-22a1-4cc5-ac0f-c1520146a69e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Schedule</value>
+      <webElementGuid>65f5d8be-d8a9-4512-af5d-d072e3dc123c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mat-radio-6&quot;)/label[@class=&quot;mat-radio-label&quot;]/div[@class=&quot;mat-radio-label-content&quot;]</value>
+      <webElementGuid>e1a2e7ca-880c-46d2-816b-9cc0bc449d45</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//mat-radio-button[@id='mat-radio-6']/label/div[2]</value>
+      <webElementGuid>6eb36c25-71de-4a8f-952f-0f923e5cd230</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Meeting Title'])[1]/following::div[28]</value>
+      <webElementGuid>2bb2541c-5aa1-407a-85ef-d6c0e1c2b3b8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Current Contacts'])[1]/preceding::div[1]</value>
+      <webElementGuid>d8762f9c-2dc0-42b8-8669-8fdb40446772</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Select existing contacts'])[1]/preceding::div[4]</value>
+      <webElementGuid>54e81733-eb23-4f9f-a671-9ce4578f9cac</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Schedule']/parent::*</value>
+      <webElementGuid>0e263af3-b58a-4538-8e44-7edde2811e47</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//mat-radio-button[2]/label/div[2]</value>
+      <webElementGuid>f22c156d-9784-4152-8e90-f50daf13c17b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = ' Schedule' or . = ' Schedule')]</value>
+      <webElementGuid>ffb7917d-663b-4ad0-b2e4-31eeb8ed9d58</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

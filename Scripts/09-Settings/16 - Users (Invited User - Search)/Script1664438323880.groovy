@@ -125,17 +125,5 @@ WebUI.delay(3)
 
 WebUI.click(findTestObject('09-Settings/Users/Active User/button_Cancel'))
 
-WebUI.delay(4)
-
-WebUI.click(findTestObject('09-Settings/Users/Active User/button_search'))
-
-WebUI.delay(3)
-
-WebUI.setText(findTestObject('09-Settings/Users/Active User/Search field'), 'test3')
-
-WebUI.verifyElementVisible(findTestObject('09-Settings/Users/Invited Users/div_CTCSV test 3'))
-
 WebUI.delay(5)
-
-WebUI.closeBrowser()
 

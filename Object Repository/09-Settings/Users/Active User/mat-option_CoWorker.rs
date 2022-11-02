@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//mat-option[@id='mat-option-1']</value>
+         <value>//mat-option[@role = 'option' and (text() = ' Co-worker ' or . = ' Co-worker ')]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -18,7 +18,7 @@
          <value>//mat-option[@role = 'option' and (text() = ' CoWorker ' or . = ' CoWorker ')]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -26,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>mat-option</value>
-      <webElementGuid>fb571961-df2e-4fd7-98ed-f5511e46a407</webElementGuid>
+      <webElementGuid>886b767b-3ddc-47e0-bb79-af4ad41186bb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -34,7 +34,7 @@
       <name>role</name>
       <type>Main</type>
       <value>option</value>
-      <webElementGuid>c33778fe-72ac-488a-a473-484ca6499880</webElementGuid>
+      <webElementGuid>aa4dc6f0-bc96-46ef-b2a8-aa1f9cc826aa</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,7 +42,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-option mat-focus-indicator ng-tns-c246-70 ng-star-inserted mat-selected mat-active</value>
-      <webElementGuid>ba3a0a1b-7604-4018-a86c-150782ed58db</webElementGuid>
+      <webElementGuid>48e37a67-101b-4c69-b298-a2f3a85c91db</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,7 +50,7 @@
       <name>ng-reflect-value</name>
       <type>Main</type>
       <value>034727f1-e43f-4a52-8475-b5ecf0</value>
-      <webElementGuid>2f51de7e-4691-4c9d-b02d-ed4967c53bac</webElementGuid>
+      <webElementGuid>aac64bc3-a9cb-47c9-ae78-f50296dd5f2d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -58,7 +58,7 @@
       <name>id</name>
       <type>Main</type>
       <value>mat-option-1</value>
-      <webElementGuid>96f476d6-26c7-4e23-b572-c83f3dfe338f</webElementGuid>
+      <webElementGuid>889beb81-428b-4040-a65c-678ac5c6ecd5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -66,7 +66,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>ef9662e9-85f4-42d7-9ecb-46c2d76673e0</webElementGuid>
+      <webElementGuid>3cee58ca-222a-411f-8107-6fc09a804aa6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -74,7 +74,7 @@
       <name>aria-disabled</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>4fe0da1a-e6d0-4200-ac3b-678f50830c5c</webElementGuid>
+      <webElementGuid>49a8d760-8152-4697-ac9c-c0326ca2ec4e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -82,7 +82,7 @@
       <name>aria-selected</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>96463f76-a329-48cd-b434-805775d4b431</webElementGuid>
+      <webElementGuid>61f6b4ae-d926-4acd-a0d8-edff718b7143</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -90,7 +90,7 @@
       <name>text</name>
       <type>Main</type>
       <value> CoWorker </value>
-      <webElementGuid>5a59a6b9-9461-441e-a13f-7b4aa1ef2b0e</webElementGuid>
+      <webElementGuid>0f8f8dd6-e879-417e-aa15-c86df0e38a84</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -98,7 +98,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-option-1&quot;)</value>
-      <webElementGuid>64b1c13b-561f-48b2-a899-e355dc975376</webElementGuid>
+      <webElementGuid>21e5aa90-98ca-4017-924a-76c8053b9d51</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -106,7 +106,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//mat-option[@id='mat-option-1']</value>
-      <webElementGuid>d9b09e59-90c0-4e64-8bbb-7800909a9892</webElementGuid>
+      <webElementGuid>d470afbb-f670-4a75-95fe-3e0ef1e5718c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -114,7 +114,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='mat-select-0-panel']/mat-option[2]</value>
-      <webElementGuid>f53cb21a-fb7f-4838-83b1-f1d7819106bd</webElementGuid>
+      <webElementGuid>6e8dc11f-1cb5-40fa-b083-0f15b0825fd9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -122,7 +122,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Partner'])[2]/following::mat-option[1]</value>
-      <webElementGuid>dfe36201-7086-427c-b4f7-71aae90074c5</webElementGuid>
+      <webElementGuid>be6f4175-e744-455a-b487-0d540fb2c9f9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -130,7 +130,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/following::mat-option[2]</value>
-      <webElementGuid>3e1d96d0-b5a9-4b82-88dd-5b927ee5bb93</webElementGuid>
+      <webElementGuid>fa32a212-9c43-483f-a359-d0e24929ca4b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -138,7 +138,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Client'])[3]/preceding::mat-option[1]</value>
-      <webElementGuid>412b5946-9604-4cd1-92fd-0a125dba6527</webElementGuid>
+      <webElementGuid>8baf7539-ddef-43f8-b547-521cff6abaa6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -146,7 +146,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//mat-option[2]</value>
-      <webElementGuid>14aa3b1c-4a30-4e1f-b10b-5c1c3c9e2e6d</webElementGuid>
+      <webElementGuid>9a216151-ec06-45e0-ad68-4dbeb5cf6ffc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -154,6 +154,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//mat-option[@id = 'mat-option-1' and (text() = ' CoWorker ' or . = ' CoWorker ')]</value>
-      <webElementGuid>30540aa7-2a0b-4e94-9bf6-36d614116d37</webElementGuid>
+      <webElementGuid>09ebdddd-ddd5-4618-bf7f-5d7f828ec96f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

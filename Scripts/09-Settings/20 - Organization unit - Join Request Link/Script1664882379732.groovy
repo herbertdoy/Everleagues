@@ -16,94 +16,9 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import java.awt.Toolkit as Toolkit
+import java.awt.datatransfer.DataFlavor as DataFlavor
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('https://lab.everleagues.com/')
-
-WebUI.maximizeWindow()
-
-WebUI.setText(findTestObject('02-Side Icons(Organization)/Add Contact/Email Field'), 'testuser02@mailinator.com')
-
-WebUI.setEncryptedText(findTestObject('02-Side Icons(Organization)/Add Contact/Password Field'), '8yFRyszE6U6jvsCn51OQbg==')
-
-WebUI.click(findTestObject('02-Side Icons(Organization)/Add Contact/button_Sign in'))
-
-WebUI.delay(2)
-
-WebUI.click(findTestObject('06-Teams/For 2FA/button_Confirm_2FA'))
-
-WebUI.executeJavaScript('window.open();', [])
-
-currentWindow = WebUI.getWindowIndex()
-
-WebUI.delay(3)
-
-WebUI.switchToWindowIndex(currentWindow + 1)
-
-WebUI.navigateToUrl('https://www.mailinator.com/')
-
-WebUI.delay(3)
-
-WebUI.setText(findTestObject('00-Signup and Activation/zMailinator/input_LOGIN_search'), 'testuser02@mailinator.com')
-
-WebUI.click(findTestObject('00-Signup and Activation/zMailinator/gobutton'), FailureHandling.STOP_ON_FAILURE)
-
-WebUI.delay(3)
-
-WebUI.click(findTestObject('00-Signup and Activation/zMailinator/Email - everleagues'))
-
-WebUI.delay(3)
-
-String code = WebUI.getText(findTestObject('Object Repository/06-Teams/For 2FA/2FA code'))
-
-WebUI.delay(3)
-
-WebUI.closeWindowTitle('Mailinator')
-
-WebUI.delay(3)
-
-WebUI.switchToWindowIndex(0)
-
-WebUI.delay(3)
-
-WebUI.setText(findTestObject('Object Repository/06-Teams/For 2FA/input_Enter verification code_code'), code)
-
-WebUI.delay(3)
-
-WebUI.click(findTestObject('06-Teams/For 2FA/button_Verify_2FA'))
-
-WebUI.delay(5)
-
-WebUI.click(findTestObject('06-Teams/button_doublearrow'))
-
-WebUI.click(findTestObject('06-Teams/button_My Organizations'))
-
-WebUI.click(findTestObject('06-Teams/button_GG Automation'))
-
-WebUI.delay(4)
-
-WebUI.verifyElementVisible(findTestObject('06-Teams/span_GG Automation'))
-
-WebUI.delay(10)
-
-WebUI.click(findTestObject('03-Header Menu/Hamburger Button/div_Settings'))
-
-WebUI.verifyElementVisible(findTestObject('09-Settings/Users/div_Organization'))
-
-WebUI.verifyElementVisible(findTestObject('09-Settings/Users/div_Organization Units'))
-
-WebUI.verifyElementVisible(findTestObject('09-Settings/Users/div_Subscriptions'))
-
-WebUI.verifyElementVisible(findTestObject('09-Settings/Users/div_Users'))
-
-WebUI.delay(3)
-
-WebUI.click(findTestObject('09-Settings/Users/div_Organization Units'))
-
-WebUI.verifyElementVisible(findTestObject('09-Settings/Organization unit/h4_ORGANIZATION STRUCTURE SETUP'))
-
-//WebUI.verifyElementVisible(findTestObject('09-Settings/Users/User Page'))
 WebUI.delay(3)
 
 WebUI.mouseOver(findTestObject('09-Settings/Organization unit/div_GG TESTER'))
@@ -128,7 +43,6 @@ WebUI.verifyElementPresent(findTestObject('09-Settings/Organization unit/h2_Join
 
 WebUI.verifyElementPresent(findTestObject('09-Settings/Organization unit/div_Client link'), 0)
 
-//clientlink = WebUI.getAttribute(findTestObject('09-Settings/Organization unit/div_link client'), 'ng-reflect-model')
 WebUI.verifyElementPresent(findTestObject('09-Settings/Organization unit/div_Partner link'), 0)
 
 WebUI.delay(3)
@@ -139,26 +53,24 @@ WebUI.verifyElementPresent(findTestObject('09-Settings/Organization unit/snack-b
 
 WebUI.click(findTestObject('09-Settings/Users/Active User/button_OK'))
 
-WebUI.delay(4)
-
-WebUI.verifyElementPresent(findTestObject('09-Settings/Organization unit/button_Ok'), 0)
-
-WebUI.executeJavaScript('window.open();', [])
-
-currentWindow = WebUI.getWindowIndex()
+WebUI.click(findTestObject('09-Settings/Organization unit/button_Ok'))
 
 WebUI.delay(3)
 
-WebUI.switchToWindowIndex(currentWindow + 1)
+//WebUI.executeJavaScript('window.open();', [])
+//currentWindow = WebUI.getWindowIndex()
+//WebUI.delay(3)
+//WebUI.switchToWindowIndex(currentWindow + 1)
+//WebUI.delay(3)
+String my_clipboard = Toolkit.getDefaultToolkit().getSystemClipboard().getContents(null).getTransferData(DataFlavor.stringFlavor)
+
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl(my_clipboard)
 
 WebUI.delay(3)
 
-//WebUI.navigateToUrl(Keys.chord(Keys.SHIFT, Keys.INSERT), FailureHandling.STOP_ON_FAILURE)
-'Press Ctrl+A to select all text in txt_Comment'
-WebUI.navigateToUrl(Keys.chord(Keys.CONTROL, 'v'), FailureHandling.STOP_ON_FAILURE)
-
-//WebUI.navigateToUrl(variable, FailureHandling.STOP_ON_FAILURE)
-WebUI.switchToWindowIndex(0)
+WebUI.verifyElementPresent(findTestObject('09-Settings/Organization unit/mat_card_join request link'), 0)
 
 WebUI.delay(4)
 
