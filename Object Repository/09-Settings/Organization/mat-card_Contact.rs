@@ -7,18 +7,17 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//mat-tab-body[@id='mat-tab-content-0-0']/div/section/div/mat-card[2]</value>
+         <value>(//mat-card[contains(@class,'mat-card mat-focus-indicator')])[2]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
       <entry>
          <key>BASIC</key>
          <value>//mat-card[(text() = 'ContactEmailWeb+93Phone+93Fax' or . = 'ContactEmailWeb+93Phone+93Fax')]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -26,7 +25,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>mat-card</value>
-      <webElementGuid>aee72e8a-3abc-4476-bb0e-c939c70c473e</webElementGuid>
+      <webElementGuid>409fc74a-09ed-48f0-8059-f394cf9d17a4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -34,7 +33,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-card mat-focus-indicator ng-tns-c649-37</value>
-      <webElementGuid>9803a604-a5bf-4582-8bee-57d12be4c8b4</webElementGuid>
+      <webElementGuid>b33d8f5b-5ec3-45cc-9d0e-504324966898</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -42,7 +41,7 @@
       <name>text</name>
       <type>Main</type>
       <value>ContactEmailWeb+93Phone+93Fax</value>
-      <webElementGuid>caf0758c-2e9e-490d-8954-730207b8bb9e</webElementGuid>
+      <webElementGuid>b49058bc-73e1-48fc-ac90-0b066edcb21d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,7 +49,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-tab-content-0-0&quot;)/div[@class=&quot;mat-tab-body-content ng-tns-c361-52 ng-trigger ng-trigger-translateTab&quot;]/section[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;ng-tns-c649-37&quot;]/mat-card[@class=&quot;mat-card mat-focus-indicator ng-tns-c649-37&quot;]</value>
-      <webElementGuid>2008250a-5061-4d1b-8655-780673a44689</webElementGuid>
+      <webElementGuid>7068c6c3-0d66-4b6d-b135-e176f2966ad7</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -58,7 +57,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-tab-body[@id='mat-tab-content-0-0']/div/section/div/mat-card[2]</value>
-      <webElementGuid>2b3d2584-feae-48db-9746-ad6cead0784c</webElementGuid>
+      <webElementGuid>70a6abaa-bf46-44dc-ae96-ed920ca27cd3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -66,7 +65,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Organization Number'])[1]/following::mat-card[1]</value>
-      <webElementGuid>53197803-6534-44e1-8e3e-953779cd0adc</webElementGuid>
+      <webElementGuid>d219a4d7-09de-42a8-a3a4-302a901b79a0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -74,7 +73,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Industry'])[1]/following::mat-card[1]</value>
-      <webElementGuid>36ac9e87-7cd0-4bac-8f56-5ee314048305</webElementGuid>
+      <webElementGuid>67917c86-136c-47b0-a217-0d0b27ea370c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,7 +81,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//mat-card[2]</value>
-      <webElementGuid>e4d85cc6-ec8f-4d39-9d9b-d807fb273a88</webElementGuid>
+      <webElementGuid>3262254f-2611-4b6c-a1f6-cc34f40b9009</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -90,6 +89,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//mat-card[(text() = 'ContactEmailWeb+93Phone+93Fax' or . = 'ContactEmailWeb+93Phone+93Fax')]</value>
-      <webElementGuid>8fad3f3e-5082-495e-a398-fe41a4262449</webElementGuid>
+      <webElementGuid>7bb09e25-58f0-47d2-aa16-eff80fa6ada7</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

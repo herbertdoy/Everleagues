@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//mat-card[(text() = 'AddressStreetCityZip / Postal CodeState/ProvinceUnited StatesCountry' or . = 'AddressStreetCityZip / Postal CodeState/ProvinceUnited StatesCountry')]</value>
+         <value>(//mat-card[contains(@class,'mat-card mat-focus-indicator')])[3]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -25,7 +25,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>mat-card</value>
-      <webElementGuid>6708adce-baaf-4fd4-8f1c-0ec9c7e40ada</webElementGuid>
+      <webElementGuid>99d50d4b-b1b0-47b4-aa5b-81267950b296</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -33,7 +33,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-card mat-focus-indicator ng-tns-c649-37</value>
-      <webElementGuid>6437b243-343d-440a-8d0f-a62fc1f772b3</webElementGuid>
+      <webElementGuid>c551cb6d-e039-4bb1-bd82-4d85e838d1eb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -41,7 +41,7 @@
       <name>text</name>
       <type>Main</type>
       <value>AddressStreetCityZip / Postal CodeState/ProvinceCountry</value>
-      <webElementGuid>87b62f61-83c0-4e97-933a-eb51451ecf8f</webElementGuid>
+      <webElementGuid>4f12d32d-4a27-47b1-809f-580c6fca5d43</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,7 +49,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-tab-content-0-0&quot;)/div[@class=&quot;mat-tab-body-content ng-tns-c361-52 ng-trigger ng-trigger-translateTab&quot;]/section[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;ng-tns-c649-37&quot;]/mat-card[@class=&quot;mat-card mat-focus-indicator ng-tns-c649-37&quot;]</value>
-      <webElementGuid>1ca3cb14-cc4f-4cc4-9744-769fc70941ad</webElementGuid>
+      <webElementGuid>2f7189dc-0aca-4c0e-805e-abb3ade181cd</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -57,7 +57,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-tab-body[@id='mat-tab-content-0-0']/div/section/div[2]/mat-card</value>
-      <webElementGuid>788c9e7e-3d01-47ee-9240-510411855f52</webElementGuid>
+      <webElementGuid>f9e92564-b5b1-4958-afc5-3ddd45f94b66</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -65,7 +65,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Fax'])[1]/following::mat-card[1]</value>
-      <webElementGuid>6f062895-b359-4165-9e46-f8334b09321d</webElementGuid>
+      <webElementGuid>5a16b41d-3cb3-4ea7-bb96-ba946f9d8fde</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -73,7 +73,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Phone'])[1]/following::mat-card[1]</value>
-      <webElementGuid>949bac9e-e907-4fe8-bbf7-a344d6fbbd26</webElementGuid>
+      <webElementGuid>6422247a-26c8-4ef1-95d5-e77686cc252f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -81,7 +81,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/mat-card</value>
-      <webElementGuid>864cf428-9d22-4024-9d3e-fb171a326997</webElementGuid>
+      <webElementGuid>3f29831f-1337-49dc-be6f-464b73b0d7a2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -89,6 +89,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//mat-card[(text() = 'AddressStreetCityZip / Postal CodeState/ProvinceCountry' or . = 'AddressStreetCityZip / Postal CodeState/ProvinceCountry')]</value>
-      <webElementGuid>bf6b61a1-ea65-4263-96a3-4c9c2a5b67c0</webElementGuid>
+      <webElementGuid>31e4523f-7707-4204-827d-5192a6a3a0f5</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

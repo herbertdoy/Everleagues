@@ -79,11 +79,11 @@ WebUI.click(findTestObject('06-Teams/button_doublearrow'))
 
 WebUI.click(findTestObject('06-Teams/button_My Organizations'))
 
-WebUI.click(findTestObject('06-Teams/button_GG Automation'))
+WebUI.click(findTestObject('02-Side Icons(Organization)/Add Contact/button_Automation Test Org'))
 
 WebUI.delay(4)
 
-WebUI.verifyElementVisible(findTestObject('06-Teams/span_GG Automation'))
+WebUI.verifyElementVisible(findTestObject('02-Side Icons(Organization)/Add Contact/span_Automation Test Org'))
 
 WebUI.delay(10)
 
@@ -133,7 +133,5 @@ WebUI.sendKeys(findTestObject('11-Cloud Files/input_Search cloudfiles'), Keys.ch
 
 WebUI.verifyElementVisible(findTestObject('11-Cloud Files/td_Automation folder'))
 
-WebUI.delay(4)
-
-WebUI.closeBrowser()
+WebUI.click(findTestObject('11-Cloud Files/mat-icon_refresh'))
 

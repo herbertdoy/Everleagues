@@ -21,7 +21,6 @@ WebUI.delay(3)
 
 WebUI.click(findTestObject('09-Settings/Organization/div_Profile'))
 
-//WebUI.verifyElementVisible(findTestObject('09-Settings/Users/User Page'))
 WebUI.delay(3)
 
 WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/mat-card_Profile'))

@@ -15,7 +15,7 @@
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//button[@type = 'button' and (text() = 'Delete Organization' or . = 'Delete Organization')]</value>
+         <value>//button[@type = 'button' and @ng-reflect-permission-type = 'OU_DELETE' and (text() = 'Delete Organization' or . = 'Delete Organization')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -26,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>3b61087a-9cb7-40a5-ab09-fd2dc6fad789</webElementGuid>
+      <webElementGuid>f447cf79-ea53-4e8e-b12f-2b4ab26f6e59</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -34,7 +34,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>0bdac25b-4f58-4a13-a7cb-821659214343</webElementGuid>
+      <webElementGuid>db749223-76a4-451f-8b22-e2ad1e0ad98a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,7 +42,7 @@
       <name>color</name>
       <type>Main</type>
       <value>warn</value>
-      <webElementGuid>fcf658ec-7d74-43c6-8ec2-d1de2ae5cbb8</webElementGuid>
+      <webElementGuid>22ce923d-c0c0-4c6d-8d5f-90cb510feaae</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,7 +50,7 @@
       <name>permission-type</name>
       <type>Main</type>
       <value>OU_DELETE</value>
-      <webElementGuid>1cc02c26-5987-4ae9-942c-54409b5f9c3b</webElementGuid>
+      <webElementGuid>70059be0-3514-467a-873f-5c71f0087df1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -58,7 +58,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-focus-indicator ng-tns-c649-67 mat-raised-button mat-button-base mat-warn cdk-focused cdk-mouse-focused</value>
-      <webElementGuid>2b568ba0-f707-4f7b-a74e-319237edd484</webElementGuid>
+      <webElementGuid>ba3d49b5-1966-4b27-8a36-aca1bcb9e179</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -66,15 +66,15 @@
       <name>ng-reflect-color</name>
       <type>Main</type>
       <value>warn</value>
-      <webElementGuid>ccadd18f-da8b-4f35-876b-5b9a9c13c66e</webElementGuid>
+      <webElementGuid>e8835a63-a07b-4456-b55e-f6933f6618a8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>ng-reflect-permission-type</name>
       <type>Main</type>
       <value>OU_DELETE</value>
-      <webElementGuid>6fe8f71e-5a67-4b37-ad57-a30d1ff6b612</webElementGuid>
+      <webElementGuid>802a7efd-5e74-440c-9d0d-916a06581e62</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -82,7 +82,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Delete Organization</value>
-      <webElementGuid>fc6d4ae0-ac7e-4a12-8701-ca262228edda</webElementGuid>
+      <webElementGuid>c803b951-c4d2-49cc-9698-811c1a440c56</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -90,7 +90,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-tab-content-1-0&quot;)/div[@class=&quot;mat-tab-body-content ng-tns-c361-82 ng-trigger ng-trigger-translateTab&quot;]/div[@class=&quot;form-settings-submit ng-star-inserted&quot;]/button[@class=&quot;mat-focus-indicator ng-tns-c649-67 mat-raised-button mat-button-base mat-warn cdk-focused cdk-mouse-focused&quot;]</value>
-      <webElementGuid>e2062824-0df8-487d-8c7f-f8cad2b8fd73</webElementGuid>
+      <webElementGuid>fd0e5a2b-d083-424e-bbd9-7ff1b1b1b66c</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -98,7 +98,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[9]</value>
-      <webElementGuid>7fa25d79-36f8-499d-972c-39ad9df6b0f9</webElementGuid>
+      <webElementGuid>6affb7ae-4ce9-4637-b3c9-f3800d53d322</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,7 +106,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-tab-body[@id='mat-tab-content-1-0']/div/div/button[2]</value>
-      <webElementGuid>8db624b3-24f1-4b84-a0a4-26b707e3866f</webElementGuid>
+      <webElementGuid>da4005d6-4209-4168-9e6e-fd6ec114c7c9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -114,7 +114,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Save'])[1]/following::button[1]</value>
-      <webElementGuid>6ca3ad9c-298c-4457-8f62-25760f900870</webElementGuid>
+      <webElementGuid>3d90baaf-8995-40c1-9b1a-e97ade758fc5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -122,7 +122,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Country'])[1]/following::button[2]</value>
-      <webElementGuid>453766f5-ae41-4293-b63b-8ee49185cb29</webElementGuid>
+      <webElementGuid>4adee11d-2aa8-4196-9853-206425f95374</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -130,7 +130,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Hide Quick Shortcuts'])[1]/preceding::button[5]</value>
-      <webElementGuid>c4aefb87-0dc5-4818-9138-2ba5eac9a4b1</webElementGuid>
+      <webElementGuid>e84ba56b-128c-450b-8e78-13ef4c49136e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -138,7 +138,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/button[2]</value>
-      <webElementGuid>6781e434-ab83-410d-b78a-efeddd433789</webElementGuid>
+      <webElementGuid>44d52c1c-d9fd-4361-9c20-1fa016ec2d31</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -146,6 +146,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = 'Delete Organization' or . = 'Delete Organization')]</value>
-      <webElementGuid>2cf37c01-d15f-439b-b20a-6e5e5db3f66a</webElementGuid>
+      <webElementGuid>f3dc76e7-c771-45ee-a502-3f18d477ab97</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

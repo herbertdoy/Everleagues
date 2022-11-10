@@ -3,15 +3,14 @@
    <description></description>
    <name>div_dropdown2</name>
    <tag></tag>
-   <elementGuidId>810ecc90-de6c-4ab3-b85d-41db4b9fce59</elementGuidId>
+   <elementGuidId>5d169095-bc74-4d2a-b93b-eb9d6b2b9244</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//div[@ng-reflect-ng-switch='false']/following-sibling::div)[1]</value>
+         <value>(//div[@ng-reflect-ng-switch='false']/following-sibling::div)[2]</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

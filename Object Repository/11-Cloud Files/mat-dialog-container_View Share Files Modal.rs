@@ -6,12 +6,12 @@
    <elementGuidId>f54ec7a2-7822-4d2f-bac4-d92909d53694</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#mat-dialog-13</value>
+         <key>XPATH</key>
+         <value>//mat-dialog-container[(text() = 'Share Files closeAdd UsersViewer Notify users Shared withGTGG tester 2 Viewer GTGG tester Viewer Copy Share Link Save ' or . = 'Share Files closeAdd UsersViewer Notify users Shared withGTGG tester 2 Viewer GTGG tester Viewer Copy Share Link Save ')]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//mat-dialog-container[(text() = 'Share Files closeAdd UsersViewer Notify users Shared withGTGG tester 2 Viewer GTGG Tester 3 Viewer Copy Share Link Save ' or . = 'Share Files closeAdd UsersViewer Notify users Shared withGTGG tester 2 Viewer GTGG Tester 3 Viewer Copy Share Link Save ')]</value>
+         <key>CSS</key>
+         <value>#mat-dialog-13</value>
       </entry>
       <entry>
          <key>BASIC</key>
@@ -26,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>mat-dialog-container</value>
-      <webElementGuid>6cbb345c-e539-4271-ab5f-25d595741fcd</webElementGuid>
+      <webElementGuid>9b310acb-2988-4ce8-a2d0-6c497683df21</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -34,7 +34,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>-1</value>
-      <webElementGuid>2cc564bb-7fd0-46ac-8b5f-1e7c18ea08b8</webElementGuid>
+      <webElementGuid>b1d9bf74-61b5-4ae5-9d3e-057a6c31268b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,7 +42,7 @@
       <name>aria-modal</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>fae34e18-5299-4e7e-9163-4759c802b3a4</webElementGuid>
+      <webElementGuid>69ff9a71-4c91-4a11-a19f-d18664c0aef5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,7 +50,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-dialog-container ng-tns-c31-111 ng-trigger ng-trigger-dialogContainer ng-star-inserted</value>
-      <webElementGuid>bad67492-2a11-432e-99e2-762b40e92dd3</webElementGuid>
+      <webElementGuid>bcbe7915-3291-4c87-a872-fc48fa83fc6b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -58,7 +58,7 @@
       <name>id</name>
       <type>Main</type>
       <value>mat-dialog-13</value>
-      <webElementGuid>69be865d-c431-43ab-bae6-b1328a682cc8</webElementGuid>
+      <webElementGuid>6c804edb-a399-431c-856a-c931b619d8da</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -66,7 +66,7 @@
       <name>role</name>
       <type>Main</type>
       <value>dialog</value>
-      <webElementGuid>c5d016fd-c95f-4a36-84dd-58ed801710a4</webElementGuid>
+      <webElementGuid>314d7377-3b49-401b-9350-4bda299ce64d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -74,7 +74,7 @@
       <name>aria-labelledby</name>
       <type>Main</type>
       <value>mat-dialog-title-13</value>
-      <webElementGuid>aaebe660-6035-4387-927c-cb71b6123fd0</webElementGuid>
+      <webElementGuid>df7d12b7-607d-4128-a860-16aae3e6734b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -82,7 +82,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Share Files closeAdd UsersViewer Notify users Shared withGTGG Tester 3 Viewer GTGG tester 2 Viewer Copy Share Link Save </value>
-      <webElementGuid>4d6afa07-3b51-4ee0-8af3-d23e4c9837e2</webElementGuid>
+      <webElementGuid>3e50953b-ec56-497a-84c2-2ed44eb4173f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -90,7 +90,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-dialog-13&quot;)</value>
-      <webElementGuid>9a1c2689-1178-4433-adaa-18ef867f4aba</webElementGuid>
+      <webElementGuid>05e214be-a77e-49e6-abf6-177207475107</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -98,7 +98,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//mat-dialog-container[@id='mat-dialog-13']</value>
-      <webElementGuid>ea156c84-6698-4f15-9573-3c6081cb08f9</webElementGuid>
+      <webElementGuid>b667d8d0-315c-4962-9778-258a46a76969</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,7 +106,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='cdk-overlay-33']/mat-dialog-container</value>
-      <webElementGuid>ce63588e-0a52-40aa-af86-5c1ece1d7c49</webElementGuid>
+      <webElementGuid>18555bdf-f1da-4d7f-ba74-d2dbe3f31995</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -114,7 +114,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='JPEG File'])[1]/following::mat-dialog-container[1]</value>
-      <webElementGuid>ec1eea71-f49f-4419-9673-b75147d5825f</webElementGuid>
+      <webElementGuid>51abdc4a-f4a5-4557-a641-480fb1fa0b03</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -122,7 +122,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='qa'])[1]/following::mat-dialog-container[1]</value>
-      <webElementGuid>645c6480-5af2-4b3e-95da-144a22ebd0e5</webElementGuid>
+      <webElementGuid>9550c295-6f01-4aa4-9e16-3586c4daab9b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -130,7 +130,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//mat-dialog-container</value>
-      <webElementGuid>fa623053-ff49-4aa8-93a1-3228182143ea</webElementGuid>
+      <webElementGuid>6b0d4cd9-7bdb-4b0d-b866-903f1cf45d41</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -138,6 +138,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//mat-dialog-container[@id = 'mat-dialog-13' and (text() = 'Share Files closeAdd UsersViewer Notify users Shared withGTGG Tester 3 Viewer GTGG tester 2 Viewer Copy Share Link Save ' or . = 'Share Files closeAdd UsersViewer Notify users Shared withGTGG Tester 3 Viewer GTGG tester 2 Viewer Copy Share Link Save ')]</value>
-      <webElementGuid>338e7e02-a620-42fc-b2b2-45c62a0d13cd</webElementGuid>
+      <webElementGuid>576cc664-0d0b-48c3-98a5-819f60148509</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
