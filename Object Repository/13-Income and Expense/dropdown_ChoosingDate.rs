@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>dropdown_ChoosingDate</name>
+   <tag></tag>
+   <elementGuidId>611463aa-873c-4e42-9667-2c6608bfa204</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//div[contains(@class,'mat-form-field-outline mat-form-field-outline-thick')]/following-sibling::div)[3]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.mat-form-field-infix.ng-tns-c110-153</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>0b37c11d-3f13-462c-9d45-42ebc3a4471c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-form-field-infix ng-tns-c110-153</value>
+      <webElementGuid>f82f0cc0-3150-4a50-bf98-3d7989e9a524</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Company Type *</value>
+      <webElementGuid>8e4d6e67-c51c-4f41-a796-8cdfb8e47ab9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mat-dialog-15&quot;)/app-iet-company[@class=&quot;ng-star-inserted&quot;]/div[1]/div[@class=&quot;invgridColumn&quot;]/form[@class=&quot;ng-pristine ng-invalid ng-touched&quot;]/mat-form-field[@class=&quot;mat-form-field appfield ng-tns-c110-153 mat-primary mat-form-field-type-mat-select mat-form-field-appearance-outline mat-form-field-can-float mat-form-field-has-label ng-pristine ng-invalid mat-form-field-invalid ng-touched mat-form-field-hide-placeholder&quot;]/div[@class=&quot;mat-form-field-wrapper ng-tns-c110-153&quot;]/div[@class=&quot;mat-form-field-flex ng-tns-c110-153&quot;]/div[@class=&quot;mat-form-field-infix ng-tns-c110-153&quot;]</value>
+      <webElementGuid>ec49db3b-fbc7-44d0-9b7a-0dcab0654944</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//mat-dialog-container[@id='mat-dialog-15']/app-iet-company/div/div/form/mat-form-field[2]/div/div/div[3]</value>
+      <webElementGuid>8d0fd718-3aaf-4f01-9ae5-2e65fd76e5c9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Company name is required'])[1]/following::div[11]</value>
+      <webElementGuid>190502b4-a180-4a31-8717-ba41b35c8da3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Company Name'])[1]/following::div[13]</value>
+      <webElementGuid>392fb5ea-e47b-4972-845c-30204025ba15</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Company type is required'])[1]/preceding::div[5]</value>
+      <webElementGuid>c195c7b9-2f70-460e-ae40-28cbfe9b7a03</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//mat-form-field[2]/div/div/div[3]</value>
+      <webElementGuid>e7b231c4-df82-4629-be01-ccd830a8e164</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = ' Company Type *' or . = ' Company Type *')]</value>
+      <webElementGuid>968a92c4-b333-4d1d-9628-ef3acf5e5e1e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Download</name>
+   <tag></tag>
+   <elementGuidId>01833d5d-9bb2-48ba-bf50-0f5a6d9597bb</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#mat-checkbox-114 > label.mat-checkbox-layout > span.mat-checkbox-label</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[(text() = '  Download ' or . = '  Download ')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>dfae8a2c-1548-4601-87f5-a6ae4011971f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-checkbox-label</value>
+      <webElementGuid>0a2040c4-e497-48f1-8f35-9458bf60b2ba</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>  Download </value>
+      <webElementGuid>61eaea1e-ba2e-4686-8311-9cb8df64abda</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mat-checkbox-114&quot;)/label[@class=&quot;mat-checkbox-layout&quot;]/span[@class=&quot;mat-checkbox-label&quot;]</value>
+      <webElementGuid>0be9d60a-2df7-415d-bde4-dc0954d090c2</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//mat-checkbox[@id='mat-checkbox-114']/label/span</value>
+      <webElementGuid>2038b47f-1e29-422a-b2eb-40780b81852d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//mat-checkbox[6]/label/span</value>
+      <webElementGuid>deeb5340-7064-4265-b3df-aabdc8669834</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = '  Download ' or . = '  Download ')]</value>
+      <webElementGuid>b830aaf0-d166-42cc-86ac-eaeeec9b34da</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

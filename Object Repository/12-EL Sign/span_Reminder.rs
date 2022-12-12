@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Reminder</name>
+   <tag></tag>
+   <elementGuidId>8b7dae74-83bd-4f8a-a91f-1fd3f53d85bc</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#mat-checkbox-118 > label.mat-checkbox-layout > span.mat-checkbox-label</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[(text() = '  Reminder ' or . = '  Reminder ')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>e25fa75c-aa0b-4225-8cf6-b515e6871d27</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-checkbox-label</value>
+      <webElementGuid>cc0f2c47-2d64-4637-ae52-42aeb90488f8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>  Reminder </value>
+      <webElementGuid>d571fd18-b8ed-4821-b80a-e67355f5a107</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mat-checkbox-118&quot;)/label[@class=&quot;mat-checkbox-layout&quot;]/span[@class=&quot;mat-checkbox-label&quot;]</value>
+      <webElementGuid>761fa008-9851-4d97-9f36-2420a6622d92</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//mat-checkbox[@id='mat-checkbox-118']/label/span</value>
+      <webElementGuid>9c6e875a-ef26-4a73-b5b7-0da153c7fee5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='CLOSE'])[1]/preceding::span[4]</value>
+      <webElementGuid>b44ebaf3-d61d-41fe-81ca-fe873effeb44</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//mat-checkbox[10]/label/span</value>
+      <webElementGuid>009d0b5b-8272-473b-89a2-9c208fd59071</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = '  Reminder ' or . = '  Reminder ')]</value>
+      <webElementGuid>80f1c75f-b631-406a-bfac-b88538c22593</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

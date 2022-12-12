@@ -73,10 +73,6 @@ WebUI.delay(3)
 
 WebUI.click(findTestObject('06-Teams/For 2FA/button_Verify_2FA'))
 
-WebUI.delay(5)
-
-WebUI.click(findTestObject('03-Header Menu/Hamburger Button/div_Directory'))
-
 WebUI.delay(3)
 
 WebUI.click(findTestObject('03-Header Menu/Hamburger Button/div_Operation'))

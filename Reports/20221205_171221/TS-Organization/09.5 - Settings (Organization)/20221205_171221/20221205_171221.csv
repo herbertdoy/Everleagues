@@ -1,0 +1,174 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+09.5 - Settings (Organization),Chrome 108.0.0.0,,,2022-12-05 17:12:23,2022-12-05 17:16:25,4m - 1.512s,PASSED
+,,,,,,,
+Test Cases/09-Settings/23 - Organization - Profile Settings,Chrome 108.0.0.0,,,2022-12-05 17:12:24,2022-12-05 17:14:48,2m - 23.953s,PASSED
+"openBrowser("""")",Chrome 108.0.0.0,,,2022-12-05 17:12:24,2022-12-05 17:12:26,2.273s,PASSED
+"navigateToUrl(""https://lab.everleagues.com/"")",Chrome 108.0.0.0,,,2022-12-05 17:12:26,2022-12-05 17:12:39,12.927s,PASSED
+maximizeWindow(),Chrome 108.0.0.0,,,2022-12-05 17:12:39,2022-12-05 17:12:40,0.159s,PASSED
+"setText(findTestObject(""02-Side Icons(Organization)/Add Contact/Email Field""), ""testuser02@mailinator.com"")",Chrome 108.0.0.0,,,2022-12-05 17:12:40,2022-12-05 17:12:40,0.761s,PASSED
+"setEncryptedText(findTestObject(""02-Side Icons(Organization)/Add Contact/Password Field""), ""8yFRyszE6U6jvsCn51OQbg=="")",Chrome 108.0.0.0,,,2022-12-05 17:12:40,2022-12-05 17:12:41,0.457s,PASSED
+"click(findTestObject(""02-Side Icons(Organization)/Add Contact/button_Sign in""))",Chrome 108.0.0.0,,,2022-12-05 17:12:41,2022-12-05 17:12:41,0.721s,PASSED
+delay(2),Chrome 108.0.0.0,,,2022-12-05 17:12:41,2022-12-05 17:12:43,2.035s,PASSED
+"click(findTestObject(""06-Teams/For 2FA/button_Confirm_2FA""))",Chrome 108.0.0.0,,,2022-12-05 17:12:43,2022-12-05 17:12:44,0.361s,PASSED
+"executeJavaScript(""window.open();"", [])",Chrome 108.0.0.0,,,2022-12-05 17:12:44,2022-12-05 17:12:44,0.063s,PASSED
+currentWindow = getWindowIndex(),Chrome 108.0.0.0,,,2022-12-05 17:12:44,2022-12-05 17:12:44,0.025s,PASSED
+delay(3),Chrome 108.0.0.0,,,2022-12-05 17:12:44,2022-12-05 17:12:47,3.008s,PASSED
+switchToWindowIndex(currentWindow + 1),Chrome 108.0.0.0,,,2022-12-05 17:12:47,2022-12-05 17:12:47,0.033s,PASSED
+"navigateToUrl(""https://www.mailinator.com/"")",Chrome 108.0.0.0,,,2022-12-05 17:12:47,2022-12-05 17:12:50,2.674s,PASSED
+delay(3),Chrome 108.0.0.0,,,2022-12-05 17:12:50,2022-12-05 17:12:53,3.015s,PASSED
+"setText(findTestObject(""00-Signup and Activation/zMailinator/input_LOGIN_search""), ""testuser02@mailinator.com"")",Chrome 108.0.0.0,,,2022-12-05 17:12:53,2022-12-05 17:12:53,0.675s,PASSED
+"click(findTestObject(""00-Signup and Activation/zMailinator/gobutton""), STOP_ON_FAILURE)",Chrome 108.0.0.0,,,2022-12-05 17:12:53,2022-12-05 17:12:55,1.426s,PASSED
+delay(3),Chrome 108.0.0.0,,,2022-12-05 17:12:55,2022-12-05 17:12:58,3.010s,PASSED
+"click(findTestObject(""00-Signup and Activation/zMailinator/Email - everleagues""))",Chrome 108.0.0.0,,,2022-12-05 17:12:58,2022-12-05 17:12:58,0.361s,PASSED
+delay(3),Chrome 108.0.0.0,,,2022-12-05 17:12:58,2022-12-05 17:13:01,3.007s,PASSED
+"code = getText(findTestObject(""Object Repository/06-Teams/For 2FA/2FA code""))",Chrome 108.0.0.0,,,2022-12-05 17:13:01,2022-12-05 17:13:02,0.548s,PASSED
+delay(3),Chrome 108.0.0.0,,,2022-12-05 17:13:02,2022-12-05 17:13:05,3.002s,PASSED
+"closeWindowTitle(""Mailinator"")",Chrome 108.0.0.0,,,2022-12-05 17:13:05,2022-12-05 17:13:05,0.202s,PASSED
+delay(3),Chrome 108.0.0.0,,,2022-12-05 17:13:05,2022-12-05 17:13:08,3.009s,PASSED
+switchToWindowIndex(0),Chrome 108.0.0.0,,,2022-12-05 17:13:08,2022-12-05 17:13:08,0.017s,PASSED
+delay(3),Chrome 108.0.0.0,,,2022-12-05 17:13:08,2022-12-05 17:13:11,3.013s,PASSED
+"setText(findTestObject(""Object Repository/06-Teams/For 2FA/input_Enter verification code_code""), code)",Chrome 108.0.0.0,,,2022-12-05 17:13:11,2022-12-05 17:13:12,1.108s,PASSED
+delay(3),Chrome 108.0.0.0,,,2022-12-05 17:13:12,2022-12-05 17:13:15,3.016s,PASSED
+"click(findTestObject(""06-Teams/For 2FA/button_Verify_2FA""))",Chrome 108.0.0.0,,,2022-12-05 17:13:15,2022-12-05 17:13:15,0.423s,PASSED
+delay(5),Chrome 108.0.0.0,,,2022-12-05 17:13:15,2022-12-05 17:13:21,5.004s,PASSED
+"click(findTestObject(""06-Teams/button_doublearrow""))",Chrome 108.0.0.0,,,2022-12-05 17:13:21,2022-12-05 17:13:21,0.362s,PASSED
+"click(findTestObject(""06-Teams/button_My Organizations""))",Chrome 108.0.0.0,,,2022-12-05 17:13:21,2022-12-05 17:13:21,0.578s,PASSED
+"click(findTestObject(""06-Teams/button_GG Automation""))",Chrome 108.0.0.0,,,2022-12-05 17:13:21,2022-12-05 17:13:22,0.820s,PASSED
+delay(4),Chrome 108.0.0.0,,,2022-12-05 17:13:22,2022-12-05 17:13:26,4.007s,PASSED
+"verifyElementVisible(findTestObject(""06-Teams/span_GG Automation""))",Chrome 108.0.0.0,,,2022-12-05 17:13:26,2022-12-05 17:13:27,0.352s,PASSED
+delay(5),Chrome 108.0.0.0,,,2022-12-05 17:13:27,2022-12-05 17:13:32,5.002s,PASSED
+"click(findTestObject(""03-Header Menu/Hamburger Button/div_Settings""))",Chrome 108.0.0.0,,,2022-12-05 17:13:32,2022-12-05 17:13:32,0.426s,PASSED
+"verifyElementVisible(findTestObject(""09-Settings/Users/div_Organization""))",Chrome 108.0.0.0,,,2022-12-05 17:13:32,2022-12-05 17:13:33,0.459s,PASSED
+"verifyElementVisible(findTestObject(""09-Settings/Users/div_Organization Units""))",Chrome 108.0.0.0,,,2022-12-05 17:13:33,2022-12-05 17:13:33,0.324s,PASSED
+"verifyElementVisible(findTestObject(""09-Settings/Users/div_Subscriptions""))",Chrome 108.0.0.0,,,2022-12-05 17:13:33,2022-12-05 17:13:33,0.450s,PASSED
+"verifyElementVisible(findTestObject(""09-Settings/Users/div_Users""))",Chrome 108.0.0.0,,,2022-12-05 17:13:33,2022-12-05 17:13:34,0.323s,PASSED
+delay(3),Chrome 108.0.0.0,,,2022-12-05 17:13:34,2022-12-05 17:13:37,3.003s,PASSED
+"click(findTestObject(""09-Settings/Users/div_Organization""))",Chrome 108.0.0.0,,,2022-12-05 17:13:37,2022-12-05 17:13:37,0.709s,PASSED
+"verifyElementVisible(findTestObject(""09-Settings/Organization/h4_ORGANIZATION SETTINGS""))",Chrome 108.0.0.0,,,2022-12-05 17:13:37,2022-12-05 17:13:38,0.478s,PASSED
+"click(findTestObject(""09-Settings/Organization/div_Profile""))",Chrome 108.0.0.0,,,2022-12-05 17:13:38,2022-12-05 17:13:38,0.571s,PASSED
+"verifyElementVisible(findTestObject(""09-Settings/Organization/div_ProfileSettings page""))",Chrome 108.0.0.0,,,2022-12-05 17:13:38,2022-12-05 17:13:39,0.441s,PASSED
+delay(3),Chrome 108.0.0.0,,,2022-12-05 17:13:39,2022-12-05 17:13:42,3.008s,PASSED
+"verifyElementVisible(findTestObject(""09-Settings/Organization/mat-card-title_Profile""))",Chrome 108.0.0.0,,,2022-12-05 17:13:42,2022-12-05 17:13:42,0.426s,PASSED
+"verifyElementVisible(findTestObject(""09-Settings/Organization/input_Industry""))",Chrome 108.0.0.0,,,2022-12-05 17:13:42,2022-12-05 17:13:43,0.438s,PASSED
+"verifyElementVisible(findTestObject(""09-Settings/Organization/input_Organization number""))",Chrome 108.0.0.0,,,2022-12-05 17:13:43,2022-12-05 17:13:43,0.330s,PASSED
+delay(3),Chrome 108.0.0.0,,,2022-12-05 17:13:43,2022-12-05 17:13:46,3.009s,PASSED
+"click(findTestObject(""03-Header Menu/User Profile/View Profile/Profile Tab/Upload Icon""))",Chrome 108.0.0.0,,,2022-12-05 17:13:46,2022-12-05 17:13:47,0.521s,PASSED
+delay(2),Chrome 108.0.0.0,,,2022-12-05 17:13:47,2022-12-05 17:13:49,2.002s,PASSED
+"verifyElementVisible(findTestObject(""03-Header Menu/User Profile/View Profile/Profile Tab/Upload User Image modal""))",Chrome 108.0.0.0,,,2022-12-05 17:13:49,2022-12-05 17:13:49,0.334s,PASSED
+"verifyElementNotClickable(findTestObject(""03-Header Menu/User Profile/View Profile/Profile Tab/button_Upload Image""))",Chrome 108.0.0.0,,,2022-12-05 17:13:49,2022-12-05 17:13:49,0.337s,PASSED
+delay(1),Chrome 108.0.0.0,,,2022-12-05 17:13:49,2022-12-05 17:13:50,1.010s,PASSED
+"click(findTestObject(""03-Header Menu/User Profile/View Profile/Profile Tab/button_Cancel""))",Chrome 108.0.0.0,,,2022-12-05 17:13:50,2022-12-05 17:13:51,0.413s,PASSED
+delay(3),Chrome 108.0.0.0,,,2022-12-05 17:13:51,2022-12-05 17:13:54,3.014s,PASSED
+"click(findTestObject(""03-Header Menu/User Profile/View Profile/Profile Tab/Upload Icon""))",Chrome 108.0.0.0,,,2022-12-05 17:13:54,2022-12-05 17:13:54,0.470s,PASSED
+"uploadpackage.Upload.uploadFile(findTestObject(""Object Repository/03-Header Menu/User Profile/View Profile/Profile Tab/button_folderBrowse""), ""C:\Users\User\Desktop\EL automation\qa.jpg"")",Chrome 108.0.0.0,,,2022-12-05 17:13:54,2022-12-05 17:13:55,0.798s,PASSED
+delay(2),Chrome 108.0.0.0,,,2022-12-05 17:13:55,2022-12-05 17:13:57,2.013s,PASSED
+"click(findTestObject(""03-Header Menu/User Profile/View Profile/Profile Tab/button_Upload Image""))",Chrome 108.0.0.0,,,2022-12-05 17:13:57,2022-12-05 17:13:57,0.374s,PASSED
+"verifyElementVisible(findTestObject(""09-Settings/Organization/snack-bar-container_Successfully changed organization imageOK""))",Chrome 108.0.0.0,,,2022-12-05 17:13:57,2022-12-05 17:13:59,1.749s,PASSED
+"click(findTestObject(""09-Settings/Organization/input_name""))",Chrome 108.0.0.0,,,2022-12-05 17:13:59,2022-12-05 17:13:59,0.371s,PASSED
+"setText(findTestObject(""09-Settings/Organization/input_name""), ""THIS IS AUTOMATION"")",Chrome 108.0.0.0,,,2022-12-05 17:13:59,2022-12-05 17:14:00,0.957s,PASSED
+delay(3),Chrome 108.0.0.0,,,2022-12-05 17:14:00,2022-12-05 17:14:03,3.007s,PASSED
+"click(findTestObject(""09-Settings/Users/Active User/button_Save""))",Chrome 108.0.0.0,,,2022-12-05 17:14:03,2022-12-05 17:14:04,0.425s,PASSED
+"verifyElementVisible(findTestObject(""09-Settings/Organization/snack-bar-container_Settings savedOK""))",Chrome 108.0.0.0,,,2022-12-05 17:14:04,2022-12-05 17:14:05,1.307s,PASSED
+delay(3),Chrome 108.0.0.0,,,2022-12-05 17:14:05,2022-12-05 17:14:08,3.005s,PASSED
+"click(findTestObject(""09-Settings/Organization/input_name""))",Chrome 108.0.0.0,,,2022-12-05 17:14:08,2022-12-05 17:14:08,0.339s,PASSED
+"setText(findTestObject(""09-Settings/Organization/input_name""), ""GG Automation"")",Chrome 108.0.0.0,,,2022-12-05 17:14:08,2022-12-05 17:14:09,0.713s,PASSED
+delay(3),Chrome 108.0.0.0,,,2022-12-05 17:14:09,2022-12-05 17:14:12,3.016s,PASSED
+"click(findTestObject(""09-Settings/Users/Active User/button_Save""))",Chrome 108.0.0.0,,,2022-12-05 17:14:12,2022-12-05 17:14:13,0.355s,PASSED
+"verifyElementVisible(findTestObject(""09-Settings/Organization/snack-bar-container_Settings savedOK""))",Chrome 108.0.0.0,,,2022-12-05 17:14:13,2022-12-05 17:14:14,1.410s,PASSED
+delay(3),Chrome 108.0.0.0,,,2022-12-05 17:14:14,2022-12-05 17:14:17,3.008s,PASSED
+"verifyElementVisible(findTestObject(""09-Settings/Organization/mat-card_Address""))",Chrome 108.0.0.0,,,2022-12-05 17:14:17,2022-12-05 17:14:18,0.550s,PASSED
+"verifyElementVisible(findTestObject(""09-Settings/Organization/mat-card-title_Address""))",Chrome 108.0.0.0,,,2022-12-05 17:14:18,2022-12-05 17:14:18,0.325s,PASSED
+"setText(findTestObject(""09-Settings/Organization/input_Street""), ""4711 Hardy Street"")",Chrome 108.0.0.0,,,2022-12-05 17:14:18,2022-12-05 17:14:19,0.840s,PASSED
+"setText(findTestObject(""09-Settings/Organization/input_City""), ""Kelowna"")",Chrome 108.0.0.0,,,2022-12-05 17:14:19,2022-12-05 17:14:19,0.688s,PASSED
+"setText(findTestObject(""09-Settings/Organization/input_Zip""), ""V1Y 8H2"")",Chrome 108.0.0.0,,,2022-12-05 17:14:19,2022-12-05 17:14:20,0.704s,PASSED
+"setText(findTestObject(""09-Settings/Organization/input_State""), ""British Columbia"")",Chrome 108.0.0.0,,,2022-12-05 17:14:20,2022-12-05 17:14:21,0.836s,PASSED
+"click(findTestObject(""09-Settings/Organization/input_Country""), STOP_ON_FAILURE)",Chrome 108.0.0.0,,,2022-12-05 17:14:21,2022-12-05 17:14:21,0.448s,PASSED
+"click(findTestObject(""09-Settings/Organization/mat-option_united states""), STOP_ON_FAILURE)",Chrome 108.0.0.0,,,2022-12-05 17:14:21,2022-12-05 17:14:22,0.481s,PASSED
+delay(3),Chrome 108.0.0.0,,,2022-12-05 17:14:22,2022-12-05 17:14:25,3.011s,PASSED
+"click(findTestObject(""09-Settings/Users/Active User/button_Save""))",Chrome 108.0.0.0,,,2022-12-05 17:14:25,2022-12-05 17:14:25,0.356s,PASSED
+"verifyElementVisible(findTestObject(""09-Settings/Organization/snack-bar-container_Settings savedOK""))",Chrome 108.0.0.0,,,2022-12-05 17:14:25,2022-12-05 17:14:27,1.348s,PASSED
+delay(3),Chrome 108.0.0.0,,,2022-12-05 17:14:27,2022-12-05 17:14:30,3.010s,PASSED
+"verifyElementVisible(findTestObject(""09-Settings/Organization/mat-card_Contact""))",Chrome 108.0.0.0,,,2022-12-05 17:14:30,2022-12-05 17:14:30,0.317s,PASSED
+"verifyElementVisible(findTestObject(""09-Settings/Organization/mat-card-title_Contact""))",Chrome 108.0.0.0,,,2022-12-05 17:14:30,2022-12-05 17:14:30,0.433s,PASSED
+"setText(findTestObject(""09-Settings/Organization/input_Email""), ""testuser02@mailinator.com"")",Chrome 108.0.0.0,,,2022-12-05 17:14:30,2022-12-05 17:14:31,0.878s,PASSED
+"setText(findTestObject(""09-Settings/Organization/input_Web""), ""https://lab.everleagues.com"")",Chrome 108.0.0.0,,,2022-12-05 17:14:31,2022-12-05 17:14:32,0.992s,PASSED
+"click(findTestObject(""09-Settings/Organization/button_Phone""))",Chrome 108.0.0.0,,,2022-12-05 17:14:32,2022-12-05 17:14:33,0.564s,PASSED
+"setText(findTestObject(""09-Settings/Organization/input_phone search""), ""PH"")",Chrome 108.0.0.0,,,2022-12-05 17:14:33,2022-12-05 17:14:34,1.273s,PASSED
+"click(findTestObject(""09-Settings/Organization/button_Philippines 63""))",Chrome 108.0.0.0,,,2022-12-05 17:14:34,2022-12-05 17:14:35,0.471s,PASSED
+"setText(findTestObject(""09-Settings/Organization/input_phone""), ""9211234567"")",Chrome 108.0.0.0,,,2022-12-05 17:14:35,2022-12-05 17:14:36,1.422s,PASSED
+"click(findTestObject(""09-Settings/Organization/button_fax""))",Chrome 108.0.0.0,,,2022-12-05 17:14:36,2022-12-05 17:14:37,0.687s,PASSED
+"setText(findTestObject(""09-Settings/Organization/input_phone search""), ""PH"")",Chrome 108.0.0.0,,,2022-12-05 17:14:37,2022-12-05 17:14:38,1.381s,PASSED
+"click(findTestObject(""09-Settings/Organization/button_Philippines 63""))",Chrome 108.0.0.0,,,2022-12-05 17:14:38,2022-12-05 17:14:38,0.474s,PASSED
+"setText(findTestObject(""09-Settings/Organization/input_fax""), ""9211234567"")",Chrome 108.0.0.0,,,2022-12-05 17:14:38,2022-12-05 17:14:40,1.403s,PASSED
+delay(3),Chrome 108.0.0.0,,,2022-12-05 17:14:40,2022-12-05 17:14:43,3.008s,PASSED
+"click(findTestObject(""09-Settings/Users/Active User/button_Save""))",Chrome 108.0.0.0,,,2022-12-05 17:14:43,2022-12-05 17:14:43,0.366s,PASSED
+"verifyElementVisible(findTestObject(""09-Settings/Organization/snack-bar-container_Settings savedOK""))",Chrome 108.0.0.0,,,2022-12-05 17:14:43,2022-12-05 17:14:45,1.357s,PASSED
+delay(3),Chrome 108.0.0.0,,,2022-12-05 17:14:45,2022-12-05 17:14:48,3.012s,PASSED
+,,,,,,,
+Test Cases/09-Settings/24 - Organization - Settings,Chrome 108.0.0.0,,,2022-12-05 17:14:48,2022-12-05 17:16:07,1m - 19.051s,PASSED
+delay(3),Chrome 108.0.0.0,,,2022-12-05 17:14:48,2022-12-05 17:14:51,3.012s,PASSED
+"click(findTestObject(""09-Settings/Organization/div_Settings""))",Chrome 108.0.0.0,,,2022-12-05 17:14:51,2022-12-05 17:14:51,0.427s,PASSED
+"verifyElementVisible(findTestObject(""09-Settings/Organization/div_Settings page""))",Chrome 108.0.0.0,,,2022-12-05 17:14:51,2022-12-05 17:14:53,1.265s,PASSED
+delay(3),Chrome 108.0.0.0,,,2022-12-05 17:14:53,2022-12-05 17:14:56,3.003s,PASSED
+"verifyElementVisible(findTestObject(""09-Settings/Organization/mat-card_Chat Message Settings""))",Chrome 108.0.0.0,,,2022-12-05 17:14:56,2022-12-05 17:14:56,0.401s,PASSED
+"verifyElementVisible(findTestObject(""09-Settings/Organization/mat-card-title_Chat Message Settings""))",Chrome 108.0.0.0,,,2022-12-05 17:14:56,2022-12-05 17:14:57,0.549s,PASSED
+"click(findTestObject(""09-Settings/Organization/toggle_Enable chat message editing""))",Chrome 108.0.0.0,,,2022-12-05 17:14:57,2022-12-05 17:14:57,0.369s,PASSED
+"click(findTestObject(""09-Settings/Organization/toggle_Enable chat message deletion""))",Chrome 108.0.0.0,,,2022-12-05 17:14:57,2022-12-05 17:14:57,0.476s,PASSED
+delay(3),Chrome 108.0.0.0,,,2022-12-05 17:14:57,2022-12-05 17:15:00,3.005s,PASSED
+"click(findTestObject(""09-Settings/Organization/toggle_Enable chat message editing""))",Chrome 108.0.0.0,,,2022-12-05 17:15:00,2022-12-05 17:15:01,0.356s,PASSED
+"click(findTestObject(""09-Settings/Organization/toggle_Enable chat message deletion""))",Chrome 108.0.0.0,,,2022-12-05 17:15:01,2022-12-05 17:15:01,0.515s,PASSED
+delay(2),Chrome 108.0.0.0,,,2022-12-05 17:15:01,2022-12-05 17:15:03,2.008s,PASSED
+refresh(STOP_ON_FAILURE),Chrome 108.0.0.0,,,2022-12-05 17:15:03,2022-12-05 17:15:06,2.325s,PASSED
+"click(findTestObject(""09-Settings/Organization/div_Settings""))",Chrome 108.0.0.0,,,2022-12-05 17:15:06,2022-12-05 17:15:11,5.704s,PASSED
+delay(2),Chrome 108.0.0.0,,,2022-12-05 17:15:11,2022-12-05 17:15:13,2.010s,PASSED
+"verifyElementVisible(findTestObject(""09-Settings/Organization/mat-card_Membership""))",Chrome 108.0.0.0,,,2022-12-05 17:15:13,2022-12-05 17:15:14,0.321s,PASSED
+"verifyElementVisible(findTestObject(""09-Settings/Organization/mat-card-title_Membership""))",Chrome 108.0.0.0,,,2022-12-05 17:15:14,2022-12-05 17:15:14,0.330s,PASSED
+"verifyElementVisible(findTestObject(""09-Settings/Organization/div_By enabling this option, all join requests via URL will be automatically approved""))",Chrome 108.0.0.0,,,2022-12-05 17:15:14,2022-12-05 17:15:14,0.329s,PASSED
+"click(findTestObject(""09-Settings/Organization/toggle_Enable auto approve""))",Chrome 108.0.0.0,,,2022-12-05 17:15:14,2022-12-05 17:15:15,0.381s,PASSED
+delay(2),Chrome 108.0.0.0,,,2022-12-05 17:15:15,2022-12-05 17:15:17,2.008s,PASSED
+"click(findTestObject(""09-Settings/Organization/div_Settings""))",Chrome 108.0.0.0,,,2022-12-05 17:15:17,2022-12-05 17:15:17,0.570s,PASSED
+"verifyElementVisible(findTestObject(""09-Settings/Organization/mat-card_Tools""))",Chrome 108.0.0.0,,,2022-12-05 17:15:17,2022-12-05 17:15:18,0.556s,PASSED
+"verifyElementVisible(findTestObject(""09-Settings/Organization/mat-card-title_Tools""))",Chrome 108.0.0.0,,,2022-12-05 17:15:18,2022-12-05 17:15:18,0.334s,PASSED
+"verifyElementVisible(findTestObject(""09-Settings/Organization/div_Enable or disable tools by clicking on the toggle""))",Chrome 108.0.0.0,,,2022-12-05 17:15:18,2022-12-05 17:15:19,0.439s,PASSED
+"click(findTestObject(""09-Settings/Organization/toggle_EL Net""))",Chrome 108.0.0.0,,,2022-12-05 17:15:19,2022-12-05 17:15:19,0.364s,PASSED
+"verifyElementVisible(findTestObject(""09-Settings/Organization/snack-bar-container_ELNet tool disabled.OK""))",Chrome 108.0.0.0,,,2022-12-05 17:15:19,2022-12-05 17:15:20,1.130s,PASSED
+delay(3),Chrome 108.0.0.0,,,2022-12-05 17:15:20,2022-12-05 17:15:23,3.016s,PASSED
+"click(findTestObject(""09-Settings/Organization/toggle_EL Sign""))",Chrome 108.0.0.0,,,2022-12-05 17:15:23,2022-12-05 17:15:24,0.482s,PASSED
+"verifyElementVisible(findTestObject(""09-Settings/Organization/snack-bar-container_ELSign tool disabled.OK""))",Chrome 108.0.0.0,,,2022-12-05 17:15:24,2022-12-05 17:15:25,1.098s,PASSED
+delay(3),Chrome 108.0.0.0,,,2022-12-05 17:15:25,2022-12-05 17:15:28,3.003s,PASSED
+"click(findTestObject(""09-Settings/Organization/toggle_EL HealthCheck""))",Chrome 108.0.0.0,,,2022-12-05 17:15:28,2022-12-05 17:15:28,0.392s,PASSED
+"verifyElementVisible(findTestObject(""09-Settings/Organization/snack-bar-container_EL HealthCheck tool enabled.OK""))",Chrome 108.0.0.0,,,2022-12-05 17:15:28,2022-12-05 17:15:29,1.049s,PASSED
+delay(3),Chrome 108.0.0.0,,,2022-12-05 17:15:29,2022-12-05 17:15:32,3.006s,PASSED
+"click(findTestObject(""09-Settings/Organization/toggle_Income and expense""))",Chrome 108.0.0.0,,,2022-12-05 17:15:32,2022-12-05 17:15:33,0.431s,PASSED
+"verifyElementVisible(findTestObject(""09-Settings/Organization/snack-bar-container_Income and Expense tool disabled.OK""))",Chrome 108.0.0.0,,,2022-12-05 17:15:33,2022-12-05 17:15:34,1.009s,PASSED
+delay(3),Chrome 108.0.0.0,,,2022-12-05 17:15:34,2022-12-05 17:15:37,3.006s,PASSED
+"click(findTestObject(""09-Settings/Organization/toggle_PDF Converter""))",Chrome 108.0.0.0,,,2022-12-05 17:15:37,2022-12-05 17:15:37,0.862s,PASSED
+"verifyElementVisible(findTestObject(""09-Settings/Organization/snack-bar-container_PDF Converter tool disabled.OK""))",Chrome 108.0.0.0,,,2022-12-05 17:15:37,2022-12-05 17:15:39,1.087s,PASSED
+delay(3),Chrome 108.0.0.0,,,2022-12-05 17:15:39,2022-12-05 17:15:42,3.014s,PASSED
+"click(findTestObject(""09-Settings/Organization/toggle_EL Net""))",Chrome 108.0.0.0,,,2022-12-05 17:15:42,2022-12-05 17:15:42,0.411s,PASSED
+"verifyElementVisible(findTestObject(""09-Settings/Organization/snack-bar-container_ELNet tool enabled.OK""))",Chrome 108.0.0.0,,,2022-12-05 17:15:42,2022-12-05 17:15:43,0.995s,PASSED
+delay(3),Chrome 108.0.0.0,,,2022-12-05 17:15:43,2022-12-05 17:15:46,3.015s,PASSED
+"click(findTestObject(""09-Settings/Organization/toggle_EL Sign""))",Chrome 108.0.0.0,,,2022-12-05 17:15:46,2022-12-05 17:15:47,1.457s,PASSED
+"verifyElementVisible(findTestObject(""09-Settings/Organization/snack-bar-container_ELSign tool enabled.OK""))",Chrome 108.0.0.0,,,2022-12-05 17:15:47,2022-12-05 17:15:49,1.113s,PASSED
+delay(3),Chrome 108.0.0.0,,,2022-12-05 17:15:49,2022-12-05 17:15:52,3.010s,PASSED
+"click(findTestObject(""09-Settings/Organization/toggle_EL HealthCheck""))",Chrome 108.0.0.0,,,2022-12-05 17:15:52,2022-12-05 17:15:54,2.027s,PASSED
+"verifyElementVisible(findTestObject(""09-Settings/Organization/snack-bar-container_EL HealthCheck tool disabled.OK""))",Chrome 108.0.0.0,,,2022-12-05 17:15:54,2022-12-05 17:15:55,1.084s,PASSED
+delay(3),Chrome 108.0.0.0,,,2022-12-05 17:15:55,2022-12-05 17:15:58,3.002s,PASSED
+"click(findTestObject(""09-Settings/Organization/toggle_Income and expense""))",Chrome 108.0.0.0,,,2022-12-05 17:15:58,2022-12-05 17:15:58,0.357s,PASSED
+"verifyElementVisible(findTestObject(""09-Settings/Organization/snack-bar-container_Income and Expense tool enabled.OK""))",Chrome 108.0.0.0,,,2022-12-05 17:15:58,2022-12-05 17:15:59,1.111s,PASSED
+delay(3),Chrome 108.0.0.0,,,2022-12-05 17:15:59,2022-12-05 17:16:02,3.008s,PASSED
+"click(findTestObject(""09-Settings/Organization/toggle_PDF Converter""))",Chrome 108.0.0.0,,,2022-12-05 17:16:02,2022-12-05 17:16:03,0.346s,PASSED
+"verifyElementVisible(findTestObject(""09-Settings/Organization/snack-bar-container_PDF Converter tool enabled.OK""))",Chrome 108.0.0.0,,,2022-12-05 17:16:03,2022-12-05 17:16:04,1.146s,PASSED
+delay(3),Chrome 108.0.0.0,,,2022-12-05 17:16:04,2022-12-05 17:16:07,3.010s,PASSED
+,,,,,,,
+Test Cases/09-Settings/25 - Organization - Delete Organization,Chrome 108.0.0.0,,,2022-12-05 17:16:07,2022-12-05 17:16:25,18.193s,PASSED
+delay(3),Chrome 108.0.0.0,,,2022-12-05 17:16:07,2022-12-05 17:16:10,3.011s,PASSED
+"click(findTestObject(""09-Settings/Organization/div_Profile""))",Chrome 108.0.0.0,,,2022-12-05 17:16:10,2022-12-05 17:16:10,0.425s,PASSED
+delay(3),Chrome 108.0.0.0,,,2022-12-05 17:16:10,2022-12-05 17:16:13,3.006s,PASSED
+"verifyElementVisible(findTestObject(""09-Settings/Organization/mat-card_Profile""))",Chrome 108.0.0.0,,,2022-12-05 17:16:13,2022-12-05 17:16:14,0.353s,PASSED
+"verifyElementVisible(findTestObject(""09-Settings/Organization/mat-card_Address""))",Chrome 108.0.0.0,,,2022-12-05 17:16:14,2022-12-05 17:16:14,0.359s,PASSED
+"verifyElementVisible(findTestObject(""09-Settings/Organization/mat-card_Contact""))",Chrome 108.0.0.0,,,2022-12-05 17:16:14,2022-12-05 17:16:15,0.486s,PASSED
+delay(5),Chrome 108.0.0.0,,,2022-12-05 17:16:15,2022-12-05 17:16:20,5.009s,PASSED
+"click(findTestObject(""09-Settings/Organization/button_Delete Organization""))",Chrome 108.0.0.0,,,2022-12-05 17:16:20,2022-12-05 17:16:20,0.469s,PASSED
+delay(4),Chrome 108.0.0.0,,,2022-12-05 17:16:20,2022-12-05 17:16:24,4.017s,PASSED
+closeBrowser(),Chrome 108.0.0.0,,,2022-12-05 17:16:24,2022-12-05 17:16:25,0.734s,PASSED

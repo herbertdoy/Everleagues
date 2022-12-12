@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>dropdown_CompanyType</name>
+   <tag></tag>
+   <elementGuidId>2d002cf2-6dd7-4a10-9a84-7a7b8771c695</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//div[contains(@class,'mat-form-field-outline mat-form-field-outline-thick')]/following-sibling::div)[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>DIV</value>
+      <webElementGuid>2d95c83c-6195-40cc-b8a6-e01e17eab83e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>xpath1668505647773</value>
+      <webElementGuid>449cbb77-9ab9-48db-9296-0f776ba543c3</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

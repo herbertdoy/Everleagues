@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@fxlayout = 'row' and (text() = 'Done downloading qa EDITclear' or . = 'Done downloading qa EDITclear')]</value>
+         <value>//div[@fxlayout = 'row' and (text() = 'Done downloading qa EDIT.jpgclear' or . = 'Done downloading qa EDIT.jpgclear')]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -26,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>9489c77e-b531-43ec-aee7-8a36b841fbf3</webElementGuid>
+      <webElementGuid>063bd37f-4f6c-4fa5-8a13-82a64631bd78</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -34,7 +34,7 @@
       <name>fxlayout</name>
       <type>Main</type>
       <value>row</value>
-      <webElementGuid>909cd091-8fad-4cdb-84ec-10d6a448289f</webElementGuid>
+      <webElementGuid>741d44fb-3f85-4f32-a848-d16c3fe2428b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,7 +42,7 @@
       <name>fxlayoutalign</name>
       <type>Main</type>
       <value>space-between center</value>
-      <webElementGuid>3fc545cd-89d8-4c7e-859d-0f3355415f85</webElementGuid>
+      <webElementGuid>cf5c7919-fff1-44f3-b42b-436a3c962b9d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,7 +50,7 @@
       <name>ng-reflect-fx-layout</name>
       <type>Main</type>
       <value>row</value>
-      <webElementGuid>af22f519-88ae-4c5b-82c9-a127a18a31d5</webElementGuid>
+      <webElementGuid>a572a950-9935-4d9b-9279-fa31d515ec0e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -58,7 +58,7 @@
       <name>ng-reflect-fx-layout-align</name>
       <type>Main</type>
       <value>space-between center</value>
-      <webElementGuid>0856f672-59b2-470e-931a-593822a356e7</webElementGuid>
+      <webElementGuid>71911896-e223-4d47-8986-bc15be083a20</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -66,7 +66,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Done downloading qaclear</value>
-      <webElementGuid>9702ffa1-c8ef-4caf-aae6-da4161ca95d1</webElementGuid>
+      <webElementGuid>287ea322-7091-4082-85b7-0e89f17f4f9b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -74,7 +74,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/app-root[1]/app-main-page[@class=&quot;ng-tns-c481-5 ng-trigger ng-trigger-routerAnimation ng-star-inserted&quot;]/mat-sidenav-container[@class=&quot;mat-drawer-container mat-sidenav-container ng-tns-c481-5 mat-drawer-transition&quot;]/mat-sidenav-content[@class=&quot;mat-drawer-content mat-sidenav-content&quot;]/div[@class=&quot;wrapper&quot;]/app-storage[@class=&quot;ng-star-inserted&quot;]/file-explorer[1]/section[@class=&quot;file-explorer&quot;]/div[@class=&quot;file-explorer-main&quot;]/div[@class=&quot;file-explorer-updater ng-star-inserted&quot;]/div[@class=&quot;file-explorer-updater--item ng-star-inserted&quot;]/div[1]</value>
-      <webElementGuid>ab6d5752-5e6b-4664-844f-5e6089c7764b</webElementGuid>
+      <webElementGuid>275bc891-2f01-49f8-9435-2dc017465312</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -82,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='JPEG File'])[1]/following::div[5]</value>
-      <webElementGuid>aed4a624-8db3-4423-8522-30fcc5483674</webElementGuid>
+      <webElementGuid>f6f11cd0-0a2e-4722-8f3b-e3067e571ae3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -90,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='qa'])[1]/following::div[6]</value>
-      <webElementGuid>645229e3-1d5f-4112-b429-ccd6075388fd</webElementGuid>
+      <webElementGuid>08d4ad7f-8e3e-4f14-8a8c-0d89c8a9254c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,7 +98,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[4]/div[2]/div/div</value>
-      <webElementGuid>3a7b2ee1-8955-4a97-9561-430e5959a05e</webElementGuid>
+      <webElementGuid>5a78647b-81d4-4f6d-934e-9b2b2ca9ccbc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,6 +106,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = 'Done downloading qaclear' or . = 'Done downloading qaclear')]</value>
-      <webElementGuid>272a6aa6-8a23-4d95-bb1c-9d3985d6c3cd</webElementGuid>
+      <webElementGuid>73478bf3-e2ca-43e1-ba13-d99937fe3328</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

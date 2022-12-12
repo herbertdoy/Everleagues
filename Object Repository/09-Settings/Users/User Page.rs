@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[(text() = 'Active UsersInvited UsersRequest to Join Usersadd Showing users from all organization unitstune  Show deleted user  Filter  All organization units Selected organization unitGG AutomationsearchSearch herecancel Name  arrow_upward  Email  arrow_upward  Role  arrow_upward  Role Type  arrow_upward  Status  arrow_upward  OU  arrow_upward   GTGG tester 2autotester01@mailinator.com Co-worker  -  Active ..do_not_disturb_alteditmore_vertGTGG Tester 3autotester03@mailinator.com Client  -  Active ..do_not_disturb_alteditmore_vertGG TESTERtestuser02@mailinator.com Owner  -  Active ..Row per page: 1-3 of 3skip_previousnavigate_beforenavigate_nextskip_next' or . = 'Active UsersInvited UsersRequest to Join Usersadd Showing users from all organization unitstune  Show deleted user  Filter  All organization units Selected organization unitGG AutomationsearchSearch herecancel Name  arrow_upward  Email  arrow_upward  Role  arrow_upward  Role Type  arrow_upward  Status  arrow_upward  OU  arrow_upward   GTGG tester 2autotester01@mailinator.com Co-worker  -  Active ..do_not_disturb_alteditmore_vertGTGG Tester 3autotester03@mailinator.com Client  -  Active ..do_not_disturb_alteditmore_vertGG TESTERtestuser02@mailinator.com Owner  -  Active ..Row per page: 1-3 of 3skip_previousnavigate_beforenavigate_nextskip_next')]</value>
+         <value>//div[@class='alert-new-notif']/following-sibling::div[1]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -26,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>496d109d-cd7c-4c95-89ad-d9f4d7c348aa</webElementGuid>
+      <webElementGuid>67646878-9d60-49af-a3fe-7f9b86b438f7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -34,7 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>wrapper</value>
-      <webElementGuid>41fa5c21-6460-4ca7-86b8-17dc38656edb</webElementGuid>
+      <webElementGuid>e582a643-5c13-480b-902c-24305289f4f9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -42,7 +42,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Active UsersInvited UsersRequest to Join Usersadd Showing users from all organization unitstune  Show deleted user  Filter  All organization units Selected organization unitGG AutomationsearchSearch herecancel Name  arrow_upward  Email  arrow_upward  Role  arrow_upward  Status  arrow_upward  OU  arrow_upward   GTGG tester 2autotester01@mailinator.com CoWorker  Active ..do_not_disturb_alteditmore_vertGTGG Tester 3autotester03@mailinator.com Client  Active ..do_not_disturb_alteditmore_vertGG TESTERtestuser02@mailinator.com Owner  Active ..Row per page: 1-3 of 3skip_previousnavigate_beforenavigate_nextskip_next</value>
-      <webElementGuid>23a3fb1e-7646-4c10-9417-40b6383b508c</webElementGuid>
+      <webElementGuid>3fdeeafb-073f-4428-9427-894dfe98ae37</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,7 +50,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/app-root[1]/app-main-page[@class=&quot;ng-tns-c481-5 ng-trigger ng-trigger-routerAnimation ng-star-inserted&quot;]/mat-sidenav-container[@class=&quot;mat-drawer-container mat-sidenav-container ng-tns-c481-5 mat-drawer-transition mat-drawer-container-has-open&quot;]/mat-sidenav-content[@class=&quot;mat-drawer-content mat-sidenav-content&quot;]/div[@class=&quot;wrapper&quot;]</value>
-      <webElementGuid>b53a463e-b6ab-4091-a17f-cc70cbf0d8ef</webElementGuid>
+      <webElementGuid>8c1e378a-af4f-4578-940d-2db38b70efab</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -58,7 +58,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='GG TESTER'])[1]/following::div[3]</value>
-      <webElementGuid>475c4214-25d0-4eb8-941e-a738c3c45233</webElementGuid>
+      <webElementGuid>87c892b0-93e0-4391-9f5c-cc02515fe113</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -66,7 +66,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='English'])[1]/following::div[5]</value>
-      <webElementGuid>77ece4d7-94de-4cb2-b297-61a2ef9e3094</webElementGuid>
+      <webElementGuid>84a60d56-ea16-4e69-95cd-8c9fbe226819</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -74,7 +74,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//mat-sidenav-content/div[2]</value>
-      <webElementGuid>ed9a18a6-7f83-4740-bc72-b3355f60b896</webElementGuid>
+      <webElementGuid>b9ca3e12-dd42-4a0f-8e96-9323a51f8876</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,6 +82,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = 'Active UsersInvited UsersRequest to Join Usersadd Showing users from all organization unitstune  Show deleted user  Filter  All organization units Selected organization unitGG AutomationsearchSearch herecancel Name  arrow_upward  Email  arrow_upward  Role  arrow_upward  Status  arrow_upward  OU  arrow_upward   GTGG tester 2autotester01@mailinator.com CoWorker  Active ..do_not_disturb_alteditmore_vertGTGG Tester 3autotester03@mailinator.com Client  Active ..do_not_disturb_alteditmore_vertGG TESTERtestuser02@mailinator.com Owner  Active ..Row per page: 1-3 of 3skip_previousnavigate_beforenavigate_nextskip_next' or . = 'Active UsersInvited UsersRequest to Join Usersadd Showing users from all organization unitstune  Show deleted user  Filter  All organization units Selected organization unitGG AutomationsearchSearch herecancel Name  arrow_upward  Email  arrow_upward  Role  arrow_upward  Status  arrow_upward  OU  arrow_upward   GTGG tester 2autotester01@mailinator.com CoWorker  Active ..do_not_disturb_alteditmore_vertGTGG Tester 3autotester03@mailinator.com Client  Active ..do_not_disturb_alteditmore_vertGG TESTERtestuser02@mailinator.com Owner  Active ..Row per page: 1-3 of 3skip_previousnavigate_beforenavigate_nextskip_next')]</value>
-      <webElementGuid>965feb68-aa4c-4a11-a407-45c2da5e6425</webElementGuid>
+      <webElementGuid>5d3b905e-b56a-4442-8964-dec6ba5f865d</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

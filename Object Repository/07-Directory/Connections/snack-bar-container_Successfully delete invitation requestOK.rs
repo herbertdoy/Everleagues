@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>snack-bar-container_Successfully delete invitation requestOK</name>
+   <tag></tag>
+   <elementGuidId>c9d72106-722d-42b3-a9ac-b1c9f5b159c3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>snack-bar-container.mat-snack-bar-container.ng-tns-c41-85.ng-trigger.ng-trigger-state.mat-snack-bar-center.ng-star-inserted</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='cdk-overlay-14']/snack-bar-container</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>snack-bar-container</value>
+      <webElementGuid>ce571728-920b-44bb-9fd1-926614646f69</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-snack-bar-container ng-tns-c41-85 ng-trigger ng-trigger-state mat-snack-bar-center ng-star-inserted</value>
+      <webElementGuid>17663757-b3b1-4006-8adc-b13d6b64a3ea</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>status</value>
+      <webElementGuid>61b7d5cf-9331-4b0a-9df3-5145413bec41</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Successfully delete invitation requestOK</value>
+      <webElementGuid>2f7fc62d-4e64-46d7-ac22-c8cc39977f94</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;cdk-overlay-14&quot;)/snack-bar-container[@class=&quot;mat-snack-bar-container ng-tns-c41-85 ng-trigger ng-trigger-state mat-snack-bar-center ng-star-inserted&quot;]</value>
+      <webElementGuid>8ca96d81-cbcc-4346-8f58-0a97041b7e67</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='cdk-overlay-14']/snack-bar-container</value>
+      <webElementGuid>9b8b5f3b-b284-4514-a626-886dde2e4c52</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='`'])[2]/following::snack-bar-container[1]</value>
+      <webElementGuid>4824a4c6-3a4d-44e5-937a-0a74683d612f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Alt'])[2]/following::snack-bar-container[1]</value>
+      <webElementGuid>ebc4c79f-433d-45ea-a671-10ab5ab1072f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//snack-bar-container</value>
+      <webElementGuid>e497c806-8624-4a21-aff8-eaacf52242a0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//snack-bar-container[(text() = 'Successfully delete invitation requestOK' or . = 'Successfully delete invitation requestOK')]</value>
+      <webElementGuid>088e1999-f7b7-485f-ad60-a94afa1dcb87</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='GG TESTER'])[1]/following::div[3]</value>
+         <value>//div[@class = 'wrapper' and (text() = 'Active UsersInvited UsersRequest to Join Usersadd Showing users from all organization unitstune Filter Users  Show deleted users  Filter  All organization units Selected organization unitGG AutomationsearchSearch herecancel Name  arrow_upward  Email  arrow_upward  Role  arrow_upward  Role Type  arrow_upward  Status  arrow_upward  OU  arrow_upward   GTGG tester 2autotester01@mailinator.com Co-worker  -  Active ..do_not_disturb_alteditmore_vertGTGG testerautotester04@mailinator.com Co-worker  -  Active ..do_not_disturb_alteditmore_vertGTGG Tester 3autotester03@mailinator.com Client  -  Active ..do_not_disturb_alteditmore_vertGG TESTERtestuser02@mailinator.com Owner  -  Active ..GPGG Partnerautotester10@mailinator.com External Contact  -  Active ..do_not_disturb_alteditmore_vertGCGG Clientautotester09@mailinator.com Client  -  Active ..do_not_disturb_alteditmore_vertRow per page: 1-6 of 6skip_previousnavigate_beforenavigate_nextskip_next' or . = 'Active UsersInvited UsersRequest to Join Usersadd Showing users from all organization unitstune Filter Users  Show deleted users  Filter  All organization units Selected organization unitGG AutomationsearchSearch herecancel Name  arrow_upward  Email  arrow_upward  Role  arrow_upward  Role Type  arrow_upward  Status  arrow_upward  OU  arrow_upward   GTGG tester 2autotester01@mailinator.com Co-worker  -  Active ..do_not_disturb_alteditmore_vertGTGG testerautotester04@mailinator.com Co-worker  -  Active ..do_not_disturb_alteditmore_vertGTGG Tester 3autotester03@mailinator.com Client  -  Active ..do_not_disturb_alteditmore_vertGG TESTERtestuser02@mailinator.com Owner  -  Active ..GPGG Partnerautotester10@mailinator.com External Contact  -  Active ..do_not_disturb_alteditmore_vertGCGG Clientautotester09@mailinator.com Client  -  Active ..do_not_disturb_alteditmore_vertRow per page: 1-6 of 6skip_previousnavigate_beforenavigate_nextskip_next')]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -26,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>374cbc30-9c12-43f9-afba-70ade8a76da3</webElementGuid>
+      <webElementGuid>3a9480c8-f2cc-418d-8c29-f3100673640b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -34,7 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>wrapper</value>
-      <webElementGuid>ab72e5f9-17a3-4efa-8a2e-ffe368853b53</webElementGuid>
+      <webElementGuid>05ed0b1a-58f6-465b-96b8-157bc2295cd5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -42,7 +42,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Active UsersInvited UsersRequest to Join Usersadd Showing users from all organization unitstune  Show deleted user  Filter  All organization units Selected organization unitGG Automationarrow_backSearch herecancel Name  arrow_upward  Email  arrow_upward  Role  arrow_upward  Role Type  arrow_upward  Status  arrow_upward OR arrow_upward   GTGG tester 2autotester01@mailinator.comCoWorker-Active..do_not_disturb_alteditmore_vertGTGG testerautotester04@mailinator.comCoWorker-Active..do_not_disturb_alteditmore_vertGTGG Tester 3autotester03@mailinator.comClient-Active..do_not_disturb_alteditmore_vertGG TESTERtestuser02@mailinator.comOwner-Active..GPGG Partnerautotester10@mailinator.comPartner-Deleted..replayGCGG Clientautotester09@mailinator.comClient-Active..do_not_disturb_alteditmore_vertRow per page: 1-6 of 6skip_previousnavigate_beforenavigate_nextskip_next</value>
-      <webElementGuid>7026c8d9-590b-407e-afa7-0750503a6f88</webElementGuid>
+      <webElementGuid>c1b7094c-aa6e-47ed-8296-3c8697ebedf2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,7 +50,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[@class=&quot;translated-ltr&quot;]/body[1]/app-root[1]/app-main-page[@class=&quot;ng-tns-c481-5 ng-trigger ng-trigger-routerAnimation ng-star-inserted&quot;]/mat-sidenav-container[@class=&quot;mat-drawer-container mat-sidenav-container ng-tns-c481-5 mat-drawer-transition&quot;]/mat-sidenav-content[@class=&quot;mat-drawer-content mat-sidenav-content&quot;]/div[@class=&quot;wrapper&quot;]</value>
-      <webElementGuid>6b29987a-7dd1-4cf4-b7cc-075758b54c55</webElementGuid>
+      <webElementGuid>fdff3d83-b5b8-424d-b908-a47d0414f52b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -58,7 +58,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='GG TESTER'])[1]/following::div[3]</value>
-      <webElementGuid>710bf53c-bc4a-43bb-9f42-9bf1c6df4406</webElementGuid>
+      <webElementGuid>da74cd27-89a3-4878-900b-72e77bdeea97</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -66,7 +66,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='English'])[1]/following::div[5]</value>
-      <webElementGuid>96661f93-60fc-49a8-bd5a-709427649351</webElementGuid>
+      <webElementGuid>92cafd6f-4537-494c-ae24-ed4b6342218a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -74,7 +74,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//mat-sidenav-content/div[2]</value>
-      <webElementGuid>3c71af62-e9c4-488f-b129-e58773b3688b</webElementGuid>
+      <webElementGuid>548ebeaf-c544-461c-bd4f-8b289460a98a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,6 +82,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = 'Active UsersInvited UsersRequest to Join Usersadd Showing users from all organization unitstune  Show deleted user  Filter  All organization units Selected organization unitGG Automationarrow_backSearch herecancel Name  arrow_upward  Email  arrow_upward  Role  arrow_upward  Role Type  arrow_upward  Status  arrow_upward OR arrow_upward   GTGG tester 2autotester01@mailinator.comCoWorker-Active..do_not_disturb_alteditmore_vertGTGG testerautotester04@mailinator.comCoWorker-Active..do_not_disturb_alteditmore_vertGTGG Tester 3autotester03@mailinator.comClient-Active..do_not_disturb_alteditmore_vertGG TESTERtestuser02@mailinator.comOwner-Active..GPGG Partnerautotester10@mailinator.comPartner-Deleted..replayGCGG Clientautotester09@mailinator.comClient-Active..do_not_disturb_alteditmore_vertRow per page: 1-6 of 6skip_previousnavigate_beforenavigate_nextskip_next' or . = 'Active UsersInvited UsersRequest to Join Usersadd Showing users from all organization unitstune  Show deleted user  Filter  All organization units Selected organization unitGG Automationarrow_backSearch herecancel Name  arrow_upward  Email  arrow_upward  Role  arrow_upward  Role Type  arrow_upward  Status  arrow_upward OR arrow_upward   GTGG tester 2autotester01@mailinator.comCoWorker-Active..do_not_disturb_alteditmore_vertGTGG testerautotester04@mailinator.comCoWorker-Active..do_not_disturb_alteditmore_vertGTGG Tester 3autotester03@mailinator.comClient-Active..do_not_disturb_alteditmore_vertGG TESTERtestuser02@mailinator.comOwner-Active..GPGG Partnerautotester10@mailinator.comPartner-Deleted..replayGCGG Clientautotester09@mailinator.comClient-Active..do_not_disturb_alteditmore_vertRow per page: 1-6 of 6skip_previousnavigate_beforenavigate_nextskip_next')]</value>
-      <webElementGuid>5c0e867b-5cf7-49ba-b792-9ff660cf9ffb</webElementGuid>
+      <webElementGuid>b4550382-9975-40f7-8331-441df63f44b0</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

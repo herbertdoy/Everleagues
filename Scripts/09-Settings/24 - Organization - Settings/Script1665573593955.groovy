@@ -56,30 +56,29 @@ WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/div_By enabl
 
 WebUI.click(findTestObject('09-Settings/Organization/toggle_Enable auto approve'))
 
-WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/div_By enabling this option, all join requests via URL will be automatically approved'))
+//WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/div_By enabling this option, all join requests via URL will be automatically approved'))
 
-WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/h4_Auto Approval Disabled for Free Limited Plan'))
+//WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/h4_Auto Approval Disabled for Free Limited Plan'))
+//WebUI.delay(1)
 
-WebUI.delay(1)
+//WebUI.click(findTestObject('09-Settings/Users/Active User/button_Cancel_restore'))
 
-WebUI.click(findTestObject('09-Settings/Users/Active User/button_Cancel_restore'))
+//WebUI.click(findTestObject('09-Settings/Organization/toggle_Enable auto approve'))
 
-WebUI.click(findTestObject('09-Settings/Organization/toggle_Enable auto approve'))
+//WebUI.delay(3)
 
-WebUI.delay(3)
-
-WebUI.click(findTestObject('09-Settings/Organization/button_Go to Subscription'))
+//WebUI.click(findTestObject('09-Settings/Organization/button_Go to Subscription'))
 
 //WebUI.verifyElementVisible(findTestObject('09-Settings/Users/div_Subscriptions'))
 WebUI.delay(2)
 
-WebUI.click(findTestObject('03-Header Menu/Hamburger Button/div_Settings'))
+//WebUI.click(findTestObject('03-Header Menu/Hamburger Button/div_Settings'))
 
-WebUI.click(findTestObject('09-Settings/Users/div_Organization'))
+//WebUI.click(findTestObject('09-Settings/Users/div_Organization'))
 
 WebUI.click(findTestObject('09-Settings/Organization/div_Settings'))
 
-WebUI.delay(3)
+//WebUI.delay(3)
 
 WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/mat-card_Tools'))
 
@@ -145,5 +144,5 @@ WebUI.click(findTestObject('09-Settings/Organization/toggle_PDF Converter'))
 
 WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/snack-bar-container_PDF Converter tool enabled.OK'))
 
-WebUI.delay(4)
+WebUI.delay(3)
 

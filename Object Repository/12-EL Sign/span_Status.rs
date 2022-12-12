@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Status</name>
+   <tag></tag>
+   <elementGuidId>3c1a39dc-ba5c-4ac6-a952-b36a297e48bc</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#mat-checkbox-111 > label.mat-checkbox-layout > span.mat-checkbox-label</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[(text() = '  Status ' or . = '  Status ')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>65dfd881-a77f-40e9-a271-8483d7b53e87</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-checkbox-label</value>
+      <webElementGuid>47f58027-51d4-4186-a5e0-0015194382bf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>  Status </value>
+      <webElementGuid>da036bb8-9656-420c-a19a-bb980bca4f69</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mat-checkbox-111&quot;)/label[@class=&quot;mat-checkbox-layout&quot;]/span[@class=&quot;mat-checkbox-label&quot;]</value>
+      <webElementGuid>6c311452-806e-4d04-bb24-ab89180ea688</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//mat-checkbox[@id='mat-checkbox-111']/label/span</value>
+      <webElementGuid>6147b2d7-97f0-4646-865a-23546260968e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//mat-checkbox[3]/label/span</value>
+      <webElementGuid>05a46c5e-cc5f-4510-8ee8-8ad171fc2535</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = '  Status ' or . = '  Status ')]</value>
+      <webElementGuid>49c78807-b323-42e8-b1c7-c3ed6506db0a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

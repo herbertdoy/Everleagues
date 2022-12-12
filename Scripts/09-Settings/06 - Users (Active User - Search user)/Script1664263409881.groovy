@@ -85,7 +85,7 @@ WebUI.delay(4)
 
 WebUI.verifyElementVisible(findTestObject('06-Teams/span_GG Automation'))
 
-WebUI.delay(10)
+WebUI.delay(5)
 
 WebUI.click(findTestObject('03-Header Menu/Hamburger Button/div_Settings'))
 
@@ -125,18 +125,4 @@ WebUI.setText(findTestObject('09-Settings/Users/Active User/Search field'), 'par
 WebUI.delay(3)
 
 WebUI.click(findTestObject('09-Settings/Users/Active User/button_Cancel'))
-
-//WebUI.delay(4)
-
-//WebUI.click(findTestObject('09-Settings/Users/Active User/button_search'))
-
-//WebUI.delay(3)
-
-//WebUI.setText(findTestObject('09-Settings/Users/Active User/Search field'), 'partner')
-
-//WebUI.verifyElementVisible(findTestObject('09-Settings/Users/Active User/div_GPGG Partner'))
-
-//WebUI.delay(5)
-
-//WebUI.closeBrowser()
 

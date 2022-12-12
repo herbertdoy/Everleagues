@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Delete</name>
+   <tag></tag>
+   <elementGuidId>1ee6fa82-c188-44cf-b984-833d0c5e34d0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#mat-checkbox-116 > label.mat-checkbox-layout > span.mat-checkbox-label</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[(text() = '  Delete ' or . = '  Delete ')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>866e4f6f-06ee-46d4-800d-c1a1f55636b4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-checkbox-label</value>
+      <webElementGuid>64e4224e-2041-47b4-975c-90d4fe544362</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>  Delete </value>
+      <webElementGuid>ead09eea-b0a3-46af-a66b-36bf1bb6b4dd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mat-checkbox-116&quot;)/label[@class=&quot;mat-checkbox-layout&quot;]/span[@class=&quot;mat-checkbox-label&quot;]</value>
+      <webElementGuid>afcb4eba-73b2-4adf-b9ef-d1c0113a4989</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//mat-checkbox[@id='mat-checkbox-116']/label/span</value>
+      <webElementGuid>a19b4a28-3b42-42c5-85bc-2681aacec778</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//mat-checkbox[8]/label/span</value>
+      <webElementGuid>ec2a5fcc-147e-4bd3-b2e4-712b6f0ef7df</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = '  Delete ' or . = '  Delete ')]</value>
+      <webElementGuid>a7a4efc5-b20a-4e5c-8d15-218adb0e9072</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

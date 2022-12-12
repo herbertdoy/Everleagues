@@ -47,10 +47,9 @@ WebUI.click(findTestObject('11-Cloud Files/div_dropdown3'))
 
 WebUI.click(findTestObject('11-Cloud Files/span_delete Remove Access'))
 
-WebUI.click(findTestObject('11-Cloud Files/button_Save'))
+WebUI.click(findTestObject('11-Cloud Files/button_done'))
 
-WebUI.verifyElementVisible(findTestObject('11-Cloud Files/snack-bar-container_Shared folder access updated successfully.OK'))
-
+//WebUI.verifyElementVisible(findTestObject('11-Cloud Files/snack-bar-container_Shared folder access updated successfully.OK'))
 WebUI.delay(3)
 
 WebUI.rightClick(findTestObject('11-Cloud Files/td_Automation folder EDIT'))
@@ -69,5 +68,7 @@ WebUI.delay(5)
 
 WebUI.click(findTestObject('03-Header Menu/Hamburger Button/div_Cloud Files'))
 
-WebUI.delay(5)
+WebUI.click(findTestObject('11-Cloud Files/a_My Files'))
+
+WebUI.delay(3)
 

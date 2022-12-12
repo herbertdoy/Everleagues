@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>simple-snack-bar_Successfully resent emailOK</name>
+   <tag></tag>
+   <elementGuidId>4d6e0f06-82cb-4276-b568-67ed548d8252</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>simple-snack-bar.mat-simple-snackbar.ng-star-inserted</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='cdk-overlay-12']/snack-bar-container/simple-snack-bar</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>simple-snack-bar</value>
+      <webElementGuid>6add10b8-1c7d-4e59-ac14-c5ab876866be</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-simple-snackbar ng-star-inserted</value>
+      <webElementGuid>58125482-efbe-4870-a094-c553a1084510</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Successfully resent emailOK</value>
+      <webElementGuid>a4e10ff8-e992-4f97-95cb-d47adb232556</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;cdk-overlay-12&quot;)/snack-bar-container[@class=&quot;mat-snack-bar-container ng-tns-c41-82 ng-trigger ng-trigger-state mat-snack-bar-center ng-star-inserted&quot;]/simple-snack-bar[@class=&quot;mat-simple-snackbar ng-star-inserted&quot;]</value>
+      <webElementGuid>86759c45-9194-410e-8b32-8679f465cca1</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='cdk-overlay-12']/snack-bar-container/simple-snack-bar</value>
+      <webElementGuid>80610051-596e-4f9f-9662-df5686199ff4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='`'])[2]/following::simple-snack-bar[1]</value>
+      <webElementGuid>7f19089c-1c89-4930-abfe-bf2c7255f3e3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Alt'])[2]/following::simple-snack-bar[1]</value>
+      <webElementGuid>f41b8df3-a2db-40e1-b11e-22ed22ea3308</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//simple-snack-bar</value>
+      <webElementGuid>fd5f3cd3-67d3-4df1-9bdc-23c9bcd9ae86</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//simple-snack-bar[(text() = 'Successfully resent emailOK' or . = 'Successfully resent emailOK')]</value>
+      <webElementGuid>fe9c070a-7c82-4ac9-b519-f27c80bd21c9</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -85,7 +85,7 @@ WebUI.delay(4)
 
 WebUI.verifyElementVisible(findTestObject('06-Teams/span_GG Automation'))
 
-WebUI.delay(10)
+WebUI.delay(5)
 
 WebUI.click(findTestObject('03-Header Menu/Hamburger Button/div_Settings'))
 
@@ -134,8 +134,4 @@ WebUI.verifyElementVisible(findTestObject('09-Settings/Users/Firstname required'
 WebUI.verifyElementVisible(findTestObject('09-Settings/Users/last name required'))
 
 WebUI.verifyElementVisible(findTestObject('09-Settings/Users/error_Select a role'))
-
-WebUI.delay(3)
-
-WebUI.closeBrowser()
 

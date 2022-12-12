@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_View</name>
+   <tag></tag>
+   <elementGuidId>f30b7f20-d18b-4bdd-95fd-a258c009013e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#mat-checkbox-113 > label.mat-checkbox-layout > span.mat-checkbox-label</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[(text() = '  View ' or . = '  View ')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>2207c180-af75-4492-9ce3-d0989ae2acdd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-checkbox-label</value>
+      <webElementGuid>16616cc0-b007-46e5-a1a1-8f04b1f28141</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>  View </value>
+      <webElementGuid>472204a7-376b-45ce-9601-0f86c276c5d1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mat-checkbox-113&quot;)/label[@class=&quot;mat-checkbox-layout&quot;]/span[@class=&quot;mat-checkbox-label&quot;]</value>
+      <webElementGuid>a9029253-7a1c-47b8-bde0-7285297d0a60</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//mat-checkbox[@id='mat-checkbox-113']/label/span</value>
+      <webElementGuid>8cd093d2-30c5-4863-8bec-a1e141887c88</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//mat-checkbox[5]/label/span</value>
+      <webElementGuid>1acdca34-26e4-409e-8e53-8485b40cdb7b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = '  View ' or . = '  View ')]</value>
+      <webElementGuid>5bcb6731-1e7e-4f2e-9e7c-6802679db008</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

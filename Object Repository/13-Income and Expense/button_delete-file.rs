@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_delete-file</name>
+   <tag></tag>
+   <elementGuidId>e9deb106-91a1-4fa1-9af6-b67d172604eb</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.delete-file</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//mat-dialog-container[@id='mat-dialog-21']/app-iet-addreceipt/div/div/form/div/div[2]/button</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>6c64d52a-5db0-4b54-a61e-c26dd3f11c31</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>delete-file</value>
+      <webElementGuid>d89dd1c9-c0ea-4923-be15-99414ab37aae</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mat-dialog-21&quot;)/app-iet-addreceipt[@class=&quot;ng-star-inserted&quot;]/div[1]/div[@class=&quot;invgridColumn&quot;]/form[@class=&quot;ng-invalid ng-touched ng-dirty&quot;]/div[1]/div[@class=&quot;files-list ng-star-inserted&quot;]/button[@class=&quot;delete-file&quot;]</value>
+      <webElementGuid>21958d28-3a9f-4d18-b742-f16aea594d6d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//mat-dialog-container[@id='mat-dialog-21']/app-iet-addreceipt/div/div/form/div/div[2]/button</value>
+      <webElementGuid>aa99378a-9046-484b-8fa4-658d724ec1a8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*Required'])[1]/following::button[1]</value>
+      <webElementGuid>3f14b4af-5505-4cc7-b2fc-6711b0323215</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add a note'])[1]/preceding::button[1]</value>
+      <webElementGuid>b3a20629-89b7-4ec9-b69a-022494efe876</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='CANCEL'])[1]/preceding::button[1]</value>
+      <webElementGuid>d94909fb-164b-4cda-ab12-a9f5d6e87e3a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/button</value>
+      <webElementGuid>bd324e00-58f1-470f-b0db-9089d184709c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

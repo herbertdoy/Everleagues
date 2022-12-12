@@ -55,5 +55,5 @@ WebUI.delay(2)
 
 WebUI.verifyElementVisible(findTestObject('05-Chat/02-Sending chat messages/money face in chat'))
 
-WebUI.delay(5)
+WebUI.delay(3)
 

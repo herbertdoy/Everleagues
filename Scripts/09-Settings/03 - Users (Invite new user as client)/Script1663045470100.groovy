@@ -85,7 +85,7 @@ WebUI.delay(4)
 
 WebUI.verifyElementVisible(findTestObject('06-Teams/span_GG Automation'))
 
-WebUI.delay(10)
+WebUI.delay(5)
 
 WebUI.click(findTestObject('03-Header Menu/Hamburger Button/div_Settings'))
 
@@ -229,7 +229,7 @@ WebUI.setText(findTestObject('09-Settings/Users/Client/Company field'), 'QA Comp
 
 WebUI.click(findTestObject('09-Settings/Users/Client/button_Accept'))
 
-WebUI.delay(10)
+WebUI.delay(5)
 
 WebUI.verifyElementVisible(findTestObject('09-Settings/Users/Client/div_Joined as CLIENT'))
 

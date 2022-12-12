@@ -109,5 +109,5 @@ WebUI.verifyElementVisible(findTestObject('06-Teams/05- Teams-General Channel/ad
 
 WebUI.verifyElementVisible(findTestObject('06-Teams/05- Teams-General Channel/posted pdf'))
 
-WebUI.delay(10)
+WebUI.delay(5)
 

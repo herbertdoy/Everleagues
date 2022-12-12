@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_settings</name>
+   <tag></tag>
+   <elementGuidId>8df6fb55-4c99-47d3-895d-f5c4491d9943</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.mat-focus-indicator.mat-icon-button.mat-button-base.ng-star-inserted.cdk-focused.cdk-mouse-focused</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='UPDATE'])[1]/following::button[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>82138c5a-4665-46dd-9db1-83bf62ce753b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>mattooltip</name>
+      <type>Main</type>
+      <value>Edit Company</value>
+      <webElementGuid>3f7d8542-3401-44fe-9a8e-1d0b9cde6491</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-focus-indicator mat-icon-button mat-button-base ng-star-inserted cdk-focused cdk-mouse-focused</value>
+      <webElementGuid>3d12651c-e36c-4871-8e97-37d9fe78afed</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-reflect-message</name>
+      <type>Main</type>
+      <value>Edit Company</value>
+      <webElementGuid>b9930ac8-05da-4a1c-9a62-72d72513b201</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-describedby</name>
+      <type>Main</type>
+      <value>cdk-describedby-message-9</value>
+      <webElementGuid>3857e392-412c-4e10-910a-f95e3f211e44</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>settings</value>
+      <webElementGuid>91df1e86-0b8e-4432-bc1d-62497fe9f7b4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/app-root[1]/app-main-page[@class=&quot;ng-tns-c481-5 ng-trigger ng-trigger-routerAnimation ng-star-inserted&quot;]/mat-sidenav-container[@class=&quot;mat-drawer-container mat-sidenav-container ng-tns-c481-5 mat-drawer-transition mat-drawer-container-has-open&quot;]/mat-sidenav-content[@class=&quot;mat-drawer-content mat-sidenav-content&quot;]/div[@class=&quot;wrapper&quot;]/app-iet-settings[@class=&quot;ng-star-inserted&quot;]/mat-table[@class=&quot;mat-table cdk-table mat-elevation-z8 ng-star-inserted&quot;]/mat-row[@class=&quot;mat-row cdk-row ng-star-inserted&quot;]/mat-cell[@class=&quot;mat-cell cdk-cell cdk-column-settings mat-column-settings ng-star-inserted&quot;]/button[@class=&quot;mat-focus-indicator mat-icon-button mat-button-base ng-star-inserted cdk-focused cdk-mouse-focused&quot;]</value>
+      <webElementGuid>67eac8ad-a1ca-4770-b1d2-b36eed43f249</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='UPDATE'])[1]/following::button[1]</value>
+      <webElementGuid>1a4e5768-4160-4c88-a1d9-b0131ff35fa7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add'])[1]/following::button[2]</value>
+      <webElementGuid>0b7a9369-65fb-4465-bcb4-9ea74f3085c5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Edit Company'])[1]/preceding::button[6]</value>
+      <webElementGuid>ce4b1783-97c0-42ef-8b23-67473c001279</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Hide Quick Shortcuts'])[1]/preceding::button[6]</value>
+      <webElementGuid>5bdb1a4a-49ce-43c1-9a79-cc74d52be3cb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//mat-cell[7]/button</value>
+      <webElementGuid>9db78743-af1c-42c5-afe7-6f775e0eb790</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = 'settings' or . = 'settings')]</value>
+      <webElementGuid>c9ff3c5a-1eee-4673-88df-eb687bb0bdd5</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

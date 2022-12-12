@@ -85,13 +85,13 @@ WebUI.delay(4)
 
 WebUI.verifyElementVisible(findTestObject('02-Side Icons(Organization)/Add Contact/span_Automation Test Org'))
 
-WebUI.delay(10)
+WebUI.delay(5)
 
 WebUI.click(findTestObject('03-Header Menu/Hamburger Button/div_Cloud Files'))
 
-WebUI.verifyElementVisible(findTestObject('11-Cloud Files/h4_CLOUD FILES'))
-
 WebUI.click(findTestObject('11-Cloud Files/a_My Files'))
+
+WebUI.verifyElementVisible(findTestObject('11-Cloud Files/h4_MY FILES'))
 
 WebUI.delay(3)
 

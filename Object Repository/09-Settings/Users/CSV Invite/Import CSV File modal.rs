@@ -13,8 +13,12 @@
          <key>CSS</key>
          <value>#mat-dialog-2</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//mat-dialog-container[@role = 'dialog' and (text() = 'Import CSV FileNeed a CSV template? Download it here . Choose File No file chosen createImporting Organization Unit *ImportCancel' or . = 'Import CSV FileNeed a CSV template? Download it here . Choose File No file chosen createImporting Organization Unit *ImportCancel')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>mat-dialog-container</value>
-      <webElementGuid>8a8a8666-8ee0-4689-9270-3e50e5a4bfea</webElementGuid>
+      <webElementGuid>623c5b44-e1ac-4d7c-8b57-5fd6ad198faa</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +34,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>-1</value>
-      <webElementGuid>f6de21e1-977a-4d4c-9478-27b570dc33ca</webElementGuid>
+      <webElementGuid>a6cbec7f-b72e-4fcc-b232-c971538455f8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +42,7 @@
       <name>aria-modal</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>bedf42bf-67ec-4033-94dd-195756207e4e</webElementGuid>
+      <webElementGuid>fd4c4c8b-d566-4e53-b010-7340ebf60eb5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +50,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-dialog-container ng-tns-c33-60 ng-trigger ng-trigger-dialogContainer ng-star-inserted</value>
-      <webElementGuid>b9863c87-4208-4605-915d-4b0c38f3de70</webElementGuid>
+      <webElementGuid>63e725d8-b5a3-4962-bd24-9fe9f98bfacf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +58,7 @@
       <name>id</name>
       <type>Main</type>
       <value>mat-dialog-2</value>
-      <webElementGuid>bd81e840-dc7c-49c3-87b1-b369e4729f9b</webElementGuid>
+      <webElementGuid>712ec170-ca0a-41fb-9e4e-7c359691f800</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -62,7 +66,7 @@
       <name>role</name>
       <type>Main</type>
       <value>dialog</value>
-      <webElementGuid>b646d2a2-c647-426a-be22-9a2f868ca35e</webElementGuid>
+      <webElementGuid>3dd95885-9564-4c5f-b72e-9fb0dc4e3d53</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +74,7 @@
       <name>aria-labelledby</name>
       <type>Main</type>
       <value>mat-dialog-title-2</value>
-      <webElementGuid>c2c2f945-b2a7-4cbb-ac04-b98d3916071c</webElementGuid>
+      <webElementGuid>83a63949-44e5-420d-9b02-b99c0ecc02dd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -78,7 +82,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Import CSV FileNeed a CSV template? Download it here . Choose File No file chosen createImporting Organization Unit *ImportCancel</value>
-      <webElementGuid>fd785e52-f388-44c0-9b8b-0d64e00195b8</webElementGuid>
+      <webElementGuid>d3b01ff2-57e7-447e-bedc-7cecb8b0e352</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -86,7 +90,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-dialog-2&quot;)</value>
-      <webElementGuid>bf692ce7-0c7d-43e1-922b-91eb0cdfd87f</webElementGuid>
+      <webElementGuid>8498334f-b593-4ed9-abb1-410b26b1558d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -94,7 +98,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//mat-dialog-container[@id='mat-dialog-2']</value>
-      <webElementGuid>1712748f-9b5c-4532-84ed-c0d42daf0805</webElementGuid>
+      <webElementGuid>f41f274c-b5c9-4bbe-90a0-e61baf99beba</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +106,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='cdk-overlay-2']/mat-dialog-container</value>
-      <webElementGuid>faeb480d-4ced-475b-98fc-345c89436ced</webElementGuid>
+      <webElementGuid>f67e23a8-8336-476c-8891-04b7c13364e3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +114,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('id(', '&quot;', 'mat-dialog-2', '&quot;', ')')])[1]/following::mat-dialog-container[1]</value>
-      <webElementGuid>d2733f6f-43ce-40b3-b021-82b7012ab7b8</webElementGuid>
+      <webElementGuid>99c48d41-f692-4a40-a701-569a7348dad9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +122,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='`'])[2]/following::mat-dialog-container[1]</value>
-      <webElementGuid>d3838753-03ec-420e-9e84-1f75670e082d</webElementGuid>
+      <webElementGuid>d79b58fc-de2d-4cb0-9451-c5a8e44fc332</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,7 +130,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//mat-dialog-container</value>
-      <webElementGuid>dda652ef-d7f8-4efe-8fcc-d31c0c5c81f3</webElementGuid>
+      <webElementGuid>10aff598-48d1-4dad-b0ef-ca57b7423557</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,6 +138,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//mat-dialog-container[@id = 'mat-dialog-2' and (text() = 'Import CSV FileNeed a CSV template? Download it here . Choose File No file chosen createImporting Organization Unit *ImportCancel' or . = 'Import CSV FileNeed a CSV template? Download it here . Choose File No file chosen createImporting Organization Unit *ImportCancel')]</value>
-      <webElementGuid>5b584135-4074-4023-b96f-4b26b9cc5a65</webElementGuid>
+      <webElementGuid>0a59d7dc-0aac-44a5-b7ec-900a01289b3c</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

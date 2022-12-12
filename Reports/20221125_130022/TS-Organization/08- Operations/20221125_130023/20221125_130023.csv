@@ -1,0 +1,163 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+08- Operations,Chrome 107.0.0.0,,,2022-11-25 13:00:26,2022-11-25 13:03:34,3m - 8.004s,PASSED
+,,,,,,,
+Test Cases/08- Operations/01 - Client Assignment - Select Org unit,Chrome 107.0.0.0,Need to add this autotester03@mailinator.com as a CLIENT under connection before running this TC,,2022-11-25 13:00:26,2022-11-25 13:01:32,1m - 6.057s,PASSED
+"openBrowser("""")",Chrome 107.0.0.0,,,2022-11-25 13:00:27,2022-11-25 13:00:29,2.187s,PASSED
+"navigateToUrl(""https://lab.everleagues.com/"")",Chrome 107.0.0.0,,,2022-11-25 13:00:29,2022-11-25 13:00:40,11.610s,PASSED
+maximizeWindow(),Chrome 107.0.0.0,,,2022-11-25 13:00:40,2022-11-25 13:00:41,0.155s,PASSED
+"setText(findTestObject(""02-Side Icons(Organization)/Add Contact/Email Field""), ""testuser02@mailinator.com"")",Chrome 107.0.0.0,,,2022-11-25 13:00:41,2022-11-25 13:00:41,0.760s,PASSED
+"setEncryptedText(findTestObject(""02-Side Icons(Organization)/Add Contact/Password Field""), ""8yFRyszE6U6jvsCn51OQbg=="")",Chrome 107.0.0.0,,,2022-11-25 13:00:41,2022-11-25 13:00:42,0.574s,PASSED
+"click(findTestObject(""02-Side Icons(Organization)/Add Contact/button_Sign in""))",Chrome 107.0.0.0,,,2022-11-25 13:00:42,2022-11-25 13:00:43,0.730s,PASSED
+delay(3),Chrome 107.0.0.0,,,2022-11-25 13:00:43,2022-11-25 13:00:46,3.028s,PASSED
+"click(findTestObject(""06-Teams/For 2FA/button_Confirm_2FA""))",Chrome 107.0.0.0,,,2022-11-25 13:00:46,2022-11-25 13:00:46,0.360s,PASSED
+"executeJavaScript(""window.open();"", [])",Chrome 107.0.0.0,,,2022-11-25 13:00:46,2022-11-25 13:00:46,0.061s,PASSED
+currentWindow = getWindowIndex(),Chrome 107.0.0.0,,,2022-11-25 13:00:46,2022-11-25 13:00:46,0.025s,PASSED
+delay(3),Chrome 107.0.0.0,,,2022-11-25 13:00:46,2022-11-25 13:00:49,3.013s,PASSED
+switchToWindowIndex(currentWindow + 1),Chrome 107.0.0.0,,,2022-11-25 13:00:49,2022-11-25 13:00:49,0.033s,PASSED
+"navigateToUrl(""https://www.mailinator.com/"")",Chrome 107.0.0.0,,,2022-11-25 13:00:49,2022-11-25 13:00:51,2.065s,PASSED
+delay(3),Chrome 107.0.0.0,,,2022-11-25 13:00:51,2022-11-25 13:00:54,3.008s,PASSED
+"setText(findTestObject(""00-Signup and Activation/zMailinator/input_LOGIN_search""), ""testuser02@mailinator.com"")",Chrome 107.0.0.0,,,2022-11-25 13:00:54,2022-11-25 13:00:55,0.677s,PASSED
+"click(findTestObject(""00-Signup and Activation/zMailinator/gobutton""), STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-11-25 13:00:55,2022-11-25 13:00:57,1.525s,PASSED
+delay(3),Chrome 107.0.0.0,,,2022-11-25 13:00:57,2022-11-25 13:01:00,3.011s,PASSED
+"click(findTestObject(""00-Signup and Activation/zMailinator/Email - everleagues""))",Chrome 107.0.0.0,,,2022-11-25 13:01:00,2022-11-25 13:01:00,0.372s,PASSED
+delay(3),Chrome 107.0.0.0,,,2022-11-25 13:01:00,2022-11-25 13:01:03,3.015s,PASSED
+"code = getText(findTestObject(""Object Repository/06-Teams/For 2FA/2FA code""))",Chrome 107.0.0.0,,,2022-11-25 13:01:03,2022-11-25 13:01:03,0.458s,PASSED
+delay(3),Chrome 107.0.0.0,,,2022-11-25 13:01:03,2022-11-25 13:01:06,3.007s,PASSED
+"closeWindowTitle(""Mailinator"")",Chrome 107.0.0.0,,,2022-11-25 13:01:06,2022-11-25 13:01:07,0.175s,PASSED
+delay(3),Chrome 107.0.0.0,,,2022-11-25 13:01:07,2022-11-25 13:01:10,3.004s,PASSED
+switchToWindowIndex(0),Chrome 107.0.0.0,,,2022-11-25 13:01:10,2022-11-25 13:01:10,0.018s,PASSED
+delay(3),Chrome 107.0.0.0,,,2022-11-25 13:01:10,2022-11-25 13:01:13,3.007s,PASSED
+"setText(findTestObject(""Object Repository/06-Teams/For 2FA/input_Enter verification code_code""), code)",Chrome 107.0.0.0,,,2022-11-25 13:01:13,2022-11-25 13:01:13,0.678s,PASSED
+delay(3),Chrome 107.0.0.0,,,2022-11-25 13:01:13,2022-11-25 13:01:16,3.015s,PASSED
+"click(findTestObject(""06-Teams/For 2FA/button_Verify_2FA""))",Chrome 107.0.0.0,,,2022-11-25 13:01:16,2022-11-25 13:01:17,0.643s,PASSED
+delay(3),Chrome 107.0.0.0,,,2022-11-25 13:01:17,2022-11-25 13:01:20,3.004s,PASSED
+"click(findTestObject(""03-Header Menu/Hamburger Button/div_Operation""))",Chrome 107.0.0.0,,,2022-11-25 13:01:20,2022-11-25 13:01:22,2.498s,PASSED
+"verifyElementVisible(findTestObject(""08-Operations/Client_Assignment""))",Chrome 107.0.0.0,,,2022-11-25 13:01:22,2022-11-25 13:01:23,0.486s,PASSED
+"verifyElementVisible(findTestObject(""08-Operations/Private_Circle""))",Chrome 107.0.0.0,,,2022-11-25 13:01:23,2022-11-25 13:01:23,0.342s,PASSED
+delay(3),Chrome 107.0.0.0,,,2022-11-25 13:01:23,2022-11-25 13:01:26,3.007s,PASSED
+"click(findTestObject(""08-Operations/Client_Assignment""))",Chrome 107.0.0.0,,,2022-11-25 13:01:26,2022-11-25 13:01:27,0.501s,PASSED
+"verifyElementVisible(findTestObject(""08-Operations/Client Assignment/Client Assignment Page""))",Chrome 107.0.0.0,,,2022-11-25 13:01:27,2022-11-25 13:01:28,1.249s,PASSED
+delay(3),Chrome 107.0.0.0,,,2022-11-25 13:01:28,2022-11-25 13:01:31,3.007s,PASSED
+"click(findTestObject(""08-Operations/Client Assignment/Org unit edit""))",Chrome 107.0.0.0,,,2022-11-25 13:01:31,2022-11-25 13:01:31,0.457s,PASSED
+"verifyElementVisible(findTestObject(""08-Operations/Client Assignment/Select org unit modal""))",Chrome 107.0.0.0,,,2022-11-25 13:01:31,2022-11-25 13:01:32,0.439s,PASSED
+"click(findTestObject(""08-Operations/Client Assignment/button_Select_org unit select""))",Chrome 107.0.0.0,,,2022-11-25 13:01:32,2022-11-25 13:01:32,0.460s,PASSED
+,,,,,,,
+Test Cases/08- Operations/02 - Client Assignment by Employee,Chrome 107.0.0.0,,,2022-11-25 13:01:32,2022-11-25 13:01:59,26.462s,PASSED
+delay(3),Chrome 107.0.0.0,,,2022-11-25 13:01:33,2022-11-25 13:01:36,3.008s,PASSED
+"verifyElementNotClickable(findTestObject(""08-Operations/Client Assignment/button_ Assign""))",Chrome 107.0.0.0,,,2022-11-25 13:01:36,2022-11-25 13:01:36,0.346s,PASSED
+"verifyElementNotClickable(findTestObject(""08-Operations/Client Assignment/button_Unassign""))",Chrome 107.0.0.0,,,2022-11-25 13:01:36,2022-11-25 13:01:36,0.325s,PASSED
+delay(3),Chrome 107.0.0.0,,,2022-11-25 13:01:36,2022-11-25 13:01:39,3.005s,PASSED
+"click(findTestObject(""08-Operations/Client Assignment/div_GG TESTER""))",Chrome 107.0.0.0,,,2022-11-25 13:01:39,2022-11-25 13:01:40,0.367s,PASSED
+"verifyElementVisible(findTestObject(""08-Operations/Client Assignment/Clients column""))",Chrome 107.0.0.0,,,2022-11-25 13:01:40,2022-11-25 13:01:40,0.464s,PASSED
+"verifyElementVisible(findTestObject(""08-Operations/Client Assignment/Assigned Clients empty""))",Chrome 107.0.0.0,,,2022-11-25 13:01:40,2022-11-25 13:01:41,0.345s,PASSED
+delay(3),Chrome 107.0.0.0,,,2022-11-25 13:01:41,2022-11-25 13:01:44,3.009s,PASSED
+"click(findTestObject(""08-Operations/Client Assignment/div_GTGG Tester 3""))",Chrome 107.0.0.0,,,2022-11-25 13:01:44,2022-11-25 13:01:44,0.408s,PASSED
+"verifyElementClickable(findTestObject(""08-Operations/Client Assignment/button_ Assign""))",Chrome 107.0.0.0,,,2022-11-25 13:01:44,2022-11-25 13:01:44,0.446s,PASSED
+"click(findTestObject(""08-Operations/Client Assignment/button_ Assign""))",Chrome 107.0.0.0,,,2022-11-25 13:01:44,2022-11-25 13:01:45,0.487s,PASSED
+"verifyElementVisible(findTestObject(""08-Operations/Client Assignment/Updated assignment msg""))",Chrome 107.0.0.0,,,2022-11-25 13:01:45,2022-11-25 13:01:46,1.327s,PASSED
+delay(3),Chrome 107.0.0.0,,,2022-11-25 13:01:46,2022-11-25 13:01:49,3.014s,PASSED
+"verifyElementVisible(findTestObject(""08-Operations/Client Assignment/Client column Empty""))",Chrome 107.0.0.0,,,2022-11-25 13:01:49,2022-11-25 13:01:50,0.337s,PASSED
+"verifyElementVisible(findTestObject(""08-Operations/Client Assignment/Assigned clients column""))",Chrome 107.0.0.0,,,2022-11-25 13:01:50,2022-11-25 13:01:50,0.329s,PASSED
+delay(3),Chrome 107.0.0.0,,,2022-11-25 13:01:50,2022-11-25 13:01:53,3.012s,PASSED
+"click(findTestObject(""08-Operations/Client Assignment/div_GTGG Tester 3""))",Chrome 107.0.0.0,,,2022-11-25 13:01:53,2022-11-25 13:01:53,0.358s,PASSED
+"verifyElementClickable(findTestObject(""08-Operations/Client Assignment/button_Unassign""))",Chrome 107.0.0.0,,,2022-11-25 13:01:53,2022-11-25 13:01:54,0.539s,PASSED
+"click(findTestObject(""08-Operations/Client Assignment/button_Unassign""))",Chrome 107.0.0.0,,,2022-11-25 13:01:54,2022-11-25 13:01:54,0.378s,PASSED
+"verifyElementVisible(findTestObject(""08-Operations/Client Assignment/Updated assignment msg""))",Chrome 107.0.0.0,,,2022-11-25 13:01:54,2022-11-25 13:01:55,0.528s,PASSED
+delay(3),Chrome 107.0.0.0,,,2022-11-25 13:01:55,2022-11-25 13:01:58,3.006s,PASSED
+"verifyElementVisible(findTestObject(""08-Operations/Client Assignment/Clients column""))",Chrome 107.0.0.0,,,2022-11-25 13:01:58,2022-11-25 13:01:59,0.768s,PASSED
+"verifyElementVisible(findTestObject(""08-Operations/Client Assignment/Assigned Clients empty""))",Chrome 107.0.0.0,,,2022-11-25 13:01:59,2022-11-25 13:01:59,0.328s,PASSED
+,,,,,,,
+Test Cases/08- Operations/03 - Client Assignment by Client,Chrome 107.0.0.0,,,2022-11-25 13:01:59,2022-11-25 13:02:31,31.684s,PASSED
+delay(3),Chrome 107.0.0.0,,,2022-11-25 13:01:59,2022-11-25 13:02:02,3.012s,PASSED
+"click(findTestObject(""08-Operations/Client Assignment/div_By Client""))",Chrome 107.0.0.0,,,2022-11-25 13:02:02,2022-11-25 13:02:03,0.367s,PASSED
+"verifyElementVisible(findTestObject(""08-Operations/Client Assignment/By Client modal""))",Chrome 107.0.0.0,,,2022-11-25 13:02:03,2022-11-25 13:02:04,1.367s,PASSED
+"verifyElementNotClickable(findTestObject(""08-Operations/Client Assignment/button_ Assign""))",Chrome 107.0.0.0,,,2022-11-25 13:02:04,2022-11-25 13:02:04,0.320s,PASSED
+"verifyElementNotClickable(findTestObject(""08-Operations/Client Assignment/button_Unassign""))",Chrome 107.0.0.0,,,2022-11-25 13:02:04,2022-11-25 13:02:05,0.312s,PASSED
+delay(3),Chrome 107.0.0.0,,,2022-11-25 13:02:05,2022-11-25 13:02:08,3.003s,PASSED
+"click(findTestObject(""08-Operations/Client Assignment/div_GTGG Tester 3""))",Chrome 107.0.0.0,,,2022-11-25 13:02:08,2022-11-25 13:02:08,0.821s,PASSED
+"verifyElementVisible(findTestObject(""08-Operations/Client Assignment/Employees column""))",Chrome 107.0.0.0,,,2022-11-25 13:02:08,2022-11-25 13:02:09,0.449s,PASSED
+"verifyElementVisible(findTestObject(""08-Operations/Client Assignment/Assigned Employees empty""))",Chrome 107.0.0.0,,,2022-11-25 13:02:09,2022-11-25 13:02:09,0.449s,PASSED
+delay(3),Chrome 107.0.0.0,,,2022-11-25 13:02:09,2022-11-25 13:02:12,3.016s,PASSED
+"click(findTestObject(""08-Operations/Client Assignment/div_GG TESTER""))",Chrome 107.0.0.0,,,2022-11-25 13:02:12,2022-11-25 13:02:13,0.360s,PASSED
+"click(findTestObject(""08-Operations/Client Assignment/button_ Assign""))",Chrome 107.0.0.0,,,2022-11-25 13:02:13,2022-11-25 13:02:13,0.589s,PASSED
+"verifyElementVisible(findTestObject(""08-Operations/Client Assignment/Updated assignment msg""))",Chrome 107.0.0.0,,,2022-11-25 13:02:13,2022-11-25 13:02:15,1.374s,PASSED
+delay(3),Chrome 107.0.0.0,,,2022-11-25 13:02:15,2022-11-25 13:02:18,3.010s,PASSED
+"verifyElementVisible(findTestObject(""08-Operations/Client Assignment/Employees column after assign""))",Chrome 107.0.0.0,,,2022-11-25 13:02:18,2022-11-25 13:02:18,0.658s,PASSED
+"verifyElementVisible(findTestObject(""08-Operations/Client Assignment/Assigned Employees - GG TESTER""))",Chrome 107.0.0.0,,,2022-11-25 13:02:18,2022-11-25 13:02:19,0.344s,PASSED
+delay(3),Chrome 107.0.0.0,,,2022-11-25 13:02:19,2022-11-25 13:02:22,3.016s,PASSED
+"click(findTestObject(""08-Operations/Client Assignment/div_GG TESTER""))",Chrome 107.0.0.0,,,2022-11-25 13:02:22,2022-11-25 13:02:22,0.371s,PASSED
+"click(findTestObject(""08-Operations/Client Assignment/button_Unassign""))",Chrome 107.0.0.0,,,2022-11-25 13:02:22,2022-11-25 13:02:22,0.487s,PASSED
+"verifyElementVisible(findTestObject(""08-Operations/Client Assignment/Updated assignment msg""))",Chrome 107.0.0.0,,,2022-11-25 13:02:22,2022-11-25 13:02:24,1.404s,PASSED
+delay(3),Chrome 107.0.0.0,,,2022-11-25 13:02:24,2022-11-25 13:02:27,3.004s,PASSED
+"verifyElementVisible(findTestObject(""08-Operations/Client Assignment/Employees column""))",Chrome 107.0.0.0,,,2022-11-25 13:02:27,2022-11-25 13:02:27,0.341s,PASSED
+"verifyElementVisible(findTestObject(""08-Operations/Client Assignment/Assigned Employees empty""))",Chrome 107.0.0.0,,,2022-11-25 13:02:27,2022-11-25 13:02:28,0.325s,PASSED
+delay(3),Chrome 107.0.0.0,,,2022-11-25 13:02:28,2022-11-25 13:02:31,3.012s,PASSED
+,,,,,,,
+Test Cases/08- Operations/04- Private Circle (Selecting a User),Chrome 107.0.0.0,,,2022-11-25 13:02:31,2022-11-25 13:02:40,9.312s,PASSED
+delay(3),Chrome 107.0.0.0,,,2022-11-25 13:02:31,2022-11-25 13:02:34,3.005s,PASSED
+"click(findTestObject(""08-Operations/Private_Circle""))",Chrome 107.0.0.0,,,2022-11-25 13:02:34,2022-11-25 13:02:34,0.485s,PASSED
+"verifyElementVisible(findTestObject(""08-Operations/Private Circle/Private Circle page""))",Chrome 107.0.0.0,,,2022-11-25 13:02:34,2022-11-25 13:02:35,0.444s,PASSED
+"click(findTestObject(""08-Operations/Private Circle/Input_Select user""))",Chrome 107.0.0.0,,,2022-11-25 13:02:35,2022-11-25 13:02:36,0.797s,PASSED
+"click(findTestObject(""08-Operations/Private Circle/span_GG Tester 3""))",Chrome 107.0.0.0,,,2022-11-25 13:02:36,2022-11-25 13:02:36,0.476s,PASSED
+"verifyElementVisible(findTestObject(""08-Operations/Private Circle/div_Showing GG Tester 3s private circle""))",Chrome 107.0.0.0,,,2022-11-25 13:02:36,2022-11-25 13:02:37,0.802s,PASSED
+delay(3),Chrome 107.0.0.0,,,2022-11-25 13:02:37,2022-11-25 13:02:40,3.003s,PASSED
+,,,,,,,
+Test Cases/08- Operations/05 - Adding private circle but with blank fields,Chrome 107.0.0.0,,,2022-11-25 13:02:40,2022-11-25 13:02:49,8.836s,PASSED
+"click(findTestObject(""08-Operations/Private Circle/button_add""))",Chrome 107.0.0.0,,,2022-11-25 13:02:40,2022-11-25 13:02:41,0.386s,PASSED
+"verifyElementVisible(findTestObject(""08-Operations/Private Circle/Add New Circle modal""))",Chrome 107.0.0.0,,,2022-11-25 13:02:41,2022-11-25 13:02:41,0.779s,PASSED
+"verifyElementNotClickable(findTestObject(""08-Operations/Private Circle/button_Add modal""))",Chrome 107.0.0.0,,,2022-11-25 13:02:41,2022-11-25 13:02:42,0.541s,PASSED
+"click(findTestObject(""08-Operations/Private Circle/Select User dropdown""))",Chrome 107.0.0.0,,,2022-11-25 13:02:42,2022-11-25 13:02:42,0.365s,PASSED
+"clickOffset(findTestObject(""08-Operations/Private Circle/h4_Add New Circle Association""), 100, 100)",Chrome 107.0.0.0,,,2022-11-25 13:02:42,2022-11-25 13:02:43,0.582s,PASSED
+"click(findTestObject(""08-Operations/Private Circle/Relationship dropdown""))",Chrome 107.0.0.0,,,2022-11-25 13:02:43,2022-11-25 13:02:44,1.004s,PASSED
+"clickOffset(findTestObject(""08-Operations/Private Circle/h4_Add New Circle Association""), 100, 100)",Chrome 107.0.0.0,,,2022-11-25 13:02:44,2022-11-25 13:02:44,0.571s,PASSED
+"verifyElementVisible(findTestObject(""08-Operations/Private Circle/Select User Field is required""))",Chrome 107.0.0.0,,,2022-11-25 13:02:44,2022-11-25 13:02:45,0.993s,PASSED
+"verifyElementVisible(findTestObject(""08-Operations/Private Circle/Relationship is required""))",Chrome 107.0.0.0,,,2022-11-25 13:02:45,2022-11-25 13:02:46,0.327s,PASSED
+delay(3),Chrome 107.0.0.0,,,2022-11-25 13:02:46,2022-11-25 13:02:49,3.006s,PASSED
+,,,,,,,
+Test Cases/08- Operations/06 - Adding a Private Circle Successfully,Chrome 107.0.0.0,,,2022-11-25 13:02:49,2022-11-25 13:03:22,32.849s,PASSED
+"click(findTestObject(""08-Operations/Private Circle/Select User Field is required""))",Chrome 107.0.0.0,,,2022-11-25 13:02:49,2022-11-25 13:02:49,0.348s,PASSED
+"verifyElementVisible(findTestObject(""08-Operations/Private Circle/mat-option_New Contact""))",Chrome 107.0.0.0,,,2022-11-25 13:02:49,2022-11-25 13:02:50,0.449s,PASSED
+"verifyElementVisible(findTestObject(""08-Operations/Private Circle/mat-option_GG TESTER""))",Chrome 107.0.0.0,,,2022-11-25 13:02:50,2022-11-25 13:02:50,0.327s,PASSED
+"verifyElementVisible(findTestObject(""08-Operations/Private Circle/mat-option_GG tester 2""))",Chrome 107.0.0.0,,,2022-11-25 13:02:50,2022-11-25 13:02:50,0.327s,PASSED
+"click(findTestObject(""08-Operations/Private Circle/mat-option_New Contact""))",Chrome 107.0.0.0,,,2022-11-25 13:02:50,2022-11-25 13:02:51,0.380s,PASSED
+"verifyElementVisible(findTestObject(""08-Operations/Private Circle/Add New Contact modal""))",Chrome 107.0.0.0,,,2022-11-25 13:02:51,2022-11-25 13:02:52,0.992s,PASSED
+"setText(findTestObject(""08-Operations/Private Circle/input_firstName""), ""GG Auto"")",Chrome 107.0.0.0,,,2022-11-25 13:02:52,2022-11-25 13:02:53,0.792s,PASSED
+"setText(findTestObject(""08-Operations/Private Circle/input_lastName""), ""Contact"")",Chrome 107.0.0.0,,,2022-11-25 13:02:53,2022-11-25 13:02:53,0.817s,PASSED
+"click(findTestObject(""08-Operations/Private Circle/button_Create""))",Chrome 107.0.0.0,,,2022-11-25 13:02:53,2022-11-25 13:02:54,0.484s,PASSED
+delay(3),Chrome 107.0.0.0,,,2022-11-25 13:02:54,2022-11-25 13:02:57,3.017s,PASSED
+"click(findTestObject(""08-Operations/Private Circle/Relationship dropdown""))",Chrome 107.0.0.0,,,2022-11-25 13:02:57,2022-11-25 13:02:57,0.347s,PASSED
+"verifyElementVisible(findTestObject(""08-Operations/Private Circle/mat-option_Spouse""))",Chrome 107.0.0.0,,,2022-11-25 13:02:57,2022-11-25 13:02:58,0.489s,PASSED
+"verifyElementVisible(findTestObject(""08-Operations/Private Circle/mat-option_Child""))",Chrome 107.0.0.0,,,2022-11-25 13:02:58,2022-11-25 13:02:58,0.548s,PASSED
+"verifyElementVisible(findTestObject(""08-Operations/Private Circle/mat-option_Friend""))",Chrome 107.0.0.0,,,2022-11-25 13:02:58,2022-11-25 13:02:59,0.329s,PASSED
+"verifyElementVisible(findTestObject(""08-Operations/Private Circle/mat-option_Colleague""))",Chrome 107.0.0.0,,,2022-11-25 13:02:59,2022-11-25 13:02:59,0.328s,PASSED
+"verifyElementVisible(findTestObject(""08-Operations/Private Circle/mat-option_Others""))",Chrome 107.0.0.0,,,2022-11-25 13:02:59,2022-11-25 13:02:59,0.329s,PASSED
+"click(findTestObject(""08-Operations/Private Circle/mat-option_Others""))",Chrome 107.0.0.0,,,2022-11-25 13:02:59,2022-11-25 13:03:00,0.463s,PASSED
+delay(3),Chrome 107.0.0.0,,,2022-11-25 13:03:00,2022-11-25 13:03:03,3.014s,PASSED
+"click(findTestObject(""08-Operations/Private Circle/button_Add modal""))",Chrome 107.0.0.0,,,2022-11-25 13:03:03,2022-11-25 13:03:03,0.356s,PASSED
+"verifyElementVisible(findTestObject(""08-Operations/Private Circle/Successfully added association""))",Chrome 107.0.0.0,,,2022-11-25 13:03:03,2022-11-25 13:03:04,1.321s,PASSED
+delay(3),Chrome 107.0.0.0,,,2022-11-25 13:03:04,2022-11-25 13:03:07,3.015s,PASSED
+"click(findTestObject(""08-Operations/Private Circle/Input_Select user""))",Chrome 107.0.0.0,,,2022-11-25 13:03:07,2022-11-25 13:03:08,0.785s,PASSED
+"click(findTestObject(""08-Operations/Private Circle/span_GG Tester 3""))",Chrome 107.0.0.0,,,2022-11-25 13:03:08,2022-11-25 13:03:09,0.566s,PASSED
+"click(findTestObject(""08-Operations/Private Circle/button_add""))",Chrome 107.0.0.0,,,2022-11-25 13:03:09,2022-11-25 13:03:10,0.803s,PASSED
+"click(findTestObject(""08-Operations/Private Circle/Select User dropdown""))",Chrome 107.0.0.0,,,2022-11-25 13:03:10,2022-11-25 13:03:10,0.793s,PASSED
+"click(findTestObject(""08-Operations/Private Circle/mat-option_GG TESTER""))",Chrome 107.0.0.0,,,2022-11-25 13:03:10,2022-11-25 13:03:11,0.574s,PASSED
+"click(findTestObject(""08-Operations/Private Circle/Relationship dropdown""))",Chrome 107.0.0.0,,,2022-11-25 13:03:11,2022-11-25 13:03:12,1.023s,PASSED
+"click(findTestObject(""08-Operations/Private Circle/mat-option_Others""))",Chrome 107.0.0.0,,,2022-11-25 13:03:12,2022-11-25 13:03:13,0.571s,PASSED
+"click(findTestObject(""08-Operations/Private Circle/button_Add modal""))",Chrome 107.0.0.0,,,2022-11-25 13:03:13,2022-11-25 13:03:14,1.020s,PASSED
+"verifyElementVisible(findTestObject(""08-Operations/Private Circle/Successfully added association""))",Chrome 107.0.0.0,,,2022-11-25 13:03:14,2022-11-25 13:03:15,1.288s,PASSED
+delay(3),Chrome 107.0.0.0,,,2022-11-25 13:03:15,2022-11-25 13:03:18,3.008s,PASSED
+"verifyElementVisible(findTestObject(""08-Operations/Private Circle/td_GG TESTER""))",Chrome 107.0.0.0,,,2022-11-25 13:03:18,2022-11-25 13:03:18,0.336s,PASSED
+"verifyElementVisible(findTestObject(""08-Operations/Private Circle/td_GG Auto Contact""))",Chrome 107.0.0.0,,,2022-11-25 13:03:18,2022-11-25 13:03:19,0.326s,PASSED
+delay(3),Chrome 107.0.0.0,,,2022-11-25 13:03:19,2022-11-25 13:03:22,3.012s,PASSED
+,,,,,,,
+Test Cases/08- Operations/07- Deleting a private circle,Chrome 107.0.0.0,,,2022-11-25 13:03:22,2022-11-25 13:03:34,12.468s,PASSED
+"click(findTestObject(""08-Operations/Private Circle/button_delete""))",Chrome 107.0.0.0,,,2022-11-25 13:03:22,2022-11-25 13:03:22,0.382s,PASSED
+"verifyElementVisible(findTestObject(""08-Operations/Private Circle/delete private circle modal""))",Chrome 107.0.0.0,,,2022-11-25 13:03:22,2022-11-25 13:03:23,0.559s,PASSED
+"click(findTestObject(""08-Operations/Private Circle/button_Delete modal""))",Chrome 107.0.0.0,,,2022-11-25 13:03:23,2022-11-25 13:03:24,0.799s,PASSED
+"verifyElementVisible(findTestObject(""08-Operations/Private Circle/Successfully deleted label""))",Chrome 107.0.0.0,,,2022-11-25 13:03:24,2022-11-25 13:03:25,1.201s,PASSED
+delay(3),Chrome 107.0.0.0,,,2022-11-25 13:03:25,2022-11-25 13:03:28,3.008s,PASSED
+"click(findTestObject(""08-Operations/Private Circle/button_delete""))",Chrome 107.0.0.0,,,2022-11-25 13:03:28,2022-11-25 13:03:28,0.626s,PASSED
+"click(findTestObject(""08-Operations/Private Circle/button_Delete modal""))",Chrome 107.0.0.0,,,2022-11-25 13:03:28,2022-11-25 13:03:29,0.693s,PASSED
+"verifyElementVisible(findTestObject(""08-Operations/Private Circle/Successfully deleted label""))",Chrome 107.0.0.0,,,2022-11-25 13:03:29,2022-11-25 13:03:30,1.207s,PASSED
+delay(3),Chrome 107.0.0.0,,,2022-11-25 13:03:30,2022-11-25 13:03:33,3.013s,PASSED
+closeBrowser(),Chrome 107.0.0.0,,,2022-11-25 13:03:33,2022-11-25 13:03:34,0.718s,PASSED

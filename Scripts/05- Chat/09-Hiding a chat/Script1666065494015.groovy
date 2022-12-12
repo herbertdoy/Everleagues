@@ -35,7 +35,7 @@ WebUI.delay(3)
 
 WebUI.refresh()
 
-WebUI.delay(10)
+WebUI.delay(5)
 
 WebUI.verifyElementVisible(findTestObject('05-Chat/01- Creating a Chat group/div_No chat available'))
 
@@ -59,5 +59,5 @@ WebUI.delay(3)
 
 WebUI.refresh()
 
-WebUI.delay(10)
+WebUI.delay(3)
 

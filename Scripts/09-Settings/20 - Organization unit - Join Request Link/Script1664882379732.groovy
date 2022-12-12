@@ -64,15 +64,13 @@ WebUI.delay(3)
 //WebUI.delay(3)
 String my_clipboard = Toolkit.getDefaultToolkit().getSystemClipboard().getContents(null).getTransferData(DataFlavor.stringFlavor)
 
-WebUI.openBrowser('')
-
 WebUI.navigateToUrl(my_clipboard)
 
 WebUI.delay(3)
 
 WebUI.verifyElementPresent(findTestObject('09-Settings/Organization unit/mat_card_join request link'), 0)
 
-WebUI.delay(4)
+WebUI.delay(3)
 
 WebUI.closeBrowser()
 

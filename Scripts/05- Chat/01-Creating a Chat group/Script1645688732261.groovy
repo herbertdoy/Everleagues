@@ -137,5 +137,5 @@ WebUI.delay(3)
 
 WebUI.verifyElementVisible(findTestObject('05-Chat/01- Creating a Chat group/div_Automation Chat'))
 
-WebUI.delay(5)
+WebUI.delay(3)
 

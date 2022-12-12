@@ -85,7 +85,7 @@ WebUI.delay(4)
 
 WebUI.verifyElementVisible(findTestObject('06-Teams/span_GG Automation'))
 
-WebUI.delay(10)
+WebUI.delay(5)
 
 WebUI.click(findTestObject('03-Header Menu/Hamburger Button/div_Settings'))
 
@@ -221,5 +221,5 @@ WebUI.click(findTestObject('09-Settings/Users/Active User/button_Save'))
 
 WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/snack-bar-container_Settings savedOK'))
 
-WebUI.delay(4)
+WebUI.delay(3)
 

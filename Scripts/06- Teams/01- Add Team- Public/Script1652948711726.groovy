@@ -143,5 +143,3 @@ WebUI.verifyElementVisible(findTestObject('06-Teams/01-Add Team-Public/span_Auto
 
 WebUI.delay(3)
 
-WebUI.closeBrowser()
-

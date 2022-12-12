@@ -6,15 +6,19 @@
    <elementGuidId>4d36429f-d963-4f19-86ec-b84ef0c26f49</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>//button[@type = 'button' and @mattooltip = 'Create Invitation']</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>button.mat-focus-indicator.mat-icon-button.mat-button-base.mat-primary.ng-star-inserted.cdk-focused.cdk-mouse-focused</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>(//button[@type='button'])[10]</value>
+         <key>BASIC</key>
+         <value>//button[@type = 'button' and @mattooltip = 'Invite' and (text() = 'mail' or . = 'mail')]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>70f91d02-8da6-4838-afae-6e875b7946b5</webElementGuid>
+      <webElementGuid>6f825343-8a3b-408c-9ab7-9ee6dc721de6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +34,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>80a791c2-11b4-499a-927c-cad0e3a94699</webElementGuid>
+      <webElementGuid>450e430d-f687-4e8e-b917-348ea8de0d99</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +42,7 @@
       <name>color</name>
       <type>Main</type>
       <value>primary</value>
-      <webElementGuid>f97cf57f-62c8-4a69-86c7-d6a4bf84c4f8</webElementGuid>
+      <webElementGuid>6db14605-caa4-484b-95d6-14af965197a0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +50,7 @@
       <name>mattooltip</name>
       <type>Main</type>
       <value>Invite</value>
-      <webElementGuid>a3cc4a25-3848-4292-b28d-2a41d5eee5f9</webElementGuid>
+      <webElementGuid>9d8cf9f0-958b-429a-b21b-ba92dc9e67ae</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +58,7 @@
       <name>mattooltipposition</name>
       <type>Main</type>
       <value>above</value>
-      <webElementGuid>cd0cb744-d779-4911-a9c2-fe2bd2c4bdaf</webElementGuid>
+      <webElementGuid>849656fb-4ae6-457f-893d-37beb78ebd01</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +66,7 @@
       <name>permission-type</name>
       <type>Main</type>
       <value>OU_INVITE_CREATE</value>
-      <webElementGuid>4d2daf08-a321-41d3-b63e-775975f5dd73</webElementGuid>
+      <webElementGuid>cfbb2e6d-1077-43ec-8d75-34c8d9806098</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +74,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-focus-indicator mat-icon-button mat-button-base mat-primary ng-star-inserted cdk-focused cdk-mouse-focused</value>
-      <webElementGuid>00b0f947-16c5-4b27-b9a4-a9a0aac08915</webElementGuid>
+      <webElementGuid>c05632c6-e77f-4f34-acb7-abbb9b9255f9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,7 +82,7 @@
       <name>ng-reflect-color</name>
       <type>Main</type>
       <value>primary</value>
-      <webElementGuid>e4730e10-d169-46e3-9c3e-26e2718b4f4a</webElementGuid>
+      <webElementGuid>6b40e6f6-53fa-4a17-a327-dbd7ac5d790d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -86,7 +90,7 @@
       <name>ng-reflect-message</name>
       <type>Main</type>
       <value>Invite</value>
-      <webElementGuid>d29c0a5b-25e0-4a7f-a613-6b95cf79fadf</webElementGuid>
+      <webElementGuid>730e7055-2914-4b1f-907e-f3a390ec7d70</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -94,7 +98,7 @@
       <name>ng-reflect-position</name>
       <type>Main</type>
       <value>above</value>
-      <webElementGuid>689543a3-3e1a-4dba-ace9-d56c204bcf5b</webElementGuid>
+      <webElementGuid>224c9c02-c1e7-4a74-923f-1309280cfc31</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -102,7 +106,7 @@
       <name>ng-reflect-permission-type</name>
       <type>Main</type>
       <value>OU_INVITE_CREATE</value>
-      <webElementGuid>e9377811-6539-4d77-9dd0-dc1a4a65cfa0</webElementGuid>
+      <webElementGuid>b08b6ad8-b12e-4e7d-9773-95bb1c8e982e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -110,7 +114,7 @@
       <name>ng-reflect-disabled</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>2ead10b8-8aa3-435a-9709-4d303bf4b8f3</webElementGuid>
+      <webElementGuid>5c5acb88-95c0-458c-8291-ad0e28031309</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -118,7 +122,7 @@
       <name>aria-describedby</name>
       <type>Main</type>
       <value>cdk-describedby-message-7</value>
-      <webElementGuid>0fadaaf7-2e4c-47ef-92ba-ae3694d84399</webElementGuid>
+      <webElementGuid>f1d06688-0913-4829-af0b-4fcb21969059</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -126,7 +130,7 @@
       <name>text</name>
       <type>Main</type>
       <value>mail</value>
-      <webElementGuid>bc2e916e-60a4-4216-a469-0725e86d2a2c</webElementGuid>
+      <webElementGuid>66553edf-c8b4-48b9-af04-754ea1b92db8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -134,7 +138,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/app-root[1]/app-main-page[@class=&quot;ng-tns-c479-5 ng-trigger ng-trigger-routerAnimation ng-star-inserted&quot;]/mat-sidenav-container[@class=&quot;mat-drawer-container mat-sidenav-container ng-tns-c479-5 mat-drawer-transition&quot;]/mat-sidenav-content[@class=&quot;mat-drawer-content mat-sidenav-content&quot;]/div[@class=&quot;wrapper thin-margin&quot;]/app-directory-contacts[@class=&quot;ng-tns-c682-37 ng-trigger ng-trigger-routerAnimation ng-star-inserted&quot;]/section[@class=&quot;ng-tns-c682-37&quot;]/article[@class=&quot;directory-container ng-tns-c682-37&quot;]/mat-sidenav-container[@class=&quot;mat-drawer-container mat-sidenav-container ng-tns-c682-37&quot;]/mat-sidenav-content[@class=&quot;mat-drawer-content mat-sidenav-content ng-star-inserted&quot;]/div[@class=&quot;contact-details-body&quot;]/perfect-scrollbar[@class=&quot;perfect-scrollbar ng-tns-c682-37&quot;]/div[@class=&quot;ps&quot;]/div[@class=&quot;ps-content&quot;]/div[@class=&quot;contact-profile-container ng-tns-c682-37 ng-star-inserted&quot;]/app-directory-contact-profile[@class=&quot;ng-tns-c682-37&quot;]/form[@class=&quot;ng-untouched ng-pristine&quot;]/div[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;contact-profile-header&quot;]/div[3]/button[@class=&quot;mat-focus-indicator mat-icon-button mat-button-base mat-primary ng-star-inserted cdk-focused cdk-mouse-focused&quot;]</value>
-      <webElementGuid>b81b2ecb-0883-45f3-879b-18c19a7a80ae</webElementGuid>
+      <webElementGuid>5030c6d2-5797-4d41-940d-179843c1923c</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -142,7 +146,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[10]</value>
-      <webElementGuid>d2c37de9-4064-4857-b407-827bb301ccc1</webElementGuid>
+      <webElementGuid>b6bd32da-1861-41f2-9573-6a19377c8adb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -150,7 +154,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Contact'])[1]/following::button[1]</value>
-      <webElementGuid>da79f015-1967-47cd-901f-766f1f3a3ab4</webElementGuid>
+      <webElementGuid>a6090c31-150e-4cfd-94f4-3d0c63b803e6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -158,7 +162,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='GG Auto'])[2]/following::button[1]</value>
-      <webElementGuid>0b5330e3-5e54-45f8-91f5-11da101a98be</webElementGuid>
+      <webElementGuid>80c1c7ac-3a68-40a7-a0a1-31c0a75d577d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -166,7 +170,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='General'])[1]/preceding::button[3]</value>
-      <webElementGuid>59dbe3e1-2ee7-4493-ad29-784f26f14221</webElementGuid>
+      <webElementGuid>280072ae-ceb8-4556-ba09-992c6ec574d3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -174,7 +178,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Organization'])[2]/preceding::button[3]</value>
-      <webElementGuid>c5dc0eb3-0f15-475b-9275-4bf0c8f79eac</webElementGuid>
+      <webElementGuid>78561df4-2320-4f9d-a151-8c69d952cae0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -182,7 +186,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/div/div[3]/button</value>
-      <webElementGuid>19652d07-2373-4501-ab0b-9564eb51defc</webElementGuid>
+      <webElementGuid>dca867df-8a7e-493e-a9f4-6c031dc93b30</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -190,6 +194,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = 'mail' or . = 'mail')]</value>
-      <webElementGuid>59be47f8-5c83-43be-8371-e7be9a82c671</webElementGuid>
+      <webElementGuid>a3572b65-007b-4a13-86be-48a55f02bea3</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

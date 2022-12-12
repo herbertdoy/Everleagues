@@ -6,15 +6,19 @@
    <elementGuidId>e802a4ce-6a61-4ecf-bffc-fd40db682395</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//div[@class = 'reactions-container' and (text() = '💖 1' or . = '💖 1')]</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>div.reactions-container</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='msgid-1665998083630']/ui-chat-message/div/app-msg-reactions/div</value>
+         <value>(//app-msg-reactions[@class='ng-star-inserted']//div)[1]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>41575a16-c6f2-4791-a447-d0c87400d542</webElementGuid>
+      <webElementGuid>04341e5e-5e54-43cc-8f8e-11b5d64c22b7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>reactions-container</value>
-      <webElementGuid>d2c17a61-d126-432c-aa58-a8f63437a271</webElementGuid>
+      <webElementGuid>1acba5fd-ec7c-417e-bf41-3d7f34d8745d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +42,7 @@
       <name>text</name>
       <type>Main</type>
       <value>💖 1</value>
-      <webElementGuid>79940d1b-642a-4715-9655-34901abcbec7</webElementGuid>
+      <webElementGuid>e5e7eacd-4aa7-4501-98ee-44b77c3fd9f5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +50,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;msgid-1665998083630&quot;)/ui-chat-message[@class=&quot;ng-tns-c551-88&quot;]/div[@class=&quot;self ng-star-inserted&quot;]/app-msg-reactions[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;reactions-container&quot;]</value>
-      <webElementGuid>bc9f0659-4a1c-44dc-b43f-15707ffc5778</webElementGuid>
+      <webElementGuid>60fcfc71-6651-4ea9-a6d3-a6114648f34f</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +58,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='msgid-1665998083630']/ui-chat-message/div/app-msg-reactions/div</value>
-      <webElementGuid>c5cf3b06-7fa1-4578-8cef-d1b14676ae4e</webElementGuid>
+      <webElementGuid>53677868-6c26-4c6f-bc57-217da79b6fe3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +66,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Testing automation'])[1]/following::div[4]</value>
-      <webElementGuid>da6414af-c058-4f90-9408-b5d960ef55e5</webElementGuid>
+      <webElementGuid>52d0aed8-badb-4a41-9893-f848a68e09a5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='You'])[2]/following::div[7]</value>
-      <webElementGuid>0e7989ed-8165-4d84-ba70-3c5e9d84ab6e</webElementGuid>
+      <webElementGuid>f32a0227-9dfe-4aa8-a8c4-79ab72a274c1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='You'])[3]/preceding::div[3]</value>
-      <webElementGuid>e2f1c44b-47fa-4508-9b4a-6764b0a95675</webElementGuid>
+      <webElementGuid>064fb114-855c-4c8e-ac2c-30ca3d544fb3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +90,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//app-msg-reactions/div</value>
-      <webElementGuid>ffef7b41-f9d9-45a4-8d84-ae588c24d819</webElementGuid>
+      <webElementGuid>c3b9193f-d11c-4acc-a552-df005a4cdab5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,6 +98,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = '💖 1' or . = '💖 1')]</value>
-      <webElementGuid>823589d5-3508-4d4c-8020-6a33320ef56c</webElementGuid>
+      <webElementGuid>6590a04a-fe87-4ac8-ba9c-65b9093e5163</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

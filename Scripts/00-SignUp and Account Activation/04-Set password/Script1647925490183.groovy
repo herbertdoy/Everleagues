@@ -36,7 +36,7 @@ WebUI.delay(2)
 
 WebUI.click(findTestObject('00-Signup and Activation/button_Confirm'))
 
-WebUI.delay(10)
+WebUI.delay(5)
 
 WebUI.verifyElementVisible(findTestObject('00-Signup and Activation/h4_Welcome to Everleagues'))
 

@@ -85,7 +85,7 @@ WebUI.delay(4)
 
 WebUI.verifyElementVisible(findTestObject('06-Teams/span_GG Automation'))
 
-WebUI.delay(10)
+WebUI.delay(5)
 
 WebUI.click(findTestObject('03-Header Menu/Hamburger Button/div_Settings'))
 
@@ -121,9 +121,9 @@ WebUI.click(findTestObject('09-Settings/Users/Active User/button_search'))
 
 WebUI.setText(findTestObject('09-Settings/Users/Active User/Search field'), 'test3')
 
-WebUI.delay(3)
+WebUI.delay(1)
 
 WebUI.click(findTestObject('09-Settings/Users/Active User/button_Cancel'))
 
-WebUI.delay(5)
+WebUI.delay(2)
 

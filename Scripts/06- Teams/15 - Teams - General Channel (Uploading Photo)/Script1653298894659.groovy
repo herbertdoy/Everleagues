@@ -31,5 +31,5 @@ WebUI.delay(3)
 
 WebUI.verifyElementVisible(findTestObject('06-Teams/05- Teams-General Channel/posted image'))
 
-WebUI.delay(10)
+WebUI.delay(5)
 

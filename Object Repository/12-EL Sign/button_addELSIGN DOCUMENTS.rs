@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_addELSIGN DOCUMENTS</name>
+   <tag></tag>
+   <elementGuidId>264189f7-46b6-4642-973e-da4eeff21db3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.mat-focus-indicator.mat-raised-button.mat-button-base.mat-accent.ng-star-inserted.cdk-focused.cdk-mouse-focused</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//mat-tab-body[@id='mat-tab-content-16-0']/div/app-ezsign-senderdocuments/div/table/tr/td/button</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>c8ed6796-98cd-4a45-94ba-54d723ed9d2d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>color</name>
+      <type>Main</type>
+      <value>accent</value>
+      <webElementGuid>4b543995-a1b3-4d38-abef-cd0b5de493f7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>mattooltip</name>
+      <type>Main</type>
+      <value>Create new ezsign document</value>
+      <webElementGuid>fc4c8f22-6363-4279-a1b0-8a01394eb3a2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-focus-indicator mat-raised-button mat-button-base mat-accent ng-star-inserted cdk-focused cdk-mouse-focused</value>
+      <webElementGuid>bf33b0a5-07e9-45ef-8044-d6e3d7be303c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-reflect-color</name>
+      <type>Main</type>
+      <value>accent</value>
+      <webElementGuid>00c22b28-ac83-434d-a99b-2d12dd9a89c8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-reflect-message</name>
+      <type>Main</type>
+      <value>Create new ezsign document</value>
+      <webElementGuid>a35081ab-dd5d-41b8-969a-34da873ed776</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-describedby</name>
+      <type>Main</type>
+      <value>cdk-describedby-message-232</value>
+      <webElementGuid>ed3c1a00-0928-4f6a-8035-0052b74cece8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>note_add ELSIGN DOCUMENTS </value>
+      <webElementGuid>6f841aa7-11b1-4703-8054-5d3f87386705</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mat-tab-content-16-0&quot;)/div[@class=&quot;mat-tab-body-content ng-tns-c361-365 ng-trigger ng-trigger-translateTab&quot;]/app-ezsign-senderdocuments[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;ng-star-inserted&quot;]/table[@class=&quot;ng-star-inserted&quot;]/tr[1]/td[1]/button[@class=&quot;mat-focus-indicator mat-raised-button mat-button-base mat-accent ng-star-inserted cdk-focused cdk-mouse-focused&quot;]</value>
+      <webElementGuid>1ef62ef4-4c32-4fe2-bd02-fb39b50dfa62</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//mat-tab-body[@id='mat-tab-content-16-0']/div/app-ezsign-senderdocuments/div/table/tr/td/button</value>
+      <webElementGuid>f846b742-e2ef-40ab-a09e-7580b6658600</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Received Documents'])[1]/following::button[1]</value>
+      <webElementGuid>46af9b72-c500-42f6-a3c9-8774a999b9d7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Send Documents'])[1]/following::button[1]</value>
+      <webElementGuid>5ade2011-47c3-48e6-8a0d-b9ef891d92ce</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td/button</value>
+      <webElementGuid>be2ea7f4-4c82-4603-9067-5f4b74dcc0e6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = 'note_add ELSIGN DOCUMENTS ' or . = 'note_add ELSIGN DOCUMENTS ')]</value>
+      <webElementGuid>2b50fab6-1e81-443b-bbc2-7c5003866cbf</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -125,7 +125,7 @@ WebUI.verifyElementVisible(findTestObject('04-Add my Organizations/Free limited 
 
 WebUI.verifyElementVisible(findTestObject('04-Add my Organizations/Free limited Plan/button_LEARN MORE'))
 
-WebUI.delay(10)
+WebUI.delay(5)
 
 WebUI.click(findTestObject('04-Add my Organizations/Free limited Plan/button_DO THIS LATER'))
 

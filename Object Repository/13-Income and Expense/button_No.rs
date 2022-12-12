@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_No</name>
+   <tag></tag>
+   <elementGuidId>e45e7675-bf7e-4eae-8ea5-62b2eb29882d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.mat-focus-indicator.text-upper.mat-raised-button.mat-button-base.mat-accent.cdk-focused.cdk-mouse-focused</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//mat-dialog-container[@id='mat-dialog-27']/app-confirmation-dialog/div/div[2]/button</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>3936c201-5660-488d-88a7-60b60acea6ae</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>color</name>
+      <type>Main</type>
+      <value>accent</value>
+      <webElementGuid>9ff2e1a0-84cb-4359-915c-2b26b0276381</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-focus-indicator text-upper mat-raised-button mat-button-base mat-accent cdk-focused cdk-mouse-focused</value>
+      <webElementGuid>2c19e73c-a5fa-4d02-a22b-c7c2c3c986ce</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-reflect-color</name>
+      <type>Main</type>
+      <value>accent</value>
+      <webElementGuid>223b323e-7727-4a27-a608-d21094c87dc4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> No </value>
+      <webElementGuid>436d3ef5-b15b-4343-ada5-3688fc5911a8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mat-dialog-27&quot;)/app-confirmation-dialog[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;dialogtable&quot;]/div[@class=&quot;mat-dialog-actions&quot;]/button[@class=&quot;mat-focus-indicator text-upper mat-raised-button mat-button-base mat-accent cdk-focused cdk-mouse-focused&quot;]</value>
+      <webElementGuid>629e744b-856e-4815-99f6-c3fcdfb3f4e4</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//mat-dialog-container[@id='mat-dialog-27']/app-confirmation-dialog/div/div[2]/button</value>
+      <webElementGuid>8096163c-d0a3-4804-93c9-d0663df83049</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Do you confirm the deletion of this company?'])[1]/following::button[1]</value>
+      <webElementGuid>5cd7f6a5-1d86-4d2f-9def-67a501e9f95a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='NOV 2022'])[1]/following::button[1]</value>
+      <webElementGuid>dcdfaf14-441b-4841-a48f-cf2dc805d04e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Yes'])[1]/preceding::button[1]</value>
+      <webElementGuid>ee1c9fe9-4d1e-46e8-9c17-1a98a839e388</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/button</value>
+      <webElementGuid>d79f138f-4450-4044-a671-24eac2453512</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = ' No ' or . = ' No ')]</value>
+      <webElementGuid>f1e29aee-e48c-4b4d-a0ff-f04252df11eb</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

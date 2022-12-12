@@ -7,14 +7,18 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//mat-checkbox[@id='mat-checkbox-9']/label/div</value>
+         <value>//div[contains(@class,'white-container push-top-sm')]//mat-checkbox[1]</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>div.mat-checkbox-inner-container.mat-checkbox-inner-container-no-side-margin</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[@class = 'mat-checkbox-inner-container mat-checkbox-inner-container-no-side-margin']</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>30ed6452-6a61-46cc-b70f-1e55bc896f0e</webElementGuid>
+      <webElementGuid>b8899ebb-33e7-484e-8ac9-3e81de7f3198</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-checkbox-inner-container mat-checkbox-inner-container-no-side-margin</value>
-      <webElementGuid>b20de736-ff81-43a6-b8d4-51cbb04f3399</webElementGuid>
+      <webElementGuid>13586ec0-1821-4d31-9853-bfbcd38e429b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +42,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-checkbox-9&quot;)/label[@class=&quot;mat-checkbox-layout&quot;]/div[@class=&quot;mat-checkbox-inner-container mat-checkbox-inner-container-no-side-margin&quot;]</value>
-      <webElementGuid>823cf6ad-fccd-4bf6-b077-bde8cd58a214</webElementGuid>
+      <webElementGuid>3973bffa-fca6-42ed-a2de-48cb039e7a7f</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -46,7 +50,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-checkbox[@id='mat-checkbox-9']/label/div</value>
-      <webElementGuid>8d6b3b8e-1152-4d5f-8a34-f8b312dfb566</webElementGuid>
+      <webElementGuid>47c1f74d-7244-4493-b434-a7b4a16bbd71</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -54,7 +58,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Viewer'])[1]/following::div[8]</value>
-      <webElementGuid>6d4d2c29-7e42-452e-aafc-35d6cb1c1667</webElementGuid>
+      <webElementGuid>60eaa83c-bee2-419f-9e84-3c92078e287e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +66,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Add Users'])[1]/following::div[22]</value>
-      <webElementGuid>a65b8235-4996-4347-862d-19697f10fea2</webElementGuid>
+      <webElementGuid>d3c9a790-e082-469f-afec-a8cbac7199df</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Notify users'])[1]/preceding::div[6]</value>
-      <webElementGuid>136b6bea-d04e-4b28-8bb6-fd87e6657a89</webElementGuid>
+      <webElementGuid>516d428b-2a58-4327-87b8-c6cc75bcc9a1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Shared with'])[1]/preceding::div[7]</value>
-      <webElementGuid>3d43e59a-af49-43fd-94bc-cb82c791af4a</webElementGuid>
+      <webElementGuid>58e53868-451d-4e28-9584-d4b3e21f24c2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,6 +90,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//label/div</value>
-      <webElementGuid>bbd84258-302f-46d4-932c-f82ac8c0f794</webElementGuid>
+      <webElementGuid>b28a88f0-abb7-491f-bfd3-9d5e5b7f67be</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

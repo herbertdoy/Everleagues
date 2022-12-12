@@ -17,22 +17,20 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-
-WebUI.delay(5)
+WebUI.delay(3)
 
 WebUI.verifyElementVisible(findTestObject('09-Settings/Users/Invited Users/div_GG Auto'))
-
 WebUI.delay(3)
 
 WebUI.click(findTestObject('09-Settings/Users/Invited Users/button_deleteInvite'))
 
 WebUI.verifyElementVisible(findTestObject('09-Settings/Users/Invited Users/h4_Delete Invitation'))
 
-WebUI.delay(3)
+WebUI.delay(1)
 
 WebUI.click(findTestObject('09-Settings/Users/Active User/button_Cancel_restore'))
 
-WebUI.delay(3)
+WebUI.delay(2)
 
 WebUI.verifyElementVisible(findTestObject('09-Settings/Users/Invited Users/div_GG Auto'))
 

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_visibility</name>
+   <tag></tag>
+   <elementGuidId>bc324618-2e18-477b-96ef-713b4ac5d98d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Receipt Note'])[1]/following::button[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.mat-focus-indicator.mat-icon-button.mat-button-base.cdk-focused.cdk-program-focused</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>5b0ac9f5-847a-4672-a96e-8809204d3b56</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-focus-indicator mat-icon-button mat-button-base cdk-focused cdk-program-focused</value>
+      <webElementGuid>b5d3cf87-37d4-4978-8d74-8a420a1164c5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>visibility</value>
+      <webElementGuid>c8f88430-b6c8-4296-b4f9-1c5ffeaab3b3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/app-root[1]/app-main-page[@class=&quot;ng-tns-c481-5 ng-trigger ng-trigger-routerAnimation ng-star-inserted&quot;]/mat-sidenav-container[@class=&quot;mat-drawer-container mat-sidenav-container ng-tns-c481-5 mat-drawer-transition mat-drawer-container-has-open&quot;]/mat-sidenav-content[@class=&quot;mat-drawer-content mat-sidenav-content&quot;]/div[@class=&quot;wrapper&quot;]/app-iet-viewreport[@class=&quot;ng-star-inserted&quot;]/div[2]/ag-grid-angular[@class=&quot;ag-theme-balham&quot;]/div[@class=&quot;ag-root-wrapper ag-layout-normal ag-ltr&quot;]/div[@class=&quot;ag-root-wrapper-body ag-layout-normal&quot;]/div[@class=&quot;ag-root ag-unselectable ag-layout-normal ag-has-focus&quot;]/div[@class=&quot;ag-body-viewport ag-layout-normal ag-row-no-animation&quot;]/div[@class=&quot;ag-center-cols-clipper&quot;]/div[@class=&quot;ag-center-cols-viewport&quot;]/div[@class=&quot;ag-center-cols-container&quot;]/div[@class=&quot;ag-row ag-row-even ag-row-level-0 ag-row-position-absolute ag-row-first ag-row-last ag-row-focus ag-row-hover&quot;]/div[@class=&quot;ag-cell ag-cell-not-inline-editing ag-cell-with-height ag-cell-value ag-cell-focus ag-column-hover&quot;]/app-button-renderer[@class=&quot;ng-star-inserted&quot;]/button[@class=&quot;mat-focus-indicator mat-icon-button mat-button-base cdk-focused cdk-program-focused&quot;]</value>
+      <webElementGuid>4f5e9cb2-d3be-4d24-9906-0a585c1c8e53</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Receipt Note'])[1]/following::button[1]</value>
+      <webElementGuid>6d3342da-1d3b-4777-bd2c-4232238c033f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='$300.00'])[1]/following::button[1]</value>
+      <webElementGuid>c7804b97-6433-4dbe-a280-18f198a1e7d9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//app-button-renderer/button</value>
+      <webElementGuid>02cea76b-d186-4721-b90b-9a56a37a1e70</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = 'visibility' or . = 'visibility')]</value>
+      <webElementGuid>be327e85-2734-4cba-adc4-a00c8f1d38fa</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

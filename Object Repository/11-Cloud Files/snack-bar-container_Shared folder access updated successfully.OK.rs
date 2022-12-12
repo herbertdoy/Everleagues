@@ -6,11 +6,11 @@
    <elementGuidId>8be6a9b1-a2bb-4135-8dcd-e096dd5880b7</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//snack-bar-container[@role = 'status' and (text() = 'Shared folder access updated successfully.OK' or . = 'Shared folder access updated successfully.OK')]</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
+         <key>XPATH</key>
+         <value>//snack-bar-container[@role='status']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,7 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>snack-bar-container</value>
-      <webElementGuid>3855fa2a-35e5-46d0-8eca-79eac3c3437b</webElementGuid>
+      <webElementGuid>f1e976fb-be42-474a-8c2c-3dfa95b77b0a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +29,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-snack-bar-container ng-tns-c41-119 ng-trigger ng-trigger-state mat-snack-bar-center ng-star-inserted ng-animate-queued</value>
-      <webElementGuid>cce48ecb-1e10-48f9-b04e-5e76075bdb3b</webElementGuid>
+      <webElementGuid>49808f71-a47b-4ad5-8be1-51e5e52accff</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>role</name>
       <type>Main</type>
       <value>status</value>
-      <webElementGuid>a68a2c64-065f-470a-9ede-a803a98a1631</webElementGuid>
+      <webElementGuid>3179271f-3505-4068-82d2-e09003868091</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Shared folder access updated successfully.OK</value>
-      <webElementGuid>4789ec77-2ab7-44f8-8bcc-f4658d3204f4</webElementGuid>
+      <webElementGuid>c05ba9ea-c87f-4f6a-827d-7c654497d5fe</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/div[@id=&quot;cdk-overlay-36&quot;]/snack-bar-container[@class=&quot;mat-snack-bar-container ng-tns-c41-119 ng-trigger ng-trigger-state mat-snack-bar-center ng-star-inserted ng-animate-queued&quot;]</value>
-      <webElementGuid>407473ba-0d77-4354-ac7c-22bb2f93e37b</webElementGuid>
+      <webElementGuid>39b15a6d-6d87-462c-b5f3-0cf5cd1a61b9</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -61,6 +61,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//snack-bar-container[(text() = 'Shared folder access updated successfully.OK' or . = 'Shared folder access updated successfully.OK')]</value>
-      <webElementGuid>0bb2565f-f330-4701-9373-7122d2b0a02b</webElementGuid>
+      <webElementGuid>99e7dc00-76d3-4ff9-8618-1645164b6c93</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

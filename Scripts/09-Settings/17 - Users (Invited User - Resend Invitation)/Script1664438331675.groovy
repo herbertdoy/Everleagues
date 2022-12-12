@@ -17,8 +17,6 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.delay(5)
-
 WebUI.verifyElementVisible(findTestObject('09-Settings/Users/Invited Users/div_CTCSV test 3'))
 
 WebUI.delay(3)
@@ -29,5 +27,5 @@ WebUI.click(findTestObject('09-Settings/Users/Invited Users/span_Successfully re
 
 WebUI.click(findTestObject('09-Settings/Users/Active User/button_OK'))
 
-WebUI.delay(5)
+WebUI.delay(3)
 

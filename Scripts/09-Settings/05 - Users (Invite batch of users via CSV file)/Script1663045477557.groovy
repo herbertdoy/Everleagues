@@ -85,7 +85,7 @@ WebUI.delay(4)
 
 WebUI.verifyElementVisible(findTestObject('06-Teams/span_GG Automation'))
 
-WebUI.delay(10)
+WebUI.delay(5)
 
 WebUI.click(findTestObject('03-Header Menu/Hamburger Button/div_Settings'))
 
@@ -116,7 +116,7 @@ WebUI.verifyElementVisible(findTestObject('09-Settings/Users/CSV Invite/div_Samp
 
 WebUI.click(findTestObject('09-Settings/Users/CSV Invite/button_Import'))
 
-WebUI.delay(10)
+WebUI.delay(5)
 
 WebUI.verifyElementVisible(findTestObject('09-Settings/Users/CSV Invite/Success import modal'))
 

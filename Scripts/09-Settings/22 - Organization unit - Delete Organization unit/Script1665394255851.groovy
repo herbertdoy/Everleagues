@@ -17,7 +17,6 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-
 WebUI.delay(3)
 
 WebUI.mouseOver(findTestObject('09-Settings/Organization unit/div_GG TESTER'))
@@ -46,11 +45,11 @@ WebUI.verifyElementVisible(findTestObject('09-Settings/Organization unit/h4_Dele
 WebUI.verifyElementVisible(findTestObject('09-Settings/Organization unit/span_Warning All resources associated with this root organization will be permanently deleted'), 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(3)
+WebUI.delay(1)
 
 WebUI.click(findTestObject('09-Settings/Users/Active User/button_Cancel_restore'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(3)
+WebUI.delay(2)
 
 WebUI.mouseOver(findTestObject('09-Settings/Organization unit/div_GG TESTER'))
 
@@ -75,7 +74,7 @@ WebUI.delay(3)
 WebUI.verifyElementVisible(findTestObject('09-Settings/Organization unit/snack-bar-container_Successfully deleted organization unitOK'), 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(4)
+WebUI.delay(5)
 
 WebUI.closeBrowser()
 
