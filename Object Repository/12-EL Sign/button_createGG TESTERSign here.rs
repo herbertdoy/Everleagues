@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_createGG TESTERSign here</name>
+   <tag></tag>
+   <elementGuidId>377eeab8-a193-42ee-b490-48d80dcefecf</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//mat-table[@id='fieldPanel']/mat-row/mat-cell[2]/button</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.shape.cdk-focused.cdk-program-focused</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>d860554c-169d-45c4-8ac3-40a595b6645c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>mattooltip</name>
+      <type>Main</type>
+      <value>Select signer field type</value>
+      <webElementGuid>195dddd5-bfe9-4f4b-a81e-70d22ba1bb20</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>shape cdk-focused cdk-program-focused</value>
+      <webElementGuid>d3d1dbe7-659e-485b-9fbf-56931d802b90</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-reflect-message</name>
+      <type>Main</type>
+      <value>Select signer field type</value>
+      <webElementGuid>ad6953aa-dac6-43a5-8e56-4a275abe6a04</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-describedby</name>
+      <type>Main</type>
+      <value>cdk-describedby-message-38</value>
+      <webElementGuid>9fd954b1-1999-4e9a-83f9-b58f93562529</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>createGG TESTERSign here</value>
+      <webElementGuid>b67da161-49cf-4013-a8de-1e59617198c9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;fieldPanel&quot;)/mat-row[@class=&quot;mat-row cdk-row ng-star-inserted&quot;]/mat-cell[@class=&quot;mat-cell cdk-cell cdk-column-receiverName mat-column-receiverName ng-star-inserted&quot;]/button[@class=&quot;shape cdk-focused cdk-program-focused&quot;]</value>
+      <webElementGuid>db93a455-c06e-42ff-b53d-accd02ff71c5</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//mat-table[@id='fieldPanel']/mat-row/mat-cell[2]/button</value>
+      <webElementGuid>90d5d274-8d06-4144-89d6-bd47e84a1166</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Select Labels &amp; Drag'])[1]/following::button[1]</value>
+      <webElementGuid>dfc1a9c7-576d-44f0-a5b1-5cfa7b1a9c09</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//mat-cell[2]/button</value>
+      <webElementGuid>f4206cd9-4884-4fc7-9efd-14392486a845</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = 'createGG TESTERSign here' or . = 'createGG TESTERSign here')]</value>
+      <webElementGuid>1a01bdd2-a6ba-4d15-8ffb-e1fbe5ae4923</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

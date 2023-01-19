@@ -12,80 +12,94 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>6f3a57b4-43d7-448e-82c8-45b54143202b</testSuiteGuid>
    <testCaseLink>
-      <guid>da92781a-aca6-48e3-abf4-cb051a1734b5</guid>
+      <guid>160d1733-4852-4afb-b086-7ac9f0f9d129</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/11-Cloud Files/01-Create new folder</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>c766563c-5e62-459c-9346-e2d9584b548d</guid>
+      <guid>fcd2ef9e-ac18-49e3-afe0-a1e97b560af6</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/11-Cloud Files/02-Upload Local File</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>0abc6cc0-63b8-415f-8f62-528baca039a1</guid>
+      <guid>d1cad906-9c38-4a11-8b7e-dc777edc52ce</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/11-Cloud Files/03-Rename a folder</testCaseId>
+      <testCaseId>Test Cases/11-Cloud Files/03-Rename a folder and file</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>d55f01e7-8404-4ca7-ad35-24fc3b5b1c04</guid>
+      <guid>eb72949e-a5ca-4e7a-b492-c0b7df5f11b2</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/11-Cloud Files/04-Rename a file</testCaseId>
+      <testCaseId>Test Cases/11-Cloud Files/04-Download a file and folder</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>4287081d-cbfe-42e3-a56b-ed23b3634a0f</guid>
+      <guid>f1eb7181-70af-4f41-8b6b-786c0f6233c2</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/11-Cloud Files/05-Download a file</testCaseId>
+      <testCaseId>Test Cases/11-Cloud Files/05-Duplicate a Folder (Negative scenario)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>6c36678e-f9d8-4483-bcb5-19e1a3be8fda</guid>
+      <guid>1e48523c-4dd6-4dc1-82e0-a318cf77f43e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/11-Cloud Files/06-Open a file</testCaseId>
+      <testCaseId>Test Cases/11-Cloud Files/06-Duplicate a file</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>4e5c0df6-74ef-4f20-a078-1039ff09d278</guid>
+      <guid>a5552b4c-178c-4d39-9beb-d61e7ecaf621</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/11-Cloud Files/07-Share a folder</testCaseId>
+      <testCaseId>Test Cases/11-Cloud Files/07-Move a file and folder</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>0bc7f452-407e-49ae-9dc8-65e859b84af5</guid>
+      <guid>96c1dbb5-ec3f-409c-a258-6e20b3649e07</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/11-Cloud Files/08-Share a folder - Edit</testCaseId>
+      <testCaseId>Test Cases/11-Cloud Files/08-Open a file and folder</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>6e27547a-0a71-4f85-a1ef-0a3e30446e09</guid>
+      <guid>4c5fa9f6-f50a-43da-8dfb-a05affffec80</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/11-Cloud Files/09-Share a file</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>b72034cc-84d8-4562-b207-3ec90d4c9cab</guid>
+      <guid>24f0c301-a7da-4d00-8be9-e8695826168b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/11-Cloud Files/10-Share a file - Edit</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>f81f6db0-1aae-4908-9fe2-fb7e359c7215</guid>
+      <guid>e413d628-6675-4181-8a0a-65ba7f4dc807</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/11-Cloud Files/11-Delete a file and folder</testCaseId>
+      <testCaseId>Test Cases/11-Cloud Files/11-Share a folder</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>92348f0a-258a-40e9-8873-de30fc57f0ba</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/11-Cloud Files/12-Share a folder - Edit</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>5b92b998-af78-4d00-8078-0bc14bf7738d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/11-Cloud Files/13-Delete a file and folder</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//button[@type = 'button' and (text() = 'cloud_downloadDownload' or . = 'cloud_downloadDownload')]</value>
+         <value>(//button[@role='menuitem'])[2]</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

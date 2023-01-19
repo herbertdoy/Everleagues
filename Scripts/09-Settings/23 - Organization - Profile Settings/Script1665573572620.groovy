@@ -93,11 +93,15 @@ WebUI.verifyElementVisible(findTestObject('09-Settings/Users/div_Organization'))
 
 WebUI.verifyElementVisible(findTestObject('09-Settings/Users/div_Organization Units'))
 
+WebUI.scrollToElement(findTestObject('09-Settings/Users/div_Subscriptions'), 0)
+
 WebUI.verifyElementVisible(findTestObject('09-Settings/Users/div_Subscriptions'))
 
 WebUI.verifyElementVisible(findTestObject('09-Settings/Users/div_Users'))
 
 WebUI.delay(3)
+
+WebUI.scrollToElement(findTestObject('09-Settings/Users/div_Organization'), 0)
 
 WebUI.click(findTestObject('09-Settings/Users/div_Organization'))
 
@@ -122,7 +126,7 @@ WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Profile Tab
 
 WebUI.delay(2)
 
-WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/View Profile/Profile Tab/Upload User Image modal'))
+WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/Upload Org image'))
 
 WebUI.verifyElementNotClickable(findTestObject('03-Header Menu/User Profile/View Profile/Profile Tab/button_Upload Image'))
 
@@ -135,7 +139,7 @@ WebUI.delay(3)
 WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Profile Tab/Upload Icon'))
 
 CustomKeywords.'uploadpackage.Upload.uploadFile'(findTestObject('Object Repository/03-Header Menu/User Profile/View Profile/Profile Tab/button_folderBrowse'), 
-    'C:\\Users\\User\\Desktop\\EL automation\\qa.jpg')
+    'C:\\Users\\asus\\Desktop\\EL automation\\qa.jpg')
 
 WebUI.delay(2)
 
@@ -149,23 +153,29 @@ WebUI.setText(findTestObject('09-Settings/Organization/input_name'), 'THIS IS AU
 
 WebUI.delay(3)
 
+WebUI.scrollToElement(findTestObject('09-Settings/Users/Active User/button_Save'), 0)
+
 WebUI.click(findTestObject('09-Settings/Users/Active User/button_Save'))
 
 WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/snack-bar-container_Settings savedOK'))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('09-Settings/Organization/input_name'))
+WebUI.scrollToElement(findTestObject('09-Settings/Organization/input_name'), 0)
 
 WebUI.setText(findTestObject('09-Settings/Organization/input_name'), 'GG Automation')
 
 WebUI.delay(3)
 
+WebUI.scrollToElement(findTestObject('09-Settings/Users/Active User/button_Save'), 0)
+
 WebUI.click(findTestObject('09-Settings/Users/Active User/button_Save'))
 
 WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/snack-bar-container_Settings savedOK'))
 
 WebUI.delay(3)
+
+WebUI.scrollToElement(findTestObject('09-Settings/Organization/mat-card_Address'), 0)
 
 WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/mat-card_Address'))
 
@@ -184,6 +194,8 @@ WebUI.click(findTestObject('09-Settings/Organization/input_Country'), FailureHan
 WebUI.click(findTestObject('09-Settings/Organization/mat-option_united states'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(3)
+
+WebUI.scrollToElement(findTestObject('09-Settings/Users/Active User/button_Save'), 0)
 
 WebUI.click(findTestObject('09-Settings/Users/Active User/button_Save'))
 
@@ -222,4 +234,6 @@ WebUI.click(findTestObject('09-Settings/Users/Active User/button_Save'))
 WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/snack-bar-container_Settings savedOK'))
 
 WebUI.delay(3)
+
+WebUI.scrollToElement(findTestObject('09-Settings/Organization/div_Profile'), 0)
 

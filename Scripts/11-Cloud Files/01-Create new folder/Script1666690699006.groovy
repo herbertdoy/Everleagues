@@ -89,7 +89,15 @@ WebUI.delay(5)
 
 WebUI.click(findTestObject('03-Header Menu/Hamburger Button/div_Cloud Files'))
 
+WebUI.scrollToElement(findTestObject('11-Cloud Files/a_My Files'), 0)
+
+WebUI.verifyElementVisible(findTestObject('11-Cloud Files/a_My Files'))
+
+WebUI.verifyElementVisible(findTestObject('11-Cloud Files/a_Shared With Me'))
+
 WebUI.click(findTestObject('11-Cloud Files/a_My Files'))
+
+WebUI.verifyElementVisible(findTestObject('11-Cloud Files/h4_CLOUD STORAGE'))
 
 WebUI.verifyElementVisible(findTestObject('11-Cloud Files/h4_MY FILES'))
 
@@ -103,7 +111,9 @@ WebUI.verifyElementVisible(findTestObject('11-Cloud Files/mat-dialog-container_C
 
 WebUI.verifyElementVisible(findTestObject('11-Cloud Files/h4_New folder'))
 
-WebUI.click(findTestObject('09-Settings/Users/Active User/button_Cancel_restore'))
+WebUI.setText(findTestObject('11-Cloud Files/input_folderName'), 'Automation folder')
+
+WebUI.click(findTestObject('11-Cloud Files/button_Create'))
 
 WebUI.delay(3)
 
@@ -115,23 +125,13 @@ WebUI.verifyElementVisible(findTestObject('11-Cloud Files/mat-dialog-container_C
 
 WebUI.verifyElementVisible(findTestObject('11-Cloud Files/h4_New folder'))
 
-WebUI.setText(findTestObject('11-Cloud Files/input_folderName'), 'Automation folder')
+WebUI.setText(findTestObject('11-Cloud Files/input_folderName'), 'Automation folder 2')
 
-WebUI.click(findTestObject('11-Cloud Files/button_Confirm'))
+WebUI.click(findTestObject('11-Cloud Files/button_Create'))
 
 WebUI.delay(3)
 
 WebUI.click(findTestObject('11-Cloud Files/mat-icon_refresh'))
 
 WebUI.verifyElementVisible(findTestObject('11-Cloud Files/td_Automation folder'))
-
-WebUI.delay(3)
-
-WebUI.setText(findTestObject('11-Cloud Files/input_Search cloudfiles'), 'Automation folder')
-
-WebUI.sendKeys(findTestObject('11-Cloud Files/input_Search cloudfiles'), Keys.chord(Keys.ENTER))
-
-WebUI.verifyElementVisible(findTestObject('11-Cloud Files/td_Automation folder'))
-
-WebUI.click(findTestObject('11-Cloud Files/mat-icon_refresh'))
 

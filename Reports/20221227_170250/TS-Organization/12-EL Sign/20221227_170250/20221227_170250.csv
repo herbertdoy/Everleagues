@@ -1,0 +1,141 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+12-EL Sign,Chrome 108.0.0.0,,,2022-12-27 17:03:02,2022-12-27 17:08:38,5m - 35.623s,PASSED
+,,,,,,,
+Test Cases/12-EL Sign/01-Send Documents (Upload a file-required field is blank),Chrome 108.0.0.0,,,2022-12-27 17:03:04,2022-12-27 17:05:31,2m - 26.860s,PASSED
+"openBrowser("""")",Chrome 108.0.0.0,,,2022-12-27 17:03:06,2022-12-27 17:03:17,11.383s,PASSED
+"navigateToUrl(""https://lab.everleagues.com/"")",Chrome 108.0.0.0,,,2022-12-27 17:03:17,2022-12-27 17:03:44,26.257s,PASSED
+maximizeWindow(),Chrome 108.0.0.0,,,2022-12-27 17:03:44,2022-12-27 17:03:44,0.292s,PASSED
+"setText(findTestObject(""02-Side Icons(Organization)/Add Contact/Email Field""), ""testuser02@mailinator.com"")",Chrome 108.0.0.0,,,2022-12-27 17:03:44,2022-12-27 17:03:46,2.249s,PASSED
+"setEncryptedText(findTestObject(""02-Side Icons(Organization)/Add Contact/Password Field""), ""8yFRyszE6U6jvsCn51OQbg=="")",Chrome 108.0.0.0,,,2022-12-27 17:03:46,2022-12-27 17:03:47,1.162s,PASSED
+"click(findTestObject(""02-Side Icons(Organization)/Add Contact/button_Sign in""))",Chrome 108.0.0.0,,,2022-12-27 17:03:47,2022-12-27 17:03:48,1.067s,PASSED
+delay(2),Chrome 108.0.0.0,,,2022-12-27 17:03:48,2022-12-27 17:03:50,2.134s,PASSED
+"click(findTestObject(""06-Teams/For 2FA/button_Confirm_2FA""))",Chrome 108.0.0.0,,,2022-12-27 17:03:50,2022-12-27 17:03:51,0.758s,PASSED
+delay(2),Chrome 108.0.0.0,,,2022-12-27 17:03:51,2022-12-27 17:03:53,2.011s,PASSED
+"executeJavaScript(""window.open();"", [])",Chrome 108.0.0.0,,,2022-12-27 17:03:53,2022-12-27 17:03:54,0.294s,PASSED
+currentWindow = getWindowIndex(),Chrome 108.0.0.0,,,2022-12-27 17:03:54,2022-12-27 17:03:54,0.170s,PASSED
+delay(3),Chrome 108.0.0.0,,,2022-12-27 17:03:54,2022-12-27 17:03:57,3.008s,PASSED
+switchToWindowIndex(currentWindow + 1),Chrome 108.0.0.0,,,2022-12-27 17:03:57,2022-12-27 17:03:57,0.490s,PASSED
+"navigateToUrl(""https://www.mailinator.com/"")",Chrome 108.0.0.0,,,2022-12-27 17:03:57,2022-12-27 17:04:07,9.522s,PASSED
+delay(3),Chrome 108.0.0.0,,,2022-12-27 17:04:07,2022-12-27 17:04:10,3.026s,PASSED
+"setText(findTestObject(""00-Signup and Activation/zMailinator/input_LOGIN_search""), ""testuser02@mailinator.com"")",Chrome 108.0.0.0,,,2022-12-27 17:04:10,2022-12-27 17:04:11,1.466s,PASSED
+"click(findTestObject(""00-Signup and Activation/zMailinator/gobutton""), STOP_ON_FAILURE)",Chrome 108.0.0.0,,,2022-12-27 17:04:11,2022-12-27 17:04:17,5.443s,PASSED
+delay(3),Chrome 108.0.0.0,,,2022-12-27 17:04:17,2022-12-27 17:04:20,3.022s,PASSED
+"click(findTestObject(""00-Signup and Activation/zMailinator/Email - everleagues""))",Chrome 108.0.0.0,,,2022-12-27 17:04:20,2022-12-27 17:04:21,0.913s,PASSED
+delay(3),Chrome 108.0.0.0,,,2022-12-27 17:04:21,2022-12-27 17:04:24,3.011s,PASSED
+"code = getText(findTestObject(""Object Repository/06-Teams/For 2FA/2FA code""))",Chrome 108.0.0.0,,,2022-12-27 17:04:24,2022-12-27 17:04:25,1.714s,PASSED
+delay(3),Chrome 108.0.0.0,,,2022-12-27 17:04:25,2022-12-27 17:04:28,3.023s,PASSED
+"closeWindowTitle(""Mailinator"")",Chrome 108.0.0.0,,,2022-12-27 17:04:28,2022-12-27 17:04:30,2.151s,PASSED
+delay(3),Chrome 108.0.0.0,,,2022-12-27 17:04:30,2022-12-27 17:04:34,3.019s,PASSED
+switchToWindowIndex(0),Chrome 108.0.0.0,,,2022-12-27 17:04:34,2022-12-27 17:04:34,0.038s,PASSED
+delay(3),Chrome 108.0.0.0,,,2022-12-27 17:04:34,2022-12-27 17:04:37,3.024s,PASSED
+"setText(findTestObject(""Object Repository/06-Teams/For 2FA/input_Enter verification code_code""), code)",Chrome 108.0.0.0,,,2022-12-27 17:04:37,2022-12-27 17:04:38,1.776s,PASSED
+delay(3),Chrome 108.0.0.0,,,2022-12-27 17:04:38,2022-12-27 17:04:41,3.013s,PASSED
+"click(findTestObject(""06-Teams/For 2FA/button_Verify_2FA""))",Chrome 108.0.0.0,,,2022-12-27 17:04:41,2022-12-27 17:04:43,1.168s,PASSED
+delay(5),Chrome 108.0.0.0,,,2022-12-27 17:04:43,2022-12-27 17:04:48,5.020s,PASSED
+"click(findTestObject(""06-Teams/button_doublearrow""))",Chrome 108.0.0.0,,,2022-12-27 17:04:48,2022-12-27 17:04:49,1.572s,PASSED
+"click(findTestObject(""06-Teams/button_My Organizations""))",Chrome 108.0.0.0,,,2022-12-27 17:04:49,2022-12-27 17:04:51,1.483s,PASSED
+"click(findTestObject(""02-Side Icons(Organization)/Add Contact/button_Automation Test Org""))",Chrome 108.0.0.0,,,2022-12-27 17:04:51,2022-12-27 17:04:52,1.817s,PASSED
+delay(4),Chrome 108.0.0.0,,,2022-12-27 17:04:52,2022-12-27 17:04:56,4.010s,PASSED
+"verifyElementVisible(findTestObject(""02-Side Icons(Organization)/Add Contact/span_Automation Test Org""))",Chrome 108.0.0.0,,,2022-12-27 17:04:56,2022-12-27 17:04:57,0.755s,PASSED
+delay(5),Chrome 108.0.0.0,,,2022-12-27 17:04:57,2022-12-27 17:05:02,5.012s,PASSED
+"scrollToElement(findTestObject(""03-Header Menu/Hamburger Button/div_ELSign""), 0)",Chrome 108.0.0.0,,,2022-12-27 17:05:02,2022-12-27 17:05:04,1.336s,PASSED
+"click(findTestObject(""03-Header Menu/Hamburger Button/div_ELSign""))",Chrome 108.0.0.0,,,2022-12-27 17:05:04,2022-12-27 17:05:04,0.911s,PASSED
+"verifyElementVisible(findTestObject(""03-Header Menu/Hamburger Button/div_ELSign""))",Chrome 108.0.0.0,,,2022-12-27 17:05:04,2022-12-27 17:05:07,3.014s,PASSED
+"verifyElementVisible(findTestObject(""12-EL Sign/h4_ELSign""))",Chrome 108.0.0.0,,,2022-12-27 17:05:07,2022-12-27 17:05:08,0.697s,PASSED
+delay(3),Chrome 108.0.0.0,,,2022-12-27 17:05:08,2022-12-27 17:05:11,3.013s,PASSED
+"click(findTestObject(""12-EL Sign/div_Send Documents""))",Chrome 108.0.0.0,,,2022-12-27 17:05:11,2022-12-27 17:05:12,0.903s,PASSED
+"uploadpackage.Upload.uploadFile(findTestObject(""Object Repository/12-EL Sign/div_Drag and drop or Upload PDF or Word document here""), ""C:\Users\asus\Desktop\EL automation\sample.pdf"")",Chrome 108.0.0.0,,,2022-12-27 17:05:12,2022-12-27 17:05:18,5.947s,PASSED
+delay(3),Chrome 108.0.0.0,,,2022-12-27 17:05:18,2022-12-27 17:05:21,3.053s,PASSED
+"click(findTestObject(""12-EL Sign/input_documentTitle""))",Chrome 108.0.0.0,,,2022-12-27 17:05:21,2022-12-27 17:05:23,2.371s,PASSED
+"sendKeys(findTestObject(""Object Repository/12-EL Sign/input_documentTitle""), Keys.chord(CONTROL, ""a""))",Chrome 108.0.0.0,,,2022-12-27 17:05:23,2022-12-27 17:05:25,1.406s,PASSED
+"sendKeys(findTestObject(""Object Repository/12-EL Sign/input_documentTitle""), Keys.chord(BACK_SPACE))",Chrome 108.0.0.0,,,2022-12-27 17:05:25,2022-12-27 17:05:26,0.804s,PASSED
+"clickOffset(findTestObject(""12-EL Sign/h4_ELSign""), 100, 100)",Chrome 108.0.0.0,,,2022-12-27 17:05:26,2022-12-27 17:05:27,0.991s,PASSED
+"verifyElementVisible(findTestObject(""12-EL Sign/mat-error_Title is required""))",Chrome 108.0.0.0,,,2022-12-27 17:05:27,2022-12-27 17:05:27,0.820s,PASSED
+delay(3),Chrome 108.0.0.0,,,2022-12-27 17:05:27,2022-12-27 17:05:30,3.021s,PASSED
+,,,,,,,
+Test Cases/12-EL Sign/02-Send Documents (Upload a file-fill out required field),Chrome 108.0.0.0,,,2022-12-27 17:05:31,2022-12-27 17:05:45,14.373s,PASSED
+"setText(findTestObject(""12-EL Sign/input_documentTitle""), ""sample.pdf"")",Chrome 108.0.0.0,,,2022-12-27 17:05:33,2022-12-27 17:05:35,2.139s,PASSED
+"click(findTestObject(""12-EL Sign/button_UPLOAD""))",Chrome 108.0.0.0,,,2022-12-27 17:05:35,2022-12-27 17:05:36,0.956s,PASSED
+delay(3),Chrome 108.0.0.0,,,2022-12-27 17:05:36,2022-12-27 17:05:39,3.023s,PASSED
+"click(findTestObject(""12-EL Sign/button_homeELSIGN DOCUMENTS""))",Chrome 108.0.0.0,,,2022-12-27 17:05:39,2022-12-27 17:05:42,3.159s,PASSED
+delay(3),Chrome 108.0.0.0,,,2022-12-27 17:05:42,2022-12-27 17:05:45,3.009s,PASSED
+,,,,,,,
+Test Cases/12-EL Sign/03-Send Documents (Function buttons),Chrome 108.0.0.0,,,2022-12-27 17:05:45,2022-12-27 17:08:38,2m - 52.783s,PASSED
+"openBrowser("""")",Chrome 108.0.0.0,,,2022-12-27 17:05:47,2022-12-27 17:05:53,6.002s,PASSED
+"navigateToUrl(""https://lab.everleagues.com/"")",Chrome 108.0.0.0,,,2022-12-27 17:05:53,2022-12-27 17:06:15,21.683s,PASSED
+maximizeWindow(),Chrome 108.0.0.0,,,2022-12-27 17:06:15,2022-12-27 17:06:15,0.312s,PASSED
+"setText(findTestObject(""02-Side Icons(Organization)/Add Contact/Email Field""), ""testuser02@mailinator.com"")",Chrome 108.0.0.0,,,2022-12-27 17:06:15,2022-12-27 17:06:17,2.027s,PASSED
+"setEncryptedText(findTestObject(""02-Side Icons(Organization)/Add Contact/Password Field""), ""8yFRyszE6U6jvsCn51OQbg=="")",Chrome 108.0.0.0,,,2022-12-27 17:06:17,2022-12-27 17:06:19,1.124s,PASSED
+"click(findTestObject(""02-Side Icons(Organization)/Add Contact/button_Sign in""))",Chrome 108.0.0.0,,,2022-12-27 17:06:19,2022-12-27 17:06:20,1.934s,PASSED
+delay(2),Chrome 108.0.0.0,,,2022-12-27 17:06:20,2022-12-27 17:06:22,2.023s,PASSED
+"click(findTestObject(""06-Teams/For 2FA/button_Confirm_2FA""))",Chrome 108.0.0.0,,,2022-12-27 17:06:22,2022-12-27 17:06:23,0.780s,PASSED
+delay(2),Chrome 108.0.0.0,,,2022-12-27 17:06:23,2022-12-27 17:06:25,2.009s,PASSED
+"executeJavaScript(""window.open();"", [])",Chrome 108.0.0.0,,,2022-12-27 17:06:25,2022-12-27 17:06:26,0.228s,PASSED
+currentWindow = getWindowIndex(),Chrome 108.0.0.0,,,2022-12-27 17:06:26,2022-12-27 17:06:26,0.081s,PASSED
+delay(3),Chrome 108.0.0.0,,,2022-12-27 17:06:26,2022-12-27 17:06:29,3.011s,PASSED
+switchToWindowIndex(currentWindow + 1),Chrome 108.0.0.0,,,2022-12-27 17:06:29,2022-12-27 17:06:29,0.405s,PASSED
+"navigateToUrl(""https://www.mailinator.com/"")",Chrome 108.0.0.0,,,2022-12-27 17:06:29,2022-12-27 17:06:38,9.171s,PASSED
+delay(3),Chrome 108.0.0.0,,,2022-12-27 17:06:38,2022-12-27 17:06:41,3.011s,PASSED
+"setText(findTestObject(""00-Signup and Activation/zMailinator/input_LOGIN_search""), ""testuser02@mailinator.com"")",Chrome 108.0.0.0,,,2022-12-27 17:06:41,2022-12-27 17:06:43,1.636s,PASSED
+"click(findTestObject(""00-Signup and Activation/zMailinator/gobutton""), STOP_ON_FAILURE)",Chrome 108.0.0.0,,,2022-12-27 17:06:43,2022-12-27 17:06:47,4.433s,PASSED
+delay(3),Chrome 108.0.0.0,,,2022-12-27 17:06:47,2022-12-27 17:06:50,3.018s,PASSED
+"click(findTestObject(""00-Signup and Activation/zMailinator/Email - everleagues""))",Chrome 108.0.0.0,,,2022-12-27 17:06:50,2022-12-27 17:06:53,2.627s,PASSED
+delay(3),Chrome 108.0.0.0,,,2022-12-27 17:06:53,2022-12-27 17:06:56,3.019s,PASSED
+"code = getText(findTestObject(""Object Repository/06-Teams/For 2FA/2FA code""))",Chrome 108.0.0.0,,,2022-12-27 17:06:56,2022-12-27 17:06:57,1.360s,PASSED
+delay(3),Chrome 108.0.0.0,,,2022-12-27 17:06:57,2022-12-27 17:07:00,3.025s,PASSED
+"closeWindowTitle(""Mailinator"")",Chrome 108.0.0.0,,,2022-12-27 17:07:00,2022-12-27 17:07:01,0.573s,PASSED
+delay(3),Chrome 108.0.0.0,,,2022-12-27 17:07:01,2022-12-27 17:07:04,3.026s,PASSED
+switchToWindowIndex(0),Chrome 108.0.0.0,,,2022-12-27 17:07:04,2022-12-27 17:07:04,0.054s,PASSED
+delay(3),Chrome 108.0.0.0,,,2022-12-27 17:07:04,2022-12-27 17:07:07,3.014s,PASSED
+"setText(findTestObject(""Object Repository/06-Teams/For 2FA/input_Enter verification code_code""), code)",Chrome 108.0.0.0,,,2022-12-27 17:07:07,2022-12-27 17:07:08,1.483s,PASSED
+delay(3),Chrome 108.0.0.0,,,2022-12-27 17:07:08,2022-12-27 17:07:11,3.007s,PASSED
+"click(findTestObject(""06-Teams/For 2FA/button_Verify_2FA""))",Chrome 108.0.0.0,,,2022-12-27 17:07:11,2022-12-27 17:07:12,1.014s,PASSED
+delay(5),Chrome 108.0.0.0,,,2022-12-27 17:07:12,2022-12-27 17:07:18,5.014s,PASSED
+"click(findTestObject(""06-Teams/button_doublearrow""))",Chrome 108.0.0.0,,,2022-12-27 17:07:18,2022-12-27 17:07:20,2.604s,PASSED
+"click(findTestObject(""06-Teams/button_My Organizations""))",Chrome 108.0.0.0,,,2022-12-27 17:07:20,2022-12-27 17:07:21,0.976s,PASSED
+"click(findTestObject(""02-Side Icons(Organization)/Add Contact/button_Automation Test Org""))",Chrome 108.0.0.0,,,2022-12-27 17:07:21,2022-12-27 17:07:23,1.461s,PASSED
+delay(4),Chrome 108.0.0.0,,,2022-12-27 17:07:23,2022-12-27 17:07:27,4.020s,PASSED
+"verifyElementVisible(findTestObject(""02-Side Icons(Organization)/Add Contact/span_Automation Test Org""))",Chrome 108.0.0.0,,,2022-12-27 17:07:27,2022-12-27 17:07:27,0.790s,PASSED
+delay(5),Chrome 108.0.0.0,,,2022-12-27 17:07:27,2022-12-27 17:07:32,5.007s,PASSED
+"click(findTestObject(""03-Header Menu/Hamburger Button/div_ELSign""))",Chrome 108.0.0.0,,,2022-12-27 17:07:32,2022-12-27 17:07:34,1.207s,PASSED
+"verifyElementVisible(findTestObject(""03-Header Menu/Hamburger Button/div_ELSign""))",Chrome 108.0.0.0,,,2022-12-27 17:07:34,2022-12-27 17:07:37,3.197s,PASSED
+"verifyElementVisible(findTestObject(""12-EL Sign/h4_ELSign""))",Chrome 108.0.0.0,,,2022-12-27 17:07:37,2022-12-27 17:07:37,0.665s,PASSED
+delay(3),Chrome 108.0.0.0,,,2022-12-27 17:07:37,2022-12-27 17:07:40,3.007s,PASSED
+"click(findTestObject(""12-EL Sign/button_addELSIGN DOCUMENTS""))",Chrome 108.0.0.0,,,2022-12-27 17:07:40,2022-12-27 17:07:42,1.259s,PASSED
+delay(1),Chrome 108.0.0.0,,,2022-12-27 17:07:42,2022-12-27 17:07:43,1.023s,PASSED
+"click(findTestObject(""12-EL Sign/button_homeELSIGN DOCUMENTS""))",Chrome 108.0.0.0,,,2022-12-27 17:07:43,2022-12-27 17:07:44,0.979s,PASSED
+"click(findTestObject(""12-EL Sign/mat-icon_refresh""))",Chrome 108.0.0.0,,,2022-12-27 17:07:44,2022-12-27 17:07:46,2.315s,PASSED
+delay(3),Chrome 108.0.0.0,,,2022-12-27 17:07:46,2022-12-27 17:07:49,3.011s,PASSED
+"click(findTestObject(""12-EL Sign/mat-icon_configureColumns""))",Chrome 108.0.0.0,,,2022-12-27 17:07:49,2022-12-27 17:07:50,0.896s,PASSED
+"click(findTestObject(""12-EL Sign/mat-dialog-container_configureColumnModal""))",Chrome 108.0.0.0,,,2022-12-27 17:07:50,2022-12-27 17:07:51,0.854s,PASSED
+"click(findTestObject(""12-EL Sign/span_ELSign Tracking Id""))",Chrome 108.0.0.0,,,2022-12-27 17:07:51,2022-12-27 17:07:52,1.224s,PASSED
+"click(findTestObject(""12-EL Sign/span_Document Name""))",Chrome 108.0.0.0,,,2022-12-27 17:07:52,2022-12-27 17:07:53,1.235s,PASSED
+"click(findTestObject(""12-EL Sign/span_Status""))",Chrome 108.0.0.0,,,2022-12-27 17:07:53,2022-12-27 17:07:55,1.613s,PASSED
+"click(findTestObject(""12-EL Sign/span_Signer Status""))",Chrome 108.0.0.0,,,2022-12-27 17:07:55,2022-12-27 17:07:56,1.206s,PASSED
+"click(findTestObject(""12-EL Sign/span_View""))",Chrome 108.0.0.0,,,2022-12-27 17:07:56,2022-12-27 17:07:57,1.277s,PASSED
+"click(findTestObject(""12-EL Sign/span_Certificate""))",Chrome 108.0.0.0,,,2022-12-27 17:07:57,2022-12-27 17:07:58,1.157s,PASSED
+"click(findTestObject(""12-EL Sign/span_Delete""))",Chrome 108.0.0.0,,,2022-12-27 17:07:58,2022-12-27 17:08:00,1.250s,PASSED
+"click(findTestObject(""12-EL Sign/span_History""))",Chrome 108.0.0.0,,,2022-12-27 17:08:00,2022-12-27 17:08:01,1.165s,PASSED
+"click(findTestObject(""12-EL Sign/span_Reminder""))",Chrome 108.0.0.0,,,2022-12-27 17:08:01,2022-12-27 17:08:02,1.206s,PASSED
+"click(findTestObject(""12-EL Sign/span_Last Modified""))",Chrome 108.0.0.0,,,2022-12-27 17:08:02,2022-12-27 17:08:03,1.204s,PASSED
+delay(3),Chrome 108.0.0.0,,,2022-12-27 17:08:03,2022-12-27 17:08:06,3.018s,PASSED
+"click(findTestObject(""12-EL Sign/span_ELSign Tracking Id""))",Chrome 108.0.0.0,,,2022-12-27 17:08:06,2022-12-27 17:08:07,0.942s,PASSED
+"click(findTestObject(""12-EL Sign/span_Document Name""))",Chrome 108.0.0.0,,,2022-12-27 17:08:07,2022-12-27 17:08:08,1.031s,PASSED
+"click(findTestObject(""12-EL Sign/span_Status""))",Chrome 108.0.0.0,,,2022-12-27 17:08:08,2022-12-27 17:08:10,1.188s,PASSED
+"click(findTestObject(""12-EL Sign/span_Signer Status""))",Chrome 108.0.0.0,,,2022-12-27 17:08:10,2022-12-27 17:08:11,1.066s,PASSED
+"click(findTestObject(""12-EL Sign/span_View""))",Chrome 108.0.0.0,,,2022-12-27 17:08:11,2022-12-27 17:08:12,1.192s,PASSED
+"click(findTestObject(""12-EL Sign/span_Download""))",Chrome 108.0.0.0,,,2022-12-27 17:08:12,2022-12-27 17:08:13,1.186s,PASSED
+"click(findTestObject(""12-EL Sign/span_Certificate""))",Chrome 108.0.0.0,,,2022-12-27 17:08:13,2022-12-27 17:08:14,1.173s,PASSED
+"click(findTestObject(""12-EL Sign/span_Delete""))",Chrome 108.0.0.0,,,2022-12-27 17:08:14,2022-12-27 17:08:15,1.145s,PASSED
+"click(findTestObject(""12-EL Sign/span_History""))",Chrome 108.0.0.0,,,2022-12-27 17:08:15,2022-12-27 17:08:16,1.144s,PASSED
+"click(findTestObject(""12-EL Sign/span_Reminder""))",Chrome 108.0.0.0,,,2022-12-27 17:08:16,2022-12-27 17:08:18,1.140s,PASSED
+"click(findTestObject(""12-EL Sign/span_Last Modified""))",Chrome 108.0.0.0,,,2022-12-27 17:08:18,2022-12-27 17:08:19,1.276s,PASSED
+delay(3),Chrome 108.0.0.0,,,2022-12-27 17:08:19,2022-12-27 17:08:22,3.013s,PASSED
+"click(findTestObject(""12-EL Sign/button_CLOSE""))",Chrome 108.0.0.0,,,2022-12-27 17:08:22,2022-12-27 17:08:23,0.901s,PASSED
+delay(3),Chrome 108.0.0.0,,,2022-12-27 17:08:23,2022-12-27 17:08:26,3.022s,PASSED
+"click(findTestObject(""12-EL Sign/mat-icon_exportCSV""))",Chrome 108.0.0.0,,,2022-12-27 17:08:26,2022-12-27 17:08:27,1.013s,PASSED
+delay(3),Chrome 108.0.0.0,,,2022-12-27 17:08:27,2022-12-27 17:08:30,3.011s,PASSED
+"click(findTestObject(""12-EL Sign/mat-icon_expandAll""))",Chrome 108.0.0.0,,,2022-12-27 17:08:30,2022-12-27 17:08:31,1.221s,PASSED
+delay(3),Chrome 108.0.0.0,,,2022-12-27 17:08:31,2022-12-27 17:08:34,3.016s,PASSED
+"click(findTestObject(""12-EL Sign/mat-icon_refit""))",Chrome 108.0.0.0,,,2022-12-27 17:08:34,2022-12-27 17:08:35,0.896s,PASSED
+delay(3),Chrome 108.0.0.0,,,2022-12-27 17:08:35,2022-12-27 17:08:38,3.015s,PASSED

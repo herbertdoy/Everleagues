@@ -17,6 +17,8 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.scrollToElement(findTestObject('07-Directory/Connections/button_add_address'), 0)
+
 WebUI.click(findTestObject('07-Directory/Connections/button_add_address'))
 
 WebUI.click(findTestObject('07-Directory/Connections/button_add_address'))
@@ -39,6 +41,8 @@ WebUI.click(findTestObject('07-Directory/Connections/input_State_country'))
 
 WebUI.doubleClick(findTestObject('07-Directory/Connections/input_Edit Address_street1'), FailureHandling.STOP_ON_FAILURE)
 
+WebUI.scrollToElement(findTestObject('07-Directory/Connections/input_Country_addressLabel'), 0)
+
 WebUI.click(findTestObject('07-Directory/Connections/input_Country_addressLabel'))
 
 WebUI.delay(3)
@@ -54,6 +58,8 @@ WebUI.delay(3)
 WebUI.click(findTestObject('07-Directory/Connections/h4_Edit Address'))
 
 WebUI.delay(3)
+
+WebUI.scrollToElement(findTestObject('07-Directory/Connections/street 1 error'), 0)
 
 WebUI.verifyElementVisible(findTestObject('07-Directory/Connections/street 1 error'))
 

@@ -1,0 +1,15 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+04-Add my Organizations,Chrome 109.0.0.0,,,2023-01-16 13:51:50,2023-01-16 13:56:20,4m - 29.814s,FAILED
+,,,,,,,
+Test Cases/04-Add my Organizations/01- Free limited Plan (Blank fields),Chrome 109.0.0.0,,,2023-01-16 13:51:52,2023-01-16 13:55:10,3m - 17.945s,FAILED
+"openBrowser("""")",Chrome 109.0.0.0,,,2023-01-16 13:51:54,2023-01-16 13:52:03,9.623s,PASSED
+"navigateToUrl(""https://lab.everleagues.com/"")",Chrome 109.0.0.0,,,2023-01-16 13:52:03,2023-01-16 13:54:37,2m - 33.456s,PASSED
+maximizeWindow(),Chrome 109.0.0.0,,,2023-01-16 13:54:37,2023-01-16 13:54:37,0.477s,PASSED
+"setText(findTestObject(""02-Side Icons(Organization)/Add Contact/Email Field""), ""testuser02@mailinator.com"")",Chrome 109.0.0.0,,,2023-01-16 13:54:37,2023-01-16 13:55:10,32.241s,FAILED
+,,,,,,,
+Test Cases/04-Add my Organizations/02- Free limited Plan (Used Org Alias),Chrome 109.0.0.0,,,2023-01-16 13:55:10,2023-01-16 13:55:44,34.323s,FAILED
+"setText(findTestObject(""04-Add my Organizations/Free limited Plan/input_org alias""), ""1234"")",Chrome 109.0.0.0,,,2023-01-16 13:55:12,2023-01-16 13:55:44,31.868s,FAILED
+,,,,,,,
+Test Cases/04-Add my Organizations/03- Free limited Plan (Positive Scenarios),Chrome 109.0.0.0,,,2023-01-16 13:55:44,2023-01-16 13:56:20,36.206s,FAILED
+delay(2),Chrome 109.0.0.0,,,2023-01-16 13:55:46,2023-01-16 13:55:49,2.181s,PASSED
+"setText(findTestObject(""04-Add my Organizations/Free limited Plan/input_orgName""), ""GG Automation"")",Chrome 109.0.0.0,,,2023-01-16 13:55:49,2023-01-16 13:56:20,31.676s,FAILED

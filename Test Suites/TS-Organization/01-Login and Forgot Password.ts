@@ -36,7 +36,7 @@
       <guid>882b7525-8955-49b6-b78b-01ae810dd393</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/01-Login and Forgot Password/04-Login (valid credentials)</testCaseId>
+      <testCaseId>Test Cases/01-Login and Forgot Password/04-Login (Valid Credentials-Without Subscription)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>

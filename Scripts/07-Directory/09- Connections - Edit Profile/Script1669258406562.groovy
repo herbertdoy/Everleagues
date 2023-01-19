@@ -31,7 +31,11 @@ WebUI.setText(findTestObject('07-Directory/Connections/zContact Profile/input_fi
 
 WebUI.setText(findTestObject('07-Directory/Connections/zContact Profile/input_lastName'), 'Autoedit')
 
+WebUI.scrollToElement(findTestObject('07-Directory/Connections/zContact Profile/notes'), 0)
+
 WebUI.setText(findTestObject('07-Directory/Connections/zContact Profile/notes'), 'Automation Notes')
+
+WebUI.scrollToElement(findTestObject('07-Directory/Connections/zContact Profile/button_save changes'), 0)
 
 WebUI.click(findTestObject('07-Directory/Connections/zContact Profile/button_save changes'))
 

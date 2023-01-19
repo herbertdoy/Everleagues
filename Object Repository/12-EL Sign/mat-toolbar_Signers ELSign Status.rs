@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>mat-toolbar_Signers ELSign Status</name>
+   <tag></tag>
+   <elementGuidId>46135fbd-4efc-45e4-83c0-9fe57729343a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//mat-dialog-container[@id='mat-dialog-1']/app-addsigners/div/div/mat-toolbar</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div > mat-toolbar.mat-toolbar.mat-primary.mat-toolbar-single-row</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>mat-toolbar</value>
+      <webElementGuid>3c44812d-e791-4b2f-8261-385fdeb2f564</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>color</name>
+      <type>Main</type>
+      <value>primary</value>
+      <webElementGuid>428f8a5a-cb17-43e6-96f3-c36e431b79f0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-toolbar mat-primary mat-toolbar-single-row</value>
+      <webElementGuid>0080368b-7dd6-43a1-beef-418453c8ac32</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-reflect-color</name>
+      <type>Main</type>
+      <value>primary</value>
+      <webElementGuid>9c410fa6-6bfc-4873-971b-60110a9bc85f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Signers ELSign Status </value>
+      <webElementGuid>e22f9ca1-1847-4655-a7ee-48a37a186b62</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mat-dialog-1&quot;)/app-addsigners[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;ng-star-inserted&quot;]/div[1]/mat-toolbar[@class=&quot;mat-toolbar mat-primary mat-toolbar-single-row&quot;]</value>
+      <webElementGuid>ac53a022-329a-4264-ba98-21f337080ffc</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//mat-dialog-container[@id='mat-dialog-1']/app-addsigners/div/div/mat-toolbar</value>
+      <webElementGuid>7eccb297-b7ae-4a21-93fc-e6469b0bdbb0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='`'])[2]/following::mat-toolbar[1]</value>
+      <webElementGuid>46aff272-249f-464c-a2d3-82b6d553dab2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Alt'])[2]/following::mat-toolbar[1]</value>
+      <webElementGuid>0ba168d7-344a-46f2-8c85-08e890266073</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Signer Sequence'])[1]/preceding::mat-toolbar[1]</value>
+      <webElementGuid>d003685c-2d14-407d-92a6-193437670a36</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Name'])[1]/preceding::mat-toolbar[1]</value>
+      <webElementGuid>cf465334-31e6-4f9e-8f1f-65ae9fc39492</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Signers ELSign Status']/parent::*</value>
+      <webElementGuid>871e2f30-522c-4169-9b07-51f3c12f37a3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/mat-toolbar</value>
+      <webElementGuid>8a570b41-cf52-4786-86f2-4390374927e0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//mat-toolbar[(text() = ' Signers ELSign Status ' or . = ' Signers ELSign Status ')]</value>
+      <webElementGuid>2f232db8-9dd2-45b1-babe-37d5b0ddc7f9</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -91,6 +91,8 @@ WebUI.click(findTestObject('03-Header Menu/Hamburger Button/div_Settings'))
 
 WebUI.delay(3)
 
+WebUI.scrollToElement(findTestObject('09-Settings/Users/div_Users'), 0)
+
 WebUI.click(findTestObject('09-Settings/Users/div_Users'))
 
 WebUI.delay(3)

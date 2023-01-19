@@ -126,6 +126,8 @@ WebUI.verifyElementVisible(findTestObject('03-Header Menu/Hamburger Button/div_O
 
 WebUI.verifyElementVisible(findTestObject('03-Header Menu/Hamburger Button/div_Cloud Files'), FailureHandling.STOP_ON_FAILURE)
 
+WebUI.scrollToElement(findTestObject('03-Header Menu/Hamburger Button/div_ELSign'), 0)
+
 WebUI.verifyElementVisible(findTestObject('03-Header Menu/Hamburger Button/div_ELSign'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementVisible(findTestObject('03-Header Menu/Hamburger Button/div_Income and Expense'), FailureHandling.STOP_ON_FAILURE)
@@ -133,6 +135,8 @@ WebUI.verifyElementVisible(findTestObject('03-Header Menu/Hamburger Button/div_I
 WebUI.verifyElementVisible(findTestObject('03-Header Menu/Hamburger Button/div_ELNet'), FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyElementVisible(findTestObject('03-Header Menu/Hamburger Button/div_Help'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.scrollToElement(findTestObject('03-Header Menu/Hamburger Button/div_Dashboard'), 0)
 
 WebUI.delay(3)
 

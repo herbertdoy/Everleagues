@@ -90,6 +90,8 @@ WebUI.verifyElementVisible(findTestObject('02-Side Icons(Organization)/Add Conta
 
 WebUI.delay(5)
 
+WebUI.scrollToElement(findTestObject('03-Header Menu/Hamburger Button/div_Income and Expense'), 0)
+
 WebUI.click(findTestObject('03-Header Menu/Hamburger Button/div_Income and Expense'))
 
 WebUI.verifyElementVisible(findTestObject('13-Income and Expense/div_IncomeAndExpense Tracker'))

@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//td[@class = 'td-data-table-cell' and (text() = 'Automation folder' or . = 'Automation folder')]</value>
+         <value>//td[text()=' Automation folder ']</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

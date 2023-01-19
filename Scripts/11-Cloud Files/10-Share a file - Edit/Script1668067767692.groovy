@@ -70,6 +70,8 @@ WebUI.switchToWindowIndex(0)
 
 WebUI.click(findTestObject('03-Header Menu/Hamburger Button/div_Cloud Files'))
 
+WebUI.scrollToElement(findTestObject('11-Cloud Files/a_My Files'), 0)
+
 WebUI.click(findTestObject('11-Cloud Files/a_My Files'))
 
 WebUI.delay(3)

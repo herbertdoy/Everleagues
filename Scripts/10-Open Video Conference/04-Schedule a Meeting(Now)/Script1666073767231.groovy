@@ -35,23 +35,13 @@ WebUI.click(findTestObject('10-Open Video Conference/span_GG tester'))
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('10-Open Video Conference/mat-icon_cancel'))
-
-WebUI.click(findTestObject('10-Open Video Conference/span_GG tester'))
-
-WebUI.clickOffset(findTestObject('10-Open Video Conference/h5_Current Contacts'), 10, 10)
+WebUI.clickOffset(findTestObject('10-Open Video Conference/h5_Meeting Title'), 10, 10)
 
 WebUI.delay(3)
 
+WebUI.scrollToElement(findTestObject('10-Open Video Conference/h5_New Guests'), 0)
+
 WebUI.verifyElementVisible(findTestObject('10-Open Video Conference/h5_New Guests'))
-
-WebUI.click(findTestObject('10-Open Video Conference/mat-checkbox-Save all to contacts'))
-
-WebUI.click(findTestObject('10-Open Video Conference/mat-checkbox-Save all to contacts'))
-
-WebUI.click(findTestObject('10-Open Video Conference/div_Enter a valid phone number'))
-
-WebUI.click(findTestObject('10-Open Video Conference/div_Enter a valid phone number'))
 
 WebUI.delay(2)
 
@@ -76,6 +66,8 @@ WebUI.delay(3)
 WebUI.click(findTestObject('10-Open Video Conference/button_add_new guests'))
 
 WebUI.delay(4)
+
+WebUI.scrollToElement(findTestObject('10-Open Video Conference/h5_Meeting Title'), 0)
 
 WebUI.click(findTestObject('10-Open Video Conference/button_Create meeting'))
 

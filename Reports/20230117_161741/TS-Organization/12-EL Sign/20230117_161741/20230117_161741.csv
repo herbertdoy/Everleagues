@@ -1,0 +1,35 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+12-EL Sign,Chrome 109.0.0.0,,,2023-01-17 16:17:56,2023-01-17 16:20:41,2m - 45.145s,PASSED
+,,,,,,,
+Test Cases/12-EL Sign/01-Send Documents (Upload a file-required field is blank),Chrome 109.0.0.0,,,2023-01-17 16:17:57,2023-01-17 16:20:26,2m - 28.890s,PASSED
+"openBrowser("""")",Chrome 109.0.0.0,,,2023-01-17 16:17:59,2023-01-17 16:18:09,9.567s,PASSED
+"navigateToUrl(""https://lab.everleagues.com/"")",Chrome 109.0.0.0,,,2023-01-17 16:18:09,2023-01-17 16:18:37,28.302s,PASSED
+maximizeWindow(),Chrome 109.0.0.0,,,2023-01-17 16:18:37,2023-01-17 16:18:37,0.373s,PASSED
+"callTestCase(findTestCase(""01-Login and Forgot Password/Login(Valid Credentials-With Subscription)""), [:], STOP_ON_FAILURE)",Chrome 109.0.0.0,,,2023-01-17 16:18:37,2023-01-17 16:19:46,1m - 8.531s,PASSED
+"click(findTestObject(""06-Teams/button_doublearrow""))",Chrome 109.0.0.0,,,2023-01-17 16:19:46,2023-01-17 16:19:49,3.416s,PASSED
+"click(findTestObject(""06-Teams/button_My Organizations""))",Chrome 109.0.0.0,,,2023-01-17 16:19:49,2023-01-17 16:19:50,0.973s,PASSED
+"click(findTestObject(""02-Side Icons(Organization)/Add Contact/button_Automation Test Org""))",Chrome 109.0.0.0,,,2023-01-17 16:19:50,2023-01-17 16:19:52,1.340s,PASSED
+delay(4),Chrome 109.0.0.0,,,2023-01-17 16:19:52,2023-01-17 16:19:56,4.010s,PASSED
+"verifyElementVisible(findTestObject(""02-Side Icons(Organization)/Add Contact/span_Automation Test Org""))",Chrome 109.0.0.0,,,2023-01-17 16:19:56,2023-01-17 16:19:56,0.766s,PASSED
+delay(5),Chrome 109.0.0.0,,,2023-01-17 16:19:56,2023-01-17 16:20:01,5.009s,PASSED
+"scrollToElement(findTestObject(""03-Header Menu/Hamburger Button/div_ELSign""), 0)",Chrome 109.0.0.0,,,2023-01-17 16:20:01,2023-01-17 16:20:02,0.751s,PASSED
+"click(findTestObject(""03-Header Menu/Hamburger Button/div_ELSign""))",Chrome 109.0.0.0,,,2023-01-17 16:20:02,2023-01-17 16:20:03,1.155s,PASSED
+"verifyElementVisible(findTestObject(""03-Header Menu/Hamburger Button/div_ELSign""))",Chrome 109.0.0.0,,,2023-01-17 16:20:03,2023-01-17 16:20:06,2.795s,PASSED
+"verifyElementVisible(findTestObject(""12-EL Sign/h4_ELSign""))",Chrome 109.0.0.0,,,2023-01-17 16:20:06,2023-01-17 16:20:07,0.909s,PASSED
+delay(3),Chrome 109.0.0.0,,,2023-01-17 16:20:07,2023-01-17 16:20:10,3.023s,PASSED
+"click(findTestObject(""12-EL Sign/div_Send Documents""))",Chrome 109.0.0.0,,,2023-01-17 16:20:10,2023-01-17 16:20:11,0.864s,PASSED
+"uploadpackage.Upload.uploadFile(findTestObject(""Object Repository/12-EL Sign/div_Drag and drop or Upload PDF or Word document here""), ""C:\Users\asus\Desktop\EL automation\sample.pdf"")",Chrome 109.0.0.0,,,2023-01-17 16:20:11,2023-01-17 16:20:14,3.372s,PASSED
+delay(3),Chrome 109.0.0.0,,,2023-01-17 16:20:14,2023-01-17 16:20:17,3.038s,PASSED
+"click(findTestObject(""12-EL Sign/input_documentTitle""))",Chrome 109.0.0.0,,,2023-01-17 16:20:17,2023-01-17 16:20:19,1.415s,PASSED
+"sendKeys(findTestObject(""Object Repository/12-EL Sign/input_documentTitle""), Keys.chord(CONTROL, ""a""))",Chrome 109.0.0.0,,,2023-01-17 16:20:19,2023-01-17 16:20:20,1.675s,PASSED
+"sendKeys(findTestObject(""Object Repository/12-EL Sign/input_documentTitle""), Keys.chord(BACK_SPACE))",Chrome 109.0.0.0,,,2023-01-17 16:20:20,2023-01-17 16:20:21,0.797s,PASSED
+"clickOffset(findTestObject(""12-EL Sign/h4_ELSign""), 100, 100)",Chrome 109.0.0.0,,,2023-01-17 16:20:21,2023-01-17 16:20:22,0.964s,PASSED
+"verifyElementVisible(findTestObject(""12-EL Sign/mat-error_Title is required""))",Chrome 109.0.0.0,,,2023-01-17 16:20:22,2023-01-17 16:20:23,0.702s,PASSED
+delay(3),Chrome 109.0.0.0,,,2023-01-17 16:20:23,2023-01-17 16:20:26,3.015s,PASSED
+,,,,,,,
+Test Cases/12-EL Sign/02-Send Documents (Upload a file-fill out required field),Chrome 109.0.0.0,,,2023-01-17 16:20:26,2023-01-17 16:20:41,14.963s,PASSED
+"setText(findTestObject(""12-EL Sign/input_documentTitle""), ""sample.pdf"")",Chrome 109.0.0.0,,,2023-01-17 16:20:28,2023-01-17 16:20:30,1.643s,PASSED
+"click(findTestObject(""12-EL Sign/button_UPLOAD""))",Chrome 109.0.0.0,,,2023-01-17 16:20:30,2023-01-17 16:20:31,1.025s,PASSED
+delay(3),Chrome 109.0.0.0,,,2023-01-17 16:20:31,2023-01-17 16:20:34,3.011s,PASSED
+"click(findTestObject(""12-EL Sign/button_homeELSIGN DOCUMENTS""))",Chrome 109.0.0.0,,,2023-01-17 16:20:34,2023-01-17 16:20:38,4.309s,PASSED
+delay(3),Chrome 109.0.0.0,,,2023-01-17 16:20:38,2023-01-17 16:20:41,3.017s,PASSED

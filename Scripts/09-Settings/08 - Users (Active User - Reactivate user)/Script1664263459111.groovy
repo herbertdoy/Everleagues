@@ -27,16 +27,6 @@ WebUI.verifyElementPresent(findTestObject('09-Settings/Users/Active User/h4_Reac
 
 WebUI.delay(4)
 
-WebUI.click(findTestObject('09-Settings/Users/Active User/button_Cancel_restore'))
-
-WebUI.verifyElementPresent(findTestObject('09-Settings/Users/Active User/div_GTGG tester 2'), 0)
-
-WebUI.click(findTestObject('09-Settings/Users/Active User/button_reactivateUser'))
-
-WebUI.verifyElementPresent(findTestObject('09-Settings/Users/Active User/h4_Reactivate User'), 0)
-
-WebUI.delay(4)
-
 WebUI.click(findTestObject('09-Settings/Users/Active User/button_Reactivate'))
 
 WebUI.verifyElementPresent(findTestObject('09-Settings/Users/Active User/span_Successfully reactivated user'), 0)

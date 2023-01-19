@@ -17,6 +17,8 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.scrollToElement(findTestObject('03-Header Menu/User Profile/View Profile/Settings/Email Frequency selector'), 0)
+
 WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Settings/Email Frequency selector'))
 
 WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Settings/span_None'))
@@ -74,6 +76,12 @@ WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Settings/sp
 WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Settings/button_Save'))
 
 WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/View Profile/Settings/Successfully msg'))
+
+WebUI.delay(2)
+
+WebUI.scrollToElement(findTestObject('03-Header Menu/User Profile/View Profile/Settings/Dashboard Card'), 0)
+
+WebUI.scrollToElement(findTestObject('03-Header Menu/User Profile/View Profile/div_Contact Info'), 0)
 
 WebUI.delay(2)
 

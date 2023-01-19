@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.uploadFile(findTestObject('06-Teams/05- Teams-General Channel/button_add image'), 'C:\\Users\\User\\Desktop\\EL automation\\qa.jpg')
+WebUI.uploadFile(findTestObject('06-Teams/05- Teams-General Channel/button_add image'), 'C:\\Users\\asus\\Desktop\\EL automation\\qa.jpg')
 
 WebUI.verifyElementVisible(findTestObject('06-Teams/05- Teams-General Channel/added image'))
 

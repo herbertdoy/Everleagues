@@ -17,6 +17,8 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.click(findTestObject('11-Cloud Files/button_clearNotif'))
+
 WebUI.rightClick(findTestObject('11-Cloud Files/td_qa EDIT'))
 
 WebUI.click(findTestObject('11-Cloud Files/button_Share'))
@@ -30,15 +32,10 @@ WebUI.click(findTestObject('11-Cloud Files/mat-option_GTGG tester 2'))
 WebUI.click(findTestObject('11-Cloud Files/mat-option_GTGG tester'))
 
 //WebUI.clickOffset(findTestObject('11-Cloud Files/button_Copy Share Link'), 10, 10)
-
 //WebUI.click(findTestObject('11-Cloud Files/div_mat-checkbox-notify-user'))
-
 //WebUI.click(findTestObject('11-Cloud Files/div_mat-checkbox-notify-user'))
-
 //WebUI.click(findTestObject('11-Cloud Files/div_dropdown'))
-
 //WebUI.click(findTestObject('11-Cloud Files/span_Viewer'))
-
 WebUI.click(findTestObject('11-Cloud Files/button_done'))
 
 //WebUI.verifyElementVisible(findTestObject('11-Cloud Files/snack-bar-container_Shared folder access updated successfully.OK'))

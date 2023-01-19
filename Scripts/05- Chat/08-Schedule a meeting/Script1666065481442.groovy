@@ -31,7 +31,19 @@ WebUI.verifyElementVisible(findTestObject('05-Chat/08-Schedule a meeting/div_Rec
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('05-Chat/08-Schedule a meeting/div_recurrence_selectarror'))
+WebUI.click(findTestObject('05-Chat/08-Schedule a meeting/button_Start Date_calendar'))
+
+WebUI.verifyElementVisible(findTestObject('05-Chat/08-Schedule a meeting/calendar modal'))
+
+WebUI.delay(2)
+
+WebUI.doubleClick(findTestObject('05-Chat/08-Schedule a meeting/button_End Date_calendar'))
+
+WebUI.verifyElementVisible(findTestObject('05-Chat/08-Schedule a meeting/calendar modal'))
+
+WebUI.delay(3)
+
+WebUI.doubleClick(findTestObject('05-Chat/08-Schedule a meeting/div_recurrence_selectarror'))
 
 WebUI.verifyElementVisible(findTestObject('05-Chat/08-Schedule a meeting/span_Does not repeat'))
 
@@ -43,30 +55,13 @@ WebUI.verifyElementVisible(findTestObject('05-Chat/08-Schedule a meeting/span_Mo
 
 WebUI.verifyElementVisible(findTestObject('05-Chat/08-Schedule a meeting/span_Every weekday'))
 
-WebUI.delay(2)
-
 WebUI.click(findTestObject('05-Chat/08-Schedule a meeting/span_Daily'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('05-Chat/08-Schedule a meeting/button_Start Date_calendar'))
-
-WebUI.verifyElementVisible(findTestObject('05-Chat/08-Schedule a meeting/calendar modal'))
-
 WebUI.delay(2)
 
-WebUI.clickOffset(findTestObject('05-Chat/01- Creating a Chat group/div_Automation Chat'), 10, 10)
-
-WebUI.delay(3)
-
-WebUI.click(findTestObject('05-Chat/08-Schedule a meeting/button_End Date_calendar'))
-
-WebUI.verifyElementVisible(findTestObject('05-Chat/08-Schedule a meeting/calendar modal'))
-
-WebUI.delay(3)
-
-WebUI.clickOffset(findTestObject('05-Chat/01- Creating a Chat group/div_Automation Chat'), 10, 10)
-
-WebUI.delay(3)
-
+//WebUI.click(findTestObject('05-Chat/08-Schedule a meeting/button_done'))
+//WebUI.clickOffset(findTestObject('05-Chat/01- Creating a Chat group/div_Automation Chat'), 10, 10)
+//WebUI.delay(3)
 WebUI.setText(findTestObject('05-Chat/08-Schedule a meeting/input_meeting title'), 'Automation Meeting')
 
 WebUI.delay(2)

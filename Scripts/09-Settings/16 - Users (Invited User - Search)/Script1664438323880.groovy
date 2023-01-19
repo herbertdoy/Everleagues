@@ -95,6 +95,8 @@ WebUI.verifyElementVisible(findTestObject('09-Settings/Users/div_Organization Un
 
 WebUI.verifyElementVisible(findTestObject('09-Settings/Users/div_Subscriptions'))
 
+WebUI.scrollToElement(findTestObject('09-Settings/Users/div_Users'), 0)
+
 WebUI.verifyElementVisible(findTestObject('09-Settings/Users/div_Users'))
 
 WebUI.delay(3)

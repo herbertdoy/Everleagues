@@ -99,7 +99,7 @@ WebUI.click(findTestObject('06-Teams/05- Teams-General Channel/div_General'))
 
 WebUI.delay(3)
 
-WebUI.uploadFile(findTestObject('06-Teams/05- Teams-General Channel/button_attache_file'), 'C:\\Users\\User\\Desktop\\EL automation\\sample.pdf')
+WebUI.uploadFile(findTestObject('06-Teams/05- Teams-General Channel/button_attache_file'), 'C:\\Users\\asus\\Desktop\\EL automation\\sample.pdf')
 
 WebUI.verifyElementVisible(findTestObject('06-Teams/05- Teams-General Channel/added PDF'))
 

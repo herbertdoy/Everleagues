@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@class='cdk-overlay-pane']//mat-dialog-container[1]</value>
+         <value>//div[@class='cdk-overlay-pane dialog-uploadimage']//mat-dialog-container[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,6 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>mat-dialog-container</value>
+      <webElementGuid>eb885281-0630-4e32-9dbc-b71c4c47fc56</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,6 +30,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>-1</value>
+      <webElementGuid>8a02eb7a-62bd-48c1-87ba-ea03d2c117f4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -36,6 +38,7 @@
       <name>aria-modal</name>
       <type>Main</type>
       <value>true</value>
+      <webElementGuid>1bf03287-8a3b-485e-a61d-380c498fe14e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,6 +46,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-dialog-container ng-tns-c31-298 ng-trigger ng-trigger-dialogContainer ng-star-inserted</value>
+      <webElementGuid>24c94653-4747-4e03-b257-f403212ab8e4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -50,6 +54,7 @@
       <name>id</name>
       <type>Main</type>
       <value>mat-dialog-4</value>
+      <webElementGuid>270cd2a5-1c6f-4dff-abc1-f30f0cfe4475</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -57,6 +62,7 @@
       <name>role</name>
       <type>Main</type>
       <value>dialog</value>
+      <webElementGuid>4e748614-b55f-47ae-8ba8-030c735ebbcd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -64,6 +70,7 @@
       <name>aria-labelledby</name>
       <type>Main</type>
       <value>mat-dialog-title-4</value>
+      <webElementGuid>d6659610-b3a6-4fed-9061-c90efc1c8355</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -71,6 +78,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Upload User ImageSelect file..folderBrowseUpload ImageCancel</value>
+      <webElementGuid>d3d7c3ed-b4df-4e82-8d12-eb0fe42120a0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,6 +86,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-dialog-4&quot;)</value>
+      <webElementGuid>91414534-58bf-4cad-935c-d83e60a7b239</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -85,6 +94,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//mat-dialog-container[@id='mat-dialog-4']</value>
+      <webElementGuid>978ade5b-6589-4439-b749-89ac70e7ae2d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -92,6 +102,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='cdk-overlay-18']/mat-dialog-container</value>
+      <webElementGuid>3ff95f74-221b-4183-86a3-13f9a4755d4f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,6 +110,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Delete Phone'])[1]/following::mat-dialog-container[1]</value>
+      <webElementGuid>8d4d561f-d99f-42f8-a979-d8c0e1274711</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,6 +118,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Delete Email'])[1]/following::mat-dialog-container[1]</value>
+      <webElementGuid>d3cdb23f-f0a7-4a0f-b35d-9a34a920d79a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -113,5 +126,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//mat-dialog-container</value>
+      <webElementGuid>c534d4a1-6058-4ab2-8104-78bb4a071dbb</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

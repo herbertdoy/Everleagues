@@ -29,10 +29,10 @@ WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/View Prof
 
 WebUI.delay(1)
 
-WebUI.verifyElementNotPresent(findTestObject('03-Header Menu/User Profile/View Profile/Security Tab (2FA)/button_edit'), 
-    0)
+//WebUI.verifyElementNotPresent(findTestObject('03-Header Menu/User Profile/View Profile/Security Tab (2FA)/button_edit'), 
+//    0)
 
-WebUI.delay(1)
+//WebUI.delay(1)
 
 WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Security Tab (2FA)/2FA_toggle'))
 

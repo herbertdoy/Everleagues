@@ -41,6 +41,8 @@ WebUI.click(findTestObject('09-Settings/Users/Active User/div_GG Automation'))
 
 WebUI.verifyElementVisible(findTestObject('09-Settings/Users/Active User/div_Active Users-Selected Organization units'))
 
+WebUI.delay(3)
+
 WebUI.click(findTestObject('09-Settings/Users/Active User/filter_icon'))
 
 WebUI.delay(5)

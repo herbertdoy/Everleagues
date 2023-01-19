@@ -10,6 +10,10 @@
          <value>#mat-tab-label-6-3 > div.mat-tab-label-content</value>
       </entry>
       <entry>
+         <key>BASIC</key>
+         <value>//div[@class = 'mat-tab-label-content' and (text() = 'Contact Info ' or . = 'Contact Info ')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//div[@id='mat-tab-label-6-3']/div</value>
       </entry>
@@ -17,18 +21,20 @@
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
+      <webElementGuid>fa6e48c7-9a78-4bd5-a81f-10176a4629c8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>mat-tab-label-content</value>
+      <webElementGuid>aa37e1f4-911d-4c35-a47b-88ba397c5ed1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -36,6 +42,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Contact Info </value>
+      <webElementGuid>daf2e329-7ac9-429e-9495-8d41b8bac41f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,6 +50,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-tab-label-6-3&quot;)/div[@class=&quot;mat-tab-label-content&quot;]</value>
+      <webElementGuid>a9eb6b92-63c1-4b2d-980c-0ded04912d9f</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -50,6 +58,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='mat-tab-label-6-3']/div</value>
+      <webElementGuid>86a36ffd-653b-4539-9dc4-85d592a18988</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -57,6 +66,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Settings'])[2]/following::div[2]</value>
+      <webElementGuid>f58f8a4c-d9d8-48e0-8d76-2b19be276924</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -64,6 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Security'])[1]/following::div[4]</value>
+      <webElementGuid>3b7ad359-f2d3-45eb-bf10-06ffcd688b2a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,6 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Username'])[1]/preceding::div[4]</value>
+      <webElementGuid>f623f772-8dcc-4159-a987-45a094ea66fe</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,6 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='First Name'])[1]/preceding::div[12]</value>
+      <webElementGuid>70e9812e-235f-4b31-85bb-20b1817ea74c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,6 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Contact Info']/parent::*</value>
+      <webElementGuid>e962aa68-ee1b-44ab-8429-bdf192738bcb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -92,5 +106,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[4]/div</value>
+      <webElementGuid>e0bb1273-fea1-4476-a07b-40e468084299</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

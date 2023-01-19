@@ -1,0 +1,101 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+09.3 - Settings (Invited users),Chrome 108.0.0.0,,,2022-12-26 17:30:17,2022-12-26 17:36:24,6m - 7.688s,PASSED
+,,,,,,,
+Test Cases/09-Settings/16 - Users (Invited User - Search),Chrome 108.0.0.0,,,2022-12-26 17:30:18,2022-12-26 17:35:25,5m - 6.616s,PASSED
+"openBrowser("""")",Chrome 108.0.0.0,,,2022-12-26 17:30:20,2022-12-26 17:30:30,10.419s,PASSED
+"navigateToUrl(""https://lab.everleagues.com/"")",Chrome 108.0.0.0,,,2022-12-26 17:30:30,2022-12-26 17:33:29,2m - 58.904s,PASSED
+maximizeWindow(),Chrome 108.0.0.0,,,2022-12-26 17:33:29,2022-12-26 17:33:30,0.591s,PASSED
+"setText(findTestObject(""02-Side Icons(Organization)/Add Contact/Email Field""), ""testuser02@mailinator.com"")",Chrome 108.0.0.0,,,2022-12-26 17:33:30,2022-12-26 17:33:33,3.388s,PASSED
+"setEncryptedText(findTestObject(""02-Side Icons(Organization)/Add Contact/Password Field""), ""8yFRyszE6U6jvsCn51OQbg=="")",Chrome 108.0.0.0,,,2022-12-26 17:33:33,2022-12-26 17:33:35,1.415s,PASSED
+"click(findTestObject(""02-Side Icons(Organization)/Add Contact/button_Sign in""))",Chrome 108.0.0.0,,,2022-12-26 17:33:35,2022-12-26 17:33:37,2.018s,PASSED
+delay(2),Chrome 108.0.0.0,,,2022-12-26 17:33:37,2022-12-26 17:33:39,2.383s,PASSED
+"click(findTestObject(""06-Teams/For 2FA/button_Confirm_2FA""))",Chrome 108.0.0.0,,,2022-12-26 17:33:39,2022-12-26 17:33:40,0.886s,PASSED
+"executeJavaScript(""window.open();"", [])",Chrome 108.0.0.0,,,2022-12-26 17:33:40,2022-12-26 17:33:41,0.550s,PASSED
+currentWindow = getWindowIndex(),Chrome 108.0.0.0,,,2022-12-26 17:33:41,2022-12-26 17:33:41,0.175s,PASSED
+delay(3),Chrome 108.0.0.0,,,2022-12-26 17:33:41,2022-12-26 17:33:44,3.009s,PASSED
+switchToWindowIndex(currentWindow + 1),Chrome 108.0.0.0,,,2022-12-26 17:33:44,2022-12-26 17:33:44,0.151s,PASSED
+"navigateToUrl(""https://www.mailinator.com/"")",Chrome 108.0.0.0,,,2022-12-26 17:33:44,2022-12-26 17:33:58,13.616s,PASSED
+delay(3),Chrome 108.0.0.0,,,2022-12-26 17:33:58,2022-12-26 17:34:01,3.024s,PASSED
+"setText(findTestObject(""00-Signup and Activation/zMailinator/input_LOGIN_search""), ""testuser02@mailinator.com"")",Chrome 108.0.0.0,,,2022-12-26 17:34:01,2022-12-26 17:34:02,1.434s,PASSED
+"click(findTestObject(""00-Signup and Activation/zMailinator/gobutton""), STOP_ON_FAILURE)",Chrome 108.0.0.0,,,2022-12-26 17:34:02,2022-12-26 17:34:05,2.686s,PASSED
+delay(3),Chrome 108.0.0.0,,,2022-12-26 17:34:05,2022-12-26 17:34:08,3.023s,PASSED
+"click(findTestObject(""00-Signup and Activation/zMailinator/Email - everleagues""))",Chrome 108.0.0.0,,,2022-12-26 17:34:08,2022-12-26 17:34:09,0.901s,PASSED
+delay(3),Chrome 108.0.0.0,,,2022-12-26 17:34:09,2022-12-26 17:34:12,3.019s,PASSED
+"code = getText(findTestObject(""Object Repository/06-Teams/For 2FA/2FA code""))",Chrome 108.0.0.0,,,2022-12-26 17:34:12,2022-12-26 17:34:13,1.205s,PASSED
+delay(3),Chrome 108.0.0.0,,,2022-12-26 17:34:13,2022-12-26 17:34:16,3.015s,PASSED
+"closeWindowTitle(""Mailinator"")",Chrome 108.0.0.0,,,2022-12-26 17:34:16,2022-12-26 17:34:16,0.495s,PASSED
+delay(3),Chrome 108.0.0.0,,,2022-12-26 17:34:16,2022-12-26 17:34:19,3.018s,PASSED
+switchToWindowIndex(0),Chrome 108.0.0.0,,,2022-12-26 17:34:19,2022-12-26 17:34:19,0.038s,PASSED
+delay(3),Chrome 108.0.0.0,,,2022-12-26 17:34:19,2022-12-26 17:34:22,3.009s,PASSED
+"setText(findTestObject(""Object Repository/06-Teams/For 2FA/input_Enter verification code_code""), code)",Chrome 108.0.0.0,,,2022-12-26 17:34:22,2022-12-26 17:34:24,1.569s,PASSED
+delay(3),Chrome 108.0.0.0,,,2022-12-26 17:34:24,2022-12-26 17:34:27,3.013s,PASSED
+"click(findTestObject(""06-Teams/For 2FA/button_Verify_2FA""))",Chrome 108.0.0.0,,,2022-12-26 17:34:27,2022-12-26 17:34:28,0.937s,PASSED
+delay(5),Chrome 108.0.0.0,,,2022-12-26 17:34:28,2022-12-26 17:34:33,5.019s,PASSED
+"click(findTestObject(""06-Teams/button_doublearrow""))",Chrome 108.0.0.0,,,2022-12-26 17:34:33,2022-12-26 17:34:36,3.329s,PASSED
+"click(findTestObject(""06-Teams/button_My Organizations""))",Chrome 108.0.0.0,,,2022-12-26 17:34:36,2022-12-26 17:34:37,0.862s,PASSED
+"click(findTestObject(""06-Teams/button_GG Automation""))",Chrome 108.0.0.0,,,2022-12-26 17:34:37,2022-12-26 17:34:39,1.846s,PASSED
+delay(4),Chrome 108.0.0.0,,,2022-12-26 17:34:39,2022-12-26 17:34:43,4.018s,PASSED
+"verifyElementVisible(findTestObject(""06-Teams/span_GG Automation""))",Chrome 108.0.0.0,,,2022-12-26 17:34:43,2022-12-26 17:34:44,1.064s,PASSED
+delay(5),Chrome 108.0.0.0,,,2022-12-26 17:34:44,2022-12-26 17:34:49,5.022s,PASSED
+"click(findTestObject(""03-Header Menu/Hamburger Button/div_Settings""))",Chrome 108.0.0.0,,,2022-12-26 17:34:49,2022-12-26 17:34:51,1.751s,PASSED
+"verifyElementVisible(findTestObject(""09-Settings/Users/div_Organization""))",Chrome 108.0.0.0,,,2022-12-26 17:34:51,2022-12-26 17:34:52,1.292s,PASSED
+"verifyElementVisible(findTestObject(""09-Settings/Users/div_Organization Units""))",Chrome 108.0.0.0,,,2022-12-26 17:34:52,2022-12-26 17:34:53,0.654s,PASSED
+"verifyElementVisible(findTestObject(""09-Settings/Users/div_Subscriptions""))",Chrome 108.0.0.0,,,2022-12-26 17:34:53,2022-12-26 17:34:53,0.631s,PASSED
+"scrollToElement(findTestObject(""09-Settings/Users/div_Users""), 0)",Chrome 108.0.0.0,,,2022-12-26 17:34:53,2022-12-26 17:34:54,0.707s,PASSED
+"verifyElementVisible(findTestObject(""09-Settings/Users/div_Users""))",Chrome 108.0.0.0,,,2022-12-26 17:34:54,2022-12-26 17:34:55,0.656s,PASSED
+delay(3),Chrome 108.0.0.0,,,2022-12-26 17:34:55,2022-12-26 17:34:58,3.007s,PASSED
+"click(findTestObject(""09-Settings/Users/div_Users""))",Chrome 108.0.0.0,,,2022-12-26 17:34:58,2022-12-26 17:35:00,2.330s,PASSED
+"verifyElementVisible(findTestObject(""09-Settings/Users/h4_USERS""))",Chrome 108.0.0.0,,,2022-12-26 17:35:00,2022-12-26 17:35:01,1.336s,PASSED
+"verifyElementVisible(findTestObject(""09-Settings/Users/Invited Users/div_Invited Users""))",Chrome 108.0.0.0,,,2022-12-26 17:35:01,2022-12-26 17:35:02,0.934s,PASSED
+"click(findTestObject(""09-Settings/Users/Invited Users/div_Invited Users""))",Chrome 108.0.0.0,,,2022-12-26 17:35:02,2022-12-26 17:35:03,0.958s,PASSED
+delay(5),Chrome 108.0.0.0,,,2022-12-26 17:35:03,2022-12-26 17:35:08,5.015s,PASSED
+"click(findTestObject(""09-Settings/Users/Active User/button_search""))",Chrome 108.0.0.0,,,2022-12-26 17:35:08,2022-12-26 17:35:09,0.856s,PASSED
+delay(3),Chrome 108.0.0.0,,,2022-12-26 17:35:09,2022-12-26 17:35:12,3.018s,PASSED
+"click(findTestObject(""09-Settings/Users/Active User/button_arrow_back""))",Chrome 108.0.0.0,,,2022-12-26 17:35:12,2022-12-26 17:35:13,0.991s,PASSED
+delay(4),Chrome 108.0.0.0,,,2022-12-26 17:35:13,2022-12-26 17:35:17,4.023s,PASSED
+"click(findTestObject(""09-Settings/Users/Active User/button_search""))",Chrome 108.0.0.0,,,2022-12-26 17:35:17,2022-12-26 17:35:19,1.718s,PASSED
+"setText(findTestObject(""09-Settings/Users/Active User/Search field""), ""test3"")",Chrome 108.0.0.0,,,2022-12-26 17:35:19,2022-12-26 17:35:21,1.650s,PASSED
+delay(1),Chrome 108.0.0.0,,,2022-12-26 17:35:21,2022-12-26 17:35:22,1.024s,PASSED
+"click(findTestObject(""09-Settings/Users/Active User/button_Cancel""))",Chrome 108.0.0.0,,,2022-12-26 17:35:22,2022-12-26 17:35:22,0.820s,PASSED
+delay(2),Chrome 108.0.0.0,,,2022-12-26 17:35:22,2022-12-26 17:35:25,2.017s,PASSED
+,,,,,,,
+Test Cases/09-Settings/17 - Users (Invited User - Resend Invitation),Chrome 108.0.0.0,,,2022-12-26 17:35:25,2022-12-26 17:35:37,12.557s,PASSED
+"verifyElementVisible(findTestObject(""09-Settings/Users/Invited Users/div_CTCSV test 3""))",Chrome 108.0.0.0,,,2022-12-26 17:35:26,2022-12-26 17:35:27,0.632s,PASSED
+delay(3),Chrome 108.0.0.0,,,2022-12-26 17:35:27,2022-12-26 17:35:30,3.018s,PASSED
+"click(findTestObject(""09-Settings/Users/Invited Users/button_resendInvitation""))",Chrome 108.0.0.0,,,2022-12-26 17:35:30,2022-12-26 17:35:31,0.954s,PASSED
+"click(findTestObject(""09-Settings/Users/Invited Users/span_Successfully resent invite""))",Chrome 108.0.0.0,,,2022-12-26 17:35:31,2022-12-26 17:35:33,2.446s,PASSED
+"click(findTestObject(""09-Settings/Users/Active User/button_OK""))",Chrome 108.0.0.0,,,2022-12-26 17:35:33,2022-12-26 17:35:34,0.747s,PASSED
+delay(3),Chrome 108.0.0.0,,,2022-12-26 17:35:34,2022-12-26 17:35:37,3.014s,PASSED
+,,,,,,,
+Test Cases/09-Settings/18 - Users (Invited User - Delete Invite),Chrome 108.0.0.0,,,2022-12-26 17:35:37,2022-12-26 17:36:24,47.095s,PASSED
+delay(3),Chrome 108.0.0.0,,,2022-12-26 17:35:39,2022-12-26 17:35:42,3.018s,PASSED
+"verifyElementVisible(findTestObject(""09-Settings/Users/Invited Users/div_GG Auto""))",Chrome 108.0.0.0,,,2022-12-26 17:35:42,2022-12-26 17:35:43,0.713s,PASSED
+delay(3),Chrome 108.0.0.0,,,2022-12-26 17:35:43,2022-12-26 17:35:46,3.021s,PASSED
+"click(findTestObject(""09-Settings/Users/Invited Users/button_deleteInvite""))",Chrome 108.0.0.0,,,2022-12-26 17:35:46,2022-12-26 17:35:47,1.144s,PASSED
+"verifyElementVisible(findTestObject(""09-Settings/Users/Invited Users/h4_Delete Invitation""))",Chrome 108.0.0.0,,,2022-12-26 17:35:47,2022-12-26 17:35:48,1.182s,PASSED
+delay(1),Chrome 108.0.0.0,,,2022-12-26 17:35:48,2022-12-26 17:35:49,1.021s,PASSED
+"click(findTestObject(""09-Settings/Users/Active User/button_Cancel_restore""))",Chrome 108.0.0.0,,,2022-12-26 17:35:49,2022-12-26 17:35:50,0.852s,PASSED
+delay(2),Chrome 108.0.0.0,,,2022-12-26 17:35:50,2022-12-26 17:35:52,2.018s,PASSED
+"verifyElementVisible(findTestObject(""09-Settings/Users/Invited Users/div_GG Auto""))",Chrome 108.0.0.0,,,2022-12-26 17:35:52,2022-12-26 17:35:52,0.650s,PASSED
+"click(findTestObject(""09-Settings/Users/Invited Users/button_deleteInvite""))",Chrome 108.0.0.0,,,2022-12-26 17:35:52,2022-12-26 17:35:53,0.833s,PASSED
+"verifyElementVisible(findTestObject(""09-Settings/Users/Invited Users/h4_Delete Invitation""))",Chrome 108.0.0.0,,,2022-12-26 17:35:53,2022-12-26 17:35:54,0.678s,PASSED
+"click(findTestObject(""09-Settings/Users/Active User/button_Delete""))",Chrome 108.0.0.0,,,2022-12-26 17:35:54,2022-12-26 17:35:55,0.910s,PASSED
+delay(3),Chrome 108.0.0.0,,,2022-12-26 17:35:55,2022-12-26 17:35:58,3.019s,PASSED
+"verifyElementVisible(findTestObject(""09-Settings/Users/Invited Users/div_CTCSV test 3""))",Chrome 108.0.0.0,,,2022-12-26 17:35:58,2022-12-26 17:35:59,0.665s,PASSED
+"click(findTestObject(""09-Settings/Users/Invited Users/button_deleteInvite""))",Chrome 108.0.0.0,,,2022-12-26 17:35:59,2022-12-26 17:35:59,0.868s,PASSED
+"verifyElementVisible(findTestObject(""09-Settings/Users/Invited Users/h4_Delete Invitation""))",Chrome 108.0.0.0,,,2022-12-26 17:35:59,2022-12-26 17:36:00,0.714s,PASSED
+"click(findTestObject(""09-Settings/Users/Active User/button_Delete""))",Chrome 108.0.0.0,,,2022-12-26 17:36:00,2022-12-26 17:36:01,0.746s,PASSED
+delay(3),Chrome 108.0.0.0,,,2022-12-26 17:36:01,2022-12-26 17:36:04,3.022s,PASSED
+"verifyElementVisible(findTestObject(""09-Settings/Users/Invited Users/div_CTCSV test 2""))",Chrome 108.0.0.0,,,2022-12-26 17:36:04,2022-12-26 17:36:05,0.674s,PASSED
+"click(findTestObject(""09-Settings/Users/Invited Users/button_deleteInvite""))",Chrome 108.0.0.0,,,2022-12-26 17:36:05,2022-12-26 17:36:05,0.844s,PASSED
+"verifyElementVisible(findTestObject(""09-Settings/Users/Invited Users/h4_Delete Invitation""))",Chrome 108.0.0.0,,,2022-12-26 17:36:05,2022-12-26 17:36:07,1.293s,PASSED
+"click(findTestObject(""09-Settings/Users/Active User/button_Delete""))",Chrome 108.0.0.0,,,2022-12-26 17:36:07,2022-12-26 17:36:08,0.880s,PASSED
+delay(3),Chrome 108.0.0.0,,,2022-12-26 17:36:08,2022-12-26 17:36:11,3.019s,PASSED
+"verifyElementVisible(findTestObject(""09-Settings/Users/Invited Users/div_CTCSV test 1""))",Chrome 108.0.0.0,,,2022-12-26 17:36:11,2022-12-26 17:36:11,0.716s,PASSED
+"click(findTestObject(""09-Settings/Users/Invited Users/button_deleteInvite""))",Chrome 108.0.0.0,,,2022-12-26 17:36:11,2022-12-26 17:36:12,0.838s,PASSED
+"verifyElementVisible(findTestObject(""09-Settings/Users/Invited Users/h4_Delete Invitation""))",Chrome 108.0.0.0,,,2022-12-26 17:36:12,2022-12-26 17:36:13,0.705s,PASSED
+"click(findTestObject(""09-Settings/Users/Active User/button_Delete""))",Chrome 108.0.0.0,,,2022-12-26 17:36:13,2022-12-26 17:36:14,1.118s,PASSED
+"click(findTestObject(""09-Settings/Users/Invited Users/span_Successfully deleted invite""))",Chrome 108.0.0.0,,,2022-12-26 17:36:14,2022-12-26 17:36:17,2.615s,PASSED
+"click(findTestObject(""09-Settings/Users/Active User/button_OK""))",Chrome 108.0.0.0,,,2022-12-26 17:36:17,2022-12-26 17:36:18,0.971s,PASSED
+delay(5),Chrome 108.0.0.0,,,2022-12-26 17:36:18,2022-12-26 17:36:23,5.011s,PASSED
+closeBrowser(),Chrome 108.0.0.0,,,2022-12-26 17:36:23,2022-12-26 17:36:24,1.748s,PASSED

@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//td[@class = 'td-data-table-cell' and (text() = 'qa EDIT people' or . = 'qa EDIT people')]</value>
+         <value>//td[(text() = ' qa EDIT people ' or . = ' qa EDIT people ')]</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

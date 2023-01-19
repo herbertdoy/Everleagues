@@ -91,6 +91,8 @@ WebUI.click(findTestObject('03-Header Menu/Hamburger Button/div_Settings'))
 
 WebUI.delay(3)
 
+WebUI.scrollToElement(findTestObject('09-Settings/Users/div_Users'), 0)
+
 WebUI.click(findTestObject('09-Settings/Users/div_Users'))
 
 WebUI.delay(3)
@@ -108,7 +110,7 @@ WebUI.verifyElementNotClickable(findTestObject('09-Settings/Users/CSV Invite/but
 WebUI.delay(3)
 
 CustomKeywords.'uploadpackage.Upload.uploadFile'(findTestObject('Object Repository/09-Settings/Users/CSV Invite/button_Choose File'), 
-    'C:\\Users\\User\\Desktop\\EL automation\\sample csv.csv')
+    'C:\\Users\\asus\\Desktop\\EL automation\\sample csv.csv')
 
 WebUI.delay(3)
 

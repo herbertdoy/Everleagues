@@ -25,4 +25,3 @@ WebUI.setText(findTestObject('10-Open Video Conference/input_emailPhonenumber'),
 
 WebUI.verifyElementVisible(findTestObject('10-Open Video Conference/mat-error_Enter a valid phone number (eg 13330001234)'))
 
-WebUI.delay(2)

@@ -47,6 +47,8 @@ WebUI.verifyElementVisible(findTestObject('13-Income and Expense/mat-error_Recei
 
 WebUI.verifyElementVisible(findTestObject('13-Income and Expense/mat-hint_Required'))
 
+WebUI.scrollToElement(findTestObject('13-Income and Expense/button_Done'), 0)
+
 WebUI.verifyElementNotClickable(findTestObject('13-Income and Expense/button_Done'))
 
 WebUI.delay(3)

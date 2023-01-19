@@ -20,7 +20,7 @@ import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 WebUI.delay(2)
 
 'always change the number in the email to the next one before starting the automation'
-WebUI.setText(findTestObject('00-Signup and Activation/input_Email'), 'autotester1035@mailinator.com')
+WebUI.setText(findTestObject('00-Signup and Activation/input_Email'), 'autotester1051@mailinator.com')
 
 WebUI.setText(findTestObject('00-Signup and Activation/input_firstName'), 'GG')
 
@@ -45,7 +45,7 @@ WebUI.navigateToUrl('https://www.mailinator.com/')
 WebUI.delay(3)
 
 'always match this email to the email above'
-WebUI.setText(findTestObject('00-Signup and Activation/zMailinator/input_LOGIN_search'), 'autotester1035@mailinator.com')
+WebUI.setText(findTestObject('00-Signup and Activation/zMailinator/input_LOGIN_search'), 'autotester1051@mailinator.com')
 
 WebUI.click(findTestObject('00-Signup and Activation/zMailinator/gobutton'), FailureHandling.STOP_ON_FAILURE)
 

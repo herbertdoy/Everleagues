@@ -93,11 +93,15 @@ WebUI.verifyElementVisible(findTestObject('09-Settings/Users/div_Organization'))
 
 WebUI.verifyElementVisible(findTestObject('09-Settings/Users/div_Organization Units'))
 
+WebUI.scrollToElement(findTestObject('09-Settings/Users/div_Subscriptions'), 0)
+
 WebUI.verifyElementVisible(findTestObject('09-Settings/Users/div_Subscriptions'))
 
 WebUI.verifyElementVisible(findTestObject('09-Settings/Users/div_Users'))
 
 WebUI.delay(3)
+
+WebUI.scrollToElement(findTestObject('09-Settings/Users/div_Organization Units'), 0)
 
 WebUI.click(findTestObject('09-Settings/Users/div_Organization Units'))
 

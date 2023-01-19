@@ -109,6 +109,8 @@ WebUI.click(findTestObject('06-Teams/button_Public'))
 
 WebUI.verifyElementVisible(findTestObject('06-Teams/01-Add Team-Public/Add Team_Public'))
 
+WebUI.scrollToElement(findTestObject('06-Teams/01-Add Team-Public/button_Create'), 0)
+
 WebUI.verifyElementNotClickable(findTestObject('06-Teams/01-Add Team-Public/button_Create'))
 
 WebUI.delay(3)
@@ -130,6 +132,8 @@ WebUI.verifyElementVisible(findTestObject('06-Teams/01-Add Team-Public/Error Tea
 WebUI.delay(3)
 
 WebUI.setText(findTestObject('06-Teams/01-Add Team-Public/input_teamName'), 'Auto Team Public')
+
+WebUI.scrollToElement(findTestObject('06-Teams/01-Add Team-Public/button_Create'), 0)
 
 WebUI.click(findTestObject('06-Teams/01-Add Team-Public/button_Create'))
 

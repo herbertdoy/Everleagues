@@ -31,6 +31,8 @@ WebUI.click(findTestObject('07-Directory/Connections/input_State_country'), Fail
 
 WebUI.click(findTestObject('07-Directory/Connections/option_united states'), FailureHandling.STOP_ON_FAILURE)
 
+WebUI.scrollToElement(findTestObject('07-Directory/Connections/input_Country_addressLabel'), 0)
+
 WebUI.click(findTestObject('07-Directory/Connections/input_Country_addressLabel'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(3)

@@ -17,20 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-
 WebUI.delay(3)
-
-WebUI.verifyElementPresent(findTestObject('09-Settings/Users/Active User/div_GTGG tester 2'), 0)
-
-WebUI.click(findTestObject('09-Settings/Users/Active User/button_ellipses'))
-
-WebUI.click(findTestObject('09-Settings/Users/Active User/button_Edit Role'))
-
-WebUI.verifyElementPresent(findTestObject('09-Settings/Users/Active User/h4_Edit User Role'), 0)
-
-WebUI.delay(4)
-
-WebUI.click(findTestObject('09-Settings/Users/Active User/button_Cancel_restore'))
 
 WebUI.verifyElementPresent(findTestObject('09-Settings/Users/Active User/div_GTGG tester 2'), 0)
 

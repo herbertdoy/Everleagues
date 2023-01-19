@@ -1,0 +1,1307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="09.4 - Settings (Organization unit)" time="535.694" tests="4" failures="1" errors="0">
+   <testsuite name="09.4 - Settings (Organization unit)" tests="4" failures="1" errors="0" time="535.694" skipped="0" timestamp="2022-12-23 15:23:36" hostname="asus - DESKTOP-3L3J9C1" id="Test Suites/TS-Organization/09.4 - Settings (Organization unit)">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\asus\\Katalon Studio\\Everleagues\\Everleagues\\Reports\\20221223_152320\\TS-Organization\\09.4 - Settings (Organization unit)\\20221223_152320"/>
+         <property name="logFiles" value="C:\\Users\\asus\\Katalon Studio\\Everleagues\\Everleagues\\Reports\\20221223_152320\\TS-Organization\\09.4 - Settings (Organization unit)\\20221223_152320\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\asus\\Katalon Studio\\Everleagues\\Everleagues\\Reports\\20221223_152320\\TS-Organization\\09.4 - Settings (Organization unit)\\20221223_152320\\1671780410026.png"/>
+         <property name="hostName" value="asus - DESKTOP-3L3J9C1"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.4.1.208"/>
+         <property name="browser" value="Chrome 108.0.0.0"/>
+         <property name="hostAddress" value="192.168.5.82"/>
+         <property name="sessionId" value="f7b3a4642f91d5b8970f41e456f6d710"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/09-Settings/19 - Organization unit - Add Organization unit" time="192.866" classname="Test Cases/09-Settings/19 - Organization unit - Add Organization unit" status="FAILED">
+         <failure type="FAILED" message="Test Cases/09-Settings/19 - Organization unit - Add Organization unit FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/09-Settings/Users/Active User/button_OK'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at 19 - Organization unit - Add Organization unit.run(19 - Organization unit - Add Organization unit:178)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1671780200961.run(TempTestSuite1671780200961.groovy:36)
+Caused by: org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=108.0.5359.125)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-3L3J9C1', ip: '192.168.5.82', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\asus\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:64478}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 27eed939a72d10996974f1a6d9c26a3f
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2022-12-23 15:23:37 - [TEST_CASE][FAILED] - Test Cases/09-Settings/19 - Organization unit - Add Organization unit: Test Cases/09-Settings/19 - Organization unit - Add Organization unit FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/09-Settings/Users/Active User/button_OK'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at 19 - Organization unit - Add Organization unit.run(19 - Organization unit - Add Organization unit:178)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1671780200961.run(TempTestSuite1671780200961.groovy:36)
+Caused by: org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=108.0.5359.125)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-3L3J9C1', ip: '192.168.5.82', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\asus\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:64478}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 27eed939a72d10996974f1a6d9c26a3f
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2022-12-23 15:23:40 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-12-23 15:23:42 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-12-23 15:23:42 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-12-23 15:23:52 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-12-23 15:23:52 - [TEST_STEP][PASSED] - navigateToUrl("https://lab.everleagues.com/"): Navigate to 'https://lab.everleagues.com/' successfully
+
+2022-12-23 15:24:21 - [MESSAGE][PASSED] - Navigate to 'https://lab.everleagues.com/' successfully
+
+2022-12-23 15:24:21 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-12-23 15:24:21 - [MESSAGE][PASSED] - Current window maximized
+
+2022-12-23 15:24:21 - [TEST_STEP][PASSED] - setText(findTestObject("02-Side Icons(Organization)/Add Contact/Email Field"), "testuser02@mailinator.com"): Text 'testuser02@mailinator.com' is set on object 'Object Repository/02-Side Icons(Organization)/Add Contact/Email Field'
+
+2022-12-23 15:24:25 - [MESSAGE][PASSED] - Text 'testuser02@mailinator.com' is set on object 'Object Repository/02-Side Icons(Organization)/Add Contact/Email Field'
+
+2022-12-23 15:24:25 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("02-Side Icons(Organization)/Add Contact/Password Field"), "8yFRyszE6U6jvsCn51OQbg=="): Text ****** has been set on object 'Object Repository/02-Side Icons(Organization)/Add Contact/Password Field'
+
+2022-12-23 15:24:27 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/02-Side Icons(Organization)/Add Contact/Password Field'
+
+2022-12-23 15:24:27 - [TEST_STEP][PASSED] - click(findTestObject("02-Side Icons(Organization)/Add Contact/button_Sign in")): Object: 'Object Repository/02-Side Icons(Organization)/Add Contact/button_Sign in' is clicked on
+
+2022-12-23 15:24:28 - [MESSAGE][PASSED] - Object: 'Object Repository/02-Side Icons(Organization)/Add Contact/button_Sign in' is clicked on
+
+2022-12-23 15:24:28 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-12-23 15:24:31 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-12-23 15:24:31 - [TEST_STEP][PASSED] - click(findTestObject("06-Teams/For 2FA/button_Confirm_2FA")): Object: 'Object Repository/06-Teams/For 2FA/button_Confirm_2FA' is clicked on
+
+2022-12-23 15:24:32 - [MESSAGE][PASSED] - Object: 'Object Repository/06-Teams/For 2FA/button_Confirm_2FA' is clicked on
+
+2022-12-23 15:24:32 - [TEST_STEP][PASSED] - executeJavaScript("window.open();", []): Execute JavaScript 'window.open();' successfully
+
+2022-12-23 15:24:32 - [MESSAGE][PASSED] - Execute JavaScript 'window.open();' successfully
+
+2022-12-23 15:24:32 - [TEST_STEP][PASSED] - currentWindow = getWindowIndex(): Current window's index is: 0
+
+2022-12-23 15:24:32 - [MESSAGE][PASSED] - Current window's index is: 0
+
+2022-12-23 15:24:32 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-12-23 15:24:35 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-12-23 15:24:35 - [TEST_STEP][PASSED] - switchToWindowIndex(currentWindow + 1): Switched to window with index: '1'
+
+2022-12-23 15:24:36 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2022-12-23 15:24:36 - [TEST_STEP][PASSED] - navigateToUrl("https://www.mailinator.com/"): Navigate to 'https://www.mailinator.com/' successfully
+
+2022-12-23 15:24:44 - [MESSAGE][PASSED] - Navigate to 'https://www.mailinator.com/' successfully
+
+2022-12-23 15:24:44 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-12-23 15:24:47 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-12-23 15:24:47 - [TEST_STEP][PASSED] - setText(findTestObject("00-Signup and Activation/zMailinator/input_LOGIN_search"), "testuser02@mailinator.com"): Text 'testuser02@mailinator.com' is set on object 'Object Repository/00-Signup and Activation/zMailinator/input_LOGIN_search'
+
+2022-12-23 15:24:48 - [MESSAGE][PASSED] - Text 'testuser02@mailinator.com' is set on object 'Object Repository/00-Signup and Activation/zMailinator/input_LOGIN_search'
+
+2022-12-23 15:24:48 - [TEST_STEP][PASSED] - click(findTestObject("00-Signup and Activation/zMailinator/gobutton"), STOP_ON_FAILURE): Object: 'Object Repository/00-Signup and Activation/zMailinator/gobutton' is clicked on
+
+2022-12-23 15:24:53 - [MESSAGE][PASSED] - Object: 'Object Repository/00-Signup and Activation/zMailinator/gobutton' is clicked on
+
+2022-12-23 15:24:53 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-12-23 15:24:56 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-12-23 15:24:56 - [TEST_STEP][PASSED] - click(findTestObject("00-Signup and Activation/zMailinator/Email - everleagues")): Object: 'Object Repository/00-Signup and Activation/zMailinator/Email - everleagues' is clicked on
+
+2022-12-23 15:24:58 - [MESSAGE][PASSED] - Object: 'Object Repository/00-Signup and Activation/zMailinator/Email - everleagues' is clicked on
+
+2022-12-23 15:24:58 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-12-23 15:25:01 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-12-23 15:25:01 - [TEST_STEP][PASSED] - code = getText(findTestObject("Object Repository/06-Teams/For 2FA/2FA code")): Text of object 'Object Repository/06-Teams/For 2FA/2FA code' is: '959480'
+
+2022-12-23 15:25:03 - [MESSAGE][PASSED] - Text of object 'Object Repository/06-Teams/For 2FA/2FA code' is: '959480'
+
+2022-12-23 15:25:03 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-12-23 15:25:06 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-12-23 15:25:06 - [TEST_STEP][PASSED] - closeWindowTitle("Mailinator"): Window with title: 'Mailinator' is closed
+
+2022-12-23 15:25:07 - [MESSAGE][PASSED] - Window with title: 'Mailinator' is closed
+
+2022-12-23 15:25:07 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-12-23 15:25:10 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-12-23 15:25:10 - [TEST_STEP][PASSED] - switchToWindowIndex(0): Switched to window with index: '0'
+
+2022-12-23 15:25:10 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2022-12-23 15:25:10 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-12-23 15:25:13 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-12-23 15:25:13 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/06-Teams/For 2FA/input_Enter verification code_code"), code): Text '959480' is set on object 'Object Repository/06-Teams/For 2FA/input_Enter verification code_code'
+
+2022-12-23 15:25:14 - [MESSAGE][PASSED] - Text '959480' is set on object 'Object Repository/06-Teams/For 2FA/input_Enter verification code_code'
+
+2022-12-23 15:25:14 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-12-23 15:25:18 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-12-23 15:25:18 - [TEST_STEP][PASSED] - click(findTestObject("06-Teams/For 2FA/button_Verify_2FA")): Object: 'Object Repository/06-Teams/For 2FA/button_Verify_2FA' is clicked on
+
+2022-12-23 15:25:19 - [MESSAGE][PASSED] - Object: 'Object Repository/06-Teams/For 2FA/button_Verify_2FA' is clicked on
+
+2022-12-23 15:25:19 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-12-23 15:25:24 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-12-23 15:25:24 - [TEST_STEP][PASSED] - click(findTestObject("06-Teams/button_doublearrow")): Object: 'Object Repository/06-Teams/button_doublearrow' is clicked on
+
+2022-12-23 15:25:27 - [MESSAGE][PASSED] - Object: 'Object Repository/06-Teams/button_doublearrow' is clicked on
+
+2022-12-23 15:25:27 - [TEST_STEP][PASSED] - click(findTestObject("06-Teams/button_My Organizations")): Object: 'Object Repository/06-Teams/button_My Organizations' is clicked on
+
+2022-12-23 15:25:29 - [MESSAGE][PASSED] - Object: 'Object Repository/06-Teams/button_My Organizations' is clicked on
+
+2022-12-23 15:25:29 - [TEST_STEP][PASSED] - click(findTestObject("06-Teams/button_GG Automation")): Object: 'Object Repository/06-Teams/button_GG Automation' is clicked on
+
+2022-12-23 15:25:30 - [MESSAGE][PASSED] - Object: 'Object Repository/06-Teams/button_GG Automation' is clicked on
+
+2022-12-23 15:25:30 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2022-12-23 15:25:34 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2022-12-23 15:25:34 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("06-Teams/span_GG Automation")): Object 'Object Repository/06-Teams/span_GG Automation' is visible
+
+2022-12-23 15:25:35 - [MESSAGE][PASSED] - Object 'Object Repository/06-Teams/span_GG Automation' is visible
+
+2022-12-23 15:25:35 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-12-23 15:25:40 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-12-23 15:25:40 - [TEST_STEP][PASSED] - click(findTestObject("03-Header Menu/Hamburger Button/div_Settings")): Object: 'Object Repository/03-Header Menu/Hamburger Button/div_Settings' is clicked on
+
+2022-12-23 15:25:41 - [MESSAGE][PASSED] - Object: 'Object Repository/03-Header Menu/Hamburger Button/div_Settings' is clicked on
+
+2022-12-23 15:25:41 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("09-Settings/Users/div_Organization")): Object 'Object Repository/09-Settings/Users/div_Organization' is visible
+
+2022-12-23 15:25:42 - [MESSAGE][PASSED] - Object 'Object Repository/09-Settings/Users/div_Organization' is visible
+
+2022-12-23 15:25:42 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("09-Settings/Users/div_Organization Units")): Object 'Object Repository/09-Settings/Users/div_Organization Units' is visible
+
+2022-12-23 15:25:43 - [MESSAGE][PASSED] - Object 'Object Repository/09-Settings/Users/div_Organization Units' is visible
+
+2022-12-23 15:25:43 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("09-Settings/Users/div_Subscriptions"), 0): Scroll to object 'Object Repository/09-Settings/Users/div_Subscriptions' successfully
+
+2022-12-23 15:25:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-23 15:25:45 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/09-Settings/Users/div_Subscriptions' successfully
+
+2022-12-23 15:25:45 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("09-Settings/Users/div_Subscriptions")): Object 'Object Repository/09-Settings/Users/div_Subscriptions' is visible
+
+2022-12-23 15:25:46 - [MESSAGE][PASSED] - Object 'Object Repository/09-Settings/Users/div_Subscriptions' is visible
+
+2022-12-23 15:25:46 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("09-Settings/Users/div_Users")): Object 'Object Repository/09-Settings/Users/div_Users' is visible
+
+2022-12-23 15:25:47 - [MESSAGE][PASSED] - Object 'Object Repository/09-Settings/Users/div_Users' is visible
+
+2022-12-23 15:25:47 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-12-23 15:25:50 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-12-23 15:25:50 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("09-Settings/Users/div_Organization Units"), 0): Scroll to object 'Object Repository/09-Settings/Users/div_Organization Units' successfully
+
+2022-12-23 15:25:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-23 15:25:51 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/09-Settings/Users/div_Organization Units' successfully
+
+2022-12-23 15:25:51 - [TEST_STEP][PASSED] - click(findTestObject("09-Settings/Users/div_Organization Units")): Object: 'Object Repository/09-Settings/Users/div_Organization Units' is clicked on
+
+2022-12-23 15:25:53 - [MESSAGE][PASSED] - Object: 'Object Repository/09-Settings/Users/div_Organization Units' is clicked on
+
+2022-12-23 15:25:53 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("09-Settings/Organization unit/h4_ORGANIZATION STRUCTURE SETUP")): Object 'Object Repository/09-Settings/Organization unit/h4_ORGANIZATION STRUCTURE SETUP' is visible
+
+2022-12-23 15:25:54 - [MESSAGE][PASSED] - Object 'Object Repository/09-Settings/Organization unit/h4_ORGANIZATION STRUCTURE SETUP' is visible
+
+2022-12-23 15:25:54 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-12-23 15:25:57 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-12-23 15:25:57 - [TEST_STEP][PASSED] - click(findTestObject("09-Settings/Organization unit/button_add")): Object: 'Object Repository/09-Settings/Organization unit/button_add' is clicked on
+
+2022-12-23 15:25:58 - [MESSAGE][PASSED] - Object: 'Object Repository/09-Settings/Organization unit/button_add' is clicked on
+
+2022-12-23 15:25:58 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("09-Settings/Organization unit/mat-dialog-container_Add organization unit modal"), 0): Object 'Object Repository/09-Settings/Organization unit/mat-dialog-container_Add organization unit modal' is present
+
+2022-12-23 15:25:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-23 15:25:59 - [MESSAGE][PASSED] - Object 'Object Repository/09-Settings/Organization unit/mat-dialog-container_Add organization unit modal' is present
+
+2022-12-23 15:25:59 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("09-Settings/Organization unit/h4_Name"), 0): Object 'Object Repository/09-Settings/Organization unit/h4_Name' is present
+
+2022-12-23 15:26:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-23 15:26:00 - [MESSAGE][PASSED] - Object 'Object Repository/09-Settings/Organization unit/h4_Name' is present
+
+2022-12-23 15:26:00 - [TEST_STEP][PASSED] - click(findTestObject("09-Settings/Organization unit/mat-icon_create")): Object: 'Object Repository/09-Settings/Organization unit/mat-icon_create' is clicked on
+
+2022-12-23 15:26:02 - [MESSAGE][PASSED] - Object: 'Object Repository/09-Settings/Organization unit/mat-icon_create' is clicked on
+
+2022-12-23 15:26:02 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("09-Settings/Organization unit/mat-dialog-container_Select an organization unit modal"), 0): Object 'Object Repository/09-Settings/Organization unit/mat-dialog-container_Select an organization unit modal' is present
+
+2022-12-23 15:26:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-23 15:26:03 - [MESSAGE][PASSED] - Object 'Object Repository/09-Settings/Organization unit/mat-dialog-container_Select an organization unit modal' is present
+
+2022-12-23 15:26:03 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("09-Settings/Organization unit/h4_Select an organization unit"), 0): Object 'Object Repository/09-Settings/Organization unit/h4_Select an organization unit' is present
+
+2022-12-23 15:26:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-23 15:26:04 - [MESSAGE][PASSED] - Object 'Object Repository/09-Settings/Organization unit/h4_Select an organization unit' is present
+
+2022-12-23 15:26:04 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-12-23 15:26:07 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-12-23 15:26:07 - [TEST_STEP][PASSED] - click(findTestObject("09-Settings/Organization unit/Cancel button for select an organization unit")): Object: 'Object Repository/09-Settings/Organization unit/Cancel button for select an organization unit' is clicked on
+
+2022-12-23 15:26:08 - [MESSAGE][PASSED] - Object: 'Object Repository/09-Settings/Organization unit/Cancel button for select an organization unit' is clicked on
+
+2022-12-23 15:26:08 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2022-12-23 15:26:13 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2022-12-23 15:26:13 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("09-Settings/Organization unit/mat-dialog-container_Add organization unit modal"), 0): Object 'Object Repository/09-Settings/Organization unit/mat-dialog-container_Add organization unit modal' is present
+
+2022-12-23 15:26:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-23 15:26:13 - [MESSAGE][PASSED] - Object 'Object Repository/09-Settings/Organization unit/mat-dialog-container_Add organization unit modal' is present
+
+2022-12-23 15:26:13 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("09-Settings/Organization unit/h4_Name"), 0): Object 'Object Repository/09-Settings/Organization unit/h4_Name' is present
+
+2022-12-23 15:26:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-23 15:26:14 - [MESSAGE][PASSED] - Object 'Object Repository/09-Settings/Organization unit/h4_Name' is present
+
+2022-12-23 15:26:14 - [TEST_STEP][PASSED] - click(findTestObject("09-Settings/Organization unit/input_Parent Organization Unit Name_orgName")): Object: 'Object Repository/09-Settings/Organization unit/input_Parent Organization Unit Name_orgName' is clicked on
+
+2022-12-23 15:26:15 - [MESSAGE][PASSED] - Object: 'Object Repository/09-Settings/Organization unit/input_Parent Organization Unit Name_orgName' is clicked on
+
+2022-12-23 15:26:15 - [TEST_STEP][PASSED] - click(findTestObject("09-Settings/Organization unit/mat-dialog-container_Add organization unit modal")): Object: 'Object Repository/09-Settings/Organization unit/mat-dialog-container_Add organization unit modal' is clicked on
+
+2022-12-23 15:26:16 - [MESSAGE][PASSED] - Object: 'Object Repository/09-Settings/Organization unit/mat-dialog-container_Add organization unit modal' is clicked on
+
+2022-12-23 15:26:16 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("09-Settings/Organization unit/mat-error_Field is required"), 0): Object 'Object Repository/09-Settings/Organization unit/mat-error_Field is required' is present
+
+2022-12-23 15:26:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-23 15:26:18 - [MESSAGE][PASSED] - Object 'Object Repository/09-Settings/Organization unit/mat-error_Field is required' is present
+
+2022-12-23 15:26:18 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-12-23 15:26:21 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-12-23 15:26:21 - [TEST_STEP][PASSED] - click(findTestObject("09-Settings/Users/Active User/button_Cancel_restore")): Object: 'Object Repository/09-Settings/Users/Active User/button_Cancel_restore' is clicked on
+
+2022-12-23 15:26:22 - [MESSAGE][PASSED] - Object: 'Object Repository/09-Settings/Users/Active User/button_Cancel_restore' is clicked on
+
+2022-12-23 15:26:22 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2022-12-23 15:26:26 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2022-12-23 15:26:26 - [TEST_STEP][PASSED] - click(findTestObject("09-Settings/Organization unit/button_add")): Object: 'Object Repository/09-Settings/Organization unit/button_add' is clicked on
+
+2022-12-23 15:26:27 - [MESSAGE][PASSED] - Object: 'Object Repository/09-Settings/Organization unit/button_add' is clicked on
+
+2022-12-23 15:26:27 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("09-Settings/Organization unit/mat-dialog-container_Add organization unit modal"), 0): Object 'Object Repository/09-Settings/Organization unit/mat-dialog-container_Add organization unit modal' is present
+
+2022-12-23 15:26:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-23 15:26:28 - [MESSAGE][PASSED] - Object 'Object Repository/09-Settings/Organization unit/mat-dialog-container_Add organization unit modal' is present
+
+2022-12-23 15:26:28 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("09-Settings/Organization unit/h4_Name"), 0): Object 'Object Repository/09-Settings/Organization unit/h4_Name' is present
+
+2022-12-23 15:26:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-23 15:26:29 - [MESSAGE][PASSED] - Object 'Object Repository/09-Settings/Organization unit/h4_Name' is present
+
+2022-12-23 15:26:29 - [TEST_STEP][PASSED] - click(findTestObject("09-Settings/Organization unit/mat-icon_create")): Object: 'Object Repository/09-Settings/Organization unit/mat-icon_create' is clicked on
+
+2022-12-23 15:26:31 - [MESSAGE][PASSED] - Object: 'Object Repository/09-Settings/Organization unit/mat-icon_create' is clicked on
+
+2022-12-23 15:26:31 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("09-Settings/Organization unit/mat-dialog-container_Select an organization unit modal"), 0): Object 'Object Repository/09-Settings/Organization unit/mat-dialog-container_Select an organization unit modal' is present
+
+2022-12-23 15:26:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-23 15:26:31 - [MESSAGE][PASSED] - Object 'Object Repository/09-Settings/Organization unit/mat-dialog-container_Select an organization unit modal' is present
+
+2022-12-23 15:26:31 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("09-Settings/Organization unit/h4_Select an organization unit"), 0): Object 'Object Repository/09-Settings/Organization unit/h4_Select an organization unit' is present
+
+2022-12-23 15:26:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-23 15:26:32 - [MESSAGE][PASSED] - Object 'Object Repository/09-Settings/Organization unit/h4_Select an organization unit' is present
+
+2022-12-23 15:26:32 - [TEST_STEP][PASSED] - click(findTestObject("09-Settings/Organization unit/div_GG Automation")): Object: 'Object Repository/09-Settings/Organization unit/div_GG Automation' is clicked on
+
+2022-12-23 15:26:33 - [MESSAGE][PASSED] - Object: 'Object Repository/09-Settings/Organization unit/div_GG Automation' is clicked on
+
+2022-12-23 15:26:33 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-12-23 15:26:36 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-12-23 15:26:36 - [TEST_STEP][PASSED] - click(findTestObject("09-Settings/Organization unit/button_Select organization")): Object: 'Object Repository/09-Settings/Organization unit/button_Select organization' is clicked on
+
+2022-12-23 15:26:38 - [MESSAGE][PASSED] - Object: 'Object Repository/09-Settings/Organization unit/button_Select organization' is clicked on
+
+2022-12-23 15:26:38 - [TEST_STEP][PASSED] - setText(findTestObject("09-Settings/Organization unit/input_Parent Organization Unit Name_orgName"), "Automation Organization unit"): Text 'Automation Organization unit' is set on object 'Object Repository/09-Settings/Organization unit/input_Parent Organization Unit Name_orgName'
+
+2022-12-23 15:26:40 - [MESSAGE][PASSED] - Text 'Automation Organization unit' is set on object 'Object Repository/09-Settings/Organization unit/input_Parent Organization Unit Name_orgName'
+
+2022-12-23 15:26:40 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-12-23 15:26:43 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-12-23 15:26:43 - [TEST_STEP][PASSED] - click(findTestObject("09-Settings/Users/Active User/button_Save")): Object: 'Object Repository/09-Settings/Users/Active User/button_Save' is clicked on
+
+2022-12-23 15:26:44 - [MESSAGE][PASSED] - Object: 'Object Repository/09-Settings/Users/Active User/button_Save' is clicked on
+
+2022-12-23 15:26:44 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("09-Settings/Organization unit/span_Successfully added organization unit"), 0): Object 'Object Repository/09-Settings/Organization unit/span_Successfully added organization unit' is present
+
+2022-12-23 15:26:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-23 15:26:47 - [MESSAGE][PASSED] - Object 'Object Repository/09-Settings/Organization unit/span_Successfully added organization unit' is present
+
+2022-12-23 15:26:47 - [TEST_STEP][FAILED] - click(findTestObject("09-Settings/Users/Active User/button_OK")): Unable to click on object 'Object Repository/09-Settings/Users/Active User/button_OK' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/09-Settings/Users/Active User/button_OK'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at 19 - Organization unit - Add Organization unit.run(19 - Organization unit - Add Organization unit:178)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1671780200961.run(TempTestSuite1671780200961.groovy:36)
+Caused by: org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=108.0.5359.125)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-3L3J9C1', ip: '192.168.5.82', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\asus\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:64478}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 27eed939a72d10996974f1a6d9c26a3f
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at Script1664876512166.run(Script1664876512166.groovy:178)
+	... 13 more
+)
+
+2022-12-23 15:26:50 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/09-Settings/Users/Active User/button_OK' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/09-Settings/Users/Active User/button_OK'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at 19 - Organization unit - Add Organization unit.run(19 - Organization unit - Add Organization unit:178)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1671780200961.run(TempTestSuite1671780200961.groovy:36)
+Caused by: org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=108.0.5359.125)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-3L3J9C1', ip: '192.168.5.82', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\asus\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:64478}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 27eed939a72d10996974f1a6d9c26a3f
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at Script1664876512166.run(Script1664876512166.groovy:178)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\asus\\Katalon Studio\\Everleagues\\Everleagues\\Reports\\20221223_152320\\TS-Organization\\09.4 - Settings (Organization unit)\\20221223_152320\\1671780410026.png]]]]></system-out>
+         <system-err><![CDATA[2022-12-23 15:23:37 - [TEST_CASE][FAILED] - Test Cases/09-Settings/19 - Organization unit - Add Organization unit: Test Cases/09-Settings/19 - Organization unit - Add Organization unit FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/09-Settings/Users/Active User/button_OK'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at 19 - Organization unit - Add Organization unit.run(19 - Organization unit - Add Organization unit:178)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1671780200961.run(TempTestSuite1671780200961.groovy:36)
+Caused by: org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=108.0.5359.125)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-3L3J9C1', ip: '192.168.5.82', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\asus\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:64478}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 27eed939a72d10996974f1a6d9c26a3f
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/09-Settings/20 - Organization unit - Join Request Link" time="83.711" classname="Test Cases/09-Settings/20 - Organization unit - Join Request Link" status="PASSED">
+         <system-out><![CDATA[2022-12-23 15:26:50 - [TEST_CASE][PASSED] - Test Cases/09-Settings/20 - Organization unit - Join Request Link: Test Cases/09-Settings/20 - Organization unit - Join Request Link
+
+2022-12-23 15:26:54 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-12-23 15:26:57 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-12-23 15:26:57 - [TEST_STEP][PASSED] - mouseOver(findTestObject("09-Settings/Organization unit/div_GG TESTER")): Object: 'Object Repository/09-Settings/Organization unit/div_GG TESTER' is hovered
+
+2022-12-23 15:26:58 - [MESSAGE][PASSED] - Object: 'Object Repository/09-Settings/Organization unit/div_GG TESTER' is hovered
+
+2022-12-23 15:26:58 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-12-23 15:27:03 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-12-23 15:27:03 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("09-Settings/Organization unit/div_GG TESTER"), 0): Object 'Object Repository/09-Settings/Organization unit/div_GG TESTER' is clickable
+
+2022-12-23 15:27:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-23 15:27:05 - [MESSAGE][PASSED] - Object 'Object Repository/09-Settings/Organization unit/div_GG TESTER' is clickable
+
+2022-12-23 15:27:05 - [TEST_STEP][PASSED] - click(findTestObject("09-Settings/Organization unit/div_GG TESTER")): Object: 'Object Repository/09-Settings/Organization unit/div_GG TESTER' is clicked on
+
+2022-12-23 15:27:06 - [MESSAGE][PASSED] - Object: 'Object Repository/09-Settings/Organization unit/div_GG TESTER' is clicked on
+
+2022-12-23 15:27:06 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-12-23 15:27:09 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-12-23 15:27:09 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("09-Settings/Organization unit/button_link"), 0): Object 'Object Repository/09-Settings/Organization unit/button_link' is visible
+
+2022-12-23 15:27:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-23 15:27:10 - [MESSAGE][PASSED] - Object 'Object Repository/09-Settings/Organization unit/button_link' is visible
+
+2022-12-23 15:27:10 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("09-Settings/Organization unit/button_link"), 0): Object 'Object Repository/09-Settings/Organization unit/button_link' is clickable
+
+2022-12-23 15:27:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-23 15:27:11 - [MESSAGE][PASSED] - Object 'Object Repository/09-Settings/Organization unit/button_link' is clickable
+
+2022-12-23 15:27:11 - [TEST_STEP][PASSED] - click(findTestObject("09-Settings/Organization unit/button_link")): Object: 'Object Repository/09-Settings/Organization unit/button_link' is clicked on
+
+2022-12-23 15:27:12 - [MESSAGE][PASSED] - Object: 'Object Repository/09-Settings/Organization unit/button_link' is clicked on
+
+2022-12-23 15:27:12 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("09-Settings/Organization unit/mat-dialog-container_Join Request modal"), 0): Object 'Object Repository/09-Settings/Organization unit/mat-dialog-container_Join Request modal' is present
+
+2022-12-23 15:27:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-23 15:27:13 - [MESSAGE][PASSED] - Object 'Object Repository/09-Settings/Organization unit/mat-dialog-container_Join Request modal' is present
+
+2022-12-23 15:27:13 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("09-Settings/Organization unit/h2_Join Request"), 0): Object 'Object Repository/09-Settings/Organization unit/h2_Join Request' is present
+
+2022-12-23 15:27:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-23 15:27:14 - [MESSAGE][PASSED] - Object 'Object Repository/09-Settings/Organization unit/h2_Join Request' is present
+
+2022-12-23 15:27:14 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("09-Settings/Organization unit/div_Client link"), 0): Object 'Object Repository/09-Settings/Organization unit/div_Client link' is present
+
+2022-12-23 15:27:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-23 15:27:15 - [MESSAGE][PASSED] - Object 'Object Repository/09-Settings/Organization unit/div_Client link' is present
+
+2022-12-23 15:27:15 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("09-Settings/Organization unit/div_Partner link"), 0): Object 'Object Repository/09-Settings/Organization unit/div_Partner link' is present
+
+2022-12-23 15:27:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-23 15:27:15 - [MESSAGE][PASSED] - Object 'Object Repository/09-Settings/Organization unit/div_Partner link' is present
+
+2022-12-23 15:27:15 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-12-23 15:27:18 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-12-23 15:27:18 - [TEST_STEP][PASSED] - click(findTestObject("09-Settings/Organization unit/button_COPY")): Object: 'Object Repository/09-Settings/Organization unit/button_COPY' is clicked on
+
+2022-12-23 15:27:19 - [MESSAGE][PASSED] - Object: 'Object Repository/09-Settings/Organization unit/button_COPY' is clicked on
+
+2022-12-23 15:27:19 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("09-Settings/Organization unit/snack-bar-container_Copy Link"), 0): Object 'Object Repository/09-Settings/Organization unit/snack-bar-container_Copy Link' is present
+
+2022-12-23 15:27:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-23 15:27:20 - [MESSAGE][PASSED] - Object 'Object Repository/09-Settings/Organization unit/snack-bar-container_Copy Link' is present
+
+2022-12-23 15:27:20 - [TEST_STEP][PASSED] - click(findTestObject("09-Settings/Users/Active User/button_OK")): Object: 'Object Repository/09-Settings/Users/Active User/button_OK' is clicked on
+
+2022-12-23 15:27:21 - [MESSAGE][PASSED] - Object: 'Object Repository/09-Settings/Users/Active User/button_OK' is clicked on
+
+2022-12-23 15:27:21 - [TEST_STEP][PASSED] - click(findTestObject("09-Settings/Organization unit/button_Ok")): Object: 'Object Repository/09-Settings/Organization unit/button_Ok' is clicked on
+
+2022-12-23 15:27:22 - [MESSAGE][PASSED] - Object: 'Object Repository/09-Settings/Organization unit/button_Ok' is clicked on
+
+2022-12-23 15:27:22 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-12-23 15:27:25 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-12-23 15:27:25 - [TEST_STEP][PASSED] - my_clipboard = getContents(null).getTransferData(stringFlavor): null
+
+2022-12-23 15:27:26 - [TEST_STEP][PASSED] - navigateToUrl(my_clipboard): Navigate to 'https://xukp7.app.goo.gl/9Urs' successfully
+
+2022-12-23 15:28:00 - [MESSAGE][PASSED] - Navigate to 'https://xukp7.app.goo.gl/9Urs' successfully
+
+2022-12-23 15:28:00 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-12-23 15:28:03 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-12-23 15:28:03 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("09-Settings/Organization unit/mat_card_join request link"), 0): Object 'Object Repository/09-Settings/Organization unit/mat_card_join request link' is present
+
+2022-12-23 15:28:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-23 15:28:06 - [MESSAGE][PASSED] - Object 'Object Repository/09-Settings/Organization unit/mat_card_join request link' is present
+
+2022-12-23 15:28:06 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-12-23 15:28:09 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-12-23 15:28:09 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-12-23 15:28:14 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/09-Settings/21 - Organization unit - Edit Oganization unit" time="206.087" classname="Test Cases/09-Settings/21 - Organization unit - Edit Oganization unit" status="PASSED">
+         <system-out><![CDATA[2022-12-23 15:28:14 - [TEST_CASE][PASSED] - Test Cases/09-Settings/21 - Organization unit - Edit Oganization unit: Test Cases/09-Settings/21 - Organization unit - Edit Oganization unit
+
+2022-12-23 15:28:18 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-12-23 15:28:18 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-12-23 15:28:18 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-12-23 15:28:22 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-12-23 15:28:22 - [TEST_STEP][PASSED] - navigateToUrl("https://lab.everleagues.com/"): Navigate to 'https://lab.everleagues.com/' successfully
+
+2022-12-23 15:28:54 - [MESSAGE][PASSED] - Navigate to 'https://lab.everleagues.com/' successfully
+
+2022-12-23 15:28:54 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-12-23 15:28:55 - [MESSAGE][PASSED] - Current window maximized
+
+2022-12-23 15:28:55 - [TEST_STEP][PASSED] - setText(findTestObject("02-Side Icons(Organization)/Add Contact/Email Field"), "testuser02@mailinator.com"): Text 'testuser02@mailinator.com' is set on object 'Object Repository/02-Side Icons(Organization)/Add Contact/Email Field'
+
+2022-12-23 15:28:58 - [MESSAGE][PASSED] - Text 'testuser02@mailinator.com' is set on object 'Object Repository/02-Side Icons(Organization)/Add Contact/Email Field'
+
+2022-12-23 15:28:58 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("02-Side Icons(Organization)/Add Contact/Password Field"), "8yFRyszE6U6jvsCn51OQbg=="): Text ****** has been set on object 'Object Repository/02-Side Icons(Organization)/Add Contact/Password Field'
+
+2022-12-23 15:29:00 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/02-Side Icons(Organization)/Add Contact/Password Field'
+
+2022-12-23 15:29:00 - [TEST_STEP][PASSED] - click(findTestObject("02-Side Icons(Organization)/Add Contact/button_Sign in")): Object: 'Object Repository/02-Side Icons(Organization)/Add Contact/button_Sign in' is clicked on
+
+2022-12-23 15:29:02 - [MESSAGE][PASSED] - Object: 'Object Repository/02-Side Icons(Organization)/Add Contact/button_Sign in' is clicked on
+
+2022-12-23 15:29:02 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-12-23 15:29:04 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-12-23 15:29:04 - [TEST_STEP][PASSED] - click(findTestObject("06-Teams/For 2FA/button_Confirm_2FA")): Object: 'Object Repository/06-Teams/For 2FA/button_Confirm_2FA' is clicked on
+
+2022-12-23 15:29:06 - [MESSAGE][PASSED] - Object: 'Object Repository/06-Teams/For 2FA/button_Confirm_2FA' is clicked on
+
+2022-12-23 15:29:06 - [TEST_STEP][PASSED] - executeJavaScript("window.open();", []): Execute JavaScript 'window.open();' successfully
+
+2022-12-23 15:29:07 - [MESSAGE][PASSED] - Execute JavaScript 'window.open();' successfully
+
+2022-12-23 15:29:07 - [TEST_STEP][PASSED] - currentWindow = getWindowIndex(): Current window's index is: 0
+
+2022-12-23 15:29:07 - [MESSAGE][PASSED] - Current window's index is: 0
+
+2022-12-23 15:29:07 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-12-23 15:29:10 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-12-23 15:29:10 - [TEST_STEP][PASSED] - switchToWindowIndex(currentWindow + 1): Switched to window with index: '1'
+
+2022-12-23 15:29:10 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2022-12-23 15:29:10 - [TEST_STEP][PASSED] - navigateToUrl("https://www.mailinator.com/"): Navigate to 'https://www.mailinator.com/' successfully
+
+2022-12-23 15:29:21 - [MESSAGE][PASSED] - Navigate to 'https://www.mailinator.com/' successfully
+
+2022-12-23 15:29:21 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-12-23 15:29:24 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-12-23 15:29:24 - [TEST_STEP][PASSED] - setText(findTestObject("00-Signup and Activation/zMailinator/input_LOGIN_search"), "testuser02@mailinator.com"): Text 'testuser02@mailinator.com' is set on object 'Object Repository/00-Signup and Activation/zMailinator/input_LOGIN_search'
+
+2022-12-23 15:29:28 - [MESSAGE][PASSED] - Text 'testuser02@mailinator.com' is set on object 'Object Repository/00-Signup and Activation/zMailinator/input_LOGIN_search'
+
+2022-12-23 15:29:28 - [TEST_STEP][PASSED] - click(findTestObject("00-Signup and Activation/zMailinator/gobutton"), STOP_ON_FAILURE): Object: 'Object Repository/00-Signup and Activation/zMailinator/gobutton' is clicked on
+
+2022-12-23 15:29:33 - [MESSAGE][PASSED] - Object: 'Object Repository/00-Signup and Activation/zMailinator/gobutton' is clicked on
+
+2022-12-23 15:29:33 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-12-23 15:29:36 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-12-23 15:29:36 - [TEST_STEP][PASSED] - click(findTestObject("00-Signup and Activation/zMailinator/Email - everleagues")): Object: 'Object Repository/00-Signup and Activation/zMailinator/Email - everleagues' is clicked on
+
+2022-12-23 15:29:38 - [MESSAGE][PASSED] - Object: 'Object Repository/00-Signup and Activation/zMailinator/Email - everleagues' is clicked on
+
+2022-12-23 15:29:38 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-12-23 15:29:41 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-12-23 15:29:41 - [TEST_STEP][PASSED] - code = getText(findTestObject("Object Repository/06-Teams/For 2FA/2FA code")): Text of object 'Object Repository/06-Teams/For 2FA/2FA code' is: '816921'
+
+2022-12-23 15:29:42 - [MESSAGE][PASSED] - Text of object 'Object Repository/06-Teams/For 2FA/2FA code' is: '816921'
+
+2022-12-23 15:29:43 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-12-23 15:29:46 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-12-23 15:29:46 - [TEST_STEP][PASSED] - closeWindowTitle("Mailinator"): Window with title: 'Mailinator' is closed
+
+2022-12-23 15:29:47 - [MESSAGE][PASSED] - Window with title: 'Mailinator' is closed
+
+2022-12-23 15:29:47 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-12-23 15:29:50 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-12-23 15:29:50 - [TEST_STEP][PASSED] - switchToWindowIndex(0): Switched to window with index: '0'
+
+2022-12-23 15:29:51 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2022-12-23 15:29:51 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-12-23 15:29:54 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-12-23 15:29:54 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/06-Teams/For 2FA/input_Enter verification code_code"), code): Text '816921' is set on object 'Object Repository/06-Teams/For 2FA/input_Enter verification code_code'
+
+2022-12-23 15:29:58 - [MESSAGE][PASSED] - Text '816921' is set on object 'Object Repository/06-Teams/For 2FA/input_Enter verification code_code'
+
+2022-12-23 15:29:58 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-12-23 15:30:01 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-12-23 15:30:01 - [TEST_STEP][PASSED] - click(findTestObject("06-Teams/For 2FA/button_Verify_2FA")): Object: 'Object Repository/06-Teams/For 2FA/button_Verify_2FA' is clicked on
+
+2022-12-23 15:30:02 - [MESSAGE][PASSED] - Object: 'Object Repository/06-Teams/For 2FA/button_Verify_2FA' is clicked on
+
+2022-12-23 15:30:02 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-12-23 15:30:07 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-12-23 15:30:07 - [TEST_STEP][PASSED] - click(findTestObject("06-Teams/button_doublearrow")): Object: 'Object Repository/06-Teams/button_doublearrow' is clicked on
+
+2022-12-23 15:30:10 - [MESSAGE][PASSED] - Object: 'Object Repository/06-Teams/button_doublearrow' is clicked on
+
+2022-12-23 15:30:10 - [TEST_STEP][PASSED] - click(findTestObject("06-Teams/button_My Organizations")): Object: 'Object Repository/06-Teams/button_My Organizations' is clicked on
+
+2022-12-23 15:30:12 - [MESSAGE][PASSED] - Object: 'Object Repository/06-Teams/button_My Organizations' is clicked on
+
+2022-12-23 15:30:12 - [TEST_STEP][PASSED] - click(findTestObject("06-Teams/button_GG Automation")): Object: 'Object Repository/06-Teams/button_GG Automation' is clicked on
+
+2022-12-23 15:30:14 - [MESSAGE][PASSED] - Object: 'Object Repository/06-Teams/button_GG Automation' is clicked on
+
+2022-12-23 15:30:14 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2022-12-23 15:30:18 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2022-12-23 15:30:18 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("06-Teams/span_GG Automation")): Object 'Object Repository/06-Teams/span_GG Automation' is visible
+
+2022-12-23 15:30:19 - [MESSAGE][PASSED] - Object 'Object Repository/06-Teams/span_GG Automation' is visible
+
+2022-12-23 15:30:19 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-12-23 15:30:24 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-12-23 15:30:24 - [TEST_STEP][PASSED] - click(findTestObject("03-Header Menu/Hamburger Button/div_Settings")): Object: 'Object Repository/03-Header Menu/Hamburger Button/div_Settings' is clicked on
+
+2022-12-23 15:30:25 - [MESSAGE][PASSED] - Object: 'Object Repository/03-Header Menu/Hamburger Button/div_Settings' is clicked on
+
+2022-12-23 15:30:25 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("09-Settings/Users/div_Organization")): Object 'Object Repository/09-Settings/Users/div_Organization' is visible
+
+2022-12-23 15:30:27 - [MESSAGE][PASSED] - Object 'Object Repository/09-Settings/Users/div_Organization' is visible
+
+2022-12-23 15:30:27 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("09-Settings/Users/div_Organization Units")): Object 'Object Repository/09-Settings/Users/div_Organization Units' is visible
+
+2022-12-23 15:30:28 - [MESSAGE][PASSED] - Object 'Object Repository/09-Settings/Users/div_Organization Units' is visible
+
+2022-12-23 15:30:28 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("09-Settings/Users/div_Subscriptions"), 0): Scroll to object 'Object Repository/09-Settings/Users/div_Subscriptions' successfully
+
+2022-12-23 15:30:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-23 15:30:29 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/09-Settings/Users/div_Subscriptions' successfully
+
+2022-12-23 15:30:29 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("09-Settings/Users/div_Subscriptions")): Object 'Object Repository/09-Settings/Users/div_Subscriptions' is visible
+
+2022-12-23 15:30:29 - [MESSAGE][PASSED] - Object 'Object Repository/09-Settings/Users/div_Subscriptions' is visible
+
+2022-12-23 15:30:29 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("09-Settings/Users/div_Users")): Object 'Object Repository/09-Settings/Users/div_Users' is visible
+
+2022-12-23 15:30:30 - [MESSAGE][PASSED] - Object 'Object Repository/09-Settings/Users/div_Users' is visible
+
+2022-12-23 15:30:30 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-12-23 15:30:33 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-12-23 15:30:33 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("09-Settings/Users/div_Organization Units"), 0): Scroll to object 'Object Repository/09-Settings/Users/div_Organization Units' successfully
+
+2022-12-23 15:30:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-23 15:30:34 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/09-Settings/Users/div_Organization Units' successfully
+
+2022-12-23 15:30:34 - [TEST_STEP][PASSED] - click(findTestObject("09-Settings/Users/div_Organization Units")): Object: 'Object Repository/09-Settings/Users/div_Organization Units' is clicked on
+
+2022-12-23 15:30:36 - [MESSAGE][PASSED] - Object: 'Object Repository/09-Settings/Users/div_Organization Units' is clicked on
+
+2022-12-23 15:30:36 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("09-Settings/Organization unit/h4_ORGANIZATION STRUCTURE SETUP")): Object 'Object Repository/09-Settings/Organization unit/h4_ORGANIZATION STRUCTURE SETUP' is visible
+
+2022-12-23 15:30:37 - [MESSAGE][PASSED] - Object 'Object Repository/09-Settings/Organization unit/h4_ORGANIZATION STRUCTURE SETUP' is visible
+
+2022-12-23 15:30:37 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-12-23 15:30:40 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-12-23 15:30:40 - [TEST_STEP][PASSED] - mouseOver(findTestObject("09-Settings/Organization unit/div_GG TESTER")): Object: 'Object Repository/09-Settings/Organization unit/div_GG TESTER' is hovered
+
+2022-12-23 15:30:41 - [MESSAGE][PASSED] - Object: 'Object Repository/09-Settings/Organization unit/div_GG TESTER' is hovered
+
+2022-12-23 15:30:41 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-12-23 15:30:46 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-12-23 15:30:46 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("09-Settings/Organization unit/div_GG TESTER"), 0): Object 'Object Repository/09-Settings/Organization unit/div_GG TESTER' is clickable
+
+2022-12-23 15:30:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-23 15:30:48 - [MESSAGE][PASSED] - Object 'Object Repository/09-Settings/Organization unit/div_GG TESTER' is clickable
+
+2022-12-23 15:30:48 - [TEST_STEP][PASSED] - click(findTestObject("09-Settings/Organization unit/div_GG TESTER")): Object: 'Object Repository/09-Settings/Organization unit/div_GG TESTER' is clicked on
+
+2022-12-23 15:30:49 - [MESSAGE][PASSED] - Object: 'Object Repository/09-Settings/Organization unit/div_GG TESTER' is clicked on
+
+2022-12-23 15:30:49 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-12-23 15:30:52 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-12-23 15:30:52 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("09-Settings/Users/Active User/button_ellipses"), 0): Object 'Object Repository/09-Settings/Users/Active User/button_ellipses' is visible
+
+2022-12-23 15:30:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-23 15:30:54 - [MESSAGE][PASSED] - Object 'Object Repository/09-Settings/Users/Active User/button_ellipses' is visible
+
+2022-12-23 15:30:54 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("09-Settings/Users/Active User/button_ellipses"), 0): Object 'Object Repository/09-Settings/Users/Active User/button_ellipses' is clickable
+
+2022-12-23 15:30:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-23 15:30:54 - [MESSAGE][PASSED] - Object 'Object Repository/09-Settings/Users/Active User/button_ellipses' is clickable
+
+2022-12-23 15:30:54 - [TEST_STEP][PASSED] - click(findTestObject("09-Settings/Users/Active User/button_ellipses")): Object: 'Object Repository/09-Settings/Users/Active User/button_ellipses' is clicked on
+
+2022-12-23 15:30:55 - [MESSAGE][PASSED] - Object: 'Object Repository/09-Settings/Users/Active User/button_ellipses' is clicked on
+
+2022-12-23 15:30:55 - [TEST_STEP][PASSED] - click(findTestObject("09-Settings/Organization unit/button_Edit Organization Unit")): Object: 'Object Repository/09-Settings/Organization unit/button_Edit Organization Unit' is clicked on
+
+2022-12-23 15:30:57 - [MESSAGE][PASSED] - Object: 'Object Repository/09-Settings/Organization unit/button_Edit Organization Unit' is clicked on
+
+2022-12-23 15:30:57 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("09-Settings/Organization unit/mat-dialog-container_Edit Organization Unit modal"), STOP_ON_FAILURE): Object 'Object Repository/09-Settings/Organization unit/mat-dialog-container_Edit Organization Unit modal' is visible
+
+2022-12-23 15:30:58 - [MESSAGE][PASSED] - Object 'Object Repository/09-Settings/Organization unit/mat-dialog-container_Edit Organization Unit modal' is visible
+
+2022-12-23 15:30:58 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("09-Settings/Organization unit/h4_Edit Organization Unit"), STOP_ON_FAILURE): Object 'Object Repository/09-Settings/Organization unit/h4_Edit Organization Unit' is visible
+
+2022-12-23 15:30:59 - [MESSAGE][PASSED] - Object 'Object Repository/09-Settings/Organization unit/h4_Edit Organization Unit' is visible
+
+2022-12-23 15:30:59 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("09-Settings/Organization unit/input_Edit Organization Unit_orgName"), STOP_ON_FAILURE): Object 'Object Repository/09-Settings/Organization unit/input_Edit Organization Unit_orgName' is visible
+
+2022-12-23 15:30:59 - [MESSAGE][PASSED] - Object 'Object Repository/09-Settings/Organization unit/input_Edit Organization Unit_orgName' is visible
+
+2022-12-23 15:30:59 - [TEST_STEP][PASSED] - click(findTestObject("09-Settings/Users/Active User/button_Cancel_restore"), STOP_ON_FAILURE): Object: 'Object Repository/09-Settings/Users/Active User/button_Cancel_restore' is clicked on
+
+2022-12-23 15:31:00 - [MESSAGE][PASSED] - Object: 'Object Repository/09-Settings/Users/Active User/button_Cancel_restore' is clicked on
+
+2022-12-23 15:31:00 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-12-23 15:31:03 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-12-23 15:31:03 - [TEST_STEP][PASSED] - mouseOver(findTestObject("09-Settings/Organization unit/div_GG TESTER")): Object: 'Object Repository/09-Settings/Organization unit/div_GG TESTER' is hovered
+
+2022-12-23 15:31:04 - [MESSAGE][PASSED] - Object: 'Object Repository/09-Settings/Organization unit/div_GG TESTER' is hovered
+
+2022-12-23 15:31:04 - [TEST_STEP][PASSED] - click(findTestObject("09-Settings/Users/Active User/button_ellipses")): Object: 'Object Repository/09-Settings/Users/Active User/button_ellipses' is clicked on
+
+2022-12-23 15:31:07 - [MESSAGE][PASSED] - Object: 'Object Repository/09-Settings/Users/Active User/button_ellipses' is clicked on
+
+2022-12-23 15:31:07 - [TEST_STEP][PASSED] - click(findTestObject("09-Settings/Organization unit/button_Edit Organization Unit")): Object: 'Object Repository/09-Settings/Organization unit/button_Edit Organization Unit' is clicked on
+
+2022-12-23 15:31:08 - [MESSAGE][PASSED] - Object: 'Object Repository/09-Settings/Organization unit/button_Edit Organization Unit' is clicked on
+
+2022-12-23 15:31:08 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("09-Settings/Organization unit/mat-dialog-container_Edit Organization Unit modal"), STOP_ON_FAILURE): Object 'Object Repository/09-Settings/Organization unit/mat-dialog-container_Edit Organization Unit modal' is visible
+
+2022-12-23 15:31:09 - [MESSAGE][PASSED] - Object 'Object Repository/09-Settings/Organization unit/mat-dialog-container_Edit Organization Unit modal' is visible
+
+2022-12-23 15:31:09 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("09-Settings/Organization unit/h4_Edit Organization Unit"), STOP_ON_FAILURE): Object 'Object Repository/09-Settings/Organization unit/h4_Edit Organization Unit' is visible
+
+2022-12-23 15:31:10 - [MESSAGE][PASSED] - Object 'Object Repository/09-Settings/Organization unit/h4_Edit Organization Unit' is visible
+
+2022-12-23 15:31:10 - [TEST_STEP][PASSED] - setText(findTestObject("09-Settings/Organization unit/input_Edit Organization Unit_orgName"), "Automation Organization unit EDIT"): Text 'Automation Organization unit EDIT' is set on object 'Object Repository/09-Settings/Organization unit/input_Edit Organization Unit_orgName'
+
+2022-12-23 15:31:12 - [MESSAGE][PASSED] - Text 'Automation Organization unit EDIT' is set on object 'Object Repository/09-Settings/Organization unit/input_Edit Organization Unit_orgName'
+
+2022-12-23 15:31:12 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-12-23 15:31:15 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-12-23 15:31:15 - [TEST_STEP][PASSED] - click(findTestObject("09-Settings/Users/Active User/button_Save")): Object: 'Object Repository/09-Settings/Users/Active User/button_Save' is clicked on
+
+2022-12-23 15:31:17 - [MESSAGE][PASSED] - Object: 'Object Repository/09-Settings/Users/Active User/button_Save' is clicked on
+
+2022-12-23 15:31:17 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-12-23 15:31:20 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-12-23 15:31:20 - [TEST_STEP][PASSED] - mouseOver(findTestObject("09-Settings/Organization unit/div_GG TESTER")): Object: 'Object Repository/09-Settings/Organization unit/div_GG TESTER' is hovered
+
+2022-12-23 15:31:21 - [MESSAGE][PASSED] - Object: 'Object Repository/09-Settings/Organization unit/div_GG TESTER' is hovered
+
+2022-12-23 15:31:21 - [TEST_STEP][PASSED] - click(findTestObject("09-Settings/Users/Active User/button_ellipses")): Object: 'Object Repository/09-Settings/Users/Active User/button_ellipses' is clicked on
+
+2022-12-23 15:31:23 - [MESSAGE][PASSED] - Object: 'Object Repository/09-Settings/Users/Active User/button_ellipses' is clicked on
+
+2022-12-23 15:31:23 - [TEST_STEP][PASSED] - click(findTestObject("09-Settings/Organization unit/button_Edit Organization Unit")): Object: 'Object Repository/09-Settings/Organization unit/button_Edit Organization Unit' is clicked on
+
+2022-12-23 15:31:24 - [MESSAGE][PASSED] - Object: 'Object Repository/09-Settings/Organization unit/button_Edit Organization Unit' is clicked on
+
+2022-12-23 15:31:24 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("09-Settings/Organization unit/mat-dialog-container_Edit Organization Unit modal"), STOP_ON_FAILURE): Object 'Object Repository/09-Settings/Organization unit/mat-dialog-container_Edit Organization Unit modal' is visible
+
+2022-12-23 15:31:27 - [MESSAGE][PASSED] - Object 'Object Repository/09-Settings/Organization unit/mat-dialog-container_Edit Organization Unit modal' is visible
+
+2022-12-23 15:31:27 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("09-Settings/Organization unit/h4_Edit Organization Unit"), STOP_ON_FAILURE): Object 'Object Repository/09-Settings/Organization unit/h4_Edit Organization Unit' is visible
+
+2022-12-23 15:31:28 - [MESSAGE][PASSED] - Object 'Object Repository/09-Settings/Organization unit/h4_Edit Organization Unit' is visible
+
+2022-12-23 15:31:28 - [TEST_STEP][PASSED] - setText(findTestObject("09-Settings/Organization unit/input_Edit Organization Unit_orgName"), "Automation Organization unit"): Text 'Automation Organization unit' is set on object 'Object Repository/09-Settings/Organization unit/input_Edit Organization Unit_orgName'
+
+2022-12-23 15:31:30 - [MESSAGE][PASSED] - Text 'Automation Organization unit' is set on object 'Object Repository/09-Settings/Organization unit/input_Edit Organization Unit_orgName'
+
+2022-12-23 15:31:30 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-12-23 15:31:33 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-12-23 15:31:33 - [TEST_STEP][PASSED] - click(findTestObject("09-Settings/Users/Active User/button_Save")): Object: 'Object Repository/09-Settings/Users/Active User/button_Save' is clicked on
+
+2022-12-23 15:31:34 - [MESSAGE][PASSED] - Object: 'Object Repository/09-Settings/Users/Active User/button_Save' is clicked on
+
+2022-12-23 15:31:34 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-12-23 15:31:37 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-12-23 15:31:37 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-12-23 15:31:40 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/09-Settings/22 - Organization unit - Delete Organization unit" time="51.439" classname="Test Cases/09-Settings/22 - Organization unit - Delete Organization unit" status="PASSED">
+         <system-out><![CDATA[2022-12-23 15:31:40 - [TEST_CASE][PASSED] - Test Cases/09-Settings/22 - Organization unit - Delete Organization unit: Test Cases/09-Settings/22 - Organization unit - Delete Organization unit
+
+2022-12-23 15:31:42 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-12-23 15:31:45 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-12-23 15:31:45 - [TEST_STEP][PASSED] - mouseOver(findTestObject("09-Settings/Organization unit/div_GG TESTER")): Object: 'Object Repository/09-Settings/Organization unit/div_GG TESTER' is hovered
+
+2022-12-23 15:31:47 - [MESSAGE][PASSED] - Object: 'Object Repository/09-Settings/Organization unit/div_GG TESTER' is hovered
+
+2022-12-23 15:31:47 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-12-23 15:31:52 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-12-23 15:31:52 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("09-Settings/Organization unit/div_GG TESTER"), 0): Object 'Object Repository/09-Settings/Organization unit/div_GG TESTER' is clickable
+
+2022-12-23 15:31:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-23 15:31:53 - [MESSAGE][PASSED] - Object 'Object Repository/09-Settings/Organization unit/div_GG TESTER' is clickable
+
+2022-12-23 15:31:53 - [TEST_STEP][PASSED] - click(findTestObject("09-Settings/Organization unit/div_GG TESTER")): Object: 'Object Repository/09-Settings/Organization unit/div_GG TESTER' is clicked on
+
+2022-12-23 15:31:53 - [MESSAGE][PASSED] - Object: 'Object Repository/09-Settings/Organization unit/div_GG TESTER' is clicked on
+
+2022-12-23 15:31:53 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-12-23 15:31:56 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-12-23 15:31:56 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("09-Settings/Users/Active User/button_ellipses"), 0): Object 'Object Repository/09-Settings/Users/Active User/button_ellipses' is visible
+
+2022-12-23 15:31:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-23 15:31:57 - [MESSAGE][PASSED] - Object 'Object Repository/09-Settings/Users/Active User/button_ellipses' is visible
+
+2022-12-23 15:31:57 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("09-Settings/Users/Active User/button_ellipses"), 0): Object 'Object Repository/09-Settings/Users/Active User/button_ellipses' is clickable
+
+2022-12-23 15:31:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-23 15:31:58 - [MESSAGE][PASSED] - Object 'Object Repository/09-Settings/Users/Active User/button_ellipses' is clickable
+
+2022-12-23 15:31:58 - [TEST_STEP][PASSED] - click(findTestObject("09-Settings/Users/Active User/button_ellipses")): Object: 'Object Repository/09-Settings/Users/Active User/button_ellipses' is clicked on
+
+2022-12-23 15:31:59 - [MESSAGE][PASSED] - Object: 'Object Repository/09-Settings/Users/Active User/button_ellipses' is clicked on
+
+2022-12-23 15:31:59 - [TEST_STEP][PASSED] - click(findTestObject("09-Settings/Organization unit/button_Delete Organization Unit")): Object: 'Object Repository/09-Settings/Organization unit/button_Delete Organization Unit' is clicked on
+
+2022-12-23 15:32:00 - [MESSAGE][PASSED] - Object: 'Object Repository/09-Settings/Organization unit/button_Delete Organization Unit' is clicked on
+
+2022-12-23 15:32:00 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("09-Settings/Organization unit/mat-dialog-container_Delete Organization Unit modal"), STOP_ON_FAILURE): Object 'Object Repository/09-Settings/Organization unit/mat-dialog-container_Delete Organization Unit modal' is visible
+
+2022-12-23 15:32:01 - [MESSAGE][PASSED] - Object 'Object Repository/09-Settings/Organization unit/mat-dialog-container_Delete Organization Unit modal' is visible
+
+2022-12-23 15:32:01 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("09-Settings/Organization unit/h4_Delete Organization Unit"), STOP_ON_FAILURE): Object 'Object Repository/09-Settings/Organization unit/h4_Delete Organization Unit' is visible
+
+2022-12-23 15:32:02 - [MESSAGE][PASSED] - Object 'Object Repository/09-Settings/Organization unit/h4_Delete Organization Unit' is visible
+
+2022-12-23 15:32:02 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("09-Settings/Organization unit/span_Warning All resources associated with this root organization will be permanently deleted"), STOP_ON_FAILURE): Object 'Object Repository/09-Settings/Organization unit/span_Warning All resources associated with this root organization will be permanently deleted' is visible
+
+2022-12-23 15:32:02 - [MESSAGE][PASSED] - Object 'Object Repository/09-Settings/Organization unit/span_Warning All resources associated with this root organization will be permanently deleted' is visible
+
+2022-12-23 15:32:02 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-12-23 15:32:03 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-12-23 15:32:03 - [TEST_STEP][PASSED] - click(findTestObject("09-Settings/Users/Active User/button_Cancel_restore"), STOP_ON_FAILURE): Object: 'Object Repository/09-Settings/Users/Active User/button_Cancel_restore' is clicked on
+
+2022-12-23 15:32:04 - [MESSAGE][PASSED] - Object: 'Object Repository/09-Settings/Users/Active User/button_Cancel_restore' is clicked on
+
+2022-12-23 15:32:04 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-12-23 15:32:06 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-12-23 15:32:06 - [TEST_STEP][PASSED] - mouseOver(findTestObject("09-Settings/Organization unit/div_GG TESTER")): Object: 'Object Repository/09-Settings/Organization unit/div_GG TESTER' is hovered
+
+2022-12-23 15:32:07 - [MESSAGE][PASSED] - Object: 'Object Repository/09-Settings/Organization unit/div_GG TESTER' is hovered
+
+2022-12-23 15:32:07 - [TEST_STEP][PASSED] - click(findTestObject("09-Settings/Users/Active User/button_ellipses")): Object: 'Object Repository/09-Settings/Users/Active User/button_ellipses' is clicked on
+
+2022-12-23 15:32:08 - [MESSAGE][PASSED] - Object: 'Object Repository/09-Settings/Users/Active User/button_ellipses' is clicked on
+
+2022-12-23 15:32:08 - [TEST_STEP][PASSED] - click(findTestObject("09-Settings/Organization unit/button_Delete Organization Unit")): Object: 'Object Repository/09-Settings/Organization unit/button_Delete Organization Unit' is clicked on
+
+2022-12-23 15:32:09 - [MESSAGE][PASSED] - Object: 'Object Repository/09-Settings/Organization unit/button_Delete Organization Unit' is clicked on
+
+2022-12-23 15:32:09 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("09-Settings/Organization unit/mat-dialog-container_Delete Organization Unit modal"), STOP_ON_FAILURE): Object 'Object Repository/09-Settings/Organization unit/mat-dialog-container_Delete Organization Unit modal' is visible
+
+2022-12-23 15:32:10 - [MESSAGE][PASSED] - Object 'Object Repository/09-Settings/Organization unit/mat-dialog-container_Delete Organization Unit modal' is visible
+
+2022-12-23 15:32:10 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("09-Settings/Organization unit/h4_Delete Organization Unit"), STOP_ON_FAILURE): Object 'Object Repository/09-Settings/Organization unit/h4_Delete Organization Unit' is visible
+
+2022-12-23 15:32:11 - [MESSAGE][PASSED] - Object 'Object Repository/09-Settings/Organization unit/h4_Delete Organization Unit' is visible
+
+2022-12-23 15:32:11 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("09-Settings/Organization unit/span_Warning All resources associated with this root organization will be permanently deleted"), STOP_ON_FAILURE): Object 'Object Repository/09-Settings/Organization unit/span_Warning All resources associated with this root organization will be permanently deleted' is visible
+
+2022-12-23 15:32:12 - [MESSAGE][PASSED] - Object 'Object Repository/09-Settings/Organization unit/span_Warning All resources associated with this root organization will be permanently deleted' is visible
+
+2022-12-23 15:32:12 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-12-23 15:32:15 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-12-23 15:32:15 - [TEST_STEP][PASSED] - click(findTestObject("09-Settings/Users/Active User/button_Delete")): Object: 'Object Repository/09-Settings/Users/Active User/button_Delete' is clicked on
+
+2022-12-23 15:32:17 - [MESSAGE][PASSED] - Object: 'Object Repository/09-Settings/Users/Active User/button_Delete' is clicked on
+
+2022-12-23 15:32:17 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-12-23 15:32:20 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-12-23 15:32:20 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("09-Settings/Organization unit/snack-bar-container_Successfully deleted organization unitOK"), STOP_ON_FAILURE): Object 'Object Repository/09-Settings/Organization unit/snack-bar-container_Successfully deleted organization unitOK' is visible
+
+2022-12-23 15:32:21 - [MESSAGE][PASSED] - Object 'Object Repository/09-Settings/Organization unit/snack-bar-container_Successfully deleted organization unitOK' is visible
+
+2022-12-23 15:32:21 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-12-23 15:32:26 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-12-23 15:32:26 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-12-23 15:32:32 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-12-23 15:23:36 - [TEST_SUITE][FAILED] - 09.4 - Settings (Organization unit): Test Cases/09-Settings/19 - Organization unit - Add Organization unit FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/09-Settings/Users/Active User/button_OK'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at 19 - Organization unit - Add Organization unit.run(19 - Organization unit - Add Organization unit:178)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1671780200961.run(TempTestSuite1671780200961.groovy:36)
+Caused by: org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=108.0.5359.125)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-3L3J9C1', ip: '192.168.5.82', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\asus\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:64478}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 27eed939a72d10996974f1a6d9c26a3f
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2022-12-23 15:23:36 - [TEST_SUITE][FAILED] - 09.4 - Settings (Organization unit): Test Cases/09-Settings/19 - Organization unit - Add Organization unit FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/09-Settings/Users/Active User/button_OK'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at 19 - Organization unit - Add Organization unit.run(19 - Organization unit - Add Organization unit:178)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1671780200961.run(TempTestSuite1671780200961.groovy:36)
+Caused by: org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=108.0.5359.125)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-3L3J9C1', ip: '192.168.5.82', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\asus\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:64478}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 27eed939a72d10996974f1a6d9c26a3f
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

@@ -29,20 +29,6 @@ WebUI.verifyElementPresent(findTestObject('09-Settings/Users/Active User/h4_User
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('09-Settings/Users/Active User/button_Cancel_restore'))
-
-WebUI.delay(3)
-
-WebUI.verifyElementPresent(findTestObject('09-Settings/Users/Active User/div_GTGG tester 2'), 0)
-
-WebUI.click(findTestObject('09-Settings/Users/Active User/button_ellipses'))
-
-WebUI.click(findTestObject('09-Settings/Users/Active User/button_Promote to Admin'))
-
-WebUI.verifyElementPresent(findTestObject('09-Settings/Users/Active User/h4_User Admin Settings'), 0)
-
-WebUI.delay(3)
-
 WebUI.click(findTestObject('09-Settings/Users/Active User/button_Promote'))
 
 WebUI.verifyElementPresent(findTestObject('09-Settings/Users/Active User/span_Successfully promoted user to admin'), 0)

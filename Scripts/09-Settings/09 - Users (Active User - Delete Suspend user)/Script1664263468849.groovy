@@ -39,16 +39,6 @@ WebUI.verifyElementPresent(findTestObject('09-Settings/Users/Active User/h4_Dele
 
 WebUI.delay(4)
 
-WebUI.click(findTestObject('09-Settings/Users/Active User/button_Cancel_restore'))
-
-WebUI.verifyElementPresent(findTestObject('09-Settings/Users/Active User/div_GTGG tester 2'), 0)
-
-WebUI.click(findTestObject('09-Settings/Users/Active User/button_xDeleteuser'))
-
-WebUI.verifyElementPresent(findTestObject('09-Settings/Users/Active User/h4_Delete User'), 0)
-
-WebUI.delay(4)
-
 WebUI.click(findTestObject('09-Settings/Users/Active User/button_Delete'))
 
 WebUI.verifyElementPresent(findTestObject('09-Settings/Users/Active User/span_Successfully deleted user'), 0)

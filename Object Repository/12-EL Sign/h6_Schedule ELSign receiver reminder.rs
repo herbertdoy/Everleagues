@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>h6_Schedule ELSign receiver reminder</name>
+   <tag></tag>
+   <elementGuidId>611e1d5c-6c5c-46f2-8016-f322c3f2b311</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//mat-dialog-container[@id='mat-dialog-6']/app-ezsign-client-reminder/div/table/tr/td/h6</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>h6</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h6</value>
+      <webElementGuid>5c02c7bc-b5d1-4b60-b5b0-2d6095cac596</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Schedule ELSign receiver reminder</value>
+      <webElementGuid>459049ca-72b7-4a87-b542-d191df664d67</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mat-dialog-6&quot;)/app-ezsign-client-reminder[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;container&quot;]/table[1]/tr[1]/td[1]/h6[1]</value>
+      <webElementGuid>ddaf8019-4e1d-4ada-a69c-18737747a998</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//mat-dialog-container[@id='mat-dialog-6']/app-ezsign-client-reminder/div/table/tr/td/h6</value>
+      <webElementGuid>cfe2e5aa-0483-4ff3-8487-9482522af6c4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='View ELSign tracker history'])[1]/following::h6[1]</value>
+      <webElementGuid>c51e7eda-f615-4065-9a38-2aa8d664fa7a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Delete ELSign tracker'])[1]/following::h6[1]</value>
+      <webElementGuid>96f5ff03-4c7f-484d-ab82-1aeb4234474c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Recipients:'])[1]/preceding::h6[1]</value>
+      <webElementGuid>51132e7d-a7d1-4dbe-b9f0-dc414b33690a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='GG TESTER'])[2]/preceding::h6[1]</value>
+      <webElementGuid>89fc2706-e2e4-415a-b230-9823c3f8ef23</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Schedule ELSign receiver reminder']/parent::*</value>
+      <webElementGuid>28edcc7a-f1a4-452a-aa05-383023388bbd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//h6</value>
+      <webElementGuid>0eaaed48-5dd2-40c3-bfc7-4bc2b66f0619</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h6[(text() = 'Schedule ELSign receiver reminder' or . = 'Schedule ELSign receiver reminder')]</value>
+      <webElementGuid>9c6b7c0f-7e77-4f36-9eb4-51c2f14c3429</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

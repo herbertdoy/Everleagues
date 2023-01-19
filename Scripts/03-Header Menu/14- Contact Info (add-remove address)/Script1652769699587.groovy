@@ -43,6 +43,8 @@ WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Contact Inf
 
 WebUI.doubleClick(findTestObject('03-Header Menu/User Profile/View Profile/Contact Info/input_state'))
 
+WebUI.scrollToElement(findTestObject('03-Header Menu/User Profile/View Profile/Contact Info/input_address type'), 0)
+
 WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Contact Info/input_address type'))
 
 WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/View Profile/Contact Info/span_Work'))
@@ -50,6 +52,10 @@ WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/View Prof
 WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/View Profile/Contact Info/span_Personal'))
 
 WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/View Profile/Contact Info/span_Other'))
+
+WebUI.scrollToElement(findTestObject('03-Header Menu/User Profile/View Profile/Contact Info/input_street1'), 0)
+
+WebUI.doubleClick(findTestObject('03-Header Menu/User Profile/View Profile/Contact Info/input_street1'))
 
 WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/View Profile/Contact Info/invalid street 1'))
 
@@ -88,6 +94,8 @@ WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Contact Inf
 
 WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Contact Info/span_United States'), FailureHandling.STOP_ON_FAILURE)
 
+WebUI.scrollToElement(findTestObject('03-Header Menu/User Profile/View Profile/Contact Info/input_address type'), 0)
+
 WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Contact Info/input_address type'))
 
 WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Contact Info/span_Work'))
@@ -97,6 +105,8 @@ WebUI.delay(2)
 WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Contact Info/button_Save_address'))
 
 WebUI.delay(2)
+
+WebUI.scrollToElement(findTestObject('03-Header Menu/User Profile/View Profile/Contact Info/Address Added'), 0)
 
 WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/View Profile/Contact Info/Address Added'))
 

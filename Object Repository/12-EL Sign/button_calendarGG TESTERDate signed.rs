@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_calendarGG TESTERDate signed</name>
+   <tag></tag>
+   <elementGuidId>909b29b1-b2e1-4865-8b1a-aa93aeb7a3d9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//mat-table[@id='fieldPanel']/mat-row[2]/mat-cell[2]/button</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.shape.cdk-focused.cdk-mouse-focused</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>5e9c2f15-aa1f-4713-9b1e-f42eec4f959e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>mattooltip</name>
+      <type>Main</type>
+      <value>Select signer field type</value>
+      <webElementGuid>3f350a23-af33-45c1-aac4-8dec9023383d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>shape cdk-focused cdk-mouse-focused</value>
+      <webElementGuid>25226d86-2bf4-4e42-8de6-fbcec90ae9e9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-reflect-message</name>
+      <type>Main</type>
+      <value>Select signer field type</value>
+      <webElementGuid>9459c09a-2a7d-4b25-b4bb-40670cd6999d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-describedby</name>
+      <type>Main</type>
+      <value>cdk-describedby-message-38</value>
+      <webElementGuid>e046784f-b5b0-4a96-bef3-9266994f779c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>todayGG TESTERDate signed</value>
+      <webElementGuid>794507d2-fc62-4837-b5aa-43e913bd0e15</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;fieldPanel&quot;)/mat-row[@class=&quot;mat-row cdk-row ng-star-inserted&quot;]/mat-cell[@class=&quot;mat-cell cdk-cell cdk-column-receiverName mat-column-receiverName ng-star-inserted&quot;]/button[@class=&quot;shape cdk-focused cdk-mouse-focused&quot;]</value>
+      <webElementGuid>bc113719-ed51-489d-ae28-1d1dfeb12ccc</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//mat-table[@id='fieldPanel']/mat-row[2]/mat-cell[2]/button</value>
+      <webElementGuid>571f57fd-a122-4236-aeac-6b8f3199d6e4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sign here'])[1]/following::button[2]</value>
+      <webElementGuid>572cd749-c6c0-4294-a207-84b7059fc8b5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='GG TESTER'])[2]/following::button[2]</value>
+      <webElementGuid>dbeead9d-6ee4-4ea6-aee1-57b08bcfde27</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//mat-row[2]/mat-cell[2]/button</value>
+      <webElementGuid>e37a152a-1835-46f4-abb1-c1598ea8a616</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = 'todayGG TESTERDate signed' or . = 'todayGG TESTERDate signed')]</value>
+      <webElementGuid>aefaa2fa-6a34-4718-bafa-003c2962d2dc</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

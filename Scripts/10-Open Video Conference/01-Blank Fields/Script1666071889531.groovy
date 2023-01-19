@@ -118,6 +118,8 @@ WebUI.click(findTestObject('10-Open Video Conference/div_Now'))
 
 WebUI.delay(3)
 
+WebUI.scrollToElement(findTestObject('10-Open Video Conference/h5_New Guests'), 0)
+
 WebUI.verifyElementVisible(findTestObject('10-Open Video Conference/h5_New Guests'))
 
 WebUI.click(findTestObject('10-Open Video Conference/mat-checkbox-Save all to contacts'))
@@ -159,6 +161,4 @@ WebUI.verifyElementNotClickable(findTestObject('10-Open Video Conference/button_
 WebUI.clickOffset(findTestObject('10-Open Video Conference/input_Meeting Title'), 10, 10)
 
 WebUI.verifyElementVisible(findTestObject('10-Open Video Conference/div_recurrence_dropdown'))
-
-WebUI.delay(4)
 

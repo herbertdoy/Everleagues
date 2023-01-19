@@ -6,15 +6,19 @@
    <elementGuidId>56839d2a-ba9b-440a-9f87-cf18d7bd5e27</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//mat-dialog-container[@role = 'dialog' and (text() = 'New folderFolder nameConfirmCancel' or . = 'New folderFolder nameConfirmCancel')]</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>#mat-dialog-0</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//mat-dialog-container[@id='mat-dialog-0']</value>
+         <value>//mat-dialog-container[@role='dialog']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>mat-dialog-container</value>
-      <webElementGuid>5807c03d-e517-46e1-a516-86f85b1fdf22</webElementGuid>
+      <webElementGuid>eea15e2d-9303-4189-b510-dfcefc8c0c9c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +34,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>-1</value>
-      <webElementGuid>3e749343-072e-4f6f-8859-f3225b962229</webElementGuid>
+      <webElementGuid>5324344b-4cf3-422f-9af7-5c1df13620e9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +42,7 @@
       <name>aria-modal</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>db1c7bc7-510f-4b7c-81e5-bddf2e4a88f1</webElementGuid>
+      <webElementGuid>b954473d-e78c-4d35-9301-44cffe20edb6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +50,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-dialog-container ng-tns-c31-39 ng-trigger ng-trigger-dialogContainer ng-star-inserted</value>
-      <webElementGuid>cd328304-09e2-42af-93da-3e2fc0023c7d</webElementGuid>
+      <webElementGuid>6646a797-26da-463f-a41f-4a6aabee2aeb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +58,7 @@
       <name>id</name>
       <type>Main</type>
       <value>mat-dialog-0</value>
-      <webElementGuid>7621fb37-67a6-42b1-ba71-0b85cb314049</webElementGuid>
+      <webElementGuid>e6a7dd9e-980a-487d-8744-19f933176ad3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -62,7 +66,7 @@
       <name>role</name>
       <type>Main</type>
       <value>dialog</value>
-      <webElementGuid>c820684e-91a4-4802-a6f0-31040f7ec7dc</webElementGuid>
+      <webElementGuid>27ee14c2-b684-4a34-8bbb-dc6414dbf039</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +74,7 @@
       <name>aria-labelledby</name>
       <type>Main</type>
       <value>mat-dialog-title-0</value>
-      <webElementGuid>f7a500aa-4c34-4043-a7bc-39e6bef98a92</webElementGuid>
+      <webElementGuid>2e3b6c16-7965-4058-95d4-e597bfc34e2c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -78,7 +82,7 @@
       <name>text</name>
       <type>Main</type>
       <value>New folderFolder nameConfirmCancel</value>
-      <webElementGuid>77a18cb1-261f-42e1-8eea-ed247c4dbefa</webElementGuid>
+      <webElementGuid>42d0155f-42ee-4a5d-ab22-167bdc4b9456</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -86,7 +90,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-dialog-0&quot;)</value>
-      <webElementGuid>e51ffd1f-e629-487f-aaae-b2fdc27821ec</webElementGuid>
+      <webElementGuid>4750642a-4212-42b1-9942-4e7f0ce5cb1f</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -94,7 +98,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//mat-dialog-container[@id='mat-dialog-0']</value>
-      <webElementGuid>79b3f559-bb17-4cb0-8eb5-5eb6af3df7ac</webElementGuid>
+      <webElementGuid>24ff31ad-f912-4ea3-8f8b-51cef594857c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +106,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='cdk-overlay-2']/mat-dialog-container</value>
-      <webElementGuid>fae18f94-9091-4ad4-a41c-6c966544658b</webElementGuid>
+      <webElementGuid>0e5774dd-ffe5-4cb7-83e6-043893f87131</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +114,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Client Assignment'])[2]/following::mat-dialog-container[1]</value>
-      <webElementGuid>5027845a-8c6e-4f67-ba83-b7c9f7465a62</webElementGuid>
+      <webElementGuid>da30e92a-82e9-499d-8d61-bbd964b19c21</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +122,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Invite New User'])[1]/following::mat-dialog-container[1]</value>
-      <webElementGuid>3ea374e3-c7b4-4e6c-bd2d-c09d67d40d4d</webElementGuid>
+      <webElementGuid>22f3dbf8-4a25-43e6-9b9b-fc77b16d00d1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,7 +130,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//mat-dialog-container</value>
-      <webElementGuid>5f3df6b4-8d00-449c-81ae-0fcabe856f16</webElementGuid>
+      <webElementGuid>47ba049b-c129-4a35-89fb-4d2cdf68b909</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,6 +138,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//mat-dialog-container[@id = 'mat-dialog-0' and (text() = 'New folderFolder nameConfirmCancel' or . = 'New folderFolder nameConfirmCancel')]</value>
-      <webElementGuid>0294ac4c-44fd-4d04-9c87-537beaa34c15</webElementGuid>
+      <webElementGuid>dbd9cf56-fc9d-49b3-bde6-54176b618b6b</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

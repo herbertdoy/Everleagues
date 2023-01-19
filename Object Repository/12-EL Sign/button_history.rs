@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_history</name>
+   <tag></tag>
+   <elementGuidId>e244a6d9-dfae-4126-ae55-285e83212bab</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//ag-grid-angular[@id='ezSignDocsGrid']/div/div/div/div[3]/div[2]/div/div/div/div[6]/app-historybutton-renderer/button</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.mat-focus-indicator.mat-icon-button.mat-button-base.cdk-focused.cdk-mouse-focused</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>21a8904d-80ae-45fe-bf9c-a471bd08ba11</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>mattooltip</name>
+      <type>Main</type>
+      <value>View ELSign tracker history</value>
+      <webElementGuid>4381f17b-f4e3-4b2b-916f-855fd7e965c5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-focus-indicator mat-icon-button mat-button-base cdk-focused cdk-mouse-focused</value>
+      <webElementGuid>3b328d8d-6d6e-4768-9b59-d9a9acc59e86</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-reflect-message</name>
+      <type>Main</type>
+      <value>View ELSign tracker history</value>
+      <webElementGuid>92045b4d-7ecf-46c9-8e00-2906c642af69</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-describedby</name>
+      <type>Main</type>
+      <value>cdk-describedby-message-20</value>
+      <webElementGuid>931cec7f-cc5a-4c04-9719-c5bc7bf65ba4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>history</value>
+      <webElementGuid>0a4a73c2-8da2-48f8-84d7-9b61d49359a4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;ezSignDocsGrid&quot;)/div[@class=&quot;ag-root-wrapper ag-layout-auto-height ag-ltr&quot;]/div[@class=&quot;ag-root-wrapper-body ag-layout-auto-height&quot;]/div[@class=&quot;ag-root ag-unselectable ag-layout-auto-height ag-has-focus&quot;]/div[@class=&quot;ag-body-viewport ag-layout-auto-height ag-row-no-animation&quot;]/div[@class=&quot;ag-center-cols-clipper&quot;]/div[@class=&quot;ag-center-cols-viewport&quot;]/div[@class=&quot;ag-center-cols-container&quot;]/div[@class=&quot;ag-row ag-row-even ag-row-level-0 ezsign-history-grid ag-row-position-absolute ag-row-first ag-row-last ag-row-focus&quot;]/div[@class=&quot;ag-cell ag-cell-not-inline-editing ag-cell-with-height ag-cell-value ag-cell-focus ag-column-hover&quot;]/app-historybutton-renderer[@class=&quot;ng-star-inserted&quot;]/button[@class=&quot;mat-focus-indicator mat-icon-button mat-button-base cdk-focused cdk-mouse-focused&quot;]</value>
+      <webElementGuid>8c421d24-c86c-4223-a14b-bebff28850ba</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//ag-grid-angular[@id='ezSignDocsGrid']/div/div/div/div[3]/div[2]/div/div/div/div[6]/app-historybutton-renderer/button</value>
+      <webElementGuid>dd244073-e864-4ee4-b087-d1d5c2948237</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Last Modified'])[1]/following::button[4]</value>
+      <webElementGuid>6e25537b-79ab-4e3e-acc2-00e96b6285c4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Reminder'])[1]/following::button[4]</value>
+      <webElementGuid>947e1b43-5c89-4665-a08a-ced9e1a18ea6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ELS2301031043'])[1]/preceding::button[2]</value>
+      <webElementGuid>fb78473e-9dea-45e5-b8fc-3ac71422c21f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='sample.pdf'])[1]/preceding::button[3]</value>
+      <webElementGuid>b7dd9061-bbe4-4468-9d23-6b7d131dd2ca</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//app-historybutton-renderer/button</value>
+      <webElementGuid>f1b7218f-d3fd-4cab-99b0-e9049c670cde</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = 'history' or . = 'history')]</value>
+      <webElementGuid>2e7e5085-ca29-4844-a25d-33b6dfab16b2</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

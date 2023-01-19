@@ -1,0 +1,157 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+10-Open Video Conference,Chrome 108.0.0.0,,,2023-01-09 19:25:32,2023-01-09 19:30:50,5m - 18.410s,PASSED
+,,,,,,,
+Test Cases/10-Open Video Conference/01-Blank Fields,Chrome 108.0.0.0,,,2023-01-09 19:25:33,2023-01-09 19:28:20,2m - 46.825s,PASSED
+"openBrowser("""")",Chrome 108.0.0.0,,,2023-01-09 19:25:35,2023-01-09 19:25:46,10.622s,PASSED
+"navigateToUrl(""https://lab.everleagues.com/"")",Chrome 108.0.0.0,,,2023-01-09 19:25:46,2023-01-09 19:26:05,19.517s,PASSED
+maximizeWindow(),Chrome 108.0.0.0,,,2023-01-09 19:26:05,2023-01-09 19:26:06,0.421s,PASSED
+"setText(findTestObject(""02-Side Icons(Organization)/Add Contact/Email Field""), ""testuser02@mailinator.com"")",Chrome 108.0.0.0,,,2023-01-09 19:26:06,2023-01-09 19:26:08,2.777s,PASSED
+"setEncryptedText(findTestObject(""02-Side Icons(Organization)/Add Contact/Password Field""), ""8yFRyszE6U6jvsCn51OQbg=="")",Chrome 108.0.0.0,,,2023-01-09 19:26:08,2023-01-09 19:26:11,2.324s,PASSED
+"click(findTestObject(""02-Side Icons(Organization)/Add Contact/button_Sign in""))",Chrome 108.0.0.0,,,2023-01-09 19:26:11,2023-01-09 19:26:12,1.348s,PASSED
+delay(2),Chrome 108.0.0.0,,,2023-01-09 19:26:12,2023-01-09 19:26:14,2.149s,PASSED
+"click(findTestObject(""06-Teams/For 2FA/button_Confirm_2FA""))",Chrome 108.0.0.0,,,2023-01-09 19:26:14,2023-01-09 19:26:16,1.864s,PASSED
+"executeJavaScript(""window.open();"", [])",Chrome 108.0.0.0,,,2023-01-09 19:26:16,2023-01-09 19:26:17,0.515s,PASSED
+currentWindow = getWindowIndex(),Chrome 108.0.0.0,,,2023-01-09 19:26:17,2023-01-09 19:26:17,0.277s,PASSED
+delay(3),Chrome 108.0.0.0,,,2023-01-09 19:26:17,2023-01-09 19:26:20,3.021s,PASSED
+switchToWindowIndex(currentWindow + 1),Chrome 108.0.0.0,,,2023-01-09 19:26:20,2023-01-09 19:26:20,0.114s,PASSED
+"navigateToUrl(""https://www.mailinator.com/"")",Chrome 108.0.0.0,,,2023-01-09 19:26:20,2023-01-09 19:26:30,10.230s,PASSED
+delay(3),Chrome 108.0.0.0,,,2023-01-09 19:26:30,2023-01-09 19:26:33,3.010s,PASSED
+"setText(findTestObject(""00-Signup and Activation/zMailinator/input_LOGIN_search""), ""testuser02@mailinator.com"")",Chrome 108.0.0.0,,,2023-01-09 19:26:33,2023-01-09 19:26:35,1.600s,PASSED
+"click(findTestObject(""00-Signup and Activation/zMailinator/gobutton""), STOP_ON_FAILURE)",Chrome 108.0.0.0,,,2023-01-09 19:26:35,2023-01-09 19:26:38,2.898s,PASSED
+delay(3),Chrome 108.0.0.0,,,2023-01-09 19:26:38,2023-01-09 19:26:41,3.015s,PASSED
+"click(findTestObject(""00-Signup and Activation/zMailinator/Email - everleagues""))",Chrome 108.0.0.0,,,2023-01-09 19:26:41,2023-01-09 19:26:41,0.764s,PASSED
+delay(3),Chrome 108.0.0.0,,,2023-01-09 19:26:41,2023-01-09 19:26:44,3.012s,PASSED
+"code = getText(findTestObject(""Object Repository/06-Teams/For 2FA/2FA code""))",Chrome 108.0.0.0,,,2023-01-09 19:26:44,2023-01-09 19:26:46,1.182s,PASSED
+delay(3),Chrome 108.0.0.0,,,2023-01-09 19:26:46,2023-01-09 19:26:49,3.007s,PASSED
+"closeWindowTitle(""Mailinator"")",Chrome 108.0.0.0,,,2023-01-09 19:26:49,2023-01-09 19:26:49,0.417s,PASSED
+delay(3),Chrome 108.0.0.0,,,2023-01-09 19:26:49,2023-01-09 19:26:52,3.008s,PASSED
+switchToWindowIndex(0),Chrome 108.0.0.0,,,2023-01-09 19:26:52,2023-01-09 19:26:52,0.039s,PASSED
+delay(3),Chrome 108.0.0.0,,,2023-01-09 19:26:52,2023-01-09 19:26:55,3.016s,PASSED
+"setText(findTestObject(""Object Repository/06-Teams/For 2FA/input_Enter verification code_code""), code)",Chrome 108.0.0.0,,,2023-01-09 19:26:55,2023-01-09 19:26:58,2.666s,PASSED
+delay(3),Chrome 108.0.0.0,,,2023-01-09 19:26:58,2023-01-09 19:27:01,3.018s,PASSED
+"click(findTestObject(""06-Teams/For 2FA/button_Verify_2FA""))",Chrome 108.0.0.0,,,2023-01-09 19:27:01,2023-01-09 19:27:02,0.840s,PASSED
+delay(5),Chrome 108.0.0.0,,,2023-01-09 19:27:02,2023-01-09 19:27:07,5.015s,PASSED
+"click(findTestObject(""06-Teams/button_doublearrow""))",Chrome 108.0.0.0,,,2023-01-09 19:27:07,2023-01-09 19:27:11,4.507s,PASSED
+"click(findTestObject(""06-Teams/button_My Organizations""))",Chrome 108.0.0.0,,,2023-01-09 19:27:11,2023-01-09 19:27:12,0.876s,PASSED
+"click(findTestObject(""02-Side Icons(Organization)/Add Contact/button_Automation Test Org""))",Chrome 108.0.0.0,,,2023-01-09 19:27:12,2023-01-09 19:27:14,1.540s,PASSED
+delay(4),Chrome 108.0.0.0,,,2023-01-09 19:27:14,2023-01-09 19:27:18,4.014s,PASSED
+"verifyElementVisible(findTestObject(""02-Side Icons(Organization)/Add Contact/span_Automation Test Org""))",Chrome 108.0.0.0,,,2023-01-09 19:27:18,2023-01-09 19:27:18,0.770s,PASSED
+delay(5),Chrome 108.0.0.0,,,2023-01-09 19:27:18,2023-01-09 19:27:23,5.015s,PASSED
+"click(findTestObject(""03-Header Menu/Hamburger Button/div_Open Video Conference""))",Chrome 108.0.0.0,,,2023-01-09 19:27:23,2023-01-09 19:27:25,1.612s,PASSED
+"verifyElementVisible(findTestObject(""10-Open Video Conference/h4_OPEN VIDEO CONFERENCE""))",Chrome 108.0.0.0,,,2023-01-09 19:27:25,2023-01-09 19:27:27,2.015s,PASSED
+"verifyElementVisible(findTestObject(""10-Open Video Conference/span_warning""))",Chrome 108.0.0.0,,,2023-01-09 19:27:27,2023-01-09 19:27:28,0.668s,PASSED
+"click(findTestObject(""10-Open Video Conference/a_chat""))",Chrome 108.0.0.0,,,2023-01-09 19:27:28,2023-01-09 19:27:34,6.717s,PASSED
+delay(3),Chrome 108.0.0.0,,,2023-01-09 19:27:34,2023-01-09 19:27:37,3.018s,PASSED
+"click(findTestObject(""03-Header Menu/Hamburger Button/div_Open Video Conference""))",Chrome 108.0.0.0,,,2023-01-09 19:27:37,2023-01-09 19:27:39,1.455s,PASSED
+delay(3),Chrome 108.0.0.0,,,2023-01-09 19:27:39,2023-01-09 19:27:42,3.015s,PASSED
+"verifyElementVisible(findTestObject(""10-Open Video Conference/h5_Meeting Title""))",Chrome 108.0.0.0,,,2023-01-09 19:27:42,2023-01-09 19:27:44,1.870s,PASSED
+"click(findTestObject(""10-Open Video Conference/input_Meeting Title""))",Chrome 108.0.0.0,,,2023-01-09 19:27:44,2023-01-09 19:27:45,0.979s,PASSED
+"click(findTestObject(""10-Open Video Conference/div_Now""))",Chrome 108.0.0.0,,,2023-01-09 19:27:45,2023-01-09 19:27:46,1.718s,PASSED
+delay(3),Chrome 108.0.0.0,,,2023-01-09 19:27:46,2023-01-09 19:27:49,3.009s,PASSED
+"verifyElementVisible(findTestObject(""10-Open Video Conference/h5_Current Contacts""))",Chrome 108.0.0.0,,,2023-01-09 19:27:49,2023-01-09 19:27:50,0.640s,PASSED
+"click(findTestObject(""10-Open Video Conference/input_Current Contacts_inputSearchContacts""))",Chrome 108.0.0.0,,,2023-01-09 19:27:50,2023-01-09 19:27:51,0.937s,PASSED
+"click(findTestObject(""10-Open Video Conference/div_Now""))",Chrome 108.0.0.0,,,2023-01-09 19:27:51,2023-01-09 19:27:52,0.807s,PASSED
+delay(3),Chrome 108.0.0.0,,,2023-01-09 19:27:52,2023-01-09 19:27:55,3.017s,PASSED
+"scrollToElement(findTestObject(""10-Open Video Conference/h5_New Guests""), 0)",Chrome 108.0.0.0,,,2023-01-09 19:27:55,2023-01-09 19:27:57,2.171s,PASSED
+"verifyElementVisible(findTestObject(""10-Open Video Conference/h5_New Guests""))",Chrome 108.0.0.0,,,2023-01-09 19:27:57,2023-01-09 19:27:58,0.715s,PASSED
+"click(findTestObject(""10-Open Video Conference/mat-checkbox-Save all to contacts""))",Chrome 108.0.0.0,,,2023-01-09 19:27:58,2023-01-09 19:27:59,0.877s,PASSED
+"click(findTestObject(""10-Open Video Conference/mat-checkbox-Save all to contacts""))",Chrome 108.0.0.0,,,2023-01-09 19:27:59,2023-01-09 19:28:00,1.155s,PASSED
+"click(findTestObject(""10-Open Video Conference/div_Enter a valid phone number""))",Chrome 108.0.0.0,,,2023-01-09 19:28:00,2023-01-09 19:28:01,1.196s,PASSED
+"click(findTestObject(""10-Open Video Conference/div_Enter a valid phone number""))",Chrome 108.0.0.0,,,2023-01-09 19:28:01,2023-01-09 19:28:02,1.144s,PASSED
+delay(2),Chrome 108.0.0.0,,,2023-01-09 19:28:02,2023-01-09 19:28:04,2.017s,PASSED
+"click(findTestObject(""10-Open Video Conference/input_Firstname""))",Chrome 108.0.0.0,,,2023-01-09 19:28:04,2023-01-09 19:28:05,0.744s,PASSED
+"click(findTestObject(""10-Open Video Conference/input_Lastname""))",Chrome 108.0.0.0,,,2023-01-09 19:28:05,2023-01-09 19:28:07,1.732s,PASSED
+"click(findTestObject(""10-Open Video Conference/input_emailPhonenumber""))",Chrome 108.0.0.0,,,2023-01-09 19:28:07,2023-01-09 19:28:07,0.777s,PASSED
+"verifyElementVisible(findTestObject(""10-Open Video Conference/mat-error_Field is required""))",Chrome 108.0.0.0,,,2023-01-09 19:28:07,2023-01-09 19:28:08,0.728s,PASSED
+"clickOffset(findTestObject(""10-Open Video Conference/input_Meeting Title""), 10, 10)",Chrome 108.0.0.0,,,2023-01-09 19:28:08,2023-01-09 19:28:09,0.878s,PASSED
+"verifyElementVisible(findTestObject(""10-Open Video Conference/error_Enter a valid emailEnter a valid phone number (eg 13330001234)""))",Chrome 108.0.0.0,,,2023-01-09 19:28:09,2023-01-09 19:28:10,0.889s,PASSED
+"clickOffset(findTestObject(""10-Open Video Conference/input_Lastname""), 10, 10)",Chrome 108.0.0.0,,,2023-01-09 19:28:10,2023-01-09 19:28:11,0.862s,PASSED
+delay(2),Chrome 108.0.0.0,,,2023-01-09 19:28:11,2023-01-09 19:28:13,2.016s,PASSED
+"click(findTestObject(""10-Open Video Conference/div_Schedule""))",Chrome 108.0.0.0,,,2023-01-09 19:28:13,2023-01-09 19:28:14,1.137s,PASSED
+"verifyElementVisible(findTestObject(""10-Open Video Conference/button_Start Date""))",Chrome 108.0.0.0,,,2023-01-09 19:28:14,2023-01-09 19:28:15,0.929s,PASSED
+"clickOffset(findTestObject(""10-Open Video Conference/input_Meeting Title""), 10, 10)",Chrome 108.0.0.0,,,2023-01-09 19:28:15,2023-01-09 19:28:17,2.117s,PASSED
+"verifyElementVisible(findTestObject(""10-Open Video Conference/button_End Date""))",Chrome 108.0.0.0,,,2023-01-09 19:28:17,2023-01-09 19:28:18,0.621s,PASSED
+"verifyElementNotClickable(findTestObject(""10-Open Video Conference/button_Create meeting""))",Chrome 108.0.0.0,,,2023-01-09 19:28:18,2023-01-09 19:28:18,0.662s,PASSED
+"clickOffset(findTestObject(""10-Open Video Conference/input_Meeting Title""), 10, 10)",Chrome 108.0.0.0,,,2023-01-09 19:28:18,2023-01-09 19:28:19,0.782s,PASSED
+"verifyElementVisible(findTestObject(""10-Open Video Conference/div_recurrence_dropdown""))",Chrome 108.0.0.0,,,2023-01-09 19:28:19,2023-01-09 19:28:20,0.638s,PASSED
+,,,,,,,
+Test Cases/10-Open Video Conference/02-Invalid email,Chrome 108.0.0.0,,,2023-01-09 19:28:20,2023-01-09 19:28:28,8.254s,PASSED
+delay(3),Chrome 108.0.0.0,,,2023-01-09 19:28:21,2023-01-09 19:28:24,3.019s,PASSED
+"verifyElementVisible(findTestObject(""10-Open Video Conference/h5_New Guests""))",Chrome 108.0.0.0,,,2023-01-09 19:28:24,2023-01-09 19:28:25,0.613s,PASSED
+"setText(findTestObject(""10-Open Video Conference/input_emailPhonenumber""), ""invalidemail123.com"")",Chrome 108.0.0.0,,,2023-01-09 19:28:25,2023-01-09 19:28:27,2.407s,PASSED
+"verifyElementVisible(findTestObject(""10-Open Video Conference/mat-error_Enter a valid email""))",Chrome 108.0.0.0,,,2023-01-09 19:28:27,2023-01-09 19:28:28,0.639s,PASSED
+,,,,,,,
+Test Cases/10-Open Video Conference/03-Invalid phone number,Chrome 108.0.0.0,,,2023-01-09 19:28:28,2023-01-09 19:28:35,7.423s,PASSED
+delay(3),Chrome 108.0.0.0,,,2023-01-09 19:28:30,2023-01-09 19:28:33,3.018s,PASSED
+"verifyElementVisible(findTestObject(""10-Open Video Conference/h5_New Guests""))",Chrome 108.0.0.0,,,2023-01-09 19:28:33,2023-01-09 19:28:33,0.612s,PASSED
+"setText(findTestObject(""10-Open Video Conference/input_emailPhonenumber""), ""+123456789"")",Chrome 108.0.0.0,,,2023-01-09 19:28:33,2023-01-09 19:28:35,1.344s,PASSED
+"verifyElementVisible(findTestObject(""10-Open Video Conference/mat-error_Enter a valid phone number (eg 13330001234)""))",Chrome 108.0.0.0,,,2023-01-09 19:28:35,2023-01-09 19:28:35,0.873s,PASSED
+,,,,,,,
+Test Cases/10-Open Video Conference/04-Schedule a Meeting(Now),Chrome 108.0.0.0,,,2023-01-09 19:28:36,2023-01-09 19:29:52,1m - 16.300s,PASSED
+delay(3),Chrome 108.0.0.0,,,2023-01-09 19:28:37,2023-01-09 19:28:40,3.008s,PASSED
+"verifyElementVisible(findTestObject(""10-Open Video Conference/h5_Meeting Title""))",Chrome 108.0.0.0,,,2023-01-09 19:28:40,2023-01-09 19:28:41,0.635s,PASSED
+"setText(findTestObject(""10-Open Video Conference/input_Meeting Title""), ""Automation Meeting"")",Chrome 108.0.0.0,,,2023-01-09 19:28:41,2023-01-09 19:28:42,1.586s,PASSED
+"click(findTestObject(""10-Open Video Conference/div_Now""))",Chrome 108.0.0.0,,,2023-01-09 19:28:42,2023-01-09 19:28:43,0.930s,PASSED
+delay(3),Chrome 108.0.0.0,,,2023-01-09 19:28:43,2023-01-09 19:28:46,3.008s,PASSED
+"verifyElementVisible(findTestObject(""10-Open Video Conference/h5_Current Contacts""))",Chrome 108.0.0.0,,,2023-01-09 19:28:46,2023-01-09 19:28:47,0.610s,PASSED
+"click(findTestObject(""10-Open Video Conference/input_Current Contacts_inputSearchContacts""))",Chrome 108.0.0.0,,,2023-01-09 19:28:47,2023-01-09 19:28:48,0.743s,PASSED
+"click(findTestObject(""10-Open Video Conference/span_GG tester""))",Chrome 108.0.0.0,,,2023-01-09 19:28:48,2023-01-09 19:28:48,0.820s,PASSED
+delay(2),Chrome 108.0.0.0,,,2023-01-09 19:28:48,2023-01-09 19:28:50,2.008s,PASSED
+"clickOffset(findTestObject(""10-Open Video Conference/h5_Meeting Title""), 10, 10)",Chrome 108.0.0.0,,,2023-01-09 19:28:50,2023-01-09 19:28:51,0.871s,PASSED
+delay(3),Chrome 108.0.0.0,,,2023-01-09 19:28:51,2023-01-09 19:28:54,3.016s,PASSED
+"scrollToElement(findTestObject(""10-Open Video Conference/h5_New Guests""), 0)",Chrome 108.0.0.0,,,2023-01-09 19:28:54,2023-01-09 19:28:55,0.583s,PASSED
+"verifyElementVisible(findTestObject(""10-Open Video Conference/h5_New Guests""))",Chrome 108.0.0.0,,,2023-01-09 19:28:55,2023-01-09 19:28:57,1.825s,PASSED
+delay(2),Chrome 108.0.0.0,,,2023-01-09 19:28:57,2023-01-09 19:28:59,2.015s,PASSED
+"setText(findTestObject(""10-Open Video Conference/input_Firstname""), ""Automation"")",Chrome 108.0.0.0,,,2023-01-09 19:28:59,2023-01-09 19:29:00,1.344s,PASSED
+"setText(findTestObject(""10-Open Video Conference/input_Lastname""), ""Tester"")",Chrome 108.0.0.0,,,2023-01-09 19:29:00,2023-01-09 19:29:01,1.269s,PASSED
+"setText(findTestObject(""10-Open Video Conference/input_emailPhonenumber""), ""09785467654"")",Chrome 108.0.0.0,,,2023-01-09 19:29:01,2023-01-09 19:29:03,1.490s,PASSED
+"click(findTestObject(""10-Open Video Conference/button_remove_new guests""))",Chrome 108.0.0.0,,,2023-01-09 19:29:03,2023-01-09 19:29:04,0.969s,PASSED
+delay(3),Chrome 108.0.0.0,,,2023-01-09 19:29:04,2023-01-09 19:29:07,3.022s,PASSED
+"setText(findTestObject(""10-Open Video Conference/input_Firstname""), ""Automation"")",Chrome 108.0.0.0,,,2023-01-09 19:29:07,2023-01-09 19:29:28,21.629s,PASSED
+"setText(findTestObject(""10-Open Video Conference/input_Lastname""), ""Tester"")",Chrome 108.0.0.0,,,2023-01-09 19:29:28,2023-01-09 19:29:30,1.580s,PASSED
+"setText(findTestObject(""10-Open Video Conference/input_emailPhonenumber""), ""09785467654"")",Chrome 108.0.0.0,,,2023-01-09 19:29:30,2023-01-09 19:29:32,1.463s,PASSED
+delay(3),Chrome 108.0.0.0,,,2023-01-09 19:29:32,2023-01-09 19:29:35,3.008s,PASSED
+"click(findTestObject(""10-Open Video Conference/button_add_new guests""))",Chrome 108.0.0.0,,,2023-01-09 19:29:35,2023-01-09 19:29:36,1.052s,PASSED
+delay(4),Chrome 108.0.0.0,,,2023-01-09 19:29:36,2023-01-09 19:29:40,4.006s,PASSED
+"scrollToElement(findTestObject(""10-Open Video Conference/h5_Meeting Title""), 0)",Chrome 108.0.0.0,,,2023-01-09 19:29:40,2023-01-09 19:29:40,0.596s,PASSED
+"click(findTestObject(""10-Open Video Conference/button_Create meeting""))",Chrome 108.0.0.0,,,2023-01-09 19:29:40,2023-01-09 19:29:41,0.797s,PASSED
+delay(3),Chrome 108.0.0.0,,,2023-01-09 19:29:41,2023-01-09 19:29:44,3.013s,PASSED
+"verifyElementVisible(findTestObject(""10-Open Video Conference/div_link_meetingroom""))",Chrome 108.0.0.0,,,2023-01-09 19:29:44,2023-01-09 19:29:45,0.823s,PASSED
+delay(2),Chrome 108.0.0.0,,,2023-01-09 19:29:45,2023-01-09 19:29:47,2.015s,PASSED
+"click(findTestObject(""10-Open Video Conference/button_Create another meeting""))",Chrome 108.0.0.0,,,2023-01-09 19:29:47,2023-01-09 19:29:48,0.981s,PASSED
+delay(4),Chrome 108.0.0.0,,,2023-01-09 19:29:48,2023-01-09 19:29:52,4.007s,PASSED
+,,,,,,,
+Test Cases/10-Open Video Conference/05-Schedule a Meeting(Schedule),Chrome 108.0.0.0,,,2023-01-09 19:29:52,2023-01-09 19:30:50,58.038s,PASSED
+delay(3),Chrome 108.0.0.0,,,2023-01-09 19:29:54,2023-01-09 19:29:57,3.024s,PASSED
+"verifyElementVisible(findTestObject(""10-Open Video Conference/h5_Meeting Title""))",Chrome 108.0.0.0,,,2023-01-09 19:29:57,2023-01-09 19:29:57,0.613s,PASSED
+"click(findTestObject(""10-Open Video Conference/div_Schedule""))",Chrome 108.0.0.0,,,2023-01-09 19:29:57,2023-01-09 19:29:58,0.889s,PASSED
+"setText(findTestObject(""10-Open Video Conference/input_Meeting Title""), ""Automation Meeting"")",Chrome 108.0.0.0,,,2023-01-09 19:29:58,2023-01-09 19:30:00,1.955s,PASSED
+delay(3),Chrome 108.0.0.0,,,2023-01-09 19:30:00,2023-01-09 19:30:03,3.013s,PASSED
+"click(findTestObject(""10-Open Video Conference/button_Start Date""))",Chrome 108.0.0.0,,,2023-01-09 19:30:03,2023-01-09 19:30:04,1.082s,PASSED
+"verifyElementVisible(findTestObject(""05-Chat/08-Schedule a meeting/calendar modal""))",Chrome 108.0.0.0,,,2023-01-09 19:30:04,2023-01-09 19:30:06,2.276s,PASSED
+delay(3),Chrome 108.0.0.0,,,2023-01-09 19:30:06,2023-01-09 19:30:09,3.011s,PASSED
+"doubleClick(findTestObject(""10-Open Video Conference/button_End Date""))",Chrome 108.0.0.0,,,2023-01-09 19:30:09,2023-01-09 19:30:11,1.081s,PASSED
+"verifyElementVisible(findTestObject(""05-Chat/08-Schedule a meeting/calendar modal""))",Chrome 108.0.0.0,,,2023-01-09 19:30:11,2023-01-09 19:30:12,1.124s,PASSED
+delay(3),Chrome 108.0.0.0,,,2023-01-09 19:30:12,2023-01-09 19:30:15,3.006s,PASSED
+"doubleClick(findTestObject(""10-Open Video Conference/div_recurrence_dropdown""))",Chrome 108.0.0.0,,,2023-01-09 19:30:15,2023-01-09 19:30:17,2.384s,PASSED
+"click(findTestObject(""10-Open Video Conference/span_Does not repeat""))",Chrome 108.0.0.0,,,2023-01-09 19:30:17,2023-01-09 19:30:18,0.927s,PASSED
+delay(3),Chrome 108.0.0.0,,,2023-01-09 19:30:18,2023-01-09 19:30:21,3.010s,PASSED
+"scrollToElement(findTestObject(""10-Open Video Conference/h5_New Guests""), 0)",Chrome 108.0.0.0,,,2023-01-09 19:30:21,2023-01-09 19:30:22,0.607s,PASSED
+"verifyElementVisible(findTestObject(""10-Open Video Conference/h5_Current Contacts""))",Chrome 108.0.0.0,,,2023-01-09 19:30:22,2023-01-09 19:30:22,0.649s,PASSED
+"click(findTestObject(""10-Open Video Conference/input_Current Contacts_inputSearchContacts""))",Chrome 108.0.0.0,,,2023-01-09 19:30:22,2023-01-09 19:30:23,0.858s,PASSED
+"click(findTestObject(""10-Open Video Conference/span_GG tester 2""))",Chrome 108.0.0.0,,,2023-01-09 19:30:23,2023-01-09 19:30:24,0.834s,PASSED
+"clickOffset(findTestObject(""10-Open Video Conference/h5_Current Contacts""), 10, 10)",Chrome 108.0.0.0,,,2023-01-09 19:30:24,2023-01-09 19:30:25,0.794s,PASSED
+delay(3),Chrome 108.0.0.0,,,2023-01-09 19:30:25,2023-01-09 19:30:28,3.009s,PASSED
+"verifyElementVisible(findTestObject(""10-Open Video Conference/h5_New Guests""))",Chrome 108.0.0.0,,,2023-01-09 19:30:28,2023-01-09 19:30:28,0.649s,PASSED
+"setText(findTestObject(""10-Open Video Conference/input_Firstname""), ""Automation"")",Chrome 108.0.0.0,,,2023-01-09 19:30:28,2023-01-09 19:30:30,1.667s,PASSED
+"setText(findTestObject(""10-Open Video Conference/input_Lastname""), ""Tester"")",Chrome 108.0.0.0,,,2023-01-09 19:30:30,2023-01-09 19:30:32,1.472s,PASSED
+"setText(findTestObject(""10-Open Video Conference/input_emailPhonenumber""), ""09785467654"")",Chrome 108.0.0.0,,,2023-01-09 19:30:32,2023-01-09 19:30:33,1.550s,PASSED
+delay(3),Chrome 108.0.0.0,,,2023-01-09 19:30:33,2023-01-09 19:30:36,3.012s,PASSED
+"scrollToElement(findTestObject(""10-Open Video Conference/h5_Meeting Title""), 0)",Chrome 108.0.0.0,,,2023-01-09 19:30:36,2023-01-09 19:30:37,0.702s,PASSED
+"click(findTestObject(""10-Open Video Conference/button_Create meeting""))",Chrome 108.0.0.0,,,2023-01-09 19:30:37,2023-01-09 19:30:38,0.761s,PASSED
+delay(3),Chrome 108.0.0.0,,,2023-01-09 19:30:38,2023-01-09 19:30:41,3.017s,PASSED
+"verifyElementVisible(findTestObject(""10-Open Video Conference/div_link_meetingroom""))",Chrome 108.0.0.0,,,2023-01-09 19:30:41,2023-01-09 19:30:41,0.732s,PASSED
+delay(2),Chrome 108.0.0.0,,,2023-01-09 19:30:41,2023-01-09 19:30:43,2.012s,PASSED
+"click(findTestObject(""10-Open Video Conference/button_Create another meeting""))",Chrome 108.0.0.0,,,2023-01-09 19:30:43,2023-01-09 19:30:44,0.876s,PASSED
+delay(4),Chrome 108.0.0.0,,,2023-01-09 19:30:44,2023-01-09 19:30:48,4.018s,PASSED
+closeBrowser(),Chrome 108.0.0.0,,,2023-01-09 19:30:48,2023-01-09 19:30:50,1.718s,PASSED

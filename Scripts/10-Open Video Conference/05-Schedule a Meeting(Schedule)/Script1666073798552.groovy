@@ -31,23 +31,23 @@ WebUI.click(findTestObject('10-Open Video Conference/button_Start Date'))
 
 WebUI.verifyElementVisible(findTestObject('05-Chat/08-Schedule a meeting/calendar modal'))
 
-WebUI.clickOffset(findTestObject('10-Open Video Conference/div_Schedule'), 10, 10)
-
+//WebUI.clickOffset(findTestObject('10-Open Video Conference/div_Schedule'), 10, 10)
 WebUI.delay(3)
 
-WebUI.click(findTestObject('10-Open Video Conference/button_End Date'))
+WebUI.doubleClick(findTestObject('10-Open Video Conference/button_End Date'))
 
 WebUI.verifyElementVisible(findTestObject('05-Chat/08-Schedule a meeting/calendar modal'))
 
-WebUI.clickOffset(findTestObject('10-Open Video Conference/div_Schedule'), 10, 10)
-
+//WebUI.clickOffset(findTestObject('10-Open Video Conference/div_Schedule'), 10, 10)
 WebUI.delay(3)
 
-WebUI.click(findTestObject('10-Open Video Conference/div_recurrence_dropdown'))
+WebUI.doubleClick(findTestObject('10-Open Video Conference/div_recurrence_dropdown'))
 
 WebUI.click(findTestObject('10-Open Video Conference/span_Does not repeat'))
 
 WebUI.delay(3)
+
+WebUI.scrollToElement(findTestObject('10-Open Video Conference/h5_New Guests'), 0)
 
 WebUI.verifyElementVisible(findTestObject('10-Open Video Conference/h5_Current Contacts'))
 
@@ -68,6 +68,8 @@ WebUI.setText(findTestObject('10-Open Video Conference/input_Lastname'), 'Tester
 WebUI.setText(findTestObject('10-Open Video Conference/input_emailPhonenumber'), '09785467654')
 
 WebUI.delay(3)
+
+WebUI.scrollToElement(findTestObject('10-Open Video Conference/h5_Meeting Title'), 0)
 
 WebUI.click(findTestObject('10-Open Video Conference/button_Create meeting'))
 
