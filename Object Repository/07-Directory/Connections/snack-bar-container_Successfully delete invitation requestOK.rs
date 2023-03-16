@@ -6,15 +6,19 @@
    <elementGuidId>c9d72106-722d-42b3-a9ac-b1c9f5b159c3</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>//snack-bar-container[(text() = 'Successfully delete invitation requestOK' or . = 'Successfully delete invitation requestOK')]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//snack-bar-container[@role = 'status' and (text() = 'Successfully delete invitation requestOK' or . = 'Successfully delete invitation requestOK')]</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>snack-bar-container.mat-snack-bar-container.ng-tns-c41-85.ng-trigger.ng-trigger-state.mat-snack-bar-center.ng-star-inserted</value>
       </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//div[@id='cdk-overlay-14']/snack-bar-container</value>
-      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>snack-bar-container</value>
-      <webElementGuid>ce571728-920b-44bb-9fd1-926614646f69</webElementGuid>
+      <webElementGuid>099ba631-c559-4dd2-b243-70dccda130c1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-snack-bar-container ng-tns-c41-85 ng-trigger ng-trigger-state mat-snack-bar-center ng-star-inserted</value>
-      <webElementGuid>17663757-b3b1-4006-8adc-b13d6b64a3ea</webElementGuid>
+      <webElementGuid>a8c378b4-ee4a-4c1d-8772-b542e02081d1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +42,7 @@
       <name>role</name>
       <type>Main</type>
       <value>status</value>
-      <webElementGuid>61b7d5cf-9331-4b0a-9df3-5145413bec41</webElementGuid>
+      <webElementGuid>0497ee00-13a6-4c97-b29b-313c8881398c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +50,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Successfully delete invitation requestOK</value>
-      <webElementGuid>2f7fc62d-4e64-46d7-ac22-c8cc39977f94</webElementGuid>
+      <webElementGuid>a25c47db-ea4d-41d4-9345-ef7137482b32</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +58,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;cdk-overlay-14&quot;)/snack-bar-container[@class=&quot;mat-snack-bar-container ng-tns-c41-85 ng-trigger ng-trigger-state mat-snack-bar-center ng-star-inserted&quot;]</value>
-      <webElementGuid>8ca96d81-cbcc-4346-8f58-0a97041b7e67</webElementGuid>
+      <webElementGuid>a58c28df-fe7b-4f7a-b807-94f7cd43c3ba</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -62,7 +66,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='cdk-overlay-14']/snack-bar-container</value>
-      <webElementGuid>9b8b5f3b-b284-4514-a626-886dde2e4c52</webElementGuid>
+      <webElementGuid>1162c804-4d4f-4c85-815a-7e77bd6c5002</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='`'])[2]/following::snack-bar-container[1]</value>
-      <webElementGuid>4824a4c6-3a4d-44e5-937a-0a74683d612f</webElementGuid>
+      <webElementGuid>9e1fe347-6852-4711-962e-3642411f658a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Alt'])[2]/following::snack-bar-container[1]</value>
-      <webElementGuid>ebc4c79f-433d-45ea-a671-10ab5ab1072f</webElementGuid>
+      <webElementGuid>935ad6c7-5462-482a-9152-2bc08b53069a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +90,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//snack-bar-container</value>
-      <webElementGuid>e497c806-8624-4a21-aff8-eaacf52242a0</webElementGuid>
+      <webElementGuid>95426f9b-b987-479e-9827-9aed620831ed</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,6 +98,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//snack-bar-container[(text() = 'Successfully delete invitation requestOK' or . = 'Successfully delete invitation requestOK')]</value>
-      <webElementGuid>088e1999-f7b7-485f-ad60-a94afa1dcb87</webElementGuid>
+      <webElementGuid>2a3d46f8-7d91-4cf2-ad93-d4e88136ca59</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

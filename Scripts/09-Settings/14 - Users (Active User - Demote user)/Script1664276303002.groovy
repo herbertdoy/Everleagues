@@ -33,7 +33,5 @@ WebUI.click(findTestObject('09-Settings/Users/Active User/button_Demote'))
 
 WebUI.verifyElementPresent(findTestObject('09-Settings/Users/Active User/span_Successfully demoted admin'), 0)
 
-WebUI.click(findTestObject('09-Settings/Users/Active User/button_OK'))
-
 WebUI.delay(3)
 

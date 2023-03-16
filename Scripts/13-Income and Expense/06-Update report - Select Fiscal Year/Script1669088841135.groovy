@@ -17,8 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-
-WebUI.click(findTestObject('13-Income and Expense/button_insert_chart_outlinedUPDATE'))
+WebUI.click(findTestObject('13-Income and Expense/button_UPDATE'))
 
 WebUI.verifyElementVisible(findTestObject('13-Income and Expense/h6-Automation Company'))
 

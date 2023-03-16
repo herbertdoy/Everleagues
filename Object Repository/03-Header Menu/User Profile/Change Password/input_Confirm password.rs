@@ -7,18 +7,18 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='mat-input-7']</value>
-      </entry>
-      <entry>
-         <key>CSS</key>
-         <value>#mat-input-7</value>
+         <value>//input[@name = 'checkPassword' and @type = 'password' and @data-placeholder = 'Confirm Password']</value>
       </entry>
       <entry>
          <key>BASIC</key>
          <value>//input[@name = 'checkPassword' and @type = 'password' and @placeholder = 'Confirm Password']</value>
       </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#mat-input-7</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -26,6 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
+      <webElementGuid>47394379-3980-4d6e-bdbd-a8251c518e89</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -33,6 +34,7 @@
       <name>name</name>
       <type>Main</type>
       <value>checkPassword</value>
+      <webElementGuid>10da73ce-63c2-4e62-b6a7-ef2354ca8e3a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -40,6 +42,7 @@
       <name>minlength</name>
       <type>Main</type>
       <value>8</value>
+      <webElementGuid>fd11f182-b398-4b73-8b25-6d956fbd3246</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,6 +50,7 @@
       <name>maxlength</name>
       <type>Main</type>
       <value>50</value>
+      <webElementGuid>b3ff6b65-e1f3-4d1b-bb90-d6779875fd0e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,6 +58,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-input-element mat-form-field-autofill-control ng-tns-c231-42 cdk-text-field-autofill-monitored ng-untouched ng-pristine ng-invalid</value>
+      <webElementGuid>8e4dce57-13aa-4292-bfb1-be7c5b81259c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,6 +66,7 @@
       <name>ng-reflect-minlength</name>
       <type>Main</type>
       <value>8</value>
+      <webElementGuid>7e8af65d-bc32-4f03-bfcd-d9f133a70282</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -68,6 +74,7 @@
       <name>ng-reflect-maxlength</name>
       <type>Main</type>
       <value>50</value>
+      <webElementGuid>8fa92356-a3a5-41c8-9aa3-f86f9e42098b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -75,6 +82,7 @@
       <name>ng-reflect-name</name>
       <type>Main</type>
       <value>checkPassword</value>
+      <webElementGuid>0492bb72-a639-4ab4-a675-9b6c2abf3c62</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -82,6 +90,7 @@
       <name>ng-reflect-placeholder</name>
       <type>Main</type>
       <value>Confirm Password</value>
+      <webElementGuid>83ee725e-0100-4ec2-b0a0-c9934bf47d9f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -89,6 +98,7 @@
       <name>type</name>
       <type>Main</type>
       <value>password</value>
+      <webElementGuid>7866426f-d907-47af-aca5-40282ea7ce53</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -96,6 +106,7 @@
       <name>ng-reflect-type</name>
       <type>Main</type>
       <value>password</value>
+      <webElementGuid>52b32180-b65f-4817-8212-6dea3c8d7876</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -103,6 +114,7 @@
       <name>ng-reflect-equal-to</name>
       <type>Main</type>
       <value>[object Object]</value>
+      <webElementGuid>e40318a9-32f1-4361-ae36-b7439a671ce1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -110,6 +122,7 @@
       <name>id</name>
       <type>Main</type>
       <value>mat-input-7</value>
+      <webElementGuid>cb5d22d8-f191-4e08-92d7-e32e53987992</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -117,6 +130,7 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>Confirm Password</value>
+      <webElementGuid>f9df1148-41a2-4f92-9a92-c4c4450680aa</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -124,6 +138,7 @@
       <name>aria-invalid</name>
       <type>Main</type>
       <value>false</value>
+      <webElementGuid>ca590165-d463-4893-9960-1f40b7432d5b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -131,6 +146,7 @@
       <name>aria-required</name>
       <type>Main</type>
       <value>true</value>
+      <webElementGuid>ad437ccd-4354-4ca2-93ee-5cba756bd8c3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -138,6 +154,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-input-7&quot;)</value>
+      <webElementGuid>1aa67fc6-b515-4a91-9ebf-a6cd95c06d57</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -145,6 +162,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='mat-input-7']</value>
+      <webElementGuid>de2a0d50-1660-46ee-99ba-667a9f235958</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -152,6 +170,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-dialog-container[@id='mat-dialog-1']/app-dialog-change-password/section/form/div/div/mat-form-field[3]/div/div/div/input</value>
+      <webElementGuid>f94a70a6-a542-48e4-b34d-b22f91721cdb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -159,6 +178,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//mat-form-field[3]/div/div/div/input</value>
+      <webElementGuid>3d47a370-e02c-4d81-b41b-48e3da0036df</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -166,5 +186,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@name = 'checkPassword' and @type = 'password' and @id = 'mat-input-7' and @placeholder = 'Confirm Password']</value>
+      <webElementGuid>2d49f232-d4bf-42e9-b2b9-2fcf4c0e81e9</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

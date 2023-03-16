@@ -11,14 +11,14 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//button[@type='button'])[11]</value>
+         <value>//button[@permission-type='OU_DELEGATECLIENT_CREATE']</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>button.mat-focus-indicator.quickshortcut-btn.mat-icon-button.mat-button-base.ng-tns-c463-3.ng-star-inserted.cdk-focused.cdk-mouse-focused</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -26,6 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
+      <webElementGuid>609b2d38-bf70-486e-bc43-22b3b265fda0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -33,6 +34,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
+      <webElementGuid>db64bfad-4436-46c6-834e-e5ac7f1ec6a8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -40,6 +42,7 @@
       <name>permission-type</name>
       <type>Main</type>
       <value>OU_DELEGATECLIENT_CREATE</value>
+      <webElementGuid>341ce391-8f9f-499d-bb99-1e235674e813</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,6 +50,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-focus-indicator quickshortcut-btn mat-icon-button mat-button-base ng-tns-c463-3 ng-star-inserted cdk-focused cdk-mouse-focused</value>
+      <webElementGuid>d56c5511-bc21-4af3-b31a-b80bd2b02beb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,6 +58,7 @@
       <name>ng-reflect-permission-type</name>
       <type>Main</type>
       <value>OU_DELEGATECLIENT_CREATE</value>
+      <webElementGuid>f8bbe8d8-6d96-4205-8832-a1bb13df0a3d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,6 +66,7 @@
       <name>ng-reflect-message</name>
       <type>Main</type>
       <value>Client Assignment</value>
+      <webElementGuid>bed74994-38bd-4d1c-adf6-c2634d3aeab8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -68,6 +74,7 @@
       <name>aria-describedby</name>
       <type>Main</type>
       <value>cdk-describedby-message-4</value>
+      <webElementGuid>09dc9460-f881-4a73-8d94-5bd086f2f41c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -75,6 +82,7 @@
       <name>text</name>
       <type>Main</type>
       <value>assignment_ind</value>
+      <webElementGuid>132d4224-4adc-4da7-81bb-8c6581e6a5ba</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -82,6 +90,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/app-root[1]/app-main-page[@class=&quot;ng-tns-c463-3 ng-trigger ng-trigger-routerAnimation ng-star-inserted&quot;]/mat-sidenav-container[@class=&quot;mat-drawer-container mat-sidenav-container ng-tns-c463-3&quot;]/mat-sidenav-content[@class=&quot;mat-drawer-content mat-sidenav-content&quot;]/div[@class=&quot;quickshortcut quickshortcut-expand&quot;]/div[@class=&quot;quickshortcut-icons ng-tns-c463-3 ng-star-inserted&quot;]/button[@class=&quot;mat-focus-indicator quickshortcut-btn mat-icon-button mat-button-base ng-tns-c463-3 ng-star-inserted cdk-focused cdk-mouse-focused&quot;]</value>
+      <webElementGuid>5dba52a7-7886-4566-b2f6-041a69dc2702</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -89,6 +98,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[11]</value>
+      <webElementGuid>4ce50bb7-32db-40dc-a8ec-b7d74d85eaf0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -96,6 +106,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='User Guide'])[1]/following::button[3]</value>
+      <webElementGuid>e32c5e1a-0aac-4515-bc4a-3ce201303f84</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,6 +114,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Dismiss'])[1]/following::button[4]</value>
+      <webElementGuid>ccb0fb3d-38b5-4e72-a466-85dfef7921f3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,6 +122,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Hide Quick Shortcuts'])[1]/preceding::button[2]</value>
+      <webElementGuid>28978c47-4d91-4ca7-8a92-fa0a8ae2e760</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,6 +130,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Invite New User'])[1]/preceding::button[2]</value>
+      <webElementGuid>f9de6b3c-1402-4e66-a52d-0249931c2055</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -124,5 +138,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/button[3]</value>
+      <webElementGuid>5f9bee95-b9dd-464e-b01c-f9f7083ac4e3</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

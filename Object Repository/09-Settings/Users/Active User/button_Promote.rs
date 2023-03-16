@@ -7,15 +7,15 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//button[@type='button'])[33]</value>
-      </entry>
-      <entry>
-         <key>CSS</key>
-         <value>button.mat-focus-indicator.mat-raised-button.mat-button-base.cdk-focused.cdk-mouse-focused</value>
+         <value>//div[@class='action-container']//button[1]</value>
       </entry>
       <entry>
          <key>BASIC</key>
          <value>//button[@type = 'button' and (text() = ' Promote' or . = ' Promote')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.mat-focus-indicator.mat-raised-button.mat-button-base.cdk-focused.cdk-mouse-focused</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -26,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>e5e13909-4948-4193-a044-5aad045f119c</webElementGuid>
+      <webElementGuid>9f09c80c-ec13-446f-a303-bcbf8ce7811f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -34,7 +34,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>c0853bcf-31a1-4877-b38d-3564b05962bd</webElementGuid>
+      <webElementGuid>90a7f510-2486-40c7-99c5-2f7e3b538001</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,7 +42,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-focus-indicator mat-raised-button mat-button-base cdk-focused cdk-mouse-focused</value>
-      <webElementGuid>b292f679-de30-47a7-a8de-48015d9c3d98</webElementGuid>
+      <webElementGuid>d83c48c1-6aaa-4dfc-9192-cb1ebf0aae10</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,7 +50,7 @@
       <name>ng-reflect-disabled</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>f89798a8-4457-4ad3-bebb-586eab17f665</webElementGuid>
+      <webElementGuid>f46d6204-3ae0-4538-91f8-edb49faa7c34</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -58,7 +58,7 @@
       <name>text</name>
       <type>Main</type>
       <value> Promote</value>
-      <webElementGuid>ff27d4be-baed-46e2-91fc-2ce115c56d28</webElementGuid>
+      <webElementGuid>f2113049-84f5-4714-9bc7-a49ea095220c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -66,7 +66,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-dialog-8&quot;)/app-dialog-admin-user[@class=&quot;component ng-star-inserted&quot;]/section[@class=&quot;dialog-container&quot;]/div[@class=&quot;mat-dialog-actions dialog-action&quot;]/div[@class=&quot;action-container&quot;]/button[@class=&quot;mat-focus-indicator mat-raised-button mat-button-base cdk-focused cdk-mouse-focused&quot;]</value>
-      <webElementGuid>67c7dfa6-b459-4cec-946e-65afc3163923</webElementGuid>
+      <webElementGuid>8f59a377-1897-4bc2-909c-ef56f0e92b59</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -74,7 +74,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[33]</value>
-      <webElementGuid>62b86ddb-2b4a-4791-9932-970afb857418</webElementGuid>
+      <webElementGuid>41daa340-368d-4544-b35e-fc6b1ac76379</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,7 +82,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-dialog-container[@id='mat-dialog-8']/app-dialog-admin-user/section/div[2]/div/button</value>
-      <webElementGuid>e9eb035c-6f15-4dc1-8ce0-01b29518b352</webElementGuid>
+      <webElementGuid>10afc61b-f875-4f66-8419-4dcb47e405c3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -90,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='User Admin Settings'])[1]/following::button[1]</value>
-      <webElementGuid>2ac90d05-6c7c-4be8-b94a-82fdc5b8475b</webElementGuid>
+      <webElementGuid>90c7f985-5673-4521-9a57-2f82b21efdc8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,7 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/preceding::button[1]</value>
-      <webElementGuid>fc2d2df5-a895-4398-aebb-3f850a9402ea</webElementGuid>
+      <webElementGuid>d3ce8ef7-5fa1-43fd-8d10-32d769370cde</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,7 +106,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//section/div[2]/div/button</value>
-      <webElementGuid>b8819c76-00c8-4b85-b752-0c0d60124f45</webElementGuid>
+      <webElementGuid>1b85df5e-bf55-4409-aef0-62dff867be4f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -114,6 +114,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = ' Promote' or . = ' Promote')]</value>
-      <webElementGuid>af9b1304-81b0-40e2-9a7b-d9b83a355f5a</webElementGuid>
+      <webElementGuid>7a2c8c20-e9e5-4234-a63a-a692a3415154</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

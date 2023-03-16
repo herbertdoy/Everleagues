@@ -7,14 +7,18 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//mat-checkbox[@id='mat-checkbox-3']/label/div</value>
+         <value>(//span[@class='mat-checkbox-label'])[1]</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>div.mat-checkbox-inner-container</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[@class = 'mat-checkbox-inner-container']</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>ab865879-9750-4730-921a-741b1b241efb</webElementGuid>
+      <webElementGuid>3bb920cb-c413-4325-b20e-e9165138f0b2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-checkbox-inner-container</value>
-      <webElementGuid>cebd73dc-ad9d-4353-8ed8-876887a713cf</webElementGuid>
+      <webElementGuid>d375fc9f-19d6-4dbe-8c0a-78232bc0d3de</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +42,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-checkbox-3&quot;)/label[@class=&quot;mat-checkbox-layout&quot;]/div[@class=&quot;mat-checkbox-inner-container&quot;]</value>
-      <webElementGuid>bdd82a26-0983-4caf-bef7-1c4a273a0c48</webElementGuid>
+      <webElementGuid>4945018d-ccfa-407e-b1bb-8ab5045d07c0</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -46,7 +50,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-checkbox[@id='mat-checkbox-3']/label/div</value>
-      <webElementGuid>03ecd3a5-80b5-48f9-839c-d0fc354a6558</webElementGuid>
+      <webElementGuid>2dbbfefd-b264-4498-9980-dd41a9e10337</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -54,7 +58,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='New Guests'])[1]/following::div[2]</value>
-      <webElementGuid>d350ba20-36f8-4e6e-a66c-391d20b242be</webElementGuid>
+      <webElementGuid>33e50bf2-2023-4237-9c06-25f712c0d043</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +66,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Select existing contacts'])[1]/following::div[9]</value>
-      <webElementGuid>4f621b18-c99e-436d-9fa0-2fc7b09f2d02</webElementGuid>
+      <webElementGuid>1a339ec6-3364-4806-8352-bb45cbbfe655</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Bringing your old and new contacts together!'])[1]/preceding::div[66]</value>
-      <webElementGuid>421d5e10-22ca-43a2-8b68-08f04a8c0742</webElementGuid>
+      <webElementGuid>cbe5fc1a-b46c-4666-b4ee-c53882c5c044</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,6 +82,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//mat-checkbox/label/div</value>
-      <webElementGuid>92fc6a42-7200-489a-9a59-3e1503fce53b</webElementGuid>
+      <webElementGuid>330a6cb6-596e-46db-ba72-9ec1f698ea20</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

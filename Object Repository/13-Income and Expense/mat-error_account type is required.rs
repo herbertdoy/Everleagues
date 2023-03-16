@@ -6,12 +6,11 @@
    <elementGuidId>d270d513-0e07-4272-9552-fb134c799ffa</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//mat-error[@role = 'alert' and (text() = ' Account type is required ' or . = ' Account type is required ')]</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//mat-error[text()=' Account type is required ']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

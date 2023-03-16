@@ -1,0 +1,166 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+12.1-EL Sign (Send Documents),Chrome 109.0.0.0,,,2023-02-14 10:46:24,2023-02-14 10:53:42,7m - 17.617s,FAILED
+,,,,,,,
+Test Cases/12-EL Sign/01-Send Documents (Upload a file-required field is blank),Chrome 109.0.0.0,,,2023-02-14 10:46:26,2023-02-14 10:49:48,3m - 21.775s,PASSED
+"openBrowser("""")",Chrome 109.0.0.0,,,2023-02-14 10:46:30,2023-02-14 10:46:51,21.337s,PASSED
+"navigateToUrl(""https://lab.everleagues.com/"")",Chrome 109.0.0.0,,,2023-02-14 10:46:51,2023-02-14 10:47:19,27.849s,PASSED
+maximizeWindow(),Chrome 109.0.0.0,,,2023-02-14 10:47:19,2023-02-14 10:47:20,0.460s,PASSED
+"callTestCase(findTestCase(""01-Login and Forgot Password/04-Login(Valid Credentials-With Subscription)""), [:], STOP_ON_FAILURE)",Chrome 109.0.0.0,,,2023-02-14 10:47:20,2023-02-14 10:48:49,1m - 29.374s,PASSED
+"click(findTestObject(""06-Teams/button_doublearrow""))",Chrome 109.0.0.0,,,2023-02-14 10:48:49,2023-02-14 10:48:57,7.610s,PASSED
+"click(findTestObject(""06-Teams/button_My Organizations""))",Chrome 109.0.0.0,,,2023-02-14 10:48:57,2023-02-14 10:48:58,1.106s,PASSED
+"click(findTestObject(""02-Side Icons(Organization)/Add Contact/button_Automation Test Org""))",Chrome 109.0.0.0,,,2023-02-14 10:48:58,2023-02-14 10:49:00,1.941s,PASSED
+delay(4),Chrome 109.0.0.0,,,2023-02-14 10:49:00,2023-02-14 10:49:04,4.017s,PASSED
+"verifyElementVisible(findTestObject(""02-Side Icons(Organization)/Add Contact/span_Automation Test Org""))",Chrome 109.0.0.0,,,2023-02-14 10:49:04,2023-02-14 10:49:05,0.911s,PASSED
+delay(5),Chrome 109.0.0.0,,,2023-02-14 10:49:05,2023-02-14 10:49:10,5.016s,PASSED
+"scrollToElement(findTestObject(""03-Header Menu/Hamburger Button/div_ELSign""), 0)",Chrome 109.0.0.0,,,2023-02-14 10:49:10,2023-02-14 10:49:10,0.889s,PASSED
+"click(findTestObject(""03-Header Menu/Hamburger Button/div_ELSign""))",Chrome 109.0.0.0,,,2023-02-14 10:49:10,2023-02-14 10:49:11,0.921s,PASSED
+"verifyElementVisible(findTestObject(""03-Header Menu/Hamburger Button/div_ELSign""))",Chrome 109.0.0.0,,,2023-02-14 10:49:11,2023-02-14 10:49:15,3.392s,PASSED
+"verifyElementVisible(findTestObject(""12-EL Sign/h4_ELSign""))",Chrome 109.0.0.0,,,2023-02-14 10:49:15,2023-02-14 10:49:16,1.550s,PASSED
+delay(3),Chrome 109.0.0.0,,,2023-02-14 10:49:16,2023-02-14 10:49:19,3.023s,PASSED
+"click(findTestObject(""12-EL Sign/div_Send Documents""))",Chrome 109.0.0.0,,,2023-02-14 10:49:19,2023-02-14 10:49:22,2.646s,PASSED
+"uploadpackage.Upload.uploadFile(findTestObject(""Object Repository/12-EL Sign/div_Drag and drop or Upload PDF or Word document here""), ""C:\Users\asus\Desktop\EL automation\sample.pdf"")",Chrome 109.0.0.0,,,2023-02-14 10:49:22,2023-02-14 10:49:29,6.889s,PASSED
+delay(3),Chrome 109.0.0.0,,,2023-02-14 10:49:29,2023-02-14 10:49:32,3.036s,PASSED
+"click(findTestObject(""12-EL Sign/input_documentTitle""))",Chrome 109.0.0.0,,,2023-02-14 10:49:32,2023-02-14 10:49:40,7.971s,PASSED
+"sendKeys(findTestObject(""Object Repository/12-EL Sign/input_documentTitle""), Keys.chord(CONTROL, ""a""))",Chrome 109.0.0.0,,,2023-02-14 10:49:40,2023-02-14 10:49:42,2.075s,PASSED
+"sendKeys(findTestObject(""Object Repository/12-EL Sign/input_documentTitle""), Keys.chord(BACK_SPACE))",Chrome 109.0.0.0,,,2023-02-14 10:49:42,2023-02-14 10:49:43,1.112s,PASSED
+"clickOffset(findTestObject(""12-EL Sign/h4_ELSign""), 100, 100)",Chrome 109.0.0.0,,,2023-02-14 10:49:43,2023-02-14 10:49:44,1.205s,PASSED
+"verifyElementVisible(findTestObject(""12-EL Sign/mat-error_Title is required""))",Chrome 109.0.0.0,,,2023-02-14 10:49:44,2023-02-14 10:49:45,0.741s,PASSED
+delay(3),Chrome 109.0.0.0,,,2023-02-14 10:49:45,2023-02-14 10:49:48,3.016s,PASSED
+,,,,,,,
+Test Cases/12-EL Sign/02-Send Documents (Upload a file-fill out required field),Chrome 109.0.0.0,,,2023-02-14 10:49:48,2023-02-14 10:50:01,12.671s,PASSED
+"setText(findTestObject(""12-EL Sign/input_documentTitle""), ""sample.pdf"")",Chrome 109.0.0.0,,,2023-02-14 10:49:50,2023-02-14 10:49:52,1.381s,PASSED
+"click(findTestObject(""12-EL Sign/button_UPLOAD""))",Chrome 109.0.0.0,,,2023-02-14 10:49:52,2023-02-14 10:49:53,1.039s,PASSED
+delay(3),Chrome 109.0.0.0,,,2023-02-14 10:49:53,2023-02-14 10:49:56,3.012s,PASSED
+"click(findTestObject(""12-EL Sign/button_homeELSIGN DOCUMENTS""))",Chrome 109.0.0.0,,,2023-02-14 10:49:56,2023-02-14 10:49:58,1.825s,PASSED
+delay(3),Chrome 109.0.0.0,,,2023-02-14 10:49:58,2023-02-14 10:50:01,3.023s,PASSED
+,,,,,,,
+Test Cases/12-EL Sign/03-Send Documents (Function buttons),Chrome 109.0.0.0,,,2023-02-14 10:50:01,2023-02-14 10:50:57,55.752s,PASSED
+"click(findTestObject(""12-EL Sign/mat-icon_refresh""))",Chrome 109.0.0.0,,,2023-02-14 10:50:03,2023-02-14 10:50:04,1.017s,PASSED
+delay(3),Chrome 109.0.0.0,,,2023-02-14 10:50:04,2023-02-14 10:50:07,3.019s,PASSED
+"click(findTestObject(""12-EL Sign/mat-icon_configureColumns""))",Chrome 109.0.0.0,,,2023-02-14 10:50:07,2023-02-14 10:50:08,0.940s,PASSED
+"click(findTestObject(""12-EL Sign/mat-dialog-container_configureColumnModal""))",Chrome 109.0.0.0,,,2023-02-14 10:50:08,2023-02-14 10:50:09,1.124s,PASSED
+"click(findTestObject(""12-EL Sign/span_ELSign Tracking Id""))",Chrome 109.0.0.0,,,2023-02-14 10:50:09,2023-02-14 10:50:10,0.985s,PASSED
+"click(findTestObject(""12-EL Sign/span_Document Name""))",Chrome 109.0.0.0,,,2023-02-14 10:50:10,2023-02-14 10:50:11,0.977s,PASSED
+"click(findTestObject(""12-EL Sign/span_Status""))",Chrome 109.0.0.0,,,2023-02-14 10:50:11,2023-02-14 10:50:12,1.178s,PASSED
+"click(findTestObject(""12-EL Sign/span_Signer Status""))",Chrome 109.0.0.0,,,2023-02-14 10:50:12,2023-02-14 10:50:13,1.043s,PASSED
+"click(findTestObject(""12-EL Sign/span_View""))",Chrome 109.0.0.0,,,2023-02-14 10:50:13,2023-02-14 10:50:14,1.068s,PASSED
+"click(findTestObject(""12-EL Sign/span_Certificate""))",Chrome 109.0.0.0,,,2023-02-14 10:50:14,2023-02-14 10:50:15,1.036s,PASSED
+"click(findTestObject(""12-EL Sign/span_Delete""))",Chrome 109.0.0.0,,,2023-02-14 10:50:15,2023-02-14 10:50:16,1.033s,PASSED
+"click(findTestObject(""12-EL Sign/span_History""))",Chrome 109.0.0.0,,,2023-02-14 10:50:16,2023-02-14 10:50:17,1.040s,PASSED
+"click(findTestObject(""12-EL Sign/span_Reminder""))",Chrome 109.0.0.0,,,2023-02-14 10:50:17,2023-02-14 10:50:19,1.739s,PASSED
+"click(findTestObject(""12-EL Sign/span_Last Modified""))",Chrome 109.0.0.0,,,2023-02-14 10:50:19,2023-02-14 10:50:20,1.014s,PASSED
+delay(3),Chrome 109.0.0.0,,,2023-02-14 10:50:20,2023-02-14 10:50:23,3.014s,PASSED
+"click(findTestObject(""12-EL Sign/span_ELSign Tracking Id""))",Chrome 109.0.0.0,,,2023-02-14 10:50:23,2023-02-14 10:50:26,2.421s,PASSED
+"click(findTestObject(""12-EL Sign/span_Document Name""))",Chrome 109.0.0.0,,,2023-02-14 10:50:26,2023-02-14 10:50:27,1.034s,PASSED
+"click(findTestObject(""12-EL Sign/span_Status""))",Chrome 109.0.0.0,,,2023-02-14 10:50:27,2023-02-14 10:50:28,0.947s,PASSED
+"click(findTestObject(""12-EL Sign/span_Signer Status""))",Chrome 109.0.0.0,,,2023-02-14 10:50:28,2023-02-14 10:50:29,1.579s,PASSED
+"click(findTestObject(""12-EL Sign/span_View""))",Chrome 109.0.0.0,,,2023-02-14 10:50:29,2023-02-14 10:50:31,1.555s,PASSED
+"click(findTestObject(""12-EL Sign/span_Download""))",Chrome 109.0.0.0,,,2023-02-14 10:50:31,2023-02-14 10:50:32,1.028s,PASSED
+"click(findTestObject(""12-EL Sign/span_Certificate""))",Chrome 109.0.0.0,,,2023-02-14 10:50:32,2023-02-14 10:50:33,1.002s,PASSED
+"click(findTestObject(""12-EL Sign/span_Delete""))",Chrome 109.0.0.0,,,2023-02-14 10:50:33,2023-02-14 10:50:34,1.040s,PASSED
+"click(findTestObject(""12-EL Sign/span_History""))",Chrome 109.0.0.0,,,2023-02-14 10:50:34,2023-02-14 10:50:35,1.009s,PASSED
+"click(findTestObject(""12-EL Sign/span_Reminder""))",Chrome 109.0.0.0,,,2023-02-14 10:50:35,2023-02-14 10:50:36,0.941s,PASSED
+"click(findTestObject(""12-EL Sign/span_Last Modified""))",Chrome 109.0.0.0,,,2023-02-14 10:50:36,2023-02-14 10:50:37,0.936s,PASSED
+delay(3),Chrome 109.0.0.0,,,2023-02-14 10:50:37,2023-02-14 10:50:40,3.014s,PASSED
+"click(findTestObject(""12-EL Sign/button_CLOSE""))",Chrome 109.0.0.0,,,2023-02-14 10:50:40,2023-02-14 10:50:41,0.932s,PASSED
+delay(3),Chrome 109.0.0.0,,,2023-02-14 10:50:41,2023-02-14 10:50:44,3.022s,PASSED
+"click(findTestObject(""12-EL Sign/mat-icon_exportCSV""))",Chrome 109.0.0.0,,,2023-02-14 10:50:44,2023-02-14 10:50:45,1.140s,PASSED
+delay(3),Chrome 109.0.0.0,,,2023-02-14 10:50:45,2023-02-14 10:50:48,3.023s,PASSED
+"click(findTestObject(""12-EL Sign/mat-icon_expandAll""))",Chrome 109.0.0.0,,,2023-02-14 10:50:48,2023-02-14 10:50:50,1.749s,PASSED
+delay(3),Chrome 109.0.0.0,,,2023-02-14 10:50:50,2023-02-14 10:50:53,3.016s,PASSED
+"click(findTestObject(""12-EL Sign/mat-icon_refit""))",Chrome 109.0.0.0,,,2023-02-14 10:50:53,2023-02-14 10:50:54,1.008s,PASSED
+delay(3),Chrome 109.0.0.0,,,2023-02-14 10:50:54,2023-02-14 10:50:57,3.011s,PASSED
+,,,,,,,
+Test Cases/12-EL Sign/04-Send Documents (Add Signer and guest- required field is blank),Chrome 109.0.0.0,,,2023-02-14 10:50:57,2023-02-14 10:51:30,33.835s,PASSED
+"click(findTestObject(""12-EL Sign/div_ELSignTrackID""))",Chrome 109.0.0.0,,,2023-02-14 10:50:58,2023-02-14 10:51:00,1.138s,PASSED
+delay(3),Chrome 109.0.0.0,,,2023-02-14 10:51:00,2023-02-14 10:51:03,3.017s,PASSED
+"click(findTestObject(""12-EL Sign/span_COMPLETE""))",Chrome 109.0.0.0,,,2023-02-14 10:51:03,2023-02-14 10:51:03,0.856s,PASSED
+"verifyElementVisible(findTestObject(""12-EL Sign/snack-bar-container_Please add signer and field""))",Chrome 109.0.0.0,,,2023-02-14 10:51:03,2023-02-14 10:51:04,0.967s,PASSED
+delay(3),Chrome 109.0.0.0,,,2023-02-14 10:51:04,2023-02-14 10:51:07,3.011s,PASSED
+"click(findTestObject(""12-EL Sign/button_personADD SIGNER  FIELD""))",Chrome 109.0.0.0,,,2023-02-14 10:51:07,2023-02-14 10:51:09,1.514s,PASSED
+"verifyElementVisible(findTestObject(""12-EL Sign/mat-dialog-container_AddSignerModal""))",Chrome 109.0.0.0,,,2023-02-14 10:51:09,2023-02-14 10:51:11,1.610s,PASSED
+"click(findTestObject(""12-EL Sign/input_Search for a Signer""))",Chrome 109.0.0.0,,,2023-02-14 10:51:11,2023-02-14 10:51:11,0.749s,PASSED
+"sendKeys(findTestObject(""12-EL Sign/input_Search for a Signer""), Keys.chord(ESCAPE))",Chrome 109.0.0.0,,,2023-02-14 10:51:11,2023-02-14 10:51:12,0.738s,PASSED
+"click(findTestObject(""12-EL Sign/input_Receiver email address""))",Chrome 109.0.0.0,,,2023-02-14 10:51:12,2023-02-14 10:51:13,0.912s,PASSED
+"clickOffset(findTestObject(""12-EL Sign/input_Receiver email address""), 100, 100)",Chrome 109.0.0.0,,,2023-02-14 10:51:13,2023-02-14 10:51:14,0.913s,PASSED
+"verifyElementVisible(findTestObject(""12-EL Sign/mat-error_Signer name is required""))",Chrome 109.0.0.0,,,2023-02-14 10:51:14,2023-02-14 10:51:15,0.739s,PASSED
+"verifyElementVisible(findTestObject(""12-EL Sign/mat-error_Email address is required""))",Chrome 109.0.0.0,,,2023-02-14 10:51:15,2023-02-14 10:51:15,0.686s,PASSED
+"scrollToElement(findTestObject(""12-EL Sign/button_SAVE""), 0)",Chrome 109.0.0.0,,,2023-02-14 10:51:15,2023-02-14 10:51:16,0.709s,PASSED
+"verifyElementNotClickable(findTestObject(""12-EL Sign/button_SAVE""))",Chrome 109.0.0.0,,,2023-02-14 10:51:16,2023-02-14 10:51:17,0.711s,PASSED
+"click(findTestObject(""12-EL Sign/button_CANCEL""))",Chrome 109.0.0.0,,,2023-02-14 10:51:17,2023-02-14 10:51:17,0.731s,PASSED
+delay(3),Chrome 109.0.0.0,,,2023-02-14 10:51:17,2023-02-14 10:51:20,3.018s,PASSED
+"click(findTestObject(""12-EL Sign/button_personADD SIGNER  FIELD""))",Chrome 109.0.0.0,,,2023-02-14 10:51:20,2023-02-14 10:51:22,1.132s,PASSED
+delay(3),Chrome 109.0.0.0,,,2023-02-14 10:51:22,2023-02-14 10:51:25,3.018s,PASSED
+"click(findTestObject(""12-EL Sign/button_person_outlineADD GUEST""))",Chrome 109.0.0.0,,,2023-02-14 10:51:25,2023-02-14 10:51:26,1.222s,PASSED
+"verifyElementVisible(findTestObject(""12-EL Sign/mat-dialog-container_New GuestModal""))",Chrome 109.0.0.0,,,2023-02-14 10:51:26,2023-02-14 10:51:27,1.411s,PASSED
+"click(findTestObject(""12-EL Sign/input_GuestEmailAddress""))",Chrome 109.0.0.0,,,2023-02-14 10:51:27,2023-02-14 10:51:29,1.701s,PASSED
+"sendKeys(findTestObject(""12-EL Sign/input_GuestEmailAddress""), Keys.chord(ESCAPE))",Chrome 109.0.0.0,,,2023-02-14 10:51:29,2023-02-14 10:51:30,0.683s,PASSED
+"click(findTestObject(""12-EL Sign/mat-icon_clear""))",Chrome 109.0.0.0,,,2023-02-14 10:51:30,2023-02-14 10:51:30,0.783s,PASSED
+,,,,,,,
+Test Cases/12-EL Sign/05-Send Docuuments(Add Signer and guest-fill out required field),Chrome 109.0.0.0,,,2023-02-14 10:51:30,2023-02-14 10:51:52,21.851s,PASSED
+"click(findTestObject(""12-EL Sign/button_personADD SIGNER  FIELD""))",Chrome 109.0.0.0,,,2023-02-14 10:51:32,2023-02-14 10:51:33,1.060s,PASSED
+"click(findTestObject(""12-EL Sign/input_Search for a Signer""))",Chrome 109.0.0.0,,,2023-02-14 10:51:33,2023-02-14 10:51:35,1.626s,PASSED
+"click(findTestObject(""12-EL Sign/mat-option_GG TESTER (testuser02mailinator.com)""), STOP_ON_FAILURE)",Chrome 109.0.0.0,,,2023-02-14 10:51:35,2023-02-14 10:51:36,0.857s,PASSED
+"scrollToElement(findTestObject(""12-EL Sign/button_SAVE""), 0)",Chrome 109.0.0.0,,,2023-02-14 10:51:36,2023-02-14 10:51:36,0.743s,PASSED
+"click(findTestObject(""12-EL Sign/button_SAVE""))",Chrome 109.0.0.0,,,2023-02-14 10:51:36,2023-02-14 10:51:37,0.936s,PASSED
+delay(3),Chrome 109.0.0.0,,,2023-02-14 10:51:37,2023-02-14 10:51:40,3.014s,PASSED
+"click(findTestObject(""12-EL Sign/button_personADD SIGNER  FIELD""))",Chrome 109.0.0.0,,,2023-02-14 10:51:40,2023-02-14 10:51:42,1.200s,PASSED
+delay(3),Chrome 109.0.0.0,,,2023-02-14 10:51:42,2023-02-14 10:51:45,3.011s,PASSED
+"click(findTestObject(""12-EL Sign/button_person_outlineADD GUEST""))",Chrome 109.0.0.0,,,2023-02-14 10:51:45,2023-02-14 10:51:46,1.422s,PASSED
+"verifyElementVisible(findTestObject(""12-EL Sign/mat-dialog-container_New GuestModal""))",Chrome 109.0.0.0,,,2023-02-14 10:51:46,2023-02-14 10:51:47,1.440s,PASSED
+"click(findTestObject(""12-EL Sign/input_GuestEmailAddress""))",Chrome 109.0.0.0,,,2023-02-14 10:51:47,2023-02-14 10:51:49,1.535s,PASSED
+"click(findTestObject(""12-EL Sign/mat-option_norvs26mailinator.com""))",Chrome 109.0.0.0,,,2023-02-14 10:51:49,2023-02-14 10:51:50,0.804s,PASSED
+"scrollToElement(findTestObject(""12-EL Sign/button_SAVE2""), 0)",Chrome 109.0.0.0,,,2023-02-14 10:51:50,2023-02-14 10:51:51,1.136s,PASSED
+"click(findTestObject(""12-EL Sign/button_SAVE2""))",Chrome 109.0.0.0,,,2023-02-14 10:51:51,2023-02-14 10:51:52,1.325s,PASSED
+,,,,,,,
+Test Cases/12-EL Sign/06-Send Documents (Select labels and drag),Chrome 109.0.0.0,,,2023-02-14 10:51:52,2023-02-14 10:52:34,41.761s,PASSED
+"click(findTestObject(""12-EL Sign/button_createGG TESTERSign here""))",Chrome 109.0.0.0,,,2023-02-14 10:51:54,2023-02-14 10:51:55,0.860s,PASSED
+"click(findTestObject(""12-EL Sign/div_create-draggable""))",Chrome 109.0.0.0,,,2023-02-14 10:51:55,2023-02-14 10:51:56,1.377s,PASSED
+"click(findTestObject(""12-EL Sign/button_clear""))",Chrome 109.0.0.0,,,2023-02-14 10:51:56,2023-02-14 10:51:57,0.941s,PASSED
+"verifyElementVisible(findTestObject(""12-EL Sign/mat-dialog-container_Do you confirm the deletion of this ELSign fieldModal""))",Chrome 109.0.0.0,,,2023-02-14 10:51:57,2023-02-14 10:51:59,1.779s,PASSED
+"click(findTestObject(""12-EL Sign/button_No""))",Chrome 109.0.0.0,,,2023-02-14 10:51:59,2023-02-14 10:52:00,0.695s,PASSED
+"click(findTestObject(""12-EL Sign/button_clear""))",Chrome 109.0.0.0,,,2023-02-14 10:52:00,2023-02-14 10:52:01,0.826s,PASSED
+delay(3),Chrome 109.0.0.0,,,2023-02-14 10:52:01,2023-02-14 10:52:04,3.020s,PASSED
+"click(findTestObject(""12-EL Sign/button_Yes""))",Chrome 109.0.0.0,,,2023-02-14 10:52:04,2023-02-14 10:52:04,0.741s,PASSED
+delay(3),Chrome 109.0.0.0,,,2023-02-14 10:52:04,2023-02-14 10:52:07,3.007s,PASSED
+"click(findTestObject(""12-EL Sign/button_createGG TESTERSign here""))",Chrome 109.0.0.0,,,2023-02-14 10:52:07,2023-02-14 10:52:09,1.582s,PASSED
+"click(findTestObject(""12-EL Sign/button_calendarGG TESTERDate signed""))",Chrome 109.0.0.0,,,2023-02-14 10:52:09,2023-02-14 10:52:14,4.666s,PASSED
+"click(findTestObject(""12-EL Sign/button_person_pinGG TESTERInitial here""))",Chrome 109.0.0.0,,,2023-02-14 10:52:14,2023-02-14 10:52:15,1.478s,PASSED
+delay(3),Chrome 109.0.0.0,,,2023-02-14 10:52:15,2023-02-14 10:52:18,3.013s,PASSED
+"dragAndDropByOffset(findTestObject(""12-EL Sign/div_usericon-draggable""), 3, 30)",Chrome 109.0.0.0,,,2023-02-14 10:52:18,2023-02-14 10:52:19,1.191s,PASSED
+"dragAndDropByOffset(findTestObject(""12-EL Sign/div_calendar-draggable""), 3, 60)",Chrome 109.0.0.0,,,2023-02-14 10:52:19,2023-02-14 10:52:21,1.331s,PASSED
+"click(findTestObject(""12-EL Sign/span_COMPLETE""))",Chrome 109.0.0.0,,,2023-02-14 10:52:21,2023-02-14 10:52:22,1.589s,PASSED
+delay(3),Chrome 109.0.0.0,,,2023-02-14 10:52:22,2023-02-14 10:52:25,3.010s,PASSED
+"verifyElementVisible(findTestObject(""12-EL Sign/th_Send ELSign Invite""))",Chrome 109.0.0.0,,,2023-02-14 10:52:25,2023-02-14 10:52:26,0.672s,PASSED
+"scrollToElement(findTestObject(""12-EL Sign/div_Dear ReceiverName""), 0)",Chrome 109.0.0.0,,,2023-02-14 10:52:26,2023-02-14 10:52:27,0.737s,PASSED
+"scrollToElement(findTestObject(""12-EL Sign/th_Send ELSign Invite""), 0)",Chrome 109.0.0.0,,,2023-02-14 10:52:27,2023-02-14 10:52:27,0.602s,PASSED
+delay(3),Chrome 109.0.0.0,,,2023-02-14 10:52:27,2023-02-14 10:52:30,3.006s,PASSED
+"click(findTestObject(""12-EL Sign/button_sendSend Invite""))",Chrome 109.0.0.0,,,2023-02-14 10:52:30,2023-02-14 10:52:31,0.774s,PASSED
+delay(3),Chrome 109.0.0.0,,,2023-02-14 10:52:31,2023-02-14 10:52:34,3.007s,PASSED
+,,,,,,,
+Test Cases/12-EL Sign/07-Send Documents (Signer Status),Chrome 109.0.0.0,,,2023-02-14 10:52:34,2023-02-14 10:52:43,8.516s,PASSED
+"click(findTestObject(""12-EL Sign/button_person_add-SignerStatus""))",Chrome 109.0.0.0,,,2023-02-14 10:52:36,2023-02-14 10:52:37,0.991s,PASSED
+"verifyElementVisible(findTestObject(""12-EL Sign/mat-toolbar_Signers ELSign Status""))",Chrome 109.0.0.0,,,2023-02-14 10:52:37,2023-02-14 10:52:39,2.230s,PASSED
+"click(findTestObject(""12-EL Sign/button_OK""))",Chrome 109.0.0.0,,,2023-02-14 10:52:39,2023-02-14 10:52:40,0.743s,PASSED
+delay(3),Chrome 109.0.0.0,,,2023-02-14 10:52:40,2023-02-14 10:52:43,3.010s,PASSED
+,,,,,,,
+Test Cases/12-EL Sign/08-Send Documents (View Document and History),Chrome 109.0.0.0,,,2023-02-14 10:52:43,2023-02-14 10:53:00,17.587s,PASSED
+"click(findTestObject(""12-EL Sign/button_visibility""))",Chrome 109.0.0.0,,,2023-02-14 10:52:46,2023-02-14 10:52:47,0.949s,PASSED
+switchToWindowIndex(1),Chrome 109.0.0.0,,,2023-02-14 10:52:47,2023-02-14 10:52:49,2.408s,PASSED
+closeWindowIndex(1),Chrome 109.0.0.0,,,2023-02-14 10:52:49,2023-02-14 10:52:50,0.833s,PASSED
+switchToWindowIndex(0),Chrome 109.0.0.0,,,2023-02-14 10:52:50,2023-02-14 10:52:50,0.117s,PASSED
+delay(3),Chrome 109.0.0.0,,,2023-02-14 10:52:50,2023-02-14 10:52:53,3.022s,PASSED
+"click(findTestObject(""12-EL Sign/button_history""))",Chrome 109.0.0.0,,,2023-02-14 10:52:53,2023-02-14 10:52:54,1.144s,PASSED
+"verifyElementVisible(findTestObject(""12-EL Sign/mat-dialog-container-historyModal""))",Chrome 109.0.0.0,,,2023-02-14 10:52:54,2023-02-14 10:52:56,1.397s,PASSED
+"verifyElementVisible(findTestObject(""12-EL Sign/td_historyName""))",Chrome 109.0.0.0,,,2023-02-14 10:52:56,2023-02-14 10:52:56,0.641s,PASSED
+"doubleClick(findTestObject(""12-EL Sign/button_CANCEL2""))",Chrome 109.0.0.0,,,2023-02-14 10:52:56,2023-02-14 10:52:57,0.872s,PASSED
+delay(3),Chrome 109.0.0.0,,,2023-02-14 10:52:57,2023-02-14 10:53:00,3.011s,PASSED
+,,,,,,,
+Test Cases/12-EL Sign/09-Send Documents (Reminder),Chrome 109.0.0.0,,,2023-02-14 10:53:00,2023-02-14 10:53:42,41.685s,FAILED
+"click(findTestObject(""12-EL Sign/button_reminder""))",Chrome 109.0.0.0,,,2023-02-14 10:53:02,2023-02-14 10:53:03,1.039s,PASSED
+"verifyElementVisible(findTestObject(""12-EL Sign/mat-dialog-container-reminderModal""))",Chrome 109.0.0.0,,,2023-02-14 10:53:03,2023-02-14 10:53:04,1.509s,PASSED
+"verifyElementVisible(findTestObject(""12-EL Sign/h6_Schedule ELSign receiver reminder""))",Chrome 109.0.0.0,,,2023-02-14 10:53:04,2023-02-14 10:53:05,0.697s,PASSED
+"doubleClick(findTestObject(""12-EL Sign/button_CANCEL3""))",Chrome 109.0.0.0,,,2023-02-14 10:53:05,2023-02-14 10:53:06,1.028s,PASSED
+delay(3),Chrome 109.0.0.0,,,2023-02-14 10:53:06,2023-02-14 10:53:09,3.021s,PASSED
+"click(findTestObject(""12-EL Sign/button_reminder""))",Chrome 109.0.0.0,,,2023-02-14 10:53:09,2023-02-14 10:53:10,0.818s,PASSED
+"click(findTestObject(""12-EL Sign/checkbox_recipients""))",Chrome 109.0.0.0,,,2023-02-14 10:53:10,2023-02-14 10:53:42,32.028s,FAILED

@@ -6,19 +6,19 @@
    <elementGuidId>8446dbbe-2ee4-400a-817c-4728e3d65855</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//h4[@id='mat-dialog-title-1']</value>
+         <key>BASIC</key>
+         <value>//h4[@class = 'mat-dialog-title' and (text() = 'Suspend User' or . = 'Suspend User')]</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>#mat-dialog-title-1</value>
       </entry>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
          <value>//h4[@class = 'mat-dialog-title' and (text() = 'Suspend User' or . = 'Suspend User')]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -26,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>h4</value>
-      <webElementGuid>0bad5ec2-4dd8-4741-af9e-be6b3052b3d6</webElementGuid>
+      <webElementGuid>f520364b-591f-4eee-b06e-853ca942099a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -34,7 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-dialog-title</value>
-      <webElementGuid>083bf197-9db0-4751-aa2d-47447d555db6</webElementGuid>
+      <webElementGuid>64d811a0-9afb-4ec0-9bcb-5927e484b910</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,7 +42,7 @@
       <name>id</name>
       <type>Main</type>
       <value>mat-dialog-title-1</value>
-      <webElementGuid>cea33ddb-02b0-44c3-98e0-e3dc2dae70fc</webElementGuid>
+      <webElementGuid>270c529e-5ca3-4e45-b79a-8b0cceb4f7ec</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -50,7 +50,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Suspend User</value>
-      <webElementGuid>4da7dd9d-8301-4e7c-96e9-76bb218cb0af</webElementGuid>
+      <webElementGuid>0d3e1831-1977-48e4-96ff-29c02647e9d9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -58,7 +58,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-dialog-title-1&quot;)</value>
-      <webElementGuid>93c8896a-fb6f-4178-be22-17ad84fa1121</webElementGuid>
+      <webElementGuid>3f4ee813-5f74-4217-a5a9-321f65dea7b6</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -66,7 +66,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//h4[@id='mat-dialog-title-1']</value>
-      <webElementGuid>265db186-5ec7-49c3-9864-ec8eae05f331</webElementGuid>
+      <webElementGuid>3deea615-beb4-49dd-abd9-b6d0fec3ed5c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -74,7 +74,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-dialog-container[@id='mat-dialog-1']/app-dialog-suspend-user/section/div/h4</value>
-      <webElementGuid>cf329335-1708-4129-9549-d3c1f0f28c8e</webElementGuid>
+      <webElementGuid>58e3e7b5-02ca-4bf5-83fa-0c2f14d2a575</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('id(', '&quot;', 'mat-dialog-title-1', '&quot;', ')')])[1]/following::h4[1]</value>
-      <webElementGuid>aaf6b248-9eca-487b-95ce-c3bd4d15a578</webElementGuid>
+      <webElementGuid>1f44e11d-8fa0-4388-9a1a-fb78f02be515</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -90,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='`'])[2]/following::h4[1]</value>
-      <webElementGuid>32f98a02-8212-467c-bf22-ecc3a0afccfa</webElementGuid>
+      <webElementGuid>58f4b295-ca48-46a2-bc4c-59ea93e541d3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,7 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Suspend'])[1]/preceding::h4[1]</value>
-      <webElementGuid>8558ee75-6ea2-4726-acf5-66b39287f8e9</webElementGuid>
+      <webElementGuid>06ddcef4-1a2e-4736-8bae-2fb613c76e91</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,7 +106,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Suspend User']/parent::*</value>
-      <webElementGuid>c2802043-e2cc-42e6-b21c-3b3c360977da</webElementGuid>
+      <webElementGuid>42c9190f-6b1c-4857-bd50-bd23d6b4680a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -114,7 +114,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//section/div/h4</value>
-      <webElementGuid>c4bd12cc-9b37-437d-976c-4f701067ca28</webElementGuid>
+      <webElementGuid>ba9cf84d-5649-4cbd-a490-fdbba4d04729</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -122,6 +122,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//h4[@id = 'mat-dialog-title-1' and (text() = 'Suspend User' or . = 'Suspend User')]</value>
-      <webElementGuid>1ff6880f-b8cd-4c30-a0fa-725ab7106178</webElementGuid>
+      <webElementGuid>116fab2c-441d-4df2-a9b4-cbe76be73e5a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

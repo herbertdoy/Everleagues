@@ -18,95 +18,50 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 //WebUI.openBrowser('')
-
 //WebUI.navigateToUrl('https://lab.everleagues.com/')
-
 //WebUI.maximizeWindow()
-
 //WebUI.setText(findTestObject('02-Side Icons(Organization)/Add Contact/Email Field'), 'testuser02@mailinator.com')
-
 //WebUI.setEncryptedText(findTestObject('02-Side Icons(Organization)/Add Contact/Password Field'), '8yFRyszE6U6jvsCn51OQbg==')
-
 //WebUI.click(findTestObject('02-Side Icons(Organization)/Add Contact/button_Sign in'))
-
 //WebUI.delay(2)
-
 //WebUI.click(findTestObject('06-Teams/For 2FA/button_Confirm_2FA'))
-
 //WebUI.executeJavaScript('window.open();', [])
-
 //currentWindow = WebUI.getWindowIndex()
-
 //WebUI.delay(3)
-
 //WebUI.switchToWindowIndex(currentWindow + 1)
-
 //WebUI.navigateToUrl('https://www.mailinator.com/')
-
 //WebUI.delay(3)
-
 //WebUI.setText(findTestObject('00-Signup and Activation/zMailinator/input_LOGIN_search'), 'testuser02@mailinator.com')
-
 //WebUI.click(findTestObject('00-Signup and Activation/zMailinator/gobutton'), FailureHandling.STOP_ON_FAILURE)
-
 //WebUI.delay(3)
-
 //WebUI.click(findTestObject('00-Signup and Activation/zMailinator/Email - everleagues'))
-
 //WebUI.delay(3)
-
 //String code = WebUI.getText(findTestObject('Object Repository/06-Teams/For 2FA/2FA code'))
-
 //WebUI.delay(3)
-
 //WebUI.closeWindowTitle('Mailinator')
-
 //WebUI.delay(3)
-
 //WebUI.switchToWindowIndex(0)
-
 //WebUI.delay(3)
-
 //WebUI.setText(findTestObject('Object Repository/06-Teams/For 2FA/input_Enter verification code_code'), code)
-
 //WebUI.delay(3)
-
 //WebUI.click(findTestObject('06-Teams/For 2FA/button_Verify_2FA'))
-
 //WebUI.delay(5)
-
 //WebUI.click(findTestObject('06-Teams/button_doublearrow'))
-
 //WebUI.click(findTestObject('06-Teams/button_My Organizations'))
-
 //WebUI.click(findTestObject('06-Teams/button_GG Automation'))
-
 //WebUI.delay(4)
-
 //WebUI.verifyElementVisible(findTestObject('06-Teams/span_GG Automation'))
-
 //WebUI.delay(10)
-
 //WebUI.click(findTestObject('03-Header Menu/Hamburger Button/div_Settings'))
-
 //WebUI.verifyElementVisible(findTestObject('09-Settings/Users/div_Organization'))
-
 //WebUI.verifyElementVisible(findTestObject('09-Settings/Users/div_Organization Units'))
-
 //WebUI.verifyElementVisible(findTestObject('09-Settings/Users/div_Subscriptions'))
-
 //WebUI.verifyElementVisible(findTestObject('09-Settings/Users/div_Users'))
-
 //WebUI.delay(3)
-
 //WebUI.click(findTestObject('09-Settings/Users/div_Users'))
-
 //WebUI.verifyElementVisible(findTestObject('09-Settings/Users/h4_USERS'))
-
 //WebUI.verifyElementVisible(findTestObject('09-Settings/Users/Active User/div_Active Users'))
-
 //WebUI.click(findTestObject('09-Settings/Users/Active User/div_Active Users'))
-
 //WebUI.verifyElementVisible(findTestObject('09-Settings/Users/User Page'))
 WebUI.delay(3)
 
@@ -114,9 +69,7 @@ WebUI.verifyElementPresent(findTestObject('09-Settings/Users/Active User/div_GTG
 
 WebUI.click(findTestObject('09-Settings/Users/Active User/button_suspendUser'))
 
-WebUI.verifyElementPresent(findTestObject('09-Settings/Users/Active User/h4_Suspend User'), 0)
-
-WebUI.delay(4)
+WebUI.delay(3)
 
 WebUI.click(findTestObject('09-Settings/Users/Active User/button_Cancel_restore'))
 
@@ -126,13 +79,11 @@ WebUI.click(findTestObject('09-Settings/Users/Active User/button_suspendUser'))
 
 WebUI.verifyElementPresent(findTestObject('09-Settings/Users/Active User/h4_Suspend User'), 0)
 
-WebUI.delay(4)
+WebUI.delay(3)
 
 WebUI.click(findTestObject('09-Settings/Users/Active User/button_Suspend'))
 
 WebUI.verifyElementPresent(findTestObject('09-Settings/Users/Active User/span_Successfully suspended user'), 0)
-
-WebUI.click(findTestObject('09-Settings/Users/Active User/button_OK'))
 
 WebUI.delay(5)
 

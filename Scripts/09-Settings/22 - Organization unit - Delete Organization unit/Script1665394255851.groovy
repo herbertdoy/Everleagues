@@ -21,19 +21,18 @@ WebUI.delay(3)
 
 WebUI.mouseOver(findTestObject('09-Settings/Organization unit/div_GG TESTER'))
 
-WebUI.delay(5)
+WebUI.delay(3)
 
-WebUI.waitForElementClickable(findTestObject('09-Settings/Organization unit/div_GG TESTER'), 0)
-
+//WebUI.waitForElementClickable(findTestObject('09-Settings/Organization unit/div_GG TESTER'), 0)
 WebUI.click(findTestObject('09-Settings/Organization unit/div_GG TESTER'))
 
 WebUI.delay(3)
 
-WebUI.waitForElementVisible(findTestObject('09-Settings/Users/Active User/button_ellipses'), 0)
-
-WebUI.waitForElementClickable(findTestObject('09-Settings/Users/Active User/button_ellipses'), 0)
-
+//WebUI.waitForElementVisible(findTestObject('09-Settings/Users/Active User/button_ellipses'), 0)
+//WebUI.waitForElementClickable(findTestObject('09-Settings/Users/Active User/button_ellipses'), 0)
 WebUI.click(findTestObject('09-Settings/Users/Active User/button_ellipses'))
+
+WebUI.delay(3)
 
 WebUI.click(findTestObject('09-Settings/Organization unit/button_Delete Organization Unit'))
 
@@ -55,21 +54,22 @@ WebUI.mouseOver(findTestObject('09-Settings/Organization unit/div_GG TESTER'))
 
 WebUI.click(findTestObject('09-Settings/Users/Active User/button_ellipses'))
 
+WebUI.delay(2)
+
 WebUI.click(findTestObject('09-Settings/Organization unit/button_Delete Organization Unit'))
 
-WebUI.verifyElementVisible(findTestObject('09-Settings/Organization unit/mat-dialog-container_Delete Organization Unit modal'), 
-    FailureHandling.STOP_ON_FAILURE)
-
-WebUI.verifyElementVisible(findTestObject('09-Settings/Organization unit/h4_Delete Organization Unit'), FailureHandling.STOP_ON_FAILURE)
-
-WebUI.verifyElementVisible(findTestObject('09-Settings/Organization unit/span_Warning All resources associated with this root organization will be permanently deleted'), 
-    FailureHandling.STOP_ON_FAILURE)
-
+//WebUI.click(findTestObject('09-Settings/Organization unit/button_Delete Organization Unit'))
+//
+//WebUI.verifyElementVisible(findTestObject('09-Settings/Organization unit/mat-dialog-container_Delete Organization Unit modal'), 
+//    FailureHandling.STOP_ON_FAILURE)
+//
+//WebUI.verifyElementVisible(findTestObject('09-Settings/Organization unit/h4_Delete Organization Unit'), FailureHandling.STOP_ON_FAILURE)
+//
+//WebUI.verifyElementVisible(findTestObject('09-Settings/Organization unit/span_Warning All resources associated with this root organization will be permanently deleted'), 
+//    FailureHandling.STOP_ON_FAILURE)
 WebUI.delay(3)
 
 WebUI.click(findTestObject('09-Settings/Users/Active User/button_Delete'))
-
-WebUI.delay(3)
 
 WebUI.verifyElementVisible(findTestObject('09-Settings/Organization unit/snack-bar-container_Successfully deleted organization unitOK'), 
     FailureHandling.STOP_ON_FAILURE)

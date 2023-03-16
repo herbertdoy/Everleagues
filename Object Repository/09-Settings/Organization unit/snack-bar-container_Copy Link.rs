@@ -10,15 +10,14 @@
          <value>//snack-bar-container[(text() = 'Link Copied!OK' or . = 'Link Copied!OK')]</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value></value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>//snack-bar-container[@role = 'status' and (text() = 'Link Copied!OK' or . = 'Link Copied!OK')]</value>
       </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -26,7 +25,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>snack-bar-container</value>
-      <webElementGuid>422c9b19-55c0-4fd0-a510-bb76a63548a1</webElementGuid>
+      <webElementGuid>ad5221ba-9514-4538-83be-8db43def5e0b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -34,7 +33,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-snack-bar-container ng-tns-c41-128 ng-trigger ng-trigger-state mat-snack-bar-center ng-star-inserted</value>
-      <webElementGuid>e2ea558d-a970-4acf-92ca-d26404d916a3</webElementGuid>
+      <webElementGuid>d8b782d1-a7aa-435f-bd1b-a83f863e8a42</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -42,7 +41,7 @@
       <name>role</name>
       <type>Main</type>
       <value>status</value>
-      <webElementGuid>31fd0166-be58-4aa3-89ec-274b7eaae281</webElementGuid>
+      <webElementGuid>b771d475-e3f7-4b11-b5b4-1aacc3496343</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -50,7 +49,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Link Copied!OK</value>
-      <webElementGuid>d6709b77-f132-441d-837e-bc1224536a57</webElementGuid>
+      <webElementGuid>c677d1b1-0879-4551-9665-8f8d945db419</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -58,7 +57,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/snack-bar-container[@class=&quot;mat-snack-bar-container ng-tns-c41-128 ng-trigger ng-trigger-state mat-snack-bar-center ng-star-inserted&quot;]</value>
-      <webElementGuid>17633d49-8147-4c5f-9d5b-0d17dc8f722b</webElementGuid>
+      <webElementGuid>0b0bbf63-08b9-4861-a50d-644354320060</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -66,6 +65,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//snack-bar-container[(text() = 'Link Copied!OK' or . = 'Link Copied!OK')]</value>
-      <webElementGuid>c41033f2-90ae-4b46-bb84-5e31192b0111</webElementGuid>
+      <webElementGuid>532ba016-8d5a-47e9-9a52-a136f816726f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

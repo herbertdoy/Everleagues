@@ -39,6 +39,8 @@ WebUI.click(findTestObject('13-Income and Expense/input_Amount'))
 
 WebUI.click(findTestObject('13-Income and Expense/input_VendorName'))
 
+WebUI.sendKeys(findTestObject('13-Income and Expense/input_VendorName'), Keys.chord(Keys.ESCAPE))
+
 WebUI.verifyElementVisible(findTestObject('13-Income and Expense/mat-error_Vendor name is required'))
 
 WebUI.verifyElementVisible(findTestObject('13-Income and Expense/mat-error_account type is required'))

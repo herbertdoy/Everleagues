@@ -7,15 +7,15 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//mat-dialog-container[(text() = 'Add My OrganizationOrganization Name *Organization Alias *.everleagues.comOther Service BusinessService Industry * Free Limited Planopen_in_newUsage limit Pay-As-You-Go Planopen_in_newPricing detailPaymentName on CardCard numberExpirationCVCZip / Postal CodeOrganization AddressStreetCityZip / Postal CodeState/Province CountryRedeem CouponCoupon Code Check here to indicate that you have read and agree to the Everleagues Software as a service (SaaS) subscription agreementBackCreate Cancel' or . = 'Add My OrganizationOrganization Name *Organization Alias *.everleagues.comOther Service BusinessService Industry * Free Limited Planopen_in_newUsage limit Pay-As-You-Go Planopen_in_newPricing detailPaymentName on CardCard numberExpirationCVCZip / Postal CodeOrganization AddressStreetCityZip / Postal CodeState/Province CountryRedeem CouponCoupon Code Check here to indicate that you have read and agree to the Everleagues Software as a service (SaaS) subscription agreementBackCreate Cancel')]</value>
-      </entry>
-      <entry>
-         <key>CSS</key>
-         <value>#mat-dialog-5</value>
+         <value>//mat-dialog-container[@role='dialog']</value>
       </entry>
       <entry>
          <key>BASIC</key>
          <value>//mat-dialog-container[(text() = 'Add My OrganizationOrganization Name *Organization Alias *.everleagues.comOther Service BusinessService Industry * Free Limited Planopen_in_newUsage limit Pay-As-You-Go Planopen_in_newPricing detailPaymentName on CardCard numberExpirationCVCZip / Postal CodeOrganization AddressStreetCityZip / Postal CodeState/ProvinceCountry Check here to indicate that you have read and agree to the Everleagues Software as a service (SaaS) subscription agreementBackCreate Cancel' or . = 'Add My OrganizationOrganization Name *Organization Alias *.everleagues.comOther Service BusinessService Industry * Free Limited Planopen_in_newUsage limit Pay-As-You-Go Planopen_in_newPricing detailPaymentName on CardCard numberExpirationCVCZip / Postal CodeOrganization AddressStreetCityZip / Postal CodeState/ProvinceCountry Check here to indicate that you have read and agree to the Everleagues Software as a service (SaaS) subscription agreementBackCreate Cancel')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#mat-dialog-5</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -26,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>mat-dialog-container</value>
-      <webElementGuid>79282b23-23f6-4ab5-8610-fc7b1f18deea</webElementGuid>
+      <webElementGuid>839f2a55-7b85-4940-a095-999f971e3230</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -34,7 +34,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>-1</value>
-      <webElementGuid>19b6bd71-7ed2-4979-b901-daf879c264f0</webElementGuid>
+      <webElementGuid>53c891ab-5d27-42b0-80f9-a595db66b7c4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,7 +42,7 @@
       <name>aria-modal</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>86ef08ce-65de-4efd-b5eb-78e0668e2404</webElementGuid>
+      <webElementGuid>fcc17f7a-0e0f-4210-ac63-782e0643bbdd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,7 +50,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-dialog-container ng-tns-c33-85 ng-trigger ng-trigger-dialogContainer ng-star-inserted</value>
-      <webElementGuid>03882722-fc64-4ca7-9fff-7ba500cd7d8d</webElementGuid>
+      <webElementGuid>c6a22882-29db-477c-8215-5c5d6e252873</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -58,7 +58,7 @@
       <name>id</name>
       <type>Main</type>
       <value>mat-dialog-5</value>
-      <webElementGuid>9fbbeba4-b223-4b0a-8cce-a832ecaf37c9</webElementGuid>
+      <webElementGuid>a41e118f-63e9-47f0-83db-149d269137fe</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -66,7 +66,7 @@
       <name>role</name>
       <type>Main</type>
       <value>dialog</value>
-      <webElementGuid>2b56a353-0ee7-4670-8a2d-b71a9ba026ff</webElementGuid>
+      <webElementGuid>a4ec981e-0b1a-4909-ac3d-e2cb71b0fec1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -74,7 +74,7 @@
       <name>aria-labelledby</name>
       <type>Main</type>
       <value>mat-dialog-title-5</value>
-      <webElementGuid>43b2c76c-6000-4d2f-b3da-702838fe81c6</webElementGuid>
+      <webElementGuid>a962af54-e742-424b-a6e6-198fccd839d0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -82,7 +82,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Add My OrganizationOrganization Name *Organization Alias *.everleagues.comOther Service BusinessService Industry * Free Limited Planopen_in_newUsage limit Pay-As-You-Go Planopen_in_newPricing detailPaymentName on CardCard numberExpirationCVCZip / Postal CodeOrganization AddressStreetCityZip / Postal CodeState/ProvinceCountry Check here to indicate that you have read and agree to the Everleagues Software as a service (SaaS) subscription agreementBackCreate Cancel</value>
-      <webElementGuid>7dc7c408-628c-4d2c-958a-42a609fbc556</webElementGuid>
+      <webElementGuid>299de763-4887-4327-91bc-9393d2114eaf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -90,7 +90,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-dialog-5&quot;)</value>
-      <webElementGuid>1bad914d-10b8-4b74-b429-a3b11b8632e8</webElementGuid>
+      <webElementGuid>f85f443e-b25d-4302-afd7-5163ab1a93c0</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -98,7 +98,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//mat-dialog-container[@id='mat-dialog-5']</value>
-      <webElementGuid>7012c3f4-f511-4e4a-afdb-5d838498b9ba</webElementGuid>
+      <webElementGuid>d2b23ce2-7cb3-44a1-b0d2-a36e43e093b9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,7 +106,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='cdk-overlay-6']/mat-dialog-container</value>
-      <webElementGuid>2b5d259e-4769-467b-aa32-e7b7a3b492cb</webElementGuid>
+      <webElementGuid>da7b8659-ea01-4110-b79e-40c007f102a2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -114,7 +114,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//mat-dialog-container</value>
-      <webElementGuid>e6424226-ac06-40de-afea-e707af28b4e8</webElementGuid>
+      <webElementGuid>cf4e71d4-7e6e-4ec6-b62e-8a79db9f7ecf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -122,6 +122,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//mat-dialog-container[@id = 'mat-dialog-5' and (text() = 'Add My OrganizationOrganization Name *Organization Alias *.everleagues.comOther Service BusinessService Industry * Free Limited Planopen_in_newUsage limit Pay-As-You-Go Planopen_in_newPricing detailPaymentName on CardCard numberExpirationCVCZip / Postal CodeOrganization AddressStreetCityZip / Postal CodeState/ProvinceCountry Check here to indicate that you have read and agree to the Everleagues Software as a service (SaaS) subscription agreementBackCreate Cancel' or . = 'Add My OrganizationOrganization Name *Organization Alias *.everleagues.comOther Service BusinessService Industry * Free Limited Planopen_in_newUsage limit Pay-As-You-Go Planopen_in_newPricing detailPaymentName on CardCard numberExpirationCVCZip / Postal CodeOrganization AddressStreetCityZip / Postal CodeState/ProvinceCountry Check here to indicate that you have read and agree to the Everleagues Software as a service (SaaS) subscription agreementBackCreate Cancel')]</value>
-      <webElementGuid>a3c1fa2f-f9eb-416c-a7ff-234d1685ee25</webElementGuid>
+      <webElementGuid>d13ebeab-4ddd-4125-81de-4144dadbae12</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

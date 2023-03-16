@@ -7,18 +7,18 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='mat-input-5']</value>
-      </entry>
-      <entry>
-         <key>CSS</key>
-         <value>#mat-input-5</value>
+         <value>//input[@name = 'oldPassword' and @type = 'password' and @data-placeholder = 'Old Password']</value>
       </entry>
       <entry>
          <key>BASIC</key>
          <value>//input[@name = 'oldPassword' and @type = 'password' and @placeholder = 'Old Password']</value>
       </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#mat-input-5</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -26,6 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
+      <webElementGuid>14de4007-f578-4840-bddb-55b10344a872</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -33,6 +34,7 @@
       <name>name</name>
       <type>Main</type>
       <value>oldPassword</value>
+      <webElementGuid>77174d84-13ec-44ec-8204-0fd7eeb85c5e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -40,6 +42,7 @@
       <name>maxlength</name>
       <type>Main</type>
       <value>50</value>
+      <webElementGuid>7cb9b810-f3b0-436f-857e-e70adb57a57a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,6 +50,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-input-element mat-form-field-autofill-control ng-tns-c231-40 cdk-text-field-autofill-monitored ng-untouched ng-pristine ng-invalid</value>
+      <webElementGuid>a30568c9-78cd-423b-8234-53fd0f12cbb5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,6 +58,7 @@
       <name>ng-reflect-maxlength</name>
       <type>Main</type>
       <value>50</value>
+      <webElementGuid>25a64824-fbda-43ec-83c5-a587cd00f91a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,6 +66,7 @@
       <name>ng-reflect-name</name>
       <type>Main</type>
       <value>oldPassword</value>
+      <webElementGuid>070a9321-29ad-4508-a97a-f862e11a6eeb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -68,6 +74,7 @@
       <name>ng-reflect-placeholder</name>
       <type>Main</type>
       <value>Old Password</value>
+      <webElementGuid>6b97aea8-2f7a-4f31-9009-101c7d4a6cee</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -75,6 +82,7 @@
       <name>type</name>
       <type>Main</type>
       <value>password</value>
+      <webElementGuid>74652a73-ac7b-4f76-980b-a0c0c6ab8f34</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -82,6 +90,7 @@
       <name>ng-reflect-type</name>
       <type>Main</type>
       <value>password</value>
+      <webElementGuid>a74a7ca2-ac41-4a14-a893-7ca14c3ac00b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -89,6 +98,7 @@
       <name>ng-reflect-readonly</name>
       <type>Main</type>
       <value>false</value>
+      <webElementGuid>74ad02ed-1adc-4e0e-a107-a2e51a288b5d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -96,6 +106,7 @@
       <name>id</name>
       <type>Main</type>
       <value>mat-input-5</value>
+      <webElementGuid>1a4eb8ab-32ee-49a4-8ca9-48b8b13d9954</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -103,6 +114,7 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>Old Password</value>
+      <webElementGuid>afa8c237-10f2-4072-be2a-3ef6f19881a9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -110,6 +122,7 @@
       <name>aria-invalid</name>
       <type>Main</type>
       <value>false</value>
+      <webElementGuid>537a2e70-af98-46f2-85b5-989fa9dd61dd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -117,6 +130,7 @@
       <name>aria-required</name>
       <type>Main</type>
       <value>true</value>
+      <webElementGuid>e04ab9c9-a84e-4e06-97b4-ebb5a34967c5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -124,6 +138,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-input-5&quot;)</value>
+      <webElementGuid>6523ea0d-75c6-442a-8194-36da7deb40e2</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -131,6 +146,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='mat-input-5']</value>
+      <webElementGuid>0ce89281-5da8-444a-ab58-6c1457319aca</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -138,6 +154,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-dialog-container[@id='mat-dialog-1']/app-dialog-change-password/section/form/div/div/mat-form-field/div/div/div/input</value>
+      <webElementGuid>e212f70b-5ffa-4885-b6cf-849886eeba3f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -145,6 +162,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//input</value>
+      <webElementGuid>69de4e48-0e09-4341-b7cd-7268de3ba315</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -152,5 +170,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@name = 'oldPassword' and @type = 'password' and @id = 'mat-input-5' and @placeholder = 'Old Password']</value>
+      <webElementGuid>e8910b42-5d0e-422c-8dd6-ab633933da57</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

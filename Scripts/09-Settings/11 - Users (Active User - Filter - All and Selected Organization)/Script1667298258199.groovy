@@ -45,5 +45,5 @@ WebUI.delay(3)
 
 WebUI.click(findTestObject('09-Settings/Users/Active User/filter_icon'))
 
-WebUI.delay(5)
+WebUI.delay(4)
 

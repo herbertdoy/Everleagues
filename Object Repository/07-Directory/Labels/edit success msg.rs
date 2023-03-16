@@ -6,19 +6,19 @@
    <elementGuidId>52ea87fd-7b70-4e7d-9ea4-93103fc81034</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//snack-bar-container[@role = 'status' and (text() = 'Successfully edited labelOK' or . = 'Successfully edited labelOK')]</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
-         <value>//div[@id='cdk-overlay-22']/snack-bar-container</value>
+         <value>//snack-bar-container[(text() = 'Successfully edited labelOK' or . = 'Successfully edited labelOK')]</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>snack-bar-container.mat-snack-bar-container.ng-tns-c41-84.ng-trigger.ng-trigger-state.mat-snack-bar-center.ng-star-inserted</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//snack-bar-container[@role = 'status' and (text() = 'Successfully edited labelOK' or . = 'Successfully edited labelOK')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -26,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>snack-bar-container</value>
-      <webElementGuid>279005e4-f8db-4d1f-87ff-6067d1936ea0</webElementGuid>
+      <webElementGuid>acc26a14-d338-41ee-b1f3-0ec7549673f9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -34,7 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-snack-bar-container ng-tns-c41-84 ng-trigger ng-trigger-state mat-snack-bar-center ng-star-inserted</value>
-      <webElementGuid>b6f0bc36-7a0d-46df-a862-f0328f8e81b9</webElementGuid>
+      <webElementGuid>f3d057a8-6c91-433f-bf62-bb51e0aa7c24</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -42,7 +42,7 @@
       <name>role</name>
       <type>Main</type>
       <value>status</value>
-      <webElementGuid>896f2e6b-3991-420a-bea8-b24c7a3736aa</webElementGuid>
+      <webElementGuid>d5176580-5041-4810-b0bc-3b41f6db6b36</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -50,7 +50,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Successfully edited labelOK</value>
-      <webElementGuid>325825eb-fa0a-46b7-8d86-e89a4a5bf398</webElementGuid>
+      <webElementGuid>088c284b-f2da-44e1-bd34-be22a7af4a66</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -58,7 +58,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;cdk-overlay-22&quot;)/snack-bar-container[@class=&quot;mat-snack-bar-container ng-tns-c41-84 ng-trigger ng-trigger-state mat-snack-bar-center ng-star-inserted&quot;]</value>
-      <webElementGuid>54fb3664-2f4e-400f-9a3a-bacba9274552</webElementGuid>
+      <webElementGuid>d76f43c3-4299-4528-a36f-2f36b78f506b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -66,7 +66,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='cdk-overlay-22']/snack-bar-container</value>
-      <webElementGuid>47f2d6ce-db66-4aaf-b493-f3e097b8ffa5</webElementGuid>
+      <webElementGuid>2e55d000-1a01-4299-be49-8184f5087828</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -74,7 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Successfully edited label'])[1]/following::snack-bar-container[1]</value>
-      <webElementGuid>ae8d8192-85b4-4ed5-9293-1ac3a8d46dc8</webElementGuid>
+      <webElementGuid>6b7672b7-6ee5-42f4-a765-797b567a591e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='of 1'])[1]/following::snack-bar-container[1]</value>
-      <webElementGuid>d9b605f0-3ef1-438d-9aee-66bc9f29e3a9</webElementGuid>
+      <webElementGuid>cc5e56a1-128d-4671-9deb-40852d1e4c9b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -90,7 +90,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//snack-bar-container</value>
-      <webElementGuid>8fad8619-dced-4f68-a941-f8076966cfc8</webElementGuid>
+      <webElementGuid>dc764ee9-f338-4801-97c5-d85e697a0f4a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,6 +98,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//snack-bar-container[(text() = 'Successfully edited labelOK' or . = 'Successfully edited labelOK')]</value>
-      <webElementGuid>c2352c83-7392-4d7b-a869-6fe3479e4ab3</webElementGuid>
+      <webElementGuid>98b877ba-9a0f-44bf-901b-a44b731b19f5</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

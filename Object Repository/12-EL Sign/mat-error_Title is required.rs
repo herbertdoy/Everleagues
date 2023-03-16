@@ -11,10 +11,14 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//mat-error[@id='mat-error-5']</value>
+         <value>//mat-error[text()=' Title is required ']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//mat-error[@role = 'alert' and (text() = ' Title is required ' or . = ' Title is required ')]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>mat-error</value>
-      <webElementGuid>69e7ae4e-f390-4825-8cdf-82b2d648ac7a</webElementGuid>
+      <webElementGuid>e8522e6e-911e-4ba4-9b5a-e51daf63b808</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +34,7 @@
       <name>role</name>
       <type>Main</type>
       <value>alert</value>
-      <webElementGuid>f8295600-6c68-41e2-935d-08d2bcb8fd2b</webElementGuid>
+      <webElementGuid>e1f4c043-d9cb-453f-8741-64e7505876dd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +42,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-error ng-tns-c110-212 ng-star-inserted</value>
-      <webElementGuid>64ad2cf8-6982-46d7-b9fa-f6adc8af2dd9</webElementGuid>
+      <webElementGuid>6d7f54ed-d0ef-4bbb-b4fe-4f51cb94a29e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +50,7 @@
       <name>id</name>
       <type>Main</type>
       <value>mat-error-5</value>
-      <webElementGuid>157486c2-0b4f-4759-949e-11f96baa539f</webElementGuid>
+      <webElementGuid>db02bd6d-1c26-4078-a7d6-7b8d67e2331b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +58,7 @@
       <name>text</name>
       <type>Main</type>
       <value> Title is required </value>
-      <webElementGuid>ba7ca529-9d9f-434c-8c4b-22068a24b15c</webElementGuid>
+      <webElementGuid>49b4a281-2f2e-4f60-9670-056dd6ca1bfd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +66,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-error-5&quot;)</value>
-      <webElementGuid>e6935205-3e46-4b71-b693-1f41865f891a</webElementGuid>
+      <webElementGuid>21dba8cc-cccc-411c-9cc1-e7d494df4979</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -70,7 +74,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//mat-error[@id='mat-error-5']</value>
-      <webElementGuid>5675f187-ca57-4f58-8318-8d2f88eea371</webElementGuid>
+      <webElementGuid>8a5dd2d7-2efa-4832-a039-aa3556c56c96</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +82,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-tab-body[@id='mat-tab-content-7-0']/div/app-ezsign-senderdocuments/div/div[2]/table/tr[4]/td/div/mat-form-field/div/div[2]/div/mat-error</value>
-      <webElementGuid>4857a45e-e568-4263-9fd8-82ecc1dab1dd</webElementGuid>
+      <webElementGuid>ff7dac8f-8e31-4ffe-bb83-cedbad3fde7e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Document Title'])[1]/following::mat-error[1]</value>
-      <webElementGuid>a45c4b63-e4fe-45e2-bf9b-8a5498de43f9</webElementGuid>
+      <webElementGuid>69a3d481-4759-480e-86a2-7e286982c0e1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Drag and drop or Upload PDF or Word document here'])[1]/following::mat-error[1]</value>
-      <webElementGuid>290a883c-19d0-4569-a0a2-413776c6f434</webElementGuid>
+      <webElementGuid>4d388935-0e24-4be9-a9d4-9f57d7156dab</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +106,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='UPLOAD'])[1]/preceding::mat-error[1]</value>
-      <webElementGuid>9f8d0ce6-a2d0-43df-a366-de66305026e4</webElementGuid>
+      <webElementGuid>1130d1b8-f31c-4374-a38b-025b5bdf21ee</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +114,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Hide Quick Shortcuts'])[1]/preceding::mat-error[1]</value>
-      <webElementGuid>bb4e9e4d-fdfc-49c7-b895-1a4cd6f02476</webElementGuid>
+      <webElementGuid>447e2f21-ec80-4bfc-a858-43bc7c41a21b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +122,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Title is required']/parent::*</value>
-      <webElementGuid>ea94b5e2-7136-4685-b842-a1bfe7c52f09</webElementGuid>
+      <webElementGuid>033ccbec-a519-4404-82d6-fd0dcd2e5be8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,7 +130,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//mat-error</value>
-      <webElementGuid>d446e559-c45e-4659-a8a8-3787e1e290cc</webElementGuid>
+      <webElementGuid>5b1cac24-dea2-4d09-b9a6-543e7bd69b86</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,6 +138,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//mat-error[@id = 'mat-error-5' and (text() = ' Title is required ' or . = ' Title is required ')]</value>
-      <webElementGuid>103f3e8f-4f5b-4f76-8dba-d8703caafdb4</webElementGuid>
+      <webElementGuid>961f3db4-cf6c-46e0-aab1-c878757c2ce8</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

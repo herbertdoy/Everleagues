@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//input[@placeholder='Type'])[1]</value>
+         <value>(//input[@data-placeholder='Type'])[1]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -22,6 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
+      <webElementGuid>bcfe24c2-db05-4d11-a42e-b5289486a286</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,6 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-form-field-infix ng-tns-c231-91</value>
+      <webElementGuid>def77d9d-c32a-4ea8-ae55-2bccb21a8e08</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -36,6 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Type</value>
+      <webElementGuid>dc505ada-422d-4a17-8bc5-8fa4b2635517</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,6 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-tab-content-1-3&quot;)/div[@class=&quot;mat-tab-body-content ng-tns-c360-89 ng-trigger ng-trigger-translateTab&quot;]/mat-card[@class=&quot;mat-card mat-focus-indicator ng-star-inserted&quot;]/mat-card-content[@class=&quot;mat-card-content&quot;]/div[@class=&quot;edit-list ng-tns-c565-70&quot;]/input-contact-email[@class=&quot;ng-tns-c565-70&quot;]/div[@class=&quot;contact-email ng-star-inserted&quot;]/mat-form-field[@class=&quot;mat-form-field ng-tns-c231-91 mat-primary mat-form-field-type-mat-input mat-form-field-appearance-legacy mat-form-field-can-float mat-form-field-has-label mat-form-field-hide-placeholder ng-valid mat-form-field-should-float ng-touched ng-dirty&quot;]/div[@class=&quot;mat-form-field-wrapper ng-tns-c231-91&quot;]/div[@class=&quot;mat-form-field-flex ng-tns-c231-91&quot;]/div[@class=&quot;mat-form-field-infix ng-tns-c231-91&quot;]</value>
+      <webElementGuid>c62b5fd9-99cb-4355-ae92-fa99e58649e1</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -50,6 +54,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-tab-body[@id='mat-tab-content-1-3']/div/mat-card/mat-card-content/div[3]/input-contact-email/div/mat-form-field/div/div/div</value>
+      <webElementGuid>93ded969-fa7f-436e-926f-82d6f91f7e03</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -57,6 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Email:'])[1]/following::div[5]</value>
+      <webElementGuid>02a1c20e-9120-437a-8f0b-2ecd2056a295</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -64,6 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Position'])[1]/following::div[10]</value>
+      <webElementGuid>8e62e596-9273-413b-86c2-123d5c0bf318</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,6 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Email'])[1]/preceding::div[5]</value>
+      <webElementGuid>93f8fa38-f979-4ac5-8f97-dcd7f5ce37fc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,6 +86,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//input-contact-email/div/mat-form-field/div/div/div</value>
+      <webElementGuid>e1315cf8-994a-420c-8d53-ac8433fa5c83</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,5 +94,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = 'Type' or . = 'Type')]</value>
+      <webElementGuid>f1f61113-327e-44b0-ac1e-6fd0eaa5913e</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

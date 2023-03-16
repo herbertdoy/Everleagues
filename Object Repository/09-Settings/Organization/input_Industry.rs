@@ -6,19 +6,19 @@
    <elementGuidId>eae6151e-7d34-464f-bbb6-9259557e45b5</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='mat-input-4']</value>
+         <key>BASIC</key>
+         <value>//input[@ng-reflect-placeholder = 'Industry' and @placeholder = 'Industry']</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>#mat-input-4</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//input[@ng-reflect-placeholder = 'Industry' and @placeholder = 'Industry']</value>
+         <key>XPATH</key>
+         <value>//div[(text() = 'Industry' or . = 'Industry')]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -26,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>c5d1a332-5e9a-43ac-82c0-c3481310be04</webElementGuid>
+      <webElementGuid>e7c96bd0-bc47-4de9-a637-fa76a5da7d6c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -34,7 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-input-element mat-form-field-autofill-control ng-tns-c110-39 cdk-text-field-autofill-monitored ng-untouched ng-pristine</value>
-      <webElementGuid>72cadbb6-6206-4c2c-8d31-83b7941406d3</webElementGuid>
+      <webElementGuid>02fc4ed8-e21b-4fba-977b-1116fefd1c57</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -42,7 +42,7 @@
       <name>ng-reflect-placeholder</name>
       <type>Main</type>
       <value>Industry</value>
-      <webElementGuid>4198021d-ae7a-4f71-bb13-ade49f297f89</webElementGuid>
+      <webElementGuid>e942ce82-d50e-4039-a4aa-45496439687c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,7 +50,7 @@
       <name>ng-reflect-model</name>
       <type>Main</type>
       <value>Other Service Business</value>
-      <webElementGuid>361794da-7436-4311-bc6a-a2203a638e0e</webElementGuid>
+      <webElementGuid>e753fe91-751d-4686-b981-3b711c073af7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -58,7 +58,7 @@
       <name>id</name>
       <type>Main</type>
       <value>mat-input-4</value>
-      <webElementGuid>5d61a7a2-3884-467a-8484-7c4826fb9048</webElementGuid>
+      <webElementGuid>926b3b93-278e-4718-89de-936106900db1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -66,7 +66,7 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>Industry</value>
-      <webElementGuid>1553ac5b-be82-4212-af64-b07553a2b89c</webElementGuid>
+      <webElementGuid>d5f1ce79-6f99-4ba6-b8ce-4ccb61f263c3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -74,7 +74,7 @@
       <name>aria-invalid</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>669695d6-f309-42fd-8cd9-d55e27dce373</webElementGuid>
+      <webElementGuid>e9674f79-0bbf-46f9-9c2b-bb4435d39f17</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -82,7 +82,7 @@
       <name>aria-required</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>138829bf-08ab-4337-8461-bfef82753b99</webElementGuid>
+      <webElementGuid>db801c26-966b-4086-a94c-1db7a007b8b5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -90,7 +90,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-input-4&quot;)</value>
-      <webElementGuid>f32003ec-a3ee-4a53-92db-2ad02745f141</webElementGuid>
+      <webElementGuid>c1cb4e2f-3f57-44fb-8516-42bc28ca39f1</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -98,7 +98,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='mat-input-4']</value>
-      <webElementGuid>e09b17ee-fa86-4d53-847a-000d34b88c2f</webElementGuid>
+      <webElementGuid>f6ec9b11-0231-416c-8657-fa8cfa839907</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,7 +106,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-tab-body[@id='mat-tab-content-0-0']/div/section/div/mat-card/mat-card-content/div[2]/mat-form-field/div/div/div/input</value>
-      <webElementGuid>b5f29713-54c7-4da1-b85c-7dee329bb12d</webElementGuid>
+      <webElementGuid>0cdc1b1b-0698-4d96-a8e0-2f6c782e12d1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -114,7 +114,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/mat-form-field/div/div/div/input</value>
-      <webElementGuid>acc136c5-1b6c-4600-8842-c57f5bfc5b32</webElementGuid>
+      <webElementGuid>1a247b0f-474a-4a6d-a725-a001408504e1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -122,6 +122,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@id = 'mat-input-4' and @placeholder = 'Industry']</value>
-      <webElementGuid>405d3b86-10ca-4ded-b969-b5cd17f8a737</webElementGuid>
+      <webElementGuid>3d531b9b-9b3d-48c4-b7e6-7ead7a6a4338</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

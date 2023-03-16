@@ -6,15 +6,19 @@
    <elementGuidId>33c46be0-0857-4a85-96c2-b1428f2692ab</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>//mat-error[text()=' Signer name is required ']</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>#mat-error-4</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//mat-error[@id='mat-error-4']</value>
+         <key>BASIC</key>
+         <value>//mat-error[@role = 'alert' and (text() = ' Signer name is required ' or . = ' Signer name is required ')]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>mat-error</value>
-      <webElementGuid>34517618-c7f1-426b-85b4-cc73eb7ddcb9</webElementGuid>
+      <webElementGuid>84011be3-4dc2-411a-9a5c-bc9d73b324d9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +34,7 @@
       <name>role</name>
       <type>Main</type>
       <value>alert</value>
-      <webElementGuid>fb39f800-883f-4e22-92e2-9550ed243e0a</webElementGuid>
+      <webElementGuid>ca3f2205-7be4-45aa-9282-d0fadee6236f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +42,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-error ng-tns-c110-69 ng-star-inserted</value>
-      <webElementGuid>b2fa60f3-1247-4bd9-a473-82cf0873aa70</webElementGuid>
+      <webElementGuid>90817713-0af1-4903-ab2f-8e20e8803d2f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +50,7 @@
       <name>id</name>
       <type>Main</type>
       <value>mat-error-4</value>
-      <webElementGuid>f51f840a-2e61-41ad-ae7b-437dabca2055</webElementGuid>
+      <webElementGuid>732f872e-b329-42a3-8ddc-7ad60b23df51</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +58,7 @@
       <name>text</name>
       <type>Main</type>
       <value> Signer name is required </value>
-      <webElementGuid>ec4274dc-36ed-48a0-9dab-b5cc0fb18cde</webElementGuid>
+      <webElementGuid>730b789c-ca16-4d89-bd97-b2f49da02ded</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +66,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-error-4&quot;)</value>
-      <webElementGuid>211bd980-1561-496b-ab33-38dc26820e9b</webElementGuid>
+      <webElementGuid>ce96cbe2-755d-49ca-b7d4-136085c40177</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -70,7 +74,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//mat-error[@id='mat-error-4']</value>
-      <webElementGuid>13d4a706-074d-4086-85bd-c1db796fa9fa</webElementGuid>
+      <webElementGuid>fb2aa855-f1dc-4d29-b2a8-9e73b8988dbf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +82,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-dialog-container[@id='mat-dialog-3']/app-addupdatesigners/div/div/form/mat-form-field/div/div[2]/div/mat-error</value>
-      <webElementGuid>5a9a3790-1605-4f21-a8c5-b3ccf9049985</webElementGuid>
+      <webElementGuid>76916be0-3a26-443a-ad4a-cc66856cc76f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Search for a Signer'])[1]/following::mat-error[1]</value>
-      <webElementGuid>cb80fc78-3c2a-404a-aa86-8250c53c2751</webElementGuid>
+      <webElementGuid>00b29fb6-1e1d-4ce1-9648-3572fea3d244</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Receiver email address'])[1]/preceding::mat-error[1]</value>
-      <webElementGuid>8985b669-5c3f-4b49-89f1-7ba343f919fd</webElementGuid>
+      <webElementGuid>074ff45b-d9b3-4d19-9058-55b73de3fa8d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +106,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Email address is required'])[1]/preceding::mat-error[1]</value>
-      <webElementGuid>a4707727-d7d7-40bb-a0b6-e3adf51e409e</webElementGuid>
+      <webElementGuid>9f08234d-608a-4f9d-91ab-02b7ab23c0b0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +114,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Signer name is required']/parent::*</value>
-      <webElementGuid>954d7d8e-a7e7-426c-b09a-b9f7b1d6cc6b</webElementGuid>
+      <webElementGuid>3fc89e7e-87bd-48de-97b0-f68c10af5f93</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +122,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//mat-error</value>
-      <webElementGuid>60259b63-3095-40c4-8249-952179f3eeec</webElementGuid>
+      <webElementGuid>76136480-7c0a-42fd-a143-06f44ca0ffa4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,6 +130,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//mat-error[@id = 'mat-error-4' and (text() = ' Signer name is required ' or . = ' Signer name is required ')]</value>
-      <webElementGuid>6771d8fc-3f1f-4e5d-a579-67f590a9c318</webElementGuid>
+      <webElementGuid>bd293ba4-f0db-45c0-8dc0-f9843b5d6b49</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

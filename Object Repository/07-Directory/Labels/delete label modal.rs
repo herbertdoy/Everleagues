@@ -7,14 +7,18 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//mat-dialog-container[@id='mat-dialog-11']</value>
+         <value>//mat-dialog-container[(text() = 'Delete Label Are you sure you want to delete Label QA Edit? Delete LabelCancel' or . = 'Delete Label Are you sure you want to delete Label QA Edit? Delete LabelCancel')]</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>#mat-dialog-11</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//mat-dialog-container[(text() = 'Delete Label Are you sure you want to delete Label QA Edit? Delete LabelCancel' or . = 'Delete Label Are you sure you want to delete Label QA Edit? Delete LabelCancel')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>mat-dialog-container</value>
-      <webElementGuid>b644019c-81ab-43ac-998f-2b3c8f1f5c21</webElementGuid>
+      <webElementGuid>d5731124-be5c-4105-a9b8-6a7fe1d26ccd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +34,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>-1</value>
-      <webElementGuid>e39f9f61-1629-4e67-b44d-5bdb46a7763e</webElementGuid>
+      <webElementGuid>0ad35419-d388-4751-8ae5-b5eeab58fec2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +42,7 @@
       <name>aria-modal</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>51f95864-95ad-44ae-b3be-3591a7857dd2</webElementGuid>
+      <webElementGuid>bc21ff94-a8e2-43cf-aff1-cfba71855393</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +50,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-dialog-container ng-tns-c33-96 ng-trigger ng-trigger-dialogContainer ng-star-inserted</value>
-      <webElementGuid>b4874b1b-8489-441b-af94-15a26711bae8</webElementGuid>
+      <webElementGuid>b48431ca-b0d8-4e4c-9ea9-ea110effa0fc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +58,7 @@
       <name>id</name>
       <type>Main</type>
       <value>mat-dialog-11</value>
-      <webElementGuid>0e028a28-291f-40a3-8852-e33b658c4e9a</webElementGuid>
+      <webElementGuid>7ded8431-c91f-4cc4-bc0e-bd54d7907778</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +66,7 @@
       <name>role</name>
       <type>Main</type>
       <value>dialog</value>
-      <webElementGuid>1421f570-f828-4ad6-bdea-7407e4c73dda</webElementGuid>
+      <webElementGuid>4204e9c4-14ed-475d-80b8-953ba5f7a3de</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +74,7 @@
       <name>aria-labelledby</name>
       <type>Main</type>
       <value>mat-dialog-title-11</value>
-      <webElementGuid>9beb6aa1-54fa-4919-a9f2-ca6515c1c0b0</webElementGuid>
+      <webElementGuid>41d58a42-3035-4767-9fbf-402567036217</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -78,7 +82,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Delete Label Are you sure you want to delete Label QA Edit? Delete LabelCancel</value>
-      <webElementGuid>b36d692c-2b7a-4129-907b-c9b8a09e66bb</webElementGuid>
+      <webElementGuid>77281bdb-658f-416c-aa54-2f7f88bc05c5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -86,7 +90,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-dialog-11&quot;)</value>
-      <webElementGuid>4090d27e-ca72-4a3b-af31-5c71c216dd64</webElementGuid>
+      <webElementGuid>3b43b619-1560-4d6f-a9da-4845119e5a73</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -94,7 +98,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//mat-dialog-container[@id='mat-dialog-11']</value>
-      <webElementGuid>6035fbb7-a0d4-45cb-8e0c-f017283c2ee2</webElementGuid>
+      <webElementGuid>90525ee3-3b6e-48b9-8870-2cc80c175341</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +106,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='cdk-overlay-27']/mat-dialog-container</value>
-      <webElementGuid>d0887b7a-32a4-4e62-bc87-fe13f70db9cc</webElementGuid>
+      <webElementGuid>89f27e2b-1ef9-421a-83a2-a169aa1bd23a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +114,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='of 1'])[1]/following::mat-dialog-container[1]</value>
-      <webElementGuid>2a212891-11e9-4c33-9976-ae0350a2d011</webElementGuid>
+      <webElementGuid>bc09c07c-6dd0-4d59-85b1-d90a33c82915</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +122,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Row per page:'])[1]/following::mat-dialog-container[1]</value>
-      <webElementGuid>7fdf53fc-86a1-42a8-8ce8-f47dd910fba9</webElementGuid>
+      <webElementGuid>4db51258-e808-4bca-8f6f-de447b818f10</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,7 +130,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//mat-dialog-container</value>
-      <webElementGuid>7f762877-1091-43ed-8f05-a4dcd6755071</webElementGuid>
+      <webElementGuid>a5177e4a-581b-47f2-8e4f-dde52c34a9c0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,6 +138,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//mat-dialog-container[@id = 'mat-dialog-11' and (text() = 'Delete Label Are you sure you want to delete Label QA Edit? Delete LabelCancel' or . = 'Delete Label Are you sure you want to delete Label QA Edit? Delete LabelCancel')]</value>
-      <webElementGuid>aed6a023-a6a4-4036-a92f-c74f20c7f806</webElementGuid>
+      <webElementGuid>fb3dbe82-c010-43c1-b73a-a76612523fa4</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

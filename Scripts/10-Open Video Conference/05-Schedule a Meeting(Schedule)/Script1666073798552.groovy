@@ -65,7 +65,7 @@ WebUI.setText(findTestObject('10-Open Video Conference/input_Firstname'), 'Autom
 
 WebUI.setText(findTestObject('10-Open Video Conference/input_Lastname'), 'Tester')
 
-WebUI.setText(findTestObject('10-Open Video Conference/input_emailPhonenumber'), '09785467654')
+WebUI.setText(findTestObject('10-Open Video Conference/input_emailPhonenumber'), '+1234567890')
 
 WebUI.delay(3)
 

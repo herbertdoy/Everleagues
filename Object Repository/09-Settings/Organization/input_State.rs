@@ -6,19 +6,19 @@
    <elementGuidId>1b902928-9b90-4d16-b2a7-c7e3c66eb530</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value></value>
+         <key>BASIC</key>
+         <value>//input[@ng-reflect-placeholder = 'State/Province' and @placeholder = 'State/Province']</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>#mat-input-11</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//input[@ng-reflect-placeholder = 'State/Province' and @placeholder = 'State/Province']</value>
+         <key>XPATH</key>
+         <value>//input[@data-placeholder='State/Province']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -26,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>9d40c9ac-f014-4869-aa4b-1361a4d5ad89</webElementGuid>
+      <webElementGuid>bc4dbf27-8398-4825-9ddd-b4fdfea2d822</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -34,7 +34,7 @@
       <name>maxlength</name>
       <type>Main</type>
       <value>100</value>
-      <webElementGuid>3de2b0dc-8492-48be-a2c5-19ad919169f5</webElementGuid>
+      <webElementGuid>4f32373f-8323-41d9-a5ca-7f030369b1ce</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,7 +42,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-input-element mat-form-field-autofill-control ng-tns-c110-48 cdk-text-field-autofill-monitored ng-untouched ng-pristine ng-valid</value>
-      <webElementGuid>71bc479b-49d1-42af-a26e-252a126b0ff1</webElementGuid>
+      <webElementGuid>6aad5128-f8d2-47ce-a31d-0083536df7d4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,7 +50,7 @@
       <name>ng-reflect-maxlength</name>
       <type>Main</type>
       <value>100</value>
-      <webElementGuid>6479c84e-7eb2-4474-9332-75dcaf7e2d87</webElementGuid>
+      <webElementGuid>ceaf95de-726a-4ebe-bb1a-73d3689350ed</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -58,7 +58,7 @@
       <name>ng-reflect-placeholder</name>
       <type>Main</type>
       <value>State/Province</value>
-      <webElementGuid>ff386d02-f836-4f97-a720-c6bb6d9fd660</webElementGuid>
+      <webElementGuid>93bd5c4d-2ff1-43f5-87c1-6a1b4fc48678</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -66,7 +66,7 @@
       <name>id</name>
       <type>Main</type>
       <value>mat-input-11</value>
-      <webElementGuid>c7becfdc-3ff4-4bdf-a4f6-6f8e7e2104ac</webElementGuid>
+      <webElementGuid>02f3e078-4735-4498-becc-e0bcf1f91c8e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -74,7 +74,7 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>State/Province</value>
-      <webElementGuid>1c296e99-a85c-404b-908c-16e5a249a7c6</webElementGuid>
+      <webElementGuid>26a9c7c5-8344-48e2-bb98-56d02c363156</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -82,7 +82,7 @@
       <name>aria-invalid</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>7245a984-b061-439c-82bd-a0595be2b990</webElementGuid>
+      <webElementGuid>325b8e7b-dafa-49f9-9174-fe008aa74ba7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -90,7 +90,7 @@
       <name>aria-required</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>0a42f142-c9af-42c2-943d-8e1f3e32d775</webElementGuid>
+      <webElementGuid>daf6f389-4d1f-4bae-b268-f2e669ad3367</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -98,7 +98,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-input-11&quot;)</value>
-      <webElementGuid>9487adc6-1c83-4874-8121-25c082713f0b</webElementGuid>
+      <webElementGuid>43d8c158-ce48-4313-9862-65507c0ae5f4</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -106,7 +106,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='mat-input-11']</value>
-      <webElementGuid>c81aa466-6f11-4022-8690-386bc5126efa</webElementGuid>
+      <webElementGuid>51c0192d-39b3-4dcd-96f7-3b79d5bd998e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -114,7 +114,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-tab-body[@id='mat-tab-content-0-0']/div/section/div[2]/mat-card/mat-card-content/div[3]/mat-form-field/div/div/div/input</value>
-      <webElementGuid>fa505ea3-c0da-48a7-b9e2-4cda9ca1c192</webElementGuid>
+      <webElementGuid>0edf50c3-43c3-41dc-84be-c98bdebac571</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -122,7 +122,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/mat-card/mat-card-content/div[3]/mat-form-field/div/div/div/input</value>
-      <webElementGuid>a2aec3f1-3565-4b95-9067-eec0455ffb1b</webElementGuid>
+      <webElementGuid>480c156d-79eb-4854-8c2e-620fa479d8cf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -130,6 +130,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@id = 'mat-input-11' and @placeholder = 'State/Province']</value>
-      <webElementGuid>658cb828-c5ed-4104-b9cd-206991f57191</webElementGuid>
+      <webElementGuid>5df0e44a-4046-4e55-b893-7b7772bc7832</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

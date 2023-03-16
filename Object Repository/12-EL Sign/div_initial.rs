@@ -6,12 +6,11 @@
    <elementGuidId>8a5aadb7-62c1-4531-a919-5842ddba2785</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(//div[@class='mat-checkbox-inner-container mat-checkbox-inner-container-no-side-margin'])[3]</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//b[text()='Initial ']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -7,15 +7,15 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//mat-dialog-container[@role = 'dialog' and (text() = 'Edit AddressStreet 1 *Street 2Zip / Postal Code *City *State * CountryAddress TypeSaveCancel' or . = 'Edit AddressStreet 1 *Street 2Zip / Postal Code *City *State * CountryAddress TypeSaveCancel')]</value>
-      </entry>
-      <entry>
-         <key>CSS</key>
-         <value>#mat-dialog-6</value>
+         <value>(//mat-dialog-container[@role='dialog'])[2]</value>
       </entry>
       <entry>
          <key>BASIC</key>
          <value>//mat-dialog-container[@role = 'dialog' and (text() = 'Edit AddressStreet 1 *Street 2Zip / Postal Code *City *State *Country *Address TypeSaveCancel' or . = 'Edit AddressStreet 1 *Street 2Zip / Postal Code *City *State *Country *Address TypeSaveCancel')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#mat-dialog-6</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -26,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>mat-dialog-container</value>
-      <webElementGuid>0d5f2bbc-488d-48fa-af43-9af6f192eeaf</webElementGuid>
+      <webElementGuid>a1ae704d-ef39-4090-aced-25cc39a3ed51</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -34,7 +34,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>-1</value>
-      <webElementGuid>2e569fbb-b2a5-4639-a361-681dfe090f3c</webElementGuid>
+      <webElementGuid>303aee6a-6cc8-41d1-9bee-494acf275d42</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,7 +42,7 @@
       <name>aria-modal</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>587d2ad0-996d-474f-8556-534479be15fa</webElementGuid>
+      <webElementGuid>36f36008-28b0-4913-bc3f-e40c65d7d06d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,7 +50,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-dialog-container ng-tns-c33-193 ng-trigger ng-trigger-dialogContainer ng-star-inserted</value>
-      <webElementGuid>977b3fa5-2fab-4616-8025-0a9d3dc67e4f</webElementGuid>
+      <webElementGuid>cba1433a-de12-4957-859e-a007e0a1a3d9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -58,7 +58,7 @@
       <name>id</name>
       <type>Main</type>
       <value>mat-dialog-6</value>
-      <webElementGuid>702ca631-06f9-4212-83ec-9048bf0ff1f3</webElementGuid>
+      <webElementGuid>9ff90f76-cf77-4861-bdb0-3e1b4e3b342b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -66,7 +66,7 @@
       <name>role</name>
       <type>Main</type>
       <value>dialog</value>
-      <webElementGuid>adda8d1d-62a5-43c9-98b1-bcbbc0dcd5ba</webElementGuid>
+      <webElementGuid>3d2d8b13-adc6-4b9a-b656-deb58b2d7fd1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -74,7 +74,7 @@
       <name>aria-labelledby</name>
       <type>Main</type>
       <value>mat-dialog-title-6</value>
-      <webElementGuid>879d4f32-d5e0-4faa-b03b-56e291d92c28</webElementGuid>
+      <webElementGuid>33f4634a-0731-4164-af5f-07c3753a4b6f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -82,7 +82,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Edit AddressStreet 1 *Street 2Zip / Postal Code *City *State *Country *Address TypeSaveCancel</value>
-      <webElementGuid>30f1444b-d12d-46e7-a51d-3b7bd185fe37</webElementGuid>
+      <webElementGuid>31fd776d-fc20-4b49-9ad3-c2cf667f9f11</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -90,7 +90,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-dialog-6&quot;)</value>
-      <webElementGuid>28649691-a7a9-468b-8088-96887ceb6cd9</webElementGuid>
+      <webElementGuid>fc1241b5-2859-447d-8c84-9920a624f1db</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -98,7 +98,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//mat-dialog-container[@id='mat-dialog-6']</value>
-      <webElementGuid>e9eecde3-945d-4ebc-8fb7-1d0c0ec3731e</webElementGuid>
+      <webElementGuid>d0189701-12e3-4eb3-9b51-7e371f4f7dce</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,7 +106,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='cdk-overlay-41']/mat-dialog-container</value>
-      <webElementGuid>e4d5bc18-955f-4f2c-8e5d-86436b9907fb</webElementGuid>
+      <webElementGuid>7d70c7a7-6e4f-48ee-a749-88f72c444cdc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -114,7 +114,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/following::mat-dialog-container[1]</value>
-      <webElementGuid>2ba02319-3169-4b4b-ad8d-4545e09af4d4</webElementGuid>
+      <webElementGuid>81eac7d3-8736-4f4f-9084-709ff7cca8c3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -122,7 +122,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Create'])[1]/following::mat-dialog-container[1]</value>
-      <webElementGuid>75ac9258-09f6-4e62-9ad9-2a825c1fa2c0</webElementGuid>
+      <webElementGuid>595435fe-a983-40d6-801f-7b460de4c9ce</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -130,7 +130,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[4]/div/mat-dialog-container</value>
-      <webElementGuid>178f5c95-e9ad-4758-bada-6e15a2ff2082</webElementGuid>
+      <webElementGuid>e841385f-1dbf-40e1-9a48-f53ac6e6722e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -138,6 +138,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//mat-dialog-container[@id = 'mat-dialog-6' and (text() = 'Edit AddressStreet 1 *Street 2Zip / Postal Code *City *State *Country *Address TypeSaveCancel' or . = 'Edit AddressStreet 1 *Street 2Zip / Postal Code *City *State *Country *Address TypeSaveCancel')]</value>
-      <webElementGuid>1026bc71-e0fd-4bfb-aecd-b2d77636b874</webElementGuid>
+      <webElementGuid>7163b965-8a1f-4ca9-9766-8970e5f3c659</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

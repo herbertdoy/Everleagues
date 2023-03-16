@@ -6,15 +6,19 @@
    <elementGuidId>dfacfa98-5a22-4b6e-8846-629376bd1297</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>//mat-dialog-container[@role='dialog']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//mat-dialog-container[(text() = ' Are you sure you want to resend invitation email? ConfirmCancel' or . = ' Are you sure you want to resend invitation email? ConfirmCancel')]</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>#mat-dialog-4</value>
       </entry>
-      <entry>
-         <key>XPATH</key>
-         <value></value>
-      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>mat-dialog-container</value>
-      <webElementGuid>8aaad653-3a74-4960-ac06-831add686656</webElementGuid>
+      <webElementGuid>b4b673d7-9dc8-4b38-b0e6-7b6a8fdf5111</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +34,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>-1</value>
-      <webElementGuid>2024d001-ed95-4a11-9a4d-b47361913d0e</webElementGuid>
+      <webElementGuid>03b8cdeb-48f7-4dbb-ac69-54dda03e0c8a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +42,7 @@
       <name>aria-modal</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>9b75b2dd-b202-4500-b331-440a1439c285</webElementGuid>
+      <webElementGuid>20983c0d-b51a-4e89-81bd-bc8567d3d082</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +50,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-dialog-container ng-tns-c31-81 ng-trigger ng-trigger-dialogContainer ng-star-inserted</value>
-      <webElementGuid>deb67942-13b6-4a68-a406-62f802581d55</webElementGuid>
+      <webElementGuid>4c144896-0457-4705-b07e-23fa2185b2ef</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +58,7 @@
       <name>id</name>
       <type>Main</type>
       <value>mat-dialog-4</value>
-      <webElementGuid>e87fa010-457a-48ef-9a86-de55ca20d53f</webElementGuid>
+      <webElementGuid>e60e52ce-4b7c-4f32-ba19-3219cdaa283e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +66,7 @@
       <name>role</name>
       <type>Main</type>
       <value>dialog</value>
-      <webElementGuid>cf36ba4b-bcc4-4cb7-ad10-8d89b7198c4c</webElementGuid>
+      <webElementGuid>a75c4ae7-654b-4d0b-86b4-40469ed7964d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +74,7 @@
       <name>aria-labelledby</name>
       <type>Main</type>
       <value>mat-dialog-title-4</value>
-      <webElementGuid>76d5083f-cf89-43a3-946a-ccf9d468dafb</webElementGuid>
+      <webElementGuid>7a162de1-dc85-41a5-8aec-e5891ddcdd66</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -78,7 +82,7 @@
       <name>text</name>
       <type>Main</type>
       <value> Are you sure you want to resend invitation email? ConfirmCancel</value>
-      <webElementGuid>09fe7221-c939-49c1-9d8a-323f5b3e5288</webElementGuid>
+      <webElementGuid>88cb1f39-acb7-4cd8-bf32-9dc8a0b5c361</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -86,7 +90,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-dialog-4&quot;)</value>
-      <webElementGuid>b0e5acf5-a0dc-4984-aff2-ab3be0fa3a7b</webElementGuid>
+      <webElementGuid>dbbb4bd3-7124-4f69-99bb-cde9ad015fa9</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -94,7 +98,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//mat-dialog-container[@id='mat-dialog-4']</value>
-      <webElementGuid>fd3c359f-87ac-4e58-ab6e-c19dfef5733e</webElementGuid>
+      <webElementGuid>94562f41-f5b6-411a-b551-3f4f5a203bfa</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +106,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='cdk-overlay-11']/mat-dialog-container</value>
-      <webElementGuid>47318498-5ba2-43bf-880c-2c98cff0f9af</webElementGuid>
+      <webElementGuid>d7d06227-b3d5-41fc-9dbc-110dfe54559c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +114,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('id(', '&quot;', 'mat-dialog-4', '&quot;', ')')])[1]/following::mat-dialog-container[1]</value>
-      <webElementGuid>6507df4b-845a-4cd4-9ac6-2eb3f65d0987</webElementGuid>
+      <webElementGuid>edab0667-e0a2-411f-b67f-3e21a255e871</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +122,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='`'])[2]/following::mat-dialog-container[1]</value>
-      <webElementGuid>0a59a889-4f74-4f85-858a-74d140f25b8a</webElementGuid>
+      <webElementGuid>18011f56-10a5-4356-b77e-fd08b95671af</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,7 +130,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//mat-dialog-container</value>
-      <webElementGuid>365200e7-7022-42e8-bf36-5a5810a283b1</webElementGuid>
+      <webElementGuid>8d0d2d41-2cc6-48ab-9baf-ee067fd6622e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,6 +138,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//mat-dialog-container[@id = 'mat-dialog-4' and (text() = ' Are you sure you want to resend invitation email? ConfirmCancel' or . = ' Are you sure you want to resend invitation email? ConfirmCancel')]</value>
-      <webElementGuid>322eb762-879e-4ef9-bc01-d683d067122c</webElementGuid>
+      <webElementGuid>0a8fe8da-5d22-4b03-8947-96864473753d</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

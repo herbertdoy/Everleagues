@@ -37,9 +37,15 @@ WebUI.delay(3)
 
 WebUI.click(findTestObject('12-EL Sign/button_createGG TESTERSign here'))
 
+WebUI.clickOffset(findTestObject('12-EL Sign/span_COMPLETE'), 100, 100)
+
 WebUI.click(findTestObject('12-EL Sign/button_calendarGG TESTERDate signed'))
 
+WebUI.clickOffset(findTestObject('12-EL Sign/span_COMPLETE'), 100, 100)
+
 WebUI.click(findTestObject('12-EL Sign/button_person_pinGG TESTERInitial here'))
+
+WebUI.clickOffset(findTestObject('12-EL Sign/span_COMPLETE'), 100, 100)
 
 WebUI.delay(3)
 

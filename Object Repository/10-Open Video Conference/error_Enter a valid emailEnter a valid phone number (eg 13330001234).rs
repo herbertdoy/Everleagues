@@ -7,14 +7,18 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Field is required'])[2]/following::div[12]</value>
+         <value>//div[@ng-reflect-ng-switch = 'error' and (text() = 'Enter a valid emailEnter a valid phone number (eg: +13330001234)' or . = 'Enter a valid emailEnter a valid phone number (eg: +13330001234)')]</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>div.mat-form-field-subscript-wrapper.ng-tns-c110-28</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[@ng-reflect-ng-switch = 'error' and (text() = 'Enter a valid emailEnter a valid phone number (eg: +13330001234)' or . = 'Enter a valid emailEnter a valid phone number (eg: +13330001234)')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>bed2dc12-6bd9-4928-85ff-6ba2fc0e01b2</webElementGuid>
+      <webElementGuid>0f839593-d710-41f9-9bbf-c413f9bf9c1d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-form-field-subscript-wrapper ng-tns-c110-28</value>
-      <webElementGuid>1e4ed838-4e0f-44bd-b94b-b22d226ed84f</webElementGuid>
+      <webElementGuid>32b6897e-d476-4c1f-8b24-6a81cbc5e261</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +42,7 @@
       <name>ng-reflect-ng-switch</name>
       <type>Main</type>
       <value>error</value>
-      <webElementGuid>d1dba644-3553-4547-9000-c9dbf3d5e91b</webElementGuid>
+      <webElementGuid>a8e67d20-172b-405d-b846-78290e9b1479</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +50,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Enter a valid emailEnter a valid phone number (eg: +13330001234)</value>
-      <webElementGuid>6f573666-8d3c-48a5-8c52-c16319bd9523</webElementGuid>
+      <webElementGuid>e5503523-69d6-448c-9972-ee2afdb7c9b0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +58,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/app-root[1]/app-main-page[@class=&quot;ng-tns-c481-0 ng-trigger ng-trigger-routerAnimation ng-star-inserted&quot;]/mat-sidenav-container[@class=&quot;mat-drawer-container mat-sidenav-container ng-tns-c481-0&quot;]/mat-sidenav-content[@class=&quot;mat-drawer-content mat-sidenav-content&quot;]/div[@class=&quot;wrapper&quot;]/app-open-meet[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;open-meet-container&quot;]/div[@class=&quot;content ng-star-inserted&quot;]/div[@class=&quot;body&quot;]/div[1]/input-new-guest[1]/form[@class=&quot;ng-pristine ng-star-inserted ng-invalid ng-touched&quot;]/div[@class=&quot;new-guest-container ng-star-inserted&quot;]/mat-form-field[@class=&quot;mat-form-field input-outline ng-tns-c110-28 mat-primary mat-form-field-type-mat-input mat-form-field-appearance-outline mat-form-field-can-float ng-pristine ng-invalid mat-form-field-invalid ng-touched&quot;]/div[@class=&quot;mat-form-field-wrapper ng-tns-c110-28&quot;]/div[@class=&quot;mat-form-field-subscript-wrapper ng-tns-c110-28&quot;]</value>
-      <webElementGuid>737507c4-6fc5-4ed0-ab6a-6e731bf42360</webElementGuid>
+      <webElementGuid>0bf589f1-2979-415d-93ad-536c4ea15dd6</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -62,7 +66,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Field is required'])[2]/following::div[12]</value>
-      <webElementGuid>c02097aa-c6e5-469d-981d-4e66da2712dc</webElementGuid>
+      <webElementGuid>8728de90-81fc-4f63-a6e0-a3a640aef088</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Field is required'])[1]/following::div[25]</value>
-      <webElementGuid>a9c9ca74-6d54-4cb6-ac76-98b082ad5b34</webElementGuid>
+      <webElementGuid>d8044b86-a588-480e-8612-ae76841a1a65</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +82,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//mat-form-field[3]/div/div[2]</value>
-      <webElementGuid>700457ed-0652-4c0d-908c-05bbb22cd69b</webElementGuid>
+      <webElementGuid>9393061e-1713-4937-924d-cee924a3a93f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,6 +90,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = 'Enter a valid emailEnter a valid phone number (eg: +13330001234)' or . = 'Enter a valid emailEnter a valid phone number (eg: +13330001234)')]</value>
-      <webElementGuid>b6e92cc7-9353-4a2f-875a-0960d063ff79</webElementGuid>
+      <webElementGuid>26567b89-8710-4af7-ae3e-cd94bc411d09</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -23,9 +23,7 @@ WebUI.delay(3)
 
 WebUI.click(findTestObject('09-Settings/Users/Invited Users/button_resendInvitation'))
 
-WebUI.click(findTestObject('09-Settings/Users/Invited Users/span_Successfully resent invite'))
-
-WebUI.click(findTestObject('09-Settings/Users/Active User/button_OK'))
+WebUI.verifyElementVisible(findTestObject('09-Settings/Users/Invited Users/span_Successfully resent invite'))
 
 WebUI.delay(3)
 

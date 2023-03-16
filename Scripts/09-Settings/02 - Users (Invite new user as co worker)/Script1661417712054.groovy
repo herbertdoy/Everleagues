@@ -115,9 +115,9 @@ WebUI.click(findTestObject('09-Settings/Users/Co worker/button_Yes'))
 
 WebUI.delay(3)
 
-WebUI.setText(findTestObject('09-Settings/Users/Co worker/input_Email_email'), 'autotester04@mailinator.com')
+WebUI.setText(findTestObject('09-Settings/Users/input_email'), 'autotester04@mailinator.com')
 
-WebUI.setEncryptedText(findTestObject('09-Settings/Users/Co worker/input__password'), '8yFRyszE6U6jvsCn51OQbg==')
+WebUI.setEncryptedText(findTestObject('09-Settings/Users/Co worker/input_password'), '8yFRyszE6U6jvsCn51OQbg==')
 
 WebUI.click(findTestObject('02-Side Icons(Organization)/Add Contact/button_Sign in'))
 

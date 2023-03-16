@@ -7,14 +7,18 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='mat-input-82']</value>
+         <value>//input[@type = 'text' and @name = 'state' and @data-placeholder = 'State' and @aria-required = 'true']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@type = 'text' and @name = 'state' and @placeholder = 'State' and @aria-invalid = 'true']</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>#mat-input-82</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -22,6 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
+      <webElementGuid>27d83a30-6bbb-4658-9d9d-68c09f5fe17a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -29,6 +34,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
+      <webElementGuid>fcbc66af-0eff-4082-ac42-0cc5bcbb3f0b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -36,6 +42,7 @@
       <name>maxlength</name>
       <type>Main</type>
       <value>100</value>
+      <webElementGuid>cea2b074-666d-4264-ade1-a9574564fd75</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -43,6 +50,7 @@
       <name>name</name>
       <type>Main</type>
       <value>state</value>
+      <webElementGuid>70b752ae-d0da-41cd-92bb-379f421cb369</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,6 +58,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-input-element mat-form-field-autofill-control ng-tns-c231-197 cdk-text-field-autofill-monitored ng-pristine ng-invalid ng-touched</value>
+      <webElementGuid>db0bc3b9-ec8f-4dba-a7f6-49a94d7fbda7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -57,6 +66,7 @@
       <name>ng-reflect-maxlength</name>
       <type>Main</type>
       <value>100</value>
+      <webElementGuid>3d1d3573-c850-4244-86a8-573b70a3885b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -64,6 +74,7 @@
       <name>ng-reflect-name</name>
       <type>Main</type>
       <value>state</value>
+      <webElementGuid>04655ef5-0e45-4578-8666-f91f9ca5730b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -71,6 +82,7 @@
       <name>ng-reflect-type</name>
       <type>Main</type>
       <value>text</value>
+      <webElementGuid>b6c15187-b1be-4453-8bc6-5d984bc7f495</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,6 +90,7 @@
       <name>ng-reflect-placeholder</name>
       <type>Main</type>
       <value>State</value>
+      <webElementGuid>19968c09-d390-4561-a4de-6ab7cc7d22ed</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -85,6 +98,7 @@
       <name>id</name>
       <type>Main</type>
       <value>mat-input-82</value>
+      <webElementGuid>937b4eb2-ca57-478f-b34d-4117a6660d5e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -92,6 +106,7 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>State</value>
+      <webElementGuid>57ff6e2a-fca4-484b-a36c-61f99bebd256</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -99,6 +114,7 @@
       <name>aria-invalid</name>
       <type>Main</type>
       <value>true</value>
+      <webElementGuid>67f31798-99ed-4ed0-ab05-31e20eccbc33</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -106,6 +122,7 @@
       <name>aria-required</name>
       <type>Main</type>
       <value>true</value>
+      <webElementGuid>3be13b00-18af-43f2-bdd2-e96b74e228df</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -113,6 +130,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-input-82&quot;)</value>
+      <webElementGuid>55be63b9-9b91-41a6-98b2-02d2903659d0</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -120,6 +138,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='mat-input-82']</value>
+      <webElementGuid>6d831b5b-6193-4eab-8e11-86f0158f5858</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -127,6 +146,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-dialog-container[@id='mat-dialog-0']/app-dialog-profile-address/section/form/div/div/mat-form-field[5]/div/div/div/input</value>
+      <webElementGuid>2ec4c983-0d9f-4978-b776-fe653948e5dd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,6 +154,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//mat-form-field[5]/div/div/div/input</value>
+      <webElementGuid>519043f9-6234-4b54-91b4-8b515048a6e4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -141,5 +162,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'text' and @name = 'state' and @id = 'mat-input-82' and @placeholder = 'State']</value>
+      <webElementGuid>1f66862b-36a6-4ccf-a23b-52bf3c590cee</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

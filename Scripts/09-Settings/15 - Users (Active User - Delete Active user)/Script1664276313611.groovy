@@ -27,7 +27,7 @@ WebUI.click(findTestObject('09-Settings/Users/Active User/button_Delete User'))
 
 WebUI.verifyElementPresent(findTestObject('09-Settings/Users/Active User/h4_Delete User'), 0)
 
-WebUI.delay(4)
+WebUI.delay(3)
 
 WebUI.click(findTestObject('09-Settings/Users/Active User/button_Delete'))
 
@@ -41,7 +41,7 @@ WebUI.click(findTestObject('09-Settings/Users/Active User/button_Delete User'))
 
 WebUI.verifyElementPresent(findTestObject('09-Settings/Users/Active User/h4_Delete User'), 0)
 
-WebUI.delay(4)
+WebUI.delay(3)
 
 WebUI.click(findTestObject('09-Settings/Users/Active User/button_Delete'))
 
@@ -55,7 +55,7 @@ WebUI.click(findTestObject('09-Settings/Users/Active User/button_Delete User'))
 
 WebUI.verifyElementPresent(findTestObject('09-Settings/Users/Active User/h4_Delete User'), 0)
 
-WebUI.delay(4)
+WebUI.delay(3)
 
 WebUI.click(findTestObject('09-Settings/Users/Active User/button_Delete'))
 
@@ -69,7 +69,7 @@ WebUI.click(findTestObject('09-Settings/Users/Active User/button_Delete User'))
 
 WebUI.verifyElementPresent(findTestObject('09-Settings/Users/Active User/h4_Delete User'), 0)
 
-WebUI.delay(4)
+WebUI.delay(3)
 
 WebUI.click(findTestObject('09-Settings/Users/Active User/button_Delete'))
 
@@ -83,15 +83,13 @@ WebUI.click(findTestObject('09-Settings/Users/Active User/button_Delete User'))
 
 WebUI.verifyElementPresent(findTestObject('09-Settings/Users/Active User/h4_Delete User'), 0)
 
-WebUI.delay(4)
+WebUI.delay(3)
 
 WebUI.click(findTestObject('09-Settings/Users/Active User/button_Delete'))
 
 WebUI.verifyElementPresent(findTestObject('09-Settings/Users/Active User/span_Successfully deleted user'), 0)
 
-WebUI.click(findTestObject('09-Settings/Users/Active User/button_OK'))
-
-WebUI.delay(5)
+WebUI.delay(4)
 
 WebUI.closeBrowser()
 

@@ -7,14 +7,18 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//mat-dialog-container[@id='mat-dialog-25']/app-iet-company/div/div/div[2]/div/span/button</value>
+         <value>//button[@mattooltip='View Report']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//button[(text() = ' UPDATE loop' or . = ' UPDATE loop')]</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>button.mat-focus-indicator.text-upper.mat-raised-button.mat-button-base.mat-accent.ng-star-inserted.cdk-focused.cdk-mouse-focused</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>dc38d4b4-8b1f-4a2e-9528-2dfca44394fe</webElementGuid>
+      <webElementGuid>f5cba83f-4df5-457c-b0eb-4117ea7f15b2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +34,7 @@
       <name>color</name>
       <type>Main</type>
       <value>accent</value>
-      <webElementGuid>fceaf7e9-1907-47c3-a548-16e0f68b039c</webElementGuid>
+      <webElementGuid>441774fc-9c99-4cee-8db0-a8451842f404</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +42,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-focus-indicator text-upper mat-raised-button mat-button-base mat-accent ng-star-inserted cdk-focused cdk-mouse-focused</value>
-      <webElementGuid>820dfab0-6671-457d-9e26-67f06423c41a</webElementGuid>
+      <webElementGuid>1fbc2ad1-105e-4871-9a9c-17668dc76541</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +50,7 @@
       <name>ng-reflect-color</name>
       <type>Main</type>
       <value>accent</value>
-      <webElementGuid>32c80fcf-b21f-4374-9aea-0d2662ef820e</webElementGuid>
+      <webElementGuid>3a145aed-e31e-48f4-af44-0d4f132e3b65</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +58,7 @@
       <name>ng-reflect-disabled</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>982cedfa-1f62-4994-a65a-426c7033c58d</webElementGuid>
+      <webElementGuid>229b20d6-630b-466a-bdb0-583ec0bba8e7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -62,7 +66,7 @@
       <name>text</name>
       <type>Main</type>
       <value> UPDATE loop</value>
-      <webElementGuid>a0c25e36-5e1c-4d6b-9dbe-11cac16d6792</webElementGuid>
+      <webElementGuid>299d1685-bdff-4876-bfff-3b5577cbad99</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +74,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-dialog-25&quot;)/app-iet-company[@class=&quot;ng-star-inserted&quot;]/div[1]/div[@class=&quot;invgridColumn&quot;]/div[@class=&quot;button-row&quot;]/div[1]/span[@class=&quot;ng-star-inserted&quot;]/button[@class=&quot;mat-focus-indicator text-upper mat-raised-button mat-button-base mat-accent ng-star-inserted cdk-focused cdk-mouse-focused&quot;]</value>
-      <webElementGuid>14b449a9-88e3-4b0e-b4ab-30870d2d8c78</webElementGuid>
+      <webElementGuid>5a179c97-c005-4245-bc21-5bbff23fc79d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -78,7 +82,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-dialog-container[@id='mat-dialog-25']/app-iet-company/div/div/div[2]/div/span/button</value>
-      <webElementGuid>4841151b-9e55-4ae9-aebc-2074d8034f95</webElementGuid>
+      <webElementGuid>fe2a5861-9388-4b87-8879-fab6272f2e30</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='CANCEL'])[1]/following::button[1]</value>
-      <webElementGuid>6075469a-235f-4b5c-9a6b-017afc9c5645</webElementGuid>
+      <webElementGuid>934e7961-16a6-4ace-9d65-88d3f483cc44</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Share With'])[1]/following::button[2]</value>
-      <webElementGuid>e1e56784-82aa-4acf-a8c9-494f157424a8</webElementGuid>
+      <webElementGuid>6c29eb66-a2f7-4843-a984-7f1191564564</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +106,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Hide Quick Shortcuts'])[1]/preceding::button[1]</value>
-      <webElementGuid>c65c49c5-26b2-4443-ba5d-827b41fc4b44</webElementGuid>
+      <webElementGuid>20203fd4-26a0-451f-b5b8-67a9028f804c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +114,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/span/button</value>
-      <webElementGuid>be7352dc-dd07-4619-b29f-d0782b577142</webElementGuid>
+      <webElementGuid>34f87d26-e17d-4374-86ad-e62debbf407c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,6 +122,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[(text() = ' UPDATE loop' or . = ' UPDATE loop')]</value>
-      <webElementGuid>57bed170-3eb5-4aa0-8444-ef0e152a2955</webElementGuid>
+      <webElementGuid>32fd67e8-6ad7-427e-a129-247683ad0c3c</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

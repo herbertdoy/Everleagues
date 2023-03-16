@@ -7,18 +7,18 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='mat-input-1']</value>
-      </entry>
-      <entry>
-         <key>CSS</key>
-         <value>#mat-input-1</value>
+         <value>//input[@data-placeholder='Organization Unit Name']</value>
       </entry>
       <entry>
          <key>BASIC</key>
          <value>//input[@type = 'text' and @name = 'orgName' and @placeholder = 'Organization Unit Name']</value>
       </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#mat-input-1</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -26,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>c3da8d0c-a4bf-47e9-b843-62c901940f2f</webElementGuid>
+      <webElementGuid>d8c5497d-a54b-4b54-9616-cf758b0f3768</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -34,7 +34,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>468379c6-b0e2-4d21-978d-08404f6bd102</webElementGuid>
+      <webElementGuid>e7a05206-a89f-42de-ba58-e02ea0030e59</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -42,7 +42,7 @@
       <name>name</name>
       <type>Main</type>
       <value>orgName</value>
-      <webElementGuid>cfba7d78-9208-4a4f-938e-6077d6b665f1</webElementGuid>
+      <webElementGuid>9789d16f-9d39-47a8-a02a-52b49f2bec4c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,7 +50,7 @@
       <name>maxlength</name>
       <type>Main</type>
       <value>100</value>
-      <webElementGuid>04d6da8f-30b5-44a6-9036-e675d17aa08f</webElementGuid>
+      <webElementGuid>7d3234d5-f290-467e-95a2-c1541969092b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -58,7 +58,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-input-element mat-form-field-autofill-control ng-tns-c110-48 cdk-text-field-autofill-monitored ng-pristine ng-valid ng-touched</value>
-      <webElementGuid>44a0fc0b-a7e1-42bd-988f-82e3ff36d93f</webElementGuid>
+      <webElementGuid>f2cb81bc-b22f-428b-9907-a45124e486fb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -66,7 +66,7 @@
       <name>ng-reflect-maxlength</name>
       <type>Main</type>
       <value>100</value>
-      <webElementGuid>c4eb14a8-923a-4c73-987b-180e9e7b51eb</webElementGuid>
+      <webElementGuid>51b648cf-5443-4112-b66d-8fa2c012736a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -74,7 +74,7 @@
       <name>ng-reflect-name</name>
       <type>Main</type>
       <value>orgName</value>
-      <webElementGuid>2b70a307-cfa9-49d2-964b-1100205a137b</webElementGuid>
+      <webElementGuid>a9bbf7f8-d684-4db6-ae7c-72d36538d3c0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -82,7 +82,7 @@
       <name>ng-reflect-model</name>
       <type>Main</type>
       <value>Automation Organization unit</value>
-      <webElementGuid>222f57c4-3cc0-4234-b698-20d21f8a2a8a</webElementGuid>
+      <webElementGuid>7386b444-62b2-45fc-a45e-78a0919274f0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -90,7 +90,7 @@
       <name>ng-reflect-type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>dca38d6a-b228-4715-b42a-b76489afd9c2</webElementGuid>
+      <webElementGuid>f412c195-09ad-46dc-af73-0794353d657a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -98,7 +98,7 @@
       <name>ng-reflect-placeholder</name>
       <type>Main</type>
       <value>Organization Unit Name</value>
-      <webElementGuid>19a41c5c-146a-4199-8132-43446fb22d5b</webElementGuid>
+      <webElementGuid>cb08be61-95e0-4e6c-8569-ddb36ff59d7a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -106,7 +106,7 @@
       <name>ng-reflect-readonly</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>17459c3a-2797-4eb3-ad9c-84156b91fb91</webElementGuid>
+      <webElementGuid>72a0dbf4-2116-40f8-a129-99d07a05cc15</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -114,7 +114,7 @@
       <name>id</name>
       <type>Main</type>
       <value>mat-input-1</value>
-      <webElementGuid>9605bdda-64a0-44aa-9438-9b5dc99a1c19</webElementGuid>
+      <webElementGuid>09d0b1f5-d873-4856-a017-04b254215251</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -122,7 +122,7 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>Organization Unit Name</value>
-      <webElementGuid>550ef6ff-bfb9-4ab2-9452-e1329feb5564</webElementGuid>
+      <webElementGuid>47ea1440-6e19-4957-a0c3-2a1077ec59ee</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -130,7 +130,7 @@
       <name>aria-invalid</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>d1c3c1ee-9b15-4334-adfc-c5610ce93c66</webElementGuid>
+      <webElementGuid>e321ec1b-ea39-4030-a53a-5160efb8dc34</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -138,7 +138,7 @@
       <name>aria-required</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>2f87297c-a891-44ee-a8f3-9b7806b7b50e</webElementGuid>
+      <webElementGuid>f6d5995a-9e42-49ff-bd97-411b06d1c9cf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -146,7 +146,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-input-1&quot;)</value>
-      <webElementGuid>57e1cb0a-2fb5-4aad-8cd9-d7f36d9b5f09</webElementGuid>
+      <webElementGuid>64f7cee0-643a-4995-aad0-1f6fa8781512</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -154,7 +154,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='mat-input-1']</value>
-      <webElementGuid>e07db4bc-61d8-4650-98a9-c1773443100a</webElementGuid>
+      <webElementGuid>ab468d29-071d-4fcf-b06f-9de7deb8b1d6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -162,7 +162,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-dialog-container[@id='mat-dialog-1']/app-dialog-edit-ou/section/form/div/div/mat-form-field/div/div/div/input</value>
-      <webElementGuid>11ef9171-e0c2-4337-a091-1122b0222627</webElementGuid>
+      <webElementGuid>4ddf669d-3812-4bdf-b072-f50084605e89</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -170,7 +170,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//input</value>
-      <webElementGuid>cf631e72-4b52-434c-a275-45062632ff87</webElementGuid>
+      <webElementGuid>1f85861b-55e2-423f-a357-3e08e6b49b61</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -178,6 +178,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'text' and @name = 'orgName' and @id = 'mat-input-1' and @placeholder = 'Organization Unit Name']</value>
-      <webElementGuid>bee18338-dc98-442b-9e68-83d03d2a8277</webElementGuid>
+      <webElementGuid>ca8d4c1a-e4a3-4c86-be59-18fb183f1093</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

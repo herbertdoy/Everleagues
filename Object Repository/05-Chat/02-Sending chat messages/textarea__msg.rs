@@ -7,14 +7,18 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//textarea[@id='mat-input-6']</value>
+         <value>//textarea[@data-placeholder='Message...']</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>#mat-input-6</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//textarea[@placeholder = 'Message...']</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -22,6 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>textarea</value>
+      <webElementGuid>398a8072-0030-4a48-b513-cd8431fa5393</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -29,6 +34,7 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>Message...</value>
+      <webElementGuid>e5c2f7e3-6dc6-42a6-93d3-352b601a5bef</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -36,6 +42,7 @@
       <name>useimportant</name>
       <type>Main</type>
       <value>true</value>
+      <webElementGuid>c8333c81-42ba-42c1-870b-43125bd41c2c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,6 +50,7 @@
       <name>rows</name>
       <type>Main</type>
       <value>1</value>
+      <webElementGuid>b18eac67-275f-43ec-98c3-18fbd89ac95c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,6 +58,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-input-element mat-form-field-autofill-control ng-tns-c231-62 cdk-text-field-autofill-monitored</value>
+      <webElementGuid>b2ecf8d6-40f3-44bb-9298-19b526f3f2b6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -57,6 +66,7 @@
       <name>ng-reflect-placeholder</name>
       <type>Main</type>
       <value>Message...</value>
+      <webElementGuid>c3ac76d2-1167-447a-a5fa-c3caf56d79ba</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -64,6 +74,7 @@
       <name>ng-reflect-use-important</name>
       <type>Main</type>
       <value>true</value>
+      <webElementGuid>0f39949f-f0d7-4edf-9357-8a7cab466f19</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -71,6 +82,7 @@
       <name>ng-reflect-users</name>
       <type>Main</type>
       <value>[object Object],[object Object</value>
+      <webElementGuid>57e320ad-47b6-4e89-bbae-31df1c60b0aa</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,6 +90,7 @@
       <name>ng-reflect-on-send-sub</name>
       <type>Main</type>
       <value>[object Object]</value>
+      <webElementGuid>6552e02c-0b6e-4f84-a076-ec1adb3fd965</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -85,6 +98,7 @@
       <name>ng-reflect-max-rows</name>
       <type>Main</type>
       <value>10</value>
+      <webElementGuid>db854162-0441-4994-bab7-4d813d7f1b7f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -92,6 +106,7 @@
       <name>id</name>
       <type>Main</type>
       <value>mat-input-6</value>
+      <webElementGuid>30c9010f-4387-48a1-ada6-80b8769b49fb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -99,6 +114,7 @@
       <name>aria-invalid</name>
       <type>Main</type>
       <value>false</value>
+      <webElementGuid>7c409591-0d11-45c0-8d64-e5cb1ae8a6dd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -106,6 +122,7 @@
       <name>aria-required</name>
       <type>Main</type>
       <value>false</value>
+      <webElementGuid>a35e0577-9200-4543-9959-6dc3a8f9e54a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -113,6 +130,7 @@
       <name>ng-reflect-enable</name>
       <type>Main</type>
       <value>true</value>
+      <webElementGuid>6a3e5e28-a693-4012-9ed9-26384053f082</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -120,6 +138,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-input-6&quot;)</value>
+      <webElementGuid>97028b61-f31a-4df5-8cfd-b7f559871d1b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -127,6 +146,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//textarea[@id='mat-input-6']</value>
+      <webElementGuid>2aca90bc-15a0-4217-b8a3-b1247b7a0cce</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,6 +154,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='msgComposer']/div/div/div/mat-form-field/div/div/div/textarea</value>
+      <webElementGuid>9674bbdb-e9d2-4503-b542-b22cb53890d4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -141,6 +162,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//textarea</value>
+      <webElementGuid>25981787-f706-406b-b19b-8997bb0d90ec</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -148,5 +170,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//textarea[@placeholder = 'Message...' and @id = 'mat-input-6']</value>
+      <webElementGuid>8a751792-8f54-485f-8f58-f0c3e6092bbc</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

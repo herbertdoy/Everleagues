@@ -7,14 +7,18 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//mat-error[@id='mat-error-11']</value>
+         <value>//mat-error[(text() = ' Password does not match ' or . = ' Password does not match ')]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//mat-error[@role = 'alert' and (text() = ' Password does not match ' or . = ' Password does not match ')]</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>#mat-error-11</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -22,6 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>mat-error</value>
+      <webElementGuid>c7769faa-d298-4898-9842-cf6aeef92807</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -29,6 +34,7 @@
       <name>role</name>
       <type>Main</type>
       <value>alert</value>
+      <webElementGuid>497b4431-e980-4bc0-9c27-ccc4af700763</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -36,6 +42,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-error ng-tns-c231-50</value>
+      <webElementGuid>3dbc516b-d96e-49d7-9f8d-d9000088b90b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,6 +50,7 @@
       <name>id</name>
       <type>Main</type>
       <value>mat-error-11</value>
+      <webElementGuid>270736eb-1251-478c-8ee8-179d88cfc247</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -50,6 +58,7 @@
       <name>text</name>
       <type>Main</type>
       <value> Password does not match </value>
+      <webElementGuid>3793e0ac-7bec-4cf8-b134-48036da059fa</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -57,6 +66,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-error-11&quot;)</value>
+      <webElementGuid>3306c773-facd-49e1-a5f8-122976b2e208</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -64,6 +74,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//mat-error[@id='mat-error-11']</value>
+      <webElementGuid>f2fa8650-41a1-4da2-bd95-2a2ec429d94a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,6 +82,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-dialog-container[@id='mat-dialog-3']/app-dialog-change-password/section/form/div/div/mat-form-field[3]/div/div[3]/div/mat-error</value>
+      <webElementGuid>20e7ac93-7bee-4805-aa0c-21eef06887dc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,6 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Confirm Password'])[1]/following::mat-error[1]</value>
+      <webElementGuid>f5417d6c-bda2-41dd-b4c7-46e1c0392be4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,6 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Password must be at least 8 characters with at least an uppercase, a lowercase and a number.'])[1]/following::mat-error[1]</value>
+      <webElementGuid>e46dff50-112c-4a01-aa9b-09e8ff7cf6ea</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -92,6 +106,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Change Password'])[2]/preceding::mat-error[1]</value>
+      <webElementGuid>04633273-e0c3-470a-b253-f7aa83e1d54c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,6 +114,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/preceding::mat-error[1]</value>
+      <webElementGuid>cf50d9bd-745c-4d6f-8b65-56f5f6463c5d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,6 +122,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Password does not match']/parent::*</value>
+      <webElementGuid>90ad939a-dffb-4ea3-8650-dc8bc2fcdab1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -113,6 +130,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//mat-form-field[3]/div/div[3]/div/mat-error</value>
+      <webElementGuid>d8383e03-d4a8-40dd-8a30-dc81becd3498</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -120,5 +138,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//mat-error[@id = 'mat-error-11' and (text() = ' Password does not match ' or . = ' Password does not match ')]</value>
+      <webElementGuid>7518b266-3807-4651-8bfb-5021d857ea03</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

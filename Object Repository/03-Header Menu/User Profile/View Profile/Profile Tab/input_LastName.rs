@@ -6,19 +6,19 @@
    <elementGuidId>e8244262-dd9c-42f0-8ca4-69c2e96ccaa6</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//input[@placeholder = 'Last Name']</value>
+         <key>XPATH</key>
+         <value>//input[@data-placeholder='Last Name']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='mat-input-4']</value>
+         <key>BASIC</key>
+         <value>//input[@placeholder = 'Last Name']</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>#mat-input-4</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -26,6 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
+      <webElementGuid>bcb07f64-1bb6-4c69-8097-f3c889b1ce6b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -33,6 +34,7 @@
       <name>maxlength</name>
       <type>Main</type>
       <value>50</value>
+      <webElementGuid>cb585bea-0c9f-4161-80cb-f2887ec7840e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -40,6 +42,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-input-element mat-form-field-autofill-control ng-tns-c231-36 cdk-text-field-autofill-monitored ng-untouched ng-pristine ng-valid</value>
+      <webElementGuid>363ffd55-a459-4d37-aa89-ede2f7cc1b7d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,6 +50,7 @@
       <name>ng-reflect-maxlength</name>
       <type>Main</type>
       <value>50</value>
+      <webElementGuid>e698b47d-af40-40ad-adb2-124e019b4080</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,6 +58,7 @@
       <name>ng-reflect-placeholder</name>
       <type>Main</type>
       <value>Last Name</value>
+      <webElementGuid>b1bcf274-5fe4-4b02-9ee7-3113b7aedd8b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,6 +66,7 @@
       <name>ng-reflect-model</name>
       <type>Main</type>
       <value>test</value>
+      <webElementGuid>b3bc3ac8-7199-4066-9120-d7320febc1e2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -68,6 +74,7 @@
       <name>id</name>
       <type>Main</type>
       <value>mat-input-4</value>
+      <webElementGuid>75939703-b005-4d9d-a7dc-0be0baa1626f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -75,6 +82,7 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>Last Name</value>
+      <webElementGuid>4fc55f6c-e75d-4fb4-9d0b-c56ff700c036</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -82,6 +90,7 @@
       <name>aria-invalid</name>
       <type>Main</type>
       <value>false</value>
+      <webElementGuid>5571cdff-c392-44e3-bcc5-3ce23a6ea3fa</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -89,6 +98,7 @@
       <name>aria-required</name>
       <type>Main</type>
       <value>false</value>
+      <webElementGuid>0594a2cc-94c9-48fd-bb20-80c3c5dfd56c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -96,6 +106,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-input-4&quot;)</value>
+      <webElementGuid>33ceba24-77af-4e91-a733-0d0a1ff073c1</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -103,6 +114,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='mat-input-4']</value>
+      <webElementGuid>3c056909-8571-4655-9faa-894d8a671a4b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,6 +122,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-tab-body[@id='mat-tab-content-0-0']/div/mat-card/mat-card-content/div[2]/mat-form-field[2]/div/div/div/input</value>
+      <webElementGuid>df8cda71-e1c1-48f2-8431-d8ec8da77d81</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,5 +130,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//mat-form-field[2]/div/div/div/input</value>
+      <webElementGuid>9e98fe40-46d7-4f55-8865-3db552305d01</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

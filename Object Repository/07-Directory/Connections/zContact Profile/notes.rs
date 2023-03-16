@@ -7,14 +7,18 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//textarea[@id='mat-input-37']</value>
+         <value>//textarea[@data-placeholder='Add a note to this contact...']</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>#mat-input-37</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//textarea[@name = 'note' and @placeholder = 'Add a note to this contact...']</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>textarea</value>
-      <webElementGuid>3b682e88-36d6-45ba-94a9-e0508d699f45</webElementGuid>
+      <webElementGuid>2185c966-003c-432f-84e0-2216cb0a3fcc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +34,7 @@
       <name>rows</name>
       <type>Main</type>
       <value>5</value>
-      <webElementGuid>150c48b3-223d-4760-ab31-460e2e0eb443</webElementGuid>
+      <webElementGuid>d808e93e-9752-455b-a537-7a989185e6d2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +42,7 @@
       <name>name</name>
       <type>Main</type>
       <value>note</value>
-      <webElementGuid>3aeb6284-8ab5-4514-930a-491d4c91a3bd</webElementGuid>
+      <webElementGuid>00b9215b-207b-40f9-b7a5-fb52c3a62347</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +50,7 @@
       <name>maxlength</name>
       <type>Main</type>
       <value>280</value>
-      <webElementGuid>3449cd7a-a54c-4e93-b094-d2275066fa79</webElementGuid>
+      <webElementGuid>8220efb1-42f2-4e85-a2d9-6aa372d6e72b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +58,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-input-element mat-form-field-autofill-control ng-tns-c110-126 cdk-text-field-autofill-monitored ng-valid ng-dirty ng-touched</value>
-      <webElementGuid>6a62cf1b-8b0c-4ea3-b7a7-e7269e940a4d</webElementGuid>
+      <webElementGuid>06c277ed-cea6-4db5-9ea4-f1c3c2362f44</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +66,7 @@
       <name>ng-reflect-maxlength</name>
       <type>Main</type>
       <value>280</value>
-      <webElementGuid>f6ef05c2-7105-45fc-bf06-cb1decb45eb2</webElementGuid>
+      <webElementGuid>f5c8158b-fda5-4f92-ad5b-cf5008869915</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +74,7 @@
       <name>ng-reflect-name</name>
       <type>Main</type>
       <value>note</value>
-      <webElementGuid>ded027c5-8836-4bde-9fd7-39d6052ddc80</webElementGuid>
+      <webElementGuid>c297681e-0647-42b7-9ef1-c63bbb74d4b7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,7 +82,7 @@
       <name>ng-reflect-placeholder</name>
       <type>Main</type>
       <value>Add a note to this contact...</value>
-      <webElementGuid>b8e72ae0-360b-4a2f-ac35-0228d09341ca</webElementGuid>
+      <webElementGuid>fd6b701f-aba8-4dac-b913-1c7d765d2d74</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -86,7 +90,7 @@
       <name>id</name>
       <type>Main</type>
       <value>mat-input-37</value>
-      <webElementGuid>d377ff22-05b6-4317-9071-8460dee58b7d</webElementGuid>
+      <webElementGuid>b5ad9962-0db1-45c8-8f2b-c5d599f30d0e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -94,7 +98,7 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>Add a note to this contact...</value>
-      <webElementGuid>4016a544-d6cd-411f-82d9-5bbecdbfa42e</webElementGuid>
+      <webElementGuid>8f9fceb2-4ba1-4dc8-8f45-2edfaf729d29</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -102,7 +106,7 @@
       <name>aria-invalid</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>b06ba0e8-fff3-4250-8699-1283f6c87236</webElementGuid>
+      <webElementGuid>28e882c0-9885-4d30-940a-f58d869c4569</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -110,7 +114,7 @@
       <name>aria-required</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>5520373e-13ff-4ae6-968a-4377770db8e6</webElementGuid>
+      <webElementGuid>779d0736-0ce6-4f64-bc51-3bfda98b6510</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -118,7 +122,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-input-37&quot;)</value>
-      <webElementGuid>dd7caced-6686-4016-a846-e2c562e3c795</webElementGuid>
+      <webElementGuid>aeeae987-6d0f-49a9-ac9a-7ea32af08d6a</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -126,7 +130,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//textarea[@id='mat-input-37']</value>
-      <webElementGuid>0b18bb6d-d50d-49e4-a156-dec9a2ba802c</webElementGuid>
+      <webElementGuid>4697a318-2022-44ba-8e07-43d3b3f66390</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,7 +138,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-tab-body[@id='mat-tab-content-1-0']/div/section/div/div[3]/div/mat-form-field/div/div/div/textarea</value>
-      <webElementGuid>72969fe4-92ba-4fe0-b151-8831604a807e</webElementGuid>
+      <webElementGuid>6c6594fe-dd7d-43c0-8990-bbeef2a25914</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -142,7 +146,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//textarea</value>
-      <webElementGuid>014f170c-8baa-41d5-8d4e-2822f35a1eab</webElementGuid>
+      <webElementGuid>6c8a434c-5fa5-403e-8799-58a60638cfd2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -150,6 +154,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//textarea[@name = 'note' and @id = 'mat-input-37' and @placeholder = 'Add a note to this contact...']</value>
-      <webElementGuid>ae95dc0a-7d38-44e5-9b66-e261fa9708b8</webElementGuid>
+      <webElementGuid>60e908ec-bbad-46e7-b929-e0770652f59e</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

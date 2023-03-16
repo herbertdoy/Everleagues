@@ -10,12 +10,12 @@
          <value>#mat-button-toggle-15-button</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//button[@type = 'button' and @name = 'reaction' and (text() = '👍' or . = '👍')]</value>
+         <key>XPATH</key>
+         <value>(//button[@name='reaction'])[1]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>(//button[@class='mat-button-toggle-button mat-focus-indicator']//div)[1]</value>
+         <key>BASIC</key>
+         <value>//button[@type = 'button' and @name = 'reaction' and (text() = '👍' or . = '👍')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -26,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>691d248b-661c-4a82-a82e-67d73abadb24</webElementGuid>
+      <webElementGuid>16d295b4-61e8-4167-9cc9-4668fd2240e0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -34,7 +34,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>e457e4ec-3178-4223-8c59-c5d568dbe01b</webElementGuid>
+      <webElementGuid>ff5a57f4-f630-4ca3-9ade-de3db373e896</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,7 +42,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-button-toggle-button mat-focus-indicator</value>
-      <webElementGuid>45952327-b29f-45b7-8311-742b59f2ee4b</webElementGuid>
+      <webElementGuid>1d13edbb-461a-4204-9c4f-468630c0be30</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,7 +50,7 @@
       <name>id</name>
       <type>Main</type>
       <value>mat-button-toggle-15-button</value>
-      <webElementGuid>57f99f09-f88d-4f17-a4c4-70b8a759939d</webElementGuid>
+      <webElementGuid>a9372cff-c325-4005-97b9-6706f85dd26c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -58,7 +58,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>d0beb841-3019-45dd-95fa-035a2521949a</webElementGuid>
+      <webElementGuid>9f7c7329-f3b6-435c-8a01-2f5ed6606502</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -66,7 +66,7 @@
       <name>aria-pressed</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>380ffc34-5655-4882-8842-a642423a8721</webElementGuid>
+      <webElementGuid>6c91e0f7-7378-44a3-813f-cc7661e4ae2c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -74,7 +74,7 @@
       <name>name</name>
       <type>Main</type>
       <value>reaction</value>
-      <webElementGuid>9f6a4677-d41a-4cb3-8f39-8cf876857f94</webElementGuid>
+      <webElementGuid>5d7479d8-2501-4d17-a97e-7bdd1fcba1ae</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -82,7 +82,7 @@
       <name>text</name>
       <type>Main</type>
       <value>👍</value>
-      <webElementGuid>615988d1-e8ff-43c5-a020-0960fea75ac4</webElementGuid>
+      <webElementGuid>273e3459-3451-4a5c-9732-d9388780feb4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -90,7 +90,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-button-toggle-15-button&quot;)</value>
-      <webElementGuid>718cbc62-6480-4fe9-9bf0-062a03878fb8</webElementGuid>
+      <webElementGuid>1ef7f0f2-62bb-402d-b689-82e2e539b34a</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -98,7 +98,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//button[@id='mat-button-toggle-15-button']</value>
-      <webElementGuid>a8db3008-6987-4cbf-a6c2-3b48f6439ef8</webElementGuid>
+      <webElementGuid>a293d000-2902-40d7-8e9b-78328a7c77d3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,7 +106,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-button-toggle[@id='mat-button-toggle-15']/button</value>
-      <webElementGuid>c366934a-2036-4c5a-bfba-86a96db64bcc</webElementGuid>
+      <webElementGuid>c2445013-7866-402c-a4df-96876b4e5f01</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -114,7 +114,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='New Chat'])[1]/following::button[1]</value>
-      <webElementGuid>5a86ddf9-a3eb-4977-b918-d874066f7664</webElementGuid>
+      <webElementGuid>8187bab8-ecfc-4eef-aef6-797938a303d3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -122,7 +122,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Meet disabled for chatrooms larger than 30 participants'])[1]/following::button[1]</value>
-      <webElementGuid>fead59db-e4b4-45cb-b264-5092188a1a42</webElementGuid>
+      <webElementGuid>a111e4df-816b-44e4-80ca-7b014f35ec36</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -130,7 +130,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='💖'])[1]/preceding::button[1]</value>
-      <webElementGuid>988391d2-f645-4b5d-ac97-cd8a79a7108f</webElementGuid>
+      <webElementGuid>f982ad8c-2618-4e79-98be-6382725fe25a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -138,7 +138,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//mat-button-toggle/button</value>
-      <webElementGuid>e0f70d97-e18d-4a3a-8506-f847dca021b1</webElementGuid>
+      <webElementGuid>af468a41-9e13-4a5c-aae8-c59d6d959fdb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -146,6 +146,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and @id = 'mat-button-toggle-15-button' and @name = 'reaction' and (text() = '👍' or . = '👍')]</value>
-      <webElementGuid>c2fafea4-df15-4712-8408-0e5ff6eb7a2f</webElementGuid>
+      <webElementGuid>1fa80c00-5056-47dd-a42b-7becb6346b3e</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

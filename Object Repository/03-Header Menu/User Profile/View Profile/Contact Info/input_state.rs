@@ -6,19 +6,19 @@
    <elementGuidId>5281cd1b-6a73-4a7a-af49-6e94cebd7a8d</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//input[@type = 'text' and @name = 'state' and @placeholder = 'State']</value>
+         <key>XPATH</key>
+         <value>//input[@data-placeholder='State']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='mat-input-249']</value>
+         <key>BASIC</key>
+         <value>//input[@type = 'text' and @name = 'state' and @placeholder = 'State']</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>#mat-input-249</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -26,6 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
+      <webElementGuid>58ceac1b-15b8-47ff-a08d-acbce14bc776</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -33,6 +34,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
+      <webElementGuid>b7c4a435-cd9b-417f-ae8b-6d269fea5292</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -40,6 +42,7 @@
       <name>maxlength</name>
       <type>Main</type>
       <value>100</value>
+      <webElementGuid>c64148b3-5c6d-4cf7-9c5b-ab74dbb18290</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -47,6 +50,7 @@
       <name>name</name>
       <type>Main</type>
       <value>state</value>
+      <webElementGuid>730ccaaa-c7d1-43d0-b8ba-d0c6566374f8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,6 +58,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-input-element mat-form-field-autofill-control ng-tns-c231-392 cdk-text-field-autofill-monitored ng-untouched ng-pristine ng-invalid</value>
+      <webElementGuid>00567cd6-65c8-4a1d-ab24-a1b04ab55780</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,6 +66,7 @@
       <name>ng-reflect-maxlength</name>
       <type>Main</type>
       <value>100</value>
+      <webElementGuid>922f2302-db3e-4ca9-b5b3-22f4ee381ac3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -68,6 +74,7 @@
       <name>ng-reflect-name</name>
       <type>Main</type>
       <value>state</value>
+      <webElementGuid>4accb81a-7704-4800-9a1d-8ba34a2460a8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -75,6 +82,7 @@
       <name>ng-reflect-type</name>
       <type>Main</type>
       <value>text</value>
+      <webElementGuid>8252360f-64c0-4a42-8170-11dcdaba58db</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -82,6 +90,7 @@
       <name>ng-reflect-placeholder</name>
       <type>Main</type>
       <value>State</value>
+      <webElementGuid>5e4f9c78-7ab6-4c0d-abc4-4f9ab589c12d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -89,6 +98,7 @@
       <name>id</name>
       <type>Main</type>
       <value>mat-input-249</value>
+      <webElementGuid>39f10aa3-6613-447f-b78a-7f2d8ea85e18</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -96,6 +106,7 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>State</value>
+      <webElementGuid>6a80b36b-cddd-4f64-844d-73efdb34477a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -103,6 +114,7 @@
       <name>aria-invalid</name>
       <type>Main</type>
       <value>false</value>
+      <webElementGuid>faa7e32e-1826-4340-a15a-6e5057ebdc0b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -110,6 +122,7 @@
       <name>aria-required</name>
       <type>Main</type>
       <value>true</value>
+      <webElementGuid>ed4b29f5-5be2-4110-8609-147469c1ecda</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -117,6 +130,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-input-249&quot;)</value>
+      <webElementGuid>94799bcf-dc25-4e41-988a-c312955c0705</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -124,6 +138,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='mat-input-249']</value>
+      <webElementGuid>62f1f405-6688-4e89-b8af-09909d870aa6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -131,6 +146,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-dialog-container[@id='mat-dialog-1']/app-dialog-profile-address/section/form/div/div/mat-form-field[5]/div/div/div/input</value>
+      <webElementGuid>34f9b722-69c9-4c7f-8a44-f47ee15be629</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -138,6 +154,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//mat-form-field[5]/div/div/div/input</value>
+      <webElementGuid>0316e484-8269-4755-b985-66644cd33f1e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -145,5 +162,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'text' and @name = 'state' and @id = 'mat-input-249' and @placeholder = 'State']</value>
+      <webElementGuid>f605ed82-08ca-4ae1-87c1-dd09c4ca0a28</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

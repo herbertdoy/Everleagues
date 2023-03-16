@@ -7,14 +7,18 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='cdk-overlay-20']/snack-bar-container</value>
+         <value>//snack-bar-container[(text() = 'Income and Expense tool disabled.OK' or . = 'Income and Expense tool disabled.OK')]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//snack-bar-container[@role = 'status' and (text() = 'Income and Expense tool disabled.OK' or . = 'Income and Expense tool disabled.OK')]</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>snack-bar-container.mat-snack-bar-container.ng-tns-c41-130.ng-trigger.ng-trigger-state.mat-snack-bar-center.ng-star-inserted</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>snack-bar-container</value>
-      <webElementGuid>4111fce8-0c1b-45f1-9be9-d387640d533d</webElementGuid>
+      <webElementGuid>c64f3200-15c8-488e-b007-2f480a16ad41</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-snack-bar-container ng-tns-c41-130 ng-trigger ng-trigger-state mat-snack-bar-center ng-star-inserted</value>
-      <webElementGuid>cc99bb27-3bb9-429e-ae76-3e4c1938033e</webElementGuid>
+      <webElementGuid>b71d80c9-2ca0-4617-9f2e-a94470365b1f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +42,7 @@
       <name>role</name>
       <type>Main</type>
       <value>status</value>
-      <webElementGuid>31e77eff-381c-4d53-92b1-9f249a2f9dec</webElementGuid>
+      <webElementGuid>ca465770-58fa-4adb-98ac-10c24f0c83af</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +50,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Income and Expense tool disabled.OK</value>
-      <webElementGuid>2b49efdb-0ab9-4e34-b29c-eab4d4a7c823</webElementGuid>
+      <webElementGuid>0e6e427b-16ad-4493-a8b8-c301d2fb93dd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +58,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;cdk-overlay-20&quot;)/snack-bar-container[@class=&quot;mat-snack-bar-container ng-tns-c41-130 ng-trigger ng-trigger-state mat-snack-bar-center ng-star-inserted&quot;]</value>
-      <webElementGuid>a56a1a2a-8b33-4562-8057-37fa35e03148</webElementGuid>
+      <webElementGuid>21814a74-8d8a-4a91-82de-1adb357a2f4b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -62,7 +66,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='cdk-overlay-20']/snack-bar-container</value>
-      <webElementGuid>cf1d2b6d-7999-450d-8701-4422a8714fde</webElementGuid>
+      <webElementGuid>fd2b4fd0-db04-47e8-aab3-09e89e8ff704</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Edit image'])[1]/following::snack-bar-container[1]</value>
-      <webElementGuid>77cab6bf-d3a9-4ec6-829e-99523b075c74</webElementGuid>
+      <webElementGuid>8fef1b2b-77d6-4a96-8cab-27b0020af4b4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Client Assignment'])[2]/following::snack-bar-container[1]</value>
-      <webElementGuid>6eab088d-84d4-4233-b678-4c451959cdc5</webElementGuid>
+      <webElementGuid>b9e23b4e-0ff9-4481-95be-4aedf54e9b8b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +90,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//snack-bar-container</value>
-      <webElementGuid>0979ffd8-9647-4729-b312-5aeba22358ec</webElementGuid>
+      <webElementGuid>78977cee-7d3b-4bb6-8227-882e1ca16286</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,6 +98,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//snack-bar-container[(text() = 'Income and Expense tool disabled.OK' or . = 'Income and Expense tool disabled.OK')]</value>
-      <webElementGuid>594363cf-1bee-41f2-b5c9-e39a4710e722</webElementGuid>
+      <webElementGuid>f3a44370-d2d3-4edd-a79b-64de5bd1f6df</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

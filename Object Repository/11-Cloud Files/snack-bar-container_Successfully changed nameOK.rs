@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//snack-bar-container[@role = 'status' and (text() = 'Successfully changed name!OK' or . = 'Successfully changed name!OK')]</value>
+         <value>//snack-bar-container[(text() = 'Successfully changed name!OK' or . = 'Successfully changed name!OK')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

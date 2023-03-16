@@ -41,11 +41,9 @@ WebUI.click(findTestObject('09-Settings/Users/Active User/button_Restore'))
 
 WebUI.verifyElementVisible(findTestObject('09-Settings/Users/Active User/span_Successfully restored user'))
 
-WebUI.click(findTestObject('09-Settings/Users/Active User/button_OK'))
-
 WebUI.delay(3)
 
 WebUI.click(findTestObject('09-Settings/Users/Active User/filter_icon'))
 
-WebUI.delay(5)
+WebUI.delay(4)
 

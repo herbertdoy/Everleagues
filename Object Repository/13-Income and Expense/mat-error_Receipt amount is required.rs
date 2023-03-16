@@ -6,15 +6,19 @@
    <elementGuidId>6221c361-473e-4ed8-ae14-780f07cdbd8c</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>//mat-error[text()=' Receipt amount is required ']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//mat-error[@role = 'alert' and (text() = ' Receipt amount is required ' or . = ' Receipt amount is required ')]</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>#mat-error-23</value>
       </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//mat-error[@id='mat-error-23']</value>
-      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>mat-error</value>
-      <webElementGuid>ec0c9069-797d-473e-9154-63854f079e9b</webElementGuid>
+      <webElementGuid>e65769a4-97f3-4135-8e53-1b7e901160f0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +34,7 @@
       <name>role</name>
       <type>Main</type>
       <value>alert</value>
-      <webElementGuid>eb6b9442-7227-482c-8410-9cda168997de</webElementGuid>
+      <webElementGuid>24c5b5ff-6f71-4024-ac6c-58c989bd88a7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +42,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-error ng-tns-c110-212 ng-star-inserted</value>
-      <webElementGuid>dc3caa64-2952-4f42-98bf-65929781326c</webElementGuid>
+      <webElementGuid>95968c3c-4660-473b-ac50-8114b5d0a776</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +50,7 @@
       <name>id</name>
       <type>Main</type>
       <value>mat-error-23</value>
-      <webElementGuid>893cbd2e-4c50-4abe-b1bc-1ce724f1c2c0</webElementGuid>
+      <webElementGuid>30c3d8ff-cde5-45e8-8e89-203ab0dc0a57</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +58,7 @@
       <name>text</name>
       <type>Main</type>
       <value> Receipt amount is required </value>
-      <webElementGuid>63874a18-dab3-4899-bbf2-6d394891e559</webElementGuid>
+      <webElementGuid>3cadc318-c1bf-4864-8bdb-c335377f8b2e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +66,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-error-23&quot;)</value>
-      <webElementGuid>3d1c6c93-01d8-44ed-9448-95a99ac63cbf</webElementGuid>
+      <webElementGuid>0e80ab97-4825-4307-ab3f-d6d647b52dd1</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -70,7 +74,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//mat-error[@id='mat-error-23']</value>
-      <webElementGuid>d165d0ec-50f2-41de-9175-2f0c089f20e6</webElementGuid>
+      <webElementGuid>287ffd30-6606-4d7d-a34e-a031437e4e49</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +82,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-dialog-container[@id='mat-dialog-21']/app-iet-addreceipt/div/div/form/mat-form-field[4]/div/div[2]/div/mat-error</value>
-      <webElementGuid>625288aa-1b4d-42b2-af31-94bb9018393f</webElementGuid>
+      <webElementGuid>3b86cf77-dae9-4156-b83a-068b8aac8f08</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[4]/following::mat-error[1]</value>
-      <webElementGuid>0cbb2e30-db1a-45d5-9043-668c2484e87c</webElementGuid>
+      <webElementGuid>556fa675-c6fd-48e9-a549-bfaeacd409a2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Amount'])[1]/following::mat-error[1]</value>
-      <webElementGuid>0cea6aac-6170-4f00-811c-079c23b3ede3</webElementGuid>
+      <webElementGuid>7406c625-404f-4a7d-98a5-7dc460e1b00e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +106,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='*Required'])[1]/preceding::mat-error[1]</value>
-      <webElementGuid>bf4359ee-be98-4201-bd1e-e00794260be1</webElementGuid>
+      <webElementGuid>46509179-5b12-48ba-a411-f6fc673b9eff</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +114,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Receipt amount is required']/parent::*</value>
-      <webElementGuid>5ea7947b-d7b5-416e-85f9-c6c37592b3a1</webElementGuid>
+      <webElementGuid>851a3d26-12a3-4d42-9d45-a130226351c8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +122,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//mat-error</value>
-      <webElementGuid>6f3d8e02-4f14-4657-b5d9-c23ec69d04ff</webElementGuid>
+      <webElementGuid>613811a1-6696-4a6e-874c-a4aecf7993b1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,6 +130,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//mat-error[@id = 'mat-error-23' and (text() = ' Receipt amount is required ' or . = ' Receipt amount is required ')]</value>
-      <webElementGuid>c33f5b8e-8d11-453d-a888-49432f8369ac</webElementGuid>
+      <webElementGuid>672cb3ec-4007-46b8-9dba-c488eed5566d</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

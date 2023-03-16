@@ -10,15 +10,15 @@
          <value>//input[@type = 'text' and @name = 'groupName' and @placeholder = 'Group Name']</value>
       </entry>
       <entry>
+         <key>XPATH</key>
+         <value>//input[@data-placeholder='Group Name']</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>#mat-input-10</value>
       </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//input[@id='mat-input-10']</value>
-      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -26,6 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
+      <webElementGuid>297fbc07-0219-4f46-b731-d974795e6711</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -33,6 +34,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
+      <webElementGuid>63e9b9bd-9a9c-479f-88a1-307d5f9c85e2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -40,6 +42,7 @@
       <name>name</name>
       <type>Main</type>
       <value>groupName</value>
+      <webElementGuid>c743a80a-59eb-4935-8223-799719e44345</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,6 +50,7 @@
       <name>maxlength</name>
       <type>Main</type>
       <value>50</value>
+      <webElementGuid>32a529d5-8cee-4e50-bce3-ecb43a7dbf5a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,6 +58,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-input-element mat-form-field-autofill-control ng-tns-c231-135 cdk-text-field-autofill-monitored ng-valid ng-dirty ng-touched</value>
+      <webElementGuid>206d39ec-ba2d-4bda-a825-6a275ef4d58d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,6 +66,7 @@
       <name>ng-reflect-maxlength</name>
       <type>Main</type>
       <value>50</value>
+      <webElementGuid>66ca1f7d-0283-4a15-aa76-86dfcee337ac</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -68,6 +74,7 @@
       <name>ng-reflect-name</name>
       <type>Main</type>
       <value>groupName</value>
+      <webElementGuid>6247b552-7050-4c4a-b0cf-5851ba840e8d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -75,6 +82,7 @@
       <name>ng-reflect-type</name>
       <type>Main</type>
       <value>text</value>
+      <webElementGuid>aba3c350-d897-4e78-93ea-21a66b73c4c9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -82,6 +90,7 @@
       <name>ng-reflect-placeholder</name>
       <type>Main</type>
       <value>Group Name</value>
+      <webElementGuid>866310c5-0c43-4c0e-8fbc-dde2f609ad83</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -89,6 +98,7 @@
       <name>ng-reflect-is-disabled</name>
       <type>Main</type>
       <value>false</value>
+      <webElementGuid>d45d6e91-9f54-4e01-aeac-6a28cecf0b6d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -96,6 +106,7 @@
       <name>ng-reflect-disabled</name>
       <type>Main</type>
       <value>false</value>
+      <webElementGuid>c8807ab7-84b4-46f1-8354-deb46ff36856</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -103,6 +114,7 @@
       <name>id</name>
       <type>Main</type>
       <value>mat-input-10</value>
+      <webElementGuid>27b53f15-323b-420b-be76-d0b7081171b9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -110,6 +122,7 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>Group Name</value>
+      <webElementGuid>30895180-f4a1-4fed-9266-78b43b3ffbd7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -117,6 +130,7 @@
       <name>aria-invalid</name>
       <type>Main</type>
       <value>false</value>
+      <webElementGuid>4887fd17-5fce-4d51-b95e-0ad62f8a8866</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -124,6 +138,7 @@
       <name>aria-required</name>
       <type>Main</type>
       <value>false</value>
+      <webElementGuid>e63c8532-0baa-4a42-b95d-8d73b32836c0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -131,6 +146,7 @@
       <name>ng-reflect-model</name>
       <type>Main</type>
       <value>Automation Chat</value>
+      <webElementGuid>8469ffff-0d02-4478-8723-736c4749962d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -138,6 +154,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-input-10&quot;)</value>
+      <webElementGuid>dff2950f-b04f-4d72-8f25-8ca6c707f0bd</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -145,6 +162,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='mat-input-10']</value>
+      <webElementGuid>75f4b57c-4530-4756-87a5-565f43f3af8f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -152,6 +170,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//form/mat-form-field/div/div/div/input</value>
+      <webElementGuid>c441cd81-5bc3-4fa0-8d71-42b7cd05a76f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -159,5 +178,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'text' and @name = 'groupName' and @id = 'mat-input-10' and @placeholder = 'Group Name']</value>
+      <webElementGuid>8dbe0a36-d644-4fdf-a448-19ea035f622b</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

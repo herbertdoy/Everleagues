@@ -1,0 +1,92 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+08- Operations,Chrome 109.0.0.0,,,2023-02-02 18:48:12,2023-02-02 18:55:23,7m - 10.964s,FAILED
+,,,,,,,
+Test Cases/08- Operations/01 - Client Assignment - Select Org unit,Chrome 109.0.0.0,Need to add this autotester03@mailinator.com as a CLIENT under connection before running this TC,,2023-02-02 18:48:15,2023-02-02 18:51:16,3m - 1.376s,PASSED
+"openBrowser("""")",Chrome 109.0.0.0,,,2023-02-02 18:48:18,2023-02-02 18:48:33,14.256s,PASSED
+"navigateToUrl(""https://lab.everleagues.com/"")",Chrome 109.0.0.0,,,2023-02-02 18:48:33,2023-02-02 18:49:45,1m - 12.235s,PASSED
+maximizeWindow(),Chrome 109.0.0.0,,,2023-02-02 18:49:45,2023-02-02 18:49:46,0.784s,PASSED
+"setText(findTestObject(""02-Side Icons(Organization)/Add Contact/Email Field""), ""testuser02@mailinator.com"")",Chrome 109.0.0.0,,,2023-02-02 18:49:46,2023-02-02 18:49:49,2.853s,PASSED
+"setEncryptedText(findTestObject(""02-Side Icons(Organization)/Add Contact/Password Field""), ""8yFRyszE6U6jvsCn51OQbg=="")",Chrome 109.0.0.0,,,2023-02-02 18:49:49,2023-02-02 18:49:51,2.340s,PASSED
+"click(findTestObject(""02-Side Icons(Organization)/Add Contact/button_Sign in""))",Chrome 109.0.0.0,,,2023-02-02 18:49:51,2023-02-02 18:49:53,1.659s,PASSED
+delay(3),Chrome 109.0.0.0,,,2023-02-02 18:49:53,2023-02-02 18:49:57,4.048s,PASSED
+"click(findTestObject(""06-Teams/For 2FA/button_Confirm_2FA""))",Chrome 109.0.0.0,,,2023-02-02 18:49:57,2023-02-02 18:49:58,1.788s,PASSED
+"executeJavaScript(""window.open();"", [])",Chrome 109.0.0.0,,,2023-02-02 18:49:58,2023-02-02 18:49:59,0.482s,PASSED
+currentWindow = getWindowIndex(),Chrome 109.0.0.0,,,2023-02-02 18:49:59,2023-02-02 18:49:59,0.210s,PASSED
+delay(3),Chrome 109.0.0.0,,,2023-02-02 18:49:59,2023-02-02 18:50:02,3.023s,PASSED
+switchToWindowIndex(currentWindow + 1),Chrome 109.0.0.0,,,2023-02-02 18:50:02,2023-02-02 18:50:02,0.205s,PASSED
+"navigateToUrl(""https://www.mailinator.com/"")",Chrome 109.0.0.0,,,2023-02-02 18:50:02,2023-02-02 18:50:13,10.858s,PASSED
+delay(3),Chrome 109.0.0.0,,,2023-02-02 18:50:13,2023-02-02 18:50:16,3.020s,PASSED
+"setText(findTestObject(""00-Signup and Activation/zMailinator/input_LOGIN_search""), ""testuser02@mailinator.com"")",Chrome 109.0.0.0,,,2023-02-02 18:50:16,2023-02-02 18:50:20,3.249s,PASSED
+"click(findTestObject(""00-Signup and Activation/zMailinator/gobutton""), STOP_ON_FAILURE)",Chrome 109.0.0.0,,,2023-02-02 18:50:20,2023-02-02 18:50:27,7.213s,PASSED
+delay(3),Chrome 109.0.0.0,,,2023-02-02 18:50:27,2023-02-02 18:50:30,3.012s,PASSED
+"click(findTestObject(""00-Signup and Activation/zMailinator/Email - everleagues""))",Chrome 109.0.0.0,,,2023-02-02 18:50:30,2023-02-02 18:50:31,1.029s,PASSED
+delay(3),Chrome 109.0.0.0,,,2023-02-02 18:50:31,2023-02-02 18:50:34,3.020s,PASSED
+"code = getText(findTestObject(""Object Repository/06-Teams/For 2FA/2FA code""))",Chrome 109.0.0.0,,,2023-02-02 18:50:34,2023-02-02 18:50:35,1.382s,PASSED
+delay(3),Chrome 109.0.0.0,,,2023-02-02 18:50:35,2023-02-02 18:50:38,3.011s,PASSED
+"closeWindowTitle(""Mailinator"")",Chrome 109.0.0.0,,,2023-02-02 18:50:38,2023-02-02 18:50:39,0.918s,PASSED
+delay(3),Chrome 109.0.0.0,,,2023-02-02 18:50:39,2023-02-02 18:50:42,3.022s,PASSED
+switchToWindowIndex(0),Chrome 109.0.0.0,,,2023-02-02 18:50:42,2023-02-02 18:50:42,0.052s,PASSED
+delay(3),Chrome 109.0.0.0,,,2023-02-02 18:50:42,2023-02-02 18:50:45,3.023s,PASSED
+"setText(findTestObject(""Object Repository/06-Teams/For 2FA/input_Enter verification code_code""), code)",Chrome 109.0.0.0,,,2023-02-02 18:50:45,2023-02-02 18:50:47,1.528s,PASSED
+delay(3),Chrome 109.0.0.0,,,2023-02-02 18:50:47,2023-02-02 18:50:50,3.018s,PASSED
+"click(findTestObject(""06-Teams/For 2FA/button_Verify_2FA""))",Chrome 109.0.0.0,,,2023-02-02 18:50:50,2023-02-02 18:50:51,1.458s,PASSED
+delay(3),Chrome 109.0.0.0,,,2023-02-02 18:50:51,2023-02-02 18:50:54,3.022s,PASSED
+"click(findTestObject(""03-Header Menu/Hamburger Button/div_Operation""))",Chrome 109.0.0.0,,,2023-02-02 18:50:54,2023-02-02 18:50:59,4.323s,PASSED
+"verifyElementVisible(findTestObject(""08-Operations/Client_Assignment""))",Chrome 109.0.0.0,,,2023-02-02 18:50:59,2023-02-02 18:51:00,1.672s,PASSED
+"verifyElementVisible(findTestObject(""08-Operations/Private_Circle""))",Chrome 109.0.0.0,,,2023-02-02 18:51:00,2023-02-02 18:51:01,1.066s,PASSED
+delay(3),Chrome 109.0.0.0,,,2023-02-02 18:51:01,2023-02-02 18:51:04,3.017s,PASSED
+"click(findTestObject(""08-Operations/Client_Assignment""))",Chrome 109.0.0.0,,,2023-02-02 18:51:04,2023-02-02 18:51:06,1.736s,PASSED
+"verifyElementVisible(findTestObject(""08-Operations/Client Assignment/Client Assignment Page""))",Chrome 109.0.0.0,,,2023-02-02 18:51:06,2023-02-02 18:51:08,1.989s,PASSED
+delay(3),Chrome 109.0.0.0,,,2023-02-02 18:51:08,2023-02-02 18:51:11,3.018s,PASSED
+"click(findTestObject(""08-Operations/Client Assignment/Org unit edit""))",Chrome 109.0.0.0,,,2023-02-02 18:51:11,2023-02-02 18:51:13,1.793s,PASSED
+"verifyElementVisible(findTestObject(""08-Operations/Client Assignment/Select org unit modal""))",Chrome 109.0.0.0,,,2023-02-02 18:51:13,2023-02-02 18:51:15,1.753s,PASSED
+"click(findTestObject(""08-Operations/Client Assignment/button_Select_org unit select""))",Chrome 109.0.0.0,,,2023-02-02 18:51:15,2023-02-02 18:51:16,1.802s,PASSED
+,,,,,,,
+Test Cases/08- Operations/02 - Client Assignment by Employee,Chrome 109.0.0.0,,,2023-02-02 18:51:17,2023-02-02 18:52:06,49.204s,PASSED
+delay(3),Chrome 109.0.0.0,,,2023-02-02 18:51:20,2023-02-02 18:51:23,3.025s,PASSED
+"verifyElementNotClickable(findTestObject(""08-Operations/Client Assignment/button_ Assign""))",Chrome 109.0.0.0,,,2023-02-02 18:51:23,2023-02-02 18:51:24,1.154s,PASSED
+"verifyElementNotClickable(findTestObject(""08-Operations/Client Assignment/button_Unassign""))",Chrome 109.0.0.0,,,2023-02-02 18:51:24,2023-02-02 18:51:25,0.935s,PASSED
+delay(3),Chrome 109.0.0.0,,,2023-02-02 18:51:25,2023-02-02 18:51:28,3.022s,PASSED
+"click(findTestObject(""08-Operations/Client Assignment/div_GG TESTER""))",Chrome 109.0.0.0,,,2023-02-02 18:51:28,2023-02-02 18:51:31,2.782s,PASSED
+"verifyElementVisible(findTestObject(""08-Operations/Client Assignment/Clients column""))",Chrome 109.0.0.0,,,2023-02-02 18:51:31,2023-02-02 18:51:33,1.439s,PASSED
+"verifyElementVisible(findTestObject(""08-Operations/Client Assignment/Assigned Clients empty""))",Chrome 109.0.0.0,,,2023-02-02 18:51:33,2023-02-02 18:51:34,0.977s,PASSED
+delay(3),Chrome 109.0.0.0,,,2023-02-02 18:51:34,2023-02-02 18:51:37,3.021s,PASSED
+"click(findTestObject(""08-Operations/Client Assignment/div_GTGG Tester 3""))",Chrome 109.0.0.0,,,2023-02-02 18:51:37,2023-02-02 18:51:40,3.583s,PASSED
+"verifyElementClickable(findTestObject(""08-Operations/Client Assignment/button_ Assign""))",Chrome 109.0.0.0,,,2023-02-02 18:51:40,2023-02-02 18:51:41,1.222s,PASSED
+"click(findTestObject(""08-Operations/Client Assignment/button_ Assign""))",Chrome 109.0.0.0,,,2023-02-02 18:51:41,2023-02-02 18:51:44,2.082s,PASSED
+"verifyElementVisible(findTestObject(""08-Operations/Client Assignment/Updated assignment msg""))",Chrome 109.0.0.0,,,2023-02-02 18:51:44,2023-02-02 18:51:45,1.683s,PASSED
+delay(3),Chrome 109.0.0.0,,,2023-02-02 18:51:45,2023-02-02 18:51:48,3.022s,PASSED
+"verifyElementVisible(findTestObject(""08-Operations/Client Assignment/Client column Empty""))",Chrome 109.0.0.0,,,2023-02-02 18:51:48,2023-02-02 18:51:51,2.464s,PASSED
+"verifyElementVisible(findTestObject(""08-Operations/Client Assignment/Assigned clients column""))",Chrome 109.0.0.0,,,2023-02-02 18:51:51,2023-02-02 18:51:52,1.162s,PASSED
+delay(3),Chrome 109.0.0.0,,,2023-02-02 18:51:52,2023-02-02 18:51:55,3.013s,PASSED
+"click(findTestObject(""08-Operations/Client Assignment/div_GTGG Tester 3""))",Chrome 109.0.0.0,,,2023-02-02 18:51:55,2023-02-02 18:51:56,0.962s,PASSED
+"verifyElementClickable(findTestObject(""08-Operations/Client Assignment/button_Unassign""))",Chrome 109.0.0.0,,,2023-02-02 18:51:56,2023-02-02 18:51:57,1.373s,PASSED
+"click(findTestObject(""08-Operations/Client Assignment/button_Unassign""))",Chrome 109.0.0.0,,,2023-02-02 18:51:57,2023-02-02 18:51:59,1.868s,PASSED
+"verifyElementVisible(findTestObject(""08-Operations/Client Assignment/Updated assignment msg""))",Chrome 109.0.0.0,,,2023-02-02 18:51:59,2023-02-02 18:52:01,2.111s,PASSED
+delay(3),Chrome 109.0.0.0,,,2023-02-02 18:52:01,2023-02-02 18:52:04,3.013s,PASSED
+"verifyElementVisible(findTestObject(""08-Operations/Client Assignment/Clients column""))",Chrome 109.0.0.0,,,2023-02-02 18:52:04,2023-02-02 18:52:05,0.789s,PASSED
+"verifyElementVisible(findTestObject(""08-Operations/Client Assignment/Assigned Clients empty""))",Chrome 109.0.0.0,,,2023-02-02 18:52:05,2023-02-02 18:52:06,0.730s,PASSED
+,,,,,,,
+Test Cases/08- Operations/03 - Client Assignment by Client,Chrome 109.0.0.0,,,2023-02-02 18:52:06,2023-02-02 18:52:53,47.702s,FAILED
+delay(3),Chrome 109.0.0.0,,,2023-02-02 18:52:10,2023-02-02 18:52:14,3.020s,PASSED
+"click(findTestObject(""08-Operations/Client Assignment/div_By Client""))",Chrome 109.0.0.0,,,2023-02-02 18:52:14,2023-02-02 18:52:15,1.541s,PASSED
+"verifyElementVisible(findTestObject(""08-Operations/Client Assignment/By Client modal""))",Chrome 109.0.0.0,,,2023-02-02 18:52:15,2023-02-02 18:52:16,0.995s,PASSED
+"verifyElementNotClickable(findTestObject(""08-Operations/Client Assignment/button_ Assign""))",Chrome 109.0.0.0,,,2023-02-02 18:52:16,2023-02-02 18:52:17,1.018s,PASSED
+"verifyElementNotClickable(findTestObject(""08-Operations/Client Assignment/button_Unassign""))",Chrome 109.0.0.0,,,2023-02-02 18:52:17,2023-02-02 18:52:18,0.972s,PASSED
+delay(3),Chrome 109.0.0.0,,,2023-02-02 18:52:18,2023-02-02 18:52:21,3.019s,PASSED
+"click(findTestObject(""08-Operations/Client Assignment/div_GTGG Tester 3""))",Chrome 109.0.0.0,,,2023-02-02 18:52:21,2023-02-02 18:52:53,32.365s,FAILED
+,,,,,,,
+Test Cases/08- Operations/04- Private Circle (Selecting a User),Chrome 109.0.0.0,,,2023-02-02 18:52:54,2023-02-02 18:53:38,44.054s,FAILED
+delay(3),Chrome 109.0.0.0,,,2023-02-02 18:52:57,2023-02-02 18:53:00,3.017s,PASSED
+"click(findTestObject(""08-Operations/Private_Circle""))",Chrome 109.0.0.0,,,2023-02-02 18:53:00,2023-02-02 18:53:03,3.383s,PASSED
+"verifyElementVisible(findTestObject(""08-Operations/Private Circle/Private Circle page""))",Chrome 109.0.0.0,,,2023-02-02 18:53:03,2023-02-02 18:53:05,2.133s,PASSED
+"click(findTestObject(""08-Operations/Private Circle/Input_Select user""))",Chrome 109.0.0.0,,,2023-02-02 18:53:05,2023-02-02 18:53:38,32.300s,FAILED
+,,,,,,,
+Test Cases/08- Operations/05 - Adding private circle but with blank fields,Chrome 109.0.0.0,,,2023-02-02 18:53:38,2023-02-02 18:54:13,35.173s,FAILED
+"click(findTestObject(""08-Operations/Private Circle/button_add""))",Chrome 109.0.0.0,,,2023-02-02 18:53:41,2023-02-02 18:54:13,31.988s,FAILED
+,,,,,,,
+Test Cases/08- Operations/06 - Adding a Private Circle Successfully,Chrome 109.0.0.0,,,2023-02-02 18:54:13,2023-02-02 18:54:47,34.251s,FAILED
+"click(findTestObject(""08-Operations/Private Circle/Select User Field is required""))",Chrome 109.0.0.0,,,2023-02-02 18:54:15,2023-02-02 18:54:47,31.834s,FAILED
+,,,,,,,
+Test Cases/08- Operations/07- Deleting a private circle,Chrome 109.0.0.0,,,2023-02-02 18:54:47,2023-02-02 18:55:23,36.007s,FAILED
+"click(findTestObject(""08-Operations/Private Circle/button_delete""))",Chrome 109.0.0.0,,,2023-02-02 18:54:51,2023-02-02 18:55:23,32.272s,FAILED

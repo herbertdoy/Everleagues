@@ -6,12 +6,12 @@
    <elementGuidId>588bf419-5c6a-4ee2-8549-84054f6ff16b</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>id(&quot;mat-radio-8&quot;)/label[@class=&quot;mat-radio-label&quot;]/div[@class=&quot;mat-radio-container&quot;]/div[@class=&quot;mat-radio-outer-circle&quot;]</value>
+         <key>XPATH</key>
+         <value>//span[text()='Free Limited Plan']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>(//label[@class='mat-radio-label']//div)[1]</value>
+         <key>BASIC</key>
+         <value>id(&quot;mat-radio-8&quot;)/label[@class=&quot;mat-radio-label&quot;]/div[@class=&quot;mat-radio-container&quot;]/div[@class=&quot;mat-radio-outer-circle&quot;]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -26,6 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
+      <webElementGuid>9a7855e3-6e87-4d13-bcc9-bb5701a650ab</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -33,6 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-radio-outer-circle</value>
+      <webElementGuid>3c8d52a9-eaff-414f-8bbe-0edd58d8dbd9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -40,6 +42,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-radio-8&quot;)/label[@class=&quot;mat-radio-label&quot;]/div[@class=&quot;mat-radio-container&quot;]/div[@class=&quot;mat-radio-outer-circle&quot;]</value>
+      <webElementGuid>ecec4792-2e06-4443-90fd-c6dc138b6a64</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -47,6 +50,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-radio-button[@id='mat-radio-8']/label/div/div</value>
+      <webElementGuid>7e6d3966-d04d-4b8c-9062-1898c80f3464</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -54,5 +58,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//label/div/div</value>
+      <webElementGuid>4de34a87-1ccd-4a24-b3f4-1e82beb45b5e</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

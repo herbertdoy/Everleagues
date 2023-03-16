@@ -21,6 +21,8 @@ WebUI.delay(2)
 
 WebUI.click(findTestObject('02-Side Icons(Organization)/Client Assignment/button_Client assignment'))
 
+WebUI.clickOffset(findTestObject('02-Side Icons(Organization)/Client Assignment/h4_CLIENT ASSIGNMENT'), 50, 50)
+
 WebUI.delay(3)
 
 WebUI.verifyElementVisible(findTestObject('02-Side Icons(Organization)/Client Assignment/h4_CLIENT ASSIGNMENT'))

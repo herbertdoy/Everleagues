@@ -33,13 +33,13 @@ WebUI.click(findTestObject('09-Settings/Users/Active User/mat-option_External Co
 
 WebUI.verifyElementPresent(findTestObject('09-Settings/Users/Active User/warning_when_changing_role'), 0)
 
-WebUI.delay(4)
+WebUI.delay(3)
 
 WebUI.click(findTestObject('09-Settings/Users/Active User/div_roleTypeDropdown'))
 
 WebUI.click(findTestObject('09-Settings/Users/Active User/mat-option_None'))
 
-WebUI.delay(4)
+WebUI.delay(3)
 
 WebUI.click(findTestObject('09-Settings/Users/Active User/button_Save'))
 
@@ -59,19 +59,17 @@ WebUI.click(findTestObject('09-Settings/Users/Active User/mat-option_CoWorker'))
 
 WebUI.verifyElementPresent(findTestObject('09-Settings/Users/Active User/warning_when_changing_role'), 0)
 
-WebUI.delay(4)
+WebUI.delay(3)
 
 WebUI.click(findTestObject('09-Settings/Users/Active User/div_roleTypeDropdown'))
 
 WebUI.click(findTestObject('09-Settings/Users/Active User/mat-option_None'))
 
-WebUI.delay(4)
+WebUI.delay(3)
 
 WebUI.click(findTestObject('09-Settings/Users/Active User/button_Save'))
 
 WebUI.verifyElementPresent(findTestObject('09-Settings/Users/Active User/span_Successfully changed user role'), 0)
-
-WebUI.click(findTestObject('09-Settings/Users/Active User/button_OK'))
 
 WebUI.delay(3)
 

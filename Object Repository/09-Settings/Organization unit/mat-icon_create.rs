@@ -7,18 +7,18 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input-select-ou[@id='input-select-ou-0']/div/mat-icon</value>
-      </entry>
-      <entry>
-         <key>CSS</key>
-         <value>mat-icon.mat-icon.notranslate.suffix-icon.material-icons.mat-icon-no-color.ng-star-inserted</value>
+         <value>(//mat-icon[text()='create'])[2]</value>
       </entry>
       <entry>
          <key>BASIC</key>
          <value>//mat-icon[@role = 'img' and @class = 'mat-icon notranslate suffix-icon material-icons mat-icon-no-color ng-star-inserted' and (text() = 'create' or . = 'create')]</value>
       </entry>
+      <entry>
+         <key>CSS</key>
+         <value>mat-icon.mat-icon.notranslate.suffix-icon.material-icons.mat-icon-no-color.ng-star-inserted</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -26,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>mat-icon</value>
-      <webElementGuid>c3c088b0-8e26-4f46-9a3c-b372ece85233</webElementGuid>
+      <webElementGuid>38ce14b9-d68a-4609-81d4-b2cc0955d215</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -34,7 +34,7 @@
       <name>role</name>
       <type>Main</type>
       <value>img</value>
-      <webElementGuid>dd544272-02cd-4f55-bfd7-f7720673add1</webElementGuid>
+      <webElementGuid>5e92866e-ded8-48fe-85ed-056d0b546af1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -42,7 +42,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-icon notranslate suffix-icon material-icons mat-icon-no-color ng-star-inserted</value>
-      <webElementGuid>922b0d61-d5d9-4028-a7bf-49402b988b30</webElementGuid>
+      <webElementGuid>9f4e47ac-e6cf-4f6d-b036-dfe5cfcc3fbd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,7 +50,7 @@
       <name>aria-hidden</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>bb93da65-9c5f-4aa2-913a-7ce3bf8e9faf</webElementGuid>
+      <webElementGuid>eadeec00-d6b8-4583-af61-5cd4c4912fbf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -58,7 +58,7 @@
       <name>text</name>
       <type>Main</type>
       <value>create</value>
-      <webElementGuid>149328f0-f44a-4924-ae23-88721dcc20b7</webElementGuid>
+      <webElementGuid>1b6c2726-31bd-4893-b3dd-f42f8d0df2f8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -66,7 +66,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;input-select-ou-0&quot;)/div[@class=&quot;ng-pristine ng-valid ng-touched&quot;]/mat-icon[@class=&quot;mat-icon notranslate suffix-icon material-icons mat-icon-no-color ng-star-inserted&quot;]</value>
-      <webElementGuid>862ed7ed-d325-4c69-b19c-6705a223dfc4</webElementGuid>
+      <webElementGuid>a604311f-c2df-43db-905b-bf4eccfc648c</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -74,7 +74,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//input-select-ou[@id='input-select-ou-0']/div/mat-icon</value>
-      <webElementGuid>c38c483f-0e80-4cf6-b14d-85194527c1be</webElementGuid>
+      <webElementGuid>45a97402-df09-458d-ba03-012834649b03</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Name'])[2]/following::mat-icon[1]</value>
-      <webElementGuid>ed503b89-3c37-4365-9065-1a07c140b10e</webElementGuid>
+      <webElementGuid>dce80afa-cad6-42ba-8125-dec33f86045b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -90,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Add Organization Unit'])[1]/following::mat-icon[1]</value>
-      <webElementGuid>808d446a-58f4-46d7-8e87-14b570fc8a14</webElementGuid>
+      <webElementGuid>84ff54d2-282e-4134-9c9f-fec9555f7cdb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,7 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Parent Organization Unit Name'])[1]/preceding::mat-icon[1]</value>
-      <webElementGuid>72428125-2484-4145-b521-d882a8446a3f</webElementGuid>
+      <webElementGuid>9fdbf493-5564-411b-93d6-4b2ee29a72dd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,7 +106,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Organization Unit Name'])[1]/preceding::mat-icon[1]</value>
-      <webElementGuid>539e57e8-fca0-402d-b31a-7ebab3dac57e</webElementGuid>
+      <webElementGuid>7f89a9d7-b339-4abe-93bd-93e4e7ffb923</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -114,7 +114,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//input-select-ou/div/mat-icon</value>
-      <webElementGuid>7b35f138-e79e-4051-8ebd-8d336012a34c</webElementGuid>
+      <webElementGuid>feb25c4a-466a-45f6-ba99-985a12b75e00</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -122,6 +122,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//mat-icon[(text() = 'create' or . = 'create')]</value>
-      <webElementGuid>dfb12351-aaad-4f66-aec1-bbb8431230c9</webElementGuid>
+      <webElementGuid>938252d5-902a-4958-a89f-8714978b2d95</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

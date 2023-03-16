@@ -6,19 +6,19 @@
    <elementGuidId>e2cc633f-bfe2-4bad-9478-23a4ae242aa2</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//h4[@id='mat-dialog-title-2']</value>
+         <key>BASIC</key>
+         <value>//h4[@class = 'mat-dialog-title' and (text() = 'Reactivate User' or . = 'Reactivate User')]</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>#mat-dialog-title-2</value>
       </entry>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
          <value>//h4[@class = 'mat-dialog-title' and (text() = 'Reactivate User' or . = 'Reactivate User')]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -26,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>h4</value>
-      <webElementGuid>7899324e-9c04-4ef4-bbb4-3d3b32f62c84</webElementGuid>
+      <webElementGuid>9da54712-9196-48c5-87ed-2b584e043a0e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -34,7 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-dialog-title</value>
-      <webElementGuid>4359dafa-df06-418d-8eee-85426c9b86a4</webElementGuid>
+      <webElementGuid>f390a410-0e5d-4f0b-b185-e4895909a78b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,7 +42,7 @@
       <name>id</name>
       <type>Main</type>
       <value>mat-dialog-title-2</value>
-      <webElementGuid>65d77f71-65cc-49ec-bf15-1f102452edea</webElementGuid>
+      <webElementGuid>23d2db71-6427-488c-883f-1619043f74fd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -50,7 +50,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Reactivate User</value>
-      <webElementGuid>f46501c7-e3fe-480d-b489-4126a2b3731e</webElementGuid>
+      <webElementGuid>41f187e7-2eeb-4416-bc05-240db70e03b1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -58,7 +58,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-dialog-title-2&quot;)</value>
-      <webElementGuid>8350acaf-3a2a-455a-82da-9aa5f07740c3</webElementGuid>
+      <webElementGuid>f315a6d5-2e83-462e-8f4e-188b74c70ac7</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -66,7 +66,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//h4[@id='mat-dialog-title-2']</value>
-      <webElementGuid>42eab892-ff1d-4ba7-89c6-074ace9334b4</webElementGuid>
+      <webElementGuid>19c67402-e83c-4713-ab55-8f7aff431ad6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -74,7 +74,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-dialog-container[@id='mat-dialog-2']/app-dialog-suspend-user/section/div/h4</value>
-      <webElementGuid>b5c0d30b-7593-4b99-9faf-fb01c0baf93b</webElementGuid>
+      <webElementGuid>ed00614a-1ef7-4ae6-b3c5-4d1fce8a6a97</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('id(', '&quot;', 'mat-dialog-title-2', '&quot;', ')')])[1]/following::h4[1]</value>
-      <webElementGuid>30cd1e9c-c49e-4475-802b-4aa4859cc7e0</webElementGuid>
+      <webElementGuid>14911949-a4c9-42fa-a2e9-c1070761447f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -90,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='`'])[2]/following::h4[1]</value>
-      <webElementGuid>980d0bde-e0e9-42d7-816a-c331b82ae80b</webElementGuid>
+      <webElementGuid>da8ac488-a2e5-4cd6-9659-863bc9332a9b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,7 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Are you sure you want to reactivate user ?'])[1]/preceding::h4[1]</value>
-      <webElementGuid>1898a7da-2d79-480a-9679-ec852a5593f4</webElementGuid>
+      <webElementGuid>f4a32ddb-102b-4ca4-a376-a895466d857b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,7 +106,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Reactivate'])[1]/preceding::h4[1]</value>
-      <webElementGuid>445ca507-3a56-48ff-b83a-8826c031c2e7</webElementGuid>
+      <webElementGuid>dc656a44-9f1f-482e-a9e1-a70f362bcadd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -114,7 +114,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Reactivate User']/parent::*</value>
-      <webElementGuid>c2b6531b-758d-49dd-a0c9-a335aea59b00</webElementGuid>
+      <webElementGuid>995c3889-41a1-44d7-93be-75c6b0b628ed</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -122,7 +122,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//section/div/h4</value>
-      <webElementGuid>bf366a9a-d374-4e80-b541-988f9677b860</webElementGuid>
+      <webElementGuid>39504e7d-180b-41ff-9c7b-6ecfc8a6c507</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -130,6 +130,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//h4[@id = 'mat-dialog-title-2' and (text() = 'Reactivate User' or . = 'Reactivate User')]</value>
-      <webElementGuid>2222ef58-5754-4e21-ae53-d9b1832207df</webElementGuid>
+      <webElementGuid>2da18542-440e-4720-ad98-d324a3164f08</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

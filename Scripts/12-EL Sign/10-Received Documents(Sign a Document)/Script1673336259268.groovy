@@ -25,7 +25,7 @@ WebUI.navigateToUrl('https://lab.everleagues.com/')
 
 WebUI.maximizeWindow()
 
-WebUI.callTestCase(findTestCase('01-Login and Forgot Password/Login(Valid Credentials-With Subscription)'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('01-Login and Forgot Password/04-Login(Valid Credentials-With Subscription)'), [:], FailureHandling.STOP_ON_FAILURE)
 
 //WebUI.setText(findTestObject('02-Side Icons(Organization)/Add Contact/Email Field'), 'testuser02@mailinator.com')
 //WebUI.setEncryptedText(findTestObject('02-Side Icons(Organization)/Add Contact/Password Field'), '8yFRyszE6U6jvsCn51OQbg==')
@@ -126,7 +126,7 @@ WebUI.click(findTestObject('12-EL Sign/button_save Save Settings'))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('12-EL Sign/div_signature'))
+WebUI.click(findTestObject('12-EL Sign/div_signature2'))
 
 CustomKeywords.'uploadpackage.Upload.uploadFile'(findTestObject('12-EL Sign/div_upload_mat-checkbox'), 'C:\\Users\\asus\\Desktop\\EL automation\\qa.jpg')
 

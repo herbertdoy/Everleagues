@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//div[@class='mat-slide-toggle-thumb'])[3]</value>
+         <value>(//span[@class='mat-slide-toggle-bar mat-slide-toggle-bar-no-side-margin'])[3]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -18,7 +18,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>DIV</value>
-      <webElementGuid>efe82007-b173-4357-82f6-0dc3950ea308</webElementGuid>
+      <webElementGuid>65627a73-d1eb-4291-885e-a3f44af6fb59</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -26,6 +26,6 @@
       <name>xpath</name>
       <type>Main</type>
       <value>xpath1665646777071</value>
-      <webElementGuid>d223204d-b7f2-4290-bba6-fcbb243b70a3</webElementGuid>
+      <webElementGuid>6069daab-7ab3-4b0e-9107-22d2351b247b</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

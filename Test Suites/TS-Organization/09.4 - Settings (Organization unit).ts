@@ -24,18 +24,6 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/09-Settings/20 - Organization unit - Join Request Link</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>cbe3f60b-3540-4874-bd1b-6223e1d2c167</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>be00416e-158e-4adb-bdef-06eccf299f50</variableId>
-      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>0db04406-35ab-4881-abe6-f7abd6fd0574</guid>

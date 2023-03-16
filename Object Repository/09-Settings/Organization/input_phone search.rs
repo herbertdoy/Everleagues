@@ -6,12 +6,12 @@
    <elementGuidId>9c4a52a9-933b-4db2-afb8-8bd0b930633f</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@type='text']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>input.country-search.ng-untouched.ng-pristine.ng-valid.ng-tns-c98-50.ng-star-inserted</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@placeholder='Search ...']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>6167c0a7-4361-411b-9212-f35c030a1282</webElementGuid>
+      <webElementGuid>8893d5a1-a85e-411c-9b50-1b44290e6302</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>02ef7f97-5f08-45bd-863c-354d97ff0378</webElementGuid>
+      <webElementGuid>ef2c0949-2325-43bf-b86f-e69a1e53787c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>class</name>
       <type>Main</type>
       <value>country-search ng-untouched ng-pristine ng-valid ng-tns-c98-50 ng-star-inserted</value>
-      <webElementGuid>4586594d-230c-4067-82da-6cf7ffaac6c4</webElementGuid>
+      <webElementGuid>cb4908aa-603e-4b9d-97a0-cb7fd0de4565</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>Search ...</value>
-      <webElementGuid>9e7a533c-7f2c-4961-9726-e5dbce3e4c78</webElementGuid>
+      <webElementGuid>e578f3b4-c994-4e89-b2d1-7251fceda026</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-menu-panel-7&quot;)/div[@class=&quot;mat-menu-content ng-tns-c98-50&quot;]/input[@class=&quot;country-search ng-untouched ng-pristine ng-valid ng-tns-c98-50 ng-star-inserted&quot;]</value>
-      <webElementGuid>74637236-d115-40a8-9033-ce337e68ac4b</webElementGuid>
+      <webElementGuid>66f4c576-bfbc-4747-81d9-d29c78674a9c</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@type='text']</value>
-      <webElementGuid>cc99900f-e5e1-4ec1-afa1-86e6e49b1662</webElementGuid>
+      <webElementGuid>e1ed9036-f34c-4b03-ae48-ad074f12acd7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='mat-menu-panel-7']/div/input</value>
-      <webElementGuid>f7d7070a-a363-4bfc-ab53-83ee30d864fa</webElementGuid>
+      <webElementGuid>88904940-8704-42a0-9a1b-9c106c3d14ef</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div/div/input</value>
-      <webElementGuid>b1b89bea-c4d7-43fc-b2c9-7d58fbc2f8b4</webElementGuid>
+      <webElementGuid>819383a3-0ff8-45ec-a696-c22f567b43b7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,6 +86,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'text' and @placeholder = 'Search ...']</value>
-      <webElementGuid>4e71c065-e31b-46a7-ad30-663733a5f952</webElementGuid>
+      <webElementGuid>d8b38f88-539e-4c52-946c-25e775c4c9c8</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

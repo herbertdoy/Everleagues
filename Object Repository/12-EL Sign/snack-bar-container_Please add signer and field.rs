@@ -6,15 +6,19 @@
    <elementGuidId>59b3fe53-d95c-418c-9249-d8e9e2d90437</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>//snack-bar-container[(text() = 'Please add signer and field' or . = 'Please add signer and field')]</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>snack-bar-container.mat-snack-bar-container.ng-tns-c41-82.ng-trigger.ng-trigger-state.mat-snack-bar-center.ng-star-inserted</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='cdk-overlay-18']/snack-bar-container</value>
+         <key>BASIC</key>
+         <value>//snack-bar-container[@role = 'status' and (text() = 'Please add signer and field' or . = 'Please add signer and field')]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>snack-bar-container</value>
-      <webElementGuid>2df9e271-5992-4820-ac02-c0365ed61c86</webElementGuid>
+      <webElementGuid>e801064f-3d35-4947-bb34-e60eda514117</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-snack-bar-container ng-tns-c41-82 ng-trigger ng-trigger-state mat-snack-bar-center ng-star-inserted</value>
-      <webElementGuid>711511ea-6ac2-4bd8-9a5d-3f16a555f5e9</webElementGuid>
+      <webElementGuid>f2f801fb-88c1-44b7-b1db-7fed6d93720b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +42,7 @@
       <name>role</name>
       <type>Main</type>
       <value>status</value>
-      <webElementGuid>7b53fd45-fcbc-4a32-883f-0c5b1b1f5141</webElementGuid>
+      <webElementGuid>82982dd6-1062-40fe-9658-c84d16ffb643</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +50,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Please add signer and field</value>
-      <webElementGuid>b1e31ff1-f65c-4b5c-b42a-a9e1fd06b70f</webElementGuid>
+      <webElementGuid>0f6c3042-5c2c-474c-9516-b7038fbfa4fc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +58,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;cdk-overlay-18&quot;)/snack-bar-container[@class=&quot;mat-snack-bar-container ng-tns-c41-82 ng-trigger ng-trigger-state mat-snack-bar-center ng-star-inserted&quot;]</value>
-      <webElementGuid>4f9577a0-4f8a-415e-84cf-1edd17f8c66b</webElementGuid>
+      <webElementGuid>72a96032-8f76-4fbd-b729-c231da11f542</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -62,7 +66,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='cdk-overlay-18']/snack-bar-container</value>
-      <webElementGuid>82ea5acf-31af-4ce6-884c-21cb8ffdaee1</webElementGuid>
+      <webElementGuid>43d27c79-6bad-4960-be2f-ec5b4fde44a8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Please add signer and field'])[1]/following::snack-bar-container[1]</value>
-      <webElementGuid>24bb27af-a44c-4d6e-8ebc-b3f079cdc147</webElementGuid>
+      <webElementGuid>bf575733-1fce-4a87-91d1-077bd7f088b4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='COMPLETE'])[2]/following::snack-bar-container[1]</value>
-      <webElementGuid>0ecb2044-fea4-4ea0-b648-234bedfab4bc</webElementGuid>
+      <webElementGuid>caa52a3d-c4cb-4254-a75f-3ee1df78270b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Hide Quick Shortcuts'])[1]/preceding::snack-bar-container[1]</value>
-      <webElementGuid>8e5798cf-11b8-41a5-a1fd-9d60fedad1b9</webElementGuid>
+      <webElementGuid>f5dc06e9-a784-47d1-8f67-093f7f053d9d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +98,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//snack-bar-container</value>
-      <webElementGuid>57006f99-00ce-4e0c-8ebd-665ab6d9e41a</webElementGuid>
+      <webElementGuid>a08d154f-48f5-4bc9-ad8b-5748dc9fd16c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,6 +106,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//snack-bar-container[(text() = 'Please add signer and field' or . = 'Please add signer and field')]</value>
-      <webElementGuid>6f78aa62-a61f-4142-8eca-e49d4ed572e7</webElementGuid>
+      <webElementGuid>7e77541b-ba92-4d92-b70f-2796a86710bf</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

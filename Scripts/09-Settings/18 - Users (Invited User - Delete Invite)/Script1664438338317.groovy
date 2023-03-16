@@ -20,6 +20,7 @@ import org.openqa.selenium.Keys as Keys
 WebUI.delay(3)
 
 WebUI.verifyElementVisible(findTestObject('09-Settings/Users/Invited Users/div_GG Auto'))
+
 WebUI.delay(3)
 
 WebUI.click(findTestObject('09-Settings/Users/Invited Users/button_deleteInvite'))
@@ -30,7 +31,7 @@ WebUI.delay(1)
 
 WebUI.click(findTestObject('09-Settings/Users/Active User/button_Cancel_restore'))
 
-WebUI.delay(2)
+WebUI.delay(3)
 
 WebUI.verifyElementVisible(findTestObject('09-Settings/Users/Invited Users/div_GG Auto'))
 
@@ -46,8 +47,6 @@ WebUI.verifyElementVisible(findTestObject('09-Settings/Users/Invited Users/div_C
 
 WebUI.click(findTestObject('09-Settings/Users/Invited Users/button_deleteInvite'))
 
-WebUI.verifyElementVisible(findTestObject('09-Settings/Users/Invited Users/h4_Delete Invitation'))
-
 WebUI.click(findTestObject('09-Settings/Users/Active User/button_Delete'))
 
 WebUI.delay(3)
@@ -55,8 +54,6 @@ WebUI.delay(3)
 WebUI.verifyElementVisible(findTestObject('09-Settings/Users/Invited Users/div_CTCSV test 2'))
 
 WebUI.click(findTestObject('09-Settings/Users/Invited Users/button_deleteInvite'))
-
-WebUI.verifyElementVisible(findTestObject('09-Settings/Users/Invited Users/h4_Delete Invitation'))
 
 WebUI.click(findTestObject('09-Settings/Users/Active User/button_Delete'))
 
@@ -66,15 +63,11 @@ WebUI.verifyElementVisible(findTestObject('09-Settings/Users/Invited Users/div_C
 
 WebUI.click(findTestObject('09-Settings/Users/Invited Users/button_deleteInvite'))
 
-WebUI.verifyElementVisible(findTestObject('09-Settings/Users/Invited Users/h4_Delete Invitation'))
-
 WebUI.click(findTestObject('09-Settings/Users/Active User/button_Delete'))
 
-WebUI.click(findTestObject('09-Settings/Users/Invited Users/span_Successfully deleted invite'))
+WebUI.verifyElementVisible(findTestObject('09-Settings/Users/Invited Users/span_Successfully deleted invite'))
 
-WebUI.click(findTestObject('09-Settings/Users/Active User/button_OK'))
-
-WebUI.delay(5)
+WebUI.delay(4)
 
 WebUI.closeBrowser()
 

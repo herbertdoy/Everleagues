@@ -19,9 +19,9 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/div_Contact Info'))
+//WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/div_Contact Info'))
 
-WebUI.delay(1)
+//WebUI.delay(1)
 
 WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Contact Info/add address button'))
 

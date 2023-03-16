@@ -32,7 +32,7 @@ WebUI.setText(findTestObject('13-Income and Expense/input_Amount'), '30000')
 WebUI.setText(findTestObject('13-Income and Expense/input_AddANote'), 'Receipt Note')
 
 CustomKeywords.'uploadpackage.Upload.uploadFile'(findTestObject('Object Repository/13-Income and Expense/div_Required_uploadfilecontainer'), 
-    'C:\\Users\\User\\Desktop\\EL automation\\sample.pdf')
+    'C:\\Users\\asus\\Desktop\\EL automation\\sample.pdf')
 
 WebUI.delay(3)
 

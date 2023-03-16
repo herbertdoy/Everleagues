@@ -29,7 +29,7 @@ WebUI.setEncryptedText(findTestObject('03-Header Menu/User Profile/Change Passwo
 
 WebUI.setText(findTestObject('03-Header Menu/User Profile/Change Password/input_new password'), 'wrongformatpass')
 
-WebUI.setText(findTestObject('03-Header Menu/User Profile/Change Password/input_Confirm password'), 'newpassdontmatch')
+WebUI.setText(findTestObject('03-Header Menu/User Profile/Change Password/input_Confirm password'), 'xmatch')
 
 WebUI.click(findTestObject('03-Header Menu/User Profile/Change Password/input_Old password'))
 

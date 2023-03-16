@@ -6,19 +6,19 @@
    <elementGuidId>b5722da6-ca77-4a49-a85d-a0976144a844</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='mat-input-8']</value>
+         <key>BASIC</key>
+         <value>//input[@ng-reflect-placeholder = 'Street' and @placeholder = 'Street']</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>#mat-input-8</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//input[@ng-reflect-placeholder = 'Street' and @placeholder = 'Street']</value>
+         <key>XPATH</key>
+         <value>//input[@data-placeholder='Street']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -26,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>8d31305b-80f6-4eb1-a504-d9e8916b3423</webElementGuid>
+      <webElementGuid>98e167f3-b1d3-427c-964b-43caa0cfc67c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -34,7 +34,7 @@
       <name>maxlength</name>
       <type>Main</type>
       <value>150</value>
-      <webElementGuid>3f6eb20f-e58a-414c-8490-12e7e274acb7</webElementGuid>
+      <webElementGuid>c1be420d-c57c-4ca0-a5fd-24323f4c0972</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,7 +42,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-input-element mat-form-field-autofill-control ng-tns-c110-45 cdk-text-field-autofill-monitored ng-untouched ng-pristine ng-valid</value>
-      <webElementGuid>ec674b6f-b7da-4c90-a1ac-e5f8cad1f445</webElementGuid>
+      <webElementGuid>7ddd0724-91e0-4715-95d4-9308b110eae3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,7 +50,7 @@
       <name>ng-reflect-maxlength</name>
       <type>Main</type>
       <value>150</value>
-      <webElementGuid>ffa9a6a1-a82a-45bb-836b-4dfa70858ce6</webElementGuid>
+      <webElementGuid>46c9a4e5-be26-40fb-b9ad-19318a286730</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -58,7 +58,7 @@
       <name>ng-reflect-placeholder</name>
       <type>Main</type>
       <value>Street</value>
-      <webElementGuid>0541d5bf-cb19-42a2-8f26-b3d9addd7bd3</webElementGuid>
+      <webElementGuid>f2e9c951-ab77-4d36-9da5-6730f63999a9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -66,7 +66,7 @@
       <name>id</name>
       <type>Main</type>
       <value>mat-input-8</value>
-      <webElementGuid>0b5be63a-fd2c-4ada-aadb-ea2e1387f002</webElementGuid>
+      <webElementGuid>9d148cf0-bfbd-4aac-bb40-186075fc0d4f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -74,7 +74,7 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>Street</value>
-      <webElementGuid>d6dea42e-61a9-4471-92ef-17a30602207a</webElementGuid>
+      <webElementGuid>10aefd85-d9b9-4934-8829-ccb7a50b337b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -82,7 +82,7 @@
       <name>aria-invalid</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>699e964b-90a6-44ac-829c-7e24796ed12c</webElementGuid>
+      <webElementGuid>7e0d1b7d-8f0d-4690-8a27-07ca3e356530</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -90,7 +90,7 @@
       <name>aria-required</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>1fdafe76-a6fb-455f-b37c-8185fa8871c6</webElementGuid>
+      <webElementGuid>dce7f4d2-990c-42ed-adc6-1aa4a9f1634d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -98,7 +98,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-input-8&quot;)</value>
-      <webElementGuid>be050800-6bae-4e2e-9331-3407b9017bdf</webElementGuid>
+      <webElementGuid>f418f357-ceb9-458d-88f5-2a38a2067652</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -106,7 +106,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='mat-input-8']</value>
-      <webElementGuid>7a3ba4cd-3493-4068-9c73-f5e649cc7d5a</webElementGuid>
+      <webElementGuid>de9435bd-7141-4c28-95a8-b497c567150c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -114,7 +114,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-tab-body[@id='mat-tab-content-0-0']/div/section/div[2]/mat-card/mat-card-content/div/mat-form-field/div/div/div/input</value>
-      <webElementGuid>77649db0-f448-4fc3-87fb-957010cc88d8</webElementGuid>
+      <webElementGuid>89a8273c-45ea-416d-a7f9-7b12185dee7b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -122,7 +122,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/mat-card/mat-card-content/div/mat-form-field/div/div/div/input</value>
-      <webElementGuid>7e976fdd-9912-4988-8578-4b8b8d2e3a48</webElementGuid>
+      <webElementGuid>0642727c-a35d-4307-b22c-a619a43049ff</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -130,6 +130,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@id = 'mat-input-8' and @placeholder = 'Street']</value>
-      <webElementGuid>7f1fa2e4-ce67-4b7e-9354-90ccc252f5b4</webElementGuid>
+      <webElementGuid>e61c339c-d526-4849-8880-b2d9886a5138</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

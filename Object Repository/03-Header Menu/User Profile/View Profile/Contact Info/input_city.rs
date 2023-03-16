@@ -6,19 +6,19 @@
    <elementGuidId>551e3de8-0877-47ff-89cb-66acdddb0888</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//input[@type = 'text' and @name = 'city' and @placeholder = 'City']</value>
+         <key>XPATH</key>
+         <value>//input[@data-placeholder='City']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='mat-input-248']</value>
+         <key>BASIC</key>
+         <value>//input[@type = 'text' and @name = 'city' and @placeholder = 'City']</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>#mat-input-248</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -26,6 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
+      <webElementGuid>69143b1d-c167-47cf-9002-0fa02643fba9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -33,6 +34,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
+      <webElementGuid>8b7fdf1c-c5e6-44d2-8124-cd31ee394b49</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -40,6 +42,7 @@
       <name>maxlength</name>
       <type>Main</type>
       <value>100</value>
+      <webElementGuid>ca40082c-d474-46c7-a001-dd055364997e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -47,6 +50,7 @@
       <name>name</name>
       <type>Main</type>
       <value>city</value>
+      <webElementGuid>48a2ce2f-9eb3-413f-98be-95490538b29c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,6 +58,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-input-element mat-form-field-autofill-control ng-tns-c231-391 cdk-text-field-autofill-monitored ng-untouched ng-pristine ng-invalid</value>
+      <webElementGuid>dfe5a506-6922-46b0-bf09-3531dfee59ae</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,6 +66,7 @@
       <name>ng-reflect-maxlength</name>
       <type>Main</type>
       <value>100</value>
+      <webElementGuid>30bb3eee-c965-405f-a955-6113b27d22b9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -68,6 +74,7 @@
       <name>ng-reflect-name</name>
       <type>Main</type>
       <value>city</value>
+      <webElementGuid>38241a1a-4921-4df5-8e4d-212bcdceff6f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -75,6 +82,7 @@
       <name>ng-reflect-type</name>
       <type>Main</type>
       <value>text</value>
+      <webElementGuid>92689b1a-ccd4-4277-ba76-1c1b2c9ca4c1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -82,6 +90,7 @@
       <name>ng-reflect-placeholder</name>
       <type>Main</type>
       <value>City</value>
+      <webElementGuid>c0cdf046-f29b-47c9-9b94-9e9b7c4ae479</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -89,6 +98,7 @@
       <name>id</name>
       <type>Main</type>
       <value>mat-input-248</value>
+      <webElementGuid>0b07ad77-eb2a-4a55-a9e1-0916dbe5e186</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -96,6 +106,7 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>City</value>
+      <webElementGuid>52c57f75-958b-4a83-8ed7-ca6ad6ffb894</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -103,6 +114,7 @@
       <name>aria-invalid</name>
       <type>Main</type>
       <value>false</value>
+      <webElementGuid>45cba7e5-6a25-4517-8933-18fe9eeef17a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -110,6 +122,7 @@
       <name>aria-required</name>
       <type>Main</type>
       <value>true</value>
+      <webElementGuid>13ed6173-4040-4991-afc4-46941f1af603</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -117,6 +130,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-input-248&quot;)</value>
+      <webElementGuid>7d65aa39-2061-43b3-bf4e-0923971d3f3f</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -124,6 +138,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='mat-input-248']</value>
+      <webElementGuid>d77f8dab-ec19-4e76-92b2-34beda443c70</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -131,6 +146,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-dialog-container[@id='mat-dialog-1']/app-dialog-profile-address/section/form/div/div/mat-form-field[4]/div/div/div/input</value>
+      <webElementGuid>a1eef82d-a8dc-4bef-8cf7-c83ea44c138b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -138,6 +154,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//mat-form-field[4]/div/div/div/input</value>
+      <webElementGuid>4d556b1c-1e4f-4c3c-934f-d7e581d8fe46</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -145,5 +162,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'text' and @name = 'city' and @id = 'mat-input-248' and @placeholder = 'City']</value>
+      <webElementGuid>1e11e93b-da9f-4d47-8542-9021460adbe3</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -6,12 +6,11 @@
    <elementGuidId>1e00bc9d-72cf-48fb-9e82-037d8d8a517a</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(//div[@class='mat-checkbox-inner-container mat-checkbox-inner-container-no-side-margin'])[1]</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//b[text()='Signature ']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

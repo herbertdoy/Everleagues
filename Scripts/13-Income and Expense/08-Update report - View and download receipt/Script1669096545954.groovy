@@ -19,8 +19,10 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.click(findTestObject('13-Income and Expense/button_visibility'))
 
-WebUI.click(findTestObject('13-Income and Expense/button_CANCEL2'))
+WebUI.refresh()
 
+//WebUI.scrollToElement(findTestObject('13-Income and Expense/button_CANCEL2'), 0)
+///WebUI.click(findTestObject('13-Income and Expense/button_CANCEL2'))
 WebUI.delay(2)
 
 WebUI.click(findTestObject('13-Income and Expense/button_download2'))

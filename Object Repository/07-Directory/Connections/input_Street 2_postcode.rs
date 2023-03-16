@@ -6,6 +6,10 @@
    <elementGuidId>112b8c74-744a-4a81-8242-525cda657fca</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>//input[@data-placeholder='Zip / Postal Code']</value>
+      </entry>
+      <entry>
          <key>BASIC</key>
          <value>//*[@type = 'text' and @name = 'postcode' and @placeholder = 'Zip / Postal Code']</value>
       </entry>
@@ -13,12 +17,8 @@
          <key>CSS</key>
          <value>#mat-input-23</value>
       </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//input[@id='mat-input-23']</value>
-      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -26,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>ccd9f2dc-3960-47dc-aa74-730ea1e7bb4f</webElementGuid>
+      <webElementGuid>2f364386-9de3-4dae-868f-07b4b3a4f204</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -34,7 +34,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>9c32fe6d-36c7-4c95-8972-4617b69fbfd1</webElementGuid>
+      <webElementGuid>81365a95-4e8f-462a-9130-753b89fe10c9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,7 +42,7 @@
       <name>maxlength</name>
       <type>Main</type>
       <value>20</value>
-      <webElementGuid>7092b16a-61d4-4912-954d-b723cd8490cf</webElementGuid>
+      <webElementGuid>6be7fadb-ff64-4085-a49b-2bde377f4552</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -50,7 +50,7 @@
       <name>name</name>
       <type>Main</type>
       <value>postcode</value>
-      <webElementGuid>73cd592e-8b35-443a-b51f-cc530449e07f</webElementGuid>
+      <webElementGuid>5a791391-b9dc-44c4-9403-dbf0672a68c8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -58,7 +58,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-input-element mat-form-field-autofill-control ng-tns-c110-101 cdk-text-field-autofill-monitored ng-untouched ng-pristine ng-invalid</value>
-      <webElementGuid>aaec2cc4-e775-4ab7-9f88-9e9746d638b7</webElementGuid>
+      <webElementGuid>2849a5f0-063f-416f-b7bc-295e1c40ac2e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -66,7 +66,7 @@
       <name>ng-reflect-maxlength</name>
       <type>Main</type>
       <value>20</value>
-      <webElementGuid>3c013bc2-3652-42cd-b74f-4129f956f013</webElementGuid>
+      <webElementGuid>dbe7e283-2f50-490c-b2ca-2861a3e05c3e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -74,7 +74,7 @@
       <name>ng-reflect-name</name>
       <type>Main</type>
       <value>postcode</value>
-      <webElementGuid>3325a02e-8a1a-4c83-a082-80c4707591e3</webElementGuid>
+      <webElementGuid>d9185e58-eef4-4f34-8d5f-61156de0eb18</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -82,7 +82,7 @@
       <name>ng-reflect-type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>963f0d9d-eee8-4439-89d1-dfd392c0b058</webElementGuid>
+      <webElementGuid>2501c682-fb4d-4a80-bf50-3100eb24a040</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -90,7 +90,7 @@
       <name>ng-reflect-placeholder</name>
       <type>Main</type>
       <value>Zip / Postal Code</value>
-      <webElementGuid>217fdf98-9355-47b6-bbae-31c42e1bcf47</webElementGuid>
+      <webElementGuid>7cac2b5b-2db0-4e93-8508-1909dd409bc8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -98,7 +98,7 @@
       <name>id</name>
       <type>Main</type>
       <value>mat-input-23</value>
-      <webElementGuid>832d6977-8558-4530-afef-4ece0a63ab30</webElementGuid>
+      <webElementGuid>eed8e9e7-0336-4bce-833b-1ae85e3c397c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -106,7 +106,7 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>Zip / Postal Code</value>
-      <webElementGuid>3973e48a-3009-483b-b6d7-2c86685ab597</webElementGuid>
+      <webElementGuid>c5202383-2ee0-4cde-8613-3f4c9d1d402a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -114,7 +114,7 @@
       <name>aria-invalid</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>3e32d837-c230-4c86-9f20-014e311bc488</webElementGuid>
+      <webElementGuid>0cfbf588-ef84-4f99-9da7-f49a95c3f044</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -122,7 +122,7 @@
       <name>aria-required</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>49f27a65-37bb-4365-ac94-e52a9d715135</webElementGuid>
+      <webElementGuid>2582ccec-d990-4776-8e5e-48d0cd966810</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -130,7 +130,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-input-23&quot;)</value>
-      <webElementGuid>9295ec4e-c44b-4b73-9e85-679c1d38539a</webElementGuid>
+      <webElementGuid>a6621668-4252-4258-8266-35a951c7bd84</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -138,7 +138,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='mat-input-23']</value>
-      <webElementGuid>bf6043ae-f851-44b0-bf8e-5012a91a1c12</webElementGuid>
+      <webElementGuid>b52023d2-2509-49c9-868f-a983fd118b84</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -146,7 +146,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-dialog-container[@id='mat-dialog-3']/app-dialog-profile-address/section/form/div/div/mat-form-field[3]/div/div/div/input</value>
-      <webElementGuid>b355a89c-35ad-492e-a759-8231c824db14</webElementGuid>
+      <webElementGuid>2b167cd8-07ab-4405-812e-606d2d7e6282</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -154,7 +154,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//form/div/div/mat-form-field[3]/div/div/div/input</value>
-      <webElementGuid>b3e9dc96-e416-41c0-a669-368efed0323d</webElementGuid>
+      <webElementGuid>7dfceb15-5d2f-445c-a92d-2e8e2817fb6f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -162,6 +162,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'text' and @name = 'postcode' and @id = 'mat-input-23' and @placeholder = 'Zip / Postal Code']</value>
-      <webElementGuid>77a6b250-4d40-4012-9acf-56fddd228783</webElementGuid>
+      <webElementGuid>13abf783-ad6a-4cd2-8e4e-9781705af428</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

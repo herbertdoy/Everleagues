@@ -6,6 +6,10 @@
    <elementGuidId>fdd120ba-a798-4b29-ad47-c9e5d7e3a3c3</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>//input[@data-placeholder='Street 1']</value>
+      </entry>
+      <entry>
          <key>BASIC</key>
          <value>//input[@type = 'text' and @name = 'street1' and @placeholder = 'Street 1']</value>
       </entry>
@@ -13,12 +17,8 @@
          <key>CSS</key>
          <value>#mat-input-21</value>
       </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//input[@id='mat-input-21']</value>
-      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -26,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>b7e3e159-daa3-4f29-993b-b13b3bd8c9b2</webElementGuid>
+      <webElementGuid>4817020d-85f4-40cb-ac69-20de5607ea61</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -34,7 +34,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>ee59175d-11e1-4719-8891-ae85595b368c</webElementGuid>
+      <webElementGuid>464a1fc9-b31d-406c-881a-86885bc179c9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,7 +42,7 @@
       <name>maxlength</name>
       <type>Main</type>
       <value>50</value>
-      <webElementGuid>55210827-3538-43ff-8e8d-f30c74dd66d1</webElementGuid>
+      <webElementGuid>6efc887a-61b6-4c6c-bb4d-b3f39167b9fe</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -50,7 +50,7 @@
       <name>name</name>
       <type>Main</type>
       <value>street1</value>
-      <webElementGuid>e6c1909b-e9ac-44e9-81ab-04c6e512d671</webElementGuid>
+      <webElementGuid>9af1b972-9a07-44b1-9a73-59d13b2f9cd3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -58,7 +58,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-input-element mat-form-field-autofill-control ng-tns-c110-99 cdk-text-field-autofill-monitored ng-untouched ng-pristine ng-invalid</value>
-      <webElementGuid>e5d367a2-c876-4dd4-8261-5177ec4a292a</webElementGuid>
+      <webElementGuid>16e4f07d-550b-46fd-a5bc-d273ce85698d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -66,7 +66,7 @@
       <name>ng-reflect-maxlength</name>
       <type>Main</type>
       <value>50</value>
-      <webElementGuid>e0395a77-6706-413c-aca1-144cd38e2261</webElementGuid>
+      <webElementGuid>ee8ef4fc-c130-4e1b-a04a-9fe60e67778b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -74,7 +74,7 @@
       <name>ng-reflect-name</name>
       <type>Main</type>
       <value>street1</value>
-      <webElementGuid>7e01635f-5dc0-491b-b9ed-a85d251d2aa8</webElementGuid>
+      <webElementGuid>a8bd7f26-4be7-4de1-a91f-1d982be1e524</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -82,7 +82,7 @@
       <name>ng-reflect-type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>6167b83b-60dd-439b-8b02-7d0f9c36894e</webElementGuid>
+      <webElementGuid>859007f8-d7fe-41f6-af2b-52fe1830b2ba</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -90,7 +90,7 @@
       <name>ng-reflect-placeholder</name>
       <type>Main</type>
       <value>Street 1</value>
-      <webElementGuid>f4dd4a41-50ad-4016-86ae-69974bdc08a6</webElementGuid>
+      <webElementGuid>24ae4863-c279-4801-bfaa-dce9979b36f6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -98,7 +98,7 @@
       <name>id</name>
       <type>Main</type>
       <value>mat-input-21</value>
-      <webElementGuid>8246c6db-e061-4d74-b390-fe4abf7ecb99</webElementGuid>
+      <webElementGuid>53686ca9-ed2e-4544-a208-7282c3794931</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -106,7 +106,7 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>Street 1</value>
-      <webElementGuid>ebcb0df9-5749-443c-8fdf-d0584b2ef9ea</webElementGuid>
+      <webElementGuid>999845c0-9c04-4a56-b67f-ada9e12bd9c1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -114,7 +114,7 @@
       <name>aria-invalid</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>ccd7f156-662d-45c3-bf2b-d5e14c67a54d</webElementGuid>
+      <webElementGuid>9d0e778c-5cdb-4b5e-b478-c2106e9e59ce</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -122,7 +122,7 @@
       <name>aria-required</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>cd173922-ddaa-4cee-8eb0-062bea2aff49</webElementGuid>
+      <webElementGuid>605751f4-6734-42cb-92be-7d7430b54ae0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -130,7 +130,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-input-21&quot;)</value>
-      <webElementGuid>d2bee554-3e22-4cbb-a16b-1b540cffcca5</webElementGuid>
+      <webElementGuid>6127550d-cbb9-4794-8184-da43b6fe9d33</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -138,7 +138,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='mat-input-21']</value>
-      <webElementGuid>52ec2a2f-96dd-436d-80e1-087334a33aa3</webElementGuid>
+      <webElementGuid>8b61a045-bb9d-4b7c-83e5-fad96585c011</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -146,7 +146,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-dialog-container[@id='mat-dialog-3']/app-dialog-profile-address/section/form/div/div/mat-form-field/div/div/div/input</value>
-      <webElementGuid>906ffe28-5993-4048-a4d6-36994e5d8695</webElementGuid>
+      <webElementGuid>92c4ed7a-16c1-4c8e-bbfd-b61a5c2a04b3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -154,7 +154,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//form/div/div/mat-form-field/div/div/div/input</value>
-      <webElementGuid>9d6f8686-467d-4a7e-ae6b-44fb85bd6d2e</webElementGuid>
+      <webElementGuid>8cc1e891-b6f8-4c81-a2ed-d8deecbde756</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -162,6 +162,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'text' and @name = 'street1' and @id = 'mat-input-21' and @placeholder = 'Street 1']</value>
-      <webElementGuid>77217a10-efb2-4adf-a8b8-d16ffea46dda</webElementGuid>
+      <webElementGuid>e7e062d6-5b42-4793-97e7-c758678dbd1b</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

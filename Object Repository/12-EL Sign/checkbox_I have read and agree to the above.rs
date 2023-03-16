@@ -6,12 +6,11 @@
    <elementGuidId>40518fef-8715-4ce5-8523-e1753a402180</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(//label[@class='mat-checkbox-layout']//div)[1]</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//span[@class='mat-checkbox-inner-container']/following-sibling::span[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

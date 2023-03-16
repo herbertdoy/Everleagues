@@ -7,14 +7,18 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='mat-input-20']</value>
+         <value>//input[@data-placeholder='Enter a meeting title']</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>#mat-input-20</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@type = 'text' and @name = 'meetingTitle' and @placeholder = 'Enter a meeting title']</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>c3712c42-e950-4821-9f90-208ff2733c83</webElementGuid>
+      <webElementGuid>024fa83e-a0c1-4388-965c-eb51fa7e5f24</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +34,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>19df3c9e-0516-4758-9644-37e36e1f5cc1</webElementGuid>
+      <webElementGuid>3a28105d-f340-42fd-91b0-bb0804e495ca</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +42,7 @@
       <name>name</name>
       <type>Main</type>
       <value>meetingTitle</value>
-      <webElementGuid>dff56183-4152-4e22-8932-d257b1faf67c</webElementGuid>
+      <webElementGuid>f3f90b85-ee04-4da3-a376-3867d1cd71b3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +50,7 @@
       <name>maxlength</name>
       <type>Main</type>
       <value>100</value>
-      <webElementGuid>56d78478-fa8a-4820-be96-9006b68c4e8b</webElementGuid>
+      <webElementGuid>78d41876-fb3d-46eb-9653-9a613da68ca6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +58,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-input-element mat-form-field-autofill-control ng-tns-c110-115 cdk-text-field-autofill-monitored ng-untouched ng-pristine ng-invalid</value>
-      <webElementGuid>f6a258c9-8e10-46c5-b2f0-0ce245c7e742</webElementGuid>
+      <webElementGuid>a0d05e9c-ff6b-4e8d-b4d0-8a38b20e1bc2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +66,7 @@
       <name>ng-reflect-maxlength</name>
       <type>Main</type>
       <value>100</value>
-      <webElementGuid>72b8a56c-b231-4ddd-b257-87af10fdf090</webElementGuid>
+      <webElementGuid>a6bbad6f-0ac3-47cf-9b09-534a490809d6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +74,7 @@
       <name>ng-reflect-name</name>
       <type>Main</type>
       <value>meetingTitle</value>
-      <webElementGuid>ce09177a-ea83-4545-aa40-5ff7730b7e38</webElementGuid>
+      <webElementGuid>7f662f46-2148-4203-b955-464a365c67ff</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,7 +82,7 @@
       <name>ng-reflect-type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>c1ac9e7b-3c8e-45a8-b26d-ec253ad25b6e</webElementGuid>
+      <webElementGuid>21927fa2-ff39-4a81-805a-7a261f62c27d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -86,7 +90,7 @@
       <name>ng-reflect-placeholder</name>
       <type>Main</type>
       <value>Enter a meeting title</value>
-      <webElementGuid>ebbf5f39-45bb-4d47-b3ce-3a83fd67d766</webElementGuid>
+      <webElementGuid>bc0ae271-a3de-481a-a0e6-74aca27bcfa5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -94,7 +98,7 @@
       <name>id</name>
       <type>Main</type>
       <value>mat-input-20</value>
-      <webElementGuid>e0715c8f-7705-4e9c-97dd-6c761309e364</webElementGuid>
+      <webElementGuid>45eec715-b416-4f53-9973-843575610d41</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -102,7 +106,7 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>Enter a meeting title</value>
-      <webElementGuid>c43fced0-c406-461a-91e3-af580102ae6c</webElementGuid>
+      <webElementGuid>c12d9261-b777-4c7b-b901-95a8f7d5d188</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -110,7 +114,7 @@
       <name>aria-invalid</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>3886685d-aeaf-4ded-beb9-a3543bb92994</webElementGuid>
+      <webElementGuid>8ae4d08c-065e-47b8-bdf4-fbbbfa888be9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -118,7 +122,7 @@
       <name>aria-required</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>a1dd681d-ea4c-4ed6-a82e-38802b3621ce</webElementGuid>
+      <webElementGuid>3562d14b-26d9-4edc-ad97-f07e3efdd65a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -126,7 +130,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-input-20&quot;)</value>
-      <webElementGuid>cad6a8d6-ec54-4c6b-ba19-478bbbe4a44e</webElementGuid>
+      <webElementGuid>3cb965d6-c06b-45f9-ab49-6f417b184fe3</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -134,7 +138,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='mat-input-20']</value>
-      <webElementGuid>0098a8e4-3518-48b2-9d53-691c357b93af</webElementGuid>
+      <webElementGuid>c660b701-d5bd-480f-879f-63354a4e1ff2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -142,7 +146,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//input</value>
-      <webElementGuid>e25fc4aa-9983-40cb-8e62-4f4baf546ba4</webElementGuid>
+      <webElementGuid>6e98de59-60f2-4eea-8de3-c16732d4030d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -150,6 +154,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'text' and @name = 'meetingTitle' and @id = 'mat-input-20' and @placeholder = 'Enter a meeting title']</value>
-      <webElementGuid>b7b36211-d404-4d1e-8529-684a33b571dc</webElementGuid>
+      <webElementGuid>cc612437-f4f7-4197-b852-9b9aa4aa8ff8</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

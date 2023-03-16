@@ -23,17 +23,17 @@ WebUI.delay(3)
 
 WebUI.mouseOver(findTestObject('09-Settings/Organization unit/div_GG TESTER'))
 
-WebUI.delay(5)
+WebUI.delay(4)
 
-WebUI.waitForElementClickable(findTestObject('09-Settings/Organization unit/div_GG TESTER'), 0)
+//WebUI.waitForElementClickable(findTestObject('09-Settings/Organization unit/div_GG TESTER'), 0)
 
 WebUI.click(findTestObject('09-Settings/Organization unit/div_GG TESTER'))
 
 WebUI.delay(3)
 
-WebUI.waitForElementVisible(findTestObject('09-Settings/Organization unit/button_link'), 0)
+//WebUI.waitForElementVisible(findTestObject('09-Settings/Organization unit/button_link'), 0)
 
-WebUI.waitForElementClickable(findTestObject('09-Settings/Organization unit/button_link'), 0)
+//WebUI.waitForElementClickable(findTestObject('09-Settings/Organization unit/button_link'), 0)
 
 WebUI.click(findTestObject('09-Settings/Organization unit/button_link'))
 
@@ -50,8 +50,6 @@ WebUI.delay(3)
 WebUI.click(findTestObject('09-Settings/Organization unit/button_COPY'))
 
 WebUI.verifyElementPresent(findTestObject('09-Settings/Organization unit/snack-bar-container_Copy Link'), 0)
-
-WebUI.click(findTestObject('09-Settings/Users/Active User/button_OK'))
 
 WebUI.click(findTestObject('09-Settings/Organization unit/button_Ok'))
 
@@ -72,5 +70,7 @@ WebUI.verifyElementPresent(findTestObject('09-Settings/Organization unit/mat_car
 
 WebUI.delay(3)
 
-WebUI.closeBrowser()
+WebUI.navigateToUrl('https://lab.everleagues.com/')
+
+WebUI.delay(3)
 

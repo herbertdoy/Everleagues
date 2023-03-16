@@ -6,15 +6,19 @@
    <elementGuidId>6941620c-b415-4c73-a91e-a7a46a77392f</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>//mat-hint[text()='*Required']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//mat-hint[@class = 'mat-hint' and (text() = '*Required' or . = '*Required')]</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>#mat-hint-1</value>
       </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//mat-hint[@id='mat-hint-1']</value>
-      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>mat-hint</value>
-      <webElementGuid>e51bb27f-3176-49cb-a3df-764f8ab3a04a</webElementGuid>
+      <webElementGuid>68c77a98-e0b0-41f5-b521-0dd79329a897</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-hint</value>
-      <webElementGuid>0c2154f5-8be5-4335-a06b-09ce8c8fc017</webElementGuid>
+      <webElementGuid>8cdb3003-6d6f-4c00-9500-a817a4f6bcd2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +42,7 @@
       <name>id</name>
       <type>Main</type>
       <value>mat-hint-1</value>
-      <webElementGuid>c3d4d568-be8f-4355-8efc-444d6bef3ace</webElementGuid>
+      <webElementGuid>9b00ed4f-7003-40c0-ae13-2e3356582e50</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +50,7 @@
       <name>text</name>
       <type>Main</type>
       <value>*Required</value>
-      <webElementGuid>4fa1a36b-fdff-4d52-ac32-5b11bb9a8c4d</webElementGuid>
+      <webElementGuid>48919a0c-d1f0-461d-a9cd-f64317a3c4fb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +58,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-hint-1&quot;)</value>
-      <webElementGuid>bc102aae-816a-4817-95b9-6390f7c6cedb</webElementGuid>
+      <webElementGuid>a09c1d50-0cc0-4e9e-a95b-b00ce4da1dbb</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -62,7 +66,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//mat-hint[@id='mat-hint-1']</value>
-      <webElementGuid>9ca6bb0e-9dd4-49b3-bb1f-ad0e3b039b9a</webElementGuid>
+      <webElementGuid>322291b0-3ad2-429e-8d5d-2bbf582b6bd3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +74,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-dialog-container[@id='mat-dialog-21']/app-iet-addreceipt/div/div/form/div/label/mat-hint</value>
-      <webElementGuid>5bd104c1-fd72-4d73-89a7-06710e0305a9</webElementGuid>
+      <webElementGuid>ed6c44bc-aaad-462f-b686-103c701a74d6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Receipt amount is required'])[1]/following::mat-hint[1]</value>
-      <webElementGuid>398a2068-2383-4b48-9e04-f664b5953914</webElementGuid>
+      <webElementGuid>c6d4d7f1-d801-4f47-a243-3a2c16d491ca</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Add a note'])[1]/preceding::mat-hint[1]</value>
-      <webElementGuid>63bee552-2c32-48e6-a34d-870935f87315</webElementGuid>
+      <webElementGuid>a44adddc-0811-479d-9ab9-de5c93f352c5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='CANCEL'])[1]/preceding::mat-hint[1]</value>
-      <webElementGuid>a5857c61-8f60-4be6-a40a-4df3ac326632</webElementGuid>
+      <webElementGuid>2c6fb270-efdd-46cf-942e-75e52612dff1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +106,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='*Required']/parent::*</value>
-      <webElementGuid>0d1449f8-6514-45e6-b62a-766dd750f5bc</webElementGuid>
+      <webElementGuid>86849261-9d14-4719-a82a-6b210ef1a930</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +114,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//mat-hint</value>
-      <webElementGuid>74efef11-aa3b-4c63-bba2-e06607ccbccd</webElementGuid>
+      <webElementGuid>082901ce-8e24-4424-b11f-51b01fef7d22</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,6 +122,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//mat-hint[@id = 'mat-hint-1' and (text() = '*Required' or . = '*Required')]</value>
-      <webElementGuid>8e0a01dc-44b5-4e1f-9761-c4218a7c574d</webElementGuid>
+      <webElementGuid>c1181784-fe2e-4963-b1a5-fd960da54b50</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

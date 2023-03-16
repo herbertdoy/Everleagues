@@ -26,9 +26,9 @@ WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/div_Settings
 //WebUI.verifyElementVisible(findTestObject('09-Settings/Users/User Page'))
 WebUI.delay(3)
 
-WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/mat-card_Chat Message Settings'))
-
 WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/mat-card-title_Chat Message Settings'))
+
+WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/mat-card_Chat Message Settings'))
 
 WebUI.click(findTestObject('09-Settings/Organization/toggle_Enable chat message editing'))
 
@@ -42,19 +42,28 @@ WebUI.click(findTestObject('09-Settings/Organization/toggle_Enable chat message 
 
 WebUI.delay(2)
 
-WebUI.refresh(FailureHandling.STOP_ON_FAILURE)
-
+//WebUI.refresh(FailureHandling.STOP_ON_FAILURE)
 WebUI.click(findTestObject('09-Settings/Organization/div_Settings'))
 
 WebUI.delay(2)
 
-WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/mat-card_Membership'))
-
 WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/mat-card-title_Membership'))
+
+WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/mat-card_Membership'))
 
 WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/div_By enabling this option, all join requests via URL will be automatically approved'))
 
 WebUI.click(findTestObject('09-Settings/Organization/toggle_Enable auto approve'))
+
+WebUI.delay(2)
+
+WebUI.scrollToElement(findTestObject('09-Settings/Organization/mat-card-title_Cloud files'), 0)
+
+WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/mat-card-title_Cloud files'))
+
+WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/mat-card-Cloud files'))
+
+WebUI.click(findTestObject('09-Settings/Organization/toggle_cloudfiles'))
 
 //WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/div_By enabling this option, all join requests via URL will be automatically approved'))
 //WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/h4_Auto Approval Disabled for Free Limited Plan'))
@@ -72,10 +81,10 @@ WebUI.click(findTestObject('09-Settings/Organization/div_Settings'))
 
 WebUI.scrollToElement(findTestObject('09-Settings/Organization/mat-card_Tools'), 0)
 
+WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/mat-card-title_Tools'))
+
 //WebUI.delay(3)
 WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/mat-card_Tools'))
-
-WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/mat-card-title_Tools'))
 
 WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/div_Enable or disable tools by clicking on the toggle'))
 

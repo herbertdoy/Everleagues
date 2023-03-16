@@ -7,18 +7,18 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//mat-option[@id='mat-option-3']</value>
-      </entry>
-      <entry>
-         <key>CSS</key>
-         <value>#mat-option-3</value>
+         <value>//span[text()=' None ']</value>
       </entry>
       <entry>
          <key>BASIC</key>
          <value>//mat-option[@role = 'option' and (text() = ' None ' or . = ' None ')]</value>
       </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#mat-option-3</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -26,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>mat-option</value>
-      <webElementGuid>4c89dfde-3b28-4870-8531-f57ca7910dde</webElementGuid>
+      <webElementGuid>2999fb98-faf1-4990-bace-98d7693585f9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -34,7 +34,7 @@
       <name>role</name>
       <type>Main</type>
       <value>option</value>
-      <webElementGuid>0839cb3a-f515-4652-b5ee-3d2b6b3e50c6</webElementGuid>
+      <webElementGuid>a6f49077-76a2-4868-ae45-e3a4b94daf86</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,7 +42,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-option mat-focus-indicator ng-tns-c246-72 ng-star-inserted</value>
-      <webElementGuid>cb3ed095-eb30-46c1-a164-21c9f5b3fd69</webElementGuid>
+      <webElementGuid>9f496be8-587c-482e-91a6-6b521da86d6d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,7 +50,7 @@
       <name>ng-reflect-value</name>
       <type>Main</type>
       <value>ROLETYPE_NONE</value>
-      <webElementGuid>bb45bfb2-cda2-4a88-8dbf-5a65c82d7f41</webElementGuid>
+      <webElementGuid>4675e375-94ea-4fc3-8e83-b2595072ed64</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -58,7 +58,7 @@
       <name>id</name>
       <type>Main</type>
       <value>mat-option-3</value>
-      <webElementGuid>ed0ec3da-dc25-4bb4-8d6e-36c35f71e369</webElementGuid>
+      <webElementGuid>ed271d16-8290-43e4-8974-baae91ea06c4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -66,7 +66,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>dd56f5b5-2cec-47d4-8fbc-19a15e74fe3b</webElementGuid>
+      <webElementGuid>271cbe59-b2a3-428f-a15a-28f182f5372e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -74,7 +74,7 @@
       <name>aria-disabled</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>607eb464-019a-47b7-b2c9-b6dbc4d53247</webElementGuid>
+      <webElementGuid>01566a0b-062d-4b3a-aa5a-9b36c22eb54f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -82,7 +82,7 @@
       <name>text</name>
       <type>Main</type>
       <value> None </value>
-      <webElementGuid>277a6a0e-5889-401a-aab3-bed0f51d4deb</webElementGuid>
+      <webElementGuid>bbadedb9-4fa6-4f13-a5dd-89ea1f0af366</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -90,7 +90,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-option-3&quot;)</value>
-      <webElementGuid>91fc416b-eb76-4b66-ac04-0c09e03e88b6</webElementGuid>
+      <webElementGuid>37880c0e-4399-4bca-9a41-00cf974b591b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -98,7 +98,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//mat-option[@id='mat-option-3']</value>
-      <webElementGuid>cb1c8606-17fb-4558-848c-b12ee7b88206</webElementGuid>
+      <webElementGuid>545f8f9f-2ce1-40d5-bf01-4b4ae4579baa</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,7 +106,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='mat-select-1-panel']/mat-option[8]</value>
-      <webElementGuid>754bba3d-59c3-4ca9-863e-b803fe5fc48e</webElementGuid>
+      <webElementGuid>884bcfad-e764-4923-a9cb-677caa3965c9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -114,7 +114,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Administration'])[1]/following::mat-option[1]</value>
-      <webElementGuid>5d9956e9-9190-440a-a2b1-75d6c5148a58</webElementGuid>
+      <webElementGuid>d0aceef1-16f6-4bff-83fb-1be05c5369fc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -122,7 +122,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='IT'])[2]/following::mat-option[2]</value>
-      <webElementGuid>b85ae3a3-a38f-4888-9194-6703df900124</webElementGuid>
+      <webElementGuid>2be4a86b-2a09-4400-962e-93dc1bab1461</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -130,7 +130,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Hide Quick Shortcuts'])[1]/preceding::mat-option[1]</value>
-      <webElementGuid>cd9e48d5-4159-4e90-a989-749c43f25938</webElementGuid>
+      <webElementGuid>863ea104-35bc-4fef-bddc-e0c5361bf0d4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -138,7 +138,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//mat-option[8]</value>
-      <webElementGuid>ee8fa7ff-fc27-4c8e-9467-2be7a4285b7b</webElementGuid>
+      <webElementGuid>a2ab3149-8bb9-4b33-b62b-2cabca962e1d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -146,6 +146,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//mat-option[@id = 'mat-option-3' and (text() = ' None ' or . = ' None ')]</value>
-      <webElementGuid>2b7589cb-926a-45fb-8090-246ae28984fd</webElementGuid>
+      <webElementGuid>0cd88d7c-dc85-498e-9995-308c0d8e7d1a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

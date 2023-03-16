@@ -7,14 +7,18 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//mat-error[@id='mat-error-56']</value>
+         <value>//mat-error[text()=' 1234 already exists. Please enter another ID']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//mat-error[@role = 'alert' and (text() = ' 1234 already exists. Please enter another ID' or . = ' 1234 already exists. Please enter another ID')]</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>#mat-error-56</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -22,6 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>mat-error</value>
+      <webElementGuid>96fe3268-875f-4e57-9ad0-c55d1f36d2bf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -29,6 +34,7 @@
       <name>role</name>
       <type>Main</type>
       <value>alert</value>
+      <webElementGuid>c522a530-fc35-445a-80bb-126181ebc6cc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -36,6 +42,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-error ng-tns-c231-168 ng-star-inserted</value>
+      <webElementGuid>c3ca041a-d288-440a-9f97-ba02197f4265</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,6 +50,7 @@
       <name>id</name>
       <type>Main</type>
       <value>mat-error-56</value>
+      <webElementGuid>cd4fae16-9384-4d77-bdf4-7b937cc29001</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -50,6 +58,7 @@
       <name>text</name>
       <type>Main</type>
       <value> 1234 already exists. Please enter another ID</value>
+      <webElementGuid>6b700b23-1e5d-41b1-bfd5-b2456c592e99</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -57,6 +66,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-error-56&quot;)</value>
+      <webElementGuid>58b0ec75-11cb-4461-9683-aa96ae3c2c6f</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -64,6 +74,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//mat-error[@id='mat-error-56']</value>
+      <webElementGuid>b5849d74-9ca8-4c91-b12b-70aeecafbe45</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,6 +82,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-dialog-container[@id='mat-dialog-12']/app-dialog-new-org/section/div/div/form/div/div/div/mat-form-field[2]/div/div[3]/div/mat-error</value>
+      <webElementGuid>66710117-94b8-4fe2-b985-0ff959a068b3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,6 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='.everleagues.com'])[1]/following::mat-error[1]</value>
+      <webElementGuid>484059c4-ef2d-4c84-a3a2-d96d8ec88729</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,6 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Organization Alias'])[1]/following::mat-error[1]</value>
+      <webElementGuid>bec0fccc-df66-4145-b7d8-4987fefe3a1b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -92,6 +106,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Service Industry'])[1]/preceding::mat-error[1]</value>
+      <webElementGuid>906ba9d1-72cd-4cfa-9fe3-48b2a855f477</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,6 +114,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Service Industry'])[2]/preceding::mat-error[1]</value>
+      <webElementGuid>4ff67eaa-f581-472a-a64c-ab840a1efedc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,6 +122,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='1234 already exists. Please enter another ID']/parent::*</value>
+      <webElementGuid>5ee8701b-b44a-47e8-aaae-05fe91d67229</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -113,6 +130,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//mat-form-field[2]/div/div[3]/div/mat-error</value>
+      <webElementGuid>11c350c0-0241-419d-96f8-cbb08c4a6928</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -120,5 +138,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//mat-error[@id = 'mat-error-56' and (text() = ' 1234 already exists. Please enter another ID' or . = ' 1234 already exists. Please enter another ID')]</value>
+      <webElementGuid>e2db7885-e9e0-4203-8cf8-2038c44b668c</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

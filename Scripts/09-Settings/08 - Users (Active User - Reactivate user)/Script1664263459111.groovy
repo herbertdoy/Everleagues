@@ -25,13 +25,11 @@ WebUI.click(findTestObject('09-Settings/Users/Active User/button_reactivateUser'
 
 WebUI.verifyElementPresent(findTestObject('09-Settings/Users/Active User/h4_Reactivate User'), 0)
 
-WebUI.delay(4)
+WebUI.delay(3)
 
 WebUI.click(findTestObject('09-Settings/Users/Active User/button_Reactivate'))
 
 WebUI.verifyElementPresent(findTestObject('09-Settings/Users/Active User/span_Successfully reactivated user'), 0)
-
-WebUI.click(findTestObject('09-Settings/Users/Active User/button_OK'))
 
 WebUI.delay(3)
 

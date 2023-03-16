@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//span[(text() = 'Successfully deleted invite' or . = 'Successfully deleted invite')]</value>
+         <value>//snack-bar-container[(text() = 'Successfully deleted inviteOK' or . = 'Successfully deleted inviteOK')]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>c5c13878-f6a1-409a-9419-dda1c37cc694</webElementGuid>
+      <webElementGuid>b7154178-09f4-4a19-aa11-a290086e2597</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +29,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Successfully deleted invite</value>
-      <webElementGuid>47e05bc9-6217-4967-bf2a-64ffc120d2d6</webElementGuid>
+      <webElementGuid>d4da0278-9fa2-404d-a426-9eee509c978e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +37,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/snack-bar-container[@class=&quot;mat-snack-bar-container ng-tns-c41-304 ng-trigger ng-trigger-state mat-snack-bar-center ng-star-inserted&quot;]/simple-snack-bar[@class=&quot;mat-simple-snackbar ng-star-inserted&quot;]/span[1]</value>
-      <webElementGuid>fde55cce-4171-4257-9ca0-55c3209acc9f</webElementGuid>
+      <webElementGuid>4e74219b-6a40-4992-973f-636af6d7b022</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -46,6 +45,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'Successfully deleted invite' or . = 'Successfully deleted invite')]</value>
-      <webElementGuid>fd8e0714-c174-4f81-81f4-76d1bf0ae31f</webElementGuid>
+      <webElementGuid>b347ce4a-c2ea-4e19-a229-cf0cd82e7803</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

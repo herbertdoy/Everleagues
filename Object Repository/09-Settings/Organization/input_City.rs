@@ -6,19 +6,19 @@
    <elementGuidId>d92304a1-75dc-48aa-9af5-0a1e38ec4255</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='mat-input-9']</value>
+         <key>BASIC</key>
+         <value>//input[@ng-reflect-placeholder = 'City' and @placeholder = 'City']</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>#mat-input-9</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//input[@ng-reflect-placeholder = 'City' and @placeholder = 'City']</value>
+         <key>XPATH</key>
+         <value>//input[@data-placeholder='City']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -26,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>c2049946-3b3c-4dbc-ae1c-f0a8361ffea9</webElementGuid>
+      <webElementGuid>3351a319-0ec0-4a6f-a6d0-9d78bc57a1bc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -34,7 +34,7 @@
       <name>maxlength</name>
       <type>Main</type>
       <value>100</value>
-      <webElementGuid>e5ae16d9-e0f0-4168-a4c8-04f651982ea2</webElementGuid>
+      <webElementGuid>65485523-9506-4ccd-84f4-56bd7485250b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,7 +42,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-input-element mat-form-field-autofill-control ng-tns-c110-46 cdk-text-field-autofill-monitored ng-untouched ng-pristine ng-valid</value>
-      <webElementGuid>472788e2-43eb-4432-a981-d011465f49d6</webElementGuid>
+      <webElementGuid>7cd7b3c6-23b7-45f7-b62f-9e0145beddaa</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,7 +50,7 @@
       <name>ng-reflect-maxlength</name>
       <type>Main</type>
       <value>100</value>
-      <webElementGuid>52600ce9-e1ca-4a17-ac07-c4f9bdb2e36d</webElementGuid>
+      <webElementGuid>e4ed0ec8-b874-4aae-b38c-7410ff42af11</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -58,7 +58,7 @@
       <name>ng-reflect-placeholder</name>
       <type>Main</type>
       <value>City</value>
-      <webElementGuid>2ea09ebf-10bc-494d-86b1-4de1e418c350</webElementGuid>
+      <webElementGuid>717d730c-3c0d-4abe-b0bb-c69584c3525a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -66,7 +66,7 @@
       <name>id</name>
       <type>Main</type>
       <value>mat-input-9</value>
-      <webElementGuid>903af025-ad2c-4823-baa8-04bc7db2afdc</webElementGuid>
+      <webElementGuid>753b5fd8-e42e-4047-832c-efd680763bf3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -74,7 +74,7 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>City</value>
-      <webElementGuid>a1a97032-be71-4611-a9b0-4e3f488b79cd</webElementGuid>
+      <webElementGuid>0e79d9eb-693f-457d-9681-17de07a04826</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -82,7 +82,7 @@
       <name>aria-invalid</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>984b1025-562e-4de6-9ac6-ba89f1305992</webElementGuid>
+      <webElementGuid>ee560688-435f-496f-bb08-3b409e334baf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -90,7 +90,7 @@
       <name>aria-required</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>32df081b-cbab-46e3-828a-19eb0a98bb94</webElementGuid>
+      <webElementGuid>5be44cc5-043c-4aeb-a50f-87e5271920d0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -98,7 +98,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-input-9&quot;)</value>
-      <webElementGuid>51f1ea51-fd53-4b75-83e2-a7603eedb9fd</webElementGuid>
+      <webElementGuid>96df81a4-9b8e-4b85-ba83-4c9b1b3db8a3</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -106,7 +106,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='mat-input-9']</value>
-      <webElementGuid>f5b6640e-4ac0-4c0b-b37b-90080df3216f</webElementGuid>
+      <webElementGuid>8b55abf4-d75c-462d-a11a-68f6be78bba4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -114,7 +114,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-tab-body[@id='mat-tab-content-0-0']/div/section/div[2]/mat-card/mat-card-content/div[2]/mat-form-field/div/div/div/input</value>
-      <webElementGuid>6a15c45c-a8aa-4a96-982a-474a5875da7a</webElementGuid>
+      <webElementGuid>cbd49c79-fc2c-4590-adab-439dbd7476e4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -122,7 +122,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/mat-card/mat-card-content/div[2]/mat-form-field/div/div/div/input</value>
-      <webElementGuid>cfe5e1bd-abea-480f-800f-1b21bd0d45e3</webElementGuid>
+      <webElementGuid>b618da8d-d406-447d-a061-cbdbea0dcdd5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -130,6 +130,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@id = 'mat-input-9' and @placeholder = 'City']</value>
-      <webElementGuid>98e91e90-42b7-4a77-a454-095dab0a62d3</webElementGuid>
+      <webElementGuid>05baf6b9-403d-405d-b5e1-63a836cb9439</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -6,15 +6,19 @@
    <elementGuidId>f1c520b7-b371-4adf-b46b-872ea7aa6075</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//mat-error[@id='mat-error-32']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#mat-error-32</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//mat-error[text()='Enter a valid phone number (eg: +13330001234)']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//mat-error[@role = 'alert' and (text() = 'Enter a valid phone number (eg: +13330001234)' or . = 'Enter a valid phone number (eg: +13330001234)')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>mat-error</value>
-      <webElementGuid>0c434be2-9721-4a12-89cf-75d51e68416c</webElementGuid>
+      <webElementGuid>31b931d7-81a1-4fdf-b07a-573c5ea15ab7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +34,7 @@
       <name>role</name>
       <type>Main</type>
       <value>alert</value>
-      <webElementGuid>78eb94e9-506d-4750-83d3-d6848fc6d32b</webElementGuid>
+      <webElementGuid>372cad44-0202-4ea9-a62c-5584ecfb8d28</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +42,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-error ng-star-inserted ng-tns-c110-114</value>
-      <webElementGuid>e408f73c-5d08-4eb8-a594-a5694d0d4727</webElementGuid>
+      <webElementGuid>12e796cf-d2a3-4532-86f1-50ed152b8ff8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +50,7 @@
       <name>id</name>
       <type>Main</type>
       <value>mat-error-32</value>
-      <webElementGuid>5103cc19-0cbf-4244-ae6a-bfa3c8e79365</webElementGuid>
+      <webElementGuid>4e0a47d7-f066-452d-9698-e810bf3349f5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +58,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Enter a valid phone number (eg: +13330001234)</value>
-      <webElementGuid>5e0fb202-17ef-4e73-8d60-c8e011a5d5ad</webElementGuid>
+      <webElementGuid>c74f72d5-b01e-4cfe-987a-fcf64cd64d31</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +66,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-error-32&quot;)</value>
-      <webElementGuid>58636486-c9d0-4a7d-b53b-e647961f823b</webElementGuid>
+      <webElementGuid>4246924f-3fb9-4c30-93dd-6b75d99dc94d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -70,7 +74,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//mat-error[@id='mat-error-32']</value>
-      <webElementGuid>707b08f2-9e5c-4fbd-a0b7-b33815d2fec8</webElementGuid>
+      <webElementGuid>72dd91db-a6cd-40b3-a3da-72071307d3ff</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='New Guests'])[1]/following::mat-error[1]</value>
-      <webElementGuid>e2eefd1b-24e6-4d3f-a1e8-6db3147405ce</webElementGuid>
+      <webElementGuid>974e6af4-e1c0-4512-8b4a-9b679b67ce45</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Bringing your old and new contacts together!'])[1]/preceding::mat-error[1]</value>
-      <webElementGuid>051e65b3-bbc1-4b37-89b4-2403f8ee71a6</webElementGuid>
+      <webElementGuid>92b281bf-3803-4fc9-a9da-10f86a88c258</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Create meeting'])[1]/preceding::mat-error[1]</value>
-      <webElementGuid>6009a23b-6f88-4d23-ad0c-ccd6754fce66</webElementGuid>
+      <webElementGuid>7365a68a-24cb-497e-a779-7cabe7502ad9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +106,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Enter a valid phone number (eg: +13330001234)']/parent::*</value>
-      <webElementGuid>6fa37e9a-7b2d-4b18-ab9f-59b105f0d45c</webElementGuid>
+      <webElementGuid>cdd4ba5a-ca17-4a22-984d-a2678f5fd79e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +114,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//mat-error</value>
-      <webElementGuid>8c66a25e-8330-4ecb-9d46-6c14e2d574d9</webElementGuid>
+      <webElementGuid>911436c8-bde4-4d25-bbb2-8e42ccfa97d2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,6 +122,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//mat-error[@id = 'mat-error-32' and (text() = 'Enter a valid phone number (eg: +13330001234)' or . = 'Enter a valid phone number (eg: +13330001234)')]</value>
-      <webElementGuid>f1f8a6b9-8d59-4f2d-97cb-1a84b504b4fd</webElementGuid>
+      <webElementGuid>d240bfa7-37c5-4f3a-bb64-4aec318caa7d</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

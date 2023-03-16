@@ -7,15 +7,15 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//mat-dialog-container[@role = 'dialog' and (text() = 'Add CompanyclearCompany Name * Company Type *End of DecemberClosing Date *supervisor_accountShare With CANCEL            BEGIN play_circle_outline' or . = 'Add CompanyclearCompany Name * Company Type *End of DecemberClosing Date *supervisor_accountShare With CANCEL            BEGIN play_circle_outline')]</value>
-      </entry>
-      <entry>
-         <key>CSS</key>
-         <value>#mat-dialog-15</value>
+         <value>//mat-dialog-container[@role='dialog']</value>
       </entry>
       <entry>
          <key>BASIC</key>
          <value>//mat-dialog-container[@role = 'dialog' and (text() = 'Add CompanyclearCompany Name * Company name is required  Company Type *End of DecemberClosing Date *supervisor_accountShare With CANCEL            BEGIN play_circle_outline' or . = 'Add CompanyclearCompany Name * Company name is required  Company Type *End of DecemberClosing Date *supervisor_accountShare With CANCEL            BEGIN play_circle_outline')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#mat-dialog-15</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -26,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>mat-dialog-container</value>
-      <webElementGuid>9533748e-99f1-445c-bfb9-66ce9f7c4473</webElementGuid>
+      <webElementGuid>541fba15-d941-4d49-adc5-65b7349c16a5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -34,7 +34,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>-1</value>
-      <webElementGuid>72d02a37-f521-46d7-8758-1b8398751998</webElementGuid>
+      <webElementGuid>8b831f1a-7a72-4624-96df-c4996f82bbe3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,7 +42,7 @@
       <name>aria-modal</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>d0a4bd63-59d3-49ae-9896-a297bbab00cb</webElementGuid>
+      <webElementGuid>cfd56277-fc2f-4f5f-8eac-c15d3941564c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,7 +50,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-dialog-container ng-tns-c31-151 ng-trigger ng-trigger-dialogContainer ng-star-inserted</value>
-      <webElementGuid>586b1561-8fbd-4240-96ad-e022b1c4df98</webElementGuid>
+      <webElementGuid>efac613f-c658-4202-894e-936860465c39</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -58,7 +58,7 @@
       <name>id</name>
       <type>Main</type>
       <value>mat-dialog-15</value>
-      <webElementGuid>ef7e3d2c-428a-479b-9a14-484b84731eeb</webElementGuid>
+      <webElementGuid>a5e0bbf4-a9bb-4712-9d3d-7d62d76aadd5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -66,7 +66,7 @@
       <name>role</name>
       <type>Main</type>
       <value>dialog</value>
-      <webElementGuid>3078e8c7-baa5-45a4-810a-370b8f0a9de1</webElementGuid>
+      <webElementGuid>9a9582d8-94bf-4531-8343-d248c407a521</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -74,7 +74,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Add CompanyclearCompany Name * Company name is required  Company Type *End of DecemberClosing Date *supervisor_accountShare With CANCEL            BEGIN play_circle_outline</value>
-      <webElementGuid>4d2c281c-7ffc-4910-b859-119530d47aa4</webElementGuid>
+      <webElementGuid>048e0a94-7e2b-4acc-9f70-0d0d3ae54cdd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -82,7 +82,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-dialog-15&quot;)</value>
-      <webElementGuid>e13d6940-f7ed-490d-817c-4d80e1574cd2</webElementGuid>
+      <webElementGuid>884b31ef-4e54-448a-ac67-ad517819842b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -90,7 +90,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//mat-dialog-container[@id='mat-dialog-15']</value>
-      <webElementGuid>dfc50b02-9c14-431e-ad43-b244ea3ff2d7</webElementGuid>
+      <webElementGuid>04e795e0-05c1-4bd5-a29e-9c41431ac1ff</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,7 +98,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='cdk-overlay-40']/mat-dialog-container</value>
-      <webElementGuid>2012467f-af92-4796-9752-652698e53036</webElementGuid>
+      <webElementGuid>bacbcc80-4599-4361-8d48-84491b06e590</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,7 +106,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='+'])[1]/following::mat-dialog-container[1]</value>
-      <webElementGuid>f82844c2-7cfa-4804-8e72-a64604f3193f</webElementGuid>
+      <webElementGuid>45cc039e-6661-4cb1-aa3a-cd5e0de22ea3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -114,7 +114,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//mat-dialog-container</value>
-      <webElementGuid>e62e281f-b863-4641-8d99-0c1aa1d9a6e9</webElementGuid>
+      <webElementGuid>1485cf61-3164-4f16-8232-7d769988e5e7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -122,6 +122,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//mat-dialog-container[@id = 'mat-dialog-15' and (text() = 'Add CompanyclearCompany Name * Company name is required  Company Type *End of DecemberClosing Date *supervisor_accountShare With CANCEL            BEGIN play_circle_outline' or . = 'Add CompanyclearCompany Name * Company name is required  Company Type *End of DecemberClosing Date *supervisor_accountShare With CANCEL            BEGIN play_circle_outline')]</value>
-      <webElementGuid>d712eb86-4535-4f73-9a50-299ddafd401b</webElementGuid>
+      <webElementGuid>7671bba1-4661-4939-a3a9-b8ab915db008</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

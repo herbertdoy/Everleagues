@@ -10,6 +10,10 @@
          <value>//div[@id='cdk-overlay-13']/snack-bar-container</value>
       </entry>
       <entry>
+         <key>BASIC</key>
+         <value>//snack-bar-container[(text() = 'ELNet tool enabled.OK' or . = 'ELNet tool enabled.OK')]</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>snack-bar-container.mat-snack-bar-container.ng-tns-c41-104.ng-trigger.ng-trigger-state.mat-snack-bar-center.ng-star-inserted</value>
       </entry>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>snack-bar-container</value>
-      <webElementGuid>fec6c9f9-e0b7-43a7-a058-e11504c80dcf</webElementGuid>
+      <webElementGuid>eacc2687-a5a2-4bd7-9deb-569c92549f1c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,15 +34,15 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-snack-bar-container ng-tns-c41-104 ng-trigger ng-trigger-state mat-snack-bar-center ng-star-inserted</value>
-      <webElementGuid>a6e6c809-0ea1-4143-a4cf-1451139b3bb2</webElementGuid>
+      <webElementGuid>897891b2-6e88-435d-9f91-39ba8d9bcc6e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>role</name>
       <type>Main</type>
       <value>status</value>
-      <webElementGuid>b1c227cc-b392-4927-901e-0790b25e33ec</webElementGuid>
+      <webElementGuid>44d38eef-72e2-4641-9ff8-25b520ed0d53</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +50,7 @@
       <name>text</name>
       <type>Main</type>
       <value>ELNet tool enabled.OK</value>
-      <webElementGuid>960ef893-69ee-475d-8568-3af73bc501a6</webElementGuid>
+      <webElementGuid>d225939f-3efd-43e8-8432-00d3920f4d7b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +58,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;cdk-overlay-13&quot;)/snack-bar-container[@class=&quot;mat-snack-bar-container ng-tns-c41-104 ng-trigger ng-trigger-state mat-snack-bar-center ng-star-inserted&quot;]</value>
-      <webElementGuid>b06cd287-4626-4ea6-91a7-9ce05bc89b3d</webElementGuid>
+      <webElementGuid>6cfedad5-004e-431c-b237-e72e483f2321</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -62,7 +66,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='cdk-overlay-13']/snack-bar-container</value>
-      <webElementGuid>ac7c7c15-e087-4926-b0e2-92efb158db4d</webElementGuid>
+      <webElementGuid>591d45ac-16d7-4380-988e-9ecfea5fd23e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Edit image'])[1]/following::snack-bar-container[1]</value>
-      <webElementGuid>f5dff1d3-ef7b-4f6f-8ee4-fd11b7ccad95</webElementGuid>
+      <webElementGuid>6a67867b-aba5-4c22-be42-b7a5a57b44ae</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Client Assignment'])[2]/following::snack-bar-container[1]</value>
-      <webElementGuid>11fb52a2-394e-4409-97ad-0e22888898f7</webElementGuid>
+      <webElementGuid>f0239f21-d18c-4a44-9e62-960190fa93e5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +90,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//snack-bar-container</value>
-      <webElementGuid>7094201c-b0eb-4631-a76a-3fe03a7b7ff3</webElementGuid>
+      <webElementGuid>b81ded9b-fde6-47d6-98ad-7ebe2620044a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,6 +98,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//snack-bar-container[(text() = 'ELNet tool enabled.OK' or . = 'ELNet tool enabled.OK')]</value>
-      <webElementGuid>d3010be9-1631-4b4a-85d4-a6c880863aee</webElementGuid>
+      <webElementGuid>a62cea50-6a88-4c17-b3fa-a916ec1fa39b</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

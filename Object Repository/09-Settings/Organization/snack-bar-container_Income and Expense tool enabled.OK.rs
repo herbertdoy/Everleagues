@@ -10,6 +10,10 @@
          <value>//div[@id='cdk-overlay-21']/snack-bar-container</value>
       </entry>
       <entry>
+         <key>BASIC</key>
+         <value>//snack-bar-container[(text() = 'Income and Expense tool enabled.OK' or . = 'Income and Expense tool enabled.OK')]</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>snack-bar-container.mat-snack-bar-container.ng-tns-c41-133.ng-trigger.ng-trigger-state.mat-snack-bar-center.ng-star-inserted</value>
       </entry>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>snack-bar-container</value>
-      <webElementGuid>0c38eca8-3a12-4c49-a64e-d27e9b40d022</webElementGuid>
+      <webElementGuid>f2fcfe43-f5cf-41b0-bc01-f7aa366ee8e8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,15 +34,15 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-snack-bar-container ng-tns-c41-133 ng-trigger ng-trigger-state mat-snack-bar-center ng-star-inserted</value>
-      <webElementGuid>35313e32-3cc8-4f51-916c-96009ece350d</webElementGuid>
+      <webElementGuid>f234cd2f-c01d-47b7-a5d5-08d48d9d84f0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>role</name>
       <type>Main</type>
       <value>status</value>
-      <webElementGuid>39ca4bda-bf29-4d44-adb8-ed8a762d6c83</webElementGuid>
+      <webElementGuid>e11468ab-ef69-427e-bf82-aa286ed9acc8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +50,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Income and Expense tool enabled.OK</value>
-      <webElementGuid>54c75c24-2645-43c1-a7eb-0cadc7ced9ac</webElementGuid>
+      <webElementGuid>ccc92f60-b4ab-4695-b29f-8b366d98b5b0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +58,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;cdk-overlay-21&quot;)/snack-bar-container[@class=&quot;mat-snack-bar-container ng-tns-c41-133 ng-trigger ng-trigger-state mat-snack-bar-center ng-star-inserted&quot;]</value>
-      <webElementGuid>8106bfd0-9ea2-482f-a9a3-ed7e2612fc4d</webElementGuid>
+      <webElementGuid>d9cc324b-0e8c-46f1-8ce1-cf50efb08638</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -62,7 +66,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='cdk-overlay-21']/snack-bar-container</value>
-      <webElementGuid>3a22f359-8005-4704-9941-62390e673b0b</webElementGuid>
+      <webElementGuid>c4988655-44f6-45f4-b34b-215e350a0c00</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Edit image'])[1]/following::snack-bar-container[1]</value>
-      <webElementGuid>df67049a-9c2c-4114-9695-be93c1ca9744</webElementGuid>
+      <webElementGuid>0f7dcc91-4a94-4c98-b21a-15f5d530ca47</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Client Assignment'])[2]/following::snack-bar-container[1]</value>
-      <webElementGuid>3516f349-4250-46b4-b388-9cdeecfa4387</webElementGuid>
+      <webElementGuid>b9c7bbf0-9423-474c-9705-3f6206e3216e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +90,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//snack-bar-container</value>
-      <webElementGuid>ee7ddf32-cebb-40cc-949e-a1695c6eff08</webElementGuid>
+      <webElementGuid>9f395afb-5658-4817-afed-e970ffbed5fd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,6 +98,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//snack-bar-container[(text() = 'Income and Expense tool enabled.OK' or . = 'Income and Expense tool enabled.OK')]</value>
-      <webElementGuid>c6a56b54-162b-475c-a9dc-60e42266b039</webElementGuid>
+      <webElementGuid>9e221c55-1ade-464f-af31-e1310b9e4bf8</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

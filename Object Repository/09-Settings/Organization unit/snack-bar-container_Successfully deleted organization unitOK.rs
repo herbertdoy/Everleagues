@@ -6,16 +6,16 @@
    <elementGuidId>bd99a026-40ac-4cb2-b49e-6dd8d0fd6af3</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>snack-bar-container.mat-snack-bar-container.ng-tns-c41-114.ng-trigger.ng-trigger-state.mat-snack-bar-center.ng-star-inserted</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>//snack-bar-container[@role = 'status' and (text() = 'Successfully deleted organization unitOK' or . = 'Successfully deleted organization unitOK')]</value>
       </entry>
       <entry>
+         <key>CSS</key>
+         <value>snack-bar-container.mat-snack-bar-container.ng-tns-c41-114.ng-trigger.ng-trigger-state.mat-snack-bar-center.ng-star-inserted</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
-         <value>//snack-bar-container[@role = 'status' and (text() = 'Successfully deleted organization unitOK' or . = 'Successfully deleted organization unitOK')]</value>
+         <value>//snack-bar-container[(text() = 'Successfully deleted organization unitOK' or . = 'Successfully deleted organization unitOK')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -26,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>snack-bar-container</value>
-      <webElementGuid>c9b8419b-65ae-4160-ad93-4780e9c24fe5</webElementGuid>
+      <webElementGuid>5cb71041-0dd7-4e91-83c4-8d90ff6cc7f9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -34,7 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-snack-bar-container ng-tns-c41-114 ng-trigger ng-trigger-state mat-snack-bar-center ng-star-inserted</value>
-      <webElementGuid>89fe390a-b0c2-4098-bf07-9583b9a8d5db</webElementGuid>
+      <webElementGuid>61589684-62bd-4ed5-a10a-33a2a226d3a4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -42,7 +42,7 @@
       <name>role</name>
       <type>Main</type>
       <value>status</value>
-      <webElementGuid>05b0e906-7d7c-435e-a578-77fd00259df8</webElementGuid>
+      <webElementGuid>46627f97-6c65-4173-a763-18df17943974</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -50,7 +50,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Successfully deleted organization unitOK</value>
-      <webElementGuid>e2d65e71-235b-4e99-b063-ab83c8e66a39</webElementGuid>
+      <webElementGuid>8abb563e-9ad0-4d6d-b7dc-90ab868a7a62</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -58,7 +58,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;cdk-overlay-33&quot;)/snack-bar-container[@class=&quot;mat-snack-bar-container ng-tns-c41-114 ng-trigger ng-trigger-state mat-snack-bar-center ng-star-inserted&quot;]</value>
-      <webElementGuid>9a794f3b-28c4-4ab4-9e93-50893f21fce4</webElementGuid>
+      <webElementGuid>f44f7458-f0e4-40e2-bf5a-cb1c318174dc</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -66,7 +66,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='cdk-overlay-33']/snack-bar-container</value>
-      <webElementGuid>8ea97155-71cd-4010-a0c3-0c7dec52f223</webElementGuid>
+      <webElementGuid>76263c73-5d00-49ce-8e3e-7604e9602d8f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -74,7 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Add Organization Unit'])[1]/following::snack-bar-container[1]</value>
-      <webElementGuid>e62b1a6f-8346-4574-ae1c-9817fd858e3d</webElementGuid>
+      <webElementGuid>bea36e9b-3dc3-41ef-978d-efa01fcb19f6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Join Request Link'])[1]/following::snack-bar-container[1]</value>
-      <webElementGuid>25e72d7e-42c1-4064-944c-b2f91b9e528b</webElementGuid>
+      <webElementGuid>bb3f231f-ee25-49d1-9b9d-751b0d9fcdf2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -90,7 +90,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//snack-bar-container</value>
-      <webElementGuid>0dc47862-5134-4682-996a-94e6eaf074f6</webElementGuid>
+      <webElementGuid>ffcb04e9-a87d-4a17-8571-148be134cc6e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,6 +98,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//snack-bar-container[(text() = 'Successfully deleted organization unitOK' or . = 'Successfully deleted organization unitOK')]</value>
-      <webElementGuid>388acfbb-ba20-45af-b1a5-ef9b8c97d60b</webElementGuid>
+      <webElementGuid>34c952b9-9566-4c65-8df8-7ffdd1c5fc4f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

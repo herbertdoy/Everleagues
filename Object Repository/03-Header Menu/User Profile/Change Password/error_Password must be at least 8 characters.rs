@@ -7,14 +7,18 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//mat-error[@id='mat-error-10']</value>
+         <value>//mat-error[(text() = ' Password must be at least 8 characters with at least an uppercase, a lowercase and a number. ' or . = ' Password must be at least 8 characters with at least an uppercase, a lowercase and a number. ')]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//mat-error[@role = 'alert' and (text() = ' Password must be at least 8 characters with at least an uppercase, a lowercase and a number. ' or . = ' Password must be at least 8 characters with at least an uppercase, a lowercase and a number. ')]</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>#mat-error-10</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -22,6 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>mat-error</value>
+      <webElementGuid>bd88af17-1e6a-4e22-b6c0-553db7a17ee1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -29,6 +34,7 @@
       <name>role</name>
       <type>Main</type>
       <value>alert</value>
+      <webElementGuid>1d2a75ee-68b0-414e-ac63-d0409e30694d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -36,6 +42,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-error ng-tns-c231-49</value>
+      <webElementGuid>f8391ca5-fe93-4985-b662-1d174955888e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,6 +50,7 @@
       <name>id</name>
       <type>Main</type>
       <value>mat-error-10</value>
+      <webElementGuid>fe50a8b9-0efa-4b56-8935-b9ab40e6b56d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -50,6 +58,7 @@
       <name>text</name>
       <type>Main</type>
       <value> Password must be at least 8 characters with at least an uppercase, a lowercase and a number. </value>
+      <webElementGuid>b5edfe9d-8117-4970-8c06-709bad818113</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -57,6 +66,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-error-10&quot;)</value>
+      <webElementGuid>cee4ea74-b2bd-467c-b96d-b125a70c512f</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -64,6 +74,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//mat-error[@id='mat-error-10']</value>
+      <webElementGuid>3c421f9f-fc24-4bb1-97d1-3de2c229c692</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,6 +82,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-dialog-container[@id='mat-dialog-3']/app-dialog-change-password/section/form/div/div/mat-form-field[2]/div/div[3]/div/mat-error</value>
+      <webElementGuid>6c264fae-096a-4c93-8afa-db6b4943de7c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,6 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='New Password'])[1]/following::mat-error[1]</value>
+      <webElementGuid>f966e08c-2a29-4b42-b552-0eb3bdff6b67</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,6 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Enter your password'])[1]/following::mat-error[1]</value>
+      <webElementGuid>29519252-1144-471d-8fe2-e2f18bd29119</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -92,6 +106,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Confirm Password'])[1]/preceding::mat-error[1]</value>
+      <webElementGuid>b6f64ab0-f2bd-4709-b9ce-3f8c7c580922</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,6 +114,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Password does not match'])[1]/preceding::mat-error[1]</value>
+      <webElementGuid>1ae34e63-f387-4bd6-81d3-3462dddf767b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,6 +122,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Password must be at least 8 characters with at least an uppercase, a lowercase and a number.']/parent::*</value>
+      <webElementGuid>ad3b432a-3e73-489c-bab5-1752aeab97c4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -113,6 +130,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//mat-form-field[2]/div/div[3]/div/mat-error</value>
+      <webElementGuid>db67df39-4b3d-4b31-a19d-8c46f5aaa095</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -120,5 +138,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//mat-error[@id = 'mat-error-10' and (text() = ' Password must be at least 8 characters with at least an uppercase, a lowercase and a number. ' or . = ' Password must be at least 8 characters with at least an uppercase, a lowercase and a number. ')]</value>
+      <webElementGuid>122efd71-87f1-4b04-8880-c6d59fa3df49</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

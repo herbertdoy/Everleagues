@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//div[@ng-reflect-ng-switch='false']/following-sibling::div)[2]</value>
+         <value>(//div[@ng-reflect-ng-switch='false'])[2]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>b371ed2d-2dc6-488f-be79-fa687d0001b3</webElementGuid>
+      <webElementGuid>acede679-d137-48d2-849f-aa371a1decb5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-select-arrow-wrapper ng-tns-c246-72</value>
-      <webElementGuid>6ab7a674-da33-40e2-abaf-8efd2fed709b</webElementGuid>
+      <webElementGuid>40920d31-97ad-4c6b-a002-93252e4321b9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-select-1&quot;)/div[@class=&quot;mat-select-trigger ng-tns-c246-72&quot;]/div[@class=&quot;mat-select-arrow-wrapper ng-tns-c246-72&quot;]</value>
-      <webElementGuid>4f1aedea-57da-4647-84f2-12f0e109fd66</webElementGuid>
+      <webElementGuid>e6b8812b-1885-454d-bd1a-512f70de5b72</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-select[@id='mat-select-1']/div/div[2]</value>
-      <webElementGuid>82e68e48-5dcd-4706-a0b2-96563e9bbf70</webElementGuid>
+      <webElementGuid>81cffafa-96a2-40c8-ba65-652e84907ac4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='None'])[1]/following::div[1]</value>
-      <webElementGuid>b2ef8d7e-327f-40c2-81c8-293652ed4dff</webElementGuid>
+      <webElementGuid>72f81890-777d-41be-ad92-0b6da05b1aff</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Warning! Changing roles will remove user from any teams, channels and chats it is associated to.'])[1]/following::div[8]</value>
-      <webElementGuid>db6883f6-f0ae-4ed3-9f7b-1642ab42e11f</webElementGuid>
+      <webElementGuid>1e9a07aa-c8fc-4af1-9fe0-9e63f513b0ff</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Role Type'])[2]/preceding::div[2]</value>
-      <webElementGuid>4c0fd369-6319-4f89-a70a-e9a9f6b0ad6e</webElementGuid>
+      <webElementGuid>5ac0c72b-dd0e-4af3-a1c1-ad130e2fb6da</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Save'])[1]/preceding::div[6]</value>
-      <webElementGuid>89cebf85-fb55-454b-b3f4-337be4d97a84</webElementGuid>
+      <webElementGuid>fa65511a-72ec-41a6-9d4a-7fbd16527c33</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,6 +86,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/div/div/mat-form-field/div/div/div/mat-select/div/div[2]</value>
-      <webElementGuid>3178b211-b4e7-42b9-9e1f-b25d5f169028</webElementGuid>
+      <webElementGuid>3fefe6b5-c77f-4ebc-aef0-251589ed6f51</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

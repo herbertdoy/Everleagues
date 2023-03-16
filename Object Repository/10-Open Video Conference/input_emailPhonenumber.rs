@@ -7,18 +7,18 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@ng-reflect-name='contact1']</value>
-      </entry>
-      <entry>
-         <key>CSS</key>
-         <value>#mat-input-4</value>
+         <value>//input[@data-placeholder='Email/Phone Number']</value>
       </entry>
       <entry>
          <key>BASIC</key>
          <value>//input[@type = 'text' and @placeholder = 'Email/Phone Number' and @ng-reflect-placeholder = 'Email/Phone Number']</value>
       </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#mat-input-4</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -26,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>0bbf1868-9d03-47e0-a8f3-c72b1534398e</webElementGuid>
+      <webElementGuid>3d6169c3-70db-4dee-b3ff-558ec2ebefbf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -34,7 +34,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>7009582e-f082-4a6b-8bdd-eba93d295129</webElementGuid>
+      <webElementGuid>dc2f5e2e-96c7-4de7-83e4-5326af54f812</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -42,7 +42,7 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>Email/Phone Number</value>
-      <webElementGuid>b2392a92-bd14-475c-b3e0-31e83d905063</webElementGuid>
+      <webElementGuid>398dc548-116c-456f-a7f5-b0aaa2145162</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,7 +50,7 @@
       <name>pattern</name>
       <type>Main</type>
       <value>^[a-zA-Z0-9][a-zA-Z0-9_\.]+@[a-zA-Z_\-0-9]+?\.[a-zA-Z]{2,}(\.[a-zA-Z]{2,})?$|^(?:[+]?[0-9]{0,3})[ -]?[0-9]{0,3}[0-9]{3}[- .]?[ ]?[0-9]{3}[- .]?[ ]?[0-9]{4,6}$</value>
-      <webElementGuid>020065f5-3446-4bae-8392-726bc59e2df2</webElementGuid>
+      <webElementGuid>3b68499b-c513-4654-a138-1bd940c622d1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -58,7 +58,7 @@
       <name>maxlength</name>
       <type>Main</type>
       <value>245</value>
-      <webElementGuid>675c9685-8abe-4d20-90cd-51e9ad3b546a</webElementGuid>
+      <webElementGuid>fa1a4b60-f66e-4890-a2c1-a50a3aba68b7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -66,7 +66,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-input-element mat-form-field-autofill-control ng-tns-c110-28 cdk-text-field-autofill-monitored ng-pristine ng-invalid ng-touched</value>
-      <webElementGuid>6bdf2e78-4d82-4b88-942c-cf11b033e1d4</webElementGuid>
+      <webElementGuid>16fd9bb8-e96c-4548-b5fc-e17feff9b0c8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -74,7 +74,7 @@
       <name>ng-reflect-maxlength</name>
       <type>Main</type>
       <value>245</value>
-      <webElementGuid>6f090fb5-0541-483b-84e5-bfbe35799ad0</webElementGuid>
+      <webElementGuid>23a43d1b-1475-40ac-af4d-385bd56de6a7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -82,7 +82,7 @@
       <name>ng-reflect-pattern</name>
       <type>Main</type>
       <value>^[a-zA-Z0-9][a-zA-Z0-9_\.]+@[a</value>
-      <webElementGuid>12c24ecb-491a-4206-bf1d-5c5a549df648</webElementGuid>
+      <webElementGuid>0b8cc158-40dc-4171-80e1-df6e7c1c661e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -90,7 +90,7 @@
       <name>ng-reflect-type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>76246b1e-a464-4864-ad04-55f230bf9d8b</webElementGuid>
+      <webElementGuid>1fa0efad-7043-4969-92eb-9f924a9c1d30</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -98,7 +98,7 @@
       <name>ng-reflect-placeholder</name>
       <type>Main</type>
       <value>Email/Phone Number</value>
-      <webElementGuid>0e131a9a-aaac-4f56-abe6-124a33054bb0</webElementGuid>
+      <webElementGuid>0cfa057d-c0a0-4215-b497-0884c9b894cd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -106,7 +106,7 @@
       <name>ng-reflect-name</name>
       <type>Main</type>
       <value>contact0</value>
-      <webElementGuid>d26bc16b-d98a-4b23-9843-b168641a644d</webElementGuid>
+      <webElementGuid>3995d741-7ce2-4355-b08a-e688f4eb1b07</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -114,7 +114,7 @@
       <name>id</name>
       <type>Main</type>
       <value>mat-input-4</value>
-      <webElementGuid>2094fd02-f1c1-4225-86a4-c7bca755d937</webElementGuid>
+      <webElementGuid>de6a1db8-4fa2-4e2a-9f41-8aad569515c1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -122,7 +122,7 @@
       <name>aria-invalid</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>d3d70c0c-83df-4d2d-8842-62b321beebbc</webElementGuid>
+      <webElementGuid>d0fb3e29-a71e-4a2c-94bf-791941afbcb9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -130,7 +130,7 @@
       <name>aria-required</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>4e118921-87ad-477a-afc0-143072ca8c44</webElementGuid>
+      <webElementGuid>1ca217f3-1ffa-41fd-be7c-c72dd39b58c3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -138,7 +138,7 @@
       <name>aria-describedby</name>
       <type>Main</type>
       <value>mat-error-2 mat-error-3</value>
-      <webElementGuid>afea6b40-281c-4560-8c61-30d4fea656e4</webElementGuid>
+      <webElementGuid>abd6f8a9-8ffe-45dd-8b2b-6ae938a6b65d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -146,7 +146,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-input-4&quot;)</value>
-      <webElementGuid>aa47b4b0-0a3a-4be1-bb5b-c26ee22ac44a</webElementGuid>
+      <webElementGuid>ef36a1e7-3ae4-4125-8f99-e271d75261c0</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -154,7 +154,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='mat-input-4']</value>
-      <webElementGuid>c0deb897-916d-4acb-a174-15593e110509</webElementGuid>
+      <webElementGuid>9c5ff22a-50d7-44f2-bc16-bed92e6606be</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -162,7 +162,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//mat-form-field[3]/div/div/div[3]/input</value>
-      <webElementGuid>38779965-664b-4bee-a64a-9230af1905e4</webElementGuid>
+      <webElementGuid>405a90dd-6f32-478f-ab6f-b196131b736e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -170,6 +170,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'text' and @placeholder = 'Email/Phone Number' and @id = 'mat-input-4']</value>
-      <webElementGuid>e07b172f-4d34-4e16-94dd-fbeb27aad2b7</webElementGuid>
+      <webElementGuid>eae22062-5fb3-45b2-9275-65524a7579d9</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

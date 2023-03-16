@@ -21,6 +21,8 @@ WebUI.delay(3)
 
 WebUI.click(findTestObject('02-Side Icons(Organization)/2FA/button_2FA'))
 
+WebUI.clickOffset(findTestObject('02-Side Icons(Organization)/2FA/span_Two Factor Authentication'), 100, 100)
+
 WebUI.delay(3)
 
 WebUI.verifyElementVisible(findTestObject('02-Side Icons(Organization)/2FA/span_Two Factor Authentication'))

@@ -6,19 +6,19 @@
    <elementGuidId>d94ee347-2784-4c9c-b4b6-47ae2d5d5779</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//input[@type = 'text' and @name = 'street2' and @placeholder = 'Street 2']</value>
+         <key>XPATH</key>
+         <value>//input[@data-placeholder='Street 2']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='mat-input-246']</value>
+         <key>BASIC</key>
+         <value>//input[@type = 'text' and @name = 'street2' and @placeholder = 'Street 2']</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>#mat-input-246</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -26,6 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
+      <webElementGuid>0209a015-ee44-401a-887f-12af5ef174bb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -33,6 +34,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
+      <webElementGuid>c094cd49-5a7d-4b55-bf0e-39468ccec29a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -40,6 +42,7 @@
       <name>maxlength</name>
       <type>Main</type>
       <value>50</value>
+      <webElementGuid>87cee5e3-a893-4ad2-8594-02f2bee1343b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -47,6 +50,7 @@
       <name>name</name>
       <type>Main</type>
       <value>street2</value>
+      <webElementGuid>f33cd072-2553-489b-8d6a-b953ca93497b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,6 +58,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-input-element mat-form-field-autofill-control ng-tns-c231-389 cdk-text-field-autofill-monitored ng-untouched ng-pristine ng-valid</value>
+      <webElementGuid>6678618c-918b-402e-88b9-e1ba2b12ba13</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,6 +66,7 @@
       <name>ng-reflect-maxlength</name>
       <type>Main</type>
       <value>50</value>
+      <webElementGuid>46db9ba7-ae36-4c97-a5f2-125bc234ca72</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -68,6 +74,7 @@
       <name>ng-reflect-name</name>
       <type>Main</type>
       <value>street2</value>
+      <webElementGuid>96ac17db-edcc-40e9-9c4b-d531226f1c0a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -75,6 +82,7 @@
       <name>ng-reflect-type</name>
       <type>Main</type>
       <value>text</value>
+      <webElementGuid>7f6d7681-cd6d-4fa5-a124-22e229a9af7f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -82,6 +90,7 @@
       <name>ng-reflect-placeholder</name>
       <type>Main</type>
       <value>Street 2</value>
+      <webElementGuid>0a656670-ff6d-4d2f-bcf8-3a36226b3fe0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -89,6 +98,7 @@
       <name>id</name>
       <type>Main</type>
       <value>mat-input-246</value>
+      <webElementGuid>99cc0107-aade-4bdc-84e8-74f87d97d509</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -96,6 +106,7 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>Street 2</value>
+      <webElementGuid>bbe128c9-acb6-4f7c-91ee-65213014f274</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -103,6 +114,7 @@
       <name>aria-invalid</name>
       <type>Main</type>
       <value>false</value>
+      <webElementGuid>35970888-2319-4015-9169-1b01e4aa6434</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -110,6 +122,7 @@
       <name>aria-required</name>
       <type>Main</type>
       <value>false</value>
+      <webElementGuid>3f448a8c-5a66-43db-b775-97db555048b6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -117,6 +130,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-input-246&quot;)</value>
+      <webElementGuid>da25b00e-18a0-49ce-bdfa-3e3c7d1f3f1e</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -124,6 +138,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='mat-input-246']</value>
+      <webElementGuid>790a793b-6e07-49ff-b7a0-b02a9e71bdf8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -131,6 +146,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-dialog-container[@id='mat-dialog-1']/app-dialog-profile-address/section/form/div/div/mat-form-field[2]/div/div/div/input</value>
+      <webElementGuid>e2e4343f-2774-4255-b912-08fbc93a9a5f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -138,6 +154,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/div/mat-form-field[2]/div/div/div/input</value>
+      <webElementGuid>71698759-0b86-4f52-a206-7c9567c94f1e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -145,5 +162,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'text' and @name = 'street2' and @id = 'mat-input-246' and @placeholder = 'Street 2']</value>
+      <webElementGuid>44d427e4-e626-4496-94a4-e15f2f1b122a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

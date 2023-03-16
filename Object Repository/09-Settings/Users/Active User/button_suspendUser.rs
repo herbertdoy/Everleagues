@@ -6,16 +6,16 @@
    <elementGuidId>f33d56fc-5782-4806-9444-473499341f31</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(//button[@type='button'])[10]</value>
+         <key>BASIC</key>
+         <value>//button[@type = 'button' and (text() = 'do_not_disturb_alt' or . = 'do_not_disturb_alt')]</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>button.mat-focus-indicator.mat-icon-button.mat-button-base.ng-star-inserted.cdk-focused.cdk-mouse-focused</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//button[@type = 'button' and (text() = 'do_not_disturb_alt' or . = 'do_not_disturb_alt')]</value>
+         <key>XPATH</key>
+         <value>(//button[@permission-type='OU_USER_SUSPEND'])[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -26,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>17603d1d-5164-4802-b8ce-58714c8a9b5a</webElementGuid>
+      <webElementGuid>5dd69d2f-09f9-41dd-b8ef-9cbc2b67d2f5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -34,7 +34,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>9b3f39ba-f429-4ffa-ac4a-2828cd1f3d0b</webElementGuid>
+      <webElementGuid>e7e48c19-f822-46f8-a2c0-b7a0b034a8a7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,7 +42,7 @@
       <name>permission-type</name>
       <type>Main</type>
       <value>OU_USER_SUSPEND</value>
-      <webElementGuid>aed313ab-b502-4574-9b77-418472559f85</webElementGuid>
+      <webElementGuid>a41bbb8c-8304-4dfe-8ed3-061d92eb988f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,7 +50,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-focus-indicator mat-icon-button mat-button-base ng-star-inserted cdk-focused cdk-mouse-focused</value>
-      <webElementGuid>536e5124-3d8d-4df8-8eaf-6016070252ec</webElementGuid>
+      <webElementGuid>9f979465-0ddf-4a73-83d2-f7ce48e1a973</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -58,7 +58,7 @@
       <name>ng-reflect-permission-type</name>
       <type>Main</type>
       <value>OU_USER_SUSPEND</value>
-      <webElementGuid>d4e7a0fa-7eed-4b73-bc20-d7afed8fd6cc</webElementGuid>
+      <webElementGuid>eccce0c6-095c-4e3f-8fed-aa153892129e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -66,7 +66,7 @@
       <name>ng-reflect-message</name>
       <type>Main</type>
       <value>Suspend User</value>
-      <webElementGuid>98d0d388-9c7f-4ca0-b48b-87e6613b8554</webElementGuid>
+      <webElementGuid>4d2fbbd3-19a2-4a4c-9eba-c804fdae8164</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -74,7 +74,7 @@
       <name>action-menu-desc</name>
       <type>Main</type>
       <value>Restore User</value>
-      <webElementGuid>c7954988-b745-4755-8f91-1e527c4892eb</webElementGuid>
+      <webElementGuid>c3decee0-4644-4ad4-acda-d9a8ce256711</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -82,7 +82,7 @@
       <name>aria-describedby</name>
       <type>Main</type>
       <value>cdk-describedby-message-10</value>
-      <webElementGuid>2468f18f-11b5-41ab-85c2-345d72e56ed9</webElementGuid>
+      <webElementGuid>4f3767d6-ecb6-4ef8-b031-5c4e1f729dc6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -90,7 +90,7 @@
       <name>text</name>
       <type>Main</type>
       <value>do_not_disturb_alt</value>
-      <webElementGuid>43ee033c-00d9-496a-9322-b109d05d115c</webElementGuid>
+      <webElementGuid>6a37cddc-bbc9-4cf4-ae67-d9f98b432451</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -98,7 +98,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-tab-content-0-0&quot;)/div[@class=&quot;mat-tab-body-content ng-tns-c361-48 ng-trigger ng-trigger-translateTab&quot;]/div[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;white-container ng-tns-c635-37&quot;]/div[@class=&quot;user-container-body ng-tns-c635-37&quot;]/mat-drawer-container[@class=&quot;mat-drawer-container ng-tns-c635-37&quot;]/mat-drawer-content[@class=&quot;mat-drawer-content&quot;]/app-user-table[1]/div[@class=&quot;container-body&quot;]/perfect-scrollbar[1]/div[@class=&quot;ps&quot;]/div[@class=&quot;ps-content&quot;]/td-data-table[@class=&quot;ng-untouched ng-valid ng-dirty&quot;]/div[@class=&quot;td-data-table-scrollable&quot;]/table[@class=&quot;td-data-table&quot;]/tbody[@class=&quot;td-data-table-body&quot;]/tr[@class=&quot;td-data-table-row ng-star-inserted&quot;]/td[@class=&quot;td-data-table-cell ng-star-inserted&quot;]/div[@class=&quot;td-data-table-cell-content-wrapper&quot;]/div[@class=&quot;row-controls-wrapper ng-star-inserted&quot;]/div[@class=&quot;row-controls&quot;]/table-button-list[1]/div[@class=&quot;button-list-container&quot;]/div[@class=&quot;mat-menu-wrapper el-action-menu&quot;]/button[@class=&quot;mat-focus-indicator mat-icon-button mat-button-base ng-star-inserted cdk-focused cdk-mouse-focused&quot;]</value>
-      <webElementGuid>c439ade5-d3f3-4376-b02b-7f5d462e3a78</webElementGuid>
+      <webElementGuid>77fe3061-8e68-4492-b4f6-51b269676b80</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -106,7 +106,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[19]</value>
-      <webElementGuid>33dad2ff-ed8f-485d-b054-a4c9e298385e</webElementGuid>
+      <webElementGuid>d9b2b7f2-e3da-457a-b344-b939eb29c7b5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -114,7 +114,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-tab-body[@id='mat-tab-content-0-0']/div/div/div/div[3]/mat-drawer-container/mat-drawer-content/app-user-table/div[2]/perfect-scrollbar/div/div/td-data-table/div/table/tbody/tr[5]/td[7]/div/div/div/table-button-list/div/div/button</value>
-      <webElementGuid>a12e5421-11d0-41bf-967b-484067ba54b6</webElementGuid>
+      <webElementGuid>936c607a-8f0a-4902-97fc-9d11020eeeb2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -122,7 +122,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='..'])[5]/following::button[1]</value>
-      <webElementGuid>f954db3b-ca14-4481-9568-792eccc4debc</webElementGuid>
+      <webElementGuid>7c801b94-5fb1-414a-ab63-555e029939a6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -130,7 +130,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Active'])[5]/following::button[1]</value>
-      <webElementGuid>9f9e6629-6ecb-43df-8229-58ed477c7061</webElementGuid>
+      <webElementGuid>24b34e5a-4309-43a1-a19a-61b778cc8cc8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -138,7 +138,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='GC'])[1]/preceding::button[3]</value>
-      <webElementGuid>1165343c-0f52-4dbd-8871-f824f0eaa48b</webElementGuid>
+      <webElementGuid>e9e34a1c-e4db-4ead-9a24-5067d2703a00</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -146,7 +146,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='GG Client'])[1]/preceding::button[3]</value>
-      <webElementGuid>d945a9ae-4a30-4261-99ae-d49b7126c4bc</webElementGuid>
+      <webElementGuid>b0142e2a-a1e7-4b39-98f7-831ab11c579b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -154,7 +154,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tr[5]/td[7]/div/div/div/table-button-list/div/div/button</value>
-      <webElementGuid>1c711a37-c100-4451-a409-91a48882eca5</webElementGuid>
+      <webElementGuid>75f66527-bf67-4049-9a00-5e70c8165a7f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -162,6 +162,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = 'do_not_disturb_alt' or . = 'do_not_disturb_alt')]</value>
-      <webElementGuid>686e2e98-d9d8-4d97-bac2-3a6b48c48769</webElementGuid>
+      <webElementGuid>3b6e817f-8d22-4da6-9592-ecfbc56d1662</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -6,15 +6,19 @@
    <elementGuidId>00603691-5350-4a22-b45e-55e82368963f</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='mat-input-29']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#mat-input-29</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@type = 'text' and @name = 'teamName' and @placeholder = 'Team Name']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@data-placeholder='Team Name']</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -22,6 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
+      <webElementGuid>ac90673c-4f4e-4e76-988f-188196d187d1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -29,6 +34,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
+      <webElementGuid>62567010-aa25-41cc-805e-df816f85c1f8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -36,6 +42,7 @@
       <name>name</name>
       <type>Main</type>
       <value>teamName</value>
+      <webElementGuid>89bd8c28-f8fb-416b-bae3-f7f4f0884e71</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,6 +50,7 @@
       <name>maxlength</name>
       <type>Main</type>
       <value>100</value>
+      <webElementGuid>4ed0d667-b377-468b-839a-36b30d5c2825</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,6 +58,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-input-element mat-form-field-autofill-control ng-tns-c231-108 cdk-text-field-autofill-monitored ng-untouched ng-pristine ng-invalid</value>
+      <webElementGuid>79132361-7852-45f0-8bba-970deaa345da</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -57,6 +66,7 @@
       <name>ng-reflect-maxlength</name>
       <type>Main</type>
       <value>100</value>
+      <webElementGuid>9bbd0bc1-49c3-43f2-a0fc-fd886bdaa4db</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -64,6 +74,7 @@
       <name>ng-reflect-name</name>
       <type>Main</type>
       <value>teamName</value>
+      <webElementGuid>cf1cdd0e-3d9f-4d8e-bb47-b664820b05a4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -71,6 +82,7 @@
       <name>ng-reflect-type</name>
       <type>Main</type>
       <value>text</value>
+      <webElementGuid>ba8b1036-700b-4aa4-a46c-0f3f7273a0ce</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,6 +90,7 @@
       <name>ng-reflect-placeholder</name>
       <type>Main</type>
       <value>Team Name</value>
+      <webElementGuid>81f86826-f6b7-4af3-956a-c8f398ebdaf0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -85,6 +98,7 @@
       <name>ng-reflect-readonly</name>
       <type>Main</type>
       <value>false</value>
+      <webElementGuid>31ccf5ad-b031-48bd-a512-e712e7a54b3b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -92,6 +106,7 @@
       <name>id</name>
       <type>Main</type>
       <value>mat-input-29</value>
+      <webElementGuid>2f9454a6-54db-4c5a-bc4a-c683fedba425</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -99,6 +114,7 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>Team Name</value>
+      <webElementGuid>d46b7112-5466-48c1-b270-271683eba737</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -106,6 +122,7 @@
       <name>aria-invalid</name>
       <type>Main</type>
       <value>false</value>
+      <webElementGuid>89e5a250-3948-4077-a4b8-c69daa10feeb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -113,6 +130,7 @@
       <name>aria-required</name>
       <type>Main</type>
       <value>true</value>
+      <webElementGuid>e1652586-01a9-4f22-9431-06f26b9a1917</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -120,6 +138,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-input-29&quot;)</value>
+      <webElementGuid>08c097df-a7f8-40f0-856f-7d048f89d42b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -127,6 +146,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='mat-input-29']</value>
+      <webElementGuid>aff70449-94cf-4fa2-843c-ab7305a22893</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,6 +154,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-tab-body[@id='mat-tab-content-8-0']/div/div/div/mat-form-field/div/div/div/input</value>
+      <webElementGuid>35bd1a48-5900-4d1c-84df-ad2136738830</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -141,6 +162,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//input</value>
+      <webElementGuid>4c540d30-4def-4e84-9b13-60e8e538159a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -148,5 +170,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'text' and @name = 'teamName' and @id = 'mat-input-29' and @placeholder = 'Team Name']</value>
+      <webElementGuid>7375e37d-2e12-4d04-ba0e-5e691d070ae4</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

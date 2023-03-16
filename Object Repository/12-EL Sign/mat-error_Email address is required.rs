@@ -6,15 +6,19 @@
    <elementGuidId>93894c59-d43b-4068-b1d5-35042598356a</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>//mat-error[text()=' Email address is required ']</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>#mat-error-5</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//mat-error[@id='mat-error-5']</value>
+         <key>BASIC</key>
+         <value>//mat-error[@role = 'alert' and (text() = ' Email address is required ' or . = ' Email address is required ')]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>mat-error</value>
-      <webElementGuid>5ac8ff14-d055-44c7-8a50-3e56090b7bc6</webElementGuid>
+      <webElementGuid>44bc5de7-da9b-4627-86ab-73b380c244eb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +34,7 @@
       <name>role</name>
       <type>Main</type>
       <value>alert</value>
-      <webElementGuid>57b407a5-90ac-4c04-a815-82a00a230cc5</webElementGuid>
+      <webElementGuid>e07d73eb-ff26-494c-945e-e3a2c143baf8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +42,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-error ng-tns-c110-70 ng-star-inserted</value>
-      <webElementGuid>d1c4ef73-e8b8-40b5-a399-f209dc11bd0d</webElementGuid>
+      <webElementGuid>af99ef46-9b9b-48ea-a327-478ecf465367</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +50,7 @@
       <name>id</name>
       <type>Main</type>
       <value>mat-error-5</value>
-      <webElementGuid>4af3d3be-0d96-4cc6-b4a0-46b306db74fa</webElementGuid>
+      <webElementGuid>607de71d-e79a-445e-af9e-73c351e7f1d1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +58,7 @@
       <name>text</name>
       <type>Main</type>
       <value> Email address is required </value>
-      <webElementGuid>2b816537-23fb-454c-8a00-2ef7ab4e6bf5</webElementGuid>
+      <webElementGuid>99413317-3af9-4749-85ad-4e3d56fe77ef</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +66,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-error-5&quot;)</value>
-      <webElementGuid>77a4c229-0cb4-4553-b94e-e8ca6eef902f</webElementGuid>
+      <webElementGuid>c79faa53-3413-4891-a541-c94940a6917c</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -70,7 +74,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//mat-error[@id='mat-error-5']</value>
-      <webElementGuid>9c5dd2b0-8aa6-4f9e-8d5d-ce1ebdab47c1</webElementGuid>
+      <webElementGuid>58ff9db1-204d-4ce5-826e-6096ca18d758</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +82,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-dialog-container[@id='mat-dialog-3']/app-addupdatesigners/div/div/form/mat-form-field[2]/div/div[2]/div/mat-error</value>
-      <webElementGuid>9e4bdac7-191f-4e9c-bb8d-8329f4319e37</webElementGuid>
+      <webElementGuid>58f0853e-06e9-41bc-aa99-6a114a5137d2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Receiver email address'])[1]/following::mat-error[1]</value>
-      <webElementGuid>a3922f0a-2060-4452-b9b3-46d9f032a43d</webElementGuid>
+      <webElementGuid>5f242a49-43d1-4aff-85d4-76635c455b9b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Signer name is required'])[1]/following::mat-error[1]</value>
-      <webElementGuid>a429134b-ce3c-485f-998d-9a2230741b51</webElementGuid>
+      <webElementGuid>9a286efc-f9dd-4d8c-a3f8-23a152255c53</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +106,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Sign here'])[1]/preceding::mat-error[1]</value>
-      <webElementGuid>498d3da8-f2a2-48e0-84d0-978ea8a92e2e</webElementGuid>
+      <webElementGuid>b3f4f327-6a30-413e-b4f0-1fcfd89f02c8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +114,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Email address is required']/parent::*</value>
-      <webElementGuid>02f5d27a-655a-4d64-9ed9-ba9acd8afecc</webElementGuid>
+      <webElementGuid>97f2e3db-7231-464f-b4a1-13b123721581</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +122,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//mat-form-field[2]/div/div[2]/div/mat-error</value>
-      <webElementGuid>97e38c96-1edc-4973-b5a7-3455f5623abd</webElementGuid>
+      <webElementGuid>d2b3f012-4bdd-431d-bc2b-62cf6b883acb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,6 +130,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//mat-error[@id = 'mat-error-5' and (text() = ' Email address is required ' or . = ' Email address is required ')]</value>
-      <webElementGuid>07bbf9e8-42eb-47e1-891a-72aae149d3bd</webElementGuid>
+      <webElementGuid>01d27270-ba1d-49f7-af78-3e15b54707bd</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -11,10 +11,14 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//input-select-ou[@id='input-select-ou-0']/div/mat-icon</value>
+         <value>//mat-icon[@class = 'mat-icon notranslate suffix-icon material-icons mat-ligature-font mat-icon-no-color ng-star-inserted' and (text() = 'create' or . = 'create')]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//mat-icon[@class = 'mat-icon notranslate suffix-icon material-icons mat-icon-no-color ng-star-inserted' and (text() = 'create' or . = 'create')]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>mat-icon</value>
-      <webElementGuid>e2ba8e26-2732-4898-b940-ab62a9ad16ab</webElementGuid>
+      <webElementGuid>bb6a2eaf-a1bc-4548-b208-d054c2ecafc4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +34,7 @@
       <name>role</name>
       <type>Main</type>
       <value>img</value>
-      <webElementGuid>90207908-af78-4e8e-9f3c-a798c49b9f92</webElementGuid>
+      <webElementGuid>6ece245e-2be6-43f8-97ed-a7e01a61a790</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +42,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-icon notranslate suffix-icon material-icons mat-icon-no-color ng-star-inserted</value>
-      <webElementGuid>c2ec3f5a-7303-4d6e-936f-df5e38459a52</webElementGuid>
+      <webElementGuid>2899261d-4698-44d6-a8f6-78d46c7f618f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +50,7 @@
       <name>aria-hidden</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>ea690e33-161b-48a3-ab79-482f2034e036</webElementGuid>
+      <webElementGuid>f6b381e6-7b66-4b29-8c97-c8559418dbbc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +58,7 @@
       <name>text</name>
       <type>Main</type>
       <value>create</value>
-      <webElementGuid>3f59061e-b03f-44dd-9987-5b3113e43002</webElementGuid>
+      <webElementGuid>5901dc60-944f-4420-b2fa-3c74fefbe463</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +66,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;input-select-ou-0&quot;)/div[@class=&quot;ng-pristine ng-valid ng-touched&quot;]/mat-icon[@class=&quot;mat-icon notranslate suffix-icon material-icons mat-icon-no-color ng-star-inserted&quot;]</value>
-      <webElementGuid>e17a05f4-ec4c-4612-906c-263cf9f387f5</webElementGuid>
+      <webElementGuid>4b398f4f-7891-46fc-9513-39547aa8cc65</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -70,7 +74,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//input-select-ou[@id='input-select-ou-0']/div/mat-icon</value>
-      <webElementGuid>580ce358-4c8c-4959-9fb0-20b7a7b341b2</webElementGuid>
+      <webElementGuid>1510cc3b-c37e-4230-aa10-114a3ba4028c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='GG TESTER'])[1]/following::mat-icon[1]</value>
-      <webElementGuid>8b9a1ad2-f9b2-4fc0-8b51-144c83dbf1b9</webElementGuid>
+      <webElementGuid>83870f65-6cfc-4f9d-a84c-c06b063278a0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='English'])[1]/following::mat-icon[1]</value>
-      <webElementGuid>1f0ffb54-2d98-4d07-9a10-0a8bf4c512f8</webElementGuid>
+      <webElementGuid>ae9736c7-5029-4c43-bee5-0a29163ed03f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Organization Unit'])[1]/preceding::mat-icon[1]</value>
-      <webElementGuid>ec39788a-308b-435a-83e7-9a02380a13b5</webElementGuid>
+      <webElementGuid>80b1b395-5333-4abf-bd75-28ae7bd99cd3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +106,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='By Employee'])[1]/preceding::mat-icon[1]</value>
-      <webElementGuid>08c768d9-9c86-43e3-8dde-d565fd55521b</webElementGuid>
+      <webElementGuid>6c131353-c2a3-416d-964a-aea494183e00</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +114,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//input-select-ou/div/mat-icon</value>
-      <webElementGuid>02cd7ef7-afb4-4419-8236-bbf60e6fbbe3</webElementGuid>
+      <webElementGuid>2593fc68-9d2a-40ac-8216-bea665a59fab</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,6 +122,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//mat-icon[(text() = 'create' or . = 'create')]</value>
-      <webElementGuid>0f56b6d7-f7a6-44b1-a13e-f9ab5d8fa3ae</webElementGuid>
+      <webElementGuid>b9a5299a-3136-48e4-84d4-d1bae7213381</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

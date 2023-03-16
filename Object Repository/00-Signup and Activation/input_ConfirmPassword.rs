@@ -6,19 +6,19 @@
    <elementGuidId>c4cf5035-19bd-4d49-a02b-3c98fc409c8d</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#mat-input-4</value>
+         <key>XPATH</key>
+         <value>(//input[@type='password'])[2]</value>
       </entry>
       <entry>
          <key>BASIC</key>
          <value>//*[@name = 'checkPassword' and @type = 'password' and @placeholder = 'Confirm Password']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@name = 'checkPassword' and @type = 'password' and @placeholder = 'Confirm Password']</value>
+         <key>CSS</key>
+         <value>#mat-input-4</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -26,6 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
+      <webElementGuid>1473376a-e02f-4f91-83d5-cded4d92f916</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -33,6 +34,7 @@
       <name>name</name>
       <type>Main</type>
       <value>checkPassword</value>
+      <webElementGuid>49303a1b-577f-48a9-ae77-d86ef209b539</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -40,6 +42,7 @@
       <name>minlength</name>
       <type>Main</type>
       <value>8</value>
+      <webElementGuid>c50d3f15-e3d5-4d45-a322-e9d2aa5202ea</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,6 +50,7 @@
       <name>maxlength</name>
       <type>Main</type>
       <value>50</value>
+      <webElementGuid>c2cf9306-d140-4c5e-af17-5414e7bcf006</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,6 +58,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-input-element mat-form-field-autofill-control ng-tns-c231-4 cdk-text-field-autofill-monitored ng-untouched ng-pristine ng-invalid</value>
+      <webElementGuid>5332982b-2a44-48f9-bffc-b427be8cc8b7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,6 +66,7 @@
       <name>ng-reflect-minlength</name>
       <type>Main</type>
       <value>8</value>
+      <webElementGuid>4614564a-8d32-4ba6-988d-3504e9728e6f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -68,6 +74,7 @@
       <name>ng-reflect-maxlength</name>
       <type>Main</type>
       <value>50</value>
+      <webElementGuid>75a9a8c4-c0ae-4f29-a2cf-b4d88fd3cb34</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -75,6 +82,7 @@
       <name>ng-reflect-name</name>
       <type>Main</type>
       <value>checkPassword</value>
+      <webElementGuid>48a2b45e-a247-460c-8443-092975db85b3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -82,6 +90,7 @@
       <name>ng-reflect-placeholder</name>
       <type>Main</type>
       <value>Confirm Password</value>
+      <webElementGuid>1036d5be-661b-49c8-aa28-8612bca47d3d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -89,6 +98,7 @@
       <name>type</name>
       <type>Main</type>
       <value>password</value>
+      <webElementGuid>0067a91d-51e1-435d-9eec-e265c80c6d0f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -96,6 +106,7 @@
       <name>ng-reflect-type</name>
       <type>Main</type>
       <value>password</value>
+      <webElementGuid>0cae2fb3-24e5-4517-8814-dcb533faa3f7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -103,6 +114,7 @@
       <name>ng-reflect-equal-to</name>
       <type>Main</type>
       <value>[object Object]</value>
+      <webElementGuid>c051e315-6e97-4759-a83c-194b9440ccf6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -110,6 +122,7 @@
       <name>id</name>
       <type>Main</type>
       <value>mat-input-4</value>
+      <webElementGuid>a325913e-ed16-4a6b-86cc-6e36ab0c50cc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -117,6 +130,7 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>Confirm Password</value>
+      <webElementGuid>88fd56dd-f6f5-433f-ba77-372eee18d047</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -124,6 +138,7 @@
       <name>aria-invalid</name>
       <type>Main</type>
       <value>false</value>
+      <webElementGuid>9690b9b0-0e15-4bd0-8220-d3a719922d07</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -131,6 +146,7 @@
       <name>aria-required</name>
       <type>Main</type>
       <value>true</value>
+      <webElementGuid>525ca3b9-379e-4117-875e-e45a339c08af</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -138,6 +154,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-input-4&quot;)</value>
+      <webElementGuid>55bd3f51-e0c6-4827-85c8-dbf07ffed156</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -145,6 +162,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='mat-input-4']</value>
+      <webElementGuid>79a46eb1-6059-418d-b853-2af4cef4bdf7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -152,5 +170,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[4]/div[2]/mat-form-field/div/div/div/input</value>
+      <webElementGuid>dfd49cb1-85f8-44af-b218-09c36efdfc6c</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
