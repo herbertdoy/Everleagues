@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@class='cdk-overlay-pane']//mat-dialog-container[1]</value>
+         <value>//mat-dialog-container[@role='dialog']</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -26,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>mat-dialog-container</value>
-      <webElementGuid>c9b774b3-0e6e-40d3-a4c2-d20569e4d74a</webElementGuid>
+      <webElementGuid>758f69c6-6006-4785-8caa-97bb40b125ab</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -34,7 +34,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>-1</value>
-      <webElementGuid>18dcd1f2-b3d9-46a5-b4e4-f74903cdd223</webElementGuid>
+      <webElementGuid>6ba975d5-806b-4af5-8704-ef243dcb991d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,7 +42,7 @@
       <name>aria-modal</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>9fd84418-6b37-498f-aadf-ffafdc4f826d</webElementGuid>
+      <webElementGuid>b89c5ea0-9756-4f77-89f6-a770bdfaf212</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,7 +50,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-dialog-container ng-tns-c31-266 ng-trigger ng-trigger-dialogContainer ng-star-inserted</value>
-      <webElementGuid>a979da71-fbcd-4852-b8f0-e15727a56bfb</webElementGuid>
+      <webElementGuid>5841578c-14fe-4a41-bf40-0508b77a36b5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -58,7 +58,7 @@
       <name>id</name>
       <type>Main</type>
       <value>mat-dialog-25</value>
-      <webElementGuid>18f73039-72df-4436-93b0-db8ec2c5ee87</webElementGuid>
+      <webElementGuid>6127fe9b-545e-4306-b688-1ae72bccaa52</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -66,7 +66,7 @@
       <name>role</name>
       <type>Main</type>
       <value>dialog</value>
-      <webElementGuid>ec3189eb-f77d-410c-9a1d-84f6ebd86885</webElementGuid>
+      <webElementGuid>736c4882-e405-4afd-ab0a-572f97dd661d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -74,7 +74,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Edit CompanyclearCompany Name*ConsultingCompany Type*End of DecemberClosing Date* GG tester 2 cancelsupervisor_accountShare WithCANCEL      UPDATE loop     </value>
-      <webElementGuid>7917ca6b-ef5b-4397-a868-a55bfc7ce649</webElementGuid>
+      <webElementGuid>35e8ecdc-e33b-47ca-9b99-92bfd1b349c2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -82,7 +82,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-dialog-25&quot;)</value>
-      <webElementGuid>2771a7c7-b529-4d7b-ad56-0ecdac8a8e8b</webElementGuid>
+      <webElementGuid>63a88c33-c1cb-447c-96be-17d14e3fe7ca</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -90,7 +90,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//mat-dialog-container[@id='mat-dialog-25']</value>
-      <webElementGuid>134c762f-3a72-4545-a079-e47fe1a85820</webElementGuid>
+      <webElementGuid>1a4f035b-d304-4aa3-b84d-94062e0955f7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,7 +98,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='cdk-overlay-74']/mat-dialog-container</value>
-      <webElementGuid>8b08428d-4fb9-462d-82e5-b30eb4f49a78</webElementGuid>
+      <webElementGuid>433501d1-d2f7-4b67-a1e1-ab6033809f76</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,7 +106,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='NOV 2022'])[1]/following::mat-dialog-container[1]</value>
-      <webElementGuid>5d1da81b-05b9-4284-a280-96e3445365d6</webElementGuid>
+      <webElementGuid>aec2a9fb-3435-4551-aaad-db4924aed23f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -114,7 +114,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='UPDATE'])[1]/following::mat-dialog-container[1]</value>
-      <webElementGuid>827e0076-3f03-4db7-a5b4-ec1cc59cec3e</webElementGuid>
+      <webElementGuid>917e0962-25ae-4620-857b-36c8619972ef</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -122,7 +122,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//mat-dialog-container</value>
-      <webElementGuid>6cc29c6c-1d46-4ad0-8c5c-cdd83bce7047</webElementGuid>
+      <webElementGuid>b1dd5248-8a94-4e8f-a494-4f3066bd96e5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -130,6 +130,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//mat-dialog-container[@id = 'mat-dialog-25' and (text() = 'Edit CompanyclearCompany Name*ConsultingCompany Type*End of DecemberClosing Date* GG tester 2 cancelsupervisor_accountShare WithCANCEL      UPDATE loop     ' or . = 'Edit CompanyclearCompany Name*ConsultingCompany Type*End of DecemberClosing Date* GG tester 2 cancelsupervisor_accountShare WithCANCEL      UPDATE loop     ')]</value>
-      <webElementGuid>8530c6ba-65c0-425c-a399-98667910b505</webElementGuid>
+      <webElementGuid>46c2183f-adab-4a06-b63f-594e091232db</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

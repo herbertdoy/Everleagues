@@ -26,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>f5cba83f-4df5-457c-b0eb-4117ea7f15b2</webElementGuid>
+      <webElementGuid>67cb3e39-c58d-4eef-8b0f-2acd3d44baba</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -34,7 +34,7 @@
       <name>color</name>
       <type>Main</type>
       <value>accent</value>
-      <webElementGuid>441774fc-9c99-4cee-8db0-a8451842f404</webElementGuid>
+      <webElementGuid>4e6629ca-0e09-43bd-8a3e-2560176aecaf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,7 +42,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-focus-indicator text-upper mat-raised-button mat-button-base mat-accent ng-star-inserted cdk-focused cdk-mouse-focused</value>
-      <webElementGuid>1fbc2ad1-105e-4871-9a9c-17668dc76541</webElementGuid>
+      <webElementGuid>623ebe39-8150-4e6b-b6a3-ca3b43b61201</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,7 +50,7 @@
       <name>ng-reflect-color</name>
       <type>Main</type>
       <value>accent</value>
-      <webElementGuid>3a145aed-e31e-48f4-af44-0d4f132e3b65</webElementGuid>
+      <webElementGuid>7f4c0e62-cce9-4976-8ff1-fb8db5568603</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -58,7 +58,7 @@
       <name>ng-reflect-disabled</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>229b20d6-630b-466a-bdb0-583ec0bba8e7</webElementGuid>
+      <webElementGuid>b5b34767-ddb3-45d0-b103-130c511e15af</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -66,7 +66,7 @@
       <name>text</name>
       <type>Main</type>
       <value> UPDATE loop</value>
-      <webElementGuid>299d1685-bdff-4876-bfff-3b5577cbad99</webElementGuid>
+      <webElementGuid>4da58f03-9537-4840-a8df-f2823bb20727</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -74,7 +74,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-dialog-25&quot;)/app-iet-company[@class=&quot;ng-star-inserted&quot;]/div[1]/div[@class=&quot;invgridColumn&quot;]/div[@class=&quot;button-row&quot;]/div[1]/span[@class=&quot;ng-star-inserted&quot;]/button[@class=&quot;mat-focus-indicator text-upper mat-raised-button mat-button-base mat-accent ng-star-inserted cdk-focused cdk-mouse-focused&quot;]</value>
-      <webElementGuid>5a179c97-c005-4245-bc21-5bbff23fc79d</webElementGuid>
+      <webElementGuid>96871007-c7b3-47de-bd30-df0d1929930d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -82,7 +82,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-dialog-container[@id='mat-dialog-25']/app-iet-company/div/div/div[2]/div/span/button</value>
-      <webElementGuid>fe2a5861-9388-4b87-8879-fab6272f2e30</webElementGuid>
+      <webElementGuid>a41bf250-dec1-4474-a3af-272865efbd42</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -90,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='CANCEL'])[1]/following::button[1]</value>
-      <webElementGuid>934e7961-16a6-4ace-9d65-88d3f483cc44</webElementGuid>
+      <webElementGuid>988f6532-02a4-4aeb-a27c-71061e490e70</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,7 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Share With'])[1]/following::button[2]</value>
-      <webElementGuid>6c29eb66-a2f7-4843-a984-7f1191564564</webElementGuid>
+      <webElementGuid>7971408e-8ca4-4714-9fc8-4aa7d687b586</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,7 +106,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Hide Quick Shortcuts'])[1]/preceding::button[1]</value>
-      <webElementGuid>20203fd4-26a0-451f-b5b8-67a9028f804c</webElementGuid>
+      <webElementGuid>241e8e4d-f50f-448d-bac6-744a6772ded0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -114,7 +114,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/span/button</value>
-      <webElementGuid>34f87d26-e17d-4374-86ad-e62debbf407c</webElementGuid>
+      <webElementGuid>ec82156f-2495-44d1-868e-1e241e71e958</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -122,6 +122,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[(text() = ' UPDATE loop' or . = ' UPDATE loop')]</value>
-      <webElementGuid>32fd67e8-6ad7-427e-a129-247683ad0c3c</webElementGuid>
+      <webElementGuid>301a490e-b40b-468e-bb07-2e9f9dcb9641</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

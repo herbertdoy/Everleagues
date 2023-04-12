@@ -104,6 +104,8 @@ WebUI.delay(3)
 
 WebUI.click(findTestObject('06-Teams/02-Add Team-Private/div_Members'))
 
+//WebUI.verifyElementVisible(findTestObject('06-Teams/02-Add Team-Private/Members dialog box'))
+
 WebUI.verifyElementVisible(findTestObject('06-Teams/02-Add Team-Private/Members dialog box'))
 
 WebUI.delay(3)

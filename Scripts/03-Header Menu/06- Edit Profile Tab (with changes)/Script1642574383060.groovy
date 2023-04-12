@@ -39,8 +39,6 @@ WebUI.delay(2)
 
 WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Profile Tab/button_Save'))
 
-WebUI.delay(3)
-
 WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/View Profile/Profile Tab/success msg'))
 
 WebUI.delay(2)
@@ -55,8 +53,6 @@ CustomKeywords.'uploadpackage.Upload.uploadFile'(findTestObject('Object Reposito
 WebUI.delay(2)
 
 WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Profile Tab/button_Upload Image'))
-
-WebUI.delay(3)
 
 WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/View Profile/Contact Info/Successfully changed profile image'))
 

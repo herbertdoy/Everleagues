@@ -74,7 +74,7 @@ WebUI.click(findTestObject('09-Settings/Users/Active User/button_Delete'))
 WebUI.verifyElementVisible(findTestObject('09-Settings/Organization unit/snack-bar-container_Successfully deleted organization unitOK'), 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(5)
+WebUI.delay(3)
 
 WebUI.closeBrowser()
 

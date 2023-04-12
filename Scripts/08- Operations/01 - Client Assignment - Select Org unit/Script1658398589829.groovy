@@ -76,7 +76,6 @@ WebUI.callTestCase(findTestCase('01-Login and Forgot Password/04-Login(Valid Cre
 //WebUI.click(findTestObject('06-Teams/For 2FA/button_Verify_2FA'))
 //
 //WebUI.delay(3)
-
 WebUI.click(findTestObject('03-Header Menu/Hamburger Button/div_Operation'))
 
 WebUI.verifyElementVisible(findTestObject('08-Operations/Client_Assignment'))
@@ -87,8 +86,9 @@ WebUI.delay(3)
 
 WebUI.click(findTestObject('08-Operations/Client_Assignment'))
 
-WebUI.verifyElementVisible(findTestObject('08-Operations/Client Assignment/Client Assignment Page'))
+WebUI.verifyElementVisible(findTestObject('08-Operations/Client Assignment/Client Assignment Page 2'))
 
+//WebUI.verifyElementVisible(findTestObject('08-Operations/Client Assignment/Client Assignment Page'))
 WebUI.delay(3)
 
 WebUI.click(findTestObject('08-Operations/Client Assignment/Org unit edit'))

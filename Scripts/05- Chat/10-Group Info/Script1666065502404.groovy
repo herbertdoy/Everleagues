@@ -17,8 +17,6 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-
-
 WebUI.click(findTestObject('05-Chat/02-Sending chat messages/div_AC'))
 
 WebUI.delay(3)
@@ -39,6 +37,8 @@ WebUI.click(findTestObject('05-Chat/10-Group Info/button_EDIT'))
 
 WebUI.setText(findTestObject('05-Chat/10-Group Info/input_groupName_edit'), 'Automation Chat EDITED')
 
+WebUI.delay(2)
+
 WebUI.click(findTestObject('05-Chat/10-Group Info/button_Save'))
 
 WebUI.verifyElementVisible(findTestObject('05-Chat/10-Group Info/Successfully changed group name msg'))
@@ -54,8 +54,6 @@ WebUI.verifyElementVisible(findTestObject('05-Chat/10-Group Info/button_Kick fro
 WebUI.delay(3)
 
 WebUI.click(findTestObject('05-Chat/10-Group Info/button_Kick from group'))
-
-WebUI.delay(3)
 
 WebUI.verifyElementVisible(findTestObject('05-Chat/10-Group Info/Successfully removed user from group msg'), FailureHandling.CONTINUE_ON_FAILURE)
 

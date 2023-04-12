@@ -85,5 +85,5 @@ WebUI.click(findTestObject('09-Settings/Users/Active User/button_Suspend'))
 
 WebUI.verifyElementPresent(findTestObject('09-Settings/Users/Active User/span_Successfully suspended user'), 0)
 
-WebUI.delay(5)
+WebUI.delay(3)
 

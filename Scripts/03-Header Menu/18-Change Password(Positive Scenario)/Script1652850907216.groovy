@@ -45,7 +45,8 @@ WebUI.navigateToUrl('https://lab.everleagues.com/')
 
 WebUI.maximizeWindow()
 
-WebUI.setText(findTestObject('02-Side Icons(Organization)/Add Contact/Email Field'), 'testuser02@mailinator.com')
+//WebUI.setText(findTestObject('02-Side Icons(Organization)/Add Contact/Email Field'), 'testuser02@mailinator.com')
+WebUI.setText(findTestObject('02-Side Icons(Organization)/Add Contact/Email Field'), 'testuser05@mailinator.com')
 
 WebUI.setEncryptedText(findTestObject('02-Side Icons(Organization)/Add Contact/Password Field'), 'SYb/3ow/20+o2oI9OaGCEA==')
 
@@ -67,7 +68,8 @@ WebUI.navigateToUrl('https://www.mailinator.com/')
 
 WebUI.delay(3)
 
-WebUI.setText(findTestObject('00-Signup and Activation/zMailinator/input_LOGIN_search'), 'testuser02@mailinator.com')
+//WebUI.setText(findTestObject('00-Signup and Activation/zMailinator/input_LOGIN_search'), 'testuser02@mailinator.com')
+WebUI.setText(findTestObject('00-Signup and Activation/zMailinator/input_LOGIN_search'), 'testuser05@mailinator.com')
 
 WebUI.click(findTestObject('00-Signup and Activation/zMailinator/gobutton'), FailureHandling.STOP_ON_FAILURE)
 

@@ -17,7 +17,8 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('12-EL Sign/button_createGG TESTERSign here'))
+WebUI.dragAndDropToObject(findTestObject('12-EL Sign/button_createGG TESTERSign here'), findTestObject('12-EL Sign/documents'), 
+    FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('12-EL Sign/div_create-draggable'))
 
@@ -35,24 +36,35 @@ WebUI.click(findTestObject('12-EL Sign/button_Yes'))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('12-EL Sign/button_createGG TESTERSign here'))
+WebUI.dragAndDropToObject(findTestObject('12-EL Sign/button_createGG TESTERSign here'), findTestObject('12-EL Sign/documents'), 
+    FailureHandling.STOP_ON_FAILURE)
 
-WebUI.clickOffset(findTestObject('12-EL Sign/span_COMPLETE'), 100, 100)
+WebUI.dragAndDropByOffset(findTestObject('12-EL Sign/button_createGG TESTERSign here'), 3, 10)
 
-WebUI.click(findTestObject('12-EL Sign/button_calendarGG TESTERDate signed'))
+WebUI.dragAndDropByOffset(findTestObject('12-EL Sign/button_calendarGG TESTERDate signed'), 3, 30)
 
-WebUI.clickOffset(findTestObject('12-EL Sign/span_COMPLETE'), 100, 100)
-
-WebUI.click(findTestObject('12-EL Sign/button_person_pinGG TESTERInitial here'))
-
-WebUI.clickOffset(findTestObject('12-EL Sign/span_COMPLETE'), 100, 100)
+WebUI.dragAndDropByOffset(findTestObject('12-EL Sign/button_person_pinGG TESTERInitial here'), 3, 60)
 
 WebUI.delay(3)
 
-WebUI.dragAndDropByOffset(findTestObject('12-EL Sign/div_usericon-draggable'), 3, 30)
-
-WebUI.dragAndDropByOffset(findTestObject('12-EL Sign/div_calendar-draggable'), 3, 60)
-
+//WebUI.delay(3)
+//
+//WebUI.click(findTestObject('12-EL Sign/button_createGG TESTERSign here'))
+//
+//WebUI.clickOffset(findTestObject('12-EL Sign/span_COMPLETE'), 100, 100)
+//
+//WebUI.click(findTestObject('12-EL Sign/button_calendarGG TESTERDate signed'))
+//
+//WebUI.clickOffset(findTestObject('12-EL Sign/span_COMPLETE'), 100, 100)
+//
+//WebUI.click(findTestObject('12-EL Sign/button_person_pinGG TESTERInitial here'))
+//
+//WebUI.clickOffset(findTestObject('12-EL Sign/span_COMPLETE'), 100, 100)
+//
+//WebUI.delay(3)
+//WebUI.dragAndDropByOffset(findTestObject('12-EL Sign/div_usericon-draggable'), 3, 30)
+//
+//WebUI.dragAndDropByOffset(findTestObject('12-EL Sign/div_calendar-draggable'), 3, 60)
 WebUI.click(findTestObject('12-EL Sign/span_COMPLETE'))
 
 WebUI.delay(3)

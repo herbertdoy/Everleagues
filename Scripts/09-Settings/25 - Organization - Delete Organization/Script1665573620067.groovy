@@ -31,11 +31,11 @@ WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/mat-card_Add
 
 WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/mat-card_Contact'))
 
-WebUI.delay(5)
+WebUI.delay(4)
 
 WebUI.click(findTestObject('09-Settings/Organization/button_Delete Organization'))
 
-WebUI.delay(4)
+WebUI.delay(3)
 
 WebUI.closeBrowser()
 

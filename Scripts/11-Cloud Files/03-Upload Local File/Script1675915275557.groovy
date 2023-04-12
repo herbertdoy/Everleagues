@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.delay(4)
+WebUI.delay(3)
 
 //WebUI.click(findTestObject('11-Cloud Files/button_cloud_upload Upload Files  Create Folders'))
 //CustomKeywords.'uploadpackage.Upload.uploadFile'(findTestObject('Object Repository/11-Cloud Files/button_cloud_uploadUpload Local File'), 
@@ -47,9 +47,11 @@ WebUI.setText(findTestObject('11-Cloud Files/input_Search cloudfiles'), 'Automat
 
 WebUI.sendKeys(findTestObject('11-Cloud Files/input_Search cloudfiles'), Keys.chord(Keys.ENTER))
 
+WebUI.delay(3)
+
 WebUI.verifyElementVisible(findTestObject('11-Cloud Files/td_Automation folder'))
 
 WebUI.clearText(findTestObject('11-Cloud Files/input_Search cloudfiles'))
 
-WebUI.click(findTestObject('11-Cloud Files/mat-icon_refresh'))
+WebUI.click(findTestObject('11-Cloud Files/button_back'))
 

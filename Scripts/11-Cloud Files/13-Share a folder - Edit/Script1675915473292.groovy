@@ -29,7 +29,7 @@ WebUI.verifyElementVisible(findTestObject('11-Cloud Files/mat-dialog-container_V
 
 WebUI.click(findTestObject('11-Cloud Files/div_dropdown'))
 
-WebUI.click(findTestObject('11-Cloud Files/mat-option_editor'))
+WebUI.click(findTestObject('11-Cloud Files/mat-option_manager'))
 
 WebUI.delay(3)
 
@@ -37,7 +37,7 @@ WebUI.verifyElementVisible(findTestObject('11-Cloud Files/div_GTGG tester2'))
 
 WebUI.click(findTestObject('11-Cloud Files/div_dropdown2'))
 
-WebUI.click(findTestObject('11-Cloud Files/mat-option-checkmark_editor'))
+WebUI.click(findTestObject('11-Cloud Files/mat-option-checkmark_contributor'))
 
 WebUI.delay(3)
 
@@ -68,9 +68,9 @@ WebUI.delay(5)
 
 WebUI.click(findTestObject('03-Header Menu/Hamburger Button/div_Cloud Files'))
 
-WebUI.scrollToElement(findTestObject('11-Cloud Files/a_My Files'), 0)
+WebUI.scrollToElement(findTestObject('11-Cloud Files/a_My Drive'), 0)
 
-WebUI.click(findTestObject('11-Cloud Files/a_My Files'))
+WebUI.click(findTestObject('11-Cloud Files/a_My Drive'))
 
 WebUI.click(findTestObject('11-Cloud Files/h4_MY FILES'))
 

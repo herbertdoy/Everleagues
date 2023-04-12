@@ -72,5 +72,5 @@ WebUI.delay(5)
 
 WebUI.verifyElementVisible(findTestObject('05-Chat/08-Schedule a meeting/span_Automation Meeting'))
 
-WebUI.delay(5)
+WebUI.delay(3)
 

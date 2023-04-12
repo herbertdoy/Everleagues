@@ -1,0 +1,104 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+03-Header Menu,Chrome 111.0.0.0,,,2023-04-04 11:28:37,2023-04-04 11:33:27,4m - 50.079s,PASSED
+,,,,,,,
+Test Cases/03-Header Menu/15- Change Password (Blank Fields),Chrome 111.0.0.0,,,2023-04-04 11:28:39,2023-04-04 11:30:48,2m - 8.535s,PASSED
+"openBrowser("""")",Chrome 111.0.0.0,,,2023-04-04 11:28:43,2023-04-04 11:28:54,11.285s,PASSED
+"navigateToUrl(""https://lab.everleagues.com/login?returnUrl=%2Fmain%2Fdashboard"")",Chrome 111.0.0.0,,,2023-04-04 11:28:54,2023-04-04 11:29:21,27.565s,PASSED
+maximizeWindow(),Chrome 111.0.0.0,,,2023-04-04 11:29:21,2023-04-04 11:29:22,0.473s,PASSED
+"callTestCase(findTestCase(""01-Login and Forgot Password/04-Login(Valid Credentials-With Subscription)""), [:], STOP_ON_FAILURE)",Chrome 111.0.0.0,,,2023-04-04 11:29:22,2023-04-04 11:30:27,1m - 4.942s,PASSED
+"click(findTestObject(""03-Header Menu/User Profile/Users Profile menu and notification button/div_User drop down menu button""))",Chrome 111.0.0.0,,,2023-04-04 11:30:27,2023-04-04 11:30:31,3.665s,PASSED
+delay(2),Chrome 111.0.0.0,,,2023-04-04 11:30:31,2023-04-04 11:30:33,2.020s,PASSED
+"click(findTestObject(""03-Header Menu/Header Menu Verifications/h4_Change Password""))",Chrome 111.0.0.0,,,2023-04-04 11:30:33,2023-04-04 11:30:34,1.504s,PASSED
+"verifyElementVisible(findTestObject(""03-Header Menu/User Profile/Change Password/h4_Change Password""))",Chrome 111.0.0.0,,,2023-04-04 11:30:34,2023-04-04 11:30:35,0.869s,PASSED
+delay(2),Chrome 111.0.0.0,,,2023-04-04 11:30:35,2023-04-04 11:30:37,2.016s,PASSED
+"click(findTestObject(""03-Header Menu/User Profile/Change Password/input_Old password""))",Chrome 111.0.0.0,,,2023-04-04 11:30:37,2023-04-04 11:30:38,0.903s,PASSED
+"click(findTestObject(""03-Header Menu/User Profile/Change Password/input_new password""))",Chrome 111.0.0.0,,,2023-04-04 11:30:38,2023-04-04 11:30:39,0.802s,PASSED
+"click(findTestObject(""03-Header Menu/User Profile/Change Password/input_Confirm password""))",Chrome 111.0.0.0,,,2023-04-04 11:30:39,2023-04-04 11:30:40,0.886s,PASSED
+"click(findTestObject(""03-Header Menu/User Profile/Change Password/input_Old password""))",Chrome 111.0.0.0,,,2023-04-04 11:30:40,2023-04-04 11:30:40,0.831s,PASSED
+delay(2),Chrome 111.0.0.0,,,2023-04-04 11:30:40,2023-04-04 11:30:42,2.011s,PASSED
+"verifyElementVisible(findTestObject(""03-Header Menu/User Profile/Change Password/error_Enter your password""))",Chrome 111.0.0.0,,,2023-04-04 11:30:42,2023-04-04 11:30:43,0.787s,PASSED
+"verifyElementVisible(findTestObject(""03-Header Menu/User Profile/Change Password/error_Password must be at least 8 characters""))",Chrome 111.0.0.0,,,2023-04-04 11:30:43,2023-04-04 11:30:44,0.691s,PASSED
+"verifyElementNotClickable(findTestObject(""03-Header Menu/User Profile/Change Password/button_Change Password""))",Chrome 111.0.0.0,,,2023-04-04 11:30:44,2023-04-04 11:30:45,0.751s,PASSED
+"click(findTestObject(""03-Header Menu/User Profile/Change Password/button_Cancel""))",Chrome 111.0.0.0,,,2023-04-04 11:30:45,2023-04-04 11:30:46,0.992s,PASSED
+delay(2),Chrome 111.0.0.0,,,2023-04-04 11:30:46,2023-04-04 11:30:48,2.015s,PASSED
+,,,,,,,
+Test Cases/03-Header Menu/16- Change Password (Incorrect Old Password),Chrome 111.0.0.0,,,2023-04-04 11:30:48,2023-04-04 11:31:05,17.603s,PASSED
+"click(findTestObject(""03-Header Menu/User Profile/Users Profile menu and notification button/div_User drop down menu button""))",Chrome 111.0.0.0,,,2023-04-04 11:30:50,2023-04-04 11:30:51,0.820s,PASSED
+delay(2),Chrome 111.0.0.0,,,2023-04-04 11:30:51,2023-04-04 11:30:53,2.021s,PASSED
+"click(findTestObject(""03-Header Menu/Header Menu Verifications/h4_Change Password""))",Chrome 111.0.0.0,,,2023-04-04 11:30:53,2023-04-04 11:30:54,0.857s,PASSED
+delay(1),Chrome 111.0.0.0,,,2023-04-04 11:30:54,2023-04-04 11:30:55,1.025s,PASSED
+"setText(findTestObject(""03-Header Menu/User Profile/Change Password/input_Old password""), ""wrongoldpassword"")",Chrome 111.0.0.0,,,2023-04-04 11:30:55,2023-04-04 11:30:57,1.710s,PASSED
+"setText(findTestObject(""03-Header Menu/User Profile/Change Password/input_new password""), ""Qazwsx123"")",Chrome 111.0.0.0,,,2023-04-04 11:30:57,2023-04-04 11:30:59,1.914s,PASSED
+"setText(findTestObject(""03-Header Menu/User Profile/Change Password/input_Confirm password""), ""Qazwsx123"")",Chrome 111.0.0.0,,,2023-04-04 11:30:59,2023-04-04 11:31:00,1.453s,PASSED
+"click(findTestObject(""03-Header Menu/User Profile/Change Password/button_Change Password""))",Chrome 111.0.0.0,,,2023-04-04 11:31:00,2023-04-04 11:31:01,1.012s,PASSED
+"verifyElementVisible(findTestObject(""03-Header Menu/User Profile/Change Password/Failed to change password""))",Chrome 111.0.0.0,,,2023-04-04 11:31:01,2023-04-04 11:31:03,1.479s,PASSED
+"click(findTestObject(""09-Settings/Users/Active User/button_Cancel_restore""))",Chrome 111.0.0.0,,,2023-04-04 11:31:03,2023-04-04 11:31:03,0.717s,PASSED
+delay(2),Chrome 111.0.0.0,,,2023-04-04 11:31:03,2023-04-04 11:31:05,2.013s,PASSED
+,,,,,,,
+Test Cases/03-Header Menu/17- Change Password (old and new didnt match),Chrome 111.0.0.0,,,2023-04-04 11:31:05,2023-04-04 11:31:23,17.624s,PASSED
+"click(findTestObject(""03-Header Menu/User Profile/Users Profile menu and notification button/div_User drop down menu button""))",Chrome 111.0.0.0,,,2023-04-04 11:31:07,2023-04-04 11:31:08,0.706s,PASSED
+delay(2),Chrome 111.0.0.0,,,2023-04-04 11:31:08,2023-04-04 11:31:10,2.017s,PASSED
+"click(findTestObject(""03-Header Menu/Header Menu Verifications/h4_Change Password""))",Chrome 111.0.0.0,,,2023-04-04 11:31:10,2023-04-04 11:31:11,1.085s,PASSED
+delay(1),Chrome 111.0.0.0,,,2023-04-04 11:31:11,2023-04-04 11:31:12,1.013s,PASSED
+"setEncryptedText(findTestObject(""03-Header Menu/User Profile/Change Password/input_Old password""), ""8yFRyszE6U6jvsCn51OQbg=="")",Chrome 111.0.0.0,,,2023-04-04 11:31:12,2023-04-04 11:31:14,2.356s,PASSED
+"setText(findTestObject(""03-Header Menu/User Profile/Change Password/input_new password""), ""wrongformatpass"")",Chrome 111.0.0.0,,,2023-04-04 11:31:14,2023-04-04 11:31:16,1.949s,PASSED
+"setText(findTestObject(""03-Header Menu/User Profile/Change Password/input_Confirm password""), ""xmatch"")",Chrome 111.0.0.0,,,2023-04-04 11:31:16,2023-04-04 11:31:18,1.549s,PASSED
+"click(findTestObject(""03-Header Menu/User Profile/Change Password/input_Old password""))",Chrome 111.0.0.0,,,2023-04-04 11:31:18,2023-04-04 11:31:19,0.943s,PASSED
+"verifyElementVisible(findTestObject(""03-Header Menu/User Profile/Change Password/error_Password must be at least 8 characters""))",Chrome 111.0.0.0,,,2023-04-04 11:31:19,2023-04-04 11:31:19,0.676s,PASSED
+"verifyElementVisible(findTestObject(""03-Header Menu/User Profile/Change Password/error_Password does not match""))",Chrome 111.0.0.0,,,2023-04-04 11:31:19,2023-04-04 11:31:20,0.750s,PASSED
+"verifyElementNotClickable(findTestObject(""03-Header Menu/User Profile/Change Password/button_Change Password""))",Chrome 111.0.0.0,,,2023-04-04 11:31:20,2023-04-04 11:31:21,0.881s,PASSED
+delay(2),Chrome 111.0.0.0,,,2023-04-04 11:31:21,2023-04-04 11:31:23,2.021s,PASSED
+,,,,,,,
+Test Cases/03-Header Menu/18-Change Password(Positive Scenario),Chrome 111.0.0.0,,,2023-04-04 11:31:23,2023-04-04 11:33:27,2m - 3.921s,PASSED
+"setEncryptedText(findTestObject(""03-Header Menu/User Profile/Change Password/input_Old password""), ""8yFRyszE6U6jvsCn51OQbg=="")",Chrome 111.0.0.0,,,2023-04-04 11:31:25,2023-04-04 11:31:26,1.081s,PASSED
+"setEncryptedText(findTestObject(""03-Header Menu/User Profile/Change Password/input_new password""), ""SYb/3ow/20+o2oI9OaGCEA=="")",Chrome 111.0.0.0,,,2023-04-04 11:31:26,2023-04-04 11:31:27,1.103s,PASSED
+"setEncryptedText(findTestObject(""03-Header Menu/User Profile/Change Password/input_Confirm password""), ""SYb/3ow/20+o2oI9OaGCEA=="")",Chrome 111.0.0.0,,,2023-04-04 11:31:27,2023-04-04 11:31:28,1.057s,PASSED
+"click(findTestObject(""03-Header Menu/User Profile/Change Password/button_Change Password""))",Chrome 111.0.0.0,,,2023-04-04 11:31:28,2023-04-04 11:31:29,1.154s,PASSED
+"verifyElementVisible(findTestObject(""03-Header Menu/User Profile/Change Password/Successfully changed password""))",Chrome 111.0.0.0,,,2023-04-04 11:31:29,2023-04-04 11:31:31,2.151s,PASSED
+delay(2),Chrome 111.0.0.0,,,2023-04-04 11:31:31,2023-04-04 11:31:33,2.014s,PASSED
+"click(findTestObject(""03-Header Menu/User Profile/Users Profile menu and notification button/div_User drop down menu button""))",Chrome 111.0.0.0,,,2023-04-04 11:31:33,2023-04-04 11:31:35,1.153s,PASSED
+delay(2),Chrome 111.0.0.0,,,2023-04-04 11:31:35,2023-04-04 11:31:37,2.013s,PASSED
+"click(findTestObject(""03-Header Menu/Header Menu Verifications/h4_Sign Out""))",Chrome 111.0.0.0,,,2023-04-04 11:31:37,2023-04-04 11:31:38,0.933s,PASSED
+delay(2),Chrome 111.0.0.0,,,2023-04-04 11:31:38,2023-04-04 11:31:40,2.018s,PASSED
+closeBrowser(),Chrome 111.0.0.0,,,2023-04-04 11:31:40,2023-04-04 11:31:43,3.852s,PASSED
+"openBrowser("""")",Chrome 111.0.0.0,,,2023-04-04 11:31:43,2023-04-04 11:31:47,3.255s,PASSED
+"navigateToUrl(""https://lab.everleagues.com/"")",Chrome 111.0.0.0,,,2023-04-04 11:31:47,2023-04-04 11:32:10,22.965s,PASSED
+maximizeWindow(),Chrome 111.0.0.0,,,2023-04-04 11:32:10,2023-04-04 11:32:10,0.361s,PASSED
+"setText(findTestObject(""02-Side Icons(Organization)/Add Contact/Email Field""), ""testuser05@mailinator.com"")",Chrome 111.0.0.0,,,2023-04-04 11:32:10,2023-04-04 11:32:14,3.654s,PASSED
+"setEncryptedText(findTestObject(""02-Side Icons(Organization)/Add Contact/Password Field""), ""SYb/3ow/20+o2oI9OaGCEA=="")",Chrome 111.0.0.0,,,2023-04-04 11:32:14,2023-04-04 11:32:15,1.120s,PASSED
+"click(findTestObject(""02-Side Icons(Organization)/Add Contact/button_Sign in""))",Chrome 111.0.0.0,,,2023-04-04 11:32:15,2023-04-04 11:32:16,0.938s,PASSED
+delay(2),Chrome 111.0.0.0,,,2023-04-04 11:32:16,2023-04-04 11:32:18,2.017s,PASSED
+"click(findTestObject(""06-Teams/For 2FA/button_Confirm_2FA""))",Chrome 111.0.0.0,,,2023-04-04 11:32:18,2023-04-04 11:32:19,0.816s,PASSED
+"executeJavaScript(""window.open();"", [])",Chrome 111.0.0.0,,,2023-04-04 11:32:19,2023-04-04 11:32:19,0.323s,PASSED
+currentWindow = getWindowIndex(),Chrome 111.0.0.0,,,2023-04-04 11:32:19,2023-04-04 11:32:19,0.093s,PASSED
+delay(3),Chrome 111.0.0.0,,,2023-04-04 11:32:19,2023-04-04 11:32:22,3.018s,PASSED
+switchToWindowIndex(currentWindow + 1),Chrome 111.0.0.0,,,2023-04-04 11:32:22,2023-04-04 11:32:22,0.052s,PASSED
+"navigateToUrl(""https://www.mailinator.com/"")",Chrome 111.0.0.0,,,2023-04-04 11:32:22,2023-04-04 11:32:31,8.781s,PASSED
+delay(3),Chrome 111.0.0.0,,,2023-04-04 11:32:31,2023-04-04 11:32:34,3.012s,PASSED
+"setText(findTestObject(""00-Signup and Activation/zMailinator/input_LOGIN_search""), ""testuser05@mailinator.com"")",Chrome 111.0.0.0,,,2023-04-04 11:32:34,2023-04-04 11:32:35,1.534s,PASSED
+"click(findTestObject(""00-Signup and Activation/zMailinator/gobutton""), STOP_ON_FAILURE)",Chrome 111.0.0.0,,,2023-04-04 11:32:35,2023-04-04 11:32:38,3.058s,PASSED
+delay(3),Chrome 111.0.0.0,,,2023-04-04 11:32:38,2023-04-04 11:32:41,3.010s,PASSED
+"click(findTestObject(""00-Signup and Activation/zMailinator/Email - everleagues""))",Chrome 111.0.0.0,,,2023-04-04 11:32:41,2023-04-04 11:32:43,1.284s,PASSED
+delay(3),Chrome 111.0.0.0,,,2023-04-04 11:32:43,2023-04-04 11:32:46,3.023s,PASSED
+"code = getText(findTestObject(""Object Repository/06-Teams/For 2FA/2FA code""))",Chrome 111.0.0.0,,,2023-04-04 11:32:46,2023-04-04 11:32:47,1.317s,PASSED
+delay(3),Chrome 111.0.0.0,,,2023-04-04 11:32:47,2023-04-04 11:32:50,3.010s,PASSED
+"closeWindowTitle(""Mailinator"")",Chrome 111.0.0.0,,,2023-04-04 11:32:50,2023-04-04 11:32:51,0.467s,PASSED
+delay(3),Chrome 111.0.0.0,,,2023-04-04 11:32:51,2023-04-04 11:32:54,3.008s,PASSED
+switchToWindowIndex(0),Chrome 111.0.0.0,,,2023-04-04 11:32:54,2023-04-04 11:32:54,0.054s,PASSED
+delay(3),Chrome 111.0.0.0,,,2023-04-04 11:32:54,2023-04-04 11:32:57,3.014s,PASSED
+"setText(findTestObject(""Object Repository/06-Teams/For 2FA/input_Enter verification code_code""), code)",Chrome 111.0.0.0,,,2023-04-04 11:32:57,2023-04-04 11:32:58,1.383s,PASSED
+delay(3),Chrome 111.0.0.0,,,2023-04-04 11:32:58,2023-04-04 11:33:01,3.015s,PASSED
+"click(findTestObject(""06-Teams/For 2FA/button_Verify_2FA""))",Chrome 111.0.0.0,,,2023-04-04 11:33:01,2023-04-04 11:33:02,0.800s,PASSED
+delay(5),Chrome 111.0.0.0,,,2023-04-04 11:33:02,2023-04-04 11:33:07,5.020s,PASSED
+"click(findTestObject(""03-Header Menu/User Profile/Users Profile menu and notification button/div_User drop down menu button""))",Chrome 111.0.0.0,,,2023-04-04 11:33:07,2023-04-04 11:33:10,2.877s,PASSED
+delay(2),Chrome 111.0.0.0,,,2023-04-04 11:33:10,2023-04-04 11:33:12,2.012s,PASSED
+"click(findTestObject(""03-Header Menu/Header Menu Verifications/h4_Change Password""))",Chrome 111.0.0.0,,,2023-04-04 11:33:12,2023-04-04 11:33:13,1.061s,PASSED
+"verifyElementVisible(findTestObject(""03-Header Menu/User Profile/Change Password/h4_Change Password""))",Chrome 111.0.0.0,,,2023-04-04 11:33:13,2023-04-04 11:33:14,0.752s,PASSED
+delay(2),Chrome 111.0.0.0,,,2023-04-04 11:33:14,2023-04-04 11:33:16,2.009s,PASSED
+"setEncryptedText(findTestObject(""03-Header Menu/User Profile/Change Password/input_Old password""), ""SYb/3ow/20+o2oI9OaGCEA=="")",Chrome 111.0.0.0,,,2023-04-04 11:33:16,2023-04-04 11:33:17,1.386s,PASSED
+"setEncryptedText(findTestObject(""03-Header Menu/User Profile/Change Password/input_new password""), ""8yFRyszE6U6jvsCn51OQbg=="")",Chrome 111.0.0.0,,,2023-04-04 11:33:17,2023-04-04 11:33:18,1.195s,PASSED
+"setEncryptedText(findTestObject(""03-Header Menu/User Profile/Change Password/input_Confirm password""), ""8yFRyszE6U6jvsCn51OQbg=="")",Chrome 111.0.0.0,,,2023-04-04 11:33:18,2023-04-04 11:33:19,1.245s,PASSED
+"click(findTestObject(""03-Header Menu/User Profile/Change Password/button_Change Password""))",Chrome 111.0.0.0,,,2023-04-04 11:33:19,2023-04-04 11:33:20,0.949s,PASSED
+"verifyElementVisible(findTestObject(""03-Header Menu/User Profile/Change Password/Successfully changed password""))",Chrome 111.0.0.0,,,2023-04-04 11:33:20,2023-04-04 11:33:23,2.247s,PASSED
+delay(2),Chrome 111.0.0.0,,,2023-04-04 11:33:23,2023-04-04 11:33:25,2.021s,PASSED
+closeBrowser(),Chrome 111.0.0.0,,,2023-04-04 11:33:25,2023-04-04 11:33:27,2.303s,PASSED

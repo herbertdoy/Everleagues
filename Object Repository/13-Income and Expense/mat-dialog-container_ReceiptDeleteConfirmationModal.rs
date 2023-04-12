@@ -6,12 +6,11 @@
    <elementGuidId>068a8709-8f2f-4561-816a-17b7d6201ab4</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//mat-dialog-container[@role = 'dialog' and (text() = 'Do you confirm the deletion of this receipt??? No      Yes ' or . = 'Do you confirm the deletion of this receipt?? No      Yes ')]</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//mat-dialog-container[@role='dialog']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='GG TESTER'])[1]/following::div[3]</value>
+         <value>//div[@class='alert-new-notif']/following-sibling::div[1]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>d59bd632-d548-42c8-934d-8df1427ee72b</webElementGuid>
+      <webElementGuid>39185afa-53b4-44cc-ac3d-e3a4e8332eac</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>wrapper</value>
-      <webElementGuid>dcf36ce5-f90e-427e-b868-06b786cad1d0</webElementGuid>
+      <webElementGuid>1a71ef9f-82b2-44e8-95d0-900e7a8dc47f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value>report_problem You should host an Open Meeting only when you need to include guests who are non EL members. It is a public meeting and therefore does not offer all the security features of a private group meeting. You may initiate a private group meeting from any chat group. Invitation was sent to testuser02@mailinator.com succcessfully.Invitation was sent to 123@123.com succcessfully.sasas sasas was saved to your contact directory successfully.Click the link to enter the meeting room.https://xukp7.app.goo.gl/cthFcontent_copyIf you have trouble launching the meeting via the above link, use this web URL to access the meeting via a browser.https://lab.evlgs.co/bczcontent_copyCreate another meetingBringing your old and new contacts together!</value>
-      <webElementGuid>978bc83f-fdcc-4b3d-8e3f-691ae6134a38</webElementGuid>
+      <webElementGuid>30367eac-b8fb-4c6c-b4d8-1b7d158c2b55</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/app-root[1]/app-main-page[@class=&quot;ng-tns-c481-5 ng-trigger ng-trigger-routerAnimation ng-star-inserted&quot;]/mat-sidenav-container[@class=&quot;mat-drawer-container mat-sidenav-container ng-tns-c481-5 mat-drawer-transition mat-drawer-container-has-open&quot;]/mat-sidenav-content[@class=&quot;mat-drawer-content mat-sidenav-content&quot;]/div[@class=&quot;wrapper&quot;]</value>
-      <webElementGuid>1f2a168a-c7a1-48d6-86ba-2e39f79dd531</webElementGuid>
+      <webElementGuid>42ccff72-c114-4bb1-a2de-b60ce2b785dc</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='GG TESTER'])[1]/following::div[3]</value>
-      <webElementGuid>2fe35fca-daae-4abf-ae6d-294f72b4e8d8</webElementGuid>
+      <webElementGuid>53ffaa8b-b1f6-481d-96a3-8e91775bc6bd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='English'])[1]/following::div[5]</value>
-      <webElementGuid>a8234227-b07f-44e7-a8fe-2cdd018e4449</webElementGuid>
+      <webElementGuid>43fda39f-9406-4fd9-8388-5793e4e78ee0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//mat-sidenav-content/div[2]</value>
-      <webElementGuid>65d5a93b-24e3-42e4-aa1e-31c0a3c759fe</webElementGuid>
+      <webElementGuid>cfdb9a9f-75fa-4f88-8f73-cb2d98028d58</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,6 +78,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = 'report_problem You should host an Open Meeting only when you need to include guests who are non EL members. It is a public meeting and therefore does not offer all the security features of a private group meeting. You may initiate a private group meeting from any chat group. Invitation was sent to testuser02@mailinator.com succcessfully.Invitation was sent to 123@123.com succcessfully.sasas sasas was saved to your contact directory successfully.Click the link to enter the meeting room.https://xukp7.app.goo.gl/cthFcontent_copyIf you have trouble launching the meeting via the above link, use this web URL to access the meeting via a browser.https://lab.evlgs.co/bczcontent_copyCreate another meetingBringing your old and new contacts together!' or . = 'report_problem You should host an Open Meeting only when you need to include guests who are non EL members. It is a public meeting and therefore does not offer all the security features of a private group meeting. You may initiate a private group meeting from any chat group. Invitation was sent to testuser02@mailinator.com succcessfully.Invitation was sent to 123@123.com succcessfully.sasas sasas was saved to your contact directory successfully.Click the link to enter the meeting room.https://xukp7.app.goo.gl/cthFcontent_copyIf you have trouble launching the meeting via the above link, use this web URL to access the meeting via a browser.https://lab.evlgs.co/bczcontent_copyCreate another meetingBringing your old and new contacts together!')]</value>
-      <webElementGuid>a30f856c-855f-4397-b6b4-1689818aa8bc</webElementGuid>
+      <webElementGuid>b69547a7-8f41-4085-8ce1-9aceb9c251b7</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

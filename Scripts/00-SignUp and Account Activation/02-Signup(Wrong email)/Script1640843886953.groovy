@@ -27,15 +27,15 @@ WebUI.click(findTestObject('00-Signup and Activation/input_firstName'))
 
 WebUI.verifyElementPresent(findTestObject('00-Signup and Activation/error_valid email is required'), 0)
 
-WebUI.delay(0)
+WebUI.delay(2)
 
 WebUI.setText(findTestObject('00-Signup and Activation/input_Email'), 'testuser01@mailinator.com')
 
-WebUI.delay(0)
+WebUI.delay(2)
 
 WebUI.click(findTestObject('00-Signup and Activation/input_firstName'))
 
 WebUI.verifyElementVisible(findTestObject('00-Signup and Activation/error_email already exists'))
 
-WebUI.delay(0)
+WebUI.delay(2)
 

@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//td[text()=' Copy of qa EDIT ']</value>
+         <value>//td[text()=' qa EDIT (1) ']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

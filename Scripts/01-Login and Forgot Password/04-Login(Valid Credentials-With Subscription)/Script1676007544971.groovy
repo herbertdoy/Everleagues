@@ -17,7 +17,8 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.setText(findTestObject('01-Login and Forgot Password/input_Email_email'), 'testuser02@mailinator.com')
+//WebUI.setText(findTestObject('01-Login and Forgot Password/input_Email_email'), 'testuser02@mailinator.com')
+WebUI.setText(findTestObject('01-Login and Forgot Password/input_Email_email'), 'testuser05@mailinator.com')
 
 WebUI.setEncryptedText(findTestObject('01-Login and Forgot Password/input_Email_password'), '8yFRyszE6U6jvsCn51OQbg==')
 
@@ -45,7 +46,8 @@ WebUI.navigateToUrl('https://www.mailinator.com/')
 
 WebUI.delay(3)
 
-WebUI.setText(findTestObject('00-Signup and Activation/zMailinator/input_LOGIN_search'), 'testuser02@mailinator.com')
+//WebUI.setText(findTestObject('00-Signup and Activation/zMailinator/input_LOGIN_search'), 'testuser02@mailinator.com')
+WebUI.setText(findTestObject('00-Signup and Activation/zMailinator/input_LOGIN_search'), 'testuser05@mailinator.com')
 
 WebUI.click(findTestObject('00-Signup and Activation/zMailinator/gobutton'), FailureHandling.STOP_ON_FAILURE)
 

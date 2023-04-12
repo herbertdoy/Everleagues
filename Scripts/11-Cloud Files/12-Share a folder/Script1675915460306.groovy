@@ -54,7 +54,7 @@ import org.openqa.selenium.Keys as Keys
 //WebUI.delay(10)
 //WebUI.click(findTestObject('03-Header Menu/Hamburger Button/div_Cloud Files'))
 //WebUI.verifyElementVisible(findTestObject('11-Cloud Files/h4_MY FILES'))
-//WebUI.click(findTestObject('11-Cloud Files/a_My Files'))
+//WebUI.click(findTestObject('11-Cloud Files/a_My Drive'))
 //WebUI.delay(3)
 WebUI.rightClick(findTestObject('11-Cloud Files/td_Automation folder EDIT'))
 

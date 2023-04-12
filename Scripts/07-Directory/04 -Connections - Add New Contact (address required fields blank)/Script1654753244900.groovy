@@ -21,7 +21,7 @@ WebUI.scrollToElement(findTestObject('07-Directory/Connections/button_add_addres
 
 WebUI.click(findTestObject('07-Directory/Connections/button_add_address'))
 
-WebUI.click(findTestObject('07-Directory/Connections/button_add_address'))
+//WebUI.click(findTestObject('07-Directory/Connections/button_add_address'))
 
 WebUI.verifyElementVisible(findTestObject('07-Directory/Connections/Edit address modal'))
 

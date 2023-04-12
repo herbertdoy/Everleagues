@@ -6,12 +6,12 @@
    <elementGuidId>538ff4a0-740c-477a-a36a-73fa84c12a6e</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//span[@class = 'mat-option-text' and (text() = ' GG tester 2 (norvs26@mailinator.com) ' or . = ' GG tester 2 (norvs26@mailinator.com) ')]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#mat-option-38 > span.mat-option-text</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//mat-option[@role='option'])[1]</value>
       </entry>
       <entry>
          <key>BASIC</key>
@@ -26,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>16de99c7-7a2b-49fc-b9ed-33d876b84942</webElementGuid>
+      <webElementGuid>a338c4d1-93fa-4192-aac3-e912bde41515</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -34,7 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-option-text</value>
-      <webElementGuid>c3029421-c14d-4ffb-a1ee-99989905839d</webElementGuid>
+      <webElementGuid>5065c9ca-bab3-43fa-b23c-6ba2091841fb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -42,7 +42,7 @@
       <name>text</name>
       <type>Main</type>
       <value> GG tester 2 (autotester01@mailinator.com) </value>
-      <webElementGuid>98a9234e-6b3b-4c47-bb6b-67a1337376e1</webElementGuid>
+      <webElementGuid>4ccdd664-7772-4739-996e-dfe576f11d07</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,7 +50,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-option-38&quot;)/span[@class=&quot;mat-option-text&quot;]</value>
-      <webElementGuid>d32b6182-08e4-4760-9317-b6709a9ebdb6</webElementGuid>
+      <webElementGuid>969e3d29-fda9-40c5-9bf1-a1478780c66d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -58,7 +58,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-option[@id='mat-option-38']/span</value>
-      <webElementGuid>c5f16c8f-9bbc-4eb8-aa73-7b2ab27bb617</webElementGuid>
+      <webElementGuid>5e7caf85-ca99-4ee5-b40b-d2793e87454a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -66,7 +66,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='GG Partner (autotester10@mailinator.com)'])[1]/following::span[1]</value>
-      <webElementGuid>93baac50-cf17-420b-be31-0b753b27bf1f</webElementGuid>
+      <webElementGuid>3902515d-477a-4cff-96f4-6bfd7bba823d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -74,7 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='GG Client (autotester09@mailinator.com)'])[1]/following::span[2]</value>
-      <webElementGuid>c6c9ad03-bae5-4e7c-9b0a-b4de5b2b0f7d</webElementGuid>
+      <webElementGuid>b459203e-326f-49f9-a2ad-4d904bc6205a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::span[1]</value>
-      <webElementGuid>026ecae7-1e0e-4a5e-a72c-5513b2a5dfa8</webElementGuid>
+      <webElementGuid>39bd4fca-53f7-420c-bd95-f2cfe94d5cea</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -90,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Alt'])[1]/preceding::span[2]</value>
-      <webElementGuid>fcefdfda-1f89-405e-92be-1cedc1514446</webElementGuid>
+      <webElementGuid>22363e45-2a14-43b8-b5bd-195955e9f70a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,7 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='GG tester 2 (autotester01@mailinator.com)']/parent::*</value>
-      <webElementGuid>e581d2f7-d147-4ccc-9008-c12550bfcffc</webElementGuid>
+      <webElementGuid>e5497597-2e8e-4f96-a5cf-819b4cdf2ebf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,7 +106,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//mat-option[5]/span</value>
-      <webElementGuid>2ea174f7-c331-4ad0-89ce-8014a11d3295</webElementGuid>
+      <webElementGuid>d81c7049-1a90-4c8e-bd72-dba4e8bab049</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -114,6 +114,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = ' GG tester 2 (autotester01@mailinator.com) ' or . = ' GG tester 2 (autotester01@mailinator.com) ')]</value>
-      <webElementGuid>93054f8d-80a4-4586-a493-b69ed8348d92</webElementGuid>
+      <webElementGuid>d8493ef1-d8d2-4425-86ed-d0c765e67321</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

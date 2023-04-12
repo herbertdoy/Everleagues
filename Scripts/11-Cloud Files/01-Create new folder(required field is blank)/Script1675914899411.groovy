@@ -76,7 +76,6 @@ WebUI.callTestCase(findTestCase('01-Login and Forgot Password/04-Login(Valid Cre
 //WebUI.click(findTestObject('06-Teams/For 2FA/button_Verify_2FA'))
 //
 //WebUI.delay(5)
-
 WebUI.click(findTestObject('06-Teams/button_doublearrow'))
 
 WebUI.click(findTestObject('06-Teams/button_My Organizations'))
@@ -91,13 +90,15 @@ WebUI.delay(5)
 
 WebUI.click(findTestObject('03-Header Menu/Hamburger Button/div_Cloud Files'))
 
-WebUI.scrollToElement(findTestObject('11-Cloud Files/a_My Files'), 0)
+WebUI.scrollToElement(findTestObject('11-Cloud Files/a_My Drive'), 0)
 
-WebUI.verifyElementVisible(findTestObject('11-Cloud Files/a_My Files'))
+WebUI.verifyElementVisible(findTestObject('11-Cloud Files/a_My Drive'))
+
+WebUI.verifyElementVisible(findTestObject('11-Cloud Files/a_Shared Drive'))
 
 WebUI.verifyElementVisible(findTestObject('11-Cloud Files/a_Shared With Me'))
 
-WebUI.click(findTestObject('11-Cloud Files/a_My Files'))
+WebUI.click(findTestObject('11-Cloud Files/a_My Drive'))
 
 WebUI.verifyElementVisible(findTestObject('11-Cloud Files/h4_CLOUD STORAGE'))
 

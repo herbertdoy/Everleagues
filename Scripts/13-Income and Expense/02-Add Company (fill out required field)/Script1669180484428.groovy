@@ -29,7 +29,8 @@ WebUI.click(findTestObject('13-Income and Expense/mat-option_End of September'))
 
 WebUI.click(findTestObject('13-Income and Expense/mat-icon_account'))
 
-WebUI.click(findTestObject('13-Income and Expense/mat-option_GG tester 2'))
+//WebUI.click(findTestObject('13-Income and Expense/mat-option_GG tester 2'))
+WebUI.click(findTestObject('13-Income and Expense/mat-option_GG TESTER'))
 
 WebUI.delay(1)
 

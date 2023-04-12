@@ -6,15 +6,18 @@
    <elementGuidId>3e1232b4-0d8d-4b53-98c1-4f508f2ff259</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>(//div[@class='white-container'])[3]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//mat-tab-body[@id='mat-tab-content-5-1']/div/app-client-assign-by-client/div[4]</value>
+         <key>BASIC</key>
+         <value>//div[@class = 'white-container' and (text() = ' Employees searchcancelGG TESTERGTGG tester 2' or . = ' Employees searchcancelGG TESTERGTGG tester 2')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -22,7 +25,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>f5eadcd5-dced-4c2b-8ee9-9b6887c2e391</webElementGuid>
+      <webElementGuid>6d7555ee-95fa-413f-a653-e35b5e9efbb7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +33,7 @@
       <name>fxflex</name>
       <type>Main</type>
       <value>20</value>
-      <webElementGuid>d14aabd4-fadc-4be1-b646-6b426ceb7310</webElementGuid>
+      <webElementGuid>b642c5ea-5465-4be8-b0c7-9c74095b1893</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +41,7 @@
       <name>fxflex.lt-lg</name>
       <type>Main</type>
       <value>25</value>
-      <webElementGuid>bc584548-7884-403d-8086-a066935c2f60</webElementGuid>
+      <webElementGuid>f84ff3f7-7095-4b86-88db-d8e99bac81a1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +49,7 @@
       <name>class</name>
       <type>Main</type>
       <value>white-container</value>
-      <webElementGuid>a921da6d-aeac-4db3-bf9f-b511bee4fc99</webElementGuid>
+      <webElementGuid>b54b6d01-4bf9-47a5-be4c-1bea010e7186</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +57,7 @@
       <name>ng-reflect-fx-flex</name>
       <type>Main</type>
       <value>20</value>
-      <webElementGuid>5d46d526-3dec-4430-ae97-ad370004e1a9</webElementGuid>
+      <webElementGuid>dbb50ac9-7649-46ce-82dd-597241295554</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +65,7 @@
       <name>ng-reflect-fx-flex.lt-lg</name>
       <type>Main</type>
       <value>25</value>
-      <webElementGuid>78ff45d6-e2ab-4ee1-92c9-9e4cb00c0567</webElementGuid>
+      <webElementGuid>59735c19-7864-4e5c-acf0-c7af9200ce74</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -70,7 +73,7 @@
       <name>text</name>
       <type>Main</type>
       <value> Employees searchcancelGG TESTERGTGG tester 2</value>
-      <webElementGuid>cbf72363-b329-4c1d-ad92-609db922a754</webElementGuid>
+      <webElementGuid>18e0e6f1-4b6e-4adc-b9ba-ba58d03b64b5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,7 +81,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-tab-content-5-1&quot;)/div[@class=&quot;mat-tab-body-content ng-tns-c361-406 ng-trigger ng-trigger-translateTab&quot;]/app-client-assign-by-client[@class=&quot;tab-container ng-star-inserted&quot;]/div[@class=&quot;white-container&quot;]</value>
-      <webElementGuid>e242e463-f195-4498-b227-76a867c875a1</webElementGuid>
+      <webElementGuid>306b66b7-96c7-48fc-aec3-93c65b10f300</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -86,7 +89,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-tab-body[@id='mat-tab-content-5-1']/div/app-client-assign-by-client/div[4]</value>
-      <webElementGuid>2eaf0173-d421-44d3-86df-909b74d71636</webElementGuid>
+      <webElementGuid>afd65a24-f53e-40ce-9af1-1ca6eed08d4c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +97,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//app-client-assign-by-client/div[4]</value>
-      <webElementGuid>d9477d01-2461-4287-9738-83fdc10054b8</webElementGuid>
+      <webElementGuid>b83f32b3-66b2-4624-a0a6-664cb23ed4e1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,6 +105,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = ' Employees searchcancelGG TESTERGTGG tester 2' or . = ' Employees searchcancelGG TESTERGTGG tester 2')]</value>
-      <webElementGuid>96ce5370-742d-4e60-a1f4-cc6b381d20bf</webElementGuid>
+      <webElementGuid>01cc2b1e-78c0-4310-af29-914fb302f171</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

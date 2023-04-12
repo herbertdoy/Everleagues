@@ -67,7 +67,7 @@ WebUI.click(findTestObject('09-Settings/Users/Active User/button_Delete'))
 
 WebUI.verifyElementVisible(findTestObject('09-Settings/Users/Invited Users/span_Successfully deleted invite'))
 
-WebUI.delay(4)
+WebUI.delay(3)
 
 WebUI.closeBrowser()
 

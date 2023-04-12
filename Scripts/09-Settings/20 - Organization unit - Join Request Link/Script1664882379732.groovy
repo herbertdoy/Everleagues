@@ -23,18 +23,15 @@ WebUI.delay(3)
 
 WebUI.mouseOver(findTestObject('09-Settings/Organization unit/div_GG TESTER'))
 
-WebUI.delay(4)
+WebUI.delay(3)
 
 //WebUI.waitForElementClickable(findTestObject('09-Settings/Organization unit/div_GG TESTER'), 0)
-
 WebUI.click(findTestObject('09-Settings/Organization unit/div_GG TESTER'))
 
 WebUI.delay(3)
 
 //WebUI.waitForElementVisible(findTestObject('09-Settings/Organization unit/button_link'), 0)
-
 //WebUI.waitForElementClickable(findTestObject('09-Settings/Organization unit/button_link'), 0)
-
 WebUI.click(findTestObject('09-Settings/Organization unit/button_link'))
 
 WebUI.verifyElementPresent(findTestObject('09-Settings/Organization unit/mat-dialog-container_Join Request modal'), 0)

@@ -7,14 +7,18 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//mat-dialog-container[@id='mat-dialog-27']</value>
+         <value>//mat-dialog-container[@role='dialog']</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>#mat-dialog-27</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//mat-dialog-container[@role = 'dialog' and (text() = 'Do you confirm the deletion of this company? No      Yes ' or . = 'Do you confirm the deletion of this company? No      Yes ')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>mat-dialog-container</value>
-      <webElementGuid>5ec0c04c-243b-48c3-89db-471d2dd9d014</webElementGuid>
+      <webElementGuid>6e00e0cb-1c6b-4c24-b32a-6dc0a26b9b43</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +34,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>-1</value>
-      <webElementGuid>98864e1f-265c-47ee-ae7f-26b98122078c</webElementGuid>
+      <webElementGuid>d0070649-9b10-4be0-8830-b5bd34aa89d4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +42,7 @@
       <name>aria-modal</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>347537a5-fcc2-492c-8019-c25078c49a6b</webElementGuid>
+      <webElementGuid>9b4e53a7-e7a5-4a34-b770-1635f5f189f9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +50,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-dialog-container ng-tns-c31-283 ng-trigger ng-trigger-dialogContainer ng-star-inserted</value>
-      <webElementGuid>e8fb6e31-6171-4831-afc1-fff8d8df9139</webElementGuid>
+      <webElementGuid>ca6c82da-a492-4ece-9d65-a00b230b3dcd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +58,7 @@
       <name>id</name>
       <type>Main</type>
       <value>mat-dialog-27</value>
-      <webElementGuid>2bcc5cc8-26cc-46e5-9081-e2cd75a09099</webElementGuid>
+      <webElementGuid>b25af218-e289-4b26-9975-46df91c45a01</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -62,7 +66,7 @@
       <name>role</name>
       <type>Main</type>
       <value>dialog</value>
-      <webElementGuid>03cfb1db-3547-4895-a3b6-2d267ccd6c2c</webElementGuid>
+      <webElementGuid>c565702c-575b-41ee-b025-288c88fc8bf8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -70,7 +74,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Do you confirm the deletion of this company? No      Yes </value>
-      <webElementGuid>096ea365-e4b4-4ae6-ae69-bf3cc01e861d</webElementGuid>
+      <webElementGuid>d799ec9a-fe7f-49b9-98a4-6dc85d9360f7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,7 +82,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-dialog-27&quot;)</value>
-      <webElementGuid>fb7dbf3d-2db1-4a91-bd0d-7fbb33821e25</webElementGuid>
+      <webElementGuid>f0301678-d0af-4d69-a802-6ba975886c74</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -86,7 +90,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//mat-dialog-container[@id='mat-dialog-27']</value>
-      <webElementGuid>1197481d-3673-4b37-aeb0-50604721b17c</webElementGuid>
+      <webElementGuid>a9653c78-22e2-4c1a-91d3-852809e2aa11</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +98,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='cdk-overlay-79']/mat-dialog-container</value>
-      <webElementGuid>d0a3af4c-c920-4746-90bc-ce68fca73f6c</webElementGuid>
+      <webElementGuid>24a61ba2-e293-439f-a6d9-5e5cd768f932</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +106,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='NOV 2022'])[1]/following::mat-dialog-container[1]</value>
-      <webElementGuid>add39772-f45f-4bfe-a6b2-37eeb6fbc0e4</webElementGuid>
+      <webElementGuid>58b618b2-094b-47e5-99ee-52c9987e3354</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +114,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='UPDATE'])[1]/following::mat-dialog-container[1]</value>
-      <webElementGuid>baf91207-4789-4666-9757-4d57bc4bd92d</webElementGuid>
+      <webElementGuid>08eea132-4ae4-40a3-ab87-5cc77663889c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +122,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//mat-dialog-container</value>
-      <webElementGuid>c3ace7d2-2e68-4e42-bab1-c5e7cc778794</webElementGuid>
+      <webElementGuid>23796fc2-85d9-41dc-b7a7-3a74f6620495</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,6 +130,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//mat-dialog-container[@id = 'mat-dialog-27' and (text() = 'Do you confirm the deletion of this company? No      Yes ' or . = 'Do you confirm the deletion of this company? No      Yes ')]</value>
-      <webElementGuid>13399b53-64d5-456a-bb5b-6bf6ccaf9615</webElementGuid>
+      <webElementGuid>c64748d9-2df8-4f51-bc2e-520b802040d4</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

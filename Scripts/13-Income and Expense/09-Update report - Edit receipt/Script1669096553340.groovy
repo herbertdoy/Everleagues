@@ -41,7 +41,7 @@ WebUI.setText(findTestObject('13-Income and Expense/input_AddANote'), 'Receipt N
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('13-Income and Expense/button_UPDATE'))
+WebUI.click(findTestObject('13-Income and Expense/button_UPDATE2'))
 
 WebUI.delay(3)
 

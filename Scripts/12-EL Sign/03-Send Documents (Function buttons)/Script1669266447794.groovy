@@ -17,17 +17,17 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-
 WebUI.click(findTestObject('12-EL Sign/mat-icon_refresh'))
 
 WebUI.delay(3)
 
 WebUI.click(findTestObject('12-EL Sign/mat-icon_configureColumns'))
 
-WebUI.click(findTestObject('12-EL Sign/mat-dialog-container_configureColumnModal'))
+WebUI.verifyElementVisible(findTestObject('12-EL Sign/mat-dialog-container_configureColumnModal'))
+
+WebUI.delay(3)
 
 //WebUI.click(findTestObject('12-EL Sign/span_Download'))
-
 WebUI.click(findTestObject('12-EL Sign/span_ELSign Tracking Id'))
 
 WebUI.click(findTestObject('12-EL Sign/span_Document Name'))

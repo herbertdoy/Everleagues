@@ -49,7 +49,7 @@ WebUI.delay(3)
 
 WebUI.click(findTestObject('05-Chat/02-Sending chat messages/div_AC'))
 
-WebUI.delay(5)
+WebUI.delay(3)
 
 WebUI.setText(findTestObject('05-Chat/02-Sending chat messages/textarea__msg'), 'Test auto')
 

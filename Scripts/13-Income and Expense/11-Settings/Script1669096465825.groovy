@@ -27,7 +27,9 @@ WebUI.delay(2)
 
 WebUI.click(findTestObject('13-Income and Expense/button_settings'))
 
-WebUI.click(findTestObject('13-Income and Expense/mat-dialog-container_Edit CompanyModal'))
+WebUI.delay(2)
+
+WebUI.verifyElementVisible(findTestObject('13-Income and Expense/mat-dialog-container_Edit CompanyModal'))
 
 WebUI.setText(findTestObject('13-Income and Expense/input_CompanyName'), 'Automation Company Edit')
 
@@ -43,7 +45,7 @@ WebUI.click(findTestObject('13-Income and Expense/mat-option_End of December'))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('13-Income and Expense/button_UPDATE'))
+WebUI.click(findTestObject('13-Income and Expense/button_UPDATE3'))
 
 WebUI.delay(3)
 
