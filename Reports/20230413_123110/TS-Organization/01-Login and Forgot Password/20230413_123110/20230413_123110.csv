@@ -1,0 +1,27 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+01-Login and Forgot Password,,,,2023-04-13 12:31:16,2023-04-13 12:31:24,7.315s,FAILED
+,,,,,,,
+Test Cases/01-Login and Forgot Password/01-Login(Credentials Blank),,,,2023-04-13 12:31:17,2023-04-13 12:31:18,1.224s,FAILED
+"openBrowser("""")",,,,2023-04-13 12:31:17,2023-04-13 12:31:18,0.689s,FAILED
+,,,,,,,
+Test Cases/01-Login and Forgot Password/02-Login(Wrong Email),,,,2023-04-13 12:31:18,2023-04-13 12:31:19,0.743s,FAILED
+"setText(findTestObject(""01-Login and Forgot Password/input_Email_email""), ""unregisteredemail@test.com"")",,,,2023-04-13 12:31:18,2023-04-13 12:31:19,0.218s,FAILED
+,,,,,,,
+"Test Cases/01-Login and Forgot Password/03-Login(Valid email, wrong pass)",,,,2023-04-13 12:31:19,2023-04-13 12:31:19,0.409s,FAILED
+"setText(findTestObject(""01-Login and Forgot Password/input_Email_email""), ""testuser01@mailinator.com"")",,,,2023-04-13 12:31:19,2023-04-13 12:31:19,0.074s,FAILED
+,,,,,,,
+Test Cases/01-Login and Forgot Password/04-Login (Valid Credentials-Without Subscription),,,,2023-04-13 12:31:19,2023-04-13 12:31:20,0.542s,FAILED
+"setText(findTestObject(""01-Login and Forgot Password/input_Email_email""), ""testuser01@mailinator.com"")",,,,2023-04-13 12:31:20,2023-04-13 12:31:20,0.080s,FAILED
+,,,,,,,
+Test Cases/01-Login and Forgot Password/05-Logout,,,,2023-04-13 12:31:20,2023-04-13 12:31:20,0.458s,FAILED
+"click(findTestObject(""01-Login and Forgot Password/User menu drop""))",,,,2023-04-13 12:31:20,2023-04-13 12:31:20,0.123s,FAILED
+,,,,,,,
+Test Cases/01-Login and Forgot Password/06-Forgot Password(Credentials Blank),,,,2023-04-13 12:31:20,2023-04-13 12:31:21,0.601s,FAILED
+"click(findTestObject(""01-Login and Forgot Password/zForgot Password/a_Forgot password""))",,,,2023-04-13 12:31:21,2023-04-13 12:31:21,0.088s,FAILED
+,,,,,,,
+Test Cases/01-Login and Forgot Password/07-Forgot Password(Wrong email),,,,2023-04-13 12:31:21,2023-04-13 12:31:21,0.429s,FAILED
+"setText(findTestObject(""01-Login and Forgot Password/zForgot Password/Reset pass email field""), ""unregisteredemail@test.com"")",,,,2023-04-13 12:31:21,2023-04-13 12:31:21,0.097s,FAILED
+,,,,,,,
+Test Cases/01-Login and Forgot Password/08-Forgot Password(Correct Email),,,,2023-04-13 12:31:21,2023-04-13 12:31:24,2.436s,FAILED
+delay(2),,,,2023-04-13 12:31:21,2023-04-13 12:31:24,2.039s,PASSED
+"click(findTestObject(""01-Login and Forgot Password/zForgot Password/a_Forgot password""))",,,,2023-04-13 12:31:24,2023-04-13 12:31:24,0.072s,FAILED

@@ -76,7 +76,6 @@ WebUI.callTestCase(findTestCase('01-Login and Forgot Password/04-Login(Valid Cre
 //WebUI.click(findTestObject('06-Teams/For 2FA/button_Verify_2FA'))
 //
 //WebUI.delay(5)
-
 WebUI.click(findTestObject('06-Teams/button_doublearrow'))
 
 WebUI.click(findTestObject('06-Teams/button_My Organizations'))
@@ -112,7 +111,7 @@ WebUI.verifyElementNotClickable(findTestObject('09-Settings/Users/CSV Invite/but
 WebUI.delay(3)
 
 CustomKeywords.'uploadpackage.Upload.uploadFile'(findTestObject('Object Repository/09-Settings/Users/CSV Invite/button_Choose File'), 
-    'C:\\Users\\asus\\Desktop\\EL automation\\sample csv.csv')
+    'D:\\Users\\Michelle\\EL automation\\sample csv.csv')
 
 WebUI.delay(3)
 

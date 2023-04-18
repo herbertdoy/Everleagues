@@ -7,18 +7,19 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//button[contains(@class,'mat-focus-indicator mat-raised-button')]//div[1]</value>
-      </entry>
-      <entry>
-         <key>CSS</key>
-         <value>#mat-dialog-20 > app-dialog-welcome-new-org.ng-star-inserted > section.dialog-container > div.mat-dialog-actions.dialog-action > div.action-container > button.mat-focus-indicator.mat-raised-button.mat-button-base</value>
+         <value>(//button[contains(@class,'mat-focus-indicator mat-raised-button')])[2]
+</value>
       </entry>
       <entry>
          <key>BASIC</key>
          <value>//button[@type = 'button' and @class = 'mat-focus-indicator mat-raised-button mat-button-base' and (text() = 'DO THIS LATER' or . = 'DO THIS LATER')]</value>
       </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#mat-dialog-20 > app-dialog-welcome-new-org.ng-star-inserted > section.dialog-container > div.mat-dialog-actions.dialog-action > div.action-container > button.mat-focus-indicator.mat-raised-button.mat-button-base</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -26,7 +27,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>5050209c-c53b-4dc2-bd9c-da1dd03927dc</webElementGuid>
+      <webElementGuid>9c9f0011-c6ac-46e6-9c5b-90a0f7213140</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -34,7 +35,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>cf41fc59-6faa-424d-b586-343624c187b1</webElementGuid>
+      <webElementGuid>a608a2bd-a602-46d3-8b97-df55d7d3b0b7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -42,7 +43,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-focus-indicator mat-raised-button mat-button-base</value>
-      <webElementGuid>5606a400-283f-4e33-ba45-f39a08ca0439</webElementGuid>
+      <webElementGuid>7ac4d23f-7b53-4c39-9202-2ed8e813d77e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -50,7 +51,7 @@
       <name>text</name>
       <type>Main</type>
       <value>DO THIS LATER</value>
-      <webElementGuid>a9adcb1e-dfdf-4004-97e4-a8f1a76548e8</webElementGuid>
+      <webElementGuid>19830038-dd30-48d2-9284-dd358d8fb601</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -58,7 +59,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-dialog-20&quot;)/app-dialog-welcome-new-org[@class=&quot;ng-star-inserted&quot;]/section[@class=&quot;dialog-container&quot;]/div[@class=&quot;mat-dialog-actions dialog-action&quot;]/div[@class=&quot;action-container&quot;]/button[@class=&quot;mat-focus-indicator mat-raised-button mat-button-base&quot;]</value>
-      <webElementGuid>864b69d2-e934-4a3d-912e-b2ddfe4c47c0</webElementGuid>
+      <webElementGuid>07535a50-2733-4d3a-839e-d412ca2136e2</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -66,7 +67,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[21]</value>
-      <webElementGuid>7f534f89-d439-4edc-80a4-c49c9a4e6439</webElementGuid>
+      <webElementGuid>e3a027fb-563f-4d1c-9035-efc1c5ebe88d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -74,7 +75,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-dialog-container[@id='mat-dialog-20']/app-dialog-welcome-new-org/section/div[2]/div/button</value>
-      <webElementGuid>93a0c8e2-2af5-4c66-93a4-3a9a035012f9</webElementGuid>
+      <webElementGuid>56c4c377-6ed6-42d4-8995-69a5816e932d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,7 +83,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='LEARN MORE ON HOW EVERLEAGUES MAY HELP YOUR BUSINESS'])[2]/following::button[1]</value>
-      <webElementGuid>f52deffa-b4a7-4798-99a6-5dc726433551</webElementGuid>
+      <webElementGuid>4ccd7a80-b8e7-4d1f-9210-15753b9c8ef4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -90,7 +91,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='SET UP TEAM'])[2]/following::button[2]</value>
-      <webElementGuid>0237ee73-d474-4bed-95ec-646a9b5b46a3</webElementGuid>
+      <webElementGuid>ed56ae46-1ae6-4418-b1c3-c9cc59dcaa21</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,7 +99,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::button[1]</value>
-      <webElementGuid>90be00d9-8aaf-423b-87ea-4122f3907c9f</webElementGuid>
+      <webElementGuid>4f9233ee-484d-4789-a2f9-49f8b640bf42</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,7 +107,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[4]/div/mat-dialog-container/app-dialog-welcome-new-org/section/div[2]/div/button</value>
-      <webElementGuid>7e9690f6-bd48-42a0-ae16-eb0cee3dd7fa</webElementGuid>
+      <webElementGuid>f10423ae-f95a-4362-a131-17c4820b95e9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -114,6 +115,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = 'DO THIS LATER' or . = 'DO THIS LATER')]</value>
-      <webElementGuid>be55e002-9f1a-4f44-a793-dabbe60d01c8</webElementGuid>
+      <webElementGuid>0ebc4960-35a7-4547-80cc-cb9879a4342a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,0 +1,109 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+13-Income and Expense,Chrome 112.0.0.0,,,2023-04-14 19:05:16,2023-04-14 19:11:18,6m - 2.913s,FAILED
+,,,,,,,
+Test Cases/13-Income and Expense/01-Add Company (required field is blank),Chrome 112.0.0.0,,,2023-04-14 19:05:16,2023-04-14 19:07:12,1m - 55.765s,FAILED
+"openBrowser("""")",Chrome 112.0.0.0,,,2023-04-14 19:05:16,2023-04-14 19:05:22,5.680s,PASSED
+"navigateToUrl(""https://lab.everleagues.com/"")",Chrome 112.0.0.0,,,2023-04-14 19:05:22,2023-04-14 19:05:34,11.557s,PASSED
+maximizeWindow(),Chrome 112.0.0.0,,,2023-04-14 19:05:34,2023-04-14 19:05:34,0.222s,PASSED
+"callTestCase(findTestCase(""01-Login and Forgot Password/04-Login(Valid Credentials-With Subscription)""), [:], STOP_ON_FAILURE)",Chrome 112.0.0.0,,,2023-04-14 19:05:34,2023-04-14 19:06:24,50.147s,PASSED
+"click(findTestObject(""06-Teams/button_doublearrow""))",Chrome 112.0.0.0,,,2023-04-14 19:06:24,2023-04-14 19:06:27,2.470s,PASSED
+"click(findTestObject(""06-Teams/button_My Organizations""))",Chrome 112.0.0.0,,,2023-04-14 19:06:27,2023-04-14 19:06:28,0.986s,PASSED
+"click(findTestObject(""02-Side Icons(Organization)/Add Contact/button_Automation Test Org""))",Chrome 112.0.0.0,,,2023-04-14 19:06:28,2023-04-14 19:06:29,1.311s,PASSED
+delay(4),Chrome 112.0.0.0,,,2023-04-14 19:06:29,2023-04-14 19:06:33,4.009s,PASSED
+"verifyElementVisible(findTestObject(""02-Side Icons(Organization)/Add Contact/span_Automation Test Org""))",Chrome 112.0.0.0,,,2023-04-14 19:06:33,2023-04-14 19:06:33,0.412s,PASSED
+delay(5),Chrome 112.0.0.0,,,2023-04-14 19:06:33,2023-04-14 19:06:38,5.014s,PASSED
+"scrollToElement(findTestObject(""03-Header Menu/Hamburger Button/div_Income and Expense""), 0)",Chrome 112.0.0.0,,,2023-04-14 19:06:38,2023-04-14 19:06:39,0.399s,PASSED
+"click(findTestObject(""03-Header Menu/Hamburger Button/div_Income and Expense""))",Chrome 112.0.0.0,,,2023-04-14 19:06:39,2023-04-14 19:06:39,0.496s,PASSED
+"verifyElementVisible(findTestObject(""13-Income and Expense/div_IncomeAndExpense Tracker""))",Chrome 112.0.0.0,,,2023-04-14 19:06:39,2023-04-14 19:07:12,32.528s,FAILED
+,,,,,,,
+Test Cases/13-Income and Expense/02-Add Company (fill out required field),Chrome 112.0.0.0,,,2023-04-14 19:07:12,2023-04-14 19:07:44,31.859s,FAILED
+"setText(findTestObject(""13-Income and Expense/input_CompanyName""), ""Automation Company"")",Chrome 112.0.0.0,,,2023-04-14 19:07:12,2023-04-14 19:07:44,31.453s,FAILED
+,,,,,,,
+Test Cases/13-Income and Expense/03-Add receipt (required field is blank),Chrome 112.0.0.0,,,2023-04-14 19:07:44,2023-04-14 19:08:00,16.433s,PASSED
+"click(findTestObject(""13-Income and Expense/button_addReceipt""))",Chrome 112.0.0.0,,,2023-04-14 19:07:44,2023-04-14 19:07:45,0.716s,PASSED
+"click(findTestObject(""13-Income and Expense/mat-icon_clear""))",Chrome 112.0.0.0,,,2023-04-14 19:07:45,2023-04-14 19:07:47,1.821s,PASSED
+delay(3),Chrome 112.0.0.0,,,2023-04-14 19:07:47,2023-04-14 19:07:50,3.017s,PASSED
+"click(findTestObject(""13-Income and Expense/button_addReceipt""))",Chrome 112.0.0.0,,,2023-04-14 19:07:50,2023-04-14 19:07:50,0.488s,PASSED
+"verifyElementVisible(findTestObject(""13-Income and Expense/mat-dialog-container_Add ReceiptModal""))",Chrome 112.0.0.0,,,2023-04-14 19:07:50,2023-04-14 19:07:51,1.006s,PASSED
+"click(findTestObject(""13-Income and Expense/input_VendorName""))",Chrome 112.0.0.0,,,2023-04-14 19:07:51,2023-04-14 19:07:52,0.426s,PASSED
+"sendKeys(findTestObject(""13-Income and Expense/input_VendorName""), Keys.chord(ESCAPE))",Chrome 112.0.0.0,,,2023-04-14 19:07:52,2023-04-14 19:07:52,0.400s,PASSED
+"click(findTestObject(""13-Income and Expense/input_AccountType""))",Chrome 112.0.0.0,,,2023-04-14 19:07:52,2023-04-14 19:07:52,0.562s,PASSED
+"doubleClick(findTestObject(""13-Income and Expense/input_VendorName""))",Chrome 112.0.0.0,,,2023-04-14 19:07:52,2023-04-14 19:07:53,0.698s,PASSED
+"click(findTestObject(""13-Income and Expense/input_Amount""))",Chrome 112.0.0.0,,,2023-04-14 19:07:53,2023-04-14 19:07:54,0.533s,PASSED
+"click(findTestObject(""13-Income and Expense/input_VendorName""))",Chrome 112.0.0.0,,,2023-04-14 19:07:54,2023-04-14 19:07:54,0.536s,PASSED
+"sendKeys(findTestObject(""13-Income and Expense/input_VendorName""), Keys.chord(ESCAPE))",Chrome 112.0.0.0,,,2023-04-14 19:07:54,2023-04-14 19:07:55,0.509s,PASSED
+"verifyElementVisible(findTestObject(""13-Income and Expense/mat-error_Vendor name is required""))",Chrome 112.0.0.0,,,2023-04-14 19:07:55,2023-04-14 19:07:55,0.488s,PASSED
+"verifyElementVisible(findTestObject(""13-Income and Expense/mat-error_account type is required""))",Chrome 112.0.0.0,,,2023-04-14 19:07:55,2023-04-14 19:07:56,0.359s,PASSED
+"verifyElementVisible(findTestObject(""13-Income and Expense/mat-error_Receipt amount is required""))",Chrome 112.0.0.0,,,2023-04-14 19:07:56,2023-04-14 19:07:56,0.374s,PASSED
+"verifyElementVisible(findTestObject(""13-Income and Expense/mat-hint_Required""))",Chrome 112.0.0.0,,,2023-04-14 19:07:56,2023-04-14 19:07:56,0.364s,PASSED
+"scrollToElement(findTestObject(""13-Income and Expense/button_Done""), 0)",Chrome 112.0.0.0,,,2023-04-14 19:07:56,2023-04-14 19:07:57,0.393s,PASSED
+"verifyElementNotClickable(findTestObject(""13-Income and Expense/button_Done""))",Chrome 112.0.0.0,,,2023-04-14 19:07:57,2023-04-14 19:07:57,0.339s,PASSED
+delay(3),Chrome 112.0.0.0,,,2023-04-14 19:07:57,2023-04-14 19:08:00,3.010s,PASSED
+,,,,,,,
+Test Cases/13-Income and Expense/04-Add Receipt (Amount is less than 0),Chrome 112.0.0.0,,,2023-04-14 19:08:00,2023-04-14 19:08:05,5.132s,PASSED
+"setText(findTestObject(""13-Income and Expense/input_Amount""), ""-9"")",Chrome 112.0.0.0,,,2023-04-14 19:08:00,2023-04-14 19:08:01,0.758s,PASSED
+"click(findTestObject(""13-Income and Expense/input_VendorName""))",Chrome 112.0.0.0,,,2023-04-14 19:08:01,2023-04-14 19:08:02,0.529s,PASSED
+"verifyElementVisible(findTestObject(""13-Income and Expense/mat-error_Receipt amount should be greater than 0""))",Chrome 112.0.0.0,,,2023-04-14 19:08:02,2023-04-14 19:08:02,0.503s,PASSED
+delay(3),Chrome 112.0.0.0,,,2023-04-14 19:08:02,2023-04-14 19:08:05,3.006s,PASSED
+,,,,,,,
+Test Cases/13-Income and Expense/05-Add receipt (fill out required field),Chrome 112.0.0.0,,,2023-04-14 19:08:05,2023-04-14 19:08:22,16.636s,PASSED
+"setText(findTestObject(""13-Income and Expense/input_VendorName""), ""GG Automation"")",Chrome 112.0.0.0,,,2023-04-14 19:08:06,2023-04-14 19:08:07,0.932s,PASSED
+"click(findTestObject(""13-Income and Expense/input_AccountType""))",Chrome 112.0.0.0,,,2023-04-14 19:08:07,2023-04-14 19:08:09,1.970s,PASSED
+"click(findTestObject(""13-Income and Expense/mat-option_5090-Other income""))",Chrome 112.0.0.0,,,2023-04-14 19:08:09,2023-04-14 19:08:09,0.591s,PASSED
+"click(findTestObject(""13-Income and Expense/button_Receipt Date""))",Chrome 112.0.0.0,,,2023-04-14 19:08:09,2023-04-14 19:08:10,1.018s,PASSED
+"clickOffset(findTestObject(""13-Income and Expense/button_Receipt Date""), 10, 10)",Chrome 112.0.0.0,,,2023-04-14 19:08:10,2023-04-14 19:08:11,1.079s,PASSED
+"setText(findTestObject(""13-Income and Expense/input_Amount""), ""30000"")",Chrome 112.0.0.0,,,2023-04-14 19:08:11,2023-04-14 19:08:13,1.331s,PASSED
+"setText(findTestObject(""13-Income and Expense/input_AddANote""), ""Receipt Note"")",Chrome 112.0.0.0,,,2023-04-14 19:08:13,2023-04-14 19:08:14,0.958s,PASSED
+"uploadpackage.Upload.uploadFile(findTestObject(""Object Repository/13-Income and Expense/div_Required_uploadfilecontainer""), ""D:\Users\EL automation\sample.pdf"")",Chrome 112.0.0.0,,,2023-04-14 19:08:14,2023-04-14 19:08:15,1.739s,PASSED
+delay(3),Chrome 112.0.0.0,,,2023-04-14 19:08:15,2023-04-14 19:08:18,3.016s,PASSED
+"click(findTestObject(""13-Income and Expense/button_Done""))",Chrome 112.0.0.0,,,2023-04-14 19:08:18,2023-04-14 19:08:19,0.600s,PASSED
+delay(3),Chrome 112.0.0.0,,,2023-04-14 19:08:19,2023-04-14 19:08:22,3.010s,PASSED
+,,,,,,,
+Test Cases/13-Income and Expense/06-Update report - Select Fiscal Year,Chrome 112.0.0.0,,,2023-04-14 19:08:22,2023-04-14 19:08:33,10.748s,PASSED
+"click(findTestObject(""13-Income and Expense/button_UPDATE""))",Chrome 112.0.0.0,,,2023-04-14 19:08:22,2023-04-14 19:08:23,0.662s,PASSED
+"verifyElementVisible(findTestObject(""13-Income and Expense/h6-Automation Company""))",Chrome 112.0.0.0,,,2023-04-14 19:08:23,2023-04-14 19:08:25,1.897s,PASSED
+"click(findTestObject(""13-Income and Expense/button_BACK""))",Chrome 112.0.0.0,,,2023-04-14 19:08:25,2023-04-14 19:08:25,0.471s,PASSED
+delay(2),Chrome 112.0.0.0,,,2023-04-14 19:08:25,2023-04-14 19:08:27,2.011s,PASSED
+"click(findTestObject(""13-Income and Expense/button_insert_chart_outlinedUPDATE""))",Chrome 112.0.0.0,,,2023-04-14 19:08:27,2023-04-14 19:08:28,0.537s,PASSED
+"click(findTestObject(""13-Income and Expense/div_Select Fiscal Year""))",Chrome 112.0.0.0,,,2023-04-14 19:08:28,2023-04-14 19:08:29,1.239s,PASSED
+"click(findTestObject(""13-Income and Expense/mat-option_92023""))",Chrome 112.0.0.0,,,2023-04-14 19:08:29,2023-04-14 19:08:30,0.544s,PASSED
+delay(3),Chrome 112.0.0.0,,,2023-04-14 19:08:30,2023-04-14 19:08:33,3.015s,PASSED
+,,,,,,,
+Test Cases/13-Income and Expense/07-Update report - Download As,Chrome 112.0.0.0,,,2023-04-14 19:08:33,2023-04-14 19:08:43,9.940s,PASSED
+"click(findTestObject(""13-Income and Expense/div_Download As""))",Chrome 112.0.0.0,,,2023-04-14 19:08:33,2023-04-14 19:08:34,0.478s,PASSED
+"click(findTestObject(""13-Income and Expense/mat-option_PDF""))",Chrome 112.0.0.0,,,2023-04-14 19:08:34,2023-04-14 19:08:34,0.548s,PASSED
+"click(findTestObject(""13-Income and Expense/button_download1""))",Chrome 112.0.0.0,,,2023-04-14 19:08:34,2023-04-14 19:08:35,0.730s,PASSED
+delay(3),Chrome 112.0.0.0,,,2023-04-14 19:08:35,2023-04-14 19:08:38,3.009s,PASSED
+"click(findTestObject(""13-Income and Expense/div_Download As""))",Chrome 112.0.0.0,,,2023-04-14 19:08:38,2023-04-14 19:08:38,0.421s,PASSED
+"click(findTestObject(""13-Income and Expense/mat-option_EXCELCSV""))",Chrome 112.0.0.0,,,2023-04-14 19:08:38,2023-04-14 19:08:39,0.571s,PASSED
+"click(findTestObject(""13-Income and Expense/button_download1""))",Chrome 112.0.0.0,,,2023-04-14 19:08:39,2023-04-14 19:08:40,0.743s,PASSED
+delay(3),Chrome 112.0.0.0,,,2023-04-14 19:08:40,2023-04-14 19:08:43,3.007s,PASSED
+,,,,,,,
+Test Cases/13-Income and Expense/08-Update report - View and download receipt,Chrome 112.0.0.0,,,2023-04-14 19:08:43,2023-04-14 19:09:08,25.712s,PASSED
+"click(findTestObject(""13-Income and Expense/button_visibility""))",Chrome 112.0.0.0,,,2023-04-14 19:08:43,2023-04-14 19:08:43,0.553s,PASSED
+refresh(),Chrome 112.0.0.0,,,2023-04-14 19:08:43,2023-04-14 19:08:48,4.450s,PASSED
+delay(2),Chrome 112.0.0.0,,,2023-04-14 19:08:48,2023-04-14 19:08:50,2.006s,PASSED
+refresh(),Chrome 112.0.0.0,,,2023-04-14 19:08:50,2023-04-14 19:08:52,1.978s,PASSED
+delay(2),Chrome 112.0.0.0,,,2023-04-14 19:08:52,2023-04-14 19:08:54,2.013s,PASSED
+"scrollToElement(findTestObject(""03-Header Menu/Hamburger Button/div_Income and Expense""), 0)",Chrome 112.0.0.0,,,2023-04-14 19:08:54,2023-04-14 19:08:57,3.021s,PASSED
+"click(findTestObject(""03-Header Menu/Hamburger Button/div_Income and Expense""))",Chrome 112.0.0.0,,,2023-04-14 19:08:57,2023-04-14 19:08:57,0.517s,PASSED
+delay(2),Chrome 112.0.0.0,,,2023-04-14 19:08:57,2023-04-14 19:08:59,2.005s,PASSED
+"click(findTestObject(""13-Income and Expense/button_UPDATE""))",Chrome 112.0.0.0,,,2023-04-14 19:08:59,2023-04-14 19:09:00,0.521s,PASSED
+delay(2),Chrome 112.0.0.0,,,2023-04-14 19:09:00,2023-04-14 19:09:02,2.012s,PASSED
+"scrollToElement(findTestObject(""13-Income and Expense/button_visibility""), 0)",Chrome 112.0.0.0,,,2023-04-14 19:09:02,2023-04-14 19:09:02,0.334s,PASSED
+delay(2),Chrome 112.0.0.0,,,2023-04-14 19:09:02,2023-04-14 19:09:04,2.009s,PASSED
+"scrollToElement(findTestObject(""13-Income and Expense/label_Income and Expense Report""), 0)",Chrome 112.0.0.0,,,2023-04-14 19:09:04,2023-04-14 19:09:05,0.349s,PASSED
+"click(findTestObject(""13-Income and Expense/button_download2""))",Chrome 112.0.0.0,,,2023-04-14 19:09:05,2023-04-14 19:09:05,0.660s,PASSED
+delay(3),Chrome 112.0.0.0,,,2023-04-14 19:09:05,2023-04-14 19:09:08,3.009s,PASSED
+,,,,,,,
+Test Cases/13-Income and Expense/09-Update report - Edit receipt,Chrome 112.0.0.0,,,2023-04-14 19:09:08,2023-04-14 19:09:42,33.225s,FAILED
+"click(findTestObject(""13-Income and Expense/button_edit""))",Chrome 112.0.0.0,,,2023-04-14 19:09:09,2023-04-14 19:09:42,32.891s,FAILED
+,,,,,,,
+Test Cases/13-Income and Expense/10-Update report - Delete receipt,Chrome 112.0.0.0,,,2023-04-14 19:09:42,2023-04-14 19:10:15,33.090s,FAILED
+"click(findTestObject(""13-Income and Expense/button_delete_forever""))",Chrome 112.0.0.0,,,2023-04-14 19:09:42,2023-04-14 19:10:15,32.752s,FAILED
+,,,,,,,
+Test Cases/13-Income and Expense/11-Settings,Chrome 112.0.0.0,,,2023-04-14 19:10:15,2023-04-14 19:10:47,31.851s,FAILED
+"click(findTestObject(""13-Income and Expense/button_settings""))",Chrome 112.0.0.0,,,2023-04-14 19:10:15,2023-04-14 19:10:47,31.521s,FAILED
+,,,,,,,
+Test Cases/13-Income and Expense/12-Delete company,Chrome 112.0.0.0,,,2023-04-14 19:10:47,2023-04-14 19:11:18,31.795s,FAILED
+"click(findTestObject(""13-Income and Expense/button_delete""))",Chrome 112.0.0.0,,,2023-04-14 19:10:47,2023-04-14 19:11:18,31.392s,FAILED

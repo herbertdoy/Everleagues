@@ -138,7 +138,7 @@ WebUI.delay(3)
 WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Profile Tab/Upload Icon'))
 
 CustomKeywords.'uploadpackage.Upload.uploadFile'(findTestObject('Object Repository/03-Header Menu/User Profile/View Profile/Profile Tab/button_folderBrowse'), 
-    'C:\\Users\\asus\\Desktop\\EL automation\\qa.jpg')
+    'D:\\Users\\EL automation\\qa.jpg')
 
 WebUI.delay(2)
 

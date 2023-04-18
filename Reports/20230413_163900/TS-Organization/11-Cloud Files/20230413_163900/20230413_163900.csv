@@ -1,0 +1,56 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+11-Cloud Files,Chrome 111.0.0.0,,,2023-04-13 16:39:04,2023-04-13 16:47:41,8m - 36.624s,FAILED
+,,,,,,,
+Test Cases/11-Cloud Files/01-Create new folder(required field is blank),Chrome 111.0.0.0,,,2023-04-13 16:39:05,2023-04-13 16:40:22,1m - 16.727s,FAILED
+"openBrowser("""")",Chrome 111.0.0.0,,,2023-04-13 16:39:05,2023-04-13 16:39:12,6.706s,PASSED
+"navigateToUrl(""https://lab.everleagues.com/"")",Chrome 111.0.0.0,,,2023-04-13 16:39:12,2023-04-13 16:39:28,15.919s,PASSED
+maximizeWindow(),Chrome 111.0.0.0,,,2023-04-13 16:39:28,2023-04-13 16:39:28,0.231s,PASSED
+"callTestCase(findTestCase(""01-Login and Forgot Password/04-Login(Valid Credentials-With Subscription)""), [:], STOP_ON_FAILURE)",Chrome 111.0.0.0,,,2023-04-13 16:39:28,2023-04-13 16:40:19,50.312s,PASSED
+"click(findTestObject(""06-Teams/button_doublearrow""))",Chrome 111.0.0.0,,,2023-04-13 16:40:19,2023-04-13 16:40:22,3.025s,FAILED
+,,,,,,,
+Test Cases/11-Cloud Files/02-Create new folder,Chrome 111.0.0.0,,,2023-04-13 16:40:22,2023-04-13 16:40:54,32.340s,FAILED
+"setText(findTestObject(""11-Cloud Files/input_folderName""), ""Automation folder"")",Chrome 111.0.0.0,,,2023-04-13 16:40:22,2023-04-13 16:40:54,31.827s,FAILED
+,,,,,,,
+Test Cases/11-Cloud Files/03-Upload Local File,Chrome 111.0.0.0,,,2023-04-13 16:40:54,2023-04-13 16:41:29,35.249s,FAILED
+delay(3),Chrome 111.0.0.0,,,2023-04-13 16:40:55,2023-04-13 16:40:58,3.014s,PASSED
+"click(findTestObject(""11-Cloud Files/button_cloud_upload Upload Files  Create Folders""))",Chrome 111.0.0.0,,,2023-04-13 16:40:58,2023-04-13 16:41:29,31.639s,FAILED
+,,,,,,,
+Test Cases/11-Cloud Files/04-Rename a folder and file,Chrome 111.0.0.0,,,2023-04-13 16:41:29,2023-04-13 16:42:04,34.998s,FAILED
+delay(3),Chrome 111.0.0.0,,,2023-04-13 16:41:30,2023-04-13 16:41:33,3.009s,PASSED
+"rightClick(findTestObject(""11-Cloud Files/td_Automation folder""))",Chrome 111.0.0.0,,,2023-04-13 16:41:33,2023-04-13 16:42:04,31.503s,FAILED
+,,,,,,,
+Test Cases/11-Cloud Files/05-Download a file and folder,Chrome 111.0.0.0,,,2023-04-13 16:42:04,2023-04-13 16:42:39,34.907s,FAILED
+delay(3),Chrome 111.0.0.0,,,2023-04-13 16:42:05,2023-04-13 16:42:08,3.016s,PASSED
+"rightClick(findTestObject(""11-Cloud Files/td_qa EDIT""))",Chrome 111.0.0.0,,,2023-04-13 16:42:08,2023-04-13 16:42:39,31.535s,FAILED
+,,,,,,,
+Test Cases/11-Cloud Files/06-Duplicate a Folder (Negative scenario),Chrome 111.0.0.0,,,2023-04-13 16:42:39,2023-04-13 16:43:14,34.834s,FAILED
+delay(3),Chrome 111.0.0.0,,,2023-04-13 16:42:40,2023-04-13 16:42:43,3.011s,PASSED
+"click(findTestObject(""11-Cloud Files/td_Automation folder EDIT""))",Chrome 111.0.0.0,,,2023-04-13 16:42:43,2023-04-13 16:43:14,31.518s,FAILED
+,,,,,,,
+Test Cases/11-Cloud Files/07-Duplicate a file,Chrome 111.0.0.0,,,2023-04-13 16:43:14,2023-04-13 16:43:49,34.750s,FAILED
+delay(3),Chrome 111.0.0.0,,,2023-04-13 16:43:15,2023-04-13 16:43:18,3.013s,PASSED
+"click(findTestObject(""11-Cloud Files/td_qa EDIT""))",Chrome 111.0.0.0,,,2023-04-13 16:43:18,2023-04-13 16:43:49,31.379s,FAILED
+,,,,,,,
+Test Cases/11-Cloud Files/08-Move a file and folder,Chrome 111.0.0.0,,,2023-04-13 16:43:49,2023-04-13 16:44:24,34.721s,FAILED
+delay(3),Chrome 111.0.0.0,,,2023-04-13 16:43:49,2023-04-13 16:43:52,3.018s,PASSED
+"rightClick(findTestObject(""11-Cloud Files/td_Copy of qa EDIT""))",Chrome 111.0.0.0,,,2023-04-13 16:43:52,2023-04-13 16:44:24,31.342s,FAILED
+,,,,,,,
+Test Cases/11-Cloud Files/09-Open a file and folder,Chrome 111.0.0.0,,,2023-04-13 16:44:24,2023-04-13 16:44:58,34.790s,FAILED
+delay(3),Chrome 111.0.0.0,,,2023-04-13 16:44:24,2023-04-13 16:44:27,3.018s,PASSED
+"rightClick(findTestObject(""11-Cloud Files/td_qa EDIT""))",Chrome 111.0.0.0,,,2023-04-13 16:44:27,2023-04-13 16:44:58,31.379s,FAILED
+,,,,,,,
+Test Cases/11-Cloud Files/10-Share a file,Chrome 111.0.0.0,,,2023-04-13 16:44:59,2023-04-13 16:45:30,31.748s,FAILED
+"click(findTestObject(""11-Cloud Files/button_clearNotif""))",Chrome 111.0.0.0,,,2023-04-13 16:44:59,2023-04-13 16:45:30,31.392s,FAILED
+,,,,,,,
+Test Cases/11-Cloud Files/11-Share a file - Edit,Chrome 111.0.0.0,,,2023-04-13 16:45:30,2023-04-13 16:46:02,31.797s,FAILED
+"rightClick(findTestObject(""11-Cloud Files/td_qa EditPeople""))",Chrome 111.0.0.0,,,2023-04-13 16:45:31,2023-04-13 16:46:02,31.361s,FAILED
+,,,,,,,
+Test Cases/11-Cloud Files/12-Share a folder,Chrome 111.0.0.0,,,2023-04-13 16:46:02,2023-04-13 16:46:34,31.771s,FAILED
+"rightClick(findTestObject(""11-Cloud Files/td_Automation folder EDIT""))",Chrome 111.0.0.0,,,2023-04-13 16:46:02,2023-04-13 16:46:34,31.431s,FAILED
+,,,,,,,
+Test Cases/11-Cloud Files/13-Share a folder - Edit,Chrome 111.0.0.0,,,2023-04-13 16:46:34,2023-04-13 16:47:09,35.075s,FAILED
+delay(3),Chrome 111.0.0.0,,,2023-04-13 16:46:34,2023-04-13 16:46:37,3.030s,PASSED
+"rightClick(findTestObject(""11-Cloud Files/td_Automation folder EDIT""))",Chrome 111.0.0.0,,,2023-04-13 16:46:37,2023-04-13 16:47:09,31.587s,FAILED
+,,,,,,,
+Test Cases/11-Cloud Files/14-Delete a file and folder,Chrome 111.0.0.0,,,2023-04-13 16:47:09,2023-04-13 16:47:41,32.024s,FAILED
+"rightClick(findTestObject(""11-Cloud Files/td_Automation folder EDIT""))",Chrome 111.0.0.0,,,2023-04-13 16:47:09,2023-04-13 16:47:41,31.687s,FAILED

@@ -1,0 +1,34 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+09.1 - Settings (Invite users),Chrome 111.0.0.0,,,2023-04-13 16:16:34,2023-04-13 16:26:42,10m - 7.346s,FAILED
+,,,,,,,
+Test Cases/09-Settings/01 - Users (Invite new user but field are blank),Chrome 111.0.0.0,Manually added a subscription before running this,,2023-04-13 16:16:35,2023-04-13 16:18:26,1m - 51.574s,FAILED
+"openBrowser("""")",Chrome 111.0.0.0,,,2023-04-13 16:16:35,2023-04-13 16:16:41,5.558s,PASSED
+"navigateToUrl(""https://lab.everleagues.com/"")",Chrome 111.0.0.0,,,2023-04-13 16:16:41,2023-04-13 16:17:03,22.524s,PASSED
+maximizeWindow(),Chrome 111.0.0.0,,,2023-04-13 16:17:03,2023-04-13 16:17:04,0.267s,PASSED
+"callTestCase(findTestCase(""01-Login and Forgot Password/04-Login(Valid Credentials-With Subscription)""), [:], STOP_ON_FAILURE)",Chrome 111.0.0.0,,,2023-04-13 16:17:04,2023-04-13 16:17:54,50.322s,PASSED
+"click(findTestObject(""06-Teams/button_doublearrow""))",Chrome 111.0.0.0,,,2023-04-13 16:17:54,2023-04-13 16:18:26,32.381s,FAILED
+,,,,,,,
+Test Cases/09-Settings/02 - Users (Invite new user as co worker),Chrome 111.0.0.0,,,2023-04-13 16:18:26,2023-04-13 16:19:02,35.543s,FAILED
+delay(3),Chrome 111.0.0.0,,,2023-04-13 16:18:27,2023-04-13 16:18:30,3.008s,PASSED
+"setText(findTestObject(""09-Settings/Users/input_email""), ""autotester04@mailinator.com"")",Chrome 111.0.0.0,,,2023-04-13 16:18:30,2023-04-13 16:19:02,32.086s,FAILED
+,,,,,,,
+Test Cases/09-Settings/03 - Users (Invite new user as client),Chrome 111.0.0.0,,,2023-04-13 16:19:02,2023-04-13 16:21:08,2m - 5.955s,FAILED
+"openBrowser("""")",Chrome 111.0.0.0,,,2023-04-13 16:19:03,2023-04-13 16:19:06,3.272s,PASSED
+"navigateToUrl(""https://lab.everleagues.com/"")",Chrome 111.0.0.0,,,2023-04-13 16:19:06,2023-04-13 16:20:11,1m - 4.967s,PASSED
+maximizeWindow(),Chrome 111.0.0.0,,,2023-04-13 16:20:11,2023-04-13 16:20:11,0.289s,PASSED
+"callTestCase(findTestCase(""01-Login and Forgot Password/04-Login(Valid Credentials-With Subscription)""), [:], STOP_ON_FAILURE)",Chrome 111.0.0.0,,,2023-04-13 16:20:11,2023-04-13 16:21:04,53.322s,PASSED
+"click(findTestObject(""06-Teams/button_doublearrow""))",Chrome 111.0.0.0,,,2023-04-13 16:21:04,2023-04-13 16:21:08,3.358s,FAILED
+,,,,,,,
+Test Cases/09-Settings/04 - Users (Invite new user as partner),Chrome 111.0.0.0,,,2023-04-13 16:21:08,2023-04-13 16:25:33,4m - 24.897s,FAILED
+"openBrowser("""")",Chrome 111.0.0.0,,,2023-04-13 16:21:09,2023-04-13 16:21:12,3.228s,PASSED
+"navigateToUrl(""https://lab.everleagues.com/"")",Chrome 111.0.0.0,,,2023-04-13 16:21:12,2023-04-13 16:24:40,3m - 28.543s,PASSED
+maximizeWindow(),Chrome 111.0.0.0,,,2023-04-13 16:24:40,2023-04-13 16:24:41,0.251s,PASSED
+"callTestCase(findTestCase(""01-Login and Forgot Password/04-Login(Valid Credentials-With Subscription)""), [:], STOP_ON_FAILURE)",Chrome 111.0.0.0,,,2023-04-13 16:24:41,2023-04-13 16:25:30,49.476s,PASSED
+"click(findTestObject(""06-Teams/button_doublearrow""))",Chrome 111.0.0.0,,,2023-04-13 16:25:30,2023-04-13 16:25:33,2.619s,FAILED
+,,,,,,,
+Test Cases/09-Settings/05 - Users (Invite batch of users via CSV file),Chrome 111.0.0.0,,,2023-04-13 16:25:33,2023-04-13 16:26:42,1m - 8.944s,FAILED
+"openBrowser("""")",Chrome 111.0.0.0,,,2023-04-13 16:25:33,2023-04-13 16:25:37,3.279s,PASSED
+"navigateToUrl(""https://lab.everleagues.com/"")",Chrome 111.0.0.0,,,2023-04-13 16:25:37,2023-04-13 16:25:52,15.241s,PASSED
+maximizeWindow(),Chrome 111.0.0.0,,,2023-04-13 16:25:52,2023-04-13 16:25:52,0.170s,PASSED
+"callTestCase(findTestCase(""01-Login and Forgot Password/04-Login(Valid Credentials-With Subscription)""), [:], STOP_ON_FAILURE)",Chrome 111.0.0.0,,,2023-04-13 16:25:52,2023-04-13 16:26:39,47.348s,PASSED
+"click(findTestObject(""06-Teams/button_doublearrow""))",Chrome 111.0.0.0,,,2023-04-13 16:26:39,2023-04-13 16:26:42,2.240s,FAILED

@@ -77,7 +77,7 @@ WebUI.delay(3)
 WebUI.click(findTestObject('12-EL Sign/div_Send Documents'))
 
 CustomKeywords.'uploadpackage.Upload.uploadFile'(findTestObject('Object Repository/12-EL Sign/div_Drag and drop or Upload PDF or Word document here'), 
-    'C:\\Users\\asus\\Desktop\\EL automation\\sample.pdf')
+    'D:\\Users\\EL automation\\sample.pdf')
 
 WebUI.delay(3)
 

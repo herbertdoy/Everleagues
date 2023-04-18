@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+04-Add my Organizations,Chrome 112.0.0.0,,,2023-04-14 17:17:08,2023-04-14 17:19:24,2m - 15.732s,FAILED
+,,,,,,,
+Test Cases/04-Add my Organizations/01- Free limited Plan (Blank fields),Chrome 112.0.0.0,,,2023-04-14 17:17:09,2023-04-14 17:18:19,1m - 9.703s,FAILED
+"openBrowser("""")",Chrome 112.0.0.0,,,2023-04-14 17:17:09,2023-04-14 17:17:14,4.924s,PASSED
+"navigateToUrl(""https://lab.everleagues.com/"")",Chrome 112.0.0.0,,,2023-04-14 17:17:14,2023-04-14 17:17:24,9.746s,PASSED
+maximizeWindow(),Chrome 112.0.0.0,,,2023-04-14 17:17:24,2023-04-14 17:17:24,0.175s,PASSED
+"callTestCase(findTestCase(""01-Login and Forgot Password/04-Login(Valid Credentials-With Subscription)""), [:], STOP_ON_FAILURE)",Chrome 112.0.0.0,,,2023-04-14 17:17:24,2023-04-14 17:18:17,52.759s,PASSED
+"click(findTestObject(""04-Add my Organizations/Free limited Plan/span_Add My Organization""))",Chrome 112.0.0.0,,,2023-04-14 17:18:17,2023-04-14 17:18:19,1.633s,FAILED
+,,,,,,,
+Test Cases/04-Add my Organizations/02- Free limited Plan (Used Org Alias),Chrome 112.0.0.0,,,2023-04-14 17:18:19,2023-04-14 17:18:50,31.722s,FAILED
+"setText(findTestObject(""04-Add my Organizations/Free limited Plan/input_org alias""), ""1234"")",Chrome 112.0.0.0,,,2023-04-14 17:18:19,2023-04-14 17:18:50,31.390s,FAILED
+,,,,,,,
+Test Cases/04-Add my Organizations/03- Free limited Plan (Positive Scenarios),Chrome 112.0.0.0,,,2023-04-14 17:18:50,2023-04-14 17:19:24,33.843s,FAILED
+delay(2),Chrome 112.0.0.0,,,2023-04-14 17:18:51,2023-04-14 17:18:53,2.014s,PASSED
+"setText(findTestObject(""04-Add my Organizations/Free limited Plan/input_orgName""), ""GG Automation"")",Chrome 112.0.0.0,,,2023-04-14 17:18:53,2023-04-14 17:19:24,31.339s,FAILED
