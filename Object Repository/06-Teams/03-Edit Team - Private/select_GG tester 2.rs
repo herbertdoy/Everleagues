@@ -6,16 +6,16 @@
    <elementGuidId>11e6935e-e951-4559-956f-d384e29dc0e5</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//span[@class = 'mat-option-text' and (text() = ' GG tester 2 ' or . = ' GG tester 2 ')]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>span.mat-option-text</value>
       </entry>
       <entry>
+         <key>BASIC</key>
+         <value>//span[@class = 'mat-option-text' and (text() = ' GG tester 2 ' or . = ' GG tester 2 ')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
-         <value>//mat-option[@id='mat-option-2']/span</value>
+         <value>//mat-option[@id='mat-option-0']//span[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -26,6 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
+      <webElementGuid>1580eeab-3d38-44f5-96c6-09c2fced96c3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -33,6 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-option-text</value>
+      <webElementGuid>f9b84a79-02ea-48ac-9ccf-f9b9e931e709</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -40,6 +42,7 @@
       <name>text</name>
       <type>Main</type>
       <value> GG tester 2 </value>
+      <webElementGuid>788976e5-f9ad-4ee4-958f-81bb957eeee5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,6 +50,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-option-2&quot;)/span[@class=&quot;mat-option-text&quot;]</value>
+      <webElementGuid>b091ddca-9984-4a8f-b914-0092bb73bcb8</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,6 +58,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-option[@id='mat-option-2']/span</value>
+      <webElementGuid>be3abf01-b956-48fd-810e-96cc4bfb66cc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -61,6 +66,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='of 1'])[1]/following::span[24]</value>
+      <webElementGuid>f670287a-9a38-4808-aaa4-f5613b37a2ae</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -68,6 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Row per page:'])[1]/following::span[25]</value>
+      <webElementGuid>f39a203c-a37e-40af-b10d-b9d78b7d4382</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -75,6 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Hide Quick Shortcuts'])[1]/preceding::span[1]</value>
+      <webElementGuid>e109eede-9670-46aa-903f-e4478973dc22</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,6 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Invite New User'])[1]/preceding::span[1]</value>
+      <webElementGuid>b85b04a5-fed6-494c-800a-c9abc6ec06a0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -89,6 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='GG tester 2']/parent::*</value>
+      <webElementGuid>2016be8c-0200-436e-bf50-aa12ecf067f2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -96,6 +106,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//mat-option/span</value>
+      <webElementGuid>fee1a4e5-5938-4c75-935b-7e7c897fb456</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,5 +114,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = ' GG tester 2 ' or . = ' GG tester 2 ')]</value>
+      <webElementGuid>3773e267-bd9b-4bed-b3f2-1076418e29fd</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

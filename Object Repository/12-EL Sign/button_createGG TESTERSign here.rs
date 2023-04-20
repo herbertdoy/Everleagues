@@ -6,15 +6,19 @@
    <elementGuidId>377eeab8-a193-42ee-b490-48d80dcefecf</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//button[@mattooltip = 'Select signer field type' and (text() = 'createGG TESTERSign here' or . = 'createGG TESTERSign here')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
-         <value>//mat-table[@id='fieldPanel']/mat-row/mat-cell[2]/button</value>
+         <value>(//button[@mattooltip='Select signer field type'])[1]</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>button.shape.cdk-focused.cdk-program-focused</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>d860554c-169d-45c4-8ac3-40a595b6645c</webElementGuid>
+      <webElementGuid>6294397b-709f-4971-838f-995ba44781d6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +34,7 @@
       <name>mattooltip</name>
       <type>Main</type>
       <value>Select signer field type</value>
-      <webElementGuid>195dddd5-bfe9-4f4b-a81e-70d22ba1bb20</webElementGuid>
+      <webElementGuid>6983a30a-2262-4719-8c7d-6b247e6b991c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +42,7 @@
       <name>class</name>
       <type>Main</type>
       <value>shape cdk-focused cdk-program-focused</value>
-      <webElementGuid>d3d1dbe7-659e-485b-9fbf-56931d802b90</webElementGuid>
+      <webElementGuid>4459d6b4-2312-46c3-b9ba-bd96823ccd09</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +50,7 @@
       <name>ng-reflect-message</name>
       <type>Main</type>
       <value>Select signer field type</value>
-      <webElementGuid>ad6953aa-dac6-43a5-8e56-4a275abe6a04</webElementGuid>
+      <webElementGuid>842b1e0d-a955-4330-b41c-b21f85409bfc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +58,7 @@
       <name>aria-describedby</name>
       <type>Main</type>
       <value>cdk-describedby-message-38</value>
-      <webElementGuid>9fd954b1-1999-4e9a-83f9-b58f93562529</webElementGuid>
+      <webElementGuid>91df6b73-4ef1-4fe3-beab-fcb709f2538b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -62,7 +66,7 @@
       <name>text</name>
       <type>Main</type>
       <value>createGG TESTERSign here</value>
-      <webElementGuid>b67da161-49cf-4013-a8de-1e59617198c9</webElementGuid>
+      <webElementGuid>39418c48-2392-4ad5-b2ce-e04c39c5b48f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +74,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;fieldPanel&quot;)/mat-row[@class=&quot;mat-row cdk-row ng-star-inserted&quot;]/mat-cell[@class=&quot;mat-cell cdk-cell cdk-column-receiverName mat-column-receiverName ng-star-inserted&quot;]/button[@class=&quot;shape cdk-focused cdk-program-focused&quot;]</value>
-      <webElementGuid>db93a455-c06e-42ff-b53d-accd02ff71c5</webElementGuid>
+      <webElementGuid>931f443f-a71c-47c8-8a5b-10127f38997e</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -78,7 +82,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-table[@id='fieldPanel']/mat-row/mat-cell[2]/button</value>
-      <webElementGuid>90d5d274-8d06-4144-89d6-bd47e84a1166</webElementGuid>
+      <webElementGuid>fc4c8be6-ddb7-427d-9e71-8d11cae8bd34</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Select Labels &amp; Drag'])[1]/following::button[1]</value>
-      <webElementGuid>dfc1a9c7-576d-44f0-a5b1-5cfa7b1a9c09</webElementGuid>
+      <webElementGuid>ec6e729b-048c-4edd-bc9e-57a75c448d55</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +98,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//mat-cell[2]/button</value>
-      <webElementGuid>f4206cd9-4884-4fc7-9efd-14392486a845</webElementGuid>
+      <webElementGuid>d546951e-8217-4904-b03d-de7b593c5d27</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,6 +106,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[(text() = 'createGG TESTERSign here' or . = 'createGG TESTERSign here')]</value>
-      <webElementGuid>1a01bdd2-a6ba-4d15-8ffb-e1fbe5ae4923</webElementGuid>
+      <webElementGuid>108d285c-68fb-451c-a71c-df7d7cac390d</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

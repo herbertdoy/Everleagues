@@ -6,16 +6,16 @@
    <elementGuidId>563138f9-f63d-4622-b8f1-7692789c5def</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//mat-chip[@role = 'option' and (text() = ' GG tester 2 cancel' or . = ' GG tester 2 cancel')]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>mat-chip.mat-chip.mat-focus-indicator.mat-primary.mat-standard-chip.mat-chip-with-trailing-icon.ng-star-inserted</value>
       </entry>
       <entry>
+         <key>BASIC</key>
+         <value>//mat-chip[@role = 'option' and (text() = ' GG tester 2 cancel' or . = ' GG tester 2 cancel')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
-         <value>//mat-chip-list[@id='mat-chip-list-0']/div/mat-chip</value>
+         <value>//mat-chip[@ng-reflect-selectable='false']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -26,6 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>mat-chip</value>
+      <webElementGuid>918a7d88-8542-44ec-afa8-7cc1764a1fc1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -33,6 +34,7 @@
       <name>role</name>
       <type>Main</type>
       <value>option</value>
+      <webElementGuid>177a9ee7-3376-4f50-bc35-c5032313571d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -40,6 +42,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-chip mat-focus-indicator mat-primary mat-standard-chip mat-chip-with-trailing-icon ng-star-inserted</value>
+      <webElementGuid>2858ad30-763b-462a-a67a-6a264f14ae4c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,6 +50,7 @@
       <name>ng-reflect-selectable</name>
       <type>Main</type>
       <value>false</value>
+      <webElementGuid>34e45499-1e1c-404f-8cfc-48a8dc582010</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,6 +58,7 @@
       <name>ng-reflect-removable</name>
       <type>Main</type>
       <value>true</value>
+      <webElementGuid>fc199186-e1e3-4e02-9ef3-be15269190d5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,6 +66,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>-1</value>
+      <webElementGuid>954f9fe0-c668-49ba-bdaa-9c4b930119be</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -68,6 +74,7 @@
       <name>aria-disabled</name>
       <type>Main</type>
       <value>false</value>
+      <webElementGuid>b7e5e982-9115-435e-89f6-1e146eb1281c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -75,6 +82,7 @@
       <name>text</name>
       <type>Main</type>
       <value> GG tester 2 cancel</value>
+      <webElementGuid>b43153f1-4cdb-4c5d-90c2-a7a3ebc54248</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -82,6 +90,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-chip-list-0&quot;)/div[@class=&quot;mat-chip-list-wrapper&quot;]/mat-chip[@class=&quot;mat-chip mat-focus-indicator mat-primary mat-standard-chip mat-chip-with-trailing-icon ng-star-inserted&quot;]</value>
+      <webElementGuid>9273d283-ffa6-4c69-b896-8a9470cede9a</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -89,6 +98,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-chip-list[@id='mat-chip-list-0']/div/mat-chip</value>
+      <webElementGuid>6cb17140-72b8-4bc2-b706-e541a7fe330c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -96,6 +106,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Settings'])[2]/following::mat-chip[1]</value>
+      <webElementGuid>5ba7577f-2247-49f5-bea4-b8ca3bce8c0d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,6 +114,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Channels'])[1]/following::mat-chip[1]</value>
+      <webElementGuid>82956a21-7cde-403a-b031-a7e0fdacd67f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,6 +122,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Enter name/group to invite here'])[1]/preceding::mat-chip[1]</value>
+      <webElementGuid>9e034ec4-acbc-455b-b1d7-c0c56a3a70e6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,6 +130,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='INVITE'])[1]/preceding::mat-chip[1]</value>
+      <webElementGuid>93ad9cfa-649c-467f-bb02-02358af7e1dc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -124,6 +138,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='GG tester 2']/parent::*</value>
+      <webElementGuid>7d5857a7-24b1-4791-b518-64c33021dcf1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -131,6 +146,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//mat-chip</value>
+      <webElementGuid>a14f9c72-94f5-4626-bff9-62e67bafd526</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -138,5 +154,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//mat-chip[(text() = ' GG tester 2 cancel' or . = ' GG tester 2 cancel')]</value>
+      <webElementGuid>373541d0-0a2c-45bf-be6b-957baa8785d3</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
