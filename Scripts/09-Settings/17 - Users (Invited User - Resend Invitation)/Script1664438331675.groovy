@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.verifyElementVisible(findTestObject('09-Settings/Users/Invited Users/div_CTCSV test 3'))
 
-WebUI.delay(3)
+WebUI.delay(5)
 
 WebUI.click(findTestObject('09-Settings/Users/Invited Users/button_resendInvitation'))
 
