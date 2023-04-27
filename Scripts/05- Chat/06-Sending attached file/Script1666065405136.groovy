@@ -21,7 +21,7 @@ WebUI.delay(5)
 
 'This is a .jpg [make sure to change your filepath for the image before running the automation]'
 CustomKeywords.'uploadpackage.Upload.uploadFile'(findTestObject('Object Repository/05-Chat/06-Sending attached file/button_attach_file'), 
-    'C:\\Users\\asus\\Desktop\\EL automation\\qa.jpg')
+    'D:\\Users\\EL automation\\qa.jpg')
 
 WebUI.delay(5)
 
@@ -37,7 +37,7 @@ WebUI.refresh()
 WebUI.delay(5)
 
 'This is a .pdf [make sure to change your filepath for the image before running the automation'
-WebUI.uploadFileWithDragAndDrop(findTestObject('Object Repository/05-Chat/02-Sending chat messages/textarea__msg'), 'C:\\Users\\asus\\Desktop\\EL automation\\sample.pdf')
+WebUI.uploadFileWithDragAndDrop(findTestObject('Object Repository/05-Chat/02-Sending chat messages/textarea__msg'), 'D:\\Users\\EL automation\\sample.pdf')
 
 WebUI.delay(5)
 
@@ -53,7 +53,7 @@ WebUI.refresh()
 WebUI.delay(5)
 
 'This is a .mp4 [make sure to change your filepath for the image before running the automation'
-WebUI.uploadFileWithDragAndDrop(findTestObject('Object Repository/05-Chat/02-Sending chat messages/textarea__msg'), 'C:\\Users\\asus\\Desktop\\EL automation\\video.mp4')
+WebUI.uploadFileWithDragAndDrop(findTestObject('Object Repository/05-Chat/02-Sending chat messages/textarea__msg'), 'D:\\Users\\EL automation\\video.mp4')
 
 WebUI.delay(5)
 
