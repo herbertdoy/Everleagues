@@ -19,31 +19,31 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.click(findTestObject('05-Chat/02-Sending chat messages/div_AC'))
 
-WebUI.delay(3)
+WebUI.delay(2)
 
 WebUI.click(findTestObject('05-Chat/09-Hiding a chat/ellipsis_chat setting'))
 
-WebUI.delay(2)
+WebUI.delay(1)
 
 WebUI.click(findTestObject('05-Chat/09-Hiding a chat/button_Group info'))
 
-WebUI.delay(2)
+WebUI.delay(1)
 
 WebUI.verifyElementVisible(findTestObject('05-Chat/09-Hiding a chat/Group info'))
 
-WebUI.delay(2)
+WebUI.delay(1)
 
 WebUI.click(findTestObject('05-Chat/10-Group Info/button_EDIT'))
 
 WebUI.setText(findTestObject('05-Chat/10-Group Info/input_groupName_edit'), 'Automation Chat EDITED')
 
-WebUI.delay(2)
+WebUI.delay(1)
 
 WebUI.click(findTestObject('05-Chat/10-Group Info/button_Save'))
 
 WebUI.verifyElementVisible(findTestObject('05-Chat/10-Group Info/Successfully changed group name msg'))
 
-WebUI.delay(3)
+WebUI.delay(2)
 
 WebUI.click(findTestObject('05-Chat/10-Group Info/div_GTGG tester'))
 
@@ -51,19 +51,19 @@ WebUI.verifyElementVisible(findTestObject('05-Chat/10-Group Info/button_Message'
 
 WebUI.verifyElementVisible(findTestObject('05-Chat/10-Group Info/button_Kick from group'))
 
-WebUI.delay(3)
+WebUI.delay(2)
 
 WebUI.click(findTestObject('05-Chat/10-Group Info/button_Kick from group'))
 
 WebUI.verifyElementVisible(findTestObject('05-Chat/10-Group Info/Successfully removed user from group msg'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.delay(3)
+WebUI.delay(2)
 
 WebUI.click(findTestObject('05-Chat/10-Group Info/div_Remove group'))
 
 WebUI.verifyElementVisible(findTestObject('05-Chat/10-Group Info/Successfully removed group msg'))
 
-WebUI.delay(3)
+WebUI.delay(2)
 
 WebUI.closeBrowser()
 

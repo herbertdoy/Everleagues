@@ -19,13 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('01-Login and Forgot Password/zForgot Password/a_Forgot password'))
-
-WebUI.verifyElementPresent(findTestObject('01-Login and Forgot Password/zForgot Password/span_Reset Password'), 0)
-
-WebUI.delay(2)
-
-WebUI.setText(findTestObject('01-Login and Forgot Password/zForgot Password/Reset pass email field'), 'testuser01@mailinator.com')
+WebUI.setText(findTestObject('01-Login and Forgot Password/zForgot Password/Reset pass email field'), GlobalVariable.email_without_subscription)
 
 WebUI.delay(2)
 
@@ -42,6 +36,4 @@ WebUI.delay(3)
 WebUI.verifyElementVisible(findTestObject('01-Login and Forgot Password/Login_Card'))
 
 WebUI.delay(2)
-
-WebUI.closeBrowser()
 

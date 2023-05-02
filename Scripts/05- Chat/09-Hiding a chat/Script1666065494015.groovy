@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.delay(3)
+WebUI.delay(2)
 
 WebUI.click(findTestObject('05-Chat/09-Hiding a chat/ellipsis_chat setting'))
 
@@ -27,15 +27,15 @@ WebUI.verifyElementVisible(findTestObject('05-Chat/09-Hiding a chat/button_Group
 
 WebUI.verifyElementVisible(findTestObject('05-Chat/09-Hiding a chat/button_Hide chat'))
 
-WebUI.delay(3)
+WebUI.delay(2)
 
 WebUI.click(findTestObject('05-Chat/09-Hiding a chat/button_Hide chat'))
 
-WebUI.delay(3)
+WebUI.delay(2)
 
 WebUI.refresh()
 
-WebUI.delay(5)
+WebUI.delay(2)
 
 WebUI.verifyElementVisible(findTestObject('05-Chat/01- Creating a Chat group/div_No chat available'))
 
@@ -45,19 +45,19 @@ WebUI.click(findTestObject('05-Chat/09-Hiding a chat/button_search'))
 
 WebUI.setText(findTestObject('05-Chat/09-Hiding a chat/input_search'), 'Auto')
 
-WebUI.delay(3)
+WebUI.delay(2)
 
 WebUI.click(findTestObject('05-Chat/02-Sending chat messages/div_AC'))
 
-WebUI.delay(3)
+WebUI.delay(2)
 
 WebUI.setText(findTestObject('05-Chat/02-Sending chat messages/textarea__msg'), 'Test auto')
 
 WebUI.click(findTestObject('05-Chat/02-Sending chat messages/button_send'))
 
-WebUI.delay(3)
+WebUI.delay(2)
 
 WebUI.refresh()
 
-WebUI.delay(3)
+WebUI.delay(2)
 

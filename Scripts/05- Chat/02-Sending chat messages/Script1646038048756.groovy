@@ -25,7 +25,7 @@ WebUI.click(findTestObject('05-Chat/02-Sending chat messages/button_send'))
 
 WebUI.verifyElementVisible(findTestObject('05-Chat/02-Sending chat messages/verify_Testing automation msg'))
 
-WebUI.delay(3)
+WebUI.delay(1)
 
 WebUI.click(findTestObject('05-Chat/02-Sending chat messages/button_insert_emoticon'))
 
@@ -45,15 +45,15 @@ WebUI.verifyElementVisible(findTestObject('05-Chat/02-Sending chat messages/Obje
 
 WebUI.verifyElementVisible(findTestObject('05-Chat/02-Sending chat messages/Symbols'))
 
-WebUI.delay(2)
+WebUI.delay(1)
 
 WebUI.click(findTestObject('05-Chat/02-Sending chat messages/Money Face'))
 
 WebUI.click(findTestObject('05-Chat/02-Sending chat messages/button_send'))
 
-WebUI.delay(2)
+WebUI.delay(1)
 
 WebUI.verifyElementVisible(findTestObject('05-Chat/02-Sending chat messages/money face in chat'))
 
-WebUI.delay(3)
+WebUI.delay(2)
 

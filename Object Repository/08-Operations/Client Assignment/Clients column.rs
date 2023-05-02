@@ -6,18 +6,18 @@
    <elementGuidId>480e85ba-107d-4669-a536-661b0e363083</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//mat-tab-body[@id='mat-tab-content-2-0']/div/app-client-assign-by-employee/div[4]</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>//div[(text() = ' Clients searchcancelGTGG Tester 3' or . = ' Clients searchcancelGTGG Tester 3')]</value>
       </entry>
       <entry>
          <key>CSS</key>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//mat-tab-body[@id='mat-tab-content-2-0']/div/app-client-assign-by-employee/div[4]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -25,7 +25,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>ed52509d-330a-400e-9431-acd6932aa0e0</webElementGuid>
+      <webElementGuid>ba996847-be6e-42dc-9808-ae4895310143</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -33,7 +33,7 @@
       <name>fxflex</name>
       <type>Main</type>
       <value>20</value>
-      <webElementGuid>372f3599-ccaa-43aa-9e9f-dd02770543bc</webElementGuid>
+      <webElementGuid>bee089bb-b51d-44b7-b1c5-3dc61e799aa1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -41,7 +41,7 @@
       <name>fxflex.lt-lg</name>
       <type>Main</type>
       <value>25</value>
-      <webElementGuid>c7b862ba-fc14-4e9c-a40c-57077ac3a8fa</webElementGuid>
+      <webElementGuid>9928149f-0476-48cc-ac53-fab553969089</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,7 +49,7 @@
       <name>class</name>
       <type>Main</type>
       <value>white-container</value>
-      <webElementGuid>cf7b8d46-e697-4b0c-8330-22a43f5d8269</webElementGuid>
+      <webElementGuid>cbb8068b-88a5-43c4-9a5d-2ed806545895</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -57,7 +57,7 @@
       <name>ng-reflect-fx-flex</name>
       <type>Main</type>
       <value>20</value>
-      <webElementGuid>d7605461-a64f-4678-97a1-bfef2600b5e4</webElementGuid>
+      <webElementGuid>783993f5-39f7-425e-935b-624955052ee3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -65,7 +65,7 @@
       <name>ng-reflect-fx-flex.lt-lg</name>
       <type>Main</type>
       <value>25</value>
-      <webElementGuid>76ad2165-cea5-431c-b386-19642d0e2e6f</webElementGuid>
+      <webElementGuid>83fd55b1-f4b1-428f-b3d8-d852734ccb03</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -73,7 +73,7 @@
       <name>text</name>
       <type>Main</type>
       <value> Clients searchcancelGTGG Tester 3</value>
-      <webElementGuid>a31bf021-9ef8-4c77-9f88-82a506d99b8a</webElementGuid>
+      <webElementGuid>3e09bbce-8502-42a9-8bba-b8d1c7150aea</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -81,7 +81,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-tab-content-2-0&quot;)/div[@class=&quot;mat-tab-body-content ng-tns-c361-105 ng-trigger ng-trigger-translateTab&quot;]/app-client-assign-by-employee[@class=&quot;tab-container ng-star-inserted&quot;]/div[@class=&quot;white-container&quot;]</value>
-      <webElementGuid>997cddfe-6d38-4169-943c-8418e1878978</webElementGuid>
+      <webElementGuid>a25cceb6-ec48-47c7-b366-41716f248fd2</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -89,7 +89,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-tab-body[@id='mat-tab-content-2-0']/div/app-client-assign-by-employee/div[4]</value>
-      <webElementGuid>b11febb8-5cbe-41ba-93d5-59b4bee5bfba</webElementGuid>
+      <webElementGuid>1dd4a624-ab03-40eb-a078-85dba0dace27</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -97,7 +97,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//app-client-assign-by-employee/div[4]</value>
-      <webElementGuid>60102e7d-294e-4743-90b9-7771bbe52dbe</webElementGuid>
+      <webElementGuid>8ba2c537-b621-4c91-a005-5fb8b83f889f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,6 +105,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = ' Clients searchcancelGTGG Tester 3' or . = ' Clients searchcancelGTGG Tester 3')]</value>
-      <webElementGuid>292329b9-308f-4977-ab37-f0e3282d7774</webElementGuid>
+      <webElementGuid>40974566-a7eb-4975-a059-6ac6a430ed43</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

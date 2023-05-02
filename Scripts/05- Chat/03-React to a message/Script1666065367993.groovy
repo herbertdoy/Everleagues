@@ -131,5 +131,5 @@ WebUI.verifyElementVisible(findTestObject('05-Chat/03-05 - React and Reply/div_G
 WebUI.clickOffset(findTestObject('05-Chat/03-05 - React and Reply/div_react_heart'), 10, 0)
 
 //WebUI.refresh()
-WebUI.delay(10)
+WebUI.delay(5)
 

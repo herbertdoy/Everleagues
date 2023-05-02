@@ -6,12 +6,16 @@
    <elementGuidId>f3ba63d0-ff69-4e28-98cb-91fb90d7b2c2</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#mat-input-0</value>
+         <key>XPATH</key>
+         <value>//input[@data-placeholder='Email']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='mat-input-0']</value>
+         <key>BASIC</key>
+         <value>//*[@name = 'email' and @id = 'mat-input-0' and @placeholder = 'Email']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#mat-input-0</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,6 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
+      <webElementGuid>1f556fc6-dca7-4281-a561-313939db4fd4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,6 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-input-element mat-form-field-autofill-control ng-tns-c2-0 cdk-text-field-autofill-monitored ng-untouched ng-pristine ng-valid</value>
+      <webElementGuid>127dfe28-1f2a-4da4-a258-54201640beda</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -36,6 +42,7 @@
       <name>name</name>
       <type>Main</type>
       <value>email</value>
+      <webElementGuid>92e91b32-b938-48c2-a632-a3b239cb0101</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,6 +50,7 @@
       <name>ng-reflect-name</name>
       <type>Main</type>
       <value>email</value>
+      <webElementGuid>fe220e90-0a4d-4479-ad72-7413b0acb316</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,6 +58,7 @@
       <name>ng-reflect-placeholder</name>
       <type>Main</type>
       <value>Email</value>
+      <webElementGuid>f061d06e-9ed3-4ba0-8ee1-786e5b02745e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -57,6 +66,7 @@
       <name>id</name>
       <type>Main</type>
       <value>mat-input-0</value>
+      <webElementGuid>3b868df9-c319-4a8e-ad24-47771af8e9be</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -64,6 +74,7 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>Email</value>
+      <webElementGuid>8c5b9cd0-d601-4755-9bfc-af1588459e6f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -71,6 +82,7 @@
       <name>aria-invalid</name>
       <type>Main</type>
       <value>false</value>
+      <webElementGuid>e6893841-adc8-4c1a-b959-eced2ce037fd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,6 +90,7 @@
       <name>aria-required</name>
       <type>Main</type>
       <value>false</value>
+      <webElementGuid>32ace74a-8fd8-4e7e-af6d-b132706c1332</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -85,6 +98,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-input-0&quot;)</value>
+      <webElementGuid>f8a0033e-2f09-483d-b50d-4fe5668a2ee0</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -92,6 +106,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='mat-input-0']</value>
+      <webElementGuid>4cc9b825-18ee-4782-a93f-f790cf540071</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,5 +114,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//input</value>
+      <webElementGuid>ac583102-69e6-4630-adea-bb957e1410c3</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

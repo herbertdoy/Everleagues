@@ -18,9 +18,9 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 //WebUI.setText(findTestObject('01-Login and Forgot Password/input_Email_email'), 'testuser02@mailinator.com')
-WebUI.setText(findTestObject('01-Login and Forgot Password/input_Email_email'), 'testuser05@mailinator.com')
+WebUI.setText(findTestObject('01-Login and Forgot Password/input_Email_email'), GlobalVariable.email_with_subscription)
 
-WebUI.setEncryptedText(findTestObject('01-Login and Forgot Password/input_Email_password'), '8yFRyszE6U6jvsCn51OQbg==')
+WebUI.setEncryptedText(findTestObject('01-Login and Forgot Password/input_Email_password'), GlobalVariable.password)
 
 WebUI.delay(2)
 
@@ -42,12 +42,12 @@ WebUI.delay(3)
 
 WebUI.switchToWindowIndex(currentWindow + 1)
 
-WebUI.navigateToUrl('https://www.mailinator.com/')
+WebUI.navigateToUrl(GlobalVariable.app_mailinator)
 
 WebUI.delay(3)
 
 //WebUI.setText(findTestObject('00-Signup and Activation/zMailinator/input_LOGIN_search'), 'testuser02@mailinator.com')
-WebUI.setText(findTestObject('00-Signup and Activation/zMailinator/input_LOGIN_search'), 'testuser05@mailinator.com')
+WebUI.setText(findTestObject('00-Signup and Activation/zMailinator/input_LOGIN_search'), GlobalVariable.email_for_searchmailinator_testuser05)
 
 WebUI.click(findTestObject('00-Signup and Activation/zMailinator/gobutton'), FailureHandling.STOP_ON_FAILURE)
 

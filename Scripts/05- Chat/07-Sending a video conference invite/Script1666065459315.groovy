@@ -19,13 +19,13 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.click(findTestObject('05-Chat/07-Sending a video conference invite/button_videocam'))
 
-WebUI.delay(2)
+WebUI.delay(1)
 
 WebUI.click(findTestObject('05-Chat/02-Sending chat messages/button_send'))
 
-WebUI.delay(3)
+WebUI.delay(2)
 
 WebUI.verifyElementVisible(findTestObject('05-Chat/07-Sending a video conference invite/div_Video Conference'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.delay(3)
+WebUI.delay(2)
 

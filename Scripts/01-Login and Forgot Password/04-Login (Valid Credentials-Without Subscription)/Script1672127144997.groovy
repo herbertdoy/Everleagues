@@ -17,9 +17,9 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 
-WebUI.setText(findTestObject('01-Login and Forgot Password/input_Email_email'), 'testuser01@mailinator.com')
+WebUI.setText(findTestObject('01-Login and Forgot Password/input_Email_email'), GlobalVariable.email_without_subscription)
 
-WebUI.setEncryptedText(findTestObject('01-Login and Forgot Password/input_Email_password2'), '8yFRyszE6U6jvsCn51OQbg==')
+WebUI.setEncryptedText(findTestObject('01-Login and Forgot Password/input_Email_password2'), GlobalVariable.password)
 
 WebUI.delay(2)
 
@@ -41,11 +41,11 @@ WebUI.delay(5)
 
 WebUI.switchToWindowIndex(currentWindow + 1)
 
-WebUI.navigateToUrl('https://www.mailinator.com/')
+WebUI.navigateToUrl(GlobalVariable.app_mailinator)
 
 WebUI.delay(5)
 
-WebUI.setText(findTestObject('00-Signup and Activation/zMailinator/input_LOGIN_search'), 'testuser01@mailinator.com')
+WebUI.setText(findTestObject('00-Signup and Activation/zMailinator/input_LOGIN_search'), GlobalVariable.email_for_searchmailinator_testuser01)
 
 WebUI.click(findTestObject('00-Signup and Activation/zMailinator/gobutton'), FailureHandling.STOP_ON_FAILURE)
 

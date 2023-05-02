@@ -1,0 +1,41 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+13-Income and Expense,Chrome 112.0.0.0,,,2023-04-28 13:47:53,2023-04-28 13:49:32,1m - 38.566s,FAILED
+,,,,,,,
+Test Cases/13-Income and Expense/01-Add Company (required field is blank),Chrome 112.0.0.0,,,2023-04-28 13:47:54,2023-04-28 13:49:02,1m - 8.942s,FAILED
+"openBrowser("""")",Chrome 112.0.0.0,,,2023-04-28 13:47:54,2023-04-28 13:48:00,6.060s,PASSED
+"navigateToUrl(""https://lab.everleagues.com/"")",Chrome 112.0.0.0,,,2023-04-28 13:48:00,2023-04-28 13:48:16,15.568s,PASSED
+maximizeWindow(),Chrome 112.0.0.0,,,2023-04-28 13:48:16,2023-04-28 13:48:16,0.186s,PASSED
+"callTestCase(findTestCase(""01-Login and Forgot Password/04-Login(Valid Credentials-With Subscription)""), [:], STOP_ON_FAILURE)",Chrome 112.0.0.0,,,2023-04-28 13:48:16,2023-04-28 13:49:02,46.362s,FAILED
+,,,,,,,
+Test Cases/13-Income and Expense/02-Add Company (fill out required field),Chrome 112.0.0.0,,,2023-04-28 13:49:03,2023-04-28 13:49:26,23.011s,FAILED
+"setText(findTestObject(""13-Income and Expense/input_CompanyName""), ""Automation Company"")",Chrome 112.0.0.0,,,2023-04-28 13:49:03,2023-04-28 13:49:26,22.321s,FAILED
+,,,,,,,
+Test Cases/13-Income and Expense/03-Add receipt (required field is blank),Chrome 112.0.0.0,,,2023-04-28 13:49:26,2023-04-28 13:49:26,0.779s,FAILED
+"click(findTestObject(""13-Income and Expense/button_addReceipt""))",Chrome 112.0.0.0,,,2023-04-28 13:49:26,2023-04-28 13:49:26,0.142s,FAILED
+,,,,,,,
+Test Cases/13-Income and Expense/04-Add Receipt (Amount is less than 0),Chrome 112.0.0.0,,,2023-04-28 13:49:26,2023-04-28 13:49:27,0.376s,FAILED
+"setText(findTestObject(""13-Income and Expense/input_Amount""), ""-9"")",Chrome 112.0.0.0,,,2023-04-28 13:49:27,2023-04-28 13:49:27,0.099s,FAILED
+,,,,,,,
+Test Cases/13-Income and Expense/05-Add receipt (fill out required field),Chrome 112.0.0.0,,,2023-04-28 13:49:27,2023-04-28 13:49:27,0.654s,FAILED
+"setText(findTestObject(""13-Income and Expense/input_VendorName""), ""GG Automation"")",Chrome 112.0.0.0,,,2023-04-28 13:49:27,2023-04-28 13:49:27,0.121s,FAILED
+,,,,,,,
+Test Cases/13-Income and Expense/06-Update report - Select Fiscal Year,Chrome 112.0.0.0,,,2023-04-28 13:49:27,2023-04-28 13:49:28,0.677s,FAILED
+"click(findTestObject(""13-Income and Expense/button_UPDATE""))",Chrome 112.0.0.0,,,2023-04-28 13:49:28,2023-04-28 13:49:28,0.150s,FAILED
+,,,,,,,
+Test Cases/13-Income and Expense/07-Update report - Download As,Chrome 112.0.0.0,,,2023-04-28 13:49:28,2023-04-28 13:49:29,0.455s,FAILED
+"click(findTestObject(""13-Income and Expense/div_Download As""))",Chrome 112.0.0.0,,,2023-04-28 13:49:28,2023-04-28 13:49:29,0.101s,FAILED
+,,,,,,,
+Test Cases/13-Income and Expense/08-Update report - View and download receipt,Chrome 112.0.0.0,,,2023-04-28 13:49:29,2023-04-28 13:49:29,0.648s,FAILED
+"click(findTestObject(""13-Income and Expense/button_visibility""))",Chrome 112.0.0.0,,,2023-04-28 13:49:29,2023-04-28 13:49:29,0.246s,FAILED
+,,,,,,,
+Test Cases/13-Income and Expense/09-Update report - Edit receipt,Chrome 112.0.0.0,,,2023-04-28 13:49:29,2023-04-28 13:49:30,0.553s,FAILED
+"click(findTestObject(""13-Income and Expense/button_edit""))",Chrome 112.0.0.0,,,2023-04-28 13:49:30,2023-04-28 13:49:30,0.164s,FAILED
+,,,,,,,
+Test Cases/13-Income and Expense/10-Update report - Delete receipt,Chrome 112.0.0.0,,,2023-04-28 13:49:30,2023-04-28 13:49:30,0.519s,FAILED
+"click(findTestObject(""13-Income and Expense/button_delete_forever""))",Chrome 112.0.0.0,,,2023-04-28 13:49:30,2023-04-28 13:49:30,0.139s,FAILED
+,,,,,,,
+Test Cases/13-Income and Expense/11-Settings,Chrome 112.0.0.0,,,2023-04-28 13:49:30,2023-04-28 13:49:31,0.771s,FAILED
+"click(findTestObject(""13-Income and Expense/button_settings""))",Chrome 112.0.0.0,,,2023-04-28 13:49:31,2023-04-28 13:49:31,0.143s,FAILED
+,,,,,,,
+Test Cases/13-Income and Expense/12-Delete company,Chrome 112.0.0.0,,,2023-04-28 13:49:31,2023-04-28 13:49:32,0.439s,FAILED
+"click(findTestObject(""13-Income and Expense/button_delete""))",Chrome 112.0.0.0,,,2023-04-28 13:49:31,2023-04-28 13:49:32,0.137s,FAILED
