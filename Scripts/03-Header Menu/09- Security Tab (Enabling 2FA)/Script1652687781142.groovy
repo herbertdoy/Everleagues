@@ -21,16 +21,15 @@ WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Security Ta
 
 WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/View Profile/Security Tab (2FA)/Success enable'))
 
-WebUI.delay(1)
+WebUI.delay(GlobalVariable.delay_1second)
 
 WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Security Tab (2FA)/button_edit'))
 
 WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/View Profile/Security Tab (2FA)/2FA Phone Number modal'))
 
 //WebUI.sendKeys(findTestObject('03-Header Menu/User Profile/View Profile/Security Tab (2FA)/input_phone number'), Keys.chord(
-  //      Keys.ENTER))
-
-WebUI.delay(1)
+//      Keys.ENTER))
+WebUI.delay(GlobalVariable.delay_1second)
 
 WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Security Tab (2FA)/button_area code'))
 
@@ -40,17 +39,17 @@ WebUI.setText(findTestObject('03-Header Menu/User Profile/View Profile/Security 
 
 WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Security Tab (2FA)/button_Philippines 63'))
 
-WebUI.setText(findTestObject('03-Header Menu/User Profile/View Profile/Security Tab (2FA)/input_phone number'), '9212968902')
+WebUI.setText(findTestObject('03-Header Menu/User Profile/View Profile/Security Tab (2FA)/input_phone number'), GlobalVariable.correct_phone_number)
 
-WebUI.delay(2)
+WebUI.delay(GlobalVariable.delay_2seconds)
 
 WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Security Tab (2FA)/button_Next'))
 
-WebUI.delay(1)
+WebUI.delay(GlobalVariable.delay_1second)
 
 WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/View Profile/Security Tab (2FA)/ver_code_success'))
 
-WebUI.delay(2)
+WebUI.delay(GlobalVariable.delay_2seconds)
 
 WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Security Tab (2FA)/button_Cancel'))
 
@@ -58,5 +57,5 @@ WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Security Ta
 
 WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/View Profile/Security Tab (2FA)/Success disable'))
 
-WebUI.delay(2)
+WebUI.delay(GlobalVariable.delay_2seconds)
 

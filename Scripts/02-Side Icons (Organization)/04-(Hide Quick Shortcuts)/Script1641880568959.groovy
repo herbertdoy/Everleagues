@@ -15,11 +15,11 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.delay(2)
+WebUI.delay(GlobalVariable.delay_2seconds)
 
 WebUI.click(findTestObject('02-Side Icons(Organization)/Hide Quick Shortcuts/button_hide quick shortcuts'))
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.verifyElementNotPresent(findTestObject('02-Side Icons(Organization)/2FA/button_2FA'), 0)
 
@@ -28,7 +28,7 @@ WebUI.verifyElementNotPresent(findTestObject('02-Side Icons(Organization)/Add Co
 WebUI.verifyElementNotPresent(findTestObject('02-Side Icons(Organization)/Client Assignment/button_Client assignment'), 
     0)
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.click(findTestObject('02-Side Icons(Organization)/Hide Quick Shortcuts/button_Show quick shortcuts'))
 
@@ -38,7 +38,7 @@ WebUI.verifyElementVisible(findTestObject('02-Side Icons(Organization)/Add Conta
 
 WebUI.verifyElementVisible(findTestObject('02-Side Icons(Organization)/Client Assignment/button_Client assignment'))
 
-WebUI.delay(0)
+WebUI.delay(GlobalVariable.delay_1second)
 
 WebUI.closeBrowser()
 

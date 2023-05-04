@@ -31,15 +31,15 @@ WebUI.sendKeys(findTestObject('03-Header Menu/User Profile/View Profile/Contact 
 
 WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Contact Info/button_Save'))
 
-WebUI.delay(2)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/View Profile/Contact Info/Success Msg'))
 
-WebUI.delay(2)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.mouseOver(findTestObject('03-Header Menu/User Profile/View Profile/Contact Info/phone field'))
 
-WebUI.delay(1)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Contact Info/phone remove button'))
 
@@ -49,5 +49,5 @@ WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Contact Inf
 
 WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/View Profile/Contact Info/Success Msg'))
 
-WebUI.delay(2)
+WebUI.delay(GlobalVariable.delay_3seconds)
 

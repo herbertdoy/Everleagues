@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/div_Settings'))
 
-WebUI.delay(1)
+WebUI.delay(GlobalVariable.delay_1second)
 
 WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/View Profile/Settings/Dashboard Card'))
 
@@ -27,7 +27,7 @@ WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/View Prof
 
 WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/View Profile/Settings/Timezone'))
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Settings/Timezone selector'))
 
@@ -35,11 +35,11 @@ WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Settings/sp
 
 WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Settings/button_Save'))
 
-WebUI.delay(1)
+WebUI.delay(GlobalVariable.delay_1second)
 
 WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/View Profile/Settings/Successfully msg'))
 
-WebUI.delay(2)
+WebUI.delay(GlobalVariable.delay_2seconds)
 
 WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Settings/Timezone selector'))
 
@@ -47,9 +47,9 @@ WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Settings/sp
 
 WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Settings/button_Save'))
 
-WebUI.delay(1)
+WebUI.delay(GlobalVariable.delay_1second)
 
 WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/View Profile/Settings/Successfully msg'))
 
-WebUI.delay(2)
+WebUI.delay(GlobalVariable.delay_2seconds)
 

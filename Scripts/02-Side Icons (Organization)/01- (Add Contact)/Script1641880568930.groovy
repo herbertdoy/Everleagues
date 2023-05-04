@@ -19,113 +19,87 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://lab.everleagues.com/login?returnUrl=%2Fmain%2Fdashboard')
+WebUI.navigateToUrl(GlobalVariable.app_url_login)
 
 WebUI.maximizeWindow()
 
 WebUI.callTestCase(findTestCase('01-Login and Forgot Password/04-Login(Valid Credentials-With Subscription)'), [:], FailureHandling.STOP_ON_FAILURE)
 
 //WebUI.setText(findTestObject('02-Side Icons(Organization)/Add Contact/Email Field'), 'testuser02@mailinator.com')
-
 //WebUI.setEncryptedText(findTestObject('02-Side Icons(Organization)/Add Contact/Password Field'), '8yFRyszE6U6jvsCn51OQbg==')
-
 //WebUI.click(findTestObject('02-Side Icons(Organization)/Add Contact/button_Sign in'))
-
 //WebUI.delay(2)
-
 //WebUI.click(findTestObject('06-Teams/For 2FA/button_Confirm_2FA'))
-
 //WebUI.executeJavaScript('window.open();', [])
-
 //currentWindow = WebUI.getWindowIndex()
-
 //WebUI.delay(3)
-
 //WebUI.switchToWindowIndex(currentWindow + 1)
-
 //WebUI.navigateToUrl('https://www.mailinator.com/')
-
 //WebUI.delay(3)
-
 //WebUI.setText(findTestObject('00-Signup and Activation/zMailinator/input_LOGIN_search'), 'testuser02@mailinator.com')
-
 //WebUI.click(findTestObject('00-Signup and Activation/zMailinator/gobutton'), FailureHandling.STOP_ON_FAILURE)
-
 //WebUI.delay(3)
-
 //WebUI.click(findTestObject('00-Signup and Activation/zMailinator/Email - everleagues'))
-
 //WebUI.delay(3)
-
 //String code = WebUI.getText(findTestObject('Object Repository/06-Teams/For 2FA/2FA code'))
-
 //WebUI.delay(3)
-
 //WebUI.closeWindowTitle('Mailinator')
-
 //WebUI.delay(3)
-
 //WebUI.switchToWindowIndex(0)
-
 //WebUI.delay(3)
-
 //WebUI.setText(findTestObject('Object Repository/06-Teams/For 2FA/input_Enter verification code_code'), code)
-
 //WebUI.delay(3)
-
 //WebUI.click(findTestObject('06-Teams/For 2FA/button_Verify_2FA'))
-
 //WebUI.delay(5)
-
 WebUI.click(findTestObject('02-Side Icons(Organization)/Add Contact/Side Menu double arrow icon'))
 
-WebUI.delay(2)
+WebUI.delay(GlobalVariable.delay_2seconds)
 
 WebUI.click(findTestObject('02-Side Icons(Organization)/Add Contact/button_My Organizations'))
 
-WebUI.delay(2)
+WebUI.delay(GlobalVariable.delay_2seconds)
 
 WebUI.click(findTestObject('02-Side Icons(Organization)/Add Contact/button_Automation Test Org'))
 
-WebUI.delay(2)
+WebUI.delay(GlobalVariable.delay_2seconds)
 
 WebUI.verifyElementVisible(findTestObject('02-Side Icons(Organization)/Add Contact/span_Automation Test Org'))
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.click(findTestObject('02-Side Icons(Organization)/Add Contact/button_add new user'))
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.verifyElementVisible(findTestObject('02-Side Icons(Organization)/Add Contact/User Invitation modal'))
 
-WebUI.delay(2)
+WebUI.delay(GlobalVariable.delay_2seconds)
 
 WebUI.click(findTestObject('02-Side Icons(Organization)/Add Contact/Invite a single user option'))
 
 WebUI.verifyElementVisible(findTestObject('02-Side Icons(Organization)/Add Contact/Invite New user modal'))
 
-WebUI.delay(2)
+WebUI.delay(GlobalVariable.delay_2seconds)
 
 WebUI.click(findTestObject('02-Side Icons(Organization)/Add Contact/button_Cancel'))
 
-WebUI.delay(2)
+WebUI.delay(GlobalVariable.delay_2seconds)
 
 WebUI.click(findTestObject('02-Side Icons(Organization)/Add Contact/button_add new user'))
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.verifyElementVisible(findTestObject('02-Side Icons(Organization)/Add Contact/User Invitation modal'))
 
-WebUI.delay(2)
+WebUI.delay(GlobalVariable.delay_2seconds)
 
 WebUI.click(findTestObject('02-Side Icons(Organization)/Add Contact/Invite batch user option'))
 
 WebUI.verifyElementVisible(findTestObject('02-Side Icons(Organization)/Add Contact/Import CSV file modal'))
 
-WebUI.delay(2)
+WebUI.delay(GlobalVariable.delay_2seconds)
 
 WebUI.click(findTestObject('02-Side Icons(Organization)/Add Contact/button_Cancel'))
 
-WebUI.delay(2)
+WebUI.delay(GlobalVariable.delay_2seconds)
 

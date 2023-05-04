@@ -19,17 +19,17 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.click(findTestObject('03-Header Menu/User Profile/Users Profile menu and notification button/div_User drop down menu button'))
 
-WebUI.delay(2)
+WebUI.delay(GlobalVariable.delay_2seconds)
 
 WebUI.click(findTestObject('03-Header Menu/Header Menu Verifications/h4_Change Password'))
 
-WebUI.delay(1)
+WebUI.delay(GlobalVariable.delay_1second)
 
-WebUI.setText(findTestObject('03-Header Menu/User Profile/Change Password/input_Old password'), 'wrongoldpassword')
+WebUI.setEncryptedText(findTestObject('03-Header Menu/User Profile/Change Password/input_Old password'), GlobalVariable.old_password)
 
-WebUI.setText(findTestObject('03-Header Menu/User Profile/Change Password/input_new password'), 'Qazwsx123')
+WebUI.setEncryptedText(findTestObject('03-Header Menu/User Profile/Change Password/input_new password'), GlobalVariable.new_password)
 
-WebUI.setText(findTestObject('03-Header Menu/User Profile/Change Password/input_Confirm password'), 'Qazwsx123')
+WebUI.setEncryptedText(findTestObject('03-Header Menu/User Profile/Change Password/input_Confirm password'), GlobalVariable.confirm_password)
 
 WebUI.click(findTestObject('03-Header Menu/User Profile/Change Password/button_Change Password'))
 
@@ -37,5 +37,5 @@ WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/Change Pa
 
 WebUI.click(findTestObject('09-Settings/Users/Active User/button_Cancel_restore'))
 
-WebUI.delay(2)
+WebUI.delay(GlobalVariable.delay_2seconds)
 

@@ -57,7 +57,7 @@ WebUI.click(findTestObject('08-Operations/Client Assignment/button_Unassign'))
 
 WebUI.verifyElementVisible(findTestObject('08-Operations/Client Assignment/Updated assignment msg'))
 
-WebUI.delay(3)
+WebUI.delay(5)
 
 WebUI.verifyElementVisible(findTestObject('08-Operations/Client Assignment/Clients column'))
 

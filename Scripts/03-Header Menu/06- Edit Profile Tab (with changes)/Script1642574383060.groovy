@@ -17,31 +17,31 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
-WebUI.setText(findTestObject('03-Header Menu/User Profile/View Profile/Profile Tab/input_FirstName'), 'THIS IS')
+WebUI.setText(findTestObject('03-Header Menu/User Profile/View Profile/Profile Tab/input_FirstName'), GlobalVariable.first_name)
 
-WebUI.setText(findTestObject('03-Header Menu/User Profile/View Profile/Profile Tab/input_LastName'), 'AUTOMATION')
+WebUI.setText(findTestObject('03-Header Menu/User Profile/View Profile/Profile Tab/input_LastName'), GlobalVariable.last_name)
 
-WebUI.delay(2)
-
-WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Profile Tab/button_Save'))
-
-WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/View Profile/Profile Tab/success msg'))
-
-WebUI.delay(2)
-
-WebUI.setText(findTestObject('03-Header Menu/User Profile/View Profile/Profile Tab/input_FirstName'), 'GG')
-
-WebUI.setText(findTestObject('03-Header Menu/User Profile/View Profile/Profile Tab/input_LastName'), 'TESTER')
-
-WebUI.delay(2)
+WebUI.delay(GlobalVariable.delay_2seconds)
 
 WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Profile Tab/button_Save'))
 
 WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/View Profile/Profile Tab/success msg'))
 
-WebUI.delay(2)
+WebUI.delay(GlobalVariable.delay_2seconds)
+
+WebUI.setText(findTestObject('03-Header Menu/User Profile/View Profile/Profile Tab/input_FirstName'), GlobalVariable.first_name1)
+
+WebUI.setText(findTestObject('03-Header Menu/User Profile/View Profile/Profile Tab/input_LastName'), GlobalVariable.last_name1)
+
+WebUI.delay(GlobalVariable.delay_2seconds)
+
+WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Profile Tab/button_Save'))
+
+WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/View Profile/Profile Tab/success msg'))
+
+WebUI.delay(GlobalVariable.delay_2seconds)
 
 WebUI.mouseOver(findTestObject('03-Header Menu/User Profile/View Profile/Profile Tab/img tray'))
 
@@ -50,11 +50,11 @@ WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Profile Tab
 CustomKeywords.'uploadpackage.Upload.uploadFile'(findTestObject('Object Repository/03-Header Menu/User Profile/View Profile/Profile Tab/button_folderBrowse'), 
     'D:\\Users\\EL automation\\qa.jpg')
 
-WebUI.delay(2)
+WebUI.delay(GlobalVariable.delay_2seconds)
 
 WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Profile Tab/button_Upload Image'))
 
 WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/View Profile/Contact Info/Successfully changed profile image'))
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 

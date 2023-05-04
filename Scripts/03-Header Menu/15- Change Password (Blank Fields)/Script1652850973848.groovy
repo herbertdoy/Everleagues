@@ -19,73 +19,47 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://lab.everleagues.com/login?returnUrl=%2Fmain%2Fdashboard')
+WebUI.navigateToUrl(GlobalVariable.app_url_login)
 
 WebUI.maximizeWindow()
 
 WebUI.callTestCase(findTestCase('01-Login and Forgot Password/04-Login(Valid Credentials-With Subscription)'), [:], FailureHandling.STOP_ON_FAILURE)
 
 //WebUI.setText(findTestObject('02-Side Icons(Organization)/Add Contact/Email Field'), 'testuser02@mailinator.com')
-
 //WebUI.setEncryptedText(findTestObject('02-Side Icons(Organization)/Add Contact/Password Field'), '8yFRyszE6U6jvsCn51OQbg==')
-
 //WebUI.click(findTestObject('02-Side Icons(Organization)/Add Contact/button_Sign in'))
-
 //WebUI.delay(2)
-
 //WebUI.click(findTestObject('06-Teams/For 2FA/button_Confirm_2FA'))
-
 //WebUI.executeJavaScript('window.open();', [])
-
 //currentWindow = WebUI.getWindowIndex()
-
 //WebUI.delay(3)
-
 //WebUI.switchToWindowIndex(currentWindow + 1)
-
 //WebUI.navigateToUrl('https://www.mailinator.com/')
-
 //WebUI.delay(3)
-
 //WebUI.setText(findTestObject('00-Signup and Activation/zMailinator/input_LOGIN_search'), 'testuser02@mailinator.com')
-
 //WebUI.click(findTestObject('00-Signup and Activation/zMailinator/gobutton'), FailureHandling.STOP_ON_FAILURE)
-
 //WebUI.delay(3)
-
 //WebUI.click(findTestObject('00-Signup and Activation/zMailinator/Email - everleagues'))
-
 //WebUI.delay(3)
-
 //String code = WebUI.getText(findTestObject('Object Repository/06-Teams/For 2FA/2FA code'))
-
 //WebUI.delay(3)
-
 //WebUI.closeWindowTitle('Mailinator')
-
 //WebUI.delay(3)
-
 //WebUI.switchToWindowIndex(0)
-
 //WebUI.delay(3)
-
 //WebUI.setText(findTestObject('Object Repository/06-Teams/For 2FA/input_Enter verification code_code'), code)
-
 //WebUI.delay(3)
-
 //WebUI.click(findTestObject('06-Teams/For 2FA/button_Verify_2FA'))
-
 //WebUI.delay(5)
-
 WebUI.click(findTestObject('03-Header Menu/User Profile/Users Profile menu and notification button/div_User drop down menu button'))
 
-WebUI.delay(2)
+WebUI.delay(GlobalVariable.delay_2seconds)
 
 WebUI.click(findTestObject('03-Header Menu/Header Menu Verifications/h4_Change Password'))
 
 WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/Change Password/h4_Change Password'))
 
-WebUI.delay(2)
+WebUI.delay(GlobalVariable.delay_2seconds)
 
 WebUI.click(findTestObject('03-Header Menu/User Profile/Change Password/input_Old password'))
 
@@ -95,17 +69,16 @@ WebUI.click(findTestObject('03-Header Menu/User Profile/Change Password/input_Co
 
 WebUI.click(findTestObject('03-Header Menu/User Profile/Change Password/input_Old password'))
 
-WebUI.delay(2)
+WebUI.delay(GlobalVariable.delay_2seconds)
 
 WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/Change Password/error_Enter your password'))
 
 WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/Change Password/error_Password must be at least 8 characters'))
 
 //WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/Change Password/error_Password does not match'))
-
 WebUI.verifyElementNotClickable(findTestObject('03-Header Menu/User Profile/Change Password/button_Change Password'))
 
 WebUI.click(findTestObject('03-Header Menu/User Profile/Change Password/button_Cancel'))
 
-WebUI.delay(2)
+WebUI.delay(GlobalVariable.delay_2seconds)
 

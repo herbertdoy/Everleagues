@@ -25,9 +25,9 @@ WebUI.maximizeWindow()
 
 WebUI.verifyElementPresent(findTestObject('01-Login and Forgot Password/Login_Card'), 0)
 
-WebUI.delay(2)
+WebUI.delay(GlobalVariable.delay_2seconds)
 
 WebUI.verifyElementNotClickable(findTestObject('01-Login and Forgot Password/button_Sign in'))
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
