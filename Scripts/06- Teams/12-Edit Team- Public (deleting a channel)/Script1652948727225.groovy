@@ -25,5 +25,5 @@ WebUI.click(findTestObject('06-Teams/03-Edit Team - Private/button_delete'))
 
 WebUI.verifyElementVisible(findTestObject('06-Teams/03-Edit Team - Private/Successfully deleted channel'))
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 

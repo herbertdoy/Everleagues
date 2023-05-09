@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.click(findTestObject('07-Directory/Connections/div_added user'))
 
@@ -25,7 +25,7 @@ WebUI.click(findTestObject('07-Directory/Connections/zContact Profile/button_edi
 
 WebUI.verifyElementVisible(findTestObject('07-Directory/Connections/zContact Profile/connection profile modal'))
 
-WebUI.delay(2)
+WebUI.delay(GlobalVariable.delay_2seconds)
 
 WebUI.setText(findTestObject('07-Directory/Connections/zContact Profile/input_firstName'), 'GGedit')
 
@@ -33,7 +33,7 @@ WebUI.setText(findTestObject('07-Directory/Connections/zContact Profile/input_la
 
 WebUI.scrollToElement(findTestObject('07-Directory/Connections/zContact Profile/notes'), 0)
 
-WebUI.setText(findTestObject('07-Directory/Connections/zContact Profile/notes'), 'Automation Notes')
+WebUI.setText(findTestObject('07-Directory/Connections/zContact Profile/notes'), GlobalVariable.notes)
 
 WebUI.scrollToElement(findTestObject('07-Directory/Connections/zContact Profile/button_save changes'), 0)
 

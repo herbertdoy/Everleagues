@@ -17,19 +17,19 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.setText(findTestObject('06-Teams/05- Teams-General Channel/Input field_post'), 'This is automation')
 
 WebUI.click(findTestObject('06-Teams/05- Teams-General Channel/button_send'))
 
-WebUI.delay(2)
+WebUI.delay(GlobalVariable.delay_2seconds)
 
 WebUI.verifyElementVisible(findTestObject('06-Teams/05- Teams-General Channel/added new post msg'))
 
 WebUI.verifyElementVisible(findTestObject('06-Teams/05- Teams-General Channel/posted_This is automation'))
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.click(findTestObject('06-Teams/05- Teams-General Channel/ellipsis 1'))
 
@@ -41,7 +41,7 @@ WebUI.click(findTestObject('06-Teams/05- Teams-General Channel/button_send edit'
 
 WebUI.verifyElementVisible(findTestObject('06-Teams/05- Teams-General Channel/Successfully edited post msg'))
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.click(findTestObject('06-Teams/05- Teams-General Channel/Bold select'))
 
@@ -55,7 +55,7 @@ WebUI.verifyElementVisible(findTestObject('06-Teams/05- Teams-General Channel/ad
 
 WebUI.verifyElementVisible(findTestObject('06-Teams/05- Teams-General Channel/Bold'))
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.click(findTestObject('06-Teams/05- Teams-General Channel/Italic Select'))
 
@@ -69,7 +69,7 @@ WebUI.verifyElementVisible(findTestObject('06-Teams/05- Teams-General Channel/ad
 
 WebUI.verifyElementVisible(findTestObject('06-Teams/05- Teams-General Channel/Italic'))
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.click(findTestObject('06-Teams/05- Teams-General Channel/Underline select'))
 
@@ -83,7 +83,7 @@ WebUI.verifyElementVisible(findTestObject('06-Teams/05- Teams-General Channel/ad
 
 WebUI.verifyElementVisible(findTestObject('06-Teams/05- Teams-General Channel/Underline'))
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.click(findTestObject('06-Teams/05- Teams-General Channel/Strikethrough select'))
 
@@ -97,7 +97,7 @@ WebUI.verifyElementVisible(findTestObject('06-Teams/05- Teams-General Channel/ad
 
 WebUI.verifyElementVisible(findTestObject('06-Teams/05- Teams-General Channel/Strikethrough'))
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.click(findTestObject('06-Teams/05- Teams-General Channel/Heading dropdown'))
 
@@ -113,7 +113,7 @@ WebUI.verifyElementVisible(findTestObject('06-Teams/05- Teams-General Channel/di
 
 WebUI.verifyElementVisible(findTestObject('06-Teams/05- Teams-General Channel/div_Header 6'))
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.click(findTestObject('06-Teams/05- Teams-General Channel/div_Header 4'))
 
@@ -127,7 +127,7 @@ WebUI.verifyElementVisible(findTestObject('06-Teams/05- Teams-General Channel/ad
 
 WebUI.verifyElementVisible(findTestObject('06-Teams/05- Teams-General Channel/h4_Four'))
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.click(findTestObject('06-Teams/05- Teams-General Channel/Heading dropdown'))
 
@@ -143,5 +143,5 @@ WebUI.verifyElementVisible(findTestObject('06-Teams/05- Teams-General Channel/ad
 
 WebUI.verifyElementVisible(findTestObject('06-Teams/05- Teams-General Channel/h5_Five'))
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 

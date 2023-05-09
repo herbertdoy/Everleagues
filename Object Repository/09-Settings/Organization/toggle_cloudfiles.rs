@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//label[@for='mat-slide-toggle-4-input']//span)[1]</value>
+         <value>//mat-slide-toggle[@id='mat-slide-toggle-4']//label[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

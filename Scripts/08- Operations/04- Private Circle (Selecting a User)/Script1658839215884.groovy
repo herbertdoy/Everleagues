@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.click(findTestObject('08-Operations/Private_Circle'))
 
@@ -29,5 +29,5 @@ WebUI.click(findTestObject('08-Operations/Private Circle/span_GG Tester 3'))
 
 WebUI.verifyElementVisible(findTestObject('08-Operations/Private Circle/div_Showing GG Tester 3s private circle'))
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 

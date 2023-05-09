@@ -35,5 +35,5 @@ WebUI.verifyElementVisible(findTestObject('08-Operations/Private Circle/Select U
 
 WebUI.verifyElementVisible(findTestObject('08-Operations/Private Circle/Relationship is required'))
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 

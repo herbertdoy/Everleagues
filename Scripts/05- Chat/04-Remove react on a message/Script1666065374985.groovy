@@ -123,5 +123,5 @@ WebUI.click(findTestObject('05-Chat/03-05 - React and Reply/div_react_All'))
 
 WebUI.click(findTestObject('05-Chat/03-05 - React and Reply/div_GG TESTER Click to remove'))
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 

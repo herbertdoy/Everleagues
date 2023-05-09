@@ -17,15 +17,15 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.uploadFile(findTestObject('06-Teams/05- Teams-General Channel/button_attache_file'), 'D:\\Users\\EL automation\\video.mp4')
+WebUI.uploadFile(findTestObject('06-Teams/05- Teams-General Channel/button_attache_file'), GlobalVariable.upload_mp4_file)
 
 WebUI.verifyElementVisible(findTestObject('06-Teams/05- Teams-General Channel/added video'))
 
 WebUI.click(findTestObject('06-Teams/05- Teams-General Channel/button_send'))
 
-WebUI.delay(5)
+WebUI.delay(GlobalVariable.delay_5seconds)
 
 WebUI.verifyElementVisible(findTestObject('06-Teams/05- Teams-General Channel/posted video'))
 
-WebUI.delay(10)
+WebUI.delay(GlobalVariable.delay_10seconds)
 

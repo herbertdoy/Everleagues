@@ -19,13 +19,13 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.click(findTestObject('12-EL Sign/mat-icon_refresh'))
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.click(findTestObject('12-EL Sign/mat-icon_configureColumns'))
 
 WebUI.verifyElementVisible(findTestObject('12-EL Sign/mat-dialog-container_configureColumnModal'))
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 //WebUI.click(findTestObject('12-EL Sign/span_Download'))
 WebUI.click(findTestObject('12-EL Sign/span_ELSign Tracking Id'))
@@ -48,7 +48,7 @@ WebUI.click(findTestObject('12-EL Sign/span_Reminder'))
 
 WebUI.click(findTestObject('12-EL Sign/span_Last Modified'))
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.click(findTestObject('12-EL Sign/span_ELSign Tracking Id'))
 
@@ -72,21 +72,21 @@ WebUI.click(findTestObject('12-EL Sign/span_Reminder'))
 
 WebUI.click(findTestObject('12-EL Sign/span_Last Modified'))
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.click(findTestObject('12-EL Sign/button_CLOSE'))
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.click(findTestObject('12-EL Sign/mat-icon_exportCSV'))
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.click(findTestObject('12-EL Sign/mat-icon_expandAll'))
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.click(findTestObject('12-EL Sign/mat-icon_refit'))
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 

@@ -25,7 +25,7 @@ WebUI.closeWindowIndex(1)
 
 WebUI.switchToWindowIndex(0)
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.click(findTestObject('12-EL Sign/button_history'))
 
@@ -35,5 +35,5 @@ WebUI.verifyElementVisible(findTestObject('12-EL Sign/td_historyName'))
 
 WebUI.doubleClick(findTestObject('12-EL Sign/button_CANCEL2'))
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 

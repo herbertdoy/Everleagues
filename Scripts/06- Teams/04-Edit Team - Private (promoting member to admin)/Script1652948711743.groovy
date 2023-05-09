@@ -19,11 +19,11 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.mouseOver(findTestObject('06-Teams/03-Edit Team - Private/mouse over target element'))
 
-WebUI.delay(2)
+WebUI.delay(GlobalVariable.delay_2seconds)
 
 WebUI.click(findTestObject('06-Teams/03-Edit Team - Private/button_promote to admin'))
 
 WebUI.verifyElementVisible(findTestObject('06-Teams/03-Edit Team - Private/span_Admin'))
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 

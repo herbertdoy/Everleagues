@@ -17,16 +17,15 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-
 WebUI.click(findTestObject('12-EL Sign/div_ELSignTrackID'))
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.click(findTestObject('12-EL Sign/span_COMPLETE'))
 
 WebUI.verifyElementVisible(findTestObject('12-EL Sign/snack-bar-container_Please add signer and field'))
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.click(findTestObject('12-EL Sign/button_personADD SIGNER  FIELD'))
 
@@ -50,11 +49,11 @@ WebUI.verifyElementNotClickable(findTestObject('12-EL Sign/button_SAVE'))
 
 WebUI.click(findTestObject('12-EL Sign/button_CANCEL'))
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.click(findTestObject('12-EL Sign/button_personADD SIGNER  FIELD'))
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.click(findTestObject('12-EL Sign/button_person_outlineADD GUEST'))
 

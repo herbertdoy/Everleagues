@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+00-Signup and Account Activation,,,,2023-05-05 09:25:13,2023-05-05 09:25:30,16.943s,FAILED
+,,,,,,,
+Test Cases/00-SignUp and Account Activation/01-Signup(Credentials Blank),,,,2023-05-05 09:25:14,2023-05-05 09:25:21,7.445s,FAILED
+"openBrowser("""")",,,,2023-05-05 09:25:14,2023-05-05 09:25:21,6.875s,FAILED
+,,,,,,,
+Test Cases/00-SignUp and Account Activation/02-Signup(Wrong email),,,,2023-05-05 09:25:21,2023-05-05 09:25:25,3.833s,FAILED
+delay(3),,,,2023-05-05 09:25:22,2023-05-05 09:25:25,3.073s,PASSED
+"setText(findTestObject(""00-Signup and Activation/input_Email""), ""QATESTinvalidemailformat"")",,,,2023-05-05 09:25:25,2023-05-05 09:25:25,0.159s,FAILED
+,,,,,,,
+Test Cases/00-SignUp and Account Activation/03-Signup(Correct Details),,"Make sure to change the email, everytime you run this test",,2023-05-05 09:25:25,2023-05-05 09:25:28,2.449s,FAILED
+delay(2),,,,2023-05-05 09:25:26,2023-05-05 09:25:28,2.007s,PASSED
+"setText(findTestObject(""00-Signup and Activation/input_Email""), ""autotester10101@mailinator.com"")",,always change the number in the email to the next one before starting the automation,,2023-05-05 09:25:28,2023-05-05 09:25:28,0.113s,FAILED
+,,,,,,,
+Test Cases/00-SignUp and Account Activation/04-Set password,,,,2023-05-05 09:25:28,2023-05-05 09:25:30,2.563s,FAILED
+delay(2),,,,2023-05-05 09:25:28,2023-05-05 09:25:30,2.008s,PASSED
+"setEncryptedText(findTestObject(""00-Signup and Activation/input_password""), ""8yFRyszE6U6jvsCn51OQbg=="", STOP_ON_FAILURE)",,,,2023-05-05 09:25:30,2023-05-05 09:25:30,0.195s,FAILED

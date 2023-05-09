@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.click(findTestObject('07-Directory/Labels/trash_delete label'))
 
@@ -29,7 +29,7 @@ WebUI.verifyElementVisible(findTestObject('07-Directory/Labels/success delete ms
 
 WebUI.verifyElementVisible(findTestObject('07-Directory/Labels/Labels page'))
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.closeBrowser()
 

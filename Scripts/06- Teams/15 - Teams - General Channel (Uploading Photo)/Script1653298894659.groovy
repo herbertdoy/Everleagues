@@ -17,19 +17,19 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.uploadFile(findTestObject('06-Teams/05- Teams-General Channel/button_add image'), 'D:\\Users\\EL automation\\qa.jpg')
+WebUI.uploadFile(findTestObject('06-Teams/05- Teams-General Channel/button_add image'), GlobalVariable.upload_file)
 
 WebUI.verifyElementVisible(findTestObject('06-Teams/05- Teams-General Channel/added image'))
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.click(findTestObject('06-Teams/05- Teams-General Channel/button_send'))
 
 WebUI.verifyElementVisible(findTestObject('06-Teams/05- Teams-General Channel/added new post msg'))
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.verifyElementVisible(findTestObject('06-Teams/05- Teams-General Channel/posted image'))
 
-WebUI.delay(5)
+WebUI.delay(GlobalVariable.delay_5seconds)
 

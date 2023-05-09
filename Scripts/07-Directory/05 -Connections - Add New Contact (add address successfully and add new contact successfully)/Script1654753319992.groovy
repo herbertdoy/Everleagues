@@ -35,19 +35,19 @@ WebUI.scrollToElement(findTestObject('07-Directory/Connections/input_Country_add
 
 WebUI.click(findTestObject('07-Directory/Connections/input_Country_addressLabel'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.click(findTestObject('07-Directory/Connections/span_Work'))
 
 WebUI.click(findTestObject('07-Directory/Connections/address_Save'))
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.verifyElementVisible(findTestObject('07-Directory/Connections/added address'))
 
 WebUI.click(findTestObject('07-Directory/Connections/button_Create'))
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.verifyElementVisible(findTestObject('07-Directory/Connections/div_added user'))
 

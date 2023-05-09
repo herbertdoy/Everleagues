@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://lab.everleagues.com/')
+WebUI.navigateToUrl(GlobalVariable.appURL)
 
 WebUI.maximizeWindow()
 
@@ -76,20 +76,19 @@ WebUI.callTestCase(findTestCase('01-Login and Forgot Password/04-Login(Valid Cre
 //WebUI.click(findTestObject('06-Teams/For 2FA/button_Verify_2FA'))
 //
 //WebUI.delay(5)
-
 WebUI.click(findTestObject('03-Header Menu/Hamburger Button/div_Directory'))
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.verifyElementVisible(findTestObject('07-Directory/Connections/div_Connections'))
 
 WebUI.verifyElementVisible(findTestObject('07-Directory/Connections/div_Labels'))
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.click(findTestObject('07-Directory/Connections/div_Connections'))
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.verifyElementVisible(findTestObject('07-Directory/Connections/h4_CONNECTIONS'))
 
@@ -101,17 +100,17 @@ WebUI.verifyElementVisible(findTestObject('07-Directory/Connections/button_add n
 
 WebUI.verifyElementVisible(findTestObject('07-Directory/Connections/button_Filter'))
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.click(findTestObject('07-Directory/Connections/button_add new contact'))
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.click(findTestObject('07-Directory/Connections/input_Type_email'))
 
 WebUI.verifyElementVisible(findTestObject('07-Directory/Connections/Add new contact modal'))
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.click(findTestObject('07-Directory/Connections/input_firstName'))
 
@@ -119,7 +118,7 @@ WebUI.click(findTestObject('07-Directory/Connections/input_lastName'))
 
 WebUI.click(findTestObject('07-Directory/Connections/input_Type_email'))
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.verifyElementVisible(findTestObject('07-Directory/Connections/div_First Name Field is required'))
 
@@ -127,5 +126,5 @@ WebUI.verifyElementVisible(findTestObject('07-Directory/Connections/div_Last Nam
 
 WebUI.verifyElementNotClickable(findTestObject('07-Directory/Connections/button_Create'))
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 

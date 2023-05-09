@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://lab.everleagues.com/')
+WebUI.navigateToUrl(GlobalVariable.appURL)
 
 WebUI.maximizeWindow()
 
@@ -82,14 +82,14 @@ WebUI.verifyElementVisible(findTestObject('08-Operations/Client_Assignment'))
 
 WebUI.verifyElementVisible(findTestObject('08-Operations/Private_Circle'))
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.click(findTestObject('08-Operations/Client_Assignment'))
 
 WebUI.verifyElementVisible(findTestObject('08-Operations/Client Assignment/Client Assignment Page 2'))
 
 //WebUI.verifyElementVisible(findTestObject('08-Operations/Client Assignment/Client Assignment Page'))
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.click(findTestObject('08-Operations/Client Assignment/Org unit edit'))
 

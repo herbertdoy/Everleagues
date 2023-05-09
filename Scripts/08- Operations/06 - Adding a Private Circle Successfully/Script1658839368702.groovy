@@ -35,7 +35,7 @@ WebUI.setText(findTestObject('08-Operations/Private Circle/input_lastName'), 'Co
 
 WebUI.click(findTestObject('08-Operations/Private Circle/button_Create'))
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.click(findTestObject('08-Operations/Private Circle/Relationship dropdown'))
 
@@ -51,13 +51,13 @@ WebUI.verifyElementVisible(findTestObject('08-Operations/Private Circle/mat-opti
 
 WebUI.click(findTestObject('08-Operations/Private Circle/mat-option_Others'))
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.click(findTestObject('08-Operations/Private Circle/button_Add modal'))
 
 WebUI.verifyElementVisible(findTestObject('08-Operations/Private Circle/Successfully added association'))
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.click(findTestObject('08-Operations/Private Circle/Input_Select user'))
 
@@ -77,11 +77,11 @@ WebUI.click(findTestObject('08-Operations/Private Circle/button_Add modal'))
 
 WebUI.verifyElementVisible(findTestObject('08-Operations/Private Circle/Successfully added association'))
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.verifyElementVisible(findTestObject('08-Operations/Private Circle/td_GG TESTER'))
 
 WebUI.verifyElementVisible(findTestObject('08-Operations/Private Circle/td_GG Auto Contact'))
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 

@@ -26,7 +26,7 @@ WebUI.click(findTestObject('07-Directory/Connections/button_add_address'))
 //WebUI.click(findTestObject('07-Directory/Connections/button_add_address'))
 WebUI.verifyElementVisible(findTestObject('07-Directory/Connections/Edit address modal'))
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.click(findTestObject('07-Directory/Connections/input_Edit Address_street1'))
 
@@ -46,7 +46,7 @@ WebUI.scrollToElement(findTestObject('07-Directory/Connections/input_Country_add
 
 WebUI.click(findTestObject('07-Directory/Connections/input_Country_addressLabel'))
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.verifyElementVisible(findTestObject('07-Directory/Connections/span_Work'))
 
@@ -54,11 +54,11 @@ WebUI.verifyElementVisible(findTestObject('07-Directory/Connections/span_Persona
 
 WebUI.verifyElementVisible(findTestObject('07-Directory/Connections/span_Other'))
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.click(findTestObject('07-Directory/Connections/h4_Edit Address'))
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.scrollToElement(findTestObject('07-Directory/Connections/street 1 error'), 0)
 
@@ -71,5 +71,5 @@ WebUI.verifyElementVisible(findTestObject('07-Directory/Connections/city error')
 WebUI.verifyElementVisible(findTestObject('07-Directory/Connections/state error'))
 
 //WebUI.verifyElementVisible(findTestObject('07-Directory/Connections/country error'))
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 

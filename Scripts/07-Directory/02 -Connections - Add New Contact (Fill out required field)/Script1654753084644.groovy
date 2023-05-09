@@ -17,15 +17,15 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.setText(findTestObject('07-Directory/Connections/input_firstName'), 'GG')
+WebUI.setText(findTestObject('07-Directory/Connections/input_firstName'), GlobalVariable.first_name1)
 
-WebUI.setText(findTestObject('07-Directory/Connections/input_lastName'), 'Auto')
+WebUI.setText(findTestObject('07-Directory/Connections/input_lastName'), GlobalVariable.last_name2)
 
-WebUI.setText(findTestObject('07-Directory/Connections/input_Type_email'), 'autotester02@mailinator.com')
+WebUI.setText(findTestObject('07-Directory/Connections/input_Type_email'), GlobalVariable.email_for_Auto2)
 
 WebUI.click(findTestObject('07-Directory/Connections/input_Type_phone'))
 
 WebUI.click(findTestObject('07-Directory/Connections/button_area code'))
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 

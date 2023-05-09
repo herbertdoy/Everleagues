@@ -17,13 +17,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.verifyElementNotClickable(findTestObject('08-Operations/Client Assignment/button_ Assign'))
 
 WebUI.verifyElementNotClickable(findTestObject('08-Operations/Client Assignment/button_Unassign'))
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.click(findTestObject('08-Operations/Client Assignment/div_GG TESTER'))
 
@@ -31,7 +31,7 @@ WebUI.verifyElementVisible(findTestObject('08-Operations/Client Assignment/Clien
 
 WebUI.verifyElementVisible(findTestObject('08-Operations/Client Assignment/Assigned Clients empty'))
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.click(findTestObject('08-Operations/Client Assignment/div_GTGG Tester 3'))
 
@@ -41,13 +41,13 @@ WebUI.click(findTestObject('08-Operations/Client Assignment/button_ Assign'))
 
 WebUI.verifyElementVisible(findTestObject('08-Operations/Client Assignment/Updated assignment msg'))
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_1second)
 
 WebUI.verifyElementVisible(findTestObject('08-Operations/Client Assignment/Client column Empty'))
 
 WebUI.verifyElementVisible(findTestObject('08-Operations/Client Assignment/Assigned clients column'))
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.click(findTestObject('08-Operations/Client Assignment/div_GTGG Tester 3'))
 
@@ -57,7 +57,7 @@ WebUI.click(findTestObject('08-Operations/Client Assignment/button_Unassign'))
 
 WebUI.verifyElementVisible(findTestObject('08-Operations/Client Assignment/Updated assignment msg'))
 
-WebUI.delay(5)
+WebUI.delay(GlobalVariable.delay_5seconds)
 
 WebUI.verifyElementVisible(findTestObject('08-Operations/Client Assignment/Clients column'))
 

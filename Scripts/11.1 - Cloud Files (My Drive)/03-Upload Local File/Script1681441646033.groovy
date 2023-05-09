@@ -29,7 +29,7 @@ WebUI.delay(3)
 WebUI.click(findTestObject('11-Cloud Files/button_cloud_upload Upload Files  Create Folders'))
 
 CustomKeywords.'uploadpackage.Upload.uploadFile'(findTestObject('Object Repository/11-Cloud Files/button_cloud_uploadUpload Local File'), 
-    'D:\\Users\\Michelle\\EL automation\\qa.jpg')
+    'D:\\Users\\EL automation\\qa.jpg')
 
 WebUI.delay(2)
 

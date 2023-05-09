@@ -17,23 +17,23 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_2seconds)
 
 WebUI.click(findTestObject('07-Directory/Connections/div_Labels'))
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.verifyElementVisible(findTestObject('07-Directory/Labels/Labels page'))
 
 WebUI.verifyElementVisible(findTestObject('07-Directory/Labels/h4_LABELS'))
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.click(findTestObject('07-Directory/Labels/plus_add label'))
 
 WebUI.verifyElementVisible(findTestObject('07-Directory/Labels/add new label modal'))
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.click(findTestObject('07-Directory/Labels/h4_Add New Label'))
 
@@ -41,13 +41,13 @@ WebUI.verifyElementVisible(findTestObject('07-Directory/Labels/div_Label Name Fi
 
 WebUI.verifyElementNotClickable(findTestObject('07-Directory/Labels/button_Add Label'))
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
-WebUI.setText(findTestObject('07-Directory/Labels/input_Add New Label Name'), 'Label QA')
+WebUI.setText(findTestObject('07-Directory/Labels/input_Add New Label Name'), GlobalVariable.label)
 
 WebUI.click(findTestObject('07-Directory/Labels/button_Add Label'))
 
-WebUI.delay(2)
+WebUI.delay(GlobalVariable.delay_2seconds)
 
 WebUI.verifyElementVisible(findTestObject('07-Directory/Labels/success msg label'))
 

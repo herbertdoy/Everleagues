@@ -17,52 +17,52 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 'This is a .jpg [make sure to change your filepath for the image before running the automation]'
 CustomKeywords.'uploadpackage.Upload.uploadFile'(findTestObject('Object Repository/05-Chat/06-Sending attached file/button_attach_file'), 
-    'D:\\Users\\EL automation\\qa.jpg')
+    GlobalVariable.upload_file)
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.click(findTestObject('05-Chat/02-Sending chat messages/button_send'))
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 'either you remove this script or you change the element coz its setup to verify the file I uploaded'
 WebUI.verifyElementVisible(findTestObject('05-Chat/06-Sending attached file/img_You_inserted'))
 
 WebUI.refresh()
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 'This is a .pdf [make sure to change your filepath for the image before running the automation'
-WebUI.uploadFileWithDragAndDrop(findTestObject('Object Repository/05-Chat/02-Sending chat messages/textarea__msg'), 'D:\\Users\\EL automation\\sample.pdf')
+WebUI.uploadFileWithDragAndDrop(findTestObject('Object Repository/05-Chat/02-Sending chat messages/textarea__msg'), GlobalVariable.upload_pdf_file)
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.click(findTestObject('05-Chat/02-Sending chat messages/button_send'))
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 'either you remove this script or you change the element coz its setup to verify the file I uploaded'
 WebUI.verifyElementVisible(findTestObject('05-Chat/06-Sending attached file/span_sample.pdf'))
 
 WebUI.refresh()
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 'This is a .mp4 [make sure to change your filepath for the image before running the automation'
-WebUI.uploadFileWithDragAndDrop(findTestObject('Object Repository/05-Chat/02-Sending chat messages/textarea__msg'), 'D:\\Users\\EL automation\\video.mp4')
+WebUI.uploadFileWithDragAndDrop(findTestObject('Object Repository/05-Chat/02-Sending chat messages/textarea__msg'), GlobalVariable.upload_mp4_file)
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.click(findTestObject('05-Chat/02-Sending chat messages/button_send'))
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 'either you remove this script or you change the element coz its setup to verify the file I uploaded'
 WebUI.verifyElementVisible(findTestObject('05-Chat/06-Sending attached file/span_video.mp4'))
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 

@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.click(findTestObject('08-Operations/Client Assignment/div_By Client'))
 
@@ -27,7 +27,7 @@ WebUI.verifyElementNotClickable(findTestObject('08-Operations/Client Assignment/
 
 WebUI.verifyElementNotClickable(findTestObject('08-Operations/Client Assignment/button_Unassign'))
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.click(findTestObject('08-Operations/Client Assignment/div_GTGG Tester 3'))
 
@@ -36,7 +36,7 @@ WebUI.verifyElementVisible(findTestObject('08-Operations/Client Assignment/Emplo
 
 WebUI.verifyElementVisible(findTestObject('08-Operations/Client Assignment/Assigned Employees empty'))
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.click(findTestObject('08-Operations/Client Assignment/div_GG TESTER'))
 
@@ -44,13 +44,13 @@ WebUI.click(findTestObject('08-Operations/Client Assignment/button_ Assign'))
 
 WebUI.verifyElementVisible(findTestObject('08-Operations/Client Assignment/Updated assignment msg'))
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.verifyElementVisible(findTestObject('08-Operations/Client Assignment/Employees column after assign'))
 
 WebUI.verifyElementVisible(findTestObject('08-Operations/Client Assignment/Assigned Employees - GG TESTER'))
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.click(findTestObject('08-Operations/Client Assignment/div_GG TESTER'))
 
@@ -58,11 +58,11 @@ WebUI.click(findTestObject('08-Operations/Client Assignment/button_Unassign'))
 
 WebUI.verifyElementVisible(findTestObject('08-Operations/Client Assignment/Updated assignment msg'))
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.verifyElementVisible(findTestObject('08-Operations/Client Assignment/Employees column'))
 
 WebUI.verifyElementVisible(findTestObject('08-Operations/Client Assignment/Assigned Employees empty'))
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 

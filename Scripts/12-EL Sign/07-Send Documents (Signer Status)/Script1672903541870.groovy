@@ -25,5 +25,5 @@ WebUI.verifyElementVisible(findTestObject('12-EL Sign/mat-toolbar_Signers ELSign
 
 WebUI.click(findTestObject('12-EL Sign/button_OK'))
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 

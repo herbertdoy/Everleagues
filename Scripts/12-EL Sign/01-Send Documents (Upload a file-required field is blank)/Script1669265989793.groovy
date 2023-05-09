@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://lab.everleagues.com/')
+WebUI.navigateToUrl(GlobalVariable.appURL)
 
 WebUI.maximizeWindow()
 
@@ -58,11 +58,11 @@ WebUI.click(findTestObject('06-Teams/button_My Organizations'))
 
 WebUI.click(findTestObject('02-Side Icons(Organization)/Add Contact/button_Automation Test Org'))
 
-WebUI.delay(4)
+WebUI.delay(GlobalVariable.delay_4seconds)
 
 WebUI.verifyElementVisible(findTestObject('02-Side Icons(Organization)/Add Contact/span_Automation Test Org'))
 
-WebUI.delay(5)
+WebUI.delay(GlobalVariable.delay_5seconds)
 
 WebUI.scrollToElement(findTestObject('03-Header Menu/Hamburger Button/div_ELSign'), 0)
 
@@ -72,14 +72,14 @@ WebUI.verifyElementVisible(findTestObject('03-Header Menu/Hamburger Button/div_E
 
 WebUI.verifyElementVisible(findTestObject('12-EL Sign/h4_ELSign'))
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.click(findTestObject('12-EL Sign/div_Send Documents'))
 
 CustomKeywords.'uploadpackage.Upload.uploadFile'(findTestObject('Object Repository/12-EL Sign/div_Drag and drop or Upload PDF or Word document here'), 
-    'D:\\Users\\EL automation\\sample.pdf')
+    GlobalVariable.upload_pdf_file)
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.click(findTestObject('12-EL Sign/input_documentTitle'))
 
@@ -91,5 +91,5 @@ WebUI.clickOffset(findTestObject('12-EL Sign/h4_ELSign'), 100, 100)
 
 WebUI.verifyElementVisible(findTestObject('12-EL Sign/mat-error_Title is required'))
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 

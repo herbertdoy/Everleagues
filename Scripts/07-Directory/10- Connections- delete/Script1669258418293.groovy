@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.delay(2)
+WebUI.delay(GlobalVariable.delay_2seconds)
 
 WebUI.click(findTestObject('07-Directory/Connections/zContact Profile/GG edited'))
 
@@ -29,5 +29,5 @@ WebUI.click(findTestObject('07-Directory/Connections/zContact Profile/button_Del
 
 WebUI.verifyElementVisible(findTestObject('07-Directory/Connections/zContact Profile/success delete msg'))
 
-WebUI.delay(2)
+WebUI.delay(GlobalVariable.delay_2seconds)
 
