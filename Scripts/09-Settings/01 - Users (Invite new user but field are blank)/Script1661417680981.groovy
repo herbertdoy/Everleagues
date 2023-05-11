@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://lab.everleagues.com/')
+WebUI.navigateToUrl(GlobalVariable.appURL)
 
 WebUI.maximizeWindow()
 
@@ -76,18 +76,17 @@ WebUI.callTestCase(findTestCase('01-Login and Forgot Password/04-Login(Valid Cre
 //WebUI.click(findTestObject('06-Teams/For 2FA/button_Verify_2FA'))
 //
 //WebUI.delay(5)
-
 WebUI.click(findTestObject('06-Teams/button_doublearrow'))
 
 WebUI.click(findTestObject('06-Teams/button_My Organizations'))
 
 WebUI.click(findTestObject('06-Teams/button_GG Automation'))
 
-WebUI.delay(4)
+WebUI.delay(GlobalVariable.delay_4seconds)
 
 WebUI.verifyElementVisible(findTestObject('06-Teams/span_GG Automation'))
 
-WebUI.delay(5)
+WebUI.delay(GlobalVariable.delay_5seconds)
 
 WebUI.click(findTestObject('03-Header Menu/Hamburger Button/div_Settings'))
 
@@ -101,7 +100,7 @@ WebUI.verifyElementVisible(findTestObject('09-Settings/Users/div_Subscriptions')
 
 WebUI.verifyElementVisible(findTestObject('09-Settings/Users/div_Users'))
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.click(findTestObject('09-Settings/Users/div_Users'))
 
@@ -109,13 +108,13 @@ WebUI.verifyElementVisible(findTestObject('09-Settings/Users/h4_USERS'))
 
 WebUI.verifyElementVisible(findTestObject('09-Settings/Users/User Page'))
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.click(findTestObject('09-Settings/Users/button_add'))
 
 WebUI.verifyElementVisible(findTestObject('09-Settings/Users/User Invitation modal'))
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.click(findTestObject('09-Settings/Users/add Invite a single user'))
 

@@ -17,21 +17,21 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_2seconds)
 
 WebUI.verifyElementVisible(findTestObject('09-Settings/Users/Invited Users/div_GG Auto'))
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.click(findTestObject('09-Settings/Users/Invited Users/button_deleteInvite'))
 
 WebUI.verifyElementVisible(findTestObject('09-Settings/Users/Invited Users/h4_Delete Invitation'))
 
-WebUI.delay(1)
+WebUI.delay(GlobalVariable.delay_1second)
 
 WebUI.click(findTestObject('09-Settings/Users/Active User/button_Cancel_restore'))
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.verifyElementVisible(findTestObject('09-Settings/Users/Invited Users/div_GG Auto'))
 
@@ -41,7 +41,7 @@ WebUI.verifyElementVisible(findTestObject('09-Settings/Users/Invited Users/h4_De
 
 WebUI.click(findTestObject('09-Settings/Users/Active User/button_Delete'))
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.verifyElementVisible(findTestObject('09-Settings/Users/Invited Users/div_CTCSV test 3'))
 
@@ -49,7 +49,7 @@ WebUI.click(findTestObject('09-Settings/Users/Invited Users/button_deleteInvite'
 
 WebUI.click(findTestObject('09-Settings/Users/Active User/button_Delete'))
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.verifyElementVisible(findTestObject('09-Settings/Users/Invited Users/div_CTCSV test 2'))
 
@@ -57,7 +57,7 @@ WebUI.click(findTestObject('09-Settings/Users/Invited Users/button_deleteInvite'
 
 WebUI.click(findTestObject('09-Settings/Users/Active User/button_Delete'))
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.verifyElementVisible(findTestObject('09-Settings/Users/Invited Users/div_CTCSV test 1'))
 
@@ -67,7 +67,7 @@ WebUI.click(findTestObject('09-Settings/Users/Active User/button_Delete'))
 
 WebUI.verifyElementVisible(findTestObject('09-Settings/Users/Invited Users/span_Successfully deleted invite'))
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.closeBrowser()
 

@@ -17,25 +17,25 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
-WebUI.setText(findTestObject('00-Signup and Activation/input_Email'), 'QATESTinvalidemailformat')
+WebUI.setText(findTestObject('00-Signup and Activation/input_Email'), GlobalVariable.invalid_email)
 
-WebUI.delay(2)
+WebUI.delay(GlobalVariable.delay_2seconds)
 
 WebUI.click(findTestObject('00-Signup and Activation/input_firstName'))
 
 WebUI.verifyElementPresent(findTestObject('00-Signup and Activation/error_valid email is required'), 0)
 
-WebUI.delay(2)
+WebUI.delay(GlobalVariable.delay_2seconds)
 
-WebUI.setText(findTestObject('00-Signup and Activation/input_Email'), 'testuser01@mailinator.com')
+WebUI.setText(findTestObject('00-Signup and Activation/input_Email'), GlobalVariable.email_without_subscription)
 
-WebUI.delay(2)
+WebUI.delay(GlobalVariable.delay_2seconds)
 
 WebUI.click(findTestObject('00-Signup and Activation/input_firstName'))
 
 WebUI.verifyElementVisible(findTestObject('00-Signup and Activation/error_email already exists'))
 
-WebUI.delay(2)
+WebUI.delay(GlobalVariable.delay_2seconds)
 

@@ -16,27 +16,27 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 
-WebUI.delay(2)
+WebUI.delay(GlobalVariable.delay_2seconds)
 
-WebUI.setEncryptedText(findTestObject('00-Signup and Activation/input_password'), '8yFRyszE6U6jvsCn51OQbg==', FailureHandling.STOP_ON_FAILURE)
+WebUI.setEncryptedText(findTestObject('00-Signup and Activation/input_password'), GlobalVariable.password, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setEncryptedText(findTestObject('00-Signup and Activation/input_ConfirmPassword'), '8yFRyszE6U6jvsCn51OQbg==', FailureHandling.STOP_ON_FAILURE)
+WebUI.setEncryptedText(findTestObject('00-Signup and Activation/input_ConfirmPassword'), GlobalVariable.password, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(2)
+WebUI.delay(GlobalVariable.delay_2seconds)
 
 WebUI.click(findTestObject('00-Signup and Activation/show pass'))
 
 WebUI.click(findTestObject('00-Signup and Activation/show confirm pass'))
 
-WebUI.delay(2)
+WebUI.delay(GlobalVariable.delay_2seconds)
 
 WebUI.check(findTestObject('00-Signup and Activation/div_checkbox'))
 
-WebUI.delay(2)
+WebUI.delay(GlobalVariable.delay_2seconds)
 
 WebUI.click(findTestObject('00-Signup and Activation/button_Confirm'))
 
-WebUI.delay(5)
+WebUI.delay(GlobalVariable.delay_5seconds)
 
 WebUI.verifyElementVisible(findTestObject('00-Signup and Activation/h4_Welcome to Everleagues'))
 
@@ -44,19 +44,15 @@ WebUI.verifyElementVisible(findTestObject('00-Signup and Activation/span_CREATE 
 
 WebUI.verifyElementVisible(findTestObject('00-Signup and Activation/span_INVITE FRIENDS  FAMILY'))
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.click(findTestObject('00-Signup and Activation/button_DO THIS LATER'))
 
-WebUI.delay(2)
+WebUI.delay(GlobalVariable.delay_2seconds)
 
 //WebUI.verifyElementVisible(findTestObject('00-Signup and Activation/Create your first organization Card'))
-
 //WebUI.verifyElementVisible(findTestObject('00-Signup and Activation/Still not sure where to start Card'))
-
 //WebUI.verifyElementVisible(findTestObject('00-Signup and Activation/Welcome to Everleagues Card'))
-
 //WebUI.delay(2)
-
 WebUI.closeBrowser()
 

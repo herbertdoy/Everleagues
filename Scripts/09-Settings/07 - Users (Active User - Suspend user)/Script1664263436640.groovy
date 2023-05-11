@@ -63,13 +63,13 @@ import org.openqa.selenium.Keys as Keys
 //WebUI.verifyElementVisible(findTestObject('09-Settings/Users/Active User/div_Active Users'))
 //WebUI.click(findTestObject('09-Settings/Users/Active User/div_Active Users'))
 //WebUI.verifyElementVisible(findTestObject('09-Settings/Users/User Page'))
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.verifyElementPresent(findTestObject('09-Settings/Users/Active User/div_GTGG tester 2'), 0)
 
 WebUI.click(findTestObject('09-Settings/Users/Active User/button_suspendUser'))
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.click(findTestObject('09-Settings/Users/Active User/button_Cancel_restore'))
 
@@ -79,11 +79,11 @@ WebUI.click(findTestObject('09-Settings/Users/Active User/button_suspendUser'))
 
 WebUI.verifyElementPresent(findTestObject('09-Settings/Users/Active User/h4_Suspend User'), 0)
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.click(findTestObject('09-Settings/Users/Active User/button_Suspend'))
 
 WebUI.verifyElementPresent(findTestObject('09-Settings/Users/Active User/span_Successfully suspended user'), 0)
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 

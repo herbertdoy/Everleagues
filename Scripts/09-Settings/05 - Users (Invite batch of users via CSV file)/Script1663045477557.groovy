@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://lab.everleagues.com/')
+WebUI.navigateToUrl(GlobalVariable.appURL)
 
 WebUI.maximizeWindow()
 
@@ -82,25 +82,25 @@ WebUI.click(findTestObject('06-Teams/button_My Organizations'))
 
 WebUI.click(findTestObject('06-Teams/button_GG Automation'))
 
-WebUI.delay(4)
+WebUI.delay(GlobalVariable.delay_4seconds)
 
 WebUI.verifyElementVisible(findTestObject('06-Teams/span_GG Automation'))
 
-WebUI.delay(5)
+WebUI.delay(GlobalVariable.delay_5seconds)
 
 WebUI.click(findTestObject('03-Header Menu/Hamburger Button/div_Settings'))
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.scrollToElement(findTestObject('09-Settings/Users/div_Users'), 0)
 
 WebUI.click(findTestObject('09-Settings/Users/div_Users'))
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.click(findTestObject('09-Settings/Users/button_add'))
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.click(findTestObject('09-Settings/Users/Invite batch of users via CSV file'))
 
@@ -108,18 +108,18 @@ WebUI.verifyElementVisible(findTestObject('09-Settings/Users/CSV Invite/Import C
 
 WebUI.verifyElementNotClickable(findTestObject('09-Settings/Users/CSV Invite/button_Import'))
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 CustomKeywords.'uploadpackage.Upload.uploadFile'(findTestObject('Object Repository/09-Settings/Users/CSV Invite/button_Choose File'), 
-    'D:\\Users\\Michelle\\EL automation\\sample csv.csv')
+    GlobalVariable.upload_csv_file)
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.verifyElementVisible(findTestObject('09-Settings/Users/CSV Invite/div_Sample csv.csv'))
 
 WebUI.click(findTestObject('09-Settings/Users/CSV Invite/button_Import'))
 
-WebUI.delay(5)
+WebUI.delay(GlobalVariable.delay_5seconds)
 
 WebUI.verifyElementVisible(findTestObject('09-Settings/Users/CSV Invite/Success import modal'))
 
@@ -127,7 +127,7 @@ WebUI.click(findTestObject('09-Settings/Users/CSV Invite/button_Close'))
 
 WebUI.click(findTestObject('09-Settings/Users/CSV Invite/Invited Users tab'))
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.verifyElementVisible(findTestObject('09-Settings/Users/CSV Invite/div_CTCSV test3'))
 
@@ -147,7 +147,7 @@ WebUI.verifyElementVisible(findTestObject('09-Settings/Users/CSV Invite/div_auto
 
 WebUI.verifyElementVisible(findTestObject('09-Settings/Users/CSV Invite/div_Coworker'))
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.closeBrowser()
 

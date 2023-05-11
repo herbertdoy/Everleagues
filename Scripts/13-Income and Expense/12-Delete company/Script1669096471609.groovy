@@ -24,14 +24,13 @@ import org.openqa.selenium.Keys as Keys
 //WebUI.click(findTestObject('13-Income and Expense/button_No'))
 //
 //WebUI.delay(3)
-
 WebUI.click(findTestObject('13-Income and Expense/button_delete'))
 
 WebUI.verifyElementVisible(findTestObject('13-Income and Expense/mat-dialog-container_CompanyDeleteConfimationModal'))
 
 WebUI.click(findTestObject('13-Income and Expense/button_Yes'))
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.closeBrowser(FailureHandling.STOP_ON_FAILURE)
 

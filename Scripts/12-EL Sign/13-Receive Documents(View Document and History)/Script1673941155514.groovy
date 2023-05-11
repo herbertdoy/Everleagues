@@ -25,7 +25,7 @@ WebUI.closeWindowIndex(1)
 
 WebUI.switchToWindowIndex(0)
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.click(findTestObject('12-EL Sign/mat-icon_refit'), FailureHandling.STOP_ON_FAILURE)
 
@@ -37,9 +37,9 @@ WebUI.verifyElementVisible(findTestObject('12-EL Sign/mat-dialog-container-histo
 
 WebUI.verifyElementVisible(findTestObject('12-EL Sign/td_historyName'))
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.doubleClick(findTestObject('12-EL Sign/button_CANCEL2'))
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 

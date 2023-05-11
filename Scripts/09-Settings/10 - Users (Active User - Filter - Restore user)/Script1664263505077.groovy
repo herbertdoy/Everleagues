@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.click(findTestObject('09-Settings/Users/Active User/filter_icon'))
 
@@ -27,7 +27,7 @@ WebUI.verifyElementVisible(findTestObject('09-Settings/Users/Active User/span_Sh
 
 WebUI.click(findTestObject('09-Settings/Users/Active User/div_show-deleted-user-toggle-bar'))
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.click(findTestObject('09-Settings/Users/Active User/filter_icon'))
 
@@ -41,9 +41,9 @@ WebUI.click(findTestObject('09-Settings/Users/Active User/button_Restore'))
 
 WebUI.verifyElementVisible(findTestObject('09-Settings/Users/Active User/span_Successfully restored user'))
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.click(findTestObject('09-Settings/Users/Active User/filter_icon'))
 
-WebUI.delay(4)
+WebUI.delay(GlobalVariable.delay_4seconds)
 

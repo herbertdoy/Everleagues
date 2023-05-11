@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 //WebUI.click(findTestObject('11-Cloud Files/button_cloud_upload Upload Files  Create Folders'))
 //CustomKeywords.'uploadpackage.Upload.uploadFile'(findTestObject('Object Repository/11-Cloud Files/button_cloud_uploadUpload Local File'), 
@@ -29,25 +29,25 @@ WebUI.delay(3)
 WebUI.click(findTestObject('11-Cloud Files/button_cloud_upload Upload Files  Create Folders'))
 
 CustomKeywords.'uploadpackage.Upload.uploadFile'(findTestObject('Object Repository/11-Cloud Files/button_cloud_uploadUpload Local File'), 
-    'D:\\Users\\EL automation\\qa.jpg')
+    GlobalVariable.upload_file)
 
-WebUI.delay(2)
+WebUI.delay(GlobalVariable.delay_2seconds)
 
 WebUI.verifyElementVisible(findTestObject('11-Cloud Files/mat-dialog-container_Upload local file modal'))
 
 WebUI.click(findTestObject('11-Cloud Files/button_Confirm'))
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.verifyElementVisible(findTestObject('11-Cloud Files/div_Upload completed clear'))
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
-WebUI.setText(findTestObject('11-Cloud Files/input_Search_SharedDrive_CloudFiles'), 'Automation folder')
+WebUI.setText(findTestObject('11-Cloud Files/input_Search_SharedDrive_CloudFiles'), GlobalVariable.folder_name)
 
 WebUI.sendKeys(findTestObject('11-Cloud Files/input_Search_SharedDrive_CloudFiles'), Keys.chord(Keys.ENTER))
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.verifyElementVisible(findTestObject('11-Cloud Files/td_Automation folder'))
 

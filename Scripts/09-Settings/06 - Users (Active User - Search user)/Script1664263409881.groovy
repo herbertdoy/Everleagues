@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://lab.everleagues.com/')
+WebUI.navigateToUrl(GlobalVariable.appURL)
 
 WebUI.maximizeWindow()
 
@@ -82,11 +82,11 @@ WebUI.click(findTestObject('06-Teams/button_My Organizations'))
 
 WebUI.click(findTestObject('06-Teams/button_GG Automation'))
 
-WebUI.delay(4)
+WebUI.delay(GlobalVariable.delay_4seconds)
 
 WebUI.verifyElementVisible(findTestObject('06-Teams/span_GG Automation'))
 
-WebUI.delay(5)
+WebUI.delay(GlobalVariable.delay_5seconds)
 
 WebUI.click(findTestObject('03-Header Menu/Hamburger Button/div_Settings'))
 
@@ -100,7 +100,7 @@ WebUI.verifyElementVisible(findTestObject('09-Settings/Users/div_Subscriptions')
 
 WebUI.verifyElementVisible(findTestObject('09-Settings/Users/div_Users'))
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.click(findTestObject('09-Settings/Users/div_Users'))
 
@@ -111,21 +111,21 @@ WebUI.verifyElementVisible(findTestObject('09-Settings/Users/Active User/div_Act
 WebUI.click(findTestObject('09-Settings/Users/Active User/div_Active Users'))
 
 //WebUI.verifyElementVisible(findTestObject('09-Settings/Users/User Page'))
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.click(findTestObject('09-Settings/Users/Active User/button_search'))
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.click(findTestObject('09-Settings/Users/Active User/button_arrow_back'))
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.click(findTestObject('09-Settings/Users/Active User/button_search'))
 
 WebUI.setText(findTestObject('09-Settings/Users/Active User/Search field'), 'partner')
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.click(findTestObject('09-Settings/Users/Active User/button_Cancel'))
 

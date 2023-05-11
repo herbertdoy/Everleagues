@@ -21,13 +21,13 @@ WebUI.click(findTestObject('13-Income and Expense/button_edit'))
 
 WebUI.click(findTestObject('13-Income and Expense/button_CANCEL'))
 
-WebUI.delay(2)
+WebUI.delay(GlobalVariable.delay_2seconds)
 
 WebUI.click(findTestObject('13-Income and Expense/button_edit'))
 
 WebUI.verifyElementVisible(findTestObject('13-Income and Expense/mat-dialog-container_Edit receipt Modal'))
 
-WebUI.setText(findTestObject('13-Income and Expense/input_VendorName'), 'GG Automation Edit')
+WebUI.setText(findTestObject('13-Income and Expense/input_VendorName'), GlobalVariable.edit_vendor_name)
 
 WebUI.sendKeys(findTestObject('13-Income and Expense/input_VendorName'), Keys.chord(Keys.ESCAPE))
 
@@ -39,9 +39,9 @@ WebUI.setText(findTestObject('13-Income and Expense/input_Amount'), '40000')
 
 WebUI.setText(findTestObject('13-Income and Expense/input_AddANote'), 'Receipt Note Edit')
 
-WebUI.delay(2)
+WebUI.delay(GlobalVariable.delay_2seconds)
 
 WebUI.click(findTestObject('13-Income and Expense/button_UPDATE2'))
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 

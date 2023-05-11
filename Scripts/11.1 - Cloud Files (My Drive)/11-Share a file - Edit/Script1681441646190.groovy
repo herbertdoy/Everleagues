@@ -29,7 +29,7 @@ WebUI.click(findTestObject('11-Cloud Files/div_dropdown'))
 
 WebUI.click(findTestObject('11-Cloud Files/mat-option_manager'))
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.verifyElementVisible(findTestObject('11-Cloud Files/div_GTGG tester2'))
 
@@ -37,7 +37,7 @@ WebUI.click(findTestObject('11-Cloud Files/div_dropdown2'))
 
 WebUI.click(findTestObject('11-Cloud Files/mat-option-checkmark_contributor'))
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.verifyElementVisible(findTestObject('11-Cloud Files/div_GTGG tester'))
 
@@ -48,7 +48,7 @@ WebUI.click(findTestObject('11-Cloud Files/span_delete Remove Access'))
 WebUI.click(findTestObject('11-Cloud Files/button_done'))
 
 //WebUI.verifyElementVisible(findTestObject('11-Cloud Files/snack-bar-container_Shared folder access updated successfully.OK'))
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.rightClick(findTestObject('11-Cloud Files/td_qa EditPeople'))
 
@@ -56,7 +56,7 @@ WebUI.click(findTestObject('11-Cloud Files/button_Share'))
 
 WebUI.click(findTestObject('11-Cloud Files/button_Copy Share Link'))
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 String my_clipboard = Toolkit.getDefaultToolkit().getSystemClipboard().getContents(null).getTransferData(DataFlavor.stringFlavor)
 
@@ -74,5 +74,5 @@ WebUI.scrollToElement(findTestObject('11-Cloud Files/a_My Drive'), 0)
 
 WebUI.click(findTestObject('11-Cloud Files/a_My Drive'))
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 

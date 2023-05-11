@@ -19,16 +19,16 @@ import org.openqa.selenium.Keys as Keys
 import java.awt.Toolkit as Toolkit
 import java.awt.datatransfer.DataFlavor as DataFlavor
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.mouseOver(findTestObject('09-Settings/Organization unit/div_GG TESTER'))
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 //WebUI.waitForElementClickable(findTestObject('09-Settings/Organization unit/div_GG TESTER'), 0)
 WebUI.click(findTestObject('09-Settings/Organization unit/div_GG TESTER'))
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 //WebUI.waitForElementVisible(findTestObject('09-Settings/Organization unit/button_link'), 0)
 //WebUI.waitForElementClickable(findTestObject('09-Settings/Organization unit/button_link'), 0)
@@ -42,7 +42,7 @@ WebUI.verifyElementPresent(findTestObject('09-Settings/Organization unit/div_Cli
 
 WebUI.verifyElementPresent(findTestObject('09-Settings/Organization unit/div_Partner link'), 0)
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.click(findTestObject('09-Settings/Organization unit/button_COPY'))
 
@@ -50,7 +50,7 @@ WebUI.verifyElementPresent(findTestObject('09-Settings/Organization unit/snack-b
 
 WebUI.click(findTestObject('09-Settings/Organization unit/button_Ok'))
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 //WebUI.executeJavaScript('window.open();', [])
 //currentWindow = WebUI.getWindowIndex()
@@ -61,13 +61,13 @@ String my_clipboard = Toolkit.getDefaultToolkit().getSystemClipboard().getConten
 
 WebUI.navigateToUrl(my_clipboard)
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.verifyElementPresent(findTestObject('09-Settings/Organization unit/mat_card_join request link'), 0)
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
-WebUI.navigateToUrl('https://lab.everleagues.com/')
+WebUI.navigateToUrl(GlobalVariable.appURL)
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 

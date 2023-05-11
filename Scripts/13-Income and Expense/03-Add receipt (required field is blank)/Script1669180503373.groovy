@@ -21,7 +21,7 @@ WebUI.click(findTestObject('13-Income and Expense/button_addReceipt'))
 
 WebUI.click(findTestObject('13-Income and Expense/mat-icon_clear'))
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.click(findTestObject('13-Income and Expense/button_addReceipt'))
 
@@ -53,5 +53,5 @@ WebUI.scrollToElement(findTestObject('13-Income and Expense/button_Done'), 0)
 
 WebUI.verifyElementNotClickable(findTestObject('13-Income and Expense/button_Done'))
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 

@@ -17,11 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.setText(findTestObject('11-Cloud Files/input_folderName'), 'Automation folder')
+WebUI.setText(findTestObject('11-Cloud Files/input_folderName'), GlobalVariable.folder_name)
 
 WebUI.click(findTestObject('11-Cloud Files/button_Create'))
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.click(findTestObject('11-Cloud Files/button_cloud_upload Upload Files  Create Folders'))
 
@@ -31,11 +31,11 @@ WebUI.verifyElementVisible(findTestObject('11-Cloud Files/mat-dialog-container_C
 
 WebUI.verifyElementVisible(findTestObject('11-Cloud Files/h4_New folder'))
 
-WebUI.setText(findTestObject('11-Cloud Files/input_folderName'), 'Automation folder 2')
+WebUI.setText(findTestObject('11-Cloud Files/input_folderName'), GlobalVariable.folder_name2)
 
 WebUI.click(findTestObject('11-Cloud Files/button_Create'))
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.click(findTestObject('11-Cloud Files/mat-icon_refresh'))
 

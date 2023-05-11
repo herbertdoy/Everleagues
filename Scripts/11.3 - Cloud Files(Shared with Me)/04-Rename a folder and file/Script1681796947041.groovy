@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.rightClick(findTestObject('11-Cloud Files/td_Automation folder'))
 
@@ -25,13 +25,13 @@ WebUI.click(findTestObject('11-Cloud Files/button_Rename'))
 
 WebUI.verifyElementVisible(findTestObject('11-Cloud Files/mat-dialog-container_RenameName nodal'))
 
-WebUI.setText(findTestObject('11-Cloud Files/input_Rename'), 'Automation folder EDIT')
+WebUI.setText(findTestObject('11-Cloud Files/input_Rename'), GlobalVariable.edit_folder_name)
 
 WebUI.click(findTestObject('09-Settings/Users/Active User/button_Save'))
 
 WebUI.verifyElementVisible(findTestObject('11-Cloud Files/snack-bar-container_Successfully changed nameOK'))
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.rightClick(findTestObject('11-Cloud Files/td_qa'))
 

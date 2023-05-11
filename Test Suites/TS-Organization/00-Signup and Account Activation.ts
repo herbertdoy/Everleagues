@@ -26,7 +26,7 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>8710c8d5-729e-4ff8-975d-5eef33e53ce5</guid>
+      <guid>f6f9f367-add9-4205-a377-9afbec7cbb82</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/00-SignUp and Account Activation/03-Signup(Correct Details)</testCaseId>

@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.verifyElementVisible(findTestObject('09-Settings/Users/Active User/h6_Filter'))
 
@@ -25,25 +25,25 @@ WebUI.verifyElementVisible(findTestObject('09-Settings/Users/Active User/div_All
 
 WebUI.click(findTestObject('09-Settings/Users/Active User/div_All organization units'))
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.verifyElementVisible(findTestObject('09-Settings/Users/Active User/div_Active Users-All Organizations units'))
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.verifyElementVisible(findTestObject('09-Settings/Users/Active User/div_Selected organization unit'))
 
 WebUI.click(findTestObject('09-Settings/Users/Active User/div_Selected organization unit'))
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.click(findTestObject('09-Settings/Users/Active User/div_GG Automation'))
 
 WebUI.verifyElementVisible(findTestObject('09-Settings/Users/Active User/div_Active Users-Selected Organization units'))
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.click(findTestObject('09-Settings/Users/Active User/filter_icon'))
 
-WebUI.delay(4)
+WebUI.delay(GlobalVariable.delay_4seconds)
 

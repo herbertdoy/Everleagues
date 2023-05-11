@@ -21,7 +21,7 @@ import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://lab.everleagues.com/')
+WebUI.navigateToUrl(GlobalVariable.appURL)
 
 WebUI.maximizeWindow()
 
@@ -60,11 +60,11 @@ WebUI.click(findTestObject('06-Teams/button_My Organizations'))
 
 WebUI.click(findTestObject('02-Side Icons(Organization)/Add Contact/button_Automation Test Org'))
 
-WebUI.delay(4)
+WebUI.delay(GlobalVariable.delay_4seconds)
 
 WebUI.verifyElementVisible(findTestObject('02-Side Icons(Organization)/Add Contact/span_Automation Test Org'))
 
-WebUI.delay(5)
+WebUI.delay(GlobalVariable.delay_5seconds)
 
 WebUI.scrollToElement(findTestObject('03-Header Menu/Hamburger Button/div_ELSign'), 0)
 
@@ -74,33 +74,33 @@ WebUI.verifyElementVisible(findTestObject('03-Header Menu/Hamburger Button/div_E
 
 WebUI.verifyElementVisible(findTestObject('12-EL Sign/h4_ELSign'))
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.click(findTestObject('12-EL Sign/div_Received Documents'))
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.click(findTestObject('12-EL Sign/button_create'))
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.verifyElementVisible(findTestObject('12-EL Sign/div_EL Sign Consent'))
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.click(findTestObject('12-EL Sign/checkbox_I have read and agree to the above'))
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.click(findTestObject('12-EL Sign/button_BEGIN'))
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.click(findTestObject('12-EL Sign/div_date'))
 
 WebUI.click(findTestObject('12-EL Sign/div_date'))
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.click(findTestObject('12-EL Sign/div_initial'))
 
@@ -108,7 +108,7 @@ WebUI.verifyElementVisible(findTestObject('12-EL Sign/mat-dialog-container_Initi
 
 WebUI.click(findTestObject('12-EL Sign/button_Save3'))
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.click(findTestObject('12-EL Sign/div_signature'))
 
@@ -124,21 +124,21 @@ WebUI.acceptAlert()
 
 WebUI.click(findTestObject('12-EL Sign/button_save Save Settings'))
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.click(findTestObject('12-EL Sign/div_signature2'))
 
-CustomKeywords.'uploadpackage.Upload.uploadFile'(findTestObject('12-EL Sign/div_upload_mat-checkbox'), 'C:\\Users\\asus\\Desktop\\EL automation\\qa.jpg')
+CustomKeywords.'uploadpackage.Upload.uploadFile'(findTestObject('12-EL Sign/div_upload_mat-checkbox'), GlobalVariable.upload_file)
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.click(findTestObject('12-EL Sign/button_save Save Settings'))
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.click(findTestObject('12-EL Sign/button_completenavigate_next'))
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.verifyElementVisible(findTestObject('12-EL Sign/font_Please review and press the submit button to finish signing'))
 
@@ -152,11 +152,11 @@ WebUI.switchToWindowIndex(0)
 
 WebUI.click(findTestObject('12-EL Sign/button_EDIT'))
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.click(findTestObject('12-EL Sign/button_completenavigate_next'))
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.click(findTestObject('12-EL Sign/button_SUBMIT'))
 

@@ -23,5 +23,5 @@ WebUI.click(findTestObject('13-Income and Expense/input_VendorName'))
 
 WebUI.verifyElementVisible(findTestObject('13-Income and Expense/mat-error_Receipt amount should be greater than 0'))
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 

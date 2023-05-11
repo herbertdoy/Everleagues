@@ -64,7 +64,7 @@ WebUI.verifyElementVisible(findTestObject('11-Cloud Files/mat-dialog-container_S
 
 WebUI.click(findTestObject('11-Cloud Files/mat-icon_close'))
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.rightClick(findTestObject('11-Cloud Files/td_Automation folder EDIT'))
 
@@ -78,7 +78,7 @@ WebUI.click(findTestObject('11-Cloud Files/mat-option_GTGG tester'))
 
 WebUI.click(findTestObject('10-Open Video Conference/mat-icon_cancel'))
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.click(findTestObject('11-Cloud Files/input_Add Users'))
 
@@ -99,5 +99,5 @@ WebUI.click(findTestObject('11-Cloud Files/span_Viewer'))
 WebUI.click(findTestObject('11-Cloud Files/button_done'))
 
 //WebUI.verifyElementVisible(findTestObject('11-Cloud Files/snack-bar-container_Shared folder access updated successfully.OK'))
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 

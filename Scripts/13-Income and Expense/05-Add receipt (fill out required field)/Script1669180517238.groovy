@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.setText(findTestObject('13-Income and Expense/input_VendorName'), 'GG Automation')
+WebUI.setText(findTestObject('13-Income and Expense/input_VendorName'), GlobalVariable.vendor_name)
 
 WebUI.click(findTestObject('13-Income and Expense/input_AccountType'))
 
@@ -32,11 +32,11 @@ WebUI.setText(findTestObject('13-Income and Expense/input_Amount'), '30000')
 WebUI.setText(findTestObject('13-Income and Expense/input_AddANote'), 'Receipt Note')
 
 CustomKeywords.'uploadpackage.Upload.uploadFile'(findTestObject('Object Repository/13-Income and Expense/div_Required_uploadfilecontainer'), 
-    'D:\\Users\\EL automation\\sample.pdf')
+    GlobalVariable.upload_pdf_file)
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.click(findTestObject('13-Income and Expense/button_Done'))
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 

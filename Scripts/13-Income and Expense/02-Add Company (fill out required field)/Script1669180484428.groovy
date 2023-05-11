@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.setText(findTestObject('13-Income and Expense/input_CompanyName'), 'Automation Company')
+WebUI.setText(findTestObject('13-Income and Expense/input_CompanyName'), GlobalVariable.company_name)
 
 WebUI.click(findTestObject('13-Income and Expense/dropdown_CompanyType'))
 
@@ -32,9 +32,9 @@ WebUI.click(findTestObject('13-Income and Expense/mat-icon_account'))
 //WebUI.click(findTestObject('13-Income and Expense/mat-option_GG tester 2'))
 WebUI.click(findTestObject('13-Income and Expense/mat-option_GG TESTER'))
 
-WebUI.delay(1)
+WebUI.delay(GlobalVariable.delay_1second)
 
 WebUI.click(findTestObject('13-Income and Expense/button_BEGIN'))
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 

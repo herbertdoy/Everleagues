@@ -17,14 +17,14 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.click(findTestObject('09-Settings/Organization/div_Settings'))
 
 WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/div_Settings page'))
 
 //WebUI.verifyElementVisible(findTestObject('09-Settings/Users/User Page'))
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/mat-card-title_Chat Message Settings'))
 
@@ -34,18 +34,18 @@ WebUI.click(findTestObject('09-Settings/Organization/toggle_Enable chat message 
 
 WebUI.click(findTestObject('09-Settings/Organization/toggle_Enable chat message deletion'))
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.click(findTestObject('09-Settings/Organization/toggle_Enable chat message editing'))
 
 WebUI.click(findTestObject('09-Settings/Organization/toggle_Enable chat message deletion'))
 
-WebUI.delay(2)
+WebUI.delay(GlobalVariable.delay_2seconds)
 
 //WebUI.refresh(FailureHandling.STOP_ON_FAILURE)
 WebUI.click(findTestObject('09-Settings/Organization/div_Settings'))
 
-WebUI.delay(2)
+WebUI.delay(GlobalVariable.delay_2seconds)
 
 WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/mat-card-title_Membership'))
 
@@ -55,7 +55,7 @@ WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/div_By enabl
 
 WebUI.click(findTestObject('09-Settings/Organization/toggle_Enable auto approve'))
 
-WebUI.delay(2)
+WebUI.delay(GlobalVariable.delay_2seconds)
 
 WebUI.scrollToElement(findTestObject('09-Settings/Organization/mat-card-title_Cloud files'), 0)
 
@@ -73,7 +73,7 @@ WebUI.click(findTestObject('09-Settings/Organization/toggle_cloudfiles'))
 //WebUI.delay(3)
 //WebUI.click(findTestObject('09-Settings/Organization/button_Go to Subscription'))
 //WebUI.verifyElementVisible(findTestObject('09-Settings/Users/div_Subscriptions'))
-WebUI.delay(2)
+WebUI.delay(GlobalVariable.delay_2seconds)
 
 //WebUI.click(findTestObject('03-Header Menu/Hamburger Button/div_Settings'))
 //WebUI.click(findTestObject('09-Settings/Users/div_Organization'))
@@ -92,55 +92,55 @@ WebUI.click(findTestObject('09-Settings/Organization/toggle_EL Net'))
 
 WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/snack-bar-container_ELNet tool disabled.OK'))
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.click(findTestObject('09-Settings/Organization/toggle_EL Sign'))
 
 WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/snack-bar-container_ELSign tool disabled.OK'))
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.click(findTestObject('09-Settings/Organization/toggle_EL HealthCheck'))
 
 WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/snack-bar-container_EL HealthCheck tool enabled.OK'))
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.click(findTestObject('09-Settings/Organization/toggle_Income and expense'))
 
 WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/snack-bar-container_Income and Expense tool disabled.OK'))
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.click(findTestObject('09-Settings/Organization/toggle_PDF Converter'))
 
 WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/snack-bar-container_PDF Converter tool disabled.OK'))
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.click(findTestObject('09-Settings/Organization/toggle_EL Net'))
 
 WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/snack-bar-container_ELNet tool enabled.OK'))
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.click(findTestObject('09-Settings/Organization/toggle_EL Sign'))
 
 WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/snack-bar-container_ELSign tool enabled.OK'))
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.click(findTestObject('09-Settings/Organization/toggle_EL HealthCheck'))
 
 WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/snack-bar-container_EL HealthCheck tool disabled.OK'))
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.click(findTestObject('09-Settings/Organization/toggle_Income and expense'))
 
 WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/snack-bar-container_Income and Expense tool enabled.OK'))
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.click(findTestObject('09-Settings/Organization/toggle_PDF Converter'))
 

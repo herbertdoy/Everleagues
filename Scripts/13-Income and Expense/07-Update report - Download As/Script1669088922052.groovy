@@ -17,14 +17,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-
 WebUI.click(findTestObject('13-Income and Expense/div_Download As'))
 
 WebUI.click(findTestObject('13-Income and Expense/mat-option_PDF'))
 
 WebUI.click(findTestObject('13-Income and Expense/button_download1'))
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.click(findTestObject('13-Income and Expense/div_Download As'))
 
@@ -32,5 +31,5 @@ WebUI.click(findTestObject('13-Income and Expense/mat-option_EXCELCSV'))
 
 WebUI.click(findTestObject('13-Income and Expense/button_download1'))
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 

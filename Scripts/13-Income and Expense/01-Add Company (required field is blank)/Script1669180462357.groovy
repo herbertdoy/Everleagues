@@ -19,14 +19,14 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://lab.everleagues.com/')
+WebUI.navigateToUrl(GlobalVariable.appURL)
 
 WebUI.maximizeWindow()
 
 //WebUI.callTestCase(findTestCase('01-Login and Forgot Password/04-Login (Valid Credentials-Without Subscription)'), [:], 
 //    FailureHandling.STOP_ON_FAILURE)
-
 WebUI.callTestCase(findTestCase('01-Login and Forgot Password/04-Login(Valid Credentials-With Subscription)'), [:], FailureHandling.STOP_ON_FAILURE)
+
 //WebUI.setText(findTestObject('02-Side Icons(Organization)/Add Contact/Email Field'), 'testuser02@mailinator.com')
 //WebUI.setEncryptedText(findTestObject('02-Side Icons(Organization)/Add Contact/Password Field'), '8yFRyszE6U6jvsCn51OQbg==')
 //WebUI.click(findTestObject('02-Side Icons(Organization)/Add Contact/button_Sign in'))
@@ -61,11 +61,11 @@ WebUI.click(findTestObject('06-Teams/button_My Organizations'))
 
 WebUI.click(findTestObject('02-Side Icons(Organization)/Add Contact/button_Automation Test Org'))
 
-WebUI.delay(4)
+WebUI.delay(GlobalVariable.delay_4seconds)
 
 WebUI.verifyElementVisible(findTestObject('02-Side Icons(Organization)/Add Contact/span_Automation Test Org'))
 
-WebUI.delay(5)
+WebUI.delay(GlobalVariable.delay_5seconds)
 
 WebUI.scrollToElement(findTestObject('03-Header Menu/Hamburger Button/div_Income and Expense'), 0)
 
@@ -75,13 +75,13 @@ WebUI.verifyElementVisible(findTestObject('13-Income and Expense/div_IncomeAndEx
 
 WebUI.verifyElementVisible(findTestObject('13-Income and Expense/th_Income  Expense Tracker'))
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.click(findTestObject('13-Income and Expense/button_ADD COMPANY'))
 
 WebUI.click(findTestObject('13-Income and Expense/mat-icon_clear'))
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.click(findTestObject('13-Income and Expense/button_ADD COMPANY'))
 
@@ -105,5 +105,5 @@ WebUI.verifyElementVisible(findTestObject('13-Income and Expense/mat-error_Compa
 
 WebUI.verifyElementNotClickable(findTestObject('13-Income and Expense/button_BEGIN'))
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 

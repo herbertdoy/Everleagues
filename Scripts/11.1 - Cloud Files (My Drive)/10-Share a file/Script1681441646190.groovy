@@ -39,5 +39,5 @@ WebUI.click(findTestObject('11-Cloud Files/mat-option_GTGG tester'))
 WebUI.click(findTestObject('11-Cloud Files/button_done'))
 
 //WebUI.verifyElementVisible(findTestObject('11-Cloud Files/snack-bar-container_Shared folder access updated successfully.OK'))
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 

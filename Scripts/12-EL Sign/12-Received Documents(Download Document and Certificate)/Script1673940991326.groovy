@@ -19,11 +19,11 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.click(findTestObject('12-EL Sign/div_Received Documents'))
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.click(findTestObject('12-EL Sign/button_Download document'))
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.click(findTestObject('12-EL Sign/button_Download certificate'))
 
@@ -33,5 +33,5 @@ WebUI.closeWindowIndex(1)
 
 WebUI.switchToWindowIndex(0)
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 

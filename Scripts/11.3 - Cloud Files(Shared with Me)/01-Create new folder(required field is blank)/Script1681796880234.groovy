@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://lab.everleagues.com/')
+WebUI.navigateToUrl(GlobalVariable.appURL)
 
 WebUI.maximizeWindow()
 
@@ -82,11 +82,11 @@ WebUI.click(findTestObject('06-Teams/button_My Organizations'))
 
 WebUI.click(findTestObject('02-Side Icons(Organization)/Add Contact/button_Automation Test Org'))
 
-WebUI.delay(4)
+WebUI.delay(GlobalVariable.delay_4seconds)
 
 WebUI.verifyElementVisible(findTestObject('02-Side Icons(Organization)/Add Contact/span_Automation Test Org'))
 
-WebUI.delay(5)
+WebUI.delay(GlobalVariable.delay_5seconds)
 
 WebUI.click(findTestObject('03-Header Menu/Hamburger Button/div_Cloud Files'))
 
@@ -104,7 +104,7 @@ WebUI.verifyElementVisible(findTestObject('11-Cloud Files/h4_CLOUD STORAGE'))
 
 WebUI.verifyElementVisible(findTestObject('11-Cloud Files/h4_Shared_with_me'))
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.click(findTestObject('11-Cloud Files/button_cloud_upload Upload Files  Create Folders'))
 
@@ -122,5 +122,5 @@ WebUI.verifyElementVisible(findTestObject('11-Cloud Files/mat-error_filename'))
 
 WebUI.verifyElementNotClickable(findTestObject('11-Cloud Files/button_Create'))
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 

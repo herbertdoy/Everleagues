@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://lab.everleagues.com/')
+WebUI.navigateToUrl(GlobalVariable.appURL)
 
 WebUI.maximizeWindow()
 
@@ -82,11 +82,11 @@ WebUI.click(findTestObject('06-Teams/button_My Organizations'))
 
 WebUI.click(findTestObject('06-Teams/button_GG Automation'))
 
-WebUI.delay(4)
+WebUI.delay(GlobalVariable.delay_4seconds)
 
 WebUI.verifyElementVisible(findTestObject('06-Teams/span_GG Automation'))
 
-WebUI.delay(5)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.click(findTestObject('03-Header Menu/Hamburger Button/div_Settings'))
 
@@ -99,7 +99,7 @@ WebUI.click(findTestObject('03-Header Menu/Hamburger Button/div_Settings'))
 //WebUI.verifyElementVisible(findTestObject('09-Settings/Users/div_Subscriptions'))
 //
 //WebUI.verifyElementVisible(findTestObject('09-Settings/Users/div_Users'))
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 //WebUI.scrollToElement(findTestObject('09-Settings/Users/div_Organization'), 0)
 WebUI.click(findTestObject('09-Settings/Users/div_Organization'))
@@ -111,7 +111,7 @@ WebUI.click(findTestObject('09-Settings/Organization/div_Profile'))
 WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/div_ProfileSettings page'))
 
 //WebUI.verifyElementVisible(findTestObject('09-Settings/Users/User Page'))
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/mat-card-title_Profile'))
 
@@ -119,28 +119,28 @@ WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/input_Indust
 
 WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/input_Organization number'))
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Profile Tab/Upload Icon'))
 
-WebUI.delay(2)
+WebUI.delay(GlobalVariable.delay_2seconds)
 
 WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/Upload Org image'))
 
 WebUI.verifyElementNotClickable(findTestObject('03-Header Menu/User Profile/View Profile/Profile Tab/button_Upload Image'))
 
-WebUI.delay(1)
+WebUI.delay(GlobalVariable.delay_1second)
 
 WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Profile Tab/button_Cancel'))
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Profile Tab/Upload Icon'))
 
 CustomKeywords.'uploadpackage.Upload.uploadFile'(findTestObject('Object Repository/03-Header Menu/User Profile/View Profile/Profile Tab/button_folderBrowse'), 
-    'D:\\Users\\EL automation\\qa.jpg')
+    GlobalVariable.upload_file)
 
-WebUI.delay(2)
+WebUI.delay(GlobalVariable.delay_2seconds)
 
 WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Profile Tab/button_Upload Image'))
 
@@ -148,9 +148,9 @@ WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/snack-bar-co
 
 WebUI.click(findTestObject('09-Settings/Organization/input_name'))
 
-WebUI.setText(findTestObject('09-Settings/Organization/input_name'), 'THIS IS AUTOMATION')
+WebUI.setText(findTestObject('09-Settings/Organization/input_name'), GlobalVariable.name)
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.scrollToElement(findTestObject('09-Settings/Users/Active User/button_Save'), 0)
 
@@ -158,13 +158,13 @@ WebUI.click(findTestObject('09-Settings/Users/Active User/button_Save'))
 
 WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/snack-bar-container_Settings savedOK'))
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.scrollToElement(findTestObject('09-Settings/Organization/input_name'), 0)
 
-WebUI.setText(findTestObject('09-Settings/Organization/input_name'), 'GG Automation')
+WebUI.setText(findTestObject('09-Settings/Organization/input_name'), GlobalVariable.org_name)
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.scrollToElement(findTestObject('09-Settings/Users/Active User/button_Save'), 0)
 
@@ -172,7 +172,7 @@ WebUI.click(findTestObject('09-Settings/Users/Active User/button_Save'))
 
 WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/snack-bar-container_Settings savedOK'))
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.scrollToElement(findTestObject('09-Settings/Organization/mat-card_Address'), 0)
 
@@ -192,7 +192,7 @@ WebUI.click(findTestObject('09-Settings/Organization/input_Country'), FailureHan
 
 WebUI.click(findTestObject('09-Settings/Organization/mat-option_united states'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.scrollToElement(findTestObject('09-Settings/Users/Active User/button_Save'), 0)
 
@@ -200,15 +200,15 @@ WebUI.click(findTestObject('09-Settings/Users/Active User/button_Save'))
 
 WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/snack-bar-container_Settings savedOK'))
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/mat-card_Contact'))
 
 WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/mat-card-title_Contact'))
 
-WebUI.setText(findTestObject('09-Settings/Organization/input_Email'), 'testuser02@mailinator.com')
+WebUI.setText(findTestObject('09-Settings/Organization/input_Email'), GlobalVariable.email_for_testuser02)
 
-WebUI.setText(findTestObject('09-Settings/Organization/input_Web'), 'https://lab.everleagues.com')
+WebUI.setText(findTestObject('09-Settings/Organization/input_Web'), GlobalVariable.appURL)
 
 WebUI.click(findTestObject('09-Settings/Organization/button_Phone'))
 
@@ -230,13 +230,13 @@ WebUI.click(findTestObject('09-Settings/Organization/button_Philippines 63'))
 
 WebUI.setText(findTestObject('09-Settings/Organization/input_fax'), '9211234567')
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.click(findTestObject('09-Settings/Users/Active User/button_Save'))
 
 WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/snack-bar-container_Settings savedOK'))
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.scrollToElement(findTestObject('09-Settings/Organization/div_Profile'), 0)
 

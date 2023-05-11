@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.verifyElementPresent(findTestObject('09-Settings/Users/Active User/div_GTGG tester 2'), 0)
 
@@ -33,17 +33,17 @@ WebUI.click(findTestObject('09-Settings/Users/Active User/mat-option_External Co
 
 WebUI.verifyElementPresent(findTestObject('09-Settings/Users/Active User/warning_when_changing_role'), 0)
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.click(findTestObject('09-Settings/Users/Active User/div_roleTypeDropdown'))
 
 WebUI.click(findTestObject('09-Settings/Users/Active User/mat-option_None'))
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.click(findTestObject('09-Settings/Users/Active User/button_Save'))
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.verifyElementPresent(findTestObject('09-Settings/Users/Active User/div_GTGG tester 2'), 0)
 
@@ -59,17 +59,17 @@ WebUI.click(findTestObject('09-Settings/Users/Active User/mat-option_CoWorker'))
 
 WebUI.verifyElementPresent(findTestObject('09-Settings/Users/Active User/warning_when_changing_role'), 0)
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.click(findTestObject('09-Settings/Users/Active User/div_roleTypeDropdown'))
 
 WebUI.click(findTestObject('09-Settings/Users/Active User/mat-option_None'))
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.click(findTestObject('09-Settings/Users/Active User/button_Save'))
 
 WebUI.verifyElementPresent(findTestObject('09-Settings/Users/Active User/span_Successfully changed user role'), 0)
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_3seconds)
 
