@@ -7,15 +7,15 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='cdk-overlay-9']/snack-bar-container</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//snack-bar-container[@role = 'status' and (text() = 'Updated assignmentOK' or . = 'Updated assignmentOK')]</value>
+         <value>//div[@id='cdk-overlay-1']/snack-bar-container</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>snack-bar-container.mat-snack-bar-container.ng-tns-c41-118.ng-trigger.ng-trigger-state.mat-snack-bar-center.ng-star-inserted</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//snack-bar-container[@role = 'status' and (text() = 'Updated assignmentOK' or . = 'Updated assignmentOK')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -26,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>snack-bar-container</value>
-      <webElementGuid>fd693b16-1dc2-4a11-a110-1e879c2dac00</webElementGuid>
+      <webElementGuid>d49a856b-b52d-4f07-8b05-0da89acb50fa</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -34,7 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-snack-bar-container ng-tns-c41-118 ng-trigger ng-trigger-state mat-snack-bar-center ng-star-inserted</value>
-      <webElementGuid>412acd33-5e9c-4412-b9c2-e76589ae64fa</webElementGuid>
+      <webElementGuid>3145950e-6bf8-4681-9937-bae603f10e26</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -42,7 +42,7 @@
       <name>role</name>
       <type>Main</type>
       <value>status</value>
-      <webElementGuid>88bf9a88-108e-4492-9efe-b90cac4ead07</webElementGuid>
+      <webElementGuid>b6573e39-cbcc-4c60-b74a-17e3b3545738</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -50,7 +50,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Updated assignmentOK</value>
-      <webElementGuid>25157ed7-127e-445e-b41c-b8db5951450e</webElementGuid>
+      <webElementGuid>5e37a064-7de7-433b-b0c3-7afa0ff235a2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -58,7 +58,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;cdk-overlay-10&quot;)/snack-bar-container[@class=&quot;mat-snack-bar-container ng-tns-c41-118 ng-trigger ng-trigger-state mat-snack-bar-center ng-star-inserted&quot;]</value>
-      <webElementGuid>92e42585-aa49-4539-937d-c6a43ee3eca8</webElementGuid>
+      <webElementGuid>f4433c3f-2a62-45de-9b1e-837602f9b615</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -66,7 +66,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='cdk-overlay-10']/snack-bar-container</value>
-      <webElementGuid>fcbbf6f7-950b-4fdc-bb6a-5ec1d4ca34b5</webElementGuid>
+      <webElementGuid>a613bdae-a614-4e38-a5b1-cab2b2961aef</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -74,7 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Updated assignment'])[1]/following::snack-bar-container[1]</value>
-      <webElementGuid>121ac650-29e4-42fe-881f-3a4679f0a0b9</webElementGuid>
+      <webElementGuid>72048c1f-18e8-4736-b489-c1ce3ac3364c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Clients'])[1]/following::snack-bar-container[1]</value>
-      <webElementGuid>80d95969-ab58-4a60-83ba-e630bb2d70f6</webElementGuid>
+      <webElementGuid>45680340-f649-401e-98b8-90be825ae682</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -90,7 +90,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//snack-bar-container</value>
-      <webElementGuid>50a5367c-3c21-4529-a0c9-b4f66d9dd89f</webElementGuid>
+      <webElementGuid>870dfe4c-1555-4eae-8095-f262b18e279f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,6 +98,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//snack-bar-container[(text() = 'Updated assignmentOK' or . = 'Updated assignmentOK')]</value>
-      <webElementGuid>19579313-2c5d-4dae-8bec-7d38fde723ea</webElementGuid>
+      <webElementGuid>d66fd8bd-2e7c-417a-98bf-916c98efcefa</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

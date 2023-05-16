@@ -62,10 +62,6 @@ String my_clipboard = Toolkit.getDefaultToolkit().getSystemClipboard().getConten
 
 WebUI.navigateToUrl(my_clipboard)
 
-WebUI.switchToWindowIndex(1)
-
-WebUI.closeWindowIndex(1)
-
 WebUI.switchToWindowIndex(0)
 
 WebUI.click(findTestObject('03-Header Menu/Hamburger Button/div_Cloud Files'))

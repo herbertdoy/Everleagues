@@ -1,0 +1,1243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="11.1 - Cloud Files(My Drive)" time="439.929" tests="14" failures="1" errors="0">
+   <testsuite name="11.1 - Cloud Files(My Drive)" tests="14" failures="1" errors="0" time="439.929" skipped="0" timestamp="2023-05-12 15:38:07" hostname="Mike - LAPTOP-LF5VTH4H" id="Test Suites/TS-Organization/11.1 - Cloud Files(My Drive)">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Users\\Michelle\\Project\\Everleagues\\Reports\\20230512_153759\\TS-Organization\\11.1 - Cloud Files(My Drive)\\20230512_153759"/>
+         <property name="logFiles" value="D:\\Users\\Michelle\\Project\\Everleagues\\Reports\\20230512_153759\\TS-Organization\\11.1 - Cloud Files(My Drive)\\20230512_153759\\execution0.log"/>
+         <property name="attachments" value="D:\\Users\\Michelle\\Project\\Everleagues\\Reports\\20230512_153759\\TS-Organization\\11.1 - Cloud Files(My Drive)\\20230512_153759\\1683877431856.png, D:\\Users\\Michelle\\Project\\Everleagues\\Reports\\20230512_153759\\TS-Organization\\11.1 - Cloud Files(My Drive)\\20230512_153759\\1683877432422.png"/>
+         <property name="hostName" value="Mike - LAPTOP-LF5VTH4H"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.6.0.208"/>
+         <property name="browser" value="Chrome 113.0.0.0"/>
+         <property name="hostAddress" value="192.168.100.69"/>
+         <property name="sessionId" value="9bda61885281774b3b6fe1a94205d3d5"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/11.1 - Cloud Files (My Drive)/01-Create new folder(required field is blank)" time="106.495" classname="Test Cases/11.1 - Cloud Files (My Drive)/01-Create new folder(required field is blank)" status="PASSED">
+         <system-out><![CDATA[2023-05-12 15:38:07 - [TEST_CASE][PASSED] - Test Cases/11.1 - Cloud Files (My Drive)/01-Create new folder(required field is blank): Test Cases/11.1 - Cloud Files (My Drive)/01-Create new folder(required field is blank)
+
+2023-05-12 15:38:08 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-05-12 15:38:08 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-05-12 15:38:08 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-05-12 15:38:15 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-05-12 15:38:15 - [TEST_STEP][PASSED] - navigateToUrl(appURL): Navigate to 'https://lab.everleagues.com/' successfully
+
+2023-05-12 15:38:28 - [MESSAGE][PASSED] - Navigate to 'https://lab.everleagues.com/' successfully
+
+2023-05-12 15:38:28 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-05-12 15:38:28 - [MESSAGE][PASSED] - Current window maximized
+
+2023-05-12 15:38:28 - [TEST_STEP][PASSED] - callTestCase(findTestCase("01-Login and Forgot Password/04-Login(Valid Credentials-With Subscription)"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/01-Login and Forgot Password/04-Login(Valid Credentials-With Subscription)' successfully
+
+2023-05-12 15:38:29 - [TEST_CASE][PASSED] - Test Cases/01-Login and Forgot Password/04-Login(Valid Credentials-With Subscription): Test Cases/01-Login and Forgot Password/04-Login(Valid Credentials-With Subscription)
+
+2023-05-12 15:38:29 - [TEST_STEP][PASSED] - setText(findTestObject("01-Login and Forgot Password/input_Email_email"), email_with_subscription): Text 'testuser05@mailinator.com' is set on object 'Object Repository/01-Login and Forgot Password/input_Email_email'
+
+2023-05-12 15:38:34 - [MESSAGE][PASSED] - Text 'testuser05@mailinator.com' is set on object 'Object Repository/01-Login and Forgot Password/input_Email_email'
+
+2023-05-12 15:38:34 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("01-Login and Forgot Password/input_Email_password"), password): Text ****** has been set on object 'Object Repository/01-Login and Forgot Password/input_Email_password'
+
+2023-05-12 15:38:35 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/01-Login and Forgot Password/input_Email_password'
+
+2023-05-12 15:38:35 - [TEST_STEP][PASSED] - delay(delay_2seconds): Delayed 2 second(s)
+
+2023-05-12 15:38:37 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-05-12 15:38:37 - [TEST_STEP][PASSED] - click(findTestObject("01-Login and Forgot Password/show pass button")): Object: 'Object Repository/01-Login and Forgot Password/show pass button' is clicked on
+
+2023-05-12 15:38:38 - [MESSAGE][PASSED] - Object: 'Object Repository/01-Login and Forgot Password/show pass button' is clicked on
+
+2023-05-12 15:38:38 - [TEST_STEP][PASSED] - delay(delay_3seconds): Delayed 3 second(s)
+
+2023-05-12 15:38:41 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-05-12 15:38:41 - [TEST_STEP][PASSED] - click(findTestObject("01-Login and Forgot Password/button_Sign in")): Object: 'Object Repository/01-Login and Forgot Password/button_Sign in' is clicked on
+
+2023-05-12 15:38:42 - [MESSAGE][PASSED] - Object: 'Object Repository/01-Login and Forgot Password/button_Sign in' is clicked on
+
+2023-05-12 15:38:42 - [TEST_STEP][PASSED] - delay(delay_3seconds): Delayed 3 second(s)
+
+2023-05-12 15:38:45 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-05-12 15:38:45 - [TEST_STEP][PASSED] - click(findTestObject("06-Teams/For 2FA/button_Confirm_2FA")): Object: 'Object Repository/06-Teams/For 2FA/button_Confirm_2FA' is clicked on
+
+2023-05-12 15:38:46 - [MESSAGE][PASSED] - Object: 'Object Repository/06-Teams/For 2FA/button_Confirm_2FA' is clicked on
+
+2023-05-12 15:38:46 - [TEST_STEP][PASSED] - executeJavaScript("window.open();", []): Execute JavaScript 'window.open();' successfully
+
+2023-05-12 15:38:46 - [MESSAGE][PASSED] - Execute JavaScript 'window.open();' successfully
+
+2023-05-12 15:38:46 - [TEST_STEP][PASSED] - currentWindow = getWindowIndex(): Current window's index is: 0
+
+2023-05-12 15:38:46 - [MESSAGE][PASSED] - Current window's index is: 0
+
+2023-05-12 15:38:46 - [TEST_STEP][PASSED] - delay(delay_3seconds): Delayed 3 second(s)
+
+2023-05-12 15:38:49 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-05-12 15:38:49 - [TEST_STEP][PASSED] - switchToWindowIndex(currentWindow + 1): Switched to window with index: '1'
+
+2023-05-12 15:38:49 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2023-05-12 15:38:49 - [TEST_STEP][PASSED] - navigateToUrl(app_mailinator): Navigate to 'https://www.mailinator.com/' successfully
+
+2023-05-12 15:38:53 - [MESSAGE][PASSED] - Navigate to 'https://www.mailinator.com/' successfully
+
+2023-05-12 15:38:53 - [TEST_STEP][PASSED] - delay(delay_3seconds): Delayed 3 second(s)
+
+2023-05-12 15:38:56 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-05-12 15:38:56 - [TEST_STEP][PASSED] - setText(findTestObject("00-Signup and Activation/zMailinator/input_LOGIN_search"), email_for_searchmailinator_testuser05): Text 'testuser05@mailinator.com' is set on object 'Object Repository/00-Signup and Activation/zMailinator/input_LOGIN_search'
+
+2023-05-12 15:38:57 - [MESSAGE][PASSED] - Text 'testuser05@mailinator.com' is set on object 'Object Repository/00-Signup and Activation/zMailinator/input_LOGIN_search'
+
+2023-05-12 15:38:57 - [TEST_STEP][PASSED] - click(findTestObject("00-Signup and Activation/zMailinator/gobutton"), STOP_ON_FAILURE): Object: 'Object Repository/00-Signup and Activation/zMailinator/gobutton' is clicked on
+
+2023-05-12 15:38:57 - [MESSAGE][PASSED] - Object: 'Object Repository/00-Signup and Activation/zMailinator/gobutton' is clicked on
+
+2023-05-12 15:38:57 - [TEST_STEP][PASSED] - delay(delay_3seconds): Delayed 3 second(s)
+
+2023-05-12 15:39:00 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-05-12 15:39:01 - [TEST_STEP][PASSED] - click(findTestObject("00-Signup and Activation/zMailinator/Email - everleagues")): Object: 'Object Repository/00-Signup and Activation/zMailinator/Email - everleagues' is clicked on
+
+2023-05-12 15:39:01 - [MESSAGE][PASSED] - Object: 'Object Repository/00-Signup and Activation/zMailinator/Email - everleagues' is clicked on
+
+2023-05-12 15:39:01 - [TEST_STEP][PASSED] - delay(delay_3seconds): Delayed 3 second(s)
+
+2023-05-12 15:39:04 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-05-12 15:39:04 - [TEST_STEP][PASSED] - code = getText(findTestObject("Object Repository/06-Teams/For 2FA/2FA code")): Text of object 'Object Repository/06-Teams/For 2FA/2FA code' is: '312925'
+
+2023-05-12 15:39:05 - [MESSAGE][PASSED] - Text of object 'Object Repository/06-Teams/For 2FA/2FA code' is: '312925'
+
+2023-05-12 15:39:05 - [TEST_STEP][PASSED] - delay(delay_3seconds): Delayed 3 second(s)
+
+2023-05-12 15:39:08 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-05-12 15:39:08 - [TEST_STEP][PASSED] - closeWindowTitle("Mailinator"): Window with title: 'Mailinator' is closed
+
+2023-05-12 15:39:09 - [MESSAGE][PASSED] - Window with title: 'Mailinator' is closed
+
+2023-05-12 15:39:09 - [TEST_STEP][PASSED] - delay(delay_3seconds): Delayed 3 second(s)
+
+2023-05-12 15:39:12 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-05-12 15:39:12 - [TEST_STEP][PASSED] - switchToWindowIndex(0): Switched to window with index: '0'
+
+2023-05-12 15:39:12 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2023-05-12 15:39:12 - [TEST_STEP][PASSED] - delay(delay_3seconds): Delayed 3 second(s)
+
+2023-05-12 15:39:15 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-05-12 15:39:15 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/06-Teams/For 2FA/input_Enter verification code_code"), code): Text '312925' is set on object 'Object Repository/06-Teams/For 2FA/input_Enter verification code_code'
+
+2023-05-12 15:39:16 - [MESSAGE][PASSED] - Text '312925' is set on object 'Object Repository/06-Teams/For 2FA/input_Enter verification code_code'
+
+2023-05-12 15:39:16 - [TEST_STEP][PASSED] - delay(delay_3seconds): Delayed 3 second(s)
+
+2023-05-12 15:39:19 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-05-12 15:39:19 - [TEST_STEP][PASSED] - click(findTestObject("06-Teams/For 2FA/button_Verify_2FA")): Object: 'Object Repository/06-Teams/For 2FA/button_Verify_2FA' is clicked on
+
+2023-05-12 15:39:20 - [MESSAGE][PASSED] - Object: 'Object Repository/06-Teams/For 2FA/button_Verify_2FA' is clicked on
+
+2023-05-12 15:39:20 - [TEST_STEP][PASSED] - delay(delay_3seconds): Delayed 3 second(s)
+
+2023-05-12 15:39:23 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-05-12 15:39:23 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/01-Login and Forgot Password/04-Login(Valid Credentials-With Subscription)' successfully
+
+2023-05-12 15:39:23 - [TEST_STEP][PASSED] - click(findTestObject("06-Teams/button_doublearrow")): Object: 'Object Repository/06-Teams/button_doublearrow' is clicked on
+
+2023-05-12 15:39:25 - [MESSAGE][PASSED] - Object: 'Object Repository/06-Teams/button_doublearrow' is clicked on
+
+2023-05-12 15:39:25 - [TEST_STEP][PASSED] - click(findTestObject("06-Teams/button_My Organizations")): Object: 'Object Repository/06-Teams/button_My Organizations' is clicked on
+
+2023-05-12 15:39:26 - [MESSAGE][PASSED] - Object: 'Object Repository/06-Teams/button_My Organizations' is clicked on
+
+2023-05-12 15:39:26 - [TEST_STEP][PASSED] - click(findTestObject("02-Side Icons(Organization)/Add Contact/button_Automation Test Org")): Object: 'Object Repository/02-Side Icons(Organization)/Add Contact/button_Automation Test Org' is clicked on
+
+2023-05-12 15:39:27 - [MESSAGE][PASSED] - Object: 'Object Repository/02-Side Icons(Organization)/Add Contact/button_Automation Test Org' is clicked on
+
+2023-05-12 15:39:27 - [TEST_STEP][PASSED] - delay(delay_4seconds): Delayed 4 second(s)
+
+2023-05-12 15:39:31 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2023-05-12 15:39:31 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("02-Side Icons(Organization)/Add Contact/span_Automation Test Org")): Object 'Object Repository/02-Side Icons(Organization)/Add Contact/span_Automation Test Org' is visible
+
+2023-05-12 15:39:32 - [MESSAGE][PASSED] - Object 'Object Repository/02-Side Icons(Organization)/Add Contact/span_Automation Test Org' is visible
+
+2023-05-12 15:39:32 - [TEST_STEP][PASSED] - delay(delay_5seconds): Delayed 5 second(s)
+
+2023-05-12 15:39:37 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-05-12 15:39:37 - [TEST_STEP][PASSED] - click(findTestObject("03-Header Menu/Hamburger Button/div_Cloud Files")): Object: 'Object Repository/03-Header Menu/Hamburger Button/div_Cloud Files' is clicked on
+
+2023-05-12 15:39:37 - [MESSAGE][PASSED] - Object: 'Object Repository/03-Header Menu/Hamburger Button/div_Cloud Files' is clicked on
+
+2023-05-12 15:39:37 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("11-Cloud Files/a_My Drive"), 0): Scroll to object 'Object Repository/11-Cloud Files/a_My Drive' successfully
+
+2023-05-12 15:39:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-12 15:39:38 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/11-Cloud Files/a_My Drive' successfully
+
+2023-05-12 15:39:38 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("11-Cloud Files/a_My Drive")): Object 'Object Repository/11-Cloud Files/a_My Drive' is visible
+
+2023-05-12 15:39:39 - [MESSAGE][PASSED] - Object 'Object Repository/11-Cloud Files/a_My Drive' is visible
+
+2023-05-12 15:39:39 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("11-Cloud Files/a_Shared Drive")): Object 'Object Repository/11-Cloud Files/a_Shared Drive' is visible
+
+2023-05-12 15:39:40 - [MESSAGE][PASSED] - Object 'Object Repository/11-Cloud Files/a_Shared Drive' is visible
+
+2023-05-12 15:39:40 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("11-Cloud Files/a_Shared With Me")): Object 'Object Repository/11-Cloud Files/a_Shared With Me' is visible
+
+2023-05-12 15:39:40 - [MESSAGE][PASSED] - Object 'Object Repository/11-Cloud Files/a_Shared With Me' is visible
+
+2023-05-12 15:39:40 - [TEST_STEP][PASSED] - click(findTestObject("11-Cloud Files/a_My Drive")): Object: 'Object Repository/11-Cloud Files/a_My Drive' is clicked on
+
+2023-05-12 15:39:41 - [MESSAGE][PASSED] - Object: 'Object Repository/11-Cloud Files/a_My Drive' is clicked on
+
+2023-05-12 15:39:41 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("11-Cloud Files/h4_CLOUD STORAGE")): Object 'Object Repository/11-Cloud Files/h4_CLOUD STORAGE' is visible
+
+2023-05-12 15:39:42 - [MESSAGE][PASSED] - Object 'Object Repository/11-Cloud Files/h4_CLOUD STORAGE' is visible
+
+2023-05-12 15:39:42 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("11-Cloud Files/h4_MY FILES")): Object 'Object Repository/11-Cloud Files/h4_MY FILES' is visible
+
+2023-05-12 15:39:43 - [MESSAGE][PASSED] - Object 'Object Repository/11-Cloud Files/h4_MY FILES' is visible
+
+2023-05-12 15:39:43 - [TEST_STEP][PASSED] - delay(delay_3seconds): Delayed 3 second(s)
+
+2023-05-12 15:39:46 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-05-12 15:39:46 - [TEST_STEP][PASSED] - click(findTestObject("11-Cloud Files/button_create_new_folderNew Folder")): Object: 'Object Repository/11-Cloud Files/button_create_new_folderNew Folder' is clicked on
+
+2023-05-12 15:39:46 - [MESSAGE][PASSED] - Object: 'Object Repository/11-Cloud Files/button_create_new_folderNew Folder' is clicked on
+
+2023-05-12 15:39:46 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("11-Cloud Files/mat-dialog-container_CreateNewFolder modal")): Object 'Object Repository/11-Cloud Files/mat-dialog-container_CreateNewFolder modal' is visible
+
+2023-05-12 15:39:47 - [MESSAGE][PASSED] - Object 'Object Repository/11-Cloud Files/mat-dialog-container_CreateNewFolder modal' is visible
+
+2023-05-12 15:39:47 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("11-Cloud Files/h4_New folder")): Object 'Object Repository/11-Cloud Files/h4_New folder' is visible
+
+2023-05-12 15:39:48 - [MESSAGE][PASSED] - Object 'Object Repository/11-Cloud Files/h4_New folder' is visible
+
+2023-05-12 15:39:48 - [TEST_STEP][PASSED] - click(findTestObject("11-Cloud Files/input_folderName"), STOP_ON_FAILURE): Object: 'Object Repository/11-Cloud Files/input_folderName' is clicked on
+
+2023-05-12 15:39:48 - [MESSAGE][PASSED] - Object: 'Object Repository/11-Cloud Files/input_folderName' is clicked on
+
+2023-05-12 15:39:48 - [TEST_STEP][PASSED] - clickOffset(findTestObject("11-Cloud Files/input_folderName"), 50, 50): Object: 'Object Repository/11-Cloud Files/input_folderName' is clicked on using offset x=50 and y=50
+
+2023-05-12 15:39:50 - [MESSAGE][PASSED] - Object: 'Object Repository/11-Cloud Files/input_folderName' is clicked on using offset x=50 and y=50
+
+2023-05-12 15:39:50 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("11-Cloud Files/mat-error_filename")): Object 'Object Repository/11-Cloud Files/mat-error_filename' is visible
+
+2023-05-12 15:39:50 - [MESSAGE][PASSED] - Object 'Object Repository/11-Cloud Files/mat-error_filename' is visible
+
+2023-05-12 15:39:50 - [TEST_STEP][PASSED] - verifyElementNotClickable(findTestObject("11-Cloud Files/button_Create")): Object 'Object Repository/11-Cloud Files/button_Create' is NOT clickable
+
+2023-05-12 15:39:51 - [MESSAGE][PASSED] - Object 'Object Repository/11-Cloud Files/button_Create' is NOT clickable
+
+2023-05-12 15:39:51 - [TEST_STEP][PASSED] - delay(delay_3seconds): Delayed 3 second(s)
+
+2023-05-12 15:39:54 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/11.1 - Cloud Files (My Drive)/02-Create new folder" time="13.546" classname="Test Cases/11.1 - Cloud Files (My Drive)/02-Create new folder" status="PASSED">
+         <system-out><![CDATA[2023-05-12 15:39:54 - [TEST_CASE][PASSED] - Test Cases/11.1 - Cloud Files (My Drive)/02-Create new folder: Test Cases/11.1 - Cloud Files (My Drive)/02-Create new folder
+
+2023-05-12 15:39:54 - [TEST_STEP][PASSED] - setText(findTestObject("11-Cloud Files/input_folderName"), folder_name): Text 'Automation folder' is set on object 'Object Repository/11-Cloud Files/input_folderName'
+
+2023-05-12 15:39:55 - [MESSAGE][PASSED] - Text 'Automation folder' is set on object 'Object Repository/11-Cloud Files/input_folderName'
+
+2023-05-12 15:39:55 - [TEST_STEP][PASSED] - click(findTestObject("11-Cloud Files/button_Create")): Object: 'Object Repository/11-Cloud Files/button_Create' is clicked on
+
+2023-05-12 15:39:56 - [MESSAGE][PASSED] - Object: 'Object Repository/11-Cloud Files/button_Create' is clicked on
+
+2023-05-12 15:39:56 - [TEST_STEP][PASSED] - delay(delay_3seconds): Delayed 3 second(s)
+
+2023-05-12 15:39:59 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-05-12 15:39:59 - [TEST_STEP][PASSED] - click(findTestObject("11-Cloud Files/button_create_new_folderNew Folder")): Object: 'Object Repository/11-Cloud Files/button_create_new_folderNew Folder' is clicked on
+
+2023-05-12 15:39:59 - [MESSAGE][PASSED] - Object: 'Object Repository/11-Cloud Files/button_create_new_folderNew Folder' is clicked on
+
+2023-05-12 15:39:59 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("11-Cloud Files/mat-dialog-container_CreateNewFolder modal")): Object 'Object Repository/11-Cloud Files/mat-dialog-container_CreateNewFolder modal' is visible
+
+2023-05-12 15:40:00 - [MESSAGE][PASSED] - Object 'Object Repository/11-Cloud Files/mat-dialog-container_CreateNewFolder modal' is visible
+
+2023-05-12 15:40:00 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("11-Cloud Files/h4_New folder")): Object 'Object Repository/11-Cloud Files/h4_New folder' is visible
+
+2023-05-12 15:40:01 - [MESSAGE][PASSED] - Object 'Object Repository/11-Cloud Files/h4_New folder' is visible
+
+2023-05-12 15:40:01 - [TEST_STEP][PASSED] - setText(findTestObject("11-Cloud Files/input_folderName"), folder_name2): Text 'Automation folder 2' is set on object 'Object Repository/11-Cloud Files/input_folderName'
+
+2023-05-12 15:40:02 - [MESSAGE][PASSED] - Text 'Automation folder 2' is set on object 'Object Repository/11-Cloud Files/input_folderName'
+
+2023-05-12 15:40:02 - [TEST_STEP][PASSED] - click(findTestObject("11-Cloud Files/button_Create")): Object: 'Object Repository/11-Cloud Files/button_Create' is clicked on
+
+2023-05-12 15:40:03 - [MESSAGE][PASSED] - Object: 'Object Repository/11-Cloud Files/button_Create' is clicked on
+
+2023-05-12 15:40:03 - [TEST_STEP][PASSED] - delay(delay_3seconds): Delayed 3 second(s)
+
+2023-05-12 15:40:06 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-05-12 15:40:06 - [TEST_STEP][PASSED] - click(findTestObject("11-Cloud Files/mat-icon_refresh")): Object: 'Object Repository/11-Cloud Files/mat-icon_refresh' is clicked on
+
+2023-05-12 15:40:06 - [MESSAGE][PASSED] - Object: 'Object Repository/11-Cloud Files/mat-icon_refresh' is clicked on
+
+2023-05-12 15:40:06 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("11-Cloud Files/td_Automation folder")): Object 'Object Repository/11-Cloud Files/td_Automation folder' is visible
+
+2023-05-12 15:40:07 - [MESSAGE][PASSED] - Object 'Object Repository/11-Cloud Files/td_Automation folder' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/11.1 - Cloud Files (My Drive)/03-Upload Local File" time="52.899" classname="Test Cases/11.1 - Cloud Files (My Drive)/03-Upload Local File" status="PASSED">
+         <system-out><![CDATA[2023-05-12 15:40:07 - [TEST_CASE][PASSED] - Test Cases/11.1 - Cloud Files (My Drive)/03-Upload Local File: Test Cases/11.1 - Cloud Files (My Drive)/03-Upload Local File
+
+2023-05-12 15:40:08 - [TEST_STEP][PASSED] - delay(delay_3seconds): Delayed 3 second(s)
+
+2023-05-12 15:40:11 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-05-12 15:40:11 - [TEST_STEP][PASSED] - click(findTestObject("11-Cloud Files/button_cloud_upload Upload Files  Create Folders")): Object: 'Object Repository/11-Cloud Files/button_cloud_upload Upload Files  Create Folders' is clicked on
+
+2023-05-12 15:40:11 - [MESSAGE][PASSED] - Object: 'Object Repository/11-Cloud Files/button_cloud_upload Upload Files  Create Folders' is clicked on
+
+2023-05-12 15:40:11 - [TEST_STEP][PASSED] - uploadpackage.Upload.uploadFile(findTestObject("Object Repository/11-Cloud Files/button_cloud_uploadUpload Local File"), upload_file): uploadpackage.Upload.uploadFile is PASSED
+
+2023-05-12 15:40:12 - [MESSAGE][PASSED] - Object: 'Object Repository/11-Cloud Files/button_cloud_uploadUpload Local File' is clicked on
+
+2023-05-12 15:40:16 - [MESSAGE][PASSED] - uploadpackage.Upload.uploadFile is PASSED
+
+2023-05-12 15:40:16 - [TEST_STEP][PASSED] - delay(delay_2seconds): Delayed 2 second(s)
+
+2023-05-12 15:40:18 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-05-12 15:40:18 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("11-Cloud Files/mat-dialog-container_Upload local file modal")): Object 'Object Repository/11-Cloud Files/mat-dialog-container_Upload local file modal' is visible
+
+2023-05-12 15:40:44 - [MESSAGE][PASSED] - Object 'Object Repository/11-Cloud Files/mat-dialog-container_Upload local file modal' is visible
+
+2023-05-12 15:40:44 - [TEST_STEP][PASSED] - click(findTestObject("11-Cloud Files/button_Confirm")): Object: 'Object Repository/11-Cloud Files/button_Confirm' is clicked on
+
+2023-05-12 15:40:45 - [MESSAGE][PASSED] - Object: 'Object Repository/11-Cloud Files/button_Confirm' is clicked on
+
+2023-05-12 15:40:45 - [TEST_STEP][PASSED] - delay(delay_3seconds): Delayed 3 second(s)
+
+2023-05-12 15:40:48 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-05-12 15:40:48 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("11-Cloud Files/div_Upload completed clear")): Object 'Object Repository/11-Cloud Files/div_Upload completed clear' is visible
+
+2023-05-12 15:40:49 - [MESSAGE][PASSED] - Object 'Object Repository/11-Cloud Files/div_Upload completed clear' is visible
+
+2023-05-12 15:40:49 - [TEST_STEP][PASSED] - delay(delay_3seconds): Delayed 3 second(s)
+
+2023-05-12 15:40:52 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-05-12 15:40:52 - [TEST_STEP][PASSED] - setText(findTestObject("11-Cloud Files/input_Search cloudfiles"), folder_name): Text 'Automation folder' is set on object 'Object Repository/11-Cloud Files/input_Search cloudfiles'
+
+2023-05-12 15:40:54 - [MESSAGE][PASSED] - Text 'Automation folder' is set on object 'Object Repository/11-Cloud Files/input_Search cloudfiles'
+
+2023-05-12 15:40:54 - [TEST_STEP][PASSED] - sendKeys(findTestObject("11-Cloud Files/input_Search cloudfiles"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/11-Cloud Files/input_Search cloudfiles'
+
+2023-05-12 15:40:54 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/11-Cloud Files/input_Search cloudfiles'
+
+2023-05-12 15:40:54 - [TEST_STEP][PASSED] - delay(delay_3seconds): Delayed 3 second(s)
+
+2023-05-12 15:40:57 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-05-12 15:40:57 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("11-Cloud Files/td_Automation folder")): Object 'Object Repository/11-Cloud Files/td_Automation folder' is visible
+
+2023-05-12 15:40:58 - [MESSAGE][PASSED] - Object 'Object Repository/11-Cloud Files/td_Automation folder' is visible
+
+2023-05-12 15:40:58 - [TEST_STEP][PASSED] - clearText(findTestObject("11-Cloud Files/input_Search cloudfiles")): Text of object 'Object Repository/11-Cloud Files/input_Search cloudfiles' is cleared
+
+2023-05-12 15:40:59 - [MESSAGE][PASSED] - Text of object 'Object Repository/11-Cloud Files/input_Search cloudfiles' is cleared
+
+2023-05-12 15:40:59 - [TEST_STEP][PASSED] - click(findTestObject("11-Cloud Files/button_back")): Object: 'Object Repository/11-Cloud Files/button_back' is clicked on
+
+2023-05-12 15:41:00 - [MESSAGE][PASSED] - Object: 'Object Repository/11-Cloud Files/button_back' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/11.1 - Cloud Files (My Drive)/04-Rename a folder and file" time="21.909" classname="Test Cases/11.1 - Cloud Files (My Drive)/04-Rename a folder and file" status="PASSED">
+         <system-out><![CDATA[2023-05-12 15:41:00 - [TEST_CASE][PASSED] - Test Cases/11.1 - Cloud Files (My Drive)/04-Rename a folder and file: Test Cases/11.1 - Cloud Files (My Drive)/04-Rename a folder and file
+
+2023-05-12 15:41:01 - [TEST_STEP][PASSED] - delay(delay_3seconds): Delayed 3 second(s)
+
+2023-05-12 15:41:04 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-05-12 15:41:04 - [TEST_STEP][PASSED] - rightClick(findTestObject("11-Cloud Files/td_Automation folder")): Object: 'Object Repository/11-Cloud Files/td_Automation folder' is right clicked on
+
+2023-05-12 15:41:05 - [MESSAGE][PASSED] - Object: 'Object Repository/11-Cloud Files/td_Automation folder' is right clicked on
+
+2023-05-12 15:41:05 - [TEST_STEP][PASSED] - click(findTestObject("11-Cloud Files/button_Rename")): Object: 'Object Repository/11-Cloud Files/button_Rename' is clicked on
+
+2023-05-12 15:41:07 - [MESSAGE][PASSED] - Object: 'Object Repository/11-Cloud Files/button_Rename' is clicked on
+
+2023-05-12 15:41:07 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("11-Cloud Files/mat-dialog-container_RenameName nodal")): Object 'Object Repository/11-Cloud Files/mat-dialog-container_RenameName nodal' is visible
+
+2023-05-12 15:41:07 - [MESSAGE][PASSED] - Object 'Object Repository/11-Cloud Files/mat-dialog-container_RenameName nodal' is visible
+
+2023-05-12 15:41:07 - [TEST_STEP][PASSED] - setText(findTestObject("11-Cloud Files/input_Rename"), edit_folder_name): Text 'Automation folder EDIT' is set on object 'Object Repository/11-Cloud Files/input_Rename'
+
+2023-05-12 15:41:09 - [MESSAGE][PASSED] - Text 'Automation folder EDIT' is set on object 'Object Repository/11-Cloud Files/input_Rename'
+
+2023-05-12 15:41:09 - [TEST_STEP][PASSED] - click(findTestObject("09-Settings/Users/Active User/button_Save")): Object: 'Object Repository/09-Settings/Users/Active User/button_Save' is clicked on
+
+2023-05-12 15:41:10 - [MESSAGE][PASSED] - Object: 'Object Repository/09-Settings/Users/Active User/button_Save' is clicked on
+
+2023-05-12 15:41:10 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("11-Cloud Files/snack-bar-container_Successfully changed nameOK")): Object 'Object Repository/11-Cloud Files/snack-bar-container_Successfully changed nameOK' is visible
+
+2023-05-12 15:41:12 - [MESSAGE][PASSED] - Object 'Object Repository/11-Cloud Files/snack-bar-container_Successfully changed nameOK' is visible
+
+2023-05-12 15:41:12 - [TEST_STEP][PASSED] - delay(delay_3seconds): Delayed 3 second(s)
+
+2023-05-12 15:41:15 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-05-12 15:41:15 - [TEST_STEP][PASSED] - rightClick(findTestObject("11-Cloud Files/td_qa")): Object: 'Object Repository/11-Cloud Files/td_qa' is right clicked on
+
+2023-05-12 15:41:15 - [MESSAGE][PASSED] - Object: 'Object Repository/11-Cloud Files/td_qa' is right clicked on
+
+2023-05-12 15:41:15 - [TEST_STEP][PASSED] - click(findTestObject("11-Cloud Files/button_Rename")): Object: 'Object Repository/11-Cloud Files/button_Rename' is clicked on
+
+2023-05-12 15:41:16 - [MESSAGE][PASSED] - Object: 'Object Repository/11-Cloud Files/button_Rename' is clicked on
+
+2023-05-12 15:41:16 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("11-Cloud Files/mat-dialog-container_RenameName nodal")): Object 'Object Repository/11-Cloud Files/mat-dialog-container_RenameName nodal' is visible
+
+2023-05-12 15:41:17 - [MESSAGE][PASSED] - Object 'Object Repository/11-Cloud Files/mat-dialog-container_RenameName nodal' is visible
+
+2023-05-12 15:41:17 - [TEST_STEP][PASSED] - setText(findTestObject("11-Cloud Files/input_Rename"), "qa EDIT"): Text 'qa EDIT' is set on object 'Object Repository/11-Cloud Files/input_Rename'
+
+2023-05-12 15:41:19 - [MESSAGE][PASSED] - Text 'qa EDIT' is set on object 'Object Repository/11-Cloud Files/input_Rename'
+
+2023-05-12 15:41:19 - [TEST_STEP][PASSED] - click(findTestObject("09-Settings/Users/Active User/button_Save")): Object: 'Object Repository/09-Settings/Users/Active User/button_Save' is clicked on
+
+2023-05-12 15:41:20 - [MESSAGE][PASSED] - Object: 'Object Repository/09-Settings/Users/Active User/button_Save' is clicked on
+
+2023-05-12 15:41:20 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("11-Cloud Files/snack-bar-container_Successfully changed nameOK")): Object 'Object Repository/11-Cloud Files/snack-bar-container_Successfully changed nameOK' is visible
+
+2023-05-12 15:41:22 - [MESSAGE][PASSED] - Object 'Object Repository/11-Cloud Files/snack-bar-container_Successfully changed nameOK' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/11.1 - Cloud Files (My Drive)/05-Download a file and folder" time="18.896" classname="Test Cases/11.1 - Cloud Files (My Drive)/05-Download a file and folder" status="PASSED">
+         <system-out><![CDATA[2023-05-12 15:41:22 - [TEST_CASE][PASSED] - Test Cases/11.1 - Cloud Files (My Drive)/05-Download a file and folder: Test Cases/11.1 - Cloud Files (My Drive)/05-Download a file and folder
+
+2023-05-12 15:41:24 - [TEST_STEP][PASSED] - delay(delay_3seconds): Delayed 3 second(s)
+
+2023-05-12 15:41:27 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-05-12 15:41:27 - [TEST_STEP][PASSED] - rightClick(findTestObject("11-Cloud Files/td_qa EDIT")): Object: 'Object Repository/11-Cloud Files/td_qa EDIT' is right clicked on
+
+2023-05-12 15:41:28 - [MESSAGE][PASSED] - Object: 'Object Repository/11-Cloud Files/td_qa EDIT' is right clicked on
+
+2023-05-12 15:41:28 - [TEST_STEP][PASSED] - click(findTestObject("11-Cloud Files/button_download")): Object: 'Object Repository/11-Cloud Files/button_download' is clicked on
+
+2023-05-12 15:41:29 - [MESSAGE][PASSED] - Object: 'Object Repository/11-Cloud Files/button_download' is clicked on
+
+2023-05-12 15:41:29 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("11-Cloud Files/div_Done downloading qaclear")): Object 'Object Repository/11-Cloud Files/div_Done downloading qaclear' is visible
+
+2023-05-12 15:41:31 - [MESSAGE][PASSED] - Object 'Object Repository/11-Cloud Files/div_Done downloading qaclear' is visible
+
+2023-05-12 15:41:31 - [TEST_STEP][PASSED] - delay(delay_3seconds): Delayed 3 second(s)
+
+2023-05-12 15:41:34 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-05-12 15:41:34 - [TEST_STEP][PASSED] - rightClick(findTestObject("11-Cloud Files/td_Automation folder EDIT")): Object: 'Object Repository/11-Cloud Files/td_Automation folder EDIT' is right clicked on
+
+2023-05-12 15:41:35 - [MESSAGE][PASSED] - Object: 'Object Repository/11-Cloud Files/td_Automation folder EDIT' is right clicked on
+
+2023-05-12 15:41:35 - [TEST_STEP][PASSED] - click(findTestObject("11-Cloud Files/button_download")): Object: 'Object Repository/11-Cloud Files/button_download' is clicked on
+
+2023-05-12 15:41:36 - [MESSAGE][PASSED] - Object: 'Object Repository/11-Cloud Files/button_download' is clicked on
+
+2023-05-12 15:41:36 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("11-Cloud Files/div_Done downloading folder")): Object 'Object Repository/11-Cloud Files/div_Done downloading folder' is visible
+
+2023-05-12 15:41:41 - [MESSAGE][PASSED] - Object 'Object Repository/11-Cloud Files/div_Done downloading folder' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/11.1 - Cloud Files (My Drive)/06-Duplicate a Folder (Negative scenario)" time="11.458" classname="Test Cases/11.1 - Cloud Files (My Drive)/06-Duplicate a Folder (Negative scenario)" status="PASSED">
+         <system-out><![CDATA[2023-05-12 15:41:41 - [TEST_CASE][PASSED] - Test Cases/11.1 - Cloud Files (My Drive)/06-Duplicate a Folder (Negative scenario): Test Cases/11.1 - Cloud Files (My Drive)/06-Duplicate a Folder (Negative scenario)
+
+2023-05-12 15:41:43 - [TEST_STEP][PASSED] - delay(delay_3seconds): Delayed 3 second(s)
+
+2023-05-12 15:41:46 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-05-12 15:41:46 - [TEST_STEP][PASSED] - click(findTestObject("11-Cloud Files/td_Automation folder EDIT")): Object: 'Object Repository/11-Cloud Files/td_Automation folder EDIT' is clicked on
+
+2023-05-12 15:41:47 - [MESSAGE][PASSED] - Object: 'Object Repository/11-Cloud Files/td_Automation folder EDIT' is clicked on
+
+2023-05-12 15:41:47 - [TEST_STEP][PASSED] - click(findTestObject("11-Cloud Files/button_Duplicate")): Object: 'Object Repository/11-Cloud Files/button_Duplicate' is clicked on
+
+2023-05-12 15:41:47 - [MESSAGE][PASSED] - Object: 'Object Repository/11-Cloud Files/button_Duplicate' is clicked on
+
+2023-05-12 15:41:47 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("11-Cloud Files/mat-dialog-container_DuplicateFolderModal")): Object 'Object Repository/11-Cloud Files/mat-dialog-container_DuplicateFolderModal' is visible
+
+2023-05-12 15:41:48 - [MESSAGE][PASSED] - Object 'Object Repository/11-Cloud Files/mat-dialog-container_DuplicateFolderModal' is visible
+
+2023-05-12 15:41:48 - [TEST_STEP][PASSED] - delay(delay_3seconds): Delayed 3 second(s)
+
+2023-05-12 15:41:51 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-05-12 15:41:51 - [TEST_STEP][PASSED] - click(findTestObject("11-Cloud Files/button_Confirm")): Object: 'Object Repository/11-Cloud Files/button_Confirm' is clicked on
+
+2023-05-12 15:41:52 - [MESSAGE][PASSED] - Object: 'Object Repository/11-Cloud Files/button_Confirm' is clicked on
+
+2023-05-12 15:41:52 - [TEST_STEP][PASSED] - click(findTestObject("11-Cloud Files/td_Automation folder EDIT")): Object: 'Object Repository/11-Cloud Files/td_Automation folder EDIT' is clicked on
+
+2023-05-12 15:41:52 - [MESSAGE][PASSED] - Object: 'Object Repository/11-Cloud Files/td_Automation folder EDIT' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/11.1 - Cloud Files (My Drive)/07-Duplicate a file" time="7.699" classname="Test Cases/11.1 - Cloud Files (My Drive)/07-Duplicate a file" status="PASSED">
+         <system-out><![CDATA[2023-05-12 15:41:53 - [TEST_CASE][PASSED] - Test Cases/11.1 - Cloud Files (My Drive)/07-Duplicate a file: Test Cases/11.1 - Cloud Files (My Drive)/07-Duplicate a file
+
+2023-05-12 15:41:53 - [TEST_STEP][PASSED] - delay(delay_3seconds): Delayed 3 second(s)
+
+2023-05-12 15:41:56 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-05-12 15:41:56 - [TEST_STEP][PASSED] - click(findTestObject("11-Cloud Files/td_qa EDIT")): Object: 'Object Repository/11-Cloud Files/td_qa EDIT' is clicked on
+
+2023-05-12 15:41:57 - [MESSAGE][PASSED] - Object: 'Object Repository/11-Cloud Files/td_qa EDIT' is clicked on
+
+2023-05-12 15:41:57 - [TEST_STEP][PASSED] - click(findTestObject("11-Cloud Files/button_Duplicate")): Object: 'Object Repository/11-Cloud Files/button_Duplicate' is clicked on
+
+2023-05-12 15:41:57 - [MESSAGE][PASSED] - Object: 'Object Repository/11-Cloud Files/button_Duplicate' is clicked on
+
+2023-05-12 15:41:57 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("11-Cloud Files/div_ItemsDuplicatedSuccessfully")): Object 'Object Repository/11-Cloud Files/div_ItemsDuplicatedSuccessfully' is visible
+
+2023-05-12 15:42:00 - [MESSAGE][PASSED] - Object 'Object Repository/11-Cloud Files/div_ItemsDuplicatedSuccessfully' is visible
+
+2023-05-12 15:42:00 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("11-Cloud Files/td_Copy of qa EDIT")): Object 'Object Repository/11-Cloud Files/td_Copy of qa EDIT' is visible
+
+2023-05-12 15:42:00 - [MESSAGE][PASSED] - Object 'Object Repository/11-Cloud Files/td_Copy of qa EDIT' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/11.1 - Cloud Files (My Drive)/08-Move a file and folder" time="17.357" classname="Test Cases/11.1 - Cloud Files (My Drive)/08-Move a file and folder" status="PASSED">
+         <system-out><![CDATA[2023-05-12 15:42:00 - [TEST_CASE][PASSED] - Test Cases/11.1 - Cloud Files (My Drive)/08-Move a file and folder: Test Cases/11.1 - Cloud Files (My Drive)/08-Move a file and folder
+
+2023-05-12 15:42:01 - [TEST_STEP][PASSED] - delay(delay_3seconds): Delayed 3 second(s)
+
+2023-05-12 15:42:04 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-05-12 15:42:04 - [TEST_STEP][PASSED] - rightClick(findTestObject("11-Cloud Files/td_Copy of qa EDIT")): Object: 'Object Repository/11-Cloud Files/td_Copy of qa EDIT' is right clicked on
+
+2023-05-12 15:42:04 - [MESSAGE][PASSED] - Object: 'Object Repository/11-Cloud Files/td_Copy of qa EDIT' is right clicked on
+
+2023-05-12 15:42:04 - [TEST_STEP][PASSED] - click(findTestObject("11-Cloud Files/button_MoveTo")): Object: 'Object Repository/11-Cloud Files/button_MoveTo' is clicked on
+
+2023-05-12 15:42:05 - [MESSAGE][PASSED] - Object: 'Object Repository/11-Cloud Files/button_MoveTo' is clicked on
+
+2023-05-12 15:42:05 - [TEST_STEP][PASSED] - click(findTestObject("11-Cloud Files/span_Automation folder EDIT MoveTo")): Object: 'Object Repository/11-Cloud Files/span_Automation folder EDIT MoveTo' is clicked on
+
+2023-05-12 15:42:07 - [MESSAGE][PASSED] - Object: 'Object Repository/11-Cloud Files/span_Automation folder EDIT MoveTo' is clicked on
+
+2023-05-12 15:42:07 - [TEST_STEP][PASSED] - click(findTestObject("11-Cloud Files/button_Move")): Object: 'Object Repository/11-Cloud Files/button_Move' is clicked on
+
+2023-05-12 15:42:07 - [MESSAGE][PASSED] - Object: 'Object Repository/11-Cloud Files/button_Move' is clicked on
+
+2023-05-12 15:42:07 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("11-Cloud Files/div_ItemSuccessfullyMove")): Object 'Object Repository/11-Cloud Files/div_ItemSuccessfullyMove' is visible
+
+2023-05-12 15:42:09 - [MESSAGE][PASSED] - Object 'Object Repository/11-Cloud Files/div_ItemSuccessfullyMove' is visible
+
+2023-05-12 15:42:09 - [TEST_STEP][PASSED] - delay(delay_3seconds): Delayed 3 second(s)
+
+2023-05-12 15:42:12 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-05-12 15:42:12 - [TEST_STEP][PASSED] - rightClick(findTestObject("11-Cloud Files/td_Automation folder 2")): Object: 'Object Repository/11-Cloud Files/td_Automation folder 2' is right clicked on
+
+2023-05-12 15:42:13 - [MESSAGE][PASSED] - Object: 'Object Repository/11-Cloud Files/td_Automation folder 2' is right clicked on
+
+2023-05-12 15:42:13 - [TEST_STEP][PASSED] - click(findTestObject("11-Cloud Files/button_MoveTo")): Object: 'Object Repository/11-Cloud Files/button_MoveTo' is clicked on
+
+2023-05-12 15:42:14 - [MESSAGE][PASSED] - Object: 'Object Repository/11-Cloud Files/button_MoveTo' is clicked on
+
+2023-05-12 15:42:14 - [TEST_STEP][PASSED] - click(findTestObject("11-Cloud Files/span_Automation folder EDIT MoveTo")): Object: 'Object Repository/11-Cloud Files/span_Automation folder EDIT MoveTo' is clicked on
+
+2023-05-12 15:42:15 - [MESSAGE][PASSED] - Object: 'Object Repository/11-Cloud Files/span_Automation folder EDIT MoveTo' is clicked on
+
+2023-05-12 15:42:15 - [TEST_STEP][PASSED] - click(findTestObject("11-Cloud Files/button_Move")): Object: 'Object Repository/11-Cloud Files/button_Move' is clicked on
+
+2023-05-12 15:42:16 - [MESSAGE][PASSED] - Object: 'Object Repository/11-Cloud Files/button_Move' is clicked on
+
+2023-05-12 15:42:16 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("11-Cloud Files/div_ItemSuccessfullyMove")): Object 'Object Repository/11-Cloud Files/div_ItemSuccessfullyMove' is visible
+
+2023-05-12 15:42:18 - [MESSAGE][PASSED] - Object 'Object Repository/11-Cloud Files/div_ItemSuccessfullyMove' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/11.1 - Cloud Files (My Drive)/09-Open a file and folder" time="16.135" classname="Test Cases/11.1 - Cloud Files (My Drive)/09-Open a file and folder" status="PASSED">
+         <system-out><![CDATA[2023-05-12 15:42:18 - [TEST_CASE][PASSED] - Test Cases/11.1 - Cloud Files (My Drive)/09-Open a file and folder: Test Cases/11.1 - Cloud Files (My Drive)/09-Open a file and folder
+
+2023-05-12 15:42:18 - [TEST_STEP][PASSED] - delay(delay_3seconds): Delayed 3 second(s)
+
+2023-05-12 15:42:21 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-05-12 15:42:21 - [TEST_STEP][PASSED] - rightClick(findTestObject("11-Cloud Files/td_qa EDIT")): Object: 'Object Repository/11-Cloud Files/td_qa EDIT' is right clicked on
+
+2023-05-12 15:42:22 - [MESSAGE][PASSED] - Object: 'Object Repository/11-Cloud Files/td_qa EDIT' is right clicked on
+
+2023-05-12 15:42:22 - [TEST_STEP][PASSED] - click(findTestObject("11-Cloud Files/button_Open")): Object: 'Object Repository/11-Cloud Files/button_Open' is clicked on
+
+2023-05-12 15:42:22 - [MESSAGE][PASSED] - Object: 'Object Repository/11-Cloud Files/button_Open' is clicked on
+
+2023-05-12 15:42:22 - [TEST_STEP][PASSED] - switchToWindowIndex(1): Switched to window with index: '1'
+
+2023-05-12 15:42:24 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2023-05-12 15:42:24 - [TEST_STEP][PASSED] - closeWindowIndex(1): Window with index 1 is closed
+
+2023-05-12 15:42:25 - [MESSAGE][PASSED] - Window with index 1 is closed
+
+2023-05-12 15:42:25 - [TEST_STEP][PASSED] - switchToWindowIndex(0): Switched to window with index: '0'
+
+2023-05-12 15:42:25 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2023-05-12 15:42:25 - [TEST_STEP][PASSED] - delay(delay_3seconds): Delayed 3 second(s)
+
+2023-05-12 15:42:28 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-05-12 15:42:28 - [TEST_STEP][PASSED] - rightClick(findTestObject("11-Cloud Files/td_Automation folder EDIT")): Object: 'Object Repository/11-Cloud Files/td_Automation folder EDIT' is right clicked on
+
+2023-05-12 15:42:28 - [MESSAGE][PASSED] - Object: 'Object Repository/11-Cloud Files/td_Automation folder EDIT' is right clicked on
+
+2023-05-12 15:42:28 - [TEST_STEP][PASSED] - click(findTestObject("11-Cloud Files/button_Open")): Object: 'Object Repository/11-Cloud Files/button_Open' is clicked on
+
+2023-05-12 15:42:30 - [MESSAGE][PASSED] - Object: 'Object Repository/11-Cloud Files/button_Open' is clicked on
+
+2023-05-12 15:42:30 - [TEST_STEP][PASSED] - click(findTestObject("11-Cloud Files/h4_MY FILES")): Object: 'Object Repository/11-Cloud Files/h4_MY FILES' is clicked on
+
+2023-05-12 15:42:31 - [MESSAGE][PASSED] - Object: 'Object Repository/11-Cloud Files/h4_MY FILES' is clicked on
+
+2023-05-12 15:42:31 - [TEST_STEP][PASSED] - delay(delay_3seconds): Delayed 3 second(s)
+
+2023-05-12 15:42:34 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/11.1 - Cloud Files (My Drive)/10-Share a file" time="10.848" classname="Test Cases/11.1 - Cloud Files (My Drive)/10-Share a file" status="PASSED">
+         <system-out><![CDATA[2023-05-12 15:42:34 - [TEST_CASE][PASSED] - Test Cases/11.1 - Cloud Files (My Drive)/10-Share a file: Test Cases/11.1 - Cloud Files (My Drive)/10-Share a file
+
+2023-05-12 15:42:35 - [TEST_STEP][PASSED] - click(findTestObject("11-Cloud Files/button_clearNotif")): Object: 'Object Repository/11-Cloud Files/button_clearNotif' is clicked on
+
+2023-05-12 15:42:36 - [MESSAGE][PASSED] - Object: 'Object Repository/11-Cloud Files/button_clearNotif' is clicked on
+
+2023-05-12 15:42:36 - [TEST_STEP][PASSED] - rightClick(findTestObject("11-Cloud Files/td_qa EDIT")): Object: 'Object Repository/11-Cloud Files/td_qa EDIT' is right clicked on
+
+2023-05-12 15:42:36 - [MESSAGE][PASSED] - Object: 'Object Repository/11-Cloud Files/td_qa EDIT' is right clicked on
+
+2023-05-12 15:42:36 - [TEST_STEP][PASSED] - click(findTestObject("11-Cloud Files/button_Share")): Object: 'Object Repository/11-Cloud Files/button_Share' is clicked on
+
+2023-05-12 15:42:37 - [MESSAGE][PASSED] - Object: 'Object Repository/11-Cloud Files/button_Share' is clicked on
+
+2023-05-12 15:42:37 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("11-Cloud Files/mat-dialog-container_ShareFiles Modal")): Object 'Object Repository/11-Cloud Files/mat-dialog-container_ShareFiles Modal' is visible
+
+2023-05-12 15:42:38 - [MESSAGE][PASSED] - Object 'Object Repository/11-Cloud Files/mat-dialog-container_ShareFiles Modal' is visible
+
+2023-05-12 15:42:38 - [TEST_STEP][PASSED] - click(findTestObject("11-Cloud Files/input_Add Users")): Object: 'Object Repository/11-Cloud Files/input_Add Users' is clicked on
+
+2023-05-12 15:42:40 - [MESSAGE][PASSED] - Object: 'Object Repository/11-Cloud Files/input_Add Users' is clicked on
+
+2023-05-12 15:42:40 - [TEST_STEP][PASSED] - click(findTestObject("11-Cloud Files/mat-option_GTGG tester 2")): Object: 'Object Repository/11-Cloud Files/mat-option_GTGG tester 2' is clicked on
+
+2023-05-12 15:42:40 - [MESSAGE][PASSED] - Object: 'Object Repository/11-Cloud Files/mat-option_GTGG tester 2' is clicked on
+
+2023-05-12 15:42:40 - [TEST_STEP][PASSED] - click(findTestObject("11-Cloud Files/mat-option_GTGG tester")): Object: 'Object Repository/11-Cloud Files/mat-option_GTGG tester' is clicked on
+
+2023-05-12 15:42:41 - [MESSAGE][PASSED] - Object: 'Object Repository/11-Cloud Files/mat-option_GTGG tester' is clicked on
+
+2023-05-12 15:42:41 - [TEST_STEP][PASSED] - click(findTestObject("11-Cloud Files/button_done")): Object: 'Object Repository/11-Cloud Files/button_done' is clicked on
+
+2023-05-12 15:42:42 - [MESSAGE][PASSED] - Object: 'Object Repository/11-Cloud Files/button_done' is clicked on
+
+2023-05-12 15:42:42 - [TEST_STEP][PASSED] - delay(delay_3seconds): Delayed 3 second(s)
+
+2023-05-12 15:42:45 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/11.1 - Cloud Files (My Drive)/11-Share a file - Edit" time="67.448" classname="Test Cases/11.1 - Cloud Files (My Drive)/11-Share a file - Edit" status="FAILED">
+         <failure type="FAILED" message="Test Cases/11.1 - Cloud Files (My Drive)/11-Share a file - Edit FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to switch to window with index: '1'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowIndexKeyword.switchToWindowIndex(SwitchToWindowIndexKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowIndexKeyword.execute(SwitchToWindowIndexKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.switchToWindowIndex(WebUiBuiltInKeywords.groovy:1891)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$switchToWindowIndex$7.call(Unknown Source)
+	at 11-Share a file - Edit.run(11-Share a file - Edit:65)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1683877079285.run(TempTestSuite1683877079285.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Cannot find window with index: '1'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowIndexKeyword$_switchToWindowIndex_closure1.doCall(SwitchToWindowIndexKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowIndexKeyword$_switchToWindowIndex_closure1.call(SwitchToWindowIndexKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2023-05-12 15:42:45 - [TEST_CASE][FAILED] - Test Cases/11.1 - Cloud Files (My Drive)/11-Share a file - Edit: Test Cases/11.1 - Cloud Files (My Drive)/11-Share a file - Edit FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to switch to window with index: '1'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowIndexKeyword.switchToWindowIndex(SwitchToWindowIndexKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowIndexKeyword.execute(SwitchToWindowIndexKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.switchToWindowIndex(WebUiBuiltInKeywords.groovy:1891)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$switchToWindowIndex$7.call(Unknown Source)
+	at 11-Share a file - Edit.run(11-Share a file - Edit:65)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1683877079285.run(TempTestSuite1683877079285.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Cannot find window with index: '1'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowIndexKeyword$_switchToWindowIndex_closure1.doCall(SwitchToWindowIndexKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowIndexKeyword$_switchToWindowIndex_closure1.call(SwitchToWindowIndexKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2023-05-12 15:42:46 - [TEST_STEP][PASSED] - rightClick(findTestObject("11-Cloud Files/td_qa EditPeople")): Object: 'Object Repository/11-Cloud Files/td_qa EditPeople' is right clicked on
+
+2023-05-12 15:42:47 - [MESSAGE][PASSED] - Object: 'Object Repository/11-Cloud Files/td_qa EditPeople' is right clicked on
+
+2023-05-12 15:42:47 - [TEST_STEP][PASSED] - click(findTestObject("11-Cloud Files/button_Share")): Object: 'Object Repository/11-Cloud Files/button_Share' is clicked on
+
+2023-05-12 15:42:48 - [MESSAGE][PASSED] - Object: 'Object Repository/11-Cloud Files/button_Share' is clicked on
+
+2023-05-12 15:42:48 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("11-Cloud Files/mat-dialog-container_View Share Files Modal")): Object 'Object Repository/11-Cloud Files/mat-dialog-container_View Share Files Modal' is visible
+
+2023-05-12 15:42:49 - [MESSAGE][PASSED] - Object 'Object Repository/11-Cloud Files/mat-dialog-container_View Share Files Modal' is visible
+
+2023-05-12 15:42:49 - [TEST_STEP][PASSED] - click(findTestObject("11-Cloud Files/div_dropdown")): Object: 'Object Repository/11-Cloud Files/div_dropdown' is clicked on
+
+2023-05-12 15:42:50 - [MESSAGE][PASSED] - Object: 'Object Repository/11-Cloud Files/div_dropdown' is clicked on
+
+2023-05-12 15:42:50 - [TEST_STEP][PASSED] - click(findTestObject("11-Cloud Files/mat-option_manager")): Object: 'Object Repository/11-Cloud Files/mat-option_manager' is clicked on
+
+2023-05-12 15:42:51 - [MESSAGE][PASSED] - Object: 'Object Repository/11-Cloud Files/mat-option_manager' is clicked on
+
+2023-05-12 15:42:51 - [TEST_STEP][PASSED] - delay(delay_3seconds): Delayed 3 second(s)
+
+2023-05-12 15:42:54 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-05-12 15:42:54 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("11-Cloud Files/div_GTGG tester2")): Object 'Object Repository/11-Cloud Files/div_GTGG tester2' is visible
+
+2023-05-12 15:42:54 - [MESSAGE][PASSED] - Object 'Object Repository/11-Cloud Files/div_GTGG tester2' is visible
+
+2023-05-12 15:42:54 - [TEST_STEP][PASSED] - click(findTestObject("11-Cloud Files/div_dropdown2")): Object: 'Object Repository/11-Cloud Files/div_dropdown2' is clicked on
+
+2023-05-12 15:42:55 - [MESSAGE][PASSED] - Object: 'Object Repository/11-Cloud Files/div_dropdown2' is clicked on
+
+2023-05-12 15:42:55 - [TEST_STEP][PASSED] - click(findTestObject("11-Cloud Files/mat-option-checkmark_contributor")): Object: 'Object Repository/11-Cloud Files/mat-option-checkmark_contributor' is clicked on
+
+2023-05-12 15:42:56 - [MESSAGE][PASSED] - Object: 'Object Repository/11-Cloud Files/mat-option-checkmark_contributor' is clicked on
+
+2023-05-12 15:42:56 - [TEST_STEP][PASSED] - delay(delay_3seconds): Delayed 3 second(s)
+
+2023-05-12 15:42:59 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-05-12 15:42:59 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("11-Cloud Files/div_GTGG tester")): Object 'Object Repository/11-Cloud Files/div_GTGG tester' is visible
+
+2023-05-12 15:43:00 - [MESSAGE][PASSED] - Object 'Object Repository/11-Cloud Files/div_GTGG tester' is visible
+
+2023-05-12 15:43:00 - [TEST_STEP][PASSED] - click(findTestObject("11-Cloud Files/div_dropdown3")): Object: 'Object Repository/11-Cloud Files/div_dropdown3' is clicked on
+
+2023-05-12 15:43:00 - [MESSAGE][PASSED] - Object: 'Object Repository/11-Cloud Files/div_dropdown3' is clicked on
+
+2023-05-12 15:43:00 - [TEST_STEP][PASSED] - click(findTestObject("11-Cloud Files/span_delete Remove Access")): Object: 'Object Repository/11-Cloud Files/span_delete Remove Access' is clicked on
+
+2023-05-12 15:43:01 - [MESSAGE][PASSED] - Object: 'Object Repository/11-Cloud Files/span_delete Remove Access' is clicked on
+
+2023-05-12 15:43:01 - [TEST_STEP][PASSED] - click(findTestObject("11-Cloud Files/button_done")): Object: 'Object Repository/11-Cloud Files/button_done' is clicked on
+
+2023-05-12 15:43:02 - [MESSAGE][PASSED] - Object: 'Object Repository/11-Cloud Files/button_done' is clicked on
+
+2023-05-12 15:43:02 - [TEST_STEP][PASSED] - delay(delay_3seconds): Delayed 3 second(s)
+
+2023-05-12 15:43:05 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-05-12 15:43:05 - [TEST_STEP][PASSED] - rightClick(findTestObject("11-Cloud Files/td_qa EditPeople")): Object: 'Object Repository/11-Cloud Files/td_qa EditPeople' is right clicked on
+
+2023-05-12 15:43:05 - [MESSAGE][PASSED] - Object: 'Object Repository/11-Cloud Files/td_qa EditPeople' is right clicked on
+
+2023-05-12 15:43:05 - [TEST_STEP][PASSED] - click(findTestObject("11-Cloud Files/button_Share")): Object: 'Object Repository/11-Cloud Files/button_Share' is clicked on
+
+2023-05-12 15:43:06 - [MESSAGE][PASSED] - Object: 'Object Repository/11-Cloud Files/button_Share' is clicked on
+
+2023-05-12 15:43:06 - [TEST_STEP][PASSED] - click(findTestObject("11-Cloud Files/button_Copy Share Link")): Object: 'Object Repository/11-Cloud Files/button_Copy Share Link' is clicked on
+
+2023-05-12 15:43:07 - [MESSAGE][PASSED] - Object: 'Object Repository/11-Cloud Files/button_Copy Share Link' is clicked on
+
+2023-05-12 15:43:07 - [TEST_STEP][PASSED] - delay(delay_3seconds): Delayed 3 second(s)
+
+2023-05-12 15:43:10 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-05-12 15:43:10 - [TEST_STEP][PASSED] - my_clipboard = getContents(null).getTransferData(stringFlavor): null
+
+2023-05-12 15:43:10 - [TEST_STEP][PASSED] - navigateToUrl(my_clipboard): Navigate to 'https://xukp7.app.goo.gl/wwdo' successfully
+
+2023-05-12 15:43:20 - [MESSAGE][PASSED] - Navigate to 'https://xukp7.app.goo.gl/wwdo' successfully
+
+2023-05-12 15:43:20 - [TEST_STEP][FAILED] - switchToWindowIndex(1): Unable to switch to window with index: '1' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to switch to window with index: '1'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowIndexKeyword.switchToWindowIndex(SwitchToWindowIndexKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowIndexKeyword.execute(SwitchToWindowIndexKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.switchToWindowIndex(WebUiBuiltInKeywords.groovy:1891)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$switchToWindowIndex$7.call(Unknown Source)
+	at 11-Share a file - Edit.run(11-Share a file - Edit:65)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1683877079285.run(TempTestSuite1683877079285.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Cannot find window with index: '1'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowIndexKeyword$_switchToWindowIndex_closure1.doCall(SwitchToWindowIndexKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowIndexKeyword$_switchToWindowIndex_closure1.call(SwitchToWindowIndexKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+
+2023-05-12 15:43:52 - [MESSAGE][FAILED] - Cannot find window with index: '1' (Root cause: com.kms.katalon.core.exception.StepFailedException: Cannot find window with index: '1'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowIndexKeyword$_switchToWindowIndex_closure1.doCall(SwitchToWindowIndexKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowIndexKeyword$_switchToWindowIndex_closure1.call(SwitchToWindowIndexKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowIndexKeyword.switchToWindowIndex(SwitchToWindowIndexKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowIndexKeyword.execute(SwitchToWindowIndexKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.switchToWindowIndex(WebUiBuiltInKeywords.groovy:1891)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$switchToWindowIndex$7.call(Unknown Source)
+	at 11-Share a file - Edit.run(11-Share a file - Edit:65)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1683877079285.run(TempTestSuite1683877079285.groovy:36)
+)
+[[ATTACHMENT|D:\\Users\\Michelle\\Project\\Everleagues\\Reports\\20230512_153759\\TS-Organization\\11.1 - Cloud Files(My Drive)\\20230512_153759\\1683877431856.png]]
+
+2023-05-12 15:43:52 - [MESSAGE][FAILED] - Unable to switch to window with index: '1' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to switch to window with index: '1'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowIndexKeyword.switchToWindowIndex(SwitchToWindowIndexKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowIndexKeyword.execute(SwitchToWindowIndexKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.switchToWindowIndex(WebUiBuiltInKeywords.groovy:1891)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$switchToWindowIndex$7.call(Unknown Source)
+	at 11-Share a file - Edit.run(11-Share a file - Edit:65)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1683877079285.run(TempTestSuite1683877079285.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Cannot find window with index: '1'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowIndexKeyword$_switchToWindowIndex_closure1.doCall(SwitchToWindowIndexKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowIndexKeyword$_switchToWindowIndex_closure1.call(SwitchToWindowIndexKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+[[ATTACHMENT|D:\\Users\\Michelle\\Project\\Everleagues\\Reports\\20230512_153759\\TS-Organization\\11.1 - Cloud Files(My Drive)\\20230512_153759\\1683877432422.png]]]]></system-out>
+         <system-err><![CDATA[2023-05-12 15:42:45 - [TEST_CASE][FAILED] - Test Cases/11.1 - Cloud Files (My Drive)/11-Share a file - Edit: Test Cases/11.1 - Cloud Files (My Drive)/11-Share a file - Edit FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to switch to window with index: '1'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowIndexKeyword.switchToWindowIndex(SwitchToWindowIndexKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowIndexKeyword.execute(SwitchToWindowIndexKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.switchToWindowIndex(WebUiBuiltInKeywords.groovy:1891)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$switchToWindowIndex$7.call(Unknown Source)
+	at 11-Share a file - Edit.run(11-Share a file - Edit:65)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1683877079285.run(TempTestSuite1683877079285.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Cannot find window with index: '1'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowIndexKeyword$_switchToWindowIndex_closure1.doCall(SwitchToWindowIndexKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowIndexKeyword$_switchToWindowIndex_closure1.call(SwitchToWindowIndexKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/11.1 - Cloud Files (My Drive)/12-Share a folder" time="26.103" classname="Test Cases/11.1 - Cloud Files (My Drive)/12-Share a folder" status="PASSED">
+         <system-out><![CDATA[2023-05-12 15:43:52 - [TEST_CASE][PASSED] - Test Cases/11.1 - Cloud Files (My Drive)/12-Share a folder: Test Cases/11.1 - Cloud Files (My Drive)/12-Share a folder
+
+2023-05-12 15:43:53 - [TEST_STEP][PASSED] - rightClick(findTestObject("11-Cloud Files/td_Automation folder EDIT")): Object: 'Object Repository/11-Cloud Files/td_Automation folder EDIT' is right clicked on
+
+2023-05-12 15:43:54 - [MESSAGE][PASSED] - Object: 'Object Repository/11-Cloud Files/td_Automation folder EDIT' is right clicked on
+
+2023-05-12 15:43:54 - [TEST_STEP][PASSED] - click(findTestObject("11-Cloud Files/button_Share")): Object: 'Object Repository/11-Cloud Files/button_Share' is clicked on
+
+2023-05-12 15:43:55 - [MESSAGE][PASSED] - Object: 'Object Repository/11-Cloud Files/button_Share' is clicked on
+
+2023-05-12 15:43:55 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("11-Cloud Files/mat-dialog-container_ShareFiles Modal")): Object 'Object Repository/11-Cloud Files/mat-dialog-container_ShareFiles Modal' is visible
+
+2023-05-12 15:43:56 - [MESSAGE][PASSED] - Object 'Object Repository/11-Cloud Files/mat-dialog-container_ShareFiles Modal' is visible
+
+2023-05-12 15:43:56 - [TEST_STEP][PASSED] - click(findTestObject("11-Cloud Files/mat-icon_close")): Object: 'Object Repository/11-Cloud Files/mat-icon_close' is clicked on
+
+2023-05-12 15:43:57 - [MESSAGE][PASSED] - Object: 'Object Repository/11-Cloud Files/mat-icon_close' is clicked on
+
+2023-05-12 15:43:57 - [TEST_STEP][PASSED] - delay(delay_3seconds): Delayed 3 second(s)
+
+2023-05-12 15:44:00 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-05-12 15:44:00 - [TEST_STEP][PASSED] - rightClick(findTestObject("11-Cloud Files/td_Automation folder EDIT")): Object: 'Object Repository/11-Cloud Files/td_Automation folder EDIT' is right clicked on
+
+2023-05-12 15:44:00 - [MESSAGE][PASSED] - Object: 'Object Repository/11-Cloud Files/td_Automation folder EDIT' is right clicked on
+
+2023-05-12 15:44:00 - [TEST_STEP][PASSED] - click(findTestObject("11-Cloud Files/button_Share")): Object: 'Object Repository/11-Cloud Files/button_Share' is clicked on
+
+2023-05-12 15:44:01 - [MESSAGE][PASSED] - Object: 'Object Repository/11-Cloud Files/button_Share' is clicked on
+
+2023-05-12 15:44:01 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("11-Cloud Files/mat-dialog-container_ShareFiles Modal")): Object 'Object Repository/11-Cloud Files/mat-dialog-container_ShareFiles Modal' is visible
+
+2023-05-12 15:44:02 - [MESSAGE][PASSED] - Object 'Object Repository/11-Cloud Files/mat-dialog-container_ShareFiles Modal' is visible
+
+2023-05-12 15:44:02 - [TEST_STEP][PASSED] - click(findTestObject("11-Cloud Files/input_Add Users")): Object: 'Object Repository/11-Cloud Files/input_Add Users' is clicked on
+
+2023-05-12 15:44:03 - [MESSAGE][PASSED] - Object: 'Object Repository/11-Cloud Files/input_Add Users' is clicked on
+
+2023-05-12 15:44:03 - [TEST_STEP][PASSED] - click(findTestObject("11-Cloud Files/mat-option_GTGG tester")): Object: 'Object Repository/11-Cloud Files/mat-option_GTGG tester' is clicked on
+
+2023-05-12 15:44:04 - [MESSAGE][PASSED] - Object: 'Object Repository/11-Cloud Files/mat-option_GTGG tester' is clicked on
+
+2023-05-12 15:44:04 - [TEST_STEP][PASSED] - click(findTestObject("10-Open Video Conference/mat-icon_cancel")): Object: 'Object Repository/10-Open Video Conference/mat-icon_cancel' is clicked on
+
+2023-05-12 15:44:05 - [MESSAGE][PASSED] - Object: 'Object Repository/10-Open Video Conference/mat-icon_cancel' is clicked on
+
+2023-05-12 15:44:05 - [TEST_STEP][PASSED] - delay(delay_3seconds): Delayed 3 second(s)
+
+2023-05-12 15:44:08 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-05-12 15:44:08 - [TEST_STEP][PASSED] - click(findTestObject("11-Cloud Files/input_Add Users")): Object: 'Object Repository/11-Cloud Files/input_Add Users' is clicked on
+
+2023-05-12 15:44:08 - [MESSAGE][PASSED] - Object: 'Object Repository/11-Cloud Files/input_Add Users' is clicked on
+
+2023-05-12 15:44:08 - [TEST_STEP][PASSED] - click(findTestObject("11-Cloud Files/mat-option_GTGG tester 2")): Object: 'Object Repository/11-Cloud Files/mat-option_GTGG tester 2' is clicked on
+
+2023-05-12 15:44:09 - [MESSAGE][PASSED] - Object: 'Object Repository/11-Cloud Files/mat-option_GTGG tester 2' is clicked on
+
+2023-05-12 15:44:09 - [TEST_STEP][PASSED] - click(findTestObject("11-Cloud Files/mat-option_GTGG tester")): Object: 'Object Repository/11-Cloud Files/mat-option_GTGG tester' is clicked on
+
+2023-05-12 15:44:10 - [MESSAGE][PASSED] - Object: 'Object Repository/11-Cloud Files/mat-option_GTGG tester' is clicked on
+
+2023-05-12 15:44:10 - [TEST_STEP][PASSED] - clickOffset(findTestObject("11-Cloud Files/button_Copy Share Link"), 10, 10): Object: 'Object Repository/11-Cloud Files/button_Copy Share Link' is clicked on using offset x=10 and y=10
+
+2023-05-12 15:44:10 - [MESSAGE][PASSED] - Object: 'Object Repository/11-Cloud Files/button_Copy Share Link' is clicked on using offset x=10 and y=10
+
+2023-05-12 15:44:10 - [TEST_STEP][PASSED] - click(findTestObject("11-Cloud Files/div_mat-checkbox-notify-user")): Object: 'Object Repository/11-Cloud Files/div_mat-checkbox-notify-user' is clicked on
+
+2023-05-12 15:44:12 - [MESSAGE][PASSED] - Object: 'Object Repository/11-Cloud Files/div_mat-checkbox-notify-user' is clicked on
+
+2023-05-12 15:44:12 - [TEST_STEP][PASSED] - click(findTestObject("11-Cloud Files/div_mat-checkbox-notify-user")): Object: 'Object Repository/11-Cloud Files/div_mat-checkbox-notify-user' is clicked on
+
+2023-05-12 15:44:13 - [MESSAGE][PASSED] - Object: 'Object Repository/11-Cloud Files/div_mat-checkbox-notify-user' is clicked on
+
+2023-05-12 15:44:13 - [TEST_STEP][PASSED] - click(findTestObject("11-Cloud Files/div_dropdown")): Object: 'Object Repository/11-Cloud Files/div_dropdown' is clicked on
+
+2023-05-12 15:44:14 - [MESSAGE][PASSED] - Object: 'Object Repository/11-Cloud Files/div_dropdown' is clicked on
+
+2023-05-12 15:44:14 - [TEST_STEP][PASSED] - click(findTestObject("11-Cloud Files/span_Viewer")): Object: 'Object Repository/11-Cloud Files/span_Viewer' is clicked on
+
+2023-05-12 15:44:15 - [MESSAGE][PASSED] - Object: 'Object Repository/11-Cloud Files/span_Viewer' is clicked on
+
+2023-05-12 15:44:15 - [TEST_STEP][PASSED] - click(findTestObject("11-Cloud Files/button_done")): Object: 'Object Repository/11-Cloud Files/button_done' is clicked on
+
+2023-05-12 15:44:15 - [MESSAGE][PASSED] - Object: 'Object Repository/11-Cloud Files/button_done' is clicked on
+
+2023-05-12 15:44:15 - [TEST_STEP][PASSED] - delay(delay_3seconds): Delayed 3 second(s)
+
+2023-05-12 15:44:18 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/11.1 - Cloud Files (My Drive)/13-Share a folder - Edit" time="52.387" classname="Test Cases/11.1 - Cloud Files (My Drive)/13-Share a folder - Edit" status="PASSED">
+         <system-out><![CDATA[2023-05-12 15:44:18 - [TEST_CASE][PASSED] - Test Cases/11.1 - Cloud Files (My Drive)/13-Share a folder - Edit: Test Cases/11.1 - Cloud Files (My Drive)/13-Share a folder - Edit
+
+2023-05-12 15:44:20 - [TEST_STEP][PASSED] - delay(delay_3seconds): Delayed 3 second(s)
+
+2023-05-12 15:44:23 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-05-12 15:44:23 - [TEST_STEP][PASSED] - rightClick(findTestObject("11-Cloud Files/td_Automation folder EDIT")): Object: 'Object Repository/11-Cloud Files/td_Automation folder EDIT' is right clicked on
+
+2023-05-12 15:44:24 - [MESSAGE][PASSED] - Object: 'Object Repository/11-Cloud Files/td_Automation folder EDIT' is right clicked on
+
+2023-05-12 15:44:24 - [TEST_STEP][PASSED] - click(findTestObject("11-Cloud Files/button_Share")): Object: 'Object Repository/11-Cloud Files/button_Share' is clicked on
+
+2023-05-12 15:44:25 - [MESSAGE][PASSED] - Object: 'Object Repository/11-Cloud Files/button_Share' is clicked on
+
+2023-05-12 15:44:25 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("11-Cloud Files/mat-dialog-container_View Share Files Modal")): Object 'Object Repository/11-Cloud Files/mat-dialog-container_View Share Files Modal' is visible
+
+2023-05-12 15:44:26 - [MESSAGE][PASSED] - Object 'Object Repository/11-Cloud Files/mat-dialog-container_View Share Files Modal' is visible
+
+2023-05-12 15:44:26 - [TEST_STEP][PASSED] - click(findTestObject("11-Cloud Files/div_dropdown")): Object: 'Object Repository/11-Cloud Files/div_dropdown' is clicked on
+
+2023-05-12 15:44:27 - [MESSAGE][PASSED] - Object: 'Object Repository/11-Cloud Files/div_dropdown' is clicked on
+
+2023-05-12 15:44:27 - [TEST_STEP][PASSED] - click(findTestObject("11-Cloud Files/mat-option_manager")): Object: 'Object Repository/11-Cloud Files/mat-option_manager' is clicked on
+
+2023-05-12 15:44:28 - [MESSAGE][PASSED] - Object: 'Object Repository/11-Cloud Files/mat-option_manager' is clicked on
+
+2023-05-12 15:44:28 - [TEST_STEP][PASSED] - delay(delay_3seconds): Delayed 3 second(s)
+
+2023-05-12 15:44:31 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-05-12 15:44:31 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("11-Cloud Files/div_GTGG tester2")): Object 'Object Repository/11-Cloud Files/div_GTGG tester2' is visible
+
+2023-05-12 15:44:31 - [MESSAGE][PASSED] - Object 'Object Repository/11-Cloud Files/div_GTGG tester2' is visible
+
+2023-05-12 15:44:31 - [TEST_STEP][PASSED] - click(findTestObject("11-Cloud Files/div_dropdown2")): Object: 'Object Repository/11-Cloud Files/div_dropdown2' is clicked on
+
+2023-05-12 15:44:32 - [MESSAGE][PASSED] - Object: 'Object Repository/11-Cloud Files/div_dropdown2' is clicked on
+
+2023-05-12 15:44:32 - [TEST_STEP][PASSED] - click(findTestObject("11-Cloud Files/mat-option-checkmark_contributor")): Object: 'Object Repository/11-Cloud Files/mat-option-checkmark_contributor' is clicked on
+
+2023-05-12 15:44:33 - [MESSAGE][PASSED] - Object: 'Object Repository/11-Cloud Files/mat-option-checkmark_contributor' is clicked on
+
+2023-05-12 15:44:33 - [TEST_STEP][PASSED] - delay(delay_3seconds): Delayed 3 second(s)
+
+2023-05-12 15:44:36 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-05-12 15:44:36 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("11-Cloud Files/div_GTGG tester")): Object 'Object Repository/11-Cloud Files/div_GTGG tester' is visible
+
+2023-05-12 15:44:37 - [MESSAGE][PASSED] - Object 'Object Repository/11-Cloud Files/div_GTGG tester' is visible
+
+2023-05-12 15:44:37 - [TEST_STEP][PASSED] - click(findTestObject("11-Cloud Files/div_dropdown3")): Object: 'Object Repository/11-Cloud Files/div_dropdown3' is clicked on
+
+2023-05-12 15:44:37 - [MESSAGE][PASSED] - Object: 'Object Repository/11-Cloud Files/div_dropdown3' is clicked on
+
+2023-05-12 15:44:37 - [TEST_STEP][PASSED] - click(findTestObject("11-Cloud Files/span_delete Remove Access")): Object: 'Object Repository/11-Cloud Files/span_delete Remove Access' is clicked on
+
+2023-05-12 15:44:38 - [MESSAGE][PASSED] - Object: 'Object Repository/11-Cloud Files/span_delete Remove Access' is clicked on
+
+2023-05-12 15:44:38 - [TEST_STEP][PASSED] - click(findTestObject("11-Cloud Files/button_done")): Object: 'Object Repository/11-Cloud Files/button_done' is clicked on
+
+2023-05-12 15:44:39 - [MESSAGE][PASSED] - Object: 'Object Repository/11-Cloud Files/button_done' is clicked on
+
+2023-05-12 15:44:39 - [TEST_STEP][PASSED] - delay(delay_3seconds): Delayed 3 second(s)
+
+2023-05-12 15:44:42 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-05-12 15:44:42 - [TEST_STEP][PASSED] - rightClick(findTestObject("11-Cloud Files/td_Automation folder EDIT")): Object: 'Object Repository/11-Cloud Files/td_Automation folder EDIT' is right clicked on
+
+2023-05-12 15:44:43 - [MESSAGE][PASSED] - Object: 'Object Repository/11-Cloud Files/td_Automation folder EDIT' is right clicked on
+
+2023-05-12 15:44:43 - [TEST_STEP][PASSED] - click(findTestObject("11-Cloud Files/button_Share")): Object: 'Object Repository/11-Cloud Files/button_Share' is clicked on
+
+2023-05-12 15:44:44 - [MESSAGE][PASSED] - Object: 'Object Repository/11-Cloud Files/button_Share' is clicked on
+
+2023-05-12 15:44:44 - [TEST_STEP][PASSED] - click(findTestObject("11-Cloud Files/button_Copy Share Link")): Object: 'Object Repository/11-Cloud Files/button_Copy Share Link' is clicked on
+
+2023-05-12 15:44:45 - [MESSAGE][PASSED] - Object: 'Object Repository/11-Cloud Files/button_Copy Share Link' is clicked on
+
+2023-05-12 15:44:45 - [TEST_STEP][PASSED] - delay(delay_3seconds): Delayed 3 second(s)
+
+2023-05-12 15:44:48 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-05-12 15:44:48 - [TEST_STEP][PASSED] - my_clipboard = getContents(null).getTransferData(stringFlavor): null
+
+2023-05-12 15:44:48 - [TEST_STEP][PASSED] - navigateToUrl(my_clipboard): Navigate to 'https://xukp7.app.goo.gl/P4Le' successfully
+
+2023-05-12 15:44:59 - [MESSAGE][PASSED] - Navigate to 'https://xukp7.app.goo.gl/P4Le' successfully
+
+2023-05-12 15:44:59 - [TEST_STEP][PASSED] - delay(delay_4seconds): Delayed 4 second(s)
+
+2023-05-12 15:45:03 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2023-05-12 15:45:03 - [TEST_STEP][PASSED] - click(findTestObject("03-Header Menu/Hamburger Button/div_Cloud Files")): Object: 'Object Repository/03-Header Menu/Hamburger Button/div_Cloud Files' is clicked on
+
+2023-05-12 15:45:04 - [MESSAGE][PASSED] - Object: 'Object Repository/03-Header Menu/Hamburger Button/div_Cloud Files' is clicked on
+
+2023-05-12 15:45:04 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("11-Cloud Files/a_My Drive"), 0): Scroll to object 'Object Repository/11-Cloud Files/a_My Drive' successfully
+
+2023-05-12 15:45:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-12 15:45:06 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/11-Cloud Files/a_My Drive' successfully
+
+2023-05-12 15:45:06 - [TEST_STEP][PASSED] - click(findTestObject("11-Cloud Files/a_My Drive")): Object: 'Object Repository/11-Cloud Files/a_My Drive' is clicked on
+
+2023-05-12 15:45:07 - [MESSAGE][PASSED] - Object: 'Object Repository/11-Cloud Files/a_My Drive' is clicked on
+
+2023-05-12 15:45:07 - [TEST_STEP][PASSED] - click(findTestObject("11-Cloud Files/h4_MY FILES")): Object: 'Object Repository/11-Cloud Files/h4_MY FILES' is clicked on
+
+2023-05-12 15:45:08 - [MESSAGE][PASSED] - Object: 'Object Repository/11-Cloud Files/h4_MY FILES' is clicked on
+
+2023-05-12 15:45:08 - [TEST_STEP][PASSED] - delay(delay_3seconds): Delayed 3 second(s)
+
+2023-05-12 15:45:11 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/11.1 - Cloud Files (My Drive)/14-Delete a file and folder" time="15.705" classname="Test Cases/11.1 - Cloud Files (My Drive)/14-Delete a file and folder" status="PASSED">
+         <system-out><![CDATA[2023-05-12 15:45:11 - [TEST_CASE][PASSED] - Test Cases/11.1 - Cloud Files (My Drive)/14-Delete a file and folder: Test Cases/11.1 - Cloud Files (My Drive)/14-Delete a file and folder
+
+2023-05-12 15:45:12 - [TEST_STEP][PASSED] - rightClick(findTestObject("11-Cloud Files/td_Automation folder EDIT")): Object: 'Object Repository/11-Cloud Files/td_Automation folder EDIT' is right clicked on
+
+2023-05-12 15:45:12 - [MESSAGE][PASSED] - Object: 'Object Repository/11-Cloud Files/td_Automation folder EDIT' is right clicked on
+
+2023-05-12 15:45:12 - [TEST_STEP][PASSED] - click(findTestObject("11-Cloud Files/button_deleteDelete")): Object: 'Object Repository/11-Cloud Files/button_deleteDelete' is clicked on
+
+2023-05-12 15:45:13 - [MESSAGE][PASSED] - Object: 'Object Repository/11-Cloud Files/button_deleteDelete' is clicked on
+
+2023-05-12 15:45:13 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("11-Cloud Files/mat-dialog-container_DeleteConfirmationModal")): Object 'Object Repository/11-Cloud Files/mat-dialog-container_DeleteConfirmationModal' is visible
+
+2023-05-12 15:45:14 - [MESSAGE][PASSED] - Object 'Object Repository/11-Cloud Files/mat-dialog-container_DeleteConfirmationModal' is visible
+
+2023-05-12 15:45:14 - [TEST_STEP][PASSED] - click(findTestObject("11-Cloud Files/button_Confirm")): Object: 'Object Repository/11-Cloud Files/button_Confirm' is clicked on
+
+2023-05-12 15:45:14 - [MESSAGE][PASSED] - Object: 'Object Repository/11-Cloud Files/button_Confirm' is clicked on
+
+2023-05-12 15:45:14 - [TEST_STEP][PASSED] - delay(delay_3seconds): Delayed 3 second(s)
+
+2023-05-12 15:45:17 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-05-12 15:45:17 - [TEST_STEP][PASSED] - rightClick(findTestObject("11-Cloud Files/td_qa EditPeople")): Object: 'Object Repository/11-Cloud Files/td_qa EditPeople' is right clicked on
+
+2023-05-12 15:45:18 - [MESSAGE][PASSED] - Object: 'Object Repository/11-Cloud Files/td_qa EditPeople' is right clicked on
+
+2023-05-12 15:45:18 - [TEST_STEP][PASSED] - click(findTestObject("11-Cloud Files/button_deleteDelete")): Object: 'Object Repository/11-Cloud Files/button_deleteDelete' is clicked on
+
+2023-05-12 15:45:19 - [MESSAGE][PASSED] - Object: 'Object Repository/11-Cloud Files/button_deleteDelete' is clicked on
+
+2023-05-12 15:45:19 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("11-Cloud Files/mat-dialog-container_DeleteConfirmationModal")): Object 'Object Repository/11-Cloud Files/mat-dialog-container_DeleteConfirmationModal' is visible
+
+2023-05-12 15:45:20 - [MESSAGE][PASSED] - Object 'Object Repository/11-Cloud Files/mat-dialog-container_DeleteConfirmationModal' is visible
+
+2023-05-12 15:45:20 - [TEST_STEP][PASSED] - click(findTestObject("11-Cloud Files/button_Confirm")): Object: 'Object Repository/11-Cloud Files/button_Confirm' is clicked on
+
+2023-05-12 15:45:21 - [MESSAGE][PASSED] - Object: 'Object Repository/11-Cloud Files/button_Confirm' is clicked on
+
+2023-05-12 15:45:21 - [TEST_STEP][PASSED] - delay(delay_4seconds): Delayed 4 second(s)
+
+2023-05-12 15:45:25 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2023-05-12 15:45:25 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-05-12 15:45:27 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-05-12 15:38:07 - [TEST_SUITE][FAILED] - 11.1 - Cloud Files(My Drive): Test Cases/11.1 - Cloud Files (My Drive)/11-Share a file - Edit FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to switch to window with index: '1'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowIndexKeyword.switchToWindowIndex(SwitchToWindowIndexKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowIndexKeyword.execute(SwitchToWindowIndexKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.switchToWindowIndex(WebUiBuiltInKeywords.groovy:1891)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$switchToWindowIndex$7.call(Unknown Source)
+	at 11-Share a file - Edit.run(11-Share a file - Edit:65)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1683877079285.run(TempTestSuite1683877079285.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Cannot find window with index: '1'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowIndexKeyword$_switchToWindowIndex_closure1.doCall(SwitchToWindowIndexKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowIndexKeyword$_switchToWindowIndex_closure1.call(SwitchToWindowIndexKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2023-05-12 15:38:07 - [TEST_SUITE][FAILED] - 11.1 - Cloud Files(My Drive): Test Cases/11.1 - Cloud Files (My Drive)/11-Share a file - Edit FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to switch to window with index: '1'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowIndexKeyword.switchToWindowIndex(SwitchToWindowIndexKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowIndexKeyword.execute(SwitchToWindowIndexKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.switchToWindowIndex(WebUiBuiltInKeywords.groovy:1891)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$switchToWindowIndex$7.call(Unknown Source)
+	at 11-Share a file - Edit.run(11-Share a file - Edit:65)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1683877079285.run(TempTestSuite1683877079285.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Cannot find window with index: '1'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowIndexKeyword$_switchToWindowIndex_closure1.doCall(SwitchToWindowIndexKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowIndexKeyword$_switchToWindowIndex_closure1.call(SwitchToWindowIndexKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

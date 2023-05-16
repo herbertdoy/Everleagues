@@ -6,12 +6,16 @@
    <elementGuidId>b363a030-0a86-420a-80dc-ecce0b5646e8</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#mat-dialog-21</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//mat-dialog-container[@id='mat-dialog-21']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//mat-dialog-container[(text() = 'RenameName *SaveCancel' or . = 'RenameName *SaveCancel')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#mat-dialog-21</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>mat-dialog-container</value>
-      <webElementGuid>2f2af7ee-bdaa-4b9b-b7ff-8b80d4e58353</webElementGuid>
+      <webElementGuid>3c473a09-f961-499f-be35-91c9fb697541</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +34,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>-1</value>
-      <webElementGuid>30f3402b-b292-4643-871a-0097f16c9016</webElementGuid>
+      <webElementGuid>19a3267d-674c-4e9d-90e1-6e443946e123</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +42,7 @@
       <name>aria-modal</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>390c7e76-2689-40a1-a0fc-ad7092b7cb4a</webElementGuid>
+      <webElementGuid>5fe6f4e2-6414-4490-b435-1574efc4a8ab</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +50,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-dialog-container ng-tns-c31-228 ng-trigger ng-trigger-dialogContainer ng-star-inserted</value>
-      <webElementGuid>311e238a-f4ba-4df3-bbbf-fcf5fdea6c11</webElementGuid>
+      <webElementGuid>05772d23-7f96-421e-ac39-eadcad65d8a8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +58,7 @@
       <name>id</name>
       <type>Main</type>
       <value>mat-dialog-21</value>
-      <webElementGuid>2535fa2e-c548-446a-b54b-163215e400a7</webElementGuid>
+      <webElementGuid>79929b2f-74ea-45eb-84b5-7ae3edbbca78</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +66,7 @@
       <name>role</name>
       <type>Main</type>
       <value>dialog</value>
-      <webElementGuid>57b12dad-363d-409f-9324-659c804cce02</webElementGuid>
+      <webElementGuid>bfac6185-72fb-49ee-bba0-43391312b4fe</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +74,7 @@
       <name>aria-labelledby</name>
       <type>Main</type>
       <value>mat-dialog-title-21</value>
-      <webElementGuid>03c8303c-daa0-4c9b-b5ed-070c4b4f10b6</webElementGuid>
+      <webElementGuid>88526b0a-52dc-465f-a7ea-a42f55ecacb8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -78,7 +82,7 @@
       <name>text</name>
       <type>Main</type>
       <value>RenameName *SaveCancel</value>
-      <webElementGuid>c5fb1cd3-ac2c-40d1-bf87-60b90e780efa</webElementGuid>
+      <webElementGuid>e1b51a56-3383-4000-9b45-68aa25453f66</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -86,7 +90,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-dialog-21&quot;)</value>
-      <webElementGuid>7a6efbdd-7ef4-4cc7-b875-62cd7d82497f</webElementGuid>
+      <webElementGuid>721aa75d-e11e-400e-99fc-abf9927f24d5</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -94,7 +98,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//mat-dialog-container[@id='mat-dialog-21']</value>
-      <webElementGuid>1ca30b6f-f79a-4168-b631-fcd73e8d68e2</webElementGuid>
+      <webElementGuid>2e7fb4f0-d1eb-4eec-bb05-2787c4b0e75a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +106,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='cdk-overlay-51']/mat-dialog-container</value>
-      <webElementGuid>2d5eedd9-cd3e-4a55-8ea4-726e92599fe4</webElementGuid>
+      <webElementGuid>972653fd-5b71-4c8c-bafb-66c55ce4c5bb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +114,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='JPEG File'])[1]/following::mat-dialog-container[1]</value>
-      <webElementGuid>4db0dde1-16c6-49de-8119-0275ce20221f</webElementGuid>
+      <webElementGuid>f80b45be-19ef-47ed-9871-4ca172d263c1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +122,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='qa'])[1]/following::mat-dialog-container[1]</value>
-      <webElementGuid>4983c03a-0153-4706-a0db-f5946a59607b</webElementGuid>
+      <webElementGuid>b84ae8a2-21ba-492e-80ca-43a1b39aeeaa</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,7 +130,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//mat-dialog-container</value>
-      <webElementGuid>0106ab77-4a1a-4f08-a78e-a83ffb26c817</webElementGuid>
+      <webElementGuid>c6e9b272-9628-45fb-b3a0-6c5987be4885</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,6 +138,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//mat-dialog-container[@id = 'mat-dialog-21' and (text() = 'RenameName *SaveCancel' or . = 'RenameName *SaveCancel')]</value>
-      <webElementGuid>267bd91e-7992-40eb-a33f-c745e35fd200</webElementGuid>
+      <webElementGuid>11778b19-3638-4fa7-a124-5d359fae9199</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

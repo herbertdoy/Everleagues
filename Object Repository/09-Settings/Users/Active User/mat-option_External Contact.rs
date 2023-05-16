@@ -7,15 +7,15 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//span[text()=' External Contact '])[2]</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//mat-option[@role = 'option' and (text() = ' Partner ' or . = ' Partner ')]</value>
+         <value>//span[text()=' External Contact ']</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>#mat-option-0</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//mat-option[@role = 'option' and (text() = ' Partner ' or . = ' Partner ')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -26,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>mat-option</value>
-      <webElementGuid>3f5ba164-0c47-4c5d-bb04-95e1b6965ab8</webElementGuid>
+      <webElementGuid>651b6697-bb73-4bf0-aebf-fbe2051321b7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -34,7 +34,7 @@
       <name>role</name>
       <type>Main</type>
       <value>option</value>
-      <webElementGuid>02455a7c-93ae-44e6-9fa5-950ed5a4cf9a</webElementGuid>
+      <webElementGuid>4b839bac-6748-4acb-9cdb-3e0d51134d24</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,7 +42,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-option mat-focus-indicator ng-tns-c246-70 ng-star-inserted</value>
-      <webElementGuid>9c5bb89b-a04d-42e2-af2e-a97ea40e7a78</webElementGuid>
+      <webElementGuid>301ac655-6eea-44d6-af0a-041871923147</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,7 +50,7 @@
       <name>ng-reflect-value</name>
       <type>Main</type>
       <value>a7f10a80-7d34-4967-993e-437321</value>
-      <webElementGuid>c7e64766-b4cb-4465-b163-96113c3b5737</webElementGuid>
+      <webElementGuid>8d197453-d88c-453f-9937-c1a3e20fdc00</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -58,7 +58,7 @@
       <name>id</name>
       <type>Main</type>
       <value>mat-option-0</value>
-      <webElementGuid>d6018ef9-8a62-4ad0-8e4c-62956896caf3</webElementGuid>
+      <webElementGuid>858d5c1e-4b38-4267-b448-53c2ae5dd99e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -66,7 +66,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>db8a5ab5-8f01-4a4a-9702-2bbe0b64c50e</webElementGuid>
+      <webElementGuid>75df30bf-400d-4174-8f1a-d790227fba88</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -74,7 +74,7 @@
       <name>aria-disabled</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>044bd73d-fc97-426b-b66c-45208a24f558</webElementGuid>
+      <webElementGuid>d18c125c-b3c2-4d09-b299-697f49cecb8f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -82,7 +82,7 @@
       <name>text</name>
       <type>Main</type>
       <value> Partner </value>
-      <webElementGuid>1b2f9f55-01ce-495c-bbe7-798154f7b7ad</webElementGuid>
+      <webElementGuid>3159f15e-0e00-4f96-9540-102de912c0e9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -90,7 +90,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-option-0&quot;)</value>
-      <webElementGuid>50483b41-b892-420b-91bf-65f1c58562a3</webElementGuid>
+      <webElementGuid>2e1936f8-c3de-4027-a841-b1473007b958</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -98,7 +98,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//mat-option[@id='mat-option-0']</value>
-      <webElementGuid>82ff18b7-661e-4556-9a4b-471e1ac4d305</webElementGuid>
+      <webElementGuid>693bb86f-b724-43bb-a673-07ae7740c604</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,7 +106,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='mat-select-0-panel']/mat-option</value>
-      <webElementGuid>11134dce-34f6-4d80-8881-36440f79e98a</webElementGuid>
+      <webElementGuid>9fb36f9a-1f22-434a-8adc-1ea32b8f778c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -114,7 +114,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/following::mat-option[1]</value>
-      <webElementGuid>45196003-aeb6-4a67-9c2e-c636ef095652</webElementGuid>
+      <webElementGuid>133712e5-b2a1-4bdd-95a7-eed746c79a48</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -122,7 +122,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Save'])[1]/following::mat-option[1]</value>
-      <webElementGuid>8855da78-215d-4927-9c5d-e8f492f6d365</webElementGuid>
+      <webElementGuid>6ce2cef7-4b84-43c7-944a-7c7c275bfab9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -130,7 +130,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='CoWorker'])[4]/preceding::mat-option[1]</value>
-      <webElementGuid>cdd9c04e-667e-4157-b164-32af03bf58aa</webElementGuid>
+      <webElementGuid>3cafa086-93ef-403c-a2ba-265c8f2d6634</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -138,7 +138,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//mat-option</value>
-      <webElementGuid>73bf30cc-2018-42aa-9ce9-800d484d13e6</webElementGuid>
+      <webElementGuid>3e476572-f2b0-48ce-9919-52ff185b3c32</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -146,6 +146,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//mat-option[@id = 'mat-option-0' and (text() = ' Partner ' or . = ' Partner ')]</value>
-      <webElementGuid>af4571f0-5203-4999-b72e-51460e608ebb</webElementGuid>
+      <webElementGuid>7efa52ef-5ddd-4748-a5ff-69e008be60ce</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

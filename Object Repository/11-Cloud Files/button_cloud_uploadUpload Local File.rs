@@ -6,16 +6,16 @@
    <elementGuidId>748639ab-cfd9-4e18-aedc-4316ec7605d9</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>(//button[@role='menuitem'])[1]</value>
+      </entry>
+      <entry>
          <key>BASIC</key>
          <value>//button[@type = 'button' and (text() = 'cloud_uploadUpload Local File' or . = 'cloud_uploadUpload Local File')]</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>button.mat-focus-indicator.mat-menu-item.ng-star-inserted.cdk-focused.cdk-mouse-focused</value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>(//button[@role='menuitem'])[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -26,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>45757f04-6bd1-430f-9b53-0bd5a64e63a4</webElementGuid>
+      <webElementGuid>a85942a5-2318-4ce7-9af5-d6bfc77cf83d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -34,7 +34,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>b5b65dac-4008-495b-ab73-14764c700b94</webElementGuid>
+      <webElementGuid>28bcbb24-b4bc-4d10-9163-c2e4baa2cab1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,7 +42,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-focus-indicator mat-menu-item ng-star-inserted cdk-focused cdk-mouse-focused</value>
-      <webElementGuid>2c8abb58-ba2c-48b5-92c7-4812dc703c5e</webElementGuid>
+      <webElementGuid>adc34b97-c14e-4229-a8b1-5f7894b85e6d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,7 +50,7 @@
       <name>role</name>
       <type>Main</type>
       <value>menuitem</value>
-      <webElementGuid>ba144472-80cc-4274-a4bf-c9baac2aa4ec</webElementGuid>
+      <webElementGuid>69962330-3cf9-4374-9c67-c18ac0e62ca6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -58,7 +58,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>60eb609e-16a5-4f6b-ac98-6218b6ac7ec0</webElementGuid>
+      <webElementGuid>0cf5b5aa-1e84-4b45-a455-376526d6d4a4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -66,7 +66,7 @@
       <name>aria-disabled</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>0f182724-027c-4d90-bd95-a209ab380029</webElementGuid>
+      <webElementGuid>fd23f247-166f-4e2c-993c-d95381a015d5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -74,7 +74,7 @@
       <name>text</name>
       <type>Main</type>
       <value>cloud_uploadUpload Local File</value>
-      <webElementGuid>226af94d-a627-4d0f-b943-70b52f75250c</webElementGuid>
+      <webElementGuid>aef3694a-1ed0-4ba4-bdda-e87c38d50a1d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -82,7 +82,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-menu-panel-7&quot;)/div[@class=&quot;mat-menu-content ng-tns-c98-37&quot;]/div[1]/button[@class=&quot;mat-focus-indicator mat-menu-item ng-star-inserted cdk-focused cdk-mouse-focused&quot;]</value>
-      <webElementGuid>a8d0e8ce-127c-4a5e-8e63-0bbb1ad6fefd</webElementGuid>
+      <webElementGuid>37bfee40-4d61-4f51-931a-d05af2f1abff</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -90,7 +90,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[12]</value>
-      <webElementGuid>0f02dc2b-a199-498b-8ccd-417d6a753d06</webElementGuid>
+      <webElementGuid>7037775a-d408-4993-a75a-eb49c86920db</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,7 +98,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='mat-menu-panel-7']/div/div/button[2]</value>
-      <webElementGuid>a37694d4-2145-4c03-b8bb-460898d067e8</webElementGuid>
+      <webElementGuid>5728e4cf-3f6e-4b2e-842b-efdcc159c912</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,7 +106,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='`'])[2]/following::button[2]</value>
-      <webElementGuid>61eb0ced-e0b3-4c3c-8b47-02ece1a506d0</webElementGuid>
+      <webElementGuid>77399300-6933-4222-9770-4d3540bf541d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -114,7 +114,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Upload Google Drive File'])[1]/preceding::button[1]</value>
-      <webElementGuid>a108c042-cc56-46b5-9d4a-d23823e9ffc4</webElementGuid>
+      <webElementGuid>2e86f14f-4c14-4dff-aaef-cd92b553b576</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -122,7 +122,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Hide Quick Shortcuts'])[1]/preceding::button[2]</value>
-      <webElementGuid>6f77d7bc-a7a5-4b96-a6cd-d92d089a75cd</webElementGuid>
+      <webElementGuid>5f790e10-75ef-479a-a5a5-7059117c304a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -130,7 +130,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Upload Local File']/parent::*</value>
-      <webElementGuid>3c9806ca-fa93-49e5-b64d-235d0c9f27d5</webElementGuid>
+      <webElementGuid>d60297eb-f840-47ae-af7e-98b352292b90</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -138,7 +138,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/div/div/button[2]</value>
-      <webElementGuid>2eb47920-eccb-48d7-9db0-32b30ee8a945</webElementGuid>
+      <webElementGuid>b13117e0-7c85-4699-a176-7ad87cd7683e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -146,6 +146,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = 'cloud_uploadUpload Local File' or . = 'cloud_uploadUpload Local File')]</value>
-      <webElementGuid>ad19427b-1dd0-44c0-8cdf-d46aa91d9525</webElementGuid>
+      <webElementGuid>e0bd7116-e84e-4e66-8b9d-d1acfeaada86</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

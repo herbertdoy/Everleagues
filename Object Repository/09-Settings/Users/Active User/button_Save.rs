@@ -6,19 +6,19 @@
    <elementGuidId>19f0e22e-5b45-48cb-82f7-3c21152a30d2</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>button.mat-focus-indicator.mat-raised-button.mat-button-base.cdk-focused.cdk-mouse-focused</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
-         <value>(//button[@type='button'])[33]</value>
+         <value>//div[@class='action-container']//button[1]</value>
       </entry>
       <entry>
          <key>BASIC</key>
          <value>//button[@type = 'button' and (text() = 'Save' or . = 'Save')]</value>
       </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.mat-focus-indicator.mat-raised-button.mat-button-base.cdk-focused.cdk-mouse-focused</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -26,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>c2f11d63-3f62-4e32-bb3e-f0d3951ac040</webElementGuid>
+      <webElementGuid>e19c63a1-0ddb-400c-afca-1bbf439bc69d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -34,7 +34,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>0ab019a6-090e-4f83-8ef5-5fd6b1524a20</webElementGuid>
+      <webElementGuid>b0800545-5d04-4396-9ee4-1d9552999f2b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,7 +42,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-focus-indicator mat-raised-button mat-button-base cdk-focused cdk-mouse-focused</value>
-      <webElementGuid>47ede123-b4dc-487d-af20-61b8e5aa32e3</webElementGuid>
+      <webElementGuid>7370245a-4ca0-4f1a-81c7-313ca67efc10</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,7 +50,7 @@
       <name>ng-reflect-disabled</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>75fe3c7a-5beb-43ff-b661-75ad7ae4ee95</webElementGuid>
+      <webElementGuid>36c5ff0f-5e71-461c-9d12-b5020fceccef</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -58,7 +58,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Save</value>
-      <webElementGuid>34b74ccf-9ceb-4fcb-9805-93843483ccae</webElementGuid>
+      <webElementGuid>378e3b4e-a305-4eec-aa51-8ee57fc405c4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -66,7 +66,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-dialog-1&quot;)/app-dialog-edit-user-role[@class=&quot;ng-star-inserted&quot;]/section[@class=&quot;dialog-container ng-star-inserted&quot;]/form[@class=&quot;ng-valid ng-touched ng-dirty&quot;]/div[@class=&quot;mat-dialog-actions dialog-action&quot;]/div[@class=&quot;action-container&quot;]/button[@class=&quot;mat-focus-indicator mat-raised-button mat-button-base cdk-focused cdk-mouse-focused&quot;]</value>
-      <webElementGuid>4cd01b7d-1da6-46e0-af28-05972a413664</webElementGuid>
+      <webElementGuid>a1c0997c-1644-4a5f-824f-ebc6e8ef292e</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -74,7 +74,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[33]</value>
-      <webElementGuid>f14e3b6f-df61-4262-991f-8dafd4f5f82e</webElementGuid>
+      <webElementGuid>961ea5f4-79f4-47ae-88de-be7d86edba4a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,7 +82,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-dialog-container[@id='mat-dialog-1']/app-dialog-edit-user-role/section/form/div[2]/div/button</value>
-      <webElementGuid>90fa65ab-09ce-47a1-ad4f-033fec244c92</webElementGuid>
+      <webElementGuid>89f46299-56c9-4761-ac57-4dc09dcbc214</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -90,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Role Type'])[2]/following::button[1]</value>
-      <webElementGuid>814c75e5-01f2-453c-b196-8db482761c46</webElementGuid>
+      <webElementGuid>62a39456-2fc5-4e5c-a5d5-268aff190ae2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,7 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='IT'])[1]/following::button[1]</value>
-      <webElementGuid>4169d6b8-30c2-407c-8705-a039e603f7b4</webElementGuid>
+      <webElementGuid>0b61145f-edbf-4521-8ba0-dfd2a4113fd4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,7 +106,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/preceding::button[1]</value>
-      <webElementGuid>dae599e7-8535-4c0f-bf41-bcc278d4dd2b</webElementGuid>
+      <webElementGuid>e1f2bb34-e061-4888-afbd-53f2cdf90413</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -114,7 +114,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//form/div[2]/div/button</value>
-      <webElementGuid>e4813949-3a67-4a6c-8b17-1ec56354096f</webElementGuid>
+      <webElementGuid>7597823a-46c1-4032-a4a2-14e92a150421</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -122,6 +122,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = 'Save' or . = 'Save')]</value>
-      <webElementGuid>9b4e3f0b-3bde-4cc5-9683-a6c69b060356</webElementGuid>
+      <webElementGuid>9e740a65-b55b-473e-8441-3d2bf7e18222</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

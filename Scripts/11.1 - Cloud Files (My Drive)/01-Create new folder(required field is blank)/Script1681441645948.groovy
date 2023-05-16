@@ -106,8 +106,6 @@ WebUI.verifyElementVisible(findTestObject('11-Cloud Files/h4_MY FILES'))
 
 WebUI.delay(GlobalVariable.delay_3seconds)
 
-WebUI.click(findTestObject('11-Cloud Files/button_cloud_upload Upload Files  Create Folders'))
-
 WebUI.click(findTestObject('11-Cloud Files/button_create_new_folderNew Folder'))
 
 WebUI.verifyElementVisible(findTestObject('11-Cloud Files/mat-dialog-container_CreateNewFolder modal'))

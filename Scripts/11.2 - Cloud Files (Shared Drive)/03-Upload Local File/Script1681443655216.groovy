@@ -43,15 +43,7 @@ WebUI.verifyElementVisible(findTestObject('11-Cloud Files/div_Upload completed c
 
 WebUI.delay(GlobalVariable.delay_3seconds)
 
-WebUI.setText(findTestObject('11-Cloud Files/input_Search_SharedDrive_CloudFiles'), GlobalVariable.folder_name)
-
-WebUI.sendKeys(findTestObject('11-Cloud Files/input_Search_SharedDrive_CloudFiles'), Keys.chord(Keys.ENTER))
+WebUI.click(findTestObject('11-Cloud Files/button_shared_drive'))
 
 WebUI.delay(GlobalVariable.delay_3seconds)
-
-WebUI.verifyElementVisible(findTestObject('11-Cloud Files/td_Automation folder'))
-
-WebUI.clearText(findTestObject('11-Cloud Files/input_Search_SharedDrive_CloudFiles'))
-
-WebUI.click(findTestObject('11-Cloud Files/button_back'))
 

@@ -28,7 +28,7 @@ WebUI.delay(GlobalVariable.delay_3seconds)
 //WebUI.delay(3)
 WebUI.click(findTestObject('11-Cloud Files/button_cloud_upload Upload Files  Create Folders'))
 
-CustomKeywords.'uploadpackage.Upload.uploadFile'(findTestObject('Object Repository/11-Cloud Files/button_cloud_uploadUpload Local File'), 
+CustomKeywords.'uploadpackage.Upload.uploadFile'(findTestObject('11-Cloud Files/button_cloud_uploadUpload Local File'), 
     GlobalVariable.upload_file)
 
 WebUI.delay(GlobalVariable.delay_2seconds)

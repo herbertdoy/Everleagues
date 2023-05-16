@@ -1,0 +1,236 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+11.1 - Cloud Files(My Drive),Chrome 113.0.0.0,,,2023-05-12 16:26:37,2023-05-12 16:33:09,6m - 31.991s,PASSED
+,,,,,,,
+Test Cases/11.1 - Cloud Files (My Drive)/01-Create new folder(required field is blank),Chrome 113.0.0.0,,,2023-05-12 16:26:38,2023-05-12 16:28:28,1m - 50.333s,PASSED
+"openBrowser("""")",Chrome 113.0.0.0,,,2023-05-12 16:26:39,2023-05-12 16:26:45,6.478s,PASSED
+navigateToUrl(appURL),Chrome 113.0.0.0,,,2023-05-12 16:26:45,2023-05-12 16:26:58,12.848s,PASSED
+maximizeWindow(),Chrome 113.0.0.0,,,2023-05-12 16:26:58,2023-05-12 16:26:59,0.697s,PASSED
+"callTestCase(findTestCase(""01-Login and Forgot Password/04-Login(Valid Credentials-With Subscription)""), [:], STOP_ON_FAILURE)",Chrome 113.0.0.0,,,2023-05-12 16:26:59,2023-05-12 16:27:57,58.419s,PASSED
+"click(findTestObject(""06-Teams/button_doublearrow""))",Chrome 113.0.0.0,,,2023-05-12 16:27:57,2023-05-12 16:28:00,3.220s,PASSED
+"click(findTestObject(""06-Teams/button_My Organizations""))",Chrome 113.0.0.0,,,2023-05-12 16:28:00,2023-05-12 16:28:02,1.145s,PASSED
+"click(findTestObject(""02-Side Icons(Organization)/Add Contact/button_Automation Test Org""))",Chrome 113.0.0.0,,,2023-05-12 16:28:02,2023-05-12 16:28:03,1.180s,PASSED
+delay(delay_4seconds),Chrome 113.0.0.0,,,2023-05-12 16:28:03,2023-05-12 16:28:07,4.015s,PASSED
+"verifyElementVisible(findTestObject(""02-Side Icons(Organization)/Add Contact/span_Automation Test Org""))",Chrome 113.0.0.0,,,2023-05-12 16:28:07,2023-05-12 16:28:07,0.526s,PASSED
+delay(delay_5seconds),Chrome 113.0.0.0,,,2023-05-12 16:28:07,2023-05-12 16:28:12,5.016s,PASSED
+"click(findTestObject(""03-Header Menu/Hamburger Button/div_Cloud Files""))",Chrome 113.0.0.0,,,2023-05-12 16:28:12,2023-05-12 16:28:13,0.585s,PASSED
+"scrollToElement(findTestObject(""11-Cloud Files/a_My Drive""), 0)",Chrome 113.0.0.0,,,2023-05-12 16:28:13,2023-05-12 16:28:14,0.899s,PASSED
+"verifyElementVisible(findTestObject(""11-Cloud Files/a_My Drive""))",Chrome 113.0.0.0,,,2023-05-12 16:28:14,2023-05-12 16:28:14,0.436s,PASSED
+"verifyElementVisible(findTestObject(""11-Cloud Files/a_Shared Drive""))",Chrome 113.0.0.0,,,2023-05-12 16:28:14,2023-05-12 16:28:15,0.426s,PASSED
+"verifyElementVisible(findTestObject(""11-Cloud Files/a_Shared With Me""))",Chrome 113.0.0.0,,,2023-05-12 16:28:15,2023-05-12 16:28:15,0.428s,PASSED
+"click(findTestObject(""11-Cloud Files/a_My Drive""))",Chrome 113.0.0.0,,,2023-05-12 16:28:15,2023-05-12 16:28:16,0.721s,PASSED
+"verifyElementVisible(findTestObject(""11-Cloud Files/h4_CLOUD STORAGE""))",Chrome 113.0.0.0,,,2023-05-12 16:28:16,2023-05-12 16:28:17,1.685s,PASSED
+"verifyElementVisible(findTestObject(""11-Cloud Files/h4_MY FILES""))",Chrome 113.0.0.0,,,2023-05-12 16:28:17,2023-05-12 16:28:18,0.395s,PASSED
+delay(delay_3seconds),Chrome 113.0.0.0,,,2023-05-12 16:28:18,2023-05-12 16:28:21,3.010s,PASSED
+"click(findTestObject(""11-Cloud Files/button_create_new_folderNew Folder""))",Chrome 113.0.0.0,,,2023-05-12 16:28:21,2023-05-12 16:28:21,0.527s,PASSED
+"verifyElementVisible(findTestObject(""11-Cloud Files/mat-dialog-container_CreateNewFolder modal""))",Chrome 113.0.0.0,,,2023-05-12 16:28:21,2023-05-12 16:28:22,0.943s,PASSED
+"verifyElementVisible(findTestObject(""11-Cloud Files/h4_New folder""))",Chrome 113.0.0.0,,,2023-05-12 16:28:22,2023-05-12 16:28:23,0.408s,PASSED
+"click(findTestObject(""11-Cloud Files/input_folderName""), STOP_ON_FAILURE)",Chrome 113.0.0.0,,,2023-05-12 16:28:23,2023-05-12 16:28:23,0.730s,PASSED
+"clickOffset(findTestObject(""11-Cloud Files/input_folderName""), 50, 50)",Chrome 113.0.0.0,,,2023-05-12 16:28:23,2023-05-12 16:28:24,0.632s,PASSED
+"verifyElementVisible(findTestObject(""11-Cloud Files/mat-error_filename""))",Chrome 113.0.0.0,,,2023-05-12 16:28:24,2023-05-12 16:28:25,0.540s,PASSED
+"verifyElementNotClickable(findTestObject(""11-Cloud Files/button_Create""))",Chrome 113.0.0.0,,,2023-05-12 16:28:25,2023-05-12 16:28:25,0.377s,PASSED
+delay(delay_3seconds),Chrome 113.0.0.0,,,2023-05-12 16:28:25,2023-05-12 16:28:28,3.011s,PASSED
+,,,,,,,
+Test Cases/11.1 - Cloud Files (My Drive)/02-Create new folder,Chrome 113.0.0.0,,,2023-05-12 16:28:28,2023-05-12 16:28:41,13.389s,PASSED
+"setText(findTestObject(""11-Cloud Files/input_folderName""), folder_name)",Chrome 113.0.0.0,,,2023-05-12 16:28:28,2023-05-12 16:28:30,1.610s,PASSED
+"click(findTestObject(""11-Cloud Files/button_Create""))",Chrome 113.0.0.0,,,2023-05-12 16:28:30,2023-05-12 16:28:31,0.491s,PASSED
+delay(delay_3seconds),Chrome 113.0.0.0,,,2023-05-12 16:28:31,2023-05-12 16:28:34,3.006s,PASSED
+"click(findTestObject(""11-Cloud Files/button_create_new_folderNew Folder""))",Chrome 113.0.0.0,,,2023-05-12 16:28:34,2023-05-12 16:28:34,0.433s,PASSED
+"verifyElementVisible(findTestObject(""11-Cloud Files/mat-dialog-container_CreateNewFolder modal""))",Chrome 113.0.0.0,,,2023-05-12 16:28:34,2023-05-12 16:28:35,1.009s,PASSED
+"verifyElementVisible(findTestObject(""11-Cloud Files/h4_New folder""))",Chrome 113.0.0.0,,,2023-05-12 16:28:35,2023-05-12 16:28:35,0.375s,PASSED
+"setText(findTestObject(""11-Cloud Files/input_folderName""), folder_name2)",Chrome 113.0.0.0,,,2023-05-12 16:28:35,2023-05-12 16:28:36,1.032s,PASSED
+"click(findTestObject(""11-Cloud Files/button_Create""))",Chrome 113.0.0.0,,,2023-05-12 16:28:36,2023-05-12 16:28:37,0.650s,PASSED
+delay(delay_3seconds),Chrome 113.0.0.0,,,2023-05-12 16:28:37,2023-05-12 16:28:40,3.020s,PASSED
+"click(findTestObject(""11-Cloud Files/mat-icon_refresh""))",Chrome 113.0.0.0,,,2023-05-12 16:28:40,2023-05-12 16:28:41,0.481s,PASSED
+"verifyElementVisible(findTestObject(""11-Cloud Files/td_Automation folder""))",Chrome 113.0.0.0,,,2023-05-12 16:28:41,2023-05-12 16:28:41,0.882s,PASSED
+,,,,,,,
+Test Cases/11.1 - Cloud Files (My Drive)/03-Upload Local File,Chrome 113.0.0.0,,,2023-05-12 16:28:41,2023-05-12 16:29:16,35.000s,PASSED
+delay(delay_3seconds),Chrome 113.0.0.0,,,2023-05-12 16:28:42,2023-05-12 16:28:45,3.010s,PASSED
+"click(findTestObject(""11-Cloud Files/button_cloud_upload Upload Files  Create Folders""))",Chrome 113.0.0.0,,,2023-05-12 16:28:45,2023-05-12 16:28:45,0.487s,PASSED
+"uploadpackage.Upload.uploadFile(findTestObject(""11-Cloud Files/button_cloud_uploadUpload Local File""), upload_file)",Chrome 113.0.0.0,,,2023-05-12 16:28:45,2023-05-12 16:28:50,4.262s,PASSED
+delay(delay_2seconds),Chrome 113.0.0.0,,,2023-05-12 16:28:50,2023-05-12 16:28:52,2.021s,PASSED
+"verifyElementVisible(findTestObject(""11-Cloud Files/mat-dialog-container_Upload local file modal""))",Chrome 113.0.0.0,,,2023-05-12 16:28:52,2023-05-12 16:29:03,10.983s,PASSED
+"click(findTestObject(""11-Cloud Files/button_Confirm""))",Chrome 113.0.0.0,,,2023-05-12 16:29:03,2023-05-12 16:29:03,0.523s,PASSED
+delay(delay_3seconds),Chrome 113.0.0.0,,,2023-05-12 16:29:03,2023-05-12 16:29:06,3.020s,PASSED
+"verifyElementVisible(findTestObject(""11-Cloud Files/div_Upload completed clear""))",Chrome 113.0.0.0,,,2023-05-12 16:29:06,2023-05-12 16:29:07,0.602s,PASSED
+delay(delay_3seconds),Chrome 113.0.0.0,,,2023-05-12 16:29:07,2023-05-12 16:29:10,3.017s,PASSED
+"setText(findTestObject(""11-Cloud Files/input_Search cloudfiles""), folder_name)",Chrome 113.0.0.0,,,2023-05-12 16:29:10,2023-05-12 16:29:11,1.326s,PASSED
+"sendKeys(findTestObject(""11-Cloud Files/input_Search cloudfiles""), Keys.chord(ENTER))",Chrome 113.0.0.0,,,2023-05-12 16:29:11,2023-05-12 16:29:12,0.554s,PASSED
+delay(delay_3seconds),Chrome 113.0.0.0,,,2023-05-12 16:29:12,2023-05-12 16:29:15,3.008s,PASSED
+"verifyElementVisible(findTestObject(""11-Cloud Files/td_Automation folder""))",Chrome 113.0.0.0,,,2023-05-12 16:29:15,2023-05-12 16:29:15,0.500s,PASSED
+"clearText(findTestObject(""11-Cloud Files/input_Search cloudfiles""))",Chrome 113.0.0.0,,,2023-05-12 16:29:15,2023-05-12 16:29:16,0.546s,PASSED
+"click(findTestObject(""11-Cloud Files/button_back""))",Chrome 113.0.0.0,,,2023-05-12 16:29:16,2023-05-12 16:29:16,0.661s,PASSED
+,,,,,,,
+Test Cases/11.1 - Cloud Files (My Drive)/04-Rename a folder and file,Chrome 113.0.0.0,,,2023-05-12 16:29:16,2023-05-12 16:29:39,22.056s,PASSED
+delay(delay_3seconds),Chrome 113.0.0.0,,,2023-05-12 16:29:17,2023-05-12 16:29:20,3.015s,PASSED
+"rightClick(findTestObject(""11-Cloud Files/td_Automation folder""))",Chrome 113.0.0.0,,,2023-05-12 16:29:20,2023-05-12 16:29:21,0.627s,PASSED
+"click(findTestObject(""11-Cloud Files/button_Rename""))",Chrome 113.0.0.0,,,2023-05-12 16:29:21,2023-05-12 16:29:22,1.562s,PASSED
+"verifyElementVisible(findTestObject(""11-Cloud Files/mat-dialog-container_RenameName nodal""))",Chrome 113.0.0.0,,,2023-05-12 16:29:22,2023-05-12 16:29:23,0.679s,PASSED
+"setText(findTestObject(""11-Cloud Files/input_Rename""), edit_folder_name)",Chrome 113.0.0.0,,,2023-05-12 16:29:23,2023-05-12 16:29:25,1.602s,PASSED
+"click(findTestObject(""09-Settings/Users/Active User/button_Save""))",Chrome 113.0.0.0,,,2023-05-12 16:29:25,2023-05-12 16:29:25,0.631s,PASSED
+"verifyElementVisible(findTestObject(""11-Cloud Files/snack-bar-container_Successfully changed nameOK""))",Chrome 113.0.0.0,,,2023-05-12 16:29:25,2023-05-12 16:29:29,3.623s,PASSED
+delay(delay_3seconds),Chrome 113.0.0.0,,,2023-05-12 16:29:29,2023-05-12 16:29:32,3.022s,PASSED
+"rightClick(findTestObject(""11-Cloud Files/td_qa""))",Chrome 113.0.0.0,,,2023-05-12 16:29:32,2023-05-12 16:29:33,0.753s,PASSED
+"click(findTestObject(""11-Cloud Files/button_Rename""))",Chrome 113.0.0.0,,,2023-05-12 16:29:33,2023-05-12 16:29:34,0.859s,PASSED
+"verifyElementVisible(findTestObject(""11-Cloud Files/mat-dialog-container_RenameName nodal""))",Chrome 113.0.0.0,,,2023-05-12 16:29:34,2023-05-12 16:29:34,0.609s,PASSED
+"setText(findTestObject(""11-Cloud Files/input_Rename""), ""qa EDIT"")",Chrome 113.0.0.0,,,2023-05-12 16:29:34,2023-05-12 16:29:36,1.253s,PASSED
+"click(findTestObject(""09-Settings/Users/Active User/button_Save""))",Chrome 113.0.0.0,,,2023-05-12 16:29:36,2023-05-12 16:29:36,0.524s,PASSED
+"verifyElementVisible(findTestObject(""11-Cloud Files/snack-bar-container_Successfully changed nameOK""))",Chrome 113.0.0.0,,,2023-05-12 16:29:36,2023-05-12 16:29:39,2.498s,PASSED
+,,,,,,,
+Test Cases/11.1 - Cloud Files (My Drive)/05-Download a file and folder,Chrome 113.0.0.0,,,2023-05-12 16:29:39,2023-05-12 16:29:55,16.400s,PASSED
+delay(delay_3seconds),Chrome 113.0.0.0,,,2023-05-12 16:29:39,2023-05-12 16:29:42,3.007s,PASSED
+"rightClick(findTestObject(""11-Cloud Files/td_qa EDIT""))",Chrome 113.0.0.0,,,2023-05-12 16:29:42,2023-05-12 16:29:43,0.628s,PASSED
+"click(findTestObject(""11-Cloud Files/button_download""))",Chrome 113.0.0.0,,,2023-05-12 16:29:43,2023-05-12 16:29:44,0.890s,PASSED
+"verifyElementVisible(findTestObject(""11-Cloud Files/div_Done downloading qaclear""))",Chrome 113.0.0.0,,,2023-05-12 16:29:44,2023-05-12 16:29:47,3.208s,PASSED
+delay(delay_3seconds),Chrome 113.0.0.0,,,2023-05-12 16:29:47,2023-05-12 16:29:50,3.010s,PASSED
+"rightClick(findTestObject(""11-Cloud Files/td_Automation folder EDIT""))",Chrome 113.0.0.0,,,2023-05-12 16:29:50,2023-05-12 16:29:50,0.584s,PASSED
+"click(findTestObject(""11-Cloud Files/button_download""))",Chrome 113.0.0.0,,,2023-05-12 16:29:50,2023-05-12 16:29:51,0.821s,PASSED
+"verifyElementVisible(findTestObject(""11-Cloud Files/div_Done downloading folder""))",Chrome 113.0.0.0,,,2023-05-12 16:29:51,2023-05-12 16:29:55,3.646s,PASSED
+,,,,,,,
+Test Cases/11.1 - Cloud Files (My Drive)/06-Duplicate a Folder (Negative scenario),Chrome 113.0.0.0,,,2023-05-12 16:29:55,2023-05-12 16:30:05,10.061s,PASSED
+delay(delay_3seconds),Chrome 113.0.0.0,,,2023-05-12 16:29:56,2023-05-12 16:29:59,3.006s,PASSED
+"click(findTestObject(""11-Cloud Files/td_Automation folder EDIT""))",Chrome 113.0.0.0,,,2023-05-12 16:29:59,2023-05-12 16:29:59,0.582s,PASSED
+"click(findTestObject(""11-Cloud Files/button_Duplicate""))",Chrome 113.0.0.0,,,2023-05-12 16:29:59,2023-05-12 16:30:00,0.580s,PASSED
+"verifyElementVisible(findTestObject(""11-Cloud Files/mat-dialog-container_DuplicateFolderModal""))",Chrome 113.0.0.0,,,2023-05-12 16:30:00,2023-05-12 16:30:01,0.971s,PASSED
+delay(delay_3seconds),Chrome 113.0.0.0,,,2023-05-12 16:30:01,2023-05-12 16:30:04,3.009s,PASSED
+"click(findTestObject(""11-Cloud Files/button_Confirm""))",Chrome 113.0.0.0,,,2023-05-12 16:30:04,2023-05-12 16:30:04,0.468s,PASSED
+"click(findTestObject(""11-Cloud Files/td_Automation folder EDIT""))",Chrome 113.0.0.0,,,2023-05-12 16:30:04,2023-05-12 16:30:05,0.695s,PASSED
+,,,,,,,
+Test Cases/11.1 - Cloud Files (My Drive)/07-Duplicate a file,Chrome 113.0.0.0,,,2023-05-12 16:30:05,2023-05-12 16:30:13,7.796s,PASSED
+delay(delay_3seconds),Chrome 113.0.0.0,,,2023-05-12 16:30:06,2023-05-12 16:30:09,3.008s,PASSED
+"click(findTestObject(""11-Cloud Files/td_qa EDIT""))",Chrome 113.0.0.0,,,2023-05-12 16:30:09,2023-05-12 16:30:10,1.280s,PASSED
+"click(findTestObject(""11-Cloud Files/button_Duplicate""))",Chrome 113.0.0.0,,,2023-05-12 16:30:10,2023-05-12 16:30:11,0.605s,PASSED
+"verifyElementVisible(findTestObject(""11-Cloud Files/div_ItemsDuplicatedSuccessfully""))",Chrome 113.0.0.0,,,2023-05-12 16:30:11,2023-05-12 16:30:12,1.778s,PASSED
+"verifyElementVisible(findTestObject(""11-Cloud Files/td_Copy of qa EDIT""))",Chrome 113.0.0.0,,,2023-05-12 16:30:12,2023-05-12 16:30:13,0.474s,PASSED
+,,,,,,,
+Test Cases/11.1 - Cloud Files (My Drive)/08-Move a file and folder,Chrome 113.0.0.0,,,2023-05-12 16:30:13,2023-05-12 16:30:30,17.145s,PASSED
+delay(delay_3seconds),Chrome 113.0.0.0,,,2023-05-12 16:30:13,2023-05-12 16:30:16,3.016s,PASSED
+"rightClick(findTestObject(""11-Cloud Files/td_Copy of qa EDIT""))",Chrome 113.0.0.0,,,2023-05-12 16:30:16,2023-05-12 16:30:17,0.627s,PASSED
+"click(findTestObject(""11-Cloud Files/button_MoveTo""))",Chrome 113.0.0.0,,,2023-05-12 16:30:17,2023-05-12 16:30:18,0.892s,PASSED
+"click(findTestObject(""11-Cloud Files/span_Automation folder EDIT MoveTo""))",Chrome 113.0.0.0,,,2023-05-12 16:30:18,2023-05-12 16:30:19,1.655s,PASSED
+"click(findTestObject(""11-Cloud Files/button_Move""))",Chrome 113.0.0.0,,,2023-05-12 16:30:19,2023-05-12 16:30:20,0.593s,PASSED
+"verifyElementVisible(findTestObject(""11-Cloud Files/div_ItemSuccessfullyMove""))",Chrome 113.0.0.0,,,2023-05-12 16:30:20,2023-05-12 16:30:22,1.658s,PASSED
+delay(delay_3seconds),Chrome 113.0.0.0,,,2023-05-12 16:30:22,2023-05-12 16:30:25,3.008s,PASSED
+"rightClick(findTestObject(""11-Cloud Files/td_Automation folder 2""))",Chrome 113.0.0.0,,,2023-05-12 16:30:25,2023-05-12 16:30:25,0.579s,PASSED
+"click(findTestObject(""11-Cloud Files/button_MoveTo""))",Chrome 113.0.0.0,,,2023-05-12 16:30:25,2023-05-12 16:30:26,0.821s,PASSED
+"click(findTestObject(""11-Cloud Files/span_Automation folder EDIT MoveTo""))",Chrome 113.0.0.0,,,2023-05-12 16:30:26,2023-05-12 16:30:28,1.617s,PASSED
+"click(findTestObject(""11-Cloud Files/button_Move""))",Chrome 113.0.0.0,,,2023-05-12 16:30:28,2023-05-12 16:30:28,0.591s,PASSED
+"verifyElementVisible(findTestObject(""11-Cloud Files/div_ItemSuccessfullyMove""))",Chrome 113.0.0.0,,,2023-05-12 16:30:28,2023-05-12 16:30:30,1.619s,PASSED
+,,,,,,,
+Test Cases/11.1 - Cloud Files (My Drive)/09-Open a file and folder,Chrome 113.0.0.0,,,2023-05-12 16:30:30,2023-05-12 16:30:46,16.251s,PASSED
+delay(delay_3seconds),Chrome 113.0.0.0,,,2023-05-12 16:30:30,2023-05-12 16:30:33,3.005s,PASSED
+"rightClick(findTestObject(""11-Cloud Files/td_qa EDIT""))",Chrome 113.0.0.0,,,2023-05-12 16:30:33,2023-05-12 16:30:34,0.559s,PASSED
+"click(findTestObject(""11-Cloud Files/button_Open""))",Chrome 113.0.0.0,,,2023-05-12 16:30:34,2023-05-12 16:30:35,0.819s,PASSED
+switchToWindowIndex(1),Chrome 113.0.0.0,,,2023-05-12 16:30:35,2023-05-12 16:30:37,2.171s,PASSED
+closeWindowIndex(1),Chrome 113.0.0.0,,,2023-05-12 16:30:37,2023-05-12 16:30:37,0.207s,PASSED
+switchToWindowIndex(0),Chrome 113.0.0.0,,,2023-05-12 16:30:37,2023-05-12 16:30:37,0.044s,PASSED
+delay(delay_3seconds),Chrome 113.0.0.0,,,2023-05-12 16:30:37,2023-05-12 16:30:40,3.012s,PASSED
+"rightClick(findTestObject(""11-Cloud Files/td_Automation folder EDIT""))",Chrome 113.0.0.0,,,2023-05-12 16:30:40,2023-05-12 16:30:41,0.548s,PASSED
+"click(findTestObject(""11-Cloud Files/button_Open""))",Chrome 113.0.0.0,,,2023-05-12 16:30:41,2023-05-12 16:30:42,0.856s,PASSED
+"click(findTestObject(""11-Cloud Files/h4_MY FILES""))",Chrome 113.0.0.0,,,2023-05-12 16:30:42,2023-05-12 16:30:43,1.620s,PASSED
+delay(delay_3seconds),Chrome 113.0.0.0,,,2023-05-12 16:30:43,2023-05-12 16:30:46,3.004s,PASSED
+,,,,,,,
+Test Cases/11.1 - Cloud Files (My Drive)/10-Share a file,Chrome 113.0.0.0,,,2023-05-12 16:30:46,2023-05-12 16:30:56,9.409s,PASSED
+"click(findTestObject(""11-Cloud Files/button_clearNotif""))",Chrome 113.0.0.0,,,2023-05-12 16:30:47,2023-05-12 16:30:47,0.575s,PASSED
+"rightClick(findTestObject(""11-Cloud Files/td_qa EDIT""))",Chrome 113.0.0.0,,,2023-05-12 16:30:47,2023-05-12 16:30:48,0.665s,PASSED
+"click(findTestObject(""11-Cloud Files/button_Share""))",Chrome 113.0.0.0,,,2023-05-12 16:30:48,2023-05-12 16:30:49,1.334s,PASSED
+"verifyElementVisible(findTestObject(""11-Cloud Files/mat-dialog-container_ShareFiles Modal""))",Chrome 113.0.0.0,,,2023-05-12 16:30:49,2023-05-12 16:30:50,0.710s,PASSED
+"click(findTestObject(""11-Cloud Files/input_Add Users""))",Chrome 113.0.0.0,,,2023-05-12 16:30:50,2023-05-12 16:30:51,0.741s,PASSED
+"click(findTestObject(""11-Cloud Files/mat-option_GTGG tester 2""))",Chrome 113.0.0.0,,,2023-05-12 16:30:51,2023-05-12 16:30:51,0.619s,PASSED
+"click(findTestObject(""11-Cloud Files/mat-option_GTGG tester""))",Chrome 113.0.0.0,,,2023-05-12 16:30:51,2023-05-12 16:30:52,0.636s,PASSED
+"click(findTestObject(""11-Cloud Files/button_done""))",Chrome 113.0.0.0,,,2023-05-12 16:30:52,2023-05-12 16:30:53,0.546s,PASSED
+delay(delay_3seconds),Chrome 113.0.0.0,,,2023-05-12 16:30:53,2023-05-12 16:30:56,3.010s,PASSED
+,,,,,,,
+Test Cases/11.1 - Cloud Files (My Drive)/11-Share a file - Edit,Chrome 113.0.0.0,,,2023-05-12 16:30:56,2023-05-12 16:31:42,46.207s,PASSED
+"rightClick(findTestObject(""11-Cloud Files/td_qa EditPeople""))",Chrome 113.0.0.0,,,2023-05-12 16:30:56,2023-05-12 16:30:57,0.553s,PASSED
+"click(findTestObject(""11-Cloud Files/button_Share""))",Chrome 113.0.0.0,,,2023-05-12 16:30:57,2023-05-12 16:30:58,0.863s,PASSED
+"verifyElementVisible(findTestObject(""11-Cloud Files/mat-dialog-container_View Share Files Modal""))",Chrome 113.0.0.0,,,2023-05-12 16:30:58,2023-05-12 16:30:59,1.422s,PASSED
+"click(findTestObject(""11-Cloud Files/div_dropdown""))",Chrome 113.0.0.0,,,2023-05-12 16:30:59,2023-05-12 16:31:00,0.506s,PASSED
+"click(findTestObject(""11-Cloud Files/mat-option_manager""))",Chrome 113.0.0.0,,,2023-05-12 16:31:00,2023-05-12 16:31:00,0.528s,PASSED
+delay(delay_3seconds),Chrome 113.0.0.0,,,2023-05-12 16:31:00,2023-05-12 16:31:03,3.012s,PASSED
+"verifyElementVisible(findTestObject(""11-Cloud Files/div_GTGG tester2""))",Chrome 113.0.0.0,,,2023-05-12 16:31:03,2023-05-12 16:31:04,0.423s,PASSED
+"click(findTestObject(""11-Cloud Files/div_dropdown2""))",Chrome 113.0.0.0,,,2023-05-12 16:31:04,2023-05-12 16:31:04,0.495s,PASSED
+"click(findTestObject(""11-Cloud Files/mat-option-checkmark_contributor""))",Chrome 113.0.0.0,,,2023-05-12 16:31:04,2023-05-12 16:31:05,0.531s,PASSED
+delay(delay_3seconds),Chrome 113.0.0.0,,,2023-05-12 16:31:05,2023-05-12 16:31:08,3.004s,PASSED
+"verifyElementVisible(findTestObject(""11-Cloud Files/div_GTGG tester""))",Chrome 113.0.0.0,,,2023-05-12 16:31:08,2023-05-12 16:31:08,0.451s,PASSED
+"click(findTestObject(""11-Cloud Files/div_dropdown3""))",Chrome 113.0.0.0,,,2023-05-12 16:31:08,2023-05-12 16:31:10,1.720s,PASSED
+"click(findTestObject(""11-Cloud Files/span_delete Remove Access""))",Chrome 113.0.0.0,,,2023-05-12 16:31:10,2023-05-12 16:31:10,0.706s,PASSED
+"click(findTestObject(""11-Cloud Files/button_done""))",Chrome 113.0.0.0,,,2023-05-12 16:31:10,2023-05-12 16:31:11,0.540s,PASSED
+delay(delay_3seconds),Chrome 113.0.0.0,,,2023-05-12 16:31:11,2023-05-12 16:31:14,3.016s,PASSED
+"rightClick(findTestObject(""11-Cloud Files/td_qa EditPeople""))",Chrome 113.0.0.0,,,2023-05-12 16:31:14,2023-05-12 16:31:15,0.561s,PASSED
+"click(findTestObject(""11-Cloud Files/button_Share""))",Chrome 113.0.0.0,,,2023-05-12 16:31:15,2023-05-12 16:31:15,0.845s,PASSED
+"click(findTestObject(""11-Cloud Files/button_Copy Share Link""))",Chrome 113.0.0.0,,,2023-05-12 16:31:15,2023-05-12 16:31:17,1.242s,PASSED
+delay(delay_3seconds),Chrome 113.0.0.0,,,2023-05-12 16:31:17,2023-05-12 16:31:20,3.005s,PASSED
+my_clipboard = getContents(null).getTransferData(stringFlavor),Chrome 113.0.0.0,,,2023-05-12 16:31:20,2023-05-12 16:31:20,0.162s,PASSED
+navigateToUrl(my_clipboard),Chrome 113.0.0.0,,,2023-05-12 16:31:20,2023-05-12 16:31:31,11.157s,PASSED
+switchToWindowIndex(0),Chrome 113.0.0.0,,,2023-05-12 16:31:31,2023-05-12 16:31:31,0.076s,PASSED
+"click(findTestObject(""03-Header Menu/Hamburger Button/div_Cloud Files""))",Chrome 113.0.0.0,,,2023-05-12 16:31:31,2023-05-12 16:31:37,5.574s,PASSED
+"scrollToElement(findTestObject(""11-Cloud Files/a_My Drive""), 0)",Chrome 113.0.0.0,,,2023-05-12 16:31:37,2023-05-12 16:31:38,1.479s,PASSED
+"click(findTestObject(""11-Cloud Files/a_My Drive""))",Chrome 113.0.0.0,,,2023-05-12 16:31:38,2023-05-12 16:31:39,0.714s,PASSED
+delay(delay_3seconds),Chrome 113.0.0.0,,,2023-05-12 16:31:39,2023-05-12 16:31:42,3.034s,PASSED
+,,,,,,,
+Test Cases/11.1 - Cloud Files (My Drive)/12-Share a folder,Chrome 113.0.0.0,,,2023-05-12 16:31:42,2023-05-12 16:32:06,24.111s,PASSED
+"rightClick(findTestObject(""11-Cloud Files/td_Automation folder EDIT""))",Chrome 113.0.0.0,,,2023-05-12 16:31:43,2023-05-12 16:31:44,1.085s,PASSED
+"click(findTestObject(""11-Cloud Files/button_Share""))",Chrome 113.0.0.0,,,2023-05-12 16:31:44,2023-05-12 16:31:45,0.961s,PASSED
+"verifyElementVisible(findTestObject(""11-Cloud Files/mat-dialog-container_ShareFiles Modal""))",Chrome 113.0.0.0,,,2023-05-12 16:31:45,2023-05-12 16:31:45,0.693s,PASSED
+"click(findTestObject(""11-Cloud Files/mat-icon_close""))",Chrome 113.0.0.0,,,2023-05-12 16:31:45,2023-05-12 16:31:46,0.439s,PASSED
+delay(delay_3seconds),Chrome 113.0.0.0,,,2023-05-12 16:31:46,2023-05-12 16:31:49,3.008s,PASSED
+"rightClick(findTestObject(""11-Cloud Files/td_Automation folder EDIT""))",Chrome 113.0.0.0,,,2023-05-12 16:31:49,2023-05-12 16:31:49,0.514s,PASSED
+"click(findTestObject(""11-Cloud Files/button_Share""))",Chrome 113.0.0.0,,,2023-05-12 16:31:49,2023-05-12 16:31:50,0.875s,PASSED
+"verifyElementVisible(findTestObject(""11-Cloud Files/mat-dialog-container_ShareFiles Modal""))",Chrome 113.0.0.0,,,2023-05-12 16:31:50,2023-05-12 16:31:51,0.646s,PASSED
+"click(findTestObject(""11-Cloud Files/input_Add Users""))",Chrome 113.0.0.0,,,2023-05-12 16:31:51,2023-05-12 16:31:51,0.506s,PASSED
+"click(findTestObject(""11-Cloud Files/mat-option_GTGG tester""))",Chrome 113.0.0.0,,,2023-05-12 16:31:51,2023-05-12 16:31:52,0.555s,PASSED
+"click(findTestObject(""10-Open Video Conference/mat-icon_cancel""))",Chrome 113.0.0.0,,,2023-05-12 16:31:52,2023-05-12 16:31:53,0.662s,PASSED
+delay(delay_3seconds),Chrome 113.0.0.0,,,2023-05-12 16:31:53,2023-05-12 16:31:56,3.011s,PASSED
+"click(findTestObject(""11-Cloud Files/input_Add Users""))",Chrome 113.0.0.0,,,2023-05-12 16:31:56,2023-05-12 16:31:56,0.472s,PASSED
+"click(findTestObject(""11-Cloud Files/mat-option_GTGG tester 2""))",Chrome 113.0.0.0,,,2023-05-12 16:31:56,2023-05-12 16:31:57,0.511s,PASSED
+"click(findTestObject(""11-Cloud Files/mat-option_GTGG tester""))",Chrome 113.0.0.0,,,2023-05-12 16:31:57,2023-05-12 16:31:57,0.593s,PASSED
+"clickOffset(findTestObject(""11-Cloud Files/button_Copy Share Link""), 10, 10)",Chrome 113.0.0.0,,,2023-05-12 16:31:57,2023-05-12 16:31:58,0.750s,PASSED
+"click(findTestObject(""11-Cloud Files/div_mat-checkbox-notify-user""))",Chrome 113.0.0.0,,,2023-05-12 16:31:58,2023-05-12 16:32:00,1.930s,PASSED
+"click(findTestObject(""11-Cloud Files/div_mat-checkbox-notify-user""))",Chrome 113.0.0.0,,,2023-05-12 16:32:00,2023-05-12 16:32:01,0.931s,PASSED
+"click(findTestObject(""11-Cloud Files/div_dropdown""))",Chrome 113.0.0.0,,,2023-05-12 16:32:01,2023-05-12 16:32:02,0.915s,PASSED
+"click(findTestObject(""11-Cloud Files/span_Viewer""))",Chrome 113.0.0.0,,,2023-05-12 16:32:02,2023-05-12 16:32:02,0.524s,PASSED
+"click(findTestObject(""11-Cloud Files/button_done""))",Chrome 113.0.0.0,,,2023-05-12 16:32:02,2023-05-12 16:32:03,0.716s,PASSED
+delay(delay_3seconds),Chrome 113.0.0.0,,,2023-05-12 16:32:03,2023-05-12 16:32:06,3.015s,PASSED
+,,,,,,,
+Test Cases/11.1 - Cloud Files (My Drive)/13-Share a folder - Edit,Chrome 113.0.0.0,,,2023-05-12 16:32:06,2023-05-12 16:32:52,46.120s,PASSED
+delay(delay_3seconds),Chrome 113.0.0.0,,,2023-05-12 16:32:07,2023-05-12 16:32:10,3.012s,PASSED
+"rightClick(findTestObject(""11-Cloud Files/td_Automation folder EDIT""))",Chrome 113.0.0.0,,,2023-05-12 16:32:10,2023-05-12 16:32:10,0.529s,PASSED
+"click(findTestObject(""11-Cloud Files/button_Share""))",Chrome 113.0.0.0,,,2023-05-12 16:32:10,2023-05-12 16:32:11,0.853s,PASSED
+"verifyElementVisible(findTestObject(""11-Cloud Files/mat-dialog-container_View Share Files Modal""))",Chrome 113.0.0.0,,,2023-05-12 16:32:11,2023-05-12 16:32:12,0.948s,PASSED
+"click(findTestObject(""11-Cloud Files/div_dropdown""))",Chrome 113.0.0.0,,,2023-05-12 16:32:12,2023-05-12 16:32:12,0.444s,PASSED
+"click(findTestObject(""11-Cloud Files/mat-option_manager""))",Chrome 113.0.0.0,,,2023-05-12 16:32:12,2023-05-12 16:32:13,0.524s,PASSED
+delay(delay_3seconds),Chrome 113.0.0.0,,,2023-05-12 16:32:13,2023-05-12 16:32:16,3.010s,PASSED
+"verifyElementVisible(findTestObject(""11-Cloud Files/div_GTGG tester2""))",Chrome 113.0.0.0,,,2023-05-12 16:32:16,2023-05-12 16:32:16,0.402s,PASSED
+"click(findTestObject(""11-Cloud Files/div_dropdown2""))",Chrome 113.0.0.0,,,2023-05-12 16:32:16,2023-05-12 16:32:17,0.465s,PASSED
+"click(findTestObject(""11-Cloud Files/mat-option-checkmark_contributor""))",Chrome 113.0.0.0,,,2023-05-12 16:32:17,2023-05-12 16:32:17,0.528s,PASSED
+delay(delay_3seconds),Chrome 113.0.0.0,,,2023-05-12 16:32:17,2023-05-12 16:32:20,3.013s,PASSED
+"verifyElementVisible(findTestObject(""11-Cloud Files/div_GTGG tester""))",Chrome 113.0.0.0,,,2023-05-12 16:32:20,2023-05-12 16:32:21,0.405s,PASSED
+"click(findTestObject(""11-Cloud Files/div_dropdown3""))",Chrome 113.0.0.0,,,2023-05-12 16:32:21,2023-05-12 16:32:21,0.475s,PASSED
+"click(findTestObject(""11-Cloud Files/span_delete Remove Access""))",Chrome 113.0.0.0,,,2023-05-12 16:32:21,2023-05-12 16:32:22,0.627s,PASSED
+"click(findTestObject(""11-Cloud Files/button_done""))",Chrome 113.0.0.0,,,2023-05-12 16:32:22,2023-05-12 16:32:22,0.596s,PASSED
+delay(delay_3seconds),Chrome 113.0.0.0,,,2023-05-12 16:32:22,2023-05-12 16:32:25,3.003s,PASSED
+"rightClick(findTestObject(""11-Cloud Files/td_Automation folder EDIT""))",Chrome 113.0.0.0,,,2023-05-12 16:32:25,2023-05-12 16:32:26,0.684s,PASSED
+"click(findTestObject(""11-Cloud Files/button_Share""))",Chrome 113.0.0.0,,,2023-05-12 16:32:26,2023-05-12 16:32:27,0.888s,PASSED
+"click(findTestObject(""11-Cloud Files/button_Copy Share Link""))",Chrome 113.0.0.0,,,2023-05-12 16:32:27,2023-05-12 16:32:28,0.958s,PASSED
+delay(delay_3seconds),Chrome 113.0.0.0,,,2023-05-12 16:32:28,2023-05-12 16:32:31,3.006s,PASSED
+my_clipboard = getContents(null).getTransferData(stringFlavor),Chrome 113.0.0.0,,,2023-05-12 16:32:31,2023-05-12 16:32:31,0.025s,PASSED
+navigateToUrl(my_clipboard),Chrome 113.0.0.0,,,2023-05-12 16:32:31,2023-05-12 16:32:39,8.079s,PASSED
+delay(delay_4seconds),Chrome 113.0.0.0,,,2023-05-12 16:32:39,2023-05-12 16:32:43,4.031s,PASSED
+"click(findTestObject(""03-Header Menu/Hamburger Button/div_Cloud Files""))",Chrome 113.0.0.0,,,2023-05-12 16:32:43,2023-05-12 16:32:46,2.536s,PASSED
+"scrollToElement(findTestObject(""11-Cloud Files/a_My Drive""), 0)",Chrome 113.0.0.0,,,2023-05-12 16:32:46,2023-05-12 16:32:47,1.426s,PASSED
+"click(findTestObject(""11-Cloud Files/a_My Drive""))",Chrome 113.0.0.0,,,2023-05-12 16:32:47,2023-05-12 16:32:48,0.732s,PASSED
+"click(findTestObject(""11-Cloud Files/h4_MY FILES""))",Chrome 113.0.0.0,,,2023-05-12 16:32:48,2023-05-12 16:32:49,1.336s,PASSED
+delay(delay_3seconds),Chrome 113.0.0.0,,,2023-05-12 16:32:49,2023-05-12 16:32:52,3.021s,PASSED
+,,,,,,,
+Test Cases/11.1 - Cloud Files (My Drive)/14-Delete a file and folder,Chrome 113.0.0.0,,,2023-05-12 16:32:52,2023-05-12 16:33:09,16.594s,PASSED
+"rightClick(findTestObject(""11-Cloud Files/td_Automation folder EDIT""))",Chrome 113.0.0.0,,,2023-05-12 16:32:53,2023-05-12 16:32:54,0.648s,PASSED
+"click(findTestObject(""11-Cloud Files/button_deleteDelete""))",Chrome 113.0.0.0,,,2023-05-12 16:32:54,2023-05-12 16:32:55,0.863s,PASSED
+"verifyElementVisible(findTestObject(""11-Cloud Files/mat-dialog-container_DeleteConfirmationModal""))",Chrome 113.0.0.0,,,2023-05-12 16:32:55,2023-05-12 16:32:56,0.767s,PASSED
+"click(findTestObject(""11-Cloud Files/button_Confirm""))",Chrome 113.0.0.0,,,2023-05-12 16:32:56,2023-05-12 16:32:56,0.567s,PASSED
+delay(delay_3seconds),Chrome 113.0.0.0,,,2023-05-12 16:32:56,2023-05-12 16:32:59,3.011s,PASSED
+"rightClick(findTestObject(""11-Cloud Files/td_qa EditPeople""))",Chrome 113.0.0.0,,,2023-05-12 16:32:59,2023-05-12 16:33:00,0.562s,PASSED
+"click(findTestObject(""11-Cloud Files/button_deleteDelete""))",Chrome 113.0.0.0,,,2023-05-12 16:33:00,2023-05-12 16:33:01,0.845s,PASSED
+"verifyElementVisible(findTestObject(""11-Cloud Files/mat-dialog-container_DeleteConfirmationModal""))",Chrome 113.0.0.0,,,2023-05-12 16:33:01,2023-05-12 16:33:02,1.649s,PASSED
+"click(findTestObject(""11-Cloud Files/button_Confirm""))",Chrome 113.0.0.0,,,2023-05-12 16:33:02,2023-05-12 16:33:03,0.461s,PASSED
+delay(delay_4seconds),Chrome 113.0.0.0,,,2023-05-12 16:33:03,2023-05-12 16:33:07,4.013s,PASSED
+closeBrowser(),Chrome 113.0.0.0,,,2023-05-12 16:33:07,2023-05-12 16:33:09,2.078s,PASSED
