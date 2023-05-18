@@ -152,8 +152,6 @@ WebUI.setText(findTestObject('09-Settings/Organization/input_name'), GlobalVaria
 
 WebUI.delay(GlobalVariable.delay_3seconds)
 
-WebUI.scrollToElement(findTestObject('09-Settings/Users/Active User/button_Save'), 0)
-
 WebUI.click(findTestObject('09-Settings/Users/Active User/button_Save'))
 
 WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/snack-bar-container_Settings savedOK'))

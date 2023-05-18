@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//span[text()=' External Contact ']</value>
+         <value>(//span[text()=' External Contact '])[2]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -26,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>mat-option</value>
-      <webElementGuid>651b6697-bb73-4bf0-aebf-fbe2051321b7</webElementGuid>
+      <webElementGuid>00020109-29c3-4e51-a38a-2b333b0f96a0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -34,7 +34,7 @@
       <name>role</name>
       <type>Main</type>
       <value>option</value>
-      <webElementGuid>4b839bac-6748-4acb-9cdb-3e0d51134d24</webElementGuid>
+      <webElementGuid>231b33f3-718b-411a-a3b4-1bf57eb7a521</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,7 +42,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-option mat-focus-indicator ng-tns-c246-70 ng-star-inserted</value>
-      <webElementGuid>301ac655-6eea-44d6-af0a-041871923147</webElementGuid>
+      <webElementGuid>3ba3eb5d-5d34-4c2e-8354-39bad52b6d06</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,7 +50,7 @@
       <name>ng-reflect-value</name>
       <type>Main</type>
       <value>a7f10a80-7d34-4967-993e-437321</value>
-      <webElementGuid>8d197453-d88c-453f-9937-c1a3e20fdc00</webElementGuid>
+      <webElementGuid>b786e318-9fac-4e02-b4b9-1f111506644b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -58,7 +58,7 @@
       <name>id</name>
       <type>Main</type>
       <value>mat-option-0</value>
-      <webElementGuid>858d5c1e-4b38-4267-b448-53c2ae5dd99e</webElementGuid>
+      <webElementGuid>d5ccdf7d-7b6c-48fb-9755-b58636fd5248</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -66,7 +66,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>75df30bf-400d-4174-8f1a-d790227fba88</webElementGuid>
+      <webElementGuid>0e35e69e-19fe-41f0-b29d-77ac43ca584a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -74,7 +74,7 @@
       <name>aria-disabled</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>d18c125c-b3c2-4d09-b299-697f49cecb8f</webElementGuid>
+      <webElementGuid>0e7f7547-4604-4cf2-843c-84c837929e42</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -82,7 +82,7 @@
       <name>text</name>
       <type>Main</type>
       <value> Partner </value>
-      <webElementGuid>3159f15e-0e00-4f96-9540-102de912c0e9</webElementGuid>
+      <webElementGuid>6a83284e-495b-4515-a823-3133e3d8b5b3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -90,7 +90,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-option-0&quot;)</value>
-      <webElementGuid>2e1936f8-c3de-4027-a841-b1473007b958</webElementGuid>
+      <webElementGuid>a65cce60-8a72-483c-98b2-ee802d5936f0</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -98,7 +98,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//mat-option[@id='mat-option-0']</value>
-      <webElementGuid>693bb86f-b724-43bb-a673-07ae7740c604</webElementGuid>
+      <webElementGuid>f69fa11b-9b4c-4134-a7a2-b552dc620b2b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,7 +106,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='mat-select-0-panel']/mat-option</value>
-      <webElementGuid>9fb36f9a-1f22-434a-8adc-1ea32b8f778c</webElementGuid>
+      <webElementGuid>8b6ef6b7-923a-487c-967f-21e3d3d76f0d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -114,7 +114,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/following::mat-option[1]</value>
-      <webElementGuid>133712e5-b2a1-4bdd-95a7-eed746c79a48</webElementGuid>
+      <webElementGuid>b6984008-0a82-4e5a-bcba-3dbde6701179</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -122,7 +122,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Save'])[1]/following::mat-option[1]</value>
-      <webElementGuid>6ce2cef7-4b84-43c7-944a-7c7c275bfab9</webElementGuid>
+      <webElementGuid>0f281165-d780-4b78-911e-6f07271a2db1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -130,7 +130,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='CoWorker'])[4]/preceding::mat-option[1]</value>
-      <webElementGuid>3cafa086-93ef-403c-a2ba-265c8f2d6634</webElementGuid>
+      <webElementGuid>941aa837-f417-4b5e-a465-9e56a5e73717</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -138,7 +138,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//mat-option</value>
-      <webElementGuid>3e476572-f2b0-48ce-9919-52ff185b3c32</webElementGuid>
+      <webElementGuid>401759b0-21b0-40ee-b2fb-dc976d109a94</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -146,6 +146,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//mat-option[@id = 'mat-option-0' and (text() = ' Partner ' or . = ' Partner ')]</value>
-      <webElementGuid>7efa52ef-5ddd-4748-a5ff-69e008be60ce</webElementGuid>
+      <webElementGuid>27e3d82d-ae97-4901-a555-572f607ed229</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

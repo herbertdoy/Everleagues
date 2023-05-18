@@ -106,7 +106,7 @@ WebUI.click(findTestObject('09-Settings/Users/add Invite a single user'))
 
 WebUI.delay(GlobalVariable.delay_3seconds)
 
-WebUI.setText(findTestObject('09-Settings/Users/input_email'), GlobalVariable.email_for_auto9)
+WebUI.setText(findTestObject('09-Settings/Users/input_email'), GlobalVariable.email_for_auto009)
 
 WebUI.setText(findTestObject('09-Settings/Users/input_firstName'), 'GG')
 
@@ -144,7 +144,7 @@ WebUI.navigateToUrl(GlobalVariable.appURL)
 
 WebUI.maximizeWindow()
 
-WebUI.setText(findTestObject('02-Side Icons(Organization)/Add Contact/Email Field'), GlobalVariable.email_for_auto9)
+WebUI.setText(findTestObject('02-Side Icons(Organization)/Add Contact/Email Field'), GlobalVariable.email_for_auto009)
 
 WebUI.setEncryptedText(findTestObject('02-Side Icons(Organization)/Add Contact/Password Field'), GlobalVariable.password)
 
@@ -166,7 +166,7 @@ WebUI.navigateToUrl(GlobalVariable.app_mailinator)
 
 WebUI.delay(GlobalVariable.delay_3seconds)
 
-WebUI.setText(findTestObject('00-Signup and Activation/zMailinator/input_LOGIN_search'), GlobalVariable.email_for_auto9)
+WebUI.setText(findTestObject('00-Signup and Activation/zMailinator/input_LOGIN_search'), GlobalVariable.email_for_auto009)
 
 WebUI.click(findTestObject('00-Signup and Activation/zMailinator/gobutton'), FailureHandling.STOP_ON_FAILURE)
 
@@ -208,7 +208,7 @@ WebUI.navigateToUrl(GlobalVariable.app_mailinator)
 
 WebUI.delay(GlobalVariable.delay_3seconds)
 
-WebUI.setText(findTestObject('00-Signup and Activation/zMailinator/input_LOGIN_search'), GlobalVariable.email_for_auto9)
+WebUI.setText(findTestObject('00-Signup and Activation/zMailinator/input_LOGIN_search'), GlobalVariable.email_for_auto009)
 
 WebUI.click(findTestObject('00-Signup and Activation/zMailinator/gobutton'), FailureHandling.STOP_ON_FAILURE)
 

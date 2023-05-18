@@ -1,0 +1,22 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+00-Signup and Account Activation,,,,2023-05-17 23:36:44,2023-05-17 23:38:01,1m - 16.682s,FAILED
+,,,,,,,
+Test Cases/00-SignUp and Account Activation/01-Signup(Credentials Blank),,,,2023-05-17 23:36:46,2023-05-17 23:37:42,56.096s,FAILED
+"openBrowser("""")",,,,2023-05-17 23:36:47,2023-05-17 23:37:42,54.845s,FAILED
+,,,,,,,
+Test Cases/00-SignUp and Account Activation/02-Signup(Wrong email),,,,2023-05-17 23:37:42,2023-05-17 23:37:54,11.494s,FAILED
+delay(delay_3seconds),,,,2023-05-17 23:37:45,2023-05-17 23:37:49,4.829s,PASSED
+"setText(findTestObject(""00-Signup and Activation/input_Email""), invalid_email)",,,,2023-05-17 23:37:49,2023-05-17 23:37:54,4.496s,FAILED
+,,,,,,,
+Test Cases/00-SignUp and Account Activation/03-Signup(Correct Details),,,,2023-05-17 23:37:54,2023-05-17 23:37:58,3.736s,FAILED
+delay(delay_2seconds),,,,2023-05-17 23:37:55,2023-05-17 23:37:57,2.018s,PASSED
+"domainName = ""@mailinator.com""",,,,2023-05-17 23:37:57,2023-05-17 23:37:57,0.002s,PASSED
+random = new java.util.Random(),,,,2023-05-17 23:37:57,2023-05-17 23:37:58,0.792s,PASSED
+randomString = Long.toHexString(random.nextLong()),,,,2023-05-17 23:37:58,2023-05-17 23:37:58,0.014s,PASSED
+"emailAddress = ""autoTestUser"" + randomString + domainName",,,,2023-05-17 23:37:58,2023-05-17 23:37:58,0.002s,PASSED
+"logInfo(""Generated email address: "" + emailAddress)",,,,2023-05-17 23:37:58,2023-05-17 23:37:58,0.050s,PASSED
+"setText(findTestObject(""00-Signup and Activation/input_Email""), emailAddress)",,,,2023-05-17 23:37:58,2023-05-17 23:37:58,0.106s,FAILED
+,,,,,,,
+Test Cases/00-SignUp and Account Activation/04-Set password,,,,2023-05-17 23:37:58,2023-05-17 23:38:01,3.169s,FAILED
+delay(delay_2seconds),,,,2023-05-17 23:37:58,2023-05-17 23:38:00,2.018s,PASSED
+"setEncryptedText(findTestObject(""00-Signup and Activation/input_password""), password, STOP_ON_FAILURE)",,,,2023-05-17 23:38:00,2023-05-17 23:38:01,0.570s,FAILED

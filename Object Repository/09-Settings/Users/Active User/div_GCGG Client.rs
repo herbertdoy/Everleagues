@@ -11,7 +11,6 @@
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
       <entry>
          <key>BASIC</key>
@@ -26,7 +25,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>7144a85d-a738-4874-b96f-aa976fb6deff</webElementGuid>
+      <webElementGuid>f264db18-57e6-41cf-9949-9470f051cf58</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -34,7 +33,7 @@
       <name>class</name>
       <type>Main</type>
       <value>td-data-table-cell-content-wrapper</value>
-      <webElementGuid>0d3d7b5f-ecc3-4831-8018-772d07fb12df</webElementGuid>
+      <webElementGuid>c8558267-473d-4af4-9b8c-d9eb703ae0c4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -42,7 +41,7 @@
       <name>text</name>
       <type>Main</type>
       <value>GCGG Client</value>
-      <webElementGuid>a639400a-f66e-43e1-ace5-131d94ad5921</webElementGuid>
+      <webElementGuid>3ef1f9dc-fb62-4b07-b0f9-af9bc4fd4058</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,7 +49,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-tab-content-0-0&quot;)/div[@class=&quot;mat-tab-body-content ng-tns-c361-48 ng-trigger ng-trigger-translateTab&quot;]/div[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;white-container ng-tns-c650-37&quot;]/div[@class=&quot;user-container-body ng-tns-c650-37&quot;]/mat-drawer-container[@class=&quot;mat-drawer-container ng-tns-c650-37&quot;]/mat-drawer-content[@class=&quot;mat-drawer-content&quot;]/app-user-table[1]/div[@class=&quot;container-body&quot;]/perfect-scrollbar[1]/div[@class=&quot;ps&quot;]/div[@class=&quot;ps-content&quot;]/td-data-table[@class=&quot;ng-untouched ng-valid ng-dirty&quot;]/div[@class=&quot;td-data-table-scrollable&quot;]/table[@class=&quot;td-data-table&quot;]/tbody[@class=&quot;td-data-table-body&quot;]/tr[@class=&quot;td-data-table-row ng-star-inserted&quot;]/td[@class=&quot;td-data-table-cell ng-star-inserted&quot;]/div[@class=&quot;td-data-table-cell-content-wrapper&quot;]</value>
-      <webElementGuid>8e3801eb-472d-4836-a589-12551bb1775a</webElementGuid>
+      <webElementGuid>95e3d6d2-dab6-4a46-82be-258948ce356a</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -58,7 +57,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-tab-body[@id='mat-tab-content-0-0']/div/div/div/div[3]/mat-drawer-container/mat-drawer-content/app-user-table/div[2]/perfect-scrollbar/div/div/td-data-table/div/table/tbody/tr[6]/td/div</value>
-      <webElementGuid>24227cc6-2070-48e0-a508-0eb1b99c2e9b</webElementGuid>
+      <webElementGuid>7f34d806-04b1-44c7-a884-58faa8e58021</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -66,7 +65,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='..'])[5]/following::div[13]</value>
-      <webElementGuid>0478a2fa-d40a-4fbd-b400-4442d3387b68</webElementGuid>
+      <webElementGuid>e85a7bb4-e5df-48ed-a47d-9939bba96334</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -74,7 +73,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Active'])[5]/following::div[14]</value>
-      <webElementGuid>39734d80-a628-41b2-9b41-e7cf18834f61</webElementGuid>
+      <webElementGuid>da8a92e7-a9a2-4d5c-9cd1-14f1332b6d24</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,7 +81,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tr[6]/td/div</value>
-      <webElementGuid>5b6cd4b6-ac57-4f4c-a5a6-f923b5769cc5</webElementGuid>
+      <webElementGuid>361f83e0-3d8f-41e0-9005-0bea153e0428</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -90,6 +89,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = 'GCGG Client' or . = 'GCGG Client')]</value>
-      <webElementGuid>5bcbefab-8814-4ddc-99fd-124bff5d32a9</webElementGuid>
+      <webElementGuid>a5cff4ab-6b0c-4d06-997f-5e0a6e37fe40</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -26,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>snack-bar-container</value>
-      <webElementGuid>d49a856b-b52d-4f07-8b05-0da89acb50fa</webElementGuid>
+      <webElementGuid>83d2b60d-641f-4137-b9e1-d43a298766b9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -34,7 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-snack-bar-container ng-tns-c41-118 ng-trigger ng-trigger-state mat-snack-bar-center ng-star-inserted</value>
-      <webElementGuid>3145950e-6bf8-4681-9937-bae603f10e26</webElementGuid>
+      <webElementGuid>37f43259-0ec9-4e16-96cc-7a804afc7a7a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -42,7 +42,7 @@
       <name>role</name>
       <type>Main</type>
       <value>status</value>
-      <webElementGuid>b6573e39-cbcc-4c60-b74a-17e3b3545738</webElementGuid>
+      <webElementGuid>9bde56a6-d5d4-4d40-b1df-06b8acb193cd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -50,7 +50,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Updated assignmentOK</value>
-      <webElementGuid>5e37a064-7de7-433b-b0c3-7afa0ff235a2</webElementGuid>
+      <webElementGuid>0f64fa39-3c36-4731-ae21-42a2a2aa74c1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -58,7 +58,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;cdk-overlay-10&quot;)/snack-bar-container[@class=&quot;mat-snack-bar-container ng-tns-c41-118 ng-trigger ng-trigger-state mat-snack-bar-center ng-star-inserted&quot;]</value>
-      <webElementGuid>f4433c3f-2a62-45de-9b1e-837602f9b615</webElementGuid>
+      <webElementGuid>2558e2f2-14e1-4c39-9b25-6e5ec29a24f1</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -66,7 +66,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='cdk-overlay-10']/snack-bar-container</value>
-      <webElementGuid>a613bdae-a614-4e38-a5b1-cab2b2961aef</webElementGuid>
+      <webElementGuid>302ae6c2-f660-4150-a566-d6a188582235</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -74,7 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Updated assignment'])[1]/following::snack-bar-container[1]</value>
-      <webElementGuid>72048c1f-18e8-4736-b489-c1ce3ac3364c</webElementGuid>
+      <webElementGuid>95d93b03-9cd3-4041-bbcf-f5cac2048c6c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Clients'])[1]/following::snack-bar-container[1]</value>
-      <webElementGuid>45680340-f649-401e-98b8-90be825ae682</webElementGuid>
+      <webElementGuid>ab89d0ab-f9c9-4ba3-9ee7-f148d63bca29</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -90,7 +90,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//snack-bar-container</value>
-      <webElementGuid>870dfe4c-1555-4eae-8095-f262b18e279f</webElementGuid>
+      <webElementGuid>d2a165ff-d98c-4392-b456-b99991c581e8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,6 +98,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//snack-bar-container[(text() = 'Updated assignmentOK' or . = 'Updated assignmentOK')]</value>
-      <webElementGuid>d66fd8bd-2e7c-417a-98bf-916c98efcefa</webElementGuid>
+      <webElementGuid>80be86e8-7f4b-4c53-aaf3-b38f34feb6fd</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
