@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_GTGG  Tester 009</name>
+   <tag></tag>
+   <elementGuidId>0468f966-c240-4245-8a99-d4a515c638ff</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//mat-tab-body[@id='mat-tab-content-1-0']/div/div/div/div[3]/mat-drawer-container/mat-drawer-content/app-user-table/div[2]/perfect-scrollbar/div/div/td-data-table/div/table/tbody/tr[2]/td/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>26e7ff7f-ad85-42bb-812f-9d6b370f840f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>td-data-table-cell-content-wrapper</value>
+      <webElementGuid>0180a106-2cac-47be-a85c-d5378f700351</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>GTGG  Tester 009</value>
+      <webElementGuid>7571f9f0-7c45-4e01-a11f-69a9dfa948d0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mat-tab-content-1-0&quot;)/div[@class=&quot;mat-tab-body-content ng-tns-c369-82 ng-trigger ng-trigger-translateTab&quot;]/div[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;white-container ng-tns-c721-71&quot;]/div[@class=&quot;user-container-body ng-tns-c721-71&quot;]/mat-drawer-container[@class=&quot;mat-drawer-container ng-tns-c721-71&quot;]/mat-drawer-content[@class=&quot;mat-drawer-content&quot;]/app-user-table[1]/div[@class=&quot;container-body&quot;]/perfect-scrollbar[1]/div[@class=&quot;ps&quot;]/div[@class=&quot;ps-content&quot;]/td-data-table[@class=&quot;ng-untouched ng-valid ng-dirty&quot;]/div[@class=&quot;td-data-table-scrollable&quot;]/table[@class=&quot;td-data-table&quot;]/tbody[@class=&quot;td-data-table-body&quot;]/tr[@class=&quot;td-data-table-row ng-star-inserted&quot;]/td[@class=&quot;td-data-table-cell ng-star-inserted&quot;]/div[@class=&quot;td-data-table-cell-content-wrapper&quot;]</value>
+      <webElementGuid>5ff21c53-4696-4759-a3b4-e87b39325a99</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//mat-tab-body[@id='mat-tab-content-1-0']/div/div/div/div[3]/mat-drawer-container/mat-drawer-content/app-user-table/div[2]/perfect-scrollbar/div/div/td-data-table/div/table/tbody/tr[2]/td/div</value>
+      <webElementGuid>988851d9-5c81-4c0a-b6d3-edfd75f28551</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='..'])[1]/following::div[7]</value>
+      <webElementGuid>230540b6-8461-4ff0-b463-22b8e4fb4211</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Active'])[1]/following::div[8]</value>
+      <webElementGuid>8da110ab-c0d6-4118-aea2-6d53bb315d74</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[2]/td/div</value>
+      <webElementGuid>95c5c2b4-0696-4818-912b-6ef11cb8d7ae</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'GTGG  Tester 009' or . = 'GTGG  Tester 009')]</value>
+      <webElementGuid>d2f772b5-b1fc-4e0a-bb70-86701c18a6ff</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

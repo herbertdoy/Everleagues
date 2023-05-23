@@ -75,7 +75,7 @@ WebUI.click(findTestObject('09-Settings/Users/Active User/button_Delete'))
 
 WebUI.delay(GlobalVariable.delay_3seconds)
 
-WebUI.verifyElementPresent(findTestObject('09-Settings/Users/Active User/div_GCGG Client'), 0)
+WebUI.verifyElementPresent(findTestObject('09-Settings/Users/Active User/div_GTGG  Tester 009'), 0)
 
 WebUI.click(findTestObject('09-Settings/Users/Active User/button_ellipses'))
 

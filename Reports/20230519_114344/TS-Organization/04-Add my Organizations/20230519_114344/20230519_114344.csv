@@ -1,0 +1,88 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+04-Add my Organizations,Chrome 113.0.0.0,,,2023-05-19 11:43:51,2023-05-19 11:46:41,2m - 50.499s,PASSED
+,,,,,,,
+Test Cases/04-Add my Organizations/01- Free limited Plan (Blank fields),Chrome 113.0.0.0,,,2023-05-19 11:43:51,2023-05-19 11:45:28,1m - 36.236s,PASSED
+"openBrowser("""")",Chrome 113.0.0.0,,,2023-05-19 11:43:52,2023-05-19 11:43:59,6.484s,PASSED
+navigateToUrl(appURL),Chrome 113.0.0.0,,,2023-05-19 11:43:59,2023-05-19 11:44:10,11.572s,PASSED
+maximizeWindow(),Chrome 113.0.0.0,,,2023-05-19 11:44:10,2023-05-19 11:44:11,1.237s,PASSED
+"callTestCase(findTestCase(""01-Login and Forgot Password/04-Login(Valid Credentials-With Subscription)""), [:], STOP_ON_FAILURE)",Chrome 113.0.0.0,,,2023-05-19 11:44:11,2023-05-19 11:45:11,59.842s,PASSED
+"click(findTestObject(""04-Add my Organizations/Free limited Plan/span_Add My Organization""))",Chrome 113.0.0.0,,,2023-05-19 11:45:11,2023-05-19 11:45:14,2.907s,PASSED
+"verifyElementVisible(findTestObject(""04-Add my Organizations/Free limited Plan/Add my org modal""))",Chrome 113.0.0.0,,,2023-05-19 11:45:14,2023-05-19 11:45:16,2.019s,PASSED
+delay(delay_2seconds),Chrome 113.0.0.0,,,2023-05-19 11:45:16,2023-05-19 11:45:18,2.018s,PASSED
+"click(findTestObject(""04-Add my Organizations/Free limited Plan/input_orgName""))",Chrome 113.0.0.0,,,2023-05-19 11:45:18,2023-05-19 11:45:19,0.501s,PASSED
+"click(findTestObject(""04-Add my Organizations/Free limited Plan/input_org alias""))",Chrome 113.0.0.0,,,2023-05-19 11:45:19,2023-05-19 11:45:19,0.545s,PASSED
+"click(findTestObject(""04-Add my Organizations/Free limited Plan/div_Service Industry_select-arrow""))",Chrome 113.0.0.0,,,2023-05-19 11:45:19,2023-05-19 11:45:20,0.554s,PASSED
+"sendKeys(findTestObject(null), Keys.chord(ESCAPE))",Chrome 113.0.0.0,,,2023-05-19 11:45:20,2023-05-19 11:45:20,0.622s,PASSED
+delay(delay_3seconds),Chrome 113.0.0.0,,,2023-05-19 11:45:20,2023-05-19 11:45:23,3.012s,PASSED
+"verifyElementVisible(findTestObject(""04-Add my Organizations/Free limited Plan/div_OrganizationName_error""))",Chrome 113.0.0.0,,,2023-05-19 11:45:23,2023-05-19 11:45:24,0.428s,PASSED
+"verifyElementVisible(findTestObject(""04-Add my Organizations/Free limited Plan/div_Organization Alias_error""))",Chrome 113.0.0.0,,,2023-05-19 11:45:24,2023-05-19 11:45:24,0.391s,PASSED
+"verifyElementVisible(findTestObject(""04-Add my Organizations/Free limited Plan/div_Service Industry_error""))",Chrome 113.0.0.0,,,2023-05-19 11:45:24,2023-05-19 11:45:25,0.419s,PASSED
+delay(delay_3seconds),Chrome 113.0.0.0,,,2023-05-19 11:45:25,2023-05-19 11:45:28,3.009s,PASSED
+,,,,,,,
+Test Cases/04-Add my Organizations/02- Free limited Plan (Used Org Alias),Chrome 113.0.0.0,,,2023-05-19 11:45:28,2023-05-19 11:45:34,6.355s,PASSED
+"setText(findTestObject(""04-Add my Organizations/Free limited Plan/input_org alias""), ""1234"")",Chrome 113.0.0.0,,,2023-05-19 11:45:28,2023-05-19 11:45:29,0.916s,PASSED
+"click(findTestObject(""04-Add my Organizations/Free limited Plan/input_orgName""))",Chrome 113.0.0.0,,,2023-05-19 11:45:29,2023-05-19 11:45:30,0.521s,PASSED
+"verifyElementVisible(findTestObject(""04-Add my Organizations/Free limited Plan/mat-error_1234 already exists. Please enter another ID""))",Chrome 113.0.0.0,,,2023-05-19 11:45:30,2023-05-19 11:45:31,1.491s,PASSED
+delay(delay_3seconds),Chrome 113.0.0.0,,,2023-05-19 11:45:31,2023-05-19 11:45:34,3.005s,PASSED
+,,,,,,,
+Test Cases/04-Add my Organizations/03- Free limited Plan (Positive Scenarios),Chrome 113.0.0.0,,,2023-05-19 11:45:34,2023-05-19 11:46:41,1m - 7.277s,PASSED
+delay(delay_2seconds),Chrome 113.0.0.0,,,2023-05-19 11:45:35,2023-05-19 11:45:37,2.014s,PASSED
+"setText(findTestObject(""04-Add my Organizations/Free limited Plan/input_orgName""), org_name)",Chrome 113.0.0.0,,,2023-05-19 11:45:37,2023-05-19 11:45:38,0.878s,PASSED
+"setText(findTestObject(""04-Add my Organizations/Free limited Plan/input_org alias""), org_alias)",Chrome 113.0.0.0,,,2023-05-19 11:45:38,2023-05-19 11:45:39,1.212s,PASSED
+"click(findTestObject(""04-Add my Organizations/Free limited Plan/div_Service Industry_select-arrow""), STOP_ON_FAILURE)",Chrome 113.0.0.0,,,2023-05-19 11:45:39,2023-05-19 11:45:39,0.545s,PASSED
+delay(delay_1second),Chrome 113.0.0.0,,,2023-05-19 11:45:39,2023-05-19 11:45:40,1.006s,PASSED
+"verifyElementVisible(findTestObject(""04-Add my Organizations/Free limited Plan/span_CPA_EA_Accounting Firms""))",Chrome 113.0.0.0,,,2023-05-19 11:45:40,2023-05-19 11:45:41,0.776s,PASSED
+"verifyElementVisible(findTestObject(""04-Add my Organizations/Free limited Plan/span_Law Firms""))",Chrome 113.0.0.0,,,2023-05-19 11:45:41,2023-05-19 11:45:41,0.409s,PASSED
+"verifyElementVisible(findTestObject(""04-Add my Organizations/Free limited Plan/span_Medical Service_Physian_Dentist Office""))",Chrome 113.0.0.0,,,2023-05-19 11:45:41,2023-05-19 11:45:42,0.461s,PASSED
+"verifyElementVisible(findTestObject(""04-Add my Organizations/Free limited Plan/span_Education""))",Chrome 113.0.0.0,,,2023-05-19 11:45:42,2023-05-19 11:45:42,0.488s,PASSED
+"verifyElementVisible(findTestObject(""04-Add my Organizations/Free limited Plan/span_Real Estate""))",Chrome 113.0.0.0,,,2023-05-19 11:45:42,2023-05-19 11:45:43,0.464s,PASSED
+"verifyElementVisible(findTestObject(""04-Add my Organizations/Free limited Plan/span_Other Service Business""))",Chrome 113.0.0.0,,,2023-05-19 11:45:43,2023-05-19 11:45:43,0.410s,PASSED
+"verifyElementVisible(findTestObject(""04-Add my Organizations/Free limited Plan/span_Product Business""))",Chrome 113.0.0.0,,,2023-05-19 11:45:43,2023-05-19 11:45:44,0.419s,PASSED
+"verifyElementVisible(findTestObject(""04-Add my Organizations/Free limited Plan/span_Community""))",Chrome 113.0.0.0,,,2023-05-19 11:45:44,2023-05-19 11:45:44,0.409s,PASSED
+"verifyElementVisible(findTestObject(""04-Add my Organizations/Free limited Plan/span_Non Profit Organizations""))",Chrome 113.0.0.0,,,2023-05-19 11:45:44,2023-05-19 11:45:45,0.455s,PASSED
+delay(delay_1second),Chrome 113.0.0.0,,,2023-05-19 11:45:45,2023-05-19 11:45:46,1.006s,PASSED
+"click(findTestObject(""04-Add my Organizations/Free limited Plan/span_Other Service Business""))",Chrome 113.0.0.0,,,2023-05-19 11:45:46,2023-05-19 11:45:46,0.467s,PASSED
+"click(findTestObject(""04-Add my Organizations/Free limited Plan/button_Next""))",Chrome 113.0.0.0,,,2023-05-19 11:45:46,2023-05-19 11:45:47,0.767s,PASSED
+delay(delay_1second),Chrome 113.0.0.0,,,2023-05-19 11:45:47,2023-05-19 11:45:48,1.011s,PASSED
+"verifyElementVisible(findTestObject(""04-Add my Organizations/Free limited Plan/add my org modal 2""))",Chrome 113.0.0.0,,,2023-05-19 11:45:48,2023-05-19 11:45:48,0.425s,PASSED
+"click(findTestObject(""04-Add my Organizations/Free limited Plan/Free limited plan radio button""))",Chrome 113.0.0.0,,,2023-05-19 11:45:48,2023-05-19 11:45:49,0.468s,PASSED
+delay(delay_1second),Chrome 113.0.0.0,,,2023-05-19 11:45:49,2023-05-19 11:45:50,1.012s,PASSED
+"click(findTestObject(""04-Add my Organizations/Free limited Plan/span_Usage limit""))",Chrome 113.0.0.0,,,2023-05-19 11:45:50,2023-05-19 11:45:50,0.596s,PASSED
+switchToWindowIndex(1),Chrome 113.0.0.0,,,2023-05-19 11:45:50,2023-05-19 11:45:51,0.388s,PASSED
+delay(delay_5seconds),Chrome 113.0.0.0,,,2023-05-19 11:45:51,2023-05-19 11:45:56,5.007s,PASSED
+"assert getUrl() == ""https://www.everleagues.com/pricing""",Chrome 113.0.0.0,,,2023-05-19 11:45:56,2023-05-19 11:45:56,0.045s,PASSED
+"closeWindowUrl(""https://www.everleagues.com/pricing"")",Chrome 113.0.0.0,,,2023-05-19 11:45:56,2023-05-19 11:45:56,0.549s,PASSED
+switchToWindowIndex(0),Chrome 113.0.0.0,,,2023-05-19 11:45:56,2023-05-19 11:45:56,0.034s,PASSED
+delay(delay_1second),Chrome 113.0.0.0,,,2023-05-19 11:45:56,2023-05-19 11:45:57,1.017s,PASSED
+"click(findTestObject(""04-Add my Organizations/Free limited Plan/a_open_in_newPricing detail""))",Chrome 113.0.0.0,,,2023-05-19 11:45:57,2023-05-19 11:45:58,0.542s,PASSED
+switchToWindowIndex(1),Chrome 113.0.0.0,,,2023-05-19 11:45:58,2023-05-19 11:45:58,0.186s,PASSED
+delay(delay_5seconds),Chrome 113.0.0.0,,,2023-05-19 11:45:58,2023-05-19 11:46:03,5.015s,PASSED
+"assert getUrl() == ""https://www.everleagues.com/pricing""",Chrome 113.0.0.0,,,2023-05-19 11:46:03,2023-05-19 11:46:03,0.016s,PASSED
+"closeWindowUrl(""https://www.everleagues.com/pricing"")",Chrome 113.0.0.0,,,2023-05-19 11:46:03,2023-05-19 11:46:04,0.433s,PASSED
+switchToWindowIndex(0),Chrome 113.0.0.0,,,2023-05-19 11:46:04,2023-05-19 11:46:04,0.032s,PASSED
+delay(delay_1second),Chrome 113.0.0.0,,,2023-05-19 11:46:04,2023-05-19 11:46:05,1.013s,PASSED
+"click(findTestObject(""04-Add my Organizations/Free limited Plan/button_Next2""))",Chrome 113.0.0.0,,,2023-05-19 11:46:05,2023-05-19 11:46:05,0.473s,PASSED
+delay(delay_1second),Chrome 113.0.0.0,,,2023-05-19 11:46:05,2023-05-19 11:46:06,1.011s,PASSED
+"verifyElementVisible(findTestObject(""04-Add my Organizations/Free limited Plan/add my org modal 3""))",Chrome 113.0.0.0,,,2023-05-19 11:46:06,2023-05-19 11:46:06,0.393s,PASSED
+delay(delay_1second),Chrome 113.0.0.0,,,2023-05-19 11:46:06,2023-05-19 11:46:07,1.014s,PASSED
+"click(findTestObject(""04-Add my Organizations/Free limited Plan/SaaS checkbox""))",Chrome 113.0.0.0,,,2023-05-19 11:46:07,2023-05-19 11:46:08,0.902s,PASSED
+"click(findTestObject(""04-Add my Organizations/Free limited Plan/a_Software as a service (SaaS) subscription agreement""))",Chrome 113.0.0.0,,,2023-05-19 11:46:08,2023-05-19 11:46:09,0.953s,PASSED
+switchToWindowIndex(1),Chrome 113.0.0.0,,,2023-05-19 11:46:09,2023-05-19 11:46:10,0.311s,PASSED
+delay(delay_5seconds),Chrome 113.0.0.0,,,2023-05-19 11:46:10,2023-05-19 11:46:15,5.018s,PASSED
+"assert getUrl() == ""https://www.everleagues.com/saas-agreement/""",Chrome 113.0.0.0,,,2023-05-19 11:46:15,2023-05-19 11:46:19,4.023s,PASSED
+"closeWindowUrl(""https://www.everleagues.com/saas-agreement/"")",Chrome 113.0.0.0,,,2023-05-19 11:46:19,2023-05-19 11:46:19,0.495s,PASSED
+switchToWindowIndex(0),Chrome 113.0.0.0,,,2023-05-19 11:46:19,2023-05-19 11:46:19,0.039s,PASSED
+delay(delay_1second),Chrome 113.0.0.0,,,2023-05-19 11:46:19,2023-05-19 11:46:20,1.012s,PASSED
+"click(findTestObject(""04-Add my Organizations/Free limited Plan/button_Create""))",Chrome 113.0.0.0,,,2023-05-19 11:46:20,2023-05-19 11:46:21,0.873s,PASSED
+delay(delay_1second),Chrome 113.0.0.0,,,2023-05-19 11:46:21,2023-05-19 11:46:22,1.007s,PASSED
+"verifyElementVisible(findTestObject(""04-Add my Organizations/Free limited Plan/Congratulations msg""))",Chrome 113.0.0.0,,,2023-05-19 11:46:22,2023-05-19 11:46:28,5.856s,PASSED
+"verifyElementVisible(findTestObject(""04-Add my Organizations/Free limited Plan/button_SET UP""))",Chrome 113.0.0.0,,,2023-05-19 11:46:28,2023-05-19 11:46:29,1.223s,PASSED
+"verifyElementVisible(findTestObject(""04-Add my Organizations/Free limited Plan/button_INVITE EMPLOYEES etc""))",Chrome 113.0.0.0,,,2023-05-19 11:46:29,2023-05-19 11:46:30,0.398s,PASSED
+"verifyElementVisible(findTestObject(""04-Add my Organizations/Free limited Plan/button_SET UP TEAM""))",Chrome 113.0.0.0,,,2023-05-19 11:46:30,2023-05-19 11:46:30,0.415s,PASSED
+"verifyElementVisible(findTestObject(""04-Add my Organizations/Free limited Plan/button_LEARN MORE""))",Chrome 113.0.0.0,,,2023-05-19 11:46:30,2023-05-19 11:46:30,0.417s,PASSED
+delay(delay_5seconds),Chrome 113.0.0.0,,,2023-05-19 11:46:30,2023-05-19 11:46:35,5.011s,PASSED
+"click(findTestObject(""04-Add my Organizations/Free limited Plan/button_DO THIS LATER""))",Chrome 113.0.0.0,,,2023-05-19 11:46:35,2023-05-19 11:46:36,0.437s,PASSED
+delay(delay_1second),Chrome 113.0.0.0,,,2023-05-19 11:46:36,2023-05-19 11:46:37,1.002s,PASSED
+"verifyElementVisible(findTestObject(""04-Add my Organizations/Free limited Plan/span_GG Automation""))",Chrome 113.0.0.0,,,2023-05-19 11:46:37,2023-05-19 11:46:37,0.391s,PASSED
+delay(delay_1second),Chrome 113.0.0.0,,,2023-05-19 11:46:37,2023-05-19 11:46:38,1.007s,PASSED
+closeBrowser(),Chrome 113.0.0.0,,,2023-05-19 11:46:38,2023-05-19 11:46:41,3.121s,PASSED

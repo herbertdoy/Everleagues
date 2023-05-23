@@ -27,7 +27,7 @@ def random = new Random()
 
 def randomString = Long.toHexString(random.nextLong())
 
-def emailAddress = ('autoTestUser' + randomString) + domainName
+def emailAddress = ('autotestuser' + randomString) + domainName
 
 KeywordUtil.logInfo('Generated email address: ' + emailAddress)
 
