@@ -39,7 +39,7 @@ WebUI.verifyElementClickable(findTestObject('08-Operations/Client Assignment/but
 
 WebUI.click(findTestObject('08-Operations/Client Assignment/button_ Assign'))
 
-WebUI.verifyElementVisible(findTestObject('08-Operations/Client Assignment/Updated assignment msg'))
+WebUI.verifyElementVisible(findTestObject('08-Operations/Client Assignment/snack-bar-container_Updated assignmentOK'))
 
 WebUI.delay(GlobalVariable.delay_1second)
 
@@ -55,7 +55,7 @@ WebUI.verifyElementClickable(findTestObject('08-Operations/Client Assignment/but
 
 WebUI.click(findTestObject('08-Operations/Client Assignment/button_Unassign'))
 
-WebUI.verifyElementVisible(findTestObject('08-Operations/Client Assignment/Updated assignment msg'))
+WebUI.verifyElementVisible(findTestObject('08-Operations/Client Assignment/snack-bar-container_Updated assignmentOK'))
 
 WebUI.delay(GlobalVariable.delay_5seconds)
 

@@ -6,11 +6,11 @@
    <elementGuidId>223746d0-fcf2-4df5-b611-99c7b9b443e1</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='cdk-overlay-3']//mat-dialog-container[1]</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>//div[@id='cdk-overlay-14']//mat-dialog-container[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -6,12 +6,12 @@
    <elementGuidId>5a94bce7-17f6-449d-9a61-0b69f72dca09</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='cdk-overlay-8']/snack-bar-container</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='cdk-overlay-5']/snack-bar-container</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

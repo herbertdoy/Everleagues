@@ -23,7 +23,7 @@ WebUI.rightClick(findTestObject('11-Cloud Files/td_Automation_Driver'))
 
 WebUI.click(findTestObject('11-Cloud Files/button_rename_driver'))
 
-WebUI.verifyElementVisible(findTestObject('11-Cloud Files/modal_rename_driver'))
+WebUI.verifyElementVisible(findTestObject('11-Cloud Files/modal_rename-edit'))
 
 WebUI.setText(findTestObject('11-Cloud Files/input_rename_driver'), GlobalVariable.edit_driver_name)
 
