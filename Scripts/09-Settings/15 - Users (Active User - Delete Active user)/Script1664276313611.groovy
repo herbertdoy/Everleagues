@@ -61,6 +61,20 @@ WebUI.click(findTestObject('09-Settings/Users/Active User/button_Delete'))
 
 WebUI.delay(GlobalVariable.delay_3seconds)
 
+WebUI.verifyElementPresent(findTestObject('09-Settings/Users/Active User/span_GG Tester 009'), 0)
+
+WebUI.click(findTestObject('09-Settings/Users/Active User/button_ellipses'))
+
+WebUI.click(findTestObject('09-Settings/Users/Active User/button_Delete User'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.verifyElementPresent(findTestObject('09-Settings/Users/Active User/h4_Delete User'), 0)
+
+WebUI.delay(GlobalVariable.delay_3seconds)
+
+WebUI.click(findTestObject('09-Settings/Users/Active User/button_Delete'))
+
+WebUI.delay(GlobalVariable.delay_3seconds)
+
 WebUI.verifyElementPresent(findTestObject('09-Settings/Users/Active User/div_GPGG Partner'), 0)
 
 WebUI.click(findTestObject('09-Settings/Users/Active User/button_ellipses'))
@@ -72,22 +86,6 @@ WebUI.verifyElementPresent(findTestObject('09-Settings/Users/Active User/h4_Dele
 WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.click(findTestObject('09-Settings/Users/Active User/button_Delete'))
-
-WebUI.delay(GlobalVariable.delay_3seconds)
-
-WebUI.verifyElementPresent(findTestObject('09-Settings/Users/Active User/div_GTGG  Tester 009'), 0)
-
-WebUI.click(findTestObject('09-Settings/Users/Active User/button_ellipses'))
-
-WebUI.click(findTestObject('09-Settings/Users/Active User/button_Delete User'))
-
-WebUI.verifyElementPresent(findTestObject('09-Settings/Users/Active User/h4_Delete User'), 0)
-
-WebUI.delay(GlobalVariable.delay_3seconds)
-
-WebUI.click(findTestObject('09-Settings/Users/Active User/button_Delete'))
-
-WebUI.verifyElementPresent(findTestObject('09-Settings/Users/Active User/span_Successfully deleted user'), 0)
 
 WebUI.delay(GlobalVariable.delay_4seconds)
 

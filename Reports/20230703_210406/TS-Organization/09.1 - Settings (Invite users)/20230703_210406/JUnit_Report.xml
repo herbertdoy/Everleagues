@@ -1,0 +1,1857 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="09.1 - Settings (Invite users)" time="1174.431" tests="5" failures="0" errors="0">
+   <testsuite name="09.1 - Settings (Invite users)" tests="5" failures="0" errors="0" time="1174.431" skipped="0" timestamp="2023-07-03 21:04:12" hostname="Mike - LAPTOP-LF5VTH4H" id="Test Suites/TS-Organization/09.1 - Settings (Invite users)">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Users\\Michelle\\Project\\Everleagues\\Reports\\20230703_210406\\TS-Organization\\09.1 - Settings (Invite users)\\20230703_210406"/>
+         <property name="logFiles" value="D:\\Users\\Michelle\\Project\\Everleagues\\Reports\\20230703_210406\\TS-Organization\\09.1 - Settings (Invite users)\\20230703_210406\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Mike - LAPTOP-LF5VTH4H"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="8.6.5.208"/>
+         <property name="browser" value="Chrome 114.0.0.0"/>
+         <property name="hostAddress" value="172.20.10.10"/>
+         <property name="sessionId" value="a8e3d43bf6fe1d0e59ad2bd6e6a3a5f4"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/09-Settings/01 - Users (Invite new user but field are blank)" time="116.575" classname="Test Cases/09-Settings/01 - Users (Invite new user but field are blank)" status="PASSED">
+         <system-out><![CDATA[2023-07-03 21:04:13 - [TEST_CASE][PASSED] - Test Cases/09-Settings/01 - Users (Invite new user but field are blank): Test Cases/09-Settings/01 - Users (Invite new user but field are blank)
+
+2023-07-03 21:04:13 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-07-03 21:04:14 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-07-03 21:04:14 - [MESSAGE][INFO] - User set preference: ['args', '[--disable-web-security, --ignore-certificate-errors, --no-first-run, --disable-gpu]']
+
+2023-07-03 21:04:14 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-07-03 21:04:19 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-07-03 21:04:19 - [TEST_STEP][PASSED] - navigateToUrl(appURL): Navigate to 'https://lab.everleagues.com/login' successfully
+
+2023-07-03 21:04:34 - [MESSAGE][PASSED] - Navigate to 'https://lab.everleagues.com/login' successfully
+
+2023-07-03 21:04:34 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-07-03 21:04:34 - [MESSAGE][PASSED] - Current window maximized
+
+2023-07-03 21:04:34 - [TEST_STEP][PASSED] - callTestCase(findTestCase("01-Login and Forgot Password/04-Login(Valid Credentials-With Subscription)"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/01-Login and Forgot Password/04-Login(Valid Credentials-With Subscription)' successfully
+
+2023-07-03 21:04:34 - [TEST_CASE][PASSED] - Test Cases/01-Login and Forgot Password/04-Login(Valid Credentials-With Subscription): Test Cases/01-Login and Forgot Password/04-Login(Valid Credentials-With Subscription)
+
+2023-07-03 21:04:35 - [TEST_STEP][PASSED] - setText(findTestObject("01-Login and Forgot Password/input_Email_email"), email_with_subscription): Text 'testuser05@mailinator.com' is set on object 'Object Repository/01-Login and Forgot Password/input_Email_email'
+
+2023-07-03 21:04:36 - [MESSAGE][PASSED] - Text 'testuser05@mailinator.com' is set on object 'Object Repository/01-Login and Forgot Password/input_Email_email'
+
+2023-07-03 21:04:36 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("01-Login and Forgot Password/input_Email_password"), password): Text ****** has been set on object 'Object Repository/01-Login and Forgot Password/input_Email_password'
+
+2023-07-03 21:04:36 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/01-Login and Forgot Password/input_Email_password'
+
+2023-07-03 21:04:36 - [TEST_STEP][PASSED] - delay(delay_2seconds): Delayed 2 second(s)
+
+2023-07-03 21:04:38 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-07-03 21:04:38 - [TEST_STEP][PASSED] - click(findTestObject("01-Login and Forgot Password/show pass button")): Object: 'Object Repository/01-Login and Forgot Password/show pass button' is clicked on
+
+2023-07-03 21:04:39 - [MESSAGE][PASSED] - Object: 'Object Repository/01-Login and Forgot Password/show pass button' is clicked on
+
+2023-07-03 21:04:39 - [TEST_STEP][PASSED] - delay(delay_3seconds): Delayed 3 second(s)
+
+2023-07-03 21:04:42 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-07-03 21:04:42 - [TEST_STEP][PASSED] - click(findTestObject("01-Login and Forgot Password/button_Sign in")): Object: 'Object Repository/01-Login and Forgot Password/button_Sign in' is clicked on
+
+2023-07-03 21:04:42 - [MESSAGE][PASSED] - Object: 'Object Repository/01-Login and Forgot Password/button_Sign in' is clicked on
+
+2023-07-03 21:04:42 - [TEST_STEP][PASSED] - delay(delay_3seconds): Delayed 3 second(s)
+
+2023-07-03 21:04:46 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-07-03 21:04:46 - [TEST_STEP][PASSED] - click(findTestObject("06-Teams/For 2FA/button_Confirm_2FA")): Object: 'Object Repository/06-Teams/For 2FA/button_Confirm_2FA' is clicked on
+
+2023-07-03 21:04:46 - [MESSAGE][PASSED] - Object: 'Object Repository/06-Teams/For 2FA/button_Confirm_2FA' is clicked on
+
+2023-07-03 21:04:46 - [TEST_STEP][PASSED] - executeJavaScript("window.open();", []): Execute JavaScript 'window.open();' successfully
+
+2023-07-03 21:04:46 - [MESSAGE][PASSED] - Execute JavaScript 'window.open();' successfully
+
+2023-07-03 21:04:46 - [TEST_STEP][PASSED] - currentWindow = getWindowIndex(): Current window's index is: 0
+
+2023-07-03 21:04:46 - [MESSAGE][PASSED] - Current window's index is: 0
+
+2023-07-03 21:04:46 - [TEST_STEP][PASSED] - delay(delay_3seconds): Delayed 3 second(s)
+
+2023-07-03 21:04:49 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-07-03 21:04:49 - [TEST_STEP][PASSED] - switchToWindowIndex(currentWindow + 1): Switched to window with index: '1'
+
+2023-07-03 21:04:49 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2023-07-03 21:04:49 - [TEST_STEP][PASSED] - navigateToUrl(app_mailinator): Navigate to 'https://www.mailinator.com/' successfully
+
+2023-07-03 21:04:57 - [MESSAGE][PASSED] - Navigate to 'https://www.mailinator.com/' successfully
+
+2023-07-03 21:04:57 - [TEST_STEP][PASSED] - delay(delay_3seconds): Delayed 3 second(s)
+
+2023-07-03 21:05:00 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-07-03 21:05:00 - [TEST_STEP][PASSED] - setText(findTestObject("00-Signup and Activation/zMailinator/input_LOGIN_search"), email_for_searchmailinator_testuser05): Text 'testuser05@mailinator.com' is set on object 'Object Repository/00-Signup and Activation/zMailinator/input_LOGIN_search'
+
+2023-07-03 21:05:00 - [MESSAGE][PASSED] - Text 'testuser05@mailinator.com' is set on object 'Object Repository/00-Signup and Activation/zMailinator/input_LOGIN_search'
+
+2023-07-03 21:05:00 - [TEST_STEP][PASSED] - click(findTestObject("00-Signup and Activation/zMailinator/gobutton"), STOP_ON_FAILURE): Object: 'Object Repository/00-Signup and Activation/zMailinator/gobutton' is clicked on
+
+2023-07-03 21:05:05 - [MESSAGE][PASSED] - Object: 'Object Repository/00-Signup and Activation/zMailinator/gobutton' is clicked on
+
+2023-07-03 21:05:05 - [TEST_STEP][PASSED] - delay(delay_3seconds): Delayed 3 second(s)
+
+2023-07-03 21:05:08 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-07-03 21:05:08 - [TEST_STEP][PASSED] - click(findTestObject("00-Signup and Activation/zMailinator/Email - everleagues")): Object: 'Object Repository/00-Signup and Activation/zMailinator/Email - everleagues' is clicked on
+
+2023-07-03 21:05:09 - [MESSAGE][PASSED] - Object: 'Object Repository/00-Signup and Activation/zMailinator/Email - everleagues' is clicked on
+
+2023-07-03 21:05:09 - [TEST_STEP][PASSED] - delay(delay_3seconds): Delayed 3 second(s)
+
+2023-07-03 21:05:12 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-07-03 21:05:12 - [TEST_STEP][PASSED] - code = getText(findTestObject("Object Repository/06-Teams/For 2FA/2FA code")): Text of object 'Object Repository/06-Teams/For 2FA/2FA code' is: '592650'
+
+2023-07-03 21:05:12 - [MESSAGE][PASSED] - Text of object 'Object Repository/06-Teams/For 2FA/2FA code' is: '592650'
+
+2023-07-03 21:05:12 - [TEST_STEP][PASSED] - delay(delay_3seconds): Delayed 3 second(s)
+
+2023-07-03 21:05:15 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-07-03 21:05:15 - [TEST_STEP][PASSED] - closeWindowTitle("Mailinator"): Window with title: 'Mailinator' is closed
+
+2023-07-03 21:05:15 - [MESSAGE][PASSED] - Window with title: 'Mailinator' is closed
+
+2023-07-03 21:05:15 - [TEST_STEP][PASSED] - delay(delay_3seconds): Delayed 3 second(s)
+
+2023-07-03 21:05:18 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-07-03 21:05:18 - [TEST_STEP][PASSED] - switchToWindowIndex(0): Switched to window with index: '0'
+
+2023-07-03 21:05:18 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2023-07-03 21:05:18 - [TEST_STEP][PASSED] - delay(delay_3seconds): Delayed 3 second(s)
+
+2023-07-03 21:05:21 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-07-03 21:05:21 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/06-Teams/For 2FA/input_Enter verification code_code"), code): Text '592650' is set on object 'Object Repository/06-Teams/For 2FA/input_Enter verification code_code'
+
+2023-07-03 21:05:22 - [MESSAGE][PASSED] - Text '592650' is set on object 'Object Repository/06-Teams/For 2FA/input_Enter verification code_code'
+
+2023-07-03 21:05:22 - [TEST_STEP][PASSED] - delay(delay_3seconds): Delayed 3 second(s)
+
+2023-07-03 21:05:25 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-07-03 21:05:25 - [TEST_STEP][PASSED] - click(findTestObject("06-Teams/For 2FA/button_Verify_2FA")): Object: 'Object Repository/06-Teams/For 2FA/button_Verify_2FA' is clicked on
+
+2023-07-03 21:05:26 - [MESSAGE][PASSED] - Object: 'Object Repository/06-Teams/For 2FA/button_Verify_2FA' is clicked on
+
+2023-07-03 21:05:26 - [TEST_STEP][PASSED] - delay(delay_3seconds): Delayed 3 second(s)
+
+2023-07-03 21:05:29 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-07-03 21:05:29 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/01-Login and Forgot Password/04-Login(Valid Credentials-With Subscription)' successfully
+
+2023-07-03 21:05:29 - [TEST_STEP][PASSED] - click(findTestObject("06-Teams/button_doublearrow")): Object: 'Object Repository/06-Teams/button_doublearrow' is clicked on
+
+2023-07-03 21:05:34 - [MESSAGE][PASSED] - Object: 'Object Repository/06-Teams/button_doublearrow' is clicked on
+
+2023-07-03 21:05:34 - [TEST_STEP][PASSED] - click(findTestObject("06-Teams/button_My Organizations")): Object: 'Object Repository/06-Teams/button_My Organizations' is clicked on
+
+2023-07-03 21:05:35 - [MESSAGE][PASSED] - Object: 'Object Repository/06-Teams/button_My Organizations' is clicked on
+
+2023-07-03 21:05:35 - [TEST_STEP][PASSED] - click(findTestObject("06-Teams/button_GG Automation")): Object: 'Object Repository/06-Teams/button_GG Automation' is clicked on
+
+2023-07-03 21:05:36 - [MESSAGE][PASSED] - Object: 'Object Repository/06-Teams/button_GG Automation' is clicked on
+
+2023-07-03 21:05:36 - [TEST_STEP][PASSED] - delay(delay_4seconds): Delayed 4 second(s)
+
+2023-07-03 21:05:40 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2023-07-03 21:05:40 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("06-Teams/span_GG Automation")): Object 'Object Repository/06-Teams/span_GG Automation' is visible
+
+2023-07-03 21:05:40 - [MESSAGE][PASSED] - Object 'Object Repository/06-Teams/span_GG Automation' is visible
+
+2023-07-03 21:05:40 - [TEST_STEP][PASSED] - delay(delay_5seconds): Delayed 5 second(s)
+
+2023-07-03 21:05:45 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-07-03 21:05:45 - [TEST_STEP][PASSED] - click(findTestObject("03-Header Menu/Hamburger Button/div_Settings")): Object: 'Object Repository/03-Header Menu/Hamburger Button/div_Settings' is clicked on
+
+2023-07-03 21:05:46 - [MESSAGE][PASSED] - Object: 'Object Repository/03-Header Menu/Hamburger Button/div_Settings' is clicked on
+
+2023-07-03 21:05:46 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("09-Settings/Users/div_Organization")): Object 'Object Repository/09-Settings/Users/div_Organization' is visible
+
+2023-07-03 21:05:47 - [MESSAGE][PASSED] - Object 'Object Repository/09-Settings/Users/div_Organization' is visible
+
+2023-07-03 21:05:47 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("09-Settings/Users/div_Organization Units")): Object 'Object Repository/09-Settings/Users/div_Organization Units' is visible
+
+2023-07-03 21:05:47 - [MESSAGE][PASSED] - Object 'Object Repository/09-Settings/Users/div_Organization Units' is visible
+
+2023-07-03 21:05:47 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("09-Settings/Users/div_Subscriptions"), 0): Scroll to object 'Object Repository/09-Settings/Users/div_Subscriptions' successfully
+
+2023-07-03 21:05:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 21:05:48 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/09-Settings/Users/div_Subscriptions' successfully
+
+2023-07-03 21:05:48 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("09-Settings/Users/div_Subscriptions")): Object 'Object Repository/09-Settings/Users/div_Subscriptions' is visible
+
+2023-07-03 21:05:48 - [MESSAGE][PASSED] - Object 'Object Repository/09-Settings/Users/div_Subscriptions' is visible
+
+2023-07-03 21:05:48 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("09-Settings/Users/div_Users")): Object 'Object Repository/09-Settings/Users/div_Users' is visible
+
+2023-07-03 21:05:48 - [MESSAGE][PASSED] - Object 'Object Repository/09-Settings/Users/div_Users' is visible
+
+2023-07-03 21:05:48 - [TEST_STEP][PASSED] - delay(delay_3seconds): Delayed 3 second(s)
+
+2023-07-03 21:05:51 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-07-03 21:05:51 - [TEST_STEP][PASSED] - click(findTestObject("09-Settings/Users/div_Users")): Object: 'Object Repository/09-Settings/Users/div_Users' is clicked on
+
+2023-07-03 21:05:53 - [MESSAGE][PASSED] - Object: 'Object Repository/09-Settings/Users/div_Users' is clicked on
+
+2023-07-03 21:05:53 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("09-Settings/Users/h4_USERS")): Object 'Object Repository/09-Settings/Users/h4_USERS' is visible
+
+2023-07-03 21:05:54 - [MESSAGE][PASSED] - Object 'Object Repository/09-Settings/Users/h4_USERS' is visible
+
+2023-07-03 21:05:54 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("09-Settings/Users/User Page")): Object 'Object Repository/09-Settings/Users/User Page' is visible
+
+2023-07-03 21:05:55 - [MESSAGE][PASSED] - Object 'Object Repository/09-Settings/Users/User Page' is visible
+
+2023-07-03 21:05:55 - [TEST_STEP][PASSED] - delay(delay_3seconds): Delayed 3 second(s)
+
+2023-07-03 21:05:58 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-07-03 21:05:58 - [TEST_STEP][PASSED] - click(findTestObject("09-Settings/Users/button_add")): Object: 'Object Repository/09-Settings/Users/button_add' is clicked on
+
+2023-07-03 21:05:58 - [MESSAGE][PASSED] - Object: 'Object Repository/09-Settings/Users/button_add' is clicked on
+
+2023-07-03 21:05:58 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("09-Settings/Users/User Invitation modal")): Object 'Object Repository/09-Settings/Users/User Invitation modal' is visible
+
+2023-07-03 21:05:59 - [MESSAGE][PASSED] - Object 'Object Repository/09-Settings/Users/User Invitation modal' is visible
+
+2023-07-03 21:05:59 - [TEST_STEP][PASSED] - delay(delay_3seconds): Delayed 3 second(s)
+
+2023-07-03 21:06:02 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-07-03 21:06:02 - [TEST_STEP][PASSED] - click(findTestObject("09-Settings/Users/add Invite a single user")): Object: 'Object Repository/09-Settings/Users/add Invite a single user' is clicked on
+
+2023-07-03 21:06:03 - [MESSAGE][PASSED] - Object: 'Object Repository/09-Settings/Users/add Invite a single user' is clicked on
+
+2023-07-03 21:06:03 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("09-Settings/Users/Invite new user modal")): Object 'Object Repository/09-Settings/Users/Invite new user modal' is visible
+
+2023-07-03 21:06:04 - [MESSAGE][PASSED] - Object 'Object Repository/09-Settings/Users/Invite new user modal' is visible
+
+2023-07-03 21:06:04 - [TEST_STEP][PASSED] - click(findTestObject("09-Settings/Users/input_email")): Object: 'Object Repository/09-Settings/Users/input_email' is clicked on
+
+2023-07-03 21:06:05 - [MESSAGE][PASSED] - Object: 'Object Repository/09-Settings/Users/input_email' is clicked on
+
+2023-07-03 21:06:05 - [TEST_STEP][PASSED] - click(findTestObject("09-Settings/Users/input_firstName")): Object: 'Object Repository/09-Settings/Users/input_firstName' is clicked on
+
+2023-07-03 21:06:05 - [MESSAGE][PASSED] - Object: 'Object Repository/09-Settings/Users/input_firstName' is clicked on
+
+2023-07-03 21:06:05 - [TEST_STEP][PASSED] - click(findTestObject("09-Settings/Users/input_lastName")): Object: 'Object Repository/09-Settings/Users/input_lastName' is clicked on
+
+2023-07-03 21:06:06 - [MESSAGE][PASSED] - Object: 'Object Repository/09-Settings/Users/input_lastName' is clicked on
+
+2023-07-03 21:06:06 - [TEST_STEP][PASSED] - click(findTestObject("09-Settings/Users/span_Role")): Object: 'Object Repository/09-Settings/Users/span_Role' is clicked on
+
+2023-07-03 21:06:07 - [MESSAGE][PASSED] - Object: 'Object Repository/09-Settings/Users/span_Role' is clicked on
+
+2023-07-03 21:06:07 - [TEST_STEP][PASSED] - clickOffset(findTestObject("09-Settings/Users/h4_Invite New User"), 100, 100): Object: 'Object Repository/09-Settings/Users/h4_Invite New User' is clicked on using offset x=100 and y=100
+
+2023-07-03 21:06:07 - [MESSAGE][PASSED] - Object: 'Object Repository/09-Settings/Users/h4_Invite New User' is clicked on using offset x=100 and y=100
+
+2023-07-03 21:06:07 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("09-Settings/Users/Email required")): Object 'Object Repository/09-Settings/Users/Email required' is visible
+
+2023-07-03 21:06:08 - [MESSAGE][PASSED] - Object 'Object Repository/09-Settings/Users/Email required' is visible
+
+2023-07-03 21:06:08 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("09-Settings/Users/Firstname required")): Object 'Object Repository/09-Settings/Users/Firstname required' is visible
+
+2023-07-03 21:06:08 - [MESSAGE][PASSED] - Object 'Object Repository/09-Settings/Users/Firstname required' is visible
+
+2023-07-03 21:06:08 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("09-Settings/Users/last name required")): Object 'Object Repository/09-Settings/Users/last name required' is visible
+
+2023-07-03 21:06:09 - [MESSAGE][PASSED] - Object 'Object Repository/09-Settings/Users/last name required' is visible
+
+2023-07-03 21:06:09 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("09-Settings/Users/error_Select a role")): Object 'Object Repository/09-Settings/Users/error_Select a role' is visible
+
+2023-07-03 21:06:09 - [MESSAGE][PASSED] - Object 'Object Repository/09-Settings/Users/error_Select a role' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/09-Settings/02 - Users (Invite new user as co worker)" time="360.655" classname="Test Cases/09-Settings/02 - Users (Invite new user as co worker)" status="PASSED">
+         <system-out><![CDATA[2023-07-03 21:06:09 - [TEST_CASE][PASSED] - Test Cases/09-Settings/02 - Users (Invite new user as co worker): Test Cases/09-Settings/02 - Users (Invite new user as co worker)
+
+2023-07-03 21:06:10 - [TEST_STEP][PASSED] - delay(delay_3seconds): Delayed 3 second(s)
+
+2023-07-03 21:06:13 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-07-03 21:06:13 - [TEST_STEP][PASSED] - setText(findTestObject("09-Settings/Users/input_email"), email_for_auto4): Text 'autotester04@mailinator.com' is set on object 'Object Repository/09-Settings/Users/input_email'
+
+2023-07-03 21:06:14 - [MESSAGE][PASSED] - Text 'autotester04@mailinator.com' is set on object 'Object Repository/09-Settings/Users/input_email'
+
+2023-07-03 21:06:14 - [TEST_STEP][PASSED] - setText(findTestObject("09-Settings/Users/input_firstName"), "GG"): Text 'GG' is set on object 'Object Repository/09-Settings/Users/input_firstName'
+
+2023-07-03 21:06:15 - [MESSAGE][PASSED] - Text 'GG' is set on object 'Object Repository/09-Settings/Users/input_firstName'
+
+2023-07-03 21:06:15 - [TEST_STEP][PASSED] - setText(findTestObject("09-Settings/Users/input_lastName"), "Auto Contact 2"): Text 'Auto Contact 2' is set on object 'Object Repository/09-Settings/Users/input_lastName'
+
+2023-07-03 21:06:16 - [MESSAGE][PASSED] - Text 'Auto Contact 2' is set on object 'Object Repository/09-Settings/Users/input_lastName'
+
+2023-07-03 21:06:16 - [TEST_STEP][PASSED] - click(findTestObject("09-Settings/Users/span_Role")): Object: 'Object Repository/09-Settings/Users/span_Role' is clicked on
+
+2023-07-03 21:06:16 - [MESSAGE][PASSED] - Object: 'Object Repository/09-Settings/Users/span_Role' is clicked on
+
+2023-07-03 21:06:16 - [TEST_STEP][PASSED] - click(findTestObject("09-Settings/Users/span_CoWorker")): Object: 'Object Repository/09-Settings/Users/span_CoWorker' is clicked on
+
+2023-07-03 21:06:17 - [MESSAGE][PASSED] - Object: 'Object Repository/09-Settings/Users/span_CoWorker' is clicked on
+
+2023-07-03 21:06:17 - [TEST_STEP][PASSED] - click(findTestObject("09-Settings/Users/button_Send Invitation")): Object: 'Object Repository/09-Settings/Users/button_Send Invitation' is clicked on
+
+2023-07-03 21:06:18 - [MESSAGE][PASSED] - Object: 'Object Repository/09-Settings/Users/button_Send Invitation' is clicked on
+
+2023-07-03 21:06:18 - [TEST_STEP][PASSED] - delay(delay_2seconds): Delayed 2 second(s)
+
+2023-07-03 21:06:20 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-07-03 21:06:20 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("07-Directory/Connections/zContact Profile/Successfully invited user")): Object 'Object Repository/07-Directory/Connections/zContact Profile/Successfully invited user' is visible
+
+2023-07-03 21:06:22 - [MESSAGE][PASSED] - Object 'Object Repository/07-Directory/Connections/zContact Profile/Successfully invited user' is visible
+
+2023-07-03 21:06:22 - [TEST_STEP][PASSED] - delay(delay_2seconds): Delayed 2 second(s)
+
+2023-07-03 21:06:24 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-07-03 21:06:24 - [TEST_STEP][PASSED] - executeJavaScript("window.open();", []): Execute JavaScript 'window.open();' successfully
+
+2023-07-03 21:06:24 - [MESSAGE][PASSED] - Execute JavaScript 'window.open();' successfully
+
+2023-07-03 21:06:24 - [TEST_STEP][PASSED] - currentWindow = getWindowIndex(): Current window's index is: 0
+
+2023-07-03 21:06:24 - [MESSAGE][PASSED] - Current window's index is: 0
+
+2023-07-03 21:06:24 - [TEST_STEP][PASSED] - delay(delay_3seconds): Delayed 3 second(s)
+
+2023-07-03 21:06:27 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-07-03 21:06:27 - [TEST_STEP][PASSED] - switchToWindowIndex(currentWindow + 1): Switched to window with index: '1'
+
+2023-07-03 21:06:27 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2023-07-03 21:06:27 - [TEST_STEP][PASSED] - navigateToUrl("https://www.mailinator.com/"): Navigate to 'https://www.mailinator.com/' successfully
+
+2023-07-03 21:06:30 - [MESSAGE][PASSED] - Navigate to 'https://www.mailinator.com/' successfully
+
+2023-07-03 21:06:30 - [TEST_STEP][PASSED] - delay(delay_3seconds): Delayed 3 second(s)
+
+2023-07-03 21:06:33 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-07-03 21:06:33 - [TEST_STEP][PASSED] - setText(findTestObject("00-Signup and Activation/zMailinator/input_LOGIN_search"), email_for_auto4): Text 'autotester04@mailinator.com' is set on object 'Object Repository/00-Signup and Activation/zMailinator/input_LOGIN_search'
+
+2023-07-03 21:06:34 - [MESSAGE][PASSED] - Text 'autotester04@mailinator.com' is set on object 'Object Repository/00-Signup and Activation/zMailinator/input_LOGIN_search'
+
+2023-07-03 21:06:34 - [TEST_STEP][PASSED] - click(findTestObject("00-Signup and Activation/zMailinator/gobutton"), STOP_ON_FAILURE): Object: 'Object Repository/00-Signup and Activation/zMailinator/gobutton' is clicked on
+
+2023-07-03 21:06:35 - [MESSAGE][PASSED] - Object: 'Object Repository/00-Signup and Activation/zMailinator/gobutton' is clicked on
+
+2023-07-03 21:06:35 - [TEST_STEP][PASSED] - delay(delay_3seconds): Delayed 3 second(s)
+
+2023-07-03 21:06:38 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-07-03 21:06:38 - [TEST_STEP][PASSED] - closeWindowTitle("Everleagues"): Window with title: 'Everleagues' is closed
+
+2023-07-03 21:06:38 - [MESSAGE][PASSED] - Window with title: 'Everleagues' is closed
+
+2023-07-03 21:06:38 - [TEST_STEP][PASSED] - switchToWindowIndex(0): Switched to window with index: '0'
+
+2023-07-03 21:06:38 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2023-07-03 21:06:38 - [TEST_STEP][PASSED] - click(findTestObject("09-Settings/Users/Co worker/td_Invitation from GG Automation")): Object: 'Object Repository/09-Settings/Users/Co worker/td_Invitation from GG Automation' is clicked on
+
+2023-07-03 21:06:39 - [MESSAGE][PASSED] - Object: 'Object Repository/09-Settings/Users/Co worker/td_Invitation from GG Automation' is clicked on
+
+2023-07-03 21:06:39 - [TEST_STEP][PASSED] - click(findTestObject("09-Settings/Users/Co worker/a_Click here to join GG Automation on EverLeagues")): Object: 'Object Repository/09-Settings/Users/Co worker/a_Click here to join GG Automation on EverLeagues' is clicked on
+
+2023-07-03 21:06:40 - [MESSAGE][PASSED] - Object: 'Object Repository/09-Settings/Users/Co worker/a_Click here to join GG Automation on EverLeagues' is clicked on
+
+2023-07-03 21:06:40 - [TEST_STEP][PASSED] - closeWindowTitle("Mailinator"): Window with title: 'Mailinator' is closed
+
+2023-07-03 21:06:40 - [MESSAGE][PASSED] - Window with title: 'Mailinator' is closed
+
+2023-07-03 21:06:40 - [TEST_STEP][PASSED] - switchToWindowIndex(0): Switched to window with index: '0'
+
+2023-07-03 21:06:40 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2023-07-03 21:06:40 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("09-Settings/Users/Co worker/Logout before proceed modal")): Object 'Object Repository/09-Settings/Users/Co worker/Logout before proceed modal' is visible
+
+2023-07-03 21:06:51 - [MESSAGE][PASSED] - Object 'Object Repository/09-Settings/Users/Co worker/Logout before proceed modal' is visible
+
+2023-07-03 21:06:51 - [TEST_STEP][PASSED] - click(findTestObject("09-Settings/Users/Co worker/button_Yes")): Object: 'Object Repository/09-Settings/Users/Co worker/button_Yes' is clicked on
+
+2023-07-03 21:06:51 - [MESSAGE][PASSED] - Object: 'Object Repository/09-Settings/Users/Co worker/button_Yes' is clicked on
+
+2023-07-03 21:06:51 - [TEST_STEP][PASSED] - delay(delay_3seconds): Delayed 3 second(s)
+
+2023-07-03 21:06:54 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-07-03 21:06:54 - [TEST_STEP][PASSED] - setText(findTestObject("09-Settings/Users/input_email"), email_for_auto4): Text 'autotester04@mailinator.com' is set on object 'Object Repository/09-Settings/Users/input_email'
+
+2023-07-03 21:07:55 - [MESSAGE][PASSED] - Text 'autotester04@mailinator.com' is set on object 'Object Repository/09-Settings/Users/input_email'
+
+2023-07-03 21:07:55 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("09-Settings/Users/Co worker/input_password"), password): Text ****** has been set on object 'Object Repository/09-Settings/Users/Co worker/input_password'
+
+2023-07-03 21:08:25 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/09-Settings/Users/Co worker/input_password'
+
+2023-07-03 21:08:25 - [TEST_STEP][PASSED] - click(findTestObject("02-Side Icons(Organization)/Add Contact/button_Sign in")): Object: 'Object Repository/02-Side Icons(Organization)/Add Contact/button_Sign in' is clicked on
+
+2023-07-03 21:08:55 - [MESSAGE][PASSED] - Object: 'Object Repository/02-Side Icons(Organization)/Add Contact/button_Sign in' is clicked on
+
+2023-07-03 21:08:55 - [TEST_STEP][PASSED] - delay(delay_2seconds): Delayed 2 second(s)
+
+2023-07-03 21:08:57 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-07-03 21:08:57 - [TEST_STEP][PASSED] - click(findTestObject("06-Teams/For 2FA/button_Confirm_2FA")): Object: 'Object Repository/06-Teams/For 2FA/button_Confirm_2FA' is clicked on
+
+2023-07-03 21:09:28 - [MESSAGE][PASSED] - Object: 'Object Repository/06-Teams/For 2FA/button_Confirm_2FA' is clicked on
+
+2023-07-03 21:09:28 - [TEST_STEP][PASSED] - executeJavaScript("window.open();", []): Execute JavaScript 'window.open();' successfully
+
+2023-07-03 21:09:28 - [MESSAGE][PASSED] - Execute JavaScript 'window.open();' successfully
+
+2023-07-03 21:09:28 - [TEST_STEP][PASSED] - currentWindow = getWindowIndex(): Current window's index is: 0
+
+2023-07-03 21:09:28 - [MESSAGE][PASSED] - Current window's index is: 0
+
+2023-07-03 21:09:28 - [TEST_STEP][PASSED] - delay(delay_3seconds): Delayed 3 second(s)
+
+2023-07-03 21:09:31 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-07-03 21:09:31 - [TEST_STEP][PASSED] - switchToWindowIndex(currentWindow + 1): Switched to window with index: '1'
+
+2023-07-03 21:09:31 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2023-07-03 21:09:31 - [TEST_STEP][PASSED] - navigateToUrl(app_mailinator): Navigate to 'https://www.mailinator.com/' successfully
+
+2023-07-03 21:09:34 - [MESSAGE][PASSED] - Navigate to 'https://www.mailinator.com/' successfully
+
+2023-07-03 21:09:34 - [TEST_STEP][PASSED] - delay(delay_3seconds): Delayed 3 second(s)
+
+2023-07-03 21:09:37 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-07-03 21:09:37 - [TEST_STEP][PASSED] - setText(findTestObject("00-Signup and Activation/zMailinator/input_LOGIN_search"), email_for_auto4): Text 'autotester04@mailinator.com' is set on object 'Object Repository/00-Signup and Activation/zMailinator/input_LOGIN_search'
+
+2023-07-03 21:09:37 - [MESSAGE][PASSED] - Text 'autotester04@mailinator.com' is set on object 'Object Repository/00-Signup and Activation/zMailinator/input_LOGIN_search'
+
+2023-07-03 21:09:37 - [TEST_STEP][PASSED] - click(findTestObject("00-Signup and Activation/zMailinator/gobutton"), STOP_ON_FAILURE): Object: 'Object Repository/00-Signup and Activation/zMailinator/gobutton' is clicked on
+
+2023-07-03 21:09:38 - [MESSAGE][PASSED] - Object: 'Object Repository/00-Signup and Activation/zMailinator/gobutton' is clicked on
+
+2023-07-03 21:09:38 - [TEST_STEP][PASSED] - delay(delay_3seconds): Delayed 3 second(s)
+
+2023-07-03 21:09:41 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-07-03 21:09:41 - [TEST_STEP][PASSED] - click(findTestObject("00-Signup and Activation/zMailinator/Email - everleagues")): Object: 'Object Repository/00-Signup and Activation/zMailinator/Email - everleagues' is clicked on
+
+2023-07-03 21:09:42 - [MESSAGE][PASSED] - Object: 'Object Repository/00-Signup and Activation/zMailinator/Email - everleagues' is clicked on
+
+2023-07-03 21:09:42 - [TEST_STEP][PASSED] - delay(delay_3seconds): Delayed 3 second(s)
+
+2023-07-03 21:09:45 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-07-03 21:09:45 - [TEST_STEP][PASSED] - codetwo = getText(findTestObject("Object Repository/06-Teams/For 2FA/2FA code")): Text of object 'Object Repository/06-Teams/For 2FA/2FA code' is: '479335'
+
+2023-07-03 21:09:45 - [MESSAGE][PASSED] - Text of object 'Object Repository/06-Teams/For 2FA/2FA code' is: '479335'
+
+2023-07-03 21:09:45 - [TEST_STEP][PASSED] - delay(delay_3seconds): Delayed 3 second(s)
+
+2023-07-03 21:09:48 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-07-03 21:09:48 - [TEST_STEP][PASSED] - closeWindowTitle("Mailinator"): Window with title: 'Mailinator' is closed
+
+2023-07-03 21:09:48 - [MESSAGE][PASSED] - Window with title: 'Mailinator' is closed
+
+2023-07-03 21:09:48 - [TEST_STEP][PASSED] - delay(delay_3seconds): Delayed 3 second(s)
+
+2023-07-03 21:09:51 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-07-03 21:09:51 - [TEST_STEP][PASSED] - switchToWindowIndex(0): Switched to window with index: '0'
+
+2023-07-03 21:09:51 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2023-07-03 21:09:51 - [TEST_STEP][PASSED] - delay(delay_3seconds): Delayed 3 second(s)
+
+2023-07-03 21:09:55 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-07-03 21:09:55 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/06-Teams/For 2FA/input_Enter verification code_code"), codetwo): Text '479335' is set on object 'Object Repository/06-Teams/For 2FA/input_Enter verification code_code'
+
+2023-07-03 21:10:55 - [MESSAGE][PASSED] - Text '479335' is set on object 'Object Repository/06-Teams/For 2FA/input_Enter verification code_code'
+
+2023-07-03 21:10:55 - [TEST_STEP][PASSED] - delay(delay_3seconds): Delayed 3 second(s)
+
+2023-07-03 21:10:58 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-07-03 21:10:58 - [TEST_STEP][PASSED] - click(findTestObject("06-Teams/For 2FA/button_Verify_2FA")): Object: 'Object Repository/06-Teams/For 2FA/button_Verify_2FA' is clicked on
+
+2023-07-03 21:11:28 - [MESSAGE][PASSED] - Object: 'Object Repository/06-Teams/For 2FA/button_Verify_2FA' is clicked on
+
+2023-07-03 21:11:28 - [TEST_STEP][PASSED] - delay(delay_5seconds): Delayed 5 second(s)
+
+2023-07-03 21:11:33 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-07-03 21:11:33 - [TEST_STEP][PASSED] - executeJavaScript("window.open();", []): Execute JavaScript 'window.open();' successfully
+
+2023-07-03 21:11:33 - [MESSAGE][PASSED] - Execute JavaScript 'window.open();' successfully
+
+2023-07-03 21:11:33 - [TEST_STEP][PASSED] - currentWindow = getWindowIndex(): Current window's index is: 0
+
+2023-07-03 21:11:33 - [MESSAGE][PASSED] - Current window's index is: 0
+
+2023-07-03 21:11:33 - [TEST_STEP][PASSED] - delay(delay_3seconds): Delayed 3 second(s)
+
+2023-07-03 21:11:36 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-07-03 21:11:36 - [TEST_STEP][PASSED] - switchToWindowIndex(currentWindow + 1): Switched to window with index: '1'
+
+2023-07-03 21:11:36 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2023-07-03 21:11:36 - [TEST_STEP][PASSED] - navigateToUrl(app_mailinator): Navigate to 'https://www.mailinator.com/' successfully
+
+2023-07-03 21:11:40 - [MESSAGE][PASSED] - Navigate to 'https://www.mailinator.com/' successfully
+
+2023-07-03 21:11:40 - [TEST_STEP][PASSED] - delay(delay_3seconds): Delayed 3 second(s)
+
+2023-07-03 21:11:43 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-07-03 21:11:43 - [TEST_STEP][PASSED] - setText(findTestObject("00-Signup and Activation/zMailinator/input_LOGIN_search"), email_for_auto4): Text 'autotester04@mailinator.com' is set on object 'Object Repository/00-Signup and Activation/zMailinator/input_LOGIN_search'
+
+2023-07-03 21:11:44 - [MESSAGE][PASSED] - Text 'autotester04@mailinator.com' is set on object 'Object Repository/00-Signup and Activation/zMailinator/input_LOGIN_search'
+
+2023-07-03 21:11:44 - [TEST_STEP][PASSED] - click(findTestObject("00-Signup and Activation/zMailinator/gobutton"), STOP_ON_FAILURE): Object: 'Object Repository/00-Signup and Activation/zMailinator/gobutton' is clicked on
+
+2023-07-03 21:11:46 - [MESSAGE][PASSED] - Object: 'Object Repository/00-Signup and Activation/zMailinator/gobutton' is clicked on
+
+2023-07-03 21:11:46 - [TEST_STEP][PASSED] - delay(delay_3seconds): Delayed 3 second(s)
+
+2023-07-03 21:11:49 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-07-03 21:11:49 - [TEST_STEP][PASSED] - closeWindowTitle("Everleagues"): Window with title: 'Everleagues' is closed
+
+2023-07-03 21:11:49 - [MESSAGE][PASSED] - Window with title: 'Everleagues' is closed
+
+2023-07-03 21:11:49 - [TEST_STEP][PASSED] - switchToWindowIndex(0): Switched to window with index: '0'
+
+2023-07-03 21:11:49 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2023-07-03 21:11:49 - [TEST_STEP][PASSED] - click(findTestObject("09-Settings/Users/Co worker/td_Invitation from GG Automation")): Object: 'Object Repository/09-Settings/Users/Co worker/td_Invitation from GG Automation' is clicked on
+
+2023-07-03 21:11:50 - [MESSAGE][PASSED] - Object: 'Object Repository/09-Settings/Users/Co worker/td_Invitation from GG Automation' is clicked on
+
+2023-07-03 21:11:50 - [TEST_STEP][PASSED] - click(findTestObject("09-Settings/Users/Co worker/a_Click here to join GG Automation on EverLeagues")): Object: 'Object Repository/09-Settings/Users/Co worker/a_Click here to join GG Automation on EverLeagues' is clicked on
+
+2023-07-03 21:11:51 - [MESSAGE][PASSED] - Object: 'Object Repository/09-Settings/Users/Co worker/a_Click here to join GG Automation on EverLeagues' is clicked on
+
+2023-07-03 21:11:51 - [TEST_STEP][PASSED] - delay(delay_3seconds): Delayed 3 second(s)
+
+2023-07-03 21:11:54 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-07-03 21:11:54 - [TEST_STEP][PASSED] - closeWindowTitle("Mailinator"): Window with title: 'Mailinator' is closed
+
+2023-07-03 21:11:56 - [MESSAGE][PASSED] - Window with title: 'Mailinator' is closed
+
+2023-07-03 21:11:56 - [TEST_STEP][PASSED] - switchToWindowIndex(0): Switched to window with index: '0'
+
+2023-07-03 21:11:56 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2023-07-03 21:11:56 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("09-Settings/Users/Co worker/Invite modal")): Object 'Object Repository/09-Settings/Users/Co worker/Invite modal' is visible
+
+2023-07-03 21:12:00 - [MESSAGE][PASSED] - Object 'Object Repository/09-Settings/Users/Co worker/Invite modal' is visible
+
+2023-07-03 21:12:00 - [TEST_STEP][PASSED] - click(findTestObject("09-Settings/Users/Co worker/button_Accept")): Object: 'Object Repository/09-Settings/Users/Co worker/button_Accept' is clicked on
+
+2023-07-03 21:12:01 - [MESSAGE][PASSED] - Object: 'Object Repository/09-Settings/Users/Co worker/button_Accept' is clicked on
+
+2023-07-03 21:12:01 - [TEST_STEP][PASSED] - delay(delay_5seconds): Delayed 5 second(s)
+
+2023-07-03 21:12:06 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-07-03 21:12:06 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("09-Settings/Users/Co worker/div_Joined as CoWorker")): Object 'Object Repository/09-Settings/Users/Co worker/div_Joined as CoWorker' is visible
+
+2023-07-03 21:12:09 - [MESSAGE][PASSED] - Object 'Object Repository/09-Settings/Users/Co worker/div_Joined as CoWorker' is visible
+
+2023-07-03 21:12:09 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-07-03 21:12:10 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/09-Settings/03 - Users (Invite new user as client)" time="238.075" classname="Test Cases/09-Settings/03 - Users (Invite new user as client)" status="PASSED">
+         <system-out><![CDATA[2023-07-03 21:12:10 - [TEST_CASE][PASSED] - Test Cases/09-Settings/03 - Users (Invite new user as client): Test Cases/09-Settings/03 - Users (Invite new user as client)
+
+2023-07-03 21:12:10 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-07-03 21:12:10 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-07-03 21:12:10 - [MESSAGE][INFO] - User set preference: ['args', '[--disable-web-security, --ignore-certificate-errors, --no-first-run, --disable-gpu]']
+
+2023-07-03 21:12:10 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-07-03 21:12:12 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-07-03 21:12:12 - [TEST_STEP][PASSED] - navigateToUrl(appURL): Navigate to 'https://lab.everleagues.com/login' successfully
+
+2023-07-03 21:12:25 - [MESSAGE][PASSED] - Navigate to 'https://lab.everleagues.com/login' successfully
+
+2023-07-03 21:12:25 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-07-03 21:12:25 - [MESSAGE][PASSED] - Current window maximized
+
+2023-07-03 21:12:25 - [TEST_STEP][PASSED] - callTestCase(findTestCase("01-Login and Forgot Password/04-Login(Valid Credentials-With Subscription)"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/01-Login and Forgot Password/04-Login(Valid Credentials-With Subscription)' successfully
+
+2023-07-03 21:12:25 - [TEST_CASE][PASSED] - Test Cases/01-Login and Forgot Password/04-Login(Valid Credentials-With Subscription): Test Cases/01-Login and Forgot Password/04-Login(Valid Credentials-With Subscription)
+
+2023-07-03 21:12:25 - [TEST_STEP][PASSED] - setText(findTestObject("01-Login and Forgot Password/input_Email_email"), email_with_subscription): Text 'testuser05@mailinator.com' is set on object 'Object Repository/01-Login and Forgot Password/input_Email_email'
+
+2023-07-03 21:12:26 - [MESSAGE][PASSED] - Text 'testuser05@mailinator.com' is set on object 'Object Repository/01-Login and Forgot Password/input_Email_email'
+
+2023-07-03 21:12:26 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("01-Login and Forgot Password/input_Email_password"), password): Text ****** has been set on object 'Object Repository/01-Login and Forgot Password/input_Email_password'
+
+2023-07-03 21:12:27 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/01-Login and Forgot Password/input_Email_password'
+
+2023-07-03 21:12:27 - [TEST_STEP][PASSED] - delay(delay_2seconds): Delayed 2 second(s)
+
+2023-07-03 21:12:29 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-07-03 21:12:29 - [TEST_STEP][PASSED] - click(findTestObject("01-Login and Forgot Password/show pass button")): Object: 'Object Repository/01-Login and Forgot Password/show pass button' is clicked on
+
+2023-07-03 21:12:29 - [MESSAGE][PASSED] - Object: 'Object Repository/01-Login and Forgot Password/show pass button' is clicked on
+
+2023-07-03 21:12:29 - [TEST_STEP][PASSED] - delay(delay_3seconds): Delayed 3 second(s)
+
+2023-07-03 21:12:33 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-07-03 21:12:33 - [TEST_STEP][PASSED] - click(findTestObject("01-Login and Forgot Password/button_Sign in")): Object: 'Object Repository/01-Login and Forgot Password/button_Sign in' is clicked on
+
+2023-07-03 21:12:33 - [MESSAGE][PASSED] - Object: 'Object Repository/01-Login and Forgot Password/button_Sign in' is clicked on
+
+2023-07-03 21:12:33 - [TEST_STEP][PASSED] - delay(delay_3seconds): Delayed 3 second(s)
+
+2023-07-03 21:12:36 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-07-03 21:12:36 - [TEST_STEP][PASSED] - click(findTestObject("06-Teams/For 2FA/button_Confirm_2FA")): Object: 'Object Repository/06-Teams/For 2FA/button_Confirm_2FA' is clicked on
+
+2023-07-03 21:12:36 - [MESSAGE][PASSED] - Object: 'Object Repository/06-Teams/For 2FA/button_Confirm_2FA' is clicked on
+
+2023-07-03 21:12:36 - [TEST_STEP][PASSED] - executeJavaScript("window.open();", []): Execute JavaScript 'window.open();' successfully
+
+2023-07-03 21:12:37 - [MESSAGE][PASSED] - Execute JavaScript 'window.open();' successfully
+
+2023-07-03 21:12:37 - [TEST_STEP][PASSED] - currentWindow = getWindowIndex(): Current window's index is: 0
+
+2023-07-03 21:12:37 - [MESSAGE][PASSED] - Current window's index is: 0
+
+2023-07-03 21:12:37 - [TEST_STEP][PASSED] - delay(delay_3seconds): Delayed 3 second(s)
+
+2023-07-03 21:12:40 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-07-03 21:12:40 - [TEST_STEP][PASSED] - switchToWindowIndex(currentWindow + 1): Switched to window with index: '1'
+
+2023-07-03 21:12:40 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2023-07-03 21:12:40 - [TEST_STEP][PASSED] - navigateToUrl(app_mailinator): Navigate to 'https://www.mailinator.com/' successfully
+
+2023-07-03 21:12:47 - [MESSAGE][PASSED] - Navigate to 'https://www.mailinator.com/' successfully
+
+2023-07-03 21:12:47 - [TEST_STEP][PASSED] - delay(delay_3seconds): Delayed 3 second(s)
+
+2023-07-03 21:12:50 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-07-03 21:12:50 - [TEST_STEP][PASSED] - setText(findTestObject("00-Signup and Activation/zMailinator/input_LOGIN_search"), email_for_searchmailinator_testuser05): Text 'testuser05@mailinator.com' is set on object 'Object Repository/00-Signup and Activation/zMailinator/input_LOGIN_search'
+
+2023-07-03 21:12:51 - [MESSAGE][PASSED] - Text 'testuser05@mailinator.com' is set on object 'Object Repository/00-Signup and Activation/zMailinator/input_LOGIN_search'
+
+2023-07-03 21:12:51 - [TEST_STEP][PASSED] - click(findTestObject("00-Signup and Activation/zMailinator/gobutton"), STOP_ON_FAILURE): Object: 'Object Repository/00-Signup and Activation/zMailinator/gobutton' is clicked on
+
+2023-07-03 21:12:55 - [MESSAGE][PASSED] - Object: 'Object Repository/00-Signup and Activation/zMailinator/gobutton' is clicked on
+
+2023-07-03 21:12:55 - [TEST_STEP][PASSED] - delay(delay_3seconds): Delayed 3 second(s)
+
+2023-07-03 21:12:58 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-07-03 21:12:58 - [TEST_STEP][PASSED] - click(findTestObject("00-Signup and Activation/zMailinator/Email - everleagues")): Object: 'Object Repository/00-Signup and Activation/zMailinator/Email - everleagues' is clicked on
+
+2023-07-03 21:12:58 - [MESSAGE][PASSED] - Object: 'Object Repository/00-Signup and Activation/zMailinator/Email - everleagues' is clicked on
+
+2023-07-03 21:12:58 - [TEST_STEP][PASSED] - delay(delay_3seconds): Delayed 3 second(s)
+
+2023-07-03 21:13:01 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-07-03 21:13:01 - [TEST_STEP][PASSED] - code = getText(findTestObject("Object Repository/06-Teams/For 2FA/2FA code")): Text of object 'Object Repository/06-Teams/For 2FA/2FA code' is: '713800'
+
+2023-07-03 21:13:02 - [MESSAGE][PASSED] - Text of object 'Object Repository/06-Teams/For 2FA/2FA code' is: '713800'
+
+2023-07-03 21:13:02 - [TEST_STEP][PASSED] - delay(delay_3seconds): Delayed 3 second(s)
+
+2023-07-03 21:13:05 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-07-03 21:13:05 - [TEST_STEP][PASSED] - closeWindowTitle("Mailinator"): Window with title: 'Mailinator' is closed
+
+2023-07-03 21:13:05 - [MESSAGE][PASSED] - Window with title: 'Mailinator' is closed
+
+2023-07-03 21:13:05 - [TEST_STEP][PASSED] - delay(delay_3seconds): Delayed 3 second(s)
+
+2023-07-03 21:13:08 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-07-03 21:13:08 - [TEST_STEP][PASSED] - switchToWindowIndex(0): Switched to window with index: '0'
+
+2023-07-03 21:13:08 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2023-07-03 21:13:08 - [TEST_STEP][PASSED] - delay(delay_3seconds): Delayed 3 second(s)
+
+2023-07-03 21:13:11 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-07-03 21:13:11 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/06-Teams/For 2FA/input_Enter verification code_code"), code): Text '713800' is set on object 'Object Repository/06-Teams/For 2FA/input_Enter verification code_code'
+
+2023-07-03 21:13:13 - [MESSAGE][PASSED] - Text '713800' is set on object 'Object Repository/06-Teams/For 2FA/input_Enter verification code_code'
+
+2023-07-03 21:13:13 - [TEST_STEP][PASSED] - delay(delay_3seconds): Delayed 3 second(s)
+
+2023-07-03 21:13:16 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-07-03 21:13:16 - [TEST_STEP][PASSED] - click(findTestObject("06-Teams/For 2FA/button_Verify_2FA")): Object: 'Object Repository/06-Teams/For 2FA/button_Verify_2FA' is clicked on
+
+2023-07-03 21:13:16 - [MESSAGE][PASSED] - Object: 'Object Repository/06-Teams/For 2FA/button_Verify_2FA' is clicked on
+
+2023-07-03 21:13:16 - [TEST_STEP][PASSED] - delay(delay_3seconds): Delayed 3 second(s)
+
+2023-07-03 21:13:19 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-07-03 21:13:19 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/01-Login and Forgot Password/04-Login(Valid Credentials-With Subscription)' successfully
+
+2023-07-03 21:13:19 - [TEST_STEP][PASSED] - click(findTestObject("06-Teams/button_doublearrow")): Object: 'Object Repository/06-Teams/button_doublearrow' is clicked on
+
+2023-07-03 21:13:21 - [MESSAGE][PASSED] - Object: 'Object Repository/06-Teams/button_doublearrow' is clicked on
+
+2023-07-03 21:13:21 - [TEST_STEP][PASSED] - click(findTestObject("06-Teams/button_My Organizations")): Object: 'Object Repository/06-Teams/button_My Organizations' is clicked on
+
+2023-07-03 21:13:22 - [MESSAGE][PASSED] - Object: 'Object Repository/06-Teams/button_My Organizations' is clicked on
+
+2023-07-03 21:13:22 - [TEST_STEP][PASSED] - click(findTestObject("06-Teams/button_GG Automation")): Object: 'Object Repository/06-Teams/button_GG Automation' is clicked on
+
+2023-07-03 21:13:23 - [MESSAGE][PASSED] - Object: 'Object Repository/06-Teams/button_GG Automation' is clicked on
+
+2023-07-03 21:13:23 - [TEST_STEP][PASSED] - delay(delay_4seconds): Delayed 4 second(s)
+
+2023-07-03 21:13:27 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2023-07-03 21:13:27 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("06-Teams/span_GG Automation")): Object 'Object Repository/06-Teams/span_GG Automation' is visible
+
+2023-07-03 21:13:28 - [MESSAGE][PASSED] - Object 'Object Repository/06-Teams/span_GG Automation' is visible
+
+2023-07-03 21:13:28 - [TEST_STEP][PASSED] - delay(delay_5seconds): Delayed 5 second(s)
+
+2023-07-03 21:13:33 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-07-03 21:13:33 - [TEST_STEP][PASSED] - click(findTestObject("03-Header Menu/Hamburger Button/div_Settings")): Object: 'Object Repository/03-Header Menu/Hamburger Button/div_Settings' is clicked on
+
+2023-07-03 21:13:33 - [MESSAGE][PASSED] - Object: 'Object Repository/03-Header Menu/Hamburger Button/div_Settings' is clicked on
+
+2023-07-03 21:13:33 - [TEST_STEP][PASSED] - delay(delay_3seconds): Delayed 3 second(s)
+
+2023-07-03 21:13:36 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-07-03 21:13:36 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("09-Settings/Users/div_Users"), 0): Scroll to object 'Object Repository/09-Settings/Users/div_Users' successfully
+
+2023-07-03 21:13:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 21:13:36 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/09-Settings/Users/div_Users' successfully
+
+2023-07-03 21:13:36 - [TEST_STEP][PASSED] - click(findTestObject("09-Settings/Users/div_Users")): Object: 'Object Repository/09-Settings/Users/div_Users' is clicked on
+
+2023-07-03 21:13:37 - [MESSAGE][PASSED] - Object: 'Object Repository/09-Settings/Users/div_Users' is clicked on
+
+2023-07-03 21:13:37 - [TEST_STEP][PASSED] - delay(delay_3seconds): Delayed 3 second(s)
+
+2023-07-03 21:13:40 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-07-03 21:13:40 - [TEST_STEP][PASSED] - click(findTestObject("09-Settings/Users/button_add")): Object: 'Object Repository/09-Settings/Users/button_add' is clicked on
+
+2023-07-03 21:13:41 - [MESSAGE][PASSED] - Object: 'Object Repository/09-Settings/Users/button_add' is clicked on
+
+2023-07-03 21:13:41 - [TEST_STEP][PASSED] - delay(delay_3seconds): Delayed 3 second(s)
+
+2023-07-03 21:13:44 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-07-03 21:13:44 - [TEST_STEP][PASSED] - click(findTestObject("09-Settings/Users/add Invite a single user")): Object: 'Object Repository/09-Settings/Users/add Invite a single user' is clicked on
+
+2023-07-03 21:13:44 - [MESSAGE][PASSED] - Object: 'Object Repository/09-Settings/Users/add Invite a single user' is clicked on
+
+2023-07-03 21:13:44 - [TEST_STEP][PASSED] - delay(delay_3seconds): Delayed 3 second(s)
+
+2023-07-03 21:13:47 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-07-03 21:13:47 - [TEST_STEP][PASSED] - setText(findTestObject("09-Settings/Users/input_email"), email_for_auto009): Text 'autotester009@mailinator.com' is set on object 'Object Repository/09-Settings/Users/input_email'
+
+2023-07-03 21:13:49 - [MESSAGE][PASSED] - Text 'autotester009@mailinator.com' is set on object 'Object Repository/09-Settings/Users/input_email'
+
+2023-07-03 21:13:49 - [TEST_STEP][PASSED] - setText(findTestObject("09-Settings/Users/input_firstName"), "GG"): Text 'GG' is set on object 'Object Repository/09-Settings/Users/input_firstName'
+
+2023-07-03 21:13:49 - [MESSAGE][PASSED] - Text 'GG' is set on object 'Object Repository/09-Settings/Users/input_firstName'
+
+2023-07-03 21:13:49 - [TEST_STEP][PASSED] - setText(findTestObject("09-Settings/Users/input_lastName"), "Client"): Text 'Client' is set on object 'Object Repository/09-Settings/Users/input_lastName'
+
+2023-07-03 21:13:50 - [MESSAGE][PASSED] - Text 'Client' is set on object 'Object Repository/09-Settings/Users/input_lastName'
+
+2023-07-03 21:13:50 - [TEST_STEP][PASSED] - click(findTestObject("09-Settings/Users/span_Role")): Object: 'Object Repository/09-Settings/Users/span_Role' is clicked on
+
+2023-07-03 21:13:51 - [MESSAGE][PASSED] - Object: 'Object Repository/09-Settings/Users/span_Role' is clicked on
+
+2023-07-03 21:13:51 - [TEST_STEP][PASSED] - click(findTestObject("09-Settings/Users/span_Client")): Object: 'Object Repository/09-Settings/Users/span_Client' is clicked on
+
+2023-07-03 21:13:53 - [MESSAGE][PASSED] - Object: 'Object Repository/09-Settings/Users/span_Client' is clicked on
+
+2023-07-03 21:13:53 - [TEST_STEP][PASSED] - click(findTestObject("09-Settings/Users/button_Send Invitation")): Object: 'Object Repository/09-Settings/Users/button_Send Invitation' is clicked on
+
+2023-07-03 21:13:53 - [MESSAGE][PASSED] - Object: 'Object Repository/09-Settings/Users/button_Send Invitation' is clicked on
+
+2023-07-03 21:13:53 - [TEST_STEP][PASSED] - delay(delay_2seconds): Delayed 2 second(s)
+
+2023-07-03 21:13:55 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-07-03 21:13:55 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("07-Directory/Connections/zContact Profile/Successfully invited user")): Object 'Object Repository/07-Directory/Connections/zContact Profile/Successfully invited user' is visible
+
+2023-07-03 21:13:57 - [MESSAGE][PASSED] - Object 'Object Repository/07-Directory/Connections/zContact Profile/Successfully invited user' is visible
+
+2023-07-03 21:13:57 - [TEST_STEP][PASSED] - delay(delay_2seconds): Delayed 2 second(s)
+
+2023-07-03 21:13:59 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-07-03 21:13:59 - [TEST_STEP][PASSED] - click(findTestObject("01-Login and Forgot Password/User menu drop")): Object: 'Object Repository/01-Login and Forgot Password/User menu drop' is clicked on
+
+2023-07-03 21:13:59 - [MESSAGE][PASSED] - Object: 'Object Repository/01-Login and Forgot Password/User menu drop' is clicked on
+
+2023-07-03 21:13:59 - [TEST_STEP][PASSED] - delay(delay_2seconds): Delayed 2 second(s)
+
+2023-07-03 21:14:01 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-07-03 21:14:01 - [TEST_STEP][PASSED] - click(findTestObject("01-Login and Forgot Password/h4_Sign Out"), STOP_ON_FAILURE): Object: 'Object Repository/01-Login and Forgot Password/h4_Sign Out' is clicked on
+
+2023-07-03 21:14:01 - [MESSAGE][PASSED] - Object: 'Object Repository/01-Login and Forgot Password/h4_Sign Out' is clicked on
+
+2023-07-03 21:14:01 - [TEST_STEP][PASSED] - delay(delay_2seconds): Delayed 2 second(s)
+
+2023-07-03 21:14:03 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-07-03 21:14:03 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("01-Login and Forgot Password/Login_Card"), 0): Object 'Object Repository/01-Login and Forgot Password/Login_Card' is present
+
+2023-07-03 21:14:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 21:14:04 - [MESSAGE][PASSED] - Object 'Object Repository/01-Login and Forgot Password/Login_Card' is present
+
+2023-07-03 21:14:04 - [TEST_STEP][PASSED] - delay(delay_3seconds): Delayed 3 second(s)
+
+2023-07-03 21:14:07 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-07-03 21:14:07 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-07-03 21:14:08 - [MESSAGE][PASSED] - Browser is closed
+
+2023-07-03 21:14:08 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-07-03 21:14:08 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-07-03 21:14:08 - [MESSAGE][INFO] - User set preference: ['args', '[--disable-web-security, --ignore-certificate-errors, --no-first-run, --disable-gpu]']
+
+2023-07-03 21:14:08 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-07-03 21:14:09 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-07-03 21:14:09 - [TEST_STEP][PASSED] - navigateToUrl(appURL): Navigate to 'https://lab.everleagues.com/login' successfully
+
+2023-07-03 21:14:23 - [MESSAGE][PASSED] - Navigate to 'https://lab.everleagues.com/login' successfully
+
+2023-07-03 21:14:23 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-07-03 21:14:23 - [MESSAGE][PASSED] - Current window maximized
+
+2023-07-03 21:14:23 - [TEST_STEP][PASSED] - setText(findTestObject("02-Side Icons(Organization)/Add Contact/Email Field"), email_for_auto009): Text 'autotester009@mailinator.com' is set on object 'Object Repository/02-Side Icons(Organization)/Add Contact/Email Field'
+
+2023-07-03 21:14:24 - [MESSAGE][PASSED] - Text 'autotester009@mailinator.com' is set on object 'Object Repository/02-Side Icons(Organization)/Add Contact/Email Field'
+
+2023-07-03 21:14:24 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("02-Side Icons(Organization)/Add Contact/Password Field"), password): Text ****** has been set on object 'Object Repository/02-Side Icons(Organization)/Add Contact/Password Field'
+
+2023-07-03 21:14:25 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/02-Side Icons(Organization)/Add Contact/Password Field'
+
+2023-07-03 21:14:25 - [TEST_STEP][PASSED] - click(findTestObject("02-Side Icons(Organization)/Add Contact/button_Sign in")): Object: 'Object Repository/02-Side Icons(Organization)/Add Contact/button_Sign in' is clicked on
+
+2023-07-03 21:14:26 - [MESSAGE][PASSED] - Object: 'Object Repository/02-Side Icons(Organization)/Add Contact/button_Sign in' is clicked on
+
+2023-07-03 21:14:26 - [TEST_STEP][PASSED] - delay(delay_2seconds): Delayed 2 second(s)
+
+2023-07-03 21:14:28 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-07-03 21:14:28 - [TEST_STEP][PASSED] - click(findTestObject("06-Teams/For 2FA/button_Confirm_2FA")): Object: 'Object Repository/06-Teams/For 2FA/button_Confirm_2FA' is clicked on
+
+2023-07-03 21:14:28 - [MESSAGE][PASSED] - Object: 'Object Repository/06-Teams/For 2FA/button_Confirm_2FA' is clicked on
+
+2023-07-03 21:14:28 - [TEST_STEP][PASSED] - executeJavaScript("window.open();", []): Execute JavaScript 'window.open();' successfully
+
+2023-07-03 21:14:29 - [MESSAGE][PASSED] - Execute JavaScript 'window.open();' successfully
+
+2023-07-03 21:14:29 - [TEST_STEP][PASSED] - currentWindow = getWindowIndex(): Current window's index is: 0
+
+2023-07-03 21:14:29 - [MESSAGE][PASSED] - Current window's index is: 0
+
+2023-07-03 21:14:29 - [TEST_STEP][PASSED] - delay(delay_3seconds): Delayed 3 second(s)
+
+2023-07-03 21:14:32 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-07-03 21:14:32 - [TEST_STEP][PASSED] - switchToWindowIndex(currentWindow + 1): Switched to window with index: '1'
+
+2023-07-03 21:14:32 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2023-07-03 21:14:32 - [TEST_STEP][PASSED] - navigateToUrl(app_mailinator): Navigate to 'https://www.mailinator.com/' successfully
+
+2023-07-03 21:14:40 - [MESSAGE][PASSED] - Navigate to 'https://www.mailinator.com/' successfully
+
+2023-07-03 21:14:40 - [TEST_STEP][PASSED] - delay(delay_3seconds): Delayed 3 second(s)
+
+2023-07-03 21:14:43 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-07-03 21:14:43 - [TEST_STEP][PASSED] - setText(findTestObject("00-Signup and Activation/zMailinator/input_LOGIN_search"), email_for_auto009): Text 'autotester009@mailinator.com' is set on object 'Object Repository/00-Signup and Activation/zMailinator/input_LOGIN_search'
+
+2023-07-03 21:14:44 - [MESSAGE][PASSED] - Text 'autotester009@mailinator.com' is set on object 'Object Repository/00-Signup and Activation/zMailinator/input_LOGIN_search'
+
+2023-07-03 21:14:44 - [TEST_STEP][PASSED] - click(findTestObject("00-Signup and Activation/zMailinator/gobutton"), STOP_ON_FAILURE): Object: 'Object Repository/00-Signup and Activation/zMailinator/gobutton' is clicked on
+
+2023-07-03 21:14:48 - [MESSAGE][PASSED] - Object: 'Object Repository/00-Signup and Activation/zMailinator/gobutton' is clicked on
+
+2023-07-03 21:14:48 - [TEST_STEP][PASSED] - delay(delay_3seconds): Delayed 3 second(s)
+
+2023-07-03 21:14:51 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-07-03 21:14:51 - [TEST_STEP][PASSED] - click(findTestObject("00-Signup and Activation/zMailinator/Email - everleagues")): Object: 'Object Repository/00-Signup and Activation/zMailinator/Email - everleagues' is clicked on
+
+2023-07-03 21:14:52 - [MESSAGE][PASSED] - Object: 'Object Repository/00-Signup and Activation/zMailinator/Email - everleagues' is clicked on
+
+2023-07-03 21:14:52 - [TEST_STEP][PASSED] - delay(delay_3seconds): Delayed 3 second(s)
+
+2023-07-03 21:14:55 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-07-03 21:14:55 - [TEST_STEP][PASSED] - codetwo = getText(findTestObject("Object Repository/06-Teams/For 2FA/2FA code")): Text of object 'Object Repository/06-Teams/For 2FA/2FA code' is: '472324'
+
+2023-07-03 21:14:55 - [MESSAGE][PASSED] - Text of object 'Object Repository/06-Teams/For 2FA/2FA code' is: '472324'
+
+2023-07-03 21:14:55 - [TEST_STEP][PASSED] - delay(delay_3seconds): Delayed 3 second(s)
+
+2023-07-03 21:14:58 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-07-03 21:14:58 - [TEST_STEP][PASSED] - closeWindowTitle("Mailinator"): Window with title: 'Mailinator' is closed
+
+2023-07-03 21:14:58 - [MESSAGE][PASSED] - Window with title: 'Mailinator' is closed
+
+2023-07-03 21:14:58 - [TEST_STEP][PASSED] - delay(delay_3seconds): Delayed 3 second(s)
+
+2023-07-03 21:15:01 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-07-03 21:15:01 - [TEST_STEP][PASSED] - switchToWindowIndex(0): Switched to window with index: '0'
+
+2023-07-03 21:15:01 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2023-07-03 21:15:01 - [TEST_STEP][PASSED] - delay(delay_3seconds): Delayed 3 second(s)
+
+2023-07-03 21:15:04 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-07-03 21:15:04 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/06-Teams/For 2FA/input_Enter verification code_code"), codetwo): Text '472324' is set on object 'Object Repository/06-Teams/For 2FA/input_Enter verification code_code'
+
+2023-07-03 21:15:06 - [MESSAGE][PASSED] - Text '472324' is set on object 'Object Repository/06-Teams/For 2FA/input_Enter verification code_code'
+
+2023-07-03 21:15:06 - [TEST_STEP][PASSED] - delay(delay_3seconds): Delayed 3 second(s)
+
+2023-07-03 21:15:09 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-07-03 21:15:09 - [TEST_STEP][PASSED] - click(findTestObject("06-Teams/For 2FA/button_Verify_2FA")): Object: 'Object Repository/06-Teams/For 2FA/button_Verify_2FA' is clicked on
+
+2023-07-03 21:15:09 - [MESSAGE][PASSED] - Object: 'Object Repository/06-Teams/For 2FA/button_Verify_2FA' is clicked on
+
+2023-07-03 21:15:09 - [TEST_STEP][PASSED] - delay(delay_5seconds): Delayed 5 second(s)
+
+2023-07-03 21:15:14 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-07-03 21:15:14 - [TEST_STEP][PASSED] - executeJavaScript("window.open();", []): Execute JavaScript 'window.open();' successfully
+
+2023-07-03 21:15:14 - [MESSAGE][PASSED] - Execute JavaScript 'window.open();' successfully
+
+2023-07-03 21:15:14 - [TEST_STEP][PASSED] - currentWindow = getWindowIndex(): Current window's index is: 0
+
+2023-07-03 21:15:14 - [MESSAGE][PASSED] - Current window's index is: 0
+
+2023-07-03 21:15:14 - [TEST_STEP][PASSED] - delay(delay_3seconds): Delayed 3 second(s)
+
+2023-07-03 21:15:17 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-07-03 21:15:17 - [TEST_STEP][PASSED] - switchToWindowIndex(currentWindow + 1): Switched to window with index: '1'
+
+2023-07-03 21:15:17 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2023-07-03 21:15:17 - [TEST_STEP][PASSED] - navigateToUrl(app_mailinator): Navigate to 'https://www.mailinator.com/' successfully
+
+2023-07-03 21:15:20 - [MESSAGE][PASSED] - Navigate to 'https://www.mailinator.com/' successfully
+
+2023-07-03 21:15:20 - [TEST_STEP][PASSED] - delay(delay_3seconds): Delayed 3 second(s)
+
+2023-07-03 21:15:23 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-07-03 21:15:23 - [TEST_STEP][PASSED] - setText(findTestObject("00-Signup and Activation/zMailinator/input_LOGIN_search"), email_for_auto009): Text 'autotester009@mailinator.com' is set on object 'Object Repository/00-Signup and Activation/zMailinator/input_LOGIN_search'
+
+2023-07-03 21:15:24 - [MESSAGE][PASSED] - Text 'autotester009@mailinator.com' is set on object 'Object Repository/00-Signup and Activation/zMailinator/input_LOGIN_search'
+
+2023-07-03 21:15:24 - [TEST_STEP][PASSED] - click(findTestObject("00-Signup and Activation/zMailinator/gobutton"), STOP_ON_FAILURE): Object: 'Object Repository/00-Signup and Activation/zMailinator/gobutton' is clicked on
+
+2023-07-03 21:15:27 - [MESSAGE][PASSED] - Object: 'Object Repository/00-Signup and Activation/zMailinator/gobutton' is clicked on
+
+2023-07-03 21:15:27 - [TEST_STEP][PASSED] - delay(delay_3seconds): Delayed 3 second(s)
+
+2023-07-03 21:15:30 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-07-03 21:15:30 - [TEST_STEP][PASSED] - closeWindowTitle("Everleagues"): Window with title: 'Everleagues' is closed
+
+2023-07-03 21:15:30 - [MESSAGE][PASSED] - Window with title: 'Everleagues' is closed
+
+2023-07-03 21:15:30 - [TEST_STEP][PASSED] - switchToWindowIndex(0): Switched to window with index: '0'
+
+2023-07-03 21:15:30 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2023-07-03 21:15:30 - [TEST_STEP][PASSED] - click(findTestObject("09-Settings/Users/Co worker/td_Invitation from GG Automation")): Object: 'Object Repository/09-Settings/Users/Co worker/td_Invitation from GG Automation' is clicked on
+
+2023-07-03 21:15:30 - [MESSAGE][PASSED] - Object: 'Object Repository/09-Settings/Users/Co worker/td_Invitation from GG Automation' is clicked on
+
+2023-07-03 21:15:30 - [TEST_STEP][PASSED] - click(findTestObject("09-Settings/Users/Co worker/a_Click here to join GG Automation on EverLeagues")): Object: 'Object Repository/09-Settings/Users/Co worker/a_Click here to join GG Automation on EverLeagues' is clicked on
+
+2023-07-03 21:15:33 - [MESSAGE][PASSED] - Object: 'Object Repository/09-Settings/Users/Co worker/a_Click here to join GG Automation on EverLeagues' is clicked on
+
+2023-07-03 21:15:33 - [TEST_STEP][PASSED] - closeWindowTitle("Mailinator"): Window with title: 'Mailinator' is closed
+
+2023-07-03 21:15:33 - [MESSAGE][PASSED] - Window with title: 'Mailinator' is closed
+
+2023-07-03 21:15:33 - [TEST_STEP][PASSED] - switchToWindowIndex(0): Switched to window with index: '0'
+
+2023-07-03 21:15:33 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2023-07-03 21:15:33 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("09-Settings/Users/Client/Invite modal")): Object 'Object Repository/09-Settings/Users/Client/Invite modal' is visible
+
+2023-07-03 21:15:54 - [MESSAGE][PASSED] - Object 'Object Repository/09-Settings/Users/Client/Invite modal' is visible
+
+2023-07-03 21:15:54 - [TEST_STEP][PASSED] - setText(findTestObject("09-Settings/Users/Client/Company field"), "QA Company"): Text 'QA Company' is set on object 'Object Repository/09-Settings/Users/Client/Company field'
+
+2023-07-03 21:15:55 - [MESSAGE][PASSED] - Text 'QA Company' is set on object 'Object Repository/09-Settings/Users/Client/Company field'
+
+2023-07-03 21:15:55 - [TEST_STEP][PASSED] - click(findTestObject("09-Settings/Users/Client/button_Accept")): Object: 'Object Repository/09-Settings/Users/Client/button_Accept' is clicked on
+
+2023-07-03 21:15:56 - [MESSAGE][PASSED] - Object: 'Object Repository/09-Settings/Users/Client/button_Accept' is clicked on
+
+2023-07-03 21:15:56 - [TEST_STEP][PASSED] - delay(delay_5seconds): Delayed 5 second(s)
+
+2023-07-03 21:16:01 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-07-03 21:16:01 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("09-Settings/Users/Client/div_Joined as CLIENT")): Object 'Object Repository/09-Settings/Users/Client/div_Joined as CLIENT' is visible
+
+2023-07-03 21:16:04 - [MESSAGE][PASSED] - Object 'Object Repository/09-Settings/Users/Client/div_Joined as CLIENT' is visible
+
+2023-07-03 21:16:04 - [TEST_STEP][PASSED] - delay(delay_3seconds): Delayed 3 second(s)
+
+2023-07-03 21:16:07 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-07-03 21:16:07 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-07-03 21:16:08 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/09-Settings/04 - Users (Invite new user as partner)" time="332.346" classname="Test Cases/09-Settings/04 - Users (Invite new user as partner)" status="PASSED">
+         <system-out><![CDATA[2023-07-03 21:16:08 - [TEST_CASE][PASSED] - Test Cases/09-Settings/04 - Users (Invite new user as partner): Test Cases/09-Settings/04 - Users (Invite new user as partner)
+
+2023-07-03 21:16:09 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-07-03 21:16:09 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-07-03 21:16:09 - [MESSAGE][INFO] - User set preference: ['args', '[--disable-web-security, --ignore-certificate-errors, --no-first-run, --disable-gpu]']
+
+2023-07-03 21:16:09 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-07-03 21:16:10 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-07-03 21:16:10 - [TEST_STEP][PASSED] - navigateToUrl(appURL): Navigate to 'https://lab.everleagues.com/login' successfully
+
+2023-07-03 21:17:03 - [MESSAGE][PASSED] - Navigate to 'https://lab.everleagues.com/login' successfully
+
+2023-07-03 21:17:03 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-07-03 21:17:03 - [MESSAGE][PASSED] - Current window maximized
+
+2023-07-03 21:17:03 - [TEST_STEP][PASSED] - callTestCase(findTestCase("01-Login and Forgot Password/04-Login(Valid Credentials-With Subscription)"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/01-Login and Forgot Password/04-Login(Valid Credentials-With Subscription)' successfully
+
+2023-07-03 21:17:03 - [TEST_CASE][PASSED] - Test Cases/01-Login and Forgot Password/04-Login(Valid Credentials-With Subscription): Test Cases/01-Login and Forgot Password/04-Login(Valid Credentials-With Subscription)
+
+2023-07-03 21:17:03 - [TEST_STEP][PASSED] - setText(findTestObject("01-Login and Forgot Password/input_Email_email"), email_with_subscription): Text 'testuser05@mailinator.com' is set on object 'Object Repository/01-Login and Forgot Password/input_Email_email'
+
+2023-07-03 21:17:04 - [MESSAGE][PASSED] - Text 'testuser05@mailinator.com' is set on object 'Object Repository/01-Login and Forgot Password/input_Email_email'
+
+2023-07-03 21:17:04 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("01-Login and Forgot Password/input_Email_password"), password): Text ****** has been set on object 'Object Repository/01-Login and Forgot Password/input_Email_password'
+
+2023-07-03 21:17:04 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/01-Login and Forgot Password/input_Email_password'
+
+2023-07-03 21:17:04 - [TEST_STEP][PASSED] - delay(delay_2seconds): Delayed 2 second(s)
+
+2023-07-03 21:17:06 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-07-03 21:17:06 - [TEST_STEP][PASSED] - click(findTestObject("01-Login and Forgot Password/show pass button")): Object: 'Object Repository/01-Login and Forgot Password/show pass button' is clicked on
+
+2023-07-03 21:17:07 - [MESSAGE][PASSED] - Object: 'Object Repository/01-Login and Forgot Password/show pass button' is clicked on
+
+2023-07-03 21:17:07 - [TEST_STEP][PASSED] - delay(delay_3seconds): Delayed 3 second(s)
+
+2023-07-03 21:17:10 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-07-03 21:17:10 - [TEST_STEP][PASSED] - click(findTestObject("01-Login and Forgot Password/button_Sign in")): Object: 'Object Repository/01-Login and Forgot Password/button_Sign in' is clicked on
+
+2023-07-03 21:17:10 - [MESSAGE][PASSED] - Object: 'Object Repository/01-Login and Forgot Password/button_Sign in' is clicked on
+
+2023-07-03 21:17:10 - [TEST_STEP][PASSED] - delay(delay_3seconds): Delayed 3 second(s)
+
+2023-07-03 21:17:13 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-07-03 21:17:13 - [TEST_STEP][PASSED] - click(findTestObject("06-Teams/For 2FA/button_Confirm_2FA")): Object: 'Object Repository/06-Teams/For 2FA/button_Confirm_2FA' is clicked on
+
+2023-07-03 21:17:14 - [MESSAGE][PASSED] - Object: 'Object Repository/06-Teams/For 2FA/button_Confirm_2FA' is clicked on
+
+2023-07-03 21:17:14 - [TEST_STEP][PASSED] - executeJavaScript("window.open();", []): Execute JavaScript 'window.open();' successfully
+
+2023-07-03 21:17:14 - [MESSAGE][PASSED] - Execute JavaScript 'window.open();' successfully
+
+2023-07-03 21:17:14 - [TEST_STEP][PASSED] - currentWindow = getWindowIndex(): Current window's index is: 0
+
+2023-07-03 21:17:14 - [MESSAGE][PASSED] - Current window's index is: 0
+
+2023-07-03 21:17:14 - [TEST_STEP][PASSED] - delay(delay_3seconds): Delayed 3 second(s)
+
+2023-07-03 21:17:17 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-07-03 21:17:17 - [TEST_STEP][PASSED] - switchToWindowIndex(currentWindow + 1): Switched to window with index: '1'
+
+2023-07-03 21:17:17 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2023-07-03 21:17:17 - [TEST_STEP][PASSED] - navigateToUrl(app_mailinator): Navigate to 'https://www.mailinator.com/' successfully
+
+2023-07-03 21:18:39 - [MESSAGE][PASSED] - Navigate to 'https://www.mailinator.com/' successfully
+
+2023-07-03 21:18:39 - [TEST_STEP][PASSED] - delay(delay_3seconds): Delayed 3 second(s)
+
+2023-07-03 21:18:42 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-07-03 21:18:42 - [TEST_STEP][PASSED] - setText(findTestObject("00-Signup and Activation/zMailinator/input_LOGIN_search"), email_for_searchmailinator_testuser05): Text 'testuser05@mailinator.com' is set on object 'Object Repository/00-Signup and Activation/zMailinator/input_LOGIN_search'
+
+2023-07-03 21:18:43 - [MESSAGE][PASSED] - Text 'testuser05@mailinator.com' is set on object 'Object Repository/00-Signup and Activation/zMailinator/input_LOGIN_search'
+
+2023-07-03 21:18:43 - [TEST_STEP][PASSED] - click(findTestObject("00-Signup and Activation/zMailinator/gobutton"), STOP_ON_FAILURE): Object: 'Object Repository/00-Signup and Activation/zMailinator/gobutton' is clicked on
+
+2023-07-03 21:18:44 - [MESSAGE][PASSED] - Object: 'Object Repository/00-Signup and Activation/zMailinator/gobutton' is clicked on
+
+2023-07-03 21:18:44 - [TEST_STEP][PASSED] - delay(delay_3seconds): Delayed 3 second(s)
+
+2023-07-03 21:18:47 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-07-03 21:18:47 - [TEST_STEP][PASSED] - click(findTestObject("00-Signup and Activation/zMailinator/Email - everleagues")): Object: 'Object Repository/00-Signup and Activation/zMailinator/Email - everleagues' is clicked on
+
+2023-07-03 21:18:47 - [MESSAGE][PASSED] - Object: 'Object Repository/00-Signup and Activation/zMailinator/Email - everleagues' is clicked on
+
+2023-07-03 21:18:47 - [TEST_STEP][PASSED] - delay(delay_3seconds): Delayed 3 second(s)
+
+2023-07-03 21:18:50 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-07-03 21:18:50 - [TEST_STEP][PASSED] - code = getText(findTestObject("Object Repository/06-Teams/For 2FA/2FA code")): Text of object 'Object Repository/06-Teams/For 2FA/2FA code' is: '335448'
+
+2023-07-03 21:18:51 - [MESSAGE][PASSED] - Text of object 'Object Repository/06-Teams/For 2FA/2FA code' is: '335448'
+
+2023-07-03 21:18:51 - [TEST_STEP][PASSED] - delay(delay_3seconds): Delayed 3 second(s)
+
+2023-07-03 21:18:54 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-07-03 21:18:54 - [TEST_STEP][PASSED] - closeWindowTitle("Mailinator"): Window with title: 'Mailinator' is closed
+
+2023-07-03 21:18:54 - [MESSAGE][PASSED] - Window with title: 'Mailinator' is closed
+
+2023-07-03 21:18:54 - [TEST_STEP][PASSED] - delay(delay_3seconds): Delayed 3 second(s)
+
+2023-07-03 21:18:57 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-07-03 21:18:57 - [TEST_STEP][PASSED] - switchToWindowIndex(0): Switched to window with index: '0'
+
+2023-07-03 21:18:57 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2023-07-03 21:18:57 - [TEST_STEP][PASSED] - delay(delay_3seconds): Delayed 3 second(s)
+
+2023-07-03 21:19:00 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-07-03 21:19:00 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/06-Teams/For 2FA/input_Enter verification code_code"), code): Text '335448' is set on object 'Object Repository/06-Teams/For 2FA/input_Enter verification code_code'
+
+2023-07-03 21:19:01 - [MESSAGE][PASSED] - Text '335448' is set on object 'Object Repository/06-Teams/For 2FA/input_Enter verification code_code'
+
+2023-07-03 21:19:01 - [TEST_STEP][PASSED] - delay(delay_3seconds): Delayed 3 second(s)
+
+2023-07-03 21:19:04 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-07-03 21:19:04 - [TEST_STEP][PASSED] - click(findTestObject("06-Teams/For 2FA/button_Verify_2FA")): Object: 'Object Repository/06-Teams/For 2FA/button_Verify_2FA' is clicked on
+
+2023-07-03 21:19:05 - [MESSAGE][PASSED] - Object: 'Object Repository/06-Teams/For 2FA/button_Verify_2FA' is clicked on
+
+2023-07-03 21:19:05 - [TEST_STEP][PASSED] - delay(delay_3seconds): Delayed 3 second(s)
+
+2023-07-03 21:19:08 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-07-03 21:19:08 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/01-Login and Forgot Password/04-Login(Valid Credentials-With Subscription)' successfully
+
+2023-07-03 21:19:08 - [TEST_STEP][PASSED] - click(findTestObject("06-Teams/button_doublearrow")): Object: 'Object Repository/06-Teams/button_doublearrow' is clicked on
+
+2023-07-03 21:19:10 - [MESSAGE][PASSED] - Object: 'Object Repository/06-Teams/button_doublearrow' is clicked on
+
+2023-07-03 21:19:10 - [TEST_STEP][PASSED] - click(findTestObject("06-Teams/button_My Organizations")): Object: 'Object Repository/06-Teams/button_My Organizations' is clicked on
+
+2023-07-03 21:19:13 - [MESSAGE][PASSED] - Object: 'Object Repository/06-Teams/button_My Organizations' is clicked on
+
+2023-07-03 21:19:13 - [TEST_STEP][PASSED] - click(findTestObject("06-Teams/button_GG Automation")): Object: 'Object Repository/06-Teams/button_GG Automation' is clicked on
+
+2023-07-03 21:19:14 - [MESSAGE][PASSED] - Object: 'Object Repository/06-Teams/button_GG Automation' is clicked on
+
+2023-07-03 21:19:14 - [TEST_STEP][PASSED] - delay(delay_4seconds): Delayed 4 second(s)
+
+2023-07-03 21:19:18 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2023-07-03 21:19:18 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("06-Teams/span_GG Automation")): Object 'Object Repository/06-Teams/span_GG Automation' is visible
+
+2023-07-03 21:19:18 - [MESSAGE][PASSED] - Object 'Object Repository/06-Teams/span_GG Automation' is visible
+
+2023-07-03 21:19:18 - [TEST_STEP][PASSED] - delay(delay_5seconds): Delayed 5 second(s)
+
+2023-07-03 21:19:23 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-07-03 21:19:23 - [TEST_STEP][PASSED] - click(findTestObject("03-Header Menu/Hamburger Button/div_Settings")): Object: 'Object Repository/03-Header Menu/Hamburger Button/div_Settings' is clicked on
+
+2023-07-03 21:19:24 - [MESSAGE][PASSED] - Object: 'Object Repository/03-Header Menu/Hamburger Button/div_Settings' is clicked on
+
+2023-07-03 21:19:24 - [TEST_STEP][PASSED] - delay(delay_3seconds): Delayed 3 second(s)
+
+2023-07-03 21:19:27 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-07-03 21:19:27 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("09-Settings/Users/div_Users"), 0): Scroll to object 'Object Repository/09-Settings/Users/div_Users' successfully
+
+2023-07-03 21:19:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 21:19:27 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/09-Settings/Users/div_Users' successfully
+
+2023-07-03 21:19:27 - [TEST_STEP][PASSED] - click(findTestObject("09-Settings/Users/div_Users")): Object: 'Object Repository/09-Settings/Users/div_Users' is clicked on
+
+2023-07-03 21:19:28 - [MESSAGE][PASSED] - Object: 'Object Repository/09-Settings/Users/div_Users' is clicked on
+
+2023-07-03 21:19:28 - [TEST_STEP][PASSED] - delay(delay_3seconds): Delayed 3 second(s)
+
+2023-07-03 21:19:31 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-07-03 21:19:31 - [TEST_STEP][PASSED] - click(findTestObject("09-Settings/Users/button_add")): Object: 'Object Repository/09-Settings/Users/button_add' is clicked on
+
+2023-07-03 21:19:31 - [MESSAGE][PASSED] - Object: 'Object Repository/09-Settings/Users/button_add' is clicked on
+
+2023-07-03 21:19:31 - [TEST_STEP][PASSED] - delay(delay_3seconds): Delayed 3 second(s)
+
+2023-07-03 21:19:34 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-07-03 21:19:34 - [TEST_STEP][PASSED] - click(findTestObject("09-Settings/Users/add Invite a single user")): Object: 'Object Repository/09-Settings/Users/add Invite a single user' is clicked on
+
+2023-07-03 21:19:35 - [MESSAGE][PASSED] - Object: 'Object Repository/09-Settings/Users/add Invite a single user' is clicked on
+
+2023-07-03 21:19:35 - [TEST_STEP][PASSED] - delay(delay_3seconds): Delayed 3 second(s)
+
+2023-07-03 21:19:38 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-07-03 21:19:38 - [TEST_STEP][PASSED] - setText(findTestObject("09-Settings/Users/input_email"), email_for_auto10): Text 'autotester10@mailinator.com' is set on object 'Object Repository/09-Settings/Users/input_email'
+
+2023-07-03 21:19:39 - [MESSAGE][PASSED] - Text 'autotester10@mailinator.com' is set on object 'Object Repository/09-Settings/Users/input_email'
+
+2023-07-03 21:19:39 - [TEST_STEP][PASSED] - setText(findTestObject("09-Settings/Users/input_firstName"), first_name1): Text 'GG' is set on object 'Object Repository/09-Settings/Users/input_firstName'
+
+2023-07-03 21:19:40 - [MESSAGE][PASSED] - Text 'GG' is set on object 'Object Repository/09-Settings/Users/input_firstName'
+
+2023-07-03 21:19:40 - [TEST_STEP][PASSED] - setText(findTestObject("09-Settings/Users/input_lastName"), "Partner"): Text 'Partner' is set on object 'Object Repository/09-Settings/Users/input_lastName'
+
+2023-07-03 21:19:41 - [MESSAGE][PASSED] - Text 'Partner' is set on object 'Object Repository/09-Settings/Users/input_lastName'
+
+2023-07-03 21:19:41 - [TEST_STEP][PASSED] - click(findTestObject("09-Settings/Users/span_Role")): Object: 'Object Repository/09-Settings/Users/span_Role' is clicked on
+
+2023-07-03 21:19:41 - [MESSAGE][PASSED] - Object: 'Object Repository/09-Settings/Users/span_Role' is clicked on
+
+2023-07-03 21:19:41 - [TEST_STEP][PASSED] - click(findTestObject("09-Settings/Users/span_Partner")): Object: 'Object Repository/09-Settings/Users/span_Partner' is clicked on
+
+2023-07-03 21:19:42 - [MESSAGE][PASSED] - Object: 'Object Repository/09-Settings/Users/span_Partner' is clicked on
+
+2023-07-03 21:19:42 - [TEST_STEP][PASSED] - click(findTestObject("09-Settings/Users/button_Send Invitation")): Object: 'Object Repository/09-Settings/Users/button_Send Invitation' is clicked on
+
+2023-07-03 21:19:43 - [MESSAGE][PASSED] - Object: 'Object Repository/09-Settings/Users/button_Send Invitation' is clicked on
+
+2023-07-03 21:19:43 - [TEST_STEP][PASSED] - delay(delay_2seconds): Delayed 2 second(s)
+
+2023-07-03 21:19:45 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-07-03 21:19:45 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("07-Directory/Connections/zContact Profile/Successfully invited user")): Object 'Object Repository/07-Directory/Connections/zContact Profile/Successfully invited user' is visible
+
+2023-07-03 21:19:46 - [MESSAGE][PASSED] - Object 'Object Repository/07-Directory/Connections/zContact Profile/Successfully invited user' is visible
+
+2023-07-03 21:19:46 - [TEST_STEP][PASSED] - delay(delay_2seconds): Delayed 2 second(s)
+
+2023-07-03 21:19:48 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-07-03 21:19:48 - [TEST_STEP][PASSED] - click(findTestObject("01-Login and Forgot Password/User menu drop")): Object: 'Object Repository/01-Login and Forgot Password/User menu drop' is clicked on
+
+2023-07-03 21:19:48 - [MESSAGE][PASSED] - Object: 'Object Repository/01-Login and Forgot Password/User menu drop' is clicked on
+
+2023-07-03 21:19:48 - [TEST_STEP][PASSED] - delay(delay_2seconds): Delayed 2 second(s)
+
+2023-07-03 21:19:50 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-07-03 21:19:50 - [TEST_STEP][PASSED] - click(findTestObject("01-Login and Forgot Password/h4_Sign Out"), STOP_ON_FAILURE): Object: 'Object Repository/01-Login and Forgot Password/h4_Sign Out' is clicked on
+
+2023-07-03 21:19:51 - [MESSAGE][PASSED] - Object: 'Object Repository/01-Login and Forgot Password/h4_Sign Out' is clicked on
+
+2023-07-03 21:19:51 - [TEST_STEP][PASSED] - delay(delay_2seconds): Delayed 2 second(s)
+
+2023-07-03 21:19:53 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-07-03 21:19:53 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("01-Login and Forgot Password/Login_Card"), 0): Object 'Object Repository/01-Login and Forgot Password/Login_Card' is present
+
+2023-07-03 21:19:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 21:19:53 - [MESSAGE][PASSED] - Object 'Object Repository/01-Login and Forgot Password/Login_Card' is present
+
+2023-07-03 21:19:53 - [TEST_STEP][PASSED] - delay(delay_3seconds): Delayed 3 second(s)
+
+2023-07-03 21:19:56 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-07-03 21:19:56 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-07-03 21:19:57 - [MESSAGE][PASSED] - Browser is closed
+
+2023-07-03 21:19:57 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-07-03 21:19:57 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-07-03 21:19:57 - [MESSAGE][INFO] - User set preference: ['args', '[--disable-web-security, --ignore-certificate-errors, --no-first-run, --disable-gpu]']
+
+2023-07-03 21:19:57 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-07-03 21:19:59 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-07-03 21:19:59 - [TEST_STEP][PASSED] - navigateToUrl(appURL): Navigate to 'https://lab.everleagues.com/login' successfully
+
+2023-07-03 21:20:14 - [MESSAGE][PASSED] - Navigate to 'https://lab.everleagues.com/login' successfully
+
+2023-07-03 21:20:14 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-07-03 21:20:14 - [MESSAGE][PASSED] - Current window maximized
+
+2023-07-03 21:20:14 - [TEST_STEP][PASSED] - setText(findTestObject("02-Side Icons(Organization)/Add Contact/Email Field"), email_for_auto10): Text 'autotester10@mailinator.com' is set on object 'Object Repository/02-Side Icons(Organization)/Add Contact/Email Field'
+
+2023-07-03 21:20:15 - [MESSAGE][PASSED] - Text 'autotester10@mailinator.com' is set on object 'Object Repository/02-Side Icons(Organization)/Add Contact/Email Field'
+
+2023-07-03 21:20:15 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("02-Side Icons(Organization)/Add Contact/Password Field"), password): Text ****** has been set on object 'Object Repository/02-Side Icons(Organization)/Add Contact/Password Field'
+
+2023-07-03 21:20:16 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/02-Side Icons(Organization)/Add Contact/Password Field'
+
+2023-07-03 21:20:16 - [TEST_STEP][PASSED] - click(findTestObject("02-Side Icons(Organization)/Add Contact/button_Sign in")): Object: 'Object Repository/02-Side Icons(Organization)/Add Contact/button_Sign in' is clicked on
+
+2023-07-03 21:20:17 - [MESSAGE][PASSED] - Object: 'Object Repository/02-Side Icons(Organization)/Add Contact/button_Sign in' is clicked on
+
+2023-07-03 21:20:17 - [TEST_STEP][PASSED] - delay(delay_2seconds): Delayed 2 second(s)
+
+2023-07-03 21:20:19 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-07-03 21:20:19 - [TEST_STEP][PASSED] - click(findTestObject("06-Teams/For 2FA/button_Confirm_2FA")): Object: 'Object Repository/06-Teams/For 2FA/button_Confirm_2FA' is clicked on
+
+2023-07-03 21:20:20 - [MESSAGE][PASSED] - Object: 'Object Repository/06-Teams/For 2FA/button_Confirm_2FA' is clicked on
+
+2023-07-03 21:20:20 - [TEST_STEP][PASSED] - executeJavaScript("window.open();", []): Execute JavaScript 'window.open();' successfully
+
+2023-07-03 21:20:20 - [MESSAGE][PASSED] - Execute JavaScript 'window.open();' successfully
+
+2023-07-03 21:20:20 - [TEST_STEP][PASSED] - currentWindow = getWindowIndex(): Current window's index is: 0
+
+2023-07-03 21:20:20 - [MESSAGE][PASSED] - Current window's index is: 0
+
+2023-07-03 21:20:20 - [TEST_STEP][PASSED] - delay(delay_3seconds): Delayed 3 second(s)
+
+2023-07-03 21:20:23 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-07-03 21:20:23 - [TEST_STEP][PASSED] - switchToWindowIndex(currentWindow + 1): Switched to window with index: '1'
+
+2023-07-03 21:20:23 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2023-07-03 21:20:23 - [TEST_STEP][PASSED] - navigateToUrl(app_mailinator): Navigate to 'https://www.mailinator.com/' successfully
+
+2023-07-03 21:20:29 - [MESSAGE][PASSED] - Navigate to 'https://www.mailinator.com/' successfully
+
+2023-07-03 21:20:29 - [TEST_STEP][PASSED] - delay(delay_3seconds): Delayed 3 second(s)
+
+2023-07-03 21:20:32 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-07-03 21:20:32 - [TEST_STEP][PASSED] - setText(findTestObject("00-Signup and Activation/zMailinator/input_LOGIN_search"), email_for_auto10): Text 'autotester10@mailinator.com' is set on object 'Object Repository/00-Signup and Activation/zMailinator/input_LOGIN_search'
+
+2023-07-03 21:20:33 - [MESSAGE][PASSED] - Text 'autotester10@mailinator.com' is set on object 'Object Repository/00-Signup and Activation/zMailinator/input_LOGIN_search'
+
+2023-07-03 21:20:33 - [TEST_STEP][PASSED] - click(findTestObject("00-Signup and Activation/zMailinator/gobutton"), STOP_ON_FAILURE): Object: 'Object Repository/00-Signup and Activation/zMailinator/gobutton' is clicked on
+
+2023-07-03 21:20:36 - [MESSAGE][PASSED] - Object: 'Object Repository/00-Signup and Activation/zMailinator/gobutton' is clicked on
+
+2023-07-03 21:20:36 - [TEST_STEP][PASSED] - delay(delay_3seconds): Delayed 3 second(s)
+
+2023-07-03 21:20:39 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-07-03 21:20:39 - [TEST_STEP][PASSED] - click(findTestObject("00-Signup and Activation/zMailinator/Email - everleagues")): Object: 'Object Repository/00-Signup and Activation/zMailinator/Email - everleagues' is clicked on
+
+2023-07-03 21:20:39 - [MESSAGE][PASSED] - Object: 'Object Repository/00-Signup and Activation/zMailinator/Email - everleagues' is clicked on
+
+2023-07-03 21:20:39 - [TEST_STEP][PASSED] - delay(delay_3seconds): Delayed 3 second(s)
+
+2023-07-03 21:20:42 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-07-03 21:20:42 - [TEST_STEP][PASSED] - codetwo = getText(findTestObject("Object Repository/06-Teams/For 2FA/2FA code")): Text of object 'Object Repository/06-Teams/For 2FA/2FA code' is: '343096'
+
+2023-07-03 21:20:43 - [MESSAGE][PASSED] - Text of object 'Object Repository/06-Teams/For 2FA/2FA code' is: '343096'
+
+2023-07-03 21:20:43 - [TEST_STEP][PASSED] - delay(delay_3seconds): Delayed 3 second(s)
+
+2023-07-03 21:20:46 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-07-03 21:20:46 - [TEST_STEP][PASSED] - closeWindowTitle("Mailinator"): Window with title: 'Mailinator' is closed
+
+2023-07-03 21:20:46 - [MESSAGE][PASSED] - Window with title: 'Mailinator' is closed
+
+2023-07-03 21:20:46 - [TEST_STEP][PASSED] - delay(delay_3seconds): Delayed 3 second(s)
+
+2023-07-03 21:20:49 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-07-03 21:20:49 - [TEST_STEP][PASSED] - switchToWindowIndex(0): Switched to window with index: '0'
+
+2023-07-03 21:20:49 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2023-07-03 21:20:49 - [TEST_STEP][PASSED] - delay(delay_3seconds): Delayed 3 second(s)
+
+2023-07-03 21:20:52 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-07-03 21:20:52 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/06-Teams/For 2FA/input_Enter verification code_code"), codetwo): Text '343096' is set on object 'Object Repository/06-Teams/For 2FA/input_Enter verification code_code'
+
+2023-07-03 21:20:53 - [MESSAGE][PASSED] - Text '343096' is set on object 'Object Repository/06-Teams/For 2FA/input_Enter verification code_code'
+
+2023-07-03 21:20:53 - [TEST_STEP][PASSED] - delay(delay_3seconds): Delayed 3 second(s)
+
+2023-07-03 21:20:56 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-07-03 21:20:56 - [TEST_STEP][PASSED] - click(findTestObject("06-Teams/For 2FA/button_Verify_2FA")): Object: 'Object Repository/06-Teams/For 2FA/button_Verify_2FA' is clicked on
+
+2023-07-03 21:20:57 - [MESSAGE][PASSED] - Object: 'Object Repository/06-Teams/For 2FA/button_Verify_2FA' is clicked on
+
+2023-07-03 21:20:57 - [TEST_STEP][PASSED] - delay(delay_5seconds): Delayed 5 second(s)
+
+2023-07-03 21:21:02 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-07-03 21:21:02 - [TEST_STEP][PASSED] - executeJavaScript("window.open();", []): Execute JavaScript 'window.open();' successfully
+
+2023-07-03 21:21:02 - [MESSAGE][PASSED] - Execute JavaScript 'window.open();' successfully
+
+2023-07-03 21:21:02 - [TEST_STEP][PASSED] - currentWindow = getWindowIndex(): Current window's index is: 0
+
+2023-07-03 21:21:02 - [MESSAGE][PASSED] - Current window's index is: 0
+
+2023-07-03 21:21:02 - [TEST_STEP][PASSED] - delay(delay_3seconds): Delayed 3 second(s)
+
+2023-07-03 21:21:05 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-07-03 21:21:05 - [TEST_STEP][PASSED] - switchToWindowIndex(currentWindow + 1): Switched to window with index: '1'
+
+2023-07-03 21:21:05 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2023-07-03 21:21:05 - [TEST_STEP][PASSED] - navigateToUrl(app_mailinator): Navigate to 'https://www.mailinator.com/' successfully
+
+2023-07-03 21:21:07 - [MESSAGE][PASSED] - Navigate to 'https://www.mailinator.com/' successfully
+
+2023-07-03 21:21:07 - [TEST_STEP][PASSED] - delay(delay_3seconds): Delayed 3 second(s)
+
+2023-07-03 21:21:10 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-07-03 21:21:10 - [TEST_STEP][PASSED] - setText(findTestObject("00-Signup and Activation/zMailinator/input_LOGIN_search"), email_for_auto10): Text 'autotester10@mailinator.com' is set on object 'Object Repository/00-Signup and Activation/zMailinator/input_LOGIN_search'
+
+2023-07-03 21:21:11 - [MESSAGE][PASSED] - Text 'autotester10@mailinator.com' is set on object 'Object Repository/00-Signup and Activation/zMailinator/input_LOGIN_search'
+
+2023-07-03 21:21:11 - [TEST_STEP][PASSED] - click(findTestObject("00-Signup and Activation/zMailinator/gobutton"), STOP_ON_FAILURE): Object: 'Object Repository/00-Signup and Activation/zMailinator/gobutton' is clicked on
+
+2023-07-03 21:21:13 - [MESSAGE][PASSED] - Object: 'Object Repository/00-Signup and Activation/zMailinator/gobutton' is clicked on
+
+2023-07-03 21:21:13 - [TEST_STEP][PASSED] - delay(delay_3seconds): Delayed 3 second(s)
+
+2023-07-03 21:21:16 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-07-03 21:21:16 - [TEST_STEP][PASSED] - closeWindowTitle("Everleagues"): Window with title: 'Everleagues' is closed
+
+2023-07-03 21:21:16 - [MESSAGE][PASSED] - Window with title: 'Everleagues' is closed
+
+2023-07-03 21:21:16 - [TEST_STEP][PASSED] - switchToWindowIndex(0): Switched to window with index: '0'
+
+2023-07-03 21:21:16 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2023-07-03 21:21:16 - [TEST_STEP][PASSED] - click(findTestObject("09-Settings/Users/Co worker/td_Invitation from GG Automation")): Object: 'Object Repository/09-Settings/Users/Co worker/td_Invitation from GG Automation' is clicked on
+
+2023-07-03 21:21:17 - [MESSAGE][PASSED] - Object: 'Object Repository/09-Settings/Users/Co worker/td_Invitation from GG Automation' is clicked on
+
+2023-07-03 21:21:17 - [TEST_STEP][PASSED] - click(findTestObject("09-Settings/Users/Co worker/a_Click here to join GG Automation on EverLeagues")): Object: 'Object Repository/09-Settings/Users/Co worker/a_Click here to join GG Automation on EverLeagues' is clicked on
+
+2023-07-03 21:21:18 - [MESSAGE][PASSED] - Object: 'Object Repository/09-Settings/Users/Co worker/a_Click here to join GG Automation on EverLeagues' is clicked on
+
+2023-07-03 21:21:18 - [TEST_STEP][PASSED] - closeWindowTitle("Mailinator"): Window with title: 'Mailinator' is closed
+
+2023-07-03 21:21:18 - [MESSAGE][PASSED] - Window with title: 'Mailinator' is closed
+
+2023-07-03 21:21:18 - [TEST_STEP][PASSED] - switchToWindowIndex(0): Switched to window with index: '0'
+
+2023-07-03 21:21:18 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2023-07-03 21:21:18 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("09-Settings/Users/Client/Invite modal")): Object 'Object Repository/09-Settings/Users/Client/Invite modal' is visible
+
+2023-07-03 21:21:29 - [MESSAGE][PASSED] - Object 'Object Repository/09-Settings/Users/Client/Invite modal' is visible
+
+2023-07-03 21:21:29 - [TEST_STEP][PASSED] - setText(findTestObject("09-Settings/Users/Client/Company field"), "QA Company"): Text 'QA Company' is set on object 'Object Repository/09-Settings/Users/Client/Company field'
+
+2023-07-03 21:21:29 - [MESSAGE][PASSED] - Text 'QA Company' is set on object 'Object Repository/09-Settings/Users/Client/Company field'
+
+2023-07-03 21:21:29 - [TEST_STEP][PASSED] - click(findTestObject("09-Settings/Users/Client/button_Accept")): Object: 'Object Repository/09-Settings/Users/Client/button_Accept' is clicked on
+
+2023-07-03 21:21:30 - [MESSAGE][PASSED] - Object: 'Object Repository/09-Settings/Users/Client/button_Accept' is clicked on
+
+2023-07-03 21:21:30 - [TEST_STEP][PASSED] - delay(delay_5seconds): Delayed 5 second(s)
+
+2023-07-03 21:21:35 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-07-03 21:21:35 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("09-Settings/Users/div_Joined as Partner")): Object 'Object Repository/09-Settings/Users/div_Joined as Partner' is visible
+
+2023-07-03 21:21:36 - [MESSAGE][PASSED] - Object 'Object Repository/09-Settings/Users/div_Joined as Partner' is visible
+
+2023-07-03 21:21:36 - [TEST_STEP][PASSED] - delay(delay_3seconds): Delayed 3 second(s)
+
+2023-07-03 21:21:39 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-07-03 21:21:39 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-07-03 21:21:41 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/09-Settings/05 - Users (Invite batch of users via CSV file)" time="125.987" classname="Test Cases/09-Settings/05 - Users (Invite batch of users via CSV file)" status="PASSED">
+         <system-out><![CDATA[2023-07-03 21:21:41 - [TEST_CASE][PASSED] - Test Cases/09-Settings/05 - Users (Invite batch of users via CSV file): Test Cases/09-Settings/05 - Users (Invite batch of users via CSV file)
+
+2023-07-03 21:21:41 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-07-03 21:21:41 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-07-03 21:21:41 - [MESSAGE][INFO] - User set preference: ['args', '[--disable-web-security, --ignore-certificate-errors, --no-first-run, --disable-gpu]']
+
+2023-07-03 21:21:41 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-07-03 21:21:43 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-07-03 21:21:43 - [TEST_STEP][PASSED] - navigateToUrl(appURL): Navigate to 'https://lab.everleagues.com/login' successfully
+
+2023-07-03 21:21:57 - [MESSAGE][PASSED] - Navigate to 'https://lab.everleagues.com/login' successfully
+
+2023-07-03 21:21:57 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-07-03 21:21:58 - [MESSAGE][PASSED] - Current window maximized
+
+2023-07-03 21:21:58 - [TEST_STEP][PASSED] - callTestCase(findTestCase("01-Login and Forgot Password/04-Login(Valid Credentials-With Subscription)"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/01-Login and Forgot Password/04-Login(Valid Credentials-With Subscription)' successfully
+
+2023-07-03 21:21:58 - [TEST_CASE][PASSED] - Test Cases/01-Login and Forgot Password/04-Login(Valid Credentials-With Subscription): Test Cases/01-Login and Forgot Password/04-Login(Valid Credentials-With Subscription)
+
+2023-07-03 21:21:58 - [TEST_STEP][PASSED] - setText(findTestObject("01-Login and Forgot Password/input_Email_email"), email_with_subscription): Text 'testuser05@mailinator.com' is set on object 'Object Repository/01-Login and Forgot Password/input_Email_email'
+
+2023-07-03 21:21:59 - [MESSAGE][PASSED] - Text 'testuser05@mailinator.com' is set on object 'Object Repository/01-Login and Forgot Password/input_Email_email'
+
+2023-07-03 21:21:59 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("01-Login and Forgot Password/input_Email_password"), password): Text ****** has been set on object 'Object Repository/01-Login and Forgot Password/input_Email_password'
+
+2023-07-03 21:21:59 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/01-Login and Forgot Password/input_Email_password'
+
+2023-07-03 21:21:59 - [TEST_STEP][PASSED] - delay(delay_2seconds): Delayed 2 second(s)
+
+2023-07-03 21:22:01 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-07-03 21:22:01 - [TEST_STEP][PASSED] - click(findTestObject("01-Login and Forgot Password/show pass button")): Object: 'Object Repository/01-Login and Forgot Password/show pass button' is clicked on
+
+2023-07-03 21:22:02 - [MESSAGE][PASSED] - Object: 'Object Repository/01-Login and Forgot Password/show pass button' is clicked on
+
+2023-07-03 21:22:02 - [TEST_STEP][PASSED] - delay(delay_3seconds): Delayed 3 second(s)
+
+2023-07-03 21:22:05 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-07-03 21:22:05 - [TEST_STEP][PASSED] - click(findTestObject("01-Login and Forgot Password/button_Sign in")): Object: 'Object Repository/01-Login and Forgot Password/button_Sign in' is clicked on
+
+2023-07-03 21:22:06 - [MESSAGE][PASSED] - Object: 'Object Repository/01-Login and Forgot Password/button_Sign in' is clicked on
+
+2023-07-03 21:22:06 - [TEST_STEP][PASSED] - delay(delay_3seconds): Delayed 3 second(s)
+
+2023-07-03 21:22:09 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-07-03 21:22:09 - [TEST_STEP][PASSED] - click(findTestObject("06-Teams/For 2FA/button_Confirm_2FA")): Object: 'Object Repository/06-Teams/For 2FA/button_Confirm_2FA' is clicked on
+
+2023-07-03 21:22:09 - [MESSAGE][PASSED] - Object: 'Object Repository/06-Teams/For 2FA/button_Confirm_2FA' is clicked on
+
+2023-07-03 21:22:09 - [TEST_STEP][PASSED] - executeJavaScript("window.open();", []): Execute JavaScript 'window.open();' successfully
+
+2023-07-03 21:22:09 - [MESSAGE][PASSED] - Execute JavaScript 'window.open();' successfully
+
+2023-07-03 21:22:09 - [TEST_STEP][PASSED] - currentWindow = getWindowIndex(): Current window's index is: 0
+
+2023-07-03 21:22:09 - [MESSAGE][PASSED] - Current window's index is: 0
+
+2023-07-03 21:22:09 - [TEST_STEP][PASSED] - delay(delay_3seconds): Delayed 3 second(s)
+
+2023-07-03 21:22:12 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-07-03 21:22:12 - [TEST_STEP][PASSED] - switchToWindowIndex(currentWindow + 1): Switched to window with index: '1'
+
+2023-07-03 21:22:12 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2023-07-03 21:22:12 - [TEST_STEP][PASSED] - navigateToUrl(app_mailinator): Navigate to 'https://www.mailinator.com/' successfully
+
+2023-07-03 21:22:18 - [MESSAGE][PASSED] - Navigate to 'https://www.mailinator.com/' successfully
+
+2023-07-03 21:22:18 - [TEST_STEP][PASSED] - delay(delay_3seconds): Delayed 3 second(s)
+
+2023-07-03 21:22:21 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-07-03 21:22:21 - [TEST_STEP][PASSED] - setText(findTestObject("00-Signup and Activation/zMailinator/input_LOGIN_search"), email_for_searchmailinator_testuser05): Text 'testuser05@mailinator.com' is set on object 'Object Repository/00-Signup and Activation/zMailinator/input_LOGIN_search'
+
+2023-07-03 21:22:22 - [MESSAGE][PASSED] - Text 'testuser05@mailinator.com' is set on object 'Object Repository/00-Signup and Activation/zMailinator/input_LOGIN_search'
+
+2023-07-03 21:22:22 - [TEST_STEP][PASSED] - click(findTestObject("00-Signup and Activation/zMailinator/gobutton"), STOP_ON_FAILURE): Object: 'Object Repository/00-Signup and Activation/zMailinator/gobutton' is clicked on
+
+2023-07-03 21:22:25 - [MESSAGE][PASSED] - Object: 'Object Repository/00-Signup and Activation/zMailinator/gobutton' is clicked on
+
+2023-07-03 21:22:25 - [TEST_STEP][PASSED] - delay(delay_3seconds): Delayed 3 second(s)
+
+2023-07-03 21:22:28 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-07-03 21:22:28 - [TEST_STEP][PASSED] - click(findTestObject("00-Signup and Activation/zMailinator/Email - everleagues")): Object: 'Object Repository/00-Signup and Activation/zMailinator/Email - everleagues' is clicked on
+
+2023-07-03 21:22:28 - [MESSAGE][PASSED] - Object: 'Object Repository/00-Signup and Activation/zMailinator/Email - everleagues' is clicked on
+
+2023-07-03 21:22:28 - [TEST_STEP][PASSED] - delay(delay_3seconds): Delayed 3 second(s)
+
+2023-07-03 21:22:31 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-07-03 21:22:31 - [TEST_STEP][PASSED] - code = getText(findTestObject("Object Repository/06-Teams/For 2FA/2FA code")): Text of object 'Object Repository/06-Teams/For 2FA/2FA code' is: '755705'
+
+2023-07-03 21:22:32 - [MESSAGE][PASSED] - Text of object 'Object Repository/06-Teams/For 2FA/2FA code' is: '755705'
+
+2023-07-03 21:22:32 - [TEST_STEP][PASSED] - delay(delay_3seconds): Delayed 3 second(s)
+
+2023-07-03 21:22:35 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-07-03 21:22:35 - [TEST_STEP][PASSED] - closeWindowTitle("Mailinator"): Window with title: 'Mailinator' is closed
+
+2023-07-03 21:22:35 - [MESSAGE][PASSED] - Window with title: 'Mailinator' is closed
+
+2023-07-03 21:22:35 - [TEST_STEP][PASSED] - delay(delay_3seconds): Delayed 3 second(s)
+
+2023-07-03 21:22:38 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-07-03 21:22:38 - [TEST_STEP][PASSED] - switchToWindowIndex(0): Switched to window with index: '0'
+
+2023-07-03 21:22:38 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2023-07-03 21:22:38 - [TEST_STEP][PASSED] - delay(delay_3seconds): Delayed 3 second(s)
+
+2023-07-03 21:22:41 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-07-03 21:22:41 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/06-Teams/For 2FA/input_Enter verification code_code"), code): Text '755705' is set on object 'Object Repository/06-Teams/For 2FA/input_Enter verification code_code'
+
+2023-07-03 21:22:42 - [MESSAGE][PASSED] - Text '755705' is set on object 'Object Repository/06-Teams/For 2FA/input_Enter verification code_code'
+
+2023-07-03 21:22:42 - [TEST_STEP][PASSED] - delay(delay_3seconds): Delayed 3 second(s)
+
+2023-07-03 21:22:45 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-07-03 21:22:45 - [TEST_STEP][PASSED] - click(findTestObject("06-Teams/For 2FA/button_Verify_2FA")): Object: 'Object Repository/06-Teams/For 2FA/button_Verify_2FA' is clicked on
+
+2023-07-03 21:22:47 - [MESSAGE][PASSED] - Object: 'Object Repository/06-Teams/For 2FA/button_Verify_2FA' is clicked on
+
+2023-07-03 21:22:47 - [TEST_STEP][PASSED] - delay(delay_3seconds): Delayed 3 second(s)
+
+2023-07-03 21:22:50 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-07-03 21:22:50 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/01-Login and Forgot Password/04-Login(Valid Credentials-With Subscription)' successfully
+
+2023-07-03 21:22:50 - [TEST_STEP][PASSED] - click(findTestObject("06-Teams/button_doublearrow")): Object: 'Object Repository/06-Teams/button_doublearrow' is clicked on
+
+2023-07-03 21:22:55 - [MESSAGE][PASSED] - Object: 'Object Repository/06-Teams/button_doublearrow' is clicked on
+
+2023-07-03 21:22:55 - [TEST_STEP][PASSED] - click(findTestObject("06-Teams/button_My Organizations")): Object: 'Object Repository/06-Teams/button_My Organizations' is clicked on
+
+2023-07-03 21:22:56 - [MESSAGE][PASSED] - Object: 'Object Repository/06-Teams/button_My Organizations' is clicked on
+
+2023-07-03 21:22:56 - [TEST_STEP][PASSED] - click(findTestObject("06-Teams/button_GG Automation")): Object: 'Object Repository/06-Teams/button_GG Automation' is clicked on
+
+2023-07-03 21:22:57 - [MESSAGE][PASSED] - Object: 'Object Repository/06-Teams/button_GG Automation' is clicked on
+
+2023-07-03 21:22:57 - [TEST_STEP][PASSED] - delay(delay_4seconds): Delayed 4 second(s)
+
+2023-07-03 21:23:01 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2023-07-03 21:23:01 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("06-Teams/span_GG Automation")): Object 'Object Repository/06-Teams/span_GG Automation' is visible
+
+2023-07-03 21:23:02 - [MESSAGE][PASSED] - Object 'Object Repository/06-Teams/span_GG Automation' is visible
+
+2023-07-03 21:23:02 - [TEST_STEP][PASSED] - delay(delay_5seconds): Delayed 5 second(s)
+
+2023-07-03 21:23:07 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-07-03 21:23:07 - [TEST_STEP][PASSED] - click(findTestObject("03-Header Menu/Hamburger Button/div_Settings")): Object: 'Object Repository/03-Header Menu/Hamburger Button/div_Settings' is clicked on
+
+2023-07-03 21:23:07 - [MESSAGE][PASSED] - Object: 'Object Repository/03-Header Menu/Hamburger Button/div_Settings' is clicked on
+
+2023-07-03 21:23:07 - [TEST_STEP][PASSED] - delay(delay_3seconds): Delayed 3 second(s)
+
+2023-07-03 21:23:10 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-07-03 21:23:10 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("09-Settings/Users/div_Users"), 0): Scroll to object 'Object Repository/09-Settings/Users/div_Users' successfully
+
+2023-07-03 21:23:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 21:23:10 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/09-Settings/Users/div_Users' successfully
+
+2023-07-03 21:23:10 - [TEST_STEP][PASSED] - click(findTestObject("09-Settings/Users/div_Users")): Object: 'Object Repository/09-Settings/Users/div_Users' is clicked on
+
+2023-07-03 21:23:11 - [MESSAGE][PASSED] - Object: 'Object Repository/09-Settings/Users/div_Users' is clicked on
+
+2023-07-03 21:23:11 - [TEST_STEP][PASSED] - delay(delay_3seconds): Delayed 3 second(s)
+
+2023-07-03 21:23:14 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-07-03 21:23:14 - [TEST_STEP][PASSED] - click(findTestObject("09-Settings/Users/button_add")): Object: 'Object Repository/09-Settings/Users/button_add' is clicked on
+
+2023-07-03 21:23:15 - [MESSAGE][PASSED] - Object: 'Object Repository/09-Settings/Users/button_add' is clicked on
+
+2023-07-03 21:23:15 - [TEST_STEP][PASSED] - delay(delay_3seconds): Delayed 3 second(s)
+
+2023-07-03 21:23:18 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-07-03 21:23:18 - [TEST_STEP][PASSED] - click(findTestObject("09-Settings/Users/Invite batch of users via CSV file")): Object: 'Object Repository/09-Settings/Users/Invite batch of users via CSV file' is clicked on
+
+2023-07-03 21:23:19 - [MESSAGE][PASSED] - Object: 'Object Repository/09-Settings/Users/Invite batch of users via CSV file' is clicked on
+
+2023-07-03 21:23:19 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("09-Settings/Users/CSV Invite/Import CSV File modal")): Object 'Object Repository/09-Settings/Users/CSV Invite/Import CSV File modal' is visible
+
+2023-07-03 21:23:20 - [MESSAGE][PASSED] - Object 'Object Repository/09-Settings/Users/CSV Invite/Import CSV File modal' is visible
+
+2023-07-03 21:23:20 - [TEST_STEP][PASSED] - verifyElementNotClickable(findTestObject("09-Settings/Users/CSV Invite/button_Import")): Object 'Object Repository/09-Settings/Users/CSV Invite/button_Import' is NOT clickable
+
+2023-07-03 21:23:20 - [MESSAGE][PASSED] - Object 'Object Repository/09-Settings/Users/CSV Invite/button_Import' is NOT clickable
+
+2023-07-03 21:23:20 - [TEST_STEP][PASSED] - delay(delay_3seconds): Delayed 3 second(s)
+
+2023-07-03 21:23:23 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-07-03 21:23:23 - [TEST_STEP][PASSED] - uploadpackage.Upload.uploadFile(findTestObject("Object Repository/09-Settings/Users/CSV Invite/button_Choose File"), upload_csv_file): uploadpackage.Upload.uploadFile is PASSED
+
+2023-07-03 21:23:24 - [MESSAGE][PASSED] - Object: 'Object Repository/09-Settings/Users/CSV Invite/button_Choose File' is clicked on
+
+2023-07-03 21:23:25 - [MESSAGE][PASSED] - uploadpackage.Upload.uploadFile is PASSED
+
+2023-07-03 21:23:25 - [TEST_STEP][PASSED] - delay(delay_3seconds): Delayed 3 second(s)
+
+2023-07-03 21:23:28 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-07-03 21:23:28 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("09-Settings/Users/CSV Invite/div_Sample csv.csv")): Object 'Object Repository/09-Settings/Users/CSV Invite/div_Sample csv.csv' is visible
+
+2023-07-03 21:23:29 - [MESSAGE][PASSED] - Object 'Object Repository/09-Settings/Users/CSV Invite/div_Sample csv.csv' is visible
+
+2023-07-03 21:23:29 - [TEST_STEP][PASSED] - click(findTestObject("09-Settings/Users/CSV Invite/button_Import")): Object: 'Object Repository/09-Settings/Users/CSV Invite/button_Import' is clicked on
+
+2023-07-03 21:23:29 - [MESSAGE][PASSED] - Object: 'Object Repository/09-Settings/Users/CSV Invite/button_Import' is clicked on
+
+2023-07-03 21:23:29 - [TEST_STEP][PASSED] - delay(delay_5seconds): Delayed 5 second(s)
+
+2023-07-03 21:23:34 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-07-03 21:23:34 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("09-Settings/Users/CSV Invite/Success import modal")): Object 'Object Repository/09-Settings/Users/CSV Invite/Success import modal' is visible
+
+2023-07-03 21:23:35 - [MESSAGE][PASSED] - Object 'Object Repository/09-Settings/Users/CSV Invite/Success import modal' is visible
+
+2023-07-03 21:23:35 - [TEST_STEP][PASSED] - click(findTestObject("09-Settings/Users/CSV Invite/button_Close")): Object: 'Object Repository/09-Settings/Users/CSV Invite/button_Close' is clicked on
+
+2023-07-03 21:23:35 - [MESSAGE][PASSED] - Object: 'Object Repository/09-Settings/Users/CSV Invite/button_Close' is clicked on
+
+2023-07-03 21:23:35 - [TEST_STEP][PASSED] - click(findTestObject("09-Settings/Users/CSV Invite/Invited Users tab")): Object: 'Object Repository/09-Settings/Users/CSV Invite/Invited Users tab' is clicked on
+
+2023-07-03 21:23:36 - [MESSAGE][PASSED] - Object: 'Object Repository/09-Settings/Users/CSV Invite/Invited Users tab' is clicked on
+
+2023-07-03 21:23:36 - [TEST_STEP][PASSED] - delay(delay_3seconds): Delayed 3 second(s)
+
+2023-07-03 21:23:39 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-07-03 21:23:39 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("09-Settings/Users/CSV Invite/div_CTCSV test3")): Object 'Object Repository/09-Settings/Users/CSV Invite/div_CTCSV test3' is visible
+
+2023-07-03 21:23:39 - [MESSAGE][PASSED] - Object 'Object Repository/09-Settings/Users/CSV Invite/div_CTCSV test3' is visible
+
+2023-07-03 21:23:39 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("09-Settings/Users/CSV Invite/div_autotester08mailinator.com")): Object 'Object Repository/09-Settings/Users/CSV Invite/div_autotester08mailinator.com' is visible
+
+2023-07-03 21:23:40 - [MESSAGE][PASSED] - Object 'Object Repository/09-Settings/Users/CSV Invite/div_autotester08mailinator.com' is visible
+
+2023-07-03 21:23:40 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("09-Settings/Users/CSV Invite/div_Partner")): Object 'Object Repository/09-Settings/Users/CSV Invite/div_Partner' is visible
+
+2023-07-03 21:23:40 - [MESSAGE][PASSED] - Object 'Object Repository/09-Settings/Users/CSV Invite/div_Partner' is visible
+
+2023-07-03 21:23:40 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("09-Settings/Users/CSV Invite/div_CTCSV test2")): Object 'Object Repository/09-Settings/Users/CSV Invite/div_CTCSV test2' is visible
+
+2023-07-03 21:23:41 - [MESSAGE][PASSED] - Object 'Object Repository/09-Settings/Users/CSV Invite/div_CTCSV test2' is visible
+
+2023-07-03 21:23:41 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("09-Settings/Users/CSV Invite/div_autotester07mailinator.com")): Object 'Object Repository/09-Settings/Users/CSV Invite/div_autotester07mailinator.com' is visible
+
+2023-07-03 21:23:41 - [MESSAGE][PASSED] - Object 'Object Repository/09-Settings/Users/CSV Invite/div_autotester07mailinator.com' is visible
+
+2023-07-03 21:23:41 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("09-Settings/Users/CSV Invite/div_Client")): Object 'Object Repository/09-Settings/Users/CSV Invite/div_Client' is visible
+
+2023-07-03 21:23:41 - [MESSAGE][PASSED] - Object 'Object Repository/09-Settings/Users/CSV Invite/div_Client' is visible
+
+2023-07-03 21:23:41 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("09-Settings/Users/CSV Invite/div_CTCSV test1")): Object 'Object Repository/09-Settings/Users/CSV Invite/div_CTCSV test1' is visible
+
+2023-07-03 21:23:42 - [MESSAGE][PASSED] - Object 'Object Repository/09-Settings/Users/CSV Invite/div_CTCSV test1' is visible
+
+2023-07-03 21:23:42 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("09-Settings/Users/CSV Invite/div_autotester06mailinator.com")): Object 'Object Repository/09-Settings/Users/CSV Invite/div_autotester06mailinator.com' is visible
+
+2023-07-03 21:23:42 - [MESSAGE][PASSED] - Object 'Object Repository/09-Settings/Users/CSV Invite/div_autotester06mailinator.com' is visible
+
+2023-07-03 21:23:42 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("09-Settings/Users/CSV Invite/div_Coworker")): Object 'Object Repository/09-Settings/Users/CSV Invite/div_Coworker' is visible
+
+2023-07-03 21:23:43 - [MESSAGE][PASSED] - Object 'Object Repository/09-Settings/Users/CSV Invite/div_Coworker' is visible
+
+2023-07-03 21:23:43 - [TEST_STEP][PASSED] - delay(delay_3seconds): Delayed 3 second(s)
+
+2023-07-03 21:23:46 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-07-03 21:23:46 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-07-03 21:23:47 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-07-03 21:04:12 - [TEST_SUITE][PASSED] - 09.1 - Settings (Invite users): Test Cases/09-Settings/05 - Users (Invite batch of users via CSV file)]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -42,7 +42,7 @@ WebUI.verifyElementVisible(findTestObject('00-Signup and Activation/h4_Welcome t
 
 WebUI.verifyElementVisible(findTestObject('00-Signup and Activation/span_CREATE A BUSINESS ORGANIZATION'))
 
-WebUI.verifyElementVisible(findTestObject('00-Signup and Activation/span_INVITE FRIENDS  FAMILY'))
+WebUI.verifyElementVisible(findTestObject('00-Signup and Activation/span_INVITE YOUR FRIENDS  FAMILY'))
 
 WebUI.delay(GlobalVariable.delay_3seconds)
 
