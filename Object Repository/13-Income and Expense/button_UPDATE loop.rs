@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_UPDATE loop</name>
+   <tag></tag>
+   <elementGuidId>a5fcc4f6-92db-42e9-b436-3a7f835c1e02</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.mat-focus-indicator.text-upper.mat-raised-button.mat-button-base.mat-accent.ng-star-inserted</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//mat-dialog-container[@id='mat-dialog-3']/app-iet-addreceipt/div/div/div[2]/div/span[2]/button</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>44a9ad72-751a-47ab-b0ec-7a8bdfdfa6cb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>color</name>
+      <type>Main</type>
+      <value>accent</value>
+      <webElementGuid>3147f340-bacc-4a4d-9b03-dbd54e21693c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-focus-indicator text-upper mat-raised-button mat-button-base mat-accent ng-star-inserted</value>
+      <webElementGuid>24ef12e0-ba51-4279-a5df-ae7a575d6503</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-reflect-color</name>
+      <type>Main</type>
+      <value>accent</value>
+      <webElementGuid>a0af7f39-6c26-47b9-979d-a404ef0b2b4d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-reflect-disabled</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>fba4dc0b-5ef7-4885-be05-00b891909fa4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> UPDATE loop</value>
+      <webElementGuid>95bb6802-580e-47a4-8cea-c89c42695a27</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mat-dialog-3&quot;)/app-iet-addreceipt[@class=&quot;ng-star-inserted&quot;]/div[1]/div[@class=&quot;invgridColumn&quot;]/div[@class=&quot;button-row&quot;]/div[1]/span[@class=&quot;ng-star-inserted&quot;]/button[@class=&quot;mat-focus-indicator text-upper mat-raised-button mat-button-base mat-accent ng-star-inserted&quot;]</value>
+      <webElementGuid>6cdac3dd-107b-489b-98f0-40c099d4d2c8</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//mat-dialog-container[@id='mat-dialog-3']/app-iet-addreceipt/div/div/div[2]/div/span[2]/button</value>
+      <webElementGuid>80361c76-0c41-4d9c-8887-ce79824fe8c0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='CANCEL'])[1]/following::button[1]</value>
+      <webElementGuid>18132427-18e2-4f5a-b6b1-c75fdcf5736e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add a note'])[1]/following::button[2]</value>
+      <webElementGuid>c8d316d9-fe88-4b00-b94b-1580f369e9ca</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='GG Automation'])[2]/preceding::button[1]</value>
+      <webElementGuid>447de3e0-9ea2-4497-a51b-48107598ba2f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/span[2]/button</value>
+      <webElementGuid>21dc75be-65dd-44cf-96a9-7a64c1f7510f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = ' UPDATE loop' or . = ' UPDATE loop')]</value>
+      <webElementGuid>531c6371-37e8-4b0c-869d-6028969d27de</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

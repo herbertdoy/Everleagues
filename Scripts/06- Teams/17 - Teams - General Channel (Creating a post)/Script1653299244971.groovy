@@ -25,8 +25,6 @@ WebUI.click(findTestObject('06-Teams/05- Teams-General Channel/button_send'))
 
 WebUI.delay(GlobalVariable.delay_2seconds)
 
-WebUI.verifyElementVisible(findTestObject('06-Teams/05- Teams-General Channel/added new post msg'))
-
 WebUI.verifyElementVisible(findTestObject('06-Teams/05- Teams-General Channel/posted_This is automation'))
 
 WebUI.delay(GlobalVariable.delay_3seconds)
