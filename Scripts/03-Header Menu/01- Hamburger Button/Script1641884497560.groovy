@@ -32,8 +32,6 @@ WebUI.click(findTestObject('02-Side Icons(Organization)/Add Contact/button_Sign 
 
 WebUI.delay(GlobalVariable.delay_2seconds)
 
-WebUI.click(findTestObject('06-Teams/For 2FA/button_Confirm_2FA'))
-
 WebUI.executeJavaScript('window.open();', [])
 
 currentWindow = WebUI.getWindowIndex()

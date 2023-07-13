@@ -6,15 +6,18 @@
    <elementGuidId>c73f59a4-54da-4d86-921a-fa4739eca3bb</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//mat-tab-body[@id='mat-tab-content-2-1']/div/section[3]/div/mat-card</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>BASIC</key>
+         <value>//mat-card[(text() = ' Tools  Enable or disable tools by clicking on the toggle. ELNet ELSign EL HealthCheck Income and Expense PDF Converter ' or . = ' Tools  Enable or disable tools by clicking on the toggle. ELNet ELSign EL HealthCheck Income and Expense PDF Converter ')]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -22,7 +25,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>mat-card</value>
-      <webElementGuid>ad9c0082-263f-4f96-bbda-e73035cb4488</webElementGuid>
+      <webElementGuid>e8bcfe08-dc43-4039-a38c-eb05e18623c6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +33,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-card mat-focus-indicator ng-tns-c588-62</value>
-      <webElementGuid>8a2f78e2-b321-467f-925e-8af211efcc88</webElementGuid>
+      <webElementGuid>b0da09e3-9e17-4bae-9369-cd033b71d8db</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +41,7 @@
       <name>text</name>
       <type>Main</type>
       <value> Tools  Enable or disable tools by clicking on the toggle. ELNet ELSign EL HealthCheck Income and Expense PDF Converter </value>
-      <webElementGuid>c6f4c378-fb8f-4f9f-9093-94f7b8c356f8</webElementGuid>
+      <webElementGuid>671aacf4-1071-407f-a03d-1eaba583b57a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +49,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-tab-content-2-1&quot;)/div[@class=&quot;mat-tab-body-content ng-tns-c361-78 ng-trigger ng-trigger-translateTab&quot;]/section[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;ng-tns-c588-62&quot;]/mat-card[@class=&quot;mat-card mat-focus-indicator ng-tns-c588-62&quot;]</value>
-      <webElementGuid>3583a85a-95dc-40b6-a189-cdf1cca1d202</webElementGuid>
+      <webElementGuid>97dfa986-20ff-4f84-9d14-996734a2c258</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +57,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-tab-body[@id='mat-tab-content-2-1']/div/section[3]/div/mat-card</value>
-      <webElementGuid>aa2894c3-d560-4ea3-8ab0-5f844f86cc6e</webElementGuid>
+      <webElementGuid>f2a76ad0-ae2d-4d79-8fce-945039fa3b4a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +65,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='By enabling this option, all join requests via URL will be automatically approved.'])[1]/following::mat-card[1]</value>
-      <webElementGuid>8d3a8d70-ffaf-4d83-b69e-4090375cecdf</webElementGuid>
+      <webElementGuid>adce94ec-2039-4e3e-a79f-8526370ec669</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +73,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Enable Auto Approve'])[1]/following::mat-card[1]</value>
-      <webElementGuid>f81c40b8-9fc9-4a1e-a431-8d7c89341a8d</webElementGuid>
+      <webElementGuid>d6570816-4d01-424e-a888-c11a28aed0d1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +81,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//section[3]/div/mat-card</value>
-      <webElementGuid>5f152b6e-bbdc-4619-bfc6-2eb7cf322ee8</webElementGuid>
+      <webElementGuid>c91f463e-58b1-40d6-9379-25b1b33d65f4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,6 +89,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//mat-card[(text() = ' Tools  Enable or disable tools by clicking on the toggle. ELNet ELSign EL HealthCheck Income and Expense PDF Converter ' or . = ' Tools  Enable or disable tools by clicking on the toggle. ELNet ELSign EL HealthCheck Income and Expense PDF Converter ')]</value>
-      <webElementGuid>bc86f1ed-fa0a-46b2-8394-f8086c4ca397</webElementGuid>
+      <webElementGuid>e6930c93-95b9-45db-8081-a4dc7d6fcfae</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

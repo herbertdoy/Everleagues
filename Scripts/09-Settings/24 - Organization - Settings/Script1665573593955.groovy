@@ -79,12 +79,7 @@ WebUI.delay(GlobalVariable.delay_2seconds)
 //WebUI.click(findTestObject('09-Settings/Users/div_Organization'))
 WebUI.click(findTestObject('09-Settings/Organization/div_Settings'))
 
-WebUI.scrollToElement(findTestObject('09-Settings/Organization/mat-card_Tools'), 0)
-
 WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/mat-card-title_Tools'))
-
-//WebUI.delay(3)
-WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/mat-card_Tools'))
 
 WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/div_Enable or disable tools by clicking on the toggle'))
 
