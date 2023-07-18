@@ -1,0 +1,27 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+01-Login and Forgot Password,,,,2023-07-18 08:25:41,2023-07-18 08:25:49,7.727s,FAILED
+,,,,,,,
+Test Cases/01-Login and Forgot Password/01-Login(Credentials Blank),,,,2023-07-18 08:25:41,2023-07-18 08:25:43,1.302s,FAILED
+"openBrowser("""")",,,,2023-07-18 08:25:42,2023-07-18 08:25:43,0.854s,FAILED
+,,,,,,,
+Test Cases/01-Login and Forgot Password/02-Login(Wrong Email),,,,2023-07-18 08:25:43,2023-07-18 08:25:44,1.476s,FAILED
+"setText(findTestObject(""01-Login and Forgot Password/input_Email_email""), unregistered_email)",,,,2023-07-18 08:25:43,2023-07-18 08:25:44,0.973s,FAILED
+,,,,,,,
+"Test Cases/01-Login and Forgot Password/03-Login(Valid email, wrong pass)",,,,2023-07-18 08:25:44,2023-07-18 08:25:45,0.367s,FAILED
+"setText(findTestObject(""01-Login and Forgot Password/input_Email_email""), email_without_subscription)",,,,2023-07-18 08:25:44,2023-07-18 08:25:45,0.067s,FAILED
+,,,,,,,
+Test Cases/01-Login and Forgot Password/04-Login (Valid Credentials-Without Subscription),,,,2023-07-18 08:25:45,2023-07-18 08:25:45,0.401s,FAILED
+"setText(findTestObject(""01-Login and Forgot Password/input_Email_email""), email_without_subscription)",,,,2023-07-18 08:25:45,2023-07-18 08:25:45,0.070s,FAILED
+,,,,,,,
+Test Cases/01-Login and Forgot Password/05-Logout,,,,2023-07-18 08:25:45,2023-07-18 08:25:45,0.367s,FAILED
+"click(findTestObject(""01-Login and Forgot Password/User menu drop""))",,,,2023-07-18 08:25:45,2023-07-18 08:25:45,0.081s,FAILED
+,,,,,,,
+Test Cases/01-Login and Forgot Password/06-Forgot Password(Credentials Blank),,,,2023-07-18 08:25:45,2023-07-18 08:25:46,0.404s,FAILED
+"click(findTestObject(""01-Login and Forgot Password/zForgot Password/a_Forgot password""))",,,,2023-07-18 08:25:46,2023-07-18 08:25:46,0.098s,FAILED
+,,,,,,,
+Test Cases/01-Login and Forgot Password/08-Forgot Password(Correct Email),,,,2023-07-18 08:25:46,2023-07-18 08:25:48,2.583s,FAILED
+delay(delay_2seconds),,,,2023-07-18 08:25:46,2023-07-18 08:25:48,2.050s,PASSED
+"setText(findTestObject(""01-Login and Forgot Password/zForgot Password/Reset pass email field""), email_without_subscription)",,,,2023-07-18 08:25:48,2023-07-18 08:25:48,0.064s,FAILED
+,,,,,,,
+Test Cases/01-Login and Forgot Password/04-Login(Valid Credentials-With Subscription),,,,2023-07-18 08:25:48,2023-07-18 08:25:49,0.411s,FAILED
+"setText(findTestObject(""01-Login and Forgot Password/input_Email_email""), email_with_subscription)",,,,2023-07-18 08:25:49,2023-07-18 08:25:49,0.072s,FAILED
