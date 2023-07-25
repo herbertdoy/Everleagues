@@ -1,0 +1,498 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+03-Header Menu,Chrome 114.0.0.0,,,2023-07-24 22:02:46,2023-07-24 22:19:36,16m - 50.204s,PASSED
+,,,,,,,
+Test Cases/03-Header Menu/01- Hamburger Button,Chrome 114.0.0.0,verifies all elements of the hamburger button,,2023-07-24 22:02:46,2023-07-24 22:07:01,4m - 15.568s,PASSED
+"openBrowser("""")",Chrome 114.0.0.0,,,2023-07-24 22:02:46,2023-07-24 22:02:48,1.997s,PASSED
+navigateToUrl(app_url_login),Chrome 114.0.0.0,,,2023-07-24 22:02:48,2023-07-24 22:05:51,3m - 2.559s,PASSED
+maximizeWindow(),Chrome 114.0.0.0,,,2023-07-24 22:05:51,2023-07-24 22:05:51,0.139s,PASSED
+"setText(findTestObject(""02-Side Icons(Organization)/Add Contact/Email Field""), email_without_subscription)",Chrome 114.0.0.0,,,2023-07-24 22:05:51,2023-07-24 22:05:52,0.724s,PASSED
+"setEncryptedText(findTestObject(""02-Side Icons(Organization)/Add Contact/Password Field""), password)",Chrome 114.0.0.0,,,2023-07-24 22:05:52,2023-07-24 22:05:52,0.508s,PASSED
+"click(findTestObject(""02-Side Icons(Organization)/Add Contact/button_Sign in""))",Chrome 114.0.0.0,,,2023-07-24 22:05:52,2023-07-24 22:05:53,0.722s,PASSED
+delay(delay_2seconds),Chrome 114.0.0.0,,,2023-07-24 22:05:53,2023-07-24 22:05:55,2.020s,PASSED
+"executeJavaScript(""window.open();"", [])",Chrome 114.0.0.0,,,2023-07-24 22:05:55,2023-07-24 22:05:55,0.046s,PASSED
+currentWindow = getWindowIndex(),Chrome 114.0.0.0,,,2023-07-24 22:05:55,2023-07-24 22:05:55,0.018s,PASSED
+delay(delay_3seconds),Chrome 114.0.0.0,,,2023-07-24 22:05:55,2023-07-24 22:05:58,3.008s,PASSED
+switchToWindowIndex(currentWindow + 1),Chrome 114.0.0.0,,,2023-07-24 22:05:58,2023-07-24 22:05:58,0.017s,PASSED
+navigateToUrl(app_mailinator),Chrome 114.0.0.0,,,2023-07-24 22:05:58,2023-07-24 22:06:07,8.686s,PASSED
+delay(delay_3seconds),Chrome 114.0.0.0,,,2023-07-24 22:06:07,2023-07-24 22:06:10,3.005s,PASSED
+"setText(findTestObject(""00-Signup and Activation/zMailinator/input_LOGIN_search""), email_for_searchmailinator_testuser01)",Chrome 114.0.0.0,,,2023-07-24 22:06:10,2023-07-24 22:06:10,0.699s,PASSED
+"click(findTestObject(""00-Signup and Activation/zMailinator/gobutton""), STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-24 22:06:10,2023-07-24 22:06:11,0.703s,PASSED
+delay(delay_3seconds),Chrome 114.0.0.0,,,2023-07-24 22:06:11,2023-07-24 22:06:14,3.010s,PASSED
+"click(findTestObject(""00-Signup and Activation/zMailinator/Email - everleagues""))",Chrome 114.0.0.0,,,2023-07-24 22:06:14,2023-07-24 22:06:14,0.413s,PASSED
+delay(delay_3seconds),Chrome 114.0.0.0,,,2023-07-24 22:06:14,2023-07-24 22:06:17,3.009s,PASSED
+"code = getText(findTestObject(""Object Repository/06-Teams/For 2FA/2FA code""))",Chrome 114.0.0.0,,,2023-07-24 22:06:17,2023-07-24 22:06:18,0.436s,PASSED
+delay(delay_3seconds),Chrome 114.0.0.0,,,2023-07-24 22:06:18,2023-07-24 22:06:21,3.004s,PASSED
+"closeWindowTitle(""Mailinator"")",Chrome 114.0.0.0,,,2023-07-24 22:06:21,2023-07-24 22:06:21,0.172s,PASSED
+delay(delay_3seconds),Chrome 114.0.0.0,,,2023-07-24 22:06:21,2023-07-24 22:06:24,3.014s,PASSED
+switchToWindowIndex(0),Chrome 114.0.0.0,,,2023-07-24 22:06:24,2023-07-24 22:06:24,0.017s,PASSED
+delay(delay_3seconds),Chrome 114.0.0.0,,,2023-07-24 22:06:24,2023-07-24 22:06:27,3.012s,PASSED
+"setText(findTestObject(""Object Repository/06-Teams/For 2FA/input_Enter verification code_code""), code)",Chrome 114.0.0.0,,,2023-07-24 22:06:27,2023-07-24 22:06:28,1.172s,PASSED
+delay(delay_3seconds),Chrome 114.0.0.0,,,2023-07-24 22:06:28,2023-07-24 22:06:31,3.014s,PASSED
+"click(findTestObject(""06-Teams/For 2FA/button_Verify_2FA""))",Chrome 114.0.0.0,,,2023-07-24 22:06:31,2023-07-24 22:06:32,0.619s,PASSED
+delay(delay_5seconds),Chrome 114.0.0.0,,,2023-07-24 22:06:32,2023-07-24 22:06:37,5.006s,PASSED
+"click(findTestObject(""03-Header Menu/Hamburger Button/button_menu""))",Chrome 114.0.0.0,,,2023-07-24 22:06:37,2023-07-24 22:06:38,0.876s,PASSED
+delay(delay_5seconds),Chrome 114.0.0.0,,,2023-07-24 22:06:38,2023-07-24 22:06:43,5.014s,PASSED
+"verifyElementNotVisible(findTestObject(""03-Header Menu/Hamburger Button/div_Add My Organization""), STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-24 22:06:43,2023-07-24 22:06:43,0.336s,PASSED
+"verifyElementNotVisible(findTestObject(""03-Header Menu/Hamburger Button/div_Dashboard""), STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-24 22:06:43,2023-07-24 22:06:43,0.367s,PASSED
+"verifyElementNotVisible(findTestObject(""03-Header Menu/Hamburger Button/div_Chat""), STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-24 22:06:43,2023-07-24 22:06:44,0.325s,PASSED
+"verifyElementNotVisible(findTestObject(""03-Header Menu/Hamburger Button/div_Teams""), STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-24 22:06:44,2023-07-24 22:06:44,0.327s,PASSED
+"verifyElementNotVisible(findTestObject(""03-Header Menu/Hamburger Button/div_Directory""), STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-24 22:06:44,2023-07-24 22:06:44,0.370s,PASSED
+"verifyElementNotVisible(findTestObject(""03-Header Menu/Hamburger Button/div_Operation""), STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-24 22:06:44,2023-07-24 22:06:45,0.335s,PASSED
+"verifyElementNotVisible(findTestObject(""03-Header Menu/Hamburger Button/div_Settings""), STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-24 22:06:45,2023-07-24 22:06:45,0.309s,PASSED
+"verifyElementNotVisible(findTestObject(""03-Header Menu/Hamburger Button/div_Open Video Conference""), STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-24 22:06:45,2023-07-24 22:06:46,0.369s,PASSED
+"verifyElementNotVisible(findTestObject(""03-Header Menu/Hamburger Button/div_Cloud Files""), STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-24 22:06:46,2023-07-24 22:06:46,0.316s,PASSED
+"verifyElementNotVisible(findTestObject(""03-Header Menu/Hamburger Button/div_ELSign""), STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-24 22:06:46,2023-07-24 22:06:46,0.350s,PASSED
+"verifyElementNotVisible(findTestObject(""03-Header Menu/Hamburger Button/div_Income and Expense""), STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-24 22:06:46,2023-07-24 22:06:47,0.339s,PASSED
+"verifyElementNotVisible(findTestObject(""03-Header Menu/Hamburger Button/div_ELNet""), CONTINUE_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-24 22:06:47,2023-07-24 22:06:47,0.405s,PASSED
+"verifyElementNotVisible(findTestObject(""03-Header Menu/Hamburger Button/div_Help""), STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-24 22:06:47,2023-07-24 22:06:47,0.310s,PASSED
+delay(delay_5seconds),Chrome 114.0.0.0,,,2023-07-24 22:06:47,2023-07-24 22:06:52,5.003s,PASSED
+"click(findTestObject(""03-Header Menu/Hamburger Button/button_menu""))",Chrome 114.0.0.0,,,2023-07-24 22:06:52,2023-07-24 22:06:53,0.374s,PASSED
+"verifyElementVisible(findTestObject(""03-Header Menu/Hamburger Button/div_Add My Organization""), STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-24 22:06:53,2023-07-24 22:06:54,0.975s,PASSED
+"verifyElementVisible(findTestObject(""03-Header Menu/Hamburger Button/div_Dashboard""), STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-24 22:06:54,2023-07-24 22:06:54,0.311s,PASSED
+"verifyElementVisible(findTestObject(""03-Header Menu/Hamburger Button/div_Chat""), STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-24 22:06:54,2023-07-24 22:06:54,0.371s,PASSED
+"verifyElementVisible(findTestObject(""03-Header Menu/Hamburger Button/div_Teams""), STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-24 22:06:54,2023-07-24 22:06:55,0.366s,PASSED
+"verifyElementVisible(findTestObject(""03-Header Menu/Hamburger Button/div_Directory""), STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-24 22:06:55,2023-07-24 22:06:55,0.331s,PASSED
+"verifyElementVisible(findTestObject(""03-Header Menu/Hamburger Button/div_Operation""), CONTINUE_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-24 22:06:55,2023-07-24 22:06:55,0.346s,PASSED
+"verifyElementVisible(findTestObject(""03-Header Menu/Hamburger Button/div_Settings""), CONTINUE_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-24 22:06:55,2023-07-24 22:06:56,0.358s,PASSED
+"verifyElementVisible(findTestObject(""03-Header Menu/Hamburger Button/div_Open Video Conference""), STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-24 22:06:56,2023-07-24 22:06:56,0.330s,PASSED
+"verifyElementVisible(findTestObject(""03-Header Menu/Hamburger Button/div_Cloud Files""), STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-24 22:06:56,2023-07-24 22:06:56,0.330s,PASSED
+"scrollToElement(findTestObject(""03-Header Menu/Hamburger Button/div_ELSign""), 0)",Chrome 114.0.0.0,,,2023-07-24 22:06:56,2023-07-24 22:06:57,0.378s,PASSED
+"verifyElementVisible(findTestObject(""03-Header Menu/Hamburger Button/div_ELSign""), STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-24 22:06:57,2023-07-24 22:06:57,0.380s,PASSED
+"verifyElementVisible(findTestObject(""03-Header Menu/Hamburger Button/div_Income and Expense""), STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-24 22:06:57,2023-07-24 22:06:57,0.329s,PASSED
+"verifyElementVisible(findTestObject(""03-Header Menu/Hamburger Button/div_ELNet""), CONTINUE_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-24 22:06:57,2023-07-24 22:06:58,0.308s,PASSED
+"verifyElementVisible(findTestObject(""03-Header Menu/Hamburger Button/div_Help""), STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-24 22:06:58,2023-07-24 22:06:58,0.343s,PASSED
+"scrollToElement(findTestObject(""03-Header Menu/Hamburger Button/div_Dashboard""), 0)",Chrome 114.0.0.0,,,2023-07-24 22:06:58,2023-07-24 22:06:58,0.316s,PASSED
+delay(delay_3seconds),Chrome 114.0.0.0,,,2023-07-24 22:06:58,2023-07-24 22:07:01,3.016s,PASSED
+,,,,,,,
+Test Cases/03-Header Menu/02- Language Selector,Chrome 114.0.0.0,click langauge and verifies if the app is able to change on the desired language,,2023-07-24 22:07:01,2023-07-24 22:07:54,52.131s,PASSED
+"click(findTestObject(""03-Header Menu/Language/button_Language Selector""))",Chrome 114.0.0.0,,,2023-07-24 22:07:02,2023-07-24 22:07:02,0.429s,PASSED
+delay(delay_2seconds),Chrome 114.0.0.0,,,2023-07-24 22:07:02,2023-07-24 22:07:04,2.003s,PASSED
+"click(findTestObject(""03-Header Menu/Language/button_chinese 1""))",Chrome 114.0.0.0,,,2023-07-24 22:07:04,2023-07-24 22:07:04,0.350s,PASSED
+delay(delay_2seconds),Chrome 114.0.0.0,,,2023-07-24 22:07:04,2023-07-24 22:07:06,2.006s,PASSED
+"verifyElementVisible(findTestObject(""03-Header Menu/Language/Language Div/div_chinese1 dashboard""))",Chrome 114.0.0.0,,,2023-07-24 22:07:06,2023-07-24 22:07:07,0.377s,PASSED
+"verifyElementVisible(findTestObject(""03-Header Menu/Language/Language Div/div_chinese1 chat""))",Chrome 114.0.0.0,,,2023-07-24 22:07:07,2023-07-24 22:07:07,0.367s,PASSED
+"verifyElementVisible(findTestObject(""03-Header Menu/Language/Language Div/div_chinese1 teams""))",Chrome 114.0.0.0,,,2023-07-24 22:07:07,2023-07-24 22:07:07,0.351s,PASSED
+delay(delay_2seconds),Chrome 114.0.0.0,,,2023-07-24 22:07:07,2023-07-24 22:07:09,2.009s,PASSED
+"click(findTestObject(""03-Header Menu/Language/button_Language Selector""))",Chrome 114.0.0.0,,,2023-07-24 22:07:09,2023-07-24 22:07:10,0.333s,PASSED
+delay(delay_2seconds),Chrome 114.0.0.0,,,2023-07-24 22:07:10,2023-07-24 22:07:12,2.003s,PASSED
+"click(findTestObject(""03-Header Menu/Language/button_chinese 2""))",Chrome 114.0.0.0,,,2023-07-24 22:07:12,2023-07-24 22:07:12,0.378s,PASSED
+delay(delay_2seconds),Chrome 114.0.0.0,,,2023-07-24 22:07:12,2023-07-24 22:07:14,2.012s,PASSED
+"verifyElementVisible(findTestObject(""03-Header Menu/Language/Language Div/div_chinese2 dashboard""))",Chrome 114.0.0.0,,,2023-07-24 22:07:14,2023-07-24 22:07:15,0.352s,PASSED
+"verifyElementVisible(findTestObject(""03-Header Menu/Language/Language Div/div_chinese2 chat""))",Chrome 114.0.0.0,,,2023-07-24 22:07:15,2023-07-24 22:07:15,0.347s,PASSED
+"verifyElementVisible(findTestObject(""03-Header Menu/Language/Language Div/div_chinese2 teams""))",Chrome 114.0.0.0,,,2023-07-24 22:07:15,2023-07-24 22:07:15,0.330s,PASSED
+delay(delay_2seconds),Chrome 114.0.0.0,,,2023-07-24 22:07:15,2023-07-24 22:07:17,2.001s,PASSED
+"click(findTestObject(""03-Header Menu/Language/button_Language Selector""))",Chrome 114.0.0.0,,,2023-07-24 22:07:17,2023-07-24 22:07:18,0.335s,PASSED
+delay(delay_2seconds),Chrome 114.0.0.0,,,2023-07-24 22:07:18,2023-07-24 22:07:20,2.017s,PASSED
+"click(findTestObject(""03-Header Menu/Language/button_chinese 3""))",Chrome 114.0.0.0,,,2023-07-24 22:07:20,2023-07-24 22:07:20,0.408s,PASSED
+delay(delay_2seconds),Chrome 114.0.0.0,,,2023-07-24 22:07:20,2023-07-24 22:07:22,2.018s,PASSED
+"verifyElementVisible(findTestObject(""03-Header Menu/Language/Language Div/div_chinese3 dashboard""))",Chrome 114.0.0.0,,,2023-07-24 22:07:22,2023-07-24 22:07:22,0.368s,PASSED
+"verifyElementVisible(findTestObject(""03-Header Menu/Language/Language Div/div_chinese3 chat""))",Chrome 114.0.0.0,,,2023-07-24 22:07:22,2023-07-24 22:07:23,0.593s,PASSED
+"verifyElementVisible(findTestObject(""03-Header Menu/Language/Language Div/div_chinese3 teams""))",Chrome 114.0.0.0,,,2023-07-24 22:07:23,2023-07-24 22:07:23,0.332s,PASSED
+delay(delay_2seconds),Chrome 114.0.0.0,,,2023-07-24 22:07:23,2023-07-24 22:07:25,2.013s,PASSED
+"click(findTestObject(""03-Header Menu/Language/button_Language Selector""))",Chrome 114.0.0.0,,,2023-07-24 22:07:25,2023-07-24 22:07:26,0.347s,PASSED
+delay(delay_2seconds),Chrome 114.0.0.0,,,2023-07-24 22:07:26,2023-07-24 22:07:28,2.006s,PASSED
+"click(findTestObject(""03-Header Menu/Language/button_Espanol""))",Chrome 114.0.0.0,,,2023-07-24 22:07:28,2023-07-24 22:07:28,0.400s,PASSED
+delay(delay_2seconds),Chrome 114.0.0.0,,,2023-07-24 22:07:28,2023-07-24 22:07:30,2.012s,PASSED
+"verifyElementVisible(findTestObject(""03-Header Menu/Language/Language Div/div_spanish_Panel""))",Chrome 114.0.0.0,,,2023-07-24 22:07:30,2023-07-24 22:07:30,0.352s,PASSED
+"verifyElementVisible(findTestObject(""03-Header Menu/Language/Language Div/div_spanish_Equipo""))",Chrome 114.0.0.0,,,2023-07-24 22:07:30,2023-07-24 22:07:31,0.320s,PASSED
+delay(delay_2seconds),Chrome 114.0.0.0,,,2023-07-24 22:07:31,2023-07-24 22:07:33,2.013s,PASSED
+"click(findTestObject(""03-Header Menu/Language/button_Language Selector""))",Chrome 114.0.0.0,,,2023-07-24 22:07:33,2023-07-24 22:07:33,0.392s,PASSED
+delay(delay_2seconds),Chrome 114.0.0.0,,,2023-07-24 22:07:33,2023-07-24 22:07:35,2.008s,PASSED
+"click(findTestObject(""03-Header Menu/Language/button_Italiano""))",Chrome 114.0.0.0,,,2023-07-24 22:07:35,2023-07-24 22:07:36,0.419s,PASSED
+delay(delay_10seconds),Chrome 114.0.0.0,,,2023-07-24 22:07:36,2023-07-24 22:07:46,10.015s,PASSED
+"verifyElementVisible(findTestObject(""03-Header Menu/Language/Language Div/div_Pannello di controllo""))",Chrome 114.0.0.0,,,2023-07-24 22:07:46,2023-07-24 22:07:46,0.342s,PASSED
+"verifyElementVisible(findTestObject(""03-Header Menu/Language/Language Div/div_Impostazioni""), CONTINUE_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-24 22:07:46,2023-07-24 22:07:46,0.306s,PASSED
+"click(findTestObject(""03-Header Menu/Language/button_Language Selector""))",Chrome 114.0.0.0,,,2023-07-24 22:07:46,2023-07-24 22:07:47,0.331s,PASSED
+delay(delay_2seconds),Chrome 114.0.0.0,,,2023-07-24 22:07:47,2023-07-24 22:07:49,2.006s,PASSED
+"click(findTestObject(""03-Header Menu/Language/button_English""))",Chrome 114.0.0.0,,,2023-07-24 22:07:49,2023-07-24 22:07:49,0.320s,PASSED
+delay(delay_2seconds),Chrome 114.0.0.0,,,2023-07-24 22:07:49,2023-07-24 22:07:51,2.003s,PASSED
+"verifyElementVisible(findTestObject(""03-Header Menu/Language/Language Div/div_Dashboard""))",Chrome 114.0.0.0,,,2023-07-24 22:07:51,2023-07-24 22:07:51,0.296s,PASSED
+"verifyElementVisible(findTestObject(""03-Header Menu/Language/Language Div/div_Teams""))",Chrome 114.0.0.0,,,2023-07-24 22:07:51,2023-07-24 22:07:52,0.309s,PASSED
+delay(delay_2seconds),Chrome 114.0.0.0,,,2023-07-24 22:07:52,2023-07-24 22:07:54,2.003s,PASSED
+,,,,,,,
+Test Cases/03-Header Menu/03- Users Profile menu and notification button,Chrome 114.0.0.0,navigates on header and verifies all objects,,2023-07-24 22:07:54,2023-07-24 22:08:09,14.968s,PASSED
+"click(findTestObject(""03-Header Menu/User Profile/Users Profile menu and notification button/button_notification bell""), CONTINUE_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-24 22:07:54,2023-07-24 22:07:54,0.380s,PASSED
+delay(delay_2seconds),Chrome 114.0.0.0,,,2023-07-24 22:07:54,2023-07-24 22:07:56,2.003s,PASSED
+"verifyElementVisible(findTestObject(""03-Header Menu/User Profile/Users Profile menu and notification button/div_notification modal""), CONTINUE_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-24 22:07:56,2023-07-24 22:07:56,0.378s,PASSED
+delay(delay_2seconds),Chrome 114.0.0.0,,,2023-07-24 22:07:56,2023-07-24 22:07:58,2.004s,PASSED
+"clickOffset(findTestObject(""03-Header Menu/User Profile/Users Profile menu and notification button/div_notification modal""), 100, 100, CONTINUE_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-24 22:07:58,2023-07-24 22:07:59,0.550s,PASSED
+"click(findTestObject(""03-Header Menu/User Profile/Users Profile menu and notification button/div_User drop down menu button""))",Chrome 114.0.0.0,,,2023-07-24 22:07:59,2023-07-24 22:08:00,0.734s,PASSED
+delay(delay_1second),Chrome 114.0.0.0,,,2023-07-24 22:08:00,2023-07-24 22:08:01,1.001s,PASSED
+"verifyElementVisible(findTestObject(""03-Header Menu/User Profile/Users Profile menu and notification button/h4_View Profile""))",Chrome 114.0.0.0,,,2023-07-24 22:08:01,2023-07-24 22:08:01,0.348s,PASSED
+"verifyElementVisible(findTestObject(""03-Header Menu/User Profile/Users Profile menu and notification button/h4_Change Password""))",Chrome 114.0.0.0,,,2023-07-24 22:08:01,2023-07-24 22:08:01,0.378s,PASSED
+"verifyElementVisible(findTestObject(""03-Header Menu/User Profile/Users Profile menu and notification button/h4_Sign Out""))",Chrome 114.0.0.0,,,2023-07-24 22:08:01,2023-07-24 22:08:02,0.329s,PASSED
+delay(delay_2seconds),Chrome 114.0.0.0,,,2023-07-24 22:08:02,2023-07-24 22:08:04,2.004s,PASSED
+"click(findTestObject(""03-Header Menu/User Profile/Users Profile menu and notification button/h4_Sign Out""))",Chrome 114.0.0.0,,,2023-07-24 22:08:04,2023-07-24 22:08:04,0.396s,PASSED
+"verifyElementVisible(findTestObject(""03-Header Menu/User Profile/Users Profile menu and notification button/Login card""))",Chrome 114.0.0.0,,,2023-07-24 22:08:04,2023-07-24 22:08:06,1.485s,PASSED
+delay(delay_2seconds),Chrome 114.0.0.0,,,2023-07-24 22:08:06,2023-07-24 22:08:08,2.005s,PASSED
+closeBrowser(),Chrome 114.0.0.0,,,2023-07-24 22:08:08,2023-07-24 22:08:09,0.790s,PASSED
+,,,,,,,
+Test Cases/03-Header Menu/04- View Profile,Chrome 114.0.0.0,click profile and verifies the objects,,2023-07-24 22:08:09,2023-07-24 22:12:41,4m - 32.272s,PASSED
+"openBrowser("""")",Chrome 114.0.0.0,,,2023-07-24 22:08:09,2023-07-24 22:08:10,1.212s,PASSED
+navigateToUrl(appURL),Chrome 114.0.0.0,,,2023-07-24 22:08:10,2023-07-24 22:11:34,3m - 24.048s,PASSED
+maximizeWindow(),Chrome 114.0.0.0,,,2023-07-24 22:11:34,2023-07-24 22:11:34,0.136s,PASSED
+"callTestCase(findTestCase(""01-Login and Forgot Password/04-Login(Valid Credentials-With Subscription)""), [:], STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-24 22:11:34,2023-07-24 22:12:32,58.344s,PASSED
+"click(findTestObject(""03-Header Menu/User Profile/Users Profile menu and notification button/div_User drop down menu button""))",Chrome 114.0.0.0,,,2023-07-24 22:12:32,2023-07-24 22:12:34,1.455s,PASSED
+delay(delay_1second),Chrome 114.0.0.0,,,2023-07-24 22:12:34,2023-07-24 22:12:35,1.003s,PASSED
+"click(findTestObject(""03-Header Menu/User Profile/Users Profile menu and notification button/h4_View Profile""))",Chrome 114.0.0.0,,,2023-07-24 22:12:35,2023-07-24 22:12:35,0.446s,PASSED
+delay(delay_2seconds),Chrome 114.0.0.0,,,2023-07-24 22:12:35,2023-07-24 22:12:37,2.002s,PASSED
+"verifyElementVisible(findTestObject(""03-Header Menu/User Profile/View Profile/div_Contact Info""))",Chrome 114.0.0.0,,,2023-07-24 22:12:37,2023-07-24 22:12:38,0.347s,PASSED
+"verifyElementVisible(findTestObject(""03-Header Menu/User Profile/View Profile/div_Profile""))",Chrome 114.0.0.0,,,2023-07-24 22:12:38,2023-07-24 22:12:38,0.398s,PASSED
+"verifyElementVisible(findTestObject(""03-Header Menu/User Profile/View Profile/div_Security""))",Chrome 114.0.0.0,,,2023-07-24 22:12:38,2023-07-24 22:12:38,0.364s,PASSED
+"verifyElementVisible(findTestObject(""03-Header Menu/User Profile/View Profile/div_Settings""))",Chrome 114.0.0.0,,,2023-07-24 22:12:38,2023-07-24 22:12:39,0.320s,PASSED
+delay(delay_2seconds),Chrome 114.0.0.0,,,2023-07-24 22:12:39,2023-07-24 22:12:41,2.014s,PASSED
+,,,,,,,
+Test Cases/03-Header Menu/05 - Edit Profile Tab (No changes made),Chrome 114.0.0.0,,,2023-07-24 22:12:41,2023-07-24 22:12:48,7.096s,PASSED
+"mouseOver(findTestObject(""03-Header Menu/User Profile/View Profile/Profile Tab/img tray""))",Chrome 114.0.0.0,,,2023-07-24 22:12:41,2023-07-24 22:12:41,0.470s,PASSED
+"click(findTestObject(""03-Header Menu/User Profile/View Profile/Profile Tab/Upload Icon""))",Chrome 114.0.0.0,,,2023-07-24 22:12:41,2023-07-24 22:12:42,0.355s,PASSED
+delay(delay_2seconds),Chrome 114.0.0.0,,,2023-07-24 22:12:42,2023-07-24 22:12:44,2.002s,PASSED
+"verifyElementVisible(findTestObject(""03-Header Menu/User Profile/View Profile/Profile Tab/Upload User Image modal""))",Chrome 114.0.0.0,,,2023-07-24 22:12:44,2023-07-24 22:12:44,0.338s,PASSED
+"verifyElementNotClickable(findTestObject(""03-Header Menu/User Profile/View Profile/Profile Tab/button_Upload Image""))",Chrome 114.0.0.0,,,2023-07-24 22:12:44,2023-07-24 22:12:44,0.325s,PASSED
+delay(delay_1second),Chrome 114.0.0.0,,,2023-07-24 22:12:44,2023-07-24 22:12:45,1.015s,PASSED
+"click(findTestObject(""03-Header Menu/User Profile/View Profile/Profile Tab/button_Cancel""))",Chrome 114.0.0.0,,,2023-07-24 22:12:45,2023-07-24 22:12:46,0.409s,PASSED
+delay(delay_2seconds),Chrome 114.0.0.0,,,2023-07-24 22:12:46,2023-07-24 22:12:48,2.017s,PASSED
+,,,,,,,
+Test Cases/03-Header Menu/06- Edit Profile Tab (with changes),Chrome 114.0.0.0,,,2023-07-24 22:12:48,2023-07-24 22:13:17,28.870s,PASSED
+delay(delay_3seconds),Chrome 114.0.0.0,,,2023-07-24 22:12:48,2023-07-24 22:12:51,3.005s,PASSED
+"setText(findTestObject(""03-Header Menu/User Profile/View Profile/Profile Tab/input_FirstName""), first_name)",Chrome 114.0.0.0,,,2023-07-24 22:12:51,2023-07-24 22:12:52,0.746s,PASSED
+"setText(findTestObject(""03-Header Menu/User Profile/View Profile/Profile Tab/input_LastName""), last_name)",Chrome 114.0.0.0,,,2023-07-24 22:12:52,2023-07-24 22:12:53,0.886s,PASSED
+delay(delay_2seconds),Chrome 114.0.0.0,,,2023-07-24 22:12:53,2023-07-24 22:12:55,2.012s,PASSED
+"click(findTestObject(""03-Header Menu/User Profile/View Profile/Profile Tab/button_Save""))",Chrome 114.0.0.0,,,2023-07-24 22:12:55,2023-07-24 22:12:55,0.400s,PASSED
+"verifyElementVisible(findTestObject(""03-Header Menu/User Profile/View Profile/Profile Tab/success msg""))",Chrome 114.0.0.0,,,2023-07-24 22:12:55,2023-07-24 22:12:56,1.066s,PASSED
+delay(delay_2seconds),Chrome 114.0.0.0,,,2023-07-24 22:12:56,2023-07-24 22:12:58,2.007s,PASSED
+"setText(findTestObject(""03-Header Menu/User Profile/View Profile/Profile Tab/input_FirstName""), first_name1)",Chrome 114.0.0.0,,,2023-07-24 22:12:58,2023-07-24 22:12:59,1.291s,PASSED
+"setText(findTestObject(""03-Header Menu/User Profile/View Profile/Profile Tab/input_LastName""), last_name1)",Chrome 114.0.0.0,,,2023-07-24 22:12:59,2023-07-24 22:13:00,0.664s,PASSED
+delay(delay_2seconds),Chrome 114.0.0.0,,,2023-07-24 22:13:00,2023-07-24 22:13:02,2.014s,PASSED
+"click(findTestObject(""03-Header Menu/User Profile/View Profile/Profile Tab/button_Save""))",Chrome 114.0.0.0,,,2023-07-24 22:13:02,2023-07-24 22:13:03,0.455s,PASSED
+"verifyElementVisible(findTestObject(""03-Header Menu/User Profile/View Profile/Profile Tab/success msg""))",Chrome 114.0.0.0,,,2023-07-24 22:13:03,2023-07-24 22:13:04,1.419s,PASSED
+delay(delay_2seconds),Chrome 114.0.0.0,,,2023-07-24 22:13:04,2023-07-24 22:13:06,2.015s,PASSED
+"mouseOver(findTestObject(""03-Header Menu/User Profile/View Profile/Profile Tab/img tray""))",Chrome 114.0.0.0,,,2023-07-24 22:13:06,2023-07-24 22:13:07,0.517s,PASSED
+"click(findTestObject(""03-Header Menu/User Profile/View Profile/Profile Tab/Upload Icon""))",Chrome 114.0.0.0,,,2023-07-24 22:13:07,2023-07-24 22:13:07,0.625s,PASSED
+"uploadpackage.Upload.uploadFile(findTestObject(""Object Repository/03-Header Menu/User Profile/View Profile/Profile Tab/button_folderBrowse""), upload_file)",Chrome 114.0.0.0,,,2023-07-24 22:13:07,2023-07-24 22:13:08,0.684s,PASSED
+delay(delay_2seconds),Chrome 114.0.0.0,,,2023-07-24 22:13:08,2023-07-24 22:13:10,2.009s,PASSED
+"click(findTestObject(""03-Header Menu/User Profile/View Profile/Profile Tab/button_Upload Image""))",Chrome 114.0.0.0,,,2023-07-24 22:13:10,2023-07-24 22:13:10,0.348s,PASSED
+"verifyElementVisible(findTestObject(""03-Header Menu/User Profile/View Profile/Contact Info/Successfully changed profile image""))",Chrome 114.0.0.0,,,2023-07-24 22:13:10,2023-07-24 22:13:14,3.531s,PASSED
+delay(delay_3seconds),Chrome 114.0.0.0,,,2023-07-24 22:13:14,2023-07-24 22:13:17,3.008s,PASSED
+,,,,,,,
+Test Cases/03-Header Menu/07- Security Tab (Blank phone number field),Chrome 114.0.0.0,,,2023-07-24 22:13:17,2023-07-24 22:13:30,13.111s,PASSED
+"click(findTestObject(""03-Header Menu/User Profile/View Profile/div_Security""))",Chrome 114.0.0.0,,,2023-07-24 22:13:17,2023-07-24 22:13:17,0.336s,PASSED
+delay(delay_1second),Chrome 114.0.0.0,,,2023-07-24 22:13:17,2023-07-24 22:13:18,1.002s,PASSED
+"verifyElementVisible(findTestObject(""03-Header Menu/User Profile/View Profile/Security Tab (2FA)/title_2FA""))",Chrome 114.0.0.0,,,2023-07-24 22:13:18,2023-07-24 22:13:19,0.387s,PASSED
+"verifyElementVisible(findTestObject(""03-Header Menu/User Profile/View Profile/Security Tab (2FA)/2FA_toggle""))",Chrome 114.0.0.0,,,2023-07-24 22:13:19,2023-07-24 22:13:19,0.353s,PASSED
+"verifyElementVisible(findTestObject(""03-Header Menu/User Profile/View Profile/Security Tab (2FA)/input_Email""))",Chrome 114.0.0.0,,,2023-07-24 22:13:19,2023-07-24 22:13:19,0.394s,PASSED
+delay(delay_1second),Chrome 114.0.0.0,,,2023-07-24 22:13:19,2023-07-24 22:13:20,1.016s,PASSED
+"click(findTestObject(""03-Header Menu/User Profile/View Profile/Security Tab (2FA)/button_edit""))",Chrome 114.0.0.0,,,2023-07-24 22:13:20,2023-07-24 22:13:21,0.678s,PASSED
+"verifyElementVisible(findTestObject(""03-Header Menu/User Profile/View Profile/Security Tab (2FA)/2FA Phone Number modal""))",Chrome 114.0.0.0,,,2023-07-24 22:13:21,2023-07-24 22:13:22,1.005s,PASSED
+"verifyElementVisible(findTestObject(""03-Header Menu/User Profile/View Profile/Security Tab (2FA)/h4_Edit 2FA Phone Number""))",Chrome 114.0.0.0,,,2023-07-24 22:13:22,2023-07-24 22:13:22,0.328s,PASSED
+delay(delay_1second),Chrome 114.0.0.0,,,2023-07-24 22:13:22,2023-07-24 22:13:23,1.016s,PASSED
+"click(findTestObject(""03-Header Menu/User Profile/View Profile/Security Tab (2FA)/button_areacode_default""))",Chrome 114.0.0.0,,,2023-07-24 22:13:23,2023-07-24 22:13:24,0.585s,PASSED
+"setText(findTestObject(""03-Header Menu/User Profile/View Profile/Security Tab (2FA)/area code search""), ""PH"")",Chrome 114.0.0.0,,,2023-07-24 22:13:24,2023-07-24 22:13:25,0.915s,PASSED
+"click(findTestObject(""03-Header Menu/User Profile/View Profile/Security Tab (2FA)/button_Philippines 63""))",Chrome 114.0.0.0,,,2023-07-24 22:13:25,2023-07-24 22:13:26,0.562s,PASSED
+delay(delay_3seconds),Chrome 114.0.0.0,,,2023-07-24 22:13:26,2023-07-24 22:13:29,3.013s,PASSED
+"verifyElementVisible(findTestObject(""03-Header Menu/User Profile/View Profile/Security Tab (2FA)/Phone_Error""))",Chrome 114.0.0.0,,,2023-07-24 22:13:29,2023-07-24 22:13:29,0.343s,PASSED
+delay(delay_1second),Chrome 114.0.0.0,,,2023-07-24 22:13:29,2023-07-24 22:13:30,1.007s,PASSED
+,,,,,,,
+Test Cases/03-Header Menu/08-Security Tab (Wrong phone number),Chrome 114.0.0.0,,,2023-07-24 22:13:30,2023-07-24 22:13:42,12.234s,PASSED
+"setText(findTestObject(""03-Header Menu/User Profile/View Profile/Security Tab (2FA)/input_phone number""), phone_number)",Chrome 114.0.0.0,,,2023-07-24 22:13:30,2023-07-24 22:13:31,0.983s,PASSED
+delay(delay_2seconds),Chrome 114.0.0.0,,,2023-07-24 22:13:31,2023-07-24 22:13:33,2.014s,PASSED
+"click(findTestObject(""03-Header Menu/User Profile/View Profile/Security Tab (2FA)/button_Next""))",Chrome 114.0.0.0,,,2023-07-24 22:13:33,2023-07-24 22:13:33,0.331s,PASSED
+delay(delay_1second),Chrome 114.0.0.0,,,2023-07-24 22:13:33,2023-07-24 22:13:34,1.008s,PASSED
+"verifyElementVisible(findTestObject(""03-Header Menu/User Profile/View Profile/Security Tab (2FA)/div_Failed to send SMS""))",Chrome 114.0.0.0,,,2023-07-24 22:13:34,2023-07-24 22:13:35,0.380s,PASSED
+delay(delay_2seconds),Chrome 114.0.0.0,,,2023-07-24 22:13:35,2023-07-24 22:13:37,2.004s,PASSED
+"click(findTestObject(""03-Header Menu/User Profile/View Profile/Security Tab (2FA)/button_Cancel""))",Chrome 114.0.0.0,,,2023-07-24 22:13:37,2023-07-24 22:13:37,0.333s,PASSED
+"click(findTestObject(""03-Header Menu/User Profile/View Profile/Security Tab (2FA)/2FA_toggle""))",Chrome 114.0.0.0,,,2023-07-24 22:13:37,2023-07-24 22:13:38,0.692s,PASSED
+delay(delay_2seconds),Chrome 114.0.0.0,,,2023-07-24 22:13:38,2023-07-24 22:13:40,2.013s,PASSED
+"verifyElementVisible(findTestObject(""03-Header Menu/User Profile/View Profile/Security Tab (2FA)/Success disable""))",Chrome 114.0.0.0,,,2023-07-24 22:13:40,2023-07-24 22:13:40,0.300s,PASSED
+delay(delay_2seconds),Chrome 114.0.0.0,,,2023-07-24 22:13:40,2023-07-24 22:13:42,2.009s,PASSED
+,,,,,,,
+Test Cases/03-Header Menu/09- Security Tab (Enabling 2FA),Chrome 114.0.0.0,,,2023-07-24 22:13:42,2023-07-24 22:14:01,18.951s,PASSED
+"click(findTestObject(""03-Header Menu/User Profile/View Profile/div_Security""))",Chrome 114.0.0.0,,,2023-07-24 22:13:42,2023-07-24 22:13:43,0.416s,PASSED
+"click(findTestObject(""03-Header Menu/User Profile/View Profile/Security Tab (2FA)/2FA_toggle""))",Chrome 114.0.0.0,,,2023-07-24 22:13:43,2023-07-24 22:13:43,0.454s,PASSED
+"verifyElementVisible(findTestObject(""03-Header Menu/User Profile/View Profile/Security Tab (2FA)/Success enable""))",Chrome 114.0.0.0,,,2023-07-24 22:13:43,2023-07-24 22:13:44,0.984s,PASSED
+delay(delay_1second),Chrome 114.0.0.0,,,2023-07-24 22:13:44,2023-07-24 22:13:45,1.009s,PASSED
+"click(findTestObject(""03-Header Menu/User Profile/View Profile/Security Tab (2FA)/button_edit""))",Chrome 114.0.0.0,,,2023-07-24 22:13:45,2023-07-24 22:13:46,0.474s,PASSED
+"verifyElementVisible(findTestObject(""03-Header Menu/User Profile/View Profile/Security Tab (2FA)/2FA Phone Number modal""))",Chrome 114.0.0.0,,,2023-07-24 22:13:46,2023-07-24 22:13:46,0.865s,PASSED
+delay(delay_1second),Chrome 114.0.0.0,,,2023-07-24 22:13:46,2023-07-24 22:13:47,1.002s,PASSED
+"click(findTestObject(""03-Header Menu/User Profile/View Profile/Security Tab (2FA)/button_areacode_default""))",Chrome 114.0.0.0,,,2023-07-24 22:13:47,2023-07-24 22:13:48,0.401s,PASSED
+"verifyElementVisible(findTestObject(""03-Header Menu/User Profile/View Profile/Security Tab (2FA)/Area code modal""))",Chrome 114.0.0.0,,,2023-07-24 22:13:48,2023-07-24 22:13:48,0.435s,PASSED
+"setText(findTestObject(""03-Header Menu/User Profile/View Profile/Security Tab (2FA)/area code search""), ""PH"")",Chrome 114.0.0.0,,,2023-07-24 22:13:48,2023-07-24 22:13:49,0.849s,PASSED
+"click(findTestObject(""03-Header Menu/User Profile/View Profile/Security Tab (2FA)/button_Philippines 63""))",Chrome 114.0.0.0,,,2023-07-24 22:13:49,2023-07-24 22:13:50,0.562s,PASSED
+"setText(findTestObject(""03-Header Menu/User Profile/View Profile/Security Tab (2FA)/input_phone number""), correct_phone_number)",Chrome 114.0.0.0,,,2023-07-24 22:13:50,2023-07-24 22:13:51,1.460s,PASSED
+delay(delay_2seconds),Chrome 114.0.0.0,,,2023-07-24 22:13:51,2023-07-24 22:13:53,2.015s,PASSED
+"click(findTestObject(""03-Header Menu/User Profile/View Profile/Security Tab (2FA)/button_Next""))",Chrome 114.0.0.0,,,2023-07-24 22:13:53,2023-07-24 22:13:54,0.410s,PASSED
+delay(delay_1second),Chrome 114.0.0.0,,,2023-07-24 22:13:54,2023-07-24 22:13:55,1.003s,PASSED
+"verifyElementVisible(findTestObject(""03-Header Menu/User Profile/View Profile/Security Tab (2FA)/ver_code_success""))",Chrome 114.0.0.0,,,2023-07-24 22:13:55,2023-07-24 22:13:55,0.357s,PASSED
+delay(delay_2seconds),Chrome 114.0.0.0,,,2023-07-24 22:13:55,2023-07-24 22:13:57,2.002s,PASSED
+"click(findTestObject(""03-Header Menu/User Profile/View Profile/Security Tab (2FA)/button_Cancel""))",Chrome 114.0.0.0,,,2023-07-24 22:13:57,2023-07-24 22:13:57,0.337s,PASSED
+"click(findTestObject(""03-Header Menu/User Profile/View Profile/Security Tab (2FA)/2FA_toggle""))",Chrome 114.0.0.0,,,2023-07-24 22:13:57,2023-07-24 22:13:58,0.725s,PASSED
+"verifyElementVisible(findTestObject(""03-Header Menu/User Profile/View Profile/Security Tab (2FA)/Success disable""))",Chrome 114.0.0.0,,,2023-07-24 22:13:58,2023-07-24 22:13:59,1.020s,PASSED
+delay(delay_2seconds),Chrome 114.0.0.0,,,2023-07-24 22:13:59,2023-07-24 22:14:01,2.007s,PASSED
+,,,,,,,
+Test Cases/03-Header Menu/10- Settings (Timezone select),Chrome 114.0.0.0,,,2023-07-24 22:14:01,2023-07-24 22:14:19,18.037s,PASSED
+"click(findTestObject(""03-Header Menu/User Profile/View Profile/div_Settings""))",Chrome 114.0.0.0,,,2023-07-24 22:14:01,2023-07-24 22:14:02,0.876s,PASSED
+delay(delay_1second),Chrome 114.0.0.0,,,2023-07-24 22:14:02,2023-07-24 22:14:03,1.003s,PASSED
+"verifyElementVisible(findTestObject(""03-Header Menu/User Profile/View Profile/Settings/Dashboard Card""))",Chrome 114.0.0.0,,,2023-07-24 22:14:03,2023-07-24 22:14:03,0.301s,PASSED
+"verifyElementVisible(findTestObject(""03-Header Menu/User Profile/View Profile/Settings/Email Frequency""))",Chrome 114.0.0.0,,,2023-07-24 22:14:03,2023-07-24 22:14:04,0.310s,PASSED
+"verifyElementVisible(findTestObject(""03-Header Menu/User Profile/View Profile/Settings/Timezone""))",Chrome 114.0.0.0,,,2023-07-24 22:14:04,2023-07-24 22:14:04,0.359s,PASSED
+delay(delay_3seconds),Chrome 114.0.0.0,,,2023-07-24 22:14:04,2023-07-24 22:14:07,3.003s,PASSED
+"click(findTestObject(""03-Header Menu/User Profile/View Profile/Settings/Timezone selector""))",Chrome 114.0.0.0,,,2023-07-24 22:14:07,2023-07-24 22:14:08,0.442s,PASSED
+"click(findTestObject(""03-Header Menu/User Profile/View Profile/Settings/span_(UTC0800) Beijing, Chongqing, Hong Kong, Urumqi""))",Chrome 114.0.0.0,,,2023-07-24 22:14:08,2023-07-24 22:14:08,0.462s,PASSED
+"scrollToElement(findTestObject(""03-Header Menu/User Profile/View Profile/Settings/Email Frequency selector""), 0)",Chrome 114.0.0.0,,,2023-07-24 22:14:08,2023-07-24 22:14:09,0.655s,PASSED
+"click(findTestObject(""03-Header Menu/User Profile/View Profile/Settings/Email Frequency selector""))",Chrome 114.0.0.0,,,2023-07-24 22:14:09,2023-07-24 22:14:09,0.424s,PASSED
+"click(findTestObject(""03-Header Menu/User Profile/View Profile/Settings/span_None""))",Chrome 114.0.0.0,,,2023-07-24 22:14:09,2023-07-24 22:14:10,0.518s,PASSED
+"click(findTestObject(""03-Header Menu/User Profile/View Profile/Settings/button_Save""))",Chrome 114.0.0.0,,,2023-07-24 22:14:10,2023-07-24 22:14:10,0.709s,PASSED
+delay(delay_1second),Chrome 114.0.0.0,,,2023-07-24 22:14:10,2023-07-24 22:14:11,1.013s,PASSED
+"verifyElementVisible(findTestObject(""03-Header Menu/User Profile/View Profile/Settings/Successfully msg""))",Chrome 114.0.0.0,,,2023-07-24 22:14:11,2023-07-24 22:14:12,0.316s,PASSED
+delay(delay_2seconds),Chrome 114.0.0.0,,,2023-07-24 22:14:12,2023-07-24 22:14:14,2.012s,PASSED
+"click(findTestObject(""03-Header Menu/User Profile/View Profile/Settings/Timezone selector""))",Chrome 114.0.0.0,,,2023-07-24 22:14:14,2023-07-24 22:14:14,0.839s,PASSED
+"click(findTestObject(""03-Header Menu/User Profile/View Profile/Settings/span_(UTC0800) Kuala Lumpur, Singapore""))",Chrome 114.0.0.0,,,2023-07-24 22:14:14,2023-07-24 22:14:15,0.625s,PASSED
+"click(findTestObject(""03-Header Menu/User Profile/View Profile/Settings/button_Save""))",Chrome 114.0.0.0,,,2023-07-24 22:14:15,2023-07-24 22:14:16,0.678s,PASSED
+delay(delay_1second),Chrome 114.0.0.0,,,2023-07-24 22:14:16,2023-07-24 22:14:17,1.004s,PASSED
+"verifyElementVisible(findTestObject(""03-Header Menu/User Profile/View Profile/Settings/Successfully msg""))",Chrome 114.0.0.0,,,2023-07-24 22:14:17,2023-07-24 22:14:17,0.324s,PASSED
+delay(delay_2seconds),Chrome 114.0.0.0,,,2023-07-24 22:14:17,2023-07-24 22:14:19,2.007s,PASSED
+,,,,,,,
+Test Cases/03-Header Menu/11-Settings (Email Frequency select),Chrome 114.0.0.0,,,2023-07-24 22:14:19,2023-07-24 22:14:52,33.059s,PASSED
+"scrollToElement(findTestObject(""03-Header Menu/User Profile/View Profile/Settings/Email Frequency selector""), 0)",Chrome 114.0.0.0,,,2023-07-24 22:14:19,2023-07-24 22:14:20,0.633s,PASSED
+"click(findTestObject(""03-Header Menu/User Profile/View Profile/Settings/Email Frequency selector""))",Chrome 114.0.0.0,,,2023-07-24 22:14:20,2023-07-24 22:14:20,0.379s,PASSED
+"click(findTestObject(""03-Header Menu/User Profile/View Profile/Settings/span_None""))",Chrome 114.0.0.0,,,2023-07-24 22:14:20,2023-07-24 22:14:21,0.551s,PASSED
+"click(findTestObject(""03-Header Menu/User Profile/View Profile/Settings/button_Save""))",Chrome 114.0.0.0,,,2023-07-24 22:14:21,2023-07-24 22:14:22,1.025s,PASSED
+"verifyElementVisible(findTestObject(""03-Header Menu/User Profile/View Profile/Settings/Successfully msg""))",Chrome 114.0.0.0,,,2023-07-24 22:14:22,2023-07-24 22:14:23,0.960s,PASSED
+delay(delay_2seconds),Chrome 114.0.0.0,,,2023-07-24 22:14:23,2023-07-24 22:14:25,2.011s,PASSED
+"click(findTestObject(""03-Header Menu/User Profile/View Profile/Settings/Email Frequency selector""))",Chrome 114.0.0.0,,,2023-07-24 22:14:25,2023-07-24 22:14:25,0.318s,PASSED
+"click(findTestObject(""03-Header Menu/User Profile/View Profile/Settings/span_Every 2 hours""))",Chrome 114.0.0.0,,,2023-07-24 22:14:25,2023-07-24 22:14:26,0.949s,PASSED
+"click(findTestObject(""03-Header Menu/User Profile/View Profile/Settings/button_Save""))",Chrome 114.0.0.0,,,2023-07-24 22:14:26,2023-07-24 22:14:27,0.676s,PASSED
+"verifyElementVisible(findTestObject(""03-Header Menu/User Profile/View Profile/Settings/Successfully msg""))",Chrome 114.0.0.0,,,2023-07-24 22:14:27,2023-07-24 22:14:28,1.026s,PASSED
+delay(delay_2seconds),Chrome 114.0.0.0,,,2023-07-24 22:14:28,2023-07-24 22:14:30,2.008s,PASSED
+"click(findTestObject(""03-Header Menu/User Profile/View Profile/Settings/Email Frequency selector""))",Chrome 114.0.0.0,,,2023-07-24 22:14:30,2023-07-24 22:14:30,0.365s,PASSED
+"click(findTestObject(""03-Header Menu/User Profile/View Profile/Settings/span_Every 6 hours""))",Chrome 114.0.0.0,,,2023-07-24 22:14:30,2023-07-24 22:14:31,0.670s,PASSED
+"click(findTestObject(""03-Header Menu/User Profile/View Profile/Settings/button_Save""))",Chrome 114.0.0.0,,,2023-07-24 22:14:31,2023-07-24 22:14:32,0.690s,PASSED
+"verifyElementVisible(findTestObject(""03-Header Menu/User Profile/View Profile/Settings/Successfully msg""))",Chrome 114.0.0.0,,,2023-07-24 22:14:32,2023-07-24 22:14:32,0.858s,PASSED
+delay(delay_2seconds),Chrome 114.0.0.0,,,2023-07-24 22:14:32,2023-07-24 22:14:34,2.005s,PASSED
+"click(findTestObject(""03-Header Menu/User Profile/View Profile/Settings/Email Frequency selector""))",Chrome 114.0.0.0,,,2023-07-24 22:14:34,2023-07-24 22:14:35,0.355s,PASSED
+"click(findTestObject(""03-Header Menu/User Profile/View Profile/Settings/span_Every 12 hours""))",Chrome 114.0.0.0,,,2023-07-24 22:14:35,2023-07-24 22:14:36,0.825s,PASSED
+"click(findTestObject(""03-Header Menu/User Profile/View Profile/Settings/button_Save""))",Chrome 114.0.0.0,,,2023-07-24 22:14:36,2023-07-24 22:14:36,0.719s,PASSED
+"verifyElementVisible(findTestObject(""03-Header Menu/User Profile/View Profile/Settings/Successfully msg""))",Chrome 114.0.0.0,,,2023-07-24 22:14:36,2023-07-24 22:14:37,0.987s,PASSED
+delay(delay_2seconds),Chrome 114.0.0.0,,,2023-07-24 22:14:37,2023-07-24 22:14:39,2.009s,PASSED
+"click(findTestObject(""03-Header Menu/User Profile/View Profile/Settings/Email Frequency selector""))",Chrome 114.0.0.0,,,2023-07-24 22:14:39,2023-07-24 22:14:40,0.458s,PASSED
+"click(findTestObject(""03-Header Menu/User Profile/View Profile/Settings/span_Once a day (9pm local time)""))",Chrome 114.0.0.0,,,2023-07-24 22:14:40,2023-07-24 22:14:40,0.717s,PASSED
+"click(findTestObject(""03-Header Menu/User Profile/View Profile/Settings/button_Save""))",Chrome 114.0.0.0,,,2023-07-24 22:14:40,2023-07-24 22:14:41,0.911s,PASSED
+"verifyElementVisible(findTestObject(""03-Header Menu/User Profile/View Profile/Settings/Successfully msg""))",Chrome 114.0.0.0,,,2023-07-24 22:14:41,2023-07-24 22:14:42,0.854s,PASSED
+delay(delay_2seconds),Chrome 114.0.0.0,,,2023-07-24 22:14:42,2023-07-24 22:14:44,2.005s,PASSED
+"click(findTestObject(""03-Header Menu/User Profile/View Profile/Settings/Email Frequency selector""))",Chrome 114.0.0.0,,,2023-07-24 22:14:44,2023-07-24 22:14:45,0.316s,PASSED
+"click(findTestObject(""03-Header Menu/User Profile/View Profile/Settings/span_Every 4 hours""))",Chrome 114.0.0.0,,,2023-07-24 22:14:45,2023-07-24 22:14:45,0.866s,PASSED
+"click(findTestObject(""03-Header Menu/User Profile/View Profile/Settings/button_Save""))",Chrome 114.0.0.0,,,2023-07-24 22:14:45,2023-07-24 22:14:46,0.658s,PASSED
+"verifyElementVisible(findTestObject(""03-Header Menu/User Profile/View Profile/Settings/Successfully msg""))",Chrome 114.0.0.0,,,2023-07-24 22:14:46,2023-07-24 22:14:47,0.977s,PASSED
+delay(delay_2seconds),Chrome 114.0.0.0,,,2023-07-24 22:14:47,2023-07-24 22:14:49,2.006s,PASSED
+"scrollToElement(findTestObject(""03-Header Menu/User Profile/View Profile/Settings/Dashboard Card""), 0)",Chrome 114.0.0.0,,,2023-07-24 22:14:49,2023-07-24 22:14:49,0.343s,PASSED
+"scrollToElement(findTestObject(""03-Header Menu/User Profile/View Profile/div_Contact Info1""), 0)",Chrome 114.0.0.0,,,2023-07-24 22:14:49,2023-07-24 22:14:50,0.743s,PASSED
+delay(delay_2seconds),Chrome 114.0.0.0,,,2023-07-24 22:14:50,2023-07-24 22:14:52,2.012s,PASSED
+,,,,,,,
+Test Cases/03-Header Menu/12- Contact Info (add-remove email),Chrome 114.0.0.0,,,2023-07-24 22:14:52,2023-07-24 22:15:21,28.869s,PASSED
+"scrollToElement(findTestObject(""03-Header Menu/User Profile/View Profile/div_Contact Info1""), 0)",Chrome 114.0.0.0,,,2023-07-24 22:14:52,2023-07-24 22:14:53,0.300s,PASSED
+delay(delay_2seconds),Chrome 114.0.0.0,,,2023-07-24 22:14:53,2023-07-24 22:14:55,2.008s,PASSED
+"click(findTestObject(""03-Header Menu/User Profile/View Profile/div_Contact Info1""))",Chrome 114.0.0.0,,,2023-07-24 22:14:55,2023-07-24 22:14:59,4.621s,PASSED
+delay(delay_1second),Chrome 114.0.0.0,,,2023-07-24 22:14:59,2023-07-24 22:15:00,1.016s,PASSED
+"verifyElementVisible(findTestObject(""03-Header Menu/User Profile/View Profile/Contact Info/div_Email""))",Chrome 114.0.0.0,,,2023-07-24 22:15:00,2023-07-24 22:15:01,0.413s,PASSED
+"verifyElementVisible(findTestObject(""03-Header Menu/User Profile/View Profile/Contact Info/div_Phone""))",Chrome 114.0.0.0,,,2023-07-24 22:15:01,2023-07-24 22:15:01,0.308s,PASSED
+"verifyElementVisible(findTestObject(""03-Header Menu/User Profile/View Profile/Contact Info/div_Address""))",Chrome 114.0.0.0,,,2023-07-24 22:15:01,2023-07-24 22:15:01,0.309s,PASSED
+delay(delay_1second),Chrome 114.0.0.0,,,2023-07-24 22:15:01,2023-07-24 22:15:02,1.005s,PASSED
+"setText(findTestObject(""03-Header Menu/User Profile/View Profile/Contact Info/Positon Field""), ""Auto"")",Chrome 114.0.0.0,,,2023-07-24 22:15:02,2023-07-24 22:15:03,0.689s,PASSED
+"click(findTestObject(""03-Header Menu/User Profile/View Profile/Contact Info/div_Email Type""))",Chrome 114.0.0.0,,,2023-07-24 22:15:03,2023-07-24 22:15:03,0.328s,PASSED
+"verifyElementVisible(findTestObject(""03-Header Menu/User Profile/View Profile/Contact Info/span_Work""))",Chrome 114.0.0.0,,,2023-07-24 22:15:03,2023-07-24 22:15:04,0.521s,PASSED
+"verifyElementVisible(findTestObject(""03-Header Menu/User Profile/View Profile/Contact Info/span_Personal""))",Chrome 114.0.0.0,,,2023-07-24 22:15:04,2023-07-24 22:15:04,0.309s,PASSED
+"verifyElementVisible(findTestObject(""03-Header Menu/User Profile/View Profile/Contact Info/span_Other""))",Chrome 114.0.0.0,,,2023-07-24 22:15:04,2023-07-24 22:15:05,0.329s,PASSED
+delay(delay_1second),Chrome 114.0.0.0,,,2023-07-24 22:15:05,2023-07-24 22:15:06,1.014s,PASSED
+"click(findTestObject(""03-Header Menu/User Profile/View Profile/Contact Info/div_Email""))",Chrome 114.0.0.0,,,2023-07-24 22:15:06,2023-07-24 22:15:06,0.376s,PASSED
+"click(findTestObject(""03-Header Menu/User Profile/View Profile/Contact Info/add email button""))",Chrome 114.0.0.0,,,2023-07-24 22:15:06,2023-07-24 22:15:07,0.609s,PASSED
+"setText(findTestObject(""03-Header Menu/User Profile/View Profile/Contact Info/email field""), ""auto@automation.com"")",Chrome 114.0.0.0,,,2023-07-24 22:15:07,2023-07-24 22:15:07,0.957s,PASSED
+"sendKeys(findTestObject(""03-Header Menu/User Profile/View Profile/Contact Info/email field""), Keys.chord(ENTER))",Chrome 114.0.0.0,,,2023-07-24 22:15:07,2023-07-24 22:15:08,0.349s,PASSED
+"scrollToElement(findTestObject(""03-Header Menu/User Profile/View Profile/Contact Info/button_Save""), 0)",Chrome 114.0.0.0,,,2023-07-24 22:15:08,2023-07-24 22:15:08,0.518s,PASSED
+"click(findTestObject(""03-Header Menu/User Profile/View Profile/Contact Info/button_Save""))",Chrome 114.0.0.0,,,2023-07-24 22:15:08,2023-07-24 22:15:09,0.359s,PASSED
+"verifyElementVisible(findTestObject(""03-Header Menu/User Profile/View Profile/Contact Info/Success Msg""))",Chrome 114.0.0.0,,,2023-07-24 22:15:09,2023-07-24 22:15:10,0.977s,PASSED
+delay(delay_2seconds),Chrome 114.0.0.0,,,2023-07-24 22:15:10,2023-07-24 22:15:12,2.008s,PASSED
+"mouseOver(findTestObject(""03-Header Menu/User Profile/View Profile/Contact Info/email field""))",Chrome 114.0.0.0,,,2023-07-24 22:15:12,2023-07-24 22:15:12,0.500s,PASSED
+"click(findTestObject(""03-Header Menu/User Profile/View Profile/Contact Info/remove email""))",Chrome 114.0.0.0,,,2023-07-24 22:15:12,2023-07-24 22:15:13,0.651s,PASSED
+"sendKeys(findTestObject(""03-Header Menu/User Profile/View Profile/Contact Info/Positon Field""), Keys.chord(ENTER))",Chrome 114.0.0.0,,,2023-07-24 22:15:13,2023-07-24 22:15:13,0.546s,PASSED
+delay(delay_2seconds),Chrome 114.0.0.0,,,2023-07-24 22:15:13,2023-07-24 22:15:15,2.007s,PASSED
+"click(findTestObject(""03-Header Menu/User Profile/View Profile/Contact Info/button_Save""))",Chrome 114.0.0.0,,,2023-07-24 22:15:15,2023-07-24 22:15:16,0.385s,PASSED
+"verifyElementVisible(findTestObject(""03-Header Menu/User Profile/View Profile/Contact Info/Success Msg""))",Chrome 114.0.0.0,,,2023-07-24 22:15:16,2023-07-24 22:15:17,0.890s,PASSED
+delay(delay_2seconds),Chrome 114.0.0.0,,,2023-07-24 22:15:17,2023-07-24 22:15:19,2.004s,PASSED
+"scrollToElement(findTestObject(""03-Header Menu/User Profile/View Profile/div_Contact Info1""), 0)",Chrome 114.0.0.0,,,2023-07-24 22:15:19,2023-07-24 22:15:19,0.352s,PASSED
+delay(delay_2seconds),Chrome 114.0.0.0,,,2023-07-24 22:15:19,2023-07-24 22:15:21,2.014s,PASSED
+,,,,,,,
+Test Cases/03-Header Menu/13- Contact Info (add-remove phone number),Chrome 114.0.0.0,,,2023-07-24 22:15:21,2023-07-24 22:15:40,19.364s,PASSED
+"click(findTestObject(""03-Header Menu/User Profile/View Profile/Contact Info/phone field""))",Chrome 114.0.0.0,,,2023-07-24 22:15:21,2023-07-24 22:15:22,0.397s,PASSED
+"click(findTestObject(""03-Header Menu/User Profile/View Profile/Contact Info/button_phone_country_code_dropdown""))",Chrome 114.0.0.0,,,2023-07-24 22:15:22,2023-07-24 22:15:22,0.385s,PASSED
+"click(findTestObject(""03-Header Menu/User Profile/View Profile/Contact Info/button_Philippines 63""))",Chrome 114.0.0.0,,,2023-07-24 22:15:22,2023-07-24 22:15:22,0.474s,PASSED
+"setText(findTestObject(""03-Header Menu/User Profile/View Profile/Contact Info/phone field""), ""9211234567"")",Chrome 114.0.0.0,,,2023-07-24 22:15:22,2023-07-24 22:15:24,1.270s,PASSED
+"sendKeys(findTestObject(""03-Header Menu/User Profile/View Profile/Contact Info/Positon Field""), Keys.chord(ENTER))",Chrome 114.0.0.0,,,2023-07-24 22:15:24,2023-07-24 22:15:24,0.587s,PASSED
+"click(findTestObject(""03-Header Menu/User Profile/View Profile/Contact Info/button_Save""))",Chrome 114.0.0.0,,,2023-07-24 22:15:24,2023-07-24 22:15:25,0.532s,PASSED
+delay(delay_3seconds),Chrome 114.0.0.0,,,2023-07-24 22:15:25,2023-07-24 22:15:28,3.007s,PASSED
+"verifyElementVisible(findTestObject(""03-Header Menu/User Profile/View Profile/Contact Info/Success Msg""))",Chrome 114.0.0.0,,,2023-07-24 22:15:28,2023-07-24 22:15:28,0.338s,PASSED
+delay(delay_3seconds),Chrome 114.0.0.0,,,2023-07-24 22:15:28,2023-07-24 22:15:31,3.014s,PASSED
+"mouseOver(findTestObject(""03-Header Menu/User Profile/View Profile/Contact Info/phone field""))",Chrome 114.0.0.0,,,2023-07-24 22:15:31,2023-07-24 22:15:32,0.482s,PASSED
+delay(delay_3seconds),Chrome 114.0.0.0,,,2023-07-24 22:15:32,2023-07-24 22:15:35,3.015s,PASSED
+"click(findTestObject(""03-Header Menu/User Profile/View Profile/Contact Info/phone remove button""))",Chrome 114.0.0.0,,,2023-07-24 22:15:35,2023-07-24 22:15:35,0.428s,PASSED
+"sendKeys(findTestObject(""03-Header Menu/User Profile/View Profile/Contact Info/Positon Field""), Keys.chord(ENTER))",Chrome 114.0.0.0,,,2023-07-24 22:15:35,2023-07-24 22:15:36,0.623s,PASSED
+"click(findTestObject(""03-Header Menu/User Profile/View Profile/Contact Info/button_Save""))",Chrome 114.0.0.0,,,2023-07-24 22:15:36,2023-07-24 22:15:36,0.375s,PASSED
+"verifyElementVisible(findTestObject(""03-Header Menu/User Profile/View Profile/Contact Info/Success Msg""))",Chrome 114.0.0.0,,,2023-07-24 22:15:36,2023-07-24 22:15:37,1.255s,PASSED
+delay(delay_3seconds),Chrome 114.0.0.0,,,2023-07-24 22:15:37,2023-07-24 22:15:40,3.007s,PASSED
+,,,,,,,
+Test Cases/03-Header Menu/14- Contact Info (add-remove address),Chrome 114.0.0.0,,,2023-07-24 22:15:40,2023-07-24 22:16:26,45.124s,PASSED
+delay(delay_2seconds),Chrome 114.0.0.0,,,2023-07-24 22:15:41,2023-07-24 22:15:43,2.013s,PASSED
+"click(findTestObject(""03-Header Menu/User Profile/View Profile/Contact Info/add address button""))",Chrome 114.0.0.0,,,2023-07-24 22:15:43,2023-07-24 22:15:43,0.487s,PASSED
+"verifyElementVisible(findTestObject(""03-Header Menu/User Profile/View Profile/Contact Info/h4_Edit Address""))",Chrome 114.0.0.0,,,2023-07-24 22:15:43,2023-07-24 22:15:44,1.007s,PASSED
+delay(delay_2seconds),Chrome 114.0.0.0,,,2023-07-24 22:15:44,2023-07-24 22:15:46,2.001s,PASSED
+"click(findTestObject(""03-Header Menu/User Profile/View Profile/Contact Info/input_street1""))",Chrome 114.0.0.0,,,2023-07-24 22:15:46,2023-07-24 22:15:46,0.355s,PASSED
+"click(findTestObject(""03-Header Menu/User Profile/View Profile/Contact Info/input_street2""))",Chrome 114.0.0.0,,,2023-07-24 22:15:46,2023-07-24 22:15:47,0.338s,PASSED
+"click(findTestObject(""03-Header Menu/User Profile/View Profile/Contact Info/input_postcode""))",Chrome 114.0.0.0,,,2023-07-24 22:15:47,2023-07-24 22:15:47,0.356s,PASSED
+"click(findTestObject(""03-Header Menu/User Profile/View Profile/Contact Info/input_city""))",Chrome 114.0.0.0,,,2023-07-24 22:15:47,2023-07-24 22:15:48,0.379s,PASSED
+"click(findTestObject(""03-Header Menu/User Profile/View Profile/Contact Info/input_state""))",Chrome 114.0.0.0,,,2023-07-24 22:15:48,2023-07-24 22:15:48,0.399s,PASSED
+"click(findTestObject(""03-Header Menu/User Profile/View Profile/Contact Info/input_country""))",Chrome 114.0.0.0,,,2023-07-24 22:15:48,2023-07-24 22:15:48,0.359s,PASSED
+"doubleClick(findTestObject(""03-Header Menu/User Profile/View Profile/Contact Info/input_state""))",Chrome 114.0.0.0,,,2023-07-24 22:15:48,2023-07-24 22:15:49,0.617s,PASSED
+"scrollToElement(findTestObject(""03-Header Menu/User Profile/View Profile/Contact Info/input_address type""), 0)",Chrome 114.0.0.0,,,2023-07-24 22:15:49,2023-07-24 22:15:50,0.655s,PASSED
+"click(findTestObject(""03-Header Menu/User Profile/View Profile/Contact Info/input_address type""))",Chrome 114.0.0.0,,,2023-07-24 22:15:50,2023-07-24 22:15:50,0.388s,PASSED
+"verifyElementVisible(findTestObject(""03-Header Menu/User Profile/View Profile/Contact Info/span_Work""))",Chrome 114.0.0.0,,,2023-07-24 22:15:50,2023-07-24 22:15:51,0.546s,PASSED
+"verifyElementVisible(findTestObject(""03-Header Menu/User Profile/View Profile/Contact Info/span_Personal""))",Chrome 114.0.0.0,,,2023-07-24 22:15:51,2023-07-24 22:15:51,0.446s,PASSED
+"verifyElementVisible(findTestObject(""03-Header Menu/User Profile/View Profile/Contact Info/span_Other""))",Chrome 114.0.0.0,,,2023-07-24 22:15:51,2023-07-24 22:15:51,0.329s,PASSED
+"scrollToElement(findTestObject(""03-Header Menu/User Profile/View Profile/Contact Info/input_street1""), 0)",Chrome 114.0.0.0,,,2023-07-24 22:15:51,2023-07-24 22:15:52,0.327s,PASSED
+"doubleClick(findTestObject(""03-Header Menu/User Profile/View Profile/Contact Info/input_street1""))",Chrome 114.0.0.0,,,2023-07-24 22:15:52,2023-07-24 22:15:52,0.446s,PASSED
+"verifyElementVisible(findTestObject(""03-Header Menu/User Profile/View Profile/Contact Info/invalid street 1""))",Chrome 114.0.0.0,,,2023-07-24 22:15:52,2023-07-24 22:15:53,0.531s,PASSED
+"verifyElementVisible(findTestObject(""03-Header Menu/User Profile/View Profile/Contact Info/invalid ZIP""))",Chrome 114.0.0.0,,,2023-07-24 22:15:53,2023-07-24 22:15:53,0.311s,PASSED
+"verifyElementVisible(findTestObject(""03-Header Menu/User Profile/View Profile/Contact Info/invalid City""))",Chrome 114.0.0.0,,,2023-07-24 22:15:53,2023-07-24 22:15:53,0.329s,PASSED
+"verifyElementVisible(findTestObject(""03-Header Menu/User Profile/View Profile/Contact Info/invalid state""))",Chrome 114.0.0.0,,,2023-07-24 22:15:53,2023-07-24 22:15:54,0.350s,PASSED
+delay(delay_2seconds),Chrome 114.0.0.0,,,2023-07-24 22:15:54,2023-07-24 22:15:56,2.007s,PASSED
+"click(findTestObject(""03-Header Menu/User Profile/View Profile/Contact Info/input_street1""))",Chrome 114.0.0.0,,,2023-07-24 22:15:56,2023-07-24 22:15:56,0.361s,PASSED
+"verifyElementNotClickable(findTestObject(""03-Header Menu/User Profile/View Profile/Contact Info/button_Save_address""))",Chrome 114.0.0.0,,,2023-07-24 22:15:56,2023-07-24 22:15:56,0.317s,PASSED
+"click(findTestObject(""03-Header Menu/User Profile/View Profile/Contact Info/button_Cancel""))",Chrome 114.0.0.0,,,2023-07-24 22:15:56,2023-07-24 22:15:57,0.382s,PASSED
+delay(delay_2seconds),Chrome 114.0.0.0,,,2023-07-24 22:15:57,2023-07-24 22:15:59,2.009s,PASSED
+"click(findTestObject(""03-Header Menu/User Profile/View Profile/Contact Info/add address button""))",Chrome 114.0.0.0,,,2023-07-24 22:15:59,2023-07-24 22:15:59,0.380s,PASSED
+"verifyElementVisible(findTestObject(""03-Header Menu/User Profile/View Profile/Contact Info/h4_Edit Address""))",Chrome 114.0.0.0,,,2023-07-24 22:15:59,2023-07-24 22:16:00,0.992s,PASSED
+"setText(findTestObject(""03-Header Menu/User Profile/View Profile/Contact Info/input_street1""), ""05 Test"")",Chrome 114.0.0.0,,,2023-07-24 22:16:00,2023-07-24 22:16:01,0.750s,PASSED
+"setText(findTestObject(""03-Header Menu/User Profile/View Profile/Contact Info/input_street2""), ""corner Automation"")",Chrome 114.0.0.0,,,2023-07-24 22:16:01,2023-07-24 22:16:02,0.803s,PASSED
+"setText(findTestObject(""03-Header Menu/User Profile/View Profile/Contact Info/input_postcode""), ""54321"")",Chrome 114.0.0.0,,,2023-07-24 22:16:02,2023-07-24 22:16:02,0.775s,PASSED
+"setText(findTestObject(""03-Header Menu/User Profile/View Profile/Contact Info/input_city""), ""Test City"")",Chrome 114.0.0.0,,,2023-07-24 22:16:02,2023-07-24 22:16:03,0.882s,PASSED
+"setText(findTestObject(""03-Header Menu/User Profile/View Profile/Contact Info/input_state""), ""Test State"")",Chrome 114.0.0.0,,,2023-07-24 22:16:03,2023-07-24 22:16:04,0.799s,PASSED
+"click(findTestObject(""03-Header Menu/User Profile/View Profile/Contact Info/input_country""), STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-24 22:16:04,2023-07-24 22:16:05,0.469s,PASSED
+"click(findTestObject(""03-Header Menu/User Profile/View Profile/Contact Info/span_United States""), STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-24 22:16:05,2023-07-24 22:16:05,0.538s,PASSED
+"scrollToElement(findTestObject(""03-Header Menu/User Profile/View Profile/Contact Info/input_address type""), 0)",Chrome 114.0.0.0,,,2023-07-24 22:16:05,2023-07-24 22:16:06,0.651s,PASSED
+"click(findTestObject(""03-Header Menu/User Profile/View Profile/Contact Info/input_address type""))",Chrome 114.0.0.0,,,2023-07-24 22:16:06,2023-07-24 22:16:06,0.350s,PASSED
+"click(findTestObject(""03-Header Menu/User Profile/View Profile/Contact Info/span_Work""))",Chrome 114.0.0.0,,,2023-07-24 22:16:06,2023-07-24 22:16:07,0.590s,PASSED
+delay(delay_2seconds),Chrome 114.0.0.0,,,2023-07-24 22:16:07,2023-07-24 22:16:09,2.003s,PASSED
+"click(findTestObject(""03-Header Menu/User Profile/View Profile/Contact Info/button_Save_address""))",Chrome 114.0.0.0,,,2023-07-24 22:16:09,2023-07-24 22:16:09,0.348s,PASSED
+delay(delay_2seconds),Chrome 114.0.0.0,,,2023-07-24 22:16:09,2023-07-24 22:16:11,2.016s,PASSED
+"scrollToElement(findTestObject(""03-Header Menu/User Profile/View Profile/Contact Info/Address Added""), 0)",Chrome 114.0.0.0,,,2023-07-24 22:16:11,2023-07-24 22:16:11,0.337s,PASSED
+"verifyElementVisible(findTestObject(""03-Header Menu/User Profile/View Profile/Contact Info/Address Added""))",Chrome 114.0.0.0,,,2023-07-24 22:16:11,2023-07-24 22:16:12,0.358s,PASSED
+delay(delay_2seconds),Chrome 114.0.0.0,,,2023-07-24 22:16:12,2023-07-24 22:16:14,2.010s,PASSED
+"click(findTestObject(""03-Header Menu/User Profile/View Profile/Contact Info/button_Save""))",Chrome 114.0.0.0,,,2023-07-24 22:16:14,2023-07-24 22:16:14,0.367s,PASSED
+"verifyElementVisible(findTestObject(""03-Header Menu/User Profile/View Profile/Contact Info/Success Msg""))",Chrome 114.0.0.0,,,2023-07-24 22:16:14,2023-07-24 22:16:15,0.911s,PASSED
+delay(delay_2seconds),Chrome 114.0.0.0,,,2023-07-24 22:16:15,2023-07-24 22:16:17,2.008s,PASSED
+"mouseOver(findTestObject(""03-Header Menu/User Profile/View Profile/Contact Info/Mouse over target""))",Chrome 114.0.0.0,,,2023-07-24 22:16:17,2023-07-24 22:16:18,0.514s,PASSED
+"click(findTestObject(""03-Header Menu/User Profile/View Profile/Contact Info/button_remove_address""))",Chrome 114.0.0.0,,,2023-07-24 22:16:18,2023-07-24 22:16:18,0.820s,PASSED
+"click(findTestObject(""03-Header Menu/User Profile/View Profile/Contact Info/button_Save""))",Chrome 114.0.0.0,,,2023-07-24 22:16:18,2023-07-24 22:16:19,0.542s,PASSED
+"verifyElementVisible(findTestObject(""03-Header Menu/User Profile/View Profile/Contact Info/Success Msg""))",Chrome 114.0.0.0,,,2023-07-24 22:16:19,2023-07-24 22:16:20,1.494s,PASSED
+delay(delay_3seconds),Chrome 114.0.0.0,,,2023-07-24 22:16:20,2023-07-24 22:16:23,3.011s,PASSED
+"click(findTestObject(""03-Header Menu/User Profile/View Profile/div_Security""))",Chrome 114.0.0.0,,,2023-07-24 22:16:23,2023-07-24 22:16:24,0.454s,PASSED
+"click(findTestObject(""03-Header Menu/User Profile/View Profile/Security Tab (2FA)/2FA_toggle""))",Chrome 114.0.0.0,,,2023-07-24 22:16:24,2023-07-24 22:16:25,0.880s,PASSED
+closeBrowser(),Chrome 114.0.0.0,,,2023-07-24 22:16:25,2023-07-24 22:16:26,0.827s,PASSED
+,,,,,,,
+Test Cases/03-Header Menu/15- Change Password (Blank Fields),Chrome 114.0.0.0,,,2023-07-24 22:16:26,2023-07-24 22:17:58,1m - 32.350s,PASSED
+"openBrowser("""")",Chrome 114.0.0.0,,,2023-07-24 22:16:26,2023-07-24 22:16:27,1.384s,PASSED
+navigateToUrl(app_url_login),Chrome 114.0.0.0,,,2023-07-24 22:16:27,2023-07-24 22:16:40,13.022s,PASSED
+maximizeWindow(),Chrome 114.0.0.0,,,2023-07-24 22:16:40,2023-07-24 22:16:40,0.124s,PASSED
+"callTestCase(findTestCase(""01-Login and Forgot Password/04-Login(Valid Credentials-With Subscription)""), [:], STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-24 22:16:40,2023-07-24 22:17:43,1m - 2.937s,PASSED
+"click(findTestObject(""03-Header Menu/User Profile/Users Profile menu and notification button/div_User drop down menu button""))",Chrome 114.0.0.0,,,2023-07-24 22:17:43,2023-07-24 22:17:46,2.421s,PASSED
+delay(delay_2seconds),Chrome 114.0.0.0,,,2023-07-24 22:17:46,2023-07-24 22:17:48,2.011s,PASSED
+"click(findTestObject(""03-Header Menu/Header Menu Verifications/h4_Change Password""))",Chrome 114.0.0.0,,,2023-07-24 22:17:48,2023-07-24 22:17:48,0.420s,PASSED
+"verifyElementVisible(findTestObject(""03-Header Menu/User Profile/Change Password/h4_Change Password""))",Chrome 114.0.0.0,,,2023-07-24 22:17:48,2023-07-24 22:17:49,0.694s,PASSED
+delay(delay_2seconds),Chrome 114.0.0.0,,,2023-07-24 22:17:49,2023-07-24 22:17:51,2.005s,PASSED
+"click(findTestObject(""03-Header Menu/User Profile/Change Password/input_Old password""))",Chrome 114.0.0.0,,,2023-07-24 22:17:51,2023-07-24 22:17:51,0.385s,PASSED
+"click(findTestObject(""03-Header Menu/User Profile/Change Password/input_new password""))",Chrome 114.0.0.0,,,2023-07-24 22:17:51,2023-07-24 22:17:51,0.340s,PASSED
+"click(findTestObject(""03-Header Menu/User Profile/Change Password/input_Confirm password""))",Chrome 114.0.0.0,,,2023-07-24 22:17:51,2023-07-24 22:17:52,0.538s,PASSED
+"click(findTestObject(""03-Header Menu/User Profile/Change Password/input_Old password""))",Chrome 114.0.0.0,,,2023-07-24 22:17:52,2023-07-24 22:17:53,0.542s,PASSED
+delay(delay_2seconds),Chrome 114.0.0.0,,,2023-07-24 22:17:53,2023-07-24 22:17:55,2.014s,PASSED
+"verifyElementVisible(findTestObject(""03-Header Menu/User Profile/Change Password/error_Enter your password""))",Chrome 114.0.0.0,,,2023-07-24 22:17:55,2023-07-24 22:17:55,0.335s,PASSED
+"verifyElementVisible(findTestObject(""03-Header Menu/User Profile/Change Password/error_Password must be at least 8 characters""))",Chrome 114.0.0.0,,,2023-07-24 22:17:55,2023-07-24 22:17:55,0.306s,PASSED
+"verifyElementNotClickable(findTestObject(""03-Header Menu/User Profile/Change Password/button_Change Password""))",Chrome 114.0.0.0,,,2023-07-24 22:17:55,2023-07-24 22:17:56,0.300s,PASSED
+"click(findTestObject(""03-Header Menu/User Profile/Change Password/button_Cancel""))",Chrome 114.0.0.0,,,2023-07-24 22:17:56,2023-07-24 22:17:56,0.368s,PASSED
+delay(delay_2seconds),Chrome 114.0.0.0,,,2023-07-24 22:17:56,2023-07-24 22:17:58,2.008s,PASSED
+,,,,,,,
+Test Cases/03-Header Menu/16- Change Password (Incorrect Old Password),Chrome 114.0.0.0,,,2023-07-24 22:17:58,2023-07-24 22:18:07,9.110s,PASSED
+"click(findTestObject(""03-Header Menu/User Profile/Users Profile menu and notification button/div_User drop down menu button""))",Chrome 114.0.0.0,,,2023-07-24 22:17:58,2023-07-24 22:17:58,0.322s,PASSED
+delay(delay_2seconds),Chrome 114.0.0.0,,,2023-07-24 22:17:58,2023-07-24 22:18:00,2.004s,PASSED
+"click(findTestObject(""03-Header Menu/Header Menu Verifications/h4_Change Password""))",Chrome 114.0.0.0,,,2023-07-24 22:18:00,2023-07-24 22:18:01,0.374s,PASSED
+delay(delay_1second),Chrome 114.0.0.0,,,2023-07-24 22:18:01,2023-07-24 22:18:02,1.012s,PASSED
+"setEncryptedText(findTestObject(""03-Header Menu/User Profile/Change Password/input_Old password""), old_password)",Chrome 114.0.0.0,,,2023-07-24 22:18:02,2023-07-24 22:18:02,0.396s,PASSED
+"setEncryptedText(findTestObject(""03-Header Menu/User Profile/Change Password/input_new password""), new_password)",Chrome 114.0.0.0,,,2023-07-24 22:18:02,2023-07-24 22:18:03,0.553s,PASSED
+"setEncryptedText(findTestObject(""03-Header Menu/User Profile/Change Password/input_Confirm password""), confirm_password)",Chrome 114.0.0.0,,,2023-07-24 22:18:03,2023-07-24 22:18:03,0.623s,PASSED
+"click(findTestObject(""03-Header Menu/User Profile/Change Password/button_Change Password""))",Chrome 114.0.0.0,,,2023-07-24 22:18:03,2023-07-24 22:18:04,0.556s,PASSED
+"verifyElementVisible(findTestObject(""03-Header Menu/User Profile/Change Password/Failed to change password""))",Chrome 114.0.0.0,,,2023-07-24 22:18:04,2023-07-24 22:18:05,0.750s,PASSED
+"click(findTestObject(""09-Settings/Users/Active User/button_Cancel_restore""))",Chrome 114.0.0.0,,,2023-07-24 22:18:05,2023-07-24 22:18:05,0.328s,PASSED
+delay(delay_2seconds),Chrome 114.0.0.0,,,2023-07-24 22:18:05,2023-07-24 22:18:07,2.002s,PASSED
+,,,,,,,
+Test Cases/03-Header Menu/17- Change Password (old and new didnt match),Chrome 114.0.0.0,,,2023-07-24 22:18:07,2023-07-24 22:18:17,9.639s,PASSED
+"click(findTestObject(""03-Header Menu/User Profile/Users Profile menu and notification button/div_User drop down menu button""))",Chrome 114.0.0.0,,,2023-07-24 22:18:07,2023-07-24 22:18:08,0.359s,PASSED
+delay(delay_2seconds),Chrome 114.0.0.0,,,2023-07-24 22:18:08,2023-07-24 22:18:10,2.017s,PASSED
+"click(findTestObject(""03-Header Menu/Header Menu Verifications/h4_Change Password""))",Chrome 114.0.0.0,,,2023-07-24 22:18:10,2023-07-24 22:18:10,0.359s,PASSED
+delay(delay_1second),Chrome 114.0.0.0,,,2023-07-24 22:18:10,2023-07-24 22:18:11,1.002s,PASSED
+"setEncryptedText(findTestObject(""03-Header Menu/User Profile/Change Password/input_Old password""), ""8yFRyszE6U6jvsCn51OQbg=="")",Chrome 114.0.0.0,,,2023-07-24 22:18:11,2023-07-24 22:18:11,0.391s,PASSED
+"setText(findTestObject(""03-Header Menu/User Profile/Change Password/input_new password""), ""wrongformatpass"")",Chrome 114.0.0.0,,,2023-07-24 22:18:11,2023-07-24 22:18:12,0.889s,PASSED
+"setText(findTestObject(""03-Header Menu/User Profile/Change Password/input_Confirm password""), ""xmatch"")",Chrome 114.0.0.0,,,2023-07-24 22:18:12,2023-07-24 22:18:13,0.740s,PASSED
+"click(findTestObject(""03-Header Menu/User Profile/Change Password/input_Old password""))",Chrome 114.0.0.0,,,2023-07-24 22:18:13,2023-07-24 22:18:14,0.644s,PASSED
+"verifyElementVisible(findTestObject(""03-Header Menu/User Profile/Change Password/error_Password must be at least 8 characters""))",Chrome 114.0.0.0,,,2023-07-24 22:18:14,2023-07-24 22:18:14,0.413s,PASSED
+"verifyElementVisible(findTestObject(""03-Header Menu/User Profile/Change Password/error_Password does not match""))",Chrome 114.0.0.0,,,2023-07-24 22:18:14,2023-07-24 22:18:14,0.323s,PASSED
+"verifyElementNotClickable(findTestObject(""03-Header Menu/User Profile/Change Password/button_Change Password""))",Chrome 114.0.0.0,,,2023-07-24 22:18:14,2023-07-24 22:18:15,0.326s,PASSED
+delay(delay_2seconds),Chrome 114.0.0.0,,,2023-07-24 22:18:15,2023-07-24 22:18:17,2.005s,PASSED
+,,,,,,,
+Test Cases/03-Header Menu/18-Change Password(Positive Scenario),Chrome 114.0.0.0,,,2023-07-24 22:18:17,2023-07-24 22:19:36,1m - 19.202s,PASSED
+"setEncryptedText(findTestObject(""03-Header Menu/User Profile/Change Password/input_Old password""), password)",Chrome 114.0.0.0,,,2023-07-24 22:18:17,2023-07-24 22:18:17,0.368s,PASSED
+"setEncryptedText(findTestObject(""03-Header Menu/User Profile/Change Password/input_new password""), new_password)",Chrome 114.0.0.0,,,2023-07-24 22:18:17,2023-07-24 22:18:18,0.605s,PASSED
+"setEncryptedText(findTestObject(""03-Header Menu/User Profile/Change Password/input_Confirm password""), confirm_password)",Chrome 114.0.0.0,,,2023-07-24 22:18:18,2023-07-24 22:18:18,0.618s,PASSED
+"click(findTestObject(""03-Header Menu/User Profile/Change Password/button_Change Password""))",Chrome 114.0.0.0,,,2023-07-24 22:18:18,2023-07-24 22:18:19,0.616s,PASSED
+"verifyElementVisible(findTestObject(""03-Header Menu/User Profile/Change Password/Successfully changed password""))",Chrome 114.0.0.0,,,2023-07-24 22:18:19,2023-07-24 22:18:20,1.154s,PASSED
+delay(delay_2seconds),Chrome 114.0.0.0,,,2023-07-24 22:18:20,2023-07-24 22:18:22,2.005s,PASSED
+"click(findTestObject(""03-Header Menu/User Profile/Users Profile menu and notification button/div_User drop down menu button""))",Chrome 114.0.0.0,,,2023-07-24 22:18:22,2023-07-24 22:18:23,0.423s,PASSED
+delay(delay_2seconds),Chrome 114.0.0.0,,,2023-07-24 22:18:23,2023-07-24 22:18:25,2.012s,PASSED
+"click(findTestObject(""03-Header Menu/Header Menu Verifications/h4_Sign Out""))",Chrome 114.0.0.0,,,2023-07-24 22:18:25,2023-07-24 22:18:25,0.408s,PASSED
+delay(delay_2seconds),Chrome 114.0.0.0,,,2023-07-24 22:18:25,2023-07-24 22:18:27,2.007s,PASSED
+closeBrowser(),Chrome 114.0.0.0,,,2023-07-24 22:18:27,2023-07-24 22:18:28,0.746s,PASSED
+"openBrowser("""")",Chrome 114.0.0.0,,,2023-07-24 22:18:28,2023-07-24 22:18:29,1.221s,PASSED
+navigateToUrl(appURL),Chrome 114.0.0.0,,,2023-07-24 22:18:29,2023-07-24 22:18:41,12.405s,PASSED
+maximizeWindow(),Chrome 114.0.0.0,,,2023-07-24 22:18:41,2023-07-24 22:18:42,0.122s,PASSED
+"setText(findTestObject(""02-Side Icons(Organization)/Add Contact/Email Field""), email_with_subscription)",Chrome 114.0.0.0,,,2023-07-24 22:18:42,2023-07-24 22:18:42,0.660s,PASSED
+"setEncryptedText(findTestObject(""02-Side Icons(Organization)/Add Contact/Password Field""), new_password)",Chrome 114.0.0.0,,,2023-07-24 22:18:42,2023-07-24 22:18:43,0.477s,PASSED
+"click(findTestObject(""02-Side Icons(Organization)/Add Contact/button_Sign in""))",Chrome 114.0.0.0,,,2023-07-24 22:18:43,2023-07-24 22:18:44,0.854s,PASSED
+delay(delay_2seconds),Chrome 114.0.0.0,,,2023-07-24 22:18:44,2023-07-24 22:18:46,2.012s,PASSED
+"executeJavaScript(""window.open();"", [])",Chrome 114.0.0.0,,,2023-07-24 22:18:46,2023-07-24 22:18:46,0.034s,PASSED
+currentWindow = getWindowIndex(),Chrome 114.0.0.0,,,2023-07-24 22:18:46,2023-07-24 22:18:46,0.006s,PASSED
+delay(delay_3seconds),Chrome 114.0.0.0,,,2023-07-24 22:18:46,2023-07-24 22:18:49,3.015s,PASSED
+switchToWindowIndex(currentWindow + 1),Chrome 114.0.0.0,,,2023-07-24 22:18:49,2023-07-24 22:18:49,0.018s,PASSED
+navigateToUrl(app_mailinator),Chrome 114.0.0.0,,,2023-07-24 22:18:49,2023-07-24 22:18:54,5.632s,PASSED
+delay(delay_3seconds),Chrome 114.0.0.0,,,2023-07-24 22:18:54,2023-07-24 22:18:57,3.009s,PASSED
+"setText(findTestObject(""00-Signup and Activation/zMailinator/input_LOGIN_search""), email_for_searchmailinator_testuser05)",Chrome 114.0.0.0,,,2023-07-24 22:18:57,2023-07-24 22:18:58,0.634s,PASSED
+"click(findTestObject(""00-Signup and Activation/zMailinator/gobutton""), STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-24 22:18:58,2023-07-24 22:18:59,0.704s,PASSED
+delay(delay_3seconds),Chrome 114.0.0.0,,,2023-07-24 22:18:59,2023-07-24 22:19:02,3.006s,PASSED
+"click(findTestObject(""00-Signup and Activation/zMailinator/Email - everleagues""))",Chrome 114.0.0.0,,,2023-07-24 22:19:02,2023-07-24 22:19:02,0.654s,PASSED
+delay(delay_3seconds),Chrome 114.0.0.0,,,2023-07-24 22:19:02,2023-07-24 22:19:05,3.015s,PASSED
+"code = getText(findTestObject(""Object Repository/06-Teams/For 2FA/2FA code""))",Chrome 114.0.0.0,,,2023-07-24 22:19:05,2023-07-24 22:19:06,0.481s,PASSED
+delay(delay_3seconds),Chrome 114.0.0.0,,,2023-07-24 22:19:06,2023-07-24 22:19:09,3.015s,PASSED
+"closeWindowTitle(""Mailinator"")",Chrome 114.0.0.0,,,2023-07-24 22:19:09,2023-07-24 22:19:09,0.114s,PASSED
+delay(delay_3seconds),Chrome 114.0.0.0,,,2023-07-24 22:19:09,2023-07-24 22:19:12,3.012s,PASSED
+switchToWindowIndex(0),Chrome 114.0.0.0,,,2023-07-24 22:19:12,2023-07-24 22:19:12,0.016s,PASSED
+delay(delay_3seconds),Chrome 114.0.0.0,,,2023-07-24 22:19:12,2023-07-24 22:19:15,3.014s,PASSED
+"setText(findTestObject(""Object Repository/06-Teams/For 2FA/input_Enter verification code_code""), code)",Chrome 114.0.0.0,,,2023-07-24 22:19:15,2023-07-24 22:19:16,1.083s,PASSED
+delay(delay_3seconds),Chrome 114.0.0.0,,,2023-07-24 22:19:16,2023-07-24 22:19:19,3.014s,PASSED
+"click(findTestObject(""06-Teams/For 2FA/button_Verify_2FA""))",Chrome 114.0.0.0,,,2023-07-24 22:19:19,2023-07-24 22:19:19,0.352s,PASSED
+delay(delay_5seconds),Chrome 114.0.0.0,,,2023-07-24 22:19:19,2023-07-24 22:19:24,5.012s,PASSED
+"click(findTestObject(""03-Header Menu/User Profile/Users Profile menu and notification button/div_User drop down menu button""))",Chrome 114.0.0.0,,,2023-07-24 22:19:24,2023-07-24 22:19:25,0.348s,PASSED
+delay(delay_2seconds),Chrome 114.0.0.0,,,2023-07-24 22:19:25,2023-07-24 22:19:27,2.003s,PASSED
+"click(findTestObject(""03-Header Menu/Header Menu Verifications/h4_Change Password""))",Chrome 114.0.0.0,,,2023-07-24 22:19:27,2023-07-24 22:19:27,0.411s,PASSED
+"verifyElementVisible(findTestObject(""03-Header Menu/User Profile/Change Password/h4_Change Password""))",Chrome 114.0.0.0,,,2023-07-24 22:19:27,2023-07-24 22:19:28,0.647s,PASSED
+delay(delay_2seconds),Chrome 114.0.0.0,,,2023-07-24 22:19:28,2023-07-24 22:19:30,2.002s,PASSED
+"setEncryptedText(findTestObject(""03-Header Menu/User Profile/Change Password/input_Old password""), new_password)",Chrome 114.0.0.0,,,2023-07-24 22:19:30,2023-07-24 22:19:30,0.495s,PASSED
+"setEncryptedText(findTestObject(""03-Header Menu/User Profile/Change Password/input_new password""), password)",Chrome 114.0.0.0,,,2023-07-24 22:19:30,2023-07-24 22:19:31,0.518s,PASSED
+"setEncryptedText(findTestObject(""03-Header Menu/User Profile/Change Password/input_Confirm password""), password)",Chrome 114.0.0.0,,,2023-07-24 22:19:31,2023-07-24 22:19:31,0.583s,PASSED
+"click(findTestObject(""03-Header Menu/User Profile/Change Password/button_Change Password""))",Chrome 114.0.0.0,,,2023-07-24 22:19:31,2023-07-24 22:19:32,0.539s,PASSED
+"verifyElementVisible(findTestObject(""03-Header Menu/User Profile/Change Password/Successfully changed password""))",Chrome 114.0.0.0,,,2023-07-24 22:19:32,2023-07-24 22:19:33,1.123s,PASSED
+delay(delay_2seconds),Chrome 114.0.0.0,,,2023-07-24 22:19:33,2023-07-24 22:19:35,2.009s,PASSED
+closeBrowser(),Chrome 114.0.0.0,,,2023-07-24 22:19:35,2023-07-24 22:19:36,0.737s,PASSED

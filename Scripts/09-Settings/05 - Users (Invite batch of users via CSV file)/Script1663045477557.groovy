@@ -104,7 +104,7 @@ WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.click(findTestObject('09-Settings/Users/Invite batch of users via CSV file'))
 
-WebUI.verifyElementVisible(findTestObject('09-Settings/Users/CSV Invite/Import CSV File modal'))
+WebUI.verifyElementVisible(findTestObject('09-Settings/Users/CSV Invite/Import CSV File modal_New'))
 
 WebUI.verifyElementNotClickable(findTestObject('09-Settings/Users/CSV Invite/button_Import'))
 

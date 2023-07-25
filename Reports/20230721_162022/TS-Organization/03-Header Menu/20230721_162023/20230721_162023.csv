@@ -1,0 +1,196 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+03-Header Menu,Chrome 114.0.0.0,,,2023-07-21 16:20:25,2023-07-21 16:25:36,5m - 11.143s,FAILED
+,,,,,,,
+Test Cases/03-Header Menu/01- Hamburger Button,Chrome 114.0.0.0,verifies all elements of the hamburger button,,2023-07-21 16:20:25,2023-07-21 16:21:48,1m - 22.996s,PASSED
+"openBrowser("""")",Chrome 114.0.0.0,,,2023-07-21 16:20:26,2023-07-21 16:20:27,1.914s,PASSED
+navigateToUrl(app_url_login),Chrome 114.0.0.0,,,2023-07-21 16:20:27,2023-07-21 16:20:41,13.443s,PASSED
+maximizeWindow(),Chrome 114.0.0.0,,,2023-07-21 16:20:41,2023-07-21 16:20:41,0.140s,PASSED
+"setText(findTestObject(""02-Side Icons(Organization)/Add Contact/Email Field""), email_without_subscription)",Chrome 114.0.0.0,,,2023-07-21 16:20:41,2023-07-21 16:20:42,0.740s,PASSED
+"setEncryptedText(findTestObject(""02-Side Icons(Organization)/Add Contact/Password Field""), password)",Chrome 114.0.0.0,,,2023-07-21 16:20:42,2023-07-21 16:20:42,0.533s,PASSED
+"click(findTestObject(""02-Side Icons(Organization)/Add Contact/button_Sign in""))",Chrome 114.0.0.0,,,2023-07-21 16:20:42,2023-07-21 16:20:43,0.777s,PASSED
+delay(delay_2seconds),Chrome 114.0.0.0,,,2023-07-21 16:20:43,2023-07-21 16:20:45,2.016s,PASSED
+"executeJavaScript(""window.open();"", [])",Chrome 114.0.0.0,,,2023-07-21 16:20:45,2023-07-21 16:20:45,0.046s,PASSED
+currentWindow = getWindowIndex(),Chrome 114.0.0.0,,,2023-07-21 16:20:45,2023-07-21 16:20:45,0.015s,PASSED
+delay(delay_3seconds),Chrome 114.0.0.0,,,2023-07-21 16:20:45,2023-07-21 16:20:48,3.006s,PASSED
+switchToWindowIndex(currentWindow + 1),Chrome 114.0.0.0,,,2023-07-21 16:20:48,2023-07-21 16:20:48,0.018s,PASSED
+navigateToUrl(app_mailinator),Chrome 114.0.0.0,,,2023-07-21 16:20:48,2023-07-21 16:20:54,5.749s,PASSED
+delay(delay_3seconds),Chrome 114.0.0.0,,,2023-07-21 16:20:54,2023-07-21 16:20:57,3.010s,PASSED
+"setText(findTestObject(""00-Signup and Activation/zMailinator/input_LOGIN_search""), email_for_searchmailinator_testuser01)",Chrome 114.0.0.0,,,2023-07-21 16:20:57,2023-07-21 16:20:58,0.640s,PASSED
+"click(findTestObject(""00-Signup and Activation/zMailinator/gobutton""), STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-21 16:20:58,2023-07-21 16:20:58,0.648s,PASSED
+delay(delay_3seconds),Chrome 114.0.0.0,,,2023-07-21 16:20:58,2023-07-21 16:21:01,3.010s,PASSED
+"click(findTestObject(""00-Signup and Activation/zMailinator/Email - everleagues""))",Chrome 114.0.0.0,,,2023-07-21 16:21:01,2023-07-21 16:21:02,0.353s,PASSED
+delay(delay_3seconds),Chrome 114.0.0.0,,,2023-07-21 16:21:02,2023-07-21 16:21:05,3.015s,PASSED
+"code = getText(findTestObject(""Object Repository/06-Teams/For 2FA/2FA code""))",Chrome 114.0.0.0,,,2023-07-21 16:21:05,2023-07-21 16:21:05,0.420s,PASSED
+delay(delay_3seconds),Chrome 114.0.0.0,,,2023-07-21 16:21:05,2023-07-21 16:21:08,3.012s,PASSED
+"closeWindowTitle(""Mailinator"")",Chrome 114.0.0.0,,,2023-07-21 16:21:08,2023-07-21 16:21:08,0.142s,PASSED
+delay(delay_3seconds),Chrome 114.0.0.0,,,2023-07-21 16:21:08,2023-07-21 16:21:11,3.007s,PASSED
+switchToWindowIndex(0),Chrome 114.0.0.0,,,2023-07-21 16:21:11,2023-07-21 16:21:11,0.036s,PASSED
+delay(delay_3seconds),Chrome 114.0.0.0,,,2023-07-21 16:21:11,2023-07-21 16:21:14,3.014s,PASSED
+"setText(findTestObject(""Object Repository/06-Teams/For 2FA/input_Enter verification code_code""), code)",Chrome 114.0.0.0,,,2023-07-21 16:21:14,2023-07-21 16:21:15,0.645s,PASSED
+delay(delay_3seconds),Chrome 114.0.0.0,,,2023-07-21 16:21:15,2023-07-21 16:21:18,3.012s,PASSED
+"click(findTestObject(""06-Teams/For 2FA/button_Verify_2FA""))",Chrome 114.0.0.0,,,2023-07-21 16:21:18,2023-07-21 16:21:19,0.707s,PASSED
+delay(delay_5seconds),Chrome 114.0.0.0,,,2023-07-21 16:21:19,2023-07-21 16:21:24,5.012s,PASSED
+"click(findTestObject(""03-Header Menu/Hamburger Button/button_menu""))",Chrome 114.0.0.0,,,2023-07-21 16:21:24,2023-07-21 16:21:25,1.416s,PASSED
+delay(delay_5seconds),Chrome 114.0.0.0,,,2023-07-21 16:21:25,2023-07-21 16:21:30,5.015s,PASSED
+"verifyElementNotVisible(findTestObject(""03-Header Menu/Hamburger Button/div_Add My Organization""), STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-21 16:21:30,2023-07-21 16:21:30,0.362s,PASSED
+"verifyElementNotVisible(findTestObject(""03-Header Menu/Hamburger Button/div_Dashboard""), STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-21 16:21:30,2023-07-21 16:21:31,0.310s,PASSED
+"verifyElementNotVisible(findTestObject(""03-Header Menu/Hamburger Button/div_Chat""), STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-21 16:21:31,2023-07-21 16:21:31,0.307s,PASSED
+"verifyElementNotVisible(findTestObject(""03-Header Menu/Hamburger Button/div_Teams""), STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-21 16:21:31,2023-07-21 16:21:31,0.312s,PASSED
+"verifyElementNotVisible(findTestObject(""03-Header Menu/Hamburger Button/div_Directory""), STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-21 16:21:31,2023-07-21 16:21:32,0.306s,PASSED
+"verifyElementNotVisible(findTestObject(""03-Header Menu/Hamburger Button/div_Operation""), STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-21 16:21:32,2023-07-21 16:21:32,0.325s,PASSED
+"verifyElementNotVisible(findTestObject(""03-Header Menu/Hamburger Button/div_Settings""), STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-21 16:21:32,2023-07-21 16:21:32,0.309s,PASSED
+"verifyElementNotVisible(findTestObject(""03-Header Menu/Hamburger Button/div_Open Video Conference""), STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-21 16:21:32,2023-07-21 16:21:33,0.308s,PASSED
+"verifyElementNotVisible(findTestObject(""03-Header Menu/Hamburger Button/div_Cloud Files""), STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-21 16:21:33,2023-07-21 16:21:33,0.308s,PASSED
+"verifyElementNotVisible(findTestObject(""03-Header Menu/Hamburger Button/div_ELSign""), STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-21 16:21:33,2023-07-21 16:21:33,0.380s,PASSED
+"verifyElementNotVisible(findTestObject(""03-Header Menu/Hamburger Button/div_Income and Expense""), STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-21 16:21:33,2023-07-21 16:21:34,0.336s,PASSED
+"verifyElementNotVisible(findTestObject(""03-Header Menu/Hamburger Button/div_ELNet""), CONTINUE_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-21 16:21:34,2023-07-21 16:21:34,0.361s,PASSED
+"verifyElementNotVisible(findTestObject(""03-Header Menu/Hamburger Button/div_Help""), STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-21 16:21:34,2023-07-21 16:21:34,0.307s,PASSED
+delay(delay_5seconds),Chrome 114.0.0.0,,,2023-07-21 16:21:34,2023-07-21 16:21:39,5.013s,PASSED
+"click(findTestObject(""03-Header Menu/Hamburger Button/button_menu""))",Chrome 114.0.0.0,,,2023-07-21 16:21:39,2023-07-21 16:21:40,0.357s,PASSED
+"verifyElementVisible(findTestObject(""03-Header Menu/Hamburger Button/div_Add My Organization""), STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-21 16:21:40,2023-07-21 16:21:41,0.901s,PASSED
+"verifyElementVisible(findTestObject(""03-Header Menu/Hamburger Button/div_Dashboard""), STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-21 16:21:41,2023-07-21 16:21:41,0.334s,PASSED
+"verifyElementVisible(findTestObject(""03-Header Menu/Hamburger Button/div_Chat""), STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-21 16:21:41,2023-07-21 16:21:41,0.338s,PASSED
+"verifyElementVisible(findTestObject(""03-Header Menu/Hamburger Button/div_Teams""), STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-21 16:21:41,2023-07-21 16:21:42,0.318s,PASSED
+"verifyElementVisible(findTestObject(""03-Header Menu/Hamburger Button/div_Directory""), STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-21 16:21:42,2023-07-21 16:21:42,0.308s,PASSED
+"verifyElementVisible(findTestObject(""03-Header Menu/Hamburger Button/div_Operation""), CONTINUE_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-21 16:21:42,2023-07-21 16:21:42,0.344s,PASSED
+"verifyElementVisible(findTestObject(""03-Header Menu/Hamburger Button/div_Settings""), CONTINUE_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-21 16:21:42,2023-07-21 16:21:43,0.309s,PASSED
+"verifyElementVisible(findTestObject(""03-Header Menu/Hamburger Button/div_Open Video Conference""), STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-21 16:21:43,2023-07-21 16:21:43,0.310s,PASSED
+"verifyElementVisible(findTestObject(""03-Header Menu/Hamburger Button/div_Cloud Files""), STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-21 16:21:43,2023-07-21 16:21:43,0.343s,PASSED
+"scrollToElement(findTestObject(""03-Header Menu/Hamburger Button/div_ELSign""), 0)",Chrome 114.0.0.0,,,2023-07-21 16:21:43,2023-07-21 16:21:44,0.423s,PASSED
+"verifyElementVisible(findTestObject(""03-Header Menu/Hamburger Button/div_ELSign""), STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-21 16:21:44,2023-07-21 16:21:44,0.329s,PASSED
+"verifyElementVisible(findTestObject(""03-Header Menu/Hamburger Button/div_Income and Expense""), STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-21 16:21:44,2023-07-21 16:21:44,0.330s,PASSED
+"verifyElementVisible(findTestObject(""03-Header Menu/Hamburger Button/div_ELNet""), CONTINUE_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-21 16:21:44,2023-07-21 16:21:45,0.334s,PASSED
+"verifyElementVisible(findTestObject(""03-Header Menu/Hamburger Button/div_Help""), STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-21 16:21:45,2023-07-21 16:21:45,0.326s,PASSED
+"scrollToElement(findTestObject(""03-Header Menu/Hamburger Button/div_Dashboard""), 0)",Chrome 114.0.0.0,,,2023-07-21 16:21:45,2023-07-21 16:21:45,0.343s,PASSED
+delay(delay_3seconds),Chrome 114.0.0.0,,,2023-07-21 16:21:45,2023-07-21 16:21:48,3.009s,PASSED
+,,,,,,,
+Test Cases/03-Header Menu/02- Language Selector,Chrome 114.0.0.0,click langauge and verifies if the app is able to change on the desired language,,2023-07-21 16:21:48,2023-07-21 16:22:40,51.460s,PASSED
+"click(findTestObject(""03-Header Menu/Language/button_Language Selector""))",Chrome 114.0.0.0,,,2023-07-21 16:21:48,2023-07-21 16:21:49,0.380s,PASSED
+delay(delay_2seconds),Chrome 114.0.0.0,,,2023-07-21 16:21:49,2023-07-21 16:21:51,2.010s,PASSED
+"click(findTestObject(""03-Header Menu/Language/button_chinese 1""))",Chrome 114.0.0.0,,,2023-07-21 16:21:51,2023-07-21 16:21:51,0.329s,PASSED
+delay(delay_2seconds),Chrome 114.0.0.0,,,2023-07-21 16:21:51,2023-07-21 16:21:53,2.013s,PASSED
+"verifyElementVisible(findTestObject(""03-Header Menu/Language/Language Div/div_chinese1 dashboard""))",Chrome 114.0.0.0,,,2023-07-21 16:21:53,2023-07-21 16:21:53,0.328s,PASSED
+"verifyElementVisible(findTestObject(""03-Header Menu/Language/Language Div/div_chinese1 chat""))",Chrome 114.0.0.0,,,2023-07-21 16:21:53,2023-07-21 16:21:54,0.308s,PASSED
+"verifyElementVisible(findTestObject(""03-Header Menu/Language/Language Div/div_chinese1 teams""))",Chrome 114.0.0.0,,,2023-07-21 16:21:54,2023-07-21 16:21:54,0.334s,PASSED
+delay(delay_2seconds),Chrome 114.0.0.0,,,2023-07-21 16:21:54,2023-07-21 16:21:56,2.017s,PASSED
+"click(findTestObject(""03-Header Menu/Language/button_Language Selector""))",Chrome 114.0.0.0,,,2023-07-21 16:21:56,2023-07-21 16:21:57,0.411s,PASSED
+delay(delay_2seconds),Chrome 114.0.0.0,,,2023-07-21 16:21:57,2023-07-21 16:21:59,2.011s,PASSED
+"click(findTestObject(""03-Header Menu/Language/button_chinese 2""))",Chrome 114.0.0.0,,,2023-07-21 16:21:59,2023-07-21 16:21:59,0.384s,PASSED
+delay(delay_2seconds),Chrome 114.0.0.0,,,2023-07-21 16:21:59,2023-07-21 16:22:01,2.015s,PASSED
+"verifyElementVisible(findTestObject(""03-Header Menu/Language/Language Div/div_chinese2 dashboard""))",Chrome 114.0.0.0,,,2023-07-21 16:22:01,2023-07-21 16:22:01,0.302s,PASSED
+"verifyElementVisible(findTestObject(""03-Header Menu/Language/Language Div/div_chinese2 chat""))",Chrome 114.0.0.0,,,2023-07-21 16:22:01,2023-07-21 16:22:02,0.309s,PASSED
+"verifyElementVisible(findTestObject(""03-Header Menu/Language/Language Div/div_chinese2 teams""))",Chrome 114.0.0.0,,,2023-07-21 16:22:02,2023-07-21 16:22:02,0.346s,PASSED
+delay(delay_2seconds),Chrome 114.0.0.0,,,2023-07-21 16:22:02,2023-07-21 16:22:04,2.014s,PASSED
+"click(findTestObject(""03-Header Menu/Language/button_Language Selector""))",Chrome 114.0.0.0,,,2023-07-21 16:22:04,2023-07-21 16:22:04,0.361s,PASSED
+delay(delay_2seconds),Chrome 114.0.0.0,,,2023-07-21 16:22:04,2023-07-21 16:22:06,2.008s,PASSED
+"click(findTestObject(""03-Header Menu/Language/button_chinese 3""))",Chrome 114.0.0.0,,,2023-07-21 16:22:06,2023-07-21 16:22:07,0.320s,PASSED
+delay(delay_2seconds),Chrome 114.0.0.0,,,2023-07-21 16:22:07,2023-07-21 16:22:09,2.001s,PASSED
+"verifyElementVisible(findTestObject(""03-Header Menu/Language/Language Div/div_chinese3 dashboard""))",Chrome 114.0.0.0,,,2023-07-21 16:22:09,2023-07-21 16:22:09,0.334s,PASSED
+"verifyElementVisible(findTestObject(""03-Header Menu/Language/Language Div/div_chinese3 chat""))",Chrome 114.0.0.0,,,2023-07-21 16:22:09,2023-07-21 16:22:09,0.309s,PASSED
+"verifyElementVisible(findTestObject(""03-Header Menu/Language/Language Div/div_chinese3 teams""))",Chrome 114.0.0.0,,,2023-07-21 16:22:09,2023-07-21 16:22:10,0.329s,PASSED
+delay(delay_2seconds),Chrome 114.0.0.0,,,2023-07-21 16:22:10,2023-07-21 16:22:12,2.006s,PASSED
+"click(findTestObject(""03-Header Menu/Language/button_Language Selector""))",Chrome 114.0.0.0,,,2023-07-21 16:22:12,2023-07-21 16:22:12,0.368s,PASSED
+delay(delay_2seconds),Chrome 114.0.0.0,,,2023-07-21 16:22:12,2023-07-21 16:22:14,2.008s,PASSED
+"click(findTestObject(""03-Header Menu/Language/button_Espanol""))",Chrome 114.0.0.0,,,2023-07-21 16:22:14,2023-07-21 16:22:14,0.317s,PASSED
+delay(delay_2seconds),Chrome 114.0.0.0,,,2023-07-21 16:22:14,2023-07-21 16:22:16,2.007s,PASSED
+"verifyElementVisible(findTestObject(""03-Header Menu/Language/Language Div/div_spanish_Panel""))",Chrome 114.0.0.0,,,2023-07-21 16:22:16,2023-07-21 16:22:17,0.367s,PASSED
+"verifyElementVisible(findTestObject(""03-Header Menu/Language/Language Div/div_spanish_Equipo""))",Chrome 114.0.0.0,,,2023-07-21 16:22:17,2023-07-21 16:22:17,0.337s,PASSED
+delay(delay_2seconds),Chrome 114.0.0.0,,,2023-07-21 16:22:17,2023-07-21 16:22:19,2.016s,PASSED
+"click(findTestObject(""03-Header Menu/Language/button_Language Selector""))",Chrome 114.0.0.0,,,2023-07-21 16:22:19,2023-07-21 16:22:19,0.366s,PASSED
+delay(delay_2seconds),Chrome 114.0.0.0,,,2023-07-21 16:22:19,2023-07-21 16:22:21,2.016s,PASSED
+"click(findTestObject(""03-Header Menu/Language/button_Italiano""))",Chrome 114.0.0.0,,,2023-07-21 16:22:21,2023-07-21 16:22:22,0.337s,PASSED
+delay(delay_10seconds),Chrome 114.0.0.0,,,2023-07-21 16:22:22,2023-07-21 16:22:32,10.007s,PASSED
+"verifyElementVisible(findTestObject(""03-Header Menu/Language/Language Div/div_Pannello di controllo""))",Chrome 114.0.0.0,,,2023-07-21 16:22:32,2023-07-21 16:22:32,0.316s,PASSED
+"verifyElementVisible(findTestObject(""03-Header Menu/Language/Language Div/div_Impostazioni""), CONTINUE_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-21 16:22:32,2023-07-21 16:22:32,0.329s,PASSED
+"click(findTestObject(""03-Header Menu/Language/button_Language Selector""))",Chrome 114.0.0.0,,,2023-07-21 16:22:32,2023-07-21 16:22:33,0.347s,PASSED
+delay(delay_2seconds),Chrome 114.0.0.0,,,2023-07-21 16:22:33,2023-07-21 16:22:35,2.010s,PASSED
+"click(findTestObject(""03-Header Menu/Language/button_English""))",Chrome 114.0.0.0,,,2023-07-21 16:22:35,2023-07-21 16:22:35,0.333s,PASSED
+delay(delay_2seconds),Chrome 114.0.0.0,,,2023-07-21 16:22:35,2023-07-21 16:22:37,2.004s,PASSED
+"verifyElementVisible(findTestObject(""03-Header Menu/Language/Language Div/div_Dashboard""))",Chrome 114.0.0.0,,,2023-07-21 16:22:37,2023-07-21 16:22:37,0.303s,PASSED
+"verifyElementVisible(findTestObject(""03-Header Menu/Language/Language Div/div_Teams""))",Chrome 114.0.0.0,,,2023-07-21 16:22:37,2023-07-21 16:22:38,0.310s,PASSED
+delay(delay_2seconds),Chrome 114.0.0.0,,,2023-07-21 16:22:38,2023-07-21 16:22:40,2.010s,PASSED
+,,,,,,,
+Test Cases/03-Header Menu/03- Users Profile menu and notification button,Chrome 114.0.0.0,navigates on header and verifies all objects,,2023-07-21 16:22:40,2023-07-21 16:22:54,14.738s,PASSED
+"click(findTestObject(""03-Header Menu/User Profile/Users Profile menu and notification button/button_notification bell""), CONTINUE_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-21 16:22:40,2023-07-21 16:22:40,0.328s,PASSED
+delay(delay_2seconds),Chrome 114.0.0.0,,,2023-07-21 16:22:40,2023-07-21 16:22:42,2.012s,PASSED
+"verifyElementVisible(findTestObject(""03-Header Menu/User Profile/Users Profile menu and notification button/div_notification modal""), CONTINUE_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-21 16:22:42,2023-07-21 16:22:43,0.330s,PASSED
+delay(delay_2seconds),Chrome 114.0.0.0,,,2023-07-21 16:22:43,2023-07-21 16:22:45,2.012s,PASSED
+"clickOffset(findTestObject(""03-Header Menu/User Profile/Users Profile menu and notification button/div_notification modal""), 100, 100, CONTINUE_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-21 16:22:45,2023-07-21 16:22:45,0.572s,PASSED
+"click(findTestObject(""03-Header Menu/User Profile/Users Profile menu and notification button/div_User drop down menu button""))",Chrome 114.0.0.0,,,2023-07-21 16:22:45,2023-07-21 16:22:46,0.677s,PASSED
+delay(delay_1second),Chrome 114.0.0.0,,,2023-07-21 16:22:46,2023-07-21 16:22:47,1.014s,PASSED
+"verifyElementVisible(findTestObject(""03-Header Menu/User Profile/Users Profile menu and notification button/h4_View Profile""))",Chrome 114.0.0.0,,,2023-07-21 16:22:47,2023-07-21 16:22:47,0.338s,PASSED
+"verifyElementVisible(findTestObject(""03-Header Menu/User Profile/Users Profile menu and notification button/h4_Change Password""))",Chrome 114.0.0.0,,,2023-07-21 16:22:47,2023-07-21 16:22:48,0.335s,PASSED
+"verifyElementVisible(findTestObject(""03-Header Menu/User Profile/Users Profile menu and notification button/h4_Sign Out""))",Chrome 114.0.0.0,,,2023-07-21 16:22:48,2023-07-21 16:22:48,0.312s,PASSED
+delay(delay_2seconds),Chrome 114.0.0.0,,,2023-07-21 16:22:48,2023-07-21 16:22:50,2.005s,PASSED
+"click(findTestObject(""03-Header Menu/User Profile/Users Profile menu and notification button/h4_Sign Out""))",Chrome 114.0.0.0,,,2023-07-21 16:22:50,2023-07-21 16:22:50,0.377s,PASSED
+"verifyElementVisible(findTestObject(""03-Header Menu/User Profile/Users Profile menu and notification button/Login card""))",Chrome 114.0.0.0,,,2023-07-21 16:22:50,2023-07-21 16:22:52,1.343s,PASSED
+delay(delay_2seconds),Chrome 114.0.0.0,,,2023-07-21 16:22:52,2023-07-21 16:22:54,2.009s,PASSED
+closeBrowser(),Chrome 114.0.0.0,,,2023-07-21 16:22:54,2023-07-21 16:22:54,0.896s,PASSED
+,,,,,,,
+Test Cases/03-Header Menu/04- View Profile,Chrome 114.0.0.0,click profile and verifies the objects,,2023-07-21 16:22:54,2023-07-21 16:24:18,1m - 23.832s,PASSED
+"openBrowser("""")",Chrome 114.0.0.0,,,2023-07-21 16:22:55,2023-07-21 16:22:56,1.298s,PASSED
+navigateToUrl(appURL),Chrome 114.0.0.0,,,2023-07-21 16:22:56,2023-07-21 16:23:06,9.787s,PASSED
+maximizeWindow(),Chrome 114.0.0.0,,,2023-07-21 16:23:06,2023-07-21 16:23:06,0.133s,PASSED
+"callTestCase(findTestCase(""01-Login and Forgot Password/04-Login(Valid Credentials-With Subscription)""), [:], STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-21 16:23:06,2023-07-21 16:24:08,1m - 2.649s,PASSED
+"click(findTestObject(""03-Header Menu/User Profile/Users Profile menu and notification button/div_User drop down menu button""))",Chrome 114.0.0.0,,,2023-07-21 16:24:08,2023-07-21 16:24:11,2.987s,PASSED
+delay(delay_1second),Chrome 114.0.0.0,,,2023-07-21 16:24:11,2023-07-21 16:24:12,1.004s,PASSED
+"click(findTestObject(""03-Header Menu/User Profile/Users Profile menu and notification button/h4_View Profile""))",Chrome 114.0.0.0,,,2023-07-21 16:24:12,2023-07-21 16:24:13,0.411s,PASSED
+delay(delay_2seconds),Chrome 114.0.0.0,,,2023-07-21 16:24:13,2023-07-21 16:24:15,2.011s,PASSED
+"verifyElementVisible(findTestObject(""03-Header Menu/User Profile/View Profile/div_Contact Info""))",Chrome 114.0.0.0,,,2023-07-21 16:24:15,2023-07-21 16:24:15,0.366s,PASSED
+"verifyElementVisible(findTestObject(""03-Header Menu/User Profile/View Profile/div_Profile""))",Chrome 114.0.0.0,,,2023-07-21 16:24:15,2023-07-21 16:24:16,0.324s,PASSED
+"verifyElementVisible(findTestObject(""03-Header Menu/User Profile/View Profile/div_Security""))",Chrome 114.0.0.0,,,2023-07-21 16:24:16,2023-07-21 16:24:16,0.328s,PASSED
+"verifyElementVisible(findTestObject(""03-Header Menu/User Profile/View Profile/div_Settings""))",Chrome 114.0.0.0,,,2023-07-21 16:24:16,2023-07-21 16:24:16,0.361s,PASSED
+delay(delay_2seconds),Chrome 114.0.0.0,,,2023-07-21 16:24:16,2023-07-21 16:24:18,2.012s,PASSED
+,,,,,,,
+Test Cases/03-Header Menu/05 - Edit Profile Tab (No changes made),Chrome 114.0.0.0,,,2023-07-21 16:24:18,2023-07-21 16:24:25,6.966s,PASSED
+"mouseOver(findTestObject(""03-Header Menu/User Profile/View Profile/Profile Tab/img tray""))",Chrome 114.0.0.0,,,2023-07-21 16:24:18,2023-07-21 16:24:19,0.486s,PASSED
+"click(findTestObject(""03-Header Menu/User Profile/View Profile/Profile Tab/Upload Icon""))",Chrome 114.0.0.0,,,2023-07-21 16:24:19,2023-07-21 16:24:19,0.350s,PASSED
+delay(delay_2seconds),Chrome 114.0.0.0,,,2023-07-21 16:24:19,2023-07-21 16:24:21,2.009s,PASSED
+"verifyElementVisible(findTestObject(""03-Header Menu/User Profile/View Profile/Profile Tab/Upload User Image modal""))",Chrome 114.0.0.0,,,2023-07-21 16:24:21,2023-07-21 16:24:22,0.303s,PASSED
+"verifyElementNotClickable(findTestObject(""03-Header Menu/User Profile/View Profile/Profile Tab/button_Upload Image""))",Chrome 114.0.0.0,,,2023-07-21 16:24:22,2023-07-21 16:24:22,0.311s,PASSED
+delay(delay_1second),Chrome 114.0.0.0,,,2023-07-21 16:24:22,2023-07-21 16:24:23,1.003s,PASSED
+"click(findTestObject(""03-Header Menu/User Profile/View Profile/Profile Tab/button_Cancel""))",Chrome 114.0.0.0,,,2023-07-21 16:24:23,2023-07-21 16:24:23,0.324s,PASSED
+delay(delay_2seconds),Chrome 114.0.0.0,,,2023-07-21 16:24:23,2023-07-21 16:24:25,2.003s,PASSED
+,,,,,,,
+Test Cases/03-Header Menu/06- Edit Profile Tab (with changes),Chrome 114.0.0.0,,,2023-07-21 16:24:25,2023-07-21 16:24:52,26.505s,PASSED
+delay(delay_3seconds),Chrome 114.0.0.0,,,2023-07-21 16:24:25,2023-07-21 16:24:28,3.006s,PASSED
+"setText(findTestObject(""03-Header Menu/User Profile/View Profile/Profile Tab/input_FirstName""), first_name)",Chrome 114.0.0.0,,,2023-07-21 16:24:28,2023-07-21 16:24:29,0.788s,PASSED
+"setText(findTestObject(""03-Header Menu/User Profile/View Profile/Profile Tab/input_LastName""), last_name)",Chrome 114.0.0.0,,,2023-07-21 16:24:29,2023-07-21 16:24:30,0.824s,PASSED
+delay(delay_2seconds),Chrome 114.0.0.0,,,2023-07-21 16:24:30,2023-07-21 16:24:32,2.007s,PASSED
+"click(findTestObject(""03-Header Menu/User Profile/View Profile/Profile Tab/button_Save""))",Chrome 114.0.0.0,,,2023-07-21 16:24:32,2023-07-21 16:24:32,0.388s,PASSED
+"verifyElementVisible(findTestObject(""03-Header Menu/User Profile/View Profile/Profile Tab/success msg""))",Chrome 114.0.0.0,,,2023-07-21 16:24:32,2023-07-21 16:24:34,1.293s,PASSED
+delay(delay_2seconds),Chrome 114.0.0.0,,,2023-07-21 16:24:34,2023-07-21 16:24:36,2.006s,PASSED
+"setText(findTestObject(""03-Header Menu/User Profile/View Profile/Profile Tab/input_FirstName""), first_name1)",Chrome 114.0.0.0,,,2023-07-21 16:24:36,2023-07-21 16:24:37,1.012s,PASSED
+"setText(findTestObject(""03-Header Menu/User Profile/View Profile/Profile Tab/input_LastName""), last_name1)",Chrome 114.0.0.0,,,2023-07-21 16:24:37,2023-07-21 16:24:37,0.708s,PASSED
+delay(delay_2seconds),Chrome 114.0.0.0,,,2023-07-21 16:24:37,2023-07-21 16:24:39,2.007s,PASSED
+"click(findTestObject(""03-Header Menu/User Profile/View Profile/Profile Tab/button_Save""))",Chrome 114.0.0.0,,,2023-07-21 16:24:39,2023-07-21 16:24:40,0.381s,PASSED
+"verifyElementVisible(findTestObject(""03-Header Menu/User Profile/View Profile/Profile Tab/success msg""))",Chrome 114.0.0.0,,,2023-07-21 16:24:40,2023-07-21 16:24:41,1.181s,PASSED
+delay(delay_2seconds),Chrome 114.0.0.0,,,2023-07-21 16:24:41,2023-07-21 16:24:43,2.011s,PASSED
+"mouseOver(findTestObject(""03-Header Menu/User Profile/View Profile/Profile Tab/img tray""))",Chrome 114.0.0.0,,,2023-07-21 16:24:43,2023-07-21 16:24:44,0.483s,PASSED
+"click(findTestObject(""03-Header Menu/User Profile/View Profile/Profile Tab/Upload Icon""))",Chrome 114.0.0.0,,,2023-07-21 16:24:44,2023-07-21 16:24:44,0.631s,PASSED
+"uploadpackage.Upload.uploadFile(findTestObject(""Object Repository/03-Header Menu/User Profile/View Profile/Profile Tab/button_folderBrowse""), upload_file)",Chrome 114.0.0.0,,,2023-07-21 16:24:44,2023-07-21 16:24:45,0.732s,PASSED
+delay(delay_2seconds),Chrome 114.0.0.0,,,2023-07-21 16:24:45,2023-07-21 16:24:47,2.004s,PASSED
+"click(findTestObject(""03-Header Menu/User Profile/View Profile/Profile Tab/button_Upload Image""))",Chrome 114.0.0.0,,,2023-07-21 16:24:47,2023-07-21 16:24:47,0.358s,PASSED
+"verifyElementVisible(findTestObject(""03-Header Menu/User Profile/View Profile/Contact Info/Successfully changed profile image""))",Chrome 114.0.0.0,,,2023-07-21 16:24:47,2023-07-21 16:24:49,1.502s,PASSED
+delay(delay_3seconds),Chrome 114.0.0.0,,,2023-07-21 16:24:49,2023-07-21 16:24:52,3.002s,PASSED
+,,,,,,,
+Test Cases/03-Header Menu/07- Security Tab (Blank phone number field),Chrome 114.0.0.0,,,2023-07-21 16:24:52,2023-07-21 16:25:05,12.866s,PASSED
+"click(findTestObject(""03-Header Menu/User Profile/View Profile/div_Security""))",Chrome 114.0.0.0,,,2023-07-21 16:24:52,2023-07-21 16:24:52,0.413s,PASSED
+delay(delay_1second),Chrome 114.0.0.0,,,2023-07-21 16:24:52,2023-07-21 16:24:53,1.003s,PASSED
+"verifyElementVisible(findTestObject(""03-Header Menu/User Profile/View Profile/Security Tab (2FA)/title_2FA""))",Chrome 114.0.0.0,,,2023-07-21 16:24:53,2023-07-21 16:24:54,0.345s,PASSED
+"verifyElementVisible(findTestObject(""03-Header Menu/User Profile/View Profile/Security Tab (2FA)/2FA_toggle""))",Chrome 114.0.0.0,,,2023-07-21 16:24:54,2023-07-21 16:24:54,0.305s,PASSED
+"verifyElementVisible(findTestObject(""03-Header Menu/User Profile/View Profile/Security Tab (2FA)/input_Email""))",Chrome 114.0.0.0,,,2023-07-21 16:24:54,2023-07-21 16:24:55,0.547s,PASSED
+delay(delay_1second),Chrome 114.0.0.0,,,2023-07-21 16:24:55,2023-07-21 16:24:56,1.014s,PASSED
+"click(findTestObject(""03-Header Menu/User Profile/View Profile/Security Tab (2FA)/button_edit""))",Chrome 114.0.0.0,,,2023-07-21 16:24:56,2023-07-21 16:24:56,0.417s,PASSED
+"verifyElementVisible(findTestObject(""03-Header Menu/User Profile/View Profile/Security Tab (2FA)/2FA Phone Number modal""))",Chrome 114.0.0.0,,,2023-07-21 16:24:56,2023-07-21 16:24:57,0.870s,PASSED
+"verifyElementVisible(findTestObject(""03-Header Menu/User Profile/View Profile/Security Tab (2FA)/h4_Edit 2FA Phone Number""))",Chrome 114.0.0.0,,,2023-07-21 16:24:57,2023-07-21 16:24:57,0.343s,PASSED
+delay(delay_1second),Chrome 114.0.0.0,,,2023-07-21 16:24:57,2023-07-21 16:24:58,1.002s,PASSED
+"click(findTestObject(""03-Header Menu/User Profile/View Profile/Security Tab (2FA)/button_areacode_default""))",Chrome 114.0.0.0,,,2023-07-21 16:24:58,2023-07-21 16:24:59,0.469s,PASSED
+"setText(findTestObject(""03-Header Menu/User Profile/View Profile/Security Tab (2FA)/area code search""), ""PH"")",Chrome 114.0.0.0,,,2023-07-21 16:24:59,2023-07-21 16:25:00,1.028s,PASSED
+"click(findTestObject(""03-Header Menu/User Profile/View Profile/Security Tab (2FA)/button_Philippines 63""))",Chrome 114.0.0.0,,,2023-07-21 16:25:00,2023-07-21 16:25:00,0.599s,PASSED
+delay(delay_3seconds),Chrome 114.0.0.0,,,2023-07-21 16:25:00,2023-07-21 16:25:03,3.015s,PASSED
+"verifyElementVisible(findTestObject(""03-Header Menu/User Profile/View Profile/Security Tab (2FA)/Phone_Error""))",Chrome 114.0.0.0,,,2023-07-21 16:25:03,2023-07-21 16:25:04,0.313s,PASSED
+delay(delay_1second),Chrome 114.0.0.0,,,2023-07-21 16:25:04,2023-07-21 16:25:05,1.016s,PASSED
+,,,,,,,
+Test Cases/03-Header Menu/08-Security Tab (Wrong phone number),Chrome 114.0.0.0,,,2023-07-21 16:25:05,2023-07-21 16:25:36,31.558s,FAILED
+"click(findTestObject(""03-Header Menu/User Profile/View Profile/Security Tab (2FA)/button_areacode_default""), STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-21 16:25:05,2023-07-21 16:25:36,31.356s,FAILED

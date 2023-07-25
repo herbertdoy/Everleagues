@@ -7,34 +7,34 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#mat-tab-label-6-3 > div.mat-tab-label-content</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//div[@class = 'mat-tab-label-content' and (text() = 'Contact Info ' or . = 'Contact Info ')]</value>
+         <value>#mat-tab-label-0-3</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='mat-tab-label-6-3']/div</value>
+         <value>//div[@id='mat-tab-label-0-3']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@role = 'tab' and (text() = 'Contact Info ' or . = 'Contact Info ')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>fa6e48c7-9a78-4bd5-a81f-10176a4629c8</webElementGuid>
+      <webElementGuid>d89a9c1f-6052-4df9-a4fc-42743c001274</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>mat-tab-label-content</value>
-      <webElementGuid>aa37e1f4-911d-4c35-a47b-88ba397c5ed1</webElementGuid>
+      <value>mat-ripple mat-tab-label mat-focus-indicator ng-star-inserted cdk-focused cdk-mouse-focused mat-tab-label-active</value>
+      <webElementGuid>4eff54c7-83f6-4855-89e9-137d3117bda9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -42,23 +42,143 @@
       <name>text</name>
       <type>Main</type>
       <value>Contact Info </value>
-      <webElementGuid>daf2e329-7ac9-429e-9495-8d41b8bac41f</webElementGuid>
+      <webElementGuid>9a534928-eb17-42d3-bbcc-4f820a80e244</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;mat-tab-label-6-3&quot;)/div[@class=&quot;mat-tab-label-content&quot;]</value>
-      <webElementGuid>a9eb6b92-63c1-4b2d-980c-0ded04912d9f</webElementGuid>
+      <value>id(&quot;mat-tab-label-0-3&quot;)</value>
+      <webElementGuid>0cd9b07a-a3c0-4761-a5be-dd10fc90cb1b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>tab</value>
+      <webElementGuid>9dd9ec4a-e0b4-4f17-a386-e160d96b28f4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>mat-tab-label-0-3</value>
+      <webElementGuid>ee8ab671-abbc-4200-90cd-3f0022104ab8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-reflect-disabled</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>81bcbd24-ad85-4285-bfec-95218a8229e2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>0</value>
+      <webElementGuid>41a67773-19e0-4b77-ace4-0c1beb8aaf63</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-posinset</name>
+      <type>Main</type>
+      <value>4</value>
+      <webElementGuid>d1503bb8-fe21-47b2-b45a-4f6341808966</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-setsize</name>
+      <type>Main</type>
+      <value>4</value>
+      <webElementGuid>eeca10d0-d06f-4e4e-8ccf-f33e4e99172b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-controls</name>
+      <type>Main</type>
+      <value>mat-tab-content-0-3</value>
+      <webElementGuid>3cfe6d52-5325-4fa8-8012-e2a1badf046c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-selected</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>50e1ad7c-141c-43f3-a1c3-51b2a4117416</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-disabled</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>08687ecf-1277-4ca8-b6e8-1427a5180d27</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//div[@id='mat-tab-label-0-3']</value>
+      <webElementGuid>4e909240-4b59-438a-b9d4-920fe78944a9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Settings'])[2]/following::div[1]</value>
+      <webElementGuid>539d9f46-db97-4d5f-b88f-bfff00f46281</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Security'])[1]/following::div[3]</value>
+      <webElementGuid>af492b39-494b-4845-942f-3fdd8c4a4d10</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Position'])[1]/preceding::div[6]</value>
+      <webElementGuid>b567f5a5-30e1-41ca-a62b-fa33f97cd313</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div[4]</value>
+      <webElementGuid>cc0d488e-fda5-4cce-8072-9631329f7202</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[@id = 'mat-tab-label-0-3' and (text() = 'Contact Info ' or . = 'Contact Info ')]</value>
+      <webElementGuid>b07a33ef-e09b-4409-a279-e4481518861e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='mat-tab-label-6-3']/div</value>
-      <webElementGuid>86a36ffd-653b-4539-9dc4-85d592a18988</webElementGuid>
+      <webElementGuid>79de3790-2122-4dca-82a5-0ba3dc484fba</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -66,7 +186,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Settings'])[2]/following::div[2]</value>
-      <webElementGuid>f58f8a4c-d9d8-48e0-8d76-2b19be276924</webElementGuid>
+      <webElementGuid>2f949366-bf14-45c9-9d94-67513635e29d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -74,7 +194,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Security'])[1]/following::div[4]</value>
-      <webElementGuid>3b7ad359-f2d3-45eb-bf10-06ffcd688b2a</webElementGuid>
+      <webElementGuid>96851f16-47a6-4b40-bfbd-e590053bca66</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,7 +202,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Username'])[1]/preceding::div[4]</value>
-      <webElementGuid>f623f772-8dcc-4159-a987-45a094ea66fe</webElementGuid>
+      <webElementGuid>91606488-9a01-4969-82f7-88f34227601e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -90,7 +210,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='First Name'])[1]/preceding::div[12]</value>
-      <webElementGuid>70e9812e-235f-4b31-85bb-20b1817ea74c</webElementGuid>
+      <webElementGuid>4a704195-4282-4b3c-a935-97b5125f6867</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,7 +218,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Contact Info']/parent::*</value>
-      <webElementGuid>e962aa68-ee1b-44ab-8429-bdf192738bcb</webElementGuid>
+      <webElementGuid>d073da75-4f3f-4e6d-93d4-91288ff9337d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,6 +226,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[4]/div</value>
-      <webElementGuid>e0bb1273-fea1-4476-a07b-40e468084299</webElementGuid>
+      <webElementGuid>e0cf7e3d-7b9f-4a5f-a0e1-cfc7c5e85396</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

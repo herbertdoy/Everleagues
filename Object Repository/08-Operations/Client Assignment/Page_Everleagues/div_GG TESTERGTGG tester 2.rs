@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_GG TESTERGTGG tester 2</name>
+   <tag></tag>
+   <elementGuidId>ee317110-143f-4740-8e1f-984aa9db0f6d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//mat-tab-body[@id='mat-tab-content-0-1']/div/app-client-assign-by-client/div[2]/div[2]/div[2]/perfect-scrollbar/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.assignment-container > perfect-scrollbar.perfect-scrollbar > div.ps</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>7cff42fc-4df9-41e2-8773-46e35f88248c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ps</value>
+      <webElementGuid>90811e72-87c5-4a3f-9bb4-a7b97fba6dbf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-reflect-disabled</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>bc08ae55-1692-4d1e-a7e7-27d133dafc06</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>GG TESTERGTGG tester 2</value>
+      <webElementGuid>abbd3f03-bfac-4626-b081-46db175e2e7b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mat-tab-content-0-1&quot;)/div[@class=&quot;mat-tab-body-content ng-tns-c369-36 ng-trigger ng-trigger-translateTab&quot;]/app-client-assign-by-client[@class=&quot;tab-container ng-star-inserted&quot;]/div[@class=&quot;white-container&quot;]/div[@class=&quot;white-container-body&quot;]/div[@class=&quot;assignment-container&quot;]/perfect-scrollbar[@class=&quot;perfect-scrollbar&quot;]/div[@class=&quot;ps&quot;]</value>
+      <webElementGuid>a56e6193-0e1d-4342-8817-a5c53f24237c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//mat-tab-body[@id='mat-tab-content-0-1']/div/app-client-assign-by-client/div[2]/div[2]/div[2]/perfect-scrollbar/div</value>
+      <webElementGuid>a53f20fc-e551-4544-93ea-5f2eb3da33a2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Assigned Employees'])[1]/following::div[13]</value>
+      <webElementGuid>95e81946-16f7-474b-a11e-15c3f9d14783</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='GG Tester 3'])[1]/following::div[19]</value>
+      <webElementGuid>7677c1f2-2b82-4b6e-a3a5-16294dfb7b82</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]/div[2]/perfect-scrollbar/div</value>
+      <webElementGuid>622bf1b3-09d4-4cc1-a360-eea379cadf7e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'GG TESTERGTGG tester 2' or . = 'GG TESTERGTGG tester 2')]</value>
+      <webElementGuid>44699f79-74c5-4e9e-8b94-0e347b37026a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

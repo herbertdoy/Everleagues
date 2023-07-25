@@ -6,19 +6,19 @@
    <elementGuidId>25cda019-bc9e-49b8-bb6c-708dcc9dbf98</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@type = 'button' and (text() = ' Sign up ' or . = ' Sign up ')]</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//button[@type='button']</value>
       </entry>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'button' and (text() = ' Sign up ' or . = ' Sign up ')]</value>
+      </entry>
+      <entry>
          <key>CSS</key>
-         <value>button.mat-raised-button.mat-primary.cdk-focused.cdk-mouse-focused</value>
+         <value>.mat-card form .register-control button</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>CSS</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -26,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>e546074a-f9f9-48ba-b83e-9b176a7e61e6</webElementGuid>
+      <webElementGuid>944f34f2-6c25-474c-90dd-8c6f74c8587a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -34,7 +34,7 @@
       <name>color</name>
       <type>Main</type>
       <value>primary</value>
-      <webElementGuid>32ea42e7-3920-4068-a1fc-82573ceec23d</webElementGuid>
+      <webElementGuid>9d24c910-2772-4d15-8fd7-6b4174a0f04d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -42,7 +42,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>3b517ce2-9929-4dc3-a7b4-24819b82b718</webElementGuid>
+      <webElementGuid>44ce16a9-587c-41cf-8575-746eb5d0f4ba</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,7 +50,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-raised-button mat-primary cdk-focused cdk-mouse-focused</value>
-      <webElementGuid>04eab4f6-2a2a-4f63-9e8f-c39d84fbef80</webElementGuid>
+      <webElementGuid>1b8adc89-0400-40aa-bd70-fbb157cb7c4e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -58,7 +58,7 @@
       <name>ng-reflect-disabled</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>e5226c6c-7642-4f70-a61f-e6b60c9935b0</webElementGuid>
+      <webElementGuid>0efcca3a-31cc-44b6-bf20-5ddfbd731d58</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -66,7 +66,7 @@
       <name>ng-reflect-color</name>
       <type>Main</type>
       <value>primary</value>
-      <webElementGuid>48d1fe15-462e-4a83-a604-04ada8b8be64</webElementGuid>
+      <webElementGuid>5cb79118-b3ce-40d9-a237-cb3b9120591e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -74,7 +74,7 @@
       <name>text</name>
       <type>Main</type>
       <value> Sign up </value>
-      <webElementGuid>2d07f2a1-c37d-4206-9ddb-32bebf199748</webElementGuid>
+      <webElementGuid>95e90a6e-f393-44ca-b379-5bc08f49b3ff</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -82,7 +82,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/app-root[1]/app-simple-sign-up[@class=&quot;ng-star-inserted&quot;]/section[1]/article[1]/mat-card[@class=&quot;mat-card&quot;]/mat-card-content[@class=&quot;text-center mat-card-content&quot;]/form[@class=&quot;ng-star-inserted ng-dirty ng-touched ng-valid&quot;]/div[@class=&quot;push-top-lg&quot;]/div[@class=&quot;push-top-md register-control&quot;]/button[@class=&quot;mat-raised-button mat-primary cdk-focused cdk-mouse-focused&quot;]</value>
-      <webElementGuid>6a2a607b-99c9-4530-ae97-46d2a35efde6</webElementGuid>
+      <webElementGuid>f708143e-50d8-4c5e-bc7e-067c1d459553</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -90,7 +90,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//button[@type='button']</value>
-      <webElementGuid>f8d52e0d-e7aa-4a7f-9b88-947c4711562e</webElementGuid>
+      <webElementGuid>f670d24b-6803-4ac9-b115-50a2fc005437</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,7 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Last Name'])[1]/following::button[1]</value>
-      <webElementGuid>b1cb9f85-8c4b-48b0-a0c8-967c018d337e</webElementGuid>
+      <webElementGuid>931887ba-a938-4c94-a389-6d26b9368fac</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,6 +106,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//button</value>
-      <webElementGuid>ec47ee1e-6e9c-4ed3-8ba4-e6cba6f3b9b3</webElementGuid>
+      <webElementGuid>e6ffe699-1685-4123-ac15-7929d5bec9cc</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

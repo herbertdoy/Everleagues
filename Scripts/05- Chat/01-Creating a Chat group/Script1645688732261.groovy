@@ -25,6 +25,8 @@ WebUI.maximizeWindow()
 
 WebUI.callTestCase(findTestCase('01-Login and Forgot Password/04-Login(Valid Credentials-With Subscription)'), [:], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.delay(GlobalVariable.delay_2seconds)
+
 //WebUI.setText(findTestObject('02-Side Icons(Organization)/Add Contact/Email Field'), 'testuser02@mailinator.com')
 //WebUI.setEncryptedText(findTestObject('02-Side Icons(Organization)/Add Contact/Password Field'), '8yFRyszE6U6jvsCn51OQbg==')
 //WebUI.click(findTestObject('02-Side Icons(Organization)/Add Contact/button_Sign in'))

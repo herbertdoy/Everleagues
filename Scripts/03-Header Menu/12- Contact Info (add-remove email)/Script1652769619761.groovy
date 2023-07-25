@@ -17,7 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/div_Contact Info'))
+WebUI.scrollToElement(findTestObject('03-Header Menu/User Profile/View Profile/div_Contact Info1'), 0)
+
+WebUI.delay(GlobalVariable.delay_2seconds)
+
+WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/div_Contact Info1'))
 
 WebUI.delay(GlobalVariable.delay_1second)
 
@@ -71,7 +75,7 @@ WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/View Prof
 
 WebUI.delay(GlobalVariable.delay_2seconds)
 
-WebUI.scrollToElement(findTestObject('03-Header Menu/User Profile/View Profile/div_Contact Info'), 0)
+WebUI.scrollToElement(findTestObject('03-Header Menu/User Profile/View Profile/div_Contact Info1'), 0)
 
 WebUI.delay(GlobalVariable.delay_2seconds)
 

@@ -7,23 +7,29 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
+         <value>//div[@class = 'mat-tab-label-content' and (text() = 'Contact Info ' or . = 'Contact Info ')]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
          <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>DIV</value>
+      <webElementGuid>70cdb4df-d5a2-48fc-bb0e-e663f024cada</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>xpath1643613221891</value>
+      <value>xpath1689937540713</value>
+      <webElementGuid>19257711-421a-4fd6-86c9-d6b7dc2500f0</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

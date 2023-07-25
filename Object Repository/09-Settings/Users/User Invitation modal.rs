@@ -18,7 +18,7 @@
          <value>//mat-dialog-container[@role = 'dialog' and (text() = 'User Invitationperson_add Invite a single user  Invite batch of users via CSV file Cancel' or . = 'User Invitationperson_add Invite a single user  Invite batch of users via CSV file Cancel')]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -26,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>mat-dialog-container</value>
-      <webElementGuid>6348b0af-91bd-4969-813c-39e940cfbabe</webElementGuid>
+      <webElementGuid>001318ed-e4ea-4fbc-97d7-ab9286f553b9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -34,7 +34,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>-1</value>
-      <webElementGuid>08fa2980-05d8-47c1-9ebc-a26466585b91</webElementGuid>
+      <webElementGuid>7289c368-658e-48ce-b47f-55925d27f5cb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,7 +42,7 @@
       <name>aria-modal</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>801901dd-c8aa-4611-a9ee-f8c6054e2fdc</webElementGuid>
+      <webElementGuid>f1105c02-78ab-4554-9dbf-d66cd1c8aa0a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,7 +50,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-dialog-container ng-tns-c33-186 ng-trigger ng-trigger-dialogContainer ng-star-inserted</value>
-      <webElementGuid>11332ac8-d6f8-4a1c-886e-337b1afff5e2</webElementGuid>
+      <webElementGuid>0f874ea5-d782-4207-af6d-c72e31591a9a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -58,7 +58,7 @@
       <name>id</name>
       <type>Main</type>
       <value>mat-dialog-8</value>
-      <webElementGuid>acef501b-9f0c-4e9c-9978-16e31b1512ba</webElementGuid>
+      <webElementGuid>b1500dc8-038b-4088-87b3-dc2100df1b8a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -66,7 +66,7 @@
       <name>role</name>
       <type>Main</type>
       <value>dialog</value>
-      <webElementGuid>647d3715-b15a-4719-807e-d6e6ae2f369f</webElementGuid>
+      <webElementGuid>fc65e312-430e-49ef-8124-8a7e201a90a4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -74,7 +74,7 @@
       <name>aria-labelledby</name>
       <type>Main</type>
       <value>mat-dialog-title-8</value>
-      <webElementGuid>9164d1b8-3afb-4a5d-93fe-2eb9478eb5e9</webElementGuid>
+      <webElementGuid>ac04e0f1-8496-4171-ab92-8eb1d269783e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -82,7 +82,7 @@
       <name>text</name>
       <type>Main</type>
       <value>User Invitationperson_add Invite a single user  Invite batch of users via CSV file Cancel</value>
-      <webElementGuid>64b50382-b5fa-40de-a559-d2c531ffc26e</webElementGuid>
+      <webElementGuid>3d2d626c-b7ba-454c-a84e-9f2d2b438dee</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -90,7 +90,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-dialog-8&quot;)</value>
-      <webElementGuid>f68d07c8-1be3-4f68-807f-2588a399c079</webElementGuid>
+      <webElementGuid>b62fc404-a7d3-43e0-b689-369704a37099</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -98,7 +98,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//mat-dialog-container[@id='mat-dialog-8']</value>
-      <webElementGuid>ca3ff6d3-b9e6-42ca-b702-a8b71a6f5b87</webElementGuid>
+      <webElementGuid>97174586-c199-429f-ae1e-b7afb0455fd3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,7 +106,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='cdk-overlay-22']/mat-dialog-container</value>
-      <webElementGuid>9d023172-28cb-406b-bd73-d3ee0a51f095</webElementGuid>
+      <webElementGuid>3e147210-2829-463c-923a-0aa6abe12b34</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -114,7 +114,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='of 3'])[1]/following::mat-dialog-container[1]</value>
-      <webElementGuid>d156d25b-17c7-49a4-8a78-8391e0194f39</webElementGuid>
+      <webElementGuid>7fb6afbe-7abe-4d71-9d9f-fb053fd250dc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -122,7 +122,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Row per page:'])[1]/following::mat-dialog-container[1]</value>
-      <webElementGuid>fdda7713-8c7d-484d-ab37-0056632af8c2</webElementGuid>
+      <webElementGuid>df57649e-7a7e-4825-b561-6ebca55c0cf5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -130,7 +130,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//mat-dialog-container</value>
-      <webElementGuid>c8ad0186-a74c-4798-97ba-0d3a0bc0cdc7</webElementGuid>
+      <webElementGuid>95e92f04-49d3-48aa-9ee6-2a0cecc9f39f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -138,6 +138,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//mat-dialog-container[@id = 'mat-dialog-8' and (text() = 'User Invitationperson_add Invite a single user  Invite batch of users via CSV file Cancel' or . = 'User Invitationperson_add Invite a single user  Invite batch of users via CSV file Cancel')]</value>
-      <webElementGuid>036b8441-3c24-4030-a95f-8afd024aba14</webElementGuid>
+      <webElementGuid>62884b22-d863-4dec-822d-f4a97061eda3</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

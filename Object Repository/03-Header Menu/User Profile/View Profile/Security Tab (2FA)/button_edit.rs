@@ -6,26 +6,27 @@
    <elementGuidId>ca4e9ee9-1372-4c8b-9fe5-8ae861c6fed5</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[8]</value>
+      </entry>
+      <entry>
          <key>CSS</key>
-         <value>button.mat-focus-indicator.mat-icon-button.mat-button-base.ng-tns-c564-33.ng-star-inserted</value>
+         <value>button.mat-focus-indicator.ng-tns-c617-45.mat-icon-button.mat-button-base</value>
       </entry>
       <entry>
          <key>BASIC</key>
          <value>//button[@type = 'button' and (text() = 'edit' or . = 'edit')]</value>
       </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>(//button[@type='button'])[7]</value>
-      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
+      <webElementGuid>fec2f3cb-d8b1-40f0-8c34-ba5e38876c1f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -33,13 +34,15 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
+      <webElementGuid>15a02104-f6fe-4a0a-b852-ebbaba193dcc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>mat-focus-indicator mat-icon-button mat-button-base ng-tns-c564-33 ng-star-inserted</value>
+      <value>mat-focus-indicator ng-tns-c617-45 mat-icon-button mat-button-base</value>
+      <webElementGuid>a6e7e71e-3a19-4540-b4bb-1277f5dc5730</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -47,20 +50,23 @@
       <name>text</name>
       <type>Main</type>
       <value>edit</value>
+      <webElementGuid>14857ca5-7a67-4797-8f82-710532439605</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;mat-tab-content-0-1&quot;)/div[@class=&quot;mat-tab-body-content ng-tns-c360-44 ng-trigger ng-trigger-translateTab&quot;]/mat-card[@class=&quot;mat-card mat-focus-indicator ng-star-inserted&quot;]/mat-card-content[@class=&quot;mat-card-content&quot;]/div[@class=&quot;ng-tns-c564-33&quot;]/button[@class=&quot;mat-focus-indicator mat-icon-button mat-button-base ng-tns-c564-33 ng-star-inserted&quot;]</value>
+      <value>id(&quot;mat-tab-content-0-1&quot;)/div[@class=&quot;mat-tab-body-content ng-tns-c369-56 ng-trigger ng-trigger-translateTab&quot;]/mat-card[@class=&quot;mat-card mat-focus-indicator ng-star-inserted&quot;]/mat-card-content[@class=&quot;mat-card-content&quot;]/div[@class=&quot;ng-tns-c617-45&quot;]/button[@class=&quot;mat-focus-indicator ng-tns-c617-45 mat-icon-button mat-button-base&quot;]</value>
+      <webElementGuid>b8a7a807-8040-464e-8fbe-3280689d2247</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>(//button[@type='button'])[7]</value>
+      <value>(//button[@type='button'])[8]</value>
+      <webElementGuid>98071009-bc19-4cec-b69c-9e01e4f52a08</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -68,6 +74,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-tab-body[@id='mat-tab-content-0-1']/div/mat-card/mat-card-content/div[3]/button</value>
+      <webElementGuid>e9e2f251-1df7-4fe7-985f-cf50ff939766</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -75,6 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Phone'])[1]/following::button[1]</value>
+      <webElementGuid>611143ed-1ba9-4991-a1c2-5b201dc7a994</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,20 +90,23 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Email'])[1]/following::button[1]</value>
+      <webElementGuid>2f9a129b-b535-4e8e-90f6-527854e166a6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Hide Quick Shortcuts'])[1]/preceding::button[5]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::button[5]</value>
+      <webElementGuid>f7f548d7-c3fb-42bb-ac79-68529d4a99f3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Invite New User'])[1]/preceding::button[5]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Alt'])[1]/preceding::button[5]</value>
+      <webElementGuid>b09bb866-ac41-4d92-8f30-de0d7156ba43</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,5 +114,38 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//mat-card-content/div[3]/button</value>
+      <webElementGuid>acefc2c9-acec-4340-b3db-fc60fba51536</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = 'edit' or . = 'edit')]</value>
+      <webElementGuid>61a86592-0c2e-4100-b664-2459516af914</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[7]</value>
+      <webElementGuid>85d25b1b-6d05-493a-a10a-87ae04a35e1c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Hide Quick Shortcuts'])[1]/preceding::button[5]</value>
+      <webElementGuid>7e858c5b-968c-4248-9e74-0ce8409f4f76</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Invite New User'])[1]/preceding::button[5]</value>
+      <webElementGuid>1bd73405-9e64-48c9-985f-e3ef4b182b30</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

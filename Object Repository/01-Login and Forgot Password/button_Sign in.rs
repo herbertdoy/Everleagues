@@ -4,18 +4,23 @@
    <name>button_Sign in</name>
    <tag></tag>
    <elementGuidId>c004f44d-6519-4936-8688-f4d770ee1a9e</elementGuidId>
+   <imagePath></imagePath>
    <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//form[contains(@class,'push-top-sm ng-tns-c505-81')]//button)[2]</value>
+      </entry>
       <entry>
          <key>CSS</key>
          <value>button.mat-focus-indicator.push-top-sm.ng-tns-c482-0.mat-raised-button.mat-button-base.mat-primary</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@type = 'button' and (text() = 'Sign in' or . = 'Sign in')]</value>
+         <key>IMAGE</key>
+         <value></value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//button[contains(@class,'mat-focus-indicator push-top-sm')]</value>
+         <key>BASIC</key>
+         <value>//*[@type = 'button' and (text() = 'Sign in' or . = 'Sign in')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -26,7 +31,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>bc42f9a6-94b4-4dad-ad89-bd747ac8d3c7</webElementGuid>
+      <webElementGuid>21932447-96ea-4feb-b2dc-822a750078e1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -34,7 +39,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>93bd443c-00a8-4d5b-987d-8ce7ddf22639</webElementGuid>
+      <webElementGuid>be8a8e89-5e03-400e-94ec-61921716ad98</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,7 +47,7 @@
       <name>color</name>
       <type>Main</type>
       <value>primary</value>
-      <webElementGuid>66bfdefb-4a7a-40a2-a8cc-3990792d70e2</webElementGuid>
+      <webElementGuid>42752727-175d-4bc4-aca0-caf05e5a6d0f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,7 +55,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-focus-indicator push-top-sm ng-tns-c482-0 mat-raised-button mat-button-base mat-primary</value>
-      <webElementGuid>aac5a30f-7323-4194-8b26-cda1500a86ce</webElementGuid>
+      <webElementGuid>bae75cfa-1dbd-40c3-bb0d-27c81bba33de</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -58,7 +63,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Sign in</value>
-      <webElementGuid>971c2100-f757-47c0-bb04-ee04de924838</webElementGuid>
+      <webElementGuid>54ff30d1-4506-47bd-9ccc-0476e1cfaf65</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -66,7 +71,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/app-root[1]/app-login-page[@class=&quot;ng-tns-c482-0 ng-trigger ng-trigger-routerAnimation ng-star-inserted&quot;]/section[@class=&quot;ng-tns-c482-0&quot;]/article[@class=&quot;ng-tns-c482-0&quot;]/mat-card[@class=&quot;mat-card mat-focus-indicator ng-tns-c482-0 ng-star-inserted&quot;]/mat-card-content[@class=&quot;mat-card-content text-center&quot;]/form[@class=&quot;push-top-sm ng-tns-c482-0 ng-dirty ng-valid ng-touched&quot;]/button[@class=&quot;mat-focus-indicator push-top-sm ng-tns-c482-0 mat-raised-button mat-button-base mat-primary&quot;]</value>
-      <webElementGuid>3f8a3171-9137-4582-85d4-ba240a1886f5</webElementGuid>
+      <webElementGuid>84f71ba0-e118-439b-a2d6-b20fa673ce05</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -74,7 +79,7 @@
       <name>ng-reflect-color</name>
       <type>Main</type>
       <value>primary</value>
-      <webElementGuid>ccb256a2-cf4d-4346-8951-809857f94b4a</webElementGuid>
+      <webElementGuid>f1c810e9-a9a6-4fa9-8359-01703bea1e92</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -82,7 +87,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//button[@type='button']</value>
-      <webElementGuid>a758923c-5b0c-4b44-b162-081a8e6d403a</webElementGuid>
+      <webElementGuid>9544456d-184f-4d83-b3ee-21147e0087a9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -90,7 +95,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Password'])[1]/following::button[2]</value>
-      <webElementGuid>fd1f151c-76a9-46a5-bdb1-3f5c8908ff6a</webElementGuid>
+      <webElementGuid>4ed2ffd0-e183-4b6e-a1ce-05a95a1e8d0f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,7 +103,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Email'])[1]/following::button[2]</value>
-      <webElementGuid>840aa77f-bbb4-400e-b22f-dc6e11d14f1a</webElementGuid>
+      <webElementGuid>f87d57dc-ff90-41f4-977b-73db92d3b97f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,7 +111,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Forgot password?'])[1]/preceding::button[1]</value>
-      <webElementGuid>f72b69e1-174e-48fc-9f9a-7bced9a866a0</webElementGuid>
+      <webElementGuid>2ec41edf-c149-4364-b687-a035c3959bc4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -114,7 +119,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//form/button</value>
-      <webElementGuid>43826340-4ee7-43fd-be4d-6086fcf5d474</webElementGuid>
+      <webElementGuid>feb7db32-966c-4111-af55-03886216d7b0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -122,7 +127,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Password'])[1]/following::button[1]</value>
-      <webElementGuid>8f2b44d9-6677-4918-912b-28a08adff328</webElementGuid>
+      <webElementGuid>314a2d74-69fa-42c5-877a-77eafe9b691b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -130,7 +135,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Email'])[1]/following::button[1]</value>
-      <webElementGuid>ee540685-9128-400a-bd94-748f44881a3f</webElementGuid>
+      <webElementGuid>74881cba-4052-415c-9674-4503636590bf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -138,6 +143,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//button</value>
-      <webElementGuid>9905ec53-69e2-4000-b73d-36e22c95f34c</webElementGuid>
+      <webElementGuid>d7959927-0957-42a4-94d5-cb3d8ab1cfbd</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

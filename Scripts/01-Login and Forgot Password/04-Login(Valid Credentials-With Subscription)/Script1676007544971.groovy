@@ -67,7 +67,7 @@ WebUI.switchToWindowIndex(0)
 
 WebUI.delay(GlobalVariable.delay_3seconds)
 
-WebUI.click(findTestObject('06-Teams/For 2FA/button_Confirm_2FA'))
+//WebUI.click(findTestObject('06-Teams/For 2FA/button_Confirm_2FA'))
 
 WebUI.setText(findTestObject('Object Repository/06-Teams/For 2FA/input_Enter verification code_code'), code)
 

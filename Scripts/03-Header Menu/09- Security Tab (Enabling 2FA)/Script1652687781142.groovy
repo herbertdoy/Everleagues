@@ -17,6 +17,8 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/div_Security'))
+
 WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Security Tab (2FA)/2FA_toggle'))
 
 WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/View Profile/Security Tab (2FA)/Success enable'))
@@ -31,7 +33,7 @@ WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/View Prof
 //      Keys.ENTER))
 WebUI.delay(GlobalVariable.delay_1second)
 
-WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Security Tab (2FA)/button_area code'))
+WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Security Tab (2FA)/button_areacode_default'))
 
 WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/View Profile/Security Tab (2FA)/Area code modal'))
 

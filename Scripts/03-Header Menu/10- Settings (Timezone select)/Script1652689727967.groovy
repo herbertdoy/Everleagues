@@ -33,6 +33,12 @@ WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Settings/Ti
 
 WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Settings/span_(UTC0800) Beijing, Chongqing, Hong Kong, Urumqi'))
 
+WebUI.scrollToElement(findTestObject('03-Header Menu/User Profile/View Profile/Settings/Email Frequency selector'), 0)
+
+WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Settings/Email Frequency selector'))
+
+WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Settings/span_None'))
+
 WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Settings/button_Save'))
 
 WebUI.delay(GlobalVariable.delay_1second)

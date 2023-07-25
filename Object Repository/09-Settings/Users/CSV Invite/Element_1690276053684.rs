@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Element_1690276053684</name>
+   <tag></tag>
+   <elementGuidId>0c01142d-ba75-4300-849f-8bbec0f6822e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//mat-dialog-container[@role = 'dialog' and (text() = 'Import CSV FileNeed a CSV template? Download it here . Choose File No file chosen createImporting Organization Unit *ImportCancel' or . = 'Import CSV FileNeed a CSV template? Download it here . Choose File No file chosen createImporting Organization Unit *ImportCancel')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>DIV</value>
+      <webElementGuid>a2d2e0e6-cc35-4eba-9910-bd24d4dcd54b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>xpath1690276053684</value>
+      <webElementGuid>46a796cb-1a8e-47a2-bf56-05ac7ae55f1e</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

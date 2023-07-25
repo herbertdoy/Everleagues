@@ -81,7 +81,7 @@ WebUI.delay(GlobalVariable.delay_2seconds)
 
 WebUI.scrollToElement(findTestObject('03-Header Menu/User Profile/View Profile/Settings/Dashboard Card'), 0)
 
-WebUI.scrollToElement(findTestObject('03-Header Menu/User Profile/View Profile/div_Contact Info'), 0)
+WebUI.scrollToElement(findTestObject('03-Header Menu/User Profile/View Profile/div_Contact Info1'), 0)
 
 WebUI.delay(GlobalVariable.delay_2seconds)
 
