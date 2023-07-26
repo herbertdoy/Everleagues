@@ -7,22 +7,26 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#mat-dialog-1</value>
+         <value>.cdk-overlay-container div:nth-child(2) .cdk-overlay-pane .mat-dialog-container</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//mat-dialog-container[@role = 'dialog' and (text() = 'Delete Organization Unit Are you sure you want to delete GG Automation? Warning! All resources associated with this root organization will be permanently deleted.DeleteCancel' or . = 'Delete Organization Unit Are you sure you want to delete GG Automation? Warning! All resources associated with this root organization will be permanently deleted.DeleteCancel')]</value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>//mat-dialog-container[@id='mat-dialog-1']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>CSS</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>mat-dialog-container</value>
-      <webElementGuid>c3983430-5492-461c-aa78-a80449b8756f</webElementGuid>
+      <webElementGuid>2b7d17c0-18c5-4ca2-82af-546bf7c422cc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +34,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>-1</value>
-      <webElementGuid>68761ada-65ca-442d-8efc-c6edeb4982a1</webElementGuid>
+      <webElementGuid>8ad71dfe-ead2-477f-9bdd-98ea8ce5c2e5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,23 +42,23 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-dialog-container cdk-dialog-container ng-tns-c39-63 ng-trigger ng-trigger-dialogContainer ng-star-inserted</value>
-      <webElementGuid>7f7f7d4f-4de0-40ca-95b8-e2c13ef523e7</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>mat-dialog-1</value>
-      <webElementGuid>c2a1a11d-a336-451e-b9dd-2bd774741e52</webElementGuid>
+      <webElementGuid>419838df-d9f4-48cf-9a45-5ee4c1218d7c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>mat-dialog-1</value>
+      <webElementGuid>9906668f-d0b3-4e6e-9446-daacbced447c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>role</name>
       <type>Main</type>
       <value>dialog</value>
-      <webElementGuid>8ed1d7da-9574-4836-8e44-c08e79bc6280</webElementGuid>
+      <webElementGuid>3dde1e2f-13b6-41a9-946e-3ac1907eb892</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +66,7 @@
       <name>aria-modal</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>298ca584-e7f0-40ae-8878-07ddcc1d11be</webElementGuid>
+      <webElementGuid>53fa9a19-fd45-4323-b439-e8892b5c9e42</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +74,7 @@
       <name>aria-labelledby</name>
       <type>Main</type>
       <value>mat-dialog-title-1</value>
-      <webElementGuid>225a6bbb-1de2-4247-bb94-0a74d5e11b75</webElementGuid>
+      <webElementGuid>82946241-e02a-49f9-9dbc-c054aee44bc2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -78,7 +82,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Delete Organization Unit Are you sure you want to delete GG Automation? Warning! All resources associated with this root organization will be permanently deleted.DeleteCancel</value>
-      <webElementGuid>1344d087-ef83-42f1-88c8-193ff8287479</webElementGuid>
+      <webElementGuid>801cea64-1460-4abe-b9a2-f4df1b4fc1e9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -86,7 +90,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-dialog-1&quot;)</value>
-      <webElementGuid>70763bd8-a9e9-4a19-9b55-1418bd75592b</webElementGuid>
+      <webElementGuid>199487d1-ad0e-4f99-8081-53edc471e59f</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -94,7 +98,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//mat-dialog-container[@id='mat-dialog-1']</value>
-      <webElementGuid>2f02af92-4ef2-4bc5-b383-3c663fb5f25c</webElementGuid>
+      <webElementGuid>5cc45b5f-6191-4831-ad3e-8f9fa310d0ca</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +106,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='cdk-overlay-1']/mat-dialog-container</value>
-      <webElementGuid>1d335e83-e485-4af6-8036-51bbc5193c01</webElementGuid>
+      <webElementGuid>2d9efc91-4105-4d9a-a1e8-de457bb4b9be</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +114,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('id(', '&quot;', 'mat-dialog-1', '&quot;', ')')])[1]/following::mat-dialog-container[1]</value>
-      <webElementGuid>2ce70158-c7a9-4917-b260-2c2db399fb39</webElementGuid>
+      <webElementGuid>e0873c51-6af0-43f9-bc04-fafedf132c3a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +122,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='`'])[2]/following::mat-dialog-container[1]</value>
-      <webElementGuid>feed0de9-4d4a-4954-a272-1d6b06079369</webElementGuid>
+      <webElementGuid>be9c25a0-0ddf-4fce-9d9c-69847463981d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,7 +130,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//mat-dialog-container</value>
-      <webElementGuid>7367b7b3-8341-4b7c-b100-161148a95da2</webElementGuid>
+      <webElementGuid>5bc6b673-7a22-4d16-b480-250ba864c6e6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,6 +138,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//mat-dialog-container[@id = 'mat-dialog-1' and (text() = 'Delete Organization Unit Are you sure you want to delete GG Automation? Warning! All resources associated with this root organization will be permanently deleted.DeleteCancel' or . = 'Delete Organization Unit Are you sure you want to delete GG Automation? Warning! All resources associated with this root organization will be permanently deleted.DeleteCancel')]</value>
-      <webElementGuid>70da3203-7108-42a6-b35e-76aad66ecd5a</webElementGuid>
+      <webElementGuid>8b5a38c6-0b4c-4d19-8d8c-92411ff1fb1a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -6,30 +6,33 @@
    <elementGuidId>2413f83f-86fb-406b-91d8-38deb87507cb</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@class = 'mat-tab-label-content' and (text() = 'Contact Info ' or . = 'Contact Info ')]</value>
+         <key>CSS</key>
+         <value>.mat-card-content ext-tools-card div:nth-child(6) .mat-slide-toggle-label span:nth-child(1) .mat-slide-toggle-bar</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>mat-card-content .mat-card-content ext-tools-card div:nth-child(6) .mat-slide-toggle-label span:nth-child(1) .mat-slide-toggle-bar</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>CSS</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>DIV</value>
-      <webElementGuid>70cdb4df-d5a2-48fc-bb0e-e663f024cada</webElementGuid>
+      <webElementGuid>659650c9-2d60-4d95-99c5-d86fa9f1d50d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>xpath1689937540713</value>
-      <webElementGuid>19257711-421a-4fd6-86c9-d6b7dc2500f0</webElementGuid>
+      <value>xpath1690372336131</value>
+      <webElementGuid>a6e752f6-136f-49a0-8f17-a3ff27633ae6</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

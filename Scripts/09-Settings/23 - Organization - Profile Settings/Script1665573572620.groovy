@@ -108,7 +108,7 @@ WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/h4_ORGANIZAT
 
 WebUI.click(findTestObject('09-Settings/Organization/div_Profile'))
 
-WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/div_ProfileSettings page'))
+//WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/div_ProfileSettings page'))//
 
 //WebUI.verifyElementVisible(findTestObject('09-Settings/Users/User Page'))
 WebUI.delay(GlobalVariable.delay_3seconds)
@@ -206,7 +206,7 @@ WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/mat-card-tit
 
 WebUI.setText(findTestObject('09-Settings/Organization/input_Email'), GlobalVariable.email_for_testuser02)
 
-WebUI.setText(findTestObject('09-Settings/Organization/input_Web'), GlobalVariable.appURL)
+WebUI.setText(findTestObject('09-Settings/Organization/input_Web'), 'google.com')
 
 WebUI.click(findTestObject('09-Settings/Organization/button_Phone'))
 

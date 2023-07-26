@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>toggle_PDF Converter</name>
+   <name>toggle_AI assistant</name>
    <tag></tag>
    <elementGuidId>c05dcb56-73cd-4d82-8b32-8bff8d305e97</elementGuidId>
    <selectorCollection>

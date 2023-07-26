@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>simple-snack-bar_AI Assistant tool enabled.OK</name>
+   <tag></tag>
+   <elementGuidId>62363222-a5be-4f5b-9098-cdb1aaf09ed3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>simple-snack-bar.mat-simple-snackbar.ng-star-inserted</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='cdk-overlay-13']/snack-bar-container/div/div/simple-snack-bar</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>simple-snack-bar</value>
+      <webElementGuid>efa6fa9b-566a-4bf7-bdca-9929da3ce652</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-simple-snackbar ng-star-inserted</value>
+      <webElementGuid>47c8ed10-9725-42a8-80a6-6d9f256c7d4f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>AI Assistant tool enabled.OK</value>
+      <webElementGuid>64ea3197-3dc5-4ab1-a13d-10c5c8ff6f02</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;cdk-overlay-13&quot;)/snack-bar-container[@class=&quot;mat-snack-bar-container ng-tns-c50-79 ng-trigger ng-trigger-state mat-snack-bar-center ng-star-inserted&quot;]/div[@class=&quot;ng-tns-c50-79&quot;]/div[@class=&quot;ng-tns-c50-79&quot;]/simple-snack-bar[@class=&quot;mat-simple-snackbar ng-star-inserted&quot;]</value>
+      <webElementGuid>dc517bab-2866-4bd7-80e1-50c366658bc5</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='cdk-overlay-13']/snack-bar-container/div/div/simple-snack-bar</value>
+      <webElementGuid>59ee96fd-15d1-4d25-8572-6e84cb35f015</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Edit image'])[1]/following::simple-snack-bar[1]</value>
+      <webElementGuid>d3bda849-8fc3-4630-8f6e-e8d3922da99b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Client Assignment'])[2]/following::simple-snack-bar[1]</value>
+      <webElementGuid>31dd7f07-594a-46e2-9797-e278af74122c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//simple-snack-bar</value>
+      <webElementGuid>e70d17c6-95bf-400c-8d49-6c325178b17f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//simple-snack-bar[(text() = 'AI Assistant tool enabled.OK' or . = 'AI Assistant tool enabled.OK')]</value>
+      <webElementGuid>7296cc46-748a-41c8-a01e-e4995212f663</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

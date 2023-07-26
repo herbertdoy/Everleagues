@@ -17,6 +17,8 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.scrollToElement(findTestObject('09-Settings/Organization/div_Settings'), 0)
+
 WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.click(findTestObject('09-Settings/Organization/div_Settings'))
@@ -107,7 +109,13 @@ WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/snack-bar-co
 
 WebUI.delay(GlobalVariable.delay_3seconds)
 
-WebUI.click(findTestObject('09-Settings/Organization/toggle_PDF Converter'))
+WebUI.click(findTestObject('09-Settings/Organization/toggle_AI assistant'))
+
+WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/snack-bar-container_AI Assistant tool disabled.OK'))
+
+WebUI.delay(GlobalVariable.delay_3seconds)
+
+WebUI.click(findTestObject('09-Settings/Organization/toogle_PDF converter1'))
 
 WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/snack-bar-container_PDF Converter tool disabled.OK'))
 
@@ -137,7 +145,13 @@ WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/snack-bar-co
 
 WebUI.delay(GlobalVariable.delay_3seconds)
 
-WebUI.click(findTestObject('09-Settings/Organization/toggle_PDF Converter'))
+WebUI.click(findTestObject('09-Settings/Organization/toggle_AI assistant'))
+
+WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/snack-bar-container_AI Assistant tool enabled.OK'))
+
+WebUI.delay(GlobalVariable.delay_3seconds)
+
+WebUI.click(findTestObject('09-Settings/Organization/toogle_PDF converter1'))
 
 WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/snack-bar-container_PDF Converter tool enabled.OK'))
 

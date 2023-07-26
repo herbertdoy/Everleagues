@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_</name>
+   <tag></tag>
+   <elementGuidId>6832b138-cb54-42c3-9028-6ea5b437cd67</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#mat-slide-toggle-9 > label.mat-slide-toggle-label</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//mat-slide-toggle[@id='mat-slide-toggle-9']/label</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>4acfe914-0319-44ea-8e8a-0bb418f27b5a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-slide-toggle-label</value>
+      <webElementGuid>213b322d-5ce3-4252-a7e2-56eaea589a68</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>for</name>
+      <type>Main</type>
+      <value>mat-slide-toggle-9-input</value>
+      <webElementGuid>c3a2a91d-2042-44ae-badb-83d8f995063c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> </value>
+      <webElementGuid>524f1ddd-6054-4f3b-a025-be07c8bd4924</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mat-slide-toggle-9&quot;)/label[@class=&quot;mat-slide-toggle-label&quot;]</value>
+      <webElementGuid>427cc98a-42d6-434d-8f8a-cb6e8a258dbc</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//mat-slide-toggle[@id='mat-slide-toggle-9']/label</value>
+      <webElementGuid>8ad6e27c-e604-4141-9f9c-91503bcb23fa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='AI Assistant'])[1]/following::label[1]</value>
+      <webElementGuid>52d3fa55-1606-4ce5-beb9-28f5cae6378e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Income and Expense'])[1]/following::label[2]</value>
+      <webElementGuid>349e1562-145c-44b3-90e5-b8eec8aa82f3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='PDF Converter'])[1]/preceding::label[1]</value>
+      <webElementGuid>9d139d82-79da-4a9a-be6c-55b6f0494419</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::label[2]</value>
+      <webElementGuid>3258b5cf-02f0-422e-a8f1-51f1e00ff7d7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[6]/mat-slide-toggle/label</value>
+      <webElementGuid>82ef3bf5-1ccb-4057-b7b0-5ad84ddbbecb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[(text() = ' ' or . = ' ')]</value>
+      <webElementGuid>b0d1f2bb-0ed7-48d0-9afb-030751432993</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
