@@ -25,15 +25,15 @@ WebUI.click(findTestObject('11-Cloud Files/button_rename_driver'))
 
 WebUI.verifyElementVisible(findTestObject('11-Cloud Files/modal_rename-edit'))
 
-WebUI.setText(findTestObject('11-Cloud Files/input_rename_driver'), GlobalVariable.edit_driver_name)
+WebUI.setText(findTestObject('11-Cloud Files/input_rename_driver_new'), GlobalVariable.edit_driver_name)
 
 WebUI.click(findTestObject('09-Settings/Users/Active User/button_Save'))
 
-WebUI.verifyElementVisible(findTestObject('11-Cloud Files/snack-bar-container_Successfully changed nameOK'))
+WebUI.verifyElementVisible(findTestObject('11-Cloud Files/snack-bar-container_Successfully changed nameOK_New'))
 
 WebUI.delay(GlobalVariable.delay_3seconds)
 
-WebUI.click(findTestObject('11-Cloud Files/button_driver_created'))
+WebUI.doubleClick(findTestObject('11-Cloud Files/button_driver_create_edited'))
 
 WebUI.rightClick(findTestObject('11-Cloud Files/td_qa'))
 
@@ -45,5 +45,5 @@ WebUI.setText(findTestObject('11-Cloud Files/input_Rename'), GlobalVariable.edit
 
 WebUI.click(findTestObject('09-Settings/Users/Active User/button_Save'))
 
-WebUI.verifyElementVisible(findTestObject('11-Cloud Files/snack-bar-container_Successfully changed nameOK'))
+WebUI.verifyElementVisible(findTestObject('11-Cloud Files/snack-bar-container_Successfully changed nameOK_New'))
 

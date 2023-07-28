@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_GG tester 2 (norvs26mailinator.com)</name>
+   <tag></tag>
+   <elementGuidId>4a3cb84c-d54e-4062-ab3b-a7b22a055f7d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#mat-option-5 > span.mat-option-text</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//mat-option[@id='mat-option-5']/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>13bbefa9-50ca-44b6-bd54-6f18e633cc43</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-option-text</value>
+      <webElementGuid>3e7c6dab-b667-4e1c-b111-afeaaa8668b0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> GG tester 2 (norvs26@mailinator.com)</value>
+      <webElementGuid>61e7c6ba-4beb-4dc7-9e43-fcf059cd2a40</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mat-option-5&quot;)/span[@class=&quot;mat-option-text&quot;]</value>
+      <webElementGuid>aba07ee8-3817-471a-83da-ad32ee6e62e9</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//mat-option[@id='mat-option-5']/span</value>
+      <webElementGuid>6059250a-5cfa-4b5b-9d7b-cadd2db51c54</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='(autotester@mailinator.com)'])[1]/following::span[1]</value>
+      <webElementGuid>c4eb1392-6778-41bc-941c-88b862083300</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::span[2]</value>
+      <webElementGuid>544fd55e-ba06-4d83-8d0a-e0a4bc7c55bf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='GG tester 2']/parent::*</value>
+      <webElementGuid>09aff975-8159-4f20-8fb8-94b719cfe867</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//mat-option[3]/span</value>
+      <webElementGuid>4882ad94-5b9f-4902-9032-751298967f80</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = ' GG tester 2 (norvs26@mailinator.com)' or . = ' GG tester 2 (norvs26@mailinator.com)')]</value>
+      <webElementGuid>4926a82e-a0de-46cc-a780-4852c916808e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -27,3 +27,9 @@ WebUI.verifyElementVisible(findTestObject('11-Cloud Files/div_ItemsDuplicatedSuc
 
 WebUI.verifyElementVisible(findTestObject('11-Cloud Files/td_Copy of qa EDIT'))
 
+/*WebUI.rightClick(findTestObject('11-Cloud Files/td_qa EDIT(1)'))
+
+WebUI.click(findTestObject('11-Cloud Files/button_deleteDelete'))
+
+WebUI.click(findTestObject('11-Cloud Files/button_Confirm'))*/
+

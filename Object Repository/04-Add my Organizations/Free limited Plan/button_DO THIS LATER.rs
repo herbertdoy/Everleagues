@@ -6,6 +6,10 @@
    <elementGuidId>b4d0e67f-4e9b-43c8-a611-7eda04126b58</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'button' and (text() = 'DO THIS LATER' or . = 'DO THIS LATER')]</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>button.mat-focus-indicator.mat-raised-button.mat-button-base</value>
       </entry>
@@ -13,12 +17,8 @@
          <key>XPATH</key>
          <value>(//button[@type='button'])[21]</value>
       </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[@type = 'button' and (text() = 'DO THIS LATER' or . = 'DO THIS LATER')]</value>
-      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -26,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>8e4fe7db-0451-4cc6-b377-a1096e7b8d4b</webElementGuid>
+      <webElementGuid>1ea38f4d-cfa9-4cc4-bd4a-9ce6029f9dc4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -34,7 +34,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>b7e637ee-bd7c-49d7-9d34-1a7658626dd2</webElementGuid>
+      <webElementGuid>62a132e7-4d53-489b-af47-753d686abf13</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,7 +42,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-focus-indicator mat-raised-button mat-button-base</value>
-      <webElementGuid>796e3916-e501-453f-8802-3619772f8640</webElementGuid>
+      <webElementGuid>5689e372-baf5-4f62-97b2-492172cc60a7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -50,7 +50,7 @@
       <name>text</name>
       <type>Main</type>
       <value>DO THIS LATER</value>
-      <webElementGuid>9788511a-c784-4f43-90f4-c53211c0cd76</webElementGuid>
+      <webElementGuid>845f106c-d251-4bb2-81db-9069644dbbc5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -58,7 +58,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-dialog-2&quot;)/app-dialog-welcome-new-org[@class=&quot;ng-star-inserted&quot;]/section[@class=&quot;dialog-container&quot;]/div[@class=&quot;mat-dialog-actions dialog-action&quot;]/div[@class=&quot;action-container&quot;]/button[@class=&quot;mat-focus-indicator mat-raised-button mat-button-base&quot;]</value>
-      <webElementGuid>38eb992c-a340-4929-a874-af78f70688a9</webElementGuid>
+      <webElementGuid>20ef1507-5048-4561-b17d-db4b61902171</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -66,7 +66,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[21]</value>
-      <webElementGuid>16964467-50d8-4cb5-bbcb-4740244077a0</webElementGuid>
+      <webElementGuid>996edfe4-b2bc-485d-b73d-a87b45a172b8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -74,7 +74,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-dialog-container[@id='mat-dialog-2']/app-dialog-welcome-new-org/section/div[2]/div/button</value>
-      <webElementGuid>f6ae1c00-e699-4b1c-ac6e-422613e3e458</webElementGuid>
+      <webElementGuid>2bef237b-5aae-4f5d-9636-235442da45a1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='LEARN MORE ON HOW EVERLEAGUES MAY HELP YOUR BUSINESS'])[1]/following::button[1]</value>
-      <webElementGuid>d3d6af02-8d93-477f-8dad-c2d95c527c75</webElementGuid>
+      <webElementGuid>86875160-d809-406f-89ce-cc09067768b3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -90,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='SET UP TEAM'])[1]/following::button[2]</value>
-      <webElementGuid>1590b5fa-939e-4426-ba08-8d36adb136cf</webElementGuid>
+      <webElementGuid>b6ee1e44-fbda-48f1-a145-c714233e25c3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,7 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Hide Quick Shortcuts'])[1]/preceding::button[1]</value>
-      <webElementGuid>f80e5ca9-0685-48cf-ba5f-a61f2a90e6ad</webElementGuid>
+      <webElementGuid>909ecbe7-943c-4ac6-a4e8-ae69f84c96c5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,7 +106,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/button</value>
-      <webElementGuid>eba0477b-bfc4-4aee-99c1-450810843798</webElementGuid>
+      <webElementGuid>c112d88e-1017-487b-ab98-4275792fca21</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -114,6 +114,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = 'DO THIS LATER' or . = 'DO THIS LATER')]</value>
-      <webElementGuid>8cc29f92-126a-450e-b827-2a0f2751dea5</webElementGuid>
+      <webElementGuid>e5cd9626-1d7f-4f70-97d0-b2caf27969b5</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

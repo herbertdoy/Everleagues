@@ -19,7 +19,9 @@ import org.openqa.selenium.Keys as Keys
 import java.awt.Toolkit as Toolkit
 import java.awt.datatransfer.DataFlavor as DataFlavor
 
-WebUI.rightClick(findTestObject('11-Cloud Files/td_qa EditPeople'))
+WebUI.delay(GlobalVariable.delay_3seconds)
+
+WebUI.rightClick(findTestObject('11-Cloud Files/td_qa EDIT'))
 
 WebUI.click(findTestObject('11-Cloud Files/button_Share'))
 
@@ -60,6 +62,14 @@ WebUI.delay(GlobalVariable.delay_3seconds)
 
 String my_clipboard = Toolkit.getDefaultToolkit().getSystemClipboard().getContents(null).getTransferData(DataFlavor.stringFlavor)
 
+WebUI.executeJavaScript('window.open();', [])
+
+currentWindow = WebUI.getWindowIndex()
+
+WebUI.delay(GlobalVariable.delay_3seconds)
+
+WebUI.switchToWindowIndex(currentWindow + 1)
+
 WebUI.navigateToUrl(my_clipboard)
 
 WebUI.switchToWindowIndex(1)
@@ -68,11 +78,5 @@ WebUI.closeWindowIndex(1)
 
 WebUI.switchToWindowIndex(0)
 
-WebUI.click(findTestObject('03-Header Menu/Hamburger Button/div_Cloud Files'))
-
-WebUI.scrollToElement(findTestObject('11-Cloud Files/a_Shared Drive'), 0)
-
-WebUI.click(findTestObject('11-Cloud Files/a_Shared Drive'))
-
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.click(findTestObject('11-Cloud Files/button_Sharefiles_Done'))
 

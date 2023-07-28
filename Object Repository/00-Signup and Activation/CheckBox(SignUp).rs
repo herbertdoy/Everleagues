@@ -7,14 +7,18 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>div.mat-checkbox-inner-container</value>
+         <value>div.mat-select-arrow-wrapper.ng-tns-c232-71</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;mat-select-8&quot;)/div[@class=&quot;mat-select-trigger ng-tns-c232-71&quot;]/div[@class=&quot;mat-select-arrow-wrapper ng-tns-c232-71&quot;]</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>/html/body/app-root/app-verify-membership/section/article/mat-card/mat-card-content/div[2]/form/div/div[5]/small/mat-checkbox/label/div</value>
+         <value>//mat-select[@id='mat-select-8']/div/div[2]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,27 +26,79 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
+      <webElementGuid>386d8340-8e93-434e-886a-2458d9877365</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>mat-checkbox-inner-container</value>
+      <value>mat-select-arrow-wrapper ng-tns-c232-71</value>
+      <webElementGuid>b3210851-b96f-4ab3-87f6-9e5062e76ffb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;mat-checkbox-1&quot;)/label[@class=&quot;mat-checkbox-layout&quot;]/div[@class=&quot;mat-checkbox-inner-container&quot;]</value>
+      <value>id(&quot;mat-select-8&quot;)/div[@class=&quot;mat-select-trigger ng-tns-c232-71&quot;]/div[@class=&quot;mat-select-arrow-wrapper ng-tns-c232-71&quot;]</value>
+      <webElementGuid>15c3c406-b918-4b1e-8bd7-5cc5277b5f0a</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
+      <value>//mat-select[@id='mat-select-8']/div/div[2]</value>
+      <webElementGuid>878b8028-886d-448f-8b2c-f5b145ca3a8a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Viewer'])[1]/following::div[1]</value>
+      <webElementGuid>4b597841-fa7a-4cf2-98ec-4fcc822bd821</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add Users'])[1]/following::div[12]</value>
+      <webElementGuid>3f091cfd-4660-4933-9673-5edd350eb925</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Notify users'])[1]/preceding::div[6]</value>
+      <webElementGuid>a83ee131-561a-4f95-a89a-a6343ebeef28</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Shared with'])[1]/preceding::div[8]</value>
+      <webElementGuid>e3e96250-4fea-443b-a931-7959760b347e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//mat-select/div/div[2]</value>
+      <webElementGuid>71c13ba8-23b4-43bd-9c84-7381f09e1027</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
       <value>//mat-checkbox[@id='mat-checkbox-1']/label/div</value>
+      <webElementGuid>870309d2-4cbf-4bf4-bd9e-9c14c25fa28d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -50,6 +106,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='terms and conditions.'])[1]/preceding::div[6]</value>
+      <webElementGuid>7bbce5df-4ea8-46e0-8bfb-e93ed53aa519</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -57,5 +114,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//label/div</value>
+      <webElementGuid>ddc97fa4-d191-42a2-bf75-afc6ec0a07c9</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

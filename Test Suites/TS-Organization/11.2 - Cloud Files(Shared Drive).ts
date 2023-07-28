@@ -47,13 +47,6 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>31202b76-7291-4b7e-b44b-3cf06411ff22</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/11.2 - Cloud Files (Shared Drive)/07-Duplicate a file</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
       <guid>c7199563-fcc9-47e3-bbdb-e4c2ad71b5f2</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -72,6 +65,13 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/11.2 - Cloud Files (Shared Drive)/11-Share a file - Edit</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>770f5c2a-2963-439d-b439-9f6190725236</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/11.2 - Cloud Files (Shared Drive)/07-Duplicate a file</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

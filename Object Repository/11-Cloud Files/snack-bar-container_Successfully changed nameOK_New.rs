@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>snack-bar-container_Successfully changed nameOK_New</name>
+   <tag></tag>
+   <elementGuidId>296ca910-0de8-46a4-bc25-4c46f2937857</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>snack-bar-container.mat-snack-bar-container.ng-tns-c50-82.ng-trigger.ng-trigger-state.mat-snack-bar-center.ng-star-inserted</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//snack-bar-container[(text() = 'Successfully changed name!OK' or . = 'Successfully changed name!OK')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='cdk-overlay-6']/snack-bar-container</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>snack-bar-container</value>
+      <webElementGuid>26bedb18-3e85-46c3-a440-79cedd49647f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-snack-bar-container ng-tns-c50-82 ng-trigger ng-trigger-state mat-snack-bar-center ng-star-inserted</value>
+      <webElementGuid>d0eaee26-82e3-425e-b1e3-a24ffe10d427</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Successfully changed name!OK</value>
+      <webElementGuid>b8f76ed5-66ac-488f-a7ff-b3f6366980ce</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;cdk-overlay-6&quot;)/snack-bar-container[@class=&quot;mat-snack-bar-container ng-tns-c50-82 ng-trigger ng-trigger-state mat-snack-bar-center ng-star-inserted&quot;]</value>
+      <webElementGuid>838116dc-b678-4e04-9353-301996d51865</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='cdk-overlay-6']/snack-bar-container</value>
+      <webElementGuid>4ded8e6f-e712-4206-ba83-61d481837b14</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Help'])[2]/following::snack-bar-container[1]</value>
+      <webElementGuid>ca9f0ad9-f45d-4d60-861b-e3deb3c2e6b6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sort'])[1]/following::snack-bar-container[1]</value>
+      <webElementGuid>f3e0f8af-8c8d-4b10-b86f-13fe45588db0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//snack-bar-container</value>
+      <webElementGuid>b2f1e07e-3f9e-4b46-8b17-4f6ad665a985</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//snack-bar-container[(text() = 'Successfully changed name!OK' or . = 'Successfully changed name!OK')]</value>
+      <webElementGuid>929c5515-d899-4ab1-b2ab-786a6ec5531f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='cdk-overlay-11']/snack-bar-container</value>
+      <webElementGuid>52d7eafd-f2d0-49e9-b42e-66de0b7cdcf6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Client Assignment'])[2]/following::snack-bar-container[1]</value>
+      <webElementGuid>a1fcda53-5c81-424f-8a33-9e42a6cd5a98</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Invite New User'])[1]/following::snack-bar-container[1]</value>
+      <webElementGuid>d6e90df4-338b-43b6-b912-5c6276005a6e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

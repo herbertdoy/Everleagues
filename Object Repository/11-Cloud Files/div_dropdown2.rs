@@ -6,11 +6,12 @@
    <elementGuidId>5d169095-bc74-4d2a-b93b-eb9d6b2b9244</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(//div[@ng-reflect-ng-switch='false']/following-sibling::div)[2]</value>
+         <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>(//div[@ng-reflect-ng-switch='false']/following-sibling::div)[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -6,6 +6,10 @@
    <elementGuidId>944d8eac-5adc-44cd-8060-2aa7389c2410</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+         <value>tbody tr:nth-child(2) td:first-child()</value>
+      </entry>
+      <entry>
          <key>BASIC</key>
          <value></value>
       </entry>

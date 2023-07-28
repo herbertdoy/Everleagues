@@ -14,10 +14,10 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>mat-card-content .mat-card-content ext-tools-card div:nth-child(6) .mat-slide-toggle-label span:nth-child(1) .mat-slide-toggle-bar</value>
+         <value>//button[@type = 'button' and (text() = 'Confirm' or . = 'Confirm')]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>CSS</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -25,14 +25,14 @@
       <name>tag</name>
       <type>Main</type>
       <value>DIV</value>
-      <webElementGuid>659650c9-2d60-4d95-99c5-d86fa9f1d50d</webElementGuid>
+      <webElementGuid>6e1701fa-dd57-4150-a9ce-1c26cce87010</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>xpath1690372336131</value>
-      <webElementGuid>a6e752f6-136f-49a0-8f17-a3ff27633ae6</webElementGuid>
+      <value>xpath1690468196132</value>
+      <webElementGuid>3b210370-740f-40ea-b808-3ae8cf2b141a</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

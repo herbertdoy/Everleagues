@@ -6,6 +6,10 @@
    <elementGuidId>5a94bce7-17f6-449d-9a61-0b69f72dca09</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
          <key>BASIC</key>
          <value></value>
       </entry>
