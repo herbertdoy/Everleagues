@@ -45,9 +45,9 @@ WebUI.click(findTestObject('09-Settings/Organization/toggle_Enable chat message 
 WebUI.delay(GlobalVariable.delay_2seconds)
 
 //WebUI.refresh(FailureHandling.STOP_ON_FAILURE)
-WebUI.click(findTestObject('09-Settings/Organization/div_Settings'))
+/*WebUI.click(findTestObject('09-Settings/Organization/div_Settings'))
 
-WebUI.delay(GlobalVariable.delay_2seconds)
+WebUI.delay(GlobalVariable.delay_2seconds)*/
 
 WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/mat-card-title_Membership'))
 
@@ -79,7 +79,7 @@ WebUI.delay(GlobalVariable.delay_2seconds)
 
 //WebUI.click(findTestObject('03-Header Menu/Hamburger Button/div_Settings'))
 //WebUI.click(findTestObject('09-Settings/Users/div_Organization'))
-WebUI.click(findTestObject('09-Settings/Organization/div_Settings'))
+//WebUI.click(findTestObject('09-Settings/Organization/div_Settings'))//
 
 WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/mat-card-title_Tools'))
 

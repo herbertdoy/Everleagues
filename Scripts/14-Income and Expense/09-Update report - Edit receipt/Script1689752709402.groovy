@@ -19,9 +19,11 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.click(findTestObject('14-Income and Expense/button_UPDATE loop'))
 
-WebUI.click(findTestObject('14-Income and Expense/button_CANCEL'))
+//WebUI.click(findTestObject('14-Income and Expense/button_CANCEL'))//
 
 WebUI.delay(GlobalVariable.delay_2seconds)
+
+WebUI.scrollToElement(findTestObject('14-Income and Expense/button_edit'), 0)
 
 WebUI.click(findTestObject('14-Income and Expense/button_edit'))
 
