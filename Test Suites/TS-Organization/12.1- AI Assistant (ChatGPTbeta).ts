@@ -12,13 +12,6 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>5f47f253-e698-4b22-9f99-447374b9d7f2</testSuiteGuid>
    <testCaseLink>
-      <guid>2d7f7a31-0e29-453e-8ebf-69d67d33c4c3</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/12- AI assistant (beta)/01-Open AI Assistant (beta( dropdown)</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
       <guid>75724309-2f5b-4211-9ac7-c130a665a204</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>

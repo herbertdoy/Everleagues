@@ -6,12 +6,12 @@
    <elementGuidId>cdbc3549-14f8-4d79-a490-53b979bc5bd1</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value></value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@class='ng-star-inserted']//pre[1]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

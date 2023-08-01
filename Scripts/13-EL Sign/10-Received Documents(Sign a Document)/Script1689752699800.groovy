@@ -98,9 +98,9 @@ WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.click(findTestObject('13-EL Sign/div_date'))
 
-WebUI.click(findTestObject('13-EL Sign/div_date'))
+WebUI.delay(GlobalVariable.delay_2seconds)
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.click(findTestObject('13-EL Sign/div_date'))
 
 WebUI.click(findTestObject('13-EL Sign/div_initial'))
 

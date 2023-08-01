@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>mat-option_newguest_autotester03mailinator.com</name>
+   <tag></tag>
+   <elementGuidId>9f065507-b472-4154-a465-3864283b5edb</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[text()=' autotester03@mailinator.com ']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>DIV</value>
+      <webElementGuid>6e3310ec-0118-4030-8c6d-abb03a32cd6f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>xpath1690873796980</value>
+      <webElementGuid>a623a648-fa9c-4bcb-8ccb-d31a5d3ecfb8</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

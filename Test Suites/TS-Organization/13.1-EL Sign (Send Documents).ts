@@ -43,7 +43,7 @@
       <guid>50f56a37-c1ee-423e-b3f2-1c50e6c9c5bb</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/13-EL Sign/05-Send Docuuments(Add Signer and guest-fill out required field)</testCaseId>
+      <testCaseId>Test Cases/13-EL Sign/05-Send Documents(Add Signer and guest-fill out required field)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
