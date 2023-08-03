@@ -1,0 +1,49 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+12.1- AI Assistant (ChatGPTbeta),Chrome 115.0.0.0,,,2023-08-03 16:49:58,2023-08-03 16:51:47,1m - 48.478s,PASSED
+,,,,,,,
+Test Cases/12- AI assistant (beta)/12.1-ChatGPT (beta)/01-Ask EL Chat GPT,Chrome 115.0.0.0,,,2023-08-03 16:49:58,2023-08-03 16:51:35,1m - 36.902s,PASSED
+"openBrowser("""")",Chrome 115.0.0.0,,,2023-08-03 16:49:59,2023-08-03 16:50:01,2.061s,PASSED
+navigateToUrl(app_url_login),Chrome 115.0.0.0,,,2023-08-03 16:50:01,2023-08-03 16:50:12,11.459s,PASSED
+maximizeWindow(),Chrome 115.0.0.0,,,2023-08-03 16:50:12,2023-08-03 16:50:12,0.139s,PASSED
+"callTestCase(findTestCase(""01-Login and Forgot Password/04-Login(Valid Credentials-With Subscription)""), [:], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-08-03 16:50:12,2023-08-03 16:51:12,59.458s,PASSED
+"click(findTestObject(""06-Teams/button_doublearrow""))",Chrome 115.0.0.0,,,2023-08-03 16:51:12,2023-08-03 16:51:15,2.789s,PASSED
+"click(findTestObject(""06-Teams/button_My Organizations""))",Chrome 115.0.0.0,,,2023-08-03 16:51:15,2023-08-03 16:51:16,0.892s,PASSED
+"click(findTestObject(""02-Side Icons(Organization)/Add Contact/button_Automation Test Org""))",Chrome 115.0.0.0,,,2023-08-03 16:51:16,2023-08-03 16:51:17,0.984s,PASSED
+delay(delay_4seconds),Chrome 115.0.0.0,,,2023-08-03 16:51:17,2023-08-03 16:51:21,4.012s,PASSED
+"verifyElementVisible(findTestObject(""02-Side Icons(Organization)/Add Contact/span_Automation Test Org""))",Chrome 115.0.0.0,,,2023-08-03 16:51:21,2023-08-03 16:51:21,0.318s,PASSED
+delay(delay_5seconds),Chrome 115.0.0.0,,,2023-08-03 16:51:21,2023-08-03 16:51:26,5.017s,PASSED
+"scrollToElement(findTestObject(""12-AI Assistant(beta)/AI asst button-Side panel""), 30)",Chrome 115.0.0.0,,,2023-08-03 16:51:26,2023-08-03 16:51:26,0.381s,PASSED
+"click(findTestObject(""12-AI Assistant(beta)/AI asst button-Side panel""))",Chrome 115.0.0.0,,,2023-08-03 16:51:26,2023-08-03 16:51:27,0.429s,PASSED
+"verifyElementVisible(findTestObject(""12-AI Assistant(beta)/AI asst button-Side panel""))",Chrome 115.0.0.0,,,2023-08-03 16:51:27,2023-08-03 16:51:27,0.453s,PASSED
+delay(delay_3seconds),Chrome 115.0.0.0,,,2023-08-03 16:51:27,2023-08-03 16:51:30,3.015s,PASSED
+"click(findTestObject(""12-AI Assistant(beta)/12.1-Chat GPT(beta)/Chat GPT (beta)""))",Chrome 115.0.0.0,,,2023-08-03 16:51:30,2023-08-03 16:51:31,0.385s,PASSED
+"verifyElementText(findTestObject(""12-AI Assistant(beta)/h4_AI ASSISTANT (BETA)""), ""AI ASSISTANT (BETA)"")",Chrome 115.0.0.0,,,2023-08-03 16:51:31,2023-08-03 16:51:31,0.927s,PASSED
+"setText(findTestObject(""12-AI Assistant(beta)/12.1-Chat GPT(beta)/Ask me anything input field""), ""1+1"")",Chrome 115.0.0.0,,,2023-08-03 16:51:31,2023-08-03 16:51:32,0.663s,PASSED
+"click(findTestObject(""12-AI Assistant(beta)/12.1-Chat GPT(beta)/Ask ChatGPT button""))",Chrome 115.0.0.0,,,2023-08-03 16:51:32,2023-08-03 16:51:33,0.580s,PASSED
+"verifyElementVisible(findTestObject(""12-AI Assistant(beta)/12.1-Chat GPT(beta)/Generated answer assertion""), STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-08-03 16:51:33,2023-08-03 16:51:35,2.672s,PASSED
+,,,,,,,
+Test Cases/12- AI assistant (beta)/12.1-ChatGPT (beta)/02-Clear previous searches,Chrome 115.0.0.0,,,2023-08-03 16:51:35,2023-08-03 16:51:37,1.789s,PASSED
+"click(findTestObject(""12-AI Assistant(beta)/12.1-Chat GPT(beta)/Clear button""))",Chrome 115.0.0.0,,,2023-08-03 16:51:36,2023-08-03 16:51:36,0.333s,PASSED
+"verifyElementNotPresent(findTestObject(""12-AI Assistant(beta)/12.1-Chat GPT(beta)/Generated answer assertion""), 30)",Chrome 115.0.0.0,,,2023-08-03 16:51:36,2023-08-03 16:51:37,0.922s,PASSED
+"verifyTextNotPresent(""1+1 equals 2."", false)",Chrome 115.0.0.0,,,2023-08-03 16:51:37,2023-08-03 16:51:37,0.358s,PASSED
+,,,,,,,
+Test Cases/12- AI assistant (beta)/12.1-ChatGPT (beta)/03-Check history,Chrome 115.0.0.0,,,2023-08-03 16:51:37,2023-08-03 16:51:40,2.662s,PASSED
+now = LocalDateTime.now(),Chrome 115.0.0.0,,,2023-08-03 16:51:37,2023-08-03 16:51:37,0.005s,PASSED
+formatter = ISO_LOCAL_DATE_TIME,Chrome 115.0.0.0,,,2023-08-03 16:51:37,2023-08-03 16:51:37,0.004s,PASSED
+nowString = formatter.format(now),Chrome 115.0.0.0,,,2023-08-03 16:51:37,2023-08-03 16:51:37,0.001s,PASSED
+comment($nowString),Chrome 115.0.0.0,,,2023-08-03 16:51:37,2023-08-03 16:51:37,0.017s,PASSED
+"click(findTestObject(""12-AI Assistant(beta)/12.1-Chat GPT(beta)/History button""))",Chrome 115.0.0.0,,,2023-08-03 16:51:37,2023-08-03 16:51:38,0.359s,PASSED
+"verifyElementText(findTestObject(""12-AI Assistant(beta)/12.1-Chat GPT(beta)/div_Chat History heading""), ""Chat History"")",Chrome 115.0.0.0,,,2023-08-03 16:51:38,2023-08-03 16:51:39,0.873s,PASSED
+"verifyElementVisible(findTestObject(""12-AI Assistant(beta)/12.1-Chat GPT(beta)/Chat history-Latest line with date""))",Chrome 115.0.0.0,,,2023-08-03 16:51:39,2023-08-03 16:51:39,0.321s,PASSED
+"click(findTestObject(""12-AI Assistant(beta)/12.1-Chat GPT(beta)/Chat history-Latest line with date""))",Chrome 115.0.0.0,,,2023-08-03 16:51:39,2023-08-03 16:51:39,0.329s,PASSED
+"verifyElementVisible(findTestObject(""12-AI Assistant(beta)/12.1-Chat GPT(beta)/History-Generated answer assertion""))",Chrome 115.0.0.0,,,2023-08-03 16:51:39,2023-08-03 16:51:40,0.560s,PASSED
+,,,,,,,
+Test Cases/12- AI assistant (beta)/12.1-ChatGPT (beta)/04-Use my own ChatGPT account,Chrome 115.0.0.0,,,2023-08-03 16:51:40,2023-08-03 16:51:47,6.943s,PASSED
+"click(findTestObject(""12-AI Assistant(beta)/12.1-Chat GPT(beta)/Use my ownChatGPT account""))",Chrome 115.0.0.0,,,2023-08-03 16:51:40,2023-08-03 16:51:43,2.795s,PASSED
+"executeJavaScript(""window.open();"", [])",Chrome 115.0.0.0,,,2023-08-03 16:51:43,2023-08-03 16:51:43,0.026s,PASSED
+currentWindow = getWindowIndex(),Chrome 115.0.0.0,,,2023-08-03 16:51:43,2023-08-03 16:51:43,0.012s,PASSED
+delay(delay_3seconds),Chrome 115.0.0.0,,,2023-08-03 16:51:43,2023-08-03 16:51:46,3.017s,PASSED
+switchToWindowIndex(currentWindow + 1),Chrome 115.0.0.0,,,2023-08-03 16:51:46,2023-08-03 16:51:46,0.021s,PASSED
+navigateToUrl(url_CHATGPT),Chrome 115.0.0.0,,,2023-08-03 16:51:46,2023-08-03 16:51:47,0.779s,PASSED
+url = getUrl(),Chrome 115.0.0.0,,,2023-08-03 16:51:47,2023-08-03 16:51:47,0.092s,PASSED
+"url.contains(""https://chat.openai.com/"")",Chrome 115.0.0.0,,,2023-08-03 16:51:47,2023-08-03 16:51:47,0.001s,PASSED

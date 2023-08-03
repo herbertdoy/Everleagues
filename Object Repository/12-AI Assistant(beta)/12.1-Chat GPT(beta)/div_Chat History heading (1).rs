@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Chat History heading (1)</name>
+   <tag></tag>
+   <elementGuidId>4a06787e-83f9-4099-8098-2f2f422cd7b3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//mat-dialog-container[@id='mat-dialog-0']/app-openai-chathistory/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.history-title</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>94c8b345-8665-4269-b312-cf18a7cceeac</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>history-title</value>
+      <webElementGuid>781ffacd-af6e-4d5f-9330-f160eb44f884</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Chat History</value>
+      <webElementGuid>bb126de8-e3b3-4b45-b922-23f8afd366f4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mat-dialog-0&quot;)/app-openai-chathistory[@class=&quot;ng-star-inserted&quot;]/div[1]/div[@class=&quot;history-title&quot;]</value>
+      <webElementGuid>de1b3391-42ec-410c-ae06-029dd61b0cf4</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//mat-dialog-container[@id='mat-dialog-0']/app-openai-chathistory/div/div</value>
+      <webElementGuid>04f7bca9-c6c3-48fc-a1b9-374ae5808914</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Client Assignment'])[2]/following::div[7]</value>
+      <webElementGuid>fd0b81c4-86a2-417c-9d73-3722673c3122</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Invite New User'])[1]/following::div[8]</value>
+      <webElementGuid>00b04981-6d66-456c-889c-427a15f3cd31</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Question History (click for details):'])[1]/preceding::div[1]</value>
+      <webElementGuid>4eadf983-41a6-4fd7-ae8c-a6ae5c949afa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='(08/03/2023 3:47 AM)'])[1]/preceding::div[1]</value>
+      <webElementGuid>18ee6d8b-fffc-46b4-ad0c-709c2abd42dd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Chat History']/parent::*</value>
+      <webElementGuid>11115b08-4171-4d73-8d30-cfa647f279b4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//app-openai-chathistory/div/div</value>
+      <webElementGuid>3ee07a52-e562-4583-a09f-9b693a06311f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Chat History' or . = 'Chat History')]</value>
+      <webElementGuid>13bbd38b-5338-4e22-a335-6635efcc7e1b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -21,9 +21,27 @@ import java.time.format.DateTimeFormatter as DateTimeFormatter
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+LocalDateTime now = LocalDateTime.now()
+
+LocalDateTime minus12Hours = now.minusHours(12)
+
+//DateTimeFormatter formatter = DateTimeFormatter.ISO_LOCAL_DATE_TIME
+DateTimeFormatter formatter = DateTimeFormatter.ofPattern('MM/dd/yyyy h:mm a')
+
+//String nowString = formatter.format(now)
+String formattedTime = minus12Hours.format(formatter)
+
+WebUI.comment(formattedTime)
+
 WebUI.click(findTestObject('12-AI Assistant(beta)/12.1-Chat GPT(beta)/History button'))
 
-WebUI.verifyElementVisible(findTestObject('12-AI Assistant(beta)/12.1-Chat GPT(beta)/Chat history-Latest line with date'))
+WebUI.verifyElementText(findTestObject('12-AI Assistant(beta)/12.1-Chat GPT(beta)/div_Chat History heading'), 'Chat History')
+
+String historytime = ''
+
+historytime = WebUI.getText(findTestObject('12-AI Assistant(beta)/12.1-Chat GPT(beta)/Chat history-Latest line with date'))
+
+historytime.contains(formattedTime)
 
 WebUI.click(findTestObject('12-AI Assistant(beta)/12.1-Chat GPT(beta)/Chat history-Latest line with date'))
 

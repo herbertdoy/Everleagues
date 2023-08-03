@@ -17,17 +17,27 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.setText(findTestObject('12-AI Assistant(beta)/12.2-AI Edit(beta)/Input content'), 'Clock is gold')
+WebUI.click(findTestObject('12-AI Assistant(beta)/12.1-Chat GPT(beta)/Chat GPT (beta)'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementNotClickable(findTestObject('12-AI Assistant(beta)/12.2-AI Edit(beta)/Run AI edit button'))
+WebUI.delay(GlobalVariable.delay_2seconds)
 
-WebUI.verifyTextNotPresent('Time is gold', false)
+WebUI.click(findTestObject('12-AI Assistant(beta)/12.2-AI Edit(beta)/AI Edit(beta) button'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.clearText(findTestObject('12-AI Assistant(beta)/12.2-AI Edit(beta)/Input content'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('12-AI Assistant(beta)/12.2-AI Edit(beta)/Input edit instructions'))
+
+WebUI.delay(GlobalVariable.delay_2seconds)
 
 WebUI.setText(findTestObject('12-AI Assistant(beta)/12.2-AI Edit(beta)/Input edit instructions'), 'Replace "Clock" with "Time"')
 
-WebUI.verifyElementNotClickable(findTestObject('12-AI Assistant(beta)/12.2-AI Edit(beta)/Run AI edit button'))
+WebUI.verifyElementNotClickable(findTestObject('12-AI Assistant(beta)/12.2-AI Edit(beta)/disabled_RunAI_edit'))
 
-WebUI.verifyTextNotPresent('Time is gold', false)
+WebUI.click(findTestObject('12-AI Assistant(beta)/12.1-Chat GPT(beta)/Chat GPT (beta)'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(GlobalVariable.delay_2seconds)
+
+WebUI.click(findTestObject('12-AI Assistant(beta)/12.2-AI Edit(beta)/AI Edit(beta) button'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.setText(findTestObject('12-AI Assistant(beta)/12.2-AI Edit(beta)/Input content'), 'Clock is gold')
+
+WebUI.verifyElementNotClickable(findTestObject('12-AI Assistant(beta)/12.2-AI Edit(beta)/disabled_RunAI_edit'))
 

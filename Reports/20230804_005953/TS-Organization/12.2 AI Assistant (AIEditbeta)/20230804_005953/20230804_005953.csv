@@ -1,0 +1,32 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+12.2 AI Assistant (AIEditbeta),Chrome 115.0.0.0,,,2023-08-04 00:59:55,2023-08-04 01:05:56,6m - 1.169s,FAILED
+,,,,,,,
+Test Cases/12- AI assistant (beta)/12.2-AI Edit (beta)/01-Run AI Edit,Chrome 115.0.0.0,,,2023-08-04 00:59:55,2023-08-04 01:05:49,5m - 53.720s,PASSED
+"openBrowser("""")",Chrome 115.0.0.0,,,2023-08-04 00:59:55,2023-08-04 00:59:57,1.804s,PASSED
+navigateToUrl(app_url_login),Chrome 115.0.0.0,,,2023-08-04 00:59:57,2023-08-04 01:04:23,4m - 26.007s,PASSED
+maximizeWindow(),Chrome 115.0.0.0,,,2023-08-04 01:04:23,2023-08-04 01:04:23,0.138s,PASSED
+"callTestCase(findTestCase(""01-Login and Forgot Password/04-Login(Valid Credentials-With Subscription)""), [:], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-08-04 01:04:23,2023-08-04 01:05:23,59.997s,PASSED
+"click(findTestObject(""06-Teams/button_doublearrow""))",Chrome 115.0.0.0,,,2023-08-04 01:05:23,2023-08-04 01:05:28,4.396s,PASSED
+"click(findTestObject(""06-Teams/button_My Organizations""))",Chrome 115.0.0.0,,,2023-08-04 01:05:28,2023-08-04 01:05:29,0.972s,PASSED
+"click(findTestObject(""02-Side Icons(Organization)/Add Contact/button_Automation Test Org""))",Chrome 115.0.0.0,,,2023-08-04 01:05:29,2023-08-04 01:05:30,1.027s,PASSED
+delay(delay_4seconds),Chrome 115.0.0.0,,,2023-08-04 01:05:30,2023-08-04 01:05:34,4.011s,PASSED
+"verifyElementVisible(findTestObject(""02-Side Icons(Organization)/Add Contact/span_Automation Test Org""))",Chrome 115.0.0.0,,,2023-08-04 01:05:34,2023-08-04 01:05:34,0.349s,PASSED
+delay(delay_5seconds),Chrome 115.0.0.0,,,2023-08-04 01:05:34,2023-08-04 01:05:39,5.016s,PASSED
+"scrollToElement(findTestObject(""12-AI Assistant(beta)/AI asst button-Side panel""), 30)",Chrome 115.0.0.0,,,2023-08-04 01:05:39,2023-08-04 01:05:39,0.374s,PASSED
+"click(findTestObject(""12-AI Assistant(beta)/AI asst button-Side panel""))",Chrome 115.0.0.0,,,2023-08-04 01:05:39,2023-08-04 01:05:40,0.408s,PASSED
+"verifyElementVisible(findTestObject(""12-AI Assistant(beta)/AI asst button-Side panel""))",Chrome 115.0.0.0,,,2023-08-04 01:05:40,2023-08-04 01:05:41,0.942s,PASSED
+delay(delay_3seconds),Chrome 115.0.0.0,,,2023-08-04 01:05:41,2023-08-04 01:05:44,3.015s,PASSED
+"click(findTestObject(""12-AI Assistant(beta)/12.2-AI Edit(beta)/AI Edit(beta) button""))",Chrome 115.0.0.0,,,2023-08-04 01:05:44,2023-08-04 01:05:44,0.451s,PASSED
+"setText(findTestObject(""12-AI Assistant(beta)/12.2-AI Edit(beta)/Input content""), ""Clock is gold"")",Chrome 115.0.0.0,,,2023-08-04 01:05:44,2023-08-04 01:05:45,1.273s,PASSED
+"setText(findTestObject(""12-AI Assistant(beta)/12.2-AI Edit(beta)/Input edit instructions""), ""Replace ""Clock"" with ""Time"""")",Chrome 115.0.0.0,,,2023-08-04 01:05:45,2023-08-04 01:05:46,0.835s,PASSED
+"click(findTestObject(""12-AI Assistant(beta)/12.2-AI Edit(beta)/Run AI edit button""))",Chrome 115.0.0.0,,,2023-08-04 01:05:46,2023-08-04 01:05:47,0.455s,PASSED
+"verifyElementVisible(findTestObject(""12-AI Assistant(beta)/12.2-AI Edit(beta)/New input result assertion""), STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-08-04 01:05:47,2023-08-04 01:05:49,1.995s,PASSED
+,,,,,,,
+Test Cases/12- AI assistant (beta)/12.2-AI Edit (beta)/02-If Input content is empty but edit instruction has and Vice versa,Chrome 115.0.0.0,,,2023-08-04 01:05:49,2023-08-04 01:05:56,7.270s,FAILED
+"click(findTestObject(""12-AI Assistant(beta)/12.1-Chat GPT(beta)/Chat GPT (beta)""), STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-08-04 01:05:49,2023-08-04 01:05:49,0.354s,PASSED
+delay(delay_2seconds),Chrome 115.0.0.0,,,2023-08-04 01:05:49,2023-08-04 01:05:51,2.007s,PASSED
+"click(findTestObject(""12-AI Assistant(beta)/12.2-AI Edit(beta)/AI Edit(beta) button""), STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-08-04 01:05:51,2023-08-04 01:05:52,0.478s,PASSED
+"click(findTestObject(""12-AI Assistant(beta)/12.2-AI Edit(beta)/Input edit instructions""))",Chrome 115.0.0.0,,,2023-08-04 01:05:52,2023-08-04 01:05:53,0.949s,PASSED
+delay(delay_2seconds),Chrome 115.0.0.0,,,2023-08-04 01:05:53,2023-08-04 01:05:55,2.018s,PASSED
+"setText(findTestObject(""12-AI Assistant(beta)/12.2-AI Edit(beta)/Input edit instructions""), ""Replace ""Clock"" with ""Time"""")",Chrome 115.0.0.0,,,2023-08-04 01:05:55,2023-08-04 01:05:55,0.731s,PASSED
+"verifyElementNotClickable(findTestObject(""12-AI Assistant(beta)/12.2-AI Edit(beta)/Run AI edit button""))",Chrome 115.0.0.0,,,2023-08-04 01:05:55,2023-08-04 01:05:56,0.514s,FAILED

@@ -12,17 +12,24 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>5f47f253-e698-4b22-9f99-447374b9d7f2</testSuiteGuid>
    <testCaseLink>
+      <guid>83b0215f-2bc4-49f9-b047-8184599dc68d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/12- AI assistant (beta)/12.1-ChatGPT (beta)/01-Empty inquiry content and proceed asking</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
       <guid>75724309-2f5b-4211-9ac7-c130a665a204</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/12- AI assistant (beta)/12.1-ChatGPT (beta)/01-Ask EL Chat GPT</testCaseId>
+      <testCaseId>Test Cases/12- AI assistant (beta)/12.1-ChatGPT (beta)/02-Ask EL Chat GPT</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>241c6995-98ac-486d-9bbf-e9ee6eff0a55</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/12- AI assistant (beta)/12.1-ChatGPT (beta)/02-Clear previous searches</testCaseId>
+      <testCaseId>Test Cases/12- AI assistant (beta)/12.1-ChatGPT (beta)/04-Clear previous searches</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
@@ -36,7 +43,7 @@
       <guid>12e5643e-841d-4917-a900-3f4a130680b3</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/12- AI assistant (beta)/12.1-ChatGPT (beta)/04-Use my own ChatGPT account</testCaseId>
+      <testCaseId>Test Cases/12- AI assistant (beta)/12.1-ChatGPT (beta)/05-Use my own ChatGPT account</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

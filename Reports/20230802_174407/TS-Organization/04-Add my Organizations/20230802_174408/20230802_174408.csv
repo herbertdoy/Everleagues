@@ -1,0 +1,15 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+04-Add my Organizations,Chrome 115.0.0.0,,,2023-08-02 17:44:10,2023-08-02 17:49:59,5m - 48.913s,FAILED
+,,,,,,,
+Test Cases/04-Add my Organizations/01- Free limited Plan (Blank fields),Chrome 115.0.0.0,,,2023-08-02 17:44:10,2023-08-02 17:49:31,5m - 20.885s,FAILED
+"openBrowser("""")",Chrome 115.0.0.0,,,2023-08-02 17:44:10,2023-08-02 17:44:12,2.026s,PASSED
+navigateToUrl(appURL),Chrome 115.0.0.0,,,2023-08-02 17:44:12,2023-08-02 17:47:47,3m - 34.112s,PASSED
+maximizeWindow(),Chrome 115.0.0.0,,,2023-08-02 17:47:47,2023-08-02 17:47:47,0.137s,PASSED
+"callTestCase(findTestCase(""01-Login and Forgot Password/04-Login(Valid Credentials-With Subscription)""), [:], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-08-02 17:47:47,2023-08-02 17:49:31,1m - 44.346s,FAILED
+,,,,,,,
+Test Cases/04-Add my Organizations/02- Free limited Plan (Used Org Alias),Chrome 115.0.0.0,,,2023-08-02 17:49:31,2023-08-02 17:49:57,25.480s,FAILED
+"setText(findTestObject(""04-Add my Organizations/Free limited Plan/input_org alias""), ""1234"")",Chrome 115.0.0.0,,,2023-08-02 17:49:31,2023-08-02 17:49:57,25.302s,FAILED
+,,,,,,,
+Test Cases/04-Add my Organizations/03- Free limited Plan (Positive Scenarios),Chrome 115.0.0.0,,,2023-08-02 17:49:57,2023-08-02 17:49:59,2.364s,FAILED
+delay(delay_2seconds),Chrome 115.0.0.0,,,2023-08-02 17:49:57,2023-08-02 17:49:59,2.026s,PASSED
+"setText(findTestObject(""04-Add my Organizations/Free limited Plan/input_orgName""), org_name)",Chrome 115.0.0.0,,,2023-08-02 17:49:59,2023-08-02 17:49:59,0.067s,FAILED

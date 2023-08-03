@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>askmeanything_Emptyfield</name>
+   <tag></tag>
+   <elementGuidId>177f60d9-dfd0-43dd-a8f7-e86fcb15b4ce</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>.mat-form-field-invalid textarea.cdk-textarea-autosize.mat-input-element</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>CSS</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>DIV</value>
+      <webElementGuid>b6dcd988-f8f8-4641-9ae0-ac930929c90e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>xpath1691047687576</value>
+      <webElementGuid>7f7d34e9-2d10-4369-a888-85964910bea4</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

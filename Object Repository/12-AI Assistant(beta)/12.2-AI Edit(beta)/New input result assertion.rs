@@ -6,12 +6,11 @@
    <elementGuidId>0b49fe21-e8ea-4f6b-b773-f3fbf16b5566</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//pre[text()[normalize-space()='Time is gold']]</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//div[@class='ng-star-inserted']//pre[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
