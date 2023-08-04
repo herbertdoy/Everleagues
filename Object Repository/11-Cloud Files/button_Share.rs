@@ -6,16 +6,16 @@
    <elementGuidId>6f0f019a-102d-4967-9ff1-26de302768a1</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>(//button[@role='menuitem'])[3]</value>
+      </entry>
+      <entry>
          <key>BASIC</key>
          <value>//button[@type = 'button' and (text() = 'person_addShare' or . = 'person_addShare')]</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>button.mat-focus-indicator.mat-menu-item.ng-star-inserted.cdk-focused.cdk-program-focused</value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>(//button[@role='menuitem'])[3]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -26,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>455ef34e-f776-486b-9d6b-60ddeaabf420</webElementGuid>
+      <webElementGuid>72969f71-ef17-4846-9daf-d083e30a0531</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -34,7 +34,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>cae17aba-8ed1-4627-b3b4-ad65884d6f31</webElementGuid>
+      <webElementGuid>edf5a813-6098-44df-9cd4-6fce50335a22</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,7 +42,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-focus-indicator mat-menu-item ng-star-inserted cdk-focused cdk-program-focused</value>
-      <webElementGuid>1d23bbae-8641-49a5-9b15-030993b4293a</webElementGuid>
+      <webElementGuid>a07e5191-4a6a-421b-a653-e323ae2261a9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,7 +50,7 @@
       <name>role</name>
       <type>Main</type>
       <value>menuitem</value>
-      <webElementGuid>53c4203f-62f0-4cc8-a69c-7cd14251b9a5</webElementGuid>
+      <webElementGuid>4ef99e90-896a-4cc0-8337-9f9c17d0601f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -58,7 +58,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>c3db341b-2d8e-4ecf-8039-e827c649ec31</webElementGuid>
+      <webElementGuid>a6cc3b3d-793e-4088-ade3-b356cec4c2ea</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -66,7 +66,7 @@
       <name>aria-disabled</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>7e69c8ae-ffbe-4ac8-8dd5-ebfd27512a3e</webElementGuid>
+      <webElementGuid>6c242e3e-da6d-43f5-9837-fcd89f1075ad</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -74,7 +74,7 @@
       <name>text</name>
       <type>Main</type>
       <value>person_addShare</value>
-      <webElementGuid>86921036-b280-4dfb-b017-1c39998a7dae</webElementGuid>
+      <webElementGuid>40c343fc-d9de-4549-bc91-30d942142c28</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -82,7 +82,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-menu-panel-7&quot;)/div[@class=&quot;mat-menu-content ng-tns-c98-36&quot;]/div[1]/button[@class=&quot;mat-focus-indicator mat-menu-item ng-star-inserted cdk-focused cdk-program-focused&quot;]</value>
-      <webElementGuid>4c421316-62e5-4ff7-81c5-5aca43711f7c</webElementGuid>
+      <webElementGuid>16a9aa0c-4dbf-4cac-b802-24c614286c35</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -90,7 +90,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[11]</value>
-      <webElementGuid>7af4730e-9630-40a4-b8ec-4547e1ba699c</webElementGuid>
+      <webElementGuid>f83b1007-0006-4dec-bb24-f24f1da24e14</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,7 +98,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='mat-menu-panel-7']/div/div/button</value>
-      <webElementGuid>bc2854f7-fa67-4910-b4f0-33ad77525715</webElementGuid>
+      <webElementGuid>f9b05d4f-83bc-495d-a5ad-f7c8fed471b7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,7 +106,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='JPEG File'])[1]/following::button[5]</value>
-      <webElementGuid>de96c667-0d1d-4584-8bf4-265f9b004d22</webElementGuid>
+      <webElementGuid>c5e6e5db-1b88-43b8-b38a-01cc747aa1a9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -114,7 +114,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='qa'])[1]/following::button[5]</value>
-      <webElementGuid>4d79cfc6-ad2a-4320-ac6c-a34e8716dee5</webElementGuid>
+      <webElementGuid>8cd9f918-fc85-46be-abd7-fad83c033515</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -122,7 +122,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Share']/parent::*</value>
-      <webElementGuid>f6ea8237-cbe6-4d59-b2bd-00a1778b0b80</webElementGuid>
+      <webElementGuid>bb3c2ab6-8081-4cdb-bc52-fffe2e5cad1c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -130,7 +130,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/div/div/button</value>
-      <webElementGuid>aba7a550-3951-462b-a2df-9cde1769b989</webElementGuid>
+      <webElementGuid>f100f531-55b4-49e5-a47f-bcc3fffdefda</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -138,6 +138,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = 'person_addShare' or . = 'person_addShare')]</value>
-      <webElementGuid>e74eca99-fb35-43eb-8f53-4d0175444fa9</webElementGuid>
+      <webElementGuid>aca29983-8eff-4c61-891a-c15f0124bb1b</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

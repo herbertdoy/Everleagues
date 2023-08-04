@@ -47,7 +47,8 @@ WebUI.click(findTestObject('11-Cloud Files/div_dropdown3'))
 
 WebUI.click(findTestObject('11-Cloud Files/span_delete Remove Access'))
 
-WebUI.click(findTestObject('11-Cloud Files/button_done'))
+//WebUI.click(findTestObject('11-Cloud Files/button_done'))
+WebUI.click(findTestObject('11-Cloud Files/button_sharefiles_SHARE'))
 
 //WebUI.verifyElementVisible(findTestObject('11-Cloud Files/snack-bar-container_Shared folder access updated successfully.OK'))
 WebUI.delay(GlobalVariable.delay_3seconds)
@@ -78,5 +79,5 @@ WebUI.closeWindowIndex(1)
 
 WebUI.switchToWindowIndex(0)
 
-WebUI.click(findTestObject('11-Cloud Files/button_Sharefiles_Done'))
+WebUI.click(findTestObject('11-Cloud Files/sharefiles_X_button'))
 
