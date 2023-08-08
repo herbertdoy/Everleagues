@@ -10,10 +10,13 @@
          <value>mat-dialog-container#mat-dialog-0>app-dialog-share-file-folder>div>mat-icon</value>
       </entry>
       <entry>
+         <key>XPATH</key>
+         <value>(//app-dialog-share-file-folder[@class='ng-star-inserted']//mat-icon)[1]</value>
+      </entry>
+      <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
    </selectorCollection>
-   <selectorMethod>CSS</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
 </WebElementEntity>

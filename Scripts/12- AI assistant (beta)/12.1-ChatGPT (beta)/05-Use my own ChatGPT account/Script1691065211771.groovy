@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.click(findTestObject('12-AI Assistant(beta)/12.1-Chat GPT(beta)/Use my ownChatGPT account'))
 
-WebUI.executeJavaScript('window.open();', [])
+/*WebUI.executeJavaScript('window.open();', [])
 
 currentWindow = WebUI.getWindowIndex()
 
@@ -27,13 +27,13 @@ WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.switchToWindowIndex(currentWindow + 1)
 
-WebUI.navigateToUrl(GlobalVariable.url_CHATGPT)
-
+WebUI.navigateToUrl(GlobalVariable.url_CHATGPT)*/
 String url = WebUI.getUrl()
 
 //WebUI.verifyEqual(url, btnSrc)//
-
 //WebUI.verifyElementText(findTestObject('12-AI Assistant(beta)/12.1-Chat GPT(beta)/Open AI.com-ChatGPT heading text'), 'ChatGPT')//
 //WebUI.verifyEqual(findTestObject('12-AI Assistant(beta)/12.1-Chat GPT(beta)/Use my ownChatGPT account'), GlobalVariable.chatGPTURL)
-url.contains("https://chat.openai.com/")
+url.contains('https://chat.openai.com/')
+
+WebUI.closeWindowIndex(1)
 

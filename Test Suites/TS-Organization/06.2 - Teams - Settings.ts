@@ -12,112 +12,126 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>540776d0-c39f-49a4-a88f-1837e349a419</testSuiteGuid>
    <testCaseLink>
-      <guid>aa01e887-beef-444f-a31c-773bb64a9647</guid>
+      <guid>a1921c48-749a-4737-990a-de87b709c130</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/06- Teams/00-Adding Co-worker</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>35a8efca-423a-46db-920d-3d43219d9260</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/06- Teams/001-Adding Client</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>6280380d-f889-475d-af3c-5c2e8de187e1</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/06- Teams/03-Edit Team - Private (adding member)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>4b94602d-f7f6-4e99-86d0-375e04cf9917</guid>
+      <guid>6da0fa90-988e-407f-abfe-c0ea1e8848e0</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/06- Teams/04-Edit Team - Private (promoting member to admin)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>43870f61-4ed8-4058-88af-ac19d2976f00</guid>
+      <guid>8c74f048-3f0b-45ff-8b5f-1ceafc356b89</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/06- Teams/05-Edit Team - Private (removing a member)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>ad4a4e4f-574b-408d-a36c-43bffd2e6d21</guid>
+      <guid>2fa3f9f0-cae8-4efd-8113-535b1effc3a7</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/06- Teams/06-Edit Team - Private (adding a channel)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>3de48e0c-38f6-4841-9023-a5f6c944d9a3</guid>
+      <guid>ee223d2b-050c-4ed7-9e2d-c504d37286fa</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/06- Teams/07-Edit Team - Private (editing a channel)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>b59074c1-a092-4b93-b35f-fc8144adc677</guid>
+      <guid>da57a3b8-979d-42f5-9cfe-cadaccdd76e9</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/06- Teams/08-Edit Team - Private (deleting a channel)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>02aa25e8-8bfe-43ac-9c82-2c2e9cb322c8</guid>
+      <guid>1c5af7d3-5dbe-4872-92cd-43a675fff1f0</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/06- Teams/09-Edit Team - Private (settings)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>8c3b71d5-c5b4-481f-9da5-1fefb7de5678</guid>
+      <guid>f87db814-79ff-4228-a83b-fde6cb422a86</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/06- Teams/10-Edit Team- Public (adding a channel)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>5092fac0-b750-412f-b2bf-7e1da24778aa</guid>
+      <guid>789e5de3-e27e-4a21-a78c-747f23c4f6a4</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/06- Teams/11-Edit Team- Public (editing a channel)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>db4e3542-22e4-4bf1-8989-d9e5718874e1</guid>
+      <guid>14db48e9-c4b2-4b6e-ab3c-594c946573cb</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/06- Teams/12-Edit Team- Public (deleting a channel)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>c1c9d0a8-f16f-4b6e-bae0-44d7e127569d</guid>
+      <guid>6286475a-0bb0-4eb7-bc40-5ebdd035919c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/06- Teams/13-Edit Team- Public (settings)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>d5e8359c-7e15-4425-a9b3-7c0aa0cd644e</guid>
+      <guid>285f1f21-193d-4bc5-832d-b49c42e78348</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/06- Teams/14 - Teams - General Channel (attaching PDF)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>00053756-89fd-4ad0-84c8-a493b23bee0f</guid>
+      <guid>056c8af4-5e9e-446c-a9bd-d7572be61990</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/06- Teams/15 - Teams - General Channel (Uploading Photo)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>23c409a7-1363-4723-afc9-472a0cde337d</guid>
+      <guid>2248ece3-e4a6-469a-bd79-9b17fcee8755</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/06- Teams/16 - Teams - General Channel (attaching Video)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>58ea9964-88d5-4b4a-a380-64d89067e907</guid>
+      <guid>2dde5dc5-9692-4b85-bdc3-cf44f5248e15</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/06- Teams/17 - Teams - General Channel (Creating a post)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>8fc4dd37-34c6-40f3-b3c8-bf3b43f3565b</guid>
+      <guid>74371b0e-d600-45ac-9310-fc4b29b345a3</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/06- Teams/18 - Teams - General Channel (deleting a post)</testCaseId>

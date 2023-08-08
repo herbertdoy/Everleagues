@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>Welcome. Click the ChatGPT tab to get started!</value>
+         <value>//h5[text()='Welcome. Click the ChatGPT tab to get started!']</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

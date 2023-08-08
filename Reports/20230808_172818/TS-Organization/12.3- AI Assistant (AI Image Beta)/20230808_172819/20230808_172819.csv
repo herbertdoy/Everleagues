@@ -1,0 +1,28 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+12.3- AI Assistant (AI Image Beta),Chrome 115.0.0.0,,,2023-08-08 17:28:21,2023-08-08 17:30:11,1m - 50.075s,PASSED
+,,,,,,,
+Test Cases/12- AI assistant (beta)/12.3-AI image (beta)/01-Generate image using EL AI-Blank fields,Chrome 115.0.0.0,,,2023-08-08 17:28:21,2023-08-08 17:29:59,1m - 38.080s,PASSED
+"openBrowser("""")",Chrome 115.0.0.0,,,2023-08-08 17:28:21,2023-08-08 17:28:23,1.819s,PASSED
+navigateToUrl(app_url_login),Chrome 115.0.0.0,,,2023-08-08 17:28:23,2023-08-08 17:28:34,10.471s,PASSED
+maximizeWindow(),Chrome 115.0.0.0,,,2023-08-08 17:28:34,2023-08-08 17:28:34,0.128s,PASSED
+"callTestCase(findTestCase(""01-Login and Forgot Password/04-Login(Valid Credentials-With Subscription)""), [:], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-08-08 17:28:34,2023-08-08 17:29:38,1m - 3.820s,PASSED
+"click(findTestObject(""06-Teams/button_doublearrow""))",Chrome 115.0.0.0,,,2023-08-08 17:29:38,2023-08-08 17:29:41,3.135s,PASSED
+"click(findTestObject(""06-Teams/button_My Organizations""))",Chrome 115.0.0.0,,,2023-08-08 17:29:41,2023-08-08 17:29:42,0.912s,PASSED
+"click(findTestObject(""02-Side Icons(Organization)/Add Contact/button_Automation Test Org""))",Chrome 115.0.0.0,,,2023-08-08 17:29:42,2023-08-08 17:29:43,1.082s,PASSED
+delay(delay_4seconds),Chrome 115.0.0.0,,,2023-08-08 17:29:43,2023-08-08 17:29:47,4.014s,PASSED
+"verifyElementVisible(findTestObject(""02-Side Icons(Organization)/Add Contact/span_Automation Test Org""))",Chrome 115.0.0.0,,,2023-08-08 17:29:47,2023-08-08 17:29:47,0.357s,PASSED
+delay(delay_5seconds),Chrome 115.0.0.0,,,2023-08-08 17:29:47,2023-08-08 17:29:52,5.009s,PASSED
+"scrollToElement(findTestObject(""12-AI Assistant(beta)/AI asst button-Side panel""), 30)",Chrome 115.0.0.0,,,2023-08-08 17:29:52,2023-08-08 17:29:53,0.332s,PASSED
+"click(findTestObject(""12-AI Assistant(beta)/AI asst button-Side panel""))",Chrome 115.0.0.0,,,2023-08-08 17:29:53,2023-08-08 17:29:53,0.364s,PASSED
+"verifyElementVisible(findTestObject(""12-AI Assistant(beta)/AI asst button-Side panel""))",Chrome 115.0.0.0,,,2023-08-08 17:29:53,2023-08-08 17:29:54,0.874s,PASSED
+delay(delay_3seconds),Chrome 115.0.0.0,,,2023-08-08 17:29:54,2023-08-08 17:29:57,3.013s,PASSED
+"click(findTestObject(""12-AI Assistant(beta)/12.3- AI Image(beta)/AI Image (beta)""))",Chrome 115.0.0.0,,,2023-08-08 17:29:57,2023-08-08 17:29:57,0.482s,PASSED
+"setText(findTestObject(""12-AI Assistant(beta)/12.3- AI Image(beta)/Input content""), """")",Chrome 115.0.0.0,,,2023-08-08 17:29:57,2023-08-08 17:29:58,1.012s,PASSED
+"click(findTestObject(""12-AI Assistant(beta)/12.3- AI Image(beta)/Generate Image button""))",Chrome 115.0.0.0,,,2023-08-08 17:29:58,2023-08-08 17:29:59,0.330s,PASSED
+"verifyElementVisible(findTestObject(""12-AI Assistant(beta)/12.3- AI Image(beta)/InputContent_emptyfield""))",Chrome 115.0.0.0,,,2023-08-08 17:29:59,2023-08-08 17:29:59,0.371s,PASSED
+"verifyElementNotClickable(findTestObject(""12-AI Assistant(beta)/12.3- AI Image(beta)/generate_image_button_disabled""))",Chrome 115.0.0.0,,,2023-08-08 17:29:59,2023-08-08 17:29:59,0.310s,PASSED
+,,,,,,,
+Test Cases/12- AI assistant (beta)/12.3-AI image (beta)/02-Generate image using EL AI,Chrome 115.0.0.0,,,2023-08-08 17:29:59,2023-08-08 17:30:11,11.813s,PASSED
+"setText(findTestObject(""12-AI Assistant(beta)/12.3- AI Image(beta)/Input content""), ""Give me a butterfly image"")",Chrome 115.0.0.0,,,2023-08-08 17:29:59,2023-08-08 17:30:00,0.772s,PASSED
+"click(findTestObject(""12-AI Assistant(beta)/12.3- AI Image(beta)/Generate Image button""))",Chrome 115.0.0.0,,,2023-08-08 17:30:00,2023-08-08 17:30:01,0.454s,PASSED
+"verifyElementVisible(findTestObject(""12-AI Assistant(beta)/12.3- AI Image(beta)/div_generated_image""))",Chrome 115.0.0.0,,,2023-08-08 17:30:01,2023-08-08 17:30:11,10.406s,PASSED

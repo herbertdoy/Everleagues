@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>AI Image (beta)</name>
+   <tag></tag>
+   <elementGuidId>0e31c181-f6d4-4b3d-9631-d4ed44afcd13</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>a.mat-focus-indicator.ng-tns-c574-32.mat-button.mat-button-base.active.cdk-focused.cdk-mouse-focused</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='ChatGPT (beta)'])[1]/following::a[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>1a60b384-d7a8-4bf7-8fce-a3fc01abec26</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>routerlinkactive</name>
+      <type>Main</type>
+      <value>active</value>
+      <webElementGuid>47d7698a-e4d9-48ae-bf69-4ed222162889</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-focus-indicator ng-tns-c574-32 mat-button mat-button-base active cdk-focused cdk-mouse-focused</value>
+      <webElementGuid>87ef868f-5d43-4784-a283-65af158b2caa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-reflect-router-link-active</name>
+      <type>Main</type>
+      <value>active</value>
+      <webElementGuid>259e2c2a-4c73-4eda-94a6-abcaf2a0981d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-reflect-router-link</name>
+      <type>Main</type>
+      <value>tools/openai/imagetool</value>
+      <webElementGuid>a40279a6-49a5-4508-9d9b-373ed48b0f65</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-reflect-router-link-active-options</name>
+      <type>Main</type>
+      <value>[object Object]</value>
+      <webElementGuid>4bda4bc1-c2c3-4280-b8b5-00f17b4c9155</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-disabled</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>152e73fd-028a-4af2-8e27-62a59197d3be</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/main/tools/openai/imagetool</value>
+      <webElementGuid>69aef764-3e64-4717-a40e-fa8fb7275fcc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>editAI Image (beta) </value>
+      <webElementGuid>12f534c7-d8bc-4b31-9403-2447cbc5444b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/app-root[1]/app-main-page[@class=&quot;ng-tns-c503-0 ng-trigger ng-trigger-routerAnimation ng-star-inserted&quot;]/mat-sidenav-container[@class=&quot;mat-drawer-container mat-sidenav-container ng-tns-c503-0&quot;]/mat-sidenav[@class=&quot;mat-drawer mat-sidenav left-sidenav ng-tns-c167-1 ng-trigger ng-trigger-transform mat-drawer-side mat-drawer-opened ng-star-inserted&quot;]/div[@class=&quot;mat-drawer-inner-container ng-tns-c167-1&quot;]/perfect-scrollbar[@class=&quot;perfect-scrollbar ng-tns-c503-0 ng-star-inserted&quot;]/div[@class=&quot;ps ps--active-y&quot;]/div[@class=&quot;ps-content&quot;]/px-gdn-sidemenu[1]/ul[1]/px-gdn-sideitem[@class=&quot;ng-tns-c574-26 ng-tns-c503-0 ng-star-inserted&quot;]/li[@class=&quot;ng-tns-c574-26 menu-level--1 open&quot;]/ul[@class=&quot;children ng-tns-c574-26 ng-trigger ng-trigger-closeState&quot;]/px-gdn-sideitem[@class=&quot;ng-tns-c574-32 ng-tns-c503-0 ng-star-inserted&quot;]/li[@class=&quot;ng-tns-c574-32 menu-level-0&quot;]/div[@class=&quot;item ng-tns-c574-32&quot;]/a[@class=&quot;mat-focus-indicator ng-tns-c574-32 mat-button mat-button-base active cdk-focused cdk-mouse-focused&quot;]</value>
+      <webElementGuid>9979a22b-d490-4cb3-aade-2d199076d297</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ChatGPT (beta)'])[1]/following::a[1]</value>
+      <webElementGuid>9f61bfe9-e5b0-4cb1-ad14-ca79ab41c0ce</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='arrow_drop_down'])[5]/following::a[2]</value>
+      <webElementGuid>097e0d42-9ec5-4279-84e9-7f18a4cd3e0b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Information'])[1]/preceding::a[1]</value>
+      <webElementGuid>c5e1e9d7-a9d1-4141-b506-5308fad5c2bc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, '/main/tools/openai/imagetool')])[7]</value>
+      <webElementGuid>65d1a0f1-a37d-4230-9f5e-e8adda12cf0e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//px-gdn-sideitem[10]/li/ul/px-gdn-sideitem[2]/li/div/a</value>
+      <webElementGuid>1fe9144f-014d-480f-b8ac-cdcf9b415504</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/main/tools/openai/imagetool' and (text() = 'editAI Image (beta) ' or . = 'editAI Image (beta) ')]</value>
+      <webElementGuid>208ecc98-52f8-446a-900e-d597bb5bb249</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

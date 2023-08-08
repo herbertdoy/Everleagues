@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_generated_image</name>
+   <tag></tag>
+   <elementGuidId>c4d366b7-89f5-43bc-b548-c53701e6e33c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//div[@class='ng-star-inserted']//img)[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>DIV</value>
+      <webElementGuid>a73eee05-4ce2-47f6-92dd-94d73aa3abda</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>xpath1691481374485</value>
+      <webElementGuid>d082f24e-a21c-4e8e-8873-e69760ef6dbe</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
