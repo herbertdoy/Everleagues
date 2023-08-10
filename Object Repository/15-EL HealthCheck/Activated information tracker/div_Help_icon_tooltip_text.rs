@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Help_icon_tooltip_text</name>
+   <tag></tag>
+   <elementGuidId>f8325002-675a-414e-925e-cbfe3372ae23</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.mat-tooltip.help-tooltip.mat-tooltip-show</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='cdk-overlay-8']/mat-tooltip-component/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>9e886382-90dd-4060-b4de-3aa1da7b3468</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-tooltip help-tooltip mat-tooltip-show</value>
+      <webElementGuid>13f86ab7-fcce-46b6-8349-7d5fc103d003</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-reflect-ng-class</name>
+      <type>Main</type>
+      <value>help-tooltip</value>
+      <webElementGuid>77bf4153-c2d1-47c8-ba21-5fb0a965e084</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>This is a COVID-19 health questionnaire recommended by New York City to help ensure employee safety as they return to work, as of June 22, 2020. They may change their recommendation as the situation evolves.</value>
+      <webElementGuid>6cbc84db-2cf6-4f38-a252-9138bf2fe501</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;cdk-overlay-8&quot;)/mat-tooltip-component[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;mat-tooltip help-tooltip mat-tooltip-show&quot;]</value>
+      <webElementGuid>15d162de-81ed-47f7-a0fd-ad65425c2eea</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='cdk-overlay-8']/mat-tooltip-component/div</value>
+      <webElementGuid>726f5c54-73bc-4437-98c0-c3d973d5f4b1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='CANCEL'])[1]/following::div[4]</value>
+      <webElementGuid>613bd26f-f9cc-4fd2-aba6-5cda5d56dbec</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//mat-tooltip-component/div</value>
+      <webElementGuid>ed2583d2-e285-4fa5-9462-ef64cda240d9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'This is a COVID-19 health questionnaire recommended by New York City to help ensure employee safety as they return to work, as of June 22, 2020. They may change their recommendation as the situation evolves.' or . = 'This is a COVID-19 health questionnaire recommended by New York City to help ensure employee safety as they return to work, as of June 22, 2020. They may change their recommendation as the situation evolves.')]</value>
+      <webElementGuid>66c80b77-fce0-45b3-9172-0d977132b5a5</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

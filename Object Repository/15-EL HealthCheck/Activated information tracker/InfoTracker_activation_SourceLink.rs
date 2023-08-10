@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>InfoTracker_activation_SourceLink</name>
+   <tag></tag>
+   <elementGuidId>912a9011-744e-47a6-83fc-9e2e3c1e6d03</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[@class='mat-button-wrapper']//u[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>DIV</value>
+      <webElementGuid>ee3fea08-beb6-44ec-91c1-b3cb80119bd5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>xpath1691635861182</value>
+      <webElementGuid>65147d50-2676-4b43-ad2d-54dbd355bfd4</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>InfoTracker_activation_Checkbox</name>
+   <tag></tag>
+   <elementGuidId>9bbe2a9f-3b38-4587-a034-86cde3284e37</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//label[@class='mat-checkbox-layout']//span)[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>DIV</value>
+      <webElementGuid>ed052cca-4405-4a87-986a-51127edccf83</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>xpath1691635062655</value>
+      <webElementGuid>46953b5f-5c98-43cb-8f22-2b8d3112f63b</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

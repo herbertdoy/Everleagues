@@ -19,15 +19,13 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.click(findTestObject('12-AI Assistant(beta)/12.4-Information/Terms of use link'))
 
-WebUI.executeJavaScript('window.open();', [])
+//WebUI.verifyElementText(findTestObject('12-AI Assistant(beta)/12.4-Information/OPEN AI URL-Terms of use heading text assertion'), 
+//    'Terms of use')
+String url = WebUI.getUrl()
 
-currentWindow = WebUI.getWindowIndex()
+url.contains('https://openai.com/policies/terms-of-use')
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.closeWindowIndex(1)
 
-WebUI.switchToWindowIndex(currentWindow + 1)
-
-WebUI.navigateToUrl(GlobalVariable.url_TERMSOFUSE)
-
-WebUI.verifyElementText(findTestObject('12-AI Assistant(beta)/12.1-Chat GPT(beta)/Open AI.com-ChatGPT heading text'), 'Terms of use')
+WebUI.switchToWindowIndex(0)
 

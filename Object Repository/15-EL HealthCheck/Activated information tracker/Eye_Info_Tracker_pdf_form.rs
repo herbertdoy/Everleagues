@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Eye_Info_Tracker_pdf_form</name>
+   <tag></tag>
+   <elementGuidId>b7f3f5fb-5b48-4f56-a6a6-056f4b5a8ceb</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//app-infotracker-pdf-popup[@class='ng-star-inserted']//iframe[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>DIV</value>
+      <webElementGuid>ee21cf27-8297-49f8-b8a1-88a5e0f093b4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>xpath1691638664659</value>
+      <webElementGuid>84d0afdf-353e-4709-a08e-2ab643f79591</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

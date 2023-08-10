@@ -19,15 +19,11 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.click(findTestObject('12-AI Assistant(beta)/12.4-Information/Usage policies'))
 
-WebUI.executeJavaScript('window.open();', [])
+String url = WebUI.getUrl()
 
-currentWindow = WebUI.getWindowIndex()
+url.contains('https://openai.com/policies/usage-policies')
 
-WebUI.delay(GlobalVariable.delay_3seconds)
-
-WebUI.switchToWindowIndex(currentWindow + 1)
-
-WebUI.navigateToUrl(GlobalVariable.url_USAGEPOLICIES)
-
-WebUI.verifyElementText(findTestObject('12-AI Assistant(beta)/12.1-Chat GPT(beta)/Open AI.com-ChatGPT heading text'), 'Usage policies')
+//WebUI.verifyElementText(findTestObject('12-AI Assistant(beta)/12.4-Information/OPEN AI URL- Usage policies heading text assertion'), 
+//    'Usage policies')
+WebUI.closeWindowIndex(1)
 

@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="15-EL HealthCheck" time="161.102" tests="2" failures="0" errors="0">
+   <testsuite name="15-EL HealthCheck" tests="2" failures="0" errors="0" time="161.102" skipped="0" timestamp="2023-08-10 11:47:07" hostname="Personal - DESKTOP-TFDFEQ1" id="Test Suites/TS-Organization/15-EL HealthCheck">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Personal\\Documents\\GitHub\\Everleagues\\Reports\\20230810_114705\\TS-Organization\\15-EL HealthCheck\\20230810_114705"/>
+         <property name="logFiles" value="C:\\Users\\Personal\\Documents\\GitHub\\Everleagues\\Reports\\20230810_114705\\TS-Organization\\15-EL HealthCheck\\20230810_114705\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Personal - DESKTOP-TFDFEQ1"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="8.6.5.208"/>
+         <property name="browser" value="Chrome 115.0.0.0"/>
+         <property name="hostAddress" value="10.100.1.38"/>
+         <property name="sessionId" value="1fee11b32d399ce9aa9b039372bd6ae4"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/15-EL HealthCheck/01-Unactivated info tracker" time="146.34" classname="Test Cases/15-EL HealthCheck/01-Unactivated info tracker" status="PASSED">
+         <system-out><![CDATA[2023-08-10 11:47:07 - [TEST_CASE][PASSED] - Test Cases/15-EL HealthCheck/01-Unactivated info tracker: Test Cases/15-EL HealthCheck/01-Unactivated info tracker
+
+2023-08-10 11:47:07 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-08-10 11:47:07 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-08-10 11:47:07 - [MESSAGE][INFO] - User set preference: ['args', '[--disable-web-security, --ignore-certificate-errors, --no-first-run, --disable-gpu]']
+
+2023-08-10 11:47:07 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-10 11:47:09 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-08-10 11:47:09 - [TEST_STEP][PASSED] - navigateToUrl(app_url_login): Navigate to 'https://lab.everleagues.com/login' successfully
+
+2023-08-10 11:48:08 - [MESSAGE][PASSED] - Navigate to 'https://lab.everleagues.com/login' successfully
+
+2023-08-10 11:48:08 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-08-10 11:48:08 - [MESSAGE][PASSED] - Current window maximized
+
+2023-08-10 11:48:08 - [TEST_STEP][PASSED] - callTestCase(findTestCase("01-Login and Forgot Password/04-Login(Valid Credentials-With Subscription)"), [:], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/01-Login and Forgot Password/04-Login(Valid Credentials-With Subscription)' successfully
+
+2023-08-10 11:48:09 - [TEST_CASE][PASSED] - Test Cases/01-Login and Forgot Password/04-Login(Valid Credentials-With Subscription): Test Cases/01-Login and Forgot Password/04-Login(Valid Credentials-With Subscription)
+
+2023-08-10 11:48:09 - [TEST_STEP][PASSED] - setText(findTestObject("01-Login and Forgot Password/input_Email_email"), email_with_subscription): Text 'testuser005@mailinator.com' is set on object 'Object Repository/01-Login and Forgot Password/input_Email_email'
+
+2023-08-10 11:48:10 - [MESSAGE][PASSED] - Text 'testuser005@mailinator.com' is set on object 'Object Repository/01-Login and Forgot Password/input_Email_email'
+
+2023-08-10 11:48:10 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("01-Login and Forgot Password/input_Email_password"), password): Text ****** has been set on object 'Object Repository/01-Login and Forgot Password/input_Email_password'
+
+2023-08-10 11:48:10 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/01-Login and Forgot Password/input_Email_password'
+
+2023-08-10 11:48:10 - [TEST_STEP][PASSED] - delay(delay_2seconds): Delayed 2 second(s)
+
+2023-08-10 11:48:12 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-08-10 11:48:12 - [TEST_STEP][PASSED] - click(findTestObject("01-Login and Forgot Password/show pass button")): Object: 'Object Repository/01-Login and Forgot Password/show pass button' is clicked on
+
+2023-08-10 11:48:12 - [MESSAGE][PASSED] - Object: 'Object Repository/01-Login and Forgot Password/show pass button' is clicked on
+
+2023-08-10 11:48:12 - [TEST_STEP][PASSED] - delay(delay_3seconds): Delayed 3 second(s)
+
+2023-08-10 11:48:15 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-10 11:48:15 - [TEST_STEP][PASSED] - click(findTestObject("01-Login and Forgot Password/button_Sign in")): Object: 'Object Repository/01-Login and Forgot Password/button_Sign in' is clicked on
+
+2023-08-10 11:48:16 - [MESSAGE][PASSED] - Object: 'Object Repository/01-Login and Forgot Password/button_Sign in' is clicked on
+
+2023-08-10 11:48:16 - [TEST_STEP][PASSED] - delay(delay_3seconds): Delayed 3 second(s)
+
+2023-08-10 11:48:19 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-10 11:48:19 - [TEST_STEP][PASSED] - executeJavaScript("window.open();", []): Execute JavaScript 'window.open();' successfully
+
+2023-08-10 11:48:19 - [MESSAGE][PASSED] - Execute JavaScript 'window.open();' successfully
+
+2023-08-10 11:48:19 - [TEST_STEP][PASSED] - currentWindow = getWindowIndex(): Current window's index is: 0
+
+2023-08-10 11:48:19 - [MESSAGE][PASSED] - Current window's index is: 0
+
+2023-08-10 11:48:19 - [TEST_STEP][PASSED] - delay(delay_3seconds): Delayed 3 second(s)
+
+2023-08-10 11:48:22 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-10 11:48:22 - [TEST_STEP][PASSED] - switchToWindowIndex(currentWindow + 1): Switched to window with index: '1'
+
+2023-08-10 11:48:22 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2023-08-10 11:48:22 - [TEST_STEP][PASSED] - navigateToUrl(app_mailinator): Navigate to 'https://www.mailinator.com/' successfully
+
+2023-08-10 11:48:36 - [MESSAGE][PASSED] - Navigate to 'https://www.mailinator.com/' successfully
+
+2023-08-10 11:48:36 - [TEST_STEP][PASSED] - delay(delay_3seconds): Delayed 3 second(s)
+
+2023-08-10 11:48:39 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-10 11:48:39 - [TEST_STEP][PASSED] - setText(findTestObject("00-Signup and Activation/zMailinator/input_LOGIN_search"), email_for_searchmailinator_testuser05): Text 'testuser005@mailinator.com' is set on object 'Object Repository/00-Signup and Activation/zMailinator/input_LOGIN_search'
+
+2023-08-10 11:48:40 - [MESSAGE][PASSED] - Text 'testuser005@mailinator.com' is set on object 'Object Repository/00-Signup and Activation/zMailinator/input_LOGIN_search'
+
+2023-08-10 11:48:40 - [TEST_STEP][PASSED] - click(findTestObject("00-Signup and Activation/zMailinator/gobutton"), STOP_ON_FAILURE): Object: 'Object Repository/00-Signup and Activation/zMailinator/gobutton' is clicked on
+
+2023-08-10 11:48:41 - [MESSAGE][PASSED] - Object: 'Object Repository/00-Signup and Activation/zMailinator/gobutton' is clicked on
+
+2023-08-10 11:48:41 - [TEST_STEP][PASSED] - delay(delay_10seconds): Delayed 10 second(s)
+
+2023-08-10 11:48:51 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2023-08-10 11:48:51 - [TEST_STEP][PASSED] - click(findTestObject("00-Signup and Activation/zMailinator/Email - everleagues")): Object: 'Object Repository/00-Signup and Activation/zMailinator/Email - everleagues' is clicked on
+
+2023-08-10 11:48:51 - [MESSAGE][PASSED] - Object: 'Object Repository/00-Signup and Activation/zMailinator/Email - everleagues' is clicked on
+
+2023-08-10 11:48:51 - [TEST_STEP][PASSED] - delay(delay_5seconds): Delayed 5 second(s)
+
+2023-08-10 11:48:56 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-08-10 11:48:56 - [TEST_STEP][PASSED] - code = getText(findTestObject("Object Repository/06-Teams/For 2FA/2FA code")): Text of object 'Object Repository/06-Teams/For 2FA/2FA code' is: '140836'
+
+2023-08-10 11:48:56 - [MESSAGE][PASSED] - Text of object 'Object Repository/06-Teams/For 2FA/2FA code' is: '140836'
+
+2023-08-10 11:48:56 - [TEST_STEP][PASSED] - delay(delay_3seconds): Delayed 3 second(s)
+
+2023-08-10 11:48:59 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-10 11:48:59 - [TEST_STEP][PASSED] - closeWindowTitle("Mailinator"): Window with title: 'Mailinator' is closed
+
+2023-08-10 11:49:00 - [MESSAGE][PASSED] - Window with title: 'Mailinator' is closed
+
+2023-08-10 11:49:00 - [TEST_STEP][PASSED] - delay(delay_5seconds): Delayed 5 second(s)
+
+2023-08-10 11:49:05 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-08-10 11:49:05 - [TEST_STEP][PASSED] - switchToWindowIndex(0): Switched to window with index: '0'
+
+2023-08-10 11:49:05 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2023-08-10 11:49:05 - [TEST_STEP][PASSED] - delay(delay_3seconds): Delayed 3 second(s)
+
+2023-08-10 11:49:08 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-10 11:49:08 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/06-Teams/For 2FA/input_Enter verification code_code"), code): Text '140836' is set on object 'Object Repository/06-Teams/For 2FA/input_Enter verification code_code'
+
+2023-08-10 11:49:08 - [MESSAGE][PASSED] - Text '140836' is set on object 'Object Repository/06-Teams/For 2FA/input_Enter verification code_code'
+
+2023-08-10 11:49:08 - [TEST_STEP][PASSED] - delay(delay_3seconds): Delayed 3 second(s)
+
+2023-08-10 11:49:11 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-10 11:49:11 - [TEST_STEP][PASSED] - click(findTestObject("06-Teams/For 2FA/button_Verify_2FA")): Object: 'Object Repository/06-Teams/For 2FA/button_Verify_2FA' is clicked on
+
+2023-08-10 11:49:12 - [MESSAGE][PASSED] - Object: 'Object Repository/06-Teams/For 2FA/button_Verify_2FA' is clicked on
+
+2023-08-10 11:49:12 - [TEST_STEP][PASSED] - delay(delay_3seconds): Delayed 3 second(s)
+
+2023-08-10 11:49:15 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-10 11:49:15 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/01-Login and Forgot Password/04-Login(Valid Credentials-With Subscription)' successfully
+
+2023-08-10 11:49:15 - [TEST_STEP][PASSED] - click(findTestObject("06-Teams/button_doublearrow")): Object: 'Object Repository/06-Teams/button_doublearrow' is clicked on
+
+2023-08-10 11:49:18 - [MESSAGE][PASSED] - Object: 'Object Repository/06-Teams/button_doublearrow' is clicked on
+
+2023-08-10 11:49:18 - [TEST_STEP][PASSED] - click(findTestObject("06-Teams/button_My Organizations")): Object: 'Object Repository/06-Teams/button_My Organizations' is clicked on
+
+2023-08-10 11:49:19 - [MESSAGE][PASSED] - Object: 'Object Repository/06-Teams/button_My Organizations' is clicked on
+
+2023-08-10 11:49:19 - [TEST_STEP][PASSED] - click(findTestObject("02-Side Icons(Organization)/Add Contact/button_Automation Test Org")): Object: 'Object Repository/02-Side Icons(Organization)/Add Contact/button_Automation Test Org' is clicked on
+
+2023-08-10 11:49:20 - [MESSAGE][PASSED] - Object: 'Object Repository/02-Side Icons(Organization)/Add Contact/button_Automation Test Org' is clicked on
+
+2023-08-10 11:49:20 - [TEST_STEP][PASSED] - delay(delay_4seconds): Delayed 4 second(s)
+
+2023-08-10 11:49:24 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2023-08-10 11:49:24 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("02-Side Icons(Organization)/Add Contact/span_Automation Test Org")): Object 'Object Repository/02-Side Icons(Organization)/Add Contact/span_Automation Test Org' is visible
+
+2023-08-10 11:49:24 - [MESSAGE][PASSED] - Object 'Object Repository/02-Side Icons(Organization)/Add Contact/span_Automation Test Org' is visible
+
+2023-08-10 11:49:24 - [TEST_STEP][PASSED] - delay(delay_3seconds): Delayed 3 second(s)
+
+2023-08-10 11:49:27 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-10 11:49:27 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("15-EL HealthCheck/Inactive information tracker/button_EL HealthCheck"), 0): Scroll to object 'Object Repository/15-EL HealthCheck/Inactive information tracker/button_EL HealthCheck' successfully
+
+2023-08-10 11:49:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-10 11:49:28 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/15-EL HealthCheck/Inactive information tracker/button_EL HealthCheck' successfully
+
+2023-08-10 11:49:28 - [TEST_STEP][PASSED] - click(findTestObject("15-EL HealthCheck/Inactive information tracker/button_EL HealthCheck")): Object: 'Object Repository/15-EL HealthCheck/Inactive information tracker/button_EL HealthCheck' is clicked on
+
+2023-08-10 11:49:28 - [MESSAGE][PASSED] - Object: 'Object Repository/15-EL HealthCheck/Inactive information tracker/button_EL HealthCheck' is clicked on
+
+2023-08-10 11:49:28 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("15-EL HealthCheck/Inactive information tracker/h4_INFO TRACKER")): Object 'Object Repository/15-EL HealthCheck/Inactive information tracker/h4_INFO TRACKER' is visible
+
+2023-08-10 11:49:30 - [MESSAGE][PASSED] - Object 'Object Repository/15-EL HealthCheck/Inactive information tracker/h4_INFO TRACKER' is visible
+
+2023-08-10 11:49:30 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("15-EL HealthCheck/Inactive information tracker/button_ACTIVATE")): Object 'Object Repository/15-EL HealthCheck/Inactive information tracker/button_ACTIVATE' is visible
+
+2023-08-10 11:49:30 - [MESSAGE][PASSED] - Object 'Object Repository/15-EL HealthCheck/Inactive information tracker/button_ACTIVATE' is visible
+
+2023-08-10 11:49:30 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("15-EL HealthCheck/Inactive information tracker/Activate message")): Object 'Object Repository/15-EL HealthCheck/Inactive information tracker/Activate message' is visible
+
+2023-08-10 11:49:30 - [MESSAGE][PASSED] - Object 'Object Repository/15-EL HealthCheck/Inactive information tracker/Activate message' is visible
+
+2023-08-10 11:49:30 - [TEST_STEP][PASSED] - delay(delay_3seconds): Delayed 3 second(s)
+
+2023-08-10 11:49:33 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/15-EL HealthCheck/02-Activate Info tracker" time="14.583" classname="Test Cases/15-EL HealthCheck/02-Activate Info tracker" status="PASSED">
+         <system-out><![CDATA[2023-08-10 11:49:33 - [TEST_CASE][PASSED] - Test Cases/15-EL HealthCheck/02-Activate Info tracker: Test Cases/15-EL HealthCheck/02-Activate Info tracker
+
+2023-08-10 11:49:34 - [TEST_STEP][PASSED] - click(findTestObject("15-EL HealthCheck/Inactive information tracker/button_ACTIVATE")): Object: 'Object Repository/15-EL HealthCheck/Inactive information tracker/button_ACTIVATE' is clicked on
+
+2023-08-10 11:49:34 - [MESSAGE][PASSED] - Object: 'Object Repository/15-EL HealthCheck/Inactive information tracker/button_ACTIVATE' is clicked on
+
+2023-08-10 11:49:34 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("15-EL HealthCheck/Activated information tracker/Covid-19 Information Tracker Activation Modal")): Object 'Object Repository/15-EL HealthCheck/Activated information tracker/Covid-19 Information Tracker Activation Modal' is visible
+
+2023-08-10 11:49:35 - [MESSAGE][PASSED] - Object 'Object Repository/15-EL HealthCheck/Activated information tracker/Covid-19 Information Tracker Activation Modal' is visible
+
+2023-08-10 11:49:35 - [TEST_STEP][PASSED] - delay(delay_2seconds): Delayed 2 second(s)
+
+2023-08-10 11:49:37 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-08-10 11:49:37 - [TEST_STEP][PASSED] - mouseOver(findTestObject("15-EL HealthCheck/Activated information tracker/Help_icon")): Object: 'Object Repository/15-EL HealthCheck/Activated information tracker/Help_icon' is hovered
+
+2023-08-10 11:49:37 - [MESSAGE][PASSED] - Object: 'Object Repository/15-EL HealthCheck/Activated information tracker/Help_icon' is hovered
+
+2023-08-10 11:49:37 - [TEST_STEP][PASSED] - delay(delay_2seconds): Delayed 2 second(s)
+
+2023-08-10 11:49:39 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-08-10 11:49:39 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("15-EL HealthCheck/Activated information tracker/div_Help_icon_tooltip_text")): Object 'Object Repository/15-EL HealthCheck/Activated information tracker/div_Help_icon_tooltip_text' is visible
+
+2023-08-10 11:49:40 - [MESSAGE][PASSED] - Object 'Object Repository/15-EL HealthCheck/Activated information tracker/div_Help_icon_tooltip_text' is visible
+
+2023-08-10 11:49:40 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("15-EL HealthCheck/Activated information tracker/InfoTracker_activation_SourceLink"), 10): Scroll to object 'Object Repository/15-EL HealthCheck/Activated information tracker/InfoTracker_activation_SourceLink' successfully
+
+2023-08-10 11:49:40 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/15-EL HealthCheck/Activated information tracker/InfoTracker_activation_SourceLink' successfully
+
+2023-08-10 11:49:40 - [TEST_STEP][PASSED] - click(findTestObject("15-EL HealthCheck/Activated information tracker/InfoTracker_activation_SourceLink")): Object: 'Object Repository/15-EL HealthCheck/Activated information tracker/InfoTracker_activation_SourceLink' is clicked on
+
+2023-08-10 11:49:40 - [MESSAGE][PASSED] - Object: 'Object Repository/15-EL HealthCheck/Activated information tracker/InfoTracker_activation_SourceLink' is clicked on
+
+2023-08-10 11:49:40 - [TEST_STEP][PASSED] - url = getUrl(): Current window's url is: 'https://lab.everleagues.com/main/tools/home/home'
+
+2023-08-10 11:49:40 - [MESSAGE][PASSED] - Current window's url is: 'https://lab.everleagues.com/main/tools/home/home'
+
+2023-08-10 11:49:40 - [TEST_STEP][PASSED] - url.contains("https://www.nyc.gov/assets/doh/downloads/pdf/imm/covid-19-symptom-screening-businesses.pdf"): null
+
+2023-08-10 11:49:40 - [TEST_STEP][PASSED] - closeWindowIndex(1): Window with index 1 is closed
+
+2023-08-10 11:49:41 - [MESSAGE][PASSED] - Window with index 1 is closed
+
+2023-08-10 11:49:41 - [TEST_STEP][PASSED] - switchToWindowIndex(0): Switched to window with index: '0'
+
+2023-08-10 11:49:41 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2023-08-10 11:49:41 - [TEST_STEP][PASSED] - click(findTestObject("15-EL HealthCheck/Activated information tracker/Eye_Icon")): Object: 'Object Repository/15-EL HealthCheck/Activated information tracker/Eye_Icon' is clicked on
+
+2023-08-10 11:49:41 - [MESSAGE][PASSED] - Object: 'Object Repository/15-EL HealthCheck/Activated information tracker/Eye_Icon' is clicked on
+
+2023-08-10 11:49:41 - [TEST_STEP][PASSED] - delay(delay_5seconds): Delayed 5 second(s)
+
+2023-08-10 11:49:46 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-08-10 11:49:46 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("15-EL HealthCheck/Activated information tracker/Eye_Info_Tracker_pdf_form")): Object 'Object Repository/15-EL HealthCheck/Activated information tracker/Eye_Info_Tracker_pdf_form' is visible
+
+2023-08-10 11:49:47 - [MESSAGE][PASSED] - Object 'Object Repository/15-EL HealthCheck/Activated information tracker/Eye_Info_Tracker_pdf_form' is visible
+
+2023-08-10 11:49:47 - [TEST_STEP][PASSED] - click(findTestObject("15-EL HealthCheck/Activated information tracker/Eye_Info_Tracker_Cancel_button")): Object: 'Object Repository/15-EL HealthCheck/Activated information tracker/Eye_Info_Tracker_Cancel_button' is clicked on
+
+2023-08-10 11:49:47 - [MESSAGE][PASSED] - Object: 'Object Repository/15-EL HealthCheck/Activated information tracker/Eye_Info_Tracker_Cancel_button' is clicked on
+
+2023-08-10 11:49:47 - [TEST_STEP][PASSED] - click(findTestObject("15-EL HealthCheck/Activated information tracker/InfoTracker_activation_Activate_button")): Object: 'Object Repository/15-EL HealthCheck/Activated information tracker/InfoTracker_activation_Activate_button' is clicked on
+
+2023-08-10 11:49:48 - [MESSAGE][PASSED] - Object: 'Object Repository/15-EL HealthCheck/Activated information tracker/InfoTracker_activation_Activate_button' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-08-10 11:47:07 - [TEST_SUITE][PASSED] - 15-EL HealthCheck: Test Cases/15-EL HealthCheck/02-Activate Info tracker]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
