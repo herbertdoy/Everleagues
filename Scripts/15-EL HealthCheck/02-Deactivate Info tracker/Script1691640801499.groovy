@@ -21,3 +21,11 @@ WebUI.click(findTestObject('15-EL HealthCheck/Inactive information tracker/butto
 
 WebUI.click(findTestObject('15-EL HealthCheck/Activated information tracker/InfoTracker_activation_Activate_button'))
 
+WebUI.click(findTestObject('15-EL HealthCheck/Activated information tracker/Activated info tracker_button_FORMS'))
+
+WebUI.click(findTestObject('15-EL HealthCheck/Activated information tracker/Activated info tracker_checkbox'))
+
+WebUI.click(findTestObject('15-EL HealthCheck/Activated information tracker/Activated info tracker_button_UPDATE_loop'))
+
+WebUI.verifyElementNotVisible(findTestObject('15-EL HealthCheck/Activated information tracker/Activated info tracker_button_FORMS'))
+

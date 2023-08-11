@@ -22,7 +22,7 @@
       <guid>19b8e76b-7734-433a-b74b-ab79ddc62c8f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/15-EL HealthCheck/02-Activate Info tracker</testCaseId>
+      <testCaseId>Test Cases/15-EL HealthCheck/03-Activate Info tracker</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
