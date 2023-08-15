@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Self_report_q3_NO</name>
+   <tag></tag>
+   <elementGuidId>83116529-116c-4e7f-b3ab-dd502cee6d6a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[contains(@class,'mat-focus-indicator NoButton')])[3]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>DIV</value>
+      <webElementGuid>3845d630-ad5c-4e5e-b9ed-7d8de5db4e13</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>xpath1692100145840</value>
+      <webElementGuid>ef7a1fe9-a32b-4787-af37-fba91ab653d2</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
