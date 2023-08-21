@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Assisted_report_Select_User_GGTESTER</name>
+   <tag></tag>
+   <elementGuidId>d982ca1b-4a28-4ed4-a244-f1c0fa15f095</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//mat-option[contains(@class,'mat-option mat-focus-indicator')]//span)[3]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>DIV</value>
+      <webElementGuid>4a9f9cdd-e426-4bb5-a154-4cdd1a9235d6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>xpath1692273155473</value>
+      <webElementGuid>057c3f4f-c65f-428b-aebf-27532de47cce</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

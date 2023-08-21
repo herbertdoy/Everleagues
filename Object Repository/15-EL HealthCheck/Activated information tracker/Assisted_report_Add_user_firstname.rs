@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Assisted_report_Add_user_firstname</name>
+   <tag></tag>
+   <elementGuidId>f83c4cf1-fe80-4fb6-9a60-cd2e01480ab7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//div[contains(@class,'mat-form-field-outline mat-form-field-outline-thick')]/following-sibling::div)[3]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>DIV</value>
+      <webElementGuid>203d94c5-8f38-4aca-86b5-b54a5e19b1c3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>xpath1692274365119</value>
+      <webElementGuid>251bb695-5cb6-49fd-9498-17a48187b211</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

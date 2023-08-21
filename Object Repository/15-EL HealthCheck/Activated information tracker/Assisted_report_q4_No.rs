@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Assisted_report_q4_No</name>
+   <tag></tag>
+   <elementGuidId>90c09aa9-7d6f-479c-89b8-19ac332ca1a1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>mat-dialog-container[role=&quot;dialog&quot;] div:nth-child(3) div:nth-child(2) div:nth-child(4) tr:nth-child(2) </value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>CSS</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>DIV</value>
+      <webElementGuid>941d90b9-ad24-4492-aca4-8259fc7f3a36</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>xpath1692279164976</value>
+      <webElementGuid>264ebd15-3391-46fd-8947-77f884a1cc66</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

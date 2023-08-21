@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Assisted_report_Add_user</name>
+   <tag></tag>
+   <elementGuidId>5a466842-7a53-436e-94b0-2c486fdd89a5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//mat-form-field[contains(@class,'mat-form-field casefield')]/following-sibling::button[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>DIV</value>
+      <webElementGuid>9acd144a-4203-4699-8753-7558e0ee9549</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>xpath1692273480032</value>
+      <webElementGuid>410dddaf-a1ec-4e76-84c1-67c4b5f882c1</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
