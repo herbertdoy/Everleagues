@@ -16,27 +16,4 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-import java.io.File
-
-WebUI.click(findTestObject('15-EL HealthCheck/Activated information tracker/UPDATE/Update_Download as button'))
-
-WebUI.click(findTestObject('15-EL HealthCheck/Activated information tracker/UPDATE/Update_DownloadAs_EXCELCSV'))
-
-WebUI.click(findTestObject('15-EL HealthCheck/Activated information tracker/UPDATE/Update_download_button'))
-
-
-// Assertion Steps to see if the file exists on downloads path
-def static boolean verifyFileExists(String filePath) {
-	File file = new File(filePath)
-	return file.exists() && !file.isDirectory()
-}
-
-// Verify if the file exists
-def filePath = "C:\\Users\\Personal\\Downloads\\InfoTrackerCSV.csv"
-boolean fileExists = verifyFileExists(filePath)
-
-// Perform an assertion based on the result
-assert fileExists : "File exists at path: " + filePath
-
-
 

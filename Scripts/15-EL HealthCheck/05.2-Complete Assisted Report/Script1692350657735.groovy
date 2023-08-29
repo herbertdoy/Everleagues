@@ -35,6 +35,8 @@ WebUI.click(findTestObject('15-EL HealthCheck/Activated information tracker/Assi
 
 WebUI.click(findTestObject('15-EL HealthCheck/Activated information tracker/Assisted_report_Submit_Confirmation_YES'))
 
+WebUI.click(findTestObject('15-EL HealthCheck/Activated information tracker/UPDATE/Update_View summary button'))
+
 WebUI.verifyElementVisible(findTestObject('15-EL HealthCheck/Activated information tracker/Assisted_report_Submit_Health check summary modal'))
 
 WebUI.click(findTestObject('15-EL HealthCheck/Activated information tracker/Assisted_report_Submit_Health check summary_OK'))
