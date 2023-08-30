@@ -17,3 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.click(findTestObject('16-ELNet/button_More Information'))
+
+String url = WebUI.getUrl()
+
+url.contains('www.everleagues.com/elnet')
+
+WebUI.closeWindowIndex(1)
+
