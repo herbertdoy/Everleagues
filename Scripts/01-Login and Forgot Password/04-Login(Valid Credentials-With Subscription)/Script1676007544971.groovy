@@ -68,7 +68,6 @@ WebUI.switchToWindowIndex(0)
 WebUI.delay(GlobalVariable.delay_3seconds)
 
 //WebUI.click(findTestObject('06-Teams/For 2FA/button_Confirm_2FA'))
-
 WebUI.setText(findTestObject('Object Repository/06-Teams/For 2FA/input_Enter verification code_code'), code)
 
 WebUI.delay(GlobalVariable.delay_3seconds)
@@ -76,6 +75,5 @@ WebUI.delay(GlobalVariable.delay_3seconds)
 WebUI.click(findTestObject('06-Teams/For 2FA/button_Verify_2FA'))
 
 //WebUI.verifyElementPresent(findTestObject('01-Login and Forgot Password/h4_EVERLEAGUES (v0.11.16 build 324)'), 0) 
-WebUI.delay(GlobalVariable.delay_3seconds)
-
+WebUI.delay(GlobalVariable.delay_5seconds)
 

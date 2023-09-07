@@ -17,6 +17,12 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.refresh()
+
+WebUI.click(findTestObject('12-AI Assistant(beta)/AI asst button-Side panel'))
+
+WebUI.click(findTestObject('12-AI Assistant(beta)/12.1-Chat GPT(beta)/Chat GPT (beta)'))
+
 WebUI.click(findTestObject('12-AI Assistant(beta)/12.1-Chat GPT(beta)/Use my ownChatGPT account'))
 
 /*WebUI.executeJavaScript('window.open();', [])

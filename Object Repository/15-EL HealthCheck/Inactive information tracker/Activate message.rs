@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='COVID-19 Information Tracker'])[1]/following::table[3]</value>
+         <value>//mat-dialog-container[@id='mat-dialog-0']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>table</value>
-      <webElementGuid>322e687d-37d6-4090-ab62-181d28101164</webElementGuid>
+      <webElementGuid>ee374592-f836-4161-99c6-772124baaf6c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>trackertable</value>
-      <webElementGuid>ac3224cf-d372-4532-8995-9d88081b2ed0</webElementGuid>
+      <webElementGuid>5032d347-d830-4297-a514-996e78691b9b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value> Your organization is currently not activated to use Information Tracking Business function. Please click ACTIVATE button to activate it. </value>
-      <webElementGuid>21cc605d-38fb-4d11-a75e-d9be9d8c4d66</webElementGuid>
+      <webElementGuid>fbcee3d4-1429-414a-b356-bd63255981bc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/app-root[1]/app-main-page[@class=&quot;ng-tns-c503-0 ng-trigger ng-trigger-routerAnimation ng-star-inserted&quot;]/mat-sidenav-container[@class=&quot;mat-drawer-container mat-sidenav-container ng-tns-c503-0&quot;]/mat-sidenav-content[@class=&quot;mat-drawer-content mat-sidenav-content&quot;]/div[@class=&quot;wrapper&quot;]/app-infotracker[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;ng-star-inserted&quot;]/table[@class=&quot;trackertable&quot;]</value>
-      <webElementGuid>7a5f5d8d-5437-4b98-892d-770f92113460</webElementGuid>
+      <webElementGuid>1dc5bf14-14ee-4dbb-bdb2-9c15f2987550</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='COVID-19 Information Tracker'])[1]/following::table[3]</value>
-      <webElementGuid>2605257b-7d3f-4321-9e85-6f6cc66e4087</webElementGuid>
+      <webElementGuid>5bf0cdca-2c21-4297-b353-ee42e0c166ac</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Hide Quick Shortcuts'])[1]/preceding::table[1]</value>
-      <webElementGuid>bcf384f2-b6cc-483b-9efd-f4094bd4e305</webElementGuid>
+      <webElementGuid>c397734c-bdcc-4b41-80a8-27e20737d905</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/table</value>
-      <webElementGuid>ae0671a8-7701-4d82-90f2-1d6b2d0e7978</webElementGuid>
+      <webElementGuid>2197d36c-d2bf-4f2f-98fc-f6d1e1f289fb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,6 +78,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//table[(text() = ' Your organization is currently not activated to use Information Tracking Business function. Please click ACTIVATE button to activate it. ' or . = ' Your organization is currently not activated to use Information Tracking Business function. Please click ACTIVATE button to activate it. ')]</value>
-      <webElementGuid>7482b115-c8cf-4fea-a73d-3289f3a1a94c</webElementGuid>
+      <webElementGuid>95f5bb15-7b73-44b2-8913-68facaa62685</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
