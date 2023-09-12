@@ -11,10 +11,14 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//button[@type='button'])[10]</value>
+         <value>//div[@class='assign-controls']//button[1]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//button[@type = 'button' and (text() = 'arrow_back Assign ' or . = 'arrow_back Assign ')]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>b71d34f7-30c7-4512-a449-43780ffd8ef0</webElementGuid>
+      <webElementGuid>02d706db-7fab-4293-b9fb-14f1580ed4a6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +34,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>a31f9e59-f3f6-4534-9c18-b8d4375dc061</webElementGuid>
+      <webElementGuid>5304816c-7952-4489-bb08-652f8d967c9f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +42,7 @@
       <name>color</name>
       <type>Main</type>
       <value>primary</value>
-      <webElementGuid>56d45f95-b757-4fe3-a372-42f4f8e4da5a</webElementGuid>
+      <webElementGuid>03a8bffe-0259-4811-a03e-6ee69745386a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +50,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-focus-indicator push-bottom-lg mat-raised-button mat-button-base mat-primary cdk-focused cdk-mouse-focused</value>
-      <webElementGuid>db2961a3-309b-4db6-bd90-2e00a343dd75</webElementGuid>
+      <webElementGuid>d8fed237-de5b-4f4c-aa0b-3e36a86dd6ba</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +58,7 @@
       <name>ng-reflect-color</name>
       <type>Main</type>
       <value>primary</value>
-      <webElementGuid>e9335061-9926-4fc4-b410-53a61c39ee76</webElementGuid>
+      <webElementGuid>1b4565f3-4a24-4ee8-9e71-4259d065be7c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +66,7 @@
       <name>ng-reflect-disabled</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>d656cedc-5a39-443a-851c-d8d4b388c6ad</webElementGuid>
+      <webElementGuid>adbea092-b8bf-4d16-9fd4-ebb0e44d6a4e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -70,7 +74,7 @@
       <name>text</name>
       <type>Main</type>
       <value>arrow_back Assign </value>
-      <webElementGuid>b2a91406-5918-45d5-88f0-ae31c0a48318</webElementGuid>
+      <webElementGuid>429c89d6-c7d7-40b0-ae15-c8ab196045b1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,7 +82,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-tab-content-2-0&quot;)/div[@class=&quot;mat-tab-body-content ng-tns-c361-105 ng-trigger ng-trigger-translateTab&quot;]/app-client-assign-by-employee[@class=&quot;tab-container ng-star-inserted&quot;]/div[@class=&quot;assign-controls&quot;]/button[@class=&quot;mat-focus-indicator push-bottom-lg mat-raised-button mat-button-base mat-primary cdk-focused cdk-mouse-focused&quot;]</value>
-      <webElementGuid>248e696b-63d7-432b-9434-3173444cad57</webElementGuid>
+      <webElementGuid>aa6d1f9a-283c-41e2-9893-2623d4f14a66</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -86,7 +90,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[10]</value>
-      <webElementGuid>72b9cd75-64b1-44f6-b543-79376ca00b09</webElementGuid>
+      <webElementGuid>8861658d-eb3e-49d1-b282-9dcc04ada616</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +98,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-tab-body[@id='mat-tab-content-2-0']/div/app-client-assign-by-employee/div[3]/button</value>
-      <webElementGuid>4d795594-d462-47c0-9d3b-ed61f36416d6</webElementGuid>
+      <webElementGuid>5592b001-f32e-4423-82e3-e0398766047b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +106,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Assigned Clients'])[1]/following::button[3]</value>
-      <webElementGuid>e36740a2-8e48-4676-a5c5-e2a59f8a491a</webElementGuid>
+      <webElementGuid>c47aea92-123f-4bd7-84b1-82b106d192dd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +114,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='GG tester 2'])[1]/following::button[3]</value>
-      <webElementGuid>6e6fd5af-0526-4b57-a384-ce6c775be4b6</webElementGuid>
+      <webElementGuid>e27ce663-7a2c-4883-ae53-6db6ffe20d85</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +122,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//app-client-assign-by-employee/div[3]/button</value>
-      <webElementGuid>f1d83e37-be57-41b4-98ca-1897dca1cc8d</webElementGuid>
+      <webElementGuid>53c7eb06-6c4e-4935-89cd-8a76f6d5c72d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,6 +130,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = 'arrow_back Assign ' or . = 'arrow_back Assign ')]</value>
-      <webElementGuid>d8af9435-e274-4a11-99c3-49f934e78566</webElementGuid>
+      <webElementGuid>a0547c94-190f-4fd9-8ef0-a4fca0a5e72a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

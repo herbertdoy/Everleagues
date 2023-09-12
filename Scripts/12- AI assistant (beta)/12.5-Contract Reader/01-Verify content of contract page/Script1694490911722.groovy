@@ -37,13 +37,17 @@ WebUI.verifyElementVisible(findTestObject('02-Side Icons(Organization)/Add Conta
 
 WebUI.delay(GlobalVariable.delay_5seconds)
 
-WebUI.click(findTestObject('16-ELNet/Sidemenu_ELNet button'))
+WebUI.scrollToElement(findTestObject('12-AI Assistant(beta)/AI asst button-Side panel'), 30)
 
-WebUI.delay(4)
+WebUI.click(findTestObject('12-AI Assistant(beta)/AI asst button-Side panel'))
 
-WebUI.verifyElementVisible(findTestObject('16-ELNet/ELNet content'))
+WebUI.verifyElementVisible(findTestObject('12-AI Assistant(beta)/AI asst button-Side panel'))
 
-WebUI.click(findTestObject('16-ELNet/button_Purchase'))
+WebUI.delay(GlobalVariable.delay_3seconds)
 
-WebUI.verifyElementVisible(findTestObject('16-ELNet/Purchase_Subscription page'))
+WebUI.click(findTestObject('12-AI Assistant(beta)/12.5 - Contract Page/contract reader'))
+
+WebUI.verifyElementVisible(findTestObject('12-AI Assistant(beta)/12.5 - Contract Page/contract content here'))
+
+WebUI.verifyElementVisible(findTestObject('12-AI Assistant(beta)/12.5 - Contract Page/generate summary'))
 

@@ -6,14 +6,18 @@
    <elementGuidId>21f8b3ae-a5d0-40ce-8bdd-c010dae8d5b8</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+         <value>button.mat-focus-indicator.mat-raised-button.mat-button-base</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[contains(@class,'mat-focus-indicator mat-raised-button')])[2]</value>
+      </entry>
+      <entry>
          <key>BASIC</key>
          <value></value>
       </entry>
-      <entry>
-         <key>CSS</key>
-         <value>.cdk-overlay-container div:nth-child(4) .dialog-container div[mat-dialog-actions] .mat-focus-indicator .mat-button-wrapper</value>
-      </entry>
    </selectorCollection>
-   <selectorMethod>CSS</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
 </WebElementEntity>

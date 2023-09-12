@@ -13,8 +13,12 @@
          <key>XPATH</key>
          <value>//mat-tab-body[@id='mat-tab-content-7-0']/div/app-ezsign-senderdocuments/div/div[2]/table/tr[3]/td/div</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[@class = 'uploadfilecontainer' and (text() = 'Drag and drop or Upload PDF or Word document here' or . = 'Drag and drop or Upload PDF or Word document here')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>CSS</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>eb14c62f-d748-429a-8a9a-52eca7941d98</webElementGuid>
+      <webElementGuid>ce44fa34-754e-45d8-89b5-b35ab828b6d5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>uploadfilecontainer</value>
-      <webElementGuid>424d106d-f408-4d94-b469-03986624e0ba</webElementGuid>
+      <webElementGuid>231d43a1-b295-4909-9aac-7fd4bd0ee8a2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +42,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Drag and drop or Upload PDF or Word document here</value>
-      <webElementGuid>eaca06bc-80c8-4c8b-b9f2-6f06a73b177f</webElementGuid>
+      <webElementGuid>11810be1-9b6c-4814-a2ac-6dff43627580</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +50,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-tab-content-7-0&quot;)/div[@class=&quot;mat-tab-body-content ng-tns-c361-198 ng-trigger ng-trigger-translateTab&quot;]/app-ezsign-senderdocuments[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;ng-star-inserted&quot;]/table[@class=&quot;trackertable&quot;]/tr[3]/td[1]/div[@class=&quot;uploadfilecontainer&quot;]</value>
-      <webElementGuid>997b9a20-d536-434c-a627-cbe31dce7b5e</webElementGuid>
+      <webElementGuid>b301288c-ff49-471f-b225-ffab169f0cda</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +58,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-tab-body[@id='mat-tab-content-7-0']/div/app-ezsign-senderdocuments/div/div[2]/table/tr[3]/td/div</value>
-      <webElementGuid>4cf9320d-f7bf-4b4f-bc48-cab613ce8a69</webElementGuid>
+      <webElementGuid>09dc9c7f-5d05-4318-9aeb-8315f1abc93b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +66,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Send Invites'])[1]/following::div[6]</value>
-      <webElementGuid>b78ca75b-a1f8-4b12-84f2-dd5e8d3323cc</webElementGuid>
+      <webElementGuid>2b4640aa-9c45-4430-8dca-715a578c5094</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Hide Quick Shortcuts'])[1]/preceding::div[17]</value>
-      <webElementGuid>4b47df0a-2c10-4fce-a716-3e7a4a152e81</webElementGuid>
+      <webElementGuid>cab642d7-cf61-4fa8-9525-ee90dddb97f8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +82,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td/div</value>
-      <webElementGuid>c6870239-b714-49e0-8fb2-90736a471eb7</webElementGuid>
+      <webElementGuid>beb4688e-754b-4f5a-a7ac-265dd295c23c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,6 +90,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = 'Drag and drop or Upload PDF or Word document here' or . = 'Drag and drop or Upload PDF or Word document here')]</value>
-      <webElementGuid>acb57f67-7394-4912-b29b-eb283d170679</webElementGuid>
+      <webElementGuid>f0e1c9e2-451e-4c38-9512-8f21c70f4042</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
