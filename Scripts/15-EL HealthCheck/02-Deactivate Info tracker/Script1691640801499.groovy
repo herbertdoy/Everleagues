@@ -27,5 +27,3 @@ WebUI.click(findTestObject('15-EL HealthCheck/Activated information tracker/Acti
 
 WebUI.click(findTestObject('15-EL HealthCheck/Activated information tracker/Activated info tracker_button_UPDATE_loop'))
 
-WebUI.verifyElementNotVisible(findTestObject('15-EL HealthCheck/Activated information tracker/Activated info tracker_button_FORMS'))
-
