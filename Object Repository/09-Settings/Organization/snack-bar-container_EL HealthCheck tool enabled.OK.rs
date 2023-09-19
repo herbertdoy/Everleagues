@@ -6,6 +6,10 @@
    <elementGuidId>4c0bb27e-798b-4d01-88c7-fc2b6eafdb8b</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+         <value>snack-bar-container.mat-snack-bar-container.ng-tns-c41-122.ng-trigger.ng-trigger-state.mat-snack-bar-center.ng-star-inserted</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//snack-bar-container[(text() = 'EL HealthCheck tool enabled.OK' or . = 'EL HealthCheck tool enabled.OK')]</value>
       </entry>
@@ -13,12 +17,8 @@
          <key>BASIC</key>
          <value>//snack-bar-container[@role = 'status' and (text() = 'EL HealthCheck tool enabled.OK' or . = 'EL HealthCheck tool enabled.OK')]</value>
       </entry>
-      <entry>
-         <key>CSS</key>
-         <value>snack-bar-container.mat-snack-bar-container.ng-tns-c41-122.ng-trigger.ng-trigger-state.mat-snack-bar-center.ng-star-inserted</value>
-      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -26,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>snack-bar-container</value>
-      <webElementGuid>a1950643-16eb-477b-bcaa-f9934a9991d2</webElementGuid>
+      <webElementGuid>8c5bc66c-7404-4088-b4d6-52947a53dff5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -34,7 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-snack-bar-container ng-tns-c41-122 ng-trigger ng-trigger-state mat-snack-bar-center ng-star-inserted</value>
-      <webElementGuid>8a60b9fb-048c-445c-9ad1-23b4ec7615fa</webElementGuid>
+      <webElementGuid>b563fae1-0044-4561-8cc1-6083b4605906</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -42,7 +42,7 @@
       <name>role</name>
       <type>Main</type>
       <value>status</value>
-      <webElementGuid>008a5230-25c0-4463-b436-176fd8d4ea4e</webElementGuid>
+      <webElementGuid>848d7b3b-20fb-4d5d-b07c-be88ad27401d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -50,7 +50,7 @@
       <name>text</name>
       <type>Main</type>
       <value>EL HealthCheck tool enabled.OK</value>
-      <webElementGuid>e95b9121-5c6f-4af6-b9db-046cce22d24e</webElementGuid>
+      <webElementGuid>3eb0c432-6981-4072-8b80-9750fe2a6044</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -58,7 +58,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;cdk-overlay-18&quot;)/snack-bar-container[@class=&quot;mat-snack-bar-container ng-tns-c41-122 ng-trigger ng-trigger-state mat-snack-bar-center ng-star-inserted&quot;]</value>
-      <webElementGuid>01d6a72e-6fcd-4a0b-9b87-9e15a6da866c</webElementGuid>
+      <webElementGuid>eec854d3-7d32-462d-94e5-2ceaf7097b3d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -66,7 +66,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='cdk-overlay-18']/snack-bar-container</value>
-      <webElementGuid>884587f7-5a1f-4587-9e5a-813e8199dc02</webElementGuid>
+      <webElementGuid>4205979d-939c-443d-95b4-376586ab2495</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -74,7 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Edit image'])[1]/following::snack-bar-container[1]</value>
-      <webElementGuid>6a81d016-f037-41b0-95b8-b92835bcf13e</webElementGuid>
+      <webElementGuid>4389f21e-ac5a-4968-a50c-1c35f5772ffc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Client Assignment'])[2]/following::snack-bar-container[1]</value>
-      <webElementGuid>3a021809-1e31-4988-8767-53e8f17e2631</webElementGuid>
+      <webElementGuid>87cb0990-74ff-4fbc-943e-4eb0a1ca917f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -90,7 +90,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//snack-bar-container</value>
-      <webElementGuid>bb71aeb5-0ba9-42e2-8112-a23b6a0dfeaa</webElementGuid>
+      <webElementGuid>6e04d525-f005-47ee-8c86-52e73d82c0cc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,6 +98,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//snack-bar-container[(text() = 'EL HealthCheck tool enabled.OK' or . = 'EL HealthCheck tool enabled.OK')]</value>
-      <webElementGuid>e3672721-4109-4ed7-8955-4254141b6a8a</webElementGuid>
+      <webElementGuid>6c53202a-b944-4d2b-8dd7-04f83aec557b</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

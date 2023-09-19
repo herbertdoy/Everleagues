@@ -7,14 +7,18 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>button.mat-focus-indicator.mat-tooltip-trigger.mat-raised-button.mat-button-base.mat-accent</value>
+         <value>button.mat-focus-indicator.text-upper.mat-raised-button.mat-button-base.mat-accent.ng-star-inserted</value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>(.//*[normalize-space(text()) and normalize-space(.)='COVID-19 Information Tracker'])[1]/following::button[1]</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'check_circle ACTIVATE ' or . = 'check_circle ACTIVATE ')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>77d79615-1f68-476a-97ae-de5e0eaf1131</webElementGuid>
+      <webElementGuid>38135e28-2291-450a-ae00-79835a04b174</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +34,7 @@
       <name>color</name>
       <type>Main</type>
       <value>accent</value>
-      <webElementGuid>177b0fab-c8ca-4f5a-8084-f5918b78799f</webElementGuid>
+      <webElementGuid>5d0835ab-d910-495e-ba52-795bbf4c716b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +42,7 @@
       <name>mattooltip</name>
       <type>Main</type>
       <value>Activate</value>
-      <webElementGuid>6474e31f-b34a-4994-abc4-26112e8034f1</webElementGuid>
+      <webElementGuid>233aa96b-749f-414b-80f1-a24917517b11</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +50,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-focus-indicator mat-tooltip-trigger mat-raised-button mat-button-base mat-accent</value>
-      <webElementGuid>ebe021f1-cf21-4a3a-9a92-d964e03a4ef9</webElementGuid>
+      <webElementGuid>7950cb69-2131-4a1b-b3d9-6f3d9e8f5d2a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +58,7 @@
       <name>ng-reflect-color</name>
       <type>Main</type>
       <value>accent</value>
-      <webElementGuid>2ba0ca4f-5b59-4271-8143-ce724adb6a6f</webElementGuid>
+      <webElementGuid>93c7cd86-4580-4d0c-b790-dc2254dcd824</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +66,7 @@
       <name>ng-reflect-message</name>
       <type>Main</type>
       <value>Activate</value>
-      <webElementGuid>7136d82c-a3d0-49d9-880b-776f7b1b6f25</webElementGuid>
+      <webElementGuid>ea8d803a-3a87-43e7-a5d7-581720c15236</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +74,7 @@
       <name>aria-describedby</name>
       <type>Main</type>
       <value>cdk-describedby-message-jqo-1-6</value>
-      <webElementGuid>21fd1807-d93d-4707-b04c-231de480ee72</webElementGuid>
+      <webElementGuid>f9fd8c93-294f-482e-8160-4dd352d49991</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,7 +82,7 @@
       <name>cdk-describedby-host</name>
       <type>Main</type>
       <value>jqo-1</value>
-      <webElementGuid>ddf60b8d-f989-4f53-a16a-911f787fecb5</webElementGuid>
+      <webElementGuid>a0828519-6386-4860-9f6b-704a575c5956</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -86,7 +90,7 @@
       <name>text</name>
       <type>Main</type>
       <value>check_circle ACTIVATE </value>
-      <webElementGuid>7da0ed66-a3f4-4a7e-b8d6-be8a284f6b45</webElementGuid>
+      <webElementGuid>6d24711c-3cf1-4f28-875f-1ea4b7e3471a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -94,7 +98,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/app-root[1]/app-main-page[@class=&quot;ng-tns-c503-0 ng-trigger ng-trigger-routerAnimation ng-star-inserted&quot;]/mat-sidenav-container[@class=&quot;mat-drawer-container mat-sidenav-container ng-tns-c503-0&quot;]/mat-sidenav-content[@class=&quot;mat-drawer-content mat-sidenav-content&quot;]/div[@class=&quot;wrapper&quot;]/app-infotracker[@class=&quot;ng-star-inserted&quot;]/table[@class=&quot;trackertable5&quot;]/tr[1]/td[@class=&quot;ng-star-inserted&quot;]/button[@class=&quot;mat-focus-indicator mat-tooltip-trigger mat-raised-button mat-button-base mat-accent&quot;]</value>
-      <webElementGuid>698f26df-762b-4dee-92bb-0e2688496b6d</webElementGuid>
+      <webElementGuid>b080c1ce-c059-41f7-a7c8-46828563ba59</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -102,7 +106,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='COVID-19 Information Tracker'])[1]/following::button[1]</value>
-      <webElementGuid>ec40bc86-9d94-432e-9adb-ae18be33cf47</webElementGuid>
+      <webElementGuid>ad3e17c5-ea1a-4a2d-ae01-10fb924d9af8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +114,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='GG TESTER'])[1]/following::button[1]</value>
-      <webElementGuid>0f1b7b5f-6457-4443-8baa-403d7714d1b6</webElementGuid>
+      <webElementGuid>9a3da3f3-dfcf-41a8-8b8c-4c3c4cd9d694</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +122,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='ACTIVATE'])[1]/preceding::button[1]</value>
-      <webElementGuid>7772101f-6ed0-4e6a-b022-62d69fb1c6fd</webElementGuid>
+      <webElementGuid>e16269c5-ec0b-42e3-aad7-12b1a795bee1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,7 +130,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td/button</value>
-      <webElementGuid>4803d733-dbad-4da8-9f14-480367ab4594</webElementGuid>
+      <webElementGuid>c87aff2c-54c8-4b56-94a1-6fe436586ef0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,6 +138,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[(text() = 'check_circle ACTIVATE ' or . = 'check_circle ACTIVATE ')]</value>
-      <webElementGuid>ad5b2649-4101-4923-a09b-5ffbace71b6b</webElementGuid>
+      <webElementGuid>2ea4809e-3b12-483b-b7b8-06155707d86c</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
