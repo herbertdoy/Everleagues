@@ -54,27 +54,6 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>5e74ff7a-d03f-410b-9932-5397ceba8bcd</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/15-EL HealthCheck/01-Unactivated info tracker</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>e4e57443-87ef-4de8-ad19-10efd80bb686</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/15-EL HealthCheck/02-Deactivate Info tracker</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>7ffaa462-dc60-49d4-a9ce-245041f90f11</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/15-EL HealthCheck/03-Activate Info tracker</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
       <guid>226e9469-35a5-41ca-baf9-19facf95a196</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>

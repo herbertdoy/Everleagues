@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//label[@for='mat-slide-toggle-7-input']//span)[1]</value>
+         <value>(//label[@for='mat-slide-toggle-8-input']//span)[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -18,7 +18,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>DIV</value>
-      <webElementGuid>eed57559-9e52-47c9-9771-f257edf9334b</webElementGuid>
+      <webElementGuid>6b0958c1-8c78-49e3-bf27-9902a0f3d424</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -26,6 +26,6 @@
       <name>xpath</name>
       <type>Main</type>
       <value>xpath1665647178393</value>
-      <webElementGuid>bb79b693-267a-4f1e-b488-0906d6bce147</webElementGuid>
+      <webElementGuid>45574302-eeea-4ecf-b867-ba6fc5b9d717</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_UPDATE_mat-checkbox-inner-container mat-checkbox-inner-container-no-side-margin</name>
+   <tag></tag>
+   <elementGuidId>d73c2b8c-b7e3-4675-a29d-c4b07c2bedbf</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>span.mat-checkbox-inner-container.mat-checkbox-inner-container-no-side-margin</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//mat-checkbox[@id='mat-checkbox-3']/label/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>CSS</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>5a3ee911-5d20-43f9-ba55-11338162a474</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-checkbox-inner-container mat-checkbox-inner-container-no-side-margin</value>
+      <webElementGuid>54694552-d7e7-4c00-b796-c39f4f670517</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mat-checkbox-3&quot;)/label[@class=&quot;mat-checkbox-layout&quot;]/span[@class=&quot;mat-checkbox-inner-container mat-checkbox-inner-container-no-side-margin&quot;]</value>
+      <webElementGuid>2323a797-7c31-461c-a5fd-fd27a7da9c56</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//mat-checkbox[@id='mat-checkbox-3']/label/span</value>
+      <webElementGuid>413677e0-0fdd-43c0-b0af-43901605eab3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='UPDATE'])[2]/following::span[1]</value>
+      <webElementGuid>5a5c64b0-b531-4b74-bfd1-1f7435b3bf42</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Form'])[1]/following::span[1]</value>
+      <webElementGuid>9165de93-e034-426a-aa4d-4e49269fb0f3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='(Source)'])[1]/preceding::span[8]</value>
+      <webElementGuid>ac590d6b-44a8-45aa-b422-984227c1868a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//label/span</value>
+      <webElementGuid>3d3d750b-87e3-47d4-b120-bc63e237a8bb</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

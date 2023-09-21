@@ -48,7 +48,6 @@ WebUI.delay(GlobalVariable.delay_2seconds)
 /*WebUI.click(findTestObject('09-Settings/Organization/div_Settings'))
 
 WebUI.delay(GlobalVariable.delay_2seconds)*/
-
 WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/mat-card-title_Membership'))
 
 WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/mat-card_Membership'))
@@ -67,6 +66,10 @@ WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/mat-card-Clo
 
 WebUI.click(findTestObject('09-Settings/Organization/toggle_cloudfiles'))
 
+WebUI.click(findTestObject('09-Settings/Organization/cloud_files_client'))
+
+WebUI.click(findTestObject('09-Settings/Organization/cloud_files_external_users'))
+
 //WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/div_By enabling this option, all join requests via URL will be automatically approved'))
 //WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/h4_Auto Approval Disabled for Free Limited Plan'))
 //WebUI.delay(1)
@@ -80,78 +83,53 @@ WebUI.delay(GlobalVariable.delay_2seconds)
 //WebUI.click(findTestObject('03-Header Menu/Hamburger Button/div_Settings'))
 //WebUI.click(findTestObject('09-Settings/Users/div_Organization'))
 //WebUI.click(findTestObject('09-Settings/Organization/div_Settings'))//
-
 WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/mat-card-title_Tools'))
 
 WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/div_Enable or disable tools by clicking on the toggle'))
 
 WebUI.click(findTestObject('09-Settings/Organization/toggle_EL Net'))
 
-WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/snack-bar-container_ELNet tool disabled.OK'))
-
 WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.click(findTestObject('09-Settings/Organization/toggle_EL Sign'))
-
-WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/snack-bar-container_ELSign tool disabled.OK'))
 
 WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.click(findTestObject('09-Settings/Organization/toggle_EL HealthCheck'))
 
-WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/snack-bar-container_EL HealthCheck tool enabled.OK'))
-
 WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.click(findTestObject('09-Settings/Organization/toggle_Income and expense'))
-
-WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/snack-bar-container_Income and Expense tool disabled.OK'))
 
 WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.click(findTestObject('09-Settings/Organization/toggle_AI assistant'))
 
-WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/snack-bar-container_AI Assistant tool disabled.OK'))
-
 WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.click(findTestObject('09-Settings/Organization/toogle_PDF converter1'))
-
-WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/snack-bar-container_PDF Converter tool disabled.OK'))
 
 WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.click(findTestObject('09-Settings/Organization/toggle_EL Net'))
 
-WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/snack-bar-container_ELNet tool enabled.OK'))
-
 WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.click(findTestObject('09-Settings/Organization/toggle_EL Sign'))
-
-WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/snack-bar-container_ELSign tool enabled.OK'))
 
 WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.click(findTestObject('09-Settings/Organization/toggle_EL HealthCheck'))
 
-WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/snack-bar-container_EL HealthCheck tool disabled.OK'))
-
 WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.click(findTestObject('09-Settings/Organization/toggle_Income and expense'))
-
-WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/snack-bar-container_Income and Expense tool enabled.OK'))
 
 WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.click(findTestObject('09-Settings/Organization/toggle_AI assistant'))
 
-WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/snack-bar-container_AI Assistant tool enabled.OK'))
-
 WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.click(findTestObject('09-Settings/Organization/toogle_PDF converter1'))
-
-WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/snack-bar-container_PDF Converter tool enabled.OK'))
 

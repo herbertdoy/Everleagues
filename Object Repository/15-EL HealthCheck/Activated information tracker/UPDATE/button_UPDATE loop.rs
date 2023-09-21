@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_UPDATE loop</name>
+   <tag></tag>
+   <elementGuidId>0593fa44-9eb3-4abd-8133-48d0a1703ee8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.mat-focus-indicator.text-upper.mat-raised-button.mat-button-base.mat-accent.ng-star-inserted</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//mat-dialog-container[@id='mat-dialog-1']/app-formassignment/div[4]/div/span/button</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>d45e9b61-9b11-4482-b1a3-f6efc4b497b9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>color</name>
+      <type>Main</type>
+      <value>accent</value>
+      <webElementGuid>91f6d1eb-2bc8-4259-8232-61d8825c2267</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-focus-indicator text-upper mat-raised-button mat-button-base mat-accent ng-star-inserted</value>
+      <webElementGuid>473380d0-a33f-4b64-8759-0f05281e328f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-reflect-color</name>
+      <type>Main</type>
+      <value>accent</value>
+      <webElementGuid>0537337f-b68e-4c89-b86f-f1b73534efb6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> UPDATE loop</value>
+      <webElementGuid>ec74bace-f3a4-432d-8af4-827309cec120</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mat-dialog-1&quot;)/app-formassignment[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;button-row ng-star-inserted&quot;]/div[1]/span[@class=&quot;ng-star-inserted&quot;]/button[@class=&quot;mat-focus-indicator text-upper mat-raised-button mat-button-base mat-accent ng-star-inserted&quot;]</value>
+      <webElementGuid>66d26f7f-273c-41ee-afcc-169fcf530a01</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//mat-dialog-container[@id='mat-dialog-1']/app-formassignment/div[4]/div/span/button</value>
+      <webElementGuid>1c8ef859-3197-4e98-a4c2-ccfc85483409</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='CANCEL'])[1]/following::button[1]</value>
+      <webElementGuid>65c44a79-8083-4b72-9ef5-51692ec59c3d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='(Source)'])[1]/following::button[3]</value>
+      <webElementGuid>0ca86f18-e8f1-4482-88b4-6a0a89b3af1d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::button[1]</value>
+      <webElementGuid>80041447-0d90-4d59-83fe-a521c668cdf8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/span/button</value>
+      <webElementGuid>221924d3-cf5d-4e23-b932-f6da1561b2ed</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = ' UPDATE loop' or . = ' UPDATE loop')]</value>
+      <webElementGuid>b9af8a8f-43c8-4e75-9309-c3feef8c61a1</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

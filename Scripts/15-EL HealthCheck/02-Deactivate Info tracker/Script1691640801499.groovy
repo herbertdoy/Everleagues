@@ -17,13 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('15-EL HealthCheck/Inactive information tracker/button_ACTIVATE'))
+WebUI.click(findTestObject('15-EL HealthCheck/Inactive information tracker/button_descriptionFORMS'))
 
-WebUI.click(findTestObject('15-EL HealthCheck/Activated information tracker/InfoTracker_activation_Activate_button'))
+WebUI.click(findTestObject('15-EL HealthCheck/Activated information tracker/UPDATE/button_UPDATE loop'))
 
-WebUI.click(findTestObject('15-EL HealthCheck/Activated information tracker/Activated info tracker_button_FORMS'))
+WebUI.click(findTestObject('15-EL HealthCheck/Inactive information tracker/span_UPDATE_mat-checkbox-inner-container mat-checkbox-inner-container-no-side-margin'))
 
-WebUI.click(findTestObject('15-EL HealthCheck/Activated information tracker/Activated info tracker_checkbox'))
-
-WebUI.click(findTestObject('15-EL HealthCheck/Activated information tracker/Activated info tracker_button_UPDATE_loop'))
+WebUI.click(findTestObject('15-EL HealthCheck/Activated information tracker/UPDATE/button_UPDATE loop'))
 

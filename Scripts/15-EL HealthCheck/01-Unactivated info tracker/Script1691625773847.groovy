@@ -46,9 +46,9 @@ WebUI.click(findTestObject('15-EL HealthCheck/Inactive information tracker/butto
 
 WebUI.verifyElementVisible(findTestObject('15-EL HealthCheck/Inactive information tracker/h4_INFO TRACKER'))
 
-WebUI.verifyElementVisible(findTestObject('15-EL HealthCheck/Inactive information tracker/button_ACTIVATE'))
+WebUI.verifyElementVisible(findTestObject('15-EL HealthCheck/Inactive information tracker/button_descriptionFORMS'))
 
-WebUI.click(findTestObject('15-EL HealthCheck/Inactive information tracker/button_ACTIVATE'))
+WebUI.click(findTestObject('15-EL HealthCheck/Inactive information tracker/button_descriptionFORMS'))
 
 WebUI.verifyElementVisible(findTestObject('15-EL HealthCheck/Inactive information tracker/Activate message'))
 
