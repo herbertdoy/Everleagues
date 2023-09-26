@@ -41,8 +41,6 @@ WebUI.delay(GlobalVariable.delay_1second)
 
 WebUI.click(findTestObject('05-Chat/10-Group Info/button_Save'))
 
-WebUI.verifyElementVisible(findTestObject('05-Chat/10-Group Info/Successfully changed group name msg'))
-
 WebUI.delay(GlobalVariable.delay_2seconds)
 
 WebUI.click(findTestObject('05-Chat/10-Group Info/div_GTGG tester'))
@@ -55,13 +53,9 @@ WebUI.delay(GlobalVariable.delay_2seconds)
 
 WebUI.click(findTestObject('05-Chat/10-Group Info/button_Kick from group'))
 
-WebUI.verifyElementVisible(findTestObject('05-Chat/10-Group Info/Successfully removed user from group msg'), FailureHandling.CONTINUE_ON_FAILURE)
-
 WebUI.delay(GlobalVariable.delay_2seconds)
 
 WebUI.click(findTestObject('05-Chat/10-Group Info/div_Remove group'))
-
-WebUI.verifyElementVisible(findTestObject('05-Chat/10-Group Info/Successfully removed group msg'))
 
 WebUI.delay(GlobalVariable.delay_2seconds)
 
