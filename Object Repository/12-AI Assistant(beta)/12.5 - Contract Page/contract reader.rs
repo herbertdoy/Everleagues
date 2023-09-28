@@ -6,12 +6,11 @@
    <elementGuidId>090f1532-2676-4f92-b7bd-66601da6f721</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//div[text()='Contract Reader (beta) ']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[text()='Contract Reader ']</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -6,12 +6,12 @@
    <elementGuidId>09262ff6-b79e-444d-a2f0-65917542ba4d</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>button.mat-focus-indicator.push-bottom-lg.mat-raised-button.mat-button-base.mat-primary.cdk-focused.cdk-mouse-focused</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@class='assign-controls']//button[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.mat-focus-indicator.push-bottom-lg.mat-raised-button.mat-button-base.mat-primary.cdk-focused.cdk-mouse-focused</value>
       </entry>
       <entry>
          <key>BASIC</key>
@@ -26,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>02d706db-7fab-4293-b9fb-14f1580ed4a6</webElementGuid>
+      <webElementGuid>4ef530a1-7f23-4696-987b-1de61da75fc8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -34,7 +34,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>5304816c-7952-4489-bb08-652f8d967c9f</webElementGuid>
+      <webElementGuid>0e9d588e-cafe-4b46-9ce2-18441575dfb4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,7 +42,7 @@
       <name>color</name>
       <type>Main</type>
       <value>primary</value>
-      <webElementGuid>03a8bffe-0259-4811-a03e-6ee69745386a</webElementGuid>
+      <webElementGuid>605d7ad6-b7d6-426d-98cc-a7650f86a402</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,7 +50,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-focus-indicator push-bottom-lg mat-raised-button mat-button-base mat-primary cdk-focused cdk-mouse-focused</value>
-      <webElementGuid>d8fed237-de5b-4f4c-aa0b-3e36a86dd6ba</webElementGuid>
+      <webElementGuid>ee9b8848-c44d-46d0-9734-6c133e0f28f8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -58,7 +58,7 @@
       <name>ng-reflect-color</name>
       <type>Main</type>
       <value>primary</value>
-      <webElementGuid>1b4565f3-4a24-4ee8-9e71-4259d065be7c</webElementGuid>
+      <webElementGuid>2e5395b5-24a0-4241-8ddf-eacbfc5d9f70</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -66,7 +66,7 @@
       <name>ng-reflect-disabled</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>adbea092-b8bf-4d16-9fd4-ebb0e44d6a4e</webElementGuid>
+      <webElementGuid>61333771-ce1c-4fba-a648-de21f5688961</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -74,7 +74,7 @@
       <name>text</name>
       <type>Main</type>
       <value>arrow_back Assign </value>
-      <webElementGuid>429c89d6-c7d7-40b0-ae15-c8ab196045b1</webElementGuid>
+      <webElementGuid>fbcc9b91-8a94-499b-81c1-409fdd53c096</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -82,7 +82,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-tab-content-2-0&quot;)/div[@class=&quot;mat-tab-body-content ng-tns-c361-105 ng-trigger ng-trigger-translateTab&quot;]/app-client-assign-by-employee[@class=&quot;tab-container ng-star-inserted&quot;]/div[@class=&quot;assign-controls&quot;]/button[@class=&quot;mat-focus-indicator push-bottom-lg mat-raised-button mat-button-base mat-primary cdk-focused cdk-mouse-focused&quot;]</value>
-      <webElementGuid>aa6d1f9a-283c-41e2-9893-2623d4f14a66</webElementGuid>
+      <webElementGuid>daffe289-9478-4cb6-befa-6d29d3b04d0b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -90,7 +90,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[10]</value>
-      <webElementGuid>8861658d-eb3e-49d1-b282-9dcc04ada616</webElementGuid>
+      <webElementGuid>3184902a-ada6-45be-9c83-1863c4ffcc8d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,7 +98,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-tab-body[@id='mat-tab-content-2-0']/div/app-client-assign-by-employee/div[3]/button</value>
-      <webElementGuid>5592b001-f32e-4423-82e3-e0398766047b</webElementGuid>
+      <webElementGuid>7b552c7e-553c-4d0e-a620-31b886e792f1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,7 +106,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Assigned Clients'])[1]/following::button[3]</value>
-      <webElementGuid>c47aea92-123f-4bd7-84b1-82b106d192dd</webElementGuid>
+      <webElementGuid>bdcff357-e30a-4809-8330-26a5b27a59dc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -114,7 +114,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='GG tester 2'])[1]/following::button[3]</value>
-      <webElementGuid>e27ce663-7a2c-4883-ae53-6db6ffe20d85</webElementGuid>
+      <webElementGuid>dabd9833-1568-4607-8e3b-43fbc49a2814</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -122,7 +122,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//app-client-assign-by-employee/div[3]/button</value>
-      <webElementGuid>53c7eb06-6c4e-4935-89cd-8a76f6d5c72d</webElementGuid>
+      <webElementGuid>407fcc75-be8d-410a-9936-d6380d75658d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -130,6 +130,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = 'arrow_back Assign ' or . = 'arrow_back Assign ')]</value>
-      <webElementGuid>a0547c94-190f-4fd9-8ef0-a4fca0a5e72a</webElementGuid>
+      <webElementGuid>91ba13dc-2e83-4b76-8437-d95b062469c9</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
