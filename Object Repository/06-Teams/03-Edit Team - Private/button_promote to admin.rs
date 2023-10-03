@@ -6,12 +6,12 @@
    <elementGuidId>8b90c712-4cad-4c60-805e-0cc68d332a27</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//button[@type = 'button' and @ng-reflect-message = 'Promote to Admin' and (text() = 'keyboard_arrow_up' or . = 'keyboard_arrow_up')]</value>
+         <key>XPATH</key>
+         <value>//mat-icon[text()='keyboard_arrow_up']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>(//button[@type='button'])[14]</value>
+         <key>BASIC</key>
+         <value>//button[@type = 'button' and @ng-reflect-message = 'Promote to Admin' and (text() = 'keyboard_arrow_up' or . = 'keyboard_arrow_up')]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -26,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>d9acad99-a1fb-4f76-9bb2-68167f093413</webElementGuid>
+      <webElementGuid>fead8e19-a2f9-4d24-864e-ae4c4dbd77be</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -34,7 +34,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>11767a68-5a6c-46bf-aa2a-cfab4b689eb5</webElementGuid>
+      <webElementGuid>f2226a99-6dd5-4057-83e9-09332b0eb6ec</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,7 +42,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-focus-indicator mat-icon-button mat-button-base ng-star-inserted</value>
-      <webElementGuid>9914c3d4-bdc0-41d1-9ed4-7a15ccd6326e</webElementGuid>
+      <webElementGuid>92112d4f-499c-4e54-bf67-f9b664ffffab</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -50,7 +50,7 @@
       <name>ng-reflect-message</name>
       <type>Main</type>
       <value>Promote to Admin</value>
-      <webElementGuid>1fe6f6c5-b54d-4ee2-9532-be81ea070863</webElementGuid>
+      <webElementGuid>f0f014e2-a5b9-470c-bbd5-9af075271901</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -58,7 +58,7 @@
       <name>action-menu-desc</name>
       <type>Main</type>
       <value>Promote to Admin</value>
-      <webElementGuid>e43dc587-3ba5-4966-8d0a-7d101c0c3c6b</webElementGuid>
+      <webElementGuid>0910a6cf-d9bf-4711-b712-d99e6192fa23</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -66,7 +66,7 @@
       <name>aria-describedby</name>
       <type>Main</type>
       <value>cdk-describedby-message-23</value>
-      <webElementGuid>4e22208d-8b47-4a75-a402-856ed4a10eb9</webElementGuid>
+      <webElementGuid>73a04257-0fd7-4a62-a688-e279e9705ee9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -74,7 +74,7 @@
       <name>text</name>
       <type>Main</type>
       <value>keyboard_arrow_up</value>
-      <webElementGuid>d9af4b67-f2a1-47d0-92ed-972d6eec9edb</webElementGuid>
+      <webElementGuid>f246765c-2df6-46a9-acef-4721f81264d1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -82,7 +82,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-tab-content-0-0&quot;)/div[@class=&quot;mat-tab-body-content ng-tns-c361-48 ng-trigger ng-trigger-translateTab&quot;]/div[@class=&quot;white-container push-top-sm ng-star-inserted&quot;]/div[@class=&quot;container-body&quot;]/perfect-scrollbar[@class=&quot;perfect-scrollbar&quot;]/div[@class=&quot;ps&quot;]/div[@class=&quot;ps-content&quot;]/td-data-table[@class=&quot;ng-untouched ng-valid ng-dirty&quot;]/div[@class=&quot;td-data-table-scrollable&quot;]/table[@class=&quot;td-data-table&quot;]/tbody[@class=&quot;td-data-table-body&quot;]/tr[@class=&quot;td-data-table-row ng-star-inserted&quot;]/td[@class=&quot;td-data-table-cell ng-star-inserted&quot;]/div[@class=&quot;td-data-table-cell-content-wrapper&quot;]/div[@class=&quot;row-controls-wrapper ng-star-inserted&quot;]/div[@class=&quot;row-controls&quot;]/table-button-list[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;button-list-container&quot;]/div[@class=&quot;mat-menu-wrapper el-action-menu&quot;]/button[@class=&quot;mat-focus-indicator mat-icon-button mat-button-base ng-star-inserted&quot;]</value>
-      <webElementGuid>e09fb204-913b-4195-b0ac-cbb21ffe0663</webElementGuid>
+      <webElementGuid>bae62c31-1e4e-47c1-ab4e-df5ba82b7304</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -90,7 +90,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[14]</value>
-      <webElementGuid>bd08c21c-0044-4b24-9bcc-dda0b635e9b8</webElementGuid>
+      <webElementGuid>0d900011-5989-4eef-8b63-6c35ff9e8bba</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,7 +98,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-tab-body[@id='mat-tab-content-0-0']/div/div/div[2]/perfect-scrollbar/div/div/td-data-table/div/table/tbody/tr/td[4]/div/div/div/table-button-list/div/div/button</value>
-      <webElementGuid>3574fac2-603d-4387-9ff7-af6291f922ec</webElementGuid>
+      <webElementGuid>8cbb2ba8-aeed-45f2-afbb-e65cf1830895</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,7 +106,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Member'])[1]/following::button[1]</value>
-      <webElementGuid>d13a3c29-69c4-4d08-82a2-adac6efbaeb5</webElementGuid>
+      <webElementGuid>a05fac92-a8af-4299-a2e1-9484651b6640</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -114,7 +114,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Coworker'])[1]/following::button[1]</value>
-      <webElementGuid>d7a84926-1bfe-47b2-af64-105358760b1f</webElementGuid>
+      <webElementGuid>0af33c06-b446-4eb3-9eee-db3857b136e3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -122,7 +122,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='GG TESTER'])[2]/preceding::button[2]</value>
-      <webElementGuid>f7c76d42-17fe-471a-b3e0-5ebc70822041</webElementGuid>
+      <webElementGuid>fa55dfb2-253f-44fd-abbf-9def3531ae7f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -130,7 +130,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Owner'])[1]/preceding::button[2]</value>
-      <webElementGuid>93af243c-d594-4903-827d-0fb52f2d0204</webElementGuid>
+      <webElementGuid>2e74c5b7-9d15-4415-9caa-4ac65e0f9253</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -138,7 +138,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//table-button-list/div/div/button</value>
-      <webElementGuid>8ec109f7-7006-4c0b-a6d3-3d3db082c48d</webElementGuid>
+      <webElementGuid>e137dc14-0feb-45c1-879b-183c1f554808</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -146,6 +146,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = 'keyboard_arrow_up' or . = 'keyboard_arrow_up')]</value>
-      <webElementGuid>5f9b5458-0122-4444-a7eb-5d8ade281eea</webElementGuid>
+      <webElementGuid>3b482c31-db23-4cb2-9529-79cfa25ea843</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

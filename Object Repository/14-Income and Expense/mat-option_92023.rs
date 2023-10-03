@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//mat-option[@role = 'option' and (text() = ' 9/2023 ' or . = ' 9/2023 ')]</value>
+         <value>//span[text()=' 9/2024 ']</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
