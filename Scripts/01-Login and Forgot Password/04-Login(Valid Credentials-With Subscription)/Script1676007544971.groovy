@@ -49,6 +49,8 @@ WebUI.setText(findTestObject('00-Signup and Activation/zMailinator/input_LOGIN_s
 
 WebUI.click(findTestObject('00-Signup and Activation/zMailinator/gobutton'), FailureHandling.STOP_ON_FAILURE)
 
+WebUI.click(findTestObject('00-Signup and Activation/button_Confirm'))
+
 WebUI.delay(GlobalVariable.delay_10seconds)
 
 WebUI.click(findTestObject('00-Signup and Activation/zMailinator/Email - everleagues'))
