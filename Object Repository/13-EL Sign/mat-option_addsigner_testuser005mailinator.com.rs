@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//span[text()=' GG TESTER (testuser005@mailinator.com) '])[2]</value>
+         <value>(//span[text()=' GG TESTER (testuser00005@mailinator.com) '])[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -18,7 +18,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>DIV</value>
-      <webElementGuid>949dc016-66fe-4a77-807a-ed63a5868a1e</webElementGuid>
+      <webElementGuid>2c7c5bc4-ed19-43a8-b90b-c20d513d2e4c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -26,6 +26,6 @@
       <name>xpath</name>
       <type>Main</type>
       <value>xpath1690873370829</value>
-      <webElementGuid>861ac0a3-7c6e-4773-93f5-57dcccc2fc62</webElementGuid>
+      <webElementGuid>41b8d83a-8fe1-4663-9b82-2c71f122044f</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
