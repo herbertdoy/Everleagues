@@ -39,10 +39,6 @@ WebUI.click(findTestObject('14-Income and Expense/button_UPDATE'))
 
 WebUI.delay(GlobalVariable.delay_2seconds)
 
-WebUI.scrollToElement(findTestObject('14-Income and Expense/button_visibility'), 0)
-
-WebUI.delay(GlobalVariable.delay_2seconds)
-
 WebUI.scrollToElement(findTestObject('14-Income and Expense/label_Income and Expense Report'), 0)
 
 WebUI.click(findTestObject('14-Income and Expense/button_download2'))
