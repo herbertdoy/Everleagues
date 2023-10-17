@@ -62,9 +62,9 @@ WebUI.click(findTestObject('11-Cloud Files/button_Share'))
 
 WebUI.verifyElementVisible(findTestObject('11-Cloud Files/mat-dialog-container_ShareFiles Modal'))
 
-WebUI.click(findTestObject('11-Cloud Files/mat-icon_close'))
-
 WebUI.delay(GlobalVariable.delay_3seconds)
+
+WebUI.click(findTestObject('11-Cloud Files/mat-icon_close'))
 
 WebUI.rightClick(findTestObject('11-Cloud Files/td_Automation folder EDIT'))
 

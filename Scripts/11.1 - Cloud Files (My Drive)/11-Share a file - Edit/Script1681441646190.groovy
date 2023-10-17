@@ -19,6 +19,8 @@ import org.openqa.selenium.Keys as Keys
 import java.awt.Toolkit as Toolkit
 import java.awt.datatransfer.DataFlavor as DataFlavor
 
+WebUI.click(findTestObject('11-Cloud Files/mat-icon_close'))
+
 WebUI.rightClick(findTestObject('11-Cloud Files/td_qa EditPeople'))
 
 WebUI.click(findTestObject('11-Cloud Files/button_Share'))
@@ -49,6 +51,8 @@ WebUI.click(findTestObject('11-Cloud Files/button_sharefiles_SHARE'))
 
 //WebUI.verifyElementVisible(findTestObject('11-Cloud Files/snack-bar-container_Shared folder access updated successfully.OK'))
 WebUI.delay(GlobalVariable.delay_3seconds)
+
+WebUI.click(findTestObject('11-Cloud Files/mat-icon_close'))
 
 WebUI.rightClick(findTestObject('11-Cloud Files/td_qa EditPeople'))
 

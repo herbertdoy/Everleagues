@@ -10,11 +10,15 @@
          <value>app-dialog-share-file-folder.ng-star-inserted > div > mat-icon.mat-icon.notranslate.material-icons.mat-ligature-font.mat-icon-no-color</value>
       </entry>
       <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'close' or . = 'close')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//mat-dialog-container[@id='mat-dialog-0']/app-dialog-share-file-folder/div/mat-icon</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>mat-icon</value>
-      <webElementGuid>d8861def-b5eb-44b6-beb3-62117dd3998e</webElementGuid>
+      <webElementGuid>bd1f989f-64a6-40f4-aa1f-0f430225e390</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +34,7 @@
       <name>role</name>
       <type>Main</type>
       <value>img</value>
-      <webElementGuid>fa182597-db71-4fff-ba4e-9b39fdf4bf9c</webElementGuid>
+      <webElementGuid>09c328cc-f7d7-4bf7-95b5-4da0bba6c3d8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +42,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-icon notranslate material-icons mat-ligature-font mat-icon-no-color</value>
-      <webElementGuid>21594535-b0f2-405b-95b2-01feef49ed1b</webElementGuid>
+      <webElementGuid>f6dac818-29fb-4c51-be16-88604770f798</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +50,7 @@
       <name>aria-hidden</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>0d5434c1-a4a3-4fd0-a03e-02aa6bdfe774</webElementGuid>
+      <webElementGuid>214a5dcb-8d1d-4b70-aa43-d0ad19802b3a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +58,7 @@
       <name>text</name>
       <type>Main</type>
       <value>close</value>
-      <webElementGuid>06d663ad-ab53-4cb6-b92c-1ad76cb4b7dc</webElementGuid>
+      <webElementGuid>592dfdab-629a-4736-bc23-193f947908f3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +66,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-dialog-0&quot;)/app-dialog-share-file-folder[@class=&quot;ng-star-inserted&quot;]/div[1]/mat-icon[@class=&quot;mat-icon notranslate material-icons mat-ligature-font mat-icon-no-color&quot;]</value>
-      <webElementGuid>2cb1da8c-5aea-4a7d-93f2-da14e87eb701</webElementGuid>
+      <webElementGuid>d864cf5e-7d22-4e1a-8177-4f446d007652</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +74,7 @@
       <name>data-mat-icon-type</name>
       <type>Main</type>
       <value>font</value>
-      <webElementGuid>27b75523-8b15-4d8e-b4ec-fb583114794e</webElementGuid>
+      <webElementGuid>4f6f451f-9012-4db2-b92b-13bdb5f9c030</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -78,7 +82,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-dialog-container[@id='mat-dialog-0']/app-dialog-share-file-folder/div/mat-icon</value>
-      <webElementGuid>69ab0e07-9e05-4403-bb4f-5567948b68ad</webElementGuid>
+      <webElementGuid>e7fa8141-71d5-462a-9de3-8d03f20a5be6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Share Files'])[1]/following::mat-icon[1]</value>
-      <webElementGuid>cd0402ed-1400-4757-8e2e-cc46a72b89ae</webElementGuid>
+      <webElementGuid>0d70a63e-5f4e-42e4-be03-96b269c976a7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Client Assignment'])[2]/following::mat-icon[1]</value>
-      <webElementGuid>403bda07-da2f-4fe3-80b9-4653dbc67609</webElementGuid>
+      <webElementGuid>1814e3fd-1613-455d-990b-b2ff8b71af17</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +106,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Add Users'])[1]/preceding::mat-icon[1]</value>
-      <webElementGuid>b7e0f9e7-d8c9-4c63-8b15-19981965a00c</webElementGuid>
+      <webElementGuid>ddf0053a-ac15-4948-86ae-b0604b11e0fe</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +114,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Viewer'])[1]/preceding::mat-icon[1]</value>
-      <webElementGuid>e6d0c845-ed76-4e95-8523-c8fa1d97d2ed</webElementGuid>
+      <webElementGuid>e8f3b227-22f1-4d1b-b775-108e4e4eb0ea</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +122,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='close']/parent::*</value>
-      <webElementGuid>a47d4926-a0db-463a-aafb-3b280c1194e4</webElementGuid>
+      <webElementGuid>81ca6853-2657-44e8-9ec3-e8c2a5a740f4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,7 +130,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//app-dialog-share-file-folder/div/mat-icon</value>
-      <webElementGuid>be7fd5da-79ad-429d-b6ed-d9f274da142d</webElementGuid>
+      <webElementGuid>bec93407-8bfa-4b8d-ada6-d108839b5734</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,7 +138,7 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//mat-icon[(text() = 'close' or . = 'close')]</value>
-      <webElementGuid>9febe274-0b8f-4e8e-93ae-07fe92846562</webElementGuid>
+      <webElementGuid>1c2a50fb-3a8b-43db-bdf6-770ea6a64f66</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -142,7 +146,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-dialog-container[@id='mat-dialog-12']/app-dialog-share-file-folder/div/mat-icon</value>
-      <webElementGuid>fdba31ac-b1b5-4faf-827c-96e8560530c1</webElementGuid>
+      <webElementGuid>7d90b891-31cf-49b0-8ce8-c201d02d64f8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -150,6 +154,6 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='JPEG File'])[1]/following::mat-icon[5]</value>
-      <webElementGuid>81055f4b-943d-40e3-8a3a-974d0c6a1001</webElementGuid>
+      <webElementGuid>1a9346c6-aef4-48c6-a3fb-8151ee20db63</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
