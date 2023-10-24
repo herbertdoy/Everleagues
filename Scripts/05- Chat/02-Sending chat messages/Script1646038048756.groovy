@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.click(findTestObject('05-Chat/02-Sending chat messages/div_AC'))
 
-WebUI.setText(findTestObject('05-Chat/02-Sending chat messages/textarea__msg'), 'Testing automation')
+WebUI.setText(findTestObject('05-Chat/02-Sending chat messages/textarea__msg'), GlobalVariable.chatMessage)
 
 WebUI.click(findTestObject('05-Chat/02-Sending chat messages/button_send'))
 

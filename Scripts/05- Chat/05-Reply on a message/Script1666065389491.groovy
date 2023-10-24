@@ -122,7 +122,7 @@ WebUI.delay(GlobalVariable.delay_2seconds)
 
 WebUI.verifyElementVisible(findTestObject('05-Chat/03-05 - React and Reply/div_reply'))
 
-WebUI.setText(findTestObject('05-Chat/02-Sending chat messages/textarea__msg'), 'Reply test')
+WebUI.setText(findTestObject('05-Chat/02-Sending chat messages/textarea__msg'), GlobalVariable.replyMessage)
 
 WebUI.click(findTestObject('05-Chat/02-Sending chat messages/button_send'))
 

@@ -6,16 +6,15 @@
    <elementGuidId>21f8b3ae-a5d0-40ce-8bdd-c010dae8d5b8</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>button.mat-focus-indicator.mat-raised-button.mat-button-base</value>
+         <key>BASIC</key>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//button[contains(@class,'mat-focus-indicator mat-raised-button')])[2]</value>
+         <value>//button[contains(@class,'mat-focus-indicator mat-raised-button')]</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>CSS</key>
+         <value>button.mat-focus-indicator.mat-raised-button.mat-button-base</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
