@@ -57,9 +57,9 @@ WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.setText(findTestObject('09-Settings/Users/input_email'), GlobalVariable.email_for_autotester00)
 
-WebUI.setText(findTestObject('09-Settings/Users/input_firstName'), 'GG')
+WebUI.setText(findTestObject('09-Settings/Users/input_firstName'), GlobalVariable.first_name1)
 
-WebUI.setText(findTestObject('09-Settings/Users/input_lastName'), 'autotester00')
+WebUI.setText(findTestObject('09-Settings/Users/input_lastName'), GlobalVariable.GG_auto00)
 
 WebUI.click(findTestObject('09-Settings/Users/span_Role'))
 
@@ -118,7 +118,6 @@ WebUI.click(findTestObject('02-Side Icons(Organization)/Add Contact/button_Sign 
 WebUI.delay(GlobalVariable.delay_2seconds)
 
 //WebUI.click(findTestObject('06-Teams/For 2FA/button_Confirm_2FA'))
-
 WebUI.executeJavaScript('window.open();', [])
 
 currentWindow = WebUI.getWindowIndex()
