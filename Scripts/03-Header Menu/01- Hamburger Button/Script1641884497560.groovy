@@ -58,7 +58,7 @@ String code = WebUI.getText(findTestObject('Object Repository/06-Teams/For 2FA/2
 
 WebUI.delay(GlobalVariable.delay_3seconds)
 
-WebUI.closeWindowTitle('Mailinator')
+WebUI.closeWindowTitle(GlobalVariable.mailinator)
 
 WebUI.delay(GlobalVariable.delay_3seconds)
 
