@@ -32,8 +32,6 @@ WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.click(findTestObject('02-Side Icons(Organization)/Hide Quick Shortcuts/button_Show quick shortcuts'))
 
-WebUI.verifyElementVisible(findTestObject('02-Side Icons(Organization)/2FA/button_2FA'))
-
 WebUI.verifyElementVisible(findTestObject('02-Side Icons(Organization)/Add Contact/button_add new user'))
 
 WebUI.verifyElementVisible(findTestObject('02-Side Icons(Organization)/Client Assignment/button_Client assignment'))

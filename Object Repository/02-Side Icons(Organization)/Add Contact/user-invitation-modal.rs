@@ -1,32 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>User Invitation modal</name>
+   <name>user-invitation-modal</name>
    <tag></tag>
-   <elementGuidId>9779a862-22f6-4b8d-ac72-5ecf81855128</elementGuidId>
+   <elementGuidId>ffcab3f3-9570-44ed-ac8e-f823502dcca1</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
          <value>//mat-dialog-container[@id='mat-dialog-0']</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//mat-dialog-container[@role = 'dialog' and (text() = 'User Invitationperson_add Invite a single user  Invite batch of users via CSV file Cancel' or . = 'User Invitationperson_add Invite a single user  Invite batch of users via CSV file Cancel')]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
-         <value>#mat-dialog-1</value>
+         <value>#mat-dialog-0</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>mat-dialog-container</value>
-      <webElementGuid>d1d31220-c6e4-4aaa-89dc-cf2da694205a</webElementGuid>
+      <webElementGuid>259d3bc1-d93f-48d7-b749-4ced06945541</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -34,7 +30,31 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>-1</value>
-      <webElementGuid>0e115529-34c8-4929-8a9e-f923e7834657</webElementGuid>
+      <webElementGuid>44ef102f-c595-440b-96aa-28d9698e259a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-dialog-container cdk-dialog-container ng-tns-c39-52 ng-trigger ng-trigger-dialogContainer ng-star-inserted</value>
+      <webElementGuid>47735fc7-395f-4850-949c-f8aef8132113</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>mat-dialog-0</value>
+      <webElementGuid>39a54bc6-bd54-4e10-bb77-51221dbd090d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>dialog</value>
+      <webElementGuid>57369b3e-e66a-4f6b-ae43-43dc419212ad</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,87 +62,67 @@
       <name>aria-modal</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>fdfd24e0-7440-4257-ae62-049cf5617493</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>mat-dialog-container ng-tns-c33-51 ng-trigger ng-trigger-dialogContainer ng-star-inserted</value>
-      <webElementGuid>f62b1f07-018a-4d2a-91be-da22c87da2ef</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>mat-dialog-1</value>
-      <webElementGuid>a098767f-2ebd-4389-9dff-54fabd41cc05</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>role</name>
-      <type>Main</type>
-      <value>dialog</value>
-      <webElementGuid>d1943f3e-f710-416b-a1ed-8f8392e8ec9a</webElementGuid>
+      <webElementGuid>5123a6d0-4f50-4bd1-ac82-91a458d5567c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>aria-labelledby</name>
       <type>Main</type>
-      <value>mat-dialog-title-1</value>
-      <webElementGuid>7bee82a2-56cd-4719-8f73-9810c78f386b</webElementGuid>
+      <value>mat-dialog-title-0</value>
+      <webElementGuid>313999f0-fcbb-40e8-a0a4-e94bbf2583b4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>User Invitationperson_add Invite a single user  Invite batch of users via CSV file Cancel</value>
-      <webElementGuid>ba19cf71-8d43-49da-a436-3da96b368f2f</webElementGuid>
+      <value>User Invitation
+            
+        Invite a single user
+            
+         Invite batch of users via CSV file Cancel</value>
+      <webElementGuid>df7e8709-4e4b-4772-9e84-c5ac7c8297a4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;mat-dialog-1&quot;)</value>
-      <webElementGuid>5cc13ca7-f605-4ded-a133-00abd138c516</webElementGuid>
+      <value>id(&quot;mat-dialog-0&quot;)</value>
+      <webElementGuid>54aa6ee9-e92b-4e08-9d71-e7d3d2e10989</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//mat-dialog-container[@id='mat-dialog-1']</value>
-      <webElementGuid>0c4b99c3-21a7-430f-bb45-48dcafe97d83</webElementGuid>
+      <value>//mat-dialog-container[@id='mat-dialog-0']</value>
+      <webElementGuid>b2bb2795-d33f-40a2-8e03-1132cf36fe26</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='cdk-overlay-5']/mat-dialog-container</value>
-      <webElementGuid>9885177d-697f-4f67-898e-a734121c7f78</webElementGuid>
+      <value>//div[@id='cdk-overlay-1']/mat-dialog-container</value>
+      <webElementGuid>3281fdd2-c0c0-4aef-b4bc-138ce0465bcb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('id(', '&quot;', 'mat-dialog-1', '&quot;', ')')])[1]/following::mat-dialog-container[1]</value>
-      <webElementGuid>b94c55f4-1f68-4b02-b6a5-882309b44e43</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Edit Org Unit'])[1]/following::mat-dialog-container[1]</value>
+      <webElementGuid>70fe35ef-080f-497b-abc5-56d70cdc796b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='`'])[2]/following::mat-dialog-container[1]</value>
-      <webElementGuid>776c1c63-68bd-4617-b871-d295f5758807</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Suspend User'])[1]/following::mat-dialog-container[1]</value>
+      <webElementGuid>ef6d4e0f-a558-46a1-920f-711448bf5cf5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -130,14 +130,22 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//mat-dialog-container</value>
-      <webElementGuid>4a382856-593b-4b40-8b7d-e456eb6cf7aa</webElementGuid>
+      <webElementGuid>bcb10336-fbda-4f14-9234-c7bb380234c8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//mat-dialog-container[@id = 'mat-dialog-1' and (text() = 'User Invitationperson_add Invite a single user  Invite batch of users via CSV file Cancel' or . = 'User Invitationperson_add Invite a single user  Invite batch of users via CSV file Cancel')]</value>
-      <webElementGuid>f26ce031-7adf-42f8-879f-5ea40a4a507c</webElementGuid>
+      <value>//mat-dialog-container[@id = 'mat-dialog-0' and (text() = 'User Invitation
+            
+        Invite a single user
+            
+         Invite batch of users via CSV file Cancel' or . = 'User Invitation
+            
+        Invite a single user
+            
+         Invite batch of users via CSV file Cancel')]</value>
+      <webElementGuid>7bd96ce8-fd18-4c4d-99d3-d34ab93393ee</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

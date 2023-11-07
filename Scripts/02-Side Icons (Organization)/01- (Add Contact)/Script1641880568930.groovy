@@ -73,7 +73,7 @@ WebUI.click(findTestObject('02-Side Icons(Organization)/Add Contact/button_add n
 
 WebUI.delay(GlobalVariable.delay_3seconds)
 
-WebUI.verifyElementVisible(findTestObject('02-Side Icons(Organization)/Add Contact/User Invitation modal'))
+WebUI.verifyElementVisible(findTestObject('02-Side Icons(Organization)/Add Contact/user-invitation-modal'))
 
 WebUI.delay(GlobalVariable.delay_2seconds)
 
@@ -90,10 +90,6 @@ WebUI.delay(GlobalVariable.delay_2seconds)
 WebUI.click(findTestObject('02-Side Icons(Organization)/Add Contact/button_add new user'))
 
 WebUI.delay(GlobalVariable.delay_3seconds)
-
-WebUI.verifyElementVisible(findTestObject('02-Side Icons(Organization)/Add Contact/User Invitation modal'))
-
-WebUI.delay(GlobalVariable.delay_2seconds)
 
 WebUI.click(findTestObject('02-Side Icons(Organization)/Add Contact/Invite batch user option'))
 

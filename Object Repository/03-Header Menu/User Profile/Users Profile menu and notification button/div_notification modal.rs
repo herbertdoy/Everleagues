@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//div[@class='cdk-overlay-pane']//div)[1]</value>
+         <value>//mat-dialog-container[@id='mat-dialog-4']</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -22,6 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
+      <webElementGuid>f157f6f1-ac89-4107-9887-4c4d70c2bf87</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,6 +30,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>-1</value>
+      <webElementGuid>28d3a4b2-b047-4cdf-9ce0-3ff44044e345</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -36,6 +38,7 @@
       <name>role</name>
       <type>Main</type>
       <value>menu</value>
+      <webElementGuid>93ee2330-ff68-44d7-895f-b917ffcbfed7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,6 +46,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-menu-panel ng-trigger ng-trigger-transformMenu ng-tns-c311-5 mat-menu notifications-menu mat-menu-below ng-star-inserted mat-elevation-z4 mat-menu-before</value>
+      <webElementGuid>35abdb50-982e-40ef-b47e-a6c801178ca1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -50,6 +54,7 @@
       <name>id</name>
       <type>Main</type>
       <value>mat-menu-panel-0</value>
+      <webElementGuid>ba610cfd-0381-4c21-911e-016897365e5f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -57,6 +62,7 @@
       <name>ng-reflect-ng-class</name>
       <type>Main</type>
       <value>[object Object]</value>
+      <webElementGuid>36f4fab5-58d0-4f64-b4f3-4bb8b0634f34</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -64,6 +70,7 @@
       <name>text</name>
       <type>Main</type>
       <value>You don't have any notification</value>
+      <webElementGuid>98c92334-9c49-4a74-9a59-0b487a8b689e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -71,6 +78,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-menu-panel-0&quot;)</value>
+      <webElementGuid>ea459517-eaad-48b6-9ca9-66b0ad76b783</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -78,6 +86,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//div[@id='mat-menu-panel-0']</value>
+      <webElementGuid>b5408f37-36d9-4b34-be4a-adb9b35d3384</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,6 +94,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='cdk-overlay-2']/div</value>
+      <webElementGuid>8cb4f377-2dd7-4f09-a301-c1c263b55c77</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -92,6 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Client Assignment'])[2]/following::div[5]</value>
+      <webElementGuid>887d445f-8af8-4ee5-ad90-4c621cd01ffa</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,6 +110,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Invite New User'])[1]/following::div[6]</value>
+      <webElementGuid>f6a25d76-8332-445e-bd24-9d06dd91cac6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,5 +118,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[5]/div[2]/div/div</value>
+      <webElementGuid>2701cbd8-6eef-435b-aff8-9c67828fd81d</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

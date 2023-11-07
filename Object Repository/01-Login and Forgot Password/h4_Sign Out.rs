@@ -6,11 +6,11 @@
    <elementGuidId>e3ffeb5e-16ff-4273-a6d6-16fddc28a62c</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//h4[text()='Sign Out']</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
+         <key>XPATH</key>
+         <value>//span[text()='Sign Out']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,7 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>h4</value>
-      <webElementGuid>69ae9687-a71b-4cd0-9ef7-4d85a31c0dea</webElementGuid>
+      <webElementGuid>2ffd0b6a-8db4-414d-bf31-af8d62b16a0c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +29,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-line</value>
-      <webElementGuid>8be4ea41-b7a8-43b8-bf4f-2e627ec341d0</webElementGuid>
+      <webElementGuid>2bf0c8bf-de64-45be-b8b2-27c891df86b1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Sign Out</value>
-      <webElementGuid>7e265e47-57a7-4863-bc27-1aed04e64051</webElementGuid>
+      <webElementGuid>e445ad2e-6d80-4811-b0b6-7f670fa7c038</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-menu-panel-2&quot;)/div[@class=&quot;mat-menu-content ng-tns-c315-7&quot;]/mat-nav-list[@class=&quot;mat-nav-list mat-list-base ng-tns-c315-7&quot;]/a[@class=&quot;mat-list-item mat-focus-indicator&quot;]/div[@class=&quot;mat-list-item-content&quot;]/div[@class=&quot;mat-list-text&quot;]/h4[@class=&quot;mat-line&quot;]</value>
-      <webElementGuid>d297156a-c570-422c-8935-179d4d8779ca</webElementGuid>
+      <webElementGuid>0800c12b-3d5d-4ead-8374-4409f37a49d7</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='mat-menu-panel-2']/div/mat-nav-list/a[3]/div/div[2]/h4</value>
-      <webElementGuid>37b5a3d2-06d3-4184-b6b9-c1176751efc4</webElementGuid>
+      <webElementGuid>00b6fa50-8466-415c-bd46-f0744f6d84ba</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Change Password'])[1]/following::h4[1]</value>
-      <webElementGuid>d6756240-eb5a-4c4d-9c34-ff189e002fc2</webElementGuid>
+      <webElementGuid>dadb6d7e-983e-4a40-9034-87dd1c6ed598</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='View Profile'])[1]/following::h4[2]</value>
-      <webElementGuid>ba6af06f-034d-40e6-b915-362bbfe84d01</webElementGuid>
+      <webElementGuid>f69a02f2-6f4e-41cf-bf63-2adfeaa55211</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Sign Out']/parent::*</value>
-      <webElementGuid>afa4b4a9-4f06-4b99-be62-10755b095cc9</webElementGuid>
+      <webElementGuid>4e18c976-867c-407b-b433-fc733b31f62c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//a[3]/div/div[2]/h4</value>
-      <webElementGuid>d9c4d5c8-58d6-45e2-b0c4-86cb46350ce1</webElementGuid>
+      <webElementGuid>022b8766-8302-4c20-85c6-38db6044123e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='cdk-overlay-0']/div/div/mat-nav-list/a[3]/div/div[2]/h4</value>
-      <webElementGuid>d2523c39-b1ca-4741-b22d-9b80434abb12</webElementGuid>
+      <webElementGuid>161630fd-22d3-4967-b70d-aff2a6c9fc4d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::h4[1]</value>
-      <webElementGuid>22084e7d-22e2-4beb-8372-7ec8ae531675</webElementGuid>
+      <webElementGuid>31d4d7f5-cc12-43cd-97ef-09e36e0ad136</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,6 +109,6 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Alt'])[1]/preceding::h4[1]</value>
-      <webElementGuid>c329513c-4b61-4ebe-af6a-a9ea69e42ae7</webElementGuid>
+      <webElementGuid>ccec5c9f-a813-426a-bba6-eddc1c13e828</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
