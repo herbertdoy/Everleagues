@@ -6,12 +6,12 @@
    <elementGuidId>dca1c3fb-8821-4d68-8c95-9d24c1fff9fc</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//mat-dialog-container[(text() = 'Add TeamSettingsMembersTeam Name *createOrganization Unit *Member Visibility in Connections Allow members to create channels Allow members to do post creation Allow members to comment Auto allow owner to view the team Auto allow all admins of the same OU to view the team Auto allow all coworkers of the same OU to view the team Auto allow all clients of the same OU to view the team Auto allow all external contacts of the same OU to view the team CreateCancel' or . = 'Add TeamSettingsMembersTeam Name *createOrganization Unit *Member Visibility in Connections Allow members to create channels Allow members to do post creation Allow members to comment Auto allow owner to view the team Auto allow all admins of the same OU to view the team Auto allow all coworkers of the same OU to view the team Auto allow all clients of the same OU to view the team Auto allow all external contacts of the same OU to view the team CreateCancel')]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#mat-dialog-1</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//h2[text()='Add Team']</value>
       </entry>
       <entry>
          <key>BASIC</key>
@@ -26,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>mat-dialog-container</value>
-      <webElementGuid>43045f15-3696-48ab-84fe-748e22c7fb3a</webElementGuid>
+      <webElementGuid>d2c24962-e475-40ec-b2d5-7ff84260be76</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -34,7 +34,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>-1</value>
-      <webElementGuid>ef062423-1218-4d66-9432-f3ad87da569e</webElementGuid>
+      <webElementGuid>eadb1210-0cf7-4502-9aaa-ac467c0f69ec</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,7 +42,7 @@
       <name>aria-modal</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>9e7820a5-9e30-495f-92c3-cd00fd9aa699</webElementGuid>
+      <webElementGuid>af44aaef-d9db-41ac-8c2e-08dea0c706da</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,7 +50,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-dialog-container ng-tns-c33-38 ng-trigger ng-trigger-dialogContainer ng-star-inserted</value>
-      <webElementGuid>baa2bf50-cf3d-425e-afb6-ba59eaf05759</webElementGuid>
+      <webElementGuid>40a711bf-539a-4f5e-8547-653bd108de61</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -58,7 +58,7 @@
       <name>id</name>
       <type>Main</type>
       <value>mat-dialog-1</value>
-      <webElementGuid>e87c6bf9-be50-49c7-b784-7c9ba8efe91e</webElementGuid>
+      <webElementGuid>17d7397b-e6ef-451d-b245-d1bea86ab4df</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -66,7 +66,7 @@
       <name>role</name>
       <type>Main</type>
       <value>dialog</value>
-      <webElementGuid>ca96868f-3b5c-43ca-8162-3ee994977846</webElementGuid>
+      <webElementGuid>02284217-0343-4415-bb75-43ce32133cf1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -74,7 +74,7 @@
       <name>aria-labelledby</name>
       <type>Main</type>
       <value>mat-dialog-title-2</value>
-      <webElementGuid>fd406899-4de1-4c7f-bb3d-fd5831f82510</webElementGuid>
+      <webElementGuid>855a2f63-042f-4353-8263-3234299e2a95</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -82,7 +82,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Add TeamSettingsMembersTeam Name *createOrganization Unit *Member Visibility Allow members to create channels Allow members to do post creation Allow members to comment Allow owner to view the team Allow admins of the same OU to view the team Allow coworkers of the same OU to view the team Allow clients of the same OU to view the team Allow external contacts of the same OU to view the team CreateCancel</value>
-      <webElementGuid>e34da0c2-28fd-482e-bda9-04b1b629b2d4</webElementGuid>
+      <webElementGuid>5f082b6c-a269-4f06-a9fe-53020e86c940</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -90,7 +90,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-dialog-1&quot;)</value>
-      <webElementGuid>d75184b7-8c19-49a2-8955-2b0ab341306d</webElementGuid>
+      <webElementGuid>0115b6b0-5730-4c95-9a1c-2b2a4dd38202</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -98,7 +98,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//mat-dialog-container[@id='mat-dialog-1']</value>
-      <webElementGuid>52c53426-67ea-4520-b669-eb1945d56100</webElementGuid>
+      <webElementGuid>ed862b00-c558-43c2-960e-aebc60772c40</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,7 +106,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='cdk-overlay-1']/mat-dialog-container</value>
-      <webElementGuid>b7c3c7ba-4568-4045-be9c-4c1c9772371a</webElementGuid>
+      <webElementGuid>1068494b-8fb2-40d0-b4ad-d4df8a3c7255</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -114,7 +114,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('id(', '&quot;', 'mat-dialog-1', '&quot;', ')')])[1]/following::mat-dialog-container[1]</value>
-      <webElementGuid>ec472091-866b-42c6-a5a1-31e23064ba79</webElementGuid>
+      <webElementGuid>33f2f1d3-4f4e-4b80-acb0-10d61ea73f06</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -122,7 +122,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='`'])[2]/following::mat-dialog-container[1]</value>
-      <webElementGuid>0777932b-c0d9-4b99-a5f7-3724814d714a</webElementGuid>
+      <webElementGuid>abc802ce-903e-4b9e-85c7-b3c9dba954ae</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -130,7 +130,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//mat-dialog-container</value>
-      <webElementGuid>4d066da2-34b9-4c2a-91fe-bac771cd9830</webElementGuid>
+      <webElementGuid>6e3708eb-41a3-4fdf-8ef5-72f4b74c3e06</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -138,6 +138,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//mat-dialog-container[@id = 'mat-dialog-1' and (text() = 'Add TeamSettingsMembersTeam Name *createOrganization Unit *Member Visibility Allow members to create channels Allow members to do post creation Allow members to comment Allow owner to view the team Allow admins of the same OU to view the team Allow coworkers of the same OU to view the team Allow clients of the same OU to view the team Allow external contacts of the same OU to view the team CreateCancel' or . = 'Add TeamSettingsMembersTeam Name *createOrganization Unit *Member Visibility Allow members to create channels Allow members to do post creation Allow members to comment Allow owner to view the team Allow admins of the same OU to view the team Allow coworkers of the same OU to view the team Allow clients of the same OU to view the team Allow external contacts of the same OU to view the team CreateCancel')]</value>
-      <webElementGuid>126a8cb4-68a5-4ede-8363-e19166a2299a</webElementGuid>
+      <webElementGuid>f4079462-d23f-4671-8692-3603045aeb19</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -7,14 +7,18 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//button[@type='button'])[24]</value>
+         <value>//button[(text() = 'Send Invitation' or . = 'Send Invitation')]</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>button.mat-focus-indicator.mat-raised-button.mat-button-base.cdk-focused.cdk-mouse-focused</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//button[@type = 'button' and (text() = 'Send Invitation' or . = 'Send Invitation')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>e2d84c91-0db3-437e-aa52-ccedc0d222b8</webElementGuid>
+      <webElementGuid>9b6369a3-6488-43b0-adc7-c022e4744b24</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +34,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>fadd048d-4bc1-4e98-bf9b-e19d135ab98b</webElementGuid>
+      <webElementGuid>f201d33f-bff6-43dd-b317-4e3020d7ccb7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +42,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-focus-indicator mat-raised-button mat-button-base cdk-focused cdk-mouse-focused</value>
-      <webElementGuid>c5b107df-ec39-4f28-b18a-f2de578e6e8b</webElementGuid>
+      <webElementGuid>a4c5c0db-c7fc-4057-93c0-cc7b76740178</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +50,7 @@
       <name>ng-reflect-disabled</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>ded8a7ab-56f8-40b0-bb69-58dc8967e6a4</webElementGuid>
+      <webElementGuid>812173e2-de76-400c-a724-fba56b8e4f85</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +58,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Send Invitation</value>
-      <webElementGuid>4baa9f47-ae37-4c18-be9d-890725a52f84</webElementGuid>
+      <webElementGuid>605543e9-9754-4633-9d59-69f1ec8e29d7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +66,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-dialog-2&quot;)/app-dialog-add-user[@class=&quot;ng-star-inserted&quot;]/section[@class=&quot;dialog-container&quot;]/div[@class=&quot;mat-dialog-actions dialog-action&quot;]/div[@class=&quot;action-container&quot;]/button[@class=&quot;mat-focus-indicator mat-raised-button mat-button-base cdk-focused cdk-mouse-focused&quot;]</value>
-      <webElementGuid>f3668cb7-295f-497a-8b7c-3067580d77e3</webElementGuid>
+      <webElementGuid>e3d5c977-2710-45e6-8528-b0f0aab463e3</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -70,7 +74,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[24]</value>
-      <webElementGuid>eb049088-c1fa-4c2a-977d-f0496d37757e</webElementGuid>
+      <webElementGuid>4bb4960a-3708-4d46-9aa5-afcb8c60bf61</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +82,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-dialog-container[@id='mat-dialog-2']/app-dialog-add-user/section/div[2]/div/button</value>
-      <webElementGuid>63024964-6299-4dea-b35a-0d98cf33fc55</webElementGuid>
+      <webElementGuid>cd2ac476-77a5-4d73-8c41-cc8a13d8ab0f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Organization Unit'])[1]/following::button[1]</value>
-      <webElementGuid>6a676bba-ebe1-4ebb-9a9a-c2e00ab45c22</webElementGuid>
+      <webElementGuid>695cec6c-f065-4e76-a36e-8e63c24ebb54</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Role'])[2]/following::button[1]</value>
-      <webElementGuid>6a30d9f7-dbb4-474f-9194-e091f39f1f02</webElementGuid>
+      <webElementGuid>070521e4-7ca4-42af-9f22-46754d3e4847</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +106,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/preceding::button[1]</value>
-      <webElementGuid>dfb92d55-257a-44fd-a997-8d74c4cc4893</webElementGuid>
+      <webElementGuid>788ceba2-1e30-4b82-962a-7f33fc3cd036</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +114,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//section/div[2]/div/button</value>
-      <webElementGuid>d98b6b7b-edaf-4db6-8a07-6d2c32826002</webElementGuid>
+      <webElementGuid>b25c57dd-88e5-477a-8f3f-3aa53b029c55</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,6 +122,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = 'Send Invitation' or . = 'Send Invitation')]</value>
-      <webElementGuid>16f36e36-188e-4e68-ad2e-6487e2f650bd</webElementGuid>
+      <webElementGuid>5b7a0da0-4873-42a1-8303-757305ea63a2</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

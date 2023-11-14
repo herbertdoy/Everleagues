@@ -6,19 +6,19 @@
    <elementGuidId>53338461-ad9e-49fd-9260-40875e2f85be</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+         <value>#mat-dialog-title-21</value>
+      </entry>
+      <entry>
          <key>BASIC</key>
          <value>//h4[(text() = 'Select an organization unit' or . = 'Select an organization unit')]</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//h4[@id='mat-dialog-title-21']</value>
-      </entry>
-      <entry>
-         <key>CSS</key>
-         <value>#mat-dialog-title-21</value>
+         <value>//h2[(text() = 'Select an Organization Unit' or . = 'Select an Organization Unit')]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -26,6 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>h4</value>
+      <webElementGuid>87f74932-a237-409d-b65b-6388338bc01c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -33,6 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-dialog-title</value>
+      <webElementGuid>1afbfe66-1f39-400f-84e1-ddbdbdd2cd12</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -40,6 +42,7 @@
       <name>id</name>
       <type>Main</type>
       <value>mat-dialog-title-21</value>
+      <webElementGuid>dad8b24d-fb83-40c3-9382-130b4c8fbef5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -47,6 +50,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Select an organization unit</value>
+      <webElementGuid>5dcdca1c-0144-4816-89da-e8fda9e9ddc3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,6 +58,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-dialog-title-21&quot;)</value>
+      <webElementGuid>8007615d-91e3-40fe-b154-cc78c51c53f8</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -61,6 +66,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//h4[@id='mat-dialog-title-21']</value>
+      <webElementGuid>53504649-b401-427f-beb9-12b3a869999c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -68,6 +74,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-dialog-container[@id='mat-dialog-19']/app-dialog-org-selector/section/form/h4</value>
+      <webElementGuid>08405dec-429d-4bb2-898f-b01f041e8ce8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -75,6 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/following::h4[1]</value>
+      <webElementGuid>b8caa7c3-438a-4e04-9fe7-375e12fa9099</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,6 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Create'])[1]/following::h4[1]</value>
+      <webElementGuid>68ce8841-1797-47ce-878f-914e60057061</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -89,6 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='GG Automation'])[3]/preceding::h4[1]</value>
+      <webElementGuid>c69c0e98-d924-4be3-ac1c-45cacd5f3e0c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -96,6 +106,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Select'])[1]/preceding::h4[1]</value>
+      <webElementGuid>a4d431c6-3d48-4f10-9f3a-9e62c2b1e82a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,6 +114,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Select an organization unit']/parent::*</value>
+      <webElementGuid>470f69ca-a502-476a-8706-8204a9ae031d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,6 +122,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//app-dialog-org-selector/section/form/h4</value>
+      <webElementGuid>75300cc5-199f-477f-b199-7058cc9509d5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,5 +130,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//h4[@id = 'mat-dialog-title-21' and (text() = 'Select an organization unit' or . = 'Select an organization unit')]</value>
+      <webElementGuid>68f25c59-a93a-4466-b0bd-4d66761f442c</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

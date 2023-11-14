@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//span[@class='mat-radio-label-content'])[1]</value>
+         <value>//span[(text() = ' Now' or . = ' Now')]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -26,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>9bc0a41b-e5df-42e7-a818-f472ddc2cc6a</webElementGuid>
+      <webElementGuid>345ca9c6-c247-4413-bf25-e9a3742be113</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -34,7 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-radio-label-content</value>
-      <webElementGuid>e4cacfe0-9782-459e-b98e-c5f1b4d888c2</webElementGuid>
+      <webElementGuid>c48c05f5-2e18-40aa-8bf2-7cc937bc2f47</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -42,7 +42,7 @@
       <name>text</name>
       <type>Main</type>
       <value> Now</value>
-      <webElementGuid>c44e5662-f0a2-41a5-9c69-6410857b9f58</webElementGuid>
+      <webElementGuid>5871996c-8bd3-4526-8f20-32b862e59c43</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,7 +50,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-radio-5&quot;)/label[@class=&quot;mat-radio-label&quot;]/div[@class=&quot;mat-radio-label-content&quot;]</value>
-      <webElementGuid>72c990f0-a7bc-4759-8073-fa9983f29300</webElementGuid>
+      <webElementGuid>57085446-41b1-407c-bc5b-75764af6a0ea</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -58,7 +58,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-radio-button[@id='mat-radio-5']/label/div[2]</value>
-      <webElementGuid>9b9d75ec-0f4e-489d-af96-90ef795b9f90</webElementGuid>
+      <webElementGuid>b19c9911-2db7-4261-aa1e-0018dc0ff195</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -66,7 +66,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Meeting Title'])[1]/following::div[22]</value>
-      <webElementGuid>4b25819b-6b8e-4549-abd8-4710ee3047ef</webElementGuid>
+      <webElementGuid>0ab28593-607a-483e-97e8-5dd219a28d63</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -74,7 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='chat'])[1]/following::div[25]</value>
-      <webElementGuid>3a8fb0d7-bc28-4f30-9eb4-f356af5ff96e</webElementGuid>
+      <webElementGuid>71b6e4db-c105-4a59-bd67-7988f3ba3b22</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Current Contacts'])[1]/preceding::div[7]</value>
-      <webElementGuid>97c9e2d6-6f72-475f-8bc6-fa79a41e41cc</webElementGuid>
+      <webElementGuid>e2b585ea-b2b4-428c-92bf-8f64bceb1e44</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -90,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Now']/parent::*</value>
-      <webElementGuid>9b7b8751-a241-4141-a62b-85af032792eb</webElementGuid>
+      <webElementGuid>b34a1fa4-4a50-495a-9278-aed08994f82e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,7 +98,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//label/div[2]</value>
-      <webElementGuid>2bfcbbf8-9603-435e-ab0e-e1a75341385a</webElementGuid>
+      <webElementGuid>d5ea74b9-3e12-4111-b0ca-c5801031fc7c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,6 +106,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = ' Now' or . = ' Now')]</value>
-      <webElementGuid>9a77518b-d2e5-4433-aa87-a7b7e9bfd920</webElementGuid>
+      <webElementGuid>79aa18ec-e4e8-409a-8597-a46a7d3ad5c5</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

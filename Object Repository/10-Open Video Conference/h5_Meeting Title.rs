@@ -7,14 +7,18 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='chat'])[1]/following::h5[1]</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='chat'])[1]/following::div[4]</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>h5.page-title.page-title-override</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//h5[@class = 'page-title page-title-override' and (text() = 'Meeting Title' or . = 'Meeting Title')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>h5</value>
-      <webElementGuid>064d17c9-8425-4dec-b746-b61335df76b3</webElementGuid>
+      <webElementGuid>cfd295cb-01d8-4c2b-aacf-e3888f24e905</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>page-title page-title-override</value>
-      <webElementGuid>7bd42b20-1034-47d3-bc20-b6f9afe512c2</webElementGuid>
+      <webElementGuid>f43e02d3-2cbb-4c21-b884-1fcf3e461ac0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +42,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Meeting Title</value>
-      <webElementGuid>010e801e-7e8c-4ce7-b145-f7a4026fe858</webElementGuid>
+      <webElementGuid>d9c8a8e8-cab6-4ffe-b3a0-583a22a0fc22</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +50,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/app-root[1]/app-main-page[@class=&quot;ng-tns-c481-0 ng-trigger ng-trigger-routerAnimation ng-star-inserted&quot;]/mat-sidenav-container[@class=&quot;mat-drawer-container mat-sidenav-container ng-tns-c481-0&quot;]/mat-sidenav-content[@class=&quot;mat-drawer-content mat-sidenav-content&quot;]/div[@class=&quot;wrapper&quot;]/app-open-meet[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;open-meet-container&quot;]/div[@class=&quot;content ng-star-inserted&quot;]/header[1]/div[1]/div[1]/h5[@class=&quot;page-title page-title-override&quot;]</value>
-      <webElementGuid>6afe51bd-c9b1-43b5-89f3-8838f721bdc8</webElementGuid>
+      <webElementGuid>2a7ad136-10e3-460f-be74-10bd5c897ae7</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +58,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='chat'])[1]/following::h5[1]</value>
-      <webElementGuid>64fe5661-94aa-48ea-ab42-96b3e5c626f1</webElementGuid>
+      <webElementGuid>91a84e41-0ca4-4ec5-947f-6313740316c3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +66,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='GG TESTER'])[1]/following::h5[1]</value>
-      <webElementGuid>33027e4d-c5c9-49e8-be8b-03375db04de4</webElementGuid>
+      <webElementGuid>3d224fbd-2cf2-490f-bfc7-f4c6d798ebc4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Meeting Title']/parent::*</value>
-      <webElementGuid>2de65f3c-0471-4725-91ae-985eb3ee81da</webElementGuid>
+      <webElementGuid>8c2c25d2-4240-421e-a829-6b554b1921fa</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +82,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//h5</value>
-      <webElementGuid>c8666c1d-51a8-41ef-812d-1307d3c98cf7</webElementGuid>
+      <webElementGuid>7cacd222-85e4-4aea-871a-74240e7ebca0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,6 +90,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//h5[(text() = 'Meeting Title' or . = 'Meeting Title')]</value>
-      <webElementGuid>888f7092-648b-4a4b-86c3-5119f761d9c1</webElementGuid>
+      <webElementGuid>aeba1923-5626-4678-933f-7bb9e3ff1b2e</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

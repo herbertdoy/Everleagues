@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//mat-error[text()='Field is required']</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Field is required'])[2]/following::div[12]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -26,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>mat-error</value>
-      <webElementGuid>f6e494bf-8e60-4b17-ba3f-8b2fa39010b9</webElementGuid>
+      <webElementGuid>34ebb5e7-0178-4d97-b399-1af714a2c717</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -34,7 +34,7 @@
       <name>role</name>
       <type>Main</type>
       <value>alert</value>
-      <webElementGuid>32aa44d6-6162-4250-8c1e-83d16d961be9</webElementGuid>
+      <webElementGuid>9e5ded17-83ad-4519-a6c5-d943e4be9cb1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,7 +42,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-error ng-tns-c110-143</value>
-      <webElementGuid>61c0c802-775d-4500-97e2-83c507d9f0c5</webElementGuid>
+      <webElementGuid>f474df20-f466-4c00-be3d-996d0ed80cad</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,7 +50,7 @@
       <name>id</name>
       <type>Main</type>
       <value>mat-error-20</value>
-      <webElementGuid>38578c6d-65cb-4828-b9c9-c231bb126be9</webElementGuid>
+      <webElementGuid>4ded168e-f40c-46c8-9f56-d0b71ec7fe0f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -58,7 +58,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Field is required</value>
-      <webElementGuid>b7149507-b805-4aaa-a0a8-bb16f230007c</webElementGuid>
+      <webElementGuid>28358fa4-6c04-4380-8570-f001a7dfa1d3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -66,7 +66,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-error-20&quot;)</value>
-      <webElementGuid>75de52a8-cf2d-43a1-8e1c-b247b376421c</webElementGuid>
+      <webElementGuid>8e5dc879-0de6-4796-add5-68f2753e243e</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -74,7 +74,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//mat-error[@id='mat-error-20']</value>
-      <webElementGuid>85ae762c-e33d-4a49-a3af-7b98c89c0600</webElementGuid>
+      <webElementGuid>cbf9a4f1-65e5-40ef-a22b-973352ee177d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='New Guests'])[1]/following::mat-error[1]</value>
-      <webElementGuid>1bb01438-6a92-48ab-9bb3-4afbe294b834</webElementGuid>
+      <webElementGuid>bfacfdcf-1766-4b9d-95c7-802b69601f83</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -90,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Bringing your old and new contacts together!'])[1]/preceding::mat-error[1]</value>
-      <webElementGuid>e5719a14-4836-49f2-87b9-714c3324828d</webElementGuid>
+      <webElementGuid>0e256a15-7f2c-4341-9f7a-f146bf22d433</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,7 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Create meeting'])[1]/preceding::mat-error[1]</value>
-      <webElementGuid>110bbb08-da8a-4915-9376-97083f4ad15a</webElementGuid>
+      <webElementGuid>dafb0605-afe2-4b4c-b121-808f268f6f79</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,7 +106,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Field is required']/parent::*</value>
-      <webElementGuid>dcb4b084-a6e3-44ea-970d-82a4631c2500</webElementGuid>
+      <webElementGuid>d230be87-263a-4af4-b32e-dbc376f68c22</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -114,7 +114,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//mat-error</value>
-      <webElementGuid>496b7eeb-ae2a-4a7d-acda-33ae46194f4b</webElementGuid>
+      <webElementGuid>c7e4cda9-6ef1-4646-8881-43f071497914</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -122,6 +122,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//mat-error[@id = 'mat-error-20' and (text() = 'Field is required' or . = 'Field is required')]</value>
-      <webElementGuid>d5ae496c-e7de-4f92-962b-e01e584cf230</webElementGuid>
+      <webElementGuid>10b37bc0-cf49-45e8-9f3b-8d4dcb0e4032</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

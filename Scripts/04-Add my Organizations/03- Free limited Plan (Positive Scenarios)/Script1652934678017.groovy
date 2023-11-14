@@ -115,21 +115,6 @@ WebUI.click(findTestObject('04-Add my Organizations/Free limited Plan/button_Cre
 
 WebUI.delay(GlobalVariable.delay_1second)
 
-//WebUI.verifyElementVisible(findTestObject('04-Add my Organizations/Free limited Plan/Congratulations msg'))// 
-WebUI.verifyElementVisible(findTestObject('04-Add my Organizations/Free limited Plan/button_SET UP'))
-
-WebUI.verifyElementVisible(findTestObject('04-Add my Organizations/Free limited Plan/button_INVITE EMPLOYEES etc'))
-
-WebUI.verifyElementVisible(findTestObject('04-Add my Organizations/Free limited Plan/button_SET UP TEAM'))
-
-WebUI.verifyElementVisible(findTestObject('04-Add my Organizations/Free limited Plan/button_LEARN MORE'))
-
-WebUI.delay(GlobalVariable.delay_5seconds)
-
-WebUI.click(findTestObject('04-Add my Organizations/Free limited Plan/button_DO THIS LATER_NEW'))
-
-WebUI.delay(GlobalVariable.delay_1second)
-
 WebUI.verifyElementVisible(findTestObject('04-Add my Organizations/Free limited Plan/span_GG Automation'))
 
 WebUI.delay(GlobalVariable.delay_1second)

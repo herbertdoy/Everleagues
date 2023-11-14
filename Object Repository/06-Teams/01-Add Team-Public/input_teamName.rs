@@ -15,7 +15,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//input[@data-placeholder='Team Name']</value>
+         <value>//input[@type = 'text' and @name = 'teamName' and @placeholder = 'Team Name']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -26,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>ac90673c-4f4e-4e76-988f-188196d187d1</webElementGuid>
+      <webElementGuid>e1b12dea-4956-4971-90d8-0ad8495e38f8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -34,7 +34,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>62567010-aa25-41cc-805e-df816f85c1f8</webElementGuid>
+      <webElementGuid>7ffc52ad-86cd-4d5e-bea4-b232f67ec7cd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -42,7 +42,7 @@
       <name>name</name>
       <type>Main</type>
       <value>teamName</value>
-      <webElementGuid>89bd8c28-f8fb-416b-bae3-f7f4f0884e71</webElementGuid>
+      <webElementGuid>47594911-400f-4e78-967c-9b95f0cfbefb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,7 +50,7 @@
       <name>maxlength</name>
       <type>Main</type>
       <value>100</value>
-      <webElementGuid>4ed0d667-b377-468b-839a-36b30d5c2825</webElementGuid>
+      <webElementGuid>1d7d8b5b-3ace-42de-8107-0ff8cc909167</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -58,7 +58,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-input-element mat-form-field-autofill-control ng-tns-c231-108 cdk-text-field-autofill-monitored ng-untouched ng-pristine ng-invalid</value>
-      <webElementGuid>79132361-7852-45f0-8bba-970deaa345da</webElementGuid>
+      <webElementGuid>ae6ec9e8-3dec-4b4e-b3be-bf633f05a875</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -66,7 +66,7 @@
       <name>ng-reflect-maxlength</name>
       <type>Main</type>
       <value>100</value>
-      <webElementGuid>9bbd0bc1-49c3-43f2-a0fc-fd886bdaa4db</webElementGuid>
+      <webElementGuid>eac30450-24f3-46f2-8ab8-554077f008cb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -74,7 +74,7 @@
       <name>ng-reflect-name</name>
       <type>Main</type>
       <value>teamName</value>
-      <webElementGuid>cf1cdd0e-3d9f-4d8e-bb47-b664820b05a4</webElementGuid>
+      <webElementGuid>732f3bb1-5adf-4167-a670-1d5c90620334</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -82,7 +82,7 @@
       <name>ng-reflect-type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>ba8b1036-700b-4aa4-a46c-0f3f7273a0ce</webElementGuid>
+      <webElementGuid>285ce0d4-a525-4795-9302-3a46fb006129</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -90,7 +90,7 @@
       <name>ng-reflect-placeholder</name>
       <type>Main</type>
       <value>Team Name</value>
-      <webElementGuid>81f86826-f6b7-4af3-956a-c8f398ebdaf0</webElementGuid>
+      <webElementGuid>1333b6ed-4b0a-4dec-a0e0-1f9c2a646863</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -98,7 +98,7 @@
       <name>ng-reflect-readonly</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>31ccf5ad-b031-48bd-a512-e712e7a54b3b</webElementGuid>
+      <webElementGuid>be6c92b0-9be5-48ae-add4-18f958050358</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -106,7 +106,7 @@
       <name>id</name>
       <type>Main</type>
       <value>mat-input-29</value>
-      <webElementGuid>2f9454a6-54db-4c5a-bc4a-c683fedba425</webElementGuid>
+      <webElementGuid>1d970b37-541f-4c08-a6a2-eb3902153362</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -114,7 +114,7 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>Team Name</value>
-      <webElementGuid>d46b7112-5466-48c1-b270-271683eba737</webElementGuid>
+      <webElementGuid>54ccf174-d1f7-4996-ab07-5637f3a23277</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -122,7 +122,7 @@
       <name>aria-invalid</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>89e5a250-3948-4077-a4b8-c69daa10feeb</webElementGuid>
+      <webElementGuid>aec1e23d-5c0a-4a73-a248-1d6991e3fac3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -130,7 +130,7 @@
       <name>aria-required</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>e1652586-01a9-4f22-9431-06f26b9a1917</webElementGuid>
+      <webElementGuid>9d054c0f-0fa2-43ac-a0b6-38dcbf060b50</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -138,7 +138,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-input-29&quot;)</value>
-      <webElementGuid>08c097df-a7f8-40f0-856f-7d048f89d42b</webElementGuid>
+      <webElementGuid>44162514-38d4-4ece-8243-1d76f4153ee0</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -146,7 +146,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='mat-input-29']</value>
-      <webElementGuid>aff70449-94cf-4fa2-843c-ab7305a22893</webElementGuid>
+      <webElementGuid>86c77de8-75b0-4660-a950-e1bb6075cff7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -154,7 +154,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-tab-body[@id='mat-tab-content-8-0']/div/div/div/mat-form-field/div/div/div/input</value>
-      <webElementGuid>35bd1a48-5900-4d1c-84df-ad2136738830</webElementGuid>
+      <webElementGuid>cf0ceb77-4fed-4444-a7a7-c902e8f42582</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -162,7 +162,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//input</value>
-      <webElementGuid>4c540d30-4def-4e84-9b13-60e8e538159a</webElementGuid>
+      <webElementGuid>8410aad4-0df0-457e-b949-d7061f7931a9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -170,6 +170,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'text' and @name = 'teamName' and @id = 'mat-input-29' and @placeholder = 'Team Name']</value>
-      <webElementGuid>7375e37d-2e12-4d04-ba0e-5e691d070ae4</webElementGuid>
+      <webElementGuid>dd978965-92c4-4b23-9eb6-4adc7489a5d5</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -6,15 +6,19 @@
    <elementGuidId>961eded4-26a6-415e-9b32-19a0fe03bf58</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>//div[(text() = 'Invite a single user' or . = 'Invite a single user')]</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>div.invite-method-container</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//mat-dialog-container[@id='mat-dialog-8']/app-dialog-invitation-method/section/div/div</value>
+         <key>BASIC</key>
+         <value>//div[@class = 'invite-method-container' and (text() = 'person_add Invite a single user ' or . = 'person_add Invite a single user ')]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>143c620c-f160-4a6b-9ebe-adc125b9d1f0</webElementGuid>
+      <webElementGuid>eb7c2b99-db96-49ec-bb58-c69e61ab9e55</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>invite-method-container</value>
-      <webElementGuid>f0de5e0e-fb1d-42bc-9e7a-6c6b25c0c3be</webElementGuid>
+      <webElementGuid>571578f1-427d-4e35-9291-6e6d16d7518a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +42,7 @@
       <name>text</name>
       <type>Main</type>
       <value>person_add Invite a single user </value>
-      <webElementGuid>db051879-8a79-4add-9e22-9020cb9c643f</webElementGuid>
+      <webElementGuid>1e98d48e-c8a9-4bcc-9cda-b22a5d6a71f4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +50,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-dialog-8&quot;)/app-dialog-invitation-method[@class=&quot;ng-star-inserted&quot;]/section[@class=&quot;dialog-container&quot;]/div[@class=&quot;mat-dialog-content&quot;]/div[@class=&quot;invite-method-container&quot;]</value>
-      <webElementGuid>3b9aa324-861a-4389-a8b5-0297e06f0521</webElementGuid>
+      <webElementGuid>2111580a-f2de-41f3-95be-7589dc8f09bd</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +58,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-dialog-container[@id='mat-dialog-8']/app-dialog-invitation-method/section/div/div</value>
-      <webElementGuid>01189143-1c93-48bc-9aba-ece86def41cc</webElementGuid>
+      <webElementGuid>4b2bba1e-ea20-4d1d-87a8-4b127643aed9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +66,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='User Invitation'])[1]/following::div[2]</value>
-      <webElementGuid>f30d5ab4-852e-40ab-a58f-6ba92a4a2a35</webElementGuid>
+      <webElementGuid>928b3745-37f7-4429-abaf-8b3e291f39fc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='of 3'])[1]/following::div[31]</value>
-      <webElementGuid>48d93137-a19f-4bf7-ab26-d3b4069baa43</webElementGuid>
+      <webElementGuid>c433dae8-418e-4705-9a66-6bdf0dee4f5d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Invite batch of users via CSV file'])[1]/preceding::div[4]</value>
-      <webElementGuid>16c7feed-fb53-4e8c-8041-3fe6285e55ec</webElementGuid>
+      <webElementGuid>bdbfa327-d291-4eed-9233-ecde634b5195</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +90,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//section/div/div</value>
-      <webElementGuid>54035397-9711-4911-91dd-368d9f8b9510</webElementGuid>
+      <webElementGuid>4d168edf-7882-4b61-b3e5-8fae1ad6db00</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,6 +98,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = 'person_add Invite a single user ' or . = 'person_add Invite a single user ')]</value>
-      <webElementGuid>77159b25-2d01-426d-b522-016b92655bb1</webElementGuid>
+      <webElementGuid>b000b998-f9db-4b38-a89d-b9c85f31467a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

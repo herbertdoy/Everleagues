@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//span[@class='mat-checkbox-label'])[1]</value>
+         <value>//*/text()[normalize-space(.)='Save all to contacts']/parent::*</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -26,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>3bb920cb-c413-4325-b20e-e9165138f0b2</webElementGuid>
+      <webElementGuid>b5536065-ef23-450c-b17d-c3a6cc5e7093</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -34,7 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-checkbox-inner-container</value>
-      <webElementGuid>d375fc9f-19d6-4dbe-8c0a-78232bc0d3de</webElementGuid>
+      <webElementGuid>bda5138e-627f-4fdd-9582-690b2224ce50</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,7 +42,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-checkbox-3&quot;)/label[@class=&quot;mat-checkbox-layout&quot;]/div[@class=&quot;mat-checkbox-inner-container&quot;]</value>
-      <webElementGuid>4945018d-ccfa-407e-b1bb-8ab5045d07c0</webElementGuid>
+      <webElementGuid>dce42ebf-770c-4c54-b84e-1199bf2df18d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -50,7 +50,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-checkbox[@id='mat-checkbox-3']/label/div</value>
-      <webElementGuid>2dbbfefd-b264-4498-9980-dd41a9e10337</webElementGuid>
+      <webElementGuid>4f35f30d-136d-47e6-9eff-7d14e82143c8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -58,7 +58,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='New Guests'])[1]/following::div[2]</value>
-      <webElementGuid>33e50bf2-2023-4237-9c06-25f712c0d043</webElementGuid>
+      <webElementGuid>f1349c74-b513-49cc-ba53-9dfa7f83e9d5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -66,7 +66,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Select existing contacts'])[1]/following::div[9]</value>
-      <webElementGuid>1a339ec6-3364-4806-8352-bb45cbbfe655</webElementGuid>
+      <webElementGuid>46419072-97aa-4a00-acdf-41fe4830d39f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -74,7 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Bringing your old and new contacts together!'])[1]/preceding::div[66]</value>
-      <webElementGuid>cbe5fc1a-b46c-4666-b4ee-c53882c5c044</webElementGuid>
+      <webElementGuid>dfa9ca8c-b184-446f-8065-c102a8ca3827</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,6 +82,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//mat-checkbox/label/div</value>
-      <webElementGuid>330a6cb6-596e-46db-ba72-9ec1f698ea20</webElementGuid>
+      <webElementGuid>97992c50-b845-4766-a3af-23ff7b8e481f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

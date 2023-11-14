@@ -6,16 +6,16 @@
    <elementGuidId>b7c168cc-476c-4d88-a6f2-1af7462bf4b7</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+         <value>mat-icon.mat-icon.notranslate.suffix-icon.material-icons.mat-icon-no-color.ng-star-inserted</value>
+      </entry>
+      <entry>
          <key>BASIC</key>
          <value>//mat-icon[@role = 'img' and (text() = 'create' or . = 'create')]</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[contains(@class,'ng-untouched ng-pristine')]//mat-icon[1]</value>
-      </entry>
-      <entry>
-         <key>CSS</key>
-         <value>mat-icon.mat-icon.notranslate.suffix-icon.material-icons.mat-icon-no-color.ng-star-inserted</value>
+         <value>//mat-icon[@data-mat-icon-name='pencil']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -26,6 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>mat-icon</value>
+      <webElementGuid>c946b84d-192d-440a-8110-69382f0a0764</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -33,6 +34,7 @@
       <name>role</name>
       <type>Main</type>
       <value>img</value>
+      <webElementGuid>4fe20225-9ddc-49bd-b011-3b4ba2da02d8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -40,6 +42,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-icon notranslate suffix-icon material-icons mat-icon-no-color ng-star-inserted</value>
+      <webElementGuid>19057e68-531b-42b6-b181-3fb5de09243d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,6 +50,7 @@
       <name>aria-hidden</name>
       <type>Main</type>
       <value>true</value>
+      <webElementGuid>6b2cdb8f-6b37-4c6a-b1d8-2a37870a21d5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,6 +58,7 @@
       <name>text</name>
       <type>Main</type>
       <value>create</value>
+      <webElementGuid>98f35545-eced-4f41-8933-911c5d0781c2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,6 +66,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;input-select-ou-10&quot;)/div[@class=&quot;ng-pristine ng-valid ng-touched&quot;]/mat-icon[@class=&quot;mat-icon notranslate suffix-icon material-icons mat-icon-no-color ng-star-inserted&quot;]</value>
+      <webElementGuid>48a4c0fc-1fa7-4945-8a11-b69c1313ac18</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -68,6 +74,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//input-select-ou[@id='input-select-ou-10']/div/mat-icon</value>
+      <webElementGuid>adae3135-2418-4bac-8da1-4aa784b46243</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -75,6 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Field is required'])[1]/following::mat-icon[1]</value>
+      <webElementGuid>94ec3e71-513c-448c-80e1-b0a8e9e2aca2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,6 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Team Name'])[1]/following::mat-icon[1]</value>
+      <webElementGuid>b0e2b5df-55b2-46e8-b6a0-1f1b799e93b0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -89,6 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Organization Unit'])[1]/preceding::mat-icon[1]</value>
+      <webElementGuid>8eaad68c-cfe3-482d-8430-778a81d8863c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -96,6 +106,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Member Visibility'])[1]/preceding::mat-icon[1]</value>
+      <webElementGuid>e80996f8-db6a-4133-882f-b42a5466da1c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,6 +114,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//input-select-ou/div/mat-icon</value>
+      <webElementGuid>2a325086-e26e-40a0-8c2e-9e2875bc4979</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,5 +122,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//mat-icon[(text() = 'create' or . = 'create')]</value>
+      <webElementGuid>62848a0c-b544-45b0-83f6-1174dfc8ba22</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

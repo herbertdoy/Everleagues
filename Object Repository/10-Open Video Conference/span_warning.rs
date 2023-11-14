@@ -7,14 +7,18 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='GG TESTER'])[1]/following::span[1]</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='OPEN VIDEO CONFERENCE'])[1]/following::div[7]</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>span.warning-msg</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[@class = 'warning-msg' and (text() = ' You should host an Open Meeting only when you need to include guests who are non EL members. It is a public meeting and therefore does not offer all the security features of a private group meeting. You may initiate a private group meeting from any chat group. ' or . = ' You should host an Open Meeting only when you need to include guests who are non EL members. It is a public meeting and therefore does not offer all the security features of a private group meeting. You may initiate a private group meeting from any chat group. ')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>f57f8957-ff8c-4618-bebb-4563d3ca0dd4</webElementGuid>
+      <webElementGuid>c9169508-97b2-4330-a78c-a7294ba273d1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>warning-msg</value>
-      <webElementGuid>a47d28c6-4b89-4b1d-b80b-780483d92482</webElementGuid>
+      <webElementGuid>0a5ee81e-b8ed-494a-a874-fea195fa5b67</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +42,7 @@
       <name>text</name>
       <type>Main</type>
       <value> You should host an Open Meeting only when you need to include guests who are non EL members. It is a public meeting and therefore does not offer all the security features of a private group meeting. You may initiate a private group meeting from any chat group. </value>
-      <webElementGuid>735c454c-5d00-424e-878b-805b47f338c0</webElementGuid>
+      <webElementGuid>c6baa44c-c957-4791-832e-c7b7d4d4e544</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +50,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/app-root[1]/app-main-page[@class=&quot;ng-tns-c481-0 ng-trigger ng-trigger-routerAnimation ng-star-inserted&quot;]/mat-sidenav-container[@class=&quot;mat-drawer-container mat-sidenav-container ng-tns-c481-0&quot;]/mat-sidenav-content[@class=&quot;mat-drawer-content mat-sidenav-content&quot;]/div[@class=&quot;wrapper&quot;]/app-open-meet[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;open-meet-container&quot;]/div[@class=&quot;warning-container&quot;]/span[@class=&quot;warning-msg&quot;]</value>
-      <webElementGuid>88a9166f-5414-470c-84d0-b779c7244f1a</webElementGuid>
+      <webElementGuid>63e66b61-2305-4939-ab17-4e5982f388f2</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +58,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='GG TESTER'])[1]/following::span[1]</value>
-      <webElementGuid>d673c360-e051-474d-a751-4e0deb3a0db8</webElementGuid>
+      <webElementGuid>ea9b6bca-5fa5-4915-9dd4-0b54d0fe649f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +66,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='English'])[1]/following::span[2]</value>
-      <webElementGuid>b64afdd3-055b-4450-bead-6ee1461cb2a5</webElementGuid>
+      <webElementGuid>204e020d-17b3-434c-b9d4-1ecfb0b3dcbd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Meeting Title'])[1]/preceding::span[1]</value>
-      <webElementGuid>f33b13b1-1683-441e-8cc1-3e059e41e0f7</webElementGuid>
+      <webElementGuid>54bf485e-273e-4d03-83c9-956979492abb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='You should host an Open Meeting only when you need to include guests who are non EL members. It is a public meeting and therefore does not offer all the security features of a private group meeting. You may initiate a private group meeting from any']/parent::*</value>
-      <webElementGuid>9a10f0f3-cd7b-4fbf-8268-537aba1a0494</webElementGuid>
+      <webElementGuid>f59726c5-344f-433d-aabf-ba5cb4627006</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +90,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//app-open-meet/div/div/span</value>
-      <webElementGuid>23a4bbb0-78e1-4e30-94fa-8b2c04ce38f7</webElementGuid>
+      <webElementGuid>cbfba952-4fca-4fbc-9a1c-eee672c331f9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,6 +98,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = ' You should host an Open Meeting only when you need to include guests who are non EL members. It is a public meeting and therefore does not offer all the security features of a private group meeting. You may initiate a private group meeting from any chat group. ' or . = ' You should host an Open Meeting only when you need to include guests who are non EL members. It is a public meeting and therefore does not offer all the security features of a private group meeting. You may initiate a private group meeting from any chat group. ')]</value>
-      <webElementGuid>4d3e55e6-8f5f-4a7c-b3e1-e3ea8b36cc19</webElementGuid>
+      <webElementGuid>1901abcc-91b8-42df-85dc-2ef0bb1d835a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
