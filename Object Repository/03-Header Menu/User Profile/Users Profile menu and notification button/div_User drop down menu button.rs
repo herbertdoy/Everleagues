@@ -6,16 +6,16 @@
    <elementGuidId>35d7a88c-8e18-4215-857c-89f64524fb0a</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//div[@class = 'user-initial-avatar ng-star-inserted' and (text() = 'GA' or . = 'GA')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
-         <value>//mat-toolbar[contains(@class,'mat-toolbar header-main-page')]//user-avatar[1]</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='DASHBOARD'])[1]/following::div[2]</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>div.user-initial-avatar.ng-star-inserted</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//div[@class = 'user-initial-avatar ng-star-inserted' and (text() = 'GA' or . = 'GA')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -26,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>c0338e56-4e11-4000-bd0a-f1ad7d410346</webElementGuid>
+      <webElementGuid>b1847994-cd53-4b7c-9441-97853d10cfd3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -34,7 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>user-initial-avatar ng-star-inserted</value>
-      <webElementGuid>1a149aa0-99ac-4e92-a424-82f87baf4619</webElementGuid>
+      <webElementGuid>1ee205bc-06c1-4c41-adae-5b4ecf2c8c79</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -42,7 +42,7 @@
       <name>text</name>
       <type>Main</type>
       <value>GA</value>
-      <webElementGuid>d432e4a7-1127-418e-ad72-01325c269247</webElementGuid>
+      <webElementGuid>357a981b-ad80-4c15-9140-e0e5811d9258</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,7 +50,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/app-root[1]/app-main-page[@class=&quot;ng-tns-c479-46 ng-trigger ng-trigger-routerAnimation ng-star-inserted&quot;]/mat-sidenav-container[@class=&quot;mat-drawer-container mat-sidenav-container ng-tns-c479-46&quot;]/mat-sidenav-content[@class=&quot;mat-drawer-content mat-sidenav-content&quot;]/mat-toolbar[@class=&quot;mat-toolbar header-main-page mat-primary mat-toolbar-single-row&quot;]/user-avatar[@class=&quot;mat-list-avatar mat-menu-trigger cursor-pointer push-left-sm img-profile&quot;]/div[@class=&quot;user-initial-avatar ng-star-inserted&quot;]</value>
-      <webElementGuid>58c8d2dc-a06f-40d3-b0d3-303287556665</webElementGuid>
+      <webElementGuid>b46d2745-8287-4cc1-9009-df00ab28d9df</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -58,7 +58,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='GG Automation'])[1]/following::div[1]</value>
-      <webElementGuid>b068bfed-7474-458d-8270-0ddaa2e9f58e</webElementGuid>
+      <webElementGuid>efe1281b-4c84-4c96-8265-e46e4ed40b69</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -66,7 +66,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='English'])[1]/following::div[3]</value>
-      <webElementGuid>ecdb88c8-d513-48cc-8463-5e9528b4cf83</webElementGuid>
+      <webElementGuid>ec291538-c2f7-4e29-9621-6012185d61d8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -74,7 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Explore your new organization'])[1]/preceding::div[3]</value>
-      <webElementGuid>1a52696d-22ad-4a69-9907-d18500c621ee</webElementGuid>
+      <webElementGuid>dd680f36-79ad-49fb-a32b-d7ada8aa3b03</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,6 +82,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//user-avatar/div</value>
-      <webElementGuid>5cd18dfc-3c00-4609-952d-c4eefc2f8009</webElementGuid>
+      <webElementGuid>f1171042-312a-403e-933e-6b70d52b1e3f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

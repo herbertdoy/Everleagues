@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//mat-dialog-container[@id='mat-dialog-4']</value>
+         <value>(//div[contains(@class,'mat-menu-panel ng-trigger')]//div)[1]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>f157f6f1-ac89-4107-9887-4c4d70c2bf87</webElementGuid>
+      <webElementGuid>960db29d-5726-4168-bc24-dab127b4be99</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>-1</value>
-      <webElementGuid>28d3a4b2-b047-4cdf-9ce0-3ff44044e345</webElementGuid>
+      <webElementGuid>488444c7-8801-4838-b71e-2fa9b23152cb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>role</name>
       <type>Main</type>
       <value>menu</value>
-      <webElementGuid>93ee2330-ff68-44d7-895f-b917ffcbfed7</webElementGuid>
+      <webElementGuid>8209c82e-2ce7-44be-9f0d-1d35d64f47a1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-menu-panel ng-trigger ng-trigger-transformMenu ng-tns-c311-5 mat-menu notifications-menu mat-menu-below ng-star-inserted mat-elevation-z4 mat-menu-before</value>
-      <webElementGuid>35abdb50-982e-40ef-b47e-a6c801178ca1</webElementGuid>
+      <webElementGuid>0cf92aba-48e3-407c-847f-c822bbba0ef7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>id</name>
       <type>Main</type>
       <value>mat-menu-panel-0</value>
-      <webElementGuid>ba610cfd-0381-4c21-911e-016897365e5f</webElementGuid>
+      <webElementGuid>b4f0694c-b094-4daf-a03a-6a2ed8e40580</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>ng-reflect-ng-class</name>
       <type>Main</type>
       <value>[object Object]</value>
-      <webElementGuid>36f4fab5-58d0-4f64-b4f3-4bb8b0634f34</webElementGuid>
+      <webElementGuid>1b0eda75-06f0-45f5-80f3-cbaf051dfd7f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -70,7 +70,7 @@
       <name>text</name>
       <type>Main</type>
       <value>You don't have any notification</value>
-      <webElementGuid>98c92334-9c49-4a74-9a59-0b487a8b689e</webElementGuid>
+      <webElementGuid>5d4d5d93-279c-4877-80c6-69b79160fdc8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-menu-panel-0&quot;)</value>
-      <webElementGuid>ea459517-eaad-48b6-9ca9-66b0ad76b783</webElementGuid>
+      <webElementGuid>95636f92-681d-45b0-a7c3-9c38b5683935</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//div[@id='mat-menu-panel-0']</value>
-      <webElementGuid>b5408f37-36d9-4b34-be4a-adb9b35d3384</webElementGuid>
+      <webElementGuid>a750019e-756b-4f5f-b1d7-71e974239e72</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='cdk-overlay-2']/div</value>
-      <webElementGuid>8cb4f377-2dd7-4f09-a301-c1c263b55c77</webElementGuid>
+      <webElementGuid>ea23f655-2bcd-4fe4-ad5a-5ac63d1d0b8b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Client Assignment'])[2]/following::div[5]</value>
-      <webElementGuid>887d445f-8af8-4ee5-ad90-4c621cd01ffa</webElementGuid>
+      <webElementGuid>2711196c-aeb4-45f5-9cac-5e1c4501e2cd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +110,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Invite New User'])[1]/following::div[6]</value>
-      <webElementGuid>f6a25d76-8332-445e-bd24-9d06dd91cac6</webElementGuid>
+      <webElementGuid>9e3927c2-cea0-42a0-bee7-7204ae403006</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,6 +118,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[5]/div[2]/div/div</value>
-      <webElementGuid>2701cbd8-6eef-435b-aff8-9c67828fd81d</webElementGuid>
+      <webElementGuid>ba2c4719-7203-409f-b20f-5268def66726</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
