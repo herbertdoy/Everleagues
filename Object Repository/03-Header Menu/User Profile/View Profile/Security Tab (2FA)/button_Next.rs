@@ -6,19 +6,19 @@
    <elementGuidId>dc9d120e-3786-4916-8c18-5c89d9af7a89</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@type = 'button' and (text() = 'Next' or . = 'Next')]</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
-         <value>(//button[@type='button'])[12]</value>
+         <value>//span[@class = 'ng-star-inserted' and (text() = 'Next' or . = 'Next')]</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>button.mat-focus-indicator.mat-raised-button.mat-button-base</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'button' and (text() = 'Next' or . = 'Next')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -26,6 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
+      <webElementGuid>816f9f75-e6e5-4ee4-8b20-6165728923b2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -33,6 +34,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
+      <webElementGuid>969ba712-e154-460f-b9c6-14a864df4431</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -40,6 +42,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-focus-indicator mat-raised-button mat-button-base</value>
+      <webElementGuid>aad622b9-02a4-4762-bf85-652ecdfd7223</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,6 +50,7 @@
       <name>ng-reflect-disabled</name>
       <type>Main</type>
       <value>false</value>
+      <webElementGuid>834903af-0165-44af-bdc3-4a88ee64efc5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,6 +58,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Next</value>
+      <webElementGuid>d620c675-74b3-4b07-a4d9-9c95149b63a1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,6 +66,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-dialog-3&quot;)/app-dialog-2fa-phone[@class=&quot;ng-star-inserted&quot;]/section[@class=&quot;dialog-container ng-star-inserted&quot;]/form[@class=&quot;ng-pristine ng-invalid ng-touched&quot;]/div[@class=&quot;mat-dialog-actions dialog-action&quot;]/div[@class=&quot;action-container&quot;]/button[@class=&quot;mat-focus-indicator mat-raised-button mat-button-base&quot;]</value>
+      <webElementGuid>b963e1f7-703d-427d-be93-06a9a074190a</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -68,6 +74,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[12]</value>
+      <webElementGuid>c3378efe-be4c-4c8b-85d6-c5cb2d0d5c59</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -75,6 +82,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-dialog-container[@id='mat-dialog-3']/app-dialog-2fa-phone/section/form/div[2]/div/button</value>
+      <webElementGuid>fd7d7355-287c-43cc-a495-04bce49e1319</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,6 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Enter a valid phone number with country code (Eg: +1234567890)'])[1]/following::button[1]</value>
+      <webElementGuid>e48cc833-4593-432b-8b4c-2d6a07064ecd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -89,6 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Phone Number'])[1]/following::button[1]</value>
+      <webElementGuid>d71fbda4-21e5-4d46-b9f8-ef013581a2b8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -96,6 +106,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/preceding::button[1]</value>
+      <webElementGuid>7e5e3068-8abc-4e77-9c8a-c22962269003</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,5 +114,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//form/div[2]/div/button</value>
+      <webElementGuid>67453826-c037-4b11-b059-1d56c956b639</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

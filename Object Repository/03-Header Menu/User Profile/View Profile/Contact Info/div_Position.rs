@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Invite new user_Cancel</name>
+   <name>div_Position</name>
    <tag></tag>
-   <elementGuidId>d777b72e-1156-4825-8d1e-f41273f367ed</elementGuidId>
+   <elementGuidId>38a22c83-b48d-46a9-b37c-7936c33c8793</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//span[@class = 'mat-button-wrapper' and (text() = 'Cancel' or . = 'Cancel')]</value>
+         <value>//span[(text() = 'Position' or . = 'Position')]</value>
       </entry>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

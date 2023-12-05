@@ -21,7 +21,7 @@ WebUI.click(findTestObject('03-Header Menu/User Profile/Users Profile menu and n
 
 WebUI.delay(GlobalVariable.delay_2seconds)
 
-WebUI.click(findTestObject('03-Header Menu/Header Menu Verifications/h4_Change Password'))
+WebUI.click(findTestObject('03-Header Menu/User Profile/Change Password/button_Change password_userDropdown'))
 
 WebUI.delay(GlobalVariable.delay_1second)
 
@@ -35,7 +35,9 @@ WebUI.click(findTestObject('03-Header Menu/User Profile/Change Password/button_C
 
 WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/Change Password/Failed to change password'))
 
-WebUI.click(findTestObject('09-Settings/Users/Active User/button_Cancel_restore'))
+//WebUI.click(findTestObject('03-Header Menu/User Profile/Change Password/button_Cancel'))
+
+//WebUI.click(findTestObject('09-Settings/Users/Active User/button_Cancel_restore'))
 
 WebUI.delay(GlobalVariable.delay_2seconds)
 

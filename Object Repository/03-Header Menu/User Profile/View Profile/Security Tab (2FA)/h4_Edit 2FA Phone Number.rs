@@ -7,14 +7,18 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//h4[@id='mat-dialog-title-14']</value>
+         <value>//h2[@class = 'mat-dialog-title' and (text() = 'Edit 2FA Phone Number' or . = 'Edit 2FA Phone Number')]</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>#mat-dialog-title-14</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//h4[@class = 'mat-dialog-title' and (text() = 'Edit 2FA Phone Number' or . = 'Edit 2FA Phone Number')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>h4</value>
-      <webElementGuid>5267c00a-8d8a-4a80-a102-784f2ed020c0</webElementGuid>
+      <webElementGuid>0282582a-8d21-4bd3-a91f-763221a2ab10</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-dialog-title</value>
-      <webElementGuid>2ccef64b-8ab4-4ad3-88fa-237f347dd34f</webElementGuid>
+      <webElementGuid>2df90177-6d38-44da-81bf-075ad49d2244</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +42,7 @@
       <name>id</name>
       <type>Main</type>
       <value>mat-dialog-title-14</value>
-      <webElementGuid>3d17bfac-8bee-473d-a142-ef8f78080768</webElementGuid>
+      <webElementGuid>821b7189-de32-4966-83d9-8f912cc93e4e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +50,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Edit 2FA Phone Number</value>
-      <webElementGuid>6af72365-d554-4f22-9a25-3f7e20c3c311</webElementGuid>
+      <webElementGuid>b8f4e3e4-e680-4548-bb8e-ae0362374aac</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +58,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-dialog-title-14&quot;)</value>
-      <webElementGuid>9b96c2d6-c59c-4ce7-9618-cc3ebd6d26d1</webElementGuid>
+      <webElementGuid>42fcdc3b-60c0-44ad-b986-e93fd74f987e</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -62,7 +66,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//h4[@id='mat-dialog-title-14']</value>
-      <webElementGuid>cd53fe78-2f9e-458a-adfe-4e9d9e2ca60c</webElementGuid>
+      <webElementGuid>af4e1d79-06a4-4e7e-8cf5-69b9540f85a8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +74,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-dialog-container[@id='mat-dialog-12']/app-dialog-2fa-phone/section/form/h4</value>
-      <webElementGuid>1a8ec266-0a20-486a-91e3-0e5225e1459a</webElementGuid>
+      <webElementGuid>f9bf5100-70e5-455a-9d4e-1e2d2549d803</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Phone'])[1]/following::h4[1]</value>
-      <webElementGuid>201ae3ea-b143-4860-aa77-aa062ee147f3</webElementGuid>
+      <webElementGuid>75264bcb-002f-45bc-b3c2-f914948e2549</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Email'])[1]/following::h4[1]</value>
-      <webElementGuid>2eda1399-1c21-455f-bebb-abcbf4927907</webElementGuid>
+      <webElementGuid>75689408-c99c-468d-bae5-7c7d271c2436</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Phone Number'])[1]/preceding::h4[1]</value>
-      <webElementGuid>f610eb50-682e-4ee6-82ce-4a8db9b9fc75</webElementGuid>
+      <webElementGuid>d31b9ae4-9ef1-4b84-94b1-f44f6ea7226f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +106,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Enter a valid phone number'])[1]/preceding::h4[1]</value>
-      <webElementGuid>c4fb3ff8-97e8-489e-bd8c-2480f54b553c</webElementGuid>
+      <webElementGuid>775095b2-3579-4cee-a172-3ff7f2f606c3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +114,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Edit 2FA Phone Number']/parent::*</value>
-      <webElementGuid>b0a7b398-b52e-4525-8ad7-d6a2774cefe0</webElementGuid>
+      <webElementGuid>3a3760d4-fd81-49de-99bc-610bf594ea0a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +122,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//form/h4</value>
-      <webElementGuid>fe36141c-7576-4e74-888a-2eab3d9af34e</webElementGuid>
+      <webElementGuid>13f295bc-6205-4a15-b5af-775d682244ff</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,6 +130,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//h4[@id = 'mat-dialog-title-14' and (text() = 'Edit 2FA Phone Number' or . = 'Edit 2FA Phone Number')]</value>
-      <webElementGuid>bcdc2c9e-c4e1-491e-bfe1-75ff8fdfe5c0</webElementGuid>
+      <webElementGuid>c016fd14-e265-489e-9e18-21ab6c52caf7</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

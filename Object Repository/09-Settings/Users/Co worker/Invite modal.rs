@@ -11,10 +11,14 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//mat-card</value>
+         <value>//mat-card[@class='mat-card mat-focus-indicator']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//mat-card[(text() = 'GAGG AutomationGG, you are invited to join GG Automation. Forgot password? Check here to indicate that you have read and agree to the Everleagues terms and conditions.AcceptReject' or . = 'GAGG AutomationGG, you are invited to join GG Automation. Forgot password? Check here to indicate that you have read and agree to the Everleagues terms and conditions.AcceptReject')]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>mat-card</value>
-      <webElementGuid>9cb2f701-4d2a-4d52-967d-c50f676d17c0</webElementGuid>
+      <webElementGuid>13506d91-eac2-4eee-841e-0e21d4765ea0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-card mat-focus-indicator</value>
-      <webElementGuid>c3deff09-11a8-4b50-954c-d8e6e18ae37c</webElementGuid>
+      <webElementGuid>135d7b49-0acd-4060-b632-585ee5cd3b9d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +42,7 @@
       <name>text</name>
       <type>Main</type>
       <value>GAGG AutomationGG, you are invited to join GG Automation. Forgot password? Check here to indicate that you have read and agree to the Everleagues terms and conditions.AcceptReject</value>
-      <webElementGuid>e99322d3-9126-43b9-a3f8-265f7b4ae0d8</webElementGuid>
+      <webElementGuid>dfeaae28-5878-4497-aca5-1a0baac319b2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +50,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/app-root[1]/app-verify-membership[1]/body[1]/section[1]/article[1]/mat-card[@class=&quot;mat-card mat-focus-indicator&quot;]</value>
-      <webElementGuid>2508d4d5-a21e-4882-8cb7-e0fdcf61ee0f</webElementGuid>
+      <webElementGuid>f730ba20-ca5e-40df-bd20-be30526abc20</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +58,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//mat-card</value>
-      <webElementGuid>e7308e80-d794-4c17-9b38-d603fba810da</webElementGuid>
+      <webElementGuid>5d9d5ce3-7243-435b-b62a-f76f6e9b00f2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,6 +66,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//mat-card[(text() = 'GAGG AutomationGG, you are invited to join GG Automation. Forgot password? Check here to indicate that you have read and agree to the Everleagues terms and conditions.AcceptReject' or . = 'GAGG AutomationGG, you are invited to join GG Automation. Forgot password? Check here to indicate that you have read and agree to the Everleagues terms and conditions.AcceptReject')]</value>
-      <webElementGuid>3d877a09-59c0-4fc8-a235-41d679ab70ba</webElementGuid>
+      <webElementGuid>073ea4a2-f97b-4d34-9bc4-0977f145d41c</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

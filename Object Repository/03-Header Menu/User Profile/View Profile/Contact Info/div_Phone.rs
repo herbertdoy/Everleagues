@@ -6,15 +6,18 @@
    <elementGuidId>596fbd9a-878f-4453-bb50-5c164bbae481</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//mat-label[@class = 'font-bold' and (text() = 'Phone' or . = 'Phone')]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//mat-tab-body[@id='mat-tab-content-0-3']/div/mat-card/mat-card-content/div[4]</value>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Phone' or . = 'Phone')]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,6 +25,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
+      <webElementGuid>a3da4acf-f3bb-449e-82f9-52ff5558f8a2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,6 +33,7 @@
       <name>class</name>
       <type>Main</type>
       <value>sub-title ng-tns-c565-32</value>
+      <webElementGuid>e0696adf-cc32-4e5a-8edd-1ab4d1ebd7fa</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -36,6 +41,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Phone</value>
+      <webElementGuid>edcdd156-4036-42fd-9c53-39cedbdb1201</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,6 +49,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-tab-content-0-3&quot;)/div[@class=&quot;mat-tab-body-content ng-tns-c360-51 ng-trigger ng-trigger-translateTab&quot;]/mat-card[@class=&quot;mat-card mat-focus-indicator ng-star-inserted&quot;]/mat-card-content[@class=&quot;mat-card-content&quot;]/div[@class=&quot;sub-title ng-tns-c565-32&quot;]</value>
+      <webElementGuid>b104f48d-1b87-4d22-b38c-914ae82134d0</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -50,6 +57,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-tab-body[@id='mat-tab-content-0-3']/div/mat-card/mat-card-content/div[4]</value>
+      <webElementGuid>565cd9b2-d4f4-4ccc-bb43-a26dbf170775</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -57,6 +65,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Email'])[1]/following::div[12]</value>
+      <webElementGuid>e314515f-ddc9-46c1-8e9e-68f3b7a32c8f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -64,6 +73,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Type'])[1]/following::div[19]</value>
+      <webElementGuid>3b2ee921-c250-487e-acaf-75e2c60f24d9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,6 +81,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Type'])[2]/preceding::div[1]</value>
+      <webElementGuid>7e4f3b58-4e6b-4b2d-8904-43e40ad9ae08</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,6 +89,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Address'])[1]/preceding::div[24]</value>
+      <webElementGuid>5444883c-2fb2-4fdf-ace4-d8acec4baeaf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,6 +97,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Phone']/parent::*</value>
+      <webElementGuid>1e5d5a5f-884e-49f8-9def-9785404fcc2b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -92,6 +105,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//mat-card-content/div[4]</value>
+      <webElementGuid>48a91fef-d413-4e3d-99db-8949cde0e905</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,5 +113,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = 'Phone' or . = 'Phone')]</value>
+      <webElementGuid>c1f987a6-9c70-439f-a718-938408e9b616</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

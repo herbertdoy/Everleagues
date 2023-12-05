@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//mat-icon[text()='add_circle_outline'])[1]</value>
+         <value>(//mat-icon[@data-mat-icon-name='plus-circle'])[1]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -22,6 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>mat-icon</value>
+      <webElementGuid>73765ae5-ae7e-4fd8-8363-2b545cf6213b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,6 +30,7 @@
       <name>role</name>
       <type>Main</type>
       <value>img</value>
+      <webElementGuid>fa646bec-bafa-48ad-8ee1-d1be91884dc7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -36,6 +38,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-icon notranslate material-icons mat-icon-no-color</value>
+      <webElementGuid>92b2c3f4-ce02-474d-86e6-c8511dd6b9e6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,6 +46,7 @@
       <name>aria-hidden</name>
       <type>Main</type>
       <value>true</value>
+      <webElementGuid>159cb28a-9553-418a-b922-d4ac38971777</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -50,6 +54,7 @@
       <name>text</name>
       <type>Main</type>
       <value>add_circle_outline</value>
+      <webElementGuid>a6e56f47-e450-4c37-b603-f2585d18b628</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -57,6 +62,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-tab-content-1-3&quot;)/div[@class=&quot;mat-tab-body-content ng-tns-c360-89 ng-trigger ng-trigger-translateTab&quot;]/mat-card[@class=&quot;mat-card mat-focus-indicator ng-star-inserted&quot;]/mat-card-content[@class=&quot;mat-card-content&quot;]/div[@class=&quot;edit-list ng-tns-c565-70&quot;]/input-contact-email[@class=&quot;ng-tns-c565-70&quot;]/div[@class=&quot;add-email-button ng-star-inserted&quot;]/button[@class=&quot;mat-focus-indicator mat-icon-button mat-button-base&quot;]/span[@class=&quot;mat-button-wrapper&quot;]/mat-icon[@class=&quot;mat-icon notranslate material-icons mat-icon-no-color&quot;]</value>
+      <webElementGuid>075465f1-7f26-4163-8736-5afbb402acd4</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -64,6 +70,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-tab-body[@id='mat-tab-content-1-3']/div/mat-card/mat-card-content/div[3]/input-contact-email/div[2]/button/span/mat-icon</value>
+      <webElementGuid>6ae6b875-a003-43e2-bb21-9f8e676f6492</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,6 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Email'])[1]/following::mat-icon[2]</value>
+      <webElementGuid>89895797-bbde-4fc3-9fa8-e88485fa9b1b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,6 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Type'])[1]/following::mat-icon[2]</value>
+      <webElementGuid>74254d1a-4c50-4eb6-b7d8-27f28d48bc2d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,6 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Phone'])[1]/preceding::mat-icon[1]</value>
+      <webElementGuid>8a3a76e8-2a68-40b6-9a4d-67a623cddf21</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -92,6 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Type'])[2]/preceding::mat-icon[1]</value>
+      <webElementGuid>1ba53191-ca79-4449-add9-3f6a27fe849b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,6 +110,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='add_circle_outline']/parent::*</value>
+      <webElementGuid>78d47dc7-1c56-408c-bb6d-ffc0388040d3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,6 +118,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/button/span/mat-icon</value>
+      <webElementGuid>b1897b14-2e19-4e7a-b88d-d525134e2687</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -113,5 +126,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//mat-icon[(text() = 'add_circle_outline' or . = 'add_circle_outline')]</value>
+      <webElementGuid>7ea5b67d-aba1-47c8-942b-209006293f6a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

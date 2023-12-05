@@ -7,18 +7,17 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//button[@type='button'])[12]</value>
+         <value>//span[@class = 'mat-button-wrapper' and (text() = 'Cancel' or . = 'Cancel')]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
       <entry>
          <key>BASIC</key>
          <value>//button[@type = 'button' and (text() = 'Cancel' or . = 'Cancel')]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -26,6 +25,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
+      <webElementGuid>4f62cdd3-5200-4e98-81d3-652e72356a21</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -33,6 +33,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
+      <webElementGuid>d6f5a715-d459-4cb0-8bf9-7b3f8d6affa4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -40,6 +41,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-focus-indicator mat-raised-button mat-button-base</value>
+      <webElementGuid>892c1dfe-e788-4a8b-bf60-0bb0f0c9b848</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -47,6 +49,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Cancel</value>
+      <webElementGuid>975339d6-3b02-42da-9dd6-509281052fb0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,6 +57,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-dialog-2&quot;)/app-dialog-change-password[@class=&quot;ng-star-inserted&quot;]/section[@class=&quot;dialog-container&quot;]/form[@class=&quot;ng-touched ng-dirty ng-valid&quot;]/div[@class=&quot;mat-dialog-actions dialog-action&quot;]/div[@class=&quot;action-container&quot;]/button[@class=&quot;mat-focus-indicator mat-raised-button mat-button-base&quot;]</value>
+      <webElementGuid>331bb36f-c38a-4f7d-8b45-d694adb53fbf</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -61,6 +65,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[12]</value>
+      <webElementGuid>752f75b9-c6c8-436a-932e-0344162852b4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -68,6 +73,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-dialog-container[@id='mat-dialog-2']/app-dialog-change-password/section/form/div[2]/div/button[2]</value>
+      <webElementGuid>f77b1680-59f7-4b01-86fc-f159b443af80</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -75,6 +81,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Change Password'])[2]/following::button[1]</value>
+      <webElementGuid>c977dd90-8d89-4fb5-88cd-b7fcf7bd0a34</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,6 +89,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Confirm Password'])[1]/following::button[3]</value>
+      <webElementGuid>1f78ecf9-d572-417d-9a87-a894a88abf37</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -89,6 +97,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::button[1]</value>
+      <webElementGuid>5a36a319-ef64-4fe2-ba57-5bb4b6237341</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -96,6 +105,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/button[2]</value>
+      <webElementGuid>09a2f84c-6e34-4489-8085-1a4db57fe007</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,5 +113,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = 'Cancel' or . = 'Cancel')]</value>
+      <webElementGuid>b806739a-ba90-4291-b594-9fe45b36d89f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

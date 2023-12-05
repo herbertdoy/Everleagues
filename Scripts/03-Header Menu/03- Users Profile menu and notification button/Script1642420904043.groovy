@@ -35,7 +35,7 @@ WebUI.delay(GlobalVariable.delay_1second)
 
 WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/Users Profile menu and notification button/h4_View Profile'))
 
-WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/Users Profile menu and notification button/h4_Change Password'))
+WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/Change Password/button_Change password_userDropdown'))
 
 WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/Users Profile menu and notification button/h4_Sign Out'))
 

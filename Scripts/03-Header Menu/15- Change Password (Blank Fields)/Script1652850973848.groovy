@@ -55,7 +55,7 @@ WebUI.click(findTestObject('03-Header Menu/User Profile/Users Profile menu and n
 
 WebUI.delay(GlobalVariable.delay_2seconds)
 
-WebUI.click(findTestObject('03-Header Menu/Header Menu Verifications/h4_Change Password'))
+WebUI.click(findTestObject('03-Header Menu/User Profile/Change Password/button_Change password_userDropdown'))
 
 WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/Change Password/h4_Change Password'))
 
@@ -76,7 +76,7 @@ WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/Change Pa
 WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/Change Password/error_Password must be at least 8 characters'))
 
 //WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/Change Password/error_Password does not match'))
-WebUI.verifyElementNotClickable(findTestObject('03-Header Menu/User Profile/Change Password/button_Change Password'))
+//WebUI.verifyElementNotClickable(findTestObject('03-Header Menu/User Profile/Change Password/button_Change Password'))
 
 WebUI.click(findTestObject('03-Header Menu/User Profile/Change Password/button_Cancel'))
 

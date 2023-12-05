@@ -7,14 +7,18 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//button[@type='button'])[7]</value>
+         <value>//span[(text() = 'Save' or . = 'Save')]</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>button.mat-focus-indicator.ng-tns-c565-32.mat-raised-button.mat-button-base.mat-primary</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//button[@type = 'button' and (text() = 'Save' or . = 'Save')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -22,6 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
+      <webElementGuid>e1e5d2bd-b88a-4cb3-8c2b-adfc7aa3ae64</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -29,6 +34,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
+      <webElementGuid>7709d177-3004-4006-8d57-f6c687f32e31</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -36,6 +42,7 @@
       <name>color</name>
       <type>Main</type>
       <value>primary</value>
+      <webElementGuid>c84c1d50-8f4b-45b8-afbf-1070981e6207</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,6 +50,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-focus-indicator ng-tns-c565-32 mat-raised-button mat-button-base mat-primary</value>
+      <webElementGuid>abe5464e-826e-4d5a-8af9-19118a24b180</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,6 +58,7 @@
       <name>ng-reflect-color</name>
       <type>Main</type>
       <value>primary</value>
+      <webElementGuid>18bce01b-8255-4644-bde3-18f17dbf1285</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -57,6 +66,7 @@
       <name>ng-reflect-disabled</name>
       <type>Main</type>
       <value>false</value>
+      <webElementGuid>ae767b0a-81e9-49e4-a17d-c2d7c69c5104</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -64,6 +74,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Save</value>
+      <webElementGuid>86f0e538-0574-4df8-bc9e-2a7007c9f2e9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -71,6 +82,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-tab-content-0-2&quot;)/div[@class=&quot;mat-tab-body-content ng-tns-c360-44 ng-trigger ng-trigger-translateTab&quot;]/div[@class=&quot;tab-button ng-star-inserted&quot;]/button[@class=&quot;mat-focus-indicator ng-tns-c565-32 mat-raised-button mat-button-base mat-primary&quot;]</value>
+      <webElementGuid>cbeacaf5-94ac-4a34-9223-2ceead9e4012</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -78,6 +90,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[7]</value>
+      <webElementGuid>f0ad3cd4-a808-417a-9e10-7c51437588d2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,6 +98,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-tab-body[@id='mat-tab-content-0-2']/div/div/button</value>
+      <webElementGuid>2f2a9515-8ffb-4a57-8325-84837b92f318</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -92,6 +106,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Select preference'])[1]/following::button[1]</value>
+      <webElementGuid>89c17956-4a7e-471d-9e34-1a117f83d80b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,6 +114,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Every 4 hours'])[1]/following::button[1]</value>
+      <webElementGuid>eaace6cb-b996-4b61-92ca-b21c0c4383d9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,6 +122,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Hide Quick Shortcuts'])[1]/preceding::button[5]</value>
+      <webElementGuid>08ced80d-1609-4a56-9441-dc2a0bdbdd85</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -113,6 +130,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//mat-tab-body[3]/div/div/button</value>
+      <webElementGuid>834c05da-738b-49f7-b499-33c92a312827</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -120,5 +138,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = 'Save' or . = 'Save')]</value>
+      <webElementGuid>d07d45b1-bed7-465c-a6f9-e7175ea82127</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

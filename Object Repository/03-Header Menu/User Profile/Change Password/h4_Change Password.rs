@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//h4[@id='mat-dialog-title-0']</value>
+         <value>//h2[@class = 'mat-dialog-title' and (text() = 'Change Password' or . = 'Change Password')]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -18,7 +18,7 @@
          <value>//h4[@class = 'mat-dialog-title' and (text() = 'Change Password' or . = 'Change Password')]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -26,6 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>h4</value>
+      <webElementGuid>0e3b3253-f168-4ffd-8f62-1e5764a69470</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -33,6 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-dialog-title</value>
+      <webElementGuid>29b16fa3-d796-4547-bda7-a290158a6a2b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -40,6 +42,7 @@
       <name>id</name>
       <type>Main</type>
       <value>mat-dialog-title-0</value>
+      <webElementGuid>059e71fa-47b1-42e9-84a2-e9ab54cc7aa9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -47,6 +50,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Change Password</value>
+      <webElementGuid>240d1cd5-e6f9-418b-9625-41b0f62f112e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,6 +58,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-dialog-title-0&quot;)</value>
+      <webElementGuid>2bbdded5-18d5-4673-956b-27625b77a5ab</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -61,6 +66,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//h4[@id='mat-dialog-title-0']</value>
+      <webElementGuid>3cdab31e-01a5-4f0b-933c-758dd03ab7fb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -68,6 +74,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-dialog-container[@id='mat-dialog-0']/app-dialog-change-password/section/form/h4</value>
+      <webElementGuid>637367d7-fcd9-4088-b9fa-ca093aa6f170</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -75,6 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Client Assignment'])[2]/following::h4[1]</value>
+      <webElementGuid>c6c2e837-0fb4-446a-8845-d8faea42557d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,6 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Hide Quick Shortcuts'])[1]/following::h4[1]</value>
+      <webElementGuid>f43e8f03-4552-4201-b4ad-fa9996158056</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -89,6 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Old Password'])[1]/preceding::h4[1]</value>
+      <webElementGuid>61bad564-d24d-4403-be5b-f0adc519f35c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -96,6 +106,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='New Password'])[1]/preceding::h4[1]</value>
+      <webElementGuid>b5d2c087-a7cf-4661-af08-3e19f90e5dee</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,6 +114,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Change Password']/parent::*</value>
+      <webElementGuid>067e8a7a-e6b6-40ab-88a6-2c1197078392</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,6 +122,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//form/h4</value>
+      <webElementGuid>ad4384e0-cce9-4c4c-9b9a-98fe5dcd7d46</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,5 +130,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//h4[@id = 'mat-dialog-title-0' and (text() = 'Change Password' or . = 'Change Password')]</value>
+      <webElementGuid>be06c0b5-6873-4b32-8774-d9dad97ce3bd</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

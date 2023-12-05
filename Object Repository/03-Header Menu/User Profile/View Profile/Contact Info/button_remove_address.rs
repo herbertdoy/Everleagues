@@ -6,15 +6,19 @@
    <elementGuidId>64a2b6e8-5e1e-446f-a854-6fc0750fa857</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>//mat-icon[@data-mat-icon-name='minus-circle']</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>button.mat-focus-indicator.ng-tns-c569-36.mat-icon-button.mat-button-base.cdk-focused.cdk-mouse-focused</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>(//button[@type='button'])[11]</value>
+         <key>BASIC</key>
+         <value>//button[@type = 'button' and @mattooltip = 'Delete Address' and @ng-reflect-position = 'above' and (text() = 'remove_circle_outline' or . = 'remove_circle_outline')]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>f7db71d2-dbce-447d-8ee0-25f1a847a6e3</webElementGuid>
+      <webElementGuid>4e0d02a6-fe1b-40fc-a4d3-cfb55c83c130</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +34,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>bf565e6a-a70d-4a04-bb95-f42a6238bd61</webElementGuid>
+      <webElementGuid>eeaead3d-3bb7-4899-8a76-2a5f0b58e7a5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +42,7 @@
       <name>mattooltip</name>
       <type>Main</type>
       <value>Delete Address</value>
-      <webElementGuid>e7187c47-8953-4196-b777-b5193cf59559</webElementGuid>
+      <webElementGuid>056bf841-c418-4f8c-a8df-df244b3a3884</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +50,7 @@
       <name>mattooltipposition</name>
       <type>Main</type>
       <value>above</value>
-      <webElementGuid>df432aa4-ee97-4567-8a61-1f77a3196cf2</webElementGuid>
+      <webElementGuid>72d025dc-c825-4216-828b-323dcf381c4f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +58,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-focus-indicator ng-tns-c569-36 mat-icon-button mat-button-base cdk-focused cdk-mouse-focused</value>
-      <webElementGuid>ef779a48-55e5-4b86-8840-4a939eda8802</webElementGuid>
+      <webElementGuid>da1ed529-defd-4e5e-9f6c-186827603f26</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +66,7 @@
       <name>ng-reflect-message</name>
       <type>Main</type>
       <value>Delete Address</value>
-      <webElementGuid>91f79351-1619-484e-b6a7-73425bb8c7c0</webElementGuid>
+      <webElementGuid>2c05ec35-5ae2-40e1-b22a-99050b02612d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -70,7 +74,7 @@
       <name>ng-reflect-position</name>
       <type>Main</type>
       <value>above</value>
-      <webElementGuid>1ca1a98c-5673-4429-b986-1ae10f8a65be</webElementGuid>
+      <webElementGuid>da676870-0353-4e2b-96c4-ac81144e527e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,7 +82,7 @@
       <name>aria-describedby</name>
       <type>Main</type>
       <value>cdk-describedby-message-11</value>
-      <webElementGuid>5010a039-e8d5-4253-afe0-472c407e6e4c</webElementGuid>
+      <webElementGuid>715f08a9-1ecb-48db-b64b-50094f913317</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -86,7 +90,7 @@
       <name>text</name>
       <type>Main</type>
       <value>remove_circle_outline</value>
-      <webElementGuid>c5637431-7840-414e-b226-a1a4a630f4ab</webElementGuid>
+      <webElementGuid>3a95e7ad-1699-4678-856c-69ede62b0df3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -94,7 +98,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-tab-content-0-3&quot;)/div[@class=&quot;mat-tab-body-content ng-tns-c361-56 ng-trigger ng-trigger-translateTab&quot;]/mat-card[@class=&quot;mat-card mat-focus-indicator ng-star-inserted&quot;]/mat-card-content[@class=&quot;mat-card-content&quot;]/div[@class=&quot;ng-tns-c569-36&quot;]/mat-list[@class=&quot;mat-list mat-list-base address-container ng-tns-c569-36 ng-star-inserted&quot;]/mat-list-item[@class=&quot;mat-list-item mat-focus-indicator contact-address push-bottom-sm ng-tns-c569-36 mat-multi-line ng-star-inserted&quot;]/div[@class=&quot;mat-list-item-content&quot;]/div[@class=&quot;button-edit-address&quot;]/button[@class=&quot;mat-focus-indicator ng-tns-c569-36 mat-icon-button mat-button-base cdk-focused cdk-mouse-focused&quot;]</value>
-      <webElementGuid>4d5f4edb-abf6-4ffe-9ddb-ae58a6784468</webElementGuid>
+      <webElementGuid>91d71b5e-b007-4d68-ae6a-c1ee12914816</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -102,7 +106,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[11]</value>
-      <webElementGuid>108b4736-51a4-4686-80a4-670aa6deb097</webElementGuid>
+      <webElementGuid>ee6fae74-b038-4885-ac99-ccadb877e7df</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +114,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-tab-body[@id='mat-tab-content-0-3']/div/mat-card/mat-card-content/div[7]/mat-list/mat-list-item/div/div[3]/button[2]</value>
-      <webElementGuid>07f848d4-fbed-4baa-8f3f-c6c16a8d1f33</webElementGuid>
+      <webElementGuid>5c37782e-a111-43fc-afaa-9d87a96c1d8f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +122,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Work'])[1]/following::button[2]</value>
-      <webElementGuid>2d7ac516-45fb-4340-8613-690993e5d128</webElementGuid>
+      <webElementGuid>ae518cfc-2fa8-4606-bdc4-a2f96997f5e8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,7 +130,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Test Country'])[1]/following::button[2]</value>
-      <webElementGuid>32b4a3c8-321f-4c43-bd78-692eb0d82501</webElementGuid>
+      <webElementGuid>1495c2ef-6d24-4a09-9c2f-732948a6fe65</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,7 +138,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Save'])[1]/preceding::button[2]</value>
-      <webElementGuid>020645f2-c663-44d5-b0c1-cbb3e9979a2c</webElementGuid>
+      <webElementGuid>26b1c514-4597-4cf7-9b69-3d57f34594fc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -142,7 +146,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::button[7]</value>
-      <webElementGuid>3b52a933-fe8c-4ca9-9d94-90bc2790d594</webElementGuid>
+      <webElementGuid>3991684b-c295-4091-9a1b-5e3f88c3b4cb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -150,7 +154,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/button[2]</value>
-      <webElementGuid>6607915e-5ce1-4925-925d-93475aa976b0</webElementGuid>
+      <webElementGuid>7860460a-4b13-4af0-afbd-581d795cedea</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -158,6 +162,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = 'remove_circle_outline' or . = 'remove_circle_outline')]</value>
-      <webElementGuid>78cd8384-bd8d-45a0-afcd-fcd372d75c4f</webElementGuid>
+      <webElementGuid>8f23354f-52c0-4440-b669-17e51b86e01f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -102,7 +102,7 @@ WebUI.click(findTestObject('03-Header Menu/User Profile/Users Profile menu and n
 
 WebUI.delay(GlobalVariable.delay_2seconds)
 
-WebUI.click(findTestObject('03-Header Menu/Header Menu Verifications/h4_Change Password'))
+WebUI.click(findTestObject('03-Header Menu/User Profile/Change Password/button_Change password_userDropdown'))
 
 WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/Change Password/h4_Change Password'))
 

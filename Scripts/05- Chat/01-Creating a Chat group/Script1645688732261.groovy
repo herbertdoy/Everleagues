@@ -69,7 +69,7 @@ WebUI.verifyElementVisible(findTestObject('02-Side Icons(Organization)/Add Conta
 
 WebUI.click(findTestObject('05-Chat/01- Creating a Chat group/div_Chat'))
 
-WebUI.delay(GlobalVariable.delay_1second)
+WebUI.delay(GlobalVariable.delay_2seconds)
 
 WebUI.verifyElementVisible(findTestObject('05-Chat/01- Creating a Chat group/h4_CHAT'))
 

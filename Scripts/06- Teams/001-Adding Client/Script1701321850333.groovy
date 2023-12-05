@@ -152,7 +152,7 @@ WebUI.click(findTestObject('02-Side Icons(Organization)/Add Contact/button_Sign 
 
 WebUI.delay(GlobalVariable.delay_2seconds)
 
-WebUI.click(findTestObject('06-Teams/For 2FA/button_Confirm_2FA'))
+WebUI.click(findTestObject('06-Teams/For 2FA/button_Confirm'))
 
 WebUI.executeJavaScript('window.open();', [])
 
@@ -187,6 +187,10 @@ WebUI.delay(GlobalVariable.delay_3seconds)
 WebUI.switchToWindowIndex(0)
 
 WebUI.delay(GlobalVariable.delay_3seconds)
+
+WebUI.click(findTestObject('06-Teams/For 2FA/button_Confirm_2FA'))
+
+WebUI.delay(GlobalVariable.delay_2seconds)
 
 WebUI.setText(findTestObject('Object Repository/06-Teams/For 2FA/input_Enter verification code_code'), codetwo)
 

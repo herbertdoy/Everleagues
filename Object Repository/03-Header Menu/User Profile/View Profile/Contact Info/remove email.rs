@@ -6,11 +6,11 @@
    <elementGuidId>9cd7498c-3f7b-4ea9-8e58-04c0466cdf2f</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
+         <key>XPATH</key>
+         <value>(//button[@mattooltip='Delete Email'])[2]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>(//mat-icon[text()='remove_circle_outline'])[2]</value>
+         <key>CSS</key>
       </entry>
       <entry>
          <key>BASIC</key>
@@ -25,7 +25,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>mat-icon</value>
-      <webElementGuid>31efc148-ffcf-4c3b-8431-91e7132f9536</webElementGuid>
+      <webElementGuid>3937d637-44fb-4046-a822-5b462b41bef3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -33,7 +33,7 @@
       <name>role</name>
       <type>Main</type>
       <value>img</value>
-      <webElementGuid>26bc0287-602c-4394-8884-852d8728af7a</webElementGuid>
+      <webElementGuid>34f4d3d4-f7ab-4825-b575-9aa88b93768a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -41,7 +41,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-icon notranslate material-icons mat-icon-no-color</value>
-      <webElementGuid>63161e7f-4932-4dd1-ae59-9785a1da4749</webElementGuid>
+      <webElementGuid>ae0712a4-adca-4358-a8c0-a72075ea3c56</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,7 +49,7 @@
       <name>aria-hidden</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>51ecdb29-17c4-4b84-bdb2-b5073e243595</webElementGuid>
+      <webElementGuid>14226804-34fd-4641-bb1d-951968b365f6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -57,7 +57,7 @@
       <name>text</name>
       <type>Main</type>
       <value>remove_circle_outline</value>
-      <webElementGuid>ee3b5267-3d21-4c15-a122-d203048d9bc3</webElementGuid>
+      <webElementGuid>95700f8d-8f3e-4895-9577-6aee652b3b80</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -65,7 +65,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-tab-content-0-3&quot;)/div[@class=&quot;mat-tab-body-content ng-tns-c360-54 ng-trigger ng-trigger-translateTab&quot;]/mat-card[@class=&quot;mat-card mat-focus-indicator ng-star-inserted&quot;]/mat-card-content[@class=&quot;mat-card-content&quot;]/div[@class=&quot;edit-list ng-tns-c565-35&quot;]/input-contact-email[@class=&quot;ng-tns-c565-35&quot;]/div[@class=&quot;contact-email ng-star-inserted&quot;]/div[1]/div[@class=&quot;email-delete-button&quot;]/button[@class=&quot;mat-focus-indicator mat-icon-button mat-button-base&quot;]/span[@class=&quot;mat-button-wrapper&quot;]/mat-icon[@class=&quot;mat-icon notranslate material-icons mat-icon-no-color&quot;]</value>
-      <webElementGuid>1c2de5b9-03de-4963-b99d-ffcdbd2f8daf</webElementGuid>
+      <webElementGuid>b9ad2d22-0efb-46a6-a004-97a935562af4</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -73,7 +73,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-tab-body[@id='mat-tab-content-0-3']/div/mat-card/mat-card-content/div[3]/input-contact-email/div[2]/div/div/button/span/mat-icon</value>
-      <webElementGuid>f7a68ada-7c57-4d84-8185-0a14e3c5482a</webElementGuid>
+      <webElementGuid>429ee9a0-4896-4e4e-bc74-8c3743314b43</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -81,7 +81,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Email'])[2]/following::mat-icon[1]</value>
-      <webElementGuid>25bae842-9dbe-4c39-b287-ad25cb1c0492</webElementGuid>
+      <webElementGuid>a58cd281-37b7-4439-8e81-2a0e9deeec5a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -89,7 +89,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Type'])[2]/following::mat-icon[1]</value>
-      <webElementGuid>834a00c6-254a-4fd8-acf3-d41c06a5a1fe</webElementGuid>
+      <webElementGuid>43b8f21f-c74f-4e80-b2d5-c2f33d9ef792</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -97,7 +97,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Phone'])[1]/preceding::mat-icon[2]</value>
-      <webElementGuid>289a5f6a-93f5-4eeb-ad28-0db76056ea71</webElementGuid>
+      <webElementGuid>91cf3f9c-fe7c-48a2-b0d0-a7d94ae0405e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,7 +105,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Type'])[3]/preceding::mat-icon[2]</value>
-      <webElementGuid>528cd6b3-6c33-4bbc-9b28-a9bd57c2eeff</webElementGuid>
+      <webElementGuid>42ef7ad3-7455-4fe7-ba83-e2ee76718e7c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -113,7 +113,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div/button/span/mat-icon</value>
-      <webElementGuid>fdafbd77-60cc-42a0-b5f1-370ef0504d3b</webElementGuid>
+      <webElementGuid>4a079186-698d-4563-a655-df8f9633227a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -121,6 +121,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//mat-icon[(text() = 'remove_circle_outline' or . = 'remove_circle_outline')]</value>
-      <webElementGuid>1c3c73e1-9819-4785-94b3-59cd5dda7ab1</webElementGuid>
+      <webElementGuid>3b343c34-4689-4af1-9bf8-ccabc241de96</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -6,15 +6,19 @@
    <elementGuidId>d69c1c5f-f077-45d5-b320-aeaacfe0656c</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'CHAT' or . = 'CHAT')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Everleagues © All Rights Reserved'])[1]/following::h4[1]</value>
+         <value>/html/body/app-root/app-main-page/div/mat-sidenav-container/mat-sidenav-content/div[1]/div[1]/div[1]/div</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>h4.ng-tns-c479-218</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,6 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>h4</value>
+      <webElementGuid>cf9c359b-45df-490d-85ea-f932047cdda2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,6 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ng-tns-c479-218</value>
+      <webElementGuid>e74a6b5a-3c43-4919-ae24-1b97df4ce647</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -36,6 +42,7 @@
       <name>text</name>
       <type>Main</type>
       <value>CHAT</value>
+      <webElementGuid>58b278c8-6012-48a8-abf3-8b5bf227f0e3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,6 +50,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/app-root[1]/app-main-page[@class=&quot;ng-tns-c479-218 ng-trigger ng-trigger-routerAnimation ng-star-inserted&quot;]/mat-sidenav-container[@class=&quot;mat-drawer-container mat-sidenav-container ng-tns-c479-218&quot;]/mat-sidenav-content[@class=&quot;mat-drawer-content mat-sidenav-content&quot;]/mat-toolbar[@class=&quot;mat-toolbar header-main-page mat-primary mat-toolbar-single-row&quot;]/div[@class=&quot;ng-tns-c479-218 ng-star-inserted&quot;]/h4[@class=&quot;ng-tns-c479-218&quot;]</value>
+      <webElementGuid>6cfbb5cb-290b-4bd0-ac10-e7eb6d85e182</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -50,6 +58,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Everleagues © All Rights Reserved'])[1]/following::h4[1]</value>
+      <webElementGuid>9f53fbf4-bec6-4f29-ac34-0a20a9e16b68</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -57,6 +66,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Help'])[1]/following::h4[1]</value>
+      <webElementGuid>f86366b4-34fb-4856-86ad-484845980e02</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -64,6 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='English'])[1]/preceding::h4[1]</value>
+      <webElementGuid>fdb9a4b9-7924-4093-b379-2b98c7ed5ba7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,6 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='GG TESTER'])[1]/preceding::h4[1]</value>
+      <webElementGuid>b7ff07eb-cd72-4815-83a1-44a72d0c2cfd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,6 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='CHAT']/parent::*</value>
+      <webElementGuid>c4cb93f7-a79d-4fd1-91ab-da7f95f0cb27</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,6 +98,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//h4</value>
+      <webElementGuid>7b0b3ac5-50d3-4946-94c8-1ab8f200c47f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -92,5 +106,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//h4[(text() = 'CHAT' or . = 'CHAT')]</value>
+      <webElementGuid>a52b7c54-36c6-4942-9f8a-0ea6ea899c8b</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

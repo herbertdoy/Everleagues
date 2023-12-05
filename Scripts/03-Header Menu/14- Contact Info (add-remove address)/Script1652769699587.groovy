@@ -70,6 +70,8 @@ WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Contact Inf
 
 WebUI.verifyElementNotClickable(findTestObject('03-Header Menu/User Profile/View Profile/Contact Info/button_Save_address'))
 
+WebUI.scrollToElement(findTestObject('03-Header Menu/User Profile/View Profile/Contact Info/button_Cancel'), 0)
+
 WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Contact Info/button_Cancel'))
 
 WebUI.delay(GlobalVariable.delay_2seconds)
@@ -104,7 +106,7 @@ WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Contact Inf
 
 WebUI.delay(GlobalVariable.delay_2seconds)
 
-WebUI.scrollToElement(findTestObject('03-Header Menu/User Profile/View Profile/Contact Info/Address Added'), 0)
+//WebUI.scrollToElement(findTestObject('03-Header Menu/User Profile/View Profile/Contact Info/Address Added'), 0)
 
 WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/View Profile/Contact Info/Address Added'))
 

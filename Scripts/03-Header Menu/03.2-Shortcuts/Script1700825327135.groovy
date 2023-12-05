@@ -19,19 +19,41 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.click(findTestObject('03-Header Menu/Shortcuts/Shortcut button'))
 
+WebUI.delay(GlobalVariable.delay_2seconds)
+
 WebUI.verifyElementVisible(findTestObject('03-Header Menu/Shortcuts/Shortcut modal heading text'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.delay(GlobalVariable.delay_2seconds)
 
 WebUI.verifyElementVisible(findTestObject('03-Header Menu/Shortcuts/Shortcut modal table'), FailureHandling.CONTINUE_ON_FAILURE)
 
+WebUI.delay(GlobalVariable.delay_2seconds)
+
 WebUI.click(findTestObject('03-Header Menu/Shortcuts/Invite new user'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('03-Header Menu/Shortcuts/Invite new user_Cancel'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.delay(GlobalVariable.delay_2seconds)
+
+WebUI.doubleClick(findTestObject('03-Header Menu/Shortcuts/Invite new user_Cancel'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.delay(GlobalVariable.delay_2seconds)
+
+WebUI.doubleClick(findTestObject('03-Header Menu/Shortcuts/Invite new user_Cancel'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.delay(GlobalVariable.delay_2seconds)
 
 WebUI.click(findTestObject('03-Header Menu/Shortcuts/Shortcut button'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.delay(GlobalVariable.delay_2seconds)
 
 WebUI.click(findTestObject('03-Header Menu/Shortcuts/2FA'), FailureHandling.CONTINUE_ON_FAILURE)
 
+WebUI.delay(GlobalVariable.delay_2seconds)
+
 WebUI.click(findTestObject('03-Header Menu/Shortcuts/Shortcut button'), FailureHandling.CONTINUE_ON_FAILURE)
 
+WebUI.delay(GlobalVariable.delay_2seconds)
+
 WebUI.click(findTestObject('03-Header Menu/Shortcuts/Client Assignment'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.delay(GlobalVariable.delay_2seconds)
 
