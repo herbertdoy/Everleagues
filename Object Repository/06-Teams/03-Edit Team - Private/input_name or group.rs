@@ -10,15 +10,15 @@
          <value>//input[@placeholder = 'Enter name/group to invite here' and @type = 'text' and @name = 'inputSearchContacts']</value>
       </entry>
       <entry>
+         <key>XPATH</key>
+         <value>//input[@data-placeholder='Search by name']</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>#mat-input-9</value>
       </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//input[@id='mat-input-9']</value>
-      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -26,6 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
+      <webElementGuid>a41db5cf-d4b4-4726-a325-fd0b884adbe9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -33,6 +34,7 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>Enter name/group to invite here</value>
+      <webElementGuid>a126fee9-b1e1-4ead-96d8-c0b031647c6f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -40,6 +42,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
+      <webElementGuid>bad87fae-559e-4f73-8140-792dd4dbdbc2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -47,6 +50,7 @@
       <name>name</name>
       <type>Main</type>
       <value>inputSearchContacts</value>
+      <webElementGuid>dbabbbcf-8957-4953-937a-47ab4e65f4b4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,6 +58,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-autocomplete-trigger mat-chip-input mat-input-element mat-form-field-autofill-control cdk-text-field-autofill-monitored ng-pristine ng-valid ng-touched</value>
+      <webElementGuid>1557edfd-f481-48b9-824c-c8b5a70d5251</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,6 +66,7 @@
       <name>ng-reflect-name</name>
       <type>Main</type>
       <value>inputSearchContacts</value>
+      <webElementGuid>1d283b41-16db-44e8-9282-95e5bcc18698</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -68,6 +74,7 @@
       <name>ng-reflect-placeholder</name>
       <type>Main</type>
       <value>Enter name/group to invite her</value>
+      <webElementGuid>a152bb57-9bff-495e-b01e-1ecf4838aadd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -75,6 +82,7 @@
       <name>ng-reflect-type</name>
       <type>Main</type>
       <value>text</value>
+      <webElementGuid>615264c5-c8c8-421c-9e5b-1d4777a595aa</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -82,6 +90,7 @@
       <name>ng-reflect-autocomplete</name>
       <type>Main</type>
       <value>[object Object]</value>
+      <webElementGuid>4b93a7a3-1f37-4ceb-b37d-9c1b1a55f1bf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -89,6 +98,7 @@
       <name>ng-reflect-separator-key-codes</name>
       <type>Main</type>
       <value>13,188</value>
+      <webElementGuid>9d60c081-4bd0-45f2-b17d-a9ae026b8318</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -96,6 +106,7 @@
       <name>ng-reflect-chip-list</name>
       <type>Main</type>
       <value>[object Object]</value>
+      <webElementGuid>8d80fc8b-fe01-44ec-b498-036060138c03</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -103,6 +114,7 @@
       <name>autocomplete</name>
       <type>Main</type>
       <value>off</value>
+      <webElementGuid>3512182c-8766-4ccc-8f75-4d54a27497ad</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -110,6 +122,7 @@
       <name>role</name>
       <type>Main</type>
       <value>combobox</value>
+      <webElementGuid>33c8754d-418a-4385-8301-b7538e3656f7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -117,6 +130,7 @@
       <name>aria-autocomplete</name>
       <type>Main</type>
       <value>list</value>
+      <webElementGuid>7d203233-ba43-468b-b107-fa5b5e22e027</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -124,6 +138,7 @@
       <name>aria-expanded</name>
       <type>Main</type>
       <value>false</value>
+      <webElementGuid>3854240d-6ea2-4677-9bf1-a3abbc4890e2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -131,6 +146,7 @@
       <name>aria-haspopup</name>
       <type>Main</type>
       <value>true</value>
+      <webElementGuid>e34fc117-ea59-4d60-bc76-c72094be4215</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -138,6 +154,7 @@
       <name>id</name>
       <type>Main</type>
       <value>mat-input-9</value>
+      <webElementGuid>7495e412-af95-4ac3-aa3f-7cae1da107e6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -145,6 +162,7 @@
       <name>aria-invalid</name>
       <type>Main</type>
       <value>false</value>
+      <webElementGuid>a0b60556-0857-4f07-a667-f950f76d0788</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -152,6 +170,7 @@
       <name>aria-required</name>
       <type>Main</type>
       <value>false</value>
+      <webElementGuid>09463b4a-79cb-4990-b69a-8496b8ccbe06</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -159,6 +178,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-input-9&quot;)</value>
+      <webElementGuid>5d8c20ce-7933-4798-90c1-9b64fb1a8f9d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -166,6 +186,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='mat-input-9']</value>
+      <webElementGuid>a8061faf-927f-4c34-83eb-9b2993b305eb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -173,6 +194,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-chip-list[@id='mat-chip-list-0']/div/input</value>
+      <webElementGuid>6f060257-558b-4ca8-8c79-a2087f488c1b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -180,6 +202,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//input</value>
+      <webElementGuid>8ac081a9-1b6f-44fc-b0cc-9c8076e55483</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -187,5 +210,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@placeholder = 'Enter name/group to invite here' and @type = 'text' and @name = 'inputSearchContacts' and @id = 'mat-input-9']</value>
+      <webElementGuid>eb575354-ef33-4b7e-b028-00618f7e3a00</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

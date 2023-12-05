@@ -188,7 +188,7 @@ WebUI.switchToWindowIndex(0)
 
 WebUI.delay(GlobalVariable.delay_3seconds)
 
-WebUI.click(findTestObject('06-Teams/For 2FA/button_Confirm_2FA'))
+//WebUI.click(findTestObject('06-Teams/For 2FA/button_Confirm_2FA'))
 
 WebUI.delay(GlobalVariable.delay_2seconds)
 
