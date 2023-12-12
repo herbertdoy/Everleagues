@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//mat-icon[text()='send'])[2]</value>
+         <value>//button[@ng-reflect-ng-class='post-send']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>e698036c-5ecd-4227-ac91-7d3d639eef6e</webElementGuid>
+      <webElementGuid>6256dd10-ba76-4cdd-bdb7-9af391921e76</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>9d53779d-7efd-43eb-b390-1485846be0b1</webElementGuid>
+      <webElementGuid>0025a896-d7aa-4ba9-9c33-000efb6ba4a0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-focus-indicator mat-icon-button mat-button-base post-send ng-star-inserted cdk-focused cdk-mouse-focused</value>
-      <webElementGuid>e0fdbf29-2170-4dd3-8edd-a19defb2be6f</webElementGuid>
+      <webElementGuid>6e5b3b0c-7bd9-41d7-9de4-144dc717402b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>ng-reflect-ng-class</name>
       <type>Main</type>
       <value>post-send</value>
-      <webElementGuid>b376f86c-45b1-4c82-b1e7-c80e2f546501</webElementGuid>
+      <webElementGuid>4ab7331c-c7be-4a65-8985-9e595d2a59d5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>ng-reflect-disabled</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>999824c3-b68e-4257-b20c-417c9599ae7a</webElementGuid>
+      <webElementGuid>d4efe4d9-d145-4adf-847b-3267bd74ee04</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -62,7 +62,7 @@
       <name>text</name>
       <type>Main</type>
       <value>send</value>
-      <webElementGuid>3cb51758-a5ef-4935-b507-e480218ae48a</webElementGuid>
+      <webElementGuid>279f4a06-fef2-4840-9b37-2b34b626be97</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-dialog-8&quot;)/app-dialog-edit-post[@class=&quot;ng-star-inserted&quot;]/section[@class=&quot;dialog-container&quot;]/form[@class=&quot;ng-untouched ng-pristine ng-valid&quot;]/div[@class=&quot;mat-dialog-content&quot;]/div[1]/app-markdown-composer[@class=&quot;ng-untouched ng-pristine ng-valid&quot;]/mat-card[@class=&quot;mat-card mat-focus-indicator markdown-composer&quot;]/div[2]/div[@class=&quot;el-post-footer&quot;]/div[2]/button[@class=&quot;mat-focus-indicator mat-icon-button mat-button-base post-send ng-star-inserted cdk-focused cdk-mouse-focused&quot;]</value>
-      <webElementGuid>932a784c-53aa-4cc1-9560-af4a671eb67e</webElementGuid>
+      <webElementGuid>8845e223-3b7e-49a5-ba6a-bbc72898af5e</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[34]</value>
-      <webElementGuid>1afaf556-c929-49a3-815e-02332d397284</webElementGuid>
+      <webElementGuid>1fa829cf-2279-4a21-97ea-4232dc98b5df</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-dialog-container[@id='mat-dialog-8']/app-dialog-edit-post/section/form/div/div/app-markdown-composer/mat-card/div[2]/div/div[2]/button</value>
-      <webElementGuid>6b436ff2-da0a-484d-a493-c7716afb11f2</webElementGuid>
+      <webElementGuid>ebb6fb5b-baf6-43e0-a9b8-85d29d485283</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Heading'])[2]/following::button[4]</value>
-      <webElementGuid>a1489a1c-a39b-4dbf-98f6-d83cdbf028ca</webElementGuid>
+      <webElementGuid>e82053de-da60-44c9-af41-fd71e7966032</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Edit'])[1]/following::button[4]</value>
-      <webElementGuid>dbd0d485-cbff-4088-934b-1bb3ef010811</webElementGuid>
+      <webElementGuid>c38da9c2-118c-4d90-b167-0c70e48b92ab</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +110,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/preceding::button[1]</value>
-      <webElementGuid>62744cd1-ff1a-4748-91df-d507b9eef974</webElementGuid>
+      <webElementGuid>f828f605-8867-4be2-98d0-0f89ad1955f0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +118,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Hide Quick Shortcuts'])[1]/preceding::button[2]</value>
-      <webElementGuid>ce086843-eb59-4181-a748-432026377402</webElementGuid>
+      <webElementGuid>f9a8d771-10fc-46a4-8c39-640093d2bc36</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,7 +126,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//form/div/div/app-markdown-composer/mat-card/div[2]/div/div[2]/button</value>
-      <webElementGuid>a0d83c23-7a27-44b2-9a25-b1ec48c07909</webElementGuid>
+      <webElementGuid>974f4e92-6733-4841-9cc3-077aad4cbdd0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,6 +134,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = 'send' or . = 'send')]</value>
-      <webElementGuid>7b0fd5bf-ff49-4344-a27b-64642a395475</webElementGuid>
+      <webElementGuid>cd5c6183-207d-41ce-bc5b-edb8b6da6765</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

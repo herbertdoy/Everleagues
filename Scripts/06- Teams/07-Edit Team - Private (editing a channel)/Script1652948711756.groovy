@@ -23,6 +23,8 @@ WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.click(findTestObject('06-Teams/03-Edit Team - Private/button_edit channel'))
 
+WebUI.verifyElementVisible(findTestObject('06-Teams/02-Add Team-Private/h2_Edit channel'))
+
 WebUI.verifyElementVisible(findTestObject('06-Teams/03-Edit Team - Private/Edit channel modal'))
 
 WebUI.verifyElementNotClickable(findTestObject('06-Teams/03-Edit Team - Private/button_Save'))

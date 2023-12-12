@@ -33,6 +33,8 @@ WebUI.click(findTestObject('06-Teams/05- Teams-General Channel/ellipsis 1'))
 
 WebUI.click(findTestObject('06-Teams/05- Teams-General Channel/button_Edit Post'))
 
+WebUI.verifyElementVisible(findTestObject('06-Teams/05- Teams-General Channel/h2_Edit post'))
+
 WebUI.setText(findTestObject('06-Teams/05- Teams-General Channel/Edit field'), 'Automation Edit ')
 
 WebUI.click(findTestObject('06-Teams/05- Teams-General Channel/button_send edit'))

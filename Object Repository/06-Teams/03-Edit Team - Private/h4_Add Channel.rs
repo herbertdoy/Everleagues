@@ -6,15 +6,19 @@
    <elementGuidId>ef7b0ab4-50a8-429f-a15c-26afa5ab917d</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>//h2[text()='Add Channel']</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>#mat-dialog-title-8</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//h4[@id='mat-dialog-title-8']</value>
+         <key>BASIC</key>
+         <value>//h4[(text() = 'Add Channel' or . = 'Add Channel')]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -22,6 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>h4</value>
+      <webElementGuid>fe88bbed-9493-449b-bc26-ff770e5210c8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,6 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-dialog-title</value>
+      <webElementGuid>272ebe7b-9461-4054-bb36-677c68c4e215</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -36,6 +42,7 @@
       <name>id</name>
       <type>Main</type>
       <value>mat-dialog-title-8</value>
+      <webElementGuid>13a4d7dc-8330-47ec-8ccb-2ace52269a3a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -43,6 +50,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Add Channel</value>
+      <webElementGuid>84b5bb24-df22-4e36-b632-1b82f00f23db</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,6 +58,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-dialog-title-8&quot;)</value>
+      <webElementGuid>61be8cd8-305e-4c18-8c11-9f56b1772e8a</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -57,6 +66,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//h4[@id='mat-dialog-title-8']</value>
+      <webElementGuid>42ee70f3-c881-446d-a713-d9e0c709e878</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -64,6 +74,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-dialog-container[@id='mat-dialog-5']/app-dialog-add-channel/section/form/h4</value>
+      <webElementGuid>142cf674-9292-42f7-bac3-a40b9bef7f34</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,6 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='of 1'])[1]/following::h4[1]</value>
+      <webElementGuid>a6aa2fb5-585a-4b14-946e-8a12439d67d1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,6 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Row per page:'])[1]/following::h4[1]</value>
+      <webElementGuid>a7f5fd58-7ffd-488a-96a6-173f4d8919e1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,6 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Team Name'])[1]/preceding::h4[1]</value>
+      <webElementGuid>dd548fee-e6b8-4ee6-b65b-cb87d72847c9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -92,6 +106,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Channel Name'])[1]/preceding::h4[1]</value>
+      <webElementGuid>b7b2f963-772a-4ffd-844e-1f137101e87c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,6 +114,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//form/h4</value>
+      <webElementGuid>ad0ffaf9-8257-4bfb-9a2e-2671e7658822</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,5 +122,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//h4[@id = 'mat-dialog-title-8' and (text() = 'Add Channel' or . = 'Add Channel')]</value>
+      <webElementGuid>e7872edd-b9ac-4fdd-b663-4e9c7ab97d0e</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//mat-card-header[@class='mat-card-header el-post-header']//button)[1]</value>
+         <value>(//mat-icon[@data-mat-icon-name='dots-vertical'])[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>2eb25297-3ecc-46da-89dc-b998549efaaf</webElementGuid>
+      <webElementGuid>b5e3af79-1ef1-471e-884e-a63c3970feed</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>aria-haspopup</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>0247941b-6fd0-40ea-b869-feb17ea59f5c</webElementGuid>
+      <webElementGuid>9980f424-1547-4b80-82c1-b5437c546372</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>c0a1671e-740c-4da0-b884-c880739e792e</webElementGuid>
+      <webElementGuid>98b1ad05-dfea-4a8e-8d99-57dfa940667e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-focus-indicator mat-menu-trigger el-post-controls mat-icon-button mat-button-base ng-star-inserted cdk-focused cdk-mouse-focused</value>
-      <webElementGuid>ce1c5024-5aac-4458-b008-1e881208205c</webElementGuid>
+      <webElementGuid>dcdbfcd3-fd29-4645-b538-d1d0f87eaa79</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>ng-reflect-menu</name>
       <type>Main</type>
       <value>[object Object]</value>
-      <webElementGuid>90e84969-1c89-4537-8e6a-476d10a28b29</webElementGuid>
+      <webElementGuid>a74ace7f-7a9a-40f7-8121-a4aa31dd1968</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>ng-reflect-disabled</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>afe4a3a0-0f85-497c-8068-853d2e075229</webElementGuid>
+      <webElementGuid>1d5e1330-fdf9-49c2-8c31-295e343ac94e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -70,7 +70,7 @@
       <name>text</name>
       <type>Main</type>
       <value>more_vert</value>
-      <webElementGuid>03574676-f7e4-4785-b824-8a149596263f</webElementGuid>
+      <webElementGuid>0376ed81-3ae0-4d2c-911c-fb378aeb0b79</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/app-root[1]/app-main-page[@class=&quot;ng-tns-c479-5 ng-trigger ng-trigger-routerAnimation ng-star-inserted&quot;]/mat-sidenav-container[@class=&quot;mat-drawer-container mat-sidenav-container ng-tns-c479-5 mat-drawer-transition&quot;]/mat-sidenav-content[@class=&quot;mat-drawer-content mat-sidenav-content&quot;]/div[@class=&quot;wrapper&quot;]/app-teams[@class=&quot;ng-tns-c694-50 ng-star-inserted&quot;]/section[@class=&quot;teams-section ng-tns-c694-50&quot;]/div[@class=&quot;ng-tns-c694-50&quot;]/app-channel[@class=&quot;ng-tns-c695-51 ng-tns-c694-50 ng-trigger ng-trigger-routerAnimation ng-star-inserted&quot;]/section[@class=&quot;table-listing ng-tns-c695-51&quot;]/div[@class=&quot;ng-tns-c695-51 ng-star-inserted&quot;]/div[@class=&quot;ng-tns-c695-51&quot;]/div[@class=&quot;ng-tns-c695-51&quot;]/perfect-scrollbar[@class=&quot;post-perfect-scrollbar ng-tns-c695-51 ng-star-inserted&quot;]/div[@class=&quot;ps ps--active-y&quot;]/div[@class=&quot;ps-content&quot;]/div[@class=&quot;ng-tns-c695-51 ng-star-inserted&quot;]/el-post[@class=&quot;ng-tns-c695-51 ng-star-inserted&quot;]/mat-card[@class=&quot;mat-card mat-focus-indicator el-post user-post-highlight&quot;]/mat-card-header[@class=&quot;mat-card-header el-post-header&quot;]/div[2]/div[1]/button[@class=&quot;mat-focus-indicator mat-menu-trigger el-post-controls mat-icon-button mat-button-base ng-star-inserted cdk-focused cdk-mouse-focused&quot;]</value>
-      <webElementGuid>ce2a1524-3636-409c-8fab-de309a43ba20</webElementGuid>
+      <webElementGuid>86cae733-b0bf-4ee1-b19f-6aaf9331573d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[17]</value>
-      <webElementGuid>3f9d06c1-99b6-4c69-a8f1-b73e3f6f5df0</webElementGuid>
+      <webElementGuid>4c880c1d-52c8-4cce-bc97-54cb83d2b436</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Today'])[1]/following::button[1]</value>
-      <webElementGuid>0a3f6e34-5ff5-4860-a67c-f1c8930e2b3c</webElementGuid>
+      <webElementGuid>a000bb34-da14-4353-aee4-580171f0ba80</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Reply'])[1]/preceding::button[1]</value>
-      <webElementGuid>0a368a97-55b1-466e-aa6d-dfb3ce3de65e</webElementGuid>
+      <webElementGuid>477f96d6-7662-444b-9160-c178ef11ee83</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +110,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/button</value>
-      <webElementGuid>9809fa59-82cd-4708-8e74-6e2601d848db</webElementGuid>
+      <webElementGuid>eacb924c-c88e-4cdb-86cf-fe0df1348d18</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,6 +118,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = 'more_vert' or . = 'more_vert')]</value>
-      <webElementGuid>ad786f28-861b-4fe3-8775-c221d25669b3</webElementGuid>
+      <webElementGuid>8ba7fbf4-c888-4224-bef5-8d9694f59da2</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -6,19 +6,19 @@
    <elementGuidId>7ec1f6ef-bdfd-4475-a6e3-57b8d6f7903a</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//mat-dialog-container[@role = 'dialog' and (text() = 'Edit ChannelChannel Name *SaveCancel' or . = 'Edit ChannelChannel Name *SaveCancel')]</value>
+         <key>XPATH</key>
+         <value>//mat-dialog-container[@role='dialog']</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>#mat-dialog-11</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//mat-dialog-container[@id='mat-dialog-11']</value>
+         <key>BASIC</key>
+         <value>//mat-dialog-container[@role = 'dialog' and (text() = 'Edit ChannelChannel Name *SaveCancel' or . = 'Edit ChannelChannel Name *SaveCancel')]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -26,6 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>mat-dialog-container</value>
+      <webElementGuid>86c3990b-c5ac-4f9e-ae55-0c49059d6456</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -33,6 +34,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>-1</value>
+      <webElementGuid>f6d1fb00-14fb-4a3d-b37a-82af41697ca8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -40,6 +42,7 @@
       <name>aria-modal</name>
       <type>Main</type>
       <value>true</value>
+      <webElementGuid>26383435-af5c-4366-af65-0a2fd676fe8a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,6 +50,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-dialog-container ng-tns-c33-303 ng-trigger ng-trigger-dialogContainer ng-star-inserted</value>
+      <webElementGuid>dd7e2955-506d-49a4-8b4e-f670d974109f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,6 +58,7 @@
       <name>id</name>
       <type>Main</type>
       <value>mat-dialog-11</value>
+      <webElementGuid>4a595e71-eabf-4433-94f5-de490d4bbc4a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -61,6 +66,7 @@
       <name>role</name>
       <type>Main</type>
       <value>dialog</value>
+      <webElementGuid>bd42a6b9-c9fe-414e-9bca-c6c51b12180f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -68,6 +74,7 @@
       <name>aria-labelledby</name>
       <type>Main</type>
       <value>mat-dialog-title-14</value>
+      <webElementGuid>436201c2-d68f-41ac-8fb7-64625c0073b5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -75,6 +82,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Edit ChannelChannel Name *SaveCancel</value>
+      <webElementGuid>c5074b78-ac81-48a8-9297-d44f8b892bf7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -82,6 +90,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-dialog-11&quot;)</value>
+      <webElementGuid>6bdb23f3-47d2-4cd3-bf1e-e4966e26a343</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -89,6 +98,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//mat-dialog-container[@id='mat-dialog-11']</value>
+      <webElementGuid>5a26446e-d737-47bc-a979-bfb3583bbb00</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -96,6 +106,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='cdk-overlay-81']/mat-dialog-container</value>
+      <webElementGuid>d65e0f3d-7c7c-4774-93a0-aed8dd4b7872</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,6 +114,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='of 2'])[1]/following::mat-dialog-container[1]</value>
+      <webElementGuid>621a2e19-fd43-4586-b9d9-f4922e94b8a2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,6 +122,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Row per page:'])[1]/following::mat-dialog-container[1]</value>
+      <webElementGuid>1faedc25-d941-4540-9003-aa90d48a89e9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,6 +130,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//mat-dialog-container</value>
+      <webElementGuid>a95483f9-2a5e-4428-bf0e-52d8d3fedc34</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -124,5 +138,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//mat-dialog-container[@id = 'mat-dialog-11' and (text() = 'Edit ChannelChannel Name *SaveCancel' or . = 'Edit ChannelChannel Name *SaveCancel')]</value>
+      <webElementGuid>d76c8d4f-b1b4-46f7-9a06-695371ea01d7</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
