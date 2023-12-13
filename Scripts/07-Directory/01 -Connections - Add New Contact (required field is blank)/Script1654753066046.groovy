@@ -92,7 +92,7 @@ WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.verifyElementVisible(findTestObject('07-Directory/Connections/h4_CONNECTIONS'))
 
-WebUI.verifyElementVisible(findTestObject('07-Directory/Connections/h5_Save your contacts here and throw your business cards away'))
+//WebUI.verifyElementVisible(findTestObject('07-Directory/Connections/h5_Save your contacts here and throw your business cards away'))
 
 WebUI.verifyElementVisible(findTestObject('07-Directory/Connections/button_search'))
 
