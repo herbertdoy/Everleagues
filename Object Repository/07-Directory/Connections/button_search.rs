@@ -6,15 +6,19 @@
    <elementGuidId>d9cd4003-ba9c-4793-bfaf-f386d8ef29f9</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(//button[@type='button'])[6]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>button.mat-focus-indicator.td-search-icon.ng-tns-c277-51.mat-icon-button.mat-button-base</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[contains(@class,'mat-input-element mat-form-field-autofill-control')]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//button[@type = 'button' and (text() = 'search' or . = 'search')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -22,6 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
+      <webElementGuid>96105d18-b418-4df9-b90e-0da1bc931b66</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -29,6 +34,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
+      <webElementGuid>a62f5c2f-88a7-4dff-91e0-3a9385100b0f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -36,6 +42,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-focus-indicator td-search-icon ng-tns-c277-51 mat-icon-button mat-button-base</value>
+      <webElementGuid>d799b258-5852-4bf0-8e37-3481a6c28698</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -43,6 +50,7 @@
       <name>text</name>
       <type>Main</type>
       <value>search</value>
+      <webElementGuid>8feb26e5-a04f-48ab-9d6a-5fc3969835ca</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,6 +58,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/app-root[1]/app-main-page[@class=&quot;ng-tns-c479-5 ng-trigger ng-trigger-routerAnimation ng-star-inserted&quot;]/mat-sidenav-container[@class=&quot;mat-drawer-container mat-sidenav-container ng-tns-c479-5 mat-drawer-transition mat-drawer-container-has-open&quot;]/mat-sidenav-content[@class=&quot;mat-drawer-content mat-sidenav-content&quot;]/div[@class=&quot;wrapper thin-margin&quot;]/app-directory-contacts[@class=&quot;ng-tns-c609-38 ng-trigger ng-trigger-routerAnimation ng-star-inserted&quot;]/section[@class=&quot;ng-tns-c609-38&quot;]/article[@class=&quot;directory-container ng-tns-c609-38&quot;]/mat-sidenav-container[@class=&quot;mat-drawer-container mat-sidenav-container ng-tns-c609-38&quot;]/mat-sidenav[@class=&quot;mat-drawer mat-sidenav ng-tns-c181-50 ng-trigger ng-trigger-transform ng-tns-c609-38 mat-drawer-side mat-drawer-opened ng-star-inserted&quot;]/div[@class=&quot;mat-drawer-inner-container ng-tns-c181-50&quot;]/mat-toolbar[@class=&quot;mat-toolbar secondary-toolbar ng-tns-c181-50 mat-toolbar-single-row&quot;]/div[@class=&quot;secondary-toolbar-div&quot;]/td-search-box[@class=&quot;ng-tns-c609-38 ng-tns-c277-51&quot;]/div[@class=&quot;td-search-box ng-tns-c277-51&quot;]/button[@class=&quot;mat-focus-indicator td-search-icon ng-tns-c277-51 mat-icon-button mat-button-base&quot;]</value>
+      <webElementGuid>d01d30cf-535a-40eb-a6df-bac9e04e5f54</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -57,6 +66,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[6]</value>
+      <webElementGuid>ef80c462-5dd6-4401-b2ab-482e39d25d99</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -64,6 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='GT'])[1]/following::button[1]</value>
+      <webElementGuid>b2b53c24-756a-4923-8d70-4646e16c7613</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,6 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='GG TESTER'])[1]/following::button[1]</value>
+      <webElementGuid>c95498f3-e3e7-4096-a1a1-4eeea736f3f2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,6 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='GT'])[2]/preceding::button[4]</value>
+      <webElementGuid>d1329d33-5502-4267-a37b-050f887f3c71</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,6 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='GG tester'])[1]/preceding::button[4]</value>
+      <webElementGuid>b831b885-33e4-44d2-9a13-a61bd3398945</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -92,6 +106,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td-search-box/div/button</value>
+      <webElementGuid>44c903d0-c5ed-4157-9438-41ab01833c24</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,5 +114,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = 'search' or . = 'search')]</value>
+      <webElementGuid>4e6f3012-75f1-4d7c-bc52-883b4b8c9f4d</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

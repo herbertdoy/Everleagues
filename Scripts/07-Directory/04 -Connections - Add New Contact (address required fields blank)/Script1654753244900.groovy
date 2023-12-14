@@ -19,10 +19,12 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.scrollToElement(findTestObject('07-Directory/Connections/button_add_address'), 0)
 
-WebUI.click(findTestObject('07-Directory/Connections/button_add_address'))
+WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.click(findTestObject('07-Directory/Connections/button_add_address'))
 
+//WebUI.click(findTestObject('07-Directory/Connections/button_add_address'))
+//WebUI.click(findTestObject('07-Directory/Connections/button_add_address'))
 //WebUI.click(findTestObject('07-Directory/Connections/button_add_address'))
 WebUI.verifyElementVisible(findTestObject('07-Directory/Connections/Edit address modal'))
 
@@ -55,6 +57,8 @@ WebUI.verifyElementVisible(findTestObject('07-Directory/Connections/span_Persona
 WebUI.verifyElementVisible(findTestObject('07-Directory/Connections/span_Other'))
 
 WebUI.delay(GlobalVariable.delay_3seconds)
+
+WebUI.scrollToElement(findTestObject('07-Directory/Connections/h4_Edit Address'), 0)
 
 WebUI.click(findTestObject('07-Directory/Connections/h4_Edit Address'))
 

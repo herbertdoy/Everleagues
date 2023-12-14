@@ -6,16 +6,16 @@
    <elementGuidId>10f45516-4a04-4025-afc9-fc501341d1eb</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+         <value>#mat-dialog-8</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
-         <value>//mat-dialog-container[@role='dialog']</value>
+         <value>(//div[contains(@class,'relative flex')])[2]</value>
       </entry>
       <entry>
          <key>BASIC</key>
          <value>//mat-dialog-container[@role = 'dialog' and (text() = 'Add New ContactFirst Name *Last Name * mail TypeEmailremove_circle_outline phone Type+1remove_circle_outlineAddress:add_circle_outlineCompanyPositionSelect Labels...NotesCreateCancel' or . = 'Add New ContactFirst Name *Last Name * mail TypeEmailremove_circle_outline phone Type+1remove_circle_outlineAddress:add_circle_outlineCompanyPositionSelect Labels...NotesCreateCancel')]</value>
-      </entry>
-      <entry>
-         <key>CSS</key>
-         <value>#mat-dialog-8</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -26,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>mat-dialog-container</value>
-      <webElementGuid>557669cf-8860-4a0c-a5b3-cae0861b1bcb</webElementGuid>
+      <webElementGuid>66d20a3d-401a-4ef5-8d77-7aa027cfbbc9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -34,7 +34,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>-1</value>
-      <webElementGuid>1c5704ed-bb56-4a1c-9944-a1c3db92fe1f</webElementGuid>
+      <webElementGuid>e6a32424-d4dc-494b-8055-c79fd0b72d79</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,7 +42,7 @@
       <name>aria-modal</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>c483ce75-d168-451a-8246-98f61a71168b</webElementGuid>
+      <webElementGuid>aa0749a0-b3a0-472a-b225-e5a4bcfc1c90</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,7 +50,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-dialog-container ng-tns-c33-211 ng-trigger ng-trigger-dialogContainer ng-star-inserted</value>
-      <webElementGuid>25dd322f-1aca-42bf-be53-01e7e8c2dacc</webElementGuid>
+      <webElementGuid>f98a81b6-4811-4e57-b571-f77af175b8c5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -58,7 +58,7 @@
       <name>id</name>
       <type>Main</type>
       <value>mat-dialog-8</value>
-      <webElementGuid>6e3b5267-488b-4784-bd7f-f92a3e5386e2</webElementGuid>
+      <webElementGuid>d42945d0-1e2c-4c40-98b7-a4dfaee040de</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -66,7 +66,7 @@
       <name>role</name>
       <type>Main</type>
       <value>dialog</value>
-      <webElementGuid>852224e1-a476-4686-b8d1-09c9dd787b7d</webElementGuid>
+      <webElementGuid>4e3e40c7-a920-46e1-a21c-cbd93ea5866a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -74,7 +74,7 @@
       <name>aria-labelledby</name>
       <type>Main</type>
       <value>mat-dialog-title-8</value>
-      <webElementGuid>c092f795-e793-4803-be65-a10548ef13f4</webElementGuid>
+      <webElementGuid>1bc9d446-1735-47ad-8be6-dc0459f5877f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -82,7 +82,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Add New ContactFirst Name *Last Name * mail TypeEmailremove_circle_outline phone Type+1remove_circle_outlineAddress:add_circle_outlineCompanyPositionSelect Labels...NotesCreateCancel</value>
-      <webElementGuid>4cf11bb0-a38d-4d18-bca3-4e7dfa5b057b</webElementGuid>
+      <webElementGuid>1faa31fe-78df-466a-8da7-c898452044ae</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -90,7 +90,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-dialog-8&quot;)</value>
-      <webElementGuid>54269c8d-62f7-422a-bbd9-40f43b9c4ac1</webElementGuid>
+      <webElementGuid>7250e552-0949-43f5-b3b4-39a1de126adc</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -98,7 +98,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//mat-dialog-container[@id='mat-dialog-8']</value>
-      <webElementGuid>d9e936ef-0326-4f7d-ab5e-c8523efe7f4a</webElementGuid>
+      <webElementGuid>5230aea7-f0a0-4135-9011-882a84b50c3a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,7 +106,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='cdk-overlay-44']/mat-dialog-container</value>
-      <webElementGuid>059e9a6e-04c1-46f4-893b-313911846346</webElementGuid>
+      <webElementGuid>d0019569-f56e-4fbf-9a4a-a47e2c33d7fe</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -114,7 +114,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Work'])[1]/following::mat-dialog-container[1]</value>
-      <webElementGuid>90ba38c3-2421-4256-9bc3-2a60e81ee43b</webElementGuid>
+      <webElementGuid>028bf9f9-d9fe-41ce-8e59-cd2c83f7b8c1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -122,7 +122,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='autotester01@mailinator.com'])[1]/following::mat-dialog-container[1]</value>
-      <webElementGuid>82171b8c-3c84-4cdc-b3dc-0949d114c660</webElementGuid>
+      <webElementGuid>bac24811-a298-49b6-810f-60f1808056dc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -130,7 +130,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//mat-dialog-container</value>
-      <webElementGuid>88d738f9-660f-43b8-bd7a-d928f9789685</webElementGuid>
+      <webElementGuid>64a2af70-b44b-4180-94be-29b341d639db</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -138,6 +138,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//mat-dialog-container[@id = 'mat-dialog-8' and (text() = 'Add New ContactFirst Name *Last Name * mail TypeEmailremove_circle_outline phone Type+1remove_circle_outlineAddress:add_circle_outlineCompanyPositionSelect Labels...NotesCreateCancel' or . = 'Add New ContactFirst Name *Last Name * mail TypeEmailremove_circle_outline phone Type+1remove_circle_outlineAddress:add_circle_outlineCompanyPositionSelect Labels...NotesCreateCancel')]</value>
-      <webElementGuid>926137f2-5576-4c28-9c82-508bf50e527f</webElementGuid>
+      <webElementGuid>31cfbb9f-3730-4ace-9a1c-ec13d2764190</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

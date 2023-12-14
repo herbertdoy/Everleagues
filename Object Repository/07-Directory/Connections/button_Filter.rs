@@ -6,15 +6,18 @@
    <elementGuidId>761baf71-05f8-490a-bddd-068c6f231f11</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(//button[@type='button'])[9]</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//button[@ng-reflect-message='Filter Contact']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//button[@type = 'button' and @ng-reflect-message = 'Filter Contact']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -22,6 +25,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
+      <webElementGuid>8fe90a91-a834-4d97-919b-df2fda2615a6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -29,6 +33,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
+      <webElementGuid>faf7e370-fedc-41e5-b611-a232f01405a3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -36,6 +41,7 @@
       <name>mattooltipposition</name>
       <type>Main</type>
       <value>above</value>
+      <webElementGuid>288f0cab-e728-4cac-a0e4-9e1ad8708967</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,6 +49,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-focus-indicator ng-tns-c609-38 mat-icon-button mat-button-base</value>
+      <webElementGuid>ba2ec9c7-fc65-457c-a609-6bdaa7a3ed0d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,6 +57,7 @@
       <name>ng-reflect-position</name>
       <type>Main</type>
       <value>above</value>
+      <webElementGuid>8395ffb6-d108-4548-8789-fd411cd12e66</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -57,6 +65,7 @@
       <name>ng-reflect-disabled</name>
       <type>Main</type>
       <value>false</value>
+      <webElementGuid>b79e9a19-8e17-4330-ab54-9d94fa3d9cb9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -64,6 +73,7 @@
       <name>ng-reflect-message</name>
       <type>Main</type>
       <value>Filter Contact</value>
+      <webElementGuid>e95f7eee-758e-4e08-b875-bb32a5a87247</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -71,6 +81,7 @@
       <name>aria-describedby</name>
       <type>Main</type>
       <value>cdk-describedby-message-9</value>
+      <webElementGuid>3be5dd69-bce2-41f1-9194-22f5142c4373</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,6 +89,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/app-root[1]/app-main-page[@class=&quot;ng-tns-c479-5 ng-trigger ng-trigger-routerAnimation ng-star-inserted&quot;]/mat-sidenav-container[@class=&quot;mat-drawer-container mat-sidenav-container ng-tns-c479-5 mat-drawer-transition mat-drawer-container-has-open&quot;]/mat-sidenav-content[@class=&quot;mat-drawer-content mat-sidenav-content&quot;]/div[@class=&quot;wrapper thin-margin&quot;]/app-directory-contacts[@class=&quot;ng-tns-c609-38 ng-trigger ng-trigger-routerAnimation ng-star-inserted&quot;]/section[@class=&quot;ng-tns-c609-38&quot;]/article[@class=&quot;directory-container ng-tns-c609-38&quot;]/mat-sidenav-container[@class=&quot;mat-drawer-container mat-sidenav-container ng-tns-c609-38&quot;]/mat-sidenav[@class=&quot;mat-drawer mat-sidenav ng-tns-c181-50 ng-trigger ng-trigger-transform ng-tns-c609-38 mat-drawer-side mat-drawer-opened ng-star-inserted&quot;]/div[@class=&quot;mat-drawer-inner-container ng-tns-c181-50&quot;]/mat-toolbar[@class=&quot;mat-toolbar secondary-toolbar ng-tns-c181-50 mat-toolbar-single-row&quot;]/div[@class=&quot;secondary-toolbar-div&quot;]/button[@class=&quot;mat-focus-indicator ng-tns-c609-38 mat-icon-button mat-button-base&quot;]</value>
+      <webElementGuid>6a92f7d4-6f18-4fbf-b757-19d6afc38c8b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -85,6 +97,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[9]</value>
+      <webElementGuid>90d2c4cc-9c15-468e-a910-dd4c287d9357</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -92,6 +105,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='GT'])[1]/following::button[4]</value>
+      <webElementGuid>224c1799-0e97-467b-ba75-009c4d5f7742</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,6 +113,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='GG TESTER'])[1]/following::button[4]</value>
+      <webElementGuid>fe3436fa-51dc-44a4-a574-881786948ff8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,6 +121,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='GT'])[2]/preceding::button[1]</value>
+      <webElementGuid>2395cdf8-fca4-4e68-b4ec-85eaec4e91cc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -113,6 +129,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='GG tester'])[1]/preceding::button[1]</value>
+      <webElementGuid>dcdfaca7-c5fb-4c30-acae-cada2cd7e6cd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -120,6 +137,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/button[2]</value>
+      <webElementGuid>ce99b43e-3a8b-4f35-bb14-a6cd1ffd879f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -127,5 +145,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button']</value>
+      <webElementGuid>741c2d91-f0a7-43d2-8b8f-b49a16f8d6a6</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

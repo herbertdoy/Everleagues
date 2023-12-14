@@ -6,15 +6,19 @@
    <elementGuidId>884367f1-d8f7-4021-b22b-8ed7ba8c6382</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(//button[@type='button'])[8]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>button.mat-focus-indicator.ng-tns-c609-38.mat-icon-button.mat-button-base</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@mattooltip='Add New Contact']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//button[@type = 'button' and @ng-reflect-message = 'Add New Contact' and (text() = 'add' or . = 'add')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -22,6 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
+      <webElementGuid>dc76ee84-d898-4822-9ba8-f588e8f18525</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -29,6 +34,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
+      <webElementGuid>34d66b41-71e2-43f9-be27-11f5d852a973</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -36,6 +42,7 @@
       <name>mattooltip</name>
       <type>Main</type>
       <value>Add New Contact</value>
+      <webElementGuid>dafdd6f5-1f90-4d91-aa19-25b0b70f63bf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,6 +50,7 @@
       <name>mattooltipposition</name>
       <type>Main</type>
       <value>above</value>
+      <webElementGuid>0796ff7b-0bca-4b63-8be7-380f9eaa5b7a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,6 +58,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-focus-indicator ng-tns-c609-38 mat-icon-button mat-button-base</value>
+      <webElementGuid>3082fd53-5379-4528-ace8-6b78dffac348</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -57,6 +66,7 @@
       <name>ng-reflect-message</name>
       <type>Main</type>
       <value>Add New Contact</value>
+      <webElementGuid>2cd0624e-21c4-4067-85c0-da4c253cf4bf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -64,6 +74,7 @@
       <name>ng-reflect-position</name>
       <type>Main</type>
       <value>above</value>
+      <webElementGuid>819f3002-aaa4-420a-83e4-22838ce0330d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -71,6 +82,7 @@
       <name>ng-reflect-disabled</name>
       <type>Main</type>
       <value>false</value>
+      <webElementGuid>593a1f1d-3afc-40d6-94e2-630321183b7e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,6 +90,7 @@
       <name>aria-describedby</name>
       <type>Main</type>
       <value>cdk-describedby-message-8</value>
+      <webElementGuid>9611f3b0-05c1-42a5-95af-254b04ca92d9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -85,6 +98,7 @@
       <name>text</name>
       <type>Main</type>
       <value>add</value>
+      <webElementGuid>d36d723c-86c2-4278-b31c-ae0a66be8684</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -92,6 +106,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/app-root[1]/app-main-page[@class=&quot;ng-tns-c479-5 ng-trigger ng-trigger-routerAnimation ng-star-inserted&quot;]/mat-sidenav-container[@class=&quot;mat-drawer-container mat-sidenav-container ng-tns-c479-5 mat-drawer-transition mat-drawer-container-has-open&quot;]/mat-sidenav-content[@class=&quot;mat-drawer-content mat-sidenav-content&quot;]/div[@class=&quot;wrapper thin-margin&quot;]/app-directory-contacts[@class=&quot;ng-tns-c609-38 ng-trigger ng-trigger-routerAnimation ng-star-inserted&quot;]/section[@class=&quot;ng-tns-c609-38&quot;]/article[@class=&quot;directory-container ng-tns-c609-38&quot;]/mat-sidenav-container[@class=&quot;mat-drawer-container mat-sidenav-container ng-tns-c609-38&quot;]/mat-sidenav[@class=&quot;mat-drawer mat-sidenav ng-tns-c181-50 ng-trigger ng-trigger-transform ng-tns-c609-38 mat-drawer-side mat-drawer-opened ng-star-inserted&quot;]/div[@class=&quot;mat-drawer-inner-container ng-tns-c181-50&quot;]/mat-toolbar[@class=&quot;mat-toolbar secondary-toolbar ng-tns-c181-50 mat-toolbar-single-row&quot;]/div[@class=&quot;secondary-toolbar-div&quot;]/button[@class=&quot;mat-focus-indicator ng-tns-c609-38 mat-icon-button mat-button-base&quot;]</value>
+      <webElementGuid>a5bdcf09-9541-4fae-8b09-b20dfcc94104</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -99,6 +114,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[8]</value>
+      <webElementGuid>1d0f6707-7fe7-4373-b373-1889f020b52c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,6 +122,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='GT'])[1]/following::button[3]</value>
+      <webElementGuid>c6347342-a3c8-4523-b673-06041e879a35</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -113,6 +130,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='GG TESTER'])[1]/following::button[3]</value>
+      <webElementGuid>b501f5f0-14a3-42d6-a9f6-6b053a876cce</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -120,6 +138,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='GT'])[2]/preceding::button[2]</value>
+      <webElementGuid>616d0c75-25b6-42af-bec7-cf253d104bb8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -127,6 +146,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='GG tester'])[1]/preceding::button[2]</value>
+      <webElementGuid>c2a5aad2-0c5a-4952-9c55-39439542725b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,6 +154,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//mat-toolbar/div/button</value>
+      <webElementGuid>cc23c754-d385-43c8-9e48-bbc17c504776</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -141,5 +162,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = 'add' or . = 'add')]</value>
+      <webElementGuid>9fea06da-6782-4661-898a-8403d48baab4</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

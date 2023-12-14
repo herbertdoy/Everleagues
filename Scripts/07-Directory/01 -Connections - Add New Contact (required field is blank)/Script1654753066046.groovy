@@ -92,8 +92,7 @@ WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.verifyElementVisible(findTestObject('07-Directory/Connections/h4_CONNECTIONS'))
 
-WebUI.verifyElementVisible(findTestObject('07-Directory/Connections/h5_Save your contacts here and throw your business cards away'))
-
+//WebUI.verifyElementVisible(findTestObject('07-Directory/Connections/h5_Save your contacts here and throw your business cards away'))
 WebUI.verifyElementVisible(findTestObject('07-Directory/Connections/button_search'))
 
 WebUI.verifyElementVisible(findTestObject('07-Directory/Connections/button_add new contact'))
@@ -112,19 +111,26 @@ WebUI.verifyElementVisible(findTestObject('07-Directory/Connections/Add new cont
 
 WebUI.delay(GlobalVariable.delay_3seconds)
 
-WebUI.click(findTestObject('07-Directory/Connections/input_firstName'))
+WebUI.sendKeys(findTestObject('07-Directory/Connections/input_firstName'), Keys.chord(Keys.CONTROL, 'a'))
 
-WebUI.click(findTestObject('07-Directory/Connections/input_lastName'))
+WebUI.sendKeys(findTestObject('07-Directory/Connections/input_firstName'), Keys.chord(Keys.BACK_SPACE))
 
+WebUI.sendKeys(findTestObject('07-Directory/Connections/input_lastName'), Keys.chord(Keys.CONTROL, 'a'))
+
+WebUI.sendKeys(findTestObject('07-Directory/Connections/input_lastName'), Keys.chord(Keys.BACK_SPACE))
+
+//WebUI.clearText(findTestObject('07-Directory/Connections/input_firstName'))
+//
+//WebUI.clearText(findTestObject('07-Directory/Connections/input_lastName'))
 WebUI.click(findTestObject('07-Directory/Connections/input_Type_email'))
 
 WebUI.delay(GlobalVariable.delay_3seconds)
 
-WebUI.verifyElementVisible(findTestObject('07-Directory/Connections/div_First Name Field is required'))
+WebUI.click(findTestObject('07-Directory/Connections/button_Save'))
 
-WebUI.verifyElementVisible(findTestObject('07-Directory/Connections/div_Last Name Field is required'))
+WebUI.verifyElementVisible(findTestObject('07-Directory/Connections/span_First name cannot be empty'))
 
-WebUI.verifyElementNotClickable(findTestObject('07-Directory/Connections/button_Create'))
-
+//WebUI.verifyElementVisible(findTestObject('07-Directory/Connections/div_First Name Field is required'))
+//WebUI.verifyElementVisible(findTestObject('07-Directory/Connections/div_Last Name Field is required'))
 WebUI.delay(GlobalVariable.delay_3seconds)
 

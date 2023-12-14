@@ -11,10 +11,14 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//h4[@id='mat-dialog-title-3']</value>
+         <value>//h2[text()='Edit Address']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//h4[(text() = 'Edit Address' or . = 'Edit Address')]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>h4</value>
-      <webElementGuid>41d44f0a-a980-4359-9786-9bc15f58b969</webElementGuid>
+      <webElementGuid>f4757412-ab11-4d00-842d-392a991dc3ed</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-dialog-title ng-star-inserted</value>
-      <webElementGuid>668c1c92-15db-465f-9074-0182b269eeda</webElementGuid>
+      <webElementGuid>00468b2d-b510-4898-b90c-231da52ebd0a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +42,7 @@
       <name>id</name>
       <type>Main</type>
       <value>mat-dialog-title-3</value>
-      <webElementGuid>13540e62-9184-4557-b412-fc10ddc35fe6</webElementGuid>
+      <webElementGuid>495562d0-2c28-4ef1-8a88-17526e0c51ec</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +50,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Edit Address</value>
-      <webElementGuid>fe30e36c-fb27-41a7-b5c3-8379ae6352fe</webElementGuid>
+      <webElementGuid>8d1f782c-a3d4-4e95-9ce0-5cba4e07f2aa</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +58,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-dialog-title-3&quot;)</value>
-      <webElementGuid>1e2b1769-1f39-45a1-a89b-ddda7c859c21</webElementGuid>
+      <webElementGuid>3a7c5950-6cd4-40ee-8fb1-80cf4da05864</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -62,7 +66,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//h4[@id='mat-dialog-title-3']</value>
-      <webElementGuid>ffb04eb5-0e7c-4187-99ed-9bd17a11ff80</webElementGuid>
+      <webElementGuid>bc7b3bcd-32fb-40e8-819d-3b9b19f806b1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +74,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-dialog-container[@id='mat-dialog-3']/app-dialog-profile-address/section/form/h4</value>
-      <webElementGuid>3be3755d-0e3f-4fa4-9d8a-ae79dd9bf3b9</webElementGuid>
+      <webElementGuid>c416adc2-bf58-47de-ba5c-fa448d76dd3f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/following::h4[1]</value>
-      <webElementGuid>9414460b-9e78-4133-be9e-485b72b39a8d</webElementGuid>
+      <webElementGuid>7c9e4d3c-164c-4192-b03f-eb289839328c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Create'])[1]/following::h4[1]</value>
-      <webElementGuid>eb36b9ca-46b0-4259-bc56-effc6e83359a</webElementGuid>
+      <webElementGuid>9b013a09-424c-4b68-81d3-db5a9d3c14ca</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Street 1'])[1]/preceding::h4[1]</value>
-      <webElementGuid>c1dfb62e-4cd2-489b-9a36-99c1256aacaa</webElementGuid>
+      <webElementGuid>238bd179-9191-4aac-90b9-a54a9e71a322</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +106,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Street 2'])[1]/preceding::h4[1]</value>
-      <webElementGuid>2dc43dfa-e139-4916-8c20-fbcf656a608a</webElementGuid>
+      <webElementGuid>09453a77-e135-48cc-be5c-f1f2eee3b7b1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +114,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Edit Address']/parent::*</value>
-      <webElementGuid>bc1f28ab-9205-4bc5-a84c-ff9aa837807e</webElementGuid>
+      <webElementGuid>543ad3e3-828d-4b75-86d4-0519ac36b50c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +122,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//app-dialog-profile-address/section/form/h4</value>
-      <webElementGuid>ae831828-2b93-4a3b-af02-0c708c361b08</webElementGuid>
+      <webElementGuid>8a9b2599-52cf-4ce7-a9e5-5694f83dc908</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,6 +130,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//h4[@id = 'mat-dialog-title-3' and (text() = 'Edit Address' or . = 'Edit Address')]</value>
-      <webElementGuid>0666a1f2-7ce5-41b6-9137-d0a00b3c2bc2</webElementGuid>
+      <webElementGuid>7389c89e-a2de-4342-8d71-0f136fd8d718</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

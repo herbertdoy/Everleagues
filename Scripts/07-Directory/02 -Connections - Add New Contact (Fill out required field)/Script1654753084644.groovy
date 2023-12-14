@@ -21,11 +21,21 @@ WebUI.setText(findTestObject('07-Directory/Connections/input_firstName'), Global
 
 WebUI.setText(findTestObject('07-Directory/Connections/input_lastName'), GlobalVariable.last_name2)
 
+WebUI.click(findTestObject('07-Directory/Connections/button_plusIcon'))
+
+WebUI.doubleClick(findTestObject('07-Directory/Connections/input_Type_email'), FailureHandling.CONTINUE_ON_FAILURE)
+
 WebUI.setText(findTestObject('07-Directory/Connections/input_Type_email'), GlobalVariable.email_for_Auto2)
 
 WebUI.click(findTestObject('07-Directory/Connections/input_Type_phone'))
 
 WebUI.click(findTestObject('07-Directory/Connections/button_area code'))
+
+WebUI.delay(GlobalVariable.delay_3seconds)
+
+WebUI.setText(findTestObject('07-Directory/Connections/input_company'), 'Auto Company')
+
+WebUI.setText(findTestObject('07-Directory/Connections/input_position'), 'Automator')
 
 WebUI.delay(GlobalVariable.delay_3seconds)
 

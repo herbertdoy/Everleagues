@@ -6,15 +6,19 @@
    <elementGuidId>f5cbdc9d-1ab6-4e90-8bb4-fb8e86cad8cd</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Everleagues © All Rights Reserved'])[1]/following::h4[1]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>h4.ng-tns-c479-5</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[contains(@class,'text-2xl font-semibold')]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//h4[(text() = 'CONNECTIONS' or . = 'CONNECTIONS')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -22,6 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>h4</value>
+      <webElementGuid>643e42ee-d156-4e52-871e-de69d61ab124</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,6 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ng-tns-c479-5</value>
+      <webElementGuid>40d9b888-7570-42e4-97b4-59e5611e6ca4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -36,6 +42,7 @@
       <name>text</name>
       <type>Main</type>
       <value>CONNECTIONS</value>
+      <webElementGuid>7c913e9d-6a44-4c81-ae9a-1bcd4c18126c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,6 +50,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/app-root[1]/app-main-page[@class=&quot;ng-tns-c479-5 ng-trigger ng-trigger-routerAnimation ng-star-inserted&quot;]/mat-sidenav-container[@class=&quot;mat-drawer-container mat-sidenav-container ng-tns-c479-5 mat-drawer-transition mat-drawer-container-has-open&quot;]/mat-sidenav-content[@class=&quot;mat-drawer-content mat-sidenav-content&quot;]/mat-toolbar[@class=&quot;mat-toolbar header-main-page mat-primary mat-toolbar-single-row&quot;]/div[@class=&quot;ng-tns-c479-5 ng-star-inserted&quot;]/h4[@class=&quot;ng-tns-c479-5&quot;]</value>
+      <webElementGuid>1fe649cf-7e01-4242-ba63-40db647e0f27</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -50,6 +58,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Everleagues © All Rights Reserved'])[1]/following::h4[1]</value>
+      <webElementGuid>c5c35ea8-c35c-4cd4-928e-2f52b22a761c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -57,6 +66,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Help'])[1]/following::h4[1]</value>
+      <webElementGuid>730d1afa-5529-427f-9a2b-3bfe048af2dd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -64,6 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='English'])[1]/preceding::h4[1]</value>
+      <webElementGuid>ca150e06-8db1-478a-a318-c44eec5b1773</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,6 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='GG TESTER'])[1]/preceding::h4[1]</value>
+      <webElementGuid>eae1f03b-45a5-4860-82fc-3ccfde59c3fd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,6 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='CONNECTIONS']/parent::*</value>
+      <webElementGuid>f563186d-0c66-43c2-82cb-aad23c82f88b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,6 +98,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//h4</value>
+      <webElementGuid>91d7d77f-c60e-4418-b32a-30703c0c2ead</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -92,5 +106,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//h4[(text() = 'CONNECTIONS' or . = 'CONNECTIONS')]</value>
+      <webElementGuid>01427b12-8f20-4f73-a377-9e09089d3d48</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
