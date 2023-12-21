@@ -6,15 +6,19 @@
    <elementGuidId>fd3b3eb5-9197-456b-965a-c2b2e123f495</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//h4[(text() = 'Add New Label' or . = 'Add New Label')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
-         <value>//h4[@id='mat-dialog-title-5']</value>
+         <value>//h2[text()='Add New Label']</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>#mat-dialog-title-5</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>h4</value>
-      <webElementGuid>2a6cf9fa-b2c8-4551-8596-1c04f866727c</webElementGuid>
+      <webElementGuid>028812ab-de32-446b-99c5-6c4b2adbb4a4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-dialog-title</value>
-      <webElementGuid>2a9770de-3232-4ac6-8797-ea4c4cc0514d</webElementGuid>
+      <webElementGuid>0be109b2-6b05-471a-a629-66ae88d17bdb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +42,7 @@
       <name>id</name>
       <type>Main</type>
       <value>mat-dialog-title-5</value>
-      <webElementGuid>f61e5e5d-def1-4b6b-bfb4-91f47eb518d5</webElementGuid>
+      <webElementGuid>dadfee43-ec38-4142-bfad-93e5907e8202</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +50,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Add New Label</value>
-      <webElementGuid>fbff9f5e-4334-49a6-959d-4c4bf3c88b1a</webElementGuid>
+      <webElementGuid>dcb66a19-6d4f-400b-bea1-8cf5b2e0887d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +58,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-dialog-title-5&quot;)</value>
-      <webElementGuid>e062eb92-19c9-40a4-ac15-b82d61fe699a</webElementGuid>
+      <webElementGuid>678b03bc-9739-4fc7-9b02-80bdb3674250</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -62,7 +66,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//h4[@id='mat-dialog-title-5']</value>
-      <webElementGuid>db54dc8d-aa9f-40dd-8559-f8d648d3bb1c</webElementGuid>
+      <webElementGuid>8e25ad6b-94f2-4552-b4dc-ac285ad0c559</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +74,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-dialog-container[@id='mat-dialog-5']/app-dialog-add-label/section/form/h4</value>
-      <webElementGuid>c2065ade-70bc-4a23-af2b-57f3ce5523b4</webElementGuid>
+      <webElementGuid>0a449b69-f500-4c37-a5a9-13ccf0dae616</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='of 0'])[1]/following::h4[1]</value>
-      <webElementGuid>7ee50fdc-a801-44d8-bf43-f46e8d4a23bb</webElementGuid>
+      <webElementGuid>09946bc9-9704-4bc8-b356-57ceb33ebf6e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Row per page:'])[1]/following::h4[1]</value>
-      <webElementGuid>9199a202-1627-4f81-b715-871a76a97bc8</webElementGuid>
+      <webElementGuid>52630866-cd9e-41a8-93ab-5dd20ee2a0c2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Label Name'])[1]/preceding::h4[1]</value>
-      <webElementGuid>ccac6a10-1135-4dcf-93ed-477b06de7fc8</webElementGuid>
+      <webElementGuid>7c597e0e-491a-46fd-bfce-30ddaac0cee2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +106,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Field is required'])[1]/preceding::h4[1]</value>
-      <webElementGuid>23e4ca03-768c-45cd-b4de-a4e363b8bc3e</webElementGuid>
+      <webElementGuid>9b76e565-6b39-4795-a396-3129bace15bf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +114,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Add New Label']/parent::*</value>
-      <webElementGuid>4894ff48-cece-4420-9a82-d8a941e518e9</webElementGuid>
+      <webElementGuid>1325cda6-9517-47e3-8a5e-a7ac2beedbbc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +122,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//form/h4</value>
-      <webElementGuid>c778158e-cfb8-4bde-92d4-e67bbe4f950e</webElementGuid>
+      <webElementGuid>eb1ea4c2-d3d9-4a30-ad45-bce1a29b346e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,6 +130,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//h4[@id = 'mat-dialog-title-5' and (text() = 'Add New Label' or . = 'Add New Label')]</value>
-      <webElementGuid>336592d1-981b-4a73-9d5d-38ef34812b08</webElementGuid>
+      <webElementGuid>f5bc3dad-193c-40a1-b39c-7259033d3439</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

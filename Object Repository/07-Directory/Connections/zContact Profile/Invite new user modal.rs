@@ -6,16 +6,16 @@
    <elementGuidId>83ae0184-a670-4886-9f26-d74b04a5cc88</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//mat-dialog-container[@role = 'dialog' and (text() = 'Invite New UserUserAdditional SettingsmailEmailaccount_circleFirst NameLast NamepersonRoleRole *businessOrganization UnitSend InvitationCancel' or . = 'Invite New UserUserAdditional SettingsmailEmailaccount_circleFirst NameLast NamepersonRoleRole *businessOrganization UnitSend InvitationCancel')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
-         <value>//mat-dialog-container[(text() = 'Invite New UserUserAdditional SettingsmailEmailaccount_circleFirst NameLast NamepersonRoleRole *businesscreateOrganization Unit *Send InvitationCancel' or . = 'Invite New UserUserAdditional SettingsmailEmailaccount_circleFirst NameLast NamepersonRoleRole *businesscreateOrganization Unit *Send InvitationCancel')]</value>
+         <value>//mat-dialog-container[@role='dialog']</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>#mat-dialog-1</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//mat-dialog-container[@role = 'dialog' and (text() = 'Invite New UserUserAdditional SettingsmailEmailaccount_circleFirst NameLast NamepersonRoleRole *businessOrganization UnitSend InvitationCancel' or . = 'Invite New UserUserAdditional SettingsmailEmailaccount_circleFirst NameLast NamepersonRoleRole *businessOrganization UnitSend InvitationCancel')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -26,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>mat-dialog-container</value>
-      <webElementGuid>0b832ef2-cbd4-47c0-9eb2-32a570be2027</webElementGuid>
+      <webElementGuid>ee13c718-c22d-4373-a9e7-cd86bdef3de9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -34,7 +34,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>-1</value>
-      <webElementGuid>aab994d9-48dc-44b0-8927-1beba402271b</webElementGuid>
+      <webElementGuid>3e76cbc8-e32c-4bf4-8162-99b6e753dedb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,7 +42,7 @@
       <name>aria-modal</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>9d3de8c4-4210-48c0-b95f-7eec40d60841</webElementGuid>
+      <webElementGuid>c31d3ac7-56a5-4781-90ba-351513b8cd22</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,7 +50,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-dialog-container ng-tns-c33-102 ng-trigger ng-trigger-dialogContainer ng-star-inserted</value>
-      <webElementGuid>992b3956-eafa-4d52-be94-68ea2f4274f1</webElementGuid>
+      <webElementGuid>055297f4-9396-4ad7-857d-de0b45709d10</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -58,7 +58,7 @@
       <name>id</name>
       <type>Main</type>
       <value>mat-dialog-1</value>
-      <webElementGuid>f4f51043-358b-47cb-90d1-4b018b0cdcf2</webElementGuid>
+      <webElementGuid>059e5141-5a6b-49e5-840d-c1fb94bb034a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -66,7 +66,7 @@
       <name>role</name>
       <type>Main</type>
       <value>dialog</value>
-      <webElementGuid>e944c991-b1d9-4b0a-861f-e7266cac884d</webElementGuid>
+      <webElementGuid>95cef879-96b6-4c66-b6df-09879db6b616</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -74,7 +74,7 @@
       <name>aria-labelledby</name>
       <type>Main</type>
       <value>mat-dialog-title-1</value>
-      <webElementGuid>667f632a-9d74-439a-b3dd-d11de5e4880f</webElementGuid>
+      <webElementGuid>c15401d7-3353-4665-aac6-8e0e90f6ca22</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -82,7 +82,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Invite New UserUserAdditional SettingsmailEmailaccount_circleFirst NameLast NamepersonRoleRole *businessOrganization UnitSend InvitationCancel</value>
-      <webElementGuid>0880d764-7e15-4a16-b019-35b8c16cbff0</webElementGuid>
+      <webElementGuid>575c7d6b-7506-440b-8e2a-c7797856518e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -90,7 +90,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-dialog-1&quot;)</value>
-      <webElementGuid>2f03fc5a-420e-4fa0-ba01-11ba4e4036f8</webElementGuid>
+      <webElementGuid>0a32eeab-4396-4c08-9ee5-3c71fb71be50</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -98,7 +98,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//mat-dialog-container[@id='mat-dialog-1']</value>
-      <webElementGuid>c991cfe9-2574-4b98-ac03-783c51c5f05e</webElementGuid>
+      <webElementGuid>ba817540-6411-4089-9161-8ea196e0932d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,7 +106,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='cdk-overlay-39']/mat-dialog-container</value>
-      <webElementGuid>e1ea33c2-65a1-45a9-84c5-42649544677d</webElementGuid>
+      <webElementGuid>7eb6ec89-4a94-47b4-961d-ffcbfaf36cfa</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -114,7 +114,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Work'])[3]/following::mat-dialog-container[1]</value>
-      <webElementGuid>5c2f9898-6e03-490e-bb24-5d56b253f0e9</webElementGuid>
+      <webElementGuid>a8b0a078-0904-4969-b05a-c1e29fd5f3e5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -122,7 +122,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Auto country'])[1]/following::mat-dialog-container[1]</value>
-      <webElementGuid>825ba586-9d20-4190-b529-65eb966ab9fc</webElementGuid>
+      <webElementGuid>134e6295-5391-4d3d-89ae-2ec28e9cf131</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -130,7 +130,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//mat-dialog-container</value>
-      <webElementGuid>7b9f2b7c-864f-43e2-968a-41c92f7afa5c</webElementGuid>
+      <webElementGuid>fd6076b6-0099-40f7-b4ce-d4a981929cf6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -138,6 +138,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//mat-dialog-container[@id = 'mat-dialog-1' and (text() = 'Invite New UserUserAdditional SettingsmailEmailaccount_circleFirst NameLast NamepersonRoleRole *businessOrganization UnitSend InvitationCancel' or . = 'Invite New UserUserAdditional SettingsmailEmailaccount_circleFirst NameLast NamepersonRoleRole *businessOrganization UnitSend InvitationCancel')]</value>
-      <webElementGuid>69dcbece-9ff6-46a3-9fda-e2660a145501</webElementGuid>
+      <webElementGuid>2406148c-3a5f-4b27-8f8f-7a808096e165</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

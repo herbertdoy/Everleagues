@@ -6,15 +6,19 @@
    <elementGuidId>b5faf6d3-1a3a-4fef-85c8-55ee19e9f79c</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#mat-dialog-3</value>
+         <key>BASIC</key>
+         <value>//mat-dialog-container[(text() = concat(&quot; Are you sure you want to delete this contact&quot; , &quot;'&quot; , &quot;s invitation? ConfirmCancel&quot;) or . = concat(&quot; Are you sure you want to delete this contact&quot; , &quot;'&quot; , &quot;s invitation? ConfirmCancel&quot;))]</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//mat-dialog-container[@id='mat-dialog-3']</value>
+         <value>//mat-dialog-container[@role='dialog']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#mat-dialog-3</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>mat-dialog-container</value>
-      <webElementGuid>a41bc987-66fe-4780-93d6-a45f922b61a5</webElementGuid>
+      <webElementGuid>80bd8c17-ba15-4852-a316-6a1d50afd43a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +34,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>-1</value>
-      <webElementGuid>d7267052-b51b-48ee-a8e5-77f8c227ce42</webElementGuid>
+      <webElementGuid>6c276293-8f80-4a35-867c-038f527fa704</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +42,7 @@
       <name>aria-modal</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>dc2c3e28-79f9-4c2c-ac46-f2987a154064</webElementGuid>
+      <webElementGuid>72fc3513-651b-41f2-a540-da52c40d4d5e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +50,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-dialog-container ng-tns-c31-75 ng-trigger ng-trigger-dialogContainer ng-star-inserted</value>
-      <webElementGuid>44be9d42-6da3-4bfc-ab1d-1775b226ea2c</webElementGuid>
+      <webElementGuid>f3d08959-61bf-43db-8dca-dbb289fe342f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +58,7 @@
       <name>id</name>
       <type>Main</type>
       <value>mat-dialog-3</value>
-      <webElementGuid>41f7b881-63a0-450b-924e-cbbefef42290</webElementGuid>
+      <webElementGuid>f55a1c9f-1248-429a-964f-4b927fa056c3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +66,7 @@
       <name>role</name>
       <type>Main</type>
       <value>dialog</value>
-      <webElementGuid>5f2c8edc-b89e-439d-a69d-a40ab30ab22b</webElementGuid>
+      <webElementGuid>826729fa-ae87-4be0-a997-d6c267da85eb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +74,7 @@
       <name>aria-labelledby</name>
       <type>Main</type>
       <value>mat-dialog-title-3</value>
-      <webElementGuid>60a9ed70-cff5-40d7-ab4a-75f0c6645dd3</webElementGuid>
+      <webElementGuid>f4e47377-f46d-4adc-b18d-567591cc5274</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -78,7 +82,7 @@
       <name>text</name>
       <type>Main</type>
       <value> Are you sure you want to delete this contact's invitation? ConfirmCancel</value>
-      <webElementGuid>940827fa-b673-4f21-8ce7-4f9b24a63124</webElementGuid>
+      <webElementGuid>fd7b0ece-355a-4e59-b254-cb94c365cfe7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -86,7 +90,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-dialog-3&quot;)</value>
-      <webElementGuid>66846a0b-a616-4bd6-a380-05655d47ffbd</webElementGuid>
+      <webElementGuid>89162536-f5ce-472f-9936-98576d38f844</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -94,7 +98,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//mat-dialog-container[@id='mat-dialog-3']</value>
-      <webElementGuid>ea5f9137-c3e2-47b1-b40c-05a1ea4bf91c</webElementGuid>
+      <webElementGuid>cf4ac5de-97c8-449b-86cf-cd00b4a4f0c8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +106,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='cdk-overlay-10']/mat-dialog-container</value>
-      <webElementGuid>9ecc7398-2028-436a-8dcc-f29946e84dcb</webElementGuid>
+      <webElementGuid>fdde131e-64f6-4872-a0e3-43e80f947a11</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +114,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('id(', '&quot;', 'mat-dialog-3', '&quot;', ')')])[1]/following::mat-dialog-container[1]</value>
-      <webElementGuid>aeb2adde-b92e-4cc8-822c-5ae3f8354f01</webElementGuid>
+      <webElementGuid>4a856528-8d54-4877-b52c-08320ded7452</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +122,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='`'])[2]/following::mat-dialog-container[1]</value>
-      <webElementGuid>31b9738b-e566-4d72-9a2e-1e316667f690</webElementGuid>
+      <webElementGuid>5fef9b9c-f513-4b19-a883-df906865ef09</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,7 +130,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//mat-dialog-container</value>
-      <webElementGuid>9f1c64ad-80fd-47b7-9ec9-2b5fb816a4bb</webElementGuid>
+      <webElementGuid>63885c66-c99e-45a6-bc90-608136fdcba2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,6 +138,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//mat-dialog-container[@id = 'mat-dialog-3' and (text() = concat(&quot; Are you sure you want to delete this contact&quot; , &quot;'&quot; , &quot;s invitation? ConfirmCancel&quot;) or . = concat(&quot; Are you sure you want to delete this contact&quot; , &quot;'&quot; , &quot;s invitation? ConfirmCancel&quot;))]</value>
-      <webElementGuid>5475c4ca-916a-421c-ade7-9084c4e978fd</webElementGuid>
+      <webElementGuid>c27c0ba1-9b8c-46cb-809c-258b28d34bce</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

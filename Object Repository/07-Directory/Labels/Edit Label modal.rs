@@ -11,14 +11,14 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//mat-dialog-container[@id='mat-dialog-7']</value>
+         <value>//mat-dialog-container[@role='dialog']</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>#mat-dialog-7</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -26,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>mat-dialog-container</value>
-      <webElementGuid>e6268294-6289-4aaf-b655-3b7895523393</webElementGuid>
+      <webElementGuid>70d0f27a-4513-4287-96ef-e0190b4667ec</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -34,7 +34,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>-1</value>
-      <webElementGuid>00f6e63f-fe80-43b5-a0f7-4c41f9ab252e</webElementGuid>
+      <webElementGuid>0fcec1cd-5e06-4ad2-9f13-dfdc099d3339</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,7 +42,7 @@
       <name>aria-modal</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>ec7ce883-cfe2-4fff-9e60-b810f16e765f</webElementGuid>
+      <webElementGuid>4e7b05e4-c918-463d-bc66-3eea87694f12</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,7 +50,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-dialog-container ng-tns-c33-71 ng-trigger ng-trigger-dialogContainer ng-star-inserted</value>
-      <webElementGuid>40037a8f-4911-42a3-a359-4303c0e1db56</webElementGuid>
+      <webElementGuid>18e031f4-aff7-4b37-b4b4-5426c4f5b3a9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -58,7 +58,7 @@
       <name>id</name>
       <type>Main</type>
       <value>mat-dialog-7</value>
-      <webElementGuid>fc5828d1-4b81-44fc-be29-a44852b1c945</webElementGuid>
+      <webElementGuid>3904b2f6-b9c2-4b49-9763-df413d0b3d73</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -66,7 +66,7 @@
       <name>role</name>
       <type>Main</type>
       <value>dialog</value>
-      <webElementGuid>447b2a3d-d4fe-4303-a7ff-38a18e7aa3f8</webElementGuid>
+      <webElementGuid>8d6f3a5d-fce6-4ace-8bc5-6bafe6401b9f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -74,7 +74,7 @@
       <name>aria-labelledby</name>
       <type>Main</type>
       <value>mat-dialog-title-7</value>
-      <webElementGuid>4404a996-8d10-4b7b-bb07-bf40c90b8cac</webElementGuid>
+      <webElementGuid>b775ec3a-2062-4eb8-b411-c9b1bb662714</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -82,7 +82,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Edit LabelLabel Name *Edit LabelCancel</value>
-      <webElementGuid>11742c9b-b764-49df-b187-dbf98af04e7e</webElementGuid>
+      <webElementGuid>119459fd-3902-4fa2-ab21-a82a19494f64</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -90,7 +90,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-dialog-7&quot;)</value>
-      <webElementGuid>69973f96-b9c9-44a4-bf9b-549211a82f41</webElementGuid>
+      <webElementGuid>d777c55b-8e6b-45e0-8696-408ae177b867</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -98,7 +98,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//mat-dialog-container[@id='mat-dialog-7']</value>
-      <webElementGuid>64d0e7e6-a2a5-4edb-a644-324cb273507c</webElementGuid>
+      <webElementGuid>ac3b9873-3fae-4d5d-bea4-fc4f6a2c657d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,7 +106,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='cdk-overlay-16']/mat-dialog-container</value>
-      <webElementGuid>82a03041-a85a-4541-a839-01c25f0cc58f</webElementGuid>
+      <webElementGuid>5d70853c-c3ba-4f01-ad4c-61f2f3d6d367</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -114,7 +114,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='of 1'])[1]/following::mat-dialog-container[1]</value>
-      <webElementGuid>4e1e600a-72d6-4ab1-90a4-9254432d211d</webElementGuid>
+      <webElementGuid>4da62b68-797f-44fc-b69a-8b83c2bb5f96</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -122,7 +122,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Row per page:'])[1]/following::mat-dialog-container[1]</value>
-      <webElementGuid>b87b3a40-9a68-4437-a144-8d2b755da105</webElementGuid>
+      <webElementGuid>f29ae17a-b831-479f-b732-cd5e3d275067</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -130,7 +130,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//mat-dialog-container</value>
-      <webElementGuid>ad6c0872-3681-471d-814b-97d8f94d7044</webElementGuid>
+      <webElementGuid>2b983221-43a1-4adf-b0a3-b7b0762b800d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -138,6 +138,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//mat-dialog-container[@id = 'mat-dialog-7' and (text() = 'Edit LabelLabel Name *Edit LabelCancel' or . = 'Edit LabelLabel Name *Edit LabelCancel')]</value>
-      <webElementGuid>ebb1a801-e0a0-46d4-b9c2-c4abac5b3b00</webElementGuid>
+      <webElementGuid>a8242a35-d281-41b6-a77f-fd379eb363fa</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

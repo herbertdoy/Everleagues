@@ -6,15 +6,19 @@
    <elementGuidId>8ac7935d-8c44-4583-9136-477be7f70878</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>button.mat-focus-indicator.mat-raised-button.mat-button-base.cdk-focused.cdk-mouse-focused</value>
+         <key>BASIC</key>
+         <value>//button[@type = 'button' and (text() = 'Send Invitation' or . = 'Send Invitation')]</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//button[@type='button'])[17]</value>
+         <value>(//button[@ng-reflect-color='primary'])[3]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.mat-focus-indicator.mat-raised-button.mat-button-base.cdk-focused.cdk-mouse-focused</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>bd23c592-eefa-474c-93a7-b0dc577cd24e</webElementGuid>
+      <webElementGuid>c5b839eb-5a75-4301-a27b-2d4858e08407</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +34,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>993d0419-e884-4e7d-b2ac-004e0256b36a</webElementGuid>
+      <webElementGuid>259cc776-2a76-4336-a745-b15b10c85d8d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +42,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-focus-indicator mat-raised-button mat-button-base cdk-focused cdk-mouse-focused</value>
-      <webElementGuid>d05e5bf9-e1d5-4b18-97fd-b942de418412</webElementGuid>
+      <webElementGuid>425ea6df-6a60-45e9-aa23-0778b6b3bca1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +50,7 @@
       <name>ng-reflect-disabled</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>262bec83-fcac-4e9d-b3ab-aec2f7593c3d</webElementGuid>
+      <webElementGuid>bf7ea78b-3a0a-487b-ac8d-f8cc1c776585</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +58,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Send Invitation</value>
-      <webElementGuid>3ac567ce-02f0-4aa1-9638-7a7ed345d068</webElementGuid>
+      <webElementGuid>bf78ae4b-d7bf-4b4d-8a68-cda1fa5ebf69</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +66,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-dialog-1&quot;)/app-dialog-add-user[@class=&quot;ng-star-inserted&quot;]/section[@class=&quot;dialog-container&quot;]/div[@class=&quot;mat-dialog-actions dialog-action&quot;]/div[@class=&quot;action-container&quot;]/button[@class=&quot;mat-focus-indicator mat-raised-button mat-button-base cdk-focused cdk-mouse-focused&quot;]</value>
-      <webElementGuid>4975c0b8-2427-416e-8ba7-182eb6aeca72</webElementGuid>
+      <webElementGuid>3a3df557-054c-4065-a555-3929e2742d92</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -70,7 +74,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[17]</value>
-      <webElementGuid>4c8b52eb-738e-40eb-b873-d3370ece9730</webElementGuid>
+      <webElementGuid>e8945eaa-140c-48d8-8629-df6cb9da17b0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +82,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-dialog-container[@id='mat-dialog-1']/app-dialog-add-user/section/div[2]/div/button</value>
-      <webElementGuid>9c97956c-4aac-4f73-a7bc-ec1b5902287c</webElementGuid>
+      <webElementGuid>110f7762-97f3-49bb-8e62-a0b0a554cb83</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Organization Unit'])[1]/following::button[1]</value>
-      <webElementGuid>b8439c08-8083-4fac-909b-6ca804fdd286</webElementGuid>
+      <webElementGuid>7068512b-43cf-46b1-ab6f-35347b453e1a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Role'])[1]/following::button[1]</value>
-      <webElementGuid>0033610a-477c-4885-9b6b-41f4df38d88b</webElementGuid>
+      <webElementGuid>57dcaeb9-94af-40b9-9fc9-d24009737552</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +106,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/preceding::button[1]</value>
-      <webElementGuid>0b0d1d9a-e07d-4050-b12a-290845e2ceed</webElementGuid>
+      <webElementGuid>51351179-fec9-4cfe-a9d1-59a94a598c2f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +114,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/button</value>
-      <webElementGuid>87e522aa-6a18-4819-a6e8-0b2d4c968a08</webElementGuid>
+      <webElementGuid>ee678d62-afba-4671-90c6-374315450a9f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,6 +122,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = 'Send Invitation' or . = 'Send Invitation')]</value>
-      <webElementGuid>be1ab11d-d971-4860-85a8-ec69d169987a</webElementGuid>
+      <webElementGuid>dbe07d65-5a54-416a-ae75-36f62d388dad</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

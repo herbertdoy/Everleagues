@@ -11,14 +11,14 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//button[@type='button'])[17]</value>
+         <value>//button[@ng-reflect-color='warn']</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>button.mat-focus-indicator.mat-raised-button.mat-button-base.cdk-focused.cdk-mouse-focused</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -26,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>8b0ce3ca-5485-4560-9565-8cef53bf23fe</webElementGuid>
+      <webElementGuid>28f050ce-f00c-459a-960b-4e394ddd6751</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -34,7 +34,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>5ea6d09a-3e11-431b-b36d-5a3ec1f6df95</webElementGuid>
+      <webElementGuid>d35bd461-8a44-4de2-85a6-7158398c11af</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,7 +42,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-focus-indicator mat-raised-button mat-button-base cdk-focused cdk-mouse-focused</value>
-      <webElementGuid>d32a6d25-e181-406e-90a3-3f9ec3288f46</webElementGuid>
+      <webElementGuid>74aa9ebb-e0ba-4c2e-92b2-5bc106202ebf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,7 +50,7 @@
       <name>ng-reflect-disabled</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>fca15242-31d9-41ee-b1c0-c05b3e6ed1ff</webElementGuid>
+      <webElementGuid>003f6277-7170-4b31-b0c2-c8be764f4e81</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -58,7 +58,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Delete</value>
-      <webElementGuid>8eb16729-36e9-4095-aba9-e334dc6a1367</webElementGuid>
+      <webElementGuid>6e5321aa-3d08-4583-857f-0c2bf95752f5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -66,7 +66,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-dialog-1&quot;)/app-dialog-delete-contact[@class=&quot;ng-star-inserted&quot;]/section[@class=&quot;dialog-container&quot;]/div[@class=&quot;mat-dialog-actions dialog-action&quot;]/div[@class=&quot;action-container&quot;]/button[@class=&quot;mat-focus-indicator mat-raised-button mat-button-base cdk-focused cdk-mouse-focused&quot;]</value>
-      <webElementGuid>fc70006d-a7b7-4082-92a8-3a03351bc750</webElementGuid>
+      <webElementGuid>447ebc60-a949-4c68-a032-9b298efc140b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -74,7 +74,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[17]</value>
-      <webElementGuid>629df5ab-484a-4f22-9c41-a1791d4e93d3</webElementGuid>
+      <webElementGuid>8cf359bb-e097-4920-b26e-cd7a1ee3c898</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,7 +82,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-dialog-container[@id='mat-dialog-1']/app-dialog-delete-contact/section/div[2]/div/button</value>
-      <webElementGuid>a69c9a44-4c93-4b4c-93c8-0bdb613f66dd</webElementGuid>
+      <webElementGuid>95d7c5f4-44a3-45da-8cd8-7874ea45393d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -90,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Are you sure you want to delete contact?'])[1]/following::button[1]</value>
-      <webElementGuid>084df396-d09c-4eeb-a472-9c5599f8232a</webElementGuid>
+      <webElementGuid>9986dda2-e8c7-4ceb-bde9-648a86f16333</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,7 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Delete Contact'])[1]/following::button[1]</value>
-      <webElementGuid>c62ba22b-c44a-4785-ac01-6766b92499a8</webElementGuid>
+      <webElementGuid>e1ecfe6b-fb68-4216-8cd9-2da7e972af32</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,7 +106,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/preceding::button[1]</value>
-      <webElementGuid>16fb811c-356b-41b0-8f07-d5a23dfcb754</webElementGuid>
+      <webElementGuid>b58e95bb-7304-4ca5-85a5-c5ce75d02ece</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -114,7 +114,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/button</value>
-      <webElementGuid>9ec21e71-d688-4c92-9eb1-8ed85955ee08</webElementGuid>
+      <webElementGuid>5cc98980-7143-4da4-9677-49bc1e029ceb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -122,6 +122,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = 'Delete' or . = 'Delete')]</value>
-      <webElementGuid>5dd13148-3e1e-457f-aa69-f66efbaf01cf</webElementGuid>
+      <webElementGuid>2415b239-9343-4fd2-988e-cca285bc97f4</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

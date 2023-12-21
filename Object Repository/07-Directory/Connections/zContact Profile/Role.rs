@@ -6,15 +6,19 @@
    <elementGuidId>f63c0183-8c85-41c7-975e-d4a38fd33481</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>div.mat-form-field-infix.ng-tns-c110-126</value>
+         <key>BASIC</key>
+         <value>//div[(text() = 'RoleRole *' or . = 'RoleRole *')]</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//mat-tab-body[@id='mat-tab-content-4-0']/div/div/div/div[4]/mat-list/mat-list-item/div/div[3]/span/mat-form-field/div/div/div</value>
+         <value>(//mat-icon[@data-mat-icon-name='user'])[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.mat-form-field-infix.ng-tns-c110-126</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>07c4f8b5-917a-4d7a-953e-2907c59eb2b8</webElementGuid>
+      <webElementGuid>949eee35-8d11-4ce0-a09e-42a07931e7c2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-form-field-infix ng-tns-c110-126</value>
-      <webElementGuid>caab2ae0-3828-4ff8-a5ad-2efe1a55827f</webElementGuid>
+      <webElementGuid>ab6dfe5c-af48-4fa7-aca3-7925f40b8faa</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +42,7 @@
       <name>text</name>
       <type>Main</type>
       <value>RoleRole *</value>
-      <webElementGuid>203ddcfe-7484-44d0-a90f-224e897cd902</webElementGuid>
+      <webElementGuid>01f5250a-df2f-4a1d-bc36-096c00c54fce</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +50,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-tab-content-4-0&quot;)/div[@class=&quot;mat-tab-body-content ng-tns-c361-129 ng-trigger ng-trigger-translateTab&quot;]/div[@class=&quot;push-top-lg ng-star-inserted&quot;]/div[1]/div[4]/mat-list[@class=&quot;mat-list mat-list-base&quot;]/mat-list-item[@class=&quot;mat-list-item mat-focus-indicator mat-list-item-avatar mat-list-item-with-avatar&quot;]/div[@class=&quot;mat-list-item-content&quot;]/div[@class=&quot;mat-list-text&quot;]/span[@class=&quot;mat-line&quot;]/mat-form-field[@class=&quot;mat-form-field ng-tns-c110-126 mat-primary mat-form-field-type-mat-select mat-form-field-appearance-legacy mat-form-field-can-float mat-form-field-has-label mat-form-field-hide-placeholder ng-untouched ng-pristine ng-invalid&quot;]/div[@class=&quot;mat-form-field-wrapper ng-tns-c110-126&quot;]/div[@class=&quot;mat-form-field-flex ng-tns-c110-126&quot;]/div[@class=&quot;mat-form-field-infix ng-tns-c110-126&quot;]</value>
-      <webElementGuid>3791edb9-eb07-4d99-abfa-bc52ad4cea8e</webElementGuid>
+      <webElementGuid>c10dc354-a7a1-4c51-ad73-4b38322ccba8</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +58,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-tab-body[@id='mat-tab-content-4-0']/div/div/div/div[4]/mat-list/mat-list-item/div/div[3]/span/mat-form-field/div/div/div</value>
-      <webElementGuid>ad5a7bab-6343-4f02-a98b-f5c739865877</webElementGuid>
+      <webElementGuid>6a197b12-4411-42f0-8b61-8d72da3fca8e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +66,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Last Name'])[1]/following::div[12]</value>
-      <webElementGuid>9e2e2b96-70c6-4e20-a345-7e31b2b07ace</webElementGuid>
+      <webElementGuid>4f8f709d-f0e6-43b2-a4a6-806a14017939</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='First Name'])[1]/following::div[24]</value>
-      <webElementGuid>c8e81bb0-7660-446c-a835-1036ec78d547</webElementGuid>
+      <webElementGuid>f7128e20-2de7-47e1-9502-74e2fc518cd7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +82,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[4]/mat-list/mat-list-item/div/div[3]/span/mat-form-field/div/div/div</value>
-      <webElementGuid>1f132519-36e0-4b1d-b4e0-27d5ae4e15c2</webElementGuid>
+      <webElementGuid>990292bc-5e27-4282-8992-7aee9f6fde6d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,6 +90,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = 'RoleRole *' or . = 'RoleRole *')]</value>
-      <webElementGuid>9dc4c13d-3456-412a-b0f7-ce99cbb83a49</webElementGuid>
+      <webElementGuid>bf47a16c-fe6d-4504-a06f-e7206712603c</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

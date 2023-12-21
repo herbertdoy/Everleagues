@@ -6,15 +6,19 @@
    <elementGuidId>d9b8d054-0ce7-4762-be38-5591ab7e0e6b</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>button.mat-focus-indicator.mat-icon-button.mat-button-base.mat-primary.ng-star-inserted.cdk-focused.cdk-program-focused</value>
+         <key>BASIC</key>
+         <value>//button[@type = 'button' and @mattooltip = 'Delete Invitation' and @mattooltipposition = 'above' and @ng-reflect-message = 'Delete Invitation']</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//button[@type='button'])[11]</value>
+         <value>//button[@mattooltip='Delete Invitation']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.mat-focus-indicator.mat-icon-button.mat-button-base.mat-primary.ng-star-inserted.cdk-focused.cdk-program-focused</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>53934a01-699e-4b48-b3e7-f7b592525caa</webElementGuid>
+      <webElementGuid>6ccf462f-9f3f-4696-b8c9-bffbd729d8f7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +34,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>ff2e178d-6e2c-4e48-bd13-29d059d67d0c</webElementGuid>
+      <webElementGuid>4a3e379d-c90a-4b86-98fd-86fe5c208953</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +42,7 @@
       <name>color</name>
       <type>Main</type>
       <value>primary</value>
-      <webElementGuid>a2a93cbc-dd5b-4f7f-9d8d-cb75ebdc9ddb</webElementGuid>
+      <webElementGuid>56a2f172-59f8-4eb8-8650-353218f0a2ad</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +50,7 @@
       <name>mattooltip</name>
       <type>Main</type>
       <value>Delete Invitation</value>
-      <webElementGuid>da2dc532-db98-458f-b8e3-82c26c710949</webElementGuid>
+      <webElementGuid>5cbba19e-055d-4fe5-ad89-203df4824ee5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +58,7 @@
       <name>mattooltipposition</name>
       <type>Main</type>
       <value>above</value>
-      <webElementGuid>c9d65a6b-7d1a-4dc1-97a0-11e759ab0a62</webElementGuid>
+      <webElementGuid>67ade949-3a27-4b22-913d-793f38fc44c2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +66,7 @@
       <name>permission-type</name>
       <type>Main</type>
       <value>OU_INVITE_CREATE</value>
-      <webElementGuid>8a50e56c-15e9-4480-8ece-13d4622854b2</webElementGuid>
+      <webElementGuid>029926dc-d778-49b4-a922-b2ac55913c16</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +74,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-focus-indicator mat-icon-button mat-button-base mat-primary ng-star-inserted cdk-focused cdk-program-focused</value>
-      <webElementGuid>0e1b4811-9c6b-4145-a758-5646b7ad48d2</webElementGuid>
+      <webElementGuid>bd50594f-c832-4e22-b738-22a078389096</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,7 +82,7 @@
       <name>ng-reflect-color</name>
       <type>Main</type>
       <value>primary</value>
-      <webElementGuid>e33c9261-87e7-4bf1-8640-0e912b17f43d</webElementGuid>
+      <webElementGuid>103da838-2a97-43ee-bd4c-1922ff74dbe4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -86,7 +90,7 @@
       <name>ng-reflect-message</name>
       <type>Main</type>
       <value>Delete Invitation</value>
-      <webElementGuid>41bf50b9-fc7e-4175-b2d8-0c9a1bee0f48</webElementGuid>
+      <webElementGuid>890ce36a-3f3f-4500-ab54-56deaa694947</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -94,7 +98,7 @@
       <name>ng-reflect-position</name>
       <type>Main</type>
       <value>above</value>
-      <webElementGuid>16e25ccb-eb4d-40e7-8905-c352786a30fd</webElementGuid>
+      <webElementGuid>1c03d780-77a6-4b5f-8e46-765006cd5bca</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -102,7 +106,7 @@
       <name>ng-reflect-permission-type</name>
       <type>Main</type>
       <value>OU_INVITE_CREATE</value>
-      <webElementGuid>08375d85-6b25-4a4f-ac81-49139031f9bb</webElementGuid>
+      <webElementGuid>2587ceb7-f32c-4ebd-adc9-b04a945807b9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -110,7 +114,7 @@
       <name>ng-reflect-disabled</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>573865e1-75f4-44b2-aece-7156b4832fd0</webElementGuid>
+      <webElementGuid>72d27727-a160-43a8-a44b-cc36f672eee2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -118,7 +122,7 @@
       <name>aria-describedby</name>
       <type>Main</type>
       <value>cdk-describedby-message-11</value>
-      <webElementGuid>1a61fc05-b1fc-4441-a98e-b9140d458918</webElementGuid>
+      <webElementGuid>53a2b961-5b86-4d7a-a238-84f0bc318c0c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -126,7 +130,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/app-root[1]/app-main-page[@class=&quot;ng-tns-c481-5 ng-trigger ng-trigger-routerAnimation ng-star-inserted&quot;]/mat-sidenav-container[@class=&quot;mat-drawer-container mat-sidenav-container ng-tns-c481-5 mat-drawer-transition&quot;]/mat-sidenav-content[@class=&quot;mat-drawer-content mat-sidenav-content&quot;]/div[@class=&quot;wrapper thin-margin&quot;]/app-directory-contacts[@class=&quot;ng-tns-c642-39 ng-trigger ng-trigger-routerAnimation ng-star-inserted&quot;]/section[@class=&quot;ng-tns-c642-39&quot;]/article[@class=&quot;directory-container ng-tns-c642-39&quot;]/mat-sidenav-container[@class=&quot;mat-drawer-container mat-sidenav-container ng-tns-c642-39&quot;]/mat-sidenav-content[@class=&quot;mat-drawer-content mat-sidenav-content ng-star-inserted&quot;]/div[@class=&quot;contact-details-body&quot;]/perfect-scrollbar[@class=&quot;perfect-scrollbar ng-tns-c642-39&quot;]/div[@class=&quot;ps&quot;]/div[@class=&quot;ps-content&quot;]/div[@class=&quot;contact-profile-container ng-tns-c642-39 ng-star-inserted&quot;]/app-directory-contact-profile[@class=&quot;ng-tns-c642-39&quot;]/form[@class=&quot;ng-untouched ng-pristine&quot;]/div[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;contact-profile-header&quot;]/div[3]/button[@class=&quot;mat-focus-indicator mat-icon-button mat-button-base mat-primary ng-star-inserted cdk-focused cdk-program-focused&quot;]</value>
-      <webElementGuid>c27ebc91-83c3-4f6a-8d6d-624068b8a445</webElementGuid>
+      <webElementGuid>fa7cdad4-c7c0-440b-b922-13cfdd729ec3</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -134,7 +138,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[11]</value>
-      <webElementGuid>da976fb3-6b74-4156-827f-d20f5e532294</webElementGuid>
+      <webElementGuid>aea60c95-3a68-497b-b001-1c9fad717399</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -142,7 +146,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='(Invited)'])[1]/following::button[2]</value>
-      <webElementGuid>7bcaf6ba-db7a-4950-83ea-5477d7cfa0f2</webElementGuid>
+      <webElementGuid>f858b6c0-1389-4e6d-b3e9-614bcb8e1b63</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -150,7 +154,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='General'])[1]/preceding::button[3]</value>
-      <webElementGuid>d5743490-2361-4a86-8495-b1b8e16db024</webElementGuid>
+      <webElementGuid>ccd24e6b-653d-439c-8383-9fbb703da8f3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -158,7 +162,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Organization'])[2]/preceding::button[3]</value>
-      <webElementGuid>fe982017-3efb-4f09-8ce6-eabdce4f5105</webElementGuid>
+      <webElementGuid>39fb84aa-1218-4095-ba57-f841971a4099</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -166,7 +170,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/button[2]</value>
-      <webElementGuid>666dce1e-ed0d-4550-892b-922d7fd78a32</webElementGuid>
+      <webElementGuid>710c1951-faad-4432-9fcd-bc1546a6bb9e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -174,6 +178,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button']</value>
-      <webElementGuid>f6fb6233-900b-402f-b90d-6f498ec6e679</webElementGuid>
+      <webElementGuid>7c0796a8-9041-4448-b173-63438d776d9d</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

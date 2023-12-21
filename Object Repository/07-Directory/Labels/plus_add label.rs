@@ -6,15 +6,19 @@
    <elementGuidId>a0878749-0aef-4cf3-be8f-afe3d73b97a9</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//button[@type = 'button' and (text() = 'add' or . = 'add')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
-         <value>(//button[@type='button'])[6]</value>
+         <value>//button[@ng-reflect-color='primary']</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>button.mat-focus-indicator.ng-tns-c654-37.mat-mini-fab.mat-button-base.mat-primary.cdk-focused.cdk-mouse-focused</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>bb0df76f-45d8-4ebe-b379-32936b6d8a7d</webElementGuid>
+      <webElementGuid>514b7027-d073-4c9b-b0e2-6bb2bd62b8fc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +34,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>3e7e266f-0e17-4382-9c95-3c0803ba7885</webElementGuid>
+      <webElementGuid>2b0a43d3-5c7c-436f-b216-6cb5be78514e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +42,7 @@
       <name>color</name>
       <type>Main</type>
       <value>primary</value>
-      <webElementGuid>6453262d-8967-48ea-a373-aa5ef8647f9a</webElementGuid>
+      <webElementGuid>516b4aab-dd01-478a-90dc-07369d04cf7f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +50,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-focus-indicator ng-tns-c654-37 mat-mini-fab mat-button-base mat-primary cdk-focused cdk-mouse-focused</value>
-      <webElementGuid>e780fff0-d8b8-48d8-9bc2-598e66d37045</webElementGuid>
+      <webElementGuid>3b276a4c-ffcf-4e33-9dd5-1215c1888db8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +58,7 @@
       <name>ng-reflect-color</name>
       <type>Main</type>
       <value>primary</value>
-      <webElementGuid>ed3c5b9d-a9a5-4a3d-af4e-9bdcb1f38d0f</webElementGuid>
+      <webElementGuid>69fcd1d8-49bc-4c02-88a0-88989410ea30</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -62,7 +66,7 @@
       <name>text</name>
       <type>Main</type>
       <value>add</value>
-      <webElementGuid>fbd06c90-9085-4bb8-b0a7-d163132ba675</webElementGuid>
+      <webElementGuid>0d16a07c-835e-42fe-bb20-fc909c2a0ff2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +74,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/app-root[1]/app-main-page[@class=&quot;ng-tns-c481-5 ng-trigger ng-trigger-routerAnimation ng-star-inserted&quot;]/mat-sidenav-container[@class=&quot;mat-drawer-container mat-sidenav-container ng-tns-c481-5 mat-drawer-transition&quot;]/mat-sidenav-content[@class=&quot;mat-drawer-content mat-sidenav-content&quot;]/div[@class=&quot;wrapper&quot;]/app-directory-label[@class=&quot;ng-tns-c654-37 ng-trigger ng-trigger-routerAnimation ng-star-inserted&quot;]/section[@class=&quot;ng-tns-c654-37&quot;]/article[@class=&quot;directory-container ng-tns-c654-37&quot;]/div[@class=&quot;ng-tns-c654-37&quot;]/div[@class=&quot;white-container ng-tns-c654-37&quot;]/div[@class=&quot;button-add-label ng-tns-c654-37&quot;]/button[@class=&quot;mat-focus-indicator ng-tns-c654-37 mat-mini-fab mat-button-base mat-primary cdk-focused cdk-mouse-focused&quot;]</value>
-      <webElementGuid>061e0bb2-a850-4a81-a409-31c3bab7a982</webElementGuid>
+      <webElementGuid>96e44ad8-ac31-4f76-85b6-dd09742a6a44</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -78,7 +82,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[6]</value>
-      <webElementGuid>aa7eec69-ccaf-4cf0-8825-1523b9fe9e7f</webElementGuid>
+      <webElementGuid>878b1f98-69ab-415c-a9cd-3a3b46bc0611</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='GG TESTER'])[1]/following::button[1]</value>
-      <webElementGuid>9102e184-f9a7-419f-8573-6dd6a1574f2f</webElementGuid>
+      <webElementGuid>2b47d509-18e0-4326-8c7b-b1a9702b19b4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='English'])[1]/following::button[1]</value>
-      <webElementGuid>80ba6608-454b-4d72-8940-244106d37ad7</webElementGuid>
+      <webElementGuid>c62aafb5-efba-4efb-8814-39468b0fdb0e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +106,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Showing your custom labels'])[1]/preceding::button[1]</value>
-      <webElementGuid>7aa96036-b33e-4a9b-80ef-d5e1e4a0425c</webElementGuid>
+      <webElementGuid>249a7a18-ec47-426f-8f4f-f25b6d46552f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +114,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Find your labels here'])[1]/preceding::button[2]</value>
-      <webElementGuid>cc9b088f-5365-4f5b-897a-fcdb7d75809d</webElementGuid>
+      <webElementGuid>0d43483b-9d94-4eb7-911f-a99b73a149d1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +122,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/div/div/button</value>
-      <webElementGuid>974a88e5-c768-46d9-8fa1-ad27ccbd10a5</webElementGuid>
+      <webElementGuid>a949bb78-460f-4f60-a2f6-2ec7640b9116</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,6 +130,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = 'add' or . = 'add')]</value>
-      <webElementGuid>e6bdc945-56d2-4c82-ab03-e8237f9863c9</webElementGuid>
+      <webElementGuid>8c2b7e2a-2e33-4897-8fe0-6b597d4ed775</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

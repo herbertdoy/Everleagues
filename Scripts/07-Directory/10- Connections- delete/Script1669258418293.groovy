@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.delay(GlobalVariable.delay_2seconds)
 
-WebUI.click(findTestObject('07-Directory/Connections/zContact Profile/GG edited'))
+//WebUI.click(findTestObject('07-Directory/Connections/zContact Profile/GG edited'))
 
 WebUI.click(findTestObject('07-Directory/Connections/zContact Profile/button_delete'))
 

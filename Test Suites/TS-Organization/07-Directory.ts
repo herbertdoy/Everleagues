@@ -82,24 +82,31 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
+      <guid>2541d7e0-efff-49aa-92d1-54526f69caa7</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/07-Directory/11 - Connections - Search and Filter</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
       <guid>af153021-7b1f-445a-92f6-a760e3f58b84</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/07-Directory/11 - Add new label</testCaseId>
+      <testCaseId>Test Cases/07-Directory/12 - Add new label</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>bfc8b0a8-f628-4cf7-ab36-dd71cc54a0d9</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/07-Directory/12 - Edit a label</testCaseId>
+      <testCaseId>Test Cases/07-Directory/13 - Edit a label</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>a2f12a49-2833-403a-8b6d-8840f1b6263d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/07-Directory/13- Delete a label</testCaseId>
+      <testCaseId>Test Cases/07-Directory/14- Delete a label</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

@@ -6,15 +6,19 @@
    <elementGuidId>48f0fefd-3ed1-4776-b0a6-ed5dc82ca120</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>button.mat-focus-indicator.mat-raised-button.mat-button-base.cdk-focused.cdk-mouse-focused</value>
+         <key>BASIC</key>
+         <value>//button[@type = 'button' and (text() = 'Confirm' or . = 'Confirm')]</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//button[@type='button'])[18]</value>
+         <value>(//button[@ng-reflect-color='primary'])[3]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.mat-focus-indicator.mat-raised-button.mat-button-base.cdk-focused.cdk-mouse-focused</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>0d0f06e9-e37b-4f9e-9179-f837323eaa85</webElementGuid>
+      <webElementGuid>5a0f2be1-54f9-4d20-b72e-2c272496425d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +34,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>f3cb2166-4fa3-475d-b8c8-5a6ab81c1f99</webElementGuid>
+      <webElementGuid>d8931407-1002-4a1d-bc2c-2e2805501fe7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +42,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-focus-indicator mat-raised-button mat-button-base cdk-focused cdk-mouse-focused</value>
-      <webElementGuid>45ab27c2-1356-4714-bfef-2111815c831f</webElementGuid>
+      <webElementGuid>2e2bda28-afc6-47ca-b25b-38d38fc8f3e0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +50,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Confirm</value>
-      <webElementGuid>a69dfdb7-638f-4976-9f2a-ed8ac7191c75</webElementGuid>
+      <webElementGuid>561d2ad0-4ef0-4c1c-a8a4-1ba0d5f4e113</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +58,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-dialog-3&quot;)/app-dialog-prompt[@class=&quot;ng-star-inserted&quot;]/section[@class=&quot;dialog-container&quot;]/div[@class=&quot;mat-dialog-actions dialog-action&quot;]/div[@class=&quot;action-container&quot;]/button[@class=&quot;mat-focus-indicator mat-raised-button mat-button-base cdk-focused cdk-mouse-focused&quot;]</value>
-      <webElementGuid>d49e3942-a826-4364-893f-dc0372a79d8b</webElementGuid>
+      <webElementGuid>5b8cf21f-7347-4e09-aa96-98f284026636</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -62,7 +66,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[18]</value>
-      <webElementGuid>4b4947cb-2977-4f0d-9620-3cbe5a5a0aa4</webElementGuid>
+      <webElementGuid>7b4c6587-d9d4-423b-b051-a4daed377ea0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +74,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-dialog-container[@id='mat-dialog-3']/app-dialog-prompt/section/div[2]/div/button</value>
-      <webElementGuid>252d23a5-feb1-487d-8417-65547121bbc7</webElementGuid>
+      <webElementGuid>759858a1-60b3-482d-966b-b06b3e1f30e3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('Are you sure you want to delete this contact', &quot;'&quot;, 's invitation?')])[1]/following::button[1]</value>
-      <webElementGuid>dfa5bf0f-fdea-4604-ac6e-19202d63ca62</webElementGuid>
+      <webElementGuid>dac3e227-8232-472f-8e58-47679a058df3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='`'])[2]/following::button[1]</value>
-      <webElementGuid>79b23570-0179-4711-ab7b-59661e84bfa2</webElementGuid>
+      <webElementGuid>85a8d257-3b9e-4b67-8c06-4aed32d309da</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/preceding::button[1]</value>
-      <webElementGuid>e32d906e-c636-4164-a953-0c8a4ecb8795</webElementGuid>
+      <webElementGuid>3e44fd7b-a5c2-4707-9e31-ce0c91d73a5e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +106,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/button</value>
-      <webElementGuid>02f27299-420a-4a71-b92a-3bd147dcd5c0</webElementGuid>
+      <webElementGuid>92dbcbd1-af71-4263-9882-35e2a2b04ace</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,6 +114,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = 'Confirm' or . = 'Confirm')]</value>
-      <webElementGuid>330925aa-0c4f-45b2-b8b8-b07caf9f497f</webElementGuid>
+      <webElementGuid>695567d9-f83a-40ba-bd5f-b47a7cda183f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

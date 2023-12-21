@@ -6,15 +6,19 @@
    <elementGuidId>b5d4628d-4933-471a-9ae8-c2dd9caad258</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//mat-dialog-container[@role = 'dialog' and (text() = 'Add New LabelLabel Name *Add LabelCancel' or . = 'Add New LabelLabel Name *Add LabelCancel')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
-         <value>//mat-dialog-container[@id='mat-dialog-3']</value>
+         <value>//mat-dialog-container[@role='dialog']</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>#mat-dialog-3</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>mat-dialog-container</value>
-      <webElementGuid>a04f1e62-df85-4aac-8339-4bb70efaaa0d</webElementGuid>
+      <webElementGuid>209ef722-9bb8-415c-b12f-c20b7ac54fc5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +34,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>-1</value>
-      <webElementGuid>30beb987-660a-42ae-8a0f-d65d06f23841</webElementGuid>
+      <webElementGuid>f6103107-6643-4514-8fb5-fe23c257b2b8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +42,7 @@
       <name>aria-modal</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>78e544b0-fa45-406d-939a-34f2427421c5</webElementGuid>
+      <webElementGuid>5d8fbf2b-498f-40f8-aa5c-21266aca4c54</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +50,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-dialog-container ng-tns-c33-46 ng-trigger ng-trigger-dialogContainer ng-star-inserted</value>
-      <webElementGuid>378d78dc-78b1-4a6a-af38-ac7b564b4e12</webElementGuid>
+      <webElementGuid>814d211e-2115-4dd4-9243-a438aef1d295</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +58,7 @@
       <name>id</name>
       <type>Main</type>
       <value>mat-dialog-3</value>
-      <webElementGuid>7055aba5-ad57-46be-b806-bc6e94f00888</webElementGuid>
+      <webElementGuid>63b3d16e-2175-46bd-ac07-320d9c7bb0ae</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -62,7 +66,7 @@
       <name>role</name>
       <type>Main</type>
       <value>dialog</value>
-      <webElementGuid>5c65b4e2-41bd-41ea-9178-286c620e1443</webElementGuid>
+      <webElementGuid>42b8c3c6-c8a1-4be7-b9a8-d1bffc0e97ce</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +74,7 @@
       <name>aria-labelledby</name>
       <type>Main</type>
       <value>mat-dialog-title-3</value>
-      <webElementGuid>faf4f8f1-3090-458a-b326-9ddd6b617079</webElementGuid>
+      <webElementGuid>c104b44e-aff5-4ce1-b4ea-a741d1663518</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -78,7 +82,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Add New LabelLabel Name *Add LabelCancel</value>
-      <webElementGuid>d113a054-cc9c-4159-9282-acdd16f39449</webElementGuid>
+      <webElementGuid>cfd5c68b-5944-4912-befb-3d3640ad35ee</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -86,7 +90,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-dialog-3&quot;)</value>
-      <webElementGuid>3931f1dd-4b96-47df-88c2-961223949996</webElementGuid>
+      <webElementGuid>a7933498-28d3-4b56-a84e-0866815def9f</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -94,7 +98,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//mat-dialog-container[@id='mat-dialog-3']</value>
-      <webElementGuid>ee178e61-6592-4ffa-96cb-4d64382ffbf6</webElementGuid>
+      <webElementGuid>88dcc10e-de65-4b27-a828-a466d891de75</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +106,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='cdk-overlay-3']/mat-dialog-container</value>
-      <webElementGuid>21cd9c73-3c20-460c-b9ce-fb6e83072a0e</webElementGuid>
+      <webElementGuid>ca0b0859-94a4-4517-a4e2-2bab815901b3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +114,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='of 0'])[1]/following::mat-dialog-container[1]</value>
-      <webElementGuid>b335b660-1780-41d4-acb3-c038ea38eace</webElementGuid>
+      <webElementGuid>6bac4ba5-f025-4a84-b787-1a0d1c89d9d5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +122,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Row per page:'])[1]/following::mat-dialog-container[1]</value>
-      <webElementGuid>2624573b-ef4d-4dae-b1f2-8ed151e03a3b</webElementGuid>
+      <webElementGuid>ef378957-bf0c-4207-8980-14a01b448a4d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,7 +130,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//mat-dialog-container</value>
-      <webElementGuid>b1008a38-618d-43a8-9f64-f1c581bd535a</webElementGuid>
+      <webElementGuid>24827284-efa7-42a1-ab8d-67a70a5a6f0c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,6 +138,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//mat-dialog-container[@id = 'mat-dialog-3' and (text() = 'Add New LabelLabel Name *Add LabelCancel' or . = 'Add New LabelLabel Name *Add LabelCancel')]</value>
-      <webElementGuid>8e9aaef4-a1e2-4704-beb2-e36205b0d88a</webElementGuid>
+      <webElementGuid>5de48985-5317-493f-88d2-163a6818cf6d</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

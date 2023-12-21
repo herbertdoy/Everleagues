@@ -86,6 +86,8 @@ WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.click(findTestObject('08-Operations/Client_Assignment'))
 
+WebUI.verifyElementVisible(findTestObject('08-Operations/Client Assignment/div_Client Assignment'))
+
 WebUI.verifyElementVisible(findTestObject('08-Operations/Client Assignment/Client Assignment Page 2'))
 
 //WebUI.verifyElementVisible(findTestObject('08-Operations/Client Assignment/Client Assignment Page'))

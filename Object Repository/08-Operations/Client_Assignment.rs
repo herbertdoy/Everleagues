@@ -6,15 +6,19 @@
    <elementGuidId>614273c7-afb3-42c1-a96d-1e0a35033bc4</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//a[@routerlinkactive = 'active' and @href = '/main/operation/client/assign' and (text() = 'keyboard_arrow_rightClient Assignment ' or . = 'keyboard_arrow_rightClient Assignment ')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='arrow_drop_down'])[2]/following::a[1]</value>
+         <value>//div[text()='Client Assignment ']</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>a.mat-focus-indicator.ng-tns-c540-31.mat-button.mat-button-base.cdk-focused.cdk-mouse-focused</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>1b74a580-7b31-4692-8087-be3d21a55102</webElementGuid>
+      <webElementGuid>113fb146-e6cd-4f2f-ab6c-29ea8b488a30</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +34,7 @@
       <name>routerlinkactive</name>
       <type>Main</type>
       <value>active</value>
-      <webElementGuid>4c207cfc-ded6-40ba-b893-6da1b3ec19eb</webElementGuid>
+      <webElementGuid>39a4edaa-a814-4fd3-bdb6-97b92a91c4fb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +42,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-focus-indicator ng-tns-c540-31 mat-button mat-button-base cdk-focused cdk-mouse-focused</value>
-      <webElementGuid>6a13bbb2-ef3d-4639-9502-b0edf1e18877</webElementGuid>
+      <webElementGuid>8ca32208-8977-49f8-aa48-1d3e1eba0a80</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +50,7 @@
       <name>ng-reflect-router-link-active</name>
       <type>Main</type>
       <value>active</value>
-      <webElementGuid>decfc044-b750-4e40-bf8d-d11209a169a3</webElementGuid>
+      <webElementGuid>04ee2dce-2cf4-40e6-aea1-83d80f793e59</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +58,7 @@
       <name>ng-reflect-router-link</name>
       <type>Main</type>
       <value>operation/client/assign</value>
-      <webElementGuid>50b4f01c-31af-479d-89ce-c2b2372db935</webElementGuid>
+      <webElementGuid>05adb050-76dd-41de-911a-78a0986f4fc5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +66,7 @@
       <name>ng-reflect-router-link-active-options</name>
       <type>Main</type>
       <value>[object Object]</value>
-      <webElementGuid>892de46b-18dc-484b-ac5b-fde34724439b</webElementGuid>
+      <webElementGuid>9fc9fd5c-aede-4f51-b3c2-8445a9e2e9f4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +74,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>e6e85d7b-30a6-4783-8e7f-42ae7b2f41cf</webElementGuid>
+      <webElementGuid>ba44ca1c-261f-40e6-8e42-8001a317a239</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,7 +82,7 @@
       <name>aria-disabled</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>5073860e-b05b-4648-bdcd-092dee8be2fc</webElementGuid>
+      <webElementGuid>c8843017-f42c-41f4-a239-b066641c38cd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -86,7 +90,7 @@
       <name>href</name>
       <type>Main</type>
       <value>/main/operation/client/assign</value>
-      <webElementGuid>5c0767e9-bb6e-4a9d-b090-d57ebe3fa9b0</webElementGuid>
+      <webElementGuid>371f419a-15fb-4b41-90b8-ebd6a2a559b6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -94,7 +98,7 @@
       <name>text</name>
       <type>Main</type>
       <value>keyboard_arrow_rightClient Assignment </value>
-      <webElementGuid>3030c70b-5df9-4635-8a72-d168cc71af40</webElementGuid>
+      <webElementGuid>a64ffd14-3384-4d5c-89a0-1c277c132a56</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -102,7 +106,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/app-root[1]/app-main-page[@class=&quot;ng-tns-c481-5 ng-trigger ng-trigger-routerAnimation ng-star-inserted&quot;]/mat-sidenav-container[@class=&quot;mat-drawer-container mat-sidenav-container ng-tns-c481-5 mat-drawer-transition mat-drawer-container-has-open&quot;]/mat-sidenav[@class=&quot;mat-drawer mat-sidenav left-sidenav ng-tns-c195-6 ng-trigger ng-trigger-transform mat-drawer-over ng-star-inserted mat-drawer-opened&quot;]/div[@class=&quot;mat-drawer-inner-container ng-tns-c195-6&quot;]/perfect-scrollbar[@class=&quot;perfect-scrollbar ng-tns-c481-5 ng-star-inserted&quot;]/div[@class=&quot;ps ps--active-y&quot;]/div[@class=&quot;ps-content&quot;]/px-gdn-sidemenu[1]/ul[1]/px-gdn-sideitem[@class=&quot;ng-tns-c540-21 ng-tns-c481-5 ng-star-inserted&quot;]/li[@class=&quot;ng-tns-c540-21 menu-level--1 open&quot;]/ul[@class=&quot;children ng-tns-c540-21 ng-trigger ng-trigger-closeState&quot;]/px-gdn-sideitem[@class=&quot;ng-tns-c540-31 ng-tns-c481-5 ng-star-inserted&quot;]/li[@class=&quot;ng-tns-c540-31 menu-level-0&quot;]/div[@class=&quot;item ng-tns-c540-31&quot;]/a[@class=&quot;mat-focus-indicator ng-tns-c540-31 mat-button mat-button-base cdk-focused cdk-mouse-focused&quot;]</value>
-      <webElementGuid>94538996-7e2b-41d4-a067-c18be3770047</webElementGuid>
+      <webElementGuid>5c3b6902-0ecd-487a-8b2f-85cb58ab2225</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -110,7 +114,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='arrow_drop_down'])[2]/following::a[1]</value>
-      <webElementGuid>04ca3a5d-96b0-4746-9802-1471d32f509e</webElementGuid>
+      <webElementGuid>19b89c34-a97c-4570-b966-96a956738936</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +122,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Operation'])[1]/following::a[1]</value>
-      <webElementGuid>72cde5d1-c809-4629-8991-ce33b10b5aa1</webElementGuid>
+      <webElementGuid>7a88731d-24aa-4760-897d-ddfdebef2561</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,7 +130,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Private Circle'])[1]/preceding::a[1]</value>
-      <webElementGuid>7c6f1a95-1b8f-4fbd-9844-72d80092f731</webElementGuid>
+      <webElementGuid>287e6236-c05e-4a2a-ace6-041b62e5685a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,7 +138,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '/main/operation/client/assign')]</value>
-      <webElementGuid>cd84bf97-2013-4a42-8c26-bb82682c712d</webElementGuid>
+      <webElementGuid>c614d1a1-b5c3-42ca-9946-29c4b7fcfbe2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -142,7 +146,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//px-gdn-sideitem[5]/li/ul/px-gdn-sideitem/li/div/a</value>
-      <webElementGuid>d7b06e03-7063-4900-9cf1-f493f1e929b3</webElementGuid>
+      <webElementGuid>0d8b0301-f812-481f-ad4b-546531a30978</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -150,6 +154,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '/main/operation/client/assign' and (text() = 'keyboard_arrow_rightClient Assignment ' or . = 'keyboard_arrow_rightClient Assignment ')]</value>
-      <webElementGuid>baa70922-776e-4500-bac4-a3f6a5d6fefb</webElementGuid>
+      <webElementGuid>687dc880-5238-47e8-8dc1-acf008db8efe</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

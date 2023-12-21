@@ -6,15 +6,19 @@
    <elementGuidId>4de22198-4520-42b2-a0a3-0f64b7552221</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//a[@routerlinkactive = 'active' and @href = '/main/operation/circle/associate' and (text() = 'keyboard_arrow_rightPrivate Circle ' or . = 'keyboard_arrow_rightPrivate Circle ')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Client Assignment'])[1]/following::a[1]</value>
+         <value>//div[text()='Private Circle ']</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>a.mat-focus-indicator.ng-tns-c540-22.mat-button.mat-button-base.cdk-focused.cdk-mouse-focused</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>f4950b3d-167a-47e1-a9ac-2e1c34a8b902</webElementGuid>
+      <webElementGuid>fd68da88-e95b-482c-8806-f3ec79133e20</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +34,7 @@
       <name>routerlinkactive</name>
       <type>Main</type>
       <value>active</value>
-      <webElementGuid>99e68926-62ae-4538-9d41-e206e751d818</webElementGuid>
+      <webElementGuid>548c2c69-d5e0-420c-bf16-d00a48001574</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +42,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-focus-indicator ng-tns-c540-22 mat-button mat-button-base cdk-focused cdk-mouse-focused</value>
-      <webElementGuid>b819e990-5322-404b-8665-93ec34bcf7f1</webElementGuid>
+      <webElementGuid>343227fe-c6c8-4a4d-b41e-9a66b7f0b064</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +50,7 @@
       <name>ng-reflect-router-link-active</name>
       <type>Main</type>
       <value>active</value>
-      <webElementGuid>24a5df09-3748-48a9-9156-281a83f5fc0e</webElementGuid>
+      <webElementGuid>50160357-8231-4a3d-be0f-6ce4b42b348a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +58,7 @@
       <name>ng-reflect-router-link</name>
       <type>Main</type>
       <value>operation/circle/associate</value>
-      <webElementGuid>9ccd34d2-1767-428b-a6dd-6a88ea3212bd</webElementGuid>
+      <webElementGuid>ac9a4cd2-cc42-4d74-a605-240cf3d08165</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +66,7 @@
       <name>ng-reflect-router-link-active-options</name>
       <type>Main</type>
       <value>[object Object]</value>
-      <webElementGuid>c7919c64-5053-4b19-acdc-660b72b588fc</webElementGuid>
+      <webElementGuid>fd226fbc-a732-455b-82f7-3190f2af9938</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +74,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>cd60c86b-5073-44b2-9049-45deb99b08ab</webElementGuid>
+      <webElementGuid>bc73ebd7-8b4d-417a-89ec-f3eede393aab</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,7 +82,7 @@
       <name>aria-disabled</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>1dfc6216-81cc-41a9-9c49-3bd1d187ea12</webElementGuid>
+      <webElementGuid>8dfe6ed7-0e8d-4ddb-9722-6b75209f10c0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -86,7 +90,7 @@
       <name>href</name>
       <type>Main</type>
       <value>/main/operation/circle/associate</value>
-      <webElementGuid>d2b89c2b-8958-409d-b38b-dc61bc3b4f1f</webElementGuid>
+      <webElementGuid>c6e13877-f5f6-4972-a4da-03fcd150e73b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -94,7 +98,7 @@
       <name>text</name>
       <type>Main</type>
       <value>keyboard_arrow_rightPrivate Circle </value>
-      <webElementGuid>ac08fd58-2bb2-4b06-8c41-a618fea1c26a</webElementGuid>
+      <webElementGuid>d18bd692-d83a-4136-ba90-844756025770</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -102,7 +106,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/app-root[1]/app-main-page[@class=&quot;ng-tns-c481-5 ng-trigger ng-trigger-routerAnimation ng-star-inserted&quot;]/mat-sidenav-container[@class=&quot;mat-drawer-container mat-sidenav-container ng-tns-c481-5 mat-drawer-transition mat-drawer-container-has-open&quot;]/mat-sidenav[@class=&quot;mat-drawer mat-sidenav left-sidenav ng-tns-c195-6 ng-trigger ng-trigger-transform mat-drawer-over ng-star-inserted mat-drawer-opened&quot;]/div[@class=&quot;mat-drawer-inner-container ng-tns-c195-6&quot;]/perfect-scrollbar[@class=&quot;perfect-scrollbar ng-tns-c481-5 ng-star-inserted&quot;]/div[@class=&quot;ps ps--active-y&quot;]/div[@class=&quot;ps-content&quot;]/px-gdn-sidemenu[1]/ul[1]/px-gdn-sideitem[@class=&quot;ng-tns-c540-21 ng-tns-c481-5 ng-star-inserted&quot;]/li[@class=&quot;ng-tns-c540-21 menu-level--1 open&quot;]/ul[@class=&quot;children ng-tns-c540-21 ng-trigger ng-trigger-closeState&quot;]/px-gdn-sideitem[@class=&quot;ng-tns-c540-22 ng-tns-c540-21 ng-star-inserted&quot;]/li[@class=&quot;ng-tns-c540-22 menu-level-0 close&quot;]/div[@class=&quot;item ng-tns-c540-22&quot;]/a[@class=&quot;mat-focus-indicator ng-tns-c540-22 mat-button mat-button-base cdk-focused cdk-mouse-focused&quot;]</value>
-      <webElementGuid>fa52db05-b6e3-4336-9285-1f6828f354ac</webElementGuid>
+      <webElementGuid>2586786a-d03c-4e58-bd61-e24a77ff4182</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -110,7 +114,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Client Assignment'])[1]/following::a[1]</value>
-      <webElementGuid>88029844-e137-480b-b64b-f7025cc455ec</webElementGuid>
+      <webElementGuid>dd139644-2ce4-4e32-a582-428145e56d13</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +122,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='arrow_drop_down'])[2]/following::a[2]</value>
-      <webElementGuid>6c4202ec-fa98-48f4-9ef8-aa15d2616ac1</webElementGuid>
+      <webElementGuid>a5855964-8b47-4dd2-8975-77c9484dff5e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,7 +130,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Settings'])[1]/preceding::a[1]</value>
-      <webElementGuid>084934c6-9ec4-4c10-93c4-6e92beb5d4cd</webElementGuid>
+      <webElementGuid>4a1675ed-5f74-4edf-af9c-bc1e5276b76b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,7 +138,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '/main/operation/circle/associate')]</value>
-      <webElementGuid>bd97315d-7aab-42ce-9964-1bd1feb0645c</webElementGuid>
+      <webElementGuid>7cd46fe8-989d-4cbb-bac3-45f0fccda17b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -142,7 +146,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//px-gdn-sideitem[5]/li/ul/px-gdn-sideitem[2]/li/div/a</value>
-      <webElementGuid>7f25696b-9d2e-41d9-90ec-f076a78e122e</webElementGuid>
+      <webElementGuid>87f68e09-2a80-4cf2-a983-4cf6b261ef07</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -150,6 +154,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '/main/operation/circle/associate' and (text() = 'keyboard_arrow_rightPrivate Circle ' or . = 'keyboard_arrow_rightPrivate Circle ')]</value>
-      <webElementGuid>5608c38c-1170-4176-8c6a-fb550ace2e76</webElementGuid>
+      <webElementGuid>9b3e36cd-f834-426d-8e59-586f231d4c49</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

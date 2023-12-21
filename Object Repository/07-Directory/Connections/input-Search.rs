@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Client Assignment Page 2</name>
+   <name>input-Search</name>
    <tag></tag>
-   <elementGuidId>ade30f46-1163-4a53-8c13-c0523fcb9614</elementGuidId>
+   <elementGuidId>d6216638-b908-4324-b620-df009cec4e59</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//div[@fxlayout='column'])[3]</value>
+         <value>//input[contains(@class,'mat-input-element mat-form-field-autofill-control')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

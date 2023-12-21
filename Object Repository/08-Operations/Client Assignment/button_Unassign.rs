@@ -6,15 +6,19 @@
    <elementGuidId>9d6f35ce-2194-4568-bcb8-5e7abdaad9e0</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>button.mat-focus-indicator.mat-raised-button.mat-button-base.mat-primary.cdk-focused.cdk-mouse-focused</value>
+         <key>BASIC</key>
+         <value>//button[@type = 'button' and (text() = ' Unassign arrow_forward' or . = ' Unassign arrow_forward')]</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//button[@type='button'])[11]</value>
+         <value>//button[@type = 'button' and @color = 'primary' and (text() = ' Unassign arrow_forward' or . = ' Unassign arrow_forward')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.mat-focus-indicator.mat-raised-button.mat-button-base.mat-primary.cdk-focused.cdk-mouse-focused</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>88848fd0-8e08-4a55-b406-e9445411957f</webElementGuid>
+      <webElementGuid>0379ac94-bb09-4961-aeec-dd77ae369118</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +34,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>9d4f8b40-404a-4a9f-bfd4-2e5c12c517b1</webElementGuid>
+      <webElementGuid>0ca8db8a-bfbf-4039-be13-adc494049c1e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +42,7 @@
       <name>color</name>
       <type>Main</type>
       <value>primary</value>
-      <webElementGuid>063ab21a-6c2c-4957-aa11-eff5c2f097aa</webElementGuid>
+      <webElementGuid>3b854818-0645-42a6-8828-64a997235e7a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +50,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-focus-indicator mat-raised-button mat-button-base mat-primary cdk-focused cdk-mouse-focused</value>
-      <webElementGuid>f98953b4-ba34-4075-8d0e-f840ed531ba4</webElementGuid>
+      <webElementGuid>75381c70-2cde-454c-a82e-89d5653dd828</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +58,7 @@
       <name>ng-reflect-color</name>
       <type>Main</type>
       <value>primary</value>
-      <webElementGuid>a7e78497-ea56-41fd-bc49-773c0d72c994</webElementGuid>
+      <webElementGuid>b5d7c7b6-d9da-4f28-90f1-eacc6cb74462</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +66,7 @@
       <name>ng-reflect-disabled</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>35739146-45b3-45d5-af75-8a86516c83fb</webElementGuid>
+      <webElementGuid>0fc8206f-d40e-4085-9575-27d155120fce</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -70,7 +74,7 @@
       <name>text</name>
       <type>Main</type>
       <value> Unassign arrow_forward</value>
-      <webElementGuid>66031af9-967f-4423-992a-822f63354673</webElementGuid>
+      <webElementGuid>325a1a3a-7c19-422a-9a5c-693307899734</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,7 +82,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-tab-content-2-0&quot;)/div[@class=&quot;mat-tab-body-content ng-tns-c361-105 ng-trigger ng-trigger-translateTab&quot;]/app-client-assign-by-employee[@class=&quot;tab-container ng-star-inserted&quot;]/div[@class=&quot;assign-controls&quot;]/button[@class=&quot;mat-focus-indicator mat-raised-button mat-button-base mat-primary cdk-focused cdk-mouse-focused&quot;]</value>
-      <webElementGuid>56f28960-dd6c-4ca8-9aab-19ecb1a1765a</webElementGuid>
+      <webElementGuid>729d2511-5df6-44c8-9c7e-172f05eebc20</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -86,7 +90,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[11]</value>
-      <webElementGuid>d962d4e3-324b-4eb1-b5b9-89f08640bcaf</webElementGuid>
+      <webElementGuid>a1dae98a-fa52-46bd-a906-46845953a574</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +98,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-tab-body[@id='mat-tab-content-2-0']/div/app-client-assign-by-employee/div[3]/button[2]</value>
-      <webElementGuid>6c2f0a76-399b-4200-a938-5b304d1a3620</webElementGuid>
+      <webElementGuid>44f75581-4c5e-46b7-ab05-4fdf0a52d19e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +106,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='GG Tester 3'])[1]/following::button[2]</value>
-      <webElementGuid>c9feb193-c488-4fa9-a0c2-4f1dc3b2f69d</webElementGuid>
+      <webElementGuid>284eeb7a-1c43-4a9f-be31-fd0802c1e1ac</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +114,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Clients'])[1]/preceding::button[1]</value>
-      <webElementGuid>cef442f2-4d08-4a51-8527-562d7f68280b</webElementGuid>
+      <webElementGuid>d8a15c1c-80ce-4d56-be52-a7c3ddf9f1ed</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +122,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/button[2]</value>
-      <webElementGuid>d568f840-b65e-4a8c-9c89-8e3531cea56d</webElementGuid>
+      <webElementGuid>b95d27b9-f371-46c1-abec-f0c5c664d02e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,6 +130,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = ' Unassign arrow_forward' or . = ' Unassign arrow_forward')]</value>
-      <webElementGuid>9cf6943c-e06c-4c56-92f1-28984403aace</webElementGuid>
+      <webElementGuid>c2ef9c3f-7650-4110-a52e-3dcae4d11515</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
