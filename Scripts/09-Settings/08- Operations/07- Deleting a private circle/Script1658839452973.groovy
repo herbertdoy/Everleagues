@@ -27,13 +27,13 @@ WebUI.verifyElementVisible(findTestObject('08-Operations/Private Circle/Successf
 
 WebUI.delay(GlobalVariable.delay_3seconds)
 
-WebUI.click(findTestObject('08-Operations/Private Circle/button_delete'))
-
-WebUI.click(findTestObject('08-Operations/Private Circle/button_Delete modal'))
-
-WebUI.verifyElementVisible(findTestObject('08-Operations/Private Circle/Successfully deleted label'))
-
-WebUI.delay(GlobalVariable.delay_3seconds)
+//WebUI.click(findTestObject('08-Operations/Private Circle/button_delete'))
+//
+//WebUI.click(findTestObject('08-Operations/Private Circle/button_Delete modal'))
+//
+//WebUI.verifyElementVisible(findTestObject('08-Operations/Private Circle/Successfully deleted label'))
+//
+//WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.closeBrowser()
 

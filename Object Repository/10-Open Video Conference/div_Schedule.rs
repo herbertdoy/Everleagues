@@ -10,12 +10,12 @@
          <value>//span[(text() = ' Schedule' or . = ' Schedule')]</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>#mat-radio-6 > label.mat-radio-label > div.mat-radio-label-content</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>//div[@class = 'mat-radio-label-content' and (text() = ' Schedule' or . = ' Schedule')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#mat-radio-6 > label.mat-radio-label > div.mat-radio-label-content</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -26,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>32e160e5-7b3f-4bc0-85ee-6feb20771572</webElementGuid>
+      <webElementGuid>68f05759-1c75-4950-8553-4438de95a74d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -34,7 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-radio-label-content</value>
-      <webElementGuid>0792657b-2d3c-4b67-a957-7c440297bf73</webElementGuid>
+      <webElementGuid>588e0e1f-5002-42c5-ab4c-03e8206b4ae7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -42,7 +42,7 @@
       <name>text</name>
       <type>Main</type>
       <value> Schedule</value>
-      <webElementGuid>2a9445fa-69fd-4226-9fd4-ce9c10dbc268</webElementGuid>
+      <webElementGuid>32c5e786-8242-4ff2-b106-fdcbd02a33fb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,7 +50,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-radio-6&quot;)/label[@class=&quot;mat-radio-label&quot;]/div[@class=&quot;mat-radio-label-content&quot;]</value>
-      <webElementGuid>68589e35-c2c0-4698-b5fa-6e73b16055f9</webElementGuid>
+      <webElementGuid>8f9275a1-0ffd-4b3f-b6f6-737a4844a83b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -58,7 +58,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-radio-button[@id='mat-radio-6']/label/div[2]</value>
-      <webElementGuid>070e7e57-f1e0-44bb-b60f-df508387911c</webElementGuid>
+      <webElementGuid>96883130-9ddc-4414-9586-6b305392fb5d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -66,7 +66,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Meeting Title'])[1]/following::div[28]</value>
-      <webElementGuid>b200fee3-f838-43b8-b9bd-4193c961070f</webElementGuid>
+      <webElementGuid>4309a2e5-2428-4716-92a9-bd6025cccefc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -74,7 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Current Contacts'])[1]/preceding::div[1]</value>
-      <webElementGuid>c092733b-6831-46b6-ade3-d5ca20f08b48</webElementGuid>
+      <webElementGuid>c2612ec2-7101-498d-b00b-992c0901ae53</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Select existing contacts'])[1]/preceding::div[4]</value>
-      <webElementGuid>aa34e32f-b743-4545-b16c-2cd8be0b308a</webElementGuid>
+      <webElementGuid>ad46ecaf-c62c-4fa8-9567-b8f50c50982b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -90,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Schedule']/parent::*</value>
-      <webElementGuid>a914ea23-ea1a-4ac0-a7fa-d2a5eff29148</webElementGuid>
+      <webElementGuid>cc8b39ce-0dda-45a0-82cb-6d3e8d6963a1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,7 +98,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//mat-radio-button[2]/label/div[2]</value>
-      <webElementGuid>68522a24-988f-43cc-9704-4f17027c518e</webElementGuid>
+      <webElementGuid>1373c5d2-e21d-49dc-a270-40cf37d60fb6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,6 +106,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = ' Schedule' or . = ' Schedule')]</value>
-      <webElementGuid>a87123e4-646a-4549-9304-f9b1fb124517</webElementGuid>
+      <webElementGuid>a111bab9-31fb-4c3a-a83a-0a5c2ef8fb78</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

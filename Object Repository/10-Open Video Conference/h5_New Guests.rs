@@ -7,14 +7,14 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//*/text()[normalize-space(.)='New Guests']/parent::*</value>
-      </entry>
-      <entry>
-         <key>CSS</key>
+         <value>//div[text()='New Guests']</value>
       </entry>
       <entry>
          <key>BASIC</key>
          <value>//h5[(text() = 'New Guests' or . = 'New Guests')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -25,7 +25,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>h5</value>
-      <webElementGuid>2bb53df8-304d-4267-a369-5493b0fc3fee</webElementGuid>
+      <webElementGuid>4a270e45-5e1b-4292-a7c6-8fab49cf6ab2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -33,7 +33,7 @@
       <name>class</name>
       <type>Main</type>
       <value>page-title page-title-override</value>
-      <webElementGuid>8ae7d125-dfe5-41c3-b151-f857415c1005</webElementGuid>
+      <webElementGuid>30174d50-6210-4c86-a330-c647475478a8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -41,7 +41,7 @@
       <name>text</name>
       <type>Main</type>
       <value>New Guests</value>
-      <webElementGuid>1554ffea-a956-47bd-bd24-30091a6c0eed</webElementGuid>
+      <webElementGuid>f3e37f8d-663c-4cde-8fe4-5d0266b06da9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,7 +49,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/app-root[1]/app-main-page[@class=&quot;ng-tns-c481-0 ng-trigger ng-trigger-routerAnimation ng-star-inserted&quot;]/mat-sidenav-container[@class=&quot;mat-drawer-container mat-sidenav-container ng-tns-c481-0&quot;]/mat-sidenav-content[@class=&quot;mat-drawer-content mat-sidenav-content&quot;]/div[@class=&quot;wrapper&quot;]/app-open-meet[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;open-meet-container&quot;]/div[@class=&quot;content ng-star-inserted&quot;]/header[1]/div[1]/div[1]/h5[@class=&quot;page-title page-title-override&quot;]</value>
-      <webElementGuid>ff7d5c78-b0f3-4774-957e-df5b2bcc1b58</webElementGuid>
+      <webElementGuid>bd0b6d3c-0ed3-4df8-b025-7a2376c3af50</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -57,7 +57,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Select existing contacts'])[1]/following::h5[1]</value>
-      <webElementGuid>b8758513-4d5b-4da0-9823-94116bb2ab25</webElementGuid>
+      <webElementGuid>e1576602-303a-4c0c-8919-d2ddf1661f3a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -65,7 +65,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Current Contacts'])[1]/following::h5[1]</value>
-      <webElementGuid>9c5747fe-dba6-4b00-a3fb-cea7d07322ec</webElementGuid>
+      <webElementGuid>2fc44a7e-4a4b-4ad4-b6de-0673d7c03296</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -73,7 +73,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Bringing your old and new contacts together!'])[1]/preceding::h5[1]</value>
-      <webElementGuid>1c619126-5f85-4c2d-9576-1693dee415fd</webElementGuid>
+      <webElementGuid>6dd78ea8-5c5e-4b5e-a43b-4e09b7534459</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -81,7 +81,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='New Guests']/parent::*</value>
-      <webElementGuid>194554af-ddc2-48cc-82ab-b1cb48188f81</webElementGuid>
+      <webElementGuid>2bb20381-54b9-4898-885b-798e3bfd93f7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -89,7 +89,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[4]/header/div/div/h5</value>
-      <webElementGuid>93864745-6a46-41ca-998f-5935ef68aab4</webElementGuid>
+      <webElementGuid>9f43ad8a-ba60-4db1-8493-f2d5fce43442</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -97,6 +97,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//h5[(text() = 'New Guests' or . = 'New Guests')]</value>
-      <webElementGuid>942af942-5043-4714-99b6-63935bfc9d1d</webElementGuid>
+      <webElementGuid>284986a7-b566-41a1-baa6-3793062bb8a5</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

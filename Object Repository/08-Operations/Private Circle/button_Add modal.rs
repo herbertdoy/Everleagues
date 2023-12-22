@@ -6,15 +6,19 @@
    <elementGuidId>2dd3abdc-3acb-488c-ae50-591ad9ebcfb5</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>//button[@color='primary']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//button[@type = 'button' and (text() = 'Add' or . = 'Add')]</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>button.mat-focus-indicator.mat-raised-button.mat-button-base.cdk-focused.cdk-mouse-focused</value>
       </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>(//button[@type='button'])[15]</value>
-      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>b831096c-7a53-4b44-9db4-6f51964b2c15</webElementGuid>
+      <webElementGuid>6f8c50bd-e81e-4adf-b5c4-e54e747ed0df</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +34,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>0bf8922e-213f-439b-a2bc-cf544cc2db76</webElementGuid>
+      <webElementGuid>78675d4d-d088-4ffe-9e17-0916018586f2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +42,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-focus-indicator mat-raised-button mat-button-base cdk-focused cdk-mouse-focused</value>
-      <webElementGuid>e961a873-c3ba-4bfe-84a8-372cad11abc3</webElementGuid>
+      <webElementGuid>74a1d815-806b-42a3-aab8-7e542921db34</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +50,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Add</value>
-      <webElementGuid>daeab3d4-415f-4af4-a6ec-bd75adf97a01</webElementGuid>
+      <webElementGuid>b4082dcf-8bb6-46b5-96be-e34539d65aa6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +58,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-dialog-11&quot;)/app-dialog-add-circle[@class=&quot;ng-star-inserted&quot;]/section[@class=&quot;dialog-container&quot;]/form[@class=&quot;ng-touched ng-dirty ng-valid&quot;]/div[@class=&quot;mat-dialog-actions dialog-action&quot;]/div[@class=&quot;action-container&quot;]/button[@class=&quot;mat-focus-indicator mat-raised-button mat-button-base cdk-focused cdk-mouse-focused&quot;]</value>
-      <webElementGuid>9766c336-a311-43bb-afe7-9ad1e585c7ec</webElementGuid>
+      <webElementGuid>09abe9b5-d08a-4676-974c-d976c6950142</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -62,7 +66,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[15]</value>
-      <webElementGuid>bf4dca60-4094-484e-a610-f1b2f7135112</webElementGuid>
+      <webElementGuid>7899d923-f30e-44fc-a2c0-d5b6f24def38</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +74,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-dialog-container[@id='mat-dialog-11']/app-dialog-add-circle/section/form/div[2]/div/button</value>
-      <webElementGuid>91d3ea5f-9a72-499f-87d3-83ea345acea9</webElementGuid>
+      <webElementGuid>bdcaf511-f0de-4839-b883-037f101af63e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Relationship'])[2]/following::button[1]</value>
-      <webElementGuid>a7ccfb47-e094-413c-bc77-a7675e3dc7d6</webElementGuid>
+      <webElementGuid>e1fc5b59-59d8-45dc-9b1a-0e39cb58ede4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Child'])[1]/following::button[1]</value>
-      <webElementGuid>d04e73d4-1cc4-4a09-a633-208b52b002f7</webElementGuid>
+      <webElementGuid>c1891d75-6329-4504-9213-459b9d23e9d8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/preceding::button[1]</value>
-      <webElementGuid>ee0104f0-4f4a-48c3-9f40-f07102732781</webElementGuid>
+      <webElementGuid>70f91eed-f28e-47cf-ae9d-3fc277b49661</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +106,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/button</value>
-      <webElementGuid>6b8a073e-2e84-4520-a120-efca1231eea3</webElementGuid>
+      <webElementGuid>3f4156f3-b440-4dfc-9d7e-584453255477</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,6 +114,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = 'Add' or . = 'Add')]</value>
-      <webElementGuid>ee7479f1-3ce3-40e1-9079-a829d781992c</webElementGuid>
+      <webElementGuid>e656ac3f-d9e5-435f-beaf-e3bd3f8da2d2</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

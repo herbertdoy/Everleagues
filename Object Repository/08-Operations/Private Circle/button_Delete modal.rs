@@ -6,15 +6,19 @@
    <elementGuidId>389416ba-fc65-4643-8021-a3d92a6f6b53</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>//button[@type = 'button' and @ng-reflect-color = 'warn' and (text() = 'Delete' or . = 'Delete')]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//button[@type = 'button' and (text() = 'Delete' or . = 'Delete')]</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>button.mat-focus-indicator.mat-raised-button.mat-button-base.cdk-focused.cdk-mouse-focused</value>
       </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>(//button[@type='button'])[17]</value>
-      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>71e2e9d2-2fbe-464c-a3ed-9878496232f6</webElementGuid>
+      <webElementGuid>4a2f01bd-dcd5-4924-b098-dcb2528e8e9a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +34,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>01f4b630-4dcb-491c-8f7a-5c9684b6c421</webElementGuid>
+      <webElementGuid>0fb03271-a332-45cc-adc8-2832a10e89bb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +42,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-focus-indicator mat-raised-button mat-button-base cdk-focused cdk-mouse-focused</value>
-      <webElementGuid>f1df9565-ac29-4a20-b297-08369148d355</webElementGuid>
+      <webElementGuid>df861e8b-7eb3-4841-b267-f5b1218ed7b9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +50,7 @@
       <name>ng-reflect-disabled</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>afe37fee-33a9-41ed-b4bc-92ea2e90f273</webElementGuid>
+      <webElementGuid>68d4dba6-2a00-4114-893a-d3401451561a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +58,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Delete</value>
-      <webElementGuid>70101e15-ba33-45bd-82e0-b531841ee099</webElementGuid>
+      <webElementGuid>cc17183a-cceb-4daf-89d7-0ef779f0df0b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +66,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-dialog-5&quot;)/app-dialog-delete-circle[@class=&quot;ng-star-inserted&quot;]/section[@class=&quot;dialog-container&quot;]/div[@class=&quot;mat-dialog-actions dialog-action&quot;]/div[@class=&quot;action-container&quot;]/button[@class=&quot;mat-focus-indicator mat-raised-button mat-button-base cdk-focused cdk-mouse-focused&quot;]</value>
-      <webElementGuid>9dd122f0-8430-46cd-98fe-ef489e45e036</webElementGuid>
+      <webElementGuid>732fba83-810b-406c-bbd7-17882e1ded11</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -70,7 +74,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[17]</value>
-      <webElementGuid>9af3fba6-89db-4811-b7d9-50c4ff60acad</webElementGuid>
+      <webElementGuid>2d0146ac-e053-40ac-a37e-9931396922cb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +82,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-dialog-container[@id='mat-dialog-5']/app-dialog-delete-circle/section/div[2]/div/button</value>
-      <webElementGuid>79623eda-af37-4965-802b-cea0f0a644a6</webElementGuid>
+      <webElementGuid>bbf71d72-b1dd-449c-a828-d1e98d47b696</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Are you sure you want to delete association with GG TESTER?'])[1]/following::button[1]</value>
-      <webElementGuid>87f4063a-6d45-4f70-a0e7-53792498e7c8</webElementGuid>
+      <webElementGuid>6583972a-0a42-4b3b-95f2-9a6ce4a4074c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Delete Circle Association'])[2]/following::button[1]</value>
-      <webElementGuid>ca9e2baa-4dc6-467e-ab45-6baa24dc7ce5</webElementGuid>
+      <webElementGuid>fbe47a80-5135-447f-a82a-74738cd89112</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +106,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/preceding::button[1]</value>
-      <webElementGuid>8e473968-b888-45cd-8cfa-91f08e0a1cd6</webElementGuid>
+      <webElementGuid>9741b8ae-4819-4d66-b751-c304b18a56e6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +114,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/button</value>
-      <webElementGuid>c328e880-2df5-49c8-a2e7-a8fa7ec19e79</webElementGuid>
+      <webElementGuid>c575e4f1-b719-44d4-98ec-eb34385081a0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,6 +122,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = 'Delete' or . = 'Delete')]</value>
-      <webElementGuid>c2592d29-94c1-49a7-b55e-57616dedd893</webElementGuid>
+      <webElementGuid>5f9b8e59-3b69-4667-947d-86b25482855c</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -6,19 +6,19 @@
    <elementGuidId>e46736d7-bb64-42ef-b621-bc9de654f2c7</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#mat-dialog-title-11</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
-         <value>//h4[@id='mat-dialog-title-11']</value>
+         <value>//h4[text()='Add New Circle Association']</value>
       </entry>
       <entry>
          <key>BASIC</key>
          <value>//h4[@class = 'mat-dialog-title' and (text() = 'Add New Circle Association' or . = 'Add New Circle Association')]</value>
       </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#mat-dialog-title-11</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -26,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>h4</value>
-      <webElementGuid>4526ca4f-f20e-4e55-80ed-8db05d05abb0</webElementGuid>
+      <webElementGuid>76351aca-1801-4c57-80d6-580d121bfe13</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -34,7 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-dialog-title</value>
-      <webElementGuid>313439f8-146a-46cc-833b-b9da920092d2</webElementGuid>
+      <webElementGuid>51ccb2d9-e0cb-4c70-a162-ea9a5e836422</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,7 +42,7 @@
       <name>id</name>
       <type>Main</type>
       <value>mat-dialog-title-11</value>
-      <webElementGuid>e78d764f-f6bf-4531-882b-db3137b28b78</webElementGuid>
+      <webElementGuid>ae9587b1-e728-4d30-8645-16cc88e60dd2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -50,7 +50,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Add New Circle Association</value>
-      <webElementGuid>7042b571-3866-415f-a5da-c92410a4d90e</webElementGuid>
+      <webElementGuid>98b397d5-72b0-403e-bb8f-1f140fcf6146</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -58,7 +58,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-dialog-title-11&quot;)</value>
-      <webElementGuid>4204a0fd-1b04-4fc7-83ec-1e7819a3c959</webElementGuid>
+      <webElementGuid>a470ea62-43f1-436a-bc4c-e69c36a04297</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -66,7 +66,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//h4[@id='mat-dialog-title-11']</value>
-      <webElementGuid>a0433556-7952-4642-a039-466beec3dd81</webElementGuid>
+      <webElementGuid>bd62f7f2-b641-4f4b-8588-d17963f57237</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -74,7 +74,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-dialog-container[@id='mat-dialog-11']/app-dialog-add-circle/section/form/h4</value>
-      <webElementGuid>9893c608-da11-4a7b-b4f7-4d2442799d35</webElementGuid>
+      <webElementGuid>07c9a71b-de5a-4a67-a0f4-3b0b61eb34cc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='of 0'])[1]/following::h4[1]</value>
-      <webElementGuid>50260955-acfc-49d8-859e-7c3fcbefc36b</webElementGuid>
+      <webElementGuid>1ad527f1-1271-4e96-a917-91b9d0141a58</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -90,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Row per page:'])[1]/following::h4[1]</value>
-      <webElementGuid>fef62d0e-d97f-4633-96cb-042393eb3d88</webElementGuid>
+      <webElementGuid>6a9ea9f6-8862-48cc-8514-5f997fcf2bd7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,7 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='User Name'])[1]/preceding::h4[1]</value>
-      <webElementGuid>7a302769-7357-459a-82d5-a2a2c61b3ed9</webElementGuid>
+      <webElementGuid>b3de9e22-fa4f-46ae-bdbb-09f155a008eb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,7 +106,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Select User'])[2]/preceding::h4[1]</value>
-      <webElementGuid>c4206764-c587-4041-b0b7-6c75d1b94dbc</webElementGuid>
+      <webElementGuid>e8cb4a8b-eba7-46ba-8818-315672e9bb8f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -114,7 +114,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Add New Circle Association']/parent::*</value>
-      <webElementGuid>ae56c4ed-fe51-4f53-a92c-ae7f39c407af</webElementGuid>
+      <webElementGuid>dd1e44e1-6431-4b5e-9527-58f8d7d1b549</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -122,7 +122,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//form/h4</value>
-      <webElementGuid>205b7b99-ee19-4291-b300-00da0a287c60</webElementGuid>
+      <webElementGuid>cd60292a-7a26-4db3-bbc2-2ca05e84a416</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -130,6 +130,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//h4[@id = 'mat-dialog-title-11' and (text() = 'Add New Circle Association' or . = 'Add New Circle Association')]</value>
-      <webElementGuid>3342549f-27a7-47f1-9ec2-2bfba97a310e</webElementGuid>
+      <webElementGuid>07bd3b78-7fa7-46d9-b20f-c5b17d9ada86</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

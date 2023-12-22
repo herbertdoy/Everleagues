@@ -1,20 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Employees column 2</name>
+   <name>div_GGtester2</name>
    <tag></tag>
-   <elementGuidId>60d51504-a58c-4fb9-8353-20b4a94244af</elementGuidId>
+   <elementGuidId>c6a85d5f-d2f8-4c0c-bc1e-bb6bb302ac20</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[(text() = ' Employees 
-            
-        GG TESTERGTGG tester 2' or . = ' Employees 
-            
-        GG TESTERGTGG tester 2')]</value>
+         <value>(//div[@class='mat-list-item-content'])[1]</value>
       </entry>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

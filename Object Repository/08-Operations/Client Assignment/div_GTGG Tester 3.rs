@@ -6,12 +6,12 @@
    <elementGuidId>c209d9a4-06e4-46c4-a4a2-72144e47028b</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//div[@class = 'mat-list-item-content' and (text() = 'GTGG Tester 3' or . = 'GTGG Tester 3')]</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//span[text()='GG Tester 3']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[@class = 'mat-list-item-content' and (text() = 'GTGG Tester 3' or . = 'GTGG Tester 3')]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -26,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>cf8f6ac5-4a34-483f-af7f-b7346c3ff8ed</webElementGuid>
+      <webElementGuid>d39e047e-2248-44f6-aceb-e507589c349d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -34,7 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-list-item-content</value>
-      <webElementGuid>c8fdc4a0-5622-4e72-aa4c-eb39fd0f9b80</webElementGuid>
+      <webElementGuid>15559b8a-0ab9-420e-a8d7-fc567c193ebf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -42,7 +42,7 @@
       <name>text</name>
       <type>Main</type>
       <value>GTGG Tester 3</value>
-      <webElementGuid>0e11fe2b-9371-4edb-847b-fca33e4e39ce</webElementGuid>
+      <webElementGuid>5568723d-d2b0-41e1-8396-aaa7c3818454</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,7 +50,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-tab-content-1-0&quot;)/div[@class=&quot;mat-tab-body-content ng-tns-c361-80 ng-trigger ng-trigger-translateTab&quot;]/app-client-assign-by-employee[@class=&quot;tab-container ng-star-inserted&quot;]/div[@class=&quot;white-container&quot;]/div[@class=&quot;white-container-body&quot;]/div[@class=&quot;assignment-container&quot;]/perfect-scrollbar[@class=&quot;perfect-scrollbar&quot;]/div[@class=&quot;ps&quot;]/div[@class=&quot;ps-content&quot;]/mat-selection-list[@class=&quot;mat-selection-list mat-list-base unassigned-user&quot;]/mat-list-option[@class=&quot;mat-list-item mat-list-option mat-focus-indicator mat-list-item-with-avatar mat-accent ng-star-inserted&quot;]/div[@class=&quot;mat-list-item-content&quot;]</value>
-      <webElementGuid>da0da1e5-e31e-4633-bc9a-0a405b76748c</webElementGuid>
+      <webElementGuid>d3b4d294-d436-4751-901c-0dac0551d651</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -58,7 +58,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-tab-body[@id='mat-tab-content-1-0']/div/app-client-assign-by-employee/div[4]/div[2]/div[2]/perfect-scrollbar/div/div/mat-selection-list/mat-list-option/div</value>
-      <webElementGuid>75b60b14-d955-477c-9fe8-8cd3a8462c98</webElementGuid>
+      <webElementGuid>9b88d7b0-5b98-4e81-91ed-2cd376a8675b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -66,7 +66,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Clients'])[1]/following::div[19]</value>
-      <webElementGuid>e794100d-27e3-4f61-becc-5d86773f52a6</webElementGuid>
+      <webElementGuid>25a51311-ccab-4b12-bda3-8b09bf1df860</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -74,7 +74,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//mat-list-option/div</value>
-      <webElementGuid>2c4995b1-f33b-4930-af57-6cf1b7babd9b</webElementGuid>
+      <webElementGuid>8b60945b-2d33-4671-b1b7-54ea72683a97</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,6 +82,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = 'GTGG Tester 3' or . = 'GTGG Tester 3')]</value>
-      <webElementGuid>98f9e659-273b-4c85-8148-74492956cb4b</webElementGuid>
+      <webElementGuid>7e635a32-dcc2-4f77-babd-475418732bcc</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
