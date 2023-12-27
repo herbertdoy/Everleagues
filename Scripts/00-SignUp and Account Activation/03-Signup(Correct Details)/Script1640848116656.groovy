@@ -21,7 +21,8 @@ import java.util.Random as Random
 
 WebUI.delay(GlobalVariable.delay_2seconds)
 
-def domainName = '@mailinator.com'
+//def domainName = '@mailinator.com'
+def domainName = '@yopmail.com'
 
 def random = new Random()
 
@@ -51,26 +52,36 @@ WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.switchToWindowIndex(currentWindow + 1)
 
-WebUI.navigateToUrl(GlobalVariable.app_mailinator)
+WebUI.navigateToUrl(GlobalVariable.URL_yopmail)
+
+//WebUI.navigateToUrl(GlobalVariable.app_mailinator)
+WebUI.delay(GlobalVariable.delay_3seconds)
+
+WebUI.setText(findTestObject('Yopmail/input_Enter your inbox here'), emailAddress)
 
 WebUI.delay(GlobalVariable.delay_3seconds)
 
-WebUI.setText(findTestObject('00-Signup and Activation/zMailinator/input_LOGIN_search'), emailAddress)
-
-WebUI.click(findTestObject('00-Signup and Activation/zMailinator/gobutton'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Yopmail/button_Next'))
 
 WebUI.delay(GlobalVariable.delay_3seconds)
 
-WebUI.click(findTestObject('00-Signup and Activation/zMailinator/Email - everleagues'))
+WebUI.click(findTestObject('Yopmail/span_Everleagues Team'))
 
 WebUI.delay(GlobalVariable.delay_3seconds)
 
-String code = WebUI.getText(findTestObject('Object Repository/06-Teams/For 2FA/2FA code'))
+//WebUI.setText(findTestObject('00-Signup and Activation/zMailinator/input_LOGIN_search'), emailAddress)
+//WebUI.click(findTestObject('00-Signup and Activation/zMailinator/gobutton'), FailureHandling.STOP_ON_FAILURE)
+//WebUI.delay(GlobalVariable.delay_3seconds)
+//WebUI.click(findTestObject('00-Signup and Activation/zMailinator/Email - everleagues'))
+//WebUI.delay(GlobalVariable.delay_3seconds)
+//String code = WebUI.getText(findTestObject('Object Repository/06-Teams/For 2FA/2FA code'))
+String code = WebUI.getText(findTestObject('Yopmail/2FA code-Yopmail'))
 
 WebUI.delay(GlobalVariable.delay_3seconds)
 
-WebUI.closeWindowTitle('Mailinator')
+WebUI.closeWindowTitle('Inbox')
 
+//WebUI.closeWindowTitle('Mailinator')
 WebUI.delay(GlobalVariable.delay_3seconds)
 
 WebUI.switchToWindowIndex(0)

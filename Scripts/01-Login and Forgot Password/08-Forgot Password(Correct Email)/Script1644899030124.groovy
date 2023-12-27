@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.delay(GlobalVariable.delay_2seconds)
 
-WebUI.setText(findTestObject('01-Login and Forgot Password/zForgot Password/Reset pass email field'), GlobalVariable.email_without_subscription)
+WebUI.setText(findTestObject('01-Login and Forgot Password/zForgot Password/Reset pass email field'), GlobalVariable.Y_email_withoutSubscription_testuser01)
 
 WebUI.delay(GlobalVariable.delay_2seconds)
 

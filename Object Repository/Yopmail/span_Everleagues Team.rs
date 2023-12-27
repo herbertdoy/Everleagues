@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Everleagues Team</name>
+   <tag></tag>
+   <elementGuidId>83989300-73fd-441e-9843-49181bf0550e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[@class = 'lmf' and (text() = 'Everleagues Team' or . = 'Everleagues Team') and @ref_element = 'Object Repository/Yopmail/iframe_Undo_ifinbox']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='e_ZwZkZwV3ZQHkAQR4ZQNjZGDkZmpmAD==']/button/div/span[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.lmf</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>26a3866c-f4be-489c-8fa7-7ae729b8da76</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>lmf</value>
+      <webElementGuid>e92eb70a-f8b1-4dd4-95b3-b86cb5103e67</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Everleagues Team</value>
+      <webElementGuid>06e49baa-34c6-4fe8-b839-8f5c6c15f00a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;e_ZwZkZwV3ZQHkAQR4ZQNjZGDkZmpmAD==&quot;)/button[@class=&quot;lm&quot;]/div[@class=&quot;lmfd&quot;]/span[@class=&quot;lmf&quot;]</value>
+      <webElementGuid>65d5cfd1-10e0-4c2a-9b2f-a6aaea81db76</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/Yopmail/iframe_Undo_ifinbox</value>
+      <webElementGuid>1a36ad2a-6d42-4ef1-a5dc-a64ac7d012d9</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='e_ZwZkZwV3ZQHkAQR4ZQNjZGDkZmpmAD==']/button/div/span[2]</value>
+      <webElementGuid>a0df1577-8687-472e-951a-d48086103735</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='today'])[1]/following::span[2]</value>
+      <webElementGuid>f61148a3-3a3e-49ed-bd8a-b057f0f9e9ef</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Please verify your email'])[1]/preceding::span[1]</value>
+      <webElementGuid>e3a7e03c-249a-424b-8866-3a4f0bdc9414</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Everleagues Team']/parent::*</value>
+      <webElementGuid>be110557-9f25-4b54-89c0-f644f08de8a8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span[2]</value>
+      <webElementGuid>57dfccf6-d4f5-4699-8beb-8d044a0084d5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Everleagues Team' or . = 'Everleagues Team')]</value>
+      <webElementGuid>27e9b5a1-d438-4c75-85f6-d2e1821dfbf2</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
