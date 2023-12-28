@@ -17,13 +17,11 @@ import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 import org.openqa.selenium.Keys as Keys
 
-WebUI.delay(GlobalVariable.delay_2seconds)
-
 WebUI.click(findTestObject('02-Side Icons(Organization)/Client Assignment/button_Client assignment'))
 
 WebUI.clickOffset(findTestObject('02-Side Icons(Organization)/Client Assignment/h4_CLIENT ASSIGNMENT'), 50, 50)
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.verifyElementVisible(findTestObject('02-Side Icons(Organization)/Client Assignment/h4_CLIENT ASSIGNMENT'))
 
@@ -31,5 +29,5 @@ WebUI.verifyElementVisible(findTestObject('02-Side Icons(Organization)/Client As
 
 WebUI.verifyElementVisible(findTestObject('02-Side Icons(Organization)/Client Assignment/div_By Client'))
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_3s)
 

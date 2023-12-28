@@ -30,30 +30,30 @@ WebUI.click(findTestObject('13-EL Sign/button_No'))
 
 WebUI.click(findTestObject('13-EL Sign/button_clear'))
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.click(findTestObject('13-EL Sign/button_Yes'))
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.dragAndDropToObject(findTestObject('13-EL Sign/button_createGG TESTERSign here'), findTestObject('13-EL Sign/documents'), 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_3s)
 
 //WebUI.dragAndDropByOffset(findTestObject('13-EL Sign/button_createGG TESTERSign here'), 5, 10)//
-//WebUI.delay(GlobalVariable.delay_3seconds)//
+//WebUI.delay(GlobalVariable.delay_3s)//
 //WebUI.dragAndDropByOffset(findTestObject('13-EL Sign/button_calendarGG TESTERDate signed'), 3, 30)//
 WebUI.dragAndDropToObject(findTestObject('13-EL Sign/button_calendarGG TESTERDate signed'), findTestObject('13-EL Sign/document_readytotakedocument'), 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_3s)
 
 //WebUI.dragAndDropByOffset(findTestObject('13-EL Sign/button_person_pinGG TESTERInitial here'), 3, 60)//
 WebUI.dragAndDropToObject(findTestObject('13-EL Sign/button_person_pinGG TESTERInitial here'), findTestObject('13-EL Sign/document_digitaldocumentsallinoneplace'), 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_3s)
 
 //WebUI.delay(3)
 //
@@ -75,7 +75,7 @@ WebUI.delay(GlobalVariable.delay_3seconds)
 //WebUI.dragAndDropByOffset(findTestObject('13-EL Sign/div_calendar-draggable'), 3, 60)
 WebUI.click(findTestObject('13-EL Sign/span_COMPLETE'))
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.verifyElementVisible(findTestObject('13-EL Sign/th_Send ELSign Invite'))
 
@@ -83,9 +83,9 @@ WebUI.scrollToElement(findTestObject('13-EL Sign/div_Dear ReceiverName'), 0)
 
 WebUI.scrollToElement(findTestObject('13-EL Sign/th_Send ELSign Invite'), 0)
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.click(findTestObject('13-EL Sign/button_sendSend Invite'))
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_3s)
 

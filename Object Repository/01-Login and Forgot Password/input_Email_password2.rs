@@ -6,12 +6,12 @@
    <elementGuidId>e181ac85-4373-42ef-889d-b72295d222d5</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#mat-input-2</value>
+         <key>XPATH</key>
+         <value>//input[@data-placeholder='Password']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='mat-input-2']</value>
+         <key>CSS</key>
+         <value>#mat-input-2</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,6 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
+      <webElementGuid>9fd50662-089d-4b46-91c6-98c8ee7b6f24</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -29,6 +30,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
+      <webElementGuid>0fc3dcbc-e571-4a6e-8019-afd34333a84c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -36,6 +38,7 @@
       <name>name</name>
       <type>Main</type>
       <value>password</value>
+      <webElementGuid>a0eb9ea2-37cd-4dc2-b84e-2d0d6016a547</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,6 +46,7 @@
       <name>maxlength</name>
       <type>Main</type>
       <value>50</value>
+      <webElementGuid>dff100d2-e8d7-4ee5-ae00-18db375a641e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,6 +54,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-input-element mat-form-field-autofill-control ng-tns-c482-0 cdk-text-field-autofill-monitored ng-untouched ng-pristine ng-valid ng-star-inserted</value>
+      <webElementGuid>f719648e-b081-4aa5-86a7-9056aaab7bca</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -57,6 +62,7 @@
       <name>id</name>
       <type>Main</type>
       <value>mat-input-2</value>
+      <webElementGuid>b23fd623-51b9-4e97-88e2-7e101b865900</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -64,6 +70,7 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>Password</value>
+      <webElementGuid>1914e1f1-a5bf-4c1d-8566-a2aada040737</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -71,6 +78,7 @@
       <name>aria-invalid</name>
       <type>Main</type>
       <value>false</value>
+      <webElementGuid>a663444f-ee5c-4b45-acb8-59cb2845a7e9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,6 +86,7 @@
       <name>aria-required</name>
       <type>Main</type>
       <value>false</value>
+      <webElementGuid>b22483d9-2a11-4856-a304-bc6a981e375f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -85,6 +94,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-input-2&quot;)</value>
+      <webElementGuid>580eeebf-fa49-43ad-b5bd-6d0f08a07de7</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -92,6 +102,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='mat-input-2']</value>
+      <webElementGuid>67635ae7-bd82-42a0-81d2-cf2d8ba2f37c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,5 +110,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/mat-form-field/div/div/div/input</value>
+      <webElementGuid>62b71003-0764-4d25-849b-036df7165f68</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

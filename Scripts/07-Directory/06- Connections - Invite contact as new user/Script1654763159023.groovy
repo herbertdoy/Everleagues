@@ -17,19 +17,18 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 
 //WebUI.click(findTestObject('07-Directory/Connections/div_added user'))
-
 WebUI.click(findTestObject('07-Directory/Connections/zContact Profile/button_invite'))
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.verifyElementVisible(findTestObject('07-Directory/Connections/zContact Profile/Invite new user modal'))
 
 WebUI.verifyElementNotClickable(findTestObject('07-Directory/Connections/zContact Profile/button_Send Invitation'))
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('07-Directory/Connections/zContact Profile/Role'))
 
@@ -37,7 +36,7 @@ WebUI.clickOffset(findTestObject('07-Directory/Connections/zContact Profile/h4_I
 
 WebUI.verifyElementVisible(findTestObject('07-Directory/Connections/zContact Profile/Select a role error'))
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('07-Directory/Connections/zContact Profile/Role'))
 
@@ -49,7 +48,7 @@ WebUI.verifyElementVisible(findTestObject('07-Directory/Connections/zContact Pro
 
 WebUI.click(findTestObject('07-Directory/Connections/zContact Profile/span_CoWorker'))
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('07-Directory/Connections/zContact Profile/button_Send Invitation'))
 

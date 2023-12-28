@@ -17,15 +17,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.delay(GlobalVariable.delay_2seconds)
-
 //WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/div_Contact Info'))
 //WebUI.delay(1)
 WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Contact Info/add address button'))
 
 WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/View Profile/Contact Info/h4_Edit Address'))
 
-WebUI.delay(GlobalVariable.delay_2seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Contact Info/input_street1'))
 
@@ -64,7 +62,7 @@ WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/View Prof
 WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/View Profile/Contact Info/invalid state'))
 
 //WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/View Profile/Contact Info/invalid country'))
-WebUI.delay(GlobalVariable.delay_2seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Contact Info/input_street1'))
 
@@ -74,7 +72,7 @@ WebUI.scrollToElement(findTestObject('03-Header Menu/User Profile/View Profile/C
 
 WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Contact Info/button_Cancel'))
 
-WebUI.delay(GlobalVariable.delay_2seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Contact Info/add address button'))
 
@@ -100,23 +98,22 @@ WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Contact Inf
 
 WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Contact Info/span_Work'))
 
-WebUI.delay(GlobalVariable.delay_2seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Contact Info/button_Save_address'))
 
-WebUI.delay(GlobalVariable.delay_2seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 
 //WebUI.scrollToElement(findTestObject('03-Header Menu/User Profile/View Profile/Contact Info/Address Added'), 0)
-
 WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/View Profile/Contact Info/Address Added'))
 
-WebUI.delay(GlobalVariable.delay_2seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Contact Info/button_Save'))
 
 WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/View Profile/Contact Info/Success Msg'))
 
-WebUI.delay(GlobalVariable.delay_2seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.mouseOver(findTestObject('03-Header Menu/User Profile/View Profile/Contact Info/Mouse over target'))
 
@@ -126,7 +123,7 @@ WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Contact Inf
 
 WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/View Profile/Contact Info/Success Msg'))
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/div_Security'))
 

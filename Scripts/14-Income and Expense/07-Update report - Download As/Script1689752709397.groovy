@@ -23,7 +23,7 @@ WebUI.click(findTestObject('14-Income and Expense/mat-option_PDF'))
 
 WebUI.click(findTestObject('14-Income and Expense/button_download1'))
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.click(findTestObject('14-Income and Expense/div_Download As'))
 
@@ -31,5 +31,5 @@ WebUI.click(findTestObject('14-Income and Expense/mat-option_EXCELCSV'))
 
 WebUI.click(findTestObject('14-Income and Expense/button_download1'))
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_3s)
 

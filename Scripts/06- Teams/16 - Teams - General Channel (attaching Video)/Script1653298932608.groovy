@@ -23,9 +23,9 @@ WebUI.verifyElementVisible(findTestObject('06-Teams/05- Teams-General Channel/ad
 
 WebUI.click(findTestObject('06-Teams/05- Teams-General Channel/button_send'))
 
-WebUI.delay(40)
+WebUI.delay(25)
 
 WebUI.verifyElementVisible(findTestObject('06-Teams/05- Teams-General Channel/posted video'))
 
-WebUI.delay(GlobalVariable.delay_10seconds)
+WebUI.delay(GlobalVariable.delay_5s)
 

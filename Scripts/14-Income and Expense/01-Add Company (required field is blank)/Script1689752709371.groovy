@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl(GlobalVariable.appURL)
+WebUI.navigateToUrl(GlobalVariable.URL_lab)
 
 WebUI.maximizeWindow()
 
@@ -61,11 +61,11 @@ WebUI.click(findTestObject('06-Teams/button_My Organizations'))
 
 WebUI.click(findTestObject('02-Side Icons(Organization)/Add Contact/button_Automation Test Org'))
 
-WebUI.delay(GlobalVariable.delay_4seconds)
+WebUI.delay(GlobalVariable.delay_4s)
 
 WebUI.verifyElementVisible(findTestObject('02-Side Icons(Organization)/Add Contact/span_Automation Test Org'))
 
-WebUI.delay(GlobalVariable.delay_5seconds)
+WebUI.delay(GlobalVariable.delay_5s)
 
 WebUI.scrollToElement(findTestObject('03-Header Menu/Hamburger Button/div_Income and Expense'), 0)
 
@@ -75,13 +75,13 @@ WebUI.verifyElementVisible(findTestObject('14-Income and Expense/div_IncomeAndEx
 
 WebUI.verifyElementVisible(findTestObject('14-Income and Expense/th_Income  Expense Tracker'))
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.click(findTestObject('14-Income and Expense/button_ADD COMPANY'))
 
 WebUI.click(findTestObject('14-Income and Expense/mat-icon_clear'))
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.click(findTestObject('14-Income and Expense/button_ADD COMPANY'))
 
@@ -105,5 +105,5 @@ WebUI.verifyElementVisible(findTestObject('14-Income and Expense/mat-error_Compa
 
 WebUI.verifyElementNotClickable(findTestObject('14-Income and Expense/button_BEGIN'))
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_3s)
 

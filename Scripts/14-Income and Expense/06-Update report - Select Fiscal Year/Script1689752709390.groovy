@@ -23,7 +23,7 @@ WebUI.verifyElementVisible(findTestObject('14-Income and Expense/h6-Automation C
 
 WebUI.click(findTestObject('14-Income and Expense/button_BACK'))
 
-WebUI.delay(GlobalVariable.delay_2seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('14-Income and Expense/button_insert_chart_outlinedUPDATE'))
 
@@ -31,5 +31,5 @@ WebUI.click(findTestObject('14-Income and Expense/div_Select Fiscal Year'))
 
 WebUI.click(findTestObject('14-Income and Expense/mat-option_92023'))
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_3s)
 

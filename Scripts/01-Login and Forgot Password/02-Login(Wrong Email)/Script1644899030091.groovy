@@ -21,13 +21,13 @@ WebUI.setText(findTestObject('01-Login and Forgot Password/input_Email_email'), 
 
 WebUI.setEncryptedText(findTestObject('01-Login and Forgot Password/input_Email_password'), 'pUQNV8a0dCQ=')
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('01-Login and Forgot Password/button_Sign in'))
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.verifyElementPresent(findTestObject('01-Login and Forgot Password/Invalid email error'), 0)
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 

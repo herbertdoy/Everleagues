@@ -19,11 +19,11 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.click(findTestObject('03-Header Menu/User Profile/Users Profile menu and notification button/div_User drop down menu button'))
 
-WebUI.delay(GlobalVariable.delay_2seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('03-Header Menu/User Profile/Change Password/button_Change password_userDropdown'))
 
-WebUI.delay(GlobalVariable.delay_1second)
+WebUI.delay(GlobalVariable.delay_1s)
 
 WebUI.setEncryptedText(findTestObject('03-Header Menu/User Profile/Change Password/input_Old password'), GlobalVariable.old_password)
 
@@ -39,5 +39,5 @@ WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/Change Pa
 
 //WebUI.click(findTestObject('09-Settings/Users/Active User/button_Cancel_restore'))
 
-WebUI.delay(GlobalVariable.delay_2seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 

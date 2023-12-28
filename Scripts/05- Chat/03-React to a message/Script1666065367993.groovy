@@ -104,7 +104,7 @@ WebUI.click(findTestObject('05-Chat/03-05 - React and Reply/mat-icon_mood'))
 
 WebUI.click(findTestObject('05-Chat/03-05 - React and Reply/button_react_like'))
 
-WebUI.delay(GlobalVariable.delay_2seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.mouseOver(findTestObject('05-Chat/03-05 - React and Reply/div_chat'))
 
@@ -112,7 +112,7 @@ WebUI.click(findTestObject('05-Chat/03-05 - React and Reply/mat-icon_mood'))
 
 WebUI.click(findTestObject('05-Chat/03-05 - React and Reply/button_react_heart'))
 
-WebUI.delay(GlobalVariable.delay_2seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('05-Chat/03-05 - React and Reply/div_react_heart'))
 
@@ -122,7 +122,7 @@ WebUI.click(findTestObject('05-Chat/03-05 - React and Reply/div_react_All'))
 
 WebUI.verifyElementVisible(findTestObject('05-Chat/03-05 - React and Reply/div_GG TESTER Click to remove'))
 
-WebUI.delay(GlobalVariable.delay_2seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('05-Chat/03-05 - React and Reply/div_react'))
 
@@ -131,5 +131,5 @@ WebUI.verifyElementVisible(findTestObject('05-Chat/03-05 - React and Reply/div_G
 WebUI.clickOffset(findTestObject('05-Chat/03-05 - React and Reply/div_react_heart'), 10, 0)
 
 //WebUI.refresh()
-WebUI.delay(GlobalVariable.delay_5seconds)
+WebUI.delay(GlobalVariable.delay_5s)
 

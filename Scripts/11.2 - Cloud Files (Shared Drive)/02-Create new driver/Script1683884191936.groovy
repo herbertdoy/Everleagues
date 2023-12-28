@@ -21,9 +21,9 @@ WebUI.setText(findTestObject('11-Cloud Files/input_driver_name'), GlobalVariable
 
 WebUI.click(findTestObject('11-Cloud Files/button_create_driver_name'))
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.click(findTestObject('11-Cloud Files/button_driver_created'))
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_3s)
 

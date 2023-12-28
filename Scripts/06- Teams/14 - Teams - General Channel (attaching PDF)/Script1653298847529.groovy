@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl(GlobalVariable.appURL)
+WebUI.navigateToUrl(GlobalVariable.URL_lab)
 
 WebUI.maximizeWindow()
 
@@ -57,23 +57,23 @@ WebUI.click(findTestObject('06-Teams/button_My Organizations'))
 
 WebUI.click(findTestObject('06-Teams/button_GG Automation'))
 
-WebUI.delay(GlobalVariable.delay_4seconds)
+WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.verifyElementVisible(findTestObject('06-Teams/span_GG Automation'))
 
-WebUI.delay(GlobalVariable.delay_2seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('03-Header Menu/Hamburger Button/div_Teams'))
 
-WebUI.delay(GlobalVariable.delay_2seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.verifyElementVisible(findTestObject('06-Teams/h4_TEAMS'))
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('06-Teams/05- Teams-General Channel/div_General'))
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.uploadFile(findTestObject('06-Teams/05- Teams-General Channel/button_attache_file'), GlobalVariable.upload_pdf_file)
 
@@ -85,5 +85,5 @@ WebUI.verifyElementVisible(findTestObject('06-Teams/05- Teams-General Channel/ad
 
 WebUI.verifyElementVisible(findTestObject('06-Teams/05- Teams-General Channel/posted pdf'))
 
-WebUI.delay(GlobalVariable.delay_5seconds)
+WebUI.delay(GlobalVariable.delay_4s)
 

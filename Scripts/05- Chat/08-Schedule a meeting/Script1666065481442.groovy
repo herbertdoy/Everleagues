@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.click(findTestObject('05-Chat/08-Schedule a meeting/button_schedule a meeting'))
 
-WebUI.delay(GlobalVariable.delay_2seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.verifyElementVisible(findTestObject('05-Chat/08-Schedule a meeting/Meeting title field'))
 
@@ -29,19 +29,19 @@ WebUI.verifyElementVisible(findTestObject('05-Chat/08-Schedule a meeting/div_End
 
 WebUI.verifyElementVisible(findTestObject('05-Chat/08-Schedule a meeting/div_Recurrence'))
 
-WebUI.delay(GlobalVariable.delay_2seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('05-Chat/08-Schedule a meeting/button_Start Date_calendar'))
 
 WebUI.verifyElementVisible(findTestObject('05-Chat/08-Schedule a meeting/calendar modal'))
 
-WebUI.delay(GlobalVariable.delay_2seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.doubleClick(findTestObject('05-Chat/08-Schedule a meeting/button_End Date_calendar'))
 
 WebUI.verifyElementVisible(findTestObject('05-Chat/08-Schedule a meeting/calendar modal'))
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.doubleClick(findTestObject('05-Chat/08-Schedule a meeting/div_recurrence_selectarror'))
 
@@ -57,20 +57,20 @@ WebUI.verifyElementVisible(findTestObject('05-Chat/08-Schedule a meeting/span_Ev
 
 WebUI.click(findTestObject('05-Chat/08-Schedule a meeting/span_Daily'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(GlobalVariable.delay_2seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 
 //WebUI.click(findTestObject('05-Chat/08-Schedule a meeting/button_done'))
 //WebUI.clickOffset(findTestObject('05-Chat/01- Creating a Chat group/div_Automation Chat'), 10, 10)
 //WebUI.delay(3)
 WebUI.setText(findTestObject('05-Chat/08-Schedule a meeting/input_meeting title'), GlobalVariable.meeting_title)
 
-WebUI.delay(GlobalVariable.delay_2seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('05-Chat/02-Sending chat messages/button_send'))
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.verifyElementVisible(findTestObject('05-Chat/08-Schedule a meeting/span_Automation Meeting'))
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_3s)
 

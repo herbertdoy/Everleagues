@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('07-Directory/Labels/button_create'))
 
@@ -25,7 +25,7 @@ WebUI.verifyElementVisible(findTestObject('07-Directory/Labels/Edit Label modal'
 
 WebUI.verifyElementNotClickable(findTestObject('07-Directory/Labels/button_Edit Label'))
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.setText(findTestObject('07-Directory/Labels/input_Add New Label Name'), 'Label QA Edit')
 

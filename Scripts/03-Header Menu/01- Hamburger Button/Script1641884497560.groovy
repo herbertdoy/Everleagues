@@ -18,65 +18,77 @@ import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl(GlobalVariable.app_url_login)
+WebUI.navigateToUrl(GlobalVariable.URL_login)
 
 WebUI.maximizeWindow()
 
 //WebUI.callTestCase(findTestCase('01-Login and Forgot Password/04-Login (Valid Credentials-Without Subscription)'), [:], 
 //    FailureHandling.STOP_ON_FAILURE)
-WebUI.setText(findTestObject('02-Side Icons(Organization)/Add Contact/Email Field'), GlobalVariable.email_with_subscription)
+WebUI.setText(findTestObject('02-Side Icons(Organization)/Add Contact/Email Field'), GlobalVariable.Y_email_withoutSubscription_testuser01)
 
 WebUI.setEncryptedText(findTestObject('02-Side Icons(Organization)/Add Contact/Password Field'), GlobalVariable.password)
 
 WebUI.click(findTestObject('02-Side Icons(Organization)/Add Contact/button_Sign in'))
 
-WebUI.delay(GlobalVariable.delay_2seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.executeJavaScript('window.open();', [])
 
 currentWindow = WebUI.getWindowIndex()
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.switchToWindowIndex(currentWindow + 1)
 
-WebUI.navigateToUrl(GlobalVariable.app_mailinator)
+//WebUI.navigateToUrl(GlobalVariable.URL_mailinator)
+WebUI.navigateToUrl(GlobalVariable.URL_yopmail)
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 
-WebUI.setText(findTestObject('00-Signup and Activation/zMailinator/input_LOGIN_search'), GlobalVariable.email_for_searchmailinator_testuser05)
+WebUI.setText(findTestObject('Yopmail/input_Enter your inbox here'), GlobalVariable.Y_email_withSubscription_testuser00005)
 
-WebUI.click(findTestObject('00-Signup and Activation/zMailinator/gobutton'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Yopmail/button_Next'))
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_3s)
 
-WebUI.click(findTestObject('00-Signup and Activation/zMailinator/Email - everleagues'))
+WebUI.click(findTestObject('Yopmail/span_Everleagues Team'))
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 
-String code = WebUI.getText(findTestObject('Object Repository/06-Teams/For 2FA/2FA code'))
+//WebUI.setText(findTestObject('00-Signup and Activation/zMailinator/input_LOGIN_search'), GlobalVariable.email_for_searchmailinator_testuser05)
+//WebUI.click(findTestObject('00-Signup and Activation/zMailinator/gobutton'), FailureHandling.STOP_ON_FAILURE)
+//WebUI.delay(GlobalVariable.delay_3s)
+//
+//WebUI.click(findTestObject('00-Signup and Activation/zMailinator/Email - everleagues'))
+//
+//WebUI.delay(GlobalVariable.delay_3s)
+//
+//String code = WebUI.getText(findTestObject('Object Repository/06-Teams/For 2FA/2FA code'))
+//
+String code = WebUI.getText(findTestObject('Yopmail/2FA code-Yopmail'))
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_3s)
 
-WebUI.closeWindowTitle(GlobalVariable.mailinator)
+WebUI.closeWindowTitle('Inbox')
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+//WebUI.closeWindowTitle(GlobalVariable.mailinator)
+WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.switchToWindowIndex(0)
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.setText(findTestObject('Object Repository/06-Teams/For 2FA/input_Enter verification code_code'), code)
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('06-Teams/For 2FA/button_Verify_2FA'))
 
-WebUI.delay(GlobalVariable.delay_5seconds)
+WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.click(findTestObject('03-Header Menu/Hamburger Button/button_menu'))
 
-WebUI.delay(GlobalVariable.delay_5seconds)
+WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.verifyElementNotVisible(findTestObject('03-Header Menu/Hamburger Button/div_Add My Organization'), FailureHandling.STOP_ON_FAILURE)
 
@@ -104,7 +116,7 @@ WebUI.verifyElementNotVisible(findTestObject('03-Header Menu/Hamburger Button/di
 
 WebUI.verifyElementNotVisible(findTestObject('03-Header Menu/Hamburger Button/div_Help'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(GlobalVariable.delay_5seconds)
+WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.click(findTestObject('03-Header Menu/Hamburger Button/button_menu'))
 
@@ -138,5 +150,5 @@ WebUI.verifyElementVisible(findTestObject('03-Header Menu/Hamburger Button/div_H
 
 WebUI.scrollToElement(findTestObject('03-Header Menu/Hamburger Button/div_Dashboard'), 0)
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 

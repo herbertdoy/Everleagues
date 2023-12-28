@@ -21,11 +21,11 @@ WebUI.click(findTestObject('15-EL HealthCheck/Inactive information tracker/butto
 
 WebUI.verifyElementVisible(findTestObject('15-EL HealthCheck/Activated information tracker/Covid-19 Information Tracker Activation Modal'))
 
-WebUI.delay(GlobalVariable.delay_2seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.mouseOver(findTestObject('15-EL HealthCheck/Activated information tracker/Help_icon'))
 
-WebUI.delay(GlobalVariable.delay_2seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.verifyElementVisible(findTestObject('15-EL HealthCheck/Activated information tracker/div_Help_icon_tooltip_text'))
 
@@ -44,7 +44,7 @@ WebUI.switchToWindowIndex(0)
 
 WebUI.click(findTestObject('15-EL HealthCheck/Activated information tracker/Eye_Icon'))
 
-WebUI.delay(GlobalVariable.delay_5seconds)
+WebUI.delay(GlobalVariable.delay_5s)
 
 WebUI.verifyElementVisible(findTestObject('15-EL HealthCheck/Activated information tracker/Eye_Info_Tracker_pdf_form'))
 

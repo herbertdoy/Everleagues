@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/div_Contact Info1'))
 
-WebUI.delay(GlobalVariable.delay_1second)
+WebUI.delay(GlobalVariable.delay_1s)
 
 WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/View Profile/Contact Info/div_Position'))
 
@@ -29,7 +29,7 @@ WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/View Prof
 
 WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/View Profile/Contact Info/div_Address'))
 
-WebUI.delay(GlobalVariable.delay_1second)
+WebUI.delay(GlobalVariable.delay_1s)
 
 WebUI.setText(findTestObject('03-Header Menu/User Profile/View Profile/Contact Info/Positon Field'), 'Auto')
 
@@ -41,7 +41,7 @@ WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/View Prof
 
 WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/View Profile/Contact Info/span_Other'))
 
-WebUI.delay(GlobalVariable.delay_1second)
+WebUI.delay(GlobalVariable.delay_1s)
 
 WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Contact Info/div_Email'))
 
@@ -51,14 +51,14 @@ WebUI.setText(findTestObject('03-Header Menu/User Profile/View Profile/Contact I
 
 WebUI.sendKeys(findTestObject('03-Header Menu/User Profile/View Profile/Contact Info/email field'), Keys.chord(Keys.ENTER))
 
-WebUI.delay(GlobalVariable.delay_2seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 
 //WebUI.scrollToElement(findTestObject('03-Header Menu/User Profile/View Profile/Contact Info/button_Save'), 5)
 WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Contact Info/button_Save'))
 
 WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/View Profile/Contact Info/Success Msg'))
 
-WebUI.delay(GlobalVariable.delay_2seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.mouseOver(findTestObject('03-Header Menu/User Profile/View Profile/Contact Info/email field'))
 
@@ -66,15 +66,15 @@ WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Contact Inf
 
 WebUI.sendKeys(findTestObject('03-Header Menu/User Profile/View Profile/Contact Info/Positon Field'), Keys.chord(Keys.ENTER))
 
-WebUI.delay(GlobalVariable.delay_2seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Contact Info/button_Save'))
 
 WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/View Profile/Contact Info/Success Msg'))
 
-WebUI.delay(GlobalVariable.delay_2seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.scrollToElement(findTestObject('03-Header Menu/User Profile/View Profile/div_Contact Info1'), 5)
 
-WebUI.delay(GlobalVariable.delay_2seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 

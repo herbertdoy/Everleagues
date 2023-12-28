@@ -23,11 +23,11 @@ WebUI.verifyElementVisible(findTestObject('14-Income and Expense/mat-dialog-cont
 
 WebUI.click(findTestObject('14-Income and Expense/button_CANCEL'))
 
-WebUI.delay(GlobalVariable.delay_2seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('14-Income and Expense/button_settings'))
 
-WebUI.delay(GlobalVariable.delay_2seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.verifyElementVisible(findTestObject('14-Income and Expense/mat-dialog-container_Edit CompanyModal'))
 
@@ -43,9 +43,9 @@ WebUI.click(findTestObject('14-Income and Expense/dropdown_ChoosingDate'))
 
 WebUI.click(findTestObject('14-Income and Expense/mat-option_End of December'))
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.click(findTestObject('14-Income and Expense/button_UPDATE3'))
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_3s)
 

@@ -17,17 +17,23 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.click(findTestObject('08-Operations/Private Circle/button_add'))
 
-WebUI.click(findTestObject('08-Operations/Private_Circle'))
+WebUI.verifyElementVisible(findTestObject('08-Operations/Private Circle/Add New Circle modal'))
 
-WebUI.verifyElementVisible(findTestObject('08-Operations/Private Circle/Private Circle page'))
+WebUI.verifyElementNotClickable(findTestObject('08-Operations/Private Circle/button_Add modal'))
 
-WebUI.click(findTestObject('08-Operations/Private Circle/Input_Select user'))
+WebUI.click(findTestObject('08-Operations/Private Circle/Select User dropdown'))
 
-WebUI.click(findTestObject('08-Operations/Private Circle/span_GG Tester 3'))
+WebUI.clickOffset(findTestObject('08-Operations/Private Circle/h4_Add New Circle Association'), 100, 100)
 
-WebUI.verifyElementVisible(findTestObject('08-Operations/Private Circle/div_Showing GG Tester 3s private circle'))
+WebUI.click(findTestObject('08-Operations/Private Circle/Relationship dropdown'))
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.clickOffset(findTestObject('08-Operations/Private Circle/h4_Add New Circle Association'), 100, 100)
+
+WebUI.verifyElementVisible(findTestObject('08-Operations/Private Circle/Select User Field is required'))
+
+WebUI.verifyElementVisible(findTestObject('08-Operations/Private Circle/Relationship is required'))
+
+WebUI.delay(GlobalVariable.delay_3s)
 

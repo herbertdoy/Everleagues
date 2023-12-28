@@ -21,9 +21,9 @@ WebUI.click(findTestObject('01-Login and Forgot Password/zForgot Password/a_Forg
 
 WebUI.verifyElementPresent(findTestObject('01-Login and Forgot Password/zForgot Password/span_Reset Password'), 0)
 
-WebUI.delay(GlobalVariable.delay_2seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.verifyElementNotClickable(findTestObject('01-Login and Forgot Password/zForgot Password/button_Reset Password'))
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_3s)
 

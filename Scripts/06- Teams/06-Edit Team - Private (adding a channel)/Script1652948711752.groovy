@@ -21,7 +21,7 @@ WebUI.click(findTestObject('06-Teams/03-Edit Team - Private/div_Channels'))
 
 WebUI.click(findTestObject('06-Teams/03-Edit Team - Private/div_Showing channels in team_Add Channel'))
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('06-Teams/03-Edit Team - Private/div_Add Channel'))
 
@@ -29,7 +29,7 @@ WebUI.verifyElementVisible(findTestObject('06-Teams/03-Edit Team - Private/add c
 
 WebUI.verifyElementNotClickable(findTestObject('06-Teams/03-Edit Team - Private/button_Add'))
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('06-Teams/03-Edit Team - Private/input_channel name'))
 
@@ -37,7 +37,7 @@ WebUI.click(findTestObject('06-Teams/03-Edit Team - Private/h4_Add Channel'))
 
 WebUI.verifyElementVisible(findTestObject('06-Teams/03-Edit Team - Private/div_Channel Name Field is required'))
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.setText(findTestObject('06-Teams/03-Edit Team - Private/input_channel name'), 'Auto Channel')
 
@@ -45,5 +45,5 @@ WebUI.click(findTestObject('06-Teams/03-Edit Team - Private/button_Add'))
 
 WebUI.verifyElementVisible(findTestObject('06-Teams/03-Edit Team - Private/Successfully added channel to team'))
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 

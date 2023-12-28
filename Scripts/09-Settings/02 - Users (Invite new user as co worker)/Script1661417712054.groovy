@@ -59,7 +59,7 @@ import org.openqa.selenium.Keys as Keys
 //WebUI.click(findTestObject('09-Settings/Users/button_add'))
 //WebUI.delay(3)
 //WebUI.click(findTestObject('09-Settings/Users/add Invite a single user'))
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.setText(findTestObject('09-Settings/Users/input_email'), GlobalVariable.email_for_auto4)
 
@@ -73,29 +73,29 @@ WebUI.click(findTestObject('09-Settings/Users/span_CoWorker'))
 
 WebUI.click(findTestObject('09-Settings/Users/button_Send Invitation'))
 
-WebUI.delay(GlobalVariable.delay_2seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.verifyElementVisible(findTestObject('07-Directory/Connections/zContact Profile/Successfully invited user'))
 
-WebUI.delay(GlobalVariable.delay_2seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.executeJavaScript('window.open();', [])
 
 currentWindow = WebUI.getWindowIndex()
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.switchToWindowIndex(currentWindow + 1)
 
 WebUI.navigateToUrl('https://www.mailinator.com/')
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.setText(findTestObject('00-Signup and Activation/zMailinator/input_LOGIN_search'), GlobalVariable.email_for_auto4)
 
 WebUI.click(findTestObject('00-Signup and Activation/zMailinator/gobutton'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.closeWindowTitle('Everleagues')
 
@@ -113,7 +113,7 @@ WebUI.verifyElementVisible(findTestObject('09-Settings/Users/Co worker/Logout be
 
 WebUI.click(findTestObject('09-Settings/Users/Co worker/button_Yes'))
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.setText(findTestObject('09-Settings/Users/input_email'), GlobalVariable.email_for_auto4)
 
@@ -121,7 +121,7 @@ WebUI.setEncryptedText(findTestObject('09-Settings/Users/Co worker/input_passwor
 
 WebUI.click(findTestObject('02-Side Icons(Organization)/Add Contact/button_Sign in'))
 
-WebUI.delay(GlobalVariable.delay_2seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('06-Teams/For 2FA/button_Confirm_2FA'))
 
@@ -129,61 +129,61 @@ WebUI.executeJavaScript('window.open();', [])
 
 currentWindow = WebUI.getWindowIndex()
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.switchToWindowIndex(currentWindow + 1)
 
-WebUI.navigateToUrl(GlobalVariable.app_mailinator)
+WebUI.navigateToUrl(GlobalVariable.URL_mailinator)
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.setText(findTestObject('00-Signup and Activation/zMailinator/input_LOGIN_search'), GlobalVariable.email_for_auto4)
 
 WebUI.click(findTestObject('00-Signup and Activation/zMailinator/gobutton'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.click(findTestObject('00-Signup and Activation/zMailinator/Email - everleagues'))
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_3s)
 
 String codetwo = WebUI.getText(findTestObject('Object Repository/06-Teams/For 2FA/2FA code'))
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.closeWindowTitle('Mailinator')
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.switchToWindowIndex(0)
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.setText(findTestObject('Object Repository/06-Teams/For 2FA/input_Enter verification code_code'), codetwo)
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.click(findTestObject('06-Teams/For 2FA/button_Verify_2FA'))
 
-WebUI.delay(GlobalVariable.delay_5seconds)
+WebUI.delay(GlobalVariable.delay_5s)
 
 WebUI.executeJavaScript('window.open();', [])
 
 currentWindow = WebUI.getWindowIndex()
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.switchToWindowIndex(currentWindow + 1)
 
-WebUI.navigateToUrl(GlobalVariable.app_mailinator)
+WebUI.navigateToUrl(GlobalVariable.URL_mailinator)
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.setText(findTestObject('00-Signup and Activation/zMailinator/input_LOGIN_search'), GlobalVariable.email_for_auto4)
 
 WebUI.click(findTestObject('00-Signup and Activation/zMailinator/gobutton'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.closeWindowTitle('Everleagues')
 
@@ -193,7 +193,7 @@ WebUI.click(findTestObject('09-Settings/Users/Co worker/td_Invitation from GG Au
 
 WebUI.click(findTestObject('09-Settings/Users/Co worker/a_Click here to join GG Automation on EverLeagues'))
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.closeWindowTitle('Mailinator')
 
@@ -203,7 +203,7 @@ WebUI.verifyElementVisible(findTestObject('09-Settings/Users/Co worker/Invite mo
 
 WebUI.click(findTestObject('09-Settings/Users/Co worker/button_Accept'))
 
-WebUI.delay(GlobalVariable.delay_5seconds)
+WebUI.delay(GlobalVariable.delay_5s)
 
 WebUI.verifyElementVisible(findTestObject('09-Settings/Users/Co worker/div_Joined as CoWorker'))
 

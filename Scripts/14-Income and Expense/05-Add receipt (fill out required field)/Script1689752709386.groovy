@@ -34,9 +34,9 @@ WebUI.setText(findTestObject('14-Income and Expense/input_AddANote'), 'Receipt N
 CustomKeywords.'uploadpackage.Upload.uploadFile'(findTestObject('Object Repository/14-Income and Expense/div_Required_uploadfilecontainer'), 
     GlobalVariable.upload_pdf_file)
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.click(findTestObject('14-Income and Expense/button_Done'))
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_3s)
 

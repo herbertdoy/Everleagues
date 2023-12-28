@@ -21,7 +21,7 @@ import java.awt.datatransfer.DataFlavor as DataFlavor
 
 WebUI.click(findTestObject('11-Cloud Files/mat-icon_close'))
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.rightClick(findTestObject('11-Cloud Files/td_Automation folder EDIT'))
 
@@ -33,7 +33,7 @@ WebUI.click(findTestObject('11-Cloud Files/div_dropdown'))
 
 WebUI.click(findTestObject('11-Cloud Files/mat-option_manager'))
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.verifyElementVisible(findTestObject('11-Cloud Files/div_GTGG tester2'))
 
@@ -41,7 +41,7 @@ WebUI.click(findTestObject('11-Cloud Files/div_dropdown2'))
 
 WebUI.click(findTestObject('11-Cloud Files/mat-option-checkmark_contributor'))
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.verifyElementVisible(findTestObject('11-Cloud Files/div_GTGG tester'))
 
@@ -54,7 +54,7 @@ WebUI.click(findTestObject('11-Cloud Files/button_sharefiles_SHARE'))
 WebUI.click(findTestObject('11-Cloud Files/mat-icon_close'))
 
 //WebUI.verifyElementVisible(findTestObject('11-Cloud Files/snack-bar-container_Shared folder access updated successfully.OK'))
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.rightClick(findTestObject('11-Cloud Files/td_Automation folder EDIT'))
 
@@ -62,13 +62,13 @@ WebUI.click(findTestObject('11-Cloud Files/button_Share'))
 
 WebUI.click(findTestObject('11-Cloud Files/button_Copy Share Link'))
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_3s)
 
 String my_clipboard = Toolkit.getDefaultToolkit().getSystemClipboard().getContents(null).getTransferData(DataFlavor.stringFlavor)
 
 WebUI.navigateToUrl(my_clipboard)
 
-WebUI.delay(GlobalVariable.delay_4seconds)
+WebUI.delay(GlobalVariable.delay_4s)
 
 WebUI.click(findTestObject('03-Header Menu/Hamburger Button/div_Cloud Files'))
 
@@ -78,5 +78,5 @@ WebUI.click(findTestObject('11-Cloud Files/a_My Drive'))
 
 WebUI.click(findTestObject('11-Cloud Files/h4_MY FILES'))
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_3s)
 

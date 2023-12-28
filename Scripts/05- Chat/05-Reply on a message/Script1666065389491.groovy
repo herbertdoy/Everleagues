@@ -104,13 +104,13 @@ WebUI.click(findTestObject('05-Chat/03-05 - React and Reply/button_expand_less')
 
 WebUI.click(findTestObject('05-Chat/03-05 - React and Reply/button_Reply'))
 
-WebUI.delay(GlobalVariable.delay_2seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.verifyElementVisible(findTestObject('05-Chat/03-05 - React and Reply/div_reply'))
 
 WebUI.click(findTestObject('05-Chat/03-05 - React and Reply/mat-icon_cancel'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(GlobalVariable.delay_2seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.mouseOver(findTestObject('05-Chat/03-05 - React and Reply/div_chat'))
 
@@ -118,7 +118,7 @@ WebUI.click(findTestObject('05-Chat/03-05 - React and Reply/button_expand_less')
 
 WebUI.click(findTestObject('05-Chat/03-05 - React and Reply/button_Reply'))
 
-WebUI.delay(GlobalVariable.delay_2seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.verifyElementVisible(findTestObject('05-Chat/03-05 - React and Reply/div_reply'))
 
@@ -128,5 +128,5 @@ WebUI.click(findTestObject('05-Chat/02-Sending chat messages/button_send'))
 
 WebUI.verifyElementVisible(findTestObject('05-Chat/03-05 - React and Reply/div_reply_chat'))
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_3s)
 

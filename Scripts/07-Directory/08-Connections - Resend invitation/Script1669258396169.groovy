@@ -21,21 +21,21 @@ WebUI.click(findTestObject('07-Directory/Connections/button_resendInvitation'))
 
 WebUI.verifyElementVisible(findTestObject('07-Directory/Connections/mat-dialog-container_resendInivationConfirmationModal'))
 
-WebUI.delay(GlobalVariable.delay_2seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('07-Directory/Connections/button_Cancel'))
 
-WebUI.delay(GlobalVariable.delay_2seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('07-Directory/Connections/button_resendInvitation'))
 
 WebUI.verifyElementVisible(findTestObject('07-Directory/Connections/mat-dialog-container_resendInivationConfirmationModal'))
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('07-Directory/Connections/button_Confirm'))
 
 WebUI.verifyElementVisible(findTestObject('07-Directory/Connections/simple-snack-bar_Successfully resent emailOK'))
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_3s)
 

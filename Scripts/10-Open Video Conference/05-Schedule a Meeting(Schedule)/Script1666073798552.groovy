@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.verifyElementVisible(findTestObject('10-Open Video Conference/h5_Meeting Title'))
 
@@ -25,27 +25,27 @@ WebUI.click(findTestObject('10-Open Video Conference/div_Schedule'))
 
 WebUI.setText(findTestObject('10-Open Video Conference/input_Meeting Title'), GlobalVariable.meeting_title)
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.click(findTestObject('10-Open Video Conference/button_Start Date'))
 
 WebUI.verifyElementVisible(findTestObject('05-Chat/08-Schedule a meeting/calendar modal'))
 
 //WebUI.clickOffset(findTestObject('10-Open Video Conference/div_Schedule'), 10, 10)
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.doubleClick(findTestObject('10-Open Video Conference/button_End Date'))
 
 WebUI.verifyElementVisible(findTestObject('05-Chat/08-Schedule a meeting/calendar modal'))
 
 //WebUI.clickOffset(findTestObject('10-Open Video Conference/div_Schedule'), 10, 10)
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.doubleClick(findTestObject('10-Open Video Conference/div_recurrence_dropdown'))
 
 WebUI.click(findTestObject('10-Open Video Conference/span_Does not repeat'))
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.scrollToElement(findTestObject('10-Open Video Conference/h5_New Guests'), 0)
 
@@ -57,7 +57,7 @@ WebUI.click(findTestObject('10-Open Video Conference/span_GG tester 2'))
 
 WebUI.clickOffset(findTestObject('10-Open Video Conference/h5_Current Contacts'), 10, 10)
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.verifyElementVisible(findTestObject('10-Open Video Conference/h5_New Guests'))
 
@@ -67,21 +67,21 @@ WebUI.setText(findTestObject('10-Open Video Conference/input_Lastname'), 'Tester
 
 WebUI.setText(findTestObject('10-Open Video Conference/input_emailPhonenumber'), '+1234567890')
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.scrollToElement(findTestObject('10-Open Video Conference/h5_Meeting Title'), 0)
 
 WebUI.click(findTestObject('10-Open Video Conference/button_Create meeting'))
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.verifyElementVisible(findTestObject('10-Open Video Conference/div_link_meetingroom'))
 
-WebUI.delay(GlobalVariable.delay_2seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('10-Open Video Conference/button_Create another meeting'))
 
-WebUI.delay(GlobalVariable.delay_4seconds)
+WebUI.delay(GlobalVariable.delay_4s)
 
 WebUI.closeBrowser()
 

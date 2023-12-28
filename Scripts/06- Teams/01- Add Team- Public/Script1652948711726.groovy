@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl(GlobalVariable.appURL)
+WebUI.navigateToUrl(GlobalVariable.URL_lab)
 
 WebUI.maximizeWindow()
 
@@ -57,29 +57,29 @@ WebUI.click(findTestObject('06-Teams/button_My Organizations'))
 
 WebUI.click(findTestObject('06-Teams/button_GG Automation'))
 
-WebUI.delay(GlobalVariable.delay_4seconds)
+WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.verifyElementVisible(findTestObject('06-Teams/span_GG Automation'))
 
-WebUI.delay(GlobalVariable.delay_2seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('03-Header Menu/Hamburger Button/div_Teams'))
 
-WebUI.delay(GlobalVariable.delay_2seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.verifyElementVisible(findTestObject('06-Teams/h4_TEAMS'))
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('06-Teams/Add Team'))
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.verifyElementVisible(findTestObject('06-Teams/button_Public'))
 
 WebUI.verifyElementVisible(findTestObject('06-Teams/button_Private'))
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('06-Teams/button_Public'))
 
@@ -89,17 +89,17 @@ WebUI.scrollToElement(findTestObject('06-Teams/01-Add Team-Public/button_Create'
 
 WebUI.verifyElementNotClickable(findTestObject('06-Teams/01-Add Team-Public/button_Create'))
 
-WebUI.delay(GlobalVariable.delay_2seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('06-Teams/01-Add Team-Public/input_teamName'))
 
-WebUI.delay(GlobalVariable.delay_2seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.doubleClick(findTestObject('06-Teams/01-Add Team-Public/Org unit'))
 
 WebUI.verifyElementVisible(findTestObject('06-Teams/01-Add Team-Public/h4_Select an organization unit'))
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.click(findTestObject('06-Teams/01-Add Team-Public/div_GG Automation'))
 
@@ -107,7 +107,7 @@ WebUI.click(findTestObject('06-Teams/01-Add Team-Public/button_Select'))
 
 WebUI.verifyElementVisible(findTestObject('06-Teams/01-Add Team-Public/Error Team name'))
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.setText(findTestObject('06-Teams/01-Add Team-Public/input_teamName'), GlobalVariable.team_name_public)
 
@@ -117,9 +117,9 @@ WebUI.click(findTestObject('06-Teams/01-Add Team-Public/button_Create'))
 
 WebUI.verifyElementVisible(findTestObject('06-Teams/01-Add Team-Public/span_Successfully added new team'))
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.verifyElementVisible(findTestObject('06-Teams/01-Add Team-Public/span_Auto Team Public'))
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 

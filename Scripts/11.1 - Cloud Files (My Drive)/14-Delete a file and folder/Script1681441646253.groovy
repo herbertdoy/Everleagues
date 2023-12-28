@@ -25,7 +25,7 @@ WebUI.verifyElementVisible(findTestObject('11-Cloud Files/mat-dialog-container_D
 
 WebUI.click(findTestObject('11-Cloud Files/button_Confirm'))
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.rightClick(findTestObject('11-Cloud Files/td_qa EditPeople'))
 
@@ -35,7 +35,7 @@ WebUI.verifyElementVisible(findTestObject('11-Cloud Files/mat-dialog-container_D
 
 WebUI.click(findTestObject('11-Cloud Files/button_Confirm'))
 
-WebUI.delay(GlobalVariable.delay_4seconds)
+WebUI.delay(GlobalVariable.delay_4s)
 
 WebUI.closeBrowser()
 

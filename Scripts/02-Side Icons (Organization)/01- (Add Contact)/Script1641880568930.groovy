@@ -19,14 +19,14 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl(GlobalVariable.app_url_login)
+WebUI.navigateToUrl(GlobalVariable.URL_login)
 
 WebUI.maximizeWindow()
 
-WebUI.callTestCase(findTestCase('01-Login and Forgot Password/04-Login(Valid Credentials-With Subscription)'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('01-Login and Forgot Password/04-Login (Valid Credentials-Without Subscription)'), [:], 
+    FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.delay(GlobalVariable.delay_5seconds)
-
+//WebUI.callTestCase(findTestCase('01-Login and Forgot Password/04-Login(Valid Credentials-With Subscription)'), [:], FailureHandling.STOP_ON_FAILURE)
 //WebUI.setText(findTestObject('02-Side Icons(Organization)/Add Contact/Email Field'), 'testuser02@mailinator.com')
 //WebUI.setEncryptedText(findTestObject('02-Side Icons(Organization)/Add Contact/Password Field'), '8yFRyszE6U6jvsCn51OQbg==')
 //WebUI.click(findTestObject('02-Side Icons(Organization)/Add Contact/button_Sign in'))
@@ -55,49 +55,35 @@ WebUI.delay(GlobalVariable.delay_5seconds)
 //WebUI.delay(5)
 WebUI.click(findTestObject('02-Side Icons(Organization)/Add Contact/Side Menu double arrow icon'))
 
-WebUI.delay(GlobalVariable.delay_2seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('02-Side Icons(Organization)/Add Contact/button_My Organizations'))
 
-WebUI.delay(GlobalVariable.delay_2seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('02-Side Icons(Organization)/Add Contact/button_Automation Test Org'))
 
-WebUI.delay(GlobalVariable.delay_2seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.verifyElementVisible(findTestObject('02-Side Icons(Organization)/Add Contact/span_Automation Test Org'))
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.click(findTestObject('02-Side Icons(Organization)/Add Contact/button_add new user'))
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_3s)
 
-WebUI.verifyElementVisible(findTestObject('02-Side Icons(Organization)/Add Contact/user-invitation-modal'))
+WebUI.verifyElementVisible(findTestObject('02-Side Icons(Organization)/Add Contact/mat-dialog-container_User Invitation modal'))
 
-WebUI.delay(GlobalVariable.delay_2seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('02-Side Icons(Organization)/Add Contact/Invite a single user option'))
 
 WebUI.verifyElementVisible(findTestObject('02-Side Icons(Organization)/Add Contact/Invite New user modal'))
 
-WebUI.delay(GlobalVariable.delay_2seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('02-Side Icons(Organization)/Add Contact/button_Cancel'))
 
-WebUI.delay(GlobalVariable.delay_2seconds)
-
-WebUI.click(findTestObject('02-Side Icons(Organization)/Add Contact/button_add new user'))
-
-WebUI.delay(GlobalVariable.delay_3seconds)
-
-WebUI.click(findTestObject('02-Side Icons(Organization)/Add Contact/Invite batch user option'))
-
-WebUI.verifyElementVisible(findTestObject('02-Side Icons(Organization)/Add Contact/Import CSV file modal'))
-
-WebUI.delay(GlobalVariable.delay_2seconds)
-
-WebUI.click(findTestObject('02-Side Icons(Organization)/Add Contact/button_Cancel'))
-
-WebUI.delay(GlobalVariable.delay_2seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 

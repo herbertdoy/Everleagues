@@ -19,14 +19,14 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl(GlobalVariable.app_url_login)
+WebUI.navigateToUrl(GlobalVariable.URL_login)
 
 WebUI.maximizeWindow()
 
 WebUI.callTestCase(findTestCase('01-Login and Forgot Password/04-Login(Valid Credentials-With Subscription)'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
 //WebUI.verifyElementPresent(findTestObject('01-Login and Forgot Password/h4_EVERLEAGUES (v0.11.16 build 324)'), 0)
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.click(findTestObject('06-Teams/button_doublearrow'))
 
@@ -34,11 +34,11 @@ WebUI.click(findTestObject('06-Teams/button_My Organizations'))
 
 WebUI.click(findTestObject('02-Side Icons(Organization)/Add Contact/button_Automation Test Org'))
 
-WebUI.delay(GlobalVariable.delay_4seconds)
+WebUI.delay(GlobalVariable.delay_4s)
 
 WebUI.verifyElementVisible(findTestObject('02-Side Icons(Organization)/Add Contact/span_Automation Test Org'))
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.scrollToElement(findTestObject('15-EL HealthCheck/Inactive information tracker/button_EL HealthCheck'), 0)
 
@@ -52,5 +52,5 @@ WebUI.click(findTestObject('15-EL HealthCheck/Inactive information tracker/butto
 
 WebUI.verifyElementVisible(findTestObject('15-EL HealthCheck/Inactive information tracker/Activate message'))
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_3s)
 

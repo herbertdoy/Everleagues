@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl(GlobalVariable.appURL)
+WebUI.navigateToUrl(GlobalVariable.URL_lab)
 
 WebUI.maximizeWindow()
 
@@ -55,7 +55,7 @@ WebUI.click(findTestObject('04-Add my Organizations/Free limited Plan/span_Add M
 
 WebUI.verifyElementVisible(findTestObject('04-Add my Organizations/Free limited Plan/Add my org modal'))
 
-WebUI.delay(GlobalVariable.delay_2seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('04-Add my Organizations/Free limited Plan/input_orgName'))
 
@@ -63,11 +63,11 @@ WebUI.click(findTestObject('04-Add my Organizations/Free limited Plan/input_org 
 
 WebUI.click(findTestObject('04-Add my Organizations/Free limited Plan/div_Service Industry_select-arrow'))
 
-WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.ESCAPE))
+WebUI.clickOffset(findTestObject('04-Add my Organizations/Free limited Plan/input_orgName'), 100, 100)
 
 //WebUI.sendKeys(findTestObject('04-Add my Organizations/Free limited Plan/div_Service Industry_select-arrow'), Keys.chord(
 //        Keys.ESCAPE))
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.verifyElementVisible(findTestObject('04-Add my Organizations/Free limited Plan/div_OrganizationName_error'))
 
@@ -75,5 +75,5 @@ WebUI.verifyElementVisible(findTestObject('04-Add my Organizations/Free limited 
 
 WebUI.verifyElementVisible(findTestObject('04-Add my Organizations/Free limited Plan/div_Service Industry_error'))
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 

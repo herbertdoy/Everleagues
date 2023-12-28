@@ -21,15 +21,15 @@ WebUI.mouseOver(findTestObject('03-Header Menu/User Profile/View Profile/Profile
 
 WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Profile Tab/Upload Icon'))
 
-WebUI.delay(GlobalVariable.delay_2seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/View Profile/Profile Tab/Upload User Image modal'))
 
 WebUI.verifyElementNotClickable(findTestObject('03-Header Menu/User Profile/View Profile/Profile Tab/button_Upload Image'))
 
-WebUI.delay(GlobalVariable.delay_1second)
+WebUI.delay(GlobalVariable.delay_1s)
 
 WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Profile Tab/button_Cancel'))
 
-WebUI.delay(GlobalVariable.delay_2seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 

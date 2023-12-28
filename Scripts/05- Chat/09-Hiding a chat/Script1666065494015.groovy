@@ -17,47 +17,47 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.delay(GlobalVariable.delay_2seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('05-Chat/09-Hiding a chat/ellipsis_chat setting'))
 
-WebUI.delay(GlobalVariable.delay_2seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.verifyElementVisible(findTestObject('05-Chat/09-Hiding a chat/button_Group info'))
 
 WebUI.verifyElementVisible(findTestObject('05-Chat/09-Hiding a chat/button_Hide chat'))
 
-WebUI.delay(GlobalVariable.delay_2seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('05-Chat/09-Hiding a chat/button_Hide chat'))
 
-WebUI.delay(GlobalVariable.delay_2seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.refresh()
 
-WebUI.delay(GlobalVariable.delay_2seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.verifyElementVisible(findTestObject('05-Chat/01- Creating a Chat group/div_No chat available'))
 
-WebUI.delay(GlobalVariable.delay_1second)
+WebUI.delay(GlobalVariable.delay_1s)
 
 WebUI.click(findTestObject('05-Chat/09-Hiding a chat/button_search'))
 
 WebUI.setText(findTestObject('05-Chat/09-Hiding a chat/input_search'), GlobalVariable.searchGC)
 
-WebUI.delay(GlobalVariable.delay_2seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('05-Chat/02-Sending chat messages/div_AC'))
 
-WebUI.delay(GlobalVariable.delay_2seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.setText(findTestObject('05-Chat/02-Sending chat messages/textarea__msg'), GlobalVariable.chatMessage_Test)
 
 WebUI.click(findTestObject('05-Chat/02-Sending chat messages/button_send'))
 
-WebUI.delay(GlobalVariable.delay_2seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.refresh()
 
-WebUI.delay(GlobalVariable.delay_2seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 

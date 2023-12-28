@@ -19,19 +19,19 @@ import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 WebUI.click(findTestObject('03-Header Menu/User Profile/Users Profile menu and notification button/button_notification bell'), 
     FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.delay(GlobalVariable.delay_2seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/Users Profile menu and notification button/div_notification modal'), 
     FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.delay(GlobalVariable.delay_2seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.clickOffset(findTestObject('03-Header Menu/User Profile/Users Profile menu and notification button/div_notification modal'), 
     100, 100, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.click(findTestObject('03-Header Menu/User Profile/Users Profile menu and notification button/div_User drop down menu button'))
 
-WebUI.delay(GlobalVariable.delay_1second)
+WebUI.delay(GlobalVariable.delay_1s)
 
 WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/Users Profile menu and notification button/h4_View Profile'))
 
@@ -39,13 +39,13 @@ WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/Change Pa
 
 WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/Users Profile menu and notification button/h4_Sign Out'))
 
-WebUI.delay(GlobalVariable.delay_2seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('03-Header Menu/User Profile/Users Profile menu and notification button/h4_Sign Out'))
 
 WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/Users Profile menu and notification button/Login card'))
 
-WebUI.delay(GlobalVariable.delay_2seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.closeBrowser()
 

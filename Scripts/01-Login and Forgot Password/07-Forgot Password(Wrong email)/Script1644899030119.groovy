@@ -19,15 +19,15 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.setText(findTestObject('01-Login and Forgot Password/zForgot Password/Reset pass email field'), 'unregisteredemail@test.com')
 
-WebUI.delay(2)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('01-Login and Forgot Password/zForgot Password/button_Reset Password'))
 
 WebUI.verifyElementPresent(findTestObject('01-Login and Forgot Password/zForgot Password/Reset pass- wrong email'), 0)
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('01-Login and Forgot Password/zForgot Password/button_Back to login'))
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delay_2s)
 

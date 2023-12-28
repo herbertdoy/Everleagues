@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.rightClick(findTestObject('11-Cloud Files/td_Automation_Driver'))
 
@@ -31,7 +31,7 @@ WebUI.click(findTestObject('09-Settings/Users/Active User/button_Save'))
 
 WebUI.verifyElementVisible(findTestObject('11-Cloud Files/snack-bar-container_Successfully changed nameOK_New'))
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.doubleClick(findTestObject('11-Cloud Files/button_driver_create_edited'))
 

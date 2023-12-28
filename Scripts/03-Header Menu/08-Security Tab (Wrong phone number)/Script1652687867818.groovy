@@ -30,23 +30,23 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.setText(findTestObject('03-Header Menu/User Profile/View Profile/Security Tab (2FA)/input_phone number'), GlobalVariable.phone_number)
 
-WebUI.delay(GlobalVariable.delay_2seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Security Tab (2FA)/button_Next'))
 
-WebUI.delay(GlobalVariable.delay_1second)
+WebUI.delay(GlobalVariable.delay_1s)
 
 WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/View Profile/Security Tab (2FA)/div_Failed to send SMS'))
 
-WebUI.delay(GlobalVariable.delay_2seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Security Tab (2FA)/button_Cancel'))
 
 WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Security Tab (2FA)/2FA_toggle'))
 
-WebUI.delay(GlobalVariable.delay_2seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/View Profile/Security Tab (2FA)/Success disable'))
 
-WebUI.delay(GlobalVariable.delay_2seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 

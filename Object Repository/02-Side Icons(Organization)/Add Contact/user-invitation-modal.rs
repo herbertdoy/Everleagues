@@ -19,7 +19,15 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//mat-dialog-container[@role='dialog']</value>
+         <value>//mat-dialog-container[@role = 'dialog' and (text() = 'User Invitation&#xd;
+            &#xd;
+        Invite a single user&#xd;
+            &#xd;
+         Invite batch of users via CSV file Only available for the Pay-As-You-Go subscription plan.Cancel' or . = 'User Invitation&#xd;
+            &#xd;
+        Invite a single user&#xd;
+            &#xd;
+         Invite batch of users via CSV file Only available for the Pay-As-You-Go subscription plan.Cancel')]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -34,7 +42,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>mat-dialog-container</value>
-      <webElementGuid>8952752d-82e2-4e82-b0be-ec26c8833755</webElementGuid>
+      <webElementGuid>ccce806e-0a7c-4adf-9197-93242a815550</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,7 +50,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>-1</value>
-      <webElementGuid>ba708304-46c8-4b38-8916-230d70279c33</webElementGuid>
+      <webElementGuid>68c82826-a741-482e-8ccf-fba0a5868f34</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,7 +58,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-dialog-container cdk-dialog-container ng-tns-c39-52 ng-trigger ng-trigger-dialogContainer ng-star-inserted</value>
-      <webElementGuid>fd9c63c3-86ad-452f-9076-b651adce6060</webElementGuid>
+      <webElementGuid>0034c24b-39dc-41b5-b6be-dd37b79653f2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -58,7 +66,7 @@
       <name>id</name>
       <type>Main</type>
       <value>mat-dialog-0</value>
-      <webElementGuid>bbe39d48-b792-424e-88a5-7cb42ca6ef7e</webElementGuid>
+      <webElementGuid>0428c01f-d254-40b5-8bb3-506b5ba73c88</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -66,7 +74,7 @@
       <name>role</name>
       <type>Main</type>
       <value>dialog</value>
-      <webElementGuid>726308c6-fc45-463c-8903-d779274efd99</webElementGuid>
+      <webElementGuid>fcae7943-0da7-41e1-a3ef-b349b6a8e617</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -74,7 +82,7 @@
       <name>aria-modal</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>e1ed90cc-041a-4745-a430-4a5ba735a0d4</webElementGuid>
+      <webElementGuid>9ccb7fd5-87bd-4418-bf2f-c35358515545</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -82,7 +90,7 @@
       <name>aria-labelledby</name>
       <type>Main</type>
       <value>mat-dialog-title-0</value>
-      <webElementGuid>056f2244-fb4c-47da-a7cf-c076fd09f2dc</webElementGuid>
+      <webElementGuid>70e7a265-381b-481e-826e-5b265f4af6a5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -94,7 +102,7 @@
         Invite a single user
             
          Invite batch of users via CSV file Cancel</value>
-      <webElementGuid>48b21a49-6632-4ef1-8eb3-d5dc0a3f027c</webElementGuid>
+      <webElementGuid>8d1f1b90-6222-4289-9d37-7426b4a34b33</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -102,7 +110,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-dialog-0&quot;)</value>
-      <webElementGuid>0bf84a1b-c398-4918-bae2-5ab4056884d6</webElementGuid>
+      <webElementGuid>a75e275c-1599-4a02-9c1d-4af6a3cfdb04</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -110,7 +118,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//mat-dialog-container[@id='mat-dialog-0']</value>
-      <webElementGuid>17a79294-3d3e-4462-972c-e4f5a58a1e1e</webElementGuid>
+      <webElementGuid>de67e7aa-dd17-4bec-9583-7b646c37dc33</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +126,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='cdk-overlay-1']/mat-dialog-container</value>
-      <webElementGuid>ea288ac6-0102-4ec9-8160-20207645612b</webElementGuid>
+      <webElementGuid>0ded9657-eae6-4a4c-9f8c-f5910fcd0fc4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,7 +134,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Edit Org Unit'])[1]/following::mat-dialog-container[1]</value>
-      <webElementGuid>71b99ce7-eb7f-4727-a14c-40048ac66c9a</webElementGuid>
+      <webElementGuid>7bb2ab40-eb6c-4ba6-b14c-d3bff2f18b1d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,7 +142,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Suspend User'])[1]/following::mat-dialog-container[1]</value>
-      <webElementGuid>9cf6a7aa-a421-404a-a14f-3ed0cd04d9d4</webElementGuid>
+      <webElementGuid>a0f0e53a-a9bd-4dcc-aa9d-fee8382f412c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -142,7 +150,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//mat-dialog-container</value>
-      <webElementGuid>3d2755a2-f131-41f9-b5b2-7afd917b490a</webElementGuid>
+      <webElementGuid>a9e2770e-b88b-4e19-a54e-ba758ea82c10</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -158,6 +166,6 @@
         Invite a single user
             
          Invite batch of users via CSV file Cancel')]</value>
-      <webElementGuid>5ce270fd-ffde-4330-88f0-97235c267aac</webElementGuid>
+      <webElementGuid>b80ff105-a4f0-4f2e-a64b-f6e87d8b39f1</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -23,7 +23,7 @@ WebUI.verifyElementVisible(findTestObject('06-Teams/03-Edit Team - Private/Edit 
 
 WebUI.verifyElementNotClickable(findTestObject('06-Teams/03-Edit Team - Private/button_Save'))
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.setText(findTestObject('06-Teams/03-Edit Team - Private/input_Edit Channel name'), GlobalVariable.edit_channelname)
 
@@ -31,5 +31,5 @@ WebUI.click(findTestObject('06-Teams/03-Edit Team - Private/button_Save'))
 
 WebUI.verifyElementVisible(findTestObject('06-Teams/03-Edit Team - Private/Successfully edited channel'))
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 

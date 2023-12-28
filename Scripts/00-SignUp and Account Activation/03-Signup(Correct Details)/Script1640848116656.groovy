@@ -19,8 +19,6 @@ import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 import java.util.Random as Random
 
-WebUI.delay(GlobalVariable.delay_2seconds)
-
 //def domainName = '@mailinator.com'
 def domainName = '@yopmail.com'
 
@@ -38,61 +36,61 @@ WebUI.setText(findTestObject('00-Signup and Activation/input_firstName'), Global
 
 WebUI.setText(findTestObject('00-Signup and Activation/input_lastName'), GlobalVariable.last_name1)
 
-WebUI.delay(GlobalVariable.delay_2seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('Object Repository/00-Signup and Activation/button_Sign up'))
 
-WebUI.delay(GlobalVariable.delay_2seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.executeJavaScript('window.open();', [])
 
 currentWindow = WebUI.getWindowIndex()
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.switchToWindowIndex(currentWindow + 1)
 
 WebUI.navigateToUrl(GlobalVariable.URL_yopmail)
 
-//WebUI.navigateToUrl(GlobalVariable.app_mailinator)
-WebUI.delay(GlobalVariable.delay_3seconds)
+//WebUI.navigateToUrl(GlobalVariable.URL_mailinator)
+WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.setText(findTestObject('Yopmail/input_Enter your inbox here'), emailAddress)
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.click(findTestObject('Yopmail/button_Next'))
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.click(findTestObject('Yopmail/span_Everleagues Team'))
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_3s)
 
 //WebUI.setText(findTestObject('00-Signup and Activation/zMailinator/input_LOGIN_search'), emailAddress)
 //WebUI.click(findTestObject('00-Signup and Activation/zMailinator/gobutton'), FailureHandling.STOP_ON_FAILURE)
-//WebUI.delay(GlobalVariable.delay_3seconds)
+//WebUI.delay(GlobalVariable.delay_3s)
 //WebUI.click(findTestObject('00-Signup and Activation/zMailinator/Email - everleagues'))
-//WebUI.delay(GlobalVariable.delay_3seconds)
+//WebUI.delay(GlobalVariable.delay_3s)
 //String code = WebUI.getText(findTestObject('Object Repository/06-Teams/For 2FA/2FA code'))
 String code = WebUI.getText(findTestObject('Yopmail/2FA code-Yopmail'))
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.closeWindowTitle('Inbox')
 
 //WebUI.closeWindowTitle('Mailinator')
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.switchToWindowIndex(0)
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.setText(findTestObject('Object Repository/06-Teams/For 2FA/input_Enter verification code_code'), code)
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('06-Teams/For 2FA/button_Verify_2FA'))
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 

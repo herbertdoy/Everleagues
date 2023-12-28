@@ -29,7 +29,7 @@ WebUI.click(findTestObject('12-AI Assistant(beta)/12.1-Chat GPT(beta)/Use my own
 
 currentWindow = WebUI.getWindowIndex()
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.switchToWindowIndex(currentWindow + 1)
 

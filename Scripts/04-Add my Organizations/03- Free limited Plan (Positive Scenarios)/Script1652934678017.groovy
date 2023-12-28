@@ -17,15 +17,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.delay(GlobalVariable.delay_2seconds)
-
 WebUI.setText(findTestObject('04-Add my Organizations/Free limited Plan/input_orgName'), GlobalVariable.org_name)
 
 WebUI.setText(findTestObject('04-Add my Organizations/Free limited Plan/input_org alias'), GlobalVariable.org_alias)
 
 WebUI.click(findTestObject('04-Add my Organizations/Free limited Plan/div_Service Industry_select-arrow'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(GlobalVariable.delay_1second)
+WebUI.delay(GlobalVariable.delay_1s)
 
 WebUI.verifyElementVisible(findTestObject('04-Add my Organizations/Free limited Plan/span_CPA_EA_Accounting Firms'))
 
@@ -45,25 +43,25 @@ WebUI.verifyElementVisible(findTestObject('04-Add my Organizations/Free limited 
 
 WebUI.verifyElementVisible(findTestObject('04-Add my Organizations/Free limited Plan/span_Non Profit Organizations'))
 
-WebUI.delay(GlobalVariable.delay_1second)
+WebUI.delay(GlobalVariable.delay_1s)
 
 WebUI.click(findTestObject('04-Add my Organizations/Free limited Plan/span_Other Service Business'))
 
 WebUI.click(findTestObject('04-Add my Organizations/Free limited Plan/button_Next'))
 
-WebUI.delay(GlobalVariable.delay_1second)
+WebUI.delay(GlobalVariable.delay_1s)
 
 WebUI.verifyElementVisible(findTestObject('04-Add my Organizations/Free limited Plan/add my org modal 2'))
 
 WebUI.click(findTestObject('04-Add my Organizations/Free limited Plan/Free limited plan radio button'))
 
-WebUI.delay(GlobalVariable.delay_1second)
+WebUI.delay(GlobalVariable.delay_1s)
 
 WebUI.click(findTestObject('04-Add my Organizations/Free limited Plan/span_Usage limit'))
 
 WebUI.switchToWindowIndex(1)
 
-WebUI.delay(GlobalVariable.delay_5seconds)
+WebUI.delay(GlobalVariable.delay_3s)
 
 assert WebUI.getUrl() == 'https://www.everleagues.com/pricing'
 
@@ -71,13 +69,13 @@ WebUI.closeWindowUrl(GlobalVariable.pricing)
 
 WebUI.switchToWindowIndex(0)
 
-WebUI.delay(GlobalVariable.delay_1second)
+WebUI.delay(GlobalVariable.delay_1s)
 
 WebUI.click(findTestObject('04-Add my Organizations/Free limited Plan/a_open_in_newPricing detail'))
 
 WebUI.switchToWindowIndex(1)
 
-WebUI.delay(GlobalVariable.delay_5seconds)
+WebUI.delay(GlobalVariable.delay_3s)
 
 assert WebUI.getUrl() == 'https://www.everleagues.com/pricing'
 
@@ -85,15 +83,15 @@ WebUI.closeWindowUrl(GlobalVariable.pricing)
 
 WebUI.switchToWindowIndex(0)
 
-WebUI.delay(GlobalVariable.delay_1second)
+WebUI.delay(GlobalVariable.delay_1s)
 
 WebUI.click(findTestObject('04-Add my Organizations/Free limited Plan/button_Next2'))
 
-WebUI.delay(GlobalVariable.delay_1second)
+WebUI.delay(GlobalVariable.delay_1s)
 
 WebUI.verifyElementVisible(findTestObject('04-Add my Organizations/Free limited Plan/add my org modal 3'))
 
-WebUI.delay(GlobalVariable.delay_1second)
+WebUI.delay(GlobalVariable.delay_1s)
 
 WebUI.click(findTestObject('04-Add my Organizations/Free limited Plan/SaaS checkbox'))
 
@@ -101,7 +99,7 @@ WebUI.click(findTestObject('04-Add my Organizations/Free limited Plan/a_Software
 
 WebUI.switchToWindowIndex(1)
 
-WebUI.delay(GlobalVariable.delay_5seconds)
+WebUI.delay(GlobalVariable.delay_3s)
 
 assert WebUI.getUrl() == 'https://www.everleagues.com/saas-agreement/'
 
@@ -109,15 +107,15 @@ WebUI.closeWindowUrl(GlobalVariable.saasAgreement)
 
 WebUI.switchToWindowIndex(0)
 
-WebUI.delay(GlobalVariable.delay_1second)
+WebUI.delay(GlobalVariable.delay_1s)
 
 WebUI.click(findTestObject('04-Add my Organizations/Free limited Plan/button_Create'))
 
-WebUI.delay(GlobalVariable.delay_1second)
+WebUI.delay(GlobalVariable.delay_1s)
 
 WebUI.verifyElementVisible(findTestObject('04-Add my Organizations/Free limited Plan/span_GG Automation'))
 
-WebUI.delay(GlobalVariable.delay_1second)
+WebUI.delay(GlobalVariable.delay_1s)
 
 WebUI.closeBrowser()
 

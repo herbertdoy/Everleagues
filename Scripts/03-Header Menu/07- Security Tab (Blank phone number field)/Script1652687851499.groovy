@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/div_Security'))
 
-WebUI.delay(GlobalVariable.delay_1second)
+WebUI.delay(GlobalVariable.delay_1s)
 
 WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/View Profile/Security Tab (2FA)/title_2FA'))
 
@@ -27,21 +27,21 @@ WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/View Prof
 
 WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/View Profile/Security Tab (2FA)/input_Email'))
 
-WebUI.delay(GlobalVariable.delay_1second)
+WebUI.delay(GlobalVariable.delay_1s)
 
 //WebUI.verifyElementNotPresent(findTestObject('03-Header Menu/User Profile/View Profile/Security Tab (2FA)/button_edit'), 
 //    0)
 //WebUI.delay(1)
 //WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Security Tab (2FA)/2FA_toggle'))
 //WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/View Profile/Security Tab (2FA)/Success enable'))
-//WebUI.delay(GlobalVariable.delay_1second)
+//WebUI.delay(GlobalVariable.delay_1s)
 WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Security Tab (2FA)/button_edit'))
 
 WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/View Profile/Security Tab (2FA)/2FA Phone Number modal'))
 
 WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/View Profile/Security Tab (2FA)/h4_Edit 2FA Phone Number'))
 
-WebUI.delay(GlobalVariable.delay_1second)
+WebUI.delay(GlobalVariable.delay_1s)
 
 //WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Security Tab (2FA)/button_area code'))
 
@@ -54,9 +54,9 @@ WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Security Ta
 //WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Security Tab (2FA)/input_phone number'), FailureHandling.STOP_ON_FAILURE)
 //WebUI.sendKeys(findTestObject('03-Header Menu/User Profile/View Profile/Security Tab (2FA)/input_phone number'), Keys.chord(
 //        Keys.ENTER))
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/View Profile/Security Tab (2FA)/Phone_Error'))
 
-WebUI.delay(GlobalVariable.delay_1second)
+WebUI.delay(GlobalVariable.delay_1s)
 

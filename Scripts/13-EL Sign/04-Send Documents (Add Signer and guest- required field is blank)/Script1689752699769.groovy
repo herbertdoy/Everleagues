@@ -19,13 +19,13 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.click(findTestObject('13-EL Sign/div_ELSignTrackID'))
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.click(findTestObject('13-EL Sign/span_COMPLETE'))
 
 WebUI.verifyElementVisible(findTestObject('13-EL Sign/snack-bar-container_Please add signer and field'))
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.click(findTestObject('13-EL Sign/button_personADD SIGNER  FIELD'))
 
@@ -49,11 +49,11 @@ WebUI.verifyElementNotClickable(findTestObject('13-EL Sign/button_SAVE'))
 
 WebUI.click(findTestObject('13-EL Sign/button_CANCEL'))
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.click(findTestObject('13-EL Sign/button_personADD SIGNER  FIELD'))
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.click(findTestObject('13-EL Sign/button_person_outlineADD GUEST'))
 

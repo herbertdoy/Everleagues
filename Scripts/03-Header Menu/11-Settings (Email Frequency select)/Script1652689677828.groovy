@@ -27,7 +27,7 @@ WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Settings/bu
 
 WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/View Profile/Settings/Successfully msg'))
 
-WebUI.delay(GlobalVariable.delay_2seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Settings/Email Frequency selector'))
 
@@ -37,7 +37,7 @@ WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Settings/bu
 
 WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/View Profile/Settings/Successfully msg'))
 
-WebUI.delay(GlobalVariable.delay_2seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Settings/Email Frequency selector'))
 
@@ -47,7 +47,7 @@ WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Settings/bu
 
 WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/View Profile/Settings/Successfully msg'))
 
-WebUI.delay(GlobalVariable.delay_2seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Settings/Email Frequency selector'))
 
@@ -57,7 +57,7 @@ WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Settings/bu
 
 WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/View Profile/Settings/Successfully msg'))
 
-WebUI.delay(GlobalVariable.delay_2seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Settings/Email Frequency selector'))
 
@@ -67,7 +67,7 @@ WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Settings/bu
 
 WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/View Profile/Settings/Successfully msg'))
 
-WebUI.delay(GlobalVariable.delay_2seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Settings/Email Frequency selector'))
 
@@ -77,11 +77,11 @@ WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Settings/bu
 
 WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/View Profile/Settings/Successfully msg'))
 
-WebUI.delay(GlobalVariable.delay_2seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.scrollToElement(findTestObject('03-Header Menu/User Profile/View Profile/Settings/Dashboard Card'), 5)
 
 WebUI.scrollToElement(findTestObject('03-Header Menu/User Profile/View Profile/div_Contact Info1'), 10)
 
-WebUI.delay(GlobalVariable.delay_2seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 

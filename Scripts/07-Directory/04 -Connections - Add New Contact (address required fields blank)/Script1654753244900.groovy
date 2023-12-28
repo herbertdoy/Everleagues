@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.scrollToElement(findTestObject('07-Directory/Connections/button_add_address'), 0)
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('07-Directory/Connections/button_add_address'))
 
@@ -28,7 +28,7 @@ WebUI.click(findTestObject('07-Directory/Connections/button_add_address'))
 //WebUI.click(findTestObject('07-Directory/Connections/button_add_address'))
 WebUI.verifyElementVisible(findTestObject('07-Directory/Connections/Edit address modal'))
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('07-Directory/Connections/input_Edit Address_street1'))
 
@@ -48,7 +48,7 @@ WebUI.scrollToElement(findTestObject('07-Directory/Connections/input_Country_add
 
 WebUI.click(findTestObject('07-Directory/Connections/input_Country_addressLabel'))
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.verifyElementVisible(findTestObject('07-Directory/Connections/span_Work'))
 
@@ -56,13 +56,13 @@ WebUI.verifyElementVisible(findTestObject('07-Directory/Connections/span_Persona
 
 WebUI.verifyElementVisible(findTestObject('07-Directory/Connections/span_Other'))
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.scrollToElement(findTestObject('07-Directory/Connections/h4_Edit Address'), 0)
 
 WebUI.click(findTestObject('07-Directory/Connections/h4_Edit Address'))
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.scrollToElement(findTestObject('07-Directory/Connections/street 1 error'), 0)
 
@@ -75,5 +75,5 @@ WebUI.verifyElementVisible(findTestObject('07-Directory/Connections/city error')
 WebUI.verifyElementVisible(findTestObject('07-Directory/Connections/state error'))
 
 //WebUI.verifyElementVisible(findTestObject('07-Directory/Connections/country error'))
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 

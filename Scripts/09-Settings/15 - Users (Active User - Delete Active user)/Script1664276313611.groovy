@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.verifyElementPresent(findTestObject('09-Settings/Users/Active User/div_GTGG tester 2'), 0)
 
@@ -27,11 +27,11 @@ WebUI.click(findTestObject('09-Settings/Users/Active User/button_Delete User'))
 
 WebUI.verifyElementPresent(findTestObject('09-Settings/Users/Active User/h4_Delete User'), 0)
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.click(findTestObject('09-Settings/Users/Active User/button_Delete'))
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.verifyElementPresent(findTestObject('09-Settings/Users/Active User/div_GTGG tester'), 0)
 
@@ -41,11 +41,11 @@ WebUI.click(findTestObject('09-Settings/Users/Active User/button_Delete User'))
 
 WebUI.verifyElementPresent(findTestObject('09-Settings/Users/Active User/h4_Delete User'), 0)
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.click(findTestObject('09-Settings/Users/Active User/button_Delete'))
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.verifyElementPresent(findTestObject('09-Settings/Users/Active User/div_GTGG Tester 3'), 0)
 
@@ -55,11 +55,11 @@ WebUI.click(findTestObject('09-Settings/Users/Active User/button_Delete User'))
 
 WebUI.verifyElementPresent(findTestObject('09-Settings/Users/Active User/h4_Delete User'), 0)
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.click(findTestObject('09-Settings/Users/Active User/button_Delete'))
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.verifyElementPresent(findTestObject('09-Settings/Users/Active User/span_GG Tester 009'), 0)
 
@@ -69,11 +69,11 @@ WebUI.click(findTestObject('09-Settings/Users/Active User/button_Delete User'), 
 
 WebUI.verifyElementPresent(findTestObject('09-Settings/Users/Active User/h4_Delete User'), 0)
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.click(findTestObject('09-Settings/Users/Active User/button_Delete'))
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.verifyElementPresent(findTestObject('09-Settings/Users/Active User/div_GPGG Partner'), 0)
 
@@ -83,11 +83,11 @@ WebUI.click(findTestObject('09-Settings/Users/Active User/button_Delete User'))
 
 WebUI.verifyElementPresent(findTestObject('09-Settings/Users/Active User/h4_Delete User'), 0)
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.click(findTestObject('09-Settings/Users/Active User/button_Delete'))
 
-WebUI.delay(GlobalVariable.delay_4seconds)
+WebUI.delay(GlobalVariable.delay_4s)
 
 WebUI.closeBrowser()
 

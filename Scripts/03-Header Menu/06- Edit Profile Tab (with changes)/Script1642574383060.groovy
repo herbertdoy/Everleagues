@@ -17,31 +17,29 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.delay(GlobalVariable.delay_3seconds)
-
 WebUI.setText(findTestObject('03-Header Menu/User Profile/View Profile/Profile Tab/input_FirstName'), GlobalVariable.first_name)
 
 WebUI.setText(findTestObject('03-Header Menu/User Profile/View Profile/Profile Tab/input_LastName'), GlobalVariable.last_name)
 
-WebUI.delay(GlobalVariable.delay_2seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Profile Tab/button_Save'))
 
 WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/View Profile/Profile Tab/success msg'))
 
-WebUI.delay(GlobalVariable.delay_2seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.setText(findTestObject('03-Header Menu/User Profile/View Profile/Profile Tab/input_FirstName'), GlobalVariable.first_name1)
 
 WebUI.setText(findTestObject('03-Header Menu/User Profile/View Profile/Profile Tab/input_LastName'), GlobalVariable.last_name1)
 
-WebUI.delay(GlobalVariable.delay_2seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Profile Tab/button_Save'))
 
 WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/View Profile/Profile Tab/success msg'))
 
-WebUI.delay(GlobalVariable.delay_2seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.mouseOver(findTestObject('03-Header Menu/User Profile/View Profile/Profile Tab/img tray'))
 
@@ -50,11 +48,11 @@ WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Profile Tab
 CustomKeywords.'uploadpackage.Upload.uploadFile'(findTestObject('Object Repository/03-Header Menu/User Profile/View Profile/Profile Tab/button_folderBrowse'), 
     GlobalVariable.upload_file)
 
-WebUI.delay(GlobalVariable.delay_2seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Profile Tab/button_Upload Image'))
 
 WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/View Profile/Contact Info/Successfully changed profile image'))
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_3s)
 

@@ -58,17 +58,17 @@ import org.openqa.selenium.Keys as Keys
 //WebUI.delay(3)
 WebUI.click(findTestObject('06-Teams/Add Team'))
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.verifyElementVisible(findTestObject('06-Teams/button_Public'))
 
 WebUI.verifyElementVisible(findTestObject('06-Teams/button_Private'))
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('06-Teams/button_Private'))
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.verifyElementVisible(findTestObject('06-Teams/02-Add Team-Private/Add team- Private'))
 
@@ -80,7 +80,7 @@ WebUI.scrollToElement(findTestObject('06-Teams/01-Add Team-Public/button_Create'
 
 WebUI.verifyElementNotClickable(findTestObject('06-Teams/01-Add Team-Public/button_Create'))
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('06-Teams/01-Add Team-Public/input_teamName'))
 
@@ -88,7 +88,7 @@ WebUI.click(findTestObject('06-Teams/01-Add Team-Public/Org unit'))
 
 WebUI.verifyElementVisible(findTestObject('06-Teams/01-Add Team-Public/h4_Select an organization unit'))
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('06-Teams/01-Add Team-Public/div_GG Automation'))
 
@@ -96,7 +96,7 @@ WebUI.click(findTestObject('06-Teams/01-Add Team-Public/button_Select'))
 
 WebUI.verifyElementVisible(findTestObject('06-Teams/01-Add Team-Public/Error Team name'))
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.setText(findTestObject('06-Teams/01-Add Team-Public/input_teamName'), GlobalVariable.team_name_private)
 
@@ -105,7 +105,7 @@ WebUI.click(findTestObject('06-Teams/02-Add Team-Private/div_Members'))
 //WebUI.verifyElementVisible(findTestObject('06-Teams/02-Add Team-Private/Members dialog box'))
 WebUI.verifyElementVisible(findTestObject('06-Teams/02-Add Team-Private/Members dialog box'))
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.scrollToElement(findTestObject('06-Teams/01-Add Team-Public/button_Create'), 0)
 
@@ -113,11 +113,11 @@ WebUI.click(findTestObject('06-Teams/01-Add Team-Public/button_Create'))
 
 WebUI.verifyElementVisible(findTestObject('06-Teams/01-Add Team-Public/span_Successfully added new team'))
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.verifyElementVisible(findTestObject('06-Teams/02-Add Team-Private/span_Auto Team Private'))
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.closeBrowser()
 

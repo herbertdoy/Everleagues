@@ -17,13 +17,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.scrollToElement(findTestObject('09-Settings/Organization/div_Profile'), 0)
 
 WebUI.click(findTestObject('09-Settings/Organization/div_Profile'))
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/mat-card_Profile'))
 
@@ -31,17 +31,17 @@ WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/mat-card_Add
 
 WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/mat-card_Contact'))
 
-WebUI.delay(GlobalVariable.delay_4seconds)
+WebUI.delay(GlobalVariable.delay_4s)
 
 WebUI.click(findTestObject('09-Settings/Organization/button_Delete Organization'))
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/mat-dialog-container_Delete Organization Unit'))
 
 WebUI.click(findTestObject('09-Settings/Organization/button_Delete'))
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.closeBrowser()
 

@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl(GlobalVariable.appURL)
+WebUI.navigateToUrl(GlobalVariable.URL_lab)
 
 WebUI.maximizeWindow()
 
@@ -78,17 +78,17 @@ WebUI.callTestCase(findTestCase('01-Login and Forgot Password/04-Login(Valid Cre
 //WebUI.delay(5)
 WebUI.click(findTestObject('03-Header Menu/Hamburger Button/div_Directory'))
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.verifyElementVisible(findTestObject('07-Directory/Connections/div_Connections'))
 
 WebUI.verifyElementVisible(findTestObject('07-Directory/Connections/div_Labels'))
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('07-Directory/Connections/div_Connections'))
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.verifyElementVisible(findTestObject('07-Directory/Connections/h4_CONNECTIONS'))
 
@@ -99,17 +99,17 @@ WebUI.verifyElementVisible(findTestObject('07-Directory/Connections/button_add n
 
 WebUI.verifyElementVisible(findTestObject('07-Directory/Connections/button_Filter'))
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('07-Directory/Connections/button_add new contact'))
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('07-Directory/Connections/input_Type_email'))
 
 WebUI.verifyElementVisible(findTestObject('07-Directory/Connections/Add new contact modal'))
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.sendKeys(findTestObject('07-Directory/Connections/input_firstName'), Keys.chord(Keys.CONTROL, 'a'))
 
@@ -124,7 +124,7 @@ WebUI.sendKeys(findTestObject('07-Directory/Connections/input_lastName'), Keys.c
 //WebUI.clearText(findTestObject('07-Directory/Connections/input_lastName'))
 WebUI.click(findTestObject('07-Directory/Connections/input_Type_email'))
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('07-Directory/Connections/button_Save'))
 
@@ -132,5 +132,5 @@ WebUI.verifyElementVisible(findTestObject('07-Directory/Connections/span_First n
 
 //WebUI.verifyElementVisible(findTestObject('07-Directory/Connections/div_First Name Field is required'))
 //WebUI.verifyElementVisible(findTestObject('07-Directory/Connections/div_Last Name Field is required'))
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 

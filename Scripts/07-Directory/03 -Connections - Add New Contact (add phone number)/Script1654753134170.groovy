@@ -21,9 +21,9 @@ WebUI.verifyElementVisible(findTestObject('07-Directory/Connections/area code mo
 
 WebUI.click(findTestObject('07-Directory/Connections/button_Australia'))
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.setText(findTestObject('07-Directory/Connections/input_Type_phone'), '488827341')
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 

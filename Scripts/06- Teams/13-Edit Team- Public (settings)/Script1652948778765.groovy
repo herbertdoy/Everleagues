@@ -19,11 +19,11 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.click(findTestObject('06-Teams/03-Edit Team - Private/div_Settings'))
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.verifyElementVisible(findTestObject('06-Teams/04-Edit Team-Public/Public_settings'))
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.closeBrowser()
 

@@ -29,5 +29,5 @@ WebUI.closeWindowIndex(1)
 
 WebUI.switchToWindowIndex(0)
 
-WebUI.delay(GlobalVariable.delay_4seconds)
+WebUI.delay(GlobalVariable.delay_4s)
 

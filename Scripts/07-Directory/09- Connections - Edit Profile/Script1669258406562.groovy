@@ -17,15 +17,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.delay(GlobalVariable.delay_3seconds)
-
 WebUI.click(findTestObject('07-Directory/Connections/div_added user'))
 
 WebUI.click(findTestObject('07-Directory/Connections/zContact Profile/button_edit profile'))
 
 WebUI.verifyElementVisible(findTestObject('07-Directory/Connections/zContact Profile/connection profile modal'))
 
-WebUI.delay(GlobalVariable.delay_2seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.setText(findTestObject('07-Directory/Connections/zContact Profile/input_firstName'), 'GGedit')
 

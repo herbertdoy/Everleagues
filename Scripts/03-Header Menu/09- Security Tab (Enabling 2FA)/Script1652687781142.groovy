@@ -23,7 +23,7 @@ WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Security Ta
 
 WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/View Profile/Security Tab (2FA)/Success enable'))
 
-WebUI.delay(GlobalVariable.delay_1second)
+WebUI.delay(GlobalVariable.delay_1s)
 
 WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Security Tab (2FA)/button_edit'))
 
@@ -31,7 +31,7 @@ WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/View Prof
 
 //WebUI.sendKeys(findTestObject('03-Header Menu/User Profile/View Profile/Security Tab (2FA)/input_phone number'), Keys.chord(
 //      Keys.ENTER))
-WebUI.delay(GlobalVariable.delay_1second)
+WebUI.delay(GlobalVariable.delay_1s)
 
 WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Security Tab (2FA)/button_areacode_default'))
 
@@ -43,15 +43,15 @@ WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Security Ta
 
 WebUI.setText(findTestObject('03-Header Menu/User Profile/View Profile/Security Tab (2FA)/input_phone number'), GlobalVariable.correct_phone_number)
 
-WebUI.delay(GlobalVariable.delay_2seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Security Tab (2FA)/button_Next'))
 
-WebUI.delay(GlobalVariable.delay_1second)
+WebUI.delay(GlobalVariable.delay_1s)
 
 WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/View Profile/Security Tab (2FA)/ver_code_success'))
 
-WebUI.delay(GlobalVariable.delay_2seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Security Tab (2FA)/button_Cancel'))
 
@@ -59,5 +59,5 @@ WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Security Ta
 
 WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/View Profile/Security Tab (2FA)/Success disable'))
 
-WebUI.delay(GlobalVariable.delay_2seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 

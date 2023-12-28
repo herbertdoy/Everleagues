@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl(GlobalVariable.appURL)
+WebUI.navigateToUrl(GlobalVariable.URL_lab)
 
 WebUI.maximizeWindow()
 
@@ -82,11 +82,11 @@ WebUI.click(findTestObject('06-Teams/button_My Organizations'))
 
 WebUI.click(findTestObject('02-Side Icons(Organization)/Add Contact/button_Automation Test Org'))
 
-WebUI.delay(GlobalVariable.delay_4seconds)
+WebUI.delay(GlobalVariable.delay_4s)
 
 WebUI.verifyElementVisible(findTestObject('02-Side Icons(Organization)/Add Contact/span_Automation Test Org'))
 
-WebUI.delay(GlobalVariable.delay_5seconds)
+WebUI.delay(GlobalVariable.delay_5s)
 
 WebUI.click(findTestObject('03-Header Menu/Hamburger Button/div_Open Video Conference'))
 
@@ -96,12 +96,12 @@ WebUI.verifyElementVisible(findTestObject('10-Open Video Conference/span_warning
 
 WebUI.click(findTestObject('10-Open Video Conference/a_chat'))
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.click(findTestObject('03-Header Menu/Hamburger Button/div_Open Video Conference'))
 
 //WebUI.verifyElementVisible(findTestObject('09-Settings/Users/User Page'))
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.verifyElementVisible(findTestObject('10-Open Video Conference/h5_Meeting Title'))
 
@@ -109,7 +109,7 @@ WebUI.click(findTestObject('10-Open Video Conference/input_Meeting Title'))
 
 WebUI.click(findTestObject('10-Open Video Conference/div_Now'))
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.verifyElementVisible(findTestObject('10-Open Video Conference/h5_Current Contacts'))
 
@@ -117,7 +117,7 @@ WebUI.click(findTestObject('10-Open Video Conference/input_Current Contacts_inpu
 
 WebUI.click(findTestObject('10-Open Video Conference/div_Now'))
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.scrollToElement(findTestObject('10-Open Video Conference/h5_New Guests'), 0)
 
@@ -131,7 +131,7 @@ WebUI.click(findTestObject('10-Open Video Conference/div_Enter a valid phone num
 
 WebUI.click(findTestObject('10-Open Video Conference/div_Enter a valid phone number'))
 
-WebUI.delay(GlobalVariable.delay_2seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('10-Open Video Conference/input_Firstname'))
 
@@ -147,7 +147,7 @@ WebUI.verifyElementVisible(findTestObject('10-Open Video Conference/error_Enter 
 
 WebUI.clickOffset(findTestObject('10-Open Video Conference/input_Lastname'), 10, 10)
 
-WebUI.delay(GlobalVariable.delay_2seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('10-Open Video Conference/div_Schedule'))
 

@@ -19,13 +19,13 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.click(findTestObject('12-AI Assistant(beta)/12.1-Chat GPT(beta)/Chat GPT (beta)'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(GlobalVariable.delay_2seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('12-AI Assistant(beta)/12.2-AI Edit(beta)/AI Edit(beta) button'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('12-AI Assistant(beta)/12.2-AI Edit(beta)/Input edit instructions'))
 
-WebUI.delay(GlobalVariable.delay_2seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.setText(findTestObject('12-AI Assistant(beta)/12.2-AI Edit(beta)/Input edit instructions'), 'Replace "Clock" with "Time"')
 
@@ -33,7 +33,7 @@ WebUI.verifyElementNotClickable(findTestObject('12-AI Assistant(beta)/12.2-AI Ed
 
 WebUI.click(findTestObject('12-AI Assistant(beta)/12.1-Chat GPT(beta)/Chat GPT (beta)'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(GlobalVariable.delay_2seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('12-AI Assistant(beta)/12.2-AI Edit(beta)/AI Edit(beta) button'), FailureHandling.STOP_ON_FAILURE)
 

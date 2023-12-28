@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl(GlobalVariable.appURL)
+WebUI.navigateToUrl(GlobalVariable.URL_lab)
 
 WebUI.maximizeWindow()
 
@@ -82,11 +82,11 @@ WebUI.click(findTestObject('06-Teams/button_My Organizations'))
 
 WebUI.click(findTestObject('02-Side Icons(Organization)/Add Contact/button_Automation Test Org'))
 
-WebUI.delay(GlobalVariable.delay_4seconds)
+WebUI.delay(GlobalVariable.delay_4s)
 
 WebUI.verifyElementVisible(findTestObject('02-Side Icons(Organization)/Add Contact/span_Automation Test Org'))
 
-WebUI.delay(GlobalVariable.delay_5seconds)
+WebUI.delay(GlobalVariable.delay_5s)
 
 WebUI.click(findTestObject('03-Header Menu/Hamburger Button/div_Cloud Files'))
 
@@ -104,7 +104,7 @@ WebUI.verifyElementVisible(findTestObject('11-Cloud Files/h4_CLOUD STORAGE'))
 
 WebUI.verifyElementVisible(findTestObject('11-Cloud Files/h4_Shared_Drive'))
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.click(findTestObject('11-Cloud Files/button_new_drive'))
 
@@ -118,5 +118,5 @@ WebUI.verifyElementVisible(findTestObject('11-Cloud Files/error_driver_name'))
 
 WebUI.verifyElementVisible(findTestObject('11-Cloud Files/button_create_driver_name'))
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_3s)
 

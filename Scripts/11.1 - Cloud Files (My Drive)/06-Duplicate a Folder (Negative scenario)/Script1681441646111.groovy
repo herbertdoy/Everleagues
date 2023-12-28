@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.click(findTestObject('11-Cloud Files/td_Automation folder EDIT'))
 
@@ -25,7 +25,7 @@ WebUI.click(findTestObject('11-Cloud Files/button_Duplicate'))
 
 WebUI.verifyElementVisible(findTestObject('11-Cloud Files/mat-dialog-container_DuplicateFolderModal'))
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.click(findTestObject('11-Cloud Files/button_Confirm'))
 

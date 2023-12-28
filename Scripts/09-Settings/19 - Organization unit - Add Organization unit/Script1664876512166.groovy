@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl(GlobalVariable.appURL)
+WebUI.navigateToUrl(GlobalVariable.URL_lab)
 
 WebUI.maximizeWindow()
 
@@ -82,11 +82,11 @@ WebUI.click(findTestObject('06-Teams/button_My Organizations'))
 
 WebUI.click(findTestObject('06-Teams/button_GG Automation'))
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.verifyElementVisible(findTestObject('06-Teams/span_GG Automation'))
 
-WebUI.delay(GlobalVariable.delay_4seconds)
+WebUI.delay(GlobalVariable.delay_4s)
 
 WebUI.click(findTestObject('03-Header Menu/Hamburger Button/div_Settings'))
 
@@ -99,7 +99,7 @@ WebUI.click(findTestObject('03-Header Menu/Hamburger Button/div_Settings'))
 //WebUI.verifyElementVisible(findTestObject('09-Settings/Users/div_Subscriptions'))
 //
 //WebUI.verifyElementVisible(findTestObject('09-Settings/Users/div_Users'))
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.scrollToElement(findTestObject('09-Settings/Users/div_Organization Units'), 0)
 
@@ -108,7 +108,7 @@ WebUI.click(findTestObject('09-Settings/Users/div_Organization Units'))
 WebUI.verifyElementVisible(findTestObject('09-Settings/Organization unit/h4_ORGANIZATION STRUCTURE SETUP'))
 
 //WebUI.verifyElementVisible(findTestObject('09-Settings/Users/User Page'))
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.click(findTestObject('09-Settings/Organization unit/button_add'))
 
@@ -124,11 +124,11 @@ WebUI.verifyElementPresent(findTestObject('09-Settings/Organization unit/mat-dia
 
 WebUI.verifyElementPresent(findTestObject('09-Settings/Organization unit/h4_Select an organization unit'), 0)
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.click(findTestObject('09-Settings/Organization unit/Cancel button for select an organization unit'))
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_3s)
 
 //WebUI.verifyElementPresent(findTestObject('09-Settings/Organization unit/h4_Name'), 0)
 WebUI.click(findTestObject('09-Settings/Organization unit/input_Parent Organization Unit Name_orgName'))
@@ -137,11 +137,11 @@ WebUI.click(findTestObject('09-Settings/Organization unit/mat-dialog-container_A
 
 WebUI.verifyElementPresent(findTestObject('09-Settings/Organization unit/mat-error_Field is required'), 0)
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.click(findTestObject('09-Settings/Users/Active User/button_Cancel_restore'))
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.click(findTestObject('09-Settings/Organization unit/button_add'))
 
@@ -158,17 +158,17 @@ WebUI.verifyElementPresent(findTestObject('09-Settings/Organization unit/h4_Sele
 
 WebUI.click(findTestObject('09-Settings/Organization unit/div_GG Automation'))
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.click(findTestObject('09-Settings/Organization unit/button_Select organization'))
 
 WebUI.setText(findTestObject('09-Settings/Organization unit/input_Parent Organization Unit Name_orgName'), GlobalVariable.org_unit)
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.click(findTestObject('09-Settings/Users/Active User/button_Save'))
 
 WebUI.verifyElementPresent(findTestObject('09-Settings/Organization unit/span_Successfully added organization unit'), 0)
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_3s)
 

@@ -18,11 +18,11 @@ import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 
 WebUI.click(findTestObject('03-Header Menu/Language/button_Language Selector'))
 
-WebUI.delay(GlobalVariable.delay_2seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('03-Header Menu/Language/button_chinese 1'))
 
-WebUI.delay(GlobalVariable.delay_2seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.verifyElementVisible(findTestObject('03-Header Menu/Language/Language Div/div_chinese1 dashboard'))
 
@@ -30,15 +30,15 @@ WebUI.verifyElementVisible(findTestObject('03-Header Menu/Language/Language Div/
 
 WebUI.verifyElementVisible(findTestObject('03-Header Menu/Language/Language Div/div_chinese1 teams'))
 
-WebUI.delay(GlobalVariable.delay_2seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('03-Header Menu/Language/button_Language Selector'))
 
-WebUI.delay(GlobalVariable.delay_2seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('03-Header Menu/Language/button_chinese 2'))
 
-WebUI.delay(GlobalVariable.delay_2seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.verifyElementVisible(findTestObject('03-Header Menu/Language/Language Div/div_chinese2 dashboard'))
 
@@ -46,15 +46,15 @@ WebUI.verifyElementVisible(findTestObject('03-Header Menu/Language/Language Div/
 
 WebUI.verifyElementVisible(findTestObject('03-Header Menu/Language/Language Div/div_chinese2 teams'))
 
-WebUI.delay(GlobalVariable.delay_2seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('03-Header Menu/Language/button_Language Selector'))
 
-WebUI.delay(GlobalVariable.delay_2seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('03-Header Menu/Language/button_chinese 3'))
 
-WebUI.delay(GlobalVariable.delay_2seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.verifyElementVisible(findTestObject('03-Header Menu/Language/Language Div/div_chinese3 dashboard'))
 
@@ -62,29 +62,29 @@ WebUI.verifyElementVisible(findTestObject('03-Header Menu/Language/Language Div/
 
 WebUI.verifyElementVisible(findTestObject('03-Header Menu/Language/Language Div/div_chinese3 teams'))
 
-WebUI.delay(GlobalVariable.delay_2seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('03-Header Menu/Language/button_Language Selector'))
 
-WebUI.delay(GlobalVariable.delay_2seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('03-Header Menu/Language/button_Espanol'))
 
-WebUI.delay(GlobalVariable.delay_2seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.verifyElementVisible(findTestObject('03-Header Menu/Language/Language Div/div_spanish_Panel'))
 
 WebUI.verifyElementVisible(findTestObject('03-Header Menu/Language/Language Div/div_spanish_Equipo'))
 
-WebUI.delay(GlobalVariable.delay_2seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('03-Header Menu/Language/button_Language Selector'))
 
-WebUI.delay(GlobalVariable.delay_2seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('03-Header Menu/Language/button_Italiano'))
 
-WebUI.delay(GlobalVariable.delay_10seconds)
+WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.verifyElementVisible(findTestObject('03-Header Menu/Language/Language Div/div_Pannello di controllo'))
 
@@ -92,15 +92,15 @@ WebUI.verifyElementVisible(findTestObject('03-Header Menu/Language/Language Div/
 
 WebUI.click(findTestObject('03-Header Menu/Language/button_Language Selector'))
 
-WebUI.delay(GlobalVariable.delay_2seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('03-Header Menu/Language/button_English'))
 
-WebUI.delay(GlobalVariable.delay_2seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.verifyElementVisible(findTestObject('03-Header Menu/Language/Language Div/div_Dashboard'))
 
 WebUI.verifyElementVisible(findTestObject('03-Header Menu/Language/Language Div/div_Teams'))
 
-WebUI.delay(GlobalVariable.delay_2seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 

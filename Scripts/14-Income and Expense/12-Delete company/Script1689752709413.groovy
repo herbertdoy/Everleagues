@@ -30,7 +30,7 @@ WebUI.verifyElementVisible(findTestObject('14-Income and Expense/mat-dialog-cont
 
 WebUI.click(findTestObject('14-Income and Expense/button_Yes'))
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.closeBrowser(FailureHandling.STOP_ON_FAILURE)
 

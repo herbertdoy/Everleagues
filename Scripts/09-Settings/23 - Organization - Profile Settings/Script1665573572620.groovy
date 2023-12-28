@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl(GlobalVariable.appURL)
+WebUI.navigateToUrl(GlobalVariable.URL_lab)
 
 WebUI.maximizeWindow()
 
@@ -82,11 +82,11 @@ WebUI.click(findTestObject('06-Teams/button_My Organizations'))
 
 WebUI.click(findTestObject('06-Teams/button_GG Automation'))
 
-WebUI.delay(GlobalVariable.delay_4seconds)
+WebUI.delay(GlobalVariable.delay_4s)
 
 WebUI.verifyElementVisible(findTestObject('06-Teams/span_GG Automation'))
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.click(findTestObject('03-Header Menu/Hamburger Button/div_Settings'))
 
@@ -99,7 +99,7 @@ WebUI.click(findTestObject('03-Header Menu/Hamburger Button/div_Settings'))
 //WebUI.verifyElementVisible(findTestObject('09-Settings/Users/div_Subscriptions'))
 //
 //WebUI.verifyElementVisible(findTestObject('09-Settings/Users/div_Users'))
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_3s)
 
 //WebUI.scrollToElement(findTestObject('09-Settings/Users/div_Organization'), 0)
 WebUI.click(findTestObject('09-Settings/Users/div_Organization'))
@@ -111,7 +111,7 @@ WebUI.click(findTestObject('09-Settings/Organization/div_Profile'))
 //WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/div_ProfileSettings page'))//
 
 //WebUI.verifyElementVisible(findTestObject('09-Settings/Users/User Page'))
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/mat-card-title_Profile'))
 
@@ -119,28 +119,28 @@ WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/input_Indust
 
 WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/input_Organization number'))
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Profile Tab/Upload Icon'))
 
-WebUI.delay(GlobalVariable.delay_2seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/Upload Org image'))
 
 WebUI.verifyElementNotClickable(findTestObject('03-Header Menu/User Profile/View Profile/Profile Tab/button_Upload Image'))
 
-WebUI.delay(GlobalVariable.delay_1second)
+WebUI.delay(GlobalVariable.delay_1s)
 
 WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Profile Tab/button_Cancel'))
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Profile Tab/Upload Icon'))
 
 CustomKeywords.'uploadpackage.Upload.uploadFile'(findTestObject('Object Repository/03-Header Menu/User Profile/View Profile/Profile Tab/button_folderBrowse'), 
     GlobalVariable.upload_file)
 
-WebUI.delay(GlobalVariable.delay_2seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Profile Tab/button_Upload Image'))
 
@@ -150,19 +150,19 @@ WebUI.click(findTestObject('09-Settings/Organization/input_name'))
 
 WebUI.setText(findTestObject('09-Settings/Organization/input_name'), GlobalVariable.name)
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.click(findTestObject('09-Settings/Users/Active User/button_Save'))
 
 WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/snack-bar-container_Settings savedOK'))
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.scrollToElement(findTestObject('09-Settings/Organization/input_name'), 0)
 
 WebUI.setText(findTestObject('09-Settings/Organization/input_name'), GlobalVariable.org_name)
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.scrollToElement(findTestObject('09-Settings/Users/Active User/button_Save'), 0)
 
@@ -170,7 +170,7 @@ WebUI.click(findTestObject('09-Settings/Users/Active User/button_Save'))
 
 WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/snack-bar-container_Settings savedOK'))
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.scrollToElement(findTestObject('09-Settings/Organization/mat-card_Address'), 0)
 
@@ -190,7 +190,7 @@ WebUI.click(findTestObject('09-Settings/Organization/input_Country'), FailureHan
 
 WebUI.click(findTestObject('09-Settings/Organization/mat-option_united states'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.scrollToElement(findTestObject('09-Settings/Users/Active User/button_Save'), 0)
 
@@ -198,7 +198,7 @@ WebUI.click(findTestObject('09-Settings/Users/Active User/button_Save'))
 
 WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/snack-bar-container_Settings savedOK'))
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/mat-card_Contact'))
 
@@ -228,13 +228,13 @@ WebUI.click(findTestObject('09-Settings/Organization/button_Philippines 63'))
 
 WebUI.setText(findTestObject('09-Settings/Organization/input_fax'), '9211234567')
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.click(findTestObject('09-Settings/Users/Active User/button_Save'))
 
 WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/snack-bar-container_Settings savedOK'))
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.scrollToElement(findTestObject('09-Settings/Organization/div_Profile'), 0)
 

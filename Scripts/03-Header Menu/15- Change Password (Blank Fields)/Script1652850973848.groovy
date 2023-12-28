@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl(GlobalVariable.app_url_login)
+WebUI.navigateToUrl(GlobalVariable.URL_login)
 
 WebUI.maximizeWindow()
 
@@ -53,13 +53,13 @@ WebUI.callTestCase(findTestCase('01-Login and Forgot Password/04-Login(Valid Cre
 //WebUI.delay(5)
 WebUI.click(findTestObject('03-Header Menu/User Profile/Users Profile menu and notification button/div_User drop down menu button'))
 
-WebUI.delay(GlobalVariable.delay_2seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('03-Header Menu/User Profile/Change Password/button_Change password_userDropdown'))
 
 WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/Change Password/h4_Change Password'))
 
-WebUI.delay(GlobalVariable.delay_2seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('03-Header Menu/User Profile/Change Password/input_Old password'))
 
@@ -69,7 +69,7 @@ WebUI.click(findTestObject('03-Header Menu/User Profile/Change Password/input_Co
 
 WebUI.click(findTestObject('03-Header Menu/User Profile/Change Password/input_Old password'))
 
-WebUI.delay(GlobalVariable.delay_2seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/Change Password/error_Enter your password'))
 
@@ -80,5 +80,5 @@ WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/Change Pa
 
 WebUI.click(findTestObject('03-Header Menu/User Profile/Change Password/button_Cancel'))
 
-WebUI.delay(GlobalVariable.delay_2seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 

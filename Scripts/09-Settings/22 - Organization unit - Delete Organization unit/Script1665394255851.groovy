@@ -17,22 +17,22 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.mouseOver(findTestObject('09-Settings/Organization unit/div_GG TESTER'))
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_3s)
 
 //WebUI.waitForElementClickable(findTestObject('09-Settings/Organization unit/div_GG TESTER'), 0)
 WebUI.click(findTestObject('09-Settings/Organization unit/div_GG TESTER'))
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_3s)
 
 //WebUI.waitForElementVisible(findTestObject('09-Settings/Users/Active User/button_ellipses'), 0)
 //WebUI.waitForElementClickable(findTestObject('09-Settings/Users/Active User/button_ellipses'), 0)
 WebUI.click(findTestObject('09-Settings/Users/Active User/button_ellipses'))
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.click(findTestObject('09-Settings/Organization unit/button_Delete Organization Unit'))
 
@@ -44,17 +44,17 @@ WebUI.verifyElementVisible(findTestObject('09-Settings/Organization unit/h4_Dele
 WebUI.verifyElementVisible(findTestObject('09-Settings/Organization unit/span_Warning All resources associated with this root organization will be permanently deleted'), 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(GlobalVariable.delay_1second)
+WebUI.delay(GlobalVariable.delay_1s)
 
 WebUI.click(findTestObject('09-Settings/Users/Active User/button_Cancel_restore'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(GlobalVariable.delay_2seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.mouseOver(findTestObject('09-Settings/Organization unit/div_GG TESTER'))
 
 WebUI.click(findTestObject('09-Settings/Users/Active User/button_ellipses'))
 
-WebUI.delay(GlobalVariable.delay_2seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('09-Settings/Organization unit/button_Delete Organization Unit'))
 
@@ -67,14 +67,14 @@ WebUI.click(findTestObject('09-Settings/Organization unit/button_Delete Organiza
 //
 //WebUI.verifyElementVisible(findTestObject('09-Settings/Organization unit/span_Warning All resources associated with this root organization will be permanently deleted'), 
 //    FailureHandling.STOP_ON_FAILURE)
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.click(findTestObject('09-Settings/Users/Active User/button_Delete'))
 
 WebUI.verifyElementVisible(findTestObject('09-Settings/Organization unit/snack-bar-container_Successfully deleted organization unitOK'), 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.closeBrowser()
 

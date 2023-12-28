@@ -23,5 +23,5 @@ WebUI.click(findTestObject('06-Teams/03-Edit Team - Private/button_remove member
 
 WebUI.verifyElementNotPresent(findTestObject('06-Teams/03-Edit Team - Private/added_GTGG tester 2'), 0)
 
-WebUI.delay(GlobalVariable.delay_5seconds)
+WebUI.delay(GlobalVariable.delay_3s)
 

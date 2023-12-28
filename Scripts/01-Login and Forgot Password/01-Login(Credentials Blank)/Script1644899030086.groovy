@@ -20,15 +20,15 @@ import org.openqa.selenium.Keys as Keys
 WebUI.openBrowser('')
 
 //WebUI.deleteAllCookies()
-WebUI.navigateToUrl(GlobalVariable.appURL)
+WebUI.navigateToUrl(GlobalVariable.URL_lab)
 
 WebUI.maximizeWindow()
 
 WebUI.verifyElementPresent(findTestObject('01-Login and Forgot Password/Login_Card'), 0)
 
-WebUI.delay(GlobalVariable.delay_2seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.verifyElementNotClickable(findTestObject('01-Login and Forgot Password/button_Sign in'))
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_3s)
 

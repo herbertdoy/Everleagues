@@ -22,7 +22,6 @@ WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Contact Inf
 WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Contact Info/button_phone_country_code_dropdown'))
 
 //WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/View Profile/Contact Info/area code modal'))//
-
 WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Contact Info/button_Philippines 63'))
 
 WebUI.setText(findTestObject('03-Header Menu/User Profile/View Profile/Contact Info/phone field'), '9211234567')
@@ -31,15 +30,13 @@ WebUI.sendKeys(findTestObject('03-Header Menu/User Profile/View Profile/Contact 
 
 WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Contact Info/button_Save'))
 
-WebUI.delay(GlobalVariable.delay_3seconds)
-
 WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/View Profile/Contact Info/Success Msg'))
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.mouseOver(findTestObject('03-Header Menu/User Profile/View Profile/Contact Info/phone field'))
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Contact Info/phone remove button'))
 
@@ -49,5 +46,5 @@ WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Contact Inf
 
 WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/View Profile/Contact Info/Success Msg'))
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 

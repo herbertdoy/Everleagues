@@ -25,7 +25,7 @@ WebUI.verifyElementVisible(findTestObject('13-EL Sign/h6_Schedule ELSign receive
 
 WebUI.doubleClick(findTestObject('13-EL Sign/button_CANCEL3'))
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.click(findTestObject('13-EL Sign/button_reminder'))
 
@@ -35,21 +35,21 @@ WebUI.click(findTestObject('13-EL Sign/checkbox_SendReminderNow'))
 
 WebUI.click(findTestObject('13-EL Sign/div_daysDropdown'))
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.click(findTestObject('13-EL Sign/mat-option_2'))
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.click(findTestObject('13-EL Sign/button_Save Schedule'))
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.click(findTestObject('13-EL Sign/button_reminder'))
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.click(findTestObject('13-EL Sign/button_Delete Schedule'))
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_3s)
 

@@ -21,15 +21,15 @@ WebUI.uploadFile(findTestObject('06-Teams/05- Teams-General Channel/button_add i
 
 WebUI.verifyElementVisible(findTestObject('06-Teams/05- Teams-General Channel/added image'))
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.click(findTestObject('06-Teams/05- Teams-General Channel/button_send'))
 
 WebUI.verifyElementVisible(findTestObject('06-Teams/05- Teams-General Channel/added new post msg'))
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.verifyElementVisible(findTestObject('06-Teams/05- Teams-General Channel/posted image'))
 
-WebUI.delay(GlobalVariable.delay_5seconds)
+WebUI.delay(GlobalVariable.delay_5s)
 

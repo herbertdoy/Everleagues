@@ -31,11 +31,11 @@ WebUI.click(findTestObject('07-Directory/Connections/input_Type_phone'))
 
 WebUI.click(findTestObject('07-Directory/Connections/button_area code'))
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.setText(findTestObject('07-Directory/Connections/input_company'), 'Auto Company')
 
 WebUI.setText(findTestObject('07-Directory/Connections/input_position'), 'Automator')
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 

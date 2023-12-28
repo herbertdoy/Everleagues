@@ -21,7 +21,7 @@ WebUI.setText(findTestObject('11-Cloud Files/input_folderName'), GlobalVariable.
 
 WebUI.click(findTestObject('11-Cloud Files/button_Create'))
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.click(findTestObject('11-Cloud Files/button_create_new_folderNew Folder'))
 
@@ -33,7 +33,7 @@ WebUI.setText(findTestObject('11-Cloud Files/input_folderName'), GlobalVariable.
 
 WebUI.click(findTestObject('11-Cloud Files/button_Create'))
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.click(findTestObject('11-Cloud Files/mat-icon_refresh'))
 

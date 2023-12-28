@@ -21,27 +21,27 @@ WebUI.click(findTestObject('14-Income and Expense/button_visibility'))
 
 WebUI.refresh()
 
-WebUI.delay(GlobalVariable.delay_2seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.refresh()
 
 //WebUI.scrollToElement(findTestObject('14-Income and Expense/button_CANCEL2'), 0)
 ///WebUI.click(findTestObject('14-Income and Expense/button_CANCEL2'))
-WebUI.delay(GlobalVariable.delay_2seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.scrollToElement(findTestObject('03-Header Menu/Hamburger Button/div_Income and Expense'), 0)
 
 WebUI.click(findTestObject('03-Header Menu/Hamburger Button/div_Income and Expense'))
 
-WebUI.delay(GlobalVariable.delay_2seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('14-Income and Expense/button_UPDATE'))
 
-WebUI.delay(GlobalVariable.delay_2seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.scrollToElement(findTestObject('14-Income and Expense/label_Income and Expense Report'), 0)
 
 WebUI.click(findTestObject('14-Income and Expense/button_download2'))
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_3s)
 

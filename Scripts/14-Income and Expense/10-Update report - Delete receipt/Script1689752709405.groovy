@@ -23,19 +23,19 @@ WebUI.verifyElementVisible(findTestObject('14-Income and Expense/mat-dialog-cont
 
 WebUI.click(findTestObject('14-Income and Expense/button_No'))
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.click(findTestObject('14-Income and Expense/button_delete_forever'))
 
 WebUI.verifyElementVisible(findTestObject('14-Income and Expense/mat-dialog-container_ReceiptDeleteConfirmationModal'))
 
-WebUI.delay(GlobalVariable.delay_2seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('14-Income and Expense/button_Yes'))
 
-WebUI.delay(GlobalVariable.delay_2seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('14-Income and Expense/button_BACK'))
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_3s)
 

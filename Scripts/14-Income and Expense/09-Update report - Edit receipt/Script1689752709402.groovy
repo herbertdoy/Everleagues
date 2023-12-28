@@ -21,7 +21,7 @@ WebUI.click(findTestObject('14-Income and Expense/button_UPDATE loop'))
 
 //WebUI.click(findTestObject('14-Income and Expense/button_CANCEL'))//
 
-WebUI.delay(GlobalVariable.delay_2seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.scrollToElement(findTestObject('14-Income and Expense/button_edit'), 0)
 
@@ -41,9 +41,9 @@ WebUI.setText(findTestObject('14-Income and Expense/input_Amount'), '40000')
 
 WebUI.setText(findTestObject('14-Income and Expense/input_AddANote'), 'Receipt Note Edit')
 
-WebUI.delay(GlobalVariable.delay_2seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('14-Income and Expense/button_UPDATE2'))
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_3s)
 

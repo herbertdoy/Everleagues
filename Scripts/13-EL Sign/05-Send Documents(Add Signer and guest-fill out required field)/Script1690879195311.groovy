@@ -29,11 +29,11 @@ WebUI.scrollToElement(findTestObject('13-EL Sign/button_SAVE'), 0)
 
 WebUI.click(findTestObject('13-EL Sign/button_SAVE'))
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.click(findTestObject('13-EL Sign/button_personADD SIGNER  FIELD'))
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.click(findTestObject('13-EL Sign/button_person_outlineADD GUEST'))
 

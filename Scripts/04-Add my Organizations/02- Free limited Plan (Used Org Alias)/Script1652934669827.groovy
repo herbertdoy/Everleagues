@@ -23,5 +23,5 @@ WebUI.click(findTestObject('04-Add my Organizations/Free limited Plan/input_orgN
 
 WebUI.verifyElementVisible(findTestObject('04-Add my Organizations/Free limited Plan/mat-error_1234 already exists. Please enter another ID'))
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_2s)
 

@@ -32,9 +32,9 @@ WebUI.click(findTestObject('14-Income and Expense/mat-icon_account'))
 //WebUI.click(findTestObject('14-Income and Expense/mat-option_GG tester 2'))
 WebUI.click(findTestObject('14-Income and Expense/mat-option_GG TESTER'))
 
-WebUI.delay(GlobalVariable.delay_1second)
+WebUI.delay(GlobalVariable.delay_1s)
 
 WebUI.click(findTestObject('14-Income and Expense/button_BEGIN'))
 
-WebUI.delay(GlobalVariable.delay_3seconds)
+WebUI.delay(GlobalVariable.delay_3s)
 
