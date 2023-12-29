@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.delay(GlobalVariable.delay_3s)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.verifyElementVisible(findTestObject('10-Open Video Conference/h5_Meeting Title'))
 
@@ -53,7 +53,7 @@ WebUI.setText(findTestObject('10-Open Video Conference/input_emailPhonenumber'),
 
 WebUI.click(findTestObject('10-Open Video Conference/button_remove_new guests'))
 
-WebUI.delay(GlobalVariable.delay_3s)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.setText(findTestObject('10-Open Video Conference/input_Firstname'), 'Automation')
 
@@ -61,11 +61,11 @@ WebUI.setText(findTestObject('10-Open Video Conference/input_Lastname'), 'Tester
 
 WebUI.setText(findTestObject('10-Open Video Conference/input_emailPhonenumber'), '+1234567890')
 
-WebUI.delay(GlobalVariable.delay_3s)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('10-Open Video Conference/button_add_new guests'))
 
-WebUI.delay(GlobalVariable.delay_4s)
+WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.scrollToElement(findTestObject('10-Open Video Conference/h5_Meeting Title'), 0)
 
@@ -79,5 +79,5 @@ WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('10-Open Video Conference/button_Create another meeting'))
 
-WebUI.delay(GlobalVariable.delay_4s)
+WebUI.delay(GlobalVariable.delay_2s)
 

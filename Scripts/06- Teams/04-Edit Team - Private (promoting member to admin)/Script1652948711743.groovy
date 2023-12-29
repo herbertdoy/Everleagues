@@ -23,5 +23,5 @@ WebUI.click(findTestObject('06-Teams/03-Edit Team - Private/button_promote to ad
 
 WebUI.verifyElementVisible(findTestObject('06-Teams/03-Edit Team - Private/span_Admin'))
 
-WebUI.delay(GlobalVariable.delay_3s)
+WebUI.delay(GlobalVariable.delay_2s)
 

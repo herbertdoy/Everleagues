@@ -24,7 +24,7 @@ WebUI.navigateToUrl(GlobalVariable.URL_lab)
 WebUI.maximizeWindow()
 
 //WebUI.setText(findTestObject('02-Side Icons(Organization)/Add Contact/Email Field'), 'testuser02@mailinator.com')
-WebUI.setText(findTestObject('02-Side Icons(Organization)/Add Contact/Email Field'), GlobalVariable.email_with_subscription)
+WebUI.setText(findTestObject('02-Side Icons(Organization)/Add Contact/Email Field'), GlobalVariable.Y_email_withSubscription_testuser00005)
 
 WebUI.setEncryptedText(findTestObject('02-Side Icons(Organization)/Add Contact/Password Field'), GlobalVariable.password)
 
@@ -41,40 +41,44 @@ WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.switchToWindowIndex(currentWindow + 1)
 
-WebUI.navigateToUrl(GlobalVariable.URL_mailinator)
+//WebUI.navigateToUrl(GlobalVariable.URL_mailinator)
+WebUI.navigateToUrl(GlobalVariable.URL_yopmail)
 
 WebUI.delay(GlobalVariable.delay_3s)
 
 //WebUI.setText(findTestObject('00-Signup and Activation/zMailinator/input_LOGIN_search'), 'testuser02@mailinator.com')
-WebUI.setText(findTestObject('00-Signup and Activation/zMailinator/input_LOGIN_search'), GlobalVariable.email_for_searchmailinator_testuser05)
+//WebUI.setText(findTestObject('00-Signup and Activation/zMailinator/input_LOGIN_search'), GlobalVariable.email_for_searchmailinator_testuser05)
+WebUI.setText(findTestObject('Yopmail/input_Enter your inbox here'), GlobalVariable.email_for_searchmailinator_testuser05)
 
-WebUI.click(findTestObject('00-Signup and Activation/zMailinator/gobutton'), FailureHandling.STOP_ON_FAILURE)
+//WebUI.click(findTestObject('00-Signup and Activation/zMailinator/gobutton'), FailureHandling.STOP_ON_FAILURE)
+WebUI.delay(GlobalVariable.delay_2s)
 
+WebUI.click(findTestObject('Yopmail/button_Next'))
+
+//WebUI.click(findTestObject('00-Signup and Activation/zMailinator/Email - everleagues'))
 WebUI.delay(GlobalVariable.delay_3s)
 
-WebUI.click(findTestObject('00-Signup and Activation/zMailinator/Email - everleagues'))
+String code = WebUI.getText(findTestObject('Yopmail/2FA code-Yopmail'))
 
+//String code = WebUI.getText(findTestObject('Object Repository/06-Teams/For 2FA/2FA code'))
 WebUI.delay(GlobalVariable.delay_3s)
 
-String code = WebUI.getText(findTestObject('Object Repository/06-Teams/For 2FA/2FA code'))
+WebUI.closeWindowTitle('Inbox')
 
-WebUI.delay(GlobalVariable.delay_3s)
-
-WebUI.closeWindowTitle('Mailinator')
-
-WebUI.delay(GlobalVariable.delay_3s)
+//WebUI.closeWindowTitle('Mailinator')
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.switchToWindowIndex(0)
 
-WebUI.delay(GlobalVariable.delay_3s)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.setText(findTestObject('Object Repository/06-Teams/For 2FA/input_Enter verification code_code'), code)
 
-WebUI.delay(GlobalVariable.delay_3s)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('06-Teams/For 2FA/button_Verify_2FA'))
 
-WebUI.delay(GlobalVariable.delay_5s)
+WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.click(findTestObject('06-Teams/button_doublearrow'))
 
@@ -82,7 +86,7 @@ WebUI.click(findTestObject('06-Teams/button_My Organizations'))
 
 WebUI.click(findTestObject('06-Teams/button_GG Automation'))
 
-WebUI.delay(GlobalVariable.delay_4s)
+WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.verifyElementVisible(findTestObject('06-Teams/span_GG Automation'))
 
@@ -108,7 +112,7 @@ WebUI.verifyElementVisible(findTestObject('06-Teams/03-Edit Team - Private/div_C
 
 WebUI.verifyElementVisible(findTestObject('06-Teams/03-Edit Team - Private/div_Settings'))
 
-WebUI.delay(GlobalVariable.delay_3s)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('06-Teams/03-Edit Team - Private/input_name or group'))
 
@@ -116,11 +120,11 @@ WebUI.click(findTestObject('06-Teams/03-Edit Team - Private/select_GG tester 2')
 
 WebUI.verifyElementVisible(findTestObject('06-Teams/03-Edit Team - Private/selected_GG tester 2'))
 
-WebUI.delay(GlobalVariable.delay_3s)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('06-Teams/03-Edit Team - Private/div_INVITE'))
 
 WebUI.verifyElementVisible(findTestObject('06-Teams/03-Edit Team - Private/added_GTGG tester 2'))
 
-WebUI.delay(GlobalVariable.delay_3s)
+WebUI.delay(GlobalVariable.delay_2s)
 

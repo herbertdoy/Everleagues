@@ -6,15 +6,19 @@
    <elementGuidId>6a142ce8-c522-4917-b7ed-d9880b67ed47</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'button' and (text() = 'remove_circle' or . = 'remove_circle')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
-         <value>(//button[@type='button'])[6]</value>
+         <value>//button[@ng-reflect-message='Delete']</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>button.mat-focus-indicator.mat-icon-button.mat-button-base.cdk-focused.cdk-mouse-focused</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>c36f9666-14ca-49c7-bcc7-72df5aca6af5</webElementGuid>
+      <webElementGuid>b5b258ba-bc8e-4755-b758-5d3d42f98b63</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +34,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>d8bf13f2-62c7-4337-acb8-e9a37840e09d</webElementGuid>
+      <webElementGuid>7b097b29-0fa3-4bc3-a649-6d66012b1366</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +42,7 @@
       <name>mattooltipposition</name>
       <type>Main</type>
       <value>above</value>
-      <webElementGuid>5a68af17-cf37-41e0-83db-7c052aff67da</webElementGuid>
+      <webElementGuid>d069358c-3240-4383-8989-1f8b16fa7648</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +50,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-focus-indicator mat-icon-button mat-button-base cdk-focused cdk-mouse-focused</value>
-      <webElementGuid>df9ac3c8-23c1-4ecd-b427-744387c8e244</webElementGuid>
+      <webElementGuid>b2b705ab-368e-4df8-aac7-3543a6f2e5b9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +58,7 @@
       <name>ng-reflect-position</name>
       <type>Main</type>
       <value>above</value>
-      <webElementGuid>bbe94736-a6fa-42a7-a4b9-b0bf6cede2d1</webElementGuid>
+      <webElementGuid>c2c3e194-3582-4c8f-871f-dc1607dcb8c6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +66,7 @@
       <name>ng-reflect-message</name>
       <type>Main</type>
       <value>Delete</value>
-      <webElementGuid>d700e142-e6c6-421c-8bcd-bc969271c44c</webElementGuid>
+      <webElementGuid>1641f3a9-e1a8-488b-8202-3a7d58f513d1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +74,7 @@
       <name>aria-describedby</name>
       <type>Main</type>
       <value>cdk-describedby-message-10</value>
-      <webElementGuid>0a33e966-e750-4aed-a647-faee80ca230d</webElementGuid>
+      <webElementGuid>c7bee6ab-a449-4178-bc95-3c29b5564252</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -78,7 +82,7 @@
       <name>text</name>
       <type>Main</type>
       <value>remove_circle</value>
-      <webElementGuid>6bb51341-4171-4a9b-9b69-b0e84bdb5686</webElementGuid>
+      <webElementGuid>5be9a37d-f0c8-45d0-af0b-bec93affe5b1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -86,7 +90,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/app-root[1]/app-main-page[@class=&quot;ng-tns-c481-0 ng-trigger ng-trigger-routerAnimation ng-star-inserted&quot;]/mat-sidenav-container[@class=&quot;mat-drawer-container mat-sidenav-container ng-tns-c481-0&quot;]/mat-sidenav-content[@class=&quot;mat-drawer-content mat-sidenav-content&quot;]/div[@class=&quot;wrapper&quot;]/app-open-meet[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;open-meet-container&quot;]/div[@class=&quot;content ng-star-inserted&quot;]/div[@class=&quot;body&quot;]/div[1]/input-new-guest[1]/form[@class=&quot;ng-star-inserted ng-touched ng-dirty ng-invalid&quot;]/div[@class=&quot;new-guest-container ng-star-inserted&quot;]/div[1]/button[@class=&quot;mat-focus-indicator mat-icon-button mat-button-base cdk-focused cdk-mouse-focused&quot;]</value>
-      <webElementGuid>70f137ec-13eb-4299-80cb-29cf7f764797</webElementGuid>
+      <webElementGuid>ab834d32-4fb5-4d75-9eb6-5eef5453dd93</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -94,7 +98,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[6]</value>
-      <webElementGuid>fc6e18a7-3440-4e56-a181-f93537fda665</webElementGuid>
+      <webElementGuid>1eba78f9-55d1-4f6a-b532-4f1d7e76b2ec</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +106,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='New Guests'])[1]/following::button[1]</value>
-      <webElementGuid>4b8777d2-ade8-4164-8411-443cccd7a0d7</webElementGuid>
+      <webElementGuid>4e0f6225-3c9f-44dc-b1e1-59f5495ad482</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +114,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Bringing your old and new contacts together!'])[1]/preceding::button[2]</value>
-      <webElementGuid>6bcfbe72-6bd7-48ee-a3b3-532ddf7db669</webElementGuid>
+      <webElementGuid>91acc998-d4c2-4564-8dfd-2a7c99393d57</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +122,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Create meeting'])[1]/preceding::button[2]</value>
-      <webElementGuid>c78e33b8-62c6-432b-bff4-1fd895bd12b5</webElementGuid>
+      <webElementGuid>61f8cefc-e9e4-433d-af52-176ded85d2e5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,7 +130,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//form/div/div/button</value>
-      <webElementGuid>64be7469-f18a-4100-a0bc-6a9bf4fcceab</webElementGuid>
+      <webElementGuid>f5b48d0c-7066-48da-a994-e2ed9808cd62</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,6 +138,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = 'remove_circle' or . = 'remove_circle')]</value>
-      <webElementGuid>f21a8b86-5db7-4e2b-b717-2e3be337abf7</webElementGuid>
+      <webElementGuid>d49d3b22-985e-46bd-9460-da8d6f51eebf</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
