@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//div[contains(@class,'mat-form-field-outline mat-form-field-outline-thick')]/following-sibling::div)[2]</value>
+         <value>(//mat-select[@role='combobox'])[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -18,7 +18,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>DIV</value>
-      <webElementGuid>ca32be0b-c300-4818-9835-b5d395d72cb1</webElementGuid>
+      <webElementGuid>74a04a45-8698-4d28-9b44-cdc09551249b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -26,6 +26,6 @@
       <name>xpath</name>
       <type>Main</type>
       <value>xpath1668505647773</value>
-      <webElementGuid>280b3617-c9a5-4139-a154-41e265c9cc1b</webElementGuid>
+      <webElementGuid>9af66650-a5ab-4ab7-b232-5de7668a0160</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

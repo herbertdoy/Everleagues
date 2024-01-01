@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Purchase_Subscription page</name>
+   <name>span_successfully created meeting</name>
    <tag></tag>
-   <elementGuidId>5d54eca4-ce14-4acb-a845-ccd8a79b2d76</elementGuidId>
+   <elementGuidId>4804c891-b8bb-4a07-98eb-96259a94e420</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//mat-tab-group[@class='mat-tab-group mat-primary']</value>
+         <value>//span[@class = 'mat-simple-snack-bar-content' and (text() = 'Successfully created open meeting' or . = 'Successfully created open meeting')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

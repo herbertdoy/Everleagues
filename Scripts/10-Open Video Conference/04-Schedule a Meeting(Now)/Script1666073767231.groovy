@@ -71,9 +71,11 @@ WebUI.scrollToElement(findTestObject('10-Open Video Conference/h5_Meeting Title'
 
 WebUI.click(findTestObject('10-Open Video Conference/button_Create meeting'))
 
+WebUI.verifyElementVisible(findTestObject('10-Open Video Conference/span_successfully created meeting'))
+
 WebUI.delay(GlobalVariable.delay_3s)
 
-WebUI.verifyElementVisible(findTestObject('10-Open Video Conference/div_link_meetingroom'))
+WebUI.verifyElementVisible(findTestObject('10-Open Video Conference/section_created VC page'))
 
 WebUI.delay(GlobalVariable.delay_2s)
 

@@ -31,5 +31,5 @@ WebUI.click(findTestObject('14-Income and Expense/div_Select Fiscal Year'))
 
 WebUI.click(findTestObject('14-Income and Expense/mat-option_92023'))
 
-WebUI.delay(GlobalVariable.delay_3s)
+WebUI.delay(GlobalVariable.delay_2s)
 

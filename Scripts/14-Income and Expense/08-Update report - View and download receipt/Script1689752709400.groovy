@@ -43,5 +43,5 @@ WebUI.scrollToElement(findTestObject('14-Income and Expense/label_Income and Exp
 
 WebUI.click(findTestObject('14-Income and Expense/button_download2'))
 
-WebUI.delay(GlobalVariable.delay_3s)
+WebUI.delay(GlobalVariable.delay_2s)
 

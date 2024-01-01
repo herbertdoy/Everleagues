@@ -6,15 +6,19 @@
    <elementGuidId>b5410d33-2fac-44cb-9675-99ccc96b05cc</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//mat-icon[(text() = 'clear' or . = 'clear')]</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>button.mat-focus-indicator.mat-icon-button.mat-button-base.mat-warn.cdk-focused.cdk-mouse-focused > span.mat-button-wrapper > mat-icon.mat-icon.notranslate.material-icons.mat-icon-no-color</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//mat-dialog-container[@id='mat-dialog-15']/app-iet-company/span/button/span/mat-icon</value>
+         <value>//button[@color='warn']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>mat-icon</value>
-      <webElementGuid>9e2d2cf1-dd5c-409d-8d60-52d8f473c24c</webElementGuid>
+      <webElementGuid>0d67bb25-f86a-4e8d-801d-06fa5364a1cc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +34,7 @@
       <name>role</name>
       <type>Main</type>
       <value>img</value>
-      <webElementGuid>d2763063-a271-430b-bb58-997cf1b68b40</webElementGuid>
+      <webElementGuid>48c6f370-9a24-4260-b3ae-4ac6fc833bc1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +42,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-icon notranslate material-icons mat-icon-no-color</value>
-      <webElementGuid>a2268971-6c48-4d8a-be98-b86e64315628</webElementGuid>
+      <webElementGuid>bd4376c1-b9b8-4e50-91c6-19b307fc6201</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +50,7 @@
       <name>aria-hidden</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>2b7529b5-5aef-43b6-82d7-609e6c3e9f24</webElementGuid>
+      <webElementGuid>5fd4228d-8161-4739-a866-9b2454bdba88</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +58,7 @@
       <name>text</name>
       <type>Main</type>
       <value>clear</value>
-      <webElementGuid>56e6e347-c241-4dee-bf88-253dee110843</webElementGuid>
+      <webElementGuid>0107fcaf-dd88-465d-a64e-77fefdfae228</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +66,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-dialog-15&quot;)/app-iet-company[@class=&quot;ng-star-inserted&quot;]/span[1]/button[@class=&quot;mat-focus-indicator mat-icon-button mat-button-base mat-warn cdk-focused cdk-mouse-focused&quot;]/span[@class=&quot;mat-button-wrapper&quot;]/mat-icon[@class=&quot;mat-icon notranslate material-icons mat-icon-no-color&quot;]</value>
-      <webElementGuid>860c4490-b75d-40e4-a318-e5ec0119ef99</webElementGuid>
+      <webElementGuid>9c51f408-0d9f-49fc-a46d-789d3a2238d9</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -70,7 +74,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-dialog-container[@id='mat-dialog-15']/app-iet-company/span/button/span/mat-icon</value>
-      <webElementGuid>bf8a263d-707c-4561-8707-31af18fb503c</webElementGuid>
+      <webElementGuid>85d812ac-58a9-41a1-8655-4f6b9edb3d53</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Add Company'])[1]/following::mat-icon[1]</value>
-      <webElementGuid>a51415a7-fc4d-409f-a5f5-e1af1e21682d</webElementGuid>
+      <webElementGuid>c7d5ee77-3659-4a42-a878-13074db7062b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='+'])[1]/following::mat-icon[5]</value>
-      <webElementGuid>60aae2dd-b07a-4b26-bbd2-f53ace5fa3b7</webElementGuid>
+      <webElementGuid>b82896df-7561-4843-8896-715bf8731cd0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Company Name'])[1]/preceding::mat-icon[1]</value>
-      <webElementGuid>6c767c0d-1eaa-4d2f-b1b7-4d9e1937e864</webElementGuid>
+      <webElementGuid>a0f2d70b-dc0d-45c8-a685-141f3d9bd3da</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +106,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Company name is required'])[1]/preceding::mat-icon[1]</value>
-      <webElementGuid>7e44b894-92a4-4a52-bdab-98c3cc591b4d</webElementGuid>
+      <webElementGuid>dcaac61d-bd17-471a-9af4-d4481dbcb2a8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +114,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='clear']/parent::*</value>
-      <webElementGuid>32a0752f-fc64-48a4-a442-66a4294f0178</webElementGuid>
+      <webElementGuid>9c070a98-9650-4adb-aab3-42369c79bf7b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +122,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//span/button/span/mat-icon</value>
-      <webElementGuid>5ef18103-7836-4ba6-94eb-9dbff57a28de</webElementGuid>
+      <webElementGuid>71ecfa3e-4515-4957-957a-18dcf354f201</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,6 +130,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//mat-icon[(text() = 'clear' or . = 'clear')]</value>
-      <webElementGuid>275b51ca-fcd8-4abc-8ece-15afd4607bef</webElementGuid>
+      <webElementGuid>4bf26812-2a4c-46c6-99c3-ccf3cc502381</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

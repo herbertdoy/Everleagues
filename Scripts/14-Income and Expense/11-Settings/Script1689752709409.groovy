@@ -43,9 +43,9 @@ WebUI.click(findTestObject('14-Income and Expense/dropdown_ChoosingDate'))
 
 WebUI.click(findTestObject('14-Income and Expense/mat-option_End of December'))
 
-WebUI.delay(GlobalVariable.delay_3s)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('14-Income and Expense/button_UPDATE3'))
 
-WebUI.delay(GlobalVariable.delay_3s)
+WebUI.delay(GlobalVariable.delay_2s)
 

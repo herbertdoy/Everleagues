@@ -23,9 +23,8 @@ WebUI.navigateToUrl(GlobalVariable.URL_lab)
 
 WebUI.maximizeWindow()
 
-//WebUI.callTestCase(findTestCase('01-Login and Forgot Password/04-Login (Valid Credentials-Without Subscription)'), [:], 
-//    FailureHandling.STOP_ON_FAILURE)
-WebUI.callTestCase(findTestCase('01-Login and Forgot Password/04-Login(Valid Credentials-With Subscription)'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('01-Login and Forgot Password/04-Login (Valid Credentials-Without Subscription)'), [:], 
+    FailureHandling.CONTINUE_ON_FAILURE)
 
 //WebUI.setText(findTestObject('02-Side Icons(Organization)/Add Contact/Email Field'), 'testuser02@mailinator.com')
 //WebUI.setEncryptedText(findTestObject('02-Side Icons(Organization)/Add Contact/Password Field'), '8yFRyszE6U6jvsCn51OQbg==')
@@ -61,27 +60,27 @@ WebUI.click(findTestObject('06-Teams/button_My Organizations'))
 
 WebUI.click(findTestObject('02-Side Icons(Organization)/Add Contact/button_Automation Test Org'))
 
-WebUI.delay(GlobalVariable.delay_4s)
+WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.verifyElementVisible(findTestObject('02-Side Icons(Organization)/Add Contact/span_Automation Test Org'))
 
-WebUI.delay(GlobalVariable.delay_5s)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.scrollToElement(findTestObject('03-Header Menu/Hamburger Button/div_Income and Expense'), 0)
 
 WebUI.click(findTestObject('03-Header Menu/Hamburger Button/div_Income and Expense'))
 
-WebUI.verifyElementVisible(findTestObject('14-Income and Expense/div_IncomeAndExpense Tracker'))
+WebUI.verifyElementVisible(findTestObject('14-Income and Expense/div_IncomeAndExpense'))
 
-WebUI.verifyElementVisible(findTestObject('14-Income and Expense/th_Income  Expense Tracker'))
+WebUI.verifyElementVisible(findTestObject('14-Income and Expense/label_Income Expense Tracker'))
 
-WebUI.delay(GlobalVariable.delay_3s)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('14-Income and Expense/button_ADD COMPANY'))
 
 WebUI.click(findTestObject('14-Income and Expense/mat-icon_clear'))
 
-WebUI.delay(GlobalVariable.delay_3s)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('14-Income and Expense/button_ADD COMPANY'))
 
@@ -105,5 +104,5 @@ WebUI.verifyElementVisible(findTestObject('14-Income and Expense/mat-error_Compa
 
 WebUI.verifyElementNotClickable(findTestObject('14-Income and Expense/button_BEGIN'))
 
-WebUI.delay(GlobalVariable.delay_3s)
+WebUI.delay(GlobalVariable.delay_2s)
 
