@@ -6,12 +6,11 @@
    <elementGuidId>d7eabf9e-5d21-4085-a78a-67ce47fe8677</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>(//button[contains(@class,'mat-focus-indicator text-upper')])[2]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>(//button[@color='accent'])[2]</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

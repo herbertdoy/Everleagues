@@ -6,15 +6,19 @@
    <elementGuidId>4eaa9f68-f497-4edf-9e2a-f0ab68a6f7c7</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>(//button[contains(@class,'mat-focus-indicator text-upper')])[2]</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>button.mat-focus-indicator.text-upper.mat-raised-button.mat-button-base.mat-accent.ng-star-inserted.cdk-focused.cdk-mouse-focused</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//mat-dialog-container[@id='mat-dialog-21']/app-iet-addreceipt/div/div/div[2]/div/span/button</value>
+         <key>BASIC</key>
+         <value>//button[(text() = ' Done check_circle_outline' or . = ' Done check_circle_outline')]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>332827e5-07cc-4aea-b31c-657b9a8c89ba</webElementGuid>
+      <webElementGuid>e578ad95-d59b-4d50-ada1-1199d55ebd88</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +34,7 @@
       <name>color</name>
       <type>Main</type>
       <value>accent</value>
-      <webElementGuid>638e81f1-edab-4659-b8e5-43e51980d4df</webElementGuid>
+      <webElementGuid>91b7d0b0-47e0-46c9-9ea9-b32386700efe</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +42,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-focus-indicator text-upper mat-raised-button mat-button-base mat-accent ng-star-inserted cdk-focused cdk-mouse-focused</value>
-      <webElementGuid>b7a1f078-ab68-409b-89b8-a38f34f33474</webElementGuid>
+      <webElementGuid>21f4562d-d25e-4b6b-bbc7-27308e60376e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +50,7 @@
       <name>ng-reflect-color</name>
       <type>Main</type>
       <value>accent</value>
-      <webElementGuid>8055a0e2-da37-4041-b0e8-0d14c8fbe9ef</webElementGuid>
+      <webElementGuid>2d6429f3-b53d-44b6-9ba7-a0c4f2b7ea84</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +58,7 @@
       <name>ng-reflect-disabled</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>61c6188c-5eaa-41a1-a941-4b8670744146</webElementGuid>
+      <webElementGuid>22bed141-4daa-4bed-9597-d15372677e2b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -62,7 +66,7 @@
       <name>text</name>
       <type>Main</type>
       <value> Done check_circle_outline</value>
-      <webElementGuid>0cf49820-979e-458c-84fc-1926bb7f2428</webElementGuid>
+      <webElementGuid>83e5da84-1787-40b6-abd9-ffb7fd22d30e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +74,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-dialog-21&quot;)/app-iet-addreceipt[@class=&quot;ng-star-inserted&quot;]/div[1]/div[@class=&quot;invgridColumn&quot;]/div[@class=&quot;button-row&quot;]/div[1]/span[@class=&quot;ng-star-inserted&quot;]/button[@class=&quot;mat-focus-indicator text-upper mat-raised-button mat-button-base mat-accent ng-star-inserted cdk-focused cdk-mouse-focused&quot;]</value>
-      <webElementGuid>c5ae5e50-abef-4908-bfcd-4cedb5fb8c1b</webElementGuid>
+      <webElementGuid>a915102c-2895-4a16-a9d7-db76dc0277c8</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -78,7 +82,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-dialog-container[@id='mat-dialog-21']/app-iet-addreceipt/div/div/div[2]/div/span/button</value>
-      <webElementGuid>c0ba71e5-a888-4ad2-afda-ab126d9a6a2e</webElementGuid>
+      <webElementGuid>cbd349a0-0b1f-4069-b3c7-61664561f7c7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='CANCEL'])[1]/following::button[1]</value>
-      <webElementGuid>5962dfb1-0c49-4bc7-95c7-c4c1bdedca57</webElementGuid>
+      <webElementGuid>aaab671e-479a-4f96-b16b-dcf66ee61527</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Add a note'])[1]/following::button[2]</value>
-      <webElementGuid>90a0471c-6c56-4d35-bc54-c331839ec178</webElementGuid>
+      <webElementGuid>bd0f9bc2-afd3-4023-a5d2-fa6cdcf17415</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +106,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Hide Quick Shortcuts'])[1]/preceding::button[1]</value>
-      <webElementGuid>a544be39-f927-4600-8929-6ed80ad690da</webElementGuid>
+      <webElementGuid>17ec060d-0556-415c-851b-ea6d77df71c6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +114,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/span/button</value>
-      <webElementGuid>a8156f81-13a1-40a5-b975-f4cf8c789837</webElementGuid>
+      <webElementGuid>4e416641-4290-4e9e-a5a1-a7c8ce63cb81</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,6 +122,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[(text() = ' Done check_circle_outline' or . = ' Done check_circle_outline')]</value>
-      <webElementGuid>ea1f3a1a-06aa-4745-bae9-86e8e0d21cd4</webElementGuid>
+      <webElementGuid>9357ad04-0919-4512-9ea3-6dcb2599f943</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

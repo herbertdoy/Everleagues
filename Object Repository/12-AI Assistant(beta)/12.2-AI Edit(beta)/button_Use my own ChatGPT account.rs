@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>mat-option_92023</name>
+   <name>button_Use my own ChatGPT account</name>
    <tag></tag>
-   <elementGuidId>249fa310-7107-47dd-99fb-3e199b6164bf</elementGuidId>
+   <elementGuidId>48e85c7f-850d-4f60-a7c2-1229958e75a5</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@role='listbox']//mat-option[1]</value>
+         <value>(//button[@ng-reflect-color='primary'])[1]</value>
       </entry>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

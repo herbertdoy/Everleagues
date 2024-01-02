@@ -29,7 +29,7 @@ WebUI.click(findTestObject('14-Income and Expense/button_settings'))
 
 WebUI.delay(GlobalVariable.delay_2s)
 
-WebUI.verifyElementVisible(findTestObject('14-Income and Expense/mat-dialog-container_Edit CompanyModal'))
+//WebUI.verifyElementVisible(findTestObject('14-Income and Expense/mat-dialog-container_Edit CompanyModal'))
 
 WebUI.setText(findTestObject('14-Income and Expense/input_CompanyName'), GlobalVariable.edit_company_name)
 

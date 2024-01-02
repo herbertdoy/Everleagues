@@ -7,14 +7,18 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='GG tester 2'])[1]/following::button[1]</value>
+         <value>//button[@mattooltip='Add Receipt']</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>button.mat-focus-indicator.mat-icon-button.mat-button-base.cdk-focused.cdk-mouse-focused</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//button[@mattooltip = 'Add Receipt' and (text() = 'attach_fileAdd' or . = 'attach_fileAdd')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>78eaf257-1a40-4c56-ae8d-7bf38fa7056a</webElementGuid>
+      <webElementGuid>b1e322e9-8905-466a-967f-ed39ec64a49d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +34,7 @@
       <name>mattooltip</name>
       <type>Main</type>
       <value>Add Receipt</value>
-      <webElementGuid>989a94ab-e203-4221-a9e1-34e467cede1c</webElementGuid>
+      <webElementGuid>db4ec146-a457-4d9a-946d-5fca3f3efb0e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +42,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-focus-indicator mat-icon-button mat-button-base cdk-focused cdk-mouse-focused</value>
-      <webElementGuid>718515aa-0d84-4848-8f7b-44dc6dd40104</webElementGuid>
+      <webElementGuid>d468b011-d70e-409d-bead-8488390facee</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +50,7 @@
       <name>ng-reflect-message</name>
       <type>Main</type>
       <value>Add Receipt</value>
-      <webElementGuid>6636b5b1-74d3-4882-a7b6-cb77303693ee</webElementGuid>
+      <webElementGuid>06b8db16-43f3-4114-871a-d5d808e07c53</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +58,7 @@
       <name>aria-describedby</name>
       <type>Main</type>
       <value>cdk-describedby-message-7</value>
-      <webElementGuid>3de5a0c2-d31a-46fe-9ddd-b9b32fa65121</webElementGuid>
+      <webElementGuid>6a58456d-d047-4fc0-acba-5a6fa6bc86f9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -62,7 +66,7 @@
       <name>text</name>
       <type>Main</type>
       <value>attach_fileAdd</value>
-      <webElementGuid>b752ac84-46fb-4788-b8b2-d9873ffd0d85</webElementGuid>
+      <webElementGuid>f0e95cba-6d43-45f7-99f0-e502ce8c67c8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +74,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/app-root[1]/app-main-page[@class=&quot;ng-tns-c481-5 ng-trigger ng-trigger-routerAnimation ng-star-inserted&quot;]/mat-sidenav-container[@class=&quot;mat-drawer-container mat-sidenav-container ng-tns-c481-5 mat-drawer-transition mat-drawer-container-has-open&quot;]/mat-sidenav-content[@class=&quot;mat-drawer-content mat-sidenav-content&quot;]/div[@class=&quot;wrapper&quot;]/app-iet-settings[@class=&quot;ng-star-inserted&quot;]/mat-table[@class=&quot;mat-table cdk-table mat-elevation-z8 ng-star-inserted&quot;]/mat-row[@class=&quot;mat-row cdk-row ng-star-inserted&quot;]/mat-cell[@class=&quot;mat-cell cdk-cell cdk-column-addReceipt mat-column-addReceipt ng-star-inserted&quot;]/button[@class=&quot;mat-focus-indicator mat-icon-button mat-button-base cdk-focused cdk-mouse-focused&quot;]</value>
-      <webElementGuid>0e998248-32d3-4c82-94f1-9d360bb1394c</webElementGuid>
+      <webElementGuid>a1338745-8af5-46f2-9052-78b8d78c2a43</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -78,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='GG tester 2'])[1]/following::button[1]</value>
-      <webElementGuid>5b1915c7-716c-4612-b0de-d84e07375226</webElementGuid>
+      <webElementGuid>080e02ca-0cca-407a-9f10-ce3ef0bbd578</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='GG TESTER'])[2]/following::button[1]</value>
-      <webElementGuid>1e22fda4-833d-4f50-822e-3ab04d44f641</webElementGuid>
+      <webElementGuid>eeee7280-64f9-4fdb-8de0-024a7ffb92b6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='UPDATE'])[1]/preceding::button[1]</value>
-      <webElementGuid>eaf0a17d-e7f1-4576-9205-e2e86e1444c2</webElementGuid>
+      <webElementGuid>929bd9b7-f763-483a-904e-c95f6b8fb5f7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +106,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//mat-cell[5]/button</value>
-      <webElementGuid>e059c27f-1d89-41b5-99ce-c4fe7d39359f</webElementGuid>
+      <webElementGuid>ecdda02c-2e32-4ac3-bdcd-74a54ee35b56</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,6 +114,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[(text() = 'attach_fileAdd' or . = 'attach_fileAdd')]</value>
-      <webElementGuid>5f43edb8-f2d7-439f-ac55-9f9effe207df</webElementGuid>
+      <webElementGuid>a8cc2251-cfdd-4012-a5ac-08aa98ab9ecb</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

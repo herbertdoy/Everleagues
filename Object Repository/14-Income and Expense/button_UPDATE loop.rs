@@ -6,15 +6,19 @@
    <elementGuidId>a5fcc4f6-92db-42e9-b436-3a7f835c1e02</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>(//button[contains(@class,'mat-focus-indicator text-upper')])[2]</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>button.mat-focus-indicator.text-upper.mat-raised-button.mat-button-base.mat-accent.ng-star-inserted</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//mat-dialog-container[@id='mat-dialog-3']/app-iet-addreceipt/div/div/div[2]/div/span[2]/button</value>
+         <key>BASIC</key>
+         <value>//*[(text() = ' UPDATE loop' or . = ' UPDATE loop')]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>44a9ad72-751a-47ab-b0ec-7a8bdfdfa6cb</webElementGuid>
+      <webElementGuid>18a35c66-5026-48f6-ae14-e2594e7189e4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +34,7 @@
       <name>color</name>
       <type>Main</type>
       <value>accent</value>
-      <webElementGuid>3147f340-bacc-4a4d-9b03-dbd54e21693c</webElementGuid>
+      <webElementGuid>2d42dedc-577c-464c-a600-7369751ff684</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +42,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-focus-indicator text-upper mat-raised-button mat-button-base mat-accent ng-star-inserted</value>
-      <webElementGuid>24ef12e0-ba51-4279-a5df-ae7a575d6503</webElementGuid>
+      <webElementGuid>b6e8d5bc-b760-4991-bec0-2aeb5ad3794d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +50,7 @@
       <name>ng-reflect-color</name>
       <type>Main</type>
       <value>accent</value>
-      <webElementGuid>a0af7f39-6c26-47b9-979d-a404ef0b2b4d</webElementGuid>
+      <webElementGuid>8bc7dd4b-add2-4299-af1e-b69cfa0bb61e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +58,7 @@
       <name>ng-reflect-disabled</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>fba4dc0b-5ef7-4885-be05-00b891909fa4</webElementGuid>
+      <webElementGuid>594213af-29df-410c-8549-05cdd0caf196</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -62,7 +66,7 @@
       <name>text</name>
       <type>Main</type>
       <value> UPDATE loop</value>
-      <webElementGuid>95bb6802-580e-47a4-8cea-c89c42695a27</webElementGuid>
+      <webElementGuid>5983f541-17f8-4404-bf71-84253d969bf5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +74,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-dialog-3&quot;)/app-iet-addreceipt[@class=&quot;ng-star-inserted&quot;]/div[1]/div[@class=&quot;invgridColumn&quot;]/div[@class=&quot;button-row&quot;]/div[1]/span[@class=&quot;ng-star-inserted&quot;]/button[@class=&quot;mat-focus-indicator text-upper mat-raised-button mat-button-base mat-accent ng-star-inserted&quot;]</value>
-      <webElementGuid>6cdac3dd-107b-489b-98f0-40c099d4d2c8</webElementGuid>
+      <webElementGuid>43b03e7e-7ce0-4574-9e04-9e89bada8029</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -78,7 +82,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-dialog-container[@id='mat-dialog-3']/app-iet-addreceipt/div/div/div[2]/div/span[2]/button</value>
-      <webElementGuid>80361c76-0c41-4d9c-8887-ce79824fe8c0</webElementGuid>
+      <webElementGuid>a378d90e-c4ce-421a-930f-07e4ceccc8b7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='CANCEL'])[1]/following::button[1]</value>
-      <webElementGuid>18132427-18e2-4f5a-b6b1-c75fdcf5736e</webElementGuid>
+      <webElementGuid>ea0b0dc6-174f-473e-b0ee-59e3885c8edc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Add a note'])[1]/following::button[2]</value>
-      <webElementGuid>c8d316d9-fe88-4b00-b94b-1580f369e9ca</webElementGuid>
+      <webElementGuid>d0cf7a1c-5e69-4f43-bdb9-c919b46e3048</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +106,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='GG Automation'])[2]/preceding::button[1]</value>
-      <webElementGuid>447de3e0-9ea2-4497-a51b-48107598ba2f</webElementGuid>
+      <webElementGuid>ed7f8973-7dd6-43ff-97bd-ca1a65d34c72</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +114,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/span[2]/button</value>
-      <webElementGuid>21dc75be-65dd-44cf-96a9-7a64c1f7510f</webElementGuid>
+      <webElementGuid>60fd999c-7943-43a8-8b31-96e726968e14</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,6 +122,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[(text() = ' UPDATE loop' or . = ' UPDATE loop')]</value>
-      <webElementGuid>531c6371-37e8-4b0c-869d-6028969d27de</webElementGuid>
+      <webElementGuid>b7cbafae-6192-4fe8-b084-183903364076</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

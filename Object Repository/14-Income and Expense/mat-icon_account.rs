@@ -6,15 +6,19 @@
    <elementGuidId>dae82313-3026-45b0-8ce4-a091a49a4a7b</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>(//mat-icon[@data-mat-icon-name='users'])[3]</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>div.mat-chip-list-wrapper > mat-icon.mat-icon.notranslate.material-icons.mat-icon-no-color</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//mat-chip-list[@id='mat-chip-list-10']/div/mat-icon</value>
+         <key>BASIC</key>
+         <value>//mat-icon[(text() = 'supervisor_account' or . = 'supervisor_account')]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>mat-icon</value>
-      <webElementGuid>58b3f852-7ac5-479b-befb-9f1d089c88a7</webElementGuid>
+      <webElementGuid>b214bd22-8f9f-4248-9395-b4fb992a41ac</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +34,7 @@
       <name>role</name>
       <type>Main</type>
       <value>img</value>
-      <webElementGuid>34e573d3-0c7d-4dc9-a968-532bde39b8dd</webElementGuid>
+      <webElementGuid>f86376e9-4856-4d07-9bbe-47cc48015eb8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +42,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-icon notranslate material-icons mat-icon-no-color</value>
-      <webElementGuid>1095e417-5b59-4421-b249-a20a622ebc67</webElementGuid>
+      <webElementGuid>f92cc909-ba29-44ea-9a11-0a0454d42990</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +50,7 @@
       <name>aria-hidden</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>2536339f-4e07-485f-abb7-4a0a69de52e9</webElementGuid>
+      <webElementGuid>5d3fa96f-628a-42ec-a128-5dfed3745c8a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +58,7 @@
       <name>text</name>
       <type>Main</type>
       <value>supervisor_account</value>
-      <webElementGuid>d4077b0d-89de-4e87-b459-170911fe877e</webElementGuid>
+      <webElementGuid>90aa16d8-544e-4307-8c89-5e7cc8f5a8a9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +66,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-chip-list-10&quot;)/div[@class=&quot;mat-chip-list-wrapper&quot;]/mat-icon[@class=&quot;mat-icon notranslate material-icons mat-icon-no-color&quot;]</value>
-      <webElementGuid>87cafc49-4e77-4f4e-95de-bd9e74d372ee</webElementGuid>
+      <webElementGuid>dc0ec421-0e02-498c-9029-598bba270454</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -70,7 +74,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-chip-list[@id='mat-chip-list-10']/div/mat-icon</value>
-      <webElementGuid>de0e795f-8743-4b74-8b3b-ebb2753a47c0</webElementGuid>
+      <webElementGuid>48d61c13-3b38-4849-8dfd-1d150d6cd60a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Closing Date'])[1]/following::mat-icon[1]</value>
-      <webElementGuid>5d42d0e1-3ae0-4d44-ac23-84b0a2711cb5</webElementGuid>
+      <webElementGuid>427cfbc9-73ec-4c95-9345-1676c33dd24c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='End of December'])[1]/following::mat-icon[1]</value>
-      <webElementGuid>1abe46f5-d486-422d-a1c9-43e164ef7e79</webElementGuid>
+      <webElementGuid>070ae187-fd78-4c5e-966a-2168a1aad8bf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Share With'])[1]/preceding::mat-icon[1]</value>
-      <webElementGuid>bbe88305-a8fd-405c-ba09-39593b5a398a</webElementGuid>
+      <webElementGuid>c01568ea-ff29-4c37-b13b-329f7a42802d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +106,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='CANCEL'])[1]/preceding::mat-icon[1]</value>
-      <webElementGuid>4afdd264-f5bc-4b13-b719-3c8a6254eb3d</webElementGuid>
+      <webElementGuid>444503bd-ba78-4778-9099-bf1ccb5a09fa</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +114,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='supervisor_account']/parent::*</value>
-      <webElementGuid>42417e96-7d26-49e5-bdea-2335936ef474</webElementGuid>
+      <webElementGuid>227d3822-35c7-420b-9702-eba73dc44a7d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +122,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//mat-chip-list/div/mat-icon</value>
-      <webElementGuid>ed93c0a6-406b-47fc-a3c8-3635bbe43a5f</webElementGuid>
+      <webElementGuid>f19b8484-3a54-4a5d-9de4-179358aa66de</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,6 +130,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//mat-icon[(text() = 'supervisor_account' or . = 'supervisor_account')]</value>
-      <webElementGuid>dc23e785-92a5-4133-9ad4-aa7c5bbebcfb</webElementGuid>
+      <webElementGuid>df445e59-b471-4db4-86c1-cb6a9efabc5a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>mat-option_92023</name>
+   <name>label_Receipt</name>
    <tag></tag>
-   <elementGuidId>249fa310-7107-47dd-99fb-3e199b6164bf</elementGuidId>
+   <elementGuidId>93d7e254-8ce1-4167-907e-6235b8281e58</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@role='listbox']//mat-option[1]</value>
+         <value>//label[text()='Receipt']</value>
       </entry>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

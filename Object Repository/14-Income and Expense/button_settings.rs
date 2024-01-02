@@ -6,15 +6,19 @@
    <elementGuidId>8df6fb55-4c99-47d3-895d-f5c4491d9943</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>//button[@mattooltip='Edit Company']</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>button.mat-focus-indicator.mat-icon-button.mat-button-base.ng-star-inserted.cdk-focused.cdk-mouse-focused</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='UPDATE'])[1]/following::button[1]</value>
+         <key>BASIC</key>
+         <value>//button[@mattooltip = 'Edit Company' and (text() = 'settings' or . = 'settings')]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>82138c5a-4665-46dd-9db1-83bf62ce753b</webElementGuid>
+      <webElementGuid>7483d470-d177-4408-937b-8edce4440180</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +34,7 @@
       <name>mattooltip</name>
       <type>Main</type>
       <value>Edit Company</value>
-      <webElementGuid>3f7d8542-3401-44fe-9a8e-1d0b9cde6491</webElementGuid>
+      <webElementGuid>281d83d0-3bf7-4cb7-b310-f9699ca8a064</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +42,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-focus-indicator mat-icon-button mat-button-base ng-star-inserted cdk-focused cdk-mouse-focused</value>
-      <webElementGuid>3d12651c-e36c-4871-8e97-37d9fe78afed</webElementGuid>
+      <webElementGuid>638572a6-33a7-4160-95f3-77e1678d2490</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +50,7 @@
       <name>ng-reflect-message</name>
       <type>Main</type>
       <value>Edit Company</value>
-      <webElementGuid>b9930ac8-05da-4a1c-9a62-72d72513b201</webElementGuid>
+      <webElementGuid>4a0c315d-fcb1-4231-bc53-89938848ce00</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +58,7 @@
       <name>aria-describedby</name>
       <type>Main</type>
       <value>cdk-describedby-message-9</value>
-      <webElementGuid>3857e392-412c-4e10-910a-f95e3f211e44</webElementGuid>
+      <webElementGuid>9aea5266-cdaf-4883-b29b-ccd165bde508</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -62,7 +66,7 @@
       <name>text</name>
       <type>Main</type>
       <value>settings</value>
-      <webElementGuid>91df1e86-0b8e-4432-bc1d-62497fe9f7b4</webElementGuid>
+      <webElementGuid>a348890c-8439-4894-b05a-28cf9b3f16ab</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +74,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/app-root[1]/app-main-page[@class=&quot;ng-tns-c481-5 ng-trigger ng-trigger-routerAnimation ng-star-inserted&quot;]/mat-sidenav-container[@class=&quot;mat-drawer-container mat-sidenav-container ng-tns-c481-5 mat-drawer-transition mat-drawer-container-has-open&quot;]/mat-sidenav-content[@class=&quot;mat-drawer-content mat-sidenav-content&quot;]/div[@class=&quot;wrapper&quot;]/app-iet-settings[@class=&quot;ng-star-inserted&quot;]/mat-table[@class=&quot;mat-table cdk-table mat-elevation-z8 ng-star-inserted&quot;]/mat-row[@class=&quot;mat-row cdk-row ng-star-inserted&quot;]/mat-cell[@class=&quot;mat-cell cdk-cell cdk-column-settings mat-column-settings ng-star-inserted&quot;]/button[@class=&quot;mat-focus-indicator mat-icon-button mat-button-base ng-star-inserted cdk-focused cdk-mouse-focused&quot;]</value>
-      <webElementGuid>67eac8ad-a1ca-4770-b1d2-b36eed43f249</webElementGuid>
+      <webElementGuid>abf6fe11-5469-4042-b81d-4ee4dd8ca8eb</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -78,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='UPDATE'])[1]/following::button[1]</value>
-      <webElementGuid>1a4e5768-4160-4c88-a1d9-b0131ff35fa7</webElementGuid>
+      <webElementGuid>18837f75-a3bc-4302-bad8-48e892073ace</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Add'])[1]/following::button[2]</value>
-      <webElementGuid>0b7a9369-65fb-4465-bcb4-9ea74f3085c5</webElementGuid>
+      <webElementGuid>d8138a01-85f9-4c66-be67-3859c4c55efd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Edit Company'])[1]/preceding::button[6]</value>
-      <webElementGuid>ce4b1783-97c0-42ef-8b23-67473c001279</webElementGuid>
+      <webElementGuid>fec3e4ae-07b7-474d-9392-c6f8ce56b985</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +106,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Hide Quick Shortcuts'])[1]/preceding::button[6]</value>
-      <webElementGuid>5bdb1a4a-49ce-43c1-9a79-cc74d52be3cb</webElementGuid>
+      <webElementGuid>99140d4a-792a-4fad-907b-9511dac5ab7c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +114,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//mat-cell[7]/button</value>
-      <webElementGuid>9db78743-af1c-42c5-afe7-6f775e0eb790</webElementGuid>
+      <webElementGuid>c6cc641d-69d9-41ae-8991-ececd75ab2ad</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,6 +122,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[(text() = 'settings' or . = 'settings')]</value>
-      <webElementGuid>c9ff3c5a-1eee-4673-88df-eb687bb0bdd5</webElementGuid>
+      <webElementGuid>3660b2ba-a727-421e-a317-069c57b1e83b</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

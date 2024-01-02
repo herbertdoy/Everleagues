@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>mat-option_92023</name>
+   <name>button_CANCEL3</name>
    <tag></tag>
-   <elementGuidId>249fa310-7107-47dd-99fb-3e199b6164bf</elementGuidId>
+   <elementGuidId>85cd6abb-af6c-41db-ba56-44773ce3a254</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@role='listbox']//mat-option[1]</value>
+         <value>//button[(text() = 'CANCEL' or . = 'CANCEL')]</value>
       </entry>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

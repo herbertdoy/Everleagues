@@ -25,7 +25,7 @@ WebUI.click(findTestObject('14-Income and Expense/button_BACK'))
 
 WebUI.delay(GlobalVariable.delay_2s)
 
-WebUI.click(findTestObject('14-Income and Expense/button_insert_chart_outlinedUPDATE'))
+WebUI.click(findTestObject('14-Income and Expense/button_UPDATE'))
 
 WebUI.click(findTestObject('14-Income and Expense/div_Select Fiscal Year'))
 
