@@ -17,41 +17,38 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+//WebUI.openBrowser('')
+//
+//WebUI.navigateToUrl(GlobalVariable.URL_login)
+//
+//WebUI.maximizeWindow()
+//
+//WebUI.callTestCase(findTestCase('01-Login and Forgot Password/04-Login(Valid Credentials-With Subscription)'), [:], FailureHandling.STOP_ON_FAILURE)
+//
+//WebUI.click(findTestObject('06-Teams/button_doublearrow'))
+//
+//WebUI.click(findTestObject('06-Teams/button_My Organizations'))
+//
+//WebUI.click(findTestObject('02-Side Icons(Organization)/Add Contact/button_Automation Test Org'))
+//WebUI.delay(GlobalVariable.delay_3s)
+//
+//WebUI.verifyElementVisible(findTestObject('02-Side Icons(Organization)/Add Contact/span_Automation Test Org'))
+WebUI.delay(GlobalVariable.delay_2s)
 
-WebUI.navigateToUrl(GlobalVariable.URL_login)
+//WebUI.scrollToElement(findTestObject('12-AI Assistant(beta)/AI asst button-Side panel'), 30)
+//
+//WebUI.click(findTestObject('12-AI Assistant(beta)/AI asst button-Side panel'))
+//
+//WebUI.verifyElementVisible(findTestObject('12-AI Assistant(beta)/AI asst button-Side panel'))
+//
+//WebUI.delay(GlobalVariable.delay_3s)
+//WebUI.click(findTestObject('12-AI Assistant(beta)/12.5 - Contract Page/contract reader'))
+WebUI.setText(findTestObject('12-AI Assistant(beta)/12.5 - Contract Page/contract content here'), 'Automation test')
 
-WebUI.maximizeWindow()
-
-WebUI.callTestCase(findTestCase('01-Login and Forgot Password/04-Login(Valid Credentials-With Subscription)'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.click(findTestObject('06-Teams/button_doublearrow'))
-
-WebUI.click(findTestObject('06-Teams/button_My Organizations'))
-
-WebUI.click(findTestObject('02-Side Icons(Organization)/Add Contact/button_Automation Test Org'))
-
-WebUI.delay(GlobalVariable.delay_4s)
-
-WebUI.verifyElementVisible(findTestObject('02-Side Icons(Organization)/Add Contact/span_Automation Test Org'))
-
-WebUI.delay(GlobalVariable.delay_5s)
-
-WebUI.scrollToElement(findTestObject('12-AI Assistant(beta)/AI asst button-Side panel'), 30)
-
-WebUI.click(findTestObject('12-AI Assistant(beta)/AI asst button-Side panel'))
-
-WebUI.verifyElementVisible(findTestObject('12-AI Assistant(beta)/AI asst button-Side panel'))
+//WebUI.verifyElementVisible(findTestObject('12-AI Assistant(beta)/12.5 - Contract Page/generate summary'))
+WebUI.click(findTestObject('12-AI Assistant(beta)/12.5 - Contract Page/generate summary'))
 
 WebUI.delay(GlobalVariable.delay_3s)
 
-WebUI.click(findTestObject('12-AI Assistant(beta)/12.5 - Contract Page/contract reader'))
-
-WebUI.verifyElementVisible(findTestObject('12-AI Assistant(beta)/12.5 - Contract Page/contract content here'))
-
-WebUI.verifyElementVisible(findTestObject('12-AI Assistant(beta)/12.5 - Contract Page/generate summary'))
-
-WebUI.click(findTestObject('12-AI Assistant(beta)/12.5 - Contract Page/generate summary'))
-
-WebUI.delay(GlobalVariable.delay_5s)
+WebUI.closeBrowser()
 

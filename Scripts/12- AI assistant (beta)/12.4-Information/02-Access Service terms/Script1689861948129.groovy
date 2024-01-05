@@ -25,9 +25,13 @@ String url = WebUI.getUrl()
 
 url.contains('https://openai.com/policies/service-terms')
 
+WebUI.delay(GlobalVariable.delay_2s)
+
 WebUI.closeWindowIndex(1)
+
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.switchToWindowIndex(0)
 
-WebUI.delay(GlobalVariable.delay_4s)
+WebUI.delay(GlobalVariable.delay_2s)
 

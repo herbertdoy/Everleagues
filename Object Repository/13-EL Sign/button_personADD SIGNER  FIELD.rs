@@ -11,10 +11,14 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='ELS2212271042'])[1]/following::button[1]</value>
+         <value>//button[(text() = 'person ADD SIGNER &amp; FIELD ' or . = 'person ADD SIGNER &amp; FIELD ')]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//button[@color = 'accent' and @mattooltip = 'Add Signer and Field' and (text() = 'person ADD SIGNER &amp; FIELD ' or . = 'person ADD SIGNER &amp; FIELD ')]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>cea1aa2f-a2f4-4ff8-a42a-f68957a0de96</webElementGuid>
+      <webElementGuid>24dbdaf9-c0ff-4230-9a63-772a9c25b22f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +34,7 @@
       <name>color</name>
       <type>Main</type>
       <value>accent</value>
-      <webElementGuid>7c036699-1e1d-47c9-99ab-9eccc7b847ac</webElementGuid>
+      <webElementGuid>5e7034c0-adf8-4fde-871f-6d36aeed746a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +42,7 @@
       <name>mattooltip</name>
       <type>Main</type>
       <value>Add Signer and Field</value>
-      <webElementGuid>72d2ce1b-8bdf-488e-866d-ff1567b975d1</webElementGuid>
+      <webElementGuid>35377a02-3a5e-450b-9612-413c2b855bfd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +50,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-focus-indicator mat-raised-button mat-button-base mat-accent cdk-focused cdk-program-focused</value>
-      <webElementGuid>8532472f-a962-4a48-99c0-81bed6f7e811</webElementGuid>
+      <webElementGuid>62dd3a27-80c1-4da2-8f54-35eb101eee02</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +58,7 @@
       <name>ng-reflect-color</name>
       <type>Main</type>
       <value>accent</value>
-      <webElementGuid>b4fc6ee3-1b05-468f-8390-4248c486ca5c</webElementGuid>
+      <webElementGuid>953a447c-aa57-4ee0-bdba-07cc041d9e60</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +66,7 @@
       <name>ng-reflect-message</name>
       <type>Main</type>
       <value>Add Signer and Field</value>
-      <webElementGuid>6e1b9f37-9b78-4ecb-809f-9ddabbbfd5f5</webElementGuid>
+      <webElementGuid>70d284b8-57d9-4668-b3c2-4368d4934ac2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +74,7 @@
       <name>ng-reflect-disabled</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>43590e21-dd66-491e-a524-3adc2923cb61</webElementGuid>
+      <webElementGuid>855fa6c6-c31f-4811-bdc4-aa992c2b5ac4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,7 +82,7 @@
       <name>aria-describedby</name>
       <type>Main</type>
       <value>cdk-describedby-message-19</value>
-      <webElementGuid>e98a8040-5aaa-4e0d-bfbf-09dff26c506a</webElementGuid>
+      <webElementGuid>9ef93fb8-c278-4ffc-b961-ef56f308174c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -86,7 +90,7 @@
       <name>text</name>
       <type>Main</type>
       <value>person ADD SIGNER &amp; FIELD </value>
-      <webElementGuid>d16531b1-3a31-4366-a652-2fadd7e785b4</webElementGuid>
+      <webElementGuid>93bbd086-2767-435f-85b6-172f55e695dc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -94,7 +98,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/app-root[1]/app-main-page[@class=&quot;ng-tns-c481-5 ng-trigger ng-trigger-routerAnimation ng-star-inserted&quot;]/mat-sidenav-container[@class=&quot;mat-drawer-container mat-sidenav-container ng-tns-c481-5 mat-drawer-transition mat-drawer-container-has-open&quot;]/mat-sidenav-content[@class=&quot;mat-drawer-content mat-sidenav-content&quot;]/div[@class=&quot;wrapper&quot;]/app-addfields[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;leftpane ng-star-inserted&quot;]/div[1]/div[1]/button[@class=&quot;mat-focus-indicator mat-raised-button mat-button-base mat-accent cdk-focused cdk-program-focused&quot;]</value>
-      <webElementGuid>5570a9bf-a88f-435e-ae74-d13867372ce5</webElementGuid>
+      <webElementGuid>63f58bde-f022-4b02-b080-11c5d25ac6cc</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -102,7 +106,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='ELS2212271042'])[1]/following::button[1]</value>
-      <webElementGuid>5ec28e73-0844-4f72-9d4a-729eeae1d4e2</webElementGuid>
+      <webElementGuid>48bd457e-e644-42df-81ff-bfaf63c1d236</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +114,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Tracking Id:'])[1]/following::button[1]</value>
-      <webElementGuid>67335774-042b-443b-ab3a-7ad7c4965d73</webElementGuid>
+      <webElementGuid>cebaf068-823d-4cff-bd67-e26f1cd7a870</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +122,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Select Labels &amp; Drag'])[1]/preceding::button[1]</value>
-      <webElementGuid>bd3474de-f649-45cd-bfe7-9f0c090673ec</webElementGuid>
+      <webElementGuid>a98a3cf3-9560-43db-830e-582f28c4edd6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,7 +130,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div/button</value>
-      <webElementGuid>179f1858-a7b7-490e-86ea-460762f63aa5</webElementGuid>
+      <webElementGuid>7277c5da-0201-4509-bcac-f54c48afccf8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,6 +138,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[(text() = 'person ADD SIGNER &amp; FIELD ' or . = 'person ADD SIGNER &amp; FIELD ')]</value>
-      <webElementGuid>7ef0d390-a7b0-40c0-9b65-4b91ee516eeb</webElementGuid>
+      <webElementGuid>1f4d9198-1d97-4a54-b8d1-fc649edfe718</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

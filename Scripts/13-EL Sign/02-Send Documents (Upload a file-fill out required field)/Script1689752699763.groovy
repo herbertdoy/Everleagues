@@ -21,9 +21,9 @@ WebUI.setText(findTestObject('13-EL Sign/input_documentTitle'), 'sample.pdf')
 
 WebUI.click(findTestObject('13-EL Sign/button_UPLOAD'))
 
-WebUI.delay(GlobalVariable.delay_3s)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('13-EL Sign/button_homeELSIGN DOCUMENTS'))
 
-WebUI.delay(GlobalVariable.delay_3s)
+WebUI.delay(GlobalVariable.delay_2s)
 

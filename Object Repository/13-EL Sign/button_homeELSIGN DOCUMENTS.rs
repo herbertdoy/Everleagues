@@ -11,10 +11,14 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='GG TESTER'])[1]/following::button[1]</value>
+         <value>//button[@mattooltip='Go to ELSign documents view']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//button[@mattooltip = 'Go to ELSign documents view' and (text() = 'home ELSIGN DOCUMENTS ' or . = 'home ELSIGN DOCUMENTS ')]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>fce0694a-5744-43cd-b565-39b7d2d2ecd3</webElementGuid>
+      <webElementGuid>80b9766b-9262-4170-8844-c76a766b7c97</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +34,7 @@
       <name>color</name>
       <type>Main</type>
       <value>accent</value>
-      <webElementGuid>56ea1eb1-17c0-4f53-9696-5a85690a1536</webElementGuid>
+      <webElementGuid>dff7b8a0-aacf-40ca-af45-553a1519f117</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +42,7 @@
       <name>mattooltip</name>
       <type>Main</type>
       <value>Go to ELSign documents view</value>
-      <webElementGuid>b3782403-ea7b-4be1-8bc5-41d1796de563</webElementGuid>
+      <webElementGuid>d81ba6c0-dfee-4d1a-8b6a-6d6ea7d88dd0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +50,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-focus-indicator mat-raised-button mat-button-base mat-accent cdk-focused cdk-mouse-focused</value>
-      <webElementGuid>372ae2c2-cc32-4e61-b046-36d1ddad18f8</webElementGuid>
+      <webElementGuid>85778d5d-e166-4c61-a278-e99b930d5c3d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +58,7 @@
       <name>ng-reflect-color</name>
       <type>Main</type>
       <value>accent</value>
-      <webElementGuid>d31620d8-ddb0-4591-a31f-8010c3d0f05e</webElementGuid>
+      <webElementGuid>372a8a69-b1a1-49ec-abff-988b61e66138</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +66,7 @@
       <name>ng-reflect-message</name>
       <type>Main</type>
       <value>Go to ELSign documents view</value>
-      <webElementGuid>c6dac70c-56ad-4105-a5c3-c5f552360407</webElementGuid>
+      <webElementGuid>dc6539f3-cd2b-4161-a9b6-4a9f33aa5539</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +74,7 @@
       <name>aria-describedby</name>
       <type>Main</type>
       <value>cdk-describedby-message-117</value>
-      <webElementGuid>bdf2ddb8-abf9-4ad6-b5ce-f64b3b567000</webElementGuid>
+      <webElementGuid>bcc637b9-aefe-47dc-9fab-e0b5a791830d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -78,7 +82,7 @@
       <name>text</name>
       <type>Main</type>
       <value>home ELSIGN DOCUMENTS </value>
-      <webElementGuid>021d1ccb-b34d-41c4-9ceb-5c24bc5d16f2</webElementGuid>
+      <webElementGuid>f6a557c8-eb58-42c9-9bab-118acbf5e34b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -86,7 +90,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/app-root[1]/app-main-page[@class=&quot;ng-tns-c481-0 ng-trigger ng-trigger-routerAnimation ng-star-inserted&quot;]/mat-sidenav-container[@class=&quot;mat-drawer-container mat-sidenav-container ng-tns-c481-0&quot;]/mat-sidenav-content[@class=&quot;mat-drawer-content mat-sidenav-content&quot;]/div[@class=&quot;wrapper&quot;]/app-addfields[@class=&quot;ng-star-inserted&quot;]/table[@class=&quot;ng-star-inserted&quot;]/tr[1]/td[1]/button[@class=&quot;mat-focus-indicator mat-raised-button mat-button-base mat-accent cdk-focused cdk-mouse-focused&quot;]</value>
-      <webElementGuid>605c28c7-f1a3-4fe1-a719-3b6b216504f3</webElementGuid>
+      <webElementGuid>daf86203-4d5f-4451-945a-a420175107c0</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -94,7 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='GG TESTER'])[1]/following::button[1]</value>
-      <webElementGuid>d22efaf4-974b-47d9-befc-ebffc598eb80</webElementGuid>
+      <webElementGuid>ad998e99-4a1c-4308-900c-0efe442e4271</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +106,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Document Title:'])[1]/preceding::button[1]</value>
-      <webElementGuid>6ea0bf47-4b2b-42f2-bbc1-6e7031409f67</webElementGuid>
+      <webElementGuid>fda7f9a4-4d59-4705-98aa-ec8b4c1261da</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +114,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td/button</value>
-      <webElementGuid>c597e063-ef03-422d-b995-fb0b95a3e0b4</webElementGuid>
+      <webElementGuid>3bc289e1-93e2-465f-affd-67c0cdce36ac</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,6 +122,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[(text() = 'home ELSIGN DOCUMENTS ' or . = 'home ELSIGN DOCUMENTS ')]</value>
-      <webElementGuid>225129a2-6b1d-474e-8c96-2d437e217c86</webElementGuid>
+      <webElementGuid>ef89b7ca-9860-4026-9bf9-c3c8bcedd9e3</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

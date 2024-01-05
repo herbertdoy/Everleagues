@@ -47,3 +47,7 @@ WebUI.click(findTestObject('12-AI Assistant(beta)/12.1-Chat GPT(beta)/Chat histo
 
 WebUI.verifyElementVisible(findTestObject('12-AI Assistant(beta)/12.1-Chat GPT(beta)/History-Generated answer assertion'))
 
+WebUI.delay(GlobalVariable.delay_3s)
+
+WebUI.closeBrowser()
+

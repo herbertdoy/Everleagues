@@ -6,12 +6,11 @@
    <elementGuidId>2615faf1-d666-46b1-85d5-e38e298e42ca</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//div[contains(@class,'text-2xl font-semibold')]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//h4[(text() = 'ELSIGN' or . = 'ELSIGN')]</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

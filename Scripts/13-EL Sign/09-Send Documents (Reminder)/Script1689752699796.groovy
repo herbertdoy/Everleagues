@@ -53,3 +53,5 @@ WebUI.click(findTestObject('13-EL Sign/button_Delete Schedule'))
 
 WebUI.delay(GlobalVariable.delay_3s)
 
+WebUI.closeBrowser()
+

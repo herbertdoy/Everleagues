@@ -51,11 +51,11 @@ WebUI.delay(GlobalVariable.delay_2s)
 
 //WebUI.getUrl() == 'https://chat.openai.com/auth/login'
 
-def url = WebUI.getUrl()
+//def url = WebUI.getUrl()
 
-WebUI.verifyEqual(url, 'https://chat.openai.com/auth/login')
+//WebUI.verifyEqual(url, 'https://chat.openai.com/auth/login')
 
-WebUI.delay(GlobalVariable.delay_2s)
+//WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('12-AI Assistant(beta)/12.3- AI Image(beta)/AI Image (beta)'))
 

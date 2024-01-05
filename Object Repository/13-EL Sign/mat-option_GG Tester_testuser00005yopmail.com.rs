@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Use my ownChatGPT account</name>
+   <name>mat-option_GG Tester_testuser00005yopmail.com</name>
    <tag></tag>
-   <elementGuidId>972f0f06-d073-4ee5-aa43-712c1a3fee8e</elementGuidId>
+   <elementGuidId>e0286511-a1e0-4376-b10e-a3542e61f791</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//button[(text() = 'Use my own ChatGPT account' or . = 'Use my own ChatGPT account')]</value>
+         <value>//mat-option[3]</value>
       </entry>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

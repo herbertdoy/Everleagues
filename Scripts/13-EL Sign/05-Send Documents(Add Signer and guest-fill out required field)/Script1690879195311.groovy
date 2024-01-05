@@ -23,17 +23,17 @@ WebUI.click(findTestObject('13-EL Sign/button_personADD SIGNER  FIELD'))
 
 WebUI.click(findTestObject('13-EL Sign/input_Search for a Signer'))
 
-WebUI.click(findTestObject('13-EL Sign/mat-option_addsigner_testuser005mailinator.com'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('13-EL Sign/mat-option_GG Tester_testuser00005yopmail.com'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.scrollToElement(findTestObject('13-EL Sign/button_SAVE'), 0)
 
 WebUI.click(findTestObject('13-EL Sign/button_SAVE'))
 
-WebUI.delay(GlobalVariable.delay_3s)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('13-EL Sign/button_personADD SIGNER  FIELD'))
 
-WebUI.delay(GlobalVariable.delay_3s)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('13-EL Sign/button_person_outlineADD GUEST'))
 
@@ -41,9 +41,11 @@ WebUI.verifyElementVisible(findTestObject('13-EL Sign/mat-dialog-container_New G
 
 WebUI.click(findTestObject('13-EL Sign/input_GuestEmailAddress'))
 
-WebUI.click(findTestObject('13-EL Sign/mat-option_newguest_autotester03mailinator.com'))
+WebUI.click(findTestObject('13-EL Sign/mat-option_newguest_testuser01yopmail.com'))
 
 WebUI.scrollToElement(findTestObject('13-EL Sign/button_SAVE2'), 0)
 
 WebUI.click(findTestObject('13-EL Sign/button_SAVE2'))
+
+WebUI.delay(GlobalVariable.delay_2s)
 

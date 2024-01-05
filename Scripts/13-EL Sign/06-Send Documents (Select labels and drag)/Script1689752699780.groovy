@@ -30,16 +30,16 @@ WebUI.click(findTestObject('13-EL Sign/button_No'))
 
 WebUI.click(findTestObject('13-EL Sign/button_clear'))
 
-WebUI.delay(GlobalVariable.delay_3s)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('13-EL Sign/button_Yes'))
 
-WebUI.delay(GlobalVariable.delay_3s)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.dragAndDropToObject(findTestObject('13-EL Sign/button_createGG TESTERSign here'), findTestObject('13-EL Sign/documents'), 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(GlobalVariable.delay_3s)
+WebUI.delay(GlobalVariable.delay_2s)
 
 //WebUI.dragAndDropByOffset(findTestObject('13-EL Sign/button_createGG TESTERSign here'), 5, 10)//
 //WebUI.delay(GlobalVariable.delay_3s)//
@@ -47,13 +47,13 @@ WebUI.delay(GlobalVariable.delay_3s)
 WebUI.dragAndDropToObject(findTestObject('13-EL Sign/button_calendarGG TESTERDate signed'), findTestObject('13-EL Sign/document_readytotakedocument'), 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(GlobalVariable.delay_3s)
+WebUI.delay(GlobalVariable.delay_2s)
 
 //WebUI.dragAndDropByOffset(findTestObject('13-EL Sign/button_person_pinGG TESTERInitial here'), 3, 60)//
 WebUI.dragAndDropToObject(findTestObject('13-EL Sign/button_person_pinGG TESTERInitial here'), findTestObject('13-EL Sign/document_digitaldocumentsallinoneplace'), 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(GlobalVariable.delay_3s)
+WebUI.delay(GlobalVariable.delay_2s)
 
 //WebUI.delay(3)
 //

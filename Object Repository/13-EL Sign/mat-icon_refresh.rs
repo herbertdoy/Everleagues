@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//mat-icon[(text() = 'refresh' or . = 'refresh')]</value>
+         <value>//button[@mattooltip='refresh']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>mat-icon</value>
-      <webElementGuid>f27cbb54-1e75-4433-9d32-2735d8d98f62</webElementGuid>
+      <webElementGuid>efb5ede2-4afd-401d-9b4a-b3cb8cfc96b4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>role</name>
       <type>Main</type>
       <value>img</value>
-      <webElementGuid>ac226118-8d5a-4c90-88b4-da1984caba6f</webElementGuid>
+      <webElementGuid>3771dbd0-03b2-4205-ac5b-4f3e0b2a7151</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-icon notranslate material-icons mat-icon-no-color</value>
-      <webElementGuid>67095500-acf3-4b37-b447-8230c83274b0</webElementGuid>
+      <webElementGuid>7d6fb6c0-dd55-4ddc-be9e-65e998680485</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>aria-hidden</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>8000e153-1bd8-4ddb-b436-beca2299c080</webElementGuid>
+      <webElementGuid>8f40d3db-dee9-4616-9ba3-e28c2c166e51</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>text</name>
       <type>Main</type>
       <value>refresh</value>
-      <webElementGuid>07551f1e-d924-47b7-8006-019c890dbb9e</webElementGuid>
+      <webElementGuid>eceaa3c0-3249-49bb-86c3-3cf73a470b6d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-tab-content-17-0&quot;)/div[@class=&quot;mat-tab-body-content ng-tns-c361-373 ng-trigger ng-trigger-translateTab&quot;]/app-ezsign-senderdocuments[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;ng-star-inserted&quot;]/table[@class=&quot;ng-star-inserted&quot;]/tr[1]/td[1]/button[@class=&quot;mat-focus-indicator mat-icon-button mat-button-base ng-star-inserted cdk-focused cdk-mouse-focused&quot;]/span[@class=&quot;mat-button-wrapper&quot;]/mat-icon[@class=&quot;mat-icon notranslate material-icons mat-icon-no-color&quot;]</value>
-      <webElementGuid>d3627dc3-3c01-4b03-9ae3-38967363a31e</webElementGuid>
+      <webElementGuid>934c840a-28ca-4897-9506-38e0dba6c1db</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-tab-body[@id='mat-tab-content-17-0']/div/app-ezsign-senderdocuments/div/table/tr/td/button[2]/span/mat-icon</value>
-      <webElementGuid>d5de9eb4-0406-4c18-a3df-3e43281bbd28</webElementGuid>
+      <webElementGuid>76ed3889-852a-4688-a1ab-cba1471fdfdb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Configure Columns'])[1]/preceding::mat-icon[2]</value>
-      <webElementGuid>33372a48-5974-416d-8926-e2dde47f8e20</webElementGuid>
+      <webElementGuid>5f527ca1-78e7-48e0-b6fc-9b5bd9edb219</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Export CSV'])[1]/preceding::mat-icon[3]</value>
-      <webElementGuid>e6938421-ee54-4c7e-94e6-af7e205578bb</webElementGuid>
+      <webElementGuid>ea6603c1-2594-44cc-a77d-108e227bac4f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='refresh']/parent::*</value>
-      <webElementGuid>d2a2a1b1-0d65-4279-a306-bcd77f75e80f</webElementGuid>
+      <webElementGuid>bc553c1c-ff1a-4079-8c58-2aa7f2431ad9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td/button[2]/span/mat-icon</value>
-      <webElementGuid>22dc2d76-647a-44ca-b551-6edf975e129f</webElementGuid>
+      <webElementGuid>75697553-81f1-41d2-a33e-490d127463b6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,6 +110,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//mat-icon[(text() = 'refresh' or . = 'refresh')]</value>
-      <webElementGuid>83ef44b0-e7b0-47ad-8be1-349214748c83</webElementGuid>
+      <webElementGuid>aa0c8c5d-7bfb-43f0-8190-8b66a4937691</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

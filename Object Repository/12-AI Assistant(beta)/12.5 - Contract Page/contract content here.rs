@@ -6,12 +6,11 @@
    <elementGuidId>a7821062-93e0-4ca3-8c4f-7f1d3a8fb89d</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//textarea[contains(@class,'cdk-textarea-autosize mat-input-element')]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//b[text()='Please Copy Paste Contract Content here:']</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
