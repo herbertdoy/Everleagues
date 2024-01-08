@@ -6,15 +6,19 @@
    <elementGuidId>cd722863-9449-43c1-a1d0-a896ffbb61d9</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//h4[@id='mat-dialog-title-0']</value>
+         <key>BASIC</key>
+         <value>//h4[@class = 'mat-dialog-title' and (text() = 'New folder' or . = 'New folder')]</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>#mat-dialog-title-0</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//h2[text()='New folder']</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>h4</value>
-      <webElementGuid>d6bc970c-88d4-448d-8288-e2227b8e1a09</webElementGuid>
+      <webElementGuid>02f84de4-4ac8-46ee-a2aa-7544ecf8a173</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-dialog-title</value>
-      <webElementGuid>741e86b4-9ff4-4dca-9ca5-259174a9c690</webElementGuid>
+      <webElementGuid>5ea1026d-84a8-47d3-a34c-9e8affd2daad</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +42,7 @@
       <name>id</name>
       <type>Main</type>
       <value>mat-dialog-title-0</value>
-      <webElementGuid>b86f7d7d-1521-4df8-b848-8b0fcd1b7970</webElementGuid>
+      <webElementGuid>a8c09604-8a2c-4cb2-954b-7410cfb16df5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +50,7 @@
       <name>text</name>
       <type>Main</type>
       <value>New folder</value>
-      <webElementGuid>571f4194-9246-42ae-a08b-245ab33dc3d5</webElementGuid>
+      <webElementGuid>692d3c21-d96d-430a-9375-292f4f83ce03</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +58,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-dialog-title-0&quot;)</value>
-      <webElementGuid>bd9d5216-3c62-4f60-beb0-c5e7949084e5</webElementGuid>
+      <webElementGuid>fadfe990-a3c0-492b-8012-a533658cfd4c</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -62,7 +66,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//h4[@id='mat-dialog-title-0']</value>
-      <webElementGuid>fd63c357-615c-4e25-8365-ad3b0846c56f</webElementGuid>
+      <webElementGuid>4345cb44-a289-49e9-a94a-b1697a85e184</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +74,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-dialog-container[@id='mat-dialog-0']/app-dialog-add-new-folder/section/h4</value>
-      <webElementGuid>904eca41-c8e2-4aaa-923c-12ee1f47b168</webElementGuid>
+      <webElementGuid>6459740b-02e7-4784-949d-d79a739fe7a2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Client Assignment'])[2]/following::h4[1]</value>
-      <webElementGuid>ed5ee0c5-cd24-4763-b70c-eb5504f5f109</webElementGuid>
+      <webElementGuid>adb1de4e-a33b-425e-b50b-f8b47fb74cf8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Invite New User'])[1]/following::h4[1]</value>
-      <webElementGuid>b61d50c1-b179-481f-b41c-ca521de7708a</webElementGuid>
+      <webElementGuid>0e84e623-0303-4592-b833-aa8d4244296c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Folder name'])[1]/preceding::h4[1]</value>
-      <webElementGuid>1c48d073-d02b-4b03-9e26-cb3b4545263f</webElementGuid>
+      <webElementGuid>3d60b03c-29a2-4706-bd24-46cc58b64d90</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +106,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Confirm'])[1]/preceding::h4[1]</value>
-      <webElementGuid>eee53d1b-cdc1-45b1-9998-44a28e2d1ba2</webElementGuid>
+      <webElementGuid>115c2aa4-430f-4ba6-8c94-81451beae594</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +114,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='New folder']/parent::*</value>
-      <webElementGuid>bcef1115-17d7-4cbf-a8de-34a76518f27c</webElementGuid>
+      <webElementGuid>b55bfafb-ddc7-475b-ba5c-42ebc87df6f2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +122,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//section/h4</value>
-      <webElementGuid>f9385e2f-0847-456f-a316-4f43d08ee64d</webElementGuid>
+      <webElementGuid>e6b34d1f-0432-4b18-973e-5e7322389e0d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,6 +130,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//h4[@id = 'mat-dialog-title-0' and (text() = 'New folder' or . = 'New folder')]</value>
-      <webElementGuid>666fa3a8-bec4-4579-b98b-3281fabbf305</webElementGuid>
+      <webElementGuid>0a3273d6-fca8-459f-8b88-45e79ab6a916</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

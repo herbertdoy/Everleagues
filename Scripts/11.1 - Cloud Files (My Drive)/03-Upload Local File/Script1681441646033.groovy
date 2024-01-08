@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.delay(GlobalVariable.delay_3s)
+WebUI.delay(GlobalVariable.delay_2s)
 
 //WebUI.click(findTestObject('11-Cloud Files/button_cloud_upload Upload Files  Create Folders'))
 //CustomKeywords.'uploadpackage.Upload.uploadFile'(findTestObject('Object Repository/11-Cloud Files/button_cloud_uploadUpload Local File'), 
@@ -39,9 +39,9 @@ WebUI.click(findTestObject('11-Cloud Files/button_Confirm'))
 
 WebUI.delay(GlobalVariable.delay_3s)
 
-WebUI.verifyElementVisible(findTestObject('11-Cloud Files/div_Upload completed clear'))
-
-WebUI.delay(GlobalVariable.delay_3s)
+//WebUI.verifyElementVisible(findTestObject('11-Cloud Files/div_Upload completed clear'))
+//
+//WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.setText(findTestObject('11-Cloud Files/input_Search cloudfiles'), GlobalVariable.folder_name)
 

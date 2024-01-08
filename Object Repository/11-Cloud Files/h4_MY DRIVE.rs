@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>h4_MY FILES</name>
+   <name>h4_MY DRIVE</name>
    <tag></tag>
    <elementGuidId>a2d2669e-86e0-47cb-a6cf-ad0a369d91b3</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>CSS</key>
-         <value>h4.ng-tns-c481-5</value>
-      </entry>
       <entry>
          <key>BASIC</key>
          <value>//h4[(text() = 'CLOUD FILES' or . = 'CLOUD FILES')]</value>
@@ -16,6 +12,10 @@
       <entry>
          <key>XPATH</key>
          <value>//div[text()=' My Drive ']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>h4.ng-tns-c481-5</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

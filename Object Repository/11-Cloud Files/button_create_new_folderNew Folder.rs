@@ -6,16 +6,16 @@
    <elementGuidId>9898cc58-a64c-480d-9c2a-fa45fe3d86f5</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//button[contains(@class,'mat-focus-indicator add-button')]</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>//button[@type = 'button' and (text() = 'create_new_folderNew Folder' or . = 'create_new_folderNew Folder')]</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>button.mat-focus-indicator.mat-menu-item.ng-star-inserted.cdk-focused.cdk-program-focused</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[text()='New']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -26,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>5b71900a-3b55-4739-a1d0-76bbf591402f</webElementGuid>
+      <webElementGuid>7f892c90-777b-461f-8b9f-545113f7e209</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -34,7 +34,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>eddb0ebf-fd8d-4ccf-b95a-1f0496edf7a3</webElementGuid>
+      <webElementGuid>502ace85-33fa-4ce7-afe3-6ab31b745753</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,7 +42,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-focus-indicator mat-menu-item ng-star-inserted cdk-focused cdk-program-focused</value>
-      <webElementGuid>768051a0-5fe8-450c-8f91-ba95fe06b0c4</webElementGuid>
+      <webElementGuid>b4d4e137-4378-47c8-9f78-8f10cb79bd3e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,7 +50,7 @@
       <name>role</name>
       <type>Main</type>
       <value>menuitem</value>
-      <webElementGuid>919b6906-5109-4a02-9e88-b8a0036bde6b</webElementGuid>
+      <webElementGuid>ca3a97e9-8820-4d59-b5b7-70344df836d6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -58,7 +58,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>9dff6c27-e1a9-4b38-b4e1-3611c9842697</webElementGuid>
+      <webElementGuid>725c84c5-f4b4-4d5c-a6a6-9656595244b0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -66,7 +66,7 @@
       <name>aria-disabled</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>b63c23f4-c10c-4250-bfd4-b061c2ed420c</webElementGuid>
+      <webElementGuid>b72e2661-49be-4dac-9b2a-e04867bcb100</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -74,7 +74,7 @@
       <name>text</name>
       <type>Main</type>
       <value>create_new_folderNew Folder</value>
-      <webElementGuid>c850a043-402f-4f10-81ce-24b5d23f4b86</webElementGuid>
+      <webElementGuid>f865ea85-00f1-4b5f-a516-da816fc56ac6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -82,7 +82,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-menu-panel-3&quot;)/div[@class=&quot;mat-menu-content ng-tns-c98-5&quot;]/div[1]/button[@class=&quot;mat-focus-indicator mat-menu-item ng-star-inserted cdk-focused cdk-program-focused&quot;]</value>
-      <webElementGuid>1514c222-0e17-477d-9a90-5179429e252e</webElementGuid>
+      <webElementGuid>12f74973-811b-4320-8eb0-bb0b2899947b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -90,7 +90,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[11]</value>
-      <webElementGuid>71e33480-2e6d-4e5e-92a2-ba9bd832b2d7</webElementGuid>
+      <webElementGuid>d01b6443-447f-46a8-b594-b1ff6b126366</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,7 +98,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='mat-menu-panel-3']/div/div/button</value>
-      <webElementGuid>df03b247-7824-402f-8714-a29d98facaf5</webElementGuid>
+      <webElementGuid>2b10b343-6e86-483b-a318-e1cc832c5d5b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,7 +106,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Client Assignment'])[2]/following::button[1]</value>
-      <webElementGuid>a7b7a47a-394a-461c-a6ec-86dc6c6a7faf</webElementGuid>
+      <webElementGuid>55860520-9bb2-4a0a-a787-060bbd51e196</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -114,7 +114,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Invite New User'])[1]/following::button[1]</value>
-      <webElementGuid>82ac4379-59ea-4c4a-aef4-9e31354288cc</webElementGuid>
+      <webElementGuid>8c296780-9298-494f-a70b-6c8572bd6b07</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -122,7 +122,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Upload Google Drive File'])[1]/preceding::button[2]</value>
-      <webElementGuid>6829fa97-7d57-4389-9296-45417edcb53e</webElementGuid>
+      <webElementGuid>202dc089-b531-441c-b445-0c5726bc5e79</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -130,7 +130,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='New Folder']/parent::*</value>
-      <webElementGuid>77181969-fc42-4d85-aa66-222788a15b33</webElementGuid>
+      <webElementGuid>d3272627-2577-40b3-b657-3ae98a27897a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -138,7 +138,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/div/div/button</value>
-      <webElementGuid>6d1f0456-51fd-4159-b0c4-9decf972c19f</webElementGuid>
+      <webElementGuid>1857c609-3946-4969-943a-f82f85b4c665</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -146,6 +146,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = 'create_new_folderNew Folder' or . = 'create_new_folderNew Folder')]</value>
-      <webElementGuid>f51b3923-97da-4c40-b739-9bbc5d433ba1</webElementGuid>
+      <webElementGuid>411b6708-2040-486c-95e2-3b6f909ded8c</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

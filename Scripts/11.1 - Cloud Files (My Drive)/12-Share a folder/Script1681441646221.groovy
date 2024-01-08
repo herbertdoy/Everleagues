@@ -53,7 +53,7 @@ import org.openqa.selenium.Keys as Keys
 //WebUI.verifyElementVisible(findTestObject('02-Side Icons(Organization)/Add Contact/span_Automation Test Org'))
 //WebUI.delay(10)
 //WebUI.click(findTestObject('03-Header Menu/Hamburger Button/div_Cloud Files'))
-//WebUI.verifyElementVisible(findTestObject('11-Cloud Files/h4_MY FILES'))
+//WebUI.verifyElementVisible(findTestObject('11-Cloud Files/h4_MY DRIVE'))
 //WebUI.click(findTestObject('11-Cloud Files/a_My Drive'))
 //WebUI.delay(3)
 WebUI.rightClick(findTestObject('11-Cloud Files/td_Automation folder EDIT'))

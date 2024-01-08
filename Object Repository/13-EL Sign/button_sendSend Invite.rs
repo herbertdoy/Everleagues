@@ -6,15 +6,19 @@
    <elementGuidId>d0c689d2-82d3-47f1-921d-e4164962cf3e</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>(//button[@color='primary'])[2]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//button[(text() = 'send Send Invite ' or . = 'send Send Invite ')]</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>button.mat-focus-indicator.text-upper.mat-raised-button.mat-button-base.mat-accent.cdk-focused.cdk-mouse-focused</value>
       </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Document Title:'])[1]/preceding::button[1]</value>
-      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>51e6c14c-6f94-4ef1-b8a3-e404f59a9cd9</webElementGuid>
+      <webElementGuid>93530d9d-9a4e-49b4-8f7d-7434d89e10f4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +34,7 @@
       <name>color</name>
       <type>Main</type>
       <value>accent</value>
-      <webElementGuid>d0c44d6f-55c7-453e-afac-2bafa8e0e8e4</webElementGuid>
+      <webElementGuid>a0a7c169-ac9c-489a-b3f1-6dd0d0d0a71b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +42,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-focus-indicator text-upper mat-raised-button mat-button-base mat-accent cdk-focused cdk-mouse-focused</value>
-      <webElementGuid>f8437305-4ef6-480e-a682-5bdc2a27d4c4</webElementGuid>
+      <webElementGuid>c8caf7ef-1704-4a7e-8bba-122a3168e070</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +50,7 @@
       <name>ng-reflect-color</name>
       <type>Main</type>
       <value>accent</value>
-      <webElementGuid>5c6627d6-a6a8-42b3-add7-b33fa9d61ac7</webElementGuid>
+      <webElementGuid>5bf0cc26-b4a4-4586-b81a-c21c96844d3f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +58,7 @@
       <name>text</name>
       <type>Main</type>
       <value>send Send Invite </value>
-      <webElementGuid>3b205d7a-e4ac-41e3-bd49-9e2d2374d5e9</webElementGuid>
+      <webElementGuid>90bbb80a-a2b0-4975-9130-5b90e1166c47</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +66,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/app-root[1]/app-main-page[@class=&quot;ng-tns-c481-0 ng-trigger ng-trigger-routerAnimation ng-star-inserted&quot;]/mat-sidenav-container[@class=&quot;mat-drawer-container mat-sidenav-container ng-tns-c481-0 mat-drawer-transition mat-drawer-container-has-open&quot;]/mat-sidenav-content[@class=&quot;mat-drawer-content mat-sidenav-content&quot;]/div[@class=&quot;wrapper&quot;]/app-invitesigners[@class=&quot;ng-star-inserted&quot;]/table[@class=&quot;trackertable4 ng-star-inserted&quot;]/tr[1]/td[1]/span[@class=&quot;ng-star-inserted&quot;]/button[@class=&quot;mat-focus-indicator text-upper mat-raised-button mat-button-base mat-accent cdk-focused cdk-mouse-focused&quot;]</value>
-      <webElementGuid>1afd001c-21b7-4221-a97c-008e268c9caa</webElementGuid>
+      <webElementGuid>303cae65-4735-420c-8f75-e6badc155977</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -70,7 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Document Title:'])[1]/preceding::button[1]</value>
-      <webElementGuid>f5e800b0-ef5a-456d-9d38-9024256dfad4</webElementGuid>
+      <webElementGuid>0bd0891d-a866-4e2d-b026-2ef158097ed7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +82,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//span/button</value>
-      <webElementGuid>997028a6-4306-491b-ae5b-f4dcb5f62c2a</webElementGuid>
+      <webElementGuid>bce353b6-529d-431b-a4ea-1906b946c066</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,6 +90,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[(text() = 'send Send Invite ' or . = 'send Send Invite ')]</value>
-      <webElementGuid>0bb43b26-3247-4dbd-8cc5-1f7a114835fc</webElementGuid>
+      <webElementGuid>bc6ec9c9-f748-411f-8e12-d5211eeb95d5</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

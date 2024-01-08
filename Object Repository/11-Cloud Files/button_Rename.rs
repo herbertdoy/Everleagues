@@ -6,16 +6,16 @@
    <elementGuidId>6a26a8de-f67f-4d7f-8c8e-d91fc40b1574</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(//button[contains(@class,'mat-focus-indicator mat-menu-item')]/following-sibling::button)[3]</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>//button[@type = 'button' and (text() = 'drive_file_rename_outlineRename' or . = 'drive_file_rename_outlineRename')]</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>button.mat-focus-indicator.mat-menu-item.ng-star-inserted.cdk-focused.cdk-mouse-focused</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@type = 'button' and (text() = 'drive_file_rename_outline  Rename ' or . = 'drive_file_rename_outline  Rename ')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -26,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>6d953722-500b-4414-b65c-658bcfa2e4bd</webElementGuid>
+      <webElementGuid>e144d85f-2908-4b7b-9c97-eb505adb15e3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -34,7 +34,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>67befab5-dd9d-407e-9390-ee141a2b9490</webElementGuid>
+      <webElementGuid>52c0d69a-10fe-41b0-a64c-9fd9ba8a1b56</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,7 +42,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-focus-indicator mat-menu-item ng-star-inserted cdk-focused cdk-mouse-focused</value>
-      <webElementGuid>e242946d-ad50-4da1-b9c4-4f355e9a1652</webElementGuid>
+      <webElementGuid>2d3e2995-d35c-411a-9a34-dc748bf068f1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,7 +50,7 @@
       <name>role</name>
       <type>Main</type>
       <value>menuitem</value>
-      <webElementGuid>58f2a1d4-9d50-4d75-835a-f7e3a6bdc0fd</webElementGuid>
+      <webElementGuid>52a27451-2d9c-48ec-ada9-f59140fb4f40</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -58,7 +58,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>df68ce6b-b225-4f1d-9fba-3b1a37b16221</webElementGuid>
+      <webElementGuid>f7470503-fecb-47f1-8200-d81c54138303</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -66,7 +66,7 @@
       <name>aria-disabled</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>b38f077d-0972-4e45-bbaa-80553ef2b7c3</webElementGuid>
+      <webElementGuid>aab4f8a4-437c-414f-ae0d-16f7b61820f5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -74,7 +74,7 @@
       <name>text</name>
       <type>Main</type>
       <value>drive_file_rename_outlineRename</value>
-      <webElementGuid>2bd7e9f1-205d-4af2-9251-17ed6edcd6af</webElementGuid>
+      <webElementGuid>eaeab065-c9ec-42b0-b9b8-fa87078dd446</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -82,7 +82,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-menu-panel-16&quot;)/div[@class=&quot;mat-menu-content ng-tns-c98-207&quot;]/div[1]/button[@class=&quot;mat-focus-indicator mat-menu-item ng-star-inserted cdk-focused cdk-mouse-focused&quot;]</value>
-      <webElementGuid>ed3e9da3-ad5f-4179-951b-65e3732c93bd</webElementGuid>
+      <webElementGuid>6bfa1aed-6023-40e5-84a0-d04de7c49cac</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -90,7 +90,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[12]</value>
-      <webElementGuid>a889064f-4a9d-492f-9b8b-93b62dea793c</webElementGuid>
+      <webElementGuid>8c34aa5d-e379-4fcb-a177-0f08e206f290</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,7 +98,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='mat-menu-panel-16']/div/div/button[2]</value>
-      <webElementGuid>212600e5-4749-4c60-ac00-6219e28f594b</webElementGuid>
+      <webElementGuid>8cc986d8-9100-490d-80e3-22b23832e2ba</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,7 +106,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='JPEG File'])[1]/following::button[6]</value>
-      <webElementGuid>5188f078-fa75-48f9-9c52-535e7405f71e</webElementGuid>
+      <webElementGuid>0a96ae36-d7b1-4d58-9ca3-b44991486d94</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -114,7 +114,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Hide Quick Shortcuts'])[1]/preceding::button[2]</value>
-      <webElementGuid>6c52ccbc-42d8-4b2a-b5ed-a1905b82f81c</webElementGuid>
+      <webElementGuid>352a5860-5732-43a8-9e5b-46c1ae03c9b9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -122,7 +122,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Rename']/parent::*</value>
-      <webElementGuid>066eac88-0c4f-4098-9084-ee9a519ec4c7</webElementGuid>
+      <webElementGuid>314665a1-5ddb-4d84-8914-3fab7a1ab551</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -130,7 +130,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/div/div/button[2]</value>
-      <webElementGuid>cbdc14f8-993f-4569-8680-c7d9d6861797</webElementGuid>
+      <webElementGuid>786bf12b-7e72-4b92-bddb-565792d752a0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -138,6 +138,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = 'drive_file_rename_outlineRename' or . = 'drive_file_rename_outlineRename')]</value>
-      <webElementGuid>63811a29-122d-4fb2-adb0-9e9293c26392</webElementGuid>
+      <webElementGuid>a3f72364-5c29-4b6a-95a1-66aa833f7cd1</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

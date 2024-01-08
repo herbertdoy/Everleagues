@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Create</name>
+   <name>input_Initial</name>
    <tag></tag>
-   <elementGuidId>a6c89c8a-5370-447d-bdd7-4d381cdd9792</elementGuidId>
+   <elementGuidId>3268b7b7-5326-4a48-ac82-bbab4901abf6</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//button[(text() = 'Create' or . = 'Create')]</value>
+         <value>//input[@placeholder = 'Initial']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

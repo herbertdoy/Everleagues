@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//tr[4]/td[3]/mat-checkbox/label/span</value>
+         <value>//input[@accept='image/*']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>8f09a281-29ae-48df-aa70-4c9cd02797cc</webElementGuid>
+      <webElementGuid>33b2dd82-e5db-4f81-bf66-0d157e162ede</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-checkbox-inner-container mat-checkbox-inner-container-no-side-margin</value>
-      <webElementGuid>df13b555-75a4-40b6-8e7a-1627fc97aa99</webElementGuid>
+      <webElementGuid>08d26a0b-d2cc-43f6-a116-f3365d0346b0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-checkbox-16&quot;)/label[@class=&quot;mat-checkbox-layout&quot;]/div[@class=&quot;mat-checkbox-inner-container mat-checkbox-inner-container-no-side-margin&quot;]</value>
-      <webElementGuid>c817a8bc-dc56-47ec-840e-6dc47f20ca87</webElementGuid>
+      <webElementGuid>7db0fdfc-07d8-4859-9974-4907c51b6883</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-checkbox[@id='mat-checkbox-16']/label/div</value>
-      <webElementGuid>5c2ded9e-8879-409d-b72c-860bf41c78a4</webElementGuid>
+      <webElementGuid>909f0a58-4912-42be-a420-1cd94476f599</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Hide Quick Shortcuts'])[1]/preceding::div[8]</value>
-      <webElementGuid>1bc0604f-c184-41cd-83bf-0945cb194484</webElementGuid>
+      <webElementGuid>5699032f-21c6-4a95-8d07-8ccfc7700ca2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,6 +62,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tr[4]/td[3]/mat-checkbox/label/div</value>
-      <webElementGuid>8907dd2b-0bde-4bcf-a60b-4753c4229ace</webElementGuid>
+      <webElementGuid>77ea1078-b2c7-4e8f-9eb6-020b23379850</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

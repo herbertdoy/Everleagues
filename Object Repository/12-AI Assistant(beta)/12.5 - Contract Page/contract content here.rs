@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//textarea[contains(@class,'cdk-textarea-autosize mat-input-element')]</value>
+         <value>//textarea[@formcontrolname='chatinput']</value>
       </entry>
       <entry>
          <key>BASIC</key>

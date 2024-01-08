@@ -7,14 +7,18 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//ag-grid-angular[@id='ezSignDocsGrid']/div/div/div/div[3]/div[2]/div/div/div/div[6]/app-historybutton-renderer/button</value>
+         <value>//button[@mattooltip='View ELSign tracker history']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//button[@mattooltip = 'View ELSign tracker history' and (text() = 'history' or . = 'history')]</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>button.mat-focus-indicator.mat-icon-button.mat-button-base.cdk-focused.cdk-mouse-focused</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>21a8904d-80ae-45fe-bf9c-a471bd08ba11</webElementGuid>
+      <webElementGuid>0899a9d1-57df-4ffa-a3d2-bd2a6df28b1b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +34,7 @@
       <name>mattooltip</name>
       <type>Main</type>
       <value>View ELSign tracker history</value>
-      <webElementGuid>4381f17b-f4e3-4b2b-916f-855fd7e965c5</webElementGuid>
+      <webElementGuid>4f64e20e-3eea-4a93-a6db-b4c0703c3ca8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +42,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-focus-indicator mat-icon-button mat-button-base cdk-focused cdk-mouse-focused</value>
-      <webElementGuid>3b328d8d-6d6e-4768-9b59-d9a9acc59e86</webElementGuid>
+      <webElementGuid>2520a4f3-060b-4749-94aa-239e36c43dfd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +50,7 @@
       <name>ng-reflect-message</name>
       <type>Main</type>
       <value>View ELSign tracker history</value>
-      <webElementGuid>92045b4d-7ecf-46c9-8e00-2906c642af69</webElementGuid>
+      <webElementGuid>c6706e34-ad4e-4e67-900b-1638f24888ca</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +58,7 @@
       <name>aria-describedby</name>
       <type>Main</type>
       <value>cdk-describedby-message-20</value>
-      <webElementGuid>931cec7f-cc5a-4c04-9719-c5bc7bf65ba4</webElementGuid>
+      <webElementGuid>bec6c61f-3f03-4282-b69f-d3205b089d72</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -62,7 +66,7 @@
       <name>text</name>
       <type>Main</type>
       <value>history</value>
-      <webElementGuid>0a4a73c2-8da2-48f8-84d7-9b61d49359a4</webElementGuid>
+      <webElementGuid>71d4de5e-b826-4693-a352-48a2f3700a07</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +74,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;ezSignDocsGrid&quot;)/div[@class=&quot;ag-root-wrapper ag-layout-auto-height ag-ltr&quot;]/div[@class=&quot;ag-root-wrapper-body ag-layout-auto-height&quot;]/div[@class=&quot;ag-root ag-unselectable ag-layout-auto-height ag-has-focus&quot;]/div[@class=&quot;ag-body-viewport ag-layout-auto-height ag-row-no-animation&quot;]/div[@class=&quot;ag-center-cols-clipper&quot;]/div[@class=&quot;ag-center-cols-viewport&quot;]/div[@class=&quot;ag-center-cols-container&quot;]/div[@class=&quot;ag-row ag-row-even ag-row-level-0 ezsign-history-grid ag-row-position-absolute ag-row-first ag-row-last ag-row-focus&quot;]/div[@class=&quot;ag-cell ag-cell-not-inline-editing ag-cell-with-height ag-cell-value ag-cell-focus ag-column-hover&quot;]/app-historybutton-renderer[@class=&quot;ng-star-inserted&quot;]/button[@class=&quot;mat-focus-indicator mat-icon-button mat-button-base cdk-focused cdk-mouse-focused&quot;]</value>
-      <webElementGuid>8c421d24-c86c-4223-a14b-bebff28850ba</webElementGuid>
+      <webElementGuid>5aaea987-22fe-44f0-ac4e-cc2683a22682</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -78,7 +82,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//ag-grid-angular[@id='ezSignDocsGrid']/div/div/div/div[3]/div[2]/div/div/div/div[6]/app-historybutton-renderer/button</value>
-      <webElementGuid>dd244073-e864-4ee4-b087-d1d5c2948237</webElementGuid>
+      <webElementGuid>18f7c95d-3daa-4d58-b093-c216d9a1b302</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Last Modified'])[1]/following::button[4]</value>
-      <webElementGuid>6e25537b-79ab-4e3e-acc2-00e96b6285c4</webElementGuid>
+      <webElementGuid>01b93c1c-1803-426f-8b4f-bb81afb2f38c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Reminder'])[1]/following::button[4]</value>
-      <webElementGuid>947e1b43-5c89-4665-a08a-ced9e1a18ea6</webElementGuid>
+      <webElementGuid>29330f1f-844a-4950-87f7-94f843ad7f07</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +106,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='ELS2301031043'])[1]/preceding::button[2]</value>
-      <webElementGuid>fb78473e-9dea-45e5-b8fc-3ac71422c21f</webElementGuid>
+      <webElementGuid>ee3f8d06-bc7f-4113-8217-bea807656829</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +114,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='sample.pdf'])[1]/preceding::button[3]</value>
-      <webElementGuid>b7dd9061-bbe4-4468-9d23-6b7d131dd2ca</webElementGuid>
+      <webElementGuid>9a942f72-4228-42d8-9e77-b245a381bd51</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +122,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//app-historybutton-renderer/button</value>
-      <webElementGuid>f1b7218f-d3fd-4cab-99b0-e9049c670cde</webElementGuid>
+      <webElementGuid>2d7d5507-2d5d-4247-892c-3d1a5b7266a7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,6 +130,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[(text() = 'history' or . = 'history')]</value>
-      <webElementGuid>2e7e5085-ca29-4844-a25d-33b6dfab16b2</webElementGuid>
+      <webElementGuid>827395f1-35dd-492f-886f-69d3d1e47595</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

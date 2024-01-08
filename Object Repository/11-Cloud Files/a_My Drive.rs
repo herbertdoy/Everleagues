@@ -6,16 +6,16 @@
    <elementGuidId>99c63c1d-6067-46bb-9f2a-5c1fbc7ba242</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>a.tab-links.tab-links--active</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>//a[@href = 'javascript:void(0);' and (text() = 'My Files' or . = 'My Files')]</value>
       </entry>
       <entry>
+         <key>CSS</key>
+         <value>a.tab-links.tab-links--active</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
-         <value>//a[contains(.,'keyboard_arrow_rightMy Drive')]</value>
+         <value>//a[contains(.,'My Drive')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -26,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>2faf7e55-48de-4684-be39-89a916e95ad8</webElementGuid>
+      <webElementGuid>12264fe4-4de3-4453-8072-a2d82e47de02</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -34,7 +34,7 @@
       <name>href</name>
       <type>Main</type>
       <value>javascript:void(0);</value>
-      <webElementGuid>6d983da1-751c-4890-ab67-192aac9d44c4</webElementGuid>
+      <webElementGuid>23fa564a-0cef-4e2c-a030-3dd3e4b4e3e1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,7 +42,7 @@
       <name>class</name>
       <type>Main</type>
       <value>tab-links tab-links--active</value>
-      <webElementGuid>078b24cd-2d2a-4533-b932-6235ab3a31a0</webElementGuid>
+      <webElementGuid>b3188a54-b10a-4ced-8a32-1d3fae695ce2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,7 +50,7 @@
       <name>ng-reflect-ng-class</name>
       <type>Main</type>
       <value>[object Object]</value>
-      <webElementGuid>2e517240-5731-4ca9-9000-22e3d9c24018</webElementGuid>
+      <webElementGuid>358f8d2a-8edf-4b99-b5b4-2987a612dcc5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -58,7 +58,7 @@
       <name>text</name>
       <type>Main</type>
       <value>My Files</value>
-      <webElementGuid>4f1a5228-a5b6-4006-b98f-7bb97f7eaf95</webElementGuid>
+      <webElementGuid>ebee7225-85a8-449e-8750-c767130b8c9d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -66,7 +66,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/app-root[1]/app-main-page[@class=&quot;ng-tns-c481-5 ng-trigger ng-trigger-routerAnimation ng-star-inserted&quot;]/mat-sidenav-container[@class=&quot;mat-drawer-container mat-sidenav-container ng-tns-c481-5 mat-drawer-transition mat-drawer-container-has-open&quot;]/mat-sidenav-content[@class=&quot;mat-drawer-content mat-sidenav-content&quot;]/div[@class=&quot;wrapper&quot;]/app-storage[@class=&quot;ng-star-inserted&quot;]/file-explorer[1]/section[@class=&quot;file-explorer&quot;]/div[@class=&quot;file-explorer-controls&quot;]/div[1]/div[1]/a[@class=&quot;tab-links tab-links--active&quot;]</value>
-      <webElementGuid>01eea1b2-071f-4c1a-b39b-777c9a91a756</webElementGuid>
+      <webElementGuid>9e67024e-fc77-43ab-b770-66ddf94a6aea</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -74,7 +74,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'My Files')]</value>
-      <webElementGuid>0d137e53-a64c-4f16-ae5b-61d2b5183b82</webElementGuid>
+      <webElementGuid>1d4b0de8-3de3-4f80-befe-61571f947230</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='GG TESTER'])[1]/following::a[1]</value>
-      <webElementGuid>048a0d4c-1eda-49a4-8f78-e3e5476d3e7d</webElementGuid>
+      <webElementGuid>978f5144-90cf-4115-b8a6-bfa091220c9c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -90,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='English'])[1]/following::a[1]</value>
-      <webElementGuid>1f014768-e120-4ba9-af20-33c6bb6a23be</webElementGuid>
+      <webElementGuid>fc0787d8-e881-43f3-9a96-99aae14a5baa</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,7 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Shared With Me'])[1]/preceding::a[1]</value>
-      <webElementGuid>37b9c075-45cb-40ff-8ca3-82117d26000e</webElementGuid>
+      <webElementGuid>e46db32d-d103-48d0-8551-0a559e2d1a9d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,7 +106,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='My Files'])[2]/preceding::a[2]</value>
-      <webElementGuid>da60f671-7b12-4042-af4a-13e6885743dc</webElementGuid>
+      <webElementGuid>fd43f34b-96c0-48bb-8b60-8e0ac91465d4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -114,7 +114,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='My Files']/parent::*</value>
-      <webElementGuid>5adab622-e4ea-4d83-ae13-1a693b417ac7</webElementGuid>
+      <webElementGuid>ac580021-fc14-4e45-9a01-ec0af9a08077</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -122,7 +122,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, 'javascript:void(0);')]</value>
-      <webElementGuid>3d19ac64-db3e-440a-a5f6-0ff905e2565c</webElementGuid>
+      <webElementGuid>6c9e3766-9d50-41f7-a832-0b4f6e34ffcb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -130,7 +130,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/div/a</value>
-      <webElementGuid>aa09dc65-8d90-4597-8270-9434e95b24d8</webElementGuid>
+      <webElementGuid>6e30c4d1-357d-4615-b499-cf52aa956e1c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -138,6 +138,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = 'javascript:void(0);' and (text() = 'My Files' or . = 'My Files')]</value>
-      <webElementGuid>8c236b48-7d6d-4600-b002-17398e97a178</webElementGuid>
+      <webElementGuid>c90636b3-0559-4721-a96c-68c195a04cd9</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

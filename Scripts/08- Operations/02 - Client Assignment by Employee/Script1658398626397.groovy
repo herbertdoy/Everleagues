@@ -25,7 +25,7 @@ WebUI.verifyElementNotClickable(findTestObject('08-Operations/Client Assignment/
 
 WebUI.delay(GlobalVariable.delay_2s)
 
-WebUI.click(findTestObject('08-Operations/Client Assignment/div_GG TESTER'))
+WebUI.click(findTestObject('08-Operations/Client Assignment/div_GG TESTER 2'))
 
 WebUI.verifyElementVisible(findTestObject('08-Operations/Client Assignment/Clients column'))
 

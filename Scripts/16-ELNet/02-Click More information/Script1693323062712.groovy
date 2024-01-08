@@ -23,5 +23,13 @@ String url = WebUI.getUrl()
 
 url.contains('www.everleagues.com/elnet')
 
+WebUI.delay(GlobalVariable.delay_3s)
+
 WebUI.closeWindowIndex(1)
+
+WebUI.delay(GlobalVariable.delay_3s)
+
+WebUI.switchToWindowIndex(0)
+
+WebUI.delay(GlobalVariable.delay_2s)
 

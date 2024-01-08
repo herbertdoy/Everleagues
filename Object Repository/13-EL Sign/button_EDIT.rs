@@ -6,15 +6,19 @@
    <elementGuidId>aa832a7f-216c-4762-9168-1db550901346</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//button[@color = 'accent' and (text() = 'EDIT' or . = 'EDIT')]</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>button.mat-focus-indicator.text-upper.mat-raised-button.mat-button-base.mat-accent.cdk-focused.cdk-mouse-focused</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//mat-tab-body[@id='mat-tab-content-0-1']/div/app-receiverezsigndocs/div/app-docsigning/div[2]/table/tr[2]/td/button</value>
+         <value>//button[(text() = 'EDIT' or . = 'EDIT')]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>0e1c87da-5fdb-4347-bd3c-7554897e9e86</webElementGuid>
+      <webElementGuid>ceff22cf-5e75-4657-b021-8bf8cc68501b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +34,7 @@
       <name>color</name>
       <type>Main</type>
       <value>accent</value>
-      <webElementGuid>b5e576b5-262d-41d0-a493-fd4fbaa17c16</webElementGuid>
+      <webElementGuid>7dc5b443-81a3-4995-9380-2345e9bd7d8d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +42,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-focus-indicator text-upper mat-raised-button mat-button-base mat-accent cdk-focused cdk-mouse-focused</value>
-      <webElementGuid>7d97c843-8d4e-4972-868b-704e9f37d31f</webElementGuid>
+      <webElementGuid>eef7dbfb-1da5-417e-bbb3-52b9ca9b3f32</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +50,7 @@
       <name>ng-reflect-color</name>
       <type>Main</type>
       <value>accent</value>
-      <webElementGuid>7b70df1f-9769-41cd-8c34-4b6e41809d1f</webElementGuid>
+      <webElementGuid>bc8c640a-0bee-46b7-9583-47eba7daa186</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +58,7 @@
       <name>text</name>
       <type>Main</type>
       <value>EDIT</value>
-      <webElementGuid>1ac59fad-4b62-4827-b4cf-642ea8a6c017</webElementGuid>
+      <webElementGuid>1aaa708b-c53b-4b12-83db-e891e40be135</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +66,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-tab-content-0-1&quot;)/div[@class=&quot;mat-tab-body-content ng-tns-c361-43 ng-trigger ng-trigger-translateTab&quot;]/app-receiverezsigndocs[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;ng-star-inserted&quot;]/app-docsigning[1]/div[@class=&quot;signcapcls2 ng-star-inserted&quot;]/table[1]/tr[2]/td[1]/button[@class=&quot;mat-focus-indicator text-upper mat-raised-button mat-button-base mat-accent cdk-focused cdk-mouse-focused&quot;]</value>
-      <webElementGuid>bb282da2-3e2f-41dc-a152-89ed542d76f3</webElementGuid>
+      <webElementGuid>a9390d9f-00c7-459f-982b-50b982dfbc72</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -70,7 +74,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-tab-body[@id='mat-tab-content-0-1']/div/app-receiverezsigndocs/div/app-docsigning/div[2]/table/tr[2]/td/button</value>
-      <webElementGuid>0a493015-97d3-408d-890a-90e94450e697</webElementGuid>
+      <webElementGuid>83dc945e-1e8e-49fc-b8f5-59818554086e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='REVIEW'])[1]/following::button[1]</value>
-      <webElementGuid>9a8b415c-2cdc-469b-86a6-fa982a0f75d9</webElementGuid>
+      <webElementGuid>70a9bcd6-3849-46fe-ac05-838ecfd03112</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Please review and press the submit button to finish signing.'])[1]/following::button[2]</value>
-      <webElementGuid>a10e1510-f10a-428e-8246-2c085775cfc0</webElementGuid>
+      <webElementGuid>0359f31d-8f43-4806-82c1-220584cea0fa</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='SUBMIT'])[1]/preceding::button[1]</value>
-      <webElementGuid>b65c91d2-b5af-4b32-b98f-512786f88730</webElementGuid>
+      <webElementGuid>8f0b0e45-8398-4a89-9709-75b7fcbce9d5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +106,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tr[2]/td/button</value>
-      <webElementGuid>7c81ae74-695c-40c9-880c-2cad4829d689</webElementGuid>
+      <webElementGuid>579d5eab-36c9-4bec-99ce-e2a42fceeebe</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,6 +114,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[(text() = 'EDIT' or . = 'EDIT')]</value>
-      <webElementGuid>31ceb408-5aac-4534-af62-bfe85d19689b</webElementGuid>
+      <webElementGuid>6f3006f0-31c8-4bde-bf53-8c5454d8b99f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

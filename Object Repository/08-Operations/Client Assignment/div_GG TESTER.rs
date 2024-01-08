@@ -6,16 +6,16 @@
    <elementGuidId>c3931247-d77b-477c-80a1-0e3f326e6321</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+         <value>div.mat-list-item-content</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
-         <value>//span[text()='GG TESTER']</value>
+         <value>(//mat-list-option[@ng-reflect-value='6084890d-fc7e-4c9b-b4f6-860883']//div)[1]</value>
       </entry>
       <entry>
          <key>BASIC</key>
          <value>//div[@class = 'mat-list-item-content' and (text() = 'GG TESTER' or . = 'GG TESTER')]</value>
-      </entry>
-      <entry>
-         <key>CSS</key>
-         <value>div.mat-list-item-content</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -26,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>d0894224-8c7c-4c2a-b26d-2eb25bfc3dcd</webElementGuid>
+      <webElementGuid>a8e0570a-b4f6-4b2b-8a7d-99da25ab9530</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -34,7 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-list-item-content</value>
-      <webElementGuid>f3bf2570-5656-46f5-bcd6-ab152dad83ff</webElementGuid>
+      <webElementGuid>02d55b05-59f8-43b0-80b1-37a0f6e2dd2e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -42,7 +42,7 @@
       <name>text</name>
       <type>Main</type>
       <value>GG TESTER</value>
-      <webElementGuid>afbf8271-833a-4635-9909-904b86246c10</webElementGuid>
+      <webElementGuid>58f0393b-02fd-4743-bf98-1fd7ef40e036</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,7 +50,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-tab-content-1-0&quot;)/div[@class=&quot;mat-tab-body-content ng-tns-c361-80 ng-trigger ng-trigger-translateTab&quot;]/app-client-assign-by-employee[@class=&quot;tab-container ng-star-inserted&quot;]/div[@class=&quot;white-container&quot;]/div[@class=&quot;white-container-body&quot;]/div[@class=&quot;container-body&quot;]/perfect-scrollbar[@class=&quot;perfect-scrollbar&quot;]/div[@class=&quot;ps&quot;]/div[@class=&quot;ps-content&quot;]/mat-nav-list[@class=&quot;mat-nav-list mat-list-base contact-list&quot;]/a[@class=&quot;mat-list-item mat-focus-indicator mat-list-item-avatar mat-list-item-with-avatar ng-star-inserted&quot;]/div[@class=&quot;mat-list-item-content&quot;]</value>
-      <webElementGuid>4e438232-3fdc-4eeb-9498-8b90491cb5c3</webElementGuid>
+      <webElementGuid>c5108299-0bdb-420f-b8bd-60251b479e10</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -58,7 +58,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-tab-body[@id='mat-tab-content-1-0']/div/app-client-assign-by-employee/div/div[2]/div[2]/perfect-scrollbar/div/div/mat-nav-list/a/div</value>
-      <webElementGuid>235e93f2-da24-4521-863a-54827c9ee086</webElementGuid>
+      <webElementGuid>00986d26-b8cf-4fd1-963d-b59275ecd960</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -66,7 +66,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Employees'])[1]/following::div[19]</value>
-      <webElementGuid>055bd8c0-e10a-4d3b-a305-1334dae29aaf</webElementGuid>
+      <webElementGuid>50df7177-a1bb-487f-9f98-3c6d2513d94d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -74,7 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='By Client'])[1]/following::div[25]</value>
-      <webElementGuid>c8906c1c-8827-40e8-81f9-786591f6117b</webElementGuid>
+      <webElementGuid>6ae5dd38-85ec-4b68-8428-c7d4dd374126</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='GT'])[1]/preceding::div[5]</value>
-      <webElementGuid>5345ad3b-486f-4905-a9f8-3300300f7805</webElementGuid>
+      <webElementGuid>b96b4510-a24a-405a-8e0f-bf9b447b4816</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -90,7 +90,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//mat-nav-list/a/div</value>
-      <webElementGuid>dddc8444-a71b-4d76-9d64-5d58ed5d47ff</webElementGuid>
+      <webElementGuid>908b89e4-0caf-452b-9977-30decb8ac35f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,6 +98,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = 'GG TESTER' or . = 'GG TESTER')]</value>
-      <webElementGuid>23844518-ab7e-4a11-ae76-ed6e1946ae95</webElementGuid>
+      <webElementGuid>c6ccca9e-4fd4-4966-a8ad-536efcd40594</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -6,19 +6,19 @@
    <elementGuidId>7aadfa89-018a-4a5a-b094-32978d337e29</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>td.td-data-table-cell.ng-star-inserted</value>
+         <key>XPATH</key>
+         <value>//user-avatar[@ng-reflect-name='GG tester 2']</value>
       </entry>
       <entry>
          <key>BASIC</key>
          <value>//td[(text() = 'GTGG tester 2' or . = 'GTGG tester 2')]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//mat-tab-body[@id='mat-tab-content-0-0']/div/div/div[2]/perfect-scrollbar/div/div/td-data-table/div/table/tbody/tr/td</value>
+         <key>CSS</key>
+         <value>td.td-data-table-cell.ng-star-inserted</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -26,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>td</value>
-      <webElementGuid>d183a32e-1b34-4d28-9827-f2a1f989d8b9</webElementGuid>
+      <webElementGuid>f6a25bee-4dd7-4cd5-87cb-00a5c07e9ee9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -34,7 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>td-data-table-cell ng-star-inserted</value>
-      <webElementGuid>ce0bc253-e651-4571-868a-eda30481b692</webElementGuid>
+      <webElementGuid>bc5270f7-a929-434b-883a-381682cb922e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -42,7 +42,7 @@
       <name>text</name>
       <type>Main</type>
       <value>GTGG tester 2</value>
-      <webElementGuid>b94c6179-951d-400a-a50d-aafad500447c</webElementGuid>
+      <webElementGuid>fe3ff829-b608-4024-a88c-c02391422131</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,7 +50,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-tab-content-0-0&quot;)/div[@class=&quot;mat-tab-body-content ng-tns-c361-48 ng-trigger ng-trigger-translateTab&quot;]/div[@class=&quot;white-container push-top-sm ng-star-inserted&quot;]/div[@class=&quot;container-body&quot;]/perfect-scrollbar[@class=&quot;perfect-scrollbar&quot;]/div[@class=&quot;ps&quot;]/div[@class=&quot;ps-content&quot;]/td-data-table[@class=&quot;ng-untouched ng-valid ng-dirty&quot;]/div[@class=&quot;td-data-table-scrollable&quot;]/table[@class=&quot;td-data-table&quot;]/tbody[@class=&quot;td-data-table-body&quot;]/tr[@class=&quot;td-data-table-row ng-star-inserted&quot;]/td[@class=&quot;td-data-table-cell ng-star-inserted&quot;]</value>
-      <webElementGuid>77583448-ffbc-4263-a990-7e3def0af24d</webElementGuid>
+      <webElementGuid>f8970a29-d7c6-4bc5-91da-1c5da84716de</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -58,7 +58,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-tab-body[@id='mat-tab-content-0-0']/div/div/div[2]/perfect-scrollbar/div/div/td-data-table/div/table/tbody/tr/td</value>
-      <webElementGuid>2cff02a7-d4cd-45ae-bda8-9a7542981d53</webElementGuid>
+      <webElementGuid>4c8f2f05-af12-4044-acc1-ea649e532dd6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -66,7 +66,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Member Type'])[1]/following::td[1]</value>
-      <webElementGuid>e35114bc-fc76-490f-a168-f9007564c8ce</webElementGuid>
+      <webElementGuid>edede227-151c-44c3-9f59-142dbd5fe9e0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -74,7 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Org Role'])[1]/following::td[1]</value>
-      <webElementGuid>30ce2f8e-8a54-4bd1-8763-1ab76c6ebd81</webElementGuid>
+      <webElementGuid>f39069cb-dd1b-4afe-8735-fa0f486e42ef</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,7 +82,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td</value>
-      <webElementGuid>e8ee1479-0cbd-46c2-a933-33e388e376db</webElementGuid>
+      <webElementGuid>ecbdb3b4-72a0-47c6-9903-ccacd943734f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -90,6 +90,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//td[(text() = 'GTGG tester 2' or . = 'GTGG tester 2')]</value>
-      <webElementGuid>b0b51520-267b-4d97-af51-9077204a103a</webElementGuid>
+      <webElementGuid>62aecca5-e754-4adf-817b-52370b048fb9</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

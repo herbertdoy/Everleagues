@@ -19,6 +19,8 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.click(findTestObject('13-EL Sign/button_visibility'))
 
+WebUI.delay(GlobalVariable.delay_3s)
+
 WebUI.switchToWindowIndex(1)
 
 WebUI.closeWindowIndex(1)

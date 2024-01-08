@@ -10,7 +10,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//span[@class='mat-checkbox-inner-container mat-checkbox-inner-container-no-side-margin'])[2]</value>
+         <value>(//mat-checkbox[contains(@class,'mat-checkbox mat-primary')])[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

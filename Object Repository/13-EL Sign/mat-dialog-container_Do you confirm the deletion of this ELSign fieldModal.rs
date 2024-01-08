@@ -7,14 +7,18 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//mat-dialog-container[@id='mat-dialog-1']</value>
+         <value>//mat-dialog-container[@role='dialog']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//mat-dialog-container[(text() = 'Do you confirm the deletion of this ELSign field?NoYes' or . = 'Do you confirm the deletion of this ELSign field?NoYes')]</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>#mat-dialog-1</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>mat-dialog-container</value>
-      <webElementGuid>6c1ecb8a-6b82-4f1b-a77e-e87badda2622</webElementGuid>
+      <webElementGuid>b5ba0612-8bb3-4696-ac1b-8f1c6aec86dd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +34,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>-1</value>
-      <webElementGuid>c4d48ad3-8d1b-49b1-af14-f881fbcc22eb</webElementGuid>
+      <webElementGuid>076c6159-cc06-4a48-bd69-ac7d0cfb160c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +42,7 @@
       <name>aria-modal</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>9de66e6b-b6b6-41a5-9e8c-749626939f51</webElementGuid>
+      <webElementGuid>e5506d8f-dc1a-4e8a-a778-07adda11b425</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +50,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-dialog-container ng-tns-c31-113 ng-trigger ng-trigger-dialogContainer ng-star-inserted</value>
-      <webElementGuid>454ec8e7-713b-4360-a930-55fa9d7b1c4f</webElementGuid>
+      <webElementGuid>520edbd0-33cf-4581-a071-fd597f6cf448</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +58,7 @@
       <name>id</name>
       <type>Main</type>
       <value>mat-dialog-1</value>
-      <webElementGuid>2680d5b7-2af6-4b60-a68d-45721e1e1cd6</webElementGuid>
+      <webElementGuid>67c885d1-df01-4f66-8d32-8995c26ce431</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +66,7 @@
       <name>role</name>
       <type>Main</type>
       <value>dialog</value>
-      <webElementGuid>99b479e7-2a2a-451f-b296-3a72b9c71393</webElementGuid>
+      <webElementGuid>40f436e6-9c2d-446d-b4d8-608aa59cf9e9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -70,7 +74,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Do you confirm the deletion of this ELSign field?NoYes</value>
-      <webElementGuid>6b5890b6-eff7-4a51-a702-d64c2d443d43</webElementGuid>
+      <webElementGuid>83304298-a208-4094-98e8-85864c1c8613</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,7 +82,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-dialog-1&quot;)</value>
-      <webElementGuid>03971e83-6c15-4064-80c6-3854c892a590</webElementGuid>
+      <webElementGuid>6c1704f9-177f-40d2-bcd7-2ecb35c724c5</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -86,7 +90,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//mat-dialog-container[@id='mat-dialog-1']</value>
-      <webElementGuid>5308f314-c4e0-468e-a6dd-514bb6f81b80</webElementGuid>
+      <webElementGuid>4b7d4660-d418-46e4-9b89-063b40585c30</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +98,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='cdk-overlay-31']/mat-dialog-container</value>
-      <webElementGuid>cdd5e448-5e6d-430b-a007-c9316c07fd61</webElementGuid>
+      <webElementGuid>91ed3d0a-5d72-43aa-81bc-a3c0d4be643b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +106,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//mat-dialog-container</value>
-      <webElementGuid>ed165914-d61f-4057-b044-9e8027900448</webElementGuid>
+      <webElementGuid>a9de52cf-f207-4de6-8f9a-726c88ea7dc6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,6 +114,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//mat-dialog-container[@id = 'mat-dialog-1' and (text() = 'Do you confirm the deletion of this ELSign field?NoYes' or . = 'Do you confirm the deletion of this ELSign field?NoYes')]</value>
-      <webElementGuid>1d2570f2-8063-413b-978b-bb6031f864ee</webElementGuid>
+      <webElementGuid>bb3af69e-2ee2-44c2-a041-3907a2a9f725</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -7,14 +7,18 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//mat-dialog-container[@id='mat-dialog-6']/app-ezsign-client-reminder/div/div/table/tr/td[2]/span/button</value>
+         <value>//button[(text() = 'Save Schedule' or . = 'Save Schedule')]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//button[@color = 'accent' and (text() = 'Save Schedule' or . = 'Save Schedule')]</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>button.mat-focus-indicator.text-upper.mat-raised-button.mat-button-base.mat-accent.cdk-focused.cdk-mouse-focused</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>25e0c41d-fa20-42dd-9a99-f7d955fedb4c</webElementGuid>
+      <webElementGuid>2fcfa389-810d-4655-865f-455da43b88be</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +34,7 @@
       <name>color</name>
       <type>Main</type>
       <value>accent</value>
-      <webElementGuid>24746296-49b2-47c4-9585-2f56b696b7f2</webElementGuid>
+      <webElementGuid>bdb740b3-90bc-45a7-9bba-803d69261bd5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +42,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-focus-indicator text-upper mat-raised-button mat-button-base mat-accent cdk-focused cdk-mouse-focused</value>
-      <webElementGuid>8b8e7244-acad-4bd6-a9d2-cf851708fa9f</webElementGuid>
+      <webElementGuid>34c5f4d6-c2cf-4974-ba1d-dd787b5ba34c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +50,7 @@
       <name>ng-reflect-color</name>
       <type>Main</type>
       <value>accent</value>
-      <webElementGuid>42726eae-88e7-47a4-9e9b-04230f2dd694</webElementGuid>
+      <webElementGuid>4269e60d-77ac-4053-965d-7d807d29c751</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +58,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Save Schedule</value>
-      <webElementGuid>0fd6ed24-96ea-4ba6-9eba-6bf55c685ece</webElementGuid>
+      <webElementGuid>d29ff105-730d-4abf-a15c-6b40de68a2c1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +66,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-dialog-6&quot;)/app-ezsign-client-reminder[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;coverlettercontainer&quot;]/table[1]/tr[1]/td[2]/span[1]/button[@class=&quot;mat-focus-indicator text-upper mat-raised-button mat-button-base mat-accent cdk-focused cdk-mouse-focused&quot;]</value>
-      <webElementGuid>e8bac539-1c50-48cc-a169-432df88c6454</webElementGuid>
+      <webElementGuid>39da2601-c736-49ce-b65b-8d147526851e</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -70,7 +74,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-dialog-container[@id='mat-dialog-6']/app-ezsign-client-reminder/div/div/table/tr/td[2]/span/button</value>
-      <webElementGuid>81297844-7e8f-49eb-8fbf-00e072523a7a</webElementGuid>
+      <webElementGuid>d8d4308e-526e-4403-9e76-0e990893a668</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Last reminder sent on:'])[1]/following::button[1]</value>
-      <webElementGuid>0e319d52-6199-413b-9e3e-9a52bcf3882f</webElementGuid>
+      <webElementGuid>ad659720-aa66-4fd2-ba81-0b34fae5d6be</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='CANCEL'])[1]/preceding::button[1]</value>
-      <webElementGuid>dba4c2a4-ddc9-471c-ad1c-ea37a86c3647</webElementGuid>
+      <webElementGuid>99ecc0bd-5966-414a-a046-508866c4292c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +98,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td[2]/span/button</value>
-      <webElementGuid>1c3a82b6-940a-4fd1-bbb2-c4f36b4b644b</webElementGuid>
+      <webElementGuid>368c5674-3281-4f5a-b255-80054c26ea22</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,6 +106,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[(text() = 'Save Schedule' or . = 'Save Schedule')]</value>
-      <webElementGuid>c3341015-f92e-485b-86ee-02c626724ee9</webElementGuid>
+      <webElementGuid>7f5d1c9d-0190-49bf-895c-08f6f068c983</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

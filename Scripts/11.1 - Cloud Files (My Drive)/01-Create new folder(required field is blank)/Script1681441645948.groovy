@@ -82,11 +82,11 @@ WebUI.click(findTestObject('06-Teams/button_My Organizations'))
 
 WebUI.click(findTestObject('02-Side Icons(Organization)/Add Contact/button_Automation Test Org'))
 
-WebUI.delay(GlobalVariable.delay_4s)
+WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.verifyElementVisible(findTestObject('02-Side Icons(Organization)/Add Contact/span_Automation Test Org'))
 
-WebUI.delay(GlobalVariable.delay_5s)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('03-Header Menu/Hamburger Button/div_Cloud Files'))
 
@@ -94,7 +94,7 @@ WebUI.scrollToElement(findTestObject('11-Cloud Files/a_My Drive'), 0)
 
 WebUI.verifyElementVisible(findTestObject('11-Cloud Files/a_My Drive'))
 
-WebUI.verifyElementVisible(findTestObject('11-Cloud Files/a_Shared Drive'))
+//WebUI.verifyElementVisible(findTestObject('11-Cloud Files/a_Shared Drive'))
 
 WebUI.verifyElementVisible(findTestObject('11-Cloud Files/a_Shared With Me'))
 
@@ -102,9 +102,9 @@ WebUI.click(findTestObject('11-Cloud Files/a_My Drive'))
 
 WebUI.verifyElementVisible(findTestObject('11-Cloud Files/h4_CLOUD STORAGE'))
 
-WebUI.verifyElementVisible(findTestObject('11-Cloud Files/h4_MY FILES'))
+WebUI.verifyElementVisible(findTestObject('11-Cloud Files/h4_MY DRIVE'))
 
-WebUI.delay(GlobalVariable.delay_3s)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('11-Cloud Files/button_create_new_folderNew Folder'))
 

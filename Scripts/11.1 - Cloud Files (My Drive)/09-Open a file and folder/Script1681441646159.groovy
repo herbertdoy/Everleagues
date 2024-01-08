@@ -35,7 +35,7 @@ WebUI.rightClick(findTestObject('11-Cloud Files/td_Automation folder EDIT'))
 
 WebUI.click(findTestObject('11-Cloud Files/button_Open'))
 
-WebUI.click(findTestObject('11-Cloud Files/h4_MY FILES'))
+WebUI.click(findTestObject('11-Cloud Files/h4_MY DRIVE'))
 
 WebUI.delay(GlobalVariable.delay_3s)
 

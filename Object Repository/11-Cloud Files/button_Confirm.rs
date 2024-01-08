@@ -6,15 +6,19 @@
    <elementGuidId>01582767-6f4a-48b4-92dd-c6c508bfd23c</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(//button[@type='button'])[11]</value>
+         <key>BASIC</key>
+         <value>//button[@type = 'button' and (text() = 'Confirm' or . = 'Confirm')]</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>button.mat-focus-indicator.mat-raised-button.mat-button-base</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[(text() = 'Confirm' or . = 'Confirm')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>da0a00e9-f4c4-4f1e-afcd-ff4312a75915</webElementGuid>
+      <webElementGuid>f0fceee2-643c-4d9a-8357-c18814339513</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +34,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>d8909aa0-3158-488c-a4e3-e107efaba84e</webElementGuid>
+      <webElementGuid>af3a148a-ad59-4849-af88-cb311fd27c80</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +42,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-focus-indicator mat-raised-button mat-button-base</value>
-      <webElementGuid>6058f44a-c020-4a71-992f-b13bfb87967c</webElementGuid>
+      <webElementGuid>dd936830-c6c5-4e52-8f0d-6e648af4618f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +50,7 @@
       <name>ng-reflect-disabled</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>434997ad-6b09-4bc5-936d-a5834cef6962</webElementGuid>
+      <webElementGuid>89bfb3f9-b8fd-42ac-8310-70253841bce4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +58,7 @@
       <name>disabled</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>5ed7ccb1-95c0-4d11-a837-aa064ec42269</webElementGuid>
+      <webElementGuid>31b0bf89-878b-4900-9c24-56758d0b17ca</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -62,7 +66,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Confirm</value>
-      <webElementGuid>4ffd0f44-e6f1-49aa-b4fc-2fc716acad24</webElementGuid>
+      <webElementGuid>4be9258b-37ae-48fc-99f0-72aa4fce6b76</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +74,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-dialog-0&quot;)/app-dialog-add-new-folder[@class=&quot;ng-star-inserted&quot;]/section[@class=&quot;dialog-container&quot;]/div[@class=&quot;mat-dialog-actions dialog-action&quot;]/div[@class=&quot;action-container&quot;]/button[@class=&quot;mat-focus-indicator mat-raised-button mat-button-base&quot;]</value>
-      <webElementGuid>c31a724b-3858-4794-a915-0b1d25afecba</webElementGuid>
+      <webElementGuid>2bd0713d-debc-4ce6-b3f7-02798cc175b0</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -78,7 +82,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[11]</value>
-      <webElementGuid>4d414fa7-1f78-4aec-8d96-d35446456455</webElementGuid>
+      <webElementGuid>da8dd344-9c26-4f51-9939-a5bb17944430</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +90,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-dialog-container[@id='mat-dialog-0']/app-dialog-add-new-folder/section/div[2]/div/button</value>
-      <webElementGuid>394fa638-e92b-40fd-a0e8-ee34a46b0d67</webElementGuid>
+      <webElementGuid>31cbb6ea-a389-459c-9196-fa566a873958</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Folder name'])[1]/following::button[1]</value>
-      <webElementGuid>e2360c18-5178-41fd-93a5-420d000b05d0</webElementGuid>
+      <webElementGuid>71bbe7ae-f124-434a-b74d-0aae317a62b3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +106,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='New folder'])[1]/following::button[1]</value>
-      <webElementGuid>500502f6-1cd7-4c62-86d0-06e909e84e27</webElementGuid>
+      <webElementGuid>dcfc48ea-c406-43df-b820-c1dd0a5ea2b1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +114,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/preceding::button[1]</value>
-      <webElementGuid>ea18828e-9635-47fc-a1cd-8d5bb33c595a</webElementGuid>
+      <webElementGuid>df2e1aad-5374-4000-ac00-609bdb7eb6bd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +122,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/button</value>
-      <webElementGuid>9c606bfa-bc24-4876-86c0-e0c56b941c61</webElementGuid>
+      <webElementGuid>8b595b26-4147-4086-bb35-1e7c8b56c2e8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,6 +130,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = 'Confirm' or . = 'Confirm')]</value>
-      <webElementGuid>298848a2-2b45-4dd8-85ff-66c25ba207c2</webElementGuid>
+      <webElementGuid>8a84beaf-6dda-4fbb-90ad-d160c4ac2042</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

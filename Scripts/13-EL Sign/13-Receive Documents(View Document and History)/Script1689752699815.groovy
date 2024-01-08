@@ -19,13 +19,19 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.click(findTestObject('13-EL Sign/button_visibility'))
 
+WebUI.delay(GlobalVariable.delay_2s)
+
 WebUI.switchToWindowIndex(1)
+
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.closeWindowIndex(1)
 
+WebUI.delay(GlobalVariable.delay_2s)
+
 WebUI.switchToWindowIndex(0)
 
-WebUI.delay(GlobalVariable.delay_3s)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('13-EL Sign/mat-icon_refit'), FailureHandling.STOP_ON_FAILURE)
 
@@ -37,7 +43,7 @@ WebUI.verifyElementVisible(findTestObject('13-EL Sign/mat-dialog-container-histo
 
 WebUI.verifyElementVisible(findTestObject('13-EL Sign/td_historyName'))
 
-WebUI.delay(GlobalVariable.delay_3s)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.doubleClick(findTestObject('13-EL Sign/button_CANCEL2'))
 

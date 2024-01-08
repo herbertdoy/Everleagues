@@ -23,6 +23,8 @@ WebUI.click(findTestObject('12-AI Assistant(beta)/AI asst button-Side panel'))
 
 WebUI.click(findTestObject('12-AI Assistant(beta)/12.1-Chat GPT(beta)/Chat GPT (beta)'))
 
+WebUI.delay(GlobalVariable.delay_3s)
+
 WebUI.click(findTestObject('12-AI Assistant(beta)/12.1-Chat GPT(beta)/Use my ownChatGPT account'))
 
 WebUI.delay(GlobalVariable.delay_3s)

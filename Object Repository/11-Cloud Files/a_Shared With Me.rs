@@ -6,16 +6,16 @@
    <elementGuidId>8ac7ddc0-7b9b-4445-9262-13e000fa3d3b</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>a.mat-focus-indicator.ng-tns-c540-20.mat-button.mat-button-base.cdk-focused.cdk-mouse-focused</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>//a[@routerlinkactive = 'active' and @href = '/main/storage/shared' and (text() = 'keyboard_arrow_rightShared With Me ' or . = 'keyboard_arrow_rightShared With Me ')]</value>
       </entry>
       <entry>
+         <key>CSS</key>
+         <value>a.mat-focus-indicator.ng-tns-c540-20.mat-button.mat-button-base.cdk-focused.cdk-mouse-focused</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
-         <value>//a[contains(.,'keyboard_arrow_rightShared With Me')]</value>
+         <value>//a[contains(.,'Shared With Me')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -26,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>93ad7167-1000-42f4-8df6-1364c4c1ee0e</webElementGuid>
+      <webElementGuid>13723c3b-cdf2-4194-951f-99c6f0102973</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -34,7 +34,7 @@
       <name>routerlinkactive</name>
       <type>Main</type>
       <value>active</value>
-      <webElementGuid>91604850-236c-4389-a951-356ab497d7f6</webElementGuid>
+      <webElementGuid>7792c214-9d69-4955-adc7-479cc05d3ce2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,7 +42,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-focus-indicator ng-tns-c540-20 mat-button mat-button-base cdk-focused cdk-mouse-focused</value>
-      <webElementGuid>969e2abf-2822-4332-b63e-218bd1b64f47</webElementGuid>
+      <webElementGuid>eac891b5-9799-458b-9932-d02e8b45cbd9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,7 +50,7 @@
       <name>ng-reflect-router-link-active</name>
       <type>Main</type>
       <value>active</value>
-      <webElementGuid>b3a6bdeb-41e5-43ff-84dd-46d1ef6e2dc5</webElementGuid>
+      <webElementGuid>64106fa4-7c70-4bd4-b3f0-0f238083c04c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -58,7 +58,7 @@
       <name>ng-reflect-router-link</name>
       <type>Main</type>
       <value>storage/shared</value>
-      <webElementGuid>733033ec-0fdb-4c92-b013-bb56a18ba7ca</webElementGuid>
+      <webElementGuid>ecf47ad7-33e6-41d3-8d9d-784a6b6e5762</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -66,7 +66,7 @@
       <name>ng-reflect-router-link-active-options</name>
       <type>Main</type>
       <value>[object Object]</value>
-      <webElementGuid>da9d22eb-9357-401a-ba8d-a14a00e1c0ab</webElementGuid>
+      <webElementGuid>a556ec52-2096-4be2-899a-9f19477f0358</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -74,7 +74,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>4fcf8c42-cec3-4e9b-af51-27316781dac7</webElementGuid>
+      <webElementGuid>1aa0ccee-e81c-4d5f-8a27-f3ad1feba9e4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -82,7 +82,7 @@
       <name>aria-disabled</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>f71da355-c401-420b-ac1c-bb3571376ffe</webElementGuid>
+      <webElementGuid>6d29044d-33aa-468c-923a-6899bd8132ea</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -90,7 +90,7 @@
       <name>href</name>
       <type>Main</type>
       <value>/main/storage/shared</value>
-      <webElementGuid>81cfc4cf-f53e-45ea-990f-f548a594f8ec</webElementGuid>
+      <webElementGuid>eacc8386-3a8e-4fb0-a290-c3c0a48cd7b6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -98,7 +98,7 @@
       <name>text</name>
       <type>Main</type>
       <value>keyboard_arrow_rightShared With Me </value>
-      <webElementGuid>83af2bbc-edc6-490b-a48b-ef5fb7f26dea</webElementGuid>
+      <webElementGuid>b2a1f0a1-6f66-4ce6-888c-e344f02ee6b0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -106,7 +106,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/app-root[1]/app-main-page[@class=&quot;ng-tns-c481-5 ng-trigger ng-trigger-routerAnimation ng-star-inserted&quot;]/mat-sidenav-container[@class=&quot;mat-drawer-container mat-sidenav-container ng-tns-c481-5 mat-drawer-transition mat-drawer-container-has-open&quot;]/mat-sidenav[@class=&quot;mat-drawer mat-sidenav left-sidenav ng-tns-c195-6 ng-trigger ng-trigger-transform mat-drawer-over ng-star-inserted mat-drawer-opened&quot;]/div[@class=&quot;mat-drawer-inner-container ng-tns-c195-6&quot;]/perfect-scrollbar[@class=&quot;perfect-scrollbar ng-tns-c481-5 ng-star-inserted&quot;]/div[@class=&quot;ps ps--active-y&quot;]/div[@class=&quot;ps-content&quot;]/px-gdn-sidemenu[1]/ul[1]/px-gdn-sideitem[@class=&quot;ng-tns-c540-18 ng-star-inserted&quot;]/li[@class=&quot;ng-tns-c540-18 menu-level--1 open&quot;]/ul[@class=&quot;children ng-tns-c540-18 ng-trigger ng-trigger-closeState&quot;]/px-gdn-sideitem[@class=&quot;ng-tns-c540-20 ng-tns-c540-18 ng-star-inserted&quot;]/li[@class=&quot;ng-tns-c540-20 menu-level-0 close&quot;]/div[@class=&quot;item ng-tns-c540-20&quot;]/a[@class=&quot;mat-focus-indicator ng-tns-c540-20 mat-button mat-button-base cdk-focused cdk-mouse-focused&quot;]</value>
-      <webElementGuid>c9c75f6d-babe-437f-8750-dfe9d221b903</webElementGuid>
+      <webElementGuid>2c6dcd9f-d8d0-4883-bb72-aef436040c0f</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -114,7 +114,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='My Files'])[1]/following::a[1]</value>
-      <webElementGuid>585b24b6-8783-44dd-b9da-73ef81d662a7</webElementGuid>
+      <webElementGuid>1eb8c1ef-ca28-406b-99eb-44315375af31</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -122,7 +122,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='arrow_drop_down'])[4]/following::a[2]</value>
-      <webElementGuid>a76a09a9-3273-4b79-9d97-3e0d8d738966</webElementGuid>
+      <webElementGuid>06ceaf82-dd53-4490-9e11-531ff7541bc0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -130,7 +130,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='ELSign'])[1]/preceding::a[1]</value>
-      <webElementGuid>3c88f0ff-851d-4da1-aa79-7286d4065832</webElementGuid>
+      <webElementGuid>3d2cdbf2-76d1-45ac-b258-09bd5956ff0e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -138,7 +138,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '/main/storage/shared')]</value>
-      <webElementGuid>39aafd83-5ffd-4d6b-97a9-d86dbc0a388b</webElementGuid>
+      <webElementGuid>5d499f15-078e-4b23-ab8b-74fba10c0c7a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -146,7 +146,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//px-gdn-sideitem[8]/li/ul/px-gdn-sideitem[2]/li/div/a</value>
-      <webElementGuid>d310b599-ca6e-4097-9894-6409e2031189</webElementGuid>
+      <webElementGuid>d522854f-5fa4-41d1-b947-a46aed5b3153</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -154,6 +154,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '/main/storage/shared' and (text() = 'keyboard_arrow_rightShared With Me ' or . = 'keyboard_arrow_rightShared With Me ')]</value>
-      <webElementGuid>42077834-3ce2-4340-8d07-d2367cd5f0e6</webElementGuid>
+      <webElementGuid>74d92da6-a9b8-45f5-8cb0-b4109b380309</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

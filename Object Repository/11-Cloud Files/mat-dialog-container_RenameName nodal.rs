@@ -6,10 +6,6 @@
    <elementGuidId>b363a030-0a86-420a-80dc-ecce0b5646e8</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//mat-dialog-container[@id='mat-dialog-21']</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>//mat-dialog-container[(text() = 'RenameName *SaveCancel' or . = 'RenameName *SaveCancel')]</value>
       </entry>
@@ -17,8 +13,12 @@
          <key>CSS</key>
          <value>#mat-dialog-21</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//mat-dialog-container[@role='dialog']</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -26,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>mat-dialog-container</value>
-      <webElementGuid>3c473a09-f961-499f-be35-91c9fb697541</webElementGuid>
+      <webElementGuid>8cca9080-e63b-41d8-a912-117d8cb010ee</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -34,7 +34,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>-1</value>
-      <webElementGuid>19a3267d-674c-4e9d-90e1-6e443946e123</webElementGuid>
+      <webElementGuid>68135f9a-aeaa-4fe7-b697-03295a5392f5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,7 +42,7 @@
       <name>aria-modal</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>5fe6f4e2-6414-4490-b435-1574efc4a8ab</webElementGuid>
+      <webElementGuid>a886c32b-b76d-4def-99f3-82ee1d020d8b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,7 +50,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-dialog-container ng-tns-c31-228 ng-trigger ng-trigger-dialogContainer ng-star-inserted</value>
-      <webElementGuid>05772d23-7f96-421e-ac39-eadcad65d8a8</webElementGuid>
+      <webElementGuid>2a902140-f85d-4dd8-a803-6206961d5162</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -58,7 +58,7 @@
       <name>id</name>
       <type>Main</type>
       <value>mat-dialog-21</value>
-      <webElementGuid>79929b2f-74ea-45eb-84b5-7ae3edbbca78</webElementGuid>
+      <webElementGuid>b373e43c-5dfe-4149-b724-fb98d6b9c83e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -66,7 +66,7 @@
       <name>role</name>
       <type>Main</type>
       <value>dialog</value>
-      <webElementGuid>bfac6185-72fb-49ee-bba0-43391312b4fe</webElementGuid>
+      <webElementGuid>61d319c4-7fd0-40e4-b5ac-72a9522177fc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -74,7 +74,7 @@
       <name>aria-labelledby</name>
       <type>Main</type>
       <value>mat-dialog-title-21</value>
-      <webElementGuid>88526b0a-52dc-465f-a7ea-a42f55ecacb8</webElementGuid>
+      <webElementGuid>b4480a68-fa17-4820-a29c-fc2586d60855</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -82,7 +82,7 @@
       <name>text</name>
       <type>Main</type>
       <value>RenameName *SaveCancel</value>
-      <webElementGuid>e1b51a56-3383-4000-9b45-68aa25453f66</webElementGuid>
+      <webElementGuid>bc05b0ea-2779-408f-8ddb-86055e384003</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -90,7 +90,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-dialog-21&quot;)</value>
-      <webElementGuid>721aa75d-e11e-400e-99fc-abf9927f24d5</webElementGuid>
+      <webElementGuid>85426e6f-e366-455a-851f-e3fb7e4359f8</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -98,7 +98,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//mat-dialog-container[@id='mat-dialog-21']</value>
-      <webElementGuid>2e7fb4f0-d1eb-4eec-bb05-2787c4b0e75a</webElementGuid>
+      <webElementGuid>bdd73c59-372f-4900-a277-aee62266a139</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,7 +106,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='cdk-overlay-51']/mat-dialog-container</value>
-      <webElementGuid>972653fd-5b71-4c8c-bafb-66c55ce4c5bb</webElementGuid>
+      <webElementGuid>ed377ee7-5b51-4606-a7d2-1e64b5822393</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -114,7 +114,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='JPEG File'])[1]/following::mat-dialog-container[1]</value>
-      <webElementGuid>f80b45be-19ef-47ed-9871-4ca172d263c1</webElementGuid>
+      <webElementGuid>70054fa4-93c4-4f65-a6be-ac78f503b969</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -122,7 +122,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='qa'])[1]/following::mat-dialog-container[1]</value>
-      <webElementGuid>b84ae8a2-21ba-492e-80ca-43a1b39aeeaa</webElementGuid>
+      <webElementGuid>a07fee9c-3d7a-4bd9-b1e8-5855d1697aa4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -130,7 +130,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//mat-dialog-container</value>
-      <webElementGuid>c6e9b272-9628-45fb-b3a0-6c5987be4885</webElementGuid>
+      <webElementGuid>f6c43b1c-3919-40ce-8096-34e3b31848f0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -138,6 +138,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//mat-dialog-container[@id = 'mat-dialog-21' and (text() = 'RenameName *SaveCancel' or . = 'RenameName *SaveCancel')]</value>
-      <webElementGuid>11778b19-3638-4fa7-a124-5d359fae9199</webElementGuid>
+      <webElementGuid>d14a7a76-eb4a-48cf-a5c4-39111b15627f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

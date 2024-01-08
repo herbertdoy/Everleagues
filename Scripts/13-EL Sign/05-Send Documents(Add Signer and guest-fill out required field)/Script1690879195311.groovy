@@ -35,7 +35,7 @@ WebUI.click(findTestObject('13-EL Sign/button_personADD SIGNER  FIELD'))
 
 WebUI.delay(GlobalVariable.delay_2s)
 
-WebUI.click(findTestObject('13-EL Sign/button_person_outlineADD GUEST'))
+WebUI.click(findTestObject('13-EL Sign/button_ADD GUEST'))
 
 WebUI.verifyElementVisible(findTestObject('13-EL Sign/mat-dialog-container_New GuestModal'))
 

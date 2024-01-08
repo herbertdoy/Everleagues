@@ -10,7 +10,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//td[2]/mat-checkbox/label/span</value>
+         <value>(//mat-checkbox[@class='mat-checkbox mat-primary'])[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

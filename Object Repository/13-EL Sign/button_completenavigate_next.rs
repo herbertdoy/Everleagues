@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//button[@color='primary'])[2]</value>
+         <value>//span[(text() = 'Completenavigate_next' or . = 'Completenavigate_next')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>1ee17826-8fd4-47a9-b1ee-03cad45e7c0c</webElementGuid>
+      <webElementGuid>36bb8721-4070-4427-b505-0231fe6867ac</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>color</name>
       <type>Main</type>
       <value>primary</value>
-      <webElementGuid>c9af3176-cf69-4163-8d5b-4b5437da17e5</webElementGuid>
+      <webElementGuid>24f70042-9a92-4187-90b9-74cd7f5a86b1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-focus-indicator mat-icon-button mat-button-base mat-primary cdk-focused cdk-mouse-focused</value>
-      <webElementGuid>b4978231-0083-42b0-a1e9-3a4bb771820e</webElementGuid>
+      <webElementGuid>edbc8727-241a-453a-8087-4953b25e3aad</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>ng-reflect-color</name>
       <type>Main</type>
       <value>primary</value>
-      <webElementGuid>3969cb9f-ed27-4b94-99fd-7d5dc2d7a001</webElementGuid>
+      <webElementGuid>efbfb690-35ef-485a-abd3-0ce03386946b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>text</name>
       <type>Main</type>
       <value>completenavigate_next</value>
-      <webElementGuid>d8151f4f-aa0b-40bf-842e-d48e64da40c3</webElementGuid>
+      <webElementGuid>73266651-a4f9-448e-a62d-a9a35c33c5e5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-tab-content-0-1&quot;)/div[@class=&quot;mat-tab-body-content ng-tns-c361-43 ng-trigger ng-trigger-translateTab&quot;]/app-receiverezsigndocs[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;ng-star-inserted&quot;]/app-docsigning[1]/div[@class=&quot;casedocheader ng-star-inserted&quot;]/table[1]/tr[1]/td[3]/button[@class=&quot;mat-focus-indicator mat-icon-button mat-button-base mat-primary cdk-focused cdk-mouse-focused&quot;]</value>
-      <webElementGuid>212f1142-7caa-47d0-9e07-6c9c24621f06</webElementGuid>
+      <webElementGuid>bff38c80-b61d-43c7-b5a7-1181b1ad02ab</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-tab-body[@id='mat-tab-content-0-1']/div/app-receiverezsigndocs/div/app-docsigning/div[2]/table/tr/td[3]/button</value>
-      <webElementGuid>290054d6-d1a4-4058-b381-14067c6d8e4e</webElementGuid>
+      <webElementGuid>b6ee296c-8e08-4531-af98-205e6d2535a8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='page 1 of 1'])[1]/following::button[1]</value>
-      <webElementGuid>4d73b980-432a-47c7-a156-98301dd16520</webElementGuid>
+      <webElementGuid>63b6d9a3-87a6-46a0-b27d-3a0234b08d84</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='GT'])[1]/preceding::button[1]</value>
-      <webElementGuid>8c534389-f381-4bf7-945c-015259a3ef8c</webElementGuid>
+      <webElementGuid>bf52819e-b96c-4400-bcbf-670ca86b70bf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td[3]/button</value>
-      <webElementGuid>262901f3-a470-4a37-b3a1-3fa4436e17ba</webElementGuid>
+      <webElementGuid>f6989269-2938-4b5c-8c7c-f4f3b0965c0d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,6 +102,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[(text() = 'completenavigate_next' or . = 'completenavigate_next')]</value>
-      <webElementGuid>421f0329-5c55-441a-8c72-cbff9f497794</webElementGuid>
+      <webElementGuid>55af0215-da8d-4843-9e74-603ee7488a0f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

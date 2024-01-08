@@ -6,12 +6,11 @@
    <elementGuidId>de3a2eb1-e3d5-4464-b7e8-1a27bc964eac</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//h4[text()='CLOUD STORAGE']</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//div[text()='CLOUD STORAGE']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

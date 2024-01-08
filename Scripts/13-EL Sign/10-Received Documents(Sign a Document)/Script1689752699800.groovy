@@ -60,11 +60,11 @@ WebUI.click(findTestObject('06-Teams/button_My Organizations'))
 
 WebUI.click(findTestObject('02-Side Icons(Organization)/Add Contact/button_Automation Test Org'))
 
-WebUI.delay(GlobalVariable.delay_4s)
+WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.verifyElementVisible(findTestObject('02-Side Icons(Organization)/Add Contact/span_Automation Test Org'))
 
-WebUI.delay(GlobalVariable.delay_5s)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.scrollToElement(findTestObject('03-Header Menu/Hamburger Button/div_ELSign'), 0)
 
@@ -74,11 +74,11 @@ WebUI.verifyElementVisible(findTestObject('03-Header Menu/Hamburger Button/div_E
 
 WebUI.verifyElementVisible(findTestObject('13-EL Sign/h4_ELSign'))
 
-WebUI.delay(GlobalVariable.delay_3s)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('13-EL Sign/div_Received Documents'))
 
-WebUI.delay(GlobalVariable.delay_3s)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('13-EL Sign/button_create'))
 
@@ -86,15 +86,15 @@ WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.verifyElementVisible(findTestObject('13-EL Sign/div_EL Sign Consent'))
 
-WebUI.delay(GlobalVariable.delay_3s)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('13-EL Sign/checkbox_I have read and agree to the above'))
 
-WebUI.delay(GlobalVariable.delay_3s)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('13-EL Sign/button_BEGIN'))
 
-WebUI.delay(GlobalVariable.delay_3s)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('13-EL Sign/div_date'))
 
@@ -106,14 +106,21 @@ WebUI.click(findTestObject('13-EL Sign/div_initial'))
 
 WebUI.verifyElementVisible(findTestObject('13-EL Sign/mat-dialog-container_InitialModal'))
 
+WebUI.delay(GlobalVariable.delay_2s)
+
+WebUI.setText(findTestObject('13-EL Sign/input_Initial'), 'GT Initial')
+
+WebUI.delay(GlobalVariable.delay_2s)
+
 WebUI.click(findTestObject('13-EL Sign/button_Save3'))
 
-WebUI.delay(GlobalVariable.delay_3s)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('13-EL Sign/div_signature'))
 
 WebUI.verifyElementVisible(findTestObject('13-EL Sign/mat-dialog-container_SignatureSettingsModal'))
 
+//WebUI.click(findTestObject('13-EL Sign/checkbox_type2'))
 WebUI.click(findTestObject('13-EL Sign/checkbox_type'))
 
 WebUI.setAlertText('GG TESTER Signature')
@@ -124,39 +131,46 @@ WebUI.acceptAlert()
 
 WebUI.click(findTestObject('13-EL Sign/button_save Save Settings'))
 
-WebUI.delay(GlobalVariable.delay_3s)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('13-EL Sign/div_signature2'))
 
-CustomKeywords.'uploadpackage.Upload.uploadFile'(findTestObject('13-EL Sign/div_upload_mat-checkbox'), GlobalVariable.upload_file)
+CustomKeywords.'com.kms.katalon.keyword.uploadfile.UploadFile.uploadFile'(findTestObject('13-EL Sign/div_upload_mat-checkbox'), 
+    GlobalVariable.upload_file)
 
-WebUI.delay(GlobalVariable.delay_3s)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('13-EL Sign/button_save Save Settings'))
 
-WebUI.delay(GlobalVariable.delay_3s)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('13-EL Sign/button_completenavigate_next'))
 
-WebUI.delay(GlobalVariable.delay_3s)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.verifyElementVisible(findTestObject('13-EL Sign/font_Please review and press the submit button to finish signing'))
 
 WebUI.click(findTestObject('13-EL Sign/button_REVIEW'))
 
+WebUI.delay(GlobalVariable.delay_2s)
+
 WebUI.switchToWindowIndex(1)
 
+WebUI.delay(GlobalVariable.delay_2s)
+
 WebUI.closeWindowIndex(1)
+
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.switchToWindowIndex(0)
 
 WebUI.click(findTestObject('13-EL Sign/button_EDIT'))
 
-WebUI.delay(GlobalVariable.delay_3s)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('13-EL Sign/button_completenavigate_next'))
 
-WebUI.delay(GlobalVariable.delay_3s)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('13-EL Sign/button_SUBMIT'))
 

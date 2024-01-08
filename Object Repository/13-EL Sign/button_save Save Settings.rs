@@ -6,15 +6,18 @@
    <elementGuidId>126da40d-fece-4130-bb64-35e6ee58d28e</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//button[@color = 'accent' and (text() = 'save Save Settings ' or . = 'save Save Settings ')]</value>
+      </entry>
+      <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//mat-dialog-container[@id='mat-dialog-2']/app-ezsign-signingpopup/div/form/table/tr[5]/td[3]/button</value>
+         <value>//tr[5]/td[3]/button</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -22,7 +25,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>e213d553-1926-4d55-a964-de622a737707</webElementGuid>
+      <webElementGuid>e5734ca5-afb8-4a6d-a1fd-08dcbf3e7b70</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +33,7 @@
       <name>color</name>
       <type>Main</type>
       <value>accent</value>
-      <webElementGuid>1cabd4ef-718c-4480-b85a-0fc12a24cc2e</webElementGuid>
+      <webElementGuid>bf852e15-c13e-49c9-aa70-d5309639e853</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +41,7 @@
       <name>text</name>
       <type>Main</type>
       <value>save Save Settings </value>
-      <webElementGuid>4098c48d-c858-4e92-92ee-1abdd758e658</webElementGuid>
+      <webElementGuid>bb8f6f77-bbd4-49d3-a36b-c69fb61a83a3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +49,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-dialog-2&quot;)/app-ezsign-signingpopup[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;ng-star-inserted&quot;]/form[@class=&quot;ng-untouched ng-pristine ng-valid&quot;]/table[@class=&quot;ng-star-inserted&quot;]/tr[5]/td[3]/button[1]</value>
-      <webElementGuid>23e6a82d-d52b-4219-90f6-efe825188a17</webElementGuid>
+      <webElementGuid>f9e1e6c9-b1b3-41ad-b31b-16557c5557f9</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +57,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-dialog-container[@id='mat-dialog-2']/app-ezsign-signingpopup/div/form/table/tr[5]/td[3]/button</value>
-      <webElementGuid>8ea2b697-eb8a-4bf0-9d08-3db635ba0492</webElementGuid>
+      <webElementGuid>5618a572-6429-4944-ad08-3d8e5095a69e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +65,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Hide Quick Shortcuts'])[1]/preceding::button[1]</value>
-      <webElementGuid>d9d85c9c-41e1-4d82-bc51-6ae010ff2386</webElementGuid>
+      <webElementGuid>18e7617b-efa0-4669-bcad-378afbf785db</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +73,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Invite New User'])[1]/preceding::button[1]</value>
-      <webElementGuid>d791d9be-b410-4db2-ab33-85809e76184e</webElementGuid>
+      <webElementGuid>4273e64c-01d6-47cd-8573-70179367bf3a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +81,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Save Settings']/parent::*</value>
-      <webElementGuid>01056293-0405-4bcc-9477-379e5d1b2f0a</webElementGuid>
+      <webElementGuid>d2166957-f820-456e-91fb-8aca6c23e175</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +89,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tr[5]/td[3]/button</value>
-      <webElementGuid>796b8018-e314-453c-97a8-7a3c5fc45b36</webElementGuid>
+      <webElementGuid>df9b311b-a9f0-4e00-b719-23c710502f22</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,6 +97,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[(text() = 'save Save Settings ' or . = 'save Save Settings ')]</value>
-      <webElementGuid>68c52f4b-98d4-4200-ae50-b0d2c2041a99</webElementGuid>
+      <webElementGuid>84768738-6ca6-4385-9e93-d1280b30fec7</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//a[contains(.,'keyboard_arrow_rightShared Drive')]</value>
+         <value>//a[contains(.,'Shared With Me')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

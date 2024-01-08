@@ -19,6 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.dragAndDropToObject(findTestObject('13-EL Sign/button_createGG TESTERSign here'), findTestObject('13-EL Sign/documents'), 
     FailureHandling.STOP_ON_FAILURE)
+//WebUI.dragAndDropByOffset(findTestObject('13-EL Sign/button_createGG TESTERSign here'), 100, 100)
 
 WebUI.click(findTestObject('13-EL Sign/div_create-draggable'))
 

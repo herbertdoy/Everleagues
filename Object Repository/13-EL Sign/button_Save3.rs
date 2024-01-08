@@ -6,12 +6,11 @@
    <elementGuidId>543b860d-a567-4da8-b175-0394ea012295</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//table[@class='ng-star-inserted']//button[1]</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//button[(text() = ' Save ' or . = ' Save ')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

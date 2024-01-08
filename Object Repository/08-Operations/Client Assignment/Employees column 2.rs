@@ -7,11 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[(text() = ' Employees 
-            
-        GG TESTERGTGG tester 2' or . = ' Employees 
-            
-        GG TESTERGTGG tester 2')]</value>
+         <value>(//div[@class='white-container'])[3]</value>
       </entry>
       <entry>
          <key>BASIC</key>

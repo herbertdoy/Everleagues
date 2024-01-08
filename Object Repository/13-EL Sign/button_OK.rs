@@ -7,14 +7,18 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//mat-dialog-container[@id='mat-dialog-1']/app-addsigners/div/div/div[3]/button</value>
+         <value>//button[(text() = ' OK ' or . = ' OK ')]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//button[@color = 'accent' and (text() = ' OK ' or . = ' OK ')]</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>button.mat-focus-indicator.text-upper.mat-raised-button.mat-button-base.mat-accent.cdk-focused.cdk-mouse-focused</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>84223ba8-7511-4ecf-a369-130ce49df324</webElementGuid>
+      <webElementGuid>cbab4de7-62aa-4f8e-986f-4c7d27dfdef5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +34,7 @@
       <name>color</name>
       <type>Main</type>
       <value>accent</value>
-      <webElementGuid>f564fc3c-0842-4e1e-9268-2ff5abcc1e64</webElementGuid>
+      <webElementGuid>bad30b05-0213-4e76-997d-39af8e10e89d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +42,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-focus-indicator text-upper mat-raised-button mat-button-base mat-accent cdk-focused cdk-mouse-focused</value>
-      <webElementGuid>a708958a-a5a5-48a6-ae1e-c178713e81d2</webElementGuid>
+      <webElementGuid>f512f888-faea-4ef6-b897-deaab6aa37c0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +50,7 @@
       <name>ng-reflect-color</name>
       <type>Main</type>
       <value>accent</value>
-      <webElementGuid>c0254ed5-3095-44e8-80cc-0f08c0ca2e7e</webElementGuid>
+      <webElementGuid>dcde2469-aaa6-4912-983d-bcc3d85efc01</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +58,7 @@
       <name>text</name>
       <type>Main</type>
       <value> OK </value>
-      <webElementGuid>a4ea1ad1-61e4-4202-b2af-de9b430eb7a7</webElementGuid>
+      <webElementGuid>10dd3b4f-426f-4c97-8643-b0eeba102b79</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +66,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-dialog-1&quot;)/app-addsigners[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;ng-star-inserted&quot;]/div[1]/div[3]/button[@class=&quot;mat-focus-indicator text-upper mat-raised-button mat-button-base mat-accent cdk-focused cdk-mouse-focused&quot;]</value>
-      <webElementGuid>d96ef178-94ea-4c6e-8f89-e9a3de410a51</webElementGuid>
+      <webElementGuid>8bf39332-6e41-4e0d-8500-55dffdebc918</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -70,7 +74,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-dialog-container[@id='mat-dialog-1']/app-addsigners/div/div/div[3]/button</value>
-      <webElementGuid>357679d8-f611-4961-9200-a44062f6e1ff</webElementGuid>
+      <webElementGuid>2812123b-19bb-4832-8f7a-98b1a185ddfd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Sent to recipient'])[2]/following::button[1]</value>
-      <webElementGuid>a56cde66-b8b9-40bf-8a3a-245096e8bd54</webElementGuid>
+      <webElementGuid>011aea0b-620e-404f-9cd3-2aadce17189e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='testuser02@mailinator.com'])[1]/following::button[1]</value>
-      <webElementGuid>cd90a192-94e2-45f8-ba53-7d69f58b1c81</webElementGuid>
+      <webElementGuid>c99bb10e-4e2a-4c29-aa60-5c8212384c9e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Hide Quick Shortcuts'])[1]/preceding::button[1]</value>
-      <webElementGuid>207a9b5e-2e58-4055-b4f2-916532357bd3</webElementGuid>
+      <webElementGuid>d9fdcfcb-828d-4250-a999-0df3c0616257</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +106,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/div/div[3]/button</value>
-      <webElementGuid>7f63a65b-052c-4078-97f5-75e3e78611df</webElementGuid>
+      <webElementGuid>54132264-b3e1-4c84-ba8d-bfcc8106650e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,6 +114,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[(text() = ' OK ' or . = ' OK ')]</value>
-      <webElementGuid>ec80c4e0-7eaa-4356-b042-4ac1b2043f32</webElementGuid>
+      <webElementGuid>6bca52db-42cd-4e1f-b8a0-57e8a84544db</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
