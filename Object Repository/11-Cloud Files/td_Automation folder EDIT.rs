@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//td[text()=' Automation folder EDIT ']</value>
+         <value>//td[(text() = 'Automation folder EDIT' or . = 'Automation folder EDIT')]</value>
       </entry>
       <entry>
          <key>BASIC</key>

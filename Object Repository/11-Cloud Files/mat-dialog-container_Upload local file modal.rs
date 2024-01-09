@@ -6,15 +6,19 @@
    <elementGuidId>649d89bd-8511-475e-9a6e-d1d4bdcdc362</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>//mat-dialog-container[@role='dialog']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//mat-dialog-container[@role = 'dialog' and (text() = ' Do you confirm to upload 1 file? ConfirmCancel' or . = ' Do you confirm to upload 1 file? ConfirmCancel')]</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>#mat-dialog-1</value>
       </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//mat-dialog-container[@id='mat-dialog-1']</value>
-      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>mat-dialog-container</value>
-      <webElementGuid>64ea9c5f-2c93-4c75-94e7-68011ad1c9e5</webElementGuid>
+      <webElementGuid>6a6af6fb-7646-4482-851b-9695fd16567b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +34,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>-1</value>
-      <webElementGuid>539ddf8d-ff86-45c1-ba96-fca05cde2457</webElementGuid>
+      <webElementGuid>4d4e0f96-2b0d-4ede-8728-dac4152850c5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +42,7 @@
       <name>aria-modal</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>d4120a21-bb93-4faa-8803-b0d1ea7ecb26</webElementGuid>
+      <webElementGuid>a3c9193e-d783-41d1-87f1-c9e45221c71d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +50,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-dialog-container ng-tns-c31-55 ng-trigger ng-trigger-dialogContainer ng-star-inserted</value>
-      <webElementGuid>799bd5b4-324a-4f89-98be-f05731ac96be</webElementGuid>
+      <webElementGuid>3772e1c3-16ef-4baa-84f0-2b922cbebd28</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +58,7 @@
       <name>id</name>
       <type>Main</type>
       <value>mat-dialog-1</value>
-      <webElementGuid>b77bca15-bb7f-447c-9d6e-ba34d5fa7ae8</webElementGuid>
+      <webElementGuid>3a054039-9358-4e82-90a6-2573c09499b2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -62,7 +66,7 @@
       <name>role</name>
       <type>Main</type>
       <value>dialog</value>
-      <webElementGuid>c1c970f3-b3da-4b24-bfb1-05e7ddde79a0</webElementGuid>
+      <webElementGuid>b2e72823-363b-4521-8cd4-e11c12eb9a84</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +74,7 @@
       <name>aria-labelledby</name>
       <type>Main</type>
       <value>mat-dialog-title-1</value>
-      <webElementGuid>87df47f6-752a-448b-9fd9-74ee4d6faa1b</webElementGuid>
+      <webElementGuid>7a3f7973-518a-45a7-814f-20ec9ce5c98b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -78,7 +82,7 @@
       <name>text</name>
       <type>Main</type>
       <value> Do you confirm to upload 1 file? ConfirmCancel</value>
-      <webElementGuid>33f59f69-62c3-4b58-874a-ef797dab0e84</webElementGuid>
+      <webElementGuid>6511182f-34a9-4af2-bc41-761dbd779ec3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -86,7 +90,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-dialog-1&quot;)</value>
-      <webElementGuid>b0886792-32af-4ea3-8284-85cc42de6da0</webElementGuid>
+      <webElementGuid>db83c6f6-989e-4761-abf6-782986884079</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -94,7 +98,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//mat-dialog-container[@id='mat-dialog-1']</value>
-      <webElementGuid>97af0f50-7cde-4467-aced-50e24fdf3775</webElementGuid>
+      <webElementGuid>fae66845-bd82-46c8-987f-382d9f3e4124</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +106,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='cdk-overlay-3']/mat-dialog-container</value>
-      <webElementGuid>aa5629ff-1fe4-459e-9a7a-3bda61a3be64</webElementGuid>
+      <webElementGuid>c1c5db99-bb8d-44ff-af9c-8e24144342a7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +114,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('id(', '&quot;', 'mat-dialog-1', '&quot;', ')')])[1]/following::mat-dialog-container[1]</value>
-      <webElementGuid>54805b67-96f5-48ec-b2ac-1ed2a1088509</webElementGuid>
+      <webElementGuid>73ebee0d-f0a9-44ad-af16-0838284fdd3f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +122,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='`'])[2]/following::mat-dialog-container[1]</value>
-      <webElementGuid>be190d0f-fdd2-4eef-a8f2-3ec45960b51d</webElementGuid>
+      <webElementGuid>5dfe934f-ba28-4372-9da1-a3f44e74f43c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,7 +130,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//mat-dialog-container</value>
-      <webElementGuid>f7d4f784-1254-4321-8e11-a7ea0a2d66fd</webElementGuid>
+      <webElementGuid>0cdbe515-6e95-4381-aa41-7719848250c0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,6 +138,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//mat-dialog-container[@id = 'mat-dialog-1' and (text() = ' Do you confirm to upload 1 file? ConfirmCancel' or . = ' Do you confirm to upload 1 file? ConfirmCancel')]</value>
-      <webElementGuid>01ea7d26-646f-4070-b25d-aad1c9086f0d</webElementGuid>
+      <webElementGuid>e82cf980-69fc-4cd8-9cb5-a0b3b3e0c277</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

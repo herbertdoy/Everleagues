@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>td_qa EditPeople</name>
+   <name>button_save2</name>
    <tag></tag>
-   <elementGuidId>664e8d41-fc9a-4d8d-9e5e-3b7d5499b3e4</elementGuidId>
+   <elementGuidId>60a0ef51-8c00-45d1-9840-52ad663baddf</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//td[(text() = 'qa EDITpeople ' or . = 'qa EDITpeople ')]</value>
+         <value>//button[(text() = 'Save' or . = 'Save')]</value>
       </entry>
       <entry>
          <key>BASIC</key>

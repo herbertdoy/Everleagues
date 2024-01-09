@@ -39,3 +39,7 @@ WebUI.click(findTestObject('11-Cloud Files/mat-icon_refresh'))
 
 WebUI.verifyElementVisible(findTestObject('11-Cloud Files/td_Automation folder'))
 
+WebUI.verifyElementVisible(findTestObject('11-Cloud Files/td_Automation folder 2'))
+
+WebUI.delay(GlobalVariable.delay_3s)
+

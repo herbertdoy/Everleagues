@@ -21,9 +21,7 @@ import java.awt.datatransfer.DataFlavor as DataFlavor
 
 WebUI.click(findTestObject('11-Cloud Files/mat-icon_close'))
 
-WebUI.delay(GlobalVariable.delay_3s)
-
-WebUI.rightClick(findTestObject('11-Cloud Files/td_qa EDIT'))
+WebUI.rightClick(findTestObject('11-Cloud Files/td_qa EditPeople'))
 
 WebUI.click(findTestObject('11-Cloud Files/button_Share'))
 
@@ -49,17 +47,22 @@ WebUI.click(findTestObject('11-Cloud Files/div_dropdown3'))
 
 WebUI.click(findTestObject('11-Cloud Files/span_delete Remove Access'))
 
-//WebUI.click(findTestObject('11-Cloud Files/button_done'))
 WebUI.click(findTestObject('11-Cloud Files/button_save2'))
-
-WebUI.click(findTestObject('11-Cloud Files/mat-icon_close'))
 
 //WebUI.verifyElementVisible(findTestObject('11-Cloud Files/snack-bar-container_Shared folder access updated successfully.OK'))
 WebUI.delay(GlobalVariable.delay_3s)
 
+WebUI.click(findTestObject('11-Cloud Files/mat-icon_close'))
+
 WebUI.rightClick(findTestObject('11-Cloud Files/td_qa EditPeople'))
 
 WebUI.click(findTestObject('11-Cloud Files/button_Share'))
+
+WebUI.delay(GlobalVariable.delay_3s)
+
+WebUI.click(findTestObject('11-Cloud Files/mat-checkbox_Enable activity feed to all users in the share list'))
+
+WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.click(findTestObject('11-Cloud Files/button_Copy Share Link'))
 
@@ -67,21 +70,23 @@ WebUI.delay(GlobalVariable.delay_3s)
 
 String my_clipboard = Toolkit.getDefaultToolkit().getSystemClipboard().getContents(null).getTransferData(DataFlavor.stringFlavor)
 
-WebUI.executeJavaScript('window.open();', [])
-
-currentWindow = WebUI.getWindowIndex()
-
-WebUI.delay(GlobalVariable.delay_3s)
-
-WebUI.switchToWindowIndex(currentWindow + 1)
-
 WebUI.navigateToUrl(my_clipboard)
 
-WebUI.switchToWindowIndex(1)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.closeWindowIndex(1)
 
+WebUI.delay(GlobalVariable.delay_2s)
+
 WebUI.switchToWindowIndex(0)
 
-WebUI.click(findTestObject('11-Cloud Files/sharefiles_X_button'))
+WebUI.delay(GlobalVariable.delay_2s)
+
+WebUI.click(findTestObject('03-Header Menu/Hamburger Button/div_Cloud Files'))
+
+WebUI.scrollToElement(findTestObject('11-Cloud Files/a_My Drive'), 0)
+
+WebUI.click(findTestObject('11-Cloud Files/a_My Drive'))
+
+WebUI.delay(GlobalVariable.delay_3s)
 

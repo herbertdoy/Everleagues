@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>td_qa EditPeople</name>
+   <name>mat-error_Name already exists</name>
    <tag></tag>
-   <elementGuidId>664e8d41-fc9a-4d8d-9e5e-3b7d5499b3e4</elementGuidId>
+   <elementGuidId>3ac4d5ca-28bc-4456-953a-7617b3f04523</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//td[(text() = 'qa EDITpeople ' or . = 'qa EDITpeople ')]</value>
+         <value>//mat-error[(text() = ' Name already exists, please enter another name. ' or . = ' Name already exists, please enter another name. ')]</value>
       </entry>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

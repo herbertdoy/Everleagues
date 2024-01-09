@@ -6,12 +6,11 @@
    <elementGuidId>6c42cbb5-3aa5-4315-be7d-11a2b5fe22e5</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//span[(text() = ' Automation folder EDIT ' or . = ' Automation folder EDIT ')]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//span[text()=' Automation folder EDIT ']</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

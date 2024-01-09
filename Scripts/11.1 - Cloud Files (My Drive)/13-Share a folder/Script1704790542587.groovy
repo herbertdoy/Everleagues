@@ -17,108 +17,87 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl(GlobalVariable.URL_lab)
-
-WebUI.maximizeWindow()
-
-WebUI.callTestCase(findTestCase('01-Login and Forgot Password/04-Login (Valid Credentials-Without Subscription)'), [:], 
-    FailureHandling.CONTINUE_ON_FAILURE)
-
+//WebUI.openBrowser('')
+//WebUI.navigateToUrl('https://lab.everleagues.com/')
+//WebUI.maximizeWindow()
 //WebUI.setText(findTestObject('02-Side Icons(Organization)/Add Contact/Email Field'), 'testuser02@mailinator.com')
-//
 //WebUI.setEncryptedText(findTestObject('02-Side Icons(Organization)/Add Contact/Password Field'), '8yFRyszE6U6jvsCn51OQbg==')
-//
 //WebUI.click(findTestObject('02-Side Icons(Organization)/Add Contact/button_Sign in'))
-//
 //WebUI.delay(2)
-//
 //WebUI.click(findTestObject('06-Teams/For 2FA/button_Confirm_2FA'))
-//
 //WebUI.executeJavaScript('window.open();', [])
-//
 //currentWindow = WebUI.getWindowIndex()
-//
 //WebUI.delay(3)
-//
 //WebUI.switchToWindowIndex(currentWindow + 1)
-//
 //WebUI.navigateToUrl('https://www.mailinator.com/')
-//
 //WebUI.delay(3)
-//
 //WebUI.setText(findTestObject('00-Signup and Activation/zMailinator/input_LOGIN_search'), 'testuser02@mailinator.com')
-//
 //WebUI.click(findTestObject('00-Signup and Activation/zMailinator/gobutton'), FailureHandling.STOP_ON_FAILURE)
-//
 //WebUI.delay(3)
-//
 //WebUI.click(findTestObject('00-Signup and Activation/zMailinator/Email - everleagues'))
-//
 //WebUI.delay(3)
-//
 //String code = WebUI.getText(findTestObject('Object Repository/06-Teams/For 2FA/2FA code'))
-//
 //WebUI.delay(3)
-//
 //WebUI.closeWindowTitle('Mailinator')
-//
 //WebUI.delay(3)
-//
 //WebUI.switchToWindowIndex(0)
-//
 //WebUI.delay(3)
-//
 //WebUI.setText(findTestObject('Object Repository/06-Teams/For 2FA/input_Enter verification code_code'), code)
-//
 //WebUI.delay(3)
-//
 //WebUI.click(findTestObject('06-Teams/For 2FA/button_Verify_2FA'))
-//
 //WebUI.delay(5)
-WebUI.click(findTestObject('06-Teams/button_doublearrow'))
+//WebUI.click(findTestObject('06-Teams/button_doublearrow'))
+//WebUI.click(findTestObject('06-Teams/button_My Organizations'))
+//WebUI.click(findTestObject('02-Side Icons(Organization)/Add Contact/button_Automation Test Org'))
+//WebUI.delay(4)
+//WebUI.verifyElementVisible(findTestObject('02-Side Icons(Organization)/Add Contact/span_Automation Test Org'))
+//WebUI.delay(10)
+//WebUI.click(findTestObject('03-Header Menu/Hamburger Button/div_Cloud Files'))
+//WebUI.verifyElementVisible(findTestObject('11-Cloud Files/h4_MY DRIVE'))
+//WebUI.click(findTestObject('11-Cloud Files/a_My Drive'))
+//WebUI.delay(3)
+WebUI.rightClick(findTestObject('11-Cloud Files/td_Automation folder EDIT'))
 
-WebUI.click(findTestObject('06-Teams/button_My Organizations'))
+WebUI.click(findTestObject('11-Cloud Files/button_Share'))
 
-WebUI.click(findTestObject('02-Side Icons(Organization)/Add Contact/button_Automation Test Org'))
+WebUI.verifyElementVisible(findTestObject('11-Cloud Files/mat-dialog-container_ShareFiles Modal'))
 
 WebUI.delay(GlobalVariable.delay_3s)
 
-WebUI.verifyElementVisible(findTestObject('02-Side Icons(Organization)/Add Contact/span_Automation Test Org'))
+WebUI.click(findTestObject('11-Cloud Files/mat-icon_close'))
 
-WebUI.delay(GlobalVariable.delay_2s)
+WebUI.rightClick(findTestObject('11-Cloud Files/td_Automation folder EDIT'))
 
-WebUI.click(findTestObject('03-Header Menu/Hamburger Button/div_Cloud Files'))
+WebUI.click(findTestObject('11-Cloud Files/button_Share'))
 
-WebUI.scrollToElement(findTestObject('11-Cloud Files/a_My Drive'), 0)
+WebUI.verifyElementVisible(findTestObject('11-Cloud Files/mat-dialog-container_ShareFiles Modal'))
 
-WebUI.verifyElementVisible(findTestObject('11-Cloud Files/a_My Drive'))
+WebUI.click(findTestObject('11-Cloud Files/input_Add Users'))
 
-WebUI.verifyElementVisible(findTestObject('11-Cloud Files/a_Shared Drive'))
-WebUI.verifyElementVisible(findTestObject('11-Cloud Files/a_Shared With Me'))
+WebUI.click(findTestObject('11-Cloud Files/mat-option_GTGG tester'))
 
-WebUI.click(findTestObject('11-Cloud Files/a_My Drive'))
+WebUI.click(findTestObject('10-Open Video Conference/mat-icon_cancel'))
 
-WebUI.verifyElementVisible(findTestObject('11-Cloud Files/h4_CLOUD STORAGE'))
+WebUI.delay(GlobalVariable.delay_3s)
 
-WebUI.verifyElementVisible(findTestObject('11-Cloud Files/h4_MY DRIVE'))
+WebUI.click(findTestObject('11-Cloud Files/input_Add Users'))
 
-WebUI.delay(GlobalVariable.delay_2s)
+WebUI.click(findTestObject('11-Cloud Files/mat-option_GTGG tester 2'))
 
-WebUI.click(findTestObject('11-Cloud Files/button_create_new_folderNew Folder'))
+WebUI.click(findTestObject('11-Cloud Files/mat-option_GTGG tester'))
 
-WebUI.verifyElementVisible(findTestObject('11-Cloud Files/mat-dialog-container_CreateNewFolder modal'))
+WebUI.clickOffset(findTestObject('11-Cloud Files/button_Copy Share Link'), 10, 10)
 
-WebUI.verifyElementVisible(findTestObject('11-Cloud Files/h4_New folder'))
+WebUI.click(findTestObject('11-Cloud Files/div_mat-checkbox-notify-user'))
 
-WebUI.click(findTestObject('11-Cloud Files/input_folderName'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('11-Cloud Files/div_mat-checkbox-notify-user'))
 
-WebUI.clickOffset(findTestObject('11-Cloud Files/input_folderName'), 50, 50)
+WebUI.click(findTestObject('11-Cloud Files/div_dropdown'))
 
-WebUI.verifyElementVisible(findTestObject('11-Cloud Files/mat-error_filename'))
+WebUI.click(findTestObject('11-Cloud Files/span_Viewer'))
 
-WebUI.verifyElementNotClickable(findTestObject('11-Cloud Files/button_Create'))
+WebUI.click(findTestObject('11-Cloud Files/button_save2'))
 
+//WebUI.verifyElementVisible(findTestObject('11-Cloud Files/snack-bar-container_Shared folder access updated successfully.OK'))
 WebUI.delay(GlobalVariable.delay_3s)
 

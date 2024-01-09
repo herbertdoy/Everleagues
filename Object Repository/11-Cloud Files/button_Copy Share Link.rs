@@ -7,15 +7,15 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//button[@type = 'button' and (text() = 'link Copy Share Link ' or . = 'link Copy Share Link ')]</value>
-      </entry>
-      <entry>
-         <key>CSS</key>
-         <value>button.mat-focus-indicator.mat-raised-button.mat-button-base.mat-primary.cdk-focused.cdk-mouse-focused</value>
+         <value>//div[3]/div[2]/button</value>
       </entry>
       <entry>
          <key>BASIC</key>
          <value>//button[@type = 'button' and (text() = 'Copy Share Link' or . = 'Copy Share Link')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.mat-focus-indicator.mat-raised-button.mat-button-base.mat-primary.cdk-focused.cdk-mouse-focused</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -26,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>ec593040-6de1-4ea3-9313-7943cf0a5a74</webElementGuid>
+      <webElementGuid>2d331e16-d8ca-4e8a-84b0-256b90dced4e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -34,7 +34,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>c400a633-9a6f-4f42-9b8f-b00c980059c1</webElementGuid>
+      <webElementGuid>d109769e-f20b-4b3b-a281-1ed0103bc1de</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,7 +42,7 @@
       <name>color</name>
       <type>Main</type>
       <value>primary</value>
-      <webElementGuid>27586012-2009-41a0-a515-127a8062702b</webElementGuid>
+      <webElementGuid>20c56931-64aa-4bef-b0e3-962f95388f71</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,7 +50,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-focus-indicator mat-raised-button mat-button-base mat-primary cdk-focused cdk-mouse-focused</value>
-      <webElementGuid>208715e3-ef06-460a-ba6e-6bf3ad7f2ffa</webElementGuid>
+      <webElementGuid>2bba7b32-c86c-4f97-9fae-3a27189ad600</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -58,7 +58,7 @@
       <name>ng-reflect-color</name>
       <type>Main</type>
       <value>primary</value>
-      <webElementGuid>3fbbe313-fe7d-48d2-973c-5306c4b9f589</webElementGuid>
+      <webElementGuid>13cc9255-d8e7-4109-a8fb-4c8068a54760</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -66,7 +66,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Copy Share Link</value>
-      <webElementGuid>8a382191-f848-42a2-ba84-8a7c5e525d79</webElementGuid>
+      <webElementGuid>9eb54dc8-a4b3-4308-a832-e742ab0d4237</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -74,7 +74,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-dialog-12&quot;)/app-dialog-share-file-folder[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;white-container push-top-sm ng-star-inserted&quot;]/div[1]/div[@class=&quot;share-link&quot;]/button[@class=&quot;mat-focus-indicator mat-raised-button mat-button-base mat-primary cdk-focused cdk-mouse-focused&quot;]</value>
-      <webElementGuid>e390e513-2bee-4f3c-a6f9-912154d7c461</webElementGuid>
+      <webElementGuid>56d97028-729a-4bc4-90ec-b71234c14ec9</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -82,7 +82,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[11]</value>
-      <webElementGuid>df5dee53-3e6a-4b6d-a7ac-6bdfca569b00</webElementGuid>
+      <webElementGuid>c0f4b7a7-d24a-436a-9476-2e3ec4f000d1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -90,7 +90,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-dialog-container[@id='mat-dialog-12']/app-dialog-share-file-folder/div[2]/div/div[4]/button</value>
-      <webElementGuid>cd2c342d-acf4-42d9-934c-093f678a3971</webElementGuid>
+      <webElementGuid>ae895554-fd79-4e05-82e0-a212a4e28f9f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,7 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Not Shared'])[1]/following::button[1]</value>
-      <webElementGuid>cc2c7edc-8a99-47c3-8e16-986069ebdcce</webElementGuid>
+      <webElementGuid>93a31149-ea99-4401-8b68-e8c0be4555ab</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,7 +106,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Shared with'])[1]/following::button[1]</value>
-      <webElementGuid>d8891b50-e5e1-4681-b767-19dc966a060f</webElementGuid>
+      <webElementGuid>0c5413b2-dd43-4968-86d4-a771caba4c3a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -114,7 +114,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Save'])[1]/preceding::button[1]</value>
-      <webElementGuid>6f4792de-7d64-4a78-8e53-e6fc4a49c264</webElementGuid>
+      <webElementGuid>da8aeb68-2857-491b-aa85-1ffac87e9dd5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -122,7 +122,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[4]/button</value>
-      <webElementGuid>edd78cc1-63f6-4ba3-9603-083672ffe848</webElementGuid>
+      <webElementGuid>a988123c-83f0-4830-862c-a36cb96af67c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -130,6 +130,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = 'Copy Share Link' or . = 'Copy Share Link')]</value>
-      <webElementGuid>96438c5e-9075-46b5-bfa9-5bf9ad8d2a88</webElementGuid>
+      <webElementGuid>8c5ba4ec-48de-42e7-91c1-40979b6275c7</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

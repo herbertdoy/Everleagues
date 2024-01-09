@@ -17,27 +17,31 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('11-Cloud Files/button_clearNotif'))
+WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.rightClick(findTestObject('11-Cloud Files/td_qa EDIT'))
 
-WebUI.click(findTestObject('11-Cloud Files/button_Share'))
+WebUI.click(findTestObject('11-Cloud Files/button_Open'))
 
-WebUI.verifyElementVisible(findTestObject('11-Cloud Files/mat-dialog-container_ShareFiles Modal'))
+WebUI.delay(GlobalVariable.delay_3s)
 
-WebUI.click(findTestObject('11-Cloud Files/input_Add Users'))
+WebUI.switchToWindowIndex(1)
 
-WebUI.click(findTestObject('11-Cloud Files/mat-option_GTGG tester 2'))
+WebUI.delay(GlobalVariable.delay_3s)
 
-WebUI.click(findTestObject('11-Cloud Files/mat-option_GTGG tester'))
+WebUI.closeWindowIndex(1)
 
-//WebUI.clickOffset(findTestObject('11-Cloud Files/button_Copy Share Link'), 10, 10)
-//WebUI.click(findTestObject('11-Cloud Files/div_mat-checkbox-notify-user'))
-//WebUI.click(findTestObject('11-Cloud Files/div_mat-checkbox-notify-user'))
-//WebUI.click(findTestObject('11-Cloud Files/div_dropdown'))
-//WebUI.click(findTestObject('11-Cloud Files/span_Viewer'))
-WebUI.click(findTestObject('11-Cloud Files/button_save2'))
+WebUI.delay(GlobalVariable.delay_2s)
 
-//WebUI.verifyElementVisible(findTestObject('11-Cloud Files/snack-bar-container_Shared folder access updated successfully.OK'))
+WebUI.switchToWindowIndex(0)
+
+WebUI.delay(GlobalVariable.delay_3s)
+
+WebUI.rightClick(findTestObject('11-Cloud Files/td_Automation folder EDIT'))
+
+WebUI.click(findTestObject('11-Cloud Files/button_Open'))
+
+WebUI.click(findTestObject('11-Cloud Files/h4_MY DRIVE'))
+
 WebUI.delay(GlobalVariable.delay_3s)
 

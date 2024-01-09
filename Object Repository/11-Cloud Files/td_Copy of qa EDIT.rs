@@ -6,11 +6,11 @@
    <elementGuidId>a50e219f-b693-4cea-9f2f-12a863d8178e</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>//td[(text() = 'qa EDIT (1)' or . = 'qa EDIT (1)')]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//td[text()=' qa EDIT (1) ']</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
