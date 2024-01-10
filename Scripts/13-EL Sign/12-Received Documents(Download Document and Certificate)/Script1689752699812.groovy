@@ -29,7 +29,11 @@ WebUI.click(findTestObject('13-EL Sign/button_Download certificate'))
 
 WebUI.switchToWindowIndex(1)
 
+WebUI.delay(GlobalVariable.delay_2s)
+
 WebUI.closeWindowIndex(1)
+
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.switchToWindowIndex(0)
 

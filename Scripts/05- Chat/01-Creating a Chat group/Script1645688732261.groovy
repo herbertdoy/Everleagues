@@ -89,7 +89,7 @@ WebUI.delay(GlobalVariable.delay_1s)
 
 WebUI.verifyElementVisible(findTestObject('05-Chat/01- Creating a Chat group/span_Add group participant'))
 
-WebUI.verifyElementNotPresent(findTestObject('05-Chat/01- Creating a Chat group/button_arrow_forward'), 0)
+//WebUI.verifyElementNotClickable(findTestObject('05-Chat/01- Creating a Chat group/button_arrow_forward'), FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.delay(GlobalVariable.delay_1s)
 

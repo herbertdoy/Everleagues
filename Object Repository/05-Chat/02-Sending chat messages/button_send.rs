@@ -6,15 +6,19 @@
    <elementGuidId>3986c0b0-3f2d-410f-a704-b3de8b287611</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//button[@type = 'button' and (text() = 'send' or . = 'send')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
-         <value>(//button[@type='button'])[14]</value>
+         <value>//button[@mattooltip='Send message']</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>button.mat-focus-indicator.mat-mini-fab.mat-button-base.mat-primary</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -22,6 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
+      <webElementGuid>377d442f-f076-44cf-ab82-03e08db172fc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -29,6 +34,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
+      <webElementGuid>d8c87967-0938-4b77-ba3d-becc84457fa7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -36,6 +42,7 @@
       <name>color</name>
       <type>Main</type>
       <value>primary</value>
+      <webElementGuid>535b2f65-31e0-4185-914e-bc9e4d156b1c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,6 +50,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-focus-indicator mat-mini-fab mat-button-base mat-primary</value>
+      <webElementGuid>c525ecd5-db01-4250-b868-176cd93bce6c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,6 +58,7 @@
       <name>ng-reflect-color</name>
       <type>Main</type>
       <value>primary</value>
+      <webElementGuid>f8a1f758-f445-46ab-bb42-cc3020742729</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -57,6 +66,7 @@
       <name>ng-reflect-disabled</name>
       <type>Main</type>
       <value>false</value>
+      <webElementGuid>cc0d5f1e-ea8e-4f69-bb8b-57a464493185</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -64,6 +74,7 @@
       <name>text</name>
       <type>Main</type>
       <value>send</value>
+      <webElementGuid>de7eed5b-f43c-494f-b032-8bd79b35a373</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -71,6 +82,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;msgComposer&quot;)/div[1]/div[1]/div[1]/div[@class=&quot;message-control-container&quot;]/span[@class=&quot;ng-star-inserted&quot;]/button[@class=&quot;mat-focus-indicator mat-mini-fab mat-button-base mat-primary&quot;]</value>
+      <webElementGuid>d1a8e824-0eab-4ea2-8088-e330b065a845</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -78,6 +90,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[14]</value>
+      <webElementGuid>18ad1328-1fbf-430b-86a5-7ca915e36321</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,6 +98,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='msgComposer']/div/div/div/div/span/button</value>
+      <webElementGuid>a95e0438-8e09-4923-90ab-a7ae1ecc8885</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -92,6 +106,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Message...'])[1]/following::button[1]</value>
+      <webElementGuid>dc1feaf1-573c-45a7-b29c-2ee754ec1844</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,6 +114,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='»'])[1]/following::button[1]</value>
+      <webElementGuid>ab01a67a-6b65-44ec-9218-e69141047224</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,6 +122,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Search'])[1]/preceding::button[5]</value>
+      <webElementGuid>f58ef99c-bfe3-4efd-84f5-905bbc11a836</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -113,6 +130,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Pick your emoji…'])[1]/preceding::button[6]</value>
+      <webElementGuid>ae01fbe3-73c9-4526-8062-792e37237936</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -120,6 +138,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//span/button</value>
+      <webElementGuid>61ee0400-df8f-479f-a2c5-c29b93fefd53</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -127,5 +146,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = 'send' or . = 'send')]</value>
+      <webElementGuid>0487f5dc-fd36-4ca4-938d-c5dda231064a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

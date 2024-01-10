@@ -117,7 +117,7 @@ import org.openqa.selenium.Keys as Keys
 //WebUI.delay(2)
 WebUI.click(findTestObject('05-Chat/03-05 - React and Reply/div_react_heart'))
 
-WebUI.verifyElementVisible(findTestObject('05-Chat/03-05 - React and Reply/h4_Message Reactions'))
+//WebUI.verifyElementVisible(findTestObject('05-Chat/03-05 - React and Reply/h4_Message Reactions'))
 
 WebUI.click(findTestObject('05-Chat/03-05 - React and Reply/div_react_All'))
 

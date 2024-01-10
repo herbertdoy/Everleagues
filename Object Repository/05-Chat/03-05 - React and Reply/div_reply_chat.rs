@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//div[@class='message'])[3]</value>
+         <value>//span[(text() = 'Reply test' or . = 'Reply test')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -18,7 +18,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>DIV</value>
-      <webElementGuid>1eebdbe4-85ac-47bb-9714-68091d0484c2</webElementGuid>
+      <webElementGuid>848d46e7-734a-42bd-bb20-2f752afbc1eb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -26,6 +26,6 @@
       <name>xpath</name>
       <type>Main</type>
       <value>xpath1665999797817</value>
-      <webElementGuid>1f5f8e8e-a167-4dc1-988e-4ca1d5f6618c</webElementGuid>
+      <webElementGuid>7cf20d82-780d-4166-86bd-c3b484a0ef02</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

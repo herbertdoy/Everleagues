@@ -119,7 +119,7 @@
    <testCaseLink>
       <guid>2248ece3-e4a6-469a-bd79-9b17fcee8755</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/06- Teams/16 - Teams - General Channel (attaching Video)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>

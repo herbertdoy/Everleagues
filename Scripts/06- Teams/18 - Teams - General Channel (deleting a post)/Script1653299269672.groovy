@@ -17,17 +17,17 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-//WebUI.click(findTestObject('06-Teams/05- Teams-General Channel/ellipsis 1'))
-//
-//WebUI.click(findTestObject('06-Teams/05- Teams-General Channel/button_Delete Post'))
-//
-//WebUI.verifyElementVisible(findTestObject('06-Teams/05- Teams-General Channel/delete post box'))
-//
-//WebUI.click(findTestObject('06-Teams/05- Teams-General Channel/button_Delete'))
-//
-//WebUI.verifyElementVisible(findTestObject('06-Teams/05- Teams-General Channel/Successfully deleted post msg'))
-//
-//WebUI.delay(GlobalVariable.delay_2s)
+WebUI.click(findTestObject('06-Teams/05- Teams-General Channel/ellipsis 1'))
+
+WebUI.click(findTestObject('06-Teams/05- Teams-General Channel/button_Delete Post'))
+
+WebUI.verifyElementVisible(findTestObject('06-Teams/05- Teams-General Channel/delete post box'))
+
+WebUI.click(findTestObject('06-Teams/05- Teams-General Channel/button_Delete'))
+
+WebUI.verifyElementVisible(findTestObject('06-Teams/05- Teams-General Channel/Successfully deleted post msg'))
+
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('06-Teams/05- Teams-General Channel/ellipsis 1'))
 

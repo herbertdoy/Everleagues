@@ -6,15 +6,19 @@
    <elementGuidId>b77cb5cc-564f-45ba-b50b-cc00a46caa90</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//button[@type = 'button' and (text() = 'insert_emoticon' or . = 'insert_emoticon')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
-         <value>(//button[@type='button'])[16]</value>
+         <value>//button[@mattooltip='Select emojis']</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>span.emojiButton > button.mat-focus-indicator.mat-icon-button.mat-button-base</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -22,6 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
+      <webElementGuid>e20408f8-9887-45b3-a553-69714257be8c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -29,6 +34,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
+      <webElementGuid>54fa4fe6-ec7d-4682-8b01-faa9754e06d3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -36,6 +42,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-focus-indicator mat-icon-button mat-button-base</value>
+      <webElementGuid>8f312467-c23c-48d5-a770-fde46661976c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -43,6 +50,7 @@
       <name>text</name>
       <type>Main</type>
       <value>insert_emoticon</value>
+      <webElementGuid>d3a7e239-798c-4e22-aa02-b3399e700005</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,6 +58,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;msgComposer&quot;)/div[1]/div[1]/div[1]/div[@class=&quot;message-control-container&quot;]/span[@class=&quot;emojiButton&quot;]/button[@class=&quot;mat-focus-indicator mat-icon-button mat-button-base&quot;]</value>
+      <webElementGuid>4d3427bd-599b-44ac-8088-287b0f74e8ef</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -57,6 +66,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[16]</value>
+      <webElementGuid>5a18c912-6598-41aa-a59c-7dc99504b441</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -64,6 +74,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='msgComposer']/div/div/div/div/span[2]/button</value>
+      <webElementGuid>aec89041-a31d-4332-af6e-6f34c5eee0dd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,6 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Message...'])[1]/following::button[2]</value>
+      <webElementGuid>b8a5e7bd-573c-4e4d-b5ab-79b543f232b4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,6 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='»'])[1]/following::button[2]</value>
+      <webElementGuid>0b800c05-ad5f-46e4-9ae6-dd3d7ccde9df</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,6 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Search'])[1]/preceding::button[4]</value>
+      <webElementGuid>855301ad-5973-4313-abed-5cef3226f983</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -92,6 +106,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Pick your emoji…'])[1]/preceding::button[5]</value>
+      <webElementGuid>b050e328-36ca-4883-a4aa-01877a724564</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,6 +114,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//span[2]/button</value>
+      <webElementGuid>c583905b-ce2d-4647-9c63-b7ba3de33703</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,5 +122,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = 'insert_emoticon' or . = 'insert_emoticon')]</value>
+      <webElementGuid>280b3295-c285-452d-8e67-b3b9b34dcfce</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
