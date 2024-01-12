@@ -7,14 +7,17 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//button[@type='button'])[19]</value>
+         <value>(//input[@type='file'])[1]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//button[@type = 'button' and (text() = 'attach_file' or . = 'attach_file')]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -22,6 +25,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
+      <webElementGuid>0373fe71-5300-4fde-8762-dd72135a3e6a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -29,6 +33,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
+      <webElementGuid>4b7c8108-7262-4374-91a4-05afd1f828d5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -36,6 +41,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-focus-indicator mat-icon-button mat-button-base</value>
+      <webElementGuid>5eec6689-8ad9-4378-8f75-67485e362243</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -43,6 +49,7 @@
       <name>text</name>
       <type>Main</type>
       <value>attach_file</value>
+      <webElementGuid>e055609a-dff9-41c1-9290-ada8bb21b196</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,6 +57,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;msgComposer&quot;)/div[1]/div[1]/div[1]/div[@class=&quot;message-control-container&quot;]/span[3]/button[@class=&quot;mat-focus-indicator mat-icon-button mat-button-base&quot;]</value>
+      <webElementGuid>1cf3a6f4-077c-41b8-83bf-89f1101a5930</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -57,6 +65,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[19]</value>
+      <webElementGuid>5150a6f8-f953-42ba-bf76-35141f2fede4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -64,6 +73,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='msgComposer']/div/div/div/div/span[3]/button</value>
+      <webElementGuid>0f858e70-5a75-42b1-955d-7e96ddc48db6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,6 +81,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Message...'])[1]/following::button[3]</value>
+      <webElementGuid>f127950f-4df4-4914-a053-a3b2929c81ac</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,6 +89,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='»'])[1]/following::button[3]</value>
+      <webElementGuid>531f2ba4-2713-40bf-8d7b-8a0c2e8877f6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,6 +97,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Search'])[1]/preceding::button[3]</value>
+      <webElementGuid>6e1eaebc-6ed4-436f-abe1-9498c9950dbc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -92,6 +105,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Pick your emoji…'])[1]/preceding::button[4]</value>
+      <webElementGuid>ff1cb473-482d-414b-9e44-ce5f0db00ce8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,6 +113,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//span[3]/button</value>
+      <webElementGuid>321874de-cfbb-425e-a5b6-5337af7a47f3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,5 +121,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = 'attach_file' or . = 'attach_file')]</value>
+      <webElementGuid>d94397f7-c1ab-44cc-9a35-460e2caeb013</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

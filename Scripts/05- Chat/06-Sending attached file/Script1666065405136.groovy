@@ -20,7 +20,7 @@ import org.openqa.selenium.Keys as Keys
 WebUI.delay(GlobalVariable.delay_3s)
 
 'This is a .jpg [make sure to change your filepath for the image before running the automation]'
-CustomKeywords.'uploadpackage.Upload.uploadFile'(findTestObject('Object Repository/05-Chat/06-Sending attached file/button_attach_file'), 
+CustomKeywords.'com.kms.katalon.keyword.uploadfile.UploadFile.uploadFile'(findTestObject('Object Repository/05-Chat/06-Sending attached file/button_attach_file'), 
     GlobalVariable.upload_file)
 
 WebUI.delay(GlobalVariable.delay_3s)

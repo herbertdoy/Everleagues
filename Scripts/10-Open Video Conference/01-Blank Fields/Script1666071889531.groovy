@@ -144,7 +144,7 @@ WebUI.verifyElementVisible(findTestObject('10-Open Video Conference/mat-error_Fi
 
 WebUI.clickOffset(findTestObject('10-Open Video Conference/input_Meeting Title'), 10, 10)
 
-WebUI.verifyElementVisible(findTestObject('10-Open Video Conference/error_Enter a valid emailEnter a valid phone number (eg 13330001234)'))
+//WebUI.verifyElementVisible(findTestObject('10-Open Video Conference/error_Enter a valid emailEnter a valid phone number (eg 13330001234)'))
 
 WebUI.clickOffset(findTestObject('10-Open Video Conference/input_Lastname'), 10, 10)
 

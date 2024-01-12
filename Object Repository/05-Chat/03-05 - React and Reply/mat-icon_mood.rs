@@ -6,16 +6,16 @@
    <elementGuidId>9f09d40e-0025-45d7-83d2-565ba99f05a6</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//mat-icon[@role = 'img' and @aria-hidden = 'true' and (text() = 'mood' or . = 'mood')]</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
-         <value>/html/body/app-root/app-main-page/div/mat-sidenav-container/mat-sidenav-content/div[1]/div[3]/app-chat/section/mat-card/mat-card-content/mat-sidenav-container/mat-sidenav-content/div/app-chat-room/div[1]/perfect-scrollbar/div/div[1]/div[2]/div[1]/div/div[2]/div</value>
+         <value>/html/body/app-root/app-main-page/div/mat-sidenav-container/mat-sidenav-content/div[1]/div[3]/app-chat/section/mat-card/mat-card-content/mat-sidenav-container/mat-sidenav-content/div/app-chat-room/div[1]/perfect-scrollbar/div/div[1]/div[2]/div[1]/div/div[3]/div/mat-icon</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>mat-icon.mat-icon.notranslate.ng-tns-c551-88.material-icons.mat-icon-no-color</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//mat-icon[@role = 'img' and @aria-hidden = 'true' and (text() = 'mood' or . = 'mood')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -26,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>mat-icon</value>
-      <webElementGuid>e939adb9-cc45-4024-99db-91b18f004730</webElementGuid>
+      <webElementGuid>43e58fe9-24f0-43dc-9b1c-5b151b1e3b8a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -34,7 +34,7 @@
       <name>role</name>
       <type>Main</type>
       <value>img</value>
-      <webElementGuid>7d78e6fc-35c3-441f-9996-841bc03c3f95</webElementGuid>
+      <webElementGuid>7352ad16-2ab8-4d3c-bdcd-9feac0bb6e1b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,7 +42,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-icon notranslate ng-tns-c551-88 material-icons mat-icon-no-color</value>
-      <webElementGuid>71d40595-7836-4afe-8319-6a538336888d</webElementGuid>
+      <webElementGuid>44868dc9-437b-4be7-b995-1d864dff5983</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -50,7 +50,7 @@
       <name>aria-hidden</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>de1c904a-0f14-4b9e-afb7-bffdd28f8bdc</webElementGuid>
+      <webElementGuid>5722997e-b50e-483a-a804-97414437f87b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -58,7 +58,7 @@
       <name>text</name>
       <type>Main</type>
       <value>mood</value>
-      <webElementGuid>16e13f6a-d454-422d-9d23-ddeae4d1e2ba</webElementGuid>
+      <webElementGuid>baf0863a-9d29-4883-8bde-8a02be1c50be</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -66,7 +66,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;msgid-1665998083630&quot;)/div[@class=&quot;reaction ng-tns-c551-88 ng-star-inserted&quot;]/mat-icon[@class=&quot;mat-icon notranslate ng-tns-c551-88 material-icons mat-icon-no-color&quot;]</value>
-      <webElementGuid>d20d67c8-6074-46dd-805d-f795f20aac09</webElementGuid>
+      <webElementGuid>7d35a759-4ac5-411b-8a7f-c5966da7e540</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -74,7 +74,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='msgid-1665998083630']/div/mat-icon</value>
-      <webElementGuid>c04c9f46-c1c8-42d1-a50e-6ceb8cd5cbe2</webElementGuid>
+      <webElementGuid>5e8ff6d1-0b78-4429-b062-d023df0d4192</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Today'])[2]/following::mat-icon[1]</value>
-      <webElementGuid>f20b0306-1921-4363-bc15-ae065147c558</webElementGuid>
+      <webElementGuid>41f36f9e-60bf-400a-8b02-8f4f9bd7aeeb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -90,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Automation Chat'])[2]/following::mat-icon[3]</value>
-      <webElementGuid>ca22f21b-0d49-4354-a781-c9b63be7e573</webElementGuid>
+      <webElementGuid>0bbf2d00-bdc9-4ef1-8969-f123c5087e9c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,7 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='You'])[2]/preceding::mat-icon[1]</value>
-      <webElementGuid>39b79c47-7da0-48f9-aa59-aaf5a96817cf</webElementGuid>
+      <webElementGuid>bfc6d0a3-0682-430b-a4b5-229b884563cc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,7 +106,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Testing automation'])[1]/preceding::mat-icon[2]</value>
-      <webElementGuid>7ceca3e8-54c1-4ef4-a841-5db4157ef2ff</webElementGuid>
+      <webElementGuid>471ac160-53f6-47dd-9883-7a559e5b3873</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -114,7 +114,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='mood']/parent::*</value>
-      <webElementGuid>be412f29-4b4f-4223-b533-a3c2f1a1d36c</webElementGuid>
+      <webElementGuid>3bce6ffe-040e-4721-bd39-a6c1d7e7d7e4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -122,7 +122,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/mat-icon</value>
-      <webElementGuid>cf96fed4-df8c-4888-b923-cef65770bc0d</webElementGuid>
+      <webElementGuid>82d6610d-ca02-4b99-9108-e8b9694b0a64</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -130,6 +130,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//mat-icon[(text() = 'mood' or . = 'mood')]</value>
-      <webElementGuid>a02065bc-1ccb-4a5b-939d-5db9ce7f99bc</webElementGuid>
+      <webElementGuid>787dcc86-30f9-402a-acc4-8b2e812e5fc4</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
