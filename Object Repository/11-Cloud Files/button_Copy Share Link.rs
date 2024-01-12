@@ -6,12 +6,12 @@
    <elementGuidId>64d4473a-5df0-4387-afe6-bb28a54a07ec</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[3]/div[2]/button</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>//button[@type = 'button' and (text() = 'Copy Share Link' or . = 'Copy Share Link')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[3]/div[2]/div/mat-dialog-container/app-dialog-share-file-folder/div[2]/div/div[4]/div[2]/button</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -26,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>2d331e16-d8ca-4e8a-84b0-256b90dced4e</webElementGuid>
+      <webElementGuid>079897f3-41b9-4a8e-b8e0-3983854bdbd0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -34,7 +34,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>d109769e-f20b-4b3b-a281-1ed0103bc1de</webElementGuid>
+      <webElementGuid>a36b686c-4a0b-45ca-aff2-a4eb1db75fae</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,7 +42,7 @@
       <name>color</name>
       <type>Main</type>
       <value>primary</value>
-      <webElementGuid>20c56931-64aa-4bef-b0e3-962f95388f71</webElementGuid>
+      <webElementGuid>209fce7a-dca4-4c64-ae05-dc9471dd9486</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,7 +50,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-focus-indicator mat-raised-button mat-button-base mat-primary cdk-focused cdk-mouse-focused</value>
-      <webElementGuid>2bba7b32-c86c-4f97-9fae-3a27189ad600</webElementGuid>
+      <webElementGuid>72c997a4-d185-4730-8f20-c21b94b3c673</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -58,7 +58,7 @@
       <name>ng-reflect-color</name>
       <type>Main</type>
       <value>primary</value>
-      <webElementGuid>13cc9255-d8e7-4109-a8fb-4c8068a54760</webElementGuid>
+      <webElementGuid>fc7efe16-cfe0-462d-9a26-7acadef06b3f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -66,7 +66,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Copy Share Link</value>
-      <webElementGuid>9eb54dc8-a4b3-4308-a832-e742ab0d4237</webElementGuid>
+      <webElementGuid>f215ba6c-fdbc-4a93-9524-3da9a31aae73</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -74,7 +74,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-dialog-12&quot;)/app-dialog-share-file-folder[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;white-container push-top-sm ng-star-inserted&quot;]/div[1]/div[@class=&quot;share-link&quot;]/button[@class=&quot;mat-focus-indicator mat-raised-button mat-button-base mat-primary cdk-focused cdk-mouse-focused&quot;]</value>
-      <webElementGuid>56d97028-729a-4bc4-90ec-b71234c14ec9</webElementGuid>
+      <webElementGuid>6f2564d8-b332-4a69-8816-9f6152195ac0</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -82,7 +82,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[11]</value>
-      <webElementGuid>c0f4b7a7-d24a-436a-9476-2e3ec4f000d1</webElementGuid>
+      <webElementGuid>31b1a14e-2019-4442-ba90-9c7448e714bc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -90,7 +90,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-dialog-container[@id='mat-dialog-12']/app-dialog-share-file-folder/div[2]/div/div[4]/button</value>
-      <webElementGuid>ae895554-fd79-4e05-82e0-a212a4e28f9f</webElementGuid>
+      <webElementGuid>9f0221e0-a0e3-4bd1-91e3-2bd1d830204b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,7 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Not Shared'])[1]/following::button[1]</value>
-      <webElementGuid>93a31149-ea99-4401-8b68-e8c0be4555ab</webElementGuid>
+      <webElementGuid>67c036db-d679-4bbf-afaf-a804bfbccd75</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,7 +106,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Shared with'])[1]/following::button[1]</value>
-      <webElementGuid>0c5413b2-dd43-4968-86d4-a771caba4c3a</webElementGuid>
+      <webElementGuid>62cd1334-0ce6-464a-ad99-da81c101b470</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -114,7 +114,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Save'])[1]/preceding::button[1]</value>
-      <webElementGuid>da8aeb68-2857-491b-aa85-1ffac87e9dd5</webElementGuid>
+      <webElementGuid>9ea2dd6d-bbde-4192-8be3-e0cf942e59ff</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -122,7 +122,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[4]/button</value>
-      <webElementGuid>a988123c-83f0-4830-862c-a36cb96af67c</webElementGuid>
+      <webElementGuid>f4b9a8da-81ce-4dd0-8677-f1d2008c10c5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -130,6 +130,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = 'Copy Share Link' or . = 'Copy Share Link')]</value>
-      <webElementGuid>8c5ba4ec-48de-42e7-91c1-40979b6275c7</webElementGuid>
+      <webElementGuid>e67c39f1-481c-4f97-9fae-a8e3f9106717</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

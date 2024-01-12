@@ -84,9 +84,29 @@ WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('03-Header Menu/Hamburger Button/div_Cloud Files'))
 
+WebUI.closeWindowIndex(1)
+
+WebUI.delay(GlobalVariable.delay_2s)
+
+WebUI.switchToWindowIndex(0)
+
+WebUI.delay(GlobalVariable.delay_2s)
+
 WebUI.scrollToElement(findTestObject('11-Cloud Files/a_My Drive'), 0)
 
 WebUI.click(findTestObject('11-Cloud Files/a_My Drive'))
+
+WebUI.delay(GlobalVariable.delay_2s)
+
+WebUI.closeWindowIndex(1)
+
+WebUI.delay(GlobalVariable.delay_2s)
+
+WebUI.switchToWindowIndex(0)
+
+WebUI.delay(GlobalVariable.delay_2s)
+
+WebUI.refresh()
 
 WebUI.delay(GlobalVariable.delay_3s)
 
