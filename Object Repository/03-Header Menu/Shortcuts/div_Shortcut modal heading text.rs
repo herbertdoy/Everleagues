@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Shortcut modal heading text</name>
+   <tag></tag>
+   <elementGuidId>7dbf3a4f-e72b-489f-a9cd-8559fffc1bb0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.shortcuts-header.ng-tns-c505-6</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='mat-menu-panel-2']/div/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>5ecc8bfe-14ee-4dc7-9d4b-d5a70edae92c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>shortcuts-header ng-tns-c505-6</value>
+      <webElementGuid>d8e6ed48-6e9a-4473-89b9-5e6524bf57ba</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Shortcuts </value>
+      <webElementGuid>5cf216fd-c767-4e4e-be16-103ea5c5d279</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mat-menu-panel-2&quot;)/div[@class=&quot;mat-menu-content ng-tns-c316-10&quot;]/div[@class=&quot;shortcuts-container ng-tns-c316-10&quot;]/div[@class=&quot;shortcuts-header ng-tns-c505-6&quot;]</value>
+      <webElementGuid>096a5d9c-2157-4cfb-8ada-6d85c7927dcf</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='mat-menu-panel-2']/div/div/div</value>
+      <webElementGuid>435b236e-dd6e-407d-9e98-b7c9412408a7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Delete Phone'])[1]/following::div[8]</value>
+      <webElementGuid>8460d114-6663-40dc-b967-0143aba28119</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Delete Email'])[1]/following::div[9]</value>
+      <webElementGuid>fb5c5be7-ee1c-48d1-97bd-7c9ded86e3e9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Invite New User'])[2]/preceding::div[2]</value>
+      <webElementGuid>1410ebf7-026a-4572-90ca-6098f1e1dc3b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div/div/div</value>
+      <webElementGuid>e30c4e30-54f0-4c3e-9fe9-84a5c9c5cf9b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = ' Shortcuts ' or . = ' Shortcuts ')]</value>
+      <webElementGuid>85d50036-f754-4d41-a1ff-3f16fce17a12</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

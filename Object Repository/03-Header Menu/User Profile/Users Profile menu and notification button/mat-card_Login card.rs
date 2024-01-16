@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>mat-card_Login card</name>
+   <tag></tag>
+   <elementGuidId>84ccef16-68fa-42d1-933c-4e973d460dba</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>mat-card.mat-card.mat-focus-indicator.ng-tns-c482-76.ng-star-inserted</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//mat-card</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>mat-card</value>
+      <webElementGuid>7efbb698-ce1c-40af-9464-9d673f1dea9c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-card mat-focus-indicator ng-tns-c482-76 ng-star-inserted</value>
+      <webElementGuid>e51adc37-8b3f-489e-82a4-0dfbc58c2c81</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Email *PasswordSign inForgot password?Don't have an account? Sign up</value>
+      <webElementGuid>2e9e13ce-a881-43ed-a09e-aef695496e07</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/app-root[1]/app-login-page[@class=&quot;ng-tns-c482-76 ng-trigger ng-trigger-routerAnimation ng-star-inserted&quot;]/section[@class=&quot;ng-tns-c482-76&quot;]/article[@class=&quot;ng-tns-c482-76&quot;]/mat-card[@class=&quot;mat-card mat-focus-indicator ng-tns-c482-76 ng-star-inserted&quot;]</value>
+      <webElementGuid>d5253d1c-0beb-49fb-ae51-a5b01de79b50</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//mat-card</value>
+      <webElementGuid>5b7c67e2-83c6-4071-91b1-9450d8a4bc92</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

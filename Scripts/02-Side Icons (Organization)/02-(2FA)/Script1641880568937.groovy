@@ -19,13 +19,13 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.delay(GlobalVariable.delay_2s)
 
-WebUI.click(findTestObject('02-Side Icons(Organization)/button/button_2FA'))
+WebUI.click(findTestObject('02-Side Icons(Organization)/button_2FA'))
 
-WebUI.clickOffset(findTestObject('02-Side Icons(Organization)/span/span_Two Factor Authentication'), 100, 100)
+WebUI.clickOffset(findTestObject('02-Side Icons(Organization)/span_Two Factor Authentication'), 100, 100)
 
 WebUI.delay(GlobalVariable.delay_3s)
 
-WebUI.verifyElementVisible(findTestObject('02-Side Icons(Organization)/span/span_Two Factor Authentication'))
+WebUI.verifyElementVisible(findTestObject('02-Side Icons(Organization)/span_Two Factor Authentication'))
 
 WebUI.delay(GlobalVariable.delay_2s)
 

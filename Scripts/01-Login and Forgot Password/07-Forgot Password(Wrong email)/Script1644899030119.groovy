@@ -17,17 +17,17 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.setText(findTestObject('01-Login and Forgot Password/input/Reset pass email field'), 'unregisteredemail@test.com')
+WebUI.setText(findTestObject('01-Login and Forgot Password/zForgot password/input_email field'), GlobalVariable.unregistered_email)
 
 WebUI.delay(GlobalVariable.delay_2s)
 
-WebUI.click(findTestObject('01-Login and Forgot Password/button/button_Reset Password'))
+WebUI.click(findTestObject('01-Login and Forgot Password/zForgot password/button_Reset Password'))
 
-WebUI.verifyElementPresent(findTestObject('01-Login and Forgot Password/div/Reset pass- wrong email'), 0)
+WebUI.verifyElementPresent(findTestObject('01-Login and Forgot Password/zForgot password/div_wrong email'), 0)
 
 WebUI.delay(GlobalVariable.delay_2s)
 
-WebUI.click(findTestObject('01-Login and Forgot Password/button/button_Back to login'))
+WebUI.click(findTestObject('01-Login and Forgot Password/button_Back to login'))
 
 WebUI.delay(GlobalVariable.delay_2s)
 

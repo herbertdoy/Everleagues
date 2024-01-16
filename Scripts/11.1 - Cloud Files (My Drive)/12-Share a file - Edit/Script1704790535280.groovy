@@ -82,7 +82,7 @@ WebUI.switchToWindowIndex(0)
 
 WebUI.delay(GlobalVariable.delay_2s)
 
-WebUI.click(findTestObject('03-Header Menu/div/div_Cloud Files'))
+WebUI.click(findTestObject('03-Header Menu/div_Cloud Files'))
 
 WebUI.closeWindowIndex(1)
 

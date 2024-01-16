@@ -17,17 +17,17 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 
-WebUI.setText(findTestObject('01-Login and Forgot Password/input/input_Email_email'), GlobalVariable.Y_email_withoutSubscription_testuser01)
+WebUI.setText(findTestObject('01-Login and Forgot Password/input_email'), GlobalVariable.Y_email_withoutSubscription_testuser01)
 
-WebUI.setEncryptedText(findTestObject('01-Login and Forgot Password/input/input_Email_password2'), GlobalVariable.password)
-
-WebUI.delay(GlobalVariable.delay_2s)
-
-WebUI.click(findTestObject('01-Login and Forgot Password/button/show pass button'))
+WebUI.setEncryptedText(findTestObject('01-Login and Forgot Password/input_password2'), GlobalVariable.password)
 
 WebUI.delay(GlobalVariable.delay_2s)
 
-WebUI.click(findTestObject('01-Login and Forgot Password/button/button_Sign in'))
+WebUI.click(findTestObject('01-Login and Forgot Password/button_show pass button'))
+
+WebUI.delay(GlobalVariable.delay_2s)
+
+WebUI.click(findTestObject('01-Login and Forgot Password/button_Sign in'))
 
 WebUI.delay(GlobalVariable.delay_3s)
 
@@ -74,12 +74,12 @@ WebUI.switchToWindowIndex(0)
 
 WebUI.delay(GlobalVariable.delay_2s)
 
-WebUI.setText(findTestObject('Object Repository/06-Teams/For 2FA/input_Enter verification code_code'), code)
+WebUI.setText(findTestObject('Object Repository/06-Teams/For 2FA/input_Enter verification code'), code)
 
 WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('06-Teams/For 2FA/button_Verify_2FA'))
 
-//WebUI.verifyElementPresent(findTestObject('01-Login and Forgot Password/h4/h4_EVERLEAGUES (v0.11.16 build 324)'), 0) 
+//WebUI.verifyElementPresent(findTestObject('01-Login and Forgot Password/h4_EVERLEAGUES (v0.11.16 build 324)'), 0) 
 WebUI.delay(GlobalVariable.delay_3s)
 

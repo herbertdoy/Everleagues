@@ -45,7 +45,7 @@ WebUI.delay(GlobalVariable.delay_1s)
 
 WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Contact Info/div_Email'))
 
-WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Contact Info/add email button'))
+WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Contact Info/mat-icon_add email button'))
 
 WebUI.setText(findTestObject('03-Header Menu/User Profile/View Profile/Contact Info/email field'), 'auto@automation.com')
 

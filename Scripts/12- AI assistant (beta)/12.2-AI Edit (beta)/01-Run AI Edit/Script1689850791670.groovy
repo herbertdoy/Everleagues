@@ -29,11 +29,11 @@ WebUI.click(findTestObject('06-Teams/button_doublearrow'))
 
 WebUI.click(findTestObject('06-Teams/button_My Organizations'))
 
-WebUI.click(findTestObject('02-Side Icons(Organization)/button/button_Automation Test Org'))
+WebUI.click(findTestObject('02-Side Icons(Organization)/button_Automation Test Org'))
 
 WebUI.delay(GlobalVariable.delay_4s)
 
-WebUI.verifyElementVisible(findTestObject('02-Side Icons(Organization)/span/span_Automation Test Org (1)'))
+WebUI.verifyElementVisible(findTestObject('02-Side Icons(Organization)/span_Automation Test Org (1)'))
 
 WebUI.delay(GlobalVariable.delay_5s)
 

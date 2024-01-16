@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 //WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/div_Contact Info'))
 //WebUI.delay(1)
-WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Contact Info/add address button'))
+WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Contact Info/mat-icon_add address'))
 
 WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/View Profile/Contact Info/h4_Edit Address'))
 
@@ -74,7 +74,7 @@ WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Contact Inf
 
 WebUI.delay(GlobalVariable.delay_2s)
 
-WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Contact Info/add address button'))
+WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Contact Info/mat-icon_add address'))
 
 WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/View Profile/Contact Info/h4_Edit Address'))
 
@@ -104,8 +104,8 @@ WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Contact Inf
 
 WebUI.delay(GlobalVariable.delay_2s)
 
-//WebUI.scrollToElement(findTestObject('03-Header Menu/User Profile/View Profile/Contact Info/Address Added'), 0)
-WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/View Profile/Contact Info/Address Added'))
+//WebUI.scrollToElement(findTestObject('03-Header Menu/User Profile/View Profile/Contact Info/mat-list_Address Added'), 0)
+WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/View Profile/Contact Info/mat-list_Address Added'))
 
 WebUI.delay(GlobalVariable.delay_2s)
 

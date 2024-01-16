@@ -21,7 +21,7 @@ WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Contact Inf
 
 WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Contact Info/button_phone_country_code_dropdown'))
 
-//WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/View Profile/Contact Info/area code modal'))//
+//WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/View Profile/Contact Info/div_area code modal'))//
 WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Contact Info/button_Philippines 63'))
 
 WebUI.setText(findTestObject('03-Header Menu/User Profile/View Profile/Contact Info/phone field'), '9211234567')

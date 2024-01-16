@@ -25,7 +25,7 @@ WebUI.setEncryptedText(findTestObject('03-Header Menu/User Profile/Change Passwo
 
 WebUI.click(findTestObject('03-Header Menu/User Profile/Change Password/button_Change Password'))
 
-WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/Change Password/Successfully changed password'))
+WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/Change Password/snack-bar_Successfully changed password'))
 
 WebUI.delay(GlobalVariable.delay_2s)
 
@@ -33,7 +33,7 @@ WebUI.click(findTestObject('03-Header Menu/User Profile/Users Profile menu and n
 
 WebUI.delay(GlobalVariable.delay_2s)
 
-WebUI.click(findTestObject('03-Header Menu/Header Menu Verifications/h4_Sign Out'))
+WebUI.click(findTestObject('03-Header Menu/User Profile/Change Password/span_Sign Out'))
 
 WebUI.delay(GlobalVariable.delay_2s)
 
@@ -45,12 +45,12 @@ WebUI.navigateToUrl(GlobalVariable.URL_lab)
 
 WebUI.maximizeWindow()
 
-//WebUI.setText(findTestObject('02-Side Icons(Organization)/input/Email Field'), 'testuser02@mailinator.com')
-WebUI.setText(findTestObject('02-Side Icons(Organization)/input/Email Field'), GlobalVariable.Y_email_withSubscription_testuser00005)
+//WebUI.setText(findTestObject('02-Side Icons(Organization)/input_Email Field'), 'testuser02@mailinator.com')
+WebUI.setText(findTestObject('02-Side Icons(Organization)/input_Email Field'), GlobalVariable.Y_email_withSubscription_testuser00005)
 
-WebUI.setEncryptedText(findTestObject('02-Side Icons(Organization)/input/Password Field'), GlobalVariable.new_password)
+WebUI.setEncryptedText(findTestObject('02-Side Icons(Organization)/input_Password Field'), GlobalVariable.new_password)
 
-WebUI.click(findTestObject('02-Side Icons(Organization)/button/button_Sign in'))
+WebUI.click(findTestObject('02-Side Icons(Organization)/button_Sign in'))
 
 WebUI.delay(GlobalVariable.delay_2s)
 
@@ -96,7 +96,7 @@ WebUI.switchToWindowIndex(0)
 
 WebUI.delay(GlobalVariable.delay_2s)
 
-WebUI.setText(findTestObject('Object Repository/06-Teams/For 2FA/input_Enter verification code_code'), code)
+WebUI.setText(findTestObject('Object Repository/06-Teams/For 2FA/input_Enter verification code'), code)
 
 WebUI.delay(GlobalVariable.delay_3s)
 
@@ -110,7 +110,7 @@ WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('03-Header Menu/User Profile/Change Password/button_Change password_userDropdown'))
 
-WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/Change Password/h4_Change Password'))
+WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/Change Password/h2_Change Password'))
 
 WebUI.delay(GlobalVariable.delay_2s)
 
@@ -122,7 +122,7 @@ WebUI.setEncryptedText(findTestObject('03-Header Menu/User Profile/Change Passwo
 
 WebUI.click(findTestObject('03-Header Menu/User Profile/Change Password/button_Change Password'))
 
-WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/Change Password/Successfully changed password'))
+WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/Change Password/snack-bar_Successfully changed password'))
 
 WebUI.delay(GlobalVariable.delay_2s)
 

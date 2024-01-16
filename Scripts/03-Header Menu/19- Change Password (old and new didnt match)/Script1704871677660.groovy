@@ -35,7 +35,7 @@ WebUI.click(findTestObject('03-Header Menu/User Profile/Change Password/input_Ol
 
 WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/Change Password/error_Password must be at least 8 characters'))
 
-WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/Change Password/error_Password does not match'))
+WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/Change Password/font_Password does not match'))
 
 //WebUI.verifyElementNotClickable(findTestObject('03-Header Menu/User Profile/Change Password/button_Change Password'))
 

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>mat-error_email already exists</name>
+   <tag></tag>
+   <elementGuidId>1fd6950b-6acf-4707-b7cb-8838c01676df</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//mat-error[@role = 'alert' and (text() = ' testuser01@mailinator.com already exists. Please enter another ID' or . = ' testuser01@mailinator.com already exists. Please enter another ID')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#mat-error-5</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//mat-error[text()=' testuser01@mailinator.com already exists. Please enter another ID']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>mat-error</value>
+      <webElementGuid>3de8395a-726a-4c74-b9a8-c05deb0581f3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>alert</value>
+      <webElementGuid>bf23706d-366c-4c51-a0d2-96557b0df568</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-error ng-tns-c238-76 ng-star-inserted</value>
+      <webElementGuid>86a05638-2f1c-472b-ac6e-0aed652f5af5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>mat-error-5</value>
+      <webElementGuid>ff45b113-30b6-43e1-b894-2ac4147689b5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> testuser01@mailinator.com already exists. Please enter another ID</value>
+      <webElementGuid>9fb723e8-6d92-4db4-8a68-6affabe99e18</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mat-error-5&quot;)</value>
+      <webElementGuid>3620266d-ec55-45d6-87a5-73eb2fc416d2</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//mat-error[@id='mat-error-5']</value>
+      <webElementGuid>b4ded97e-1e4f-4f18-bb08-3115cc4d7bdb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Email'])[1]/following::mat-error[1]</value>
+      <webElementGuid>1085af2a-24f9-4ae3-9c8f-9bdd6bb05426</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='First Name'])[1]/preceding::mat-error[1]</value>
+      <webElementGuid>12a25938-46be-4128-b536-f673bdeee8a4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Last Name'])[1]/preceding::mat-error[1]</value>
+      <webElementGuid>7435a923-2afa-4ede-bc53-5d3f0a931b72</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='testuser01@mailinator.com already exists. Please enter another ID']/parent::*</value>
+      <webElementGuid>3e965bc5-d99e-43c8-8c71-84ee8a2e511f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//mat-error</value>
+      <webElementGuid>f6cf03c0-a5d3-4a22-a343-f51308760932</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//mat-error[@id = 'mat-error-5' and (text() = ' testuser01@mailinator.com already exists. Please enter another ID' or . = ' testuser01@mailinator.com already exists. Please enter another ID')]</value>
+      <webElementGuid>6d85682c-d143-4ac0-9fc1-3f281fa33141</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

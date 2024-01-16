@@ -17,13 +17,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('01-Login and Forgot Password/a/a_Forgot password'))
+WebUI.click(findTestObject('01-Login and Forgot Password/zForgot password/a_Forgot password'))
 
-WebUI.verifyElementPresent(findTestObject('01-Login and Forgot Password/span/span_Reset Password'), 0)
+WebUI.verifyElementPresent(findTestObject('01-Login and Forgot Password/zForgot password/span_Reset Password'), 0)
 
 WebUI.delay(GlobalVariable.delay_2s)
 
-WebUI.verifyElementNotClickable(findTestObject('01-Login and Forgot Password/button/button_Reset Password'))
+WebUI.verifyElementNotClickable(findTestObject('01-Login and Forgot Password/zForgot password/button_Reset Password'))
 
 WebUI.delay(GlobalVariable.delay_3s)
 

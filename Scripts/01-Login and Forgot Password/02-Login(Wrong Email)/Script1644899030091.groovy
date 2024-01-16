@@ -17,17 +17,17 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.setText(findTestObject('01-Login and Forgot Password/input/input_Email_email'), GlobalVariable.unregistered_email)
+WebUI.setText(findTestObject('01-Login and Forgot Password/input_email'), GlobalVariable.unregistered_email)
 
-WebUI.setEncryptedText(findTestObject('01-Login and Forgot Password/input/input_Email_password'), 'pUQNV8a0dCQ=')
-
-WebUI.delay(GlobalVariable.delay_2s)
-
-WebUI.click(findTestObject('01-Login and Forgot Password/button/button_Sign in'))
+WebUI.setEncryptedText(findTestObject('01-Login and Forgot Password/input_password'), 'pUQNV8a0dCQ=')
 
 WebUI.delay(GlobalVariable.delay_2s)
 
-WebUI.verifyElementPresent(findTestObject('01-Login and Forgot Password/mat-error/Invalid email error'), 0)
+WebUI.click(findTestObject('01-Login and Forgot Password/button_Sign in'))
+
+WebUI.delay(GlobalVariable.delay_2s)
+
+WebUI.verifyElementPresent(findTestObject('01-Login and Forgot Password/div_Invalid email error'), 0)
 
 WebUI.delay(GlobalVariable.delay_2s)
 

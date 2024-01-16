@@ -25,11 +25,11 @@ WebUI.maximizeWindow()
 
 WebUI.callTestCase(findTestCase('01-Login and Forgot Password/04-Login(Valid Credentials-With Subscription)'), [:], FailureHandling.STOP_ON_FAILURE)
 
-//WebUI.setText(findTestObject('02-Side Icons(Organization)/input/Email Field'), 'testuser02@mailinator.com')
+//WebUI.setText(findTestObject('02-Side Icons(Organization)/input_Email Field'), 'testuser02@mailinator.com')
 //
-//WebUI.setEncryptedText(findTestObject('02-Side Icons(Organization)/input/Password Field'), '8yFRyszE6U6jvsCn51OQbg==')
+//WebUI.setEncryptedText(findTestObject('02-Side Icons(Organization)/input_Password Field'), '8yFRyszE6U6jvsCn51OQbg==')
 //
-//WebUI.click(findTestObject('02-Side Icons(Organization)/button/button_Sign in'))
+//WebUI.click(findTestObject('02-Side Icons(Organization)/button_Sign in'))
 //
 //WebUI.delay(2)
 //
@@ -69,7 +69,7 @@ WebUI.callTestCase(findTestCase('01-Login and Forgot Password/04-Login(Valid Cre
 //
 //WebUI.delay(3)
 //
-//WebUI.setText(findTestObject('Object Repository/06-Teams/For 2FA/input_Enter verification code_code'), code)
+//WebUI.setText(findTestObject('Object Repository/06-Teams/For 2FA/input_Enter verification code'), code)
 //
 //WebUI.delay(3)
 //
@@ -88,7 +88,7 @@ WebUI.verifyElementVisible(findTestObject('06-Teams/span_GG Automation'))
 
 WebUI.delay(GlobalVariable.delay_4s)
 
-WebUI.click(findTestObject('03-Header Menu/div/div_Settings'))
+WebUI.click(findTestObject('03-Header Menu/div_Settings'))
 
 WebUI.verifyElementVisible(findTestObject('09-Settings/Users/div_Organization'))
 

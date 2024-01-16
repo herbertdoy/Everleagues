@@ -25,7 +25,7 @@ WebUI.click(findTestObject('07-Directory/Connections/button_plusIcon'))
 
 WebUI.doubleClick(findTestObject('07-Directory/Connections/input_Type_email'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.setText(findTestObject('07-Directory/Connections/input_Type_email'), GlobalVariable.email_for_Auto2)
+WebUI.setText(findTestObject('07-Directory/Connections/input_Type_email'), GlobalVariable.Y_autotester02)
 
 WebUI.click(findTestObject('07-Directory/Connections/input_Type_phone'))
 

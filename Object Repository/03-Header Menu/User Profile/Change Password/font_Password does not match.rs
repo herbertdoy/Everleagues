@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>font_Password does not match</name>
+   <tag></tag>
+   <elementGuidId>d3fa32cf-6105-4016-8f19-e6d114b6b9c6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#mat-error-11</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//font[text()=' Password does not match ']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//mat-error[@role = 'alert' and (text() = ' Password does not match ' or . = ' Password does not match ')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>mat-error</value>
+      <webElementGuid>b2670489-6c62-4d80-b550-bd4a2a075801</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>alert</value>
+      <webElementGuid>6435b615-a0b4-452a-972c-9ca9c4174534</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-error ng-tns-c231-50</value>
+      <webElementGuid>7663d09e-4987-4733-8956-cc3199166341</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>mat-error-11</value>
+      <webElementGuid>06b92605-27f5-4117-bbe1-7f4e7104ec1e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Password does not match </value>
+      <webElementGuid>1728d326-10e0-4e61-81e3-4a6dc99d1168</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mat-error-11&quot;)</value>
+      <webElementGuid>f4eebcaa-4d57-4fee-8b7a-14c424abfb68</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//mat-error[@id='mat-error-11']</value>
+      <webElementGuid>3fa1ce68-2f90-4926-abd0-a6915ce35f41</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//mat-dialog-container[@id='mat-dialog-3']/app-dialog-change-password/section/form/div/div/mat-form-field[3]/div/div[3]/div/mat-error</value>
+      <webElementGuid>37e2e4f9-385e-462d-bfaf-25f6ec55b8d1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Confirm Password'])[1]/following::mat-error[1]</value>
+      <webElementGuid>880e2326-f530-434c-a4ce-34878c370cb9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Password must be at least 8 characters with at least an uppercase, a lowercase and a number.'])[1]/following::mat-error[1]</value>
+      <webElementGuid>23893bd7-cb5d-48e0-82b3-1637012924a3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Change Password'])[2]/preceding::mat-error[1]</value>
+      <webElementGuid>3af22eab-7013-4610-8e31-e886b7e9b72e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/preceding::mat-error[1]</value>
+      <webElementGuid>34409380-01a6-437b-9673-48d9e131f074</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Password does not match']/parent::*</value>
+      <webElementGuid>292de9dd-0cd2-46ce-b0a4-b00b04424b88</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//mat-form-field[3]/div/div[3]/div/mat-error</value>
+      <webElementGuid>52c83f7d-1f2d-46d6-9736-7c316e7daa28</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//mat-error[@id = 'mat-error-11' and (text() = ' Password does not match ' or . = ' Password does not match ')]</value>
+      <webElementGuid>8c919593-2436-4bdb-867e-e2a94c703312</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -15,24 +15,24 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.click(findTestObject('02-Side Icons(Organization)/button/button_hide quick shortcuts'))
+WebUI.click(findTestObject('02-Side Icons(Organization)/button_hide quick shortcuts'))
 
 WebUI.delay(GlobalVariable.delay_3s)
 
-WebUI.verifyElementNotPresent(findTestObject('02-Side Icons(Organization)/button/button_2FA'), 0)
+WebUI.verifyElementNotPresent(findTestObject('02-Side Icons(Organization)/button_2FA'), 0)
 
-WebUI.verifyElementNotPresent(findTestObject('02-Side Icons(Organization)/button/button_add new user'), 0)
+WebUI.verifyElementNotPresent(findTestObject('02-Side Icons(Organization)/button_add new user'), 0)
 
-WebUI.verifyElementNotPresent(findTestObject('02-Side Icons(Organization)/button/button_Client assignment'), 
+WebUI.verifyElementNotPresent(findTestObject('02-Side Icons(Organization)/button_Client assignment'), 
     0)
 
 WebUI.delay(GlobalVariable.delay_2s)
 
-WebUI.click(findTestObject('02-Side Icons(Organization)/button/button_Show quick shortcuts'))
+WebUI.click(findTestObject('02-Side Icons(Organization)/button_Show quick shortcuts'))
 
-WebUI.verifyElementVisible(findTestObject('02-Side Icons(Organization)/button/button_add new user'))
+WebUI.verifyElementVisible(findTestObject('02-Side Icons(Organization)/button_add new user'))
 
-WebUI.verifyElementVisible(findTestObject('02-Side Icons(Organization)/button/button_Client assignment'))
+WebUI.verifyElementVisible(findTestObject('02-Side Icons(Organization)/button_Client assignment'))
 
 WebUI.delay(GlobalVariable.delay_2s)
 

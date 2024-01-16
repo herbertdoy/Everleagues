@@ -30,15 +30,15 @@ def emailAddress = ('autotestuser' + randomString) + domainName
 
 KeywordUtil.logInfo('Generated email address: ' + emailAddress)
 
-WebUI.setText(findTestObject('00-Signup and Activation/input/input_Email'), emailAddress)
+WebUI.setText(findTestObject('00-Signup and Activation/input_Email'), emailAddress)
 
-WebUI.setText(findTestObject('00-Signup and Activation/input/input_firstName'), GlobalVariable.first_name1)
+WebUI.setText(findTestObject('00-Signup and Activation/input_firstName'), GlobalVariable.first_name1)
 
-WebUI.setText(findTestObject('00-Signup and Activation/input/input_lastName'), GlobalVariable.last_name1)
+WebUI.setText(findTestObject('00-Signup and Activation/input_lastName'), GlobalVariable.last_name1)
 
 WebUI.delay(GlobalVariable.delay_2s)
 
-WebUI.click(findTestObject('Object Repository/00-Signup and Activation/button/button_Sign up'))
+WebUI.click(findTestObject('Object Repository/00-Signup and Activation/button_Sign up'))
 
 WebUI.delay(GlobalVariable.delay_2s)
 
@@ -86,7 +86,7 @@ WebUI.switchToWindowIndex(0)
 
 WebUI.delay(GlobalVariable.delay_3s)
 
-WebUI.setText(findTestObject('Object Repository/06-Teams/For 2FA/input_Enter verification code_code'), code)
+WebUI.setText(findTestObject('Object Repository/06-Teams/For 2FA/input_Enter verification code'), code)
 
 WebUI.delay(GlobalVariable.delay_2s)
 

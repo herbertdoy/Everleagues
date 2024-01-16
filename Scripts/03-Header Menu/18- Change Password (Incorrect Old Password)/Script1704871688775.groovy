@@ -33,7 +33,7 @@ WebUI.setEncryptedText(findTestObject('03-Header Menu/User Profile/Change Passwo
 
 WebUI.click(findTestObject('03-Header Menu/User Profile/Change Password/button_Change Password'))
 
-WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/Change Password/Failed to change password'))
+WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/Change Password/mat-error_Failed to change password'))
 
 //WebUI.click(findTestObject('03-Header Menu/User Profile/Change Password/button_Cancel'))
 

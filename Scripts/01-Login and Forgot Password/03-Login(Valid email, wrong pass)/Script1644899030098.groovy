@@ -17,21 +17,21 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.setText(findTestObject('01-Login and Forgot Password/input/input_Email_email'), GlobalVariable.email_without_subscription)
+WebUI.setText(findTestObject('01-Login and Forgot Password/input_email'), GlobalVariable.Y_email_withoutSubscription_testuser01)
 
-WebUI.setEncryptedText(findTestObject('01-Login and Forgot Password/input/input_Email_password'), 'OxgQgnWTiECE3BxjMAl2ng==')
+WebUI.setEncryptedText(findTestObject('01-Login and Forgot Password/input_password'), 'OxgQgnWTiECE3BxjMAl2ng==')
 
 WebUI.delay(GlobalVariable.delay_2s)
 
-WebUI.click(findTestObject('01-Login and Forgot Password/button/show pass button'))
+WebUI.click(findTestObject('01-Login and Forgot Password/button_show pass button'))
 
 WebUI.delay(GlobalVariable.delay_3s)
 
-WebUI.click(findTestObject('01-Login and Forgot Password/button/button_Sign in'))
+WebUI.click(findTestObject('01-Login and Forgot Password/button_Sign in'))
 
 WebUI.delay(GlobalVariable.delay_3s)
 
-WebUI.verifyElementPresent(findTestObject('01-Login and Forgot Password/mat-error/Invalid user name or password'), 0)
+WebUI.verifyElementPresent(findTestObject('01-Login and Forgot Password/div_Invalid user name or password'), 0)
 
 WebUI.delay(GlobalVariable.delay_2s)
 

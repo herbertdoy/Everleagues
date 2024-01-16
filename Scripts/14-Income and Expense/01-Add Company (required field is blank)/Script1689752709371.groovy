@@ -26,9 +26,9 @@ WebUI.maximizeWindow()
 WebUI.callTestCase(findTestCase('01-Login and Forgot Password/04-Login (Valid Credentials-Without Subscription)'), [:], 
     FailureHandling.CONTINUE_ON_FAILURE)
 
-//WebUI.setText(findTestObject('02-Side Icons(Organization)/input/Email Field'), 'testuser02@mailinator.com')
-//WebUI.setEncryptedText(findTestObject('02-Side Icons(Organization)/input/Password Field'), '8yFRyszE6U6jvsCn51OQbg==')
-//WebUI.click(findTestObject('02-Side Icons(Organization)/button/button_Sign in'))
+//WebUI.setText(findTestObject('02-Side Icons(Organization)/input_Email Field'), 'testuser02@mailinator.com')
+//WebUI.setEncryptedText(findTestObject('02-Side Icons(Organization)/input_Password Field'), '8yFRyszE6U6jvsCn51OQbg==')
+//WebUI.click(findTestObject('02-Side Icons(Organization)/button_Sign in'))
 //WebUI.delay(2)
 //WebUI.click(findTestObject('06-Teams/For 2FA/button_Confirm_2FA'))
 //WebUI.delay(2)
@@ -50,7 +50,7 @@ WebUI.callTestCase(findTestCase('01-Login and Forgot Password/04-Login (Valid Cr
 //WebUI.delay(3)
 //WebUI.switchToWindowIndex(0)
 //WebUI.delay(3)
-//WebUI.setText(findTestObject('Object Repository/06-Teams/For 2FA/input_Enter verification code_code'), code)
+//WebUI.setText(findTestObject('Object Repository/06-Teams/For 2FA/input_Enter verification code'), code)
 //WebUI.delay(3)
 //WebUI.click(findTestObject('06-Teams/For 2FA/button_Verify_2FA'))
 //WebUI.delay(5)
@@ -58,17 +58,17 @@ WebUI.click(findTestObject('06-Teams/button_doublearrow'))
 
 WebUI.click(findTestObject('06-Teams/button_My Organizations'))
 
-WebUI.click(findTestObject('02-Side Icons(Organization)/button/button_Automation Test Org'))
+WebUI.click(findTestObject('02-Side Icons(Organization)/button_Automation Test Org'))
 
 WebUI.delay(GlobalVariable.delay_3s)
 
-WebUI.verifyElementVisible(findTestObject('02-Side Icons(Organization)/span/span_Automation Test Org (1)'))
+WebUI.verifyElementVisible(findTestObject('02-Side Icons(Organization)/span_Automation Test Org (1)'))
 
 WebUI.delay(GlobalVariable.delay_2s)
 
-WebUI.scrollToElement(findTestObject('03-Header Menu/div/div_Income and Expense'), 0)
+WebUI.scrollToElement(findTestObject('03-Header Menu/div_Income and Expense'), 0)
 
-WebUI.click(findTestObject('03-Header Menu/div/div_Income and Expense'))
+WebUI.click(findTestObject('03-Header Menu/div_Income and Expense'))
 
 WebUI.verifyElementVisible(findTestObject('14-Income and Expense/div_IncomeAndExpense'))
 

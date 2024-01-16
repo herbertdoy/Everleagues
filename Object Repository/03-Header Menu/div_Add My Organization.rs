@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Add My Organization</name>
+   <tag></tag>
+   <elementGuidId>6f27722f-f634-4643-818e-1a47ada9bf4c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.ou-new-container</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Member since: 1/4/22'])[1]/following::div[1]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'library_addAdd My Organization' or . = 'library_addAdd My Organization')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>0d9b6fa7-957e-42ab-9336-72d3937b7087</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>fxlayout</name>
+      <type>Main</type>
+      <value>row</value>
+      <webElementGuid>fa5d6ceb-3700-4e53-895b-10f2bb23b613</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>fxlayoutalign</name>
+      <type>Main</type>
+      <value>start center</value>
+      <webElementGuid>5ec80213-72a9-4c77-b57e-872bba534308</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ou-new-container</value>
+      <webElementGuid>6f402c4f-d23f-4432-b6e7-5443b2ee4ef8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-reflect-fx-layout</name>
+      <type>Main</type>
+      <value>row</value>
+      <webElementGuid>b03cc61c-6681-4596-9552-db29aec1e6f1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-reflect-fx-layout-align</name>
+      <type>Main</type>
+      <value>start center</value>
+      <webElementGuid>81b45fbd-a79d-4b10-95f9-8e84149dd903</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>library_addAdd My Organization</value>
+      <webElementGuid>1c77cf4f-3081-4a56-87cf-545b4a3ff95d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/app-root[1]/app-main-page[@class=&quot;ng-tns-c463-3 ng-trigger ng-trigger-routerAnimation ng-star-inserted&quot;]/mat-sidenav-container[@class=&quot;mat-drawer-container mat-sidenav-container ng-tns-c463-3 mat-drawer-transition mat-drawer-container-has-open&quot;]/mat-sidenav[@class=&quot;mat-drawer mat-sidenav left-sidenav ng-tns-c174-4 ng-trigger ng-trigger-transform ng-star-inserted mat-drawer-side mat-drawer-opened&quot;]/div[@class=&quot;mat-drawer-inner-container ng-tns-c174-4&quot;]/header[@class=&quot;sidenav-header ng-tns-c174-4&quot;]/ui-current-ou[@class=&quot;ng-tns-c463-3&quot;]/div[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;ou-new-container&quot;]</value>
+      <webElementGuid>da0d6c7f-1f98-4e9b-a0e4-344c314c4abb</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Member since: 1/4/22'])[1]/following::div[1]</value>
+      <webElementGuid>90c038cc-dda2-4de9-9401-3115bb02344c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Joined as: Owner'])[1]/following::div[2]</value>
+      <webElementGuid>52ee7eb0-f896-40d0-b9bd-e42f9b4e623d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Dashboard'])[1]/preceding::div[4]</value>
+      <webElementGuid>f0a5aba7-16ef-4d9f-be0a-d1b0cd221d27</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div[3]</value>
+      <webElementGuid>c3a0f4b9-d72b-4bcb-a5b6-cad661d8909c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

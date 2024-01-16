@@ -37,9 +37,9 @@ WebUI.click(findTestObject('14-Income and Expense/button_CANCEL3'), FailureHandl
 ///WebUI.click(findTestObject('14-Income and Expense/button_CANCEL2'))
 WebUI.delay(GlobalVariable.delay_2s)
 
-WebUI.scrollToElement(findTestObject('03-Header Menu/div/div_Income and Expense'), 0)
+WebUI.scrollToElement(findTestObject('03-Header Menu/div_Income and Expense'), 0)
 
-WebUI.click(findTestObject('03-Header Menu/div/div_Income and Expense'))
+WebUI.click(findTestObject('03-Header Menu/div_Income and Expense'))
 
 WebUI.delay(GlobalVariable.delay_2s)
 

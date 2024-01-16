@@ -20,9 +20,9 @@ import org.openqa.selenium.Keys as Keys
 //WebUI.openBrowser('')
 //WebUI.navigateToUrl('https://lab.everleagues.com/')
 //WebUI.maximizeWindow()
-//WebUI.setText(findTestObject('02-Side Icons(Organization)/input/Email Field'), 'testuser02@mailinator.com')
-//WebUI.setEncryptedText(findTestObject('02-Side Icons(Organization)/input/Password Field'), '8yFRyszE6U6jvsCn51OQbg==')
-//WebUI.click(findTestObject('02-Side Icons(Organization)/button/button_Sign in'))
+//WebUI.setText(findTestObject('02-Side Icons(Organization)/input_Email Field'), 'testuser02@mailinator.com')
+//WebUI.setEncryptedText(findTestObject('02-Side Icons(Organization)/input_Password Field'), '8yFRyszE6U6jvsCn51OQbg==')
+//WebUI.click(findTestObject('02-Side Icons(Organization)/button_Sign in'))
 //WebUI.delay(2)
 //WebUI.click(findTestObject('06-Teams/For 2FA/button_Confirm_2FA'))
 //WebUI.executeJavaScript('window.open();', [])
@@ -42,7 +42,7 @@ import org.openqa.selenium.Keys as Keys
 //WebUI.delay(3)
 //WebUI.switchToWindowIndex(0)
 //WebUI.delay(3)
-//WebUI.setText(findTestObject('Object Repository/06-Teams/For 2FA/input_Enter verification code_code'), code)
+//WebUI.setText(findTestObject('Object Repository/06-Teams/For 2FA/input_Enter verification code'), code)
 //WebUI.delay(3)
 //WebUI.click(findTestObject('06-Teams/For 2FA/button_Verify_2FA'))
 //WebUI.delay(5)
@@ -52,7 +52,7 @@ import org.openqa.selenium.Keys as Keys
 //WebUI.delay(4)
 //WebUI.verifyElementVisible(findTestObject('06-Teams/span_GG Automation'))
 //WebUI.delay(10)
-//WebUI.click(findTestObject('03-Header Menu/div/div_Settings'))
+//WebUI.click(findTestObject('03-Header Menu/div_Settings'))
 //WebUI.delay(3)
 //WebUI.click(findTestObject('09-Settings/Users/div_Users'))
 //WebUI.delay(3)
@@ -61,7 +61,7 @@ import org.openqa.selenium.Keys as Keys
 //WebUI.click(findTestObject('09-Settings/Users/add Invite a single user'))
 WebUI.delay(GlobalVariable.delay_3s)
 
-WebUI.setText(findTestObject('09-Settings/Users/input_email'), GlobalVariable.email_for_auto4)
+WebUI.setText(findTestObject('09-Settings/Users/input_email'), GlobalVariable.Y_email_autotester04)
 
 WebUI.setText(findTestObject('09-Settings/Users/input_firstName'), 'GG')
 
@@ -119,11 +119,11 @@ WebUI.setText(findTestObject('09-Settings/Users/input_email'), GlobalVariable.Y_
 
 WebUI.setEncryptedText(findTestObject('09-Settings/Users/Co worker/input_password'), GlobalVariable.password)
 
-WebUI.click(findTestObject('02-Side Icons(Organization)/button/button_Sign in'))
+WebUI.click(findTestObject('02-Side Icons(Organization)/button_Sign in'))
 
 WebUI.delay(GlobalVariable.delay_2s)
 
-WebUI.click(findTestObject('06-Teams/For 2FA/button_Confirm_2FA'))
+WebUI.click(findTestObject('06-Teams/For 2FA/button_Confirm_2FA_2'))
 
 WebUI.executeJavaScript('window.open();', [])
 
@@ -159,7 +159,7 @@ WebUI.switchToWindowIndex(0)
 
 WebUI.delay(GlobalVariable.delay_3s)
 
-WebUI.setText(findTestObject('Object Repository/06-Teams/For 2FA/input_Enter verification code_code'), codetwo)
+WebUI.setText(findTestObject('Object Repository/06-Teams/For 2FA/input_Enter verification code'), codetwo)
 
 WebUI.delay(GlobalVariable.delay_2s)
 
@@ -185,7 +185,7 @@ WebUI.click(findTestObject('Yopmail/button_Next'), FailureHandling.STOP_ON_FAILU
 
 WebUI.delay(GlobalVariable.delay_3s)
 
-WebUI.closeWindowTitle(GlobalVariable.windowTitle)
+WebUI.closeWindowTitle('Everleagues')
 
 WebUI.switchToWindowIndex(0)
 

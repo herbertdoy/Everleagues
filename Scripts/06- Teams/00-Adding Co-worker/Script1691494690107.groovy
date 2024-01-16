@@ -37,7 +37,7 @@ WebUI.verifyElementVisible(findTestObject('06-Teams/span_GG Automation'))
 
 WebUI.delay(GlobalVariable.delay_5s)
 
-WebUI.click(findTestObject('03-Header Menu/div/div_Settings'))
+WebUI.click(findTestObject('03-Header Menu/div_Settings'))
 
 WebUI.delay(GlobalVariable.delay_3s)
 
@@ -113,7 +113,7 @@ WebUI.setText(findTestObject('09-Settings/Users/input_email'), GlobalVariable.em
 
 WebUI.setEncryptedText(findTestObject('09-Settings/Users/Co worker/input_password'), GlobalVariable.password)
 
-WebUI.click(findTestObject('02-Side Icons(Organization)/button/button_Sign in'))
+WebUI.click(findTestObject('02-Side Icons(Organization)/button_Sign in'))
 
 WebUI.delay(GlobalVariable.delay_2s)
 
@@ -152,7 +152,7 @@ WebUI.switchToWindowIndex(0)
 
 WebUI.delay(GlobalVariable.delay_3s)
 
-WebUI.setText(findTestObject('Object Repository/06-Teams/For 2FA/input_Enter verification code_code'), codetwo)
+WebUI.setText(findTestObject('Object Repository/06-Teams/For 2FA/input_Enter verification code'), codetwo)
 
 WebUI.delay(GlobalVariable.delay_3s)
 

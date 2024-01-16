@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Dashboard</name>
+   <tag></tag>
+   <elementGuidId>11297589-5f6f-4230-8a48-5475b9d7915e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.text</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Add My Organization'])[1]/following::div[5]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[(text() = 'Dashboard ' or . = 'Dashboard ')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>abe2a8da-9ca9-4dce-a961-96406684273c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>text</value>
+      <webElementGuid>3aa399d3-1304-42c5-b006-db9de9e798cb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Dashboard </value>
+      <webElementGuid>6f6729fc-700f-41b4-8f95-936640e59cb6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/app-root[1]/app-main-page[@class=&quot;ng-tns-c463-3 ng-trigger ng-trigger-routerAnimation ng-star-inserted&quot;]/mat-sidenav-container[@class=&quot;mat-drawer-container mat-sidenav-container ng-tns-c463-3 mat-drawer-transition mat-drawer-container-has-open&quot;]/mat-sidenav[@class=&quot;mat-drawer mat-sidenav left-sidenav ng-tns-c174-4 ng-trigger ng-trigger-transform ng-star-inserted mat-drawer-side mat-drawer-opened&quot;]/div[@class=&quot;mat-drawer-inner-container ng-tns-c174-4&quot;]/perfect-scrollbar[@class=&quot;perfect-scrollbar ng-tns-c463-3 ng-star-inserted&quot;]/div[@class=&quot;ps&quot;]/div[@class=&quot;ps-content&quot;]/px-gdn-sidemenu[1]/ul[1]/px-gdn-sideitem[@class=&quot;ng-tns-c511-9 ng-star-inserted&quot;]/li[@class=&quot;ng-tns-c511-9 menu-level--1 close&quot;]/div[@class=&quot;item ng-tns-c511-9&quot;]/a[@class=&quot;mat-focus-indicator ng-tns-c511-9 mat-button mat-button-base active&quot;]/span[@class=&quot;mat-button-wrapper&quot;]/div[@class=&quot;text&quot;]</value>
+      <webElementGuid>8c57e4a0-a2e0-4689-814a-76ce2663f2da</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add My Organization'])[1]/following::div[5]</value>
+      <webElementGuid>c337cf10-f5a3-41a2-9947-e97ede372f43</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Member since: 1/4/22'])[1]/following::div[8]</value>
+      <webElementGuid>37ab30da-b426-4fe0-839a-8cde712382ed</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Chat'])[1]/preceding::div[5]</value>
+      <webElementGuid>2420afb6-4f67-4cad-8c87-9f47899ad9ed</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Teams'])[1]/preceding::div[11]</value>
+      <webElementGuid>83694f89-b796-4a1d-b4dc-eef0c052bdd8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Dashboard']/parent::*</value>
+      <webElementGuid>92d72edb-0c73-4301-a3ab-531abb2ed31a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span/div[2]</value>
+      <webElementGuid>00a1a50b-a419-400f-be62-8728022e78ec</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

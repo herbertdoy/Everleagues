@@ -33,17 +33,17 @@ WebUI.click(findTestObject('03-Header Menu/User Profile/Users Profile menu and n
 
 WebUI.delay(GlobalVariable.delay_1s)
 
-WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/Users Profile menu and notification button/h4_View Profile'))
+WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/Users Profile menu and notification button/button_View Profile'))
 
 WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/Change Password/button_Change password_userDropdown'))
 
-WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/Users Profile menu and notification button/h4_Sign Out'))
+WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/Users Profile menu and notification button/button_Sign Out'))
 
 WebUI.delay(GlobalVariable.delay_2s)
 
-WebUI.click(findTestObject('03-Header Menu/User Profile/Users Profile menu and notification button/h4_Sign Out'))
+WebUI.click(findTestObject('03-Header Menu/User Profile/Users Profile menu and notification button/button_Sign Out'))
 
-WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/Users Profile menu and notification button/Login card'))
+WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/Users Profile menu and notification button/mat-card_Login card'))
 
 WebUI.delay(GlobalVariable.delay_2s)
 
