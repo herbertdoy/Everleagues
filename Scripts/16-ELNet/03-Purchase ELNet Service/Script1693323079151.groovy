@@ -30,11 +30,11 @@ import org.openqa.selenium.Keys as Keys
 //
 //WebUI.click(findTestObject('06-Teams/button_My Organizations'))
 //
-//WebUI.click(findTestObject('02-Side Icons(Organization)/Add Contact/button_Automation Test Org'))
+//WebUI.click(findTestObject('02-Side Icons(Organization)/button/button_Automation Test Org'))
 //
 //WebUI.delay(GlobalVariable.delay_3s)
 //
-//WebUI.verifyElementVisible(findTestObject('02-Side Icons(Organization)/Add Contact/span_Automation Test Org'))
+//WebUI.verifyElementVisible(findTestObject('02-Side Icons(Organization)/span/span_Automation Test Org (1)'))
 //
 //WebUI.delay(GlobalVariable.delay_2s)
 //

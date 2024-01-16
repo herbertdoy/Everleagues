@@ -80,7 +80,7 @@ WebUI.click(findTestObject('09-Settings/Organization/cloud_files_external_users'
 //WebUI.verifyElementVisible(findTestObject('09-Settings/Users/div_Subscriptions'))
 WebUI.delay(GlobalVariable.delay_2s)
 
-//WebUI.click(findTestObject('03-Header Menu/Hamburger Button/div_Settings'))
+//WebUI.click(findTestObject('03-Header Menu/div/div_Settings'))
 //WebUI.click(findTestObject('09-Settings/Users/div_Organization'))
 //WebUI.click(findTestObject('09-Settings/Organization/div_Settings'))//
 WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/mat-card-title_Tools'))

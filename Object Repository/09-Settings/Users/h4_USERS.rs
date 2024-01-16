@@ -6,15 +6,19 @@
    <elementGuidId>128ca60e-39ac-452e-b634-2ae68a2814a8</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>//div[contains(@class,'text-2xl font-semibold')]</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>h4.ng-tns-c481-5</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Everleagues © All Rights Reserved'])[1]/following::h4[1]</value>
+         <key>BASIC</key>
+         <value>//h4[(text() = 'USERS' or . = 'USERS')]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>h4</value>
-      <webElementGuid>7fc1ae46-bb91-40c2-87da-933886df0d0a</webElementGuid>
+      <webElementGuid>7cbe596f-3317-4abc-b02a-5d5bc3f11c34</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ng-tns-c481-5</value>
-      <webElementGuid>097f8376-69f1-4a45-ba57-9f1bd5f9425f</webElementGuid>
+      <webElementGuid>1f9338b8-fabc-4d81-866c-d8bcebbc9465</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +42,7 @@
       <name>text</name>
       <type>Main</type>
       <value>USERS</value>
-      <webElementGuid>40558199-8060-4d73-a3de-f24b031c3f3c</webElementGuid>
+      <webElementGuid>33861409-82a8-4b76-b404-a2fcf7983745</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +50,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/app-root[1]/app-main-page[@class=&quot;ng-tns-c481-5 ng-trigger ng-trigger-routerAnimation ng-star-inserted&quot;]/mat-sidenav-container[@class=&quot;mat-drawer-container mat-sidenav-container ng-tns-c481-5 mat-drawer-transition mat-drawer-container-has-open&quot;]/mat-sidenav-content[@class=&quot;mat-drawer-content mat-sidenav-content&quot;]/mat-toolbar[@class=&quot;mat-toolbar header-main-page mat-primary mat-toolbar-single-row&quot;]/div[@class=&quot;ng-tns-c481-5 ng-star-inserted&quot;]/h4[@class=&quot;ng-tns-c481-5&quot;]</value>
-      <webElementGuid>aa29bcbf-a9aa-46d8-a2cc-22f82a5d38f1</webElementGuid>
+      <webElementGuid>e55ea6ac-3beb-402f-b1e0-dbe6361fa723</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +58,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Everleagues © All Rights Reserved'])[1]/following::h4[1]</value>
-      <webElementGuid>012df267-a332-4985-9d26-0ff705ae2faf</webElementGuid>
+      <webElementGuid>9eb544dc-59e7-46ad-a9c7-341cfb43e629</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +66,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Help'])[1]/following::h4[1]</value>
-      <webElementGuid>cf90a834-12cf-4769-9a47-6053f5e8a8f4</webElementGuid>
+      <webElementGuid>8e4c63f9-9089-4063-9ce9-f2d8c54e5139</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='English'])[1]/preceding::h4[1]</value>
-      <webElementGuid>56817c3b-299e-4089-b3bf-159a2680e03d</webElementGuid>
+      <webElementGuid>29fd79e1-6919-4311-a1e5-d31f1995f329</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='GG TESTER'])[1]/preceding::h4[1]</value>
-      <webElementGuid>287db955-a9c6-4632-b69a-dd2e1bf4ef73</webElementGuid>
+      <webElementGuid>ee3bf681-9b8f-402d-9683-d97c961c02f6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='USERS']/parent::*</value>
-      <webElementGuid>ab77f6fd-deea-4474-803c-2780e0ceee52</webElementGuid>
+      <webElementGuid>5a18a38c-f625-4929-81a2-3daf72de6be8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +98,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//h4</value>
-      <webElementGuid>ee465e6f-77f9-473f-a7e7-b817588db293</webElementGuid>
+      <webElementGuid>ed48624f-8055-487c-9d4e-6c709d720a6c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,6 +106,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//h4[(text() = 'USERS' or . = 'USERS')]</value>
-      <webElementGuid>1373d098-4ff4-46e5-a16f-9b37524e5cc4</webElementGuid>
+      <webElementGuid>859fc913-fe04-4d03-8c9d-5b252bda61f7</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

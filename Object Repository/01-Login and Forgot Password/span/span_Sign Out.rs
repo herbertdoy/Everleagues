@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Sign Out</name>
+   <tag></tag>
+   <elementGuidId>e3ffeb5e-16ff-4273-a6d6-16fddc28a62c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[text()='Sign Out']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h4</value>
+      <webElementGuid>2ffd0b6a-8db4-414d-bf31-af8d62b16a0c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-line</value>
+      <webElementGuid>2bf0c8bf-de64-45be-b8b2-27c891df86b1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Sign Out</value>
+      <webElementGuid>e445ad2e-6d80-4811-b0b6-7f670fa7c038</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mat-menu-panel-2&quot;)/div[@class=&quot;mat-menu-content ng-tns-c315-7&quot;]/mat-nav-list[@class=&quot;mat-nav-list mat-list-base ng-tns-c315-7&quot;]/a[@class=&quot;mat-list-item mat-focus-indicator&quot;]/div[@class=&quot;mat-list-item-content&quot;]/div[@class=&quot;mat-list-text&quot;]/h4[@class=&quot;mat-line&quot;]</value>
+      <webElementGuid>0800c12b-3d5d-4ead-8374-4409f37a49d7</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='mat-menu-panel-2']/div/mat-nav-list/a[3]/div/div[2]/h4</value>
+      <webElementGuid>00b6fa50-8466-415c-bd46-f0744f6d84ba</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Change Password'])[1]/following::h4[1]</value>
+      <webElementGuid>dadb6d7e-983e-4a40-9034-87dd1c6ed598</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='View Profile'])[1]/following::h4[2]</value>
+      <webElementGuid>f69a02f2-6f4e-41cf-bf63-2adfeaa55211</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Sign Out']/parent::*</value>
+      <webElementGuid>4e18c976-867c-407b-b433-fc733b31f62c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a[3]/div/div[2]/h4</value>
+      <webElementGuid>022b8766-8302-4c20-85c6-38db6044123e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='cdk-overlay-0']/div/div/mat-nav-list/a[3]/div/div[2]/h4</value>
+      <webElementGuid>161630fd-22d3-4967-b70d-aff2a6c9fc4d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::h4[1]</value>
+      <webElementGuid>31d4d7f5-cc12-43cd-97ef-09e36e0ad136</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Alt'])[1]/preceding::h4[1]</value>
+      <webElementGuid>ccec5c9f-a813-426a-bba6-eddc1c13e828</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

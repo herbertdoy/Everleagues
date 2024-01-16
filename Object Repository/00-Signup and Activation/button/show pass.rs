@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>show pass</name>
+   <tag></tag>
+   <elementGuidId>d8b3fed1-085c-4d34-ab18-a4eb2c5d8bd2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Password'])[1]/following::*[name()='svg'][1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>svg</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>svg</value>
+      <webElementGuid>ed51e020-fe23-48cc-862b-5489538baf87</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xmlns</name>
+      <type>Main</type>
+      <value>http://www.w3.org/2000/svg</value>
+      <webElementGuid>22a1340e-9ee1-4b29-a0e8-12c9b87e0ee4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>viewBox</name>
+      <type>Main</type>
+      <value>0 0 512 512</value>
+      <webElementGuid>79d37c11-6599-46fe-ab20-8cb3233123bc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>height</name>
+      <type>Main</type>
+      <value>100%</value>
+      <webElementGuid>4525e972-c5e1-465a-89e8-df6f24353551</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>width</name>
+      <type>Main</type>
+      <value>100%</value>
+      <webElementGuid>1a184e9e-dcde-4a1a-9fbb-3c1cfa3ebe06</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>preserveAspectRatio</name>
+      <type>Main</type>
+      <value>xMidYMid meet</value>
+      <webElementGuid>2046b662-4447-4500-9924-ab8b35612937</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>focusable</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>e79dfd98-11b0-4282-93a6-8c5bc78b3d93</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/app-root[1]/app-verify-membership[1]/section[1]/article[1]/mat-card[@class=&quot;mat-card mat-focus-indicator&quot;]/mat-card-content[@class=&quot;mat-card-content text-center&quot;]/div[@class=&quot;ng-star-inserted&quot;]/form[@class=&quot;ng-dirty ng-touched ng-valid&quot;]/div[@class=&quot;push-top-lg&quot;]/div[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;push-top-sm&quot;]/mat-form-field[@class=&quot;mat-form-field margin-bottom ng-tns-c231-3 mat-primary mat-form-field-type-mat-input mat-form-field-appearance-legacy mat-form-field-can-float mat-form-field-has-label mat-form-field-hide-placeholder mat-form-field-should-float ng-dirty ng-touched ng-valid&quot;]/div[@class=&quot;mat-form-field-wrapper ng-tns-c231-3&quot;]/div[@class=&quot;mat-form-field-flex ng-tns-c231-3&quot;]/div[@class=&quot;mat-form-field-suffix ng-tns-c231-3 ng-star-inserted&quot;]/button[@class=&quot;mat-focus-indicator icon-button-small mat-icon-button mat-button-base ng-tns-c231-3 ng-star-inserted&quot;]/span[@class=&quot;mat-button-wrapper&quot;]/mat-icon[@class=&quot;mat-icon notranslate mat-icon-no-color ng-star-inserted&quot;]/svg[1]</value>
+      <webElementGuid>c9767052-4a6f-4882-9631-0a4bccbc8a63</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Password'])[1]/following::*[name()='svg'][1]</value>
+      <webElementGuid>64d8f0cf-c806-4d97-80b6-1819f0b0dc33</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Last Name'])[1]/following::*[name()='svg'][1]</value>
+      <webElementGuid>ec6b8300-cde4-4c12-b264-ad696fc7324b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Confirm Password'])[1]/preceding::*[name()='svg'][1]</value>
+      <webElementGuid>607a6a47-5cd0-4442-80c6-70d1e989eecc</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

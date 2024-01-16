@@ -25,18 +25,18 @@ WebUI.maximizeWindow()
 
 WebUI.callTestCase(findTestCase('01-Login and Forgot Password/04-Login(Valid Credentials-With Subscription)'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
-//WebUI.verifyElementPresent(findTestObject('01-Login and Forgot Password/h4_EVERLEAGUES (v0.11.16 build 324)'), 0)
+//WebUI.verifyElementPresent(findTestObject('01-Login and Forgot Password/h4/h4_EVERLEAGUES (v0.11.16 build 324)'), 0)
 WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.click(findTestObject('06-Teams/button_doublearrow'))
 
 WebUI.click(findTestObject('06-Teams/button_My Organizations'))
 
-WebUI.click(findTestObject('02-Side Icons(Organization)/Add Contact/button_Automation Test Org'))
+WebUI.click(findTestObject('02-Side Icons(Organization)/button/button_Automation Test Org'))
 
 WebUI.delay(GlobalVariable.delay_4s)
 
-WebUI.verifyElementVisible(findTestObject('02-Side Icons(Organization)/Add Contact/span_Automation Test Org'))
+WebUI.verifyElementVisible(findTestObject('02-Side Icons(Organization)/span/span_Automation Test Org (1)'))
 
 WebUI.delay(GlobalVariable.delay_3s)
 

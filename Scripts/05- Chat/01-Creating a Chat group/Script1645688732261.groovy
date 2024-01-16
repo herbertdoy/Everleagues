@@ -27,9 +27,9 @@ WebUI.callTestCase(findTestCase('01-Login and Forgot Password/04-Login(Valid Cre
 
 WebUI.delay(GlobalVariable.delay_2s)
 
-//WebUI.setText(findTestObject('02-Side Icons(Organization)/Add Contact/Email Field'), 'testuser02@mailinator.com')
-//WebUI.setEncryptedText(findTestObject('02-Side Icons(Organization)/Add Contact/Password Field'), '8yFRyszE6U6jvsCn51OQbg==')
-//WebUI.click(findTestObject('02-Side Icons(Organization)/Add Contact/button_Sign in'))
+//WebUI.setText(findTestObject('02-Side Icons(Organization)/input/Email Field'), 'testuser02@mailinator.com')
+//WebUI.setEncryptedText(findTestObject('02-Side Icons(Organization)/input/Password Field'), '8yFRyszE6U6jvsCn51OQbg==')
+//WebUI.click(findTestObject('02-Side Icons(Organization)/button/button_Sign in'))
 //WebUI.delay(2)
 //WebUI.click(findTestObject('06-Teams/For 2FA/button_Confirm_2FA'))
 //WebUI.executeJavaScript('window.open();', [])
@@ -38,10 +38,10 @@ WebUI.delay(GlobalVariable.delay_2s)
 //WebUI.switchToWindowIndex(currentWindow + 1)
 //WebUI.navigateToUrl('https://www.mailinator.com/')
 //WebUI.delay(3)
-//WebUI.setText(findTestObject('00-Signup and Activation/zMailinator/input_LOGIN_search'), 'testuser02@mailinator.com')
-//WebUI.click(findTestObject('00-Signup and Activation/zMailinator/gobutton'), FailureHandling.STOP_ON_FAILURE)
+//WebUI.setText(findTestObject('Mailinator/input_LOGIN_search'), 'testuser02@mailinator.com')
+//WebUI.click(findTestObject('Mailinator/gobutton'), FailureHandling.STOP_ON_FAILURE)
 //WebUI.delay(3)
-//WebUI.click(findTestObject('00-Signup and Activation/zMailinator/Email - everleagues'))
+//WebUI.click(findTestObject('Mailinator/Email - everleagues'))
 //WebUI.delay(3)
 //String code = WebUI.getText(findTestObject('Object Repository/06-Teams/For 2FA/2FA code'))
 //WebUI.delay(3)
@@ -53,19 +53,19 @@ WebUI.delay(GlobalVariable.delay_2s)
 //WebUI.delay(3)
 //WebUI.click(findTestObject('06-Teams/For 2FA/button_Verify_2FA'))
 //WebUI.delay(5)
-WebUI.click(findTestObject('02-Side Icons(Organization)/Add Contact/Side Menu double arrow icon'))
+WebUI.click(findTestObject('02-Side Icons(Organization)/div/Side Menu double arrow icon'))
 
 WebUI.delay(GlobalVariable.delay_2s)
 
-WebUI.click(findTestObject('02-Side Icons(Organization)/Add Contact/button_My Organizations'))
+WebUI.click(findTestObject('02-Side Icons(Organization)/button/button_My Organizations'))
 
 WebUI.delay(GlobalVariable.delay_2s)
 
-WebUI.click(findTestObject('02-Side Icons(Organization)/Add Contact/button_Automation Test Org'))
+WebUI.click(findTestObject('02-Side Icons(Organization)/button/button_Automation Test Org'))
 
 WebUI.delay(GlobalVariable.delay_2s)
 
-WebUI.verifyElementVisible(findTestObject('02-Side Icons(Organization)/Add Contact/span_Automation Test Org'))
+WebUI.verifyElementVisible(findTestObject('02-Side Icons(Organization)/span/span_Automation Test Org (1)'))
 
 WebUI.click(findTestObject('05-Chat/01- Creating a Chat group/div_Chat'))
 

@@ -25,11 +25,11 @@ WebUI.maximizeWindow()
 
 WebUI.callTestCase(findTestCase('01-Login and Forgot Password/04-Login(Valid Credentials-With Subscription)'), [:], FailureHandling.STOP_ON_FAILURE)
 
-//WebUI.setText(findTestObject('02-Side Icons(Organization)/Add Contact/Email Field'), 'testuser02@mailinator.com')
+//WebUI.setText(findTestObject('02-Side Icons(Organization)/input/Email Field'), 'testuser02@mailinator.com')
 //
-//WebUI.setEncryptedText(findTestObject('02-Side Icons(Organization)/Add Contact/Password Field'), '8yFRyszE6U6jvsCn51OQbg==')
+//WebUI.setEncryptedText(findTestObject('02-Side Icons(Organization)/input/Password Field'), '8yFRyszE6U6jvsCn51OQbg==')
 //
-//WebUI.click(findTestObject('02-Side Icons(Organization)/Add Contact/button_Sign in'))
+//WebUI.click(findTestObject('02-Side Icons(Organization)/button/button_Sign in'))
 //
 //WebUI.delay(2)
 //
@@ -47,13 +47,13 @@ WebUI.callTestCase(findTestCase('01-Login and Forgot Password/04-Login(Valid Cre
 //
 //WebUI.delay(3)
 //
-//WebUI.setText(findTestObject('00-Signup and Activation/zMailinator/input_LOGIN_search'), 'testuser02@mailinator.com')
+//WebUI.setText(findTestObject('Mailinator/input_LOGIN_search'), 'testuser02@mailinator.com')
 //
-//WebUI.click(findTestObject('00-Signup and Activation/zMailinator/gobutton'), FailureHandling.STOP_ON_FAILURE)
+//WebUI.click(findTestObject('Mailinator/gobutton'), FailureHandling.STOP_ON_FAILURE)
 //
 //WebUI.delay(3)
 //
-//WebUI.click(findTestObject('00-Signup and Activation/zMailinator/Email - everleagues'))
+//WebUI.click(findTestObject('Mailinator/Email - everleagues'))
 //
 //WebUI.delay(3)
 //
@@ -88,7 +88,7 @@ WebUI.verifyElementVisible(findTestObject('06-Teams/span_GG Automation'))
 
 WebUI.delay(GlobalVariable.delay_5s)
 
-WebUI.click(findTestObject('03-Header Menu/Hamburger Button/div_Settings'))
+WebUI.click(findTestObject('03-Header Menu/div/div_Settings'))
 
 WebUI.delay(GlobalVariable.delay_3s)
 
@@ -124,15 +124,15 @@ WebUI.verifyElementVisible(findTestObject('07-Directory/Connections/zContact Pro
 
 WebUI.delay(GlobalVariable.delay_2s)
 
-WebUI.click(findTestObject('01-Login and Forgot Password/User menu drop'))
+WebUI.click(findTestObject('01-Login and Forgot Password/user-avatar/User menu drop'))
 
 WebUI.delay(GlobalVariable.delay_2s)
 
-WebUI.click(findTestObject('01-Login and Forgot Password/h4_Sign Out'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('01-Login and Forgot Password/span/span_Sign Out'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(GlobalVariable.delay_2s)
 
-WebUI.verifyElementPresent(findTestObject('01-Login and Forgot Password/Login_Card'), 0)
+WebUI.verifyElementPresent(findTestObject('01-Login and Forgot Password/mat-card/Login_Card'), 0)
 
 WebUI.delay(GlobalVariable.delay_3s)
 
@@ -144,11 +144,11 @@ WebUI.navigateToUrl(GlobalVariable.URL_lab)
 
 WebUI.maximizeWindow()
 
-WebUI.setText(findTestObject('02-Side Icons(Organization)/Add Contact/Email Field'), GlobalVariable.email_for_autotester03)
+WebUI.setText(findTestObject('02-Side Icons(Organization)/input/Email Field'), GlobalVariable.email_for_autotester03)
 
-WebUI.setEncryptedText(findTestObject('02-Side Icons(Organization)/Add Contact/Password Field'), GlobalVariable.password)
+WebUI.setEncryptedText(findTestObject('02-Side Icons(Organization)/input/Password Field'), GlobalVariable.password)
 
-WebUI.click(findTestObject('02-Side Icons(Organization)/Add Contact/button_Sign in'))
+WebUI.click(findTestObject('02-Side Icons(Organization)/button/button_Sign in'))
 
 WebUI.delay(GlobalVariable.delay_2s)
 
@@ -166,13 +166,13 @@ WebUI.navigateToUrl(GlobalVariable.URL_mailinator)
 
 WebUI.delay(GlobalVariable.delay_3s)
 
-WebUI.setText(findTestObject('00-Signup and Activation/zMailinator/input_LOGIN_search'), GlobalVariable.email_for_autotester03)
+WebUI.setText(findTestObject('Mailinator/input_LOGIN_search'), GlobalVariable.email_for_autotester03)
 
-WebUI.click(findTestObject('00-Signup and Activation/zMailinator/gobutton'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Mailinator/gobutton'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(GlobalVariable.delay_3s)
 
-WebUI.click(findTestObject('00-Signup and Activation/zMailinator/Email - everleagues'))
+WebUI.click(findTestObject('Mailinator/Email - everleagues'))
 
 WebUI.delay(GlobalVariable.delay_3s)
 
@@ -212,9 +212,9 @@ WebUI.navigateToUrl(GlobalVariable.URL_mailinator)
 
 WebUI.delay(GlobalVariable.delay_3s)
 
-WebUI.setText(findTestObject('00-Signup and Activation/zMailinator/input_LOGIN_search'), GlobalVariable.email_for_autotester03)
+WebUI.setText(findTestObject('Mailinator/input_LOGIN_search'), GlobalVariable.email_for_autotester03)
 
-WebUI.click(findTestObject('00-Signup and Activation/zMailinator/gobutton'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Mailinator/gobutton'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(GlobalVariable.delay_3s)
 

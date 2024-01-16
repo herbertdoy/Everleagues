@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Sign Up Success</name>
+   <tag></tag>
+   <elementGuidId>a9759d7c-8f82-4d2b-942e-8b58b3a40335</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//h2[@class = 'mat-dialog-title' and @id = 'mat-dialog-title-0' and (text() = 'Sign Up Success' or . = 'Sign Up Success')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#mat-dialog-title-0</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h2</value>
+      <webElementGuid>7876ba26-ec05-439c-8d0c-6e97be430036</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-dialog-title</value>
+      <webElementGuid>daf603ad-66f7-4884-a593-8e73a54ecafb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>mat-dialog-title-0</value>
+      <webElementGuid>fe657c0d-2588-4123-9faa-fb1d5fbb8df5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Sign Up Success</value>
+      <webElementGuid>1590af76-e64e-445e-bc73-f7bc4ddeb3a6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mat-dialog-title-0&quot;)</value>
+      <webElementGuid>83390bec-c646-4beb-9c46-117fb62733c7</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//h2[@id='mat-dialog-title-0']</value>
+      <webElementGuid>f0f14758-39f6-4292-bda6-26d999a83e77</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//mat-dialog-container[@id='mat-dialog-0']/app-dialog-success-msg/section/h2</value>
+      <webElementGuid>ee278903-f19d-4e55-a731-a9c1a5fc8ee5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('id(', '&quot;', 'mat-dialog-title-0', '&quot;', ')')])[1]/following::h2[1]</value>
+      <webElementGuid>b139ac6e-b783-41ca-8ccf-9c105e84d149</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='`'])[2]/following::h2[1]</value>
+      <webElementGuid>5be80c24-415a-4d02-9cef-c983f3bef66e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='You have successfully register an account with Everleagues.'])[1]/preceding::h2[1]</value>
+      <webElementGuid>94fd2892-b9d0-42a7-98ce-2a78770aff9d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ok'])[1]/preceding::h2[1]</value>
+      <webElementGuid>cfdcc64f-9cbf-4aa2-8350-ffdafef36dd2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Sign Up Success']/parent::*</value>
+      <webElementGuid>77efc814-b7b7-4a25-8d55-3f9f2938172e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//h2</value>
+      <webElementGuid>40cb206b-8ce2-49fd-a9d8-f7a638da6997</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

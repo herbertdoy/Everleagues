@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>h2_Invite New User</name>
+   <tag></tag>
+   <elementGuidId>843f61ee-b823-4556-8370-16d673a6a4c6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//h2[@class = 'mat-dialog-title' and (text() = 'Invite New User' or . = 'Invite New User')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#mat-dialog-title-30</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//h4[@class = 'mat-dialog-title' and (text() = 'Invite New User' or . = 'Invite New User')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h4</value>
+      <webElementGuid>d89ba25d-bbe2-4fbe-adaa-150ecb43ec6b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-dialog-title</value>
+      <webElementGuid>f249a3ab-7993-4a22-b281-cb238aad1b98</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>mat-dialog-title-30</value>
+      <webElementGuid>a314663c-5d94-4fc2-a9c3-b8fa21a9b469</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Invite New User</value>
+      <webElementGuid>82015d49-f392-477f-afd1-269afc2cdba3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mat-dialog-title-30&quot;)</value>
+      <webElementGuid>8de36413-3235-4a31-8346-3efc7aeb83f3</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//h4[@id='mat-dialog-title-30']</value>
+      <webElementGuid>8d849b70-5a5f-497c-8c27-b7619950851d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//mat-dialog-container[@id='mat-dialog-30']/app-dialog-add-user/section/h4</value>
+      <webElementGuid>ecce1f96-4851-4f5f-8dcf-187dabe387c4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='of 3'])[1]/following::h4[1]</value>
+      <webElementGuid>2debaa85-f7af-4be4-951b-a4008f6357de</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Row per page:'])[1]/following::h4[1]</value>
+      <webElementGuid>a8ff32c2-840d-46d9-9d7a-35ab82b39d19</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='User'])[1]/preceding::h4[1]</value>
+      <webElementGuid>80a2158c-b8a5-4d96-9ddd-b5e0485dada6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Additional Settings'])[1]/preceding::h4[1]</value>
+      <webElementGuid>efc436c8-140c-4106-a42f-7457cf87149f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Invite New User']/parent::*</value>
+      <webElementGuid>79166d90-fb21-4903-bf96-5f5864cfc9af</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//section/h4</value>
+      <webElementGuid>fcca6f8a-226b-4ac8-bc9f-905a6a753332</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h4[@id = 'mat-dialog-title-30' and (text() = 'Invite New User' or . = 'Invite New User')]</value>
+      <webElementGuid>e2d77453-9989-4060-aa0b-62defd308b2c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -16,41 +16,41 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 
-WebUI.setEncryptedText(findTestObject('00-Signup and Activation/input_password'), GlobalVariable.password, FailureHandling.STOP_ON_FAILURE)
+WebUI.setEncryptedText(findTestObject('00-Signup and Activation/input/input_password'), GlobalVariable.password, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setEncryptedText(findTestObject('00-Signup and Activation/input_ConfirmPassword'), GlobalVariable.password, FailureHandling.STOP_ON_FAILURE)
-
-WebUI.delay(GlobalVariable.delay_2s)
-
-WebUI.click(findTestObject('00-Signup and Activation/show pass'))
-
-WebUI.click(findTestObject('00-Signup and Activation/show confirm pass'))
+WebUI.setEncryptedText(findTestObject('00-Signup and Activation/input/input_ConfirmPassword'), GlobalVariable.password, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(GlobalVariable.delay_2s)
 
-WebUI.check(findTestObject('00-Signup and Activation/div_checkbox'))
+WebUI.click(findTestObject('00-Signup and Activation/button/show pass'))
+
+WebUI.click(findTestObject('00-Signup and Activation/button/show confirm pass'))
 
 WebUI.delay(GlobalVariable.delay_2s)
 
-WebUI.click(findTestObject('00-Signup and Activation/button_Confirm'))
+WebUI.check(findTestObject('00-Signup and Activation/mat-checkbox/div_checkbox'))
+
+WebUI.delay(GlobalVariable.delay_2s)
+
+WebUI.click(findTestObject('00-Signup and Activation/button/button_Confirm'))
 
 WebUI.delay(GlobalVariable.delay_5s)
 
-WebUI.verifyElementVisible(findTestObject('00-Signup and Activation/h4_Welcome to Everleagues'))
+WebUI.verifyElementVisible(findTestObject('00-Signup and Activation/h4-h2/h4_Welcome to Everleagues'))
 
-WebUI.verifyElementVisible(findTestObject('00-Signup and Activation/span_CREATE A BUSINESS ORGANIZATION'))
+WebUI.verifyElementVisible(findTestObject('00-Signup and Activation/span/span_CREATE A BUSINESS ORGANIZATION'))
 
-WebUI.verifyElementVisible(findTestObject('00-Signup and Activation/span_INVITE YOUR FRIENDS  FAMILY'))
+WebUI.verifyElementVisible(findTestObject('00-Signup and Activation/span/span_INVITE YOUR FRIENDS  FAMILY'))
 
 WebUI.delay(GlobalVariable.delay_3s)
 
-WebUI.click(findTestObject('00-Signup and Activation/button_DO THIS LATER'))
+WebUI.click(findTestObject('00-Signup and Activation/button/button_DO THIS LATER'))
 
 WebUI.delay(GlobalVariable.delay_2s)
 
-//WebUI.verifyElementVisible(findTestObject('00-Signup and Activation/Create your first organization Card'))
-//WebUI.verifyElementVisible(findTestObject('00-Signup and Activation/Still not sure where to start Card'))
-//WebUI.verifyElementVisible(findTestObject('00-Signup and Activation/Welcome to Everleagues Card'))
+//WebUI.verifyElementVisible(findTestObject('00-Signup and Activation/mat-card/Create your first organization Card'))
+//WebUI.verifyElementVisible(findTestObject('00-Signup and Activation/mat-card/Still not sure where to start Card'))
+//WebUI.verifyElementVisible(findTestObject('00-Signup and Activation/mat-card/Welcome to Everleagues Card'))
 //WebUI.delay(2)
 WebUI.closeBrowser()
 

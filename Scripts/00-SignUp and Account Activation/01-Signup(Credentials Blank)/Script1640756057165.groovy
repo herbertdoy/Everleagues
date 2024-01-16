@@ -23,15 +23,15 @@ WebUI.navigateToUrl(GlobalVariable.URL_lab)
 
 WebUI.maximizeWindow()
 
-WebUI.click(findTestObject('00-Signup and Activation/span_Sign up'))
+WebUI.click(findTestObject('00-Signup and Activation/span/span_Sign up'))
 
 WebUI.delay(GlobalVariable.delay_3s)
 
-WebUI.verifyElementVisible(findTestObject('00-Signup and Activation/div_Already have an account Log In'))
+WebUI.verifyElementVisible(findTestObject('00-Signup and Activation/form/form_Already have an account Log In'))
 
 WebUI.delay(GlobalVariable.delay_2s)
 
-WebUI.verifyElementNotClickable(findTestObject('00-Signup and Activation/button_Sign up'))
+WebUI.verifyElementNotClickable(findTestObject('00-Signup and Activation/button/button_Sign up'))
 
 WebUI.delay(GlobalVariable.delay_2s)
 

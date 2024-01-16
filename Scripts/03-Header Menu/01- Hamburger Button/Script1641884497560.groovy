@@ -24,11 +24,11 @@ WebUI.maximizeWindow()
 
 //WebUI.callTestCase(findTestCase('01-Login and Forgot Password/04-Login (Valid Credentials-Without Subscription)'), [:], 
 //    FailureHandling.STOP_ON_FAILURE)
-WebUI.setText(findTestObject('02-Side Icons(Organization)/Add Contact/Email Field'), GlobalVariable.Y_email_withoutSubscription_testuser01)
+WebUI.setText(findTestObject('02-Side Icons(Organization)/input/Email Field'), GlobalVariable.Y_email_withoutSubscription_testuser01)
 
-WebUI.setEncryptedText(findTestObject('02-Side Icons(Organization)/Add Contact/Password Field'), GlobalVariable.password)
+WebUI.setEncryptedText(findTestObject('02-Side Icons(Organization)/input/Password Field'), GlobalVariable.password)
 
-WebUI.click(findTestObject('02-Side Icons(Organization)/Add Contact/button_Sign in'))
+WebUI.click(findTestObject('02-Side Icons(Organization)/button/button_Sign in'))
 
 WebUI.delay(GlobalVariable.delay_2s)
 
@@ -55,11 +55,11 @@ WebUI.click(findTestObject('Yopmail/span_Everleagues Team'))
 
 WebUI.delay(GlobalVariable.delay_2s)
 
-//WebUI.setText(findTestObject('00-Signup and Activation/zMailinator/input_LOGIN_search'), GlobalVariable.email_for_searchmailinator_testuser05)
-//WebUI.click(findTestObject('00-Signup and Activation/zMailinator/gobutton'), FailureHandling.STOP_ON_FAILURE)
+//WebUI.setText(findTestObject('Mailinator/input_LOGIN_search'), GlobalVariable.email_for_searchmailinator_testuser05)
+//WebUI.click(findTestObject('Mailinator/gobutton'), FailureHandling.STOP_ON_FAILURE)
 //WebUI.delay(GlobalVariable.delay_3s)
 //
-//WebUI.click(findTestObject('00-Signup and Activation/zMailinator/Email - everleagues'))
+//WebUI.click(findTestObject('Mailinator/Email - everleagues'))
 //
 //WebUI.delay(GlobalVariable.delay_3s)
 //
@@ -86,69 +86,69 @@ WebUI.click(findTestObject('06-Teams/For 2FA/button_Verify_2FA'))
 
 WebUI.delay(GlobalVariable.delay_3s)
 
-WebUI.click(findTestObject('03-Header Menu/Hamburger Button/button_menu'))
+WebUI.click(findTestObject('03-Header Menu/button/button_menu'))
 
 WebUI.delay(GlobalVariable.delay_3s)
 
-WebUI.verifyElementNotVisible(findTestObject('03-Header Menu/Hamburger Button/div_Add My Organization'), FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementNotVisible(findTestObject('03-Header Menu/div/div_Add My Organization'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementNotVisible(findTestObject('03-Header Menu/Hamburger Button/div_Dashboard'), FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementNotVisible(findTestObject('03-Header Menu/div/div_Dashboard'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementNotVisible(findTestObject('03-Header Menu/Hamburger Button/div_Chat'), FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementNotVisible(findTestObject('03-Header Menu/div/div_Chat'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementNotVisible(findTestObject('03-Header Menu/Hamburger Button/div_Teams'), FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementNotVisible(findTestObject('03-Header Menu/div/div_Teams'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementNotVisible(findTestObject('03-Header Menu/Hamburger Button/div_Directory'), FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementNotVisible(findTestObject('03-Header Menu/div/div_Directory'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementNotVisible(findTestObject('03-Header Menu/Hamburger Button/div_Operation'), FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementNotVisible(findTestObject('03-Header Menu/div/div_Operation'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementNotVisible(findTestObject('03-Header Menu/Hamburger Button/div_Settings'), FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementNotVisible(findTestObject('03-Header Menu/div/div_Settings'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementNotVisible(findTestObject('03-Header Menu/Hamburger Button/div_Open Video Conference'), FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementNotVisible(findTestObject('03-Header Menu/div/div_Open Video Conference'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementNotVisible(findTestObject('03-Header Menu/Hamburger Button/div_Cloud Files'), FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementNotVisible(findTestObject('03-Header Menu/div/div_Cloud Files'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementNotVisible(findTestObject('03-Header Menu/Hamburger Button/div_ELSign'), FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementNotVisible(findTestObject('03-Header Menu/div/div_ELSign'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementNotVisible(findTestObject('03-Header Menu/Hamburger Button/div_Income and Expense'), FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementNotVisible(findTestObject('03-Header Menu/div/div_Income and Expense'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementNotVisible(findTestObject('03-Header Menu/Hamburger Button/div_ELNet'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyElementNotVisible(findTestObject('03-Header Menu/div/div_ELNet'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementNotVisible(findTestObject('03-Header Menu/Hamburger Button/div_Help'), FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementNotVisible(findTestObject('03-Header Menu/div/div_Help'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(GlobalVariable.delay_3s)
 
-WebUI.click(findTestObject('03-Header Menu/Hamburger Button/button_menu'))
+WebUI.click(findTestObject('03-Header Menu/button/button_menu'))
 
-WebUI.verifyElementVisible(findTestObject('03-Header Menu/Hamburger Button/div_Add My Organization'), FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementVisible(findTestObject('03-Header Menu/div/div_Add My Organization'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementVisible(findTestObject('03-Header Menu/Hamburger Button/div_Dashboard'), FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementVisible(findTestObject('03-Header Menu/div/div_Dashboard'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementVisible(findTestObject('03-Header Menu/Hamburger Button/div_Chat'), FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementVisible(findTestObject('03-Header Menu/div/div_Chat'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementVisible(findTestObject('03-Header Menu/Hamburger Button/div_Teams'), FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementVisible(findTestObject('03-Header Menu/div/div_Teams'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementVisible(findTestObject('03-Header Menu/Hamburger Button/div_Directory'), FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementVisible(findTestObject('03-Header Menu/div/div_Directory'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementVisible(findTestObject('03-Header Menu/Hamburger Button/div_Operation'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyElementVisible(findTestObject('03-Header Menu/div/div_Operation'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementVisible(findTestObject('03-Header Menu/Hamburger Button/div_Settings'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyElementVisible(findTestObject('03-Header Menu/div/div_Settings'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementVisible(findTestObject('03-Header Menu/Hamburger Button/div_Open Video Conference'), FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementVisible(findTestObject('03-Header Menu/div/div_Open Video Conference'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementVisible(findTestObject('03-Header Menu/Hamburger Button/div_Cloud Files'), FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementVisible(findTestObject('03-Header Menu/div/div_Cloud Files'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.scrollToElement(findTestObject('03-Header Menu/Hamburger Button/div_ELSign'), 0)
+WebUI.scrollToElement(findTestObject('03-Header Menu/div/div_ELSign'), 0)
 
-WebUI.verifyElementVisible(findTestObject('03-Header Menu/Hamburger Button/div_ELSign'), FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementVisible(findTestObject('03-Header Menu/div/div_ELSign'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementVisible(findTestObject('03-Header Menu/Hamburger Button/div_Income and Expense'), FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementVisible(findTestObject('03-Header Menu/div/div_Income and Expense'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementVisible(findTestObject('03-Header Menu/Hamburger Button/div_ELNet'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyElementVisible(findTestObject('03-Header Menu/div/div_ELNet'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementVisible(findTestObject('03-Header Menu/Hamburger Button/div_Help'), FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementVisible(findTestObject('03-Header Menu/div/div_Help'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.scrollToElement(findTestObject('03-Header Menu/Hamburger Button/div_Dashboard'), 0)
+WebUI.scrollToElement(findTestObject('03-Header Menu/div/div_Dashboard'), 0)
 
 WebUI.delay(GlobalVariable.delay_2s)
 

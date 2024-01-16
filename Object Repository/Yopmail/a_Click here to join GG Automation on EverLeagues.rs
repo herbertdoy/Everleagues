@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Click here to join GG Automation on EverLeagues</name>
+   <tag></tag>
+   <elementGuidId>36ac9b0a-7eed-48e3-bf76-f3c23f4e5c65</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[contains(text(),'Click here to join GG Automation on EverLeagues.')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>c5f02c4b-6a8f-4870-99ef-b3d199a57cfc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>https://xukp7.app.goo.gl/?link=https://everleagues.com/ZTJlYjQxNmItZjRhOS00MmFhLTllOTUtM2Q5ZTc5MTExY2Mz@i&amp;apn=com.everleague.app&amp;isi=1316297335&amp;ibi=com.everleague.app&amp;dfl=https://lab.everleagues.com/register/ZTJlYjQxNmItZjRhOS00MmFhLTllOTUtM2Q5ZTc5MTExY2Mz</value>
+      <webElementGuid>e4daedac-6471-45fe-b3c6-72f76afaa005</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Click here to join GG Automation on EverLeagues.</value>
+      <webElementGuid>73373ce4-e8c3-4dfc-bc7a-bae4e7259e2a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mail&quot;)/div[1]/h3[1]/a[1]</value>
+      <webElementGuid>6ec798a0-62e9-46c4-b522-c0dfec71dd3c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/Yopmail/iframe_Undo_ifmail_2</value>
+      <webElementGuid>eb8ee74c-f522-4d09-a712-f0a81b60cfe2</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='mail']/div/h3/a</value>
+      <webElementGuid>dc61c808-fd76-4369-ada4-8c3fd7e179a9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Click here to join GG Automation on EverLeagues.')]</value>
+      <webElementGuid>b6616b43-368f-4488-b0ca-9ee4abf702df</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, 'https://xukp7.app.goo.gl/?link=https://everleagues.com/ZTJlYjQxNmItZjRhOS00MmFhLTllOTUtM2Q5ZTc5MTExY2Mz@i&amp;apn=com.everleague.app&amp;isi=1316297335&amp;ibi=com.everleague.app&amp;dfl=https://lab.everleagues.com/register/ZTJlYjQxNmItZjRhOS00MmFhLTllOTUtM2Q5ZTc5MTExY2Mz')]</value>
+      <webElementGuid>023043b5-3ec4-4c72-bed2-f149b1f4caa8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a</value>
+      <webElementGuid>b33cd9a1-62e4-45fd-8844-faf5374c9b50</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'https://xukp7.app.goo.gl/?link=https://everleagues.com/ZTJlYjQxNmItZjRhOS00MmFhLTllOTUtM2Q5ZTc5MTExY2Mz@i&amp;apn=com.everleague.app&amp;isi=1316297335&amp;ibi=com.everleague.app&amp;dfl=https://lab.everleagues.com/register/ZTJlYjQxNmItZjRhOS00MmFhLTllOTUtM2Q5ZTc5MTExY2Mz' and (text() = 'Click here to join GG Automation on EverLeagues.' or . = 'Click here to join GG Automation on EverLeagues.')]</value>
+      <webElementGuid>95b5da29-6e5e-4717-9054-2c08552b1acf</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

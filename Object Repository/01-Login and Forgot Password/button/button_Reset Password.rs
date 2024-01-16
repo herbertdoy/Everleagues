@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Reset Password</name>
+   <tag></tag>
+   <elementGuidId>ed99eb1b-0de5-44f2-8b4a-b5b7de03772a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@type='button']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.mat-focus-indicator.push-top-sm.mat-raised-button.mat-button-base.mat-primary.ng-tns-c503-10.ng-star-inserted</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>0f0d75e0-f281-42a3-880a-25f6a8c6ad24</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>7f4718bc-867f-4fb5-9c1e-60dc19433033</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>color</name>
+      <type>Main</type>
+      <value>primary</value>
+      <webElementGuid>ccef3490-4a53-4c9a-b862-eebf5ac42e62</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-focus-indicator push-top-sm mat-raised-button mat-button-base mat-primary ng-tns-c503-10 ng-star-inserted</value>
+      <webElementGuid>37138c8a-7dc8-483b-9ba5-255bba1e5798</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Reset Password</value>
+      <webElementGuid>e5e97a0a-d8ce-4319-825f-4dac890f7e30</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/app-root[1]/app-forgot-password-page[@class=&quot;ng-tns-c503-10 ng-trigger ng-trigger-routerAnimation ng-star-inserted&quot;]/section[@class=&quot;ng-tns-c503-10&quot;]/article[@class=&quot;ng-tns-c503-10&quot;]/mat-card[@class=&quot;mat-card mat-focus-indicator ng-tns-c503-10&quot;]/mat-card-content[@class=&quot;mat-card-content text-center&quot;]/form[@class=&quot;ng-tns-c503-10 ng-touched ng-dirty ng-valid&quot;]/div[@class=&quot;push-top-lg ng-tns-c503-10&quot;]/div[@class=&quot;push-top-sm ng-tns-c503-10&quot;]/button[@class=&quot;mat-focus-indicator push-top-sm mat-raised-button mat-button-base mat-primary ng-tns-c503-10 ng-star-inserted&quot;]</value>
+      <webElementGuid>e5906e18-5b37-44fe-bded-efd3db8dedee</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@type='button']</value>
+      <webElementGuid>7b032899-6e9f-412e-9690-689ffa0bf9ed</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Email'])[1]/following::button[1]</value>
+      <webElementGuid>0ea5646b-d3a2-436e-b6a6-20a4c72d5365</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sign up'])[1]/preceding::button[1]</value>
+      <webElementGuid>302db12e-7301-4852-b985-de59d69e4470</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button</value>
+      <webElementGuid>6bc02a32-c01a-4cbd-b6b5-d595e26fad90</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

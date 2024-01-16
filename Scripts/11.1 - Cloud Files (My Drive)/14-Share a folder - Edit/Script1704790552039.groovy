@@ -70,7 +70,7 @@ WebUI.navigateToUrl(my_clipboard)
 
 WebUI.delay(GlobalVariable.delay_3s)
 
-WebUI.click(findTestObject('03-Header Menu/Hamburger Button/div_Cloud Files'))
+WebUI.click(findTestObject('03-Header Menu/div/div_Cloud Files'))
 
 WebUI.scrollToElement(findTestObject('11-Cloud Files/a_My Drive'), 0)
 

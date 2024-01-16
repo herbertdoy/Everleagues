@@ -30,15 +30,15 @@ def emailAddress = ('autotestuser' + randomString) + domainName
 
 KeywordUtil.logInfo('Generated email address: ' + emailAddress)
 
-WebUI.setText(findTestObject('00-Signup and Activation/input_Email'), emailAddress)
+WebUI.setText(findTestObject('00-Signup and Activation/input/input_Email'), emailAddress)
 
-WebUI.setText(findTestObject('00-Signup and Activation/input_firstName'), GlobalVariable.first_name1)
+WebUI.setText(findTestObject('00-Signup and Activation/input/input_firstName'), GlobalVariable.first_name1)
 
-WebUI.setText(findTestObject('00-Signup and Activation/input_lastName'), GlobalVariable.last_name1)
+WebUI.setText(findTestObject('00-Signup and Activation/input/input_lastName'), GlobalVariable.last_name1)
 
 WebUI.delay(GlobalVariable.delay_2s)
 
-WebUI.click(findTestObject('Object Repository/00-Signup and Activation/button_Sign up'))
+WebUI.click(findTestObject('Object Repository/00-Signup and Activation/button/button_Sign up'))
 
 WebUI.delay(GlobalVariable.delay_2s)
 
@@ -67,10 +67,10 @@ WebUI.click(findTestObject('Yopmail/span_Everleagues Team'))
 
 WebUI.delay(GlobalVariable.delay_3s)
 
-//WebUI.setText(findTestObject('00-Signup and Activation/zMailinator/input_LOGIN_search'), emailAddress)
-//WebUI.click(findTestObject('00-Signup and Activation/zMailinator/gobutton'), FailureHandling.STOP_ON_FAILURE)
+//WebUI.setText(findTestObject('Mailinator/input_LOGIN_search'), emailAddress)
+//WebUI.click(findTestObject('Mailinator/gobutton'), FailureHandling.STOP_ON_FAILURE)
 //WebUI.delay(GlobalVariable.delay_3s)
-//WebUI.click(findTestObject('00-Signup and Activation/zMailinator/Email - everleagues'))
+//WebUI.click(findTestObject('Mailinator/Email - everleagues'))
 //WebUI.delay(GlobalVariable.delay_3s)
 //String code = WebUI.getText(findTestObject('Object Repository/06-Teams/For 2FA/2FA code'))
 String code = WebUI.getText(findTestObject('Yopmail/2FA code-Yopmail'))

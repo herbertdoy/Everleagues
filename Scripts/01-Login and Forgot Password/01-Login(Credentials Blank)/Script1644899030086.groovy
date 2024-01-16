@@ -24,11 +24,11 @@ WebUI.navigateToUrl(GlobalVariable.URL_lab)
 
 WebUI.maximizeWindow()
 
-WebUI.verifyElementPresent(findTestObject('01-Login and Forgot Password/Login_Card'), 0)
+WebUI.verifyElementPresent(findTestObject('01-Login and Forgot Password/mat-card/Login_Card'), 0)
 
 WebUI.delay(GlobalVariable.delay_2s)
 
-WebUI.verifyElementNotClickable(findTestObject('01-Login and Forgot Password/button_Sign in'))
+WebUI.verifyElementNotClickable(findTestObject('01-Login and Forgot Password/button/button_Sign in'))
 
 WebUI.delay(GlobalVariable.delay_3s)
 

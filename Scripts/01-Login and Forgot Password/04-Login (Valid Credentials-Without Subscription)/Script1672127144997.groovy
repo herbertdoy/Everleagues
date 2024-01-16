@@ -17,17 +17,17 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 
-WebUI.setText(findTestObject('01-Login and Forgot Password/input_Email_email'), GlobalVariable.Y_email_withoutSubscription_testuser01)
+WebUI.setText(findTestObject('01-Login and Forgot Password/input/input_Email_email'), GlobalVariable.Y_email_withoutSubscription_testuser01)
 
-WebUI.setEncryptedText(findTestObject('01-Login and Forgot Password/input_Email_password2'), GlobalVariable.password)
-
-WebUI.delay(GlobalVariable.delay_2s)
-
-WebUI.click(findTestObject('01-Login and Forgot Password/show pass button'))
+WebUI.setEncryptedText(findTestObject('01-Login and Forgot Password/input/input_Email_password2'), GlobalVariable.password)
 
 WebUI.delay(GlobalVariable.delay_2s)
 
-WebUI.click(findTestObject('01-Login and Forgot Password/button_Sign in'))
+WebUI.click(findTestObject('01-Login and Forgot Password/button/show pass button'))
+
+WebUI.delay(GlobalVariable.delay_2s)
+
+WebUI.click(findTestObject('01-Login and Forgot Password/button/button_Sign in'))
 
 WebUI.delay(GlobalVariable.delay_3s)
 
@@ -44,7 +44,7 @@ WebUI.navigateToUrl(GlobalVariable.URL_yopmail)
 
 WebUI.delay(GlobalVariable.delay_2s)
 
-//WebUI.setText(findTestObject('00-Signup and Activation/zMailinator/input_LOGIN_search'), GlobalVariable.email_for_searchmailinator_testuser01)
+//WebUI.setText(findTestObject('Mailinator/input_LOGIN_search'), GlobalVariable.email_for_searchmailinator_testuser01)
 WebUI.setText(findTestObject('Yopmail/input_Enter your inbox here'), GlobalVariable.Y_email_withoutSubscription_testuser01)
 
 WebUI.delay(GlobalVariable.delay_2s)
@@ -55,9 +55,9 @@ WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('Yopmail/span_Everleagues Team'))
 
-//WebUI.click(findTestObject('00-Signup and Activation/zMailinator/gobutton'), FailureHandling.STOP_ON_FAILURE)
+//WebUI.click(findTestObject('Mailinator/gobutton'), FailureHandling.STOP_ON_FAILURE)
 //WebUI.delay(GlobalVariable.delay_5s)
-//WebUI.click(findTestObject('00-Signup and Activation/zMailinator/Email - everleagues'))
+//WebUI.click(findTestObject('Mailinator/Email - everleagues'))
 WebUI.delay(GlobalVariable.delay_2s)
 
 //String code = WebUI.getText(findTestObject('Object Repository/06-Teams/For 2FA/2FA code'))
@@ -80,6 +80,6 @@ WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('06-Teams/For 2FA/button_Verify_2FA'))
 
-//WebUI.verifyElementPresent(findTestObject('01-Login and Forgot Password/h4_EVERLEAGUES (v0.11.16 build 324)'), 0) 
+//WebUI.verifyElementPresent(findTestObject('01-Login and Forgot Password/h4/h4_EVERLEAGUES (v0.11.16 build 324)'), 0) 
 WebUI.delay(GlobalVariable.delay_3s)
 

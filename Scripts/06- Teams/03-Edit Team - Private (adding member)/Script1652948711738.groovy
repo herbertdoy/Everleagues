@@ -23,12 +23,12 @@ WebUI.navigateToUrl(GlobalVariable.URL_lab)
 
 WebUI.maximizeWindow()
 
-//WebUI.setText(findTestObject('02-Side Icons(Organization)/Add Contact/Email Field'), 'testuser02@mailinator.com')
-WebUI.setText(findTestObject('02-Side Icons(Organization)/Add Contact/Email Field'), GlobalVariable.Y_email_withSubscription_testuser00005)
+//WebUI.setText(findTestObject('02-Side Icons(Organization)/input/Email Field'), 'testuser02@mailinator.com')
+WebUI.setText(findTestObject('02-Side Icons(Organization)/input/Email Field'), GlobalVariable.Y_email_withSubscription_testuser00005)
 
-WebUI.setEncryptedText(findTestObject('02-Side Icons(Organization)/Add Contact/Password Field'), GlobalVariable.password)
+WebUI.setEncryptedText(findTestObject('02-Side Icons(Organization)/input/Password Field'), GlobalVariable.password)
 
-WebUI.click(findTestObject('02-Side Icons(Organization)/Add Contact/button_Sign in'))
+WebUI.click(findTestObject('02-Side Icons(Organization)/button/button_Sign in'))
 
 WebUI.delay(GlobalVariable.delay_3s)
 
@@ -46,16 +46,16 @@ WebUI.navigateToUrl(GlobalVariable.URL_yopmail)
 
 WebUI.delay(GlobalVariable.delay_3s)
 
-//WebUI.setText(findTestObject('00-Signup and Activation/zMailinator/input_LOGIN_search'), 'testuser02@mailinator.com')
-//WebUI.setText(findTestObject('00-Signup and Activation/zMailinator/input_LOGIN_search'), GlobalVariable.email_for_searchmailinator_testuser05)
+//WebUI.setText(findTestObject('Mailinator/input_LOGIN_search'), 'testuser02@mailinator.com')
+//WebUI.setText(findTestObject('Mailinator/input_LOGIN_search'), GlobalVariable.email_for_searchmailinator_testuser05)
 WebUI.setText(findTestObject('Yopmail/input_Enter your inbox here'), GlobalVariable.email_for_searchmailinator_testuser05)
 
-//WebUI.click(findTestObject('00-Signup and Activation/zMailinator/gobutton'), FailureHandling.STOP_ON_FAILURE)
+//WebUI.click(findTestObject('Mailinator/gobutton'), FailureHandling.STOP_ON_FAILURE)
 WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('Yopmail/button_Next'))
 
-//WebUI.click(findTestObject('00-Signup and Activation/zMailinator/Email - everleagues'))
+//WebUI.click(findTestObject('Mailinator/Email - everleagues'))
 WebUI.delay(GlobalVariable.delay_3s)
 
 String code = WebUI.getText(findTestObject('Yopmail/2FA code-Yopmail'))
@@ -92,7 +92,7 @@ WebUI.verifyElementVisible(findTestObject('06-Teams/span_GG Automation'))
 
 WebUI.delay(GlobalVariable.delay_2s)
 
-WebUI.click(findTestObject('03-Header Menu/Hamburger Button/div_Teams'))
+WebUI.click(findTestObject('03-Header Menu/div/div_Teams'))
 
 WebUI.delay(GlobalVariable.delay_2s)
 

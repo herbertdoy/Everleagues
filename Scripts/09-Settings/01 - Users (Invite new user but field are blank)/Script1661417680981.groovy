@@ -25,11 +25,11 @@ WebUI.maximizeWindow()
 
 WebUI.callTestCase(findTestCase('01-Login and Forgot Password/04-Login(Valid Credentials-With Subscription)'), [:], FailureHandling.STOP_ON_FAILURE)
 
-//WebUI.setText(findTestObject('02-Side Icons(Organization)/Add Contact/Email Field'), 'testuser02@mailinator.com')
+//WebUI.setText(findTestObject('02-Side Icons(Organization)/input/Email Field'), 'testuser02@mailinator.com')
 //
-//WebUI.setEncryptedText(findTestObject('02-Side Icons(Organization)/Add Contact/Password Field'), '8yFRyszE6U6jvsCn51OQbg==')
+//WebUI.setEncryptedText(findTestObject('02-Side Icons(Organization)/input/Password Field'), '8yFRyszE6U6jvsCn51OQbg==')
 //
-//WebUI.click(findTestObject('02-Side Icons(Organization)/Add Contact/button_Sign in'))
+//WebUI.click(findTestObject('02-Side Icons(Organization)/button/button_Sign in'))
 //
 //WebUI.delay(2)
 //
@@ -47,13 +47,13 @@ WebUI.callTestCase(findTestCase('01-Login and Forgot Password/04-Login(Valid Cre
 //
 //WebUI.delay(3)
 //
-//WebUI.setText(findTestObject('00-Signup and Activation/zMailinator/input_LOGIN_search'), 'testuser02@mailinator.com')
+//WebUI.setText(findTestObject('Mailinator/input_LOGIN_search'), 'testuser02@mailinator.com')
 //
-//WebUI.click(findTestObject('00-Signup and Activation/zMailinator/gobutton'), FailureHandling.STOP_ON_FAILURE)
+//WebUI.click(findTestObject('Mailinator/gobutton'), FailureHandling.STOP_ON_FAILURE)
 //
 //WebUI.delay(3)
 //
-//WebUI.click(findTestObject('00-Signup and Activation/zMailinator/Email - everleagues'))
+//WebUI.click(findTestObject('Mailinator/Email - everleagues'))
 //
 //WebUI.delay(3)
 //
@@ -86,9 +86,9 @@ WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.verifyElementVisible(findTestObject('06-Teams/span_GG Automation'))
 
-WebUI.delay(GlobalVariable.delay_3s)
+WebUI.delay(GlobalVariable.delay_2s)
 
-WebUI.click(findTestObject('03-Header Menu/Hamburger Button/div_Settings'))
+WebUI.click(findTestObject('03-Header Menu/div/div_Settings'))
 
 WebUI.verifyElementVisible(findTestObject('09-Settings/Users/div_Organization'))
 
@@ -106,19 +106,21 @@ WebUI.click(findTestObject('09-Settings/Users/div_Users'))
 
 WebUI.verifyElementVisible(findTestObject('09-Settings/Users/h4_USERS'))
 
-WebUI.verifyElementVisible(findTestObject('09-Settings/Users/User Page'))
+WebUI.verifyElementVisible(findTestObject('09-Settings/Users/Users Page'))
 
 WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('09-Settings/Users/button_add'))
 
-WebUI.verifyElementVisible(findTestObject('09-Settings/Users/User Invitation modal'))
+WebUI.verifyElementVisible(findTestObject('09-Settings/Users/modal_User Invitation'))
 
 WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('09-Settings/Users/add Invite a single user'))
 
-WebUI.verifyElementVisible(findTestObject('09-Settings/Users/Invite new user modal'))
+WebUI.clickOffset(findTestObject('09-Settings/Users/h2_Invite New User'), 100, 100)
+
+WebUI.verifyElementVisible(findTestObject('09-Settings/Users/modal_Invite new user'))
 
 WebUI.click(findTestObject('09-Settings/Users/input_email'))
 
@@ -127,8 +129,6 @@ WebUI.click(findTestObject('09-Settings/Users/input_firstName'))
 WebUI.click(findTestObject('09-Settings/Users/input_lastName'))
 
 WebUI.click(findTestObject('09-Settings/Users/span_Role'))
-
-WebUI.clickOffset(findTestObject('09-Settings/Users/h4_Invite New User'), 100, 100)
 
 WebUI.verifyElementVisible(findTestObject('09-Settings/Users/Email required'))
 
