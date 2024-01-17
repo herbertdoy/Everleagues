@@ -152,7 +152,7 @@ WebUI.click(findTestObject('02-Side Icons(Organization)/button_Sign in'))
 
 WebUI.delay(GlobalVariable.delay_2s)
 
-WebUI.click(findTestObject('06-Teams/For 2FA/button_Confirm_2FA'))
+WebUI.click(findTestObject('06-Teams/For 2FA/button_Confirm_2FA_2'))
 
 WebUI.executeJavaScript('window.open();', [])
 
@@ -214,7 +214,7 @@ WebUI.click(findTestObject('Yopmail/button_Next'), FailureHandling.STOP_ON_FAILU
 
 WebUI.delay(GlobalVariable.delay_3s)
 
-WebUI.closeWindowTitle(GlobalVariable.windowTitle)
+WebUI.closeWindowTitle('Everleagues')
 
 WebUI.switchToWindowIndex(0)
 

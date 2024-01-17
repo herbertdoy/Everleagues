@@ -214,7 +214,7 @@ WebUI.click(findTestObject('Yopmail/button_Next'), FailureHandling.STOP_ON_FAILU
 
 WebUI.delay(GlobalVariable.delay_3s)
 
-WebUI.closeWindowTitle(GlobalVariable.windowTitle)
+WebUI.closeWindowTitle('Everleagues')
 
 WebUI.switchToWindowIndex(0)
 

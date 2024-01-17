@@ -17,11 +17,19 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.click(findTestObject('06-Teams/03-Edit Team - Private/button_menu'))
+
+WebUI.delay(GlobalVariable.delay_2s)
+
 WebUI.mouseOver(findTestObject('06-Teams/03-Edit Team - Private/mouse over target element 2'))
 
 WebUI.click(findTestObject('06-Teams/03-Edit Team - Private/button_remove member'))
 
 WebUI.verifyElementNotPresent(findTestObject('06-Teams/03-Edit Team - Private/added_GTGG tester 2'), 0)
+
+WebUI.delay(GlobalVariable.delay_2s)
+
+WebUI.click(findTestObject('06-Teams/03-Edit Team - Private/button_menu'))
 
 WebUI.delay(GlobalVariable.delay_2s)
 

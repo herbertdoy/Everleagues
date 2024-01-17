@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>checkbox_type</name>
+   <name>button_menu</name>
    <tag></tag>
-   <elementGuidId>c7c47692-9111-445e-a7f5-452de3df8e8b</elementGuidId>
+   <elementGuidId>f72738ae-3e4e-4edc-bd90-4a79d07f605c</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//button[@align='right']/following-sibling::mat-checkbox)[2]</value>
+         <value>/html/body/app-root/app-main-page/div/mat-sidenav-container/mat-sidenav-content/div[1]/div[3]/app-teams/div/mat-drawer-container/mat-drawer-content/div/div[1]/button</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
