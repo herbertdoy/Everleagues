@@ -82,11 +82,11 @@ WebUI.click(findTestObject('06-Teams/button_My Organizations'))
 
 WebUI.click(findTestObject('06-Teams/button_GG Automation'))
 
-WebUI.delay(GlobalVariable.delay_4s)
+WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.verifyElementVisible(findTestObject('06-Teams/span_GG Automation'))
 
-WebUI.delay(GlobalVariable.delay_5s)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('03-Header Menu/div_Settings'))
 
@@ -100,7 +100,7 @@ WebUI.verifyElementVisible(findTestObject('09-Settings/Users/div_Subscriptions')
 
 WebUI.verifyElementVisible(findTestObject('09-Settings/Users/div_Users'))
 
-WebUI.delay(GlobalVariable.delay_3s)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('09-Settings/Users/div_Users'))
 
@@ -111,21 +111,27 @@ WebUI.verifyElementVisible(findTestObject('09-Settings/Users/Active User/div_Act
 WebUI.click(findTestObject('09-Settings/Users/Active User/div_Active Users'))
 
 //WebUI.verifyElementVisible(findTestObject('09-Settings/Users/User Page'))
-WebUI.delay(GlobalVariable.delay_3s)
+WebUI.delay(GlobalVariable.delay_2s)
 
-WebUI.click(findTestObject('09-Settings/Users/Active User/button_search'))
-
-WebUI.delay(GlobalVariable.delay_3s)
-
-WebUI.click(findTestObject('09-Settings/Users/Active User/button_arrow_back'))
-
-WebUI.delay(GlobalVariable.delay_3s)
-
-WebUI.click(findTestObject('09-Settings/Users/Active User/button_search'))
-
+//WebUI.click(findTestObject('09-Settings/Users/Active User/button_search'))
+//
+//WebUI.delay(GlobalVariable.delay_2s)
+//
+//WebUI.click(findTestObject('09-Settings/Users/Active User/button_arrow_back'))
+//
+//WebUI.delay(GlobalVariable.delay_2s)
+//
+//WebUI.click(findTestObject('09-Settings/Users/Active User/button_search'))
 WebUI.setText(findTestObject('09-Settings/Users/Active User/Search field'), 'partner')
 
-WebUI.delay(GlobalVariable.delay_3s)
+WebUI.delay(GlobalVariable.delay_2s)
 
-WebUI.click(findTestObject('09-Settings/Users/Active User/button_Cancel'))
+WebUI.verifyElementVisible(findTestObject('09-Settings/Users/Active User/td_GPGG Partner'))
+
+WebUI.delay(GlobalVariable.delay_2s)
+
+WebUI.sendKeys(findTestObject('09-Settings/Users/Active User/Search field'), Keys.chord(Keys.CONTROL, 'a'))
+WebUI.sendKeys(findTestObject('09-Settings/Users/Active User/Search field'), Keys.chord(Keys.BACK_SPACE))
+
+WebUI.delay(GlobalVariable.delay_2s)
 

@@ -7,18 +7,18 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//h4[@id='mat-dialog-title-1']</value>
-      </entry>
-      <entry>
-         <key>CSS</key>
-         <value>#mat-dialog-title-1</value>
+         <value>//h2[@class = 'mat-dialog-title' and (text() = ' Edit User Role' or . = ' Edit User Role')]</value>
       </entry>
       <entry>
          <key>BASIC</key>
          <value>//h4[@class = 'mat-dialog-title' and (text() = ' Edit User Role' or . = ' Edit User Role')]</value>
       </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#mat-dialog-title-1</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -26,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>h4</value>
-      <webElementGuid>9dd6753b-18a5-475b-a589-abe461f41cf0</webElementGuid>
+      <webElementGuid>f79346e1-ed87-416b-8f50-53a728444c65</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -34,7 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-dialog-title</value>
-      <webElementGuid>08216f8b-de23-4e30-be15-9d272eef568f</webElementGuid>
+      <webElementGuid>90a9236d-9ab6-447a-9bee-0c51cf2951c2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,7 +42,7 @@
       <name>id</name>
       <type>Main</type>
       <value>mat-dialog-title-1</value>
-      <webElementGuid>74fe7c68-d541-446b-ae38-9cbec3bee452</webElementGuid>
+      <webElementGuid>1da881ea-329c-4d55-b109-836fed7db231</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -50,7 +50,7 @@
       <name>text</name>
       <type>Main</type>
       <value> Edit User Role</value>
-      <webElementGuid>c932300e-a9ef-4796-9849-f03704bf2c77</webElementGuid>
+      <webElementGuid>b836cc44-544f-40b9-a2cc-1841ac443dfb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -58,7 +58,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-dialog-title-1&quot;)</value>
-      <webElementGuid>acfe866e-649d-4a1f-8870-61239db65a62</webElementGuid>
+      <webElementGuid>e7eba7a3-3ada-4a8b-8ac0-cd34741ef8b5</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -66,7 +66,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//h4[@id='mat-dialog-title-1']</value>
-      <webElementGuid>d110ea7e-6a50-4671-831c-156809018e38</webElementGuid>
+      <webElementGuid>388f1a17-c732-4b93-ae4f-0c72dc9ca48e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -74,7 +74,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-dialog-container[@id='mat-dialog-1']/app-dialog-edit-user-role/section/form/h4</value>
-      <webElementGuid>376efa9a-48ba-4d9d-ab8f-91c970d31117</webElementGuid>
+      <webElementGuid>5402804c-5cb7-4e34-bf6b-65a3019c06c5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('id(', '&quot;', 'mat-dialog-title-1', '&quot;', ')')])[1]/following::h4[1]</value>
-      <webElementGuid>9ad9ff62-dc4b-4abd-8654-681705b4a289</webElementGuid>
+      <webElementGuid>eca41261-905c-494e-b749-96d3a39d488c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -90,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='`'])[2]/following::h4[1]</value>
-      <webElementGuid>0a197797-f86c-4e45-b2f0-ae6da9b4f16f</webElementGuid>
+      <webElementGuid>973de25e-4862-4807-8396-c6256513bd8e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,7 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Client'])[3]/preceding::h4[1]</value>
-      <webElementGuid>465d61b2-b33b-47ad-862d-330d23257f82</webElementGuid>
+      <webElementGuid>b9884a42-3337-4187-a354-7b3d5ef3ae7b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,7 +106,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Role'])[2]/preceding::h4[1]</value>
-      <webElementGuid>f32f55a5-d65e-418d-a9f8-e57d1273fc13</webElementGuid>
+      <webElementGuid>948349ec-6461-49d1-942b-1ca9432e2e41</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -114,7 +114,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Edit User Role']/parent::*</value>
-      <webElementGuid>c0804015-7898-4ad8-95d8-7d8de2b4ffe0</webElementGuid>
+      <webElementGuid>9ecf0063-2645-4c6b-b3d5-f46ee3e60b4c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -122,7 +122,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//form/h4</value>
-      <webElementGuid>a4734569-9680-4094-a340-5905f544d41f</webElementGuid>
+      <webElementGuid>2f6ec3dd-1f73-4311-ac9b-90e2a9d5a441</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -130,6 +130,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//h4[@id = 'mat-dialog-title-1' and (text() = ' Edit User Role' or . = ' Edit User Role')]</value>
-      <webElementGuid>7d3a23ad-597b-47f6-9283-945e30dff1be</webElementGuid>
+      <webElementGuid>3f6100e8-5788-4d6b-9dbf-f751003dbc97</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

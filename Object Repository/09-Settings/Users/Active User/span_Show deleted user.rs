@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//mat-slide-toggle[@id='mat-slide-toggle-1']/label/span</value>
+         <value>//span[(text() = '  Show deleted users ' or . = '  Show deleted users ')]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>a5cf463f-4e3c-4966-98e6-07063d62504b</webElementGuid>
+      <webElementGuid>59b1b714-b4b1-47e4-b6d6-e0d58b3f4d68</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-slide-toggle-content</value>
-      <webElementGuid>7e73c5a0-70f7-48d0-8634-4470e2cf662b</webElementGuid>
+      <webElementGuid>3394007c-4a58-4579-937f-c6cd71759187</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value>  Show deleted user </value>
-      <webElementGuid>9623b143-a571-4929-a8bc-1de28f046a60</webElementGuid>
+      <webElementGuid>3e55f6f0-a5d8-441d-b272-1fc2f723acb9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-slide-toggle-1&quot;)/label[@class=&quot;mat-slide-toggle-label&quot;]/span[@class=&quot;mat-slide-toggle-content&quot;]</value>
-      <webElementGuid>e8216b42-9020-4360-ae14-49cfc41be196</webElementGuid>
+      <webElementGuid>744707b9-7cf4-488c-972e-7b31a29fc97b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-slide-toggle[@id='mat-slide-toggle-1']/label/span</value>
-      <webElementGuid>2fb456f5-5198-45ed-a7d4-a0f823c7243b</webElementGuid>
+      <webElementGuid>e9dc853a-31cf-41fe-a513-9d91675a7176</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Showing users from all organization units'])[1]/following::span[2]</value>
-      <webElementGuid>af935bc7-60db-4e12-9fb5-5d793a0fa86f</webElementGuid>
+      <webElementGuid>cde4baf5-8825-4b5c-b3b2-7e5852849348</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Request to Join Users'])[1]/following::span[4]</value>
-      <webElementGuid>1d976a9c-bed1-4373-a8e1-afeb8162f469</webElementGuid>
+      <webElementGuid>ae404361-1670-4652-993a-a2197a6dd223</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Filter'])[1]/preceding::span[2]</value>
-      <webElementGuid>927c1208-c9d4-4586-9795-6154edc3dc94</webElementGuid>
+      <webElementGuid>171f8367-bbf5-4c24-bfd6-cfe6475c6b4e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Show deleted user']/parent::*</value>
-      <webElementGuid>d916181e-750a-4979-a51e-ebc850c68537</webElementGuid>
+      <webElementGuid>64f3a4a5-4f71-42a3-9a33-f4696a0b31c4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//label/span</value>
-      <webElementGuid>55e1d2fc-c8a9-409c-857f-74eebcaa9994</webElementGuid>
+      <webElementGuid>e55a8790-8672-4907-9828-57bc849da41d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,6 +102,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = '  Show deleted user ' or . = '  Show deleted user ')]</value>
-      <webElementGuid>b51b9176-3c0c-4233-b936-ebcf14b8b522</webElementGuid>
+      <webElementGuid>c886f16f-111b-4533-86ca-b948df41ae6e</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

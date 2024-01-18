@@ -7,14 +7,18 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//button[@type='button'])[33]</value>
+         <value>//button[(text() = 'Delete' or . = 'Delete')]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//button[@type = 'button' and (text() = 'Delete' or . = 'Delete')]</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>button.mat-focus-indicator.mat-raised-button.mat-button-base.cdk-focused.cdk-mouse-focused</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>1ccdce02-5ff9-426e-b37f-971a20085e69</webElementGuid>
+      <webElementGuid>4fc98167-2a1e-43b1-9b8c-cd5ecdbcec83</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +34,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>d465b8f9-4a30-41c0-b759-ecf7fda8c9a9</webElementGuid>
+      <webElementGuid>3b5d2357-a1b6-4488-89c8-6b84c7930c8a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +42,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-focus-indicator mat-raised-button mat-button-base cdk-focused cdk-mouse-focused</value>
-      <webElementGuid>72623f9e-05c1-479b-9bbc-7f083e32bd2f</webElementGuid>
+      <webElementGuid>38ce0bee-f8b5-4490-b6e0-7f1fe2a5dc4c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +50,7 @@
       <name>ng-reflect-disabled</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>4d808db8-484a-42ad-9ce8-2e309377ca53</webElementGuid>
+      <webElementGuid>c155d86f-33b0-4768-8fec-15f6d2e1b747</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +58,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Delete</value>
-      <webElementGuid>05f52953-bc92-4109-9921-a9ccc72671ff</webElementGuid>
+      <webElementGuid>43f97054-2ac4-478d-bcb9-afd9bf2df5f0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +66,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-dialog-1&quot;)/app-dialog-delete-user[@class=&quot;ng-star-inserted&quot;]/section[@class=&quot;dialog-container ng-star-inserted&quot;]/div[@class=&quot;mat-dialog-actions dialog-action&quot;]/div[@class=&quot;action-container&quot;]/button[@class=&quot;mat-focus-indicator mat-raised-button mat-button-base cdk-focused cdk-mouse-focused&quot;]</value>
-      <webElementGuid>90bdabe9-db2f-4c0e-9505-2f9c6a2a7e14</webElementGuid>
+      <webElementGuid>595d17df-5dd6-4f9a-8b41-68983733df1c</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -70,7 +74,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[33]</value>
-      <webElementGuid>4b084625-cdce-4b5d-a913-102b0b504fdc</webElementGuid>
+      <webElementGuid>f5d72fa4-45b0-47c7-9939-3e6a0824528e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +82,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-dialog-container[@id='mat-dialog-1']/app-dialog-delete-user/section/div[2]/div/button</value>
-      <webElementGuid>e5a71047-ac6a-4864-b8ba-a34af03dd6dc</webElementGuid>
+      <webElementGuid>5eb24e77-b555-4939-a73b-1021c7c533a6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Are you sure you want to delete user from organization unit?'])[1]/following::button[1]</value>
-      <webElementGuid>7ee95d3e-c5d9-4093-b6b0-f46c4ba38db8</webElementGuid>
+      <webElementGuid>2d04f4d0-01dc-4c18-9cc7-4ba56fdeaf18</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Delete User'])[1]/following::button[1]</value>
-      <webElementGuid>2f2c84fe-1bc6-4693-9f5a-71457f3a46be</webElementGuid>
+      <webElementGuid>76290db5-4445-44e6-a27a-d4e61a6d9a22</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +106,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/preceding::button[1]</value>
-      <webElementGuid>4b5f2bd1-77db-4f39-84fe-fc52de45607c</webElementGuid>
+      <webElementGuid>c07604da-7b5c-496e-a9bd-1cb4856701a0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +114,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//section/div[2]/div/button</value>
-      <webElementGuid>79f4cac8-5f02-481a-90d3-8babd1946a82</webElementGuid>
+      <webElementGuid>64ba2804-8286-4f75-b8ea-9a45a73ad184</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,6 +122,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = 'Delete' or . = 'Delete')]</value>
-      <webElementGuid>4bc8ccc7-d231-4a0f-b29c-6db7ac297bf4</webElementGuid>
+      <webElementGuid>34130fec-002c-4fa6-b6b5-44d0292d566a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

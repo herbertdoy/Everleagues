@@ -192,7 +192,7 @@ WebUI.setText(findTestObject('Object Repository/06-Teams/For 2FA/input_Enter ver
 
 WebUI.delay(GlobalVariable.delay_2s)
 
-WebUI.click(findTestObject('06-Teams/For 2FA/button_Confirm_2FA_2'))
+WebUI.click(findTestObject('06-Teams/For 2FA/button_Verify_2FA'))
 
 WebUI.delay(GlobalVariable.delay_3s)
 

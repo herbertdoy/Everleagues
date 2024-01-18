@@ -7,18 +7,18 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//button[@type='button'])[32]</value>
-      </entry>
-      <entry>
-         <key>CSS</key>
-         <value>button.mat-focus-indicator.mat-raised-button.mat-button-base.cdk-focused.cdk-program-focused</value>
+         <value>//button[(text() = 'Reactivate' or . = 'Reactivate')]</value>
       </entry>
       <entry>
          <key>BASIC</key>
          <value>//button[@type = 'button' and (text() = ' Reactivate' or . = ' Reactivate')]</value>
       </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.mat-focus-indicator.mat-raised-button.mat-button-base.cdk-focused.cdk-program-focused</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -26,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>60979ba6-5840-449f-a662-d8b859b254e3</webElementGuid>
+      <webElementGuid>36cbc873-6b99-4e45-a834-d32c87a7a014</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -34,7 +34,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>0ec39757-135b-4e39-8a7d-2b4d9dc20f53</webElementGuid>
+      <webElementGuid>70ff7f72-3388-4b15-9d34-3b8e747ba23d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,7 +42,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-focus-indicator mat-raised-button mat-button-base cdk-focused cdk-program-focused</value>
-      <webElementGuid>98c21f23-6f92-4522-a316-a81849910987</webElementGuid>
+      <webElementGuid>5d159af0-ab47-4125-bdb1-ea749e458a90</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,7 +50,7 @@
       <name>ng-reflect-disabled</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>382a42b7-376e-4bb2-8f26-d680ce8ddfa0</webElementGuid>
+      <webElementGuid>d4c1b0c0-c3e8-4b1e-b97f-166ec6f19dbb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -58,7 +58,7 @@
       <name>text</name>
       <type>Main</type>
       <value> Reactivate</value>
-      <webElementGuid>717ec2ae-61ff-46b9-ac7a-867f4ed6f334</webElementGuid>
+      <webElementGuid>9f61973e-e16d-4015-9e75-ae5d0ecfbb01</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -66,7 +66,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-dialog-5&quot;)/app-dialog-suspend-user[@class=&quot;component ng-star-inserted&quot;]/section[@class=&quot;dialog-container&quot;]/div[@class=&quot;mat-dialog-actions dialog-action&quot;]/div[@class=&quot;action-container&quot;]/button[@class=&quot;mat-focus-indicator mat-raised-button mat-button-base cdk-focused cdk-program-focused&quot;]</value>
-      <webElementGuid>59b540ce-4dfa-4397-b57d-fa7a3d5603dc</webElementGuid>
+      <webElementGuid>5f47c3be-0bae-40fb-a185-a18f17635efe</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -74,7 +74,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[32]</value>
-      <webElementGuid>ec61d3a7-7b63-436a-b4e7-54c9c3fad86f</webElementGuid>
+      <webElementGuid>bdf638f0-a1dd-4e14-b8c3-4c4a5182e469</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,7 +82,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-dialog-container[@id='mat-dialog-5']/app-dialog-suspend-user/section/div[3]/div/button</value>
-      <webElementGuid>e028cb5b-b966-4bcc-9030-48eabe439b54</webElementGuid>
+      <webElementGuid>c7dca6e3-98fd-4b8f-b591-c96c68716ccd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -90,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Are you sure you want to reactivate user ?'])[1]/following::button[1]</value>
-      <webElementGuid>1cce18bd-f71f-4cfc-b4ec-b6a18b6750e7</webElementGuid>
+      <webElementGuid>2f68352f-f999-45bb-8c69-203958e7fe7e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,7 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Reactivate User'])[1]/following::button[1]</value>
-      <webElementGuid>37e0deca-f065-46b7-946f-d24f2bd11d9c</webElementGuid>
+      <webElementGuid>38d96534-fbdf-41da-8d11-45172e56c1af</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,7 +106,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/preceding::button[1]</value>
-      <webElementGuid>f453182b-89c3-4bb4-a207-797429564907</webElementGuid>
+      <webElementGuid>8b62918c-c295-4b6c-b46a-2045fff465b5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -114,7 +114,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//section/div[3]/div/button</value>
-      <webElementGuid>0d4a399b-5067-451b-b343-b62a5d0da376</webElementGuid>
+      <webElementGuid>aaf33d83-5970-435a-9302-082518c5df28</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -122,6 +122,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = ' Reactivate' or . = ' Reactivate')]</value>
-      <webElementGuid>0f346450-7b4e-4d7f-8944-9c977ca1bc0d</webElementGuid>
+      <webElementGuid>f6ce1669-ea8d-40ac-8387-9f8bdd6ad627</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

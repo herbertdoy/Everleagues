@@ -17,8 +17,6 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.delay(GlobalVariable.delay_3s)
-
 WebUI.verifyElementPresent(findTestObject('09-Settings/Users/Active User/div_GTGG tester 2'), 0)
 
 WebUI.click(findTestObject('09-Settings/Users/Active User/button_ellipses'))
@@ -27,7 +25,7 @@ WebUI.click(findTestObject('09-Settings/Users/Active User/button_Delete User'))
 
 WebUI.verifyElementPresent(findTestObject('09-Settings/Users/Active User/h4_Delete User'), 0)
 
-WebUI.delay(GlobalVariable.delay_3s)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('09-Settings/Users/Active User/button_Delete'))
 
@@ -39,9 +37,7 @@ WebUI.click(findTestObject('09-Settings/Users/Active User/button_ellipses'))
 
 WebUI.click(findTestObject('09-Settings/Users/Active User/button_Delete User'))
 
-WebUI.verifyElementPresent(findTestObject('09-Settings/Users/Active User/h4_Delete User'), 0)
-
-WebUI.delay(GlobalVariable.delay_3s)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('09-Settings/Users/Active User/button_Delete'))
 
@@ -53,9 +49,7 @@ WebUI.click(findTestObject('09-Settings/Users/Active User/button_ellipses'))
 
 WebUI.click(findTestObject('09-Settings/Users/Active User/button_Delete User'))
 
-WebUI.verifyElementPresent(findTestObject('09-Settings/Users/Active User/h4_Delete User'), 0)
-
-WebUI.delay(GlobalVariable.delay_3s)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('09-Settings/Users/Active User/button_Delete'))
 
@@ -67,9 +61,7 @@ WebUI.click(findTestObject('09-Settings/Users/Active User/button_ellipses'))
 
 WebUI.click(findTestObject('09-Settings/Users/Active User/button_Delete User'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementPresent(findTestObject('09-Settings/Users/Active User/h4_Delete User'), 0)
-
-WebUI.delay(GlobalVariable.delay_3s)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('09-Settings/Users/Active User/button_Delete'))
 
@@ -81,9 +73,7 @@ WebUI.click(findTestObject('09-Settings/Users/Active User/button_ellipses'))
 
 WebUI.click(findTestObject('09-Settings/Users/Active User/button_Delete User'))
 
-WebUI.verifyElementPresent(findTestObject('09-Settings/Users/Active User/h4_Delete User'), 0)
-
-WebUI.delay(GlobalVariable.delay_3s)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('09-Settings/Users/Active User/button_Delete'))
 

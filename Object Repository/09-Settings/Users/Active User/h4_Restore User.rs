@@ -7,18 +7,18 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//h4[@id='mat-dialog-title-29']</value>
-      </entry>
-      <entry>
-         <key>CSS</key>
-         <value>#mat-dialog-title-29</value>
+         <value>//h2[(text() = 'Restore User' or . = 'Restore User')]</value>
       </entry>
       <entry>
          <key>BASIC</key>
          <value>//h4[(text() = 'Restore User' or . = 'Restore User')]</value>
       </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#mat-dialog-title-29</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -26,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>h4</value>
-      <webElementGuid>e776bd31-33e0-41b8-8d35-dbd273c2de1e</webElementGuid>
+      <webElementGuid>61a13cdd-de62-4d10-adda-0b4cd13a29cc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -34,7 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-dialog-title</value>
-      <webElementGuid>2c74c744-645b-4ca0-828b-482931af1623</webElementGuid>
+      <webElementGuid>bdda68f2-bc05-43e6-afbb-f7646992b5fe</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,7 +42,7 @@
       <name>id</name>
       <type>Main</type>
       <value>mat-dialog-title-29</value>
-      <webElementGuid>b7e3efa6-efbb-4b0f-9101-8ecbb965f97f</webElementGuid>
+      <webElementGuid>bdf6b0d9-0688-433d-87a5-a63f0251dd9d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -50,7 +50,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Restore User</value>
-      <webElementGuid>061df181-6189-492b-b43d-6de622feec3a</webElementGuid>
+      <webElementGuid>f3d4bd00-87cd-4359-9ef5-081a7584818a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -58,7 +58,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-dialog-title-29&quot;)</value>
-      <webElementGuid>405da65f-3be5-43c5-a9ce-a9deab4b7b5e</webElementGuid>
+      <webElementGuid>2160b728-bcf4-4d6a-be15-536265a7d701</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -66,7 +66,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//h4[@id='mat-dialog-title-29']</value>
-      <webElementGuid>2c514b4b-db84-4583-b315-f810ebdff849</webElementGuid>
+      <webElementGuid>ac89cb1f-bb9f-49ad-b0b0-f7d33d90b972</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -74,7 +74,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-dialog-container[@id='mat-dialog-29']/app-dialog-restore-user/section/h4</value>
-      <webElementGuid>e1c7609e-9a45-4cfe-a311-05174dbd96af</webElementGuid>
+      <webElementGuid>936b453d-8e96-4e9e-9c03-46a2f23a580e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='of 6'])[1]/following::h4[1]</value>
-      <webElementGuid>7683c324-0688-4581-975f-b5bd8c00a0b2</webElementGuid>
+      <webElementGuid>b8622637-195c-4c91-b07f-d083cffa3cdd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -90,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Row per page:'])[1]/following::h4[1]</value>
-      <webElementGuid>fe7165ad-c26f-4667-bc52-072460a99772</webElementGuid>
+      <webElementGuid>2477f23a-6691-4db0-805f-38776a9ceb50</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,7 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Are you sure you want to restore user to organization unit?'])[1]/preceding::h4[1]</value>
-      <webElementGuid>555de9e6-01f6-4742-83f6-cc96ec02edae</webElementGuid>
+      <webElementGuid>459c831b-cb0e-4799-821d-7ba5610b0db5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,7 +106,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//section/h4</value>
-      <webElementGuid>ca3c5dd8-6672-4342-9f9f-834afe25f280</webElementGuid>
+      <webElementGuid>31366359-751b-48ad-bbab-3b7f3df7a9f5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -114,6 +114,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//h4[@id = 'mat-dialog-title-29' and (text() = 'Restore User' or . = 'Restore User')]</value>
-      <webElementGuid>b054044a-e11c-4d91-8b7b-45ec753f0128</webElementGuid>
+      <webElementGuid>ce1d5287-dac1-47d0-af52-d332138ed061</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

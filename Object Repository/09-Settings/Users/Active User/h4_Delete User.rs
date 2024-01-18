@@ -7,14 +7,18 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//h4[@id='mat-dialog-title-6']</value>
+         <value>//span[(text() = 'Delete User' or . = 'Delete User')]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//h4[(text() = 'Delete User' or . = 'Delete User')]</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>#mat-dialog-title-6</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>h4</value>
-      <webElementGuid>9f3ed6a4-b242-40ca-b5aa-bc904da18722</webElementGuid>
+      <webElementGuid>d2d37c71-1476-4e0f-936e-41b35366920b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-dialog-title</value>
-      <webElementGuid>8d0d9a3c-1b6d-4dd2-8392-1bca7fe871d6</webElementGuid>
+      <webElementGuid>4d9a0e52-2e22-4c12-a22e-020733c8c962</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +42,7 @@
       <name>id</name>
       <type>Main</type>
       <value>mat-dialog-title-6</value>
-      <webElementGuid>60010f2a-f2e1-42db-bc2f-a0c83cc3145d</webElementGuid>
+      <webElementGuid>05be1a54-3c9e-46b5-84d9-bfb4f295c861</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +50,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Delete User</value>
-      <webElementGuid>89b7cc59-cc43-496c-b685-947e89f0fc7a</webElementGuid>
+      <webElementGuid>a673ec45-ed6e-4d1d-ab88-de0f3dbce667</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +58,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-dialog-title-6&quot;)</value>
-      <webElementGuid>87bf393e-fca1-4d21-85e3-06149c77453b</webElementGuid>
+      <webElementGuid>7f90c71c-f9f2-433b-aae2-f85088002a1f</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -62,7 +66,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//h4[@id='mat-dialog-title-6']</value>
-      <webElementGuid>fd4b8a95-1510-466b-9025-a6f8eb578f22</webElementGuid>
+      <webElementGuid>1f0f3b50-50ca-430d-8914-3bcf4bbbf9aa</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +74,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-dialog-container[@id='mat-dialog-6']/app-dialog-delete-user/section/h4</value>
-      <webElementGuid>0390fecb-56b7-45b6-8062-cecc28820aa9</webElementGuid>
+      <webElementGuid>5ee20ac8-c06c-48ad-b7d0-613548d94601</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='of 6'])[1]/following::h4[1]</value>
-      <webElementGuid>e4ae891c-d3fd-4bf4-9f4d-8fb32ca15890</webElementGuid>
+      <webElementGuid>a0d84326-e697-430d-9eee-99d9b94651a5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Row per page:'])[1]/following::h4[1]</value>
-      <webElementGuid>b1abf087-3161-462d-932f-8d7b13249ca2</webElementGuid>
+      <webElementGuid>a3aabdef-4fc0-46a5-a2db-80b6a3a8c337</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Are you sure you want to delete user from organization unit?'])[1]/preceding::h4[1]</value>
-      <webElementGuid>ba09cd62-e320-4be6-b17c-68274b45e948</webElementGuid>
+      <webElementGuid>59645f8b-839f-439f-aab8-38b62483766b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +106,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Delete'])[1]/preceding::h4[1]</value>
-      <webElementGuid>796a2489-6af5-4180-b18a-029ee24600f0</webElementGuid>
+      <webElementGuid>4ff3d144-e6e9-4d0d-910b-46077d5ad816</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +114,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Delete User']/parent::*</value>
-      <webElementGuid>fa0d3c8f-9dcd-40ae-8745-b53051e52531</webElementGuid>
+      <webElementGuid>b5ac2bc5-b5eb-47ef-8677-f0fa391914dd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +122,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//section/h4</value>
-      <webElementGuid>dd49c11e-9cc4-4895-b4e7-e3d7ecb070eb</webElementGuid>
+      <webElementGuid>d6a7f499-b611-4173-abc1-d52ce59e12d6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,6 +130,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//h4[@id = 'mat-dialog-title-6' and (text() = 'Delete User' or . = 'Delete User')]</value>
-      <webElementGuid>41d45f09-1620-4b64-a5a6-dbd67746f022</webElementGuid>
+      <webElementGuid>53e69d93-24aa-442f-ad6c-a507989eba09</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

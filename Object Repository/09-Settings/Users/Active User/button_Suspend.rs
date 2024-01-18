@@ -7,15 +7,15 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//button[@type = 'button' and (text() = ' Suspend' or . = ' Suspend')]</value>
-      </entry>
-      <entry>
-         <key>CSS</key>
-         <value>button.mat-focus-indicator.mat-raised-button.mat-button-base.cdk-focused.cdk-mouse-focused</value>
+         <value>//button[(text() = 'Suspend' or . = 'Suspend')]</value>
       </entry>
       <entry>
          <key>BASIC</key>
          <value>//*[@type = 'button' and (text() = ' Suspend' or . = ' Suspend')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.mat-focus-indicator.mat-raised-button.mat-button-base.cdk-focused.cdk-mouse-focused</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -26,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>552445dc-9418-4fac-b245-8b793e0cf84b</webElementGuid>
+      <webElementGuid>208303f3-d61f-4ee8-8755-3859e8609ff0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -34,7 +34,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>598482ad-bafc-4175-a877-a454c2ec411c</webElementGuid>
+      <webElementGuid>54e7e9be-d66b-4028-8543-158346f8295e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,7 +42,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-focus-indicator mat-raised-button mat-button-base cdk-focused cdk-mouse-focused</value>
-      <webElementGuid>94dfb15c-65b6-4cce-a575-eb77215b8102</webElementGuid>
+      <webElementGuid>59acf540-0b54-4fd4-bff1-928cb03a43ae</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,7 +50,7 @@
       <name>ng-reflect-disabled</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>a211b574-f597-4cad-a459-072264df298a</webElementGuid>
+      <webElementGuid>b6d6d795-9eb0-4f07-b633-807d98c0dd44</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -58,7 +58,7 @@
       <name>text</name>
       <type>Main</type>
       <value> Suspend</value>
-      <webElementGuid>24163fb9-baed-4e4e-b7e2-b1e6c8ce111a</webElementGuid>
+      <webElementGuid>467a53ae-c675-476b-8b9a-fc0205e5e035</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -66,7 +66,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-dialog-1&quot;)/app-dialog-suspend-user[@class=&quot;component ng-star-inserted&quot;]/section[@class=&quot;dialog-container&quot;]/div[@class=&quot;mat-dialog-actions dialog-action&quot;]/div[@class=&quot;action-container&quot;]/button[@class=&quot;mat-focus-indicator mat-raised-button mat-button-base cdk-focused cdk-mouse-focused&quot;]</value>
-      <webElementGuid>792b18db-946d-4bf8-8089-e290bcd8824e</webElementGuid>
+      <webElementGuid>4899918b-726d-44f4-ae80-5f0992d5540a</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -74,7 +74,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[33]</value>
-      <webElementGuid>0ed6d669-498c-4f52-8ad1-1f895bc4c6c6</webElementGuid>
+      <webElementGuid>627716d2-6e74-4385-a41d-2a0fc9d48799</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,7 +82,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-dialog-container[@id='mat-dialog-1']/app-dialog-suspend-user/section/div[3]/div/button</value>
-      <webElementGuid>c7fa5fea-6e43-4b8c-9499-f7d0a5816260</webElementGuid>
+      <webElementGuid>334c72ae-1f33-4c70-bd86-7ca36830f946</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -90,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Suspend User'])[1]/following::button[1]</value>
-      <webElementGuid>cd88e88c-83f3-4536-9415-a86f0f19b2a8</webElementGuid>
+      <webElementGuid>6baa25f5-0067-46c8-9bf8-d1d052ba56c7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,7 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/preceding::button[1]</value>
-      <webElementGuid>8beb23bf-3c38-45e0-89f8-098bb4349986</webElementGuid>
+      <webElementGuid>624e6352-a6f6-4c3b-af6e-dee076d81680</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,7 +106,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//section/div[3]/div/button</value>
-      <webElementGuid>980ea7a0-6d82-4bae-ac2e-1358830f0c4c</webElementGuid>
+      <webElementGuid>873d7fd7-0b11-46c1-9db0-f5813ae7e0cc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -114,6 +114,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = ' Suspend' or . = ' Suspend')]</value>
-      <webElementGuid>260dff2a-0947-4e9a-86ca-479525384205</webElementGuid>
+      <webElementGuid>4c8f4b7f-7439-42f3-8125-df37b48aa5a1</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -7,14 +7,18 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//button[@type='button'])[28]</value>
+         <value>//button[(text() = 'Import' or . = 'Import')]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//button[@type = 'button' and (text() = 'Import' or . = 'Import')]</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>button.mat-focus-indicator.import-btn.mat-raised-button.mat-button-base.mat-primary.cdk-focused.cdk-mouse-focused</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>2b18addc-30a1-4e24-b04d-fa2085de6f9b</webElementGuid>
+      <webElementGuid>307a7812-196c-45f9-b3bc-744af8f7f5aa</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +34,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>392ee9a2-03c3-482b-bc2b-7e261c967115</webElementGuid>
+      <webElementGuid>87d1cde4-9dea-4f0d-891e-51ae608a3640</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +42,7 @@
       <name>color</name>
       <type>Main</type>
       <value>primary</value>
-      <webElementGuid>85bdc035-834a-4169-bbc4-09ee9888b868</webElementGuid>
+      <webElementGuid>b3374987-6a91-465a-bbe1-695eb8e3ad63</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +50,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-focus-indicator import-btn mat-raised-button mat-button-base mat-primary cdk-focused cdk-mouse-focused</value>
-      <webElementGuid>d969f1ac-19cb-4720-a32d-a93cc9263ebc</webElementGuid>
+      <webElementGuid>265e953d-4af9-46b8-acb3-0bfefd5d243b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +58,7 @@
       <name>ng-reflect-color</name>
       <type>Main</type>
       <value>primary</value>
-      <webElementGuid>3b7cd09c-5767-49cf-9b74-796be6fad5f4</webElementGuid>
+      <webElementGuid>8da5a301-2199-4688-b98a-5710ff2b0cdb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +66,7 @@
       <name>ng-reflect-disabled</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>57cc334d-1088-464d-9613-29b4ddf044af</webElementGuid>
+      <webElementGuid>44de0465-3027-4249-a259-a691ca6aec4d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -70,7 +74,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Import</value>
-      <webElementGuid>473a9d5d-c9db-4dfa-ab05-72afc9707ff7</webElementGuid>
+      <webElementGuid>1f5571bb-0b66-488b-9968-a413b76aaa6f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,7 +82,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-dialog-4&quot;)/app-dialog-csv-invite[@class=&quot;ng-star-inserted&quot;]/section[@class=&quot;dialog-container&quot;]/div[@class=&quot;mat-dialog-content ng-star-inserted&quot;]/div[@class=&quot;mat-dialog-actions dialog-action&quot;]/div[1]/button[@class=&quot;mat-focus-indicator import-btn mat-raised-button mat-button-base mat-primary cdk-focused cdk-mouse-focused&quot;]</value>
-      <webElementGuid>14e6eea7-1d18-4735-a66a-a81d8f55e24a</webElementGuid>
+      <webElementGuid>8cae0735-8d55-41f5-8fed-b7bfe931435b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -86,7 +90,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[28]</value>
-      <webElementGuid>835d4bb5-8040-40a1-bc56-fe3f3cd94a92</webElementGuid>
+      <webElementGuid>0a040740-78d1-4a1e-bb41-969064b072e6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +98,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-dialog-container[@id='mat-dialog-4']/app-dialog-csv-invite/section/div/div[4]/div/button</value>
-      <webElementGuid>f69758a7-0df2-466d-97a5-36fd43d251f4</webElementGuid>
+      <webElementGuid>977ef261-33dc-4a47-b71b-f7334baf7ab1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +106,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Importing Organization Unit'])[1]/following::button[1]</value>
-      <webElementGuid>36176b22-b155-42ef-9051-ba06c286f8c7</webElementGuid>
+      <webElementGuid>898bcce6-5eb7-459c-b5e6-4093e7089f31</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +114,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Sample csv.csv'])[1]/following::button[1]</value>
-      <webElementGuid>7d8fd376-ccce-45be-bea9-651fce43d049</webElementGuid>
+      <webElementGuid>73b6f20a-ead6-442e-a0f1-7a6fe71599d9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +122,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/preceding::button[1]</value>
-      <webElementGuid>e03e44d9-b8a2-4abb-a539-b06481cb4117</webElementGuid>
+      <webElementGuid>b93cca73-9e3c-4124-b63f-296532fbaec8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,7 +130,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[4]/div/button</value>
-      <webElementGuid>c6809efc-4d26-4afd-bdcb-f1b9816dade1</webElementGuid>
+      <webElementGuid>288ff7ea-c2e0-4ed3-8015-56e8928af126</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,6 +138,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = 'Import' or . = 'Import')]</value>
-      <webElementGuid>a9cb4b80-0c26-459c-ba46-989159fea8a9</webElementGuid>
+      <webElementGuid>ba9df9a9-392a-439d-9565-b60d5860f8f5</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

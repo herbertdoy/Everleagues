@@ -6,15 +6,18 @@
    <elementGuidId>7765ef62-a789-4d98-80f9-a2773be08a6c</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//div[(text() = ' Invite batch of users via CSV file ' or . = ' Invite batch of users via CSV file ')]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//mat-dialog-container[@id='mat-dialog-8']/app-dialog-invitation-method/section/div/div[2]</value>
+         <key>BASIC</key>
+         <value>//div[@class = 'invite-method-container' and (text() = ' Invite batch of users via CSV file ' or . = ' Invite batch of users via CSV file ')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -22,7 +25,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>5756d56d-56f3-4dd9-9021-d689a164ad78</webElementGuid>
+      <webElementGuid>a38ba493-ba6e-4a0b-9cd3-55c721e1fc08</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +33,7 @@
       <name>class</name>
       <type>Main</type>
       <value>invite-method-container</value>
-      <webElementGuid>8d694b9a-814c-4206-9506-62feeeba7978</webElementGuid>
+      <webElementGuid>fb8adb1c-1bb2-41fc-b770-13ac4698ac49</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +41,7 @@
       <name>text</name>
       <type>Main</type>
       <value> Invite batch of users via CSV file </value>
-      <webElementGuid>fe4da3ca-11f6-43c0-9fe6-989831761fb7</webElementGuid>
+      <webElementGuid>4dd37e4e-0e27-4d13-aa91-569a98d9e6d0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +49,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-dialog-8&quot;)/app-dialog-invitation-method[@class=&quot;ng-star-inserted&quot;]/section[@class=&quot;dialog-container&quot;]/div[@class=&quot;mat-dialog-content&quot;]/div[@class=&quot;invite-method-container&quot;]</value>
-      <webElementGuid>4dd664f7-4c42-4013-b8a6-b7a7a291280f</webElementGuid>
+      <webElementGuid>ccf8d9dd-e560-4642-a2f9-916e337948df</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +57,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-dialog-container[@id='mat-dialog-8']/app-dialog-invitation-method/section/div/div[2]</value>
-      <webElementGuid>9432561f-de6a-49ad-b675-216b0d53dc73</webElementGuid>
+      <webElementGuid>0e9c18c8-8f0b-4772-abcb-880020f3df4c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +65,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Invite a single user'])[1]/following::div[1]</value>
-      <webElementGuid>ec44e893-d021-42be-ba56-62b4fc0fcf19</webElementGuid>
+      <webElementGuid>cdc9daf2-aa2b-4c6d-b830-bb0f65d74087</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +73,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='User Invitation'])[1]/following::div[5]</value>
-      <webElementGuid>b8bec99e-ee8b-42f7-a699-a6cd423952c9</webElementGuid>
+      <webElementGuid>fcdcde63-7913-4c1d-bbe3-6a010c15ba0f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +81,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/preceding::div[4]</value>
-      <webElementGuid>c36ce515-bb47-40bf-b2fb-513cf10a3276</webElementGuid>
+      <webElementGuid>47f513e2-cf74-471a-b242-f6bd83ad54c3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +89,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//section/div/div[2]</value>
-      <webElementGuid>03e2dd58-b23e-4f29-9f15-fc7487bfecae</webElementGuid>
+      <webElementGuid>3a5a2e13-aff3-420b-96ad-8b00a6ab9b5b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,6 +97,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = ' Invite batch of users via CSV file ' or . = ' Invite batch of users via CSV file ')]</value>
-      <webElementGuid>87c28957-d37f-454e-94d2-f2835aa45be1</webElementGuid>
+      <webElementGuid>65368a8c-d14f-47cf-ac4b-f5ff20b5614a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

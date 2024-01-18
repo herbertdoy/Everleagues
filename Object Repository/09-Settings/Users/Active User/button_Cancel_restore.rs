@@ -7,14 +7,18 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//button[@type='button'])[32]</value>
+         <value>//button[(text() = 'Cancel' or . = 'Cancel')]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//button[@type = 'button' and (text() = 'Cancel' or . = 'Cancel')]</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>button.mat-focus-indicator.mat-raised-button.mat-button-base.cdk-focused.cdk-mouse-focused</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>51206bb3-6c92-449b-95ab-606d0798af34</webElementGuid>
+      <webElementGuid>1ea717f0-f543-4fca-aeba-8055fd80c2c2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +34,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>7b4ec913-7d8b-4d41-85ee-89be49c59118</webElementGuid>
+      <webElementGuid>32b3f14d-2940-4eea-bb48-1685443114ec</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +42,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-focus-indicator mat-raised-button mat-button-base cdk-focused cdk-mouse-focused</value>
-      <webElementGuid>92619064-bac2-46d2-9541-e7c8dc41f798</webElementGuid>
+      <webElementGuid>7c57be60-e92d-4809-a5de-59f01cf445c1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +50,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Cancel</value>
-      <webElementGuid>46907185-3abb-4f69-b6ae-ccf8145669fb</webElementGuid>
+      <webElementGuid>523491c3-4f44-47ee-be6a-ebff792ae396</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +58,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-dialog-31&quot;)/app-dialog-restore-user[@class=&quot;ng-star-inserted&quot;]/section[@class=&quot;dialog-container&quot;]/div[@class=&quot;mat-dialog-actions dialog-action&quot;]/div[@class=&quot;action-container&quot;]/button[@class=&quot;mat-focus-indicator mat-raised-button mat-button-base cdk-focused cdk-mouse-focused&quot;]</value>
-      <webElementGuid>4402e7ca-f870-4d26-90e3-04114dbe8608</webElementGuid>
+      <webElementGuid>aa829263-96b8-46f4-89a1-98e105f2b144</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -62,7 +66,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[32]</value>
-      <webElementGuid>3c2dfefe-492b-46f8-a0b5-b9141b7fc378</webElementGuid>
+      <webElementGuid>3a0e4e85-c688-4774-bf93-baa2c4ba1b6a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +74,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-dialog-container[@id='mat-dialog-31']/app-dialog-restore-user/section/div[2]/div/button[2]</value>
-      <webElementGuid>177ece0a-5c47-40b7-b806-7eaad319c633</webElementGuid>
+      <webElementGuid>f2481968-ca8c-4435-a413-696d3fbffe2e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Restore'])[1]/following::button[1]</value>
-      <webElementGuid>2418e090-0a53-47a0-8c14-8a5972e5bf40</webElementGuid>
+      <webElementGuid>bab098ef-b6e4-4b18-83c8-ae031e75ec4f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Are you sure you want to restore user to organization unit?'])[1]/following::button[2]</value>
-      <webElementGuid>37ddf829-cc40-40a6-9f49-ebd60b99df99</webElementGuid>
+      <webElementGuid>5ddad4b3-52e2-4741-9e95-0782d35c36b4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Hide Quick Shortcuts'])[1]/preceding::button[1]</value>
-      <webElementGuid>9b98ab24-6c14-4a39-a60a-3c8a64ec0d4a</webElementGuid>
+      <webElementGuid>70f19c9c-6539-4b37-a526-e3cd61ae14db</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +106,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/button[2]</value>
-      <webElementGuid>19c08ded-7920-4428-9136-235b2079e752</webElementGuid>
+      <webElementGuid>8196f9d8-0eb8-43c5-b62d-1e214f0bb1b0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,6 +114,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = 'Cancel' or . = 'Cancel')]</value>
-      <webElementGuid>c9b95f1d-a77e-4956-a912-92c5e1539ea6</webElementGuid>
+      <webElementGuid>e919634b-b618-4979-a788-7453b2735d6d</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

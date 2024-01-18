@@ -1,3 +1,23 @@
 {
-  "brokenTestObjects" : [ ]
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/09-Settings/Users/CSV Invite/modal_Import CSV File",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//mat-dialog-container",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/09-Settings/Users/CSV Invite/modal_Import CSV File_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/09-Settings/Users/CSV Invite/button_Import",
+      "brokenLocator": "//button[(text() \u003d \u0027Import\u0027 or . \u003d \u0027Import\u0027)]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Cancel\u0027])[1]/preceding::button[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/09-Settings/Users/CSV Invite/button_Import_neighbor.png"
+    }
+  ]
 }

@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//button[@type = 'button' and (text() = 'search' or . = 'search')]</value>
+         <value>//input[@placeholder = 'Search here' and @data-placeholder = 'Search here']</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>2ae91017-2259-44ef-b927-2c491ad3ce47</webElementGuid>
+      <webElementGuid>eddb29c3-d5a9-4d30-84bc-c10086fc37d6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>9bed57d7-65ce-47a0-b038-b336f983bc14</webElementGuid>
+      <webElementGuid>ea0c4adc-c360-4cbc-85e4-308784e09cb9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-focus-indicator td-search-icon ng-tns-c114-39 mat-icon-button mat-button-base cdk-focused cdk-mouse-focused</value>
-      <webElementGuid>9b4596ae-844d-4789-9064-7ac0089e62c2</webElementGuid>
+      <webElementGuid>916d3b0a-7bb4-457f-9a04-0b8e8562e5c8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>text</name>
       <type>Main</type>
       <value>search</value>
-      <webElementGuid>ba5f2de5-0c9a-44db-819e-1321ca7e9ff5</webElementGuid>
+      <webElementGuid>a95897d0-b150-4c80-879c-4d7c84b5ac9f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-tab-content-0-0&quot;)/div[@class=&quot;mat-tab-body-content ng-tns-c361-48 ng-trigger ng-trigger-translateTab&quot;]/div[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;white-container ng-tns-c635-37&quot;]/div[@class=&quot;user-container-body ng-tns-c635-37&quot;]/mat-drawer-container[@class=&quot;mat-drawer-container ng-tns-c635-37&quot;]/mat-drawer-content[@class=&quot;mat-drawer-content&quot;]/app-user-table[1]/div[@class=&quot;pad-left-sm pad-right-sm&quot;]/td-search-box[@class=&quot;push-right-sm ng-tns-c114-39&quot;]/div[@class=&quot;td-search-box ng-tns-c114-39&quot;]/button[@class=&quot;mat-focus-indicator td-search-icon ng-tns-c114-39 mat-icon-button mat-button-base cdk-focused cdk-mouse-focused&quot;]</value>
-      <webElementGuid>c0cd3f09-9cef-4f30-a037-cafcee14bc62</webElementGuid>
+      <webElementGuid>e172b3c7-d272-44bb-b2d0-a28112c87c45</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[8]</value>
-      <webElementGuid>8c83e958-64b9-4b35-947e-8ae054b7d314</webElementGuid>
+      <webElementGuid>a7199e55-c318-4f6a-8041-8370a4dd0e3a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-tab-body[@id='mat-tab-content-0-0']/div/div/div/div[3]/mat-drawer-container/mat-drawer-content/app-user-table/div/td-search-box/div/button</value>
-      <webElementGuid>4ce90a55-826e-4a64-ac6b-0dd0017124bd</webElementGuid>
+      <webElementGuid>04e216e0-3da9-4365-b14d-780d6f32b286</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='GG Automation'])[2]/following::button[1]</value>
-      <webElementGuid>4515c765-ed36-4068-be74-2464cd563e0a</webElementGuid>
+      <webElementGuid>7641f85e-1034-40a1-bb89-fe72da0be30c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Search here'])[1]/preceding::button[1]</value>
-      <webElementGuid>f98bc62c-68e2-4a4e-8a48-b66836064524</webElementGuid>
+      <webElementGuid>d4ff4e2e-0249-4358-afa0-95565c68c8b1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Name'])[1]/preceding::button[2]</value>
-      <webElementGuid>42a0aec5-3f24-4df7-be32-d4a87630948b</webElementGuid>
+      <webElementGuid>707954df-2c5f-4dac-ac84-5a66a9951a6c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td-search-box/div/button</value>
-      <webElementGuid>4c6d47ff-c069-4675-9255-26eab4983431</webElementGuid>
+      <webElementGuid>f946483a-9256-4e93-ba2e-b5f6fb1488e6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,6 +110,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = 'search' or . = 'search')]</value>
-      <webElementGuid>76212728-018b-43cb-9494-0c09d27c1d2e</webElementGuid>
+      <webElementGuid>cb478c80-1398-4017-8abc-56d4f8fbdd05</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

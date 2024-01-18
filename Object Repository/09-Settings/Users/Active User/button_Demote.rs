@@ -7,15 +7,15 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//button[contains(@class,'mat-focus-indicator mat-raised-button')])[1]</value>
-      </entry>
-      <entry>
-         <key>CSS</key>
-         <value>button.mat-focus-indicator.mat-raised-button.mat-button-base.cdk-focused.cdk-program-focused</value>
+         <value>//button[(text() = 'Demote' or . = 'Demote')]</value>
       </entry>
       <entry>
          <key>BASIC</key>
          <value>//button[@type = 'button' and (text() = 'Demote' or . = 'Demote')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.mat-focus-indicator.mat-raised-button.mat-button-base.cdk-focused.cdk-program-focused</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -26,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>c4b80d12-55b3-4a97-8253-dc55de3649ec</webElementGuid>
+      <webElementGuid>13ed46f4-fbde-4c95-980a-4ee4eb5f1fc0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -34,7 +34,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>1e8e9a72-8804-4284-9809-dca96fefc81e</webElementGuid>
+      <webElementGuid>09a00b41-0aa9-4f64-b7f1-b0b9dd57bb23</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,7 +42,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-focus-indicator mat-raised-button mat-button-base cdk-focused cdk-program-focused</value>
-      <webElementGuid>a097561c-7a0d-41f8-89f2-8e6716a05d95</webElementGuid>
+      <webElementGuid>206bc5b8-3482-4d47-a604-da4c13b23941</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,7 +50,7 @@
       <name>ng-reflect-disabled</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>e8bacd2f-00c8-47f3-8bbb-3d6923d65a76</webElementGuid>
+      <webElementGuid>7ead7f8c-fce1-470b-a8da-b1ef49680ecd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -58,7 +58,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Demote</value>
-      <webElementGuid>f4bd3981-9642-42f9-8bf3-127bdf3f4e6e</webElementGuid>
+      <webElementGuid>e984668a-f07c-435e-a7ad-90ded90fd1c3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -66,7 +66,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-dialog-26&quot;)/app-dialog-admin-user[@class=&quot;component ng-star-inserted&quot;]/section[@class=&quot;dialog-container&quot;]/div[@class=&quot;mat-dialog-actions dialog-action&quot;]/div[@class=&quot;action-container&quot;]/button[@class=&quot;mat-focus-indicator mat-raised-button mat-button-base cdk-focused cdk-program-focused&quot;]</value>
-      <webElementGuid>d24eec1e-4ee6-4552-9118-83f695835a5d</webElementGuid>
+      <webElementGuid>b531faf0-393b-4ff4-b0b2-2a5451c4d3ed</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -74,7 +74,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[33]</value>
-      <webElementGuid>9b98cc5c-b3b8-4bcd-8163-917c8d7bd192</webElementGuid>
+      <webElementGuid>957dac0b-3d0c-4604-a1b5-a1f2848fa683</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,7 +82,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-dialog-container[@id='mat-dialog-26']/app-dialog-admin-user/section/div[2]/div/button</value>
-      <webElementGuid>70493f29-d026-46f9-af0e-11e4dcbdf204</webElementGuid>
+      <webElementGuid>9252b375-1a94-47e6-90fc-d2b7664c746d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -90,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='User Admin Settings'])[1]/following::button[1]</value>
-      <webElementGuid>72be5c4f-6afd-4558-8cbb-abbd1457e649</webElementGuid>
+      <webElementGuid>21053fe9-8d3d-44eb-aacf-0d6d4db645b6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,7 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/preceding::button[1]</value>
-      <webElementGuid>3ba30e6e-d922-4532-8817-c26519a2bf3c</webElementGuid>
+      <webElementGuid>787f70cc-0f06-411d-9fff-123a96986488</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,7 +106,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//section/div[2]/div/button</value>
-      <webElementGuid>17369803-c11d-4362-81b0-0cc07ba150e8</webElementGuid>
+      <webElementGuid>b33a391f-fcd7-407d-9a78-6043dbd25a75</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -114,6 +114,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = 'Demote' or . = 'Demote')]</value>
-      <webElementGuid>58ea91d3-fc25-4dc2-95a9-5bd0847bee21</webElementGuid>
+      <webElementGuid>69a05b96-0695-4352-b77b-46785b3c527f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

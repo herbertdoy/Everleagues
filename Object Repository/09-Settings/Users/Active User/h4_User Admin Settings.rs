@@ -7,18 +7,18 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//h4[@id='mat-dialog-title-8']</value>
-      </entry>
-      <entry>
-         <key>CSS</key>
-         <value>#mat-dialog-title-8</value>
+         <value>//h2[@class = 'mat-dialog-title' and (text() = 'User Admin Settings' or . = 'User Admin Settings')]</value>
       </entry>
       <entry>
          <key>BASIC</key>
          <value>//h4[@class = 'mat-dialog-title' and (text() = 'User Admin Settings' or . = 'User Admin Settings')]</value>
       </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#mat-dialog-title-8</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -26,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>h4</value>
-      <webElementGuid>d8839608-75b3-4204-bb63-31a4c6b94607</webElementGuid>
+      <webElementGuid>c48c57a7-33fe-4523-998c-c17d89805ea3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -34,7 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-dialog-title</value>
-      <webElementGuid>d620cd88-e054-4443-a0ad-7c6619a0c29c</webElementGuid>
+      <webElementGuid>88dfe87b-8e72-4c65-abbf-0a93875ee3b7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,7 +42,7 @@
       <name>id</name>
       <type>Main</type>
       <value>mat-dialog-title-8</value>
-      <webElementGuid>4accfa3a-747e-4900-b3b1-74ce385efe59</webElementGuid>
+      <webElementGuid>da02d32f-1dcc-48a8-8a35-c7df03753d71</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -50,7 +50,7 @@
       <name>text</name>
       <type>Main</type>
       <value>User Admin Settings</value>
-      <webElementGuid>8a6fe43b-75ff-4782-894b-9f4d62f8685a</webElementGuid>
+      <webElementGuid>e0c847f3-23a6-4070-9293-0a02760aa87e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -58,7 +58,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-dialog-title-8&quot;)</value>
-      <webElementGuid>28ad3eb7-1783-4634-beb6-0a845fb48c8e</webElementGuid>
+      <webElementGuid>d6fe12a6-3f5d-46d0-b5ac-def375088b2f</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -66,7 +66,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//h4[@id='mat-dialog-title-8']</value>
-      <webElementGuid>6ac89405-4e17-433e-a1a7-952bebc5f1e7</webElementGuid>
+      <webElementGuid>2b907867-45eb-4a4e-a7ac-7cf230e7c272</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -74,7 +74,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-dialog-container[@id='mat-dialog-8']/app-dialog-admin-user/section/h4</value>
-      <webElementGuid>5fe75423-a2ce-475f-9a6b-7612b5813dba</webElementGuid>
+      <webElementGuid>ba04484a-ee65-4753-8e2c-ed2ce6e103c8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='of 6'])[1]/following::h4[1]</value>
-      <webElementGuid>d5667f72-55d3-4709-8cea-65b1a31ad6cd</webElementGuid>
+      <webElementGuid>e6901a37-a17d-432c-9050-b08f6f9eaac7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -90,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Row per page:'])[1]/following::h4[1]</value>
-      <webElementGuid>a0258e2c-10d5-4d59-a5e7-157594bb8c92</webElementGuid>
+      <webElementGuid>445a5cb2-343d-4d48-b0db-e9a4f4aa2ef7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,7 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Promote'])[1]/preceding::h4[1]</value>
-      <webElementGuid>385f360c-0c78-49b6-81ef-b1e69480ee5e</webElementGuid>
+      <webElementGuid>0b38084a-0d98-40f8-ba08-e2503e680285</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,7 +106,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='User Admin Settings']/parent::*</value>
-      <webElementGuid>24e59330-d575-41f1-b2c6-939acb4800bf</webElementGuid>
+      <webElementGuid>10b138ad-9c34-43e6-aefb-2bd43d4e8874</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -114,7 +114,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//section/h4</value>
-      <webElementGuid>8c83abb6-6593-41d4-ad49-6781fcd469b3</webElementGuid>
+      <webElementGuid>401e9369-c0ad-47d0-b8c5-1d47410e3acb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -122,6 +122,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//h4[@id = 'mat-dialog-title-8' and (text() = 'User Admin Settings' or . = 'User Admin Settings')]</value>
-      <webElementGuid>ac951c0d-bfb9-4672-a4e0-c49e5bad7231</webElementGuid>
+      <webElementGuid>baa23c5e-380c-4930-a741-9f6f490e2c1c</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

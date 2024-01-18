@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//mat-tab-body[@id='mat-tab-content-0-0']/div/div/div/div[3]/mat-drawer-container/mat-drawer/div/perfect-scrollbar/div/div/div/div[2]/ui-org-tree/section[2]/div[2]/tree-root/tree-viewport/div/div/tree-node-collection/div/tree-node/div/tree-node-wrapper/div/div</value>
+         <value>//tree-node-wrapper/div/div</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>7469b860-a6a8-4323-8687-8c823c346ec4</webElementGuid>
+      <webElementGuid>e48495c2-1b64-4a44-ad18-3141f445214c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>node-content-wrapper node-content-wrapper-focused</value>
-      <webElementGuid>b689c02f-cf7b-47ea-95b5-fc7159cb106f</webElementGuid>
+      <webElementGuid>0edac13a-e695-49bb-b443-51b0789c69ba</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,7 +39,7 @@
       <type>Main</type>
       <value>(element, $event) => {
       </value>
-      <webElementGuid>3793e3e3-866c-4d85-8f5b-409aaedec858</webElementGuid>
+      <webElementGuid>6ad6af16-c40b-42e7-a3a2-0c30d65f23a9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,7 +47,7 @@
       <name>ng-reflect-allow-dragover-styling</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>cfba873f-1772-40ae-bd09-47030fa8ceea</webElementGuid>
+      <webElementGuid>e02e8f67-8798-4f16-8d4a-006c7abe9474</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -55,7 +55,7 @@
       <name>ng-reflect-dragged-element</name>
       <type>Main</type>
       <value>[object Object]</value>
-      <webElementGuid>47a9feb3-5733-4502-ac89-80b592a2fed1</webElementGuid>
+      <webElementGuid>87920050-d1da-4e13-8ecb-fb65fd8529e2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,7 +63,7 @@
       <name>draggable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>16bff34a-ba39-4db6-a04b-b1255c2ea1c7</webElementGuid>
+      <webElementGuid>a81a8822-19ea-49f5-a37e-629a677da386</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -71,7 +71,7 @@
       <name>text</name>
       <type>Main</type>
       <value>GG Automation</value>
-      <webElementGuid>103d50b1-3e94-4d12-ab93-f6f8a43882db</webElementGuid>
+      <webElementGuid>b99a0756-fc1d-482e-b8be-8b3b7945518b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -79,7 +79,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-tab-content-0-0&quot;)/div[@class=&quot;mat-tab-body-content ng-tns-c361-48 ng-trigger ng-trigger-translateTab&quot;]/div[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;white-container ng-tns-c649-37&quot;]/div[@class=&quot;user-container-body ng-tns-c649-37&quot;]/mat-drawer-container[@class=&quot;mat-drawer-container ng-tns-c649-37 mat-drawer-transition&quot;]/mat-drawer[@class=&quot;mat-drawer ng-tns-c192-38 ng-trigger ng-trigger-transform mat-drawer-end mat-drawer-side ng-star-inserted mat-drawer-opened&quot;]/div[@class=&quot;mat-drawer-inner-container ng-tns-c192-38&quot;]/perfect-scrollbar[@class=&quot;perfect-scrollbar ng-tns-c192-38&quot;]/div[@class=&quot;ps&quot;]/div[@class=&quot;ps-content&quot;]/div[@class=&quot;table-option-container&quot;]/div[@class=&quot;org-tree-container ng-tns-c649-37&quot;]/ui-org-tree[@class=&quot;ng-tns-c649-37&quot;]/section[@class=&quot;section-org-tree-body&quot;]/div[@class=&quot;tree-wrapper&quot;]/tree-root[1]/tree-viewport[1]/div[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;angular-tree-component&quot;]/tree-node-collection[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;ng-star-inserted&quot;]/tree-node[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;tree-node-level-1 tree-node tree-node-leaf ng-star-inserted tree-node-focused&quot;]/tree-node-wrapper[1]/div[@class=&quot;node-wrapper ng-star-inserted&quot;]/div[@class=&quot;node-content-wrapper node-content-wrapper-focused&quot;]</value>
-      <webElementGuid>62ac9a52-0d4e-45a2-a0c8-c9809721da75</webElementGuid>
+      <webElementGuid>67df8db9-09b1-4b67-8b91-dcd21636de62</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -87,7 +87,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-tab-body[@id='mat-tab-content-0-0']/div/div/div/div[3]/mat-drawer-container/mat-drawer/div/perfect-scrollbar/div/div/div/div[2]/ui-org-tree/section[2]/div[2]/tree-root/tree-viewport/div/div/tree-node-collection/div/tree-node/div/tree-node-wrapper/div/div</value>
-      <webElementGuid>0e4fe596-fb34-4ddc-85dd-dd3534835a33</webElementGuid>
+      <webElementGuid>fdacdb2c-8679-4bf4-b26c-ce79e5ab6d73</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +95,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Search here'])[1]/preceding::div[9]</value>
-      <webElementGuid>75d8b06b-f92d-4eb3-af8e-06d5c2b9f0d3</webElementGuid>
+      <webElementGuid>52b256a6-fff8-4aa1-82ef-0fdb0f55524a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,7 +103,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tree-node-wrapper/div/div</value>
-      <webElementGuid>c7b29520-be48-4736-b0a4-443ea491d129</webElementGuid>
+      <webElementGuid>ce9a59cd-cb1e-4039-a9c7-b5407450f4a8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -111,6 +111,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = 'GG Automation' or . = 'GG Automation')]</value>
-      <webElementGuid>799bf9c7-07c4-44c9-b1a7-ef15bee68595</webElementGuid>
+      <webElementGuid>6e905093-bb52-4e35-9cca-8afe8049bc6f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

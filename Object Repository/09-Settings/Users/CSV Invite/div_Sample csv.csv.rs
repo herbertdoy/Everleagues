@@ -7,18 +7,18 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//mat-dialog-container[@id='mat-dialog-9']/app-dialog-csv-invite/section/div/div[2]/div[2]</value>
-      </entry>
-      <entry>
-         <key>CSS</key>
-         <value>div.file-name</value>
+         <value>//div[(text() = 'samplecsv.csv' or . = 'samplecsv.csv')]</value>
       </entry>
       <entry>
          <key>BASIC</key>
          <value>//div[@class = 'file-name' and (text() = ' sample csv.csv ' or . = ' sample csv.csv ')]</value>
       </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.file-name</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -26,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>334fb98b-a94e-4f92-ac8c-85ca160d510b</webElementGuid>
+      <webElementGuid>84f4f50f-9ec8-4895-9c2a-2909dcbe71ba</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -34,7 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>file-name</value>
-      <webElementGuid>094f28ee-85e6-485e-b5a2-c05dd4fda489</webElementGuid>
+      <webElementGuid>6354bc58-9844-4cb3-85a6-1e7add122d58</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -42,7 +42,7 @@
       <name>text</name>
       <type>Main</type>
       <value> sample csv.csv </value>
-      <webElementGuid>d837f5dd-2f9d-4171-bfb4-f128f7bb6c54</webElementGuid>
+      <webElementGuid>a2d5f611-04fe-41c8-b8aa-59ad24fabe04</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,7 +50,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-dialog-9&quot;)/app-dialog-csv-invite[@class=&quot;ng-star-inserted&quot;]/section[@class=&quot;dialog-container&quot;]/div[@class=&quot;mat-dialog-content ng-star-inserted&quot;]/div[@class=&quot;file-container&quot;]/div[@class=&quot;file-name&quot;]</value>
-      <webElementGuid>db529254-f0b7-485a-bdcb-2273ef2d0ad3</webElementGuid>
+      <webElementGuid>4caa9b09-1797-4f37-9ca5-b2c80516a6e2</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -58,7 +58,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-dialog-container[@id='mat-dialog-9']/app-dialog-csv-invite/section/div/div[2]/div[2]</value>
-      <webElementGuid>71fbe0ac-3e6d-4754-9982-7ecff689391a</webElementGuid>
+      <webElementGuid>caa8d5d4-cf0b-4c18-83cd-0feef736481b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -66,7 +66,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Choose File'])[1]/following::div[3]</value>
-      <webElementGuid>89290c0b-7206-41fe-97d7-2742910f4ba2</webElementGuid>
+      <webElementGuid>28267574-3820-46c3-8b51-e28d2f59bd85</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -74,7 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='here'])[1]/following::div[5]</value>
-      <webElementGuid>c7c92ed4-87e9-46ad-b5a9-f43443ad1ecf</webElementGuid>
+      <webElementGuid>44e81836-9e46-495c-b99d-d46d3f4e5771</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Importing Organization Unit'])[1]/preceding::div[3]</value>
-      <webElementGuid>cc8b0e64-67cc-4654-978c-493293f139f2</webElementGuid>
+      <webElementGuid>59ac59ae-ab4e-479c-a756-a12962ed5d65</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -90,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Import'])[1]/preceding::div[13]</value>
-      <webElementGuid>cecc56d3-f1f3-42c5-8adf-efeecb2fc83c</webElementGuid>
+      <webElementGuid>95769d28-a81f-4aa3-b1ca-628dc5aee130</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,7 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='sample csv.csv']/parent::*</value>
-      <webElementGuid>f583354f-6d10-466b-b6af-0f2ebd7fb0b3</webElementGuid>
+      <webElementGuid>07b6129c-9450-4a5c-b882-1d0bc342fdef</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,7 +106,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div[2]</value>
-      <webElementGuid>2ad2e688-8c38-4156-9713-64bb0317bbd9</webElementGuid>
+      <webElementGuid>ff19690a-8906-4840-bf7f-db54924fc05e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -114,6 +114,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = ' sample csv.csv ' or . = ' sample csv.csv ')]</value>
-      <webElementGuid>ab3b5af8-1a2b-4e61-9464-03d1b9eb24ef</webElementGuid>
+      <webElementGuid>70eaa234-42d7-4d26-93b5-be60af8ad0c3</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
