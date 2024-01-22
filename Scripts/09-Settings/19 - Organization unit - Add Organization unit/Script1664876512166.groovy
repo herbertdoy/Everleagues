@@ -86,7 +86,7 @@ WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.verifyElementVisible(findTestObject('06-Teams/span_GG Automation'))
 
-WebUI.delay(GlobalVariable.delay_4s)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('03-Header Menu/div_Settings'))
 
@@ -99,7 +99,7 @@ WebUI.click(findTestObject('03-Header Menu/div_Settings'))
 //WebUI.verifyElementVisible(findTestObject('09-Settings/Users/div_Subscriptions'))
 //
 //WebUI.verifyElementVisible(findTestObject('09-Settings/Users/div_Users'))
-WebUI.delay(GlobalVariable.delay_3s)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.scrollToElement(findTestObject('09-Settings/Users/div_Organization Units'), 0)
 
@@ -108,7 +108,7 @@ WebUI.click(findTestObject('09-Settings/Users/div_Organization Units'))
 WebUI.verifyElementVisible(findTestObject('09-Settings/Organization unit/h4_ORGANIZATION STRUCTURE SETUP'))
 
 //WebUI.verifyElementVisible(findTestObject('09-Settings/Users/User Page'))
-WebUI.delay(GlobalVariable.delay_3s)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('09-Settings/Organization unit/button_add'))
 
@@ -119,29 +119,29 @@ WebUI.verifyElementPresent(findTestObject('09-Settings/Organization unit/h4_Name
 
 WebUI.click(findTestObject('09-Settings/Organization unit/mat-icon_create'))
 
+WebUI.verifyElementPresent(findTestObject('09-Settings/Organization unit/h4_Select an organization unit'), 0)
+
 WebUI.verifyElementPresent(findTestObject('09-Settings/Organization unit/mat-dialog-container_Select an organization unit modal'), 
     0)
 
-WebUI.verifyElementPresent(findTestObject('09-Settings/Organization unit/h4_Select an organization unit'), 0)
-
-WebUI.delay(GlobalVariable.delay_3s)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('09-Settings/Organization unit/Cancel button for select an organization unit'))
 
-WebUI.delay(GlobalVariable.delay_3s)
+WebUI.delay(GlobalVariable.delay_2s)
 
 //WebUI.verifyElementPresent(findTestObject('09-Settings/Organization unit/h4_Name'), 0)
 WebUI.click(findTestObject('09-Settings/Organization unit/input_Parent Organization Unit Name_orgName'))
 
-WebUI.click(findTestObject('09-Settings/Organization unit/mat-dialog-container_Add organization unit modal'))
+WebUI.click(findTestObject('09-Settings/Organization unit/h4_Name'))
 
 WebUI.verifyElementPresent(findTestObject('09-Settings/Organization unit/mat-error_Field is required'), 0)
 
-WebUI.delay(GlobalVariable.delay_3s)
+WebUI.delay(GlobalVariable.delay_2s)
 
-WebUI.click(findTestObject('09-Settings/Users/Active User/button_Cancel_restore'))
+WebUI.click(findTestObject('09-Settings/Users/Active User/button_Cancel_restore'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(GlobalVariable.delay_3s)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('09-Settings/Organization unit/button_add'))
 
@@ -158,17 +158,17 @@ WebUI.verifyElementPresent(findTestObject('09-Settings/Organization unit/h4_Sele
 
 WebUI.click(findTestObject('09-Settings/Organization unit/div_GG Automation'))
 
-WebUI.delay(GlobalVariable.delay_3s)
+WebUI.delay(GlobalVariable.delay_2s)
 
-WebUI.click(findTestObject('09-Settings/Organization unit/button_Select organization'))
+WebUI.click(findTestObject('09-Settings/Organization unit/button_Select'))
 
 WebUI.setText(findTestObject('09-Settings/Organization unit/input_Parent Organization Unit Name_orgName'), GlobalVariable.org_unit)
 
-WebUI.delay(GlobalVariable.delay_3s)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('09-Settings/Users/Active User/button_Save'))
 
 WebUI.verifyElementPresent(findTestObject('09-Settings/Organization unit/span_Successfully added organization unit'), 0)
 
-WebUI.delay(GlobalVariable.delay_3s)
+WebUI.delay(GlobalVariable.delay_2s)
 

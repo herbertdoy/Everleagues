@@ -44,7 +44,7 @@ WebUI.click(findTestObject('08-Operations/Client Assignment/div_GG TESTER'))
 
 WebUI.click(findTestObject('08-Operations/Client Assignment/button_ Assign'))
 
-WebUI.verifyElementVisible(findTestObject('08-Operations/Client Assignment/Page_Everleagues/span_Updated assignment'))
+WebUI.verifyElementVisible(findTestObject('08-Operations/Client Assignment/span_Updated assignment'))
 
 WebUI.delay(GlobalVariable.delay_3s)
 
@@ -58,7 +58,7 @@ WebUI.click(findTestObject('08-Operations/Client Assignment/div_GG TESTER'))
 
 WebUI.click(findTestObject('08-Operations/Client Assignment/button_Unassign'))
 
-WebUI.verifyElementVisible(findTestObject('08-Operations/Client Assignment/Page_Everleagues/span_Updated assignment'))
+WebUI.verifyElementVisible(findTestObject('08-Operations/Client Assignment/span_Updated assignment'))
 
 WebUI.delay(GlobalVariable.delay_3s)
 

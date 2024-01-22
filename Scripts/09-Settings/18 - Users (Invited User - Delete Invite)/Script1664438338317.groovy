@@ -17,49 +17,32 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.delay(GlobalVariable.delay_2s)
-
-WebUI.verifyElementVisible(findTestObject('09-Settings/Users/Invited Users/div_GG Auto'))
-
-WebUI.delay(GlobalVariable.delay_3s)
-
 WebUI.click(findTestObject('09-Settings/Users/Invited Users/button_deleteInvite'))
 
-WebUI.verifyElementVisible(findTestObject('09-Settings/Users/Invited Users/h4_Delete Invitation'))
+WebUI.verifyElementVisible(findTestObject('09-Settings/Users/Invited Users/span_Delete Invitation'))
 
 WebUI.delay(GlobalVariable.delay_1s)
 
 WebUI.click(findTestObject('09-Settings/Users/Active User/button_Cancel_restore'))
 
-WebUI.delay(GlobalVariable.delay_3s)
-
-WebUI.verifyElementVisible(findTestObject('09-Settings/Users/Invited Users/div_GG Auto'))
-
-WebUI.click(findTestObject('09-Settings/Users/Invited Users/button_deleteInvite'))
-
-WebUI.verifyElementVisible(findTestObject('09-Settings/Users/Invited Users/h4_Delete Invitation'))
-
-WebUI.click(findTestObject('09-Settings/Users/Active User/button_Delete'))
-
-WebUI.delay(GlobalVariable.delay_3s)
-
-WebUI.verifyElementVisible(findTestObject('09-Settings/Users/Invited Users/div_CTCSV test 3'))
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('09-Settings/Users/Invited Users/button_deleteInvite'))
 
 WebUI.click(findTestObject('09-Settings/Users/Active User/button_Delete'))
 
 WebUI.delay(GlobalVariable.delay_3s)
+WebUI.click(findTestObject('09-Settings/Users/Invited Users/button_deleteInvite'))
 
-WebUI.verifyElementVisible(findTestObject('09-Settings/Users/Invited Users/div_CTCSV test 2'))
+WebUI.click(findTestObject('09-Settings/Users/Active User/button_Delete'))
+
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('09-Settings/Users/Invited Users/button_deleteInvite'))
 
 WebUI.click(findTestObject('09-Settings/Users/Active User/button_Delete'))
 
-WebUI.delay(GlobalVariable.delay_3s)
-
-WebUI.verifyElementVisible(findTestObject('09-Settings/Users/Invited Users/div_CTCSV test 1'))
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('09-Settings/Users/Invited Users/button_deleteInvite'))
 

@@ -1,20 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Congratulations msg</name>
+   <name>span_Delete Invitation</name>
    <tag></tag>
-   <elementGuidId>639fa473-dc4a-4d5b-80fe-f96b8c99d492</elementGuidId>
+   <elementGuidId>5e646a6c-45fc-41ab-b83e-4e01962adecb</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//h4[@id='mat-dialog-title-20']</value>
+         <key>CSS</key>
+         <value>#mat-dialog-title-3</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>#mat-dialog-title-20</value>
+         <key>BASIC</key>
+         <value>//h4[@class = 'mat-dialog-title' and (text() = 'Delete Invitation' or . = 'Delete Invitation')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[(text() = 'Delete Invitation' or . = 'Delete Invitation')]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -22,6 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>h4</value>
+      <webElementGuid>37c92d70-2677-4940-a73b-e99b6737c3cd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -29,82 +34,86 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-dialog-title</value>
+      <webElementGuid>3afdac32-1d50-46d2-81bd-01fcf3213ba1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>mat-dialog-title-20</value>
+      <value>mat-dialog-title-3</value>
+      <webElementGuid>881b3d04-ffe3-495d-958a-52e336820198</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Congratulations, GG Automation is ready for business!</value>
+      <value>Delete Invitation</value>
+      <webElementGuid>06ea1e91-5286-4ccd-a752-66f58526b29d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;mat-dialog-title-20&quot;)</value>
+      <value>id(&quot;mat-dialog-title-3&quot;)</value>
+      <webElementGuid>4a8b904f-3291-431a-b9d5-5870eaac9683</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//h4[@id='mat-dialog-title-20']</value>
+      <value>//h4[@id='mat-dialog-title-3']</value>
+      <webElementGuid>a145b771-bbbe-4831-9ab6-aba96eaa53a1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//mat-dialog-container[@id='mat-dialog-20']/app-dialog-welcome-new-org/section/h4</value>
+      <value>//mat-dialog-container[@id='mat-dialog-3']/app-dialog-delete-invite/section/h4</value>
+      <webElementGuid>7f1bea2b-f7bf-4b12-9745-be9b2e72926c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='DO THIS LATER'])[1]/following::h4[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='of 4'])[1]/following::h4[1]</value>
+      <webElementGuid>48a94163-539b-4ee2-8d62-92e3e255d8d7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='LEARN MORE ON HOW EVERLEAGUES MAY HELP YOUR BUSINESS'])[1]/following::h4[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Row per page:'])[1]/following::h4[1]</value>
+      <webElementGuid>3bf54bfa-602f-4739-ac20-57758a671ce3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='We recommend you:'])[2]/preceding::h4[1]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='SET UP YOUR ORGANIZATION STRUCTURE'])[2]/preceding::h4[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Are you sure you want to delete invite for autotester06@mailinator.com?'])[1]/preceding::h4[1]</value>
+      <webElementGuid>3d8274f9-5de3-4bfe-85ce-4c4b8e6a301f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[4]/div/mat-dialog-container/app-dialog-welcome-new-org/section/h4</value>
+      <value>//section/h4</value>
+      <webElementGuid>09e35480-bb2f-4ffb-aabb-71e5eea01d8d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//h4[@id = 'mat-dialog-title-20' and (text() = 'Congratulations, GG Automation is ready for business!' or . = 'Congratulations, GG Automation is ready for business!')]</value>
+      <value>//h4[@id = 'mat-dialog-title-3' and (text() = 'Delete Invitation' or . = 'Delete Invitation')]</value>
+      <webElementGuid>034bcd4c-2297-4291-b14c-49032c5e8850</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

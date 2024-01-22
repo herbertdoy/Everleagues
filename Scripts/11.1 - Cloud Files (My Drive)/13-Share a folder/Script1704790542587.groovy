@@ -96,7 +96,7 @@ WebUI.click(findTestObject('11-Cloud Files/div_dropdown'))
 
 WebUI.click(findTestObject('11-Cloud Files/span_Viewer'))
 
-WebUI.click(findTestObject('11-Cloud Files/button_save2'))
+WebUI.click(findTestObject('11-Cloud Files/button_Save  Add Users'))
 
 //WebUI.verifyElementVisible(findTestObject('11-Cloud Files/snack-bar-container_Shared folder access updated successfully.OK'))
 WebUI.delay(GlobalVariable.delay_3s)

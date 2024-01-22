@@ -6,16 +6,16 @@
    <elementGuidId>aef66895-eccc-49f4-9012-bf5b2be09f8c</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(//button[contains(@class,'mat-focus-indicator mat-button')])[1]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>button.mat-focus-indicator.mat-button.mat-button-base.mat-primary.ng-tns-c110-106.cdk-focused.cdk-mouse-focused</value>
       </entry>
       <entry>
          <key>BASIC</key>
          <value>//*[@type = 'button' and (text() = 'COPY' or . = 'COPY')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[(text() = 'COPY' or . = 'COPY')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -26,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>c4b08733-963f-4231-ba9b-466647459892</webElementGuid>
+      <webElementGuid>1cb118bd-111c-4fa8-b6a0-09ab022fcd92</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -34,7 +34,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>68e05560-b319-499b-95be-7530830aee57</webElementGuid>
+      <webElementGuid>6a688712-826a-4923-8fae-03dfe582d007</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,7 +42,7 @@
       <name>color</name>
       <type>Main</type>
       <value>primary</value>
-      <webElementGuid>c4806997-eb3c-484a-8b6b-b7574f6f6687</webElementGuid>
+      <webElementGuid>bcf4cd44-5d10-438f-a4d8-620a02405509</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,7 +50,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-focus-indicator mat-button mat-button-base mat-primary ng-tns-c110-106 cdk-focused cdk-mouse-focused</value>
-      <webElementGuid>7680b76a-c8f3-4d17-8310-3c8ec6a4bb81</webElementGuid>
+      <webElementGuid>bbdacd7b-2bdc-4f18-9d95-10b457d9cdf9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -58,7 +58,7 @@
       <name>ng-reflect-color</name>
       <type>Main</type>
       <value>primary</value>
-      <webElementGuid>07483011-f419-4b32-9ee9-0549fdda1489</webElementGuid>
+      <webElementGuid>605306e0-2ffa-4d0c-99c8-ccdc6a3db8d1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -66,7 +66,7 @@
       <name>text</name>
       <type>Main</type>
       <value>COPY</value>
-      <webElementGuid>f59cec8e-1edc-4fd4-b499-1781daa0342e</webElementGuid>
+      <webElementGuid>8d5dc49e-5a90-4ebd-9949-222fcf3704e3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -74,7 +74,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-dialog-10&quot;)/app-dialog-join-req-link[@class=&quot;ng-star-inserted&quot;]/section[1]/mat-dialog-content[@class=&quot;mat-dialog-content&quot;]/form[@class=&quot;ng-pristine ng-valid ng-touched&quot;]/mat-form-field[@class=&quot;mat-form-field ng-tns-c110-106 mat-primary mat-form-field-type-mat-input mat-form-field-appearance-outline mat-form-field-can-float mat-form-field-should-float mat-form-field-has-label ng-pristine ng-valid ng-touched&quot;]/div[@class=&quot;mat-form-field-wrapper ng-tns-c110-106&quot;]/div[@class=&quot;mat-form-field-flex ng-tns-c110-106&quot;]/div[@class=&quot;mat-form-field-suffix ng-tns-c110-106 ng-star-inserted&quot;]/button[@class=&quot;mat-focus-indicator mat-button mat-button-base mat-primary ng-tns-c110-106 cdk-focused cdk-mouse-focused&quot;]</value>
-      <webElementGuid>1ec09844-d78f-4b53-a4d9-7c6cab32458f</webElementGuid>
+      <webElementGuid>86092a63-3fdb-44ac-9ecc-8c3c8d1f1b28</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -82,7 +82,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[17]</value>
-      <webElementGuid>5d848a8f-29fe-493f-8f78-906ab4c4fe23</webElementGuid>
+      <webElementGuid>e596edb7-6a2e-4709-95e7-acae8cc8e6bb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -90,7 +90,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-dialog-container[@id='mat-dialog-10']/app-dialog-join-req-link/section/mat-dialog-content/form/mat-form-field/div/div/div[4]/button</value>
-      <webElementGuid>4cf24d7e-d400-49f0-a512-cc9e470e5582</webElementGuid>
+      <webElementGuid>c4ecd5ad-ecee-442f-868b-576ffde6c5e0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,7 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Client link'])[1]/following::button[1]</value>
-      <webElementGuid>aa79a11d-2b69-441a-8721-757155fa6ea0</webElementGuid>
+      <webElementGuid>54f05d8d-031e-4d17-a947-42b6771536d8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,7 +106,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Join Request'])[1]/following::button[1]</value>
-      <webElementGuid>531197f6-b7e6-4267-adc8-565277221a6b</webElementGuid>
+      <webElementGuid>7bc6d9e0-c9f1-4ec5-8c0d-9a3b08a10fb6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -114,7 +114,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Partner link'])[1]/preceding::button[1]</value>
-      <webElementGuid>c57e8642-1830-4826-892c-689d12b808fd</webElementGuid>
+      <webElementGuid>7537a010-cde5-491c-b43a-b6932f354b02</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -122,7 +122,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[4]/button</value>
-      <webElementGuid>48aea680-c9d1-481a-8986-0d2db766868f</webElementGuid>
+      <webElementGuid>6a85a435-42db-484a-bc15-aaace79eddeb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -130,6 +130,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = 'COPY' or . = 'COPY')]</value>
-      <webElementGuid>b5d73c3c-97d3-4a89-8a54-10e95a10bfa9</webElementGuid>
+      <webElementGuid>7ffda041-3719-41df-a3ae-ccc0dccb9a32</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

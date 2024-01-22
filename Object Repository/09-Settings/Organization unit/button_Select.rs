@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Select organization</name>
+   <name>button_Select</name>
    <tag></tag>
    <elementGuidId>48db0db8-04b7-4350-955f-4ebe672d362a</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//div[@class='action-container']//button)[3]</value>
+         <value>//button[(text() = 'Select' or . = 'Select')]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>eb221cb0-ae08-43c2-97fa-ed260f3d979d</webElementGuid>
+      <webElementGuid>c50aa7d0-c168-406f-9add-3add45488006</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>c7c468fd-fc3c-4de2-aff7-8e76cb5a9ece</webElementGuid>
+      <webElementGuid>d6e6ce52-bc78-4663-979e-574eebd09a1f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-focus-indicator mat-raised-button mat-button-base cdk-focused cdk-mouse-focused</value>
-      <webElementGuid>6bb8f1dd-4e48-4eba-9036-fa315f1e8005</webElementGuid>
+      <webElementGuid>4d121181-851d-48ee-8614-15a6ae3ff6f6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Select</value>
-      <webElementGuid>ce82b075-3f0e-47de-a956-2256b6378e26</webElementGuid>
+      <webElementGuid>409f54ce-10eb-4d25-a587-791c8668f80c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-dialog-7&quot;)/app-dialog-org-selector[@class=&quot;ng-star-inserted&quot;]/section[@class=&quot;dialog-container&quot;]/form[@class=&quot;ng-untouched ng-pristine ng-valid&quot;]/div[@class=&quot;mat-dialog-actions dialog-action&quot;]/div[@class=&quot;action-container&quot;]/button[@class=&quot;mat-focus-indicator mat-raised-button mat-button-base cdk-focused cdk-mouse-focused&quot;]</value>
-      <webElementGuid>9b8cb8e7-e13a-4fab-9478-a36a3a44ba68</webElementGuid>
+      <webElementGuid>a18d261c-7695-4f0f-8592-eed71ebdb22b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[16]</value>
-      <webElementGuid>0a7e69de-2301-40a3-8205-9cba36d4eea1</webElementGuid>
+      <webElementGuid>ba631d7c-a6c2-42e6-8ceb-85da43fb43c7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-dialog-container[@id='mat-dialog-7']/app-dialog-org-selector/section/form/div[2]/div/button</value>
-      <webElementGuid>e0d100d5-b930-48a5-8d16-6b5d22d2ad69</webElementGuid>
+      <webElementGuid>4abca556-8883-4b85-9830-65dd870e0efd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='GG Automation'])[3]/following::button[1]</value>
-      <webElementGuid>abb51256-c9e1-4ff0-af59-2e3e99d3b05f</webElementGuid>
+      <webElementGuid>c0ac05c6-ac06-4d39-9167-1fe4d89d1def</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Select an organization unit'])[1]/following::button[1]</value>
-      <webElementGuid>e9761ecb-e656-45cc-812b-5ba95bb4ae35</webElementGuid>
+      <webElementGuid>46db8a01-f5d6-4233-9243-6cebcdeca3cd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[2]/preceding::button[1]</value>
-      <webElementGuid>c11d59a5-7e50-4e4e-9b5a-ebb049ec375d</webElementGuid>
+      <webElementGuid>04fa0357-0e9c-466c-ab3f-3256e4796c13</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//app-dialog-org-selector/section/form/div[2]/div/button</value>
-      <webElementGuid>0084b8e9-9b35-41dc-b2a3-a834fc11c6f1</webElementGuid>
+      <webElementGuid>57290df3-86b7-4aed-b8d4-63d0a7084295</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,6 +110,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = 'Select' or . = 'Select')]</value>
-      <webElementGuid>850609ca-fbc9-4f47-b03b-6ccb29511457</webElementGuid>
+      <webElementGuid>61475f31-8fe6-48c6-ae05-d545d7e3601c</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

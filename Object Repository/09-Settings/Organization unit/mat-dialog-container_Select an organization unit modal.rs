@@ -6,10 +6,6 @@
    <elementGuidId>ef376526-2b44-441a-be04-48538ca9ed9c</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//mat-dialog-container[@id='mat-dialog-7']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#mat-dialog-7</value>
       </entry>
@@ -17,8 +13,12 @@
          <key>BASIC</key>
          <value>//mat-dialog-container[@role = 'dialog' and (text() = 'Select an organization unitGG AutomationSelectCancel' or . = 'Select an organization unitGG AutomationSelectCancel')]</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//mat-dialog-container[@aria-modal = 'true' and (text() = 'Select an Organization UnitGG AutomationCancelSelect' or . = 'Select an Organization UnitGG AutomationCancelSelect')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -26,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>mat-dialog-container</value>
-      <webElementGuid>0e7ebae0-5375-47ac-9b35-37b8e5ae3220</webElementGuid>
+      <webElementGuid>140a3fa0-985a-4afb-b79f-9cfc5f0d8649</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -34,7 +34,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>-1</value>
-      <webElementGuid>8ff98fad-9f40-48de-b98a-5b8a148a30b8</webElementGuid>
+      <webElementGuid>1d6a94c6-ed3e-441e-961b-73389dbb4700</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,7 +42,7 @@
       <name>aria-modal</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>b11a19e5-a22a-4f31-869b-27e2455a6443</webElementGuid>
+      <webElementGuid>034d79e2-1f06-408c-a807-74254a46f1e9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,7 +50,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-dialog-container ng-tns-c33-44 ng-trigger ng-trigger-dialogContainer ng-star-inserted</value>
-      <webElementGuid>ec8130c3-ca93-4b13-b2c0-65deb5a8b42a</webElementGuid>
+      <webElementGuid>a96f4e4e-9918-44a1-8a56-94864c98664e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -58,7 +58,7 @@
       <name>id</name>
       <type>Main</type>
       <value>mat-dialog-7</value>
-      <webElementGuid>55eeaa5f-44bf-4da0-a6e8-e20668d31dac</webElementGuid>
+      <webElementGuid>c1aeab94-d710-4060-a196-7cdcb6b9cc65</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -66,7 +66,7 @@
       <name>role</name>
       <type>Main</type>
       <value>dialog</value>
-      <webElementGuid>094090dc-beff-4049-8b5d-adbf65c2b592</webElementGuid>
+      <webElementGuid>a84fa2eb-f20f-4544-b596-f14811c96a6c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -74,7 +74,7 @@
       <name>aria-labelledby</name>
       <type>Main</type>
       <value>mat-dialog-title-7</value>
-      <webElementGuid>48ae9bb3-f4f9-40dd-86b1-586135926371</webElementGuid>
+      <webElementGuid>9dccfd4d-9bff-4a5b-bf16-5c0e918b4eff</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -82,7 +82,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Select an organization unitGG AutomationSelectCancel</value>
-      <webElementGuid>4e2720c0-9083-4e06-9648-fb8171a7178c</webElementGuid>
+      <webElementGuid>5ee80cbf-fcd9-476c-ae67-e568685a1634</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -90,7 +90,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-dialog-7&quot;)</value>
-      <webElementGuid>e289df87-2a4c-463b-9c88-38dfa1b130ce</webElementGuid>
+      <webElementGuid>fab48e9a-4e2f-4cdd-87b5-1dd6a54078de</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -98,7 +98,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//mat-dialog-container[@id='mat-dialog-7']</value>
-      <webElementGuid>1aa38747-ff75-40c2-9274-262a50678600</webElementGuid>
+      <webElementGuid>84da9fa4-d704-4da8-bba6-80fdc2b3868d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,7 +106,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='cdk-overlay-9']/mat-dialog-container</value>
-      <webElementGuid>f46fbd92-a130-413f-9294-e0ba3c3c312d</webElementGuid>
+      <webElementGuid>f0e52aad-397f-4503-9102-6ff62157d09b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -114,7 +114,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/following::mat-dialog-container[1]</value>
-      <webElementGuid>5f1d1883-968e-4260-996b-e57ef49c3925</webElementGuid>
+      <webElementGuid>a6d320cc-bb47-4517-98e1-b96644752df4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -122,7 +122,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Save'])[1]/following::mat-dialog-container[1]</value>
-      <webElementGuid>819dce6f-1884-4499-89a7-b4569deec705</webElementGuid>
+      <webElementGuid>d85c2088-f2ac-4503-b8fb-b449dd64bc0a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -130,7 +130,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[4]/div/mat-dialog-container</value>
-      <webElementGuid>e9ddc95b-a73e-44df-b0e7-4b3c0f3ce882</webElementGuid>
+      <webElementGuid>9dcf9b77-d249-45c4-b8ca-590ddba46128</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -138,6 +138,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//mat-dialog-container[@id = 'mat-dialog-7' and (text() = 'Select an organization unitGG AutomationSelectCancel' or . = 'Select an organization unitGG AutomationSelectCancel')]</value>
-      <webElementGuid>b4c9ce7b-c35d-4cc1-bf05-9981441d4409</webElementGuid>
+      <webElementGuid>dc28ae91-3bcc-4344-a19b-ff5b011cefbe</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

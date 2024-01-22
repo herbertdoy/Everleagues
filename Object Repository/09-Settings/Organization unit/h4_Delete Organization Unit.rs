@@ -6,10 +6,6 @@
    <elementGuidId>166f9d4d-dd3f-4ec6-9556-b502629a0a51</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//h4[@id='mat-dialog-title-16']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#mat-dialog-title-16</value>
       </entry>
@@ -17,8 +13,12 @@
          <key>BASIC</key>
          <value>//h4[@class = 'mat-dialog-title' and (text() = 'Delete Organization Unit' or . = 'Delete Organization Unit')]</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[(text() = 'Delete Organization Unit' or . = 'Delete Organization Unit')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -26,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>h4</value>
-      <webElementGuid>2be3db7b-3059-4195-8315-2116ba9600c9</webElementGuid>
+      <webElementGuid>bd0b4d26-3b7f-4403-8bad-e661dac37e02</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -34,7 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-dialog-title</value>
-      <webElementGuid>0aa9a5fa-de26-4562-9b74-a1a0d69c0406</webElementGuid>
+      <webElementGuid>4b4a81f9-2a4c-41af-8991-5cbf41c73b89</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,7 +42,7 @@
       <name>id</name>
       <type>Main</type>
       <value>mat-dialog-title-16</value>
-      <webElementGuid>849e5169-08ce-4058-bc05-448c7965b326</webElementGuid>
+      <webElementGuid>2102d068-f9df-4e8e-9e5d-7c24e3b1c22e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -50,7 +50,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Delete Organization Unit</value>
-      <webElementGuid>b41c64be-a48b-4132-81cb-09fe613dc494</webElementGuid>
+      <webElementGuid>4cd270d8-8c23-4843-9f22-00b587b9835c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -58,7 +58,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-dialog-title-16&quot;)</value>
-      <webElementGuid>5dbea328-daeb-460d-8289-4063ab18290f</webElementGuid>
+      <webElementGuid>7d3e2ead-5855-4cf9-a95c-7367019672c5</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -66,7 +66,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//h4[@id='mat-dialog-title-16']</value>
-      <webElementGuid>f346e6d6-7675-488a-a316-95a04e4c6d99</webElementGuid>
+      <webElementGuid>bcaaad7c-271d-43a2-a3d3-f5d14cc860c4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -74,7 +74,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-dialog-container[@id='mat-dialog-16']/app-dialog-delete-ou/section/h4</value>
-      <webElementGuid>fa6985e9-358d-4a7a-9890-326f089d674c</webElementGuid>
+      <webElementGuid>8c60bbcb-b8f1-4301-9f67-f4ac5d87eb4b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Add Organization Unit'])[1]/following::h4[1]</value>
-      <webElementGuid>a903cd1c-2e1f-4f81-9514-d42fc0869a40</webElementGuid>
+      <webElementGuid>099467bf-447b-430d-a052-6f6d3efc1cbb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -90,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Join Request Link'])[1]/following::h4[1]</value>
-      <webElementGuid>13137fd7-b3ff-4606-b8c7-16a00f5697e6</webElementGuid>
+      <webElementGuid>d48615a4-66fc-40c5-9831-128534b5241f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,7 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Warning! All resources associated with this root organization will be permanently deleted.'])[1]/preceding::h4[1]</value>
-      <webElementGuid>733b72b5-b5fd-4768-95fb-0b293eb787e3</webElementGuid>
+      <webElementGuid>7b86a57c-28da-49ff-b2ac-73a5fc143add</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,7 +106,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Delete Organization Unit']/parent::*</value>
-      <webElementGuid>f0210ca4-1035-4a14-8781-ec53eba11cb9</webElementGuid>
+      <webElementGuid>a9eef22c-55ec-48c4-a528-0f30206e153f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -114,7 +114,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//section/h4</value>
-      <webElementGuid>2ac3ac9b-acd4-4ba7-b6e4-2e4f0b2b7d5e</webElementGuid>
+      <webElementGuid>228301d4-1a2a-4b58-9d8c-3de66505a9a2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -122,6 +122,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//h4[@id = 'mat-dialog-title-16' and (text() = 'Delete Organization Unit' or . = 'Delete Organization Unit')]</value>
-      <webElementGuid>8da42946-901e-4013-ba4f-63e7ee80da10</webElementGuid>
+      <webElementGuid>6b16d2ad-a792-4a56-9e03-f0e09f8743a7</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

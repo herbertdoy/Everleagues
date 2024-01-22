@@ -1,115 +1,107 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>label_</name>
+   <name>span_Updated assignment</name>
    <tag></tag>
-   <elementGuidId>6832b138-cb54-42c3-9028-6ea5b437cd67</elementGuidId>
+   <elementGuidId>43abdeb4-5324-42af-8f49-d474ebfa483a</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#mat-slide-toggle-9 > label.mat-slide-toggle-label</value>
+         <value>span.mat-simple-snack-bar-content</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//mat-slide-toggle[@id='mat-slide-toggle-9']/label</value>
+         <value>//div[@id='cdk-overlay-5']/snack-bar-container/div/div/simple-snack-bar/span</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>label</value>
-      <webElementGuid>4acfe914-0319-44ea-8e8a-0bb418f27b5a</webElementGuid>
+      <value>span</value>
+      <webElementGuid>aba8d671-0d40-4741-b706-e74a5613849d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>mat-slide-toggle-label</value>
-      <webElementGuid>213b322d-5ce3-4252-a7e2-56eaea589a68</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>for</name>
-      <type>Main</type>
-      <value>mat-slide-toggle-9-input</value>
-      <webElementGuid>c3a2a91d-2042-44ae-badb-83d8f995063c</webElementGuid>
+      <value>mat-simple-snack-bar-content</value>
+      <webElementGuid>7c96d02b-7c28-4dc7-9760-f1383fb704c5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value> </value>
-      <webElementGuid>524f1ddd-6054-4f3b-a025-be07c8bd4924</webElementGuid>
+      <value>Updated assignment</value>
+      <webElementGuid>f70542ee-a49e-479a-b1a8-50d0bdc82a91</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;mat-slide-toggle-9&quot;)/label[@class=&quot;mat-slide-toggle-label&quot;]</value>
-      <webElementGuid>427cc98a-42d6-434d-8f8a-cb6e8a258dbc</webElementGuid>
+      <value>id(&quot;cdk-overlay-5&quot;)/snack-bar-container[@class=&quot;mat-snack-bar-container ng-tns-c50-65 ng-trigger ng-trigger-state mat-snack-bar-center ng-star-inserted&quot;]/div[@class=&quot;ng-tns-c50-65&quot;]/div[@class=&quot;ng-tns-c50-65&quot;]/simple-snack-bar[@class=&quot;mat-simple-snackbar ng-star-inserted&quot;]/span[@class=&quot;mat-simple-snack-bar-content&quot;]</value>
+      <webElementGuid>021ec51f-d641-40e0-b120-32beff8445ab</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//mat-slide-toggle[@id='mat-slide-toggle-9']/label</value>
-      <webElementGuid>8ad6e27c-e604-4141-9f9c-91503bcb23fa</webElementGuid>
+      <value>//div[@id='cdk-overlay-5']/snack-bar-container/div/div/simple-snack-bar/span</value>
+      <webElementGuid>09f5ac44-b9e8-4abf-bcc0-c5610e0b4d95</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='AI Assistant'])[1]/following::label[1]</value>
-      <webElementGuid>52d3fa55-1606-4ce5-beb9-28f5cae6378e</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Client Assignment'])[2]/following::span[1]</value>
+      <webElementGuid>ec40c72d-8965-4e84-a655-af1056ee9a74</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Income and Expense'])[1]/following::label[2]</value>
-      <webElementGuid>349e1562-145c-44b3-90e5-b8eec8aa82f3</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Invite New User'])[1]/following::span[1]</value>
+      <webElementGuid>f53caa17-77cc-46ac-8dfe-8e96ad345675</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='PDF Converter'])[1]/preceding::label[1]</value>
-      <webElementGuid>9d139d82-79da-4a9a-be6c-55b6f0494419</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='OK'])[1]/preceding::span[1]</value>
+      <webElementGuid>05ea1e83-87c9-4b8f-be5f-60ab7029b102</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::label[2]</value>
-      <webElementGuid>3258b5cf-02f0-422e-a8f1-51f1e00ff7d7</webElementGuid>
+      <value>//*/text()[normalize-space(.)='Updated assignment']/parent::*</value>
+      <webElementGuid>9e00fe29-557d-466d-aabe-b81a5a504012</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[6]/mat-slide-toggle/label</value>
-      <webElementGuid>82ef3bf5-1ccb-4057-b7b0-5ad84ddbbecb</webElementGuid>
+      <value>//simple-snack-bar/span</value>
+      <webElementGuid>d6af5259-5ad8-432b-a1fc-2f5a433e582d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//label[(text() = ' ' or . = ' ')]</value>
-      <webElementGuid>b0d1f2bb-0ed7-48d0-9afb-030751432993</webElementGuid>
+      <value>//span[(text() = 'Updated assignment' or . = 'Updated assignment')]</value>
+      <webElementGuid>5f7e1da0-259f-4b30-8f5e-17cbd823a4aa</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

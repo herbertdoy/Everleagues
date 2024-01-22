@@ -6,16 +6,16 @@
    <elementGuidId>7fab5d1b-171d-4114-932c-cf979bc8431c</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(//mat-icon[text()='create'])[2]</value>
+         <key>CSS</key>
+         <value>mat-icon.mat-icon.notranslate.suffix-icon.material-icons.mat-icon-no-color.ng-star-inserted</value>
       </entry>
       <entry>
          <key>BASIC</key>
          <value>//mat-icon[@role = 'img' and @class = 'mat-icon notranslate suffix-icon material-icons mat-icon-no-color ng-star-inserted' and (text() = 'create' or . = 'create')]</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>mat-icon.mat-icon.notranslate.suffix-icon.material-icons.mat-icon-no-color.ng-star-inserted</value>
+         <key>XPATH</key>
+         <value>(//mat-icon[@data-mat-icon-name='pencil'])[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -26,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>mat-icon</value>
-      <webElementGuid>38ce14b9-d68a-4609-81d4-b2cc0955d215</webElementGuid>
+      <webElementGuid>bf2cd65d-2d01-49b5-bae9-fc4502089f1f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -34,7 +34,7 @@
       <name>role</name>
       <type>Main</type>
       <value>img</value>
-      <webElementGuid>5e92866e-ded8-48fe-85ed-056d0b546af1</webElementGuid>
+      <webElementGuid>1266c5ea-b1f7-4ff1-b98c-05334d7baf67</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -42,7 +42,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-icon notranslate suffix-icon material-icons mat-icon-no-color ng-star-inserted</value>
-      <webElementGuid>9f4e47ac-e6cf-4f6d-b036-dfe5cfcc3fbd</webElementGuid>
+      <webElementGuid>28081c4c-b3b7-4e66-ac45-bdc4cd2c44b2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,7 +50,7 @@
       <name>aria-hidden</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>eadeec00-d6b8-4583-af61-5cd4c4912fbf</webElementGuid>
+      <webElementGuid>6872bbe3-de6e-4dd1-a0aa-077692b88d38</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -58,7 +58,7 @@
       <name>text</name>
       <type>Main</type>
       <value>create</value>
-      <webElementGuid>1b6c2726-31bd-4893-b3dd-f42f8d0df2f8</webElementGuid>
+      <webElementGuid>d768d1af-c700-41b2-bda3-4f8cd22cf32c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -66,7 +66,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;input-select-ou-0&quot;)/div[@class=&quot;ng-pristine ng-valid ng-touched&quot;]/mat-icon[@class=&quot;mat-icon notranslate suffix-icon material-icons mat-icon-no-color ng-star-inserted&quot;]</value>
-      <webElementGuid>a604311f-c2df-43db-905b-bf4eccfc648c</webElementGuid>
+      <webElementGuid>2089f1b3-23f5-4126-87d7-51fecc1929c5</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -74,7 +74,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//input-select-ou[@id='input-select-ou-0']/div/mat-icon</value>
-      <webElementGuid>45a97402-df09-458d-ba03-012834649b03</webElementGuid>
+      <webElementGuid>21313260-1a56-45b0-a99b-f0465950a6a3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Name'])[2]/following::mat-icon[1]</value>
-      <webElementGuid>dce80afa-cad6-42ba-8125-dec33f86045b</webElementGuid>
+      <webElementGuid>07d6b382-f0eb-438a-b2e0-92a6332c01eb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -90,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Add Organization Unit'])[1]/following::mat-icon[1]</value>
-      <webElementGuid>84ff54d2-282e-4134-9c9f-fec9555f7cdb</webElementGuid>
+      <webElementGuid>3f14de98-9dc4-415d-a58c-b93289099f0d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,7 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Parent Organization Unit Name'])[1]/preceding::mat-icon[1]</value>
-      <webElementGuid>9fdbf493-5564-411b-93d6-4b2ee29a72dd</webElementGuid>
+      <webElementGuid>830e9dc8-fe00-404a-96c0-e5a8a77d8509</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,7 +106,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Organization Unit Name'])[1]/preceding::mat-icon[1]</value>
-      <webElementGuid>7f89a9d7-b339-4abe-93bd-93e4e7ffb923</webElementGuid>
+      <webElementGuid>71ef0ba1-6980-488d-9949-de6218e5c9f4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -114,7 +114,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//input-select-ou/div/mat-icon</value>
-      <webElementGuid>feb25c4a-466a-45f6-ba99-985a12b75e00</webElementGuid>
+      <webElementGuid>02200b8c-ddb9-4b31-84a1-3d372c3bdc3a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -122,6 +122,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//mat-icon[(text() = 'create' or . = 'create')]</value>
-      <webElementGuid>938252d5-902a-4958-a89f-8714978b2d95</webElementGuid>
+      <webElementGuid>f1c61c4a-50cc-416a-bcec-bf171e8eddb8</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

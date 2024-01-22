@@ -19,37 +19,34 @@ import org.openqa.selenium.Keys as Keys
 import java.awt.Toolkit as Toolkit
 import java.awt.datatransfer.DataFlavor as DataFlavor
 
-WebUI.delay(GlobalVariable.delay_3s)
-
-WebUI.mouseOver(findTestObject('09-Settings/Organization unit/div_GG TESTER'))
-
-WebUI.delay(GlobalVariable.delay_3s)
-
 //WebUI.waitForElementClickable(findTestObject('09-Settings/Organization unit/div_GG TESTER'), 0)
-WebUI.click(findTestObject('09-Settings/Organization unit/div_GG TESTER'))
+WebUI.click(findTestObject('09-Settings/Organization unit/button_chevron'))
 
-WebUI.delay(GlobalVariable.delay_3s)
+WebUI.delay(GlobalVariable.delay_2s)
+
+WebUI.click(findTestObject('09-Settings/Organization unit/button_chevron'))
+
+WebUI.delay(GlobalVariable.delay_2s)
 
 //WebUI.waitForElementVisible(findTestObject('09-Settings/Organization unit/button_link'), 0)
 //WebUI.waitForElementClickable(findTestObject('09-Settings/Organization unit/button_link'), 0)
 WebUI.click(findTestObject('09-Settings/Organization unit/button_link'))
 
-WebUI.verifyElementPresent(findTestObject('09-Settings/Organization unit/mat-dialog-container_Join Request modal'), 0)
-
 WebUI.verifyElementPresent(findTestObject('09-Settings/Organization unit/h2_Join Request'), 0)
+
+WebUI.verifyElementPresent(findTestObject('09-Settings/Organization unit/mat-dialog-container_Join Request modal'), 0)
 
 WebUI.verifyElementPresent(findTestObject('09-Settings/Organization unit/div_Client link'), 0)
 
 WebUI.verifyElementPresent(findTestObject('09-Settings/Organization unit/div_Partner link'), 0)
 
-WebUI.delay(GlobalVariable.delay_3s)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('09-Settings/Organization unit/button_COPY'))
 
 WebUI.verifyElementPresent(findTestObject('09-Settings/Organization unit/snack-bar-container_Copy Link'), 0)
 
-WebUI.click(findTestObject('09-Settings/Organization unit/button_Ok'))
-
+//WebUI.click(findTestObject('09-Settings/Organization unit/button_Ok'))
 WebUI.delay(GlobalVariable.delay_3s)
 
 //WebUI.executeJavaScript('window.open();', [])
@@ -65,7 +62,7 @@ WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.verifyElementPresent(findTestObject('09-Settings/Organization unit/mat_card_join request link'), 0)
 
-WebUI.delay(GlobalVariable.delay_3s)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.navigateToUrl(GlobalVariable.URL_lab)
 

@@ -86,7 +86,7 @@ WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.verifyElementVisible(findTestObject('06-Teams/span_GG Automation'))
 
-WebUI.delay(GlobalVariable.delay_4s)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('03-Header Menu/div_Settings'))
 
@@ -100,7 +100,7 @@ WebUI.scrollToElement(findTestObject('09-Settings/Users/div_Users'), 0)
 
 WebUI.verifyElementVisible(findTestObject('09-Settings/Users/div_Users'))
 
-WebUI.delay(GlobalVariable.delay_3s)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('09-Settings/Users/div_Users'))
 
@@ -110,23 +110,19 @@ WebUI.verifyElementVisible(findTestObject('09-Settings/Users/Invited Users/div_I
 
 WebUI.click(findTestObject('09-Settings/Users/Invited Users/div_Invited Users'))
 
-WebUI.delay(GlobalVariable.delay_4s)
-
-WebUI.click(findTestObject('09-Settings/Users/Active User/button_search'))
-
-WebUI.delay(GlobalVariable.delay_3s)
-
-WebUI.click(findTestObject('09-Settings/Users/Active User/button_arrow_back'))
-
-WebUI.delay(GlobalVariable.delay_3s)
-
-WebUI.click(findTestObject('09-Settings/Users/Active User/button_search'))
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.setText(findTestObject('09-Settings/Users/Active User/Search field'), 'test3')
 
-WebUI.delay(GlobalVariable.delay_1s)
+WebUI.delay(GlobalVariable.delay_2s)
 
-WebUI.click(findTestObject('09-Settings/Users/Active User/button_Cancel'))
+WebUI.verifyElementVisible(findTestObject('09-Settings/Users/Invited Users/td_CTCSV test3'))
+
+WebUI.delay(GlobalVariable.delay_2s)
+
+WebUI.sendKeys(findTestObject('09-Settings/Users/Active User/Search field'), Keys.chord(Keys.CONTROL, 'a'))
+
+WebUI.sendKeys(findTestObject('09-Settings/Users/Active User/Search field'), Keys.chord(Keys.BACK_SPACE))
 
 WebUI.delay(GlobalVariable.delay_3s)
 

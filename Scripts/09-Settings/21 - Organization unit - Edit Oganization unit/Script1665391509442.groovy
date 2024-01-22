@@ -84,7 +84,7 @@ WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.verifyElementVisible(findTestObject('06-Teams/span_GG Automation'))
 
-WebUI.delay(GlobalVariable.delay_4s)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('03-Header Menu/div_Settings'))
 
@@ -97,7 +97,7 @@ WebUI.click(findTestObject('03-Header Menu/div_Settings'))
 //WebUI.verifyElementVisible(findTestObject('09-Settings/Users/div_Subscriptions'))
 //
 //WebUI.verifyElementVisible(findTestObject('09-Settings/Users/div_Users'))
-WebUI.delay(GlobalVariable.delay_3s)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.scrollToElement(findTestObject('09-Settings/Users/div_Organization Units'), 0)
 
@@ -106,26 +106,17 @@ WebUI.click(findTestObject('09-Settings/Users/div_Organization Units'))
 WebUI.verifyElementVisible(findTestObject('09-Settings/Organization unit/h4_ORGANIZATION STRUCTURE SETUP'))
 
 //WebUI.verifyElementVisible(findTestObject('09-Settings/Users/User Page'))
-WebUI.delay(GlobalVariable.delay_3s)
-
-WebUI.mouseOver(findTestObject('09-Settings/Organization unit/div_GG TESTER'))
-
-WebUI.delay(GlobalVariable.delay_3s)
-
-//WebUI.waitForElementClickable(findTestObject('09-Settings/Organization unit/div_GG TESTER'), 0)
-WebUI.click(findTestObject('09-Settings/Organization unit/div_GG TESTER'))
-
-WebUI.delay(GlobalVariable.delay_3s)
+WebUI.delay(GlobalVariable.delay_2s)
 
 //WebUI.waitForElementVisible(findTestObject('09-Settings/Users/Active User/button_ellipses'), 0)
 //WebUI.waitForElementClickable(findTestObject('09-Settings/Users/Active User/button_ellipses'), 0)
 WebUI.click(findTestObject('09-Settings/Users/Active User/button_ellipses'))
 
-WebUI.delay(GlobalVariable.delay_3s)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('09-Settings/Organization unit/button_Edit Organization Unit'))
 
-WebUI.verifyElementVisible(findTestObject('09-Settings/Organization unit/mat-dialog-container_Edit Organization Unit modal'), 
+WebUI.verifyElementVisible(findTestObject('09-Settings/Organization unit/mat-dialog-container_Edit Organization Unit                    Organization Unit Name CancelSave'), 
     FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementVisible(findTestObject('09-Settings/Organization unit/h4_Edit Organization Unit'), FailureHandling.STOP_ON_FAILURE)
@@ -134,11 +125,7 @@ WebUI.verifyElementVisible(findTestObject('09-Settings/Organization unit/input_E
 
 WebUI.click(findTestObject('09-Settings/Users/Active User/button_Cancel_restore'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(GlobalVariable.delay_3s)
-
-WebUI.mouseOver(findTestObject('09-Settings/Organization unit/div_GG TESTER'))
-
-WebUI.delay(GlobalVariable.delay_3s)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('09-Settings/Users/Active User/button_ellipses'))
 
@@ -149,18 +136,14 @@ WebUI.verifyElementVisible(findTestObject('09-Settings/Organization unit/mat-dia
 
 WebUI.setText(findTestObject('09-Settings/Organization unit/input_Edit Organization Unit_orgName'), GlobalVariable.edit_org_unit)
 
-WebUI.delay(GlobalVariable.delay_3s)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('09-Settings/Users/Active User/button_Save'))
 
 WebUI.verifyElementVisible(findTestObject('09-Settings/Organization unit/snack-bar-container_Successfully updated organization unitOK'), 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(GlobalVariable.delay_3s)
-
-WebUI.mouseOver(findTestObject('09-Settings/Organization unit/div_GG TESTER'))
-
-WebUI.delay(GlobalVariable.delay_3s)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('09-Settings/Users/Active User/button_ellipses'))
 
@@ -170,7 +153,7 @@ WebUI.click(findTestObject('09-Settings/Organization unit/button_Edit Organizati
 //    FailureHandling.STOP_ON_FAILURE)
 WebUI.setText(findTestObject('09-Settings/Organization unit/input_Edit Organization Unit_orgName'), GlobalVariable.org_unit)
 
-WebUI.delay(GlobalVariable.delay_3s)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('09-Settings/Users/Active User/button_Save'))
 

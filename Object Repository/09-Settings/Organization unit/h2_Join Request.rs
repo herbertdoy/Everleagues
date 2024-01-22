@@ -6,10 +6,6 @@
    <elementGuidId>4d169488-92ae-4126-b9ff-0df68a3d1ab6</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//h2[@id='mat-dialog-title-12']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#mat-dialog-title-12</value>
       </entry>
@@ -17,8 +13,12 @@
          <key>BASIC</key>
          <value>//h2[@class = 'mat-dialog-title' and (text() = 'Join Request' or . = 'Join Request')]</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//h2[@class = 'mat-dialog-title' and (text() = 'Join Request' or . = 'Join Request')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -26,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>h2</value>
-      <webElementGuid>5760ef49-b9a4-4743-890b-242633d56ab9</webElementGuid>
+      <webElementGuid>6fa6494c-5d2f-48ed-99e4-b1f6e9ff0288</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -34,7 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-dialog-title</value>
-      <webElementGuid>25c39ac2-d708-4c6f-9a77-f4c282064c8d</webElementGuid>
+      <webElementGuid>9587bdb0-26a4-4a0b-b946-4917c59f4e39</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,7 +42,7 @@
       <name>id</name>
       <type>Main</type>
       <value>mat-dialog-title-12</value>
-      <webElementGuid>2893ef57-f242-4ca2-9dae-d0ed8f282b82</webElementGuid>
+      <webElementGuid>96dffe30-1881-453a-9ca8-e23c07359f8f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -50,7 +50,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Join Request</value>
-      <webElementGuid>e3186020-5073-4b8e-8c3e-fb2bdf5e7c2a</webElementGuid>
+      <webElementGuid>29cfa5f0-6955-4d45-b7a5-8f179a0971f9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -58,7 +58,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-dialog-title-12&quot;)</value>
-      <webElementGuid>e65dc99b-95ca-4f9d-8b84-a27238542bb4</webElementGuid>
+      <webElementGuid>0ff26126-5748-44f3-a10b-86c4fc9b31e1</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -66,7 +66,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//h2[@id='mat-dialog-title-12']</value>
-      <webElementGuid>b2251d2f-d25c-409d-b91d-c3d86e4e7681</webElementGuid>
+      <webElementGuid>30aa5f26-9cd2-4cee-b7a4-566b538d8f80</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -74,7 +74,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-dialog-container[@id='mat-dialog-12']/app-dialog-join-req-link/section/h2</value>
-      <webElementGuid>49132331-18d4-4e39-8e70-fb970fe77e87</webElementGuid>
+      <webElementGuid>30af2ff6-a6e6-47a7-83cd-e56700683e54</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Add Organization Unit'])[1]/following::h2[1]</value>
-      <webElementGuid>5b5e0330-84b5-450b-bb9c-55563e84bcb3</webElementGuid>
+      <webElementGuid>2476f886-3088-4948-9dd2-e6d766dda58f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -90,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Join Request Link'])[1]/following::h2[1]</value>
-      <webElementGuid>8f526f9a-5f60-4d6b-9153-af6b21a14562</webElementGuid>
+      <webElementGuid>9066baa5-4d16-4dc2-a496-08e890bcffed</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,7 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Client link'])[1]/preceding::h2[1]</value>
-      <webElementGuid>81c6db7a-f059-4705-9497-8998429aa75d</webElementGuid>
+      <webElementGuid>7c481e1c-62ac-4694-a51a-647ce0a9a858</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,7 +106,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='COPY'])[1]/preceding::h2[1]</value>
-      <webElementGuid>ef000d12-d82c-4776-8a21-210809b26673</webElementGuid>
+      <webElementGuid>013f990d-7d86-44a9-b84b-d729015e227e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -114,7 +114,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Join Request']/parent::*</value>
-      <webElementGuid>3fa516f6-da13-4f81-863b-b074197867be</webElementGuid>
+      <webElementGuid>8370521e-b259-4ed5-9282-0ad53a2affef</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -122,7 +122,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//h2</value>
-      <webElementGuid>479c82fa-31d3-43e7-8244-fffa0f3e3233</webElementGuid>
+      <webElementGuid>aa093099-6d36-45ab-b452-f24e0557b72d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -130,6 +130,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//h2[@id = 'mat-dialog-title-12' and (text() = 'Join Request' or . = 'Join Request')]</value>
-      <webElementGuid>3ea24755-2819-4c4d-a161-e1bcfc0697a6</webElementGuid>
+      <webElementGuid>22ea25eb-b2e7-43a4-817e-ea2a60d9f8a8</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

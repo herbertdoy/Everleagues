@@ -6,16 +6,16 @@
    <elementGuidId>787ffaae-7a8e-48fb-a957-6f900645c140</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//mat-dialog-container[@role = 'dialog' and (text() = 'Join Request Send invitation to potential members so that they can send a request to join the organization. Just click to copy the button below and paste it to your email. Client linkCOPYExternal Contact linkCOPYOk' or . = 'Join Request Send invitation to potential members so that they can send a request to join the organization. Just click to copy the button below and paste it to your email. Client linkCOPYExternal Contact linkCOPYOk')]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#mat-dialog-10</value>
       </entry>
       <entry>
          <key>BASIC</key>
          <value>//mat-dialog-container[@role = 'dialog' and (text() = 'Join Request Send invitation to potential members so that they can send a request to join the organization. Just click to copy the button below and paste it to your email. Client linkCOPYPartner linkCOPYOk' or . = 'Join Request Send invitation to potential members so that they can send a request to join the organization. Just click to copy the button below and paste it to your email. Client linkCOPYPartner linkCOPYOk')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//mat-dialog-container[@role='dialog']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -26,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>mat-dialog-container</value>
-      <webElementGuid>512834d4-f4a5-479b-9b9a-da8993a7b9da</webElementGuid>
+      <webElementGuid>1803bc8c-7b23-467e-a038-449b2a1482e2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -34,7 +34,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>-1</value>
-      <webElementGuid>82ac072f-2d70-4619-bdd1-4e61d402c834</webElementGuid>
+      <webElementGuid>4a147be0-b0b3-476e-8e26-d5fd28217b89</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,7 +42,7 @@
       <name>aria-modal</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>19686a42-e7a9-4ef9-8aff-d3c0338b8876</webElementGuid>
+      <webElementGuid>7443993b-35bd-4197-a65a-28d23a3f7ce4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,7 +50,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-dialog-container ng-tns-c33-105 ng-trigger ng-trigger-dialogContainer ng-star-inserted</value>
-      <webElementGuid>663e8f13-cd33-41b2-97b6-7d94e2d892ce</webElementGuid>
+      <webElementGuid>ca77b0c1-ee44-4e97-8188-4af975d07944</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -58,7 +58,7 @@
       <name>id</name>
       <type>Main</type>
       <value>mat-dialog-10</value>
-      <webElementGuid>e48ad63a-cb3f-47e7-b287-bb8ba6762632</webElementGuid>
+      <webElementGuid>a32a6d56-a48e-4a30-8493-0671c83c2f00</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -66,7 +66,7 @@
       <name>role</name>
       <type>Main</type>
       <value>dialog</value>
-      <webElementGuid>e90facfa-3032-4f98-a375-eab3219f993f</webElementGuid>
+      <webElementGuid>3324b5a8-92d8-4058-a2ae-68589e08750c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -74,7 +74,7 @@
       <name>aria-labelledby</name>
       <type>Main</type>
       <value>mat-dialog-title-10</value>
-      <webElementGuid>e55b0aff-c037-4409-b4ee-5753a9a089d4</webElementGuid>
+      <webElementGuid>cd0bfffa-9885-4fd4-8a8b-490d752ef646</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -82,7 +82,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Join Request Send invitation to potential members so that they can send a request to join the organization. Just click to copy the button below and paste it to your email. Client linkCOPYPartner linkCOPYOk</value>
-      <webElementGuid>22267aff-d228-4128-8e07-a61766c6359f</webElementGuid>
+      <webElementGuid>c461f302-54da-4606-bdb9-797436b93b82</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -90,7 +90,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-dialog-10&quot;)</value>
-      <webElementGuid>c39555c7-85a8-45a0-afdb-b7782b2ef5ab</webElementGuid>
+      <webElementGuid>1b706111-b959-4021-b774-6186ce2c1d0a</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -98,7 +98,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//mat-dialog-container[@id='mat-dialog-10']</value>
-      <webElementGuid>500fdb53-8897-4b55-b895-e937dc86a44c</webElementGuid>
+      <webElementGuid>91274933-c312-462d-9219-f22056656cae</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,7 +106,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='cdk-overlay-19']/mat-dialog-container</value>
-      <webElementGuid>da6f79e8-4eea-4c97-afbd-4cc85e63bc35</webElementGuid>
+      <webElementGuid>2f70006b-1205-40e8-96e1-a5e938cb553b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -114,7 +114,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Add Organization Unit'])[1]/following::mat-dialog-container[1]</value>
-      <webElementGuid>89c61a91-0409-4f9f-94ef-f66b6515d5b9</webElementGuid>
+      <webElementGuid>0b4d3319-e344-4eec-a5ff-faa88e2bcacb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -122,7 +122,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Join Request Link'])[1]/following::mat-dialog-container[1]</value>
-      <webElementGuid>20a39e07-dd5e-419b-ba26-47b5094786f8</webElementGuid>
+      <webElementGuid>32bd07d5-509d-4d8d-9047-115b36768bee</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -130,7 +130,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//mat-dialog-container</value>
-      <webElementGuid>d8059acc-1a0a-46be-b4d6-67f19d770d3e</webElementGuid>
+      <webElementGuid>4153e5da-ebbe-40e1-b0e3-1fda0ee4cdd4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -138,6 +138,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//mat-dialog-container[@id = 'mat-dialog-10' and (text() = 'Join Request Send invitation to potential members so that they can send a request to join the organization. Just click to copy the button below and paste it to your email. Client linkCOPYPartner linkCOPYOk' or . = 'Join Request Send invitation to potential members so that they can send a request to join the organization. Just click to copy the button below and paste it to your email. Client linkCOPYPartner linkCOPYOk')]</value>
-      <webElementGuid>5d1bdf7d-4be5-4afc-b409-4c9502eda708</webElementGuid>
+      <webElementGuid>db45a179-a74a-46f6-8ae7-ca77d408ec8c</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

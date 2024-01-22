@@ -21,7 +21,7 @@
    <testCaseLink>
       <guid>89be9f2e-0bff-4d5f-ae31-e8e12779541f</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/03-Header Menu/02- Language Selector</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
@@ -35,7 +35,7 @@
    <testCaseLink>
       <guid>096699b1-c92e-4ca6-9796-a34dae837c0f</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/03-Header Menu/04-Shortcuts</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>

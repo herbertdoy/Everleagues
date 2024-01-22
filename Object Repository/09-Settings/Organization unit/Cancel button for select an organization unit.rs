@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//button[contains(@class,'mat-focus-indicator mat-raised-button')]/following-sibling::button)[2]</value>
+         <value>(//div[@class='action-container']//button)[3]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -18,7 +18,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>DIV</value>
-      <webElementGuid>eb9f6ca3-6d87-41cd-828c-64ade32351ac</webElementGuid>
+      <webElementGuid>1f2a5ea3-d81c-4de6-a1c3-0a145d634588</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -26,6 +26,6 @@
       <name>xpath</name>
       <type>Main</type>
       <value>xpath1664880625354</value>
-      <webElementGuid>e251c077-8590-44dc-96bd-94a4d616fdd9</webElementGuid>
+      <webElementGuid>5f39939b-6211-4237-bd1b-f0285c1a3b68</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
