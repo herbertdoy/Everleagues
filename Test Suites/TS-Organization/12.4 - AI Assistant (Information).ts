@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>10-Open Video Conference</name>
+   <name>12.4 - AI Assistant (Information)</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,40 +10,33 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
-   <testSuiteGuid>7c6b66cd-e78f-4ff7-85a2-f0ec704d8061</testSuiteGuid>
+   <testSuiteGuid>4e163741-9f0d-4577-a3a2-b304cf5a8395</testSuiteGuid>
    <testCaseLink>
-      <guid>6f15948d-714b-4a86-80f4-36e02b601253</guid>
+      <guid>2e149ce2-e505-4050-adfb-7ec264172721</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/10-Open Video Conference/01-Blank Fields</testCaseId>
+      <testCaseId>Test Cases/12- AI assistant (beta)/12.4-Information/01-Verify content of information page</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>d42b8250-bef6-4296-9dac-c3116259b763</guid>
+      <guid>3c0337af-9241-4f03-898c-d8bc2e8eae5e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/10-Open Video Conference/02-Invalid email</testCaseId>
+      <testCaseId>Test Cases/12- AI assistant (beta)/12.4-Information/02-Access Service terms</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>0611a39e-52ad-430d-b8e7-15dc9d36c86e</guid>
+      <guid>29217c87-8247-45f4-8025-a0f3f4d639cc</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/10-Open Video Conference/03-Invalid phone number</testCaseId>
+      <testCaseId>Test Cases/12- AI assistant (beta)/12.4-Information/03- Access terms of use</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>81693fe5-0a3a-4cc5-b2ca-c371766bed07</guid>
+      <guid>b2e0f8d0-7a28-484f-8166-672f70be4263</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/10-Open Video Conference/04-Schedule a Meeting(Now)</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>a169484a-d81f-4b93-9197-091a167d52a6</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/10-Open Video Conference/05-Schedule a Meeting(Schedule)</testCaseId>
+      <testCaseId>Test Cases/12- AI assistant (beta)/12.4-Information/04-Access usage policy</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

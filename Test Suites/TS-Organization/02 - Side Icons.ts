@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>13.2-EL Sign (Received Documents)</name>
+   <name>02 - Side Icons</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,40 +10,33 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
-   <testSuiteGuid>90ba671b-f874-4518-b6ca-055eaa69d14a</testSuiteGuid>
+   <testSuiteGuid>144a67d8-55a1-4ad9-a02d-518443cb744b</testSuiteGuid>
    <testCaseLink>
-      <guid>56ab63f0-a8db-40f9-8bbe-8501be848bd5</guid>
+      <guid>6cf55e12-84e9-4af7-a49a-d5c87d805c8d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/13-EL Sign/10-Received Documents(Sign a Document)</testCaseId>
+      <testCaseId>Test Cases/02-Side Icons (Organization)/01- (Add Contact)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>d763bdb2-551f-45fd-b77b-c8410075d0b0</guid>
+      <guid>00ef20aa-5883-4fe3-9b61-b660f409d4b4</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/13-EL Sign/11-Send Documents(Download Document and Certificate)</testCaseId>
+      <testCaseId>Test Cases/02-Side Icons (Organization)/02-(2FA)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>d7143cae-9ee7-4eeb-8237-ed8e2e9fec07</guid>
+      <guid>6ee17b34-7e0e-4176-99b9-5d016171d01a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/13-EL Sign/12-Received Documents(Download Document and Certificate)</testCaseId>
+      <testCaseId>Test Cases/02-Side Icons (Organization)/03-(Client Assignment)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>5e0e1561-9d82-4059-bc02-e1eac67a9e39</guid>
+      <guid>95b8d380-d4fb-4747-85b3-a00345875824</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/13-EL Sign/13-Receive Documents(View Document and History)</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>be7b528c-32a0-4f58-b54a-d371a7fa56c3</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/13-EL Sign/14-Send Documents(Delete ELSign)</testCaseId>
+      <testCaseId>Test Cases/02-Side Icons (Organization)/04-(Hide Quick Shortcuts)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

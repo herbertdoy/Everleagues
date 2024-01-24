@@ -109,7 +109,7 @@ WebUI.verifyElementVisible(findTestObject('06-Teams/01-Add Team-Public/Error Tea
 
 WebUI.delay(GlobalVariable.delay_2s)
 
-WebUI.setText(findTestObject('06-Teams/01-Add Team-Public/input_teamName'), GlobalVariable.team_name_public)
+WebUI.setText(findTestObject('06-Teams/01-Add Team-Public/input_teamName'), 'Auto Team Public')
 
 WebUI.scrollToElement(findTestObject('06-Teams/01-Add Team-Public/button_Create'), 0)
 

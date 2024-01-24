@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>13.1-EL Sign (Send Documents)</name>
+   <name>05 - Chat</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,68 +10,82 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
-   <testSuiteGuid>7714c3ba-450d-4e29-a3d8-ebf375f47859</testSuiteGuid>
+   <testSuiteGuid>50b4471f-cb54-43c1-8e5f-ae3e7c7602d8</testSuiteGuid>
    <testCaseLink>
-      <guid>041b712c-3693-41bc-bf50-dca772f7daf2</guid>
+      <guid>5d4045fc-7c4e-4887-a0af-b1979a6fd988</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/13-EL Sign/01-Send Documents (Upload a file-required field is blank)</testCaseId>
+      <testCaseId>Test Cases/05- Chat/01-Creating a Chat group</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>08ac5888-7286-45fa-ab2a-fe3aa5a86ad7</guid>
+      <guid>609d7462-ad70-490e-95b8-62657ac5a4e1</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/13-EL Sign/02-Send Documents (Upload a file-fill out required field)</testCaseId>
+      <testCaseId>Test Cases/05- Chat/02-Sending chat messages</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>ee823e80-8858-42d2-9fe1-32fb61145150</guid>
+      <guid>5c68afe3-1f3f-4c08-9185-8c5e69c7fba2</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/13-EL Sign/03-Send Documents (Function buttons)</testCaseId>
+      <testCaseId>Test Cases/05- Chat/03-React to a message</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>82700c39-5ffa-497a-988b-6f4c72bf2f7d</guid>
+      <guid>4dc89a7a-0435-4ea3-a04e-22b8c35556b4</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/13-EL Sign/04-Send Documents (Add Signer and guest- required field is blank)</testCaseId>
+      <testCaseId>Test Cases/05- Chat/04-Remove react on a message</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>50f56a37-c1ee-423e-b3f2-1c50e6c9c5bb</guid>
+      <guid>d4972afc-d338-4a4c-a193-9132b238bdb1</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/13-EL Sign/05-Send Documents(Add Signer and guest-fill out required field)</testCaseId>
+      <testCaseId>Test Cases/05- Chat/05-Reply on a message</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>e9e2de59-ce44-46b6-9cda-613dbfb6ec27</guid>
+      <guid>287cb5f7-701c-4e56-bc34-ffded13fbacd</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/13-EL Sign/06-Send Documents (Select labels and drag)</testCaseId>
+      <testCaseId>Test Cases/05- Chat/06-Sending attached file</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>6a5d3d25-6d58-44bd-84b3-5341c17bc75f</guid>
+      <guid>28ded651-13d2-4340-9deb-4ff82fcdb7f1</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/13-EL Sign/07-Send Documents (Signer Status)</testCaseId>
+      <testCaseId>Test Cases/05- Chat/07-Sending a video conference invite</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>e393ce36-44d6-45c1-ab23-03b249ee1eae</guid>
+      <guid>e0898dee-c253-438a-9570-5b0383f36720</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/13-EL Sign/08-Send Documents (View Document and History)</testCaseId>
+      <testCaseId>Test Cases/05- Chat/08-Schedule a meeting</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>cc47c29f-75c7-48a7-a380-ee0f37805f5c</guid>
+      <guid>1a711185-62b5-4e39-904e-fd9bd2ad85af</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/13-EL Sign/09-Send Documents (Reminder)</testCaseId>
+      <testCaseId>Test Cases/05- Chat/09-Hiding a chat</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>c615b31d-d65b-4861-bcb8-7e6474368664</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/05- Chat/10-Export Chat</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>68bf47ce-e440-4909-9f75-884bc7c0b461</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/05- Chat/11-Group Info</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

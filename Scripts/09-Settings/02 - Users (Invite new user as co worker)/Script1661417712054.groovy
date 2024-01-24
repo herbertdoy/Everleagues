@@ -151,7 +151,7 @@ String codetwo = WebUI.getText(findTestObject('Yopmail/2FA code-Yopmail'))
 
 WebUI.delay(GlobalVariable.delay_3s)
 
-WebUI.closeWindowTitle(GlobalVariable.windowTitle)
+WebUI.closeWindowTitle(GlobalVariable.Y_windowTitle)
 
 WebUI.delay(GlobalVariable.delay_3s)
 
@@ -195,7 +195,7 @@ WebUI.click(findTestObject('Yopmail/a_Click here to join GG Automation on EverLe
 
 WebUI.delay(GlobalVariable.delay_3s)
 
-WebUI.closeWindowTitle(GlobalVariable.windowTitle)
+WebUI.closeWindowTitle(GlobalVariable.Y_windowTitle)
 
 WebUI.switchToWindowIndex(0)
 

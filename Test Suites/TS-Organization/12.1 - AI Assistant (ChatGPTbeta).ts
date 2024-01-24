@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>12.1- AI Assistant (ChatGPTbeta)</name>
+   <name>12.1 - AI Assistant (ChatGPTbeta)</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>

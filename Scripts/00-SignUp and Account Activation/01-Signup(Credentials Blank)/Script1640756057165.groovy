@@ -35,3 +35,21 @@ WebUI.verifyElementNotClickable(findTestObject('00-Signup and Activation/button_
 
 WebUI.delay(GlobalVariable.delay_2s)
 
+WebUI.click(findTestObject('00-Signup and Activation/input_Email'))
+
+WebUI.click(findTestObject('00-Signup and Activation/input_firstName'))
+
+WebUI.click(findTestObject('00-Signup and Activation/input_lastName'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.click(findTestObject('00-Signup and Activation/input_Email'))
+
+WebUI.delay(GlobalVariable.delay_2s)
+
+WebUI.verifyElementVisible(findTestObject('00-Signup and Activation/mat-error_Field is required_E'))
+
+WebUI.verifyElementVisible(findTestObject('00-Signup and Activation/mat-error_Field is required_F'))
+
+WebUI.verifyElementVisible(findTestObject('00-Signup and Activation/mat-error_Field is required_L'))
+
+WebUI.delay(GlobalVariable.delay_2s)
+

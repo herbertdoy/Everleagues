@@ -98,7 +98,7 @@ WebUI.verifyElementVisible(findTestObject('06-Teams/01-Add Team-Public/Error Tea
 
 WebUI.delay(GlobalVariable.delay_2s)
 
-WebUI.setText(findTestObject('06-Teams/01-Add Team-Public/input_teamName'), GlobalVariable.team_name_private)
+WebUI.setText(findTestObject('06-Teams/01-Add Team-Public/input_teamName'), 'Auto Team Private')
 
 WebUI.click(findTestObject('06-Teams/02-Add Team-Private/div_Members'))
 

@@ -23,66 +23,7 @@ WebUI.navigateToUrl(GlobalVariable.URL_lab)
 
 WebUI.maximizeWindow()
 
-//WebUI.setText(findTestObject('02-Side Icons(Organization)/input_Email Field'), 'testuser02@mailinator.com')
-WebUI.setText(findTestObject('02-Side Icons(Organization)/input_Email Field'), GlobalVariable.Y_email_withSubscription_testuser00005)
-
-WebUI.setEncryptedText(findTestObject('02-Side Icons(Organization)/input_Password Field'), GlobalVariable.password)
-
-WebUI.click(findTestObject('02-Side Icons(Organization)/button_Sign in'))
-
-WebUI.delay(GlobalVariable.delay_3s)
-
-//WebUI.click(findTestObject('06-Teams/For 2FA/button_Confirm_2FA'))//
-WebUI.executeJavaScript('window.open();', [])
-
-currentWindow = WebUI.getWindowIndex()
-
-WebUI.delay(GlobalVariable.delay_3s)
-
-WebUI.switchToWindowIndex(currentWindow + 1)
-
-//WebUI.navigateToUrl(GlobalVariable.URL_mailinator)
-WebUI.navigateToUrl(GlobalVariable.URL_yopmail)
-
-WebUI.delay(GlobalVariable.delay_3s)
-
-//WebUI.setText(findTestObject('Mailinator/input_LOGIN_search'), 'testuser02@mailinator.com')
-WebUI.setText(findTestObject('Yopmail/input_Enter your inbox here'), GlobalVariable.Y_email_withSubscription_testuser00005)
-
-//WebUI.setText(findTestObject('Mailinator/input_LOGIN_search'), GlobalVariable.email_for_searchmailinator_testuser05)
-//WebUI.click(findTestObject('Mailinator/gobutton'), FailureHandling.STOP_ON_FAILURE)
-WebUI.delay(GlobalVariable.delay_2s)
-
-WebUI.click(findTestObject('Yopmail/button_Next'))
-
-//WebUI.click(findTestObject('Mailinator/Email - everleagues'))
-WebUI.delay(GlobalVariable.delay_3s)
-
-WebUI.click(findTestObject('Yopmail/span_Everleagues Team'))
-
-WebUI.delay(GlobalVariable.delay_2s)
-
-//String code = WebUI.getText(findTestObject('Object Repository/06-Teams/For 2FA/2FA code'))
-String code = WebUI.getText(findTestObject('Yopmail/2FA code-Yopmail'))
-
-WebUI.delay(GlobalVariable.delay_3s)
-
-//WebUI.closeWindowTitle('Mailinator')
-WebUI.closeWindowTitle('Inbox')
-
-WebUI.delay(GlobalVariable.delay_3s)
-
-WebUI.switchToWindowIndex(0)
-
-WebUI.delay(GlobalVariable.delay_2s)
-
-WebUI.setText(findTestObject('Object Repository/06-Teams/For 2FA/input_Enter verification code'), code)
-
-WebUI.delay(GlobalVariable.delay_2s)
-
-WebUI.click(findTestObject('06-Teams/For 2FA/button_Verify_2FA'))
-
-WebUI.delay(GlobalVariable.delay_3s)
+WebUI.callTestCase(findTestCase('01-Login and Forgot Password/04-Login(Valid Credentials-With Subscription)'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.click(findTestObject('06-Teams/button_doublearrow'))
 
@@ -126,7 +67,7 @@ WebUI.verifyElementVisible(findTestObject('06-Teams/03-Edit Team - Private/div_C
 
 WebUI.delay(GlobalVariable.delay_2s)
 
-WebUI.setText(findTestObject('06-Teams/03-Edit Team - Private/input_channel name'), GlobalVariable.create_channelname)
+WebUI.setText(findTestObject('06-Teams/03-Edit Team - Private/input_channel name'), 'Auto Channel')
 
 WebUI.click(findTestObject('06-Teams/03-Edit Team - Private/button_Add'))
 

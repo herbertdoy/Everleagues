@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>04-Add my Organizations</name>
+   <name>12.2 - AI Assistant (AI Image Beta)</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,26 +10,19 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
-   <testSuiteGuid>c5036137-6e02-4425-8442-77ff3410ccbb</testSuiteGuid>
+   <testSuiteGuid>c5bd1da4-3321-4963-89c7-a10016b0486a</testSuiteGuid>
    <testCaseLink>
-      <guid>3c3c029c-0506-4991-926f-93bb4abd9ef7</guid>
+      <guid>ed5928c4-7011-44ae-b47c-4f9a8be55eba</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/04-Add my Organizations/01- Free limited Plan (Blank fields)</testCaseId>
+      <testCaseId>Test Cases/12- AI assistant (beta)/12.3-AI image (beta)/01-Generate image using EL AI-Blank fields</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>147c6c63-ab25-43ed-a6db-1913fafbab5b</guid>
+      <guid>cd526b69-1ad7-4153-a64a-dd7365fbf2f6</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/04-Add my Organizations/02- Free limited Plan (Used Org Alias)</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>b4999235-c352-4c80-8df8-522eea738e82</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/04-Add my Organizations/03- Free limited Plan (Positive Scenarios)</testCaseId>
+      <testCaseId>Test Cases/12- AI assistant (beta)/12.3-AI image (beta)/02-Generate image using EL AI</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>06.1- Teams - Add</name>
+   <name>04 - Add my Organizations</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,19 +10,26 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
-   <testSuiteGuid>f9c1d0a9-c2ae-462e-bc31-2aca6c5889d3</testSuiteGuid>
+   <testSuiteGuid>c5036137-6e02-4425-8442-77ff3410ccbb</testSuiteGuid>
    <testCaseLink>
-      <guid>c649e396-8ebe-431f-91d6-74c9d484685b</guid>
+      <guid>3c3c029c-0506-4991-926f-93bb4abd9ef7</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/06- Teams/01- Add Team- Public</testCaseId>
+      <testCaseId>Test Cases/04-Add my Organizations/01- Free limited Plan (Blank fields)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>64a89423-40ae-438a-9419-de8b511a4be9</guid>
+      <guid>147c6c63-ab25-43ed-a6db-1913fafbab5b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/06- Teams/02-Add Team-Private</testCaseId>
+      <testCaseId>Test Cases/04-Add my Organizations/02- Free limited Plan (Used Org Alias)</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>b4999235-c352-4c80-8df8-522eea738e82</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/04-Add my Organizations/03- Free limited Plan (Positive Scenarios)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

@@ -25,5 +25,14 @@ WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.verifyElementNotClickable(findTestObject('01-Login and Forgot Password/zForgot password/button_Reset Password'))
 
+WebUI.delay(GlobalVariable.delay_2s)
+
+WebUI.click(findTestObject('01-Login and Forgot Password/zForgot password/input_email field'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.click(findTestObject('01-Login and Forgot Password/zForgot password/span_Reset Password'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.verifyElementVisible(findTestObject('01-Login and Forgot Password/zForgot password/mat-error_A valid email is reuired'), 
+    FailureHandling.CONTINUE_ON_FAILURE)
+
 WebUI.delay(GlobalVariable.delay_3s)
 

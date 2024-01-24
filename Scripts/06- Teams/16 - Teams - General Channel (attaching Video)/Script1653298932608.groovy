@@ -27,5 +27,5 @@ WebUI.delay(25)
 
 WebUI.verifyElementVisible(findTestObject('06-Teams/05- Teams-General Channel/posted video'))
 
-WebUI.delay(GlobalVariable.delay_5s)
+WebUI.delay(GlobalVariable.delay_3s)
 

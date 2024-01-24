@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>12.3 - AI Assistant(Contract Reader)</name>
+   <name>06.1 - Teams - Add</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,19 +10,19 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
-   <testSuiteGuid>8bac377a-2d50-4b1a-9c00-fb4f642da6f2</testSuiteGuid>
+   <testSuiteGuid>f9c1d0a9-c2ae-462e-bc31-2aca6c5889d3</testSuiteGuid>
    <testCaseLink>
-      <guid>5c75b966-51f3-4fc1-a338-0e70d1d3aa74</guid>
+      <guid>c649e396-8ebe-431f-91d6-74c9d484685b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/12- AI assistant (beta)/12.5-Contract Reader/01-Verify content of contract page</testCaseId>
+      <testCaseId>Test Cases/06- Teams/01- Add Team- Public</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>522d7f4d-3388-402f-adbc-4ae9503a41c3</guid>
+      <guid>64a89423-40ae-438a-9419-de8b511a4be9</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/12- AI assistant (beta)/12.5-Contract Reader/02- Generate Summary</testCaseId>
+      <testCaseId>Test Cases/06- Teams/02-Add Team-Private</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
