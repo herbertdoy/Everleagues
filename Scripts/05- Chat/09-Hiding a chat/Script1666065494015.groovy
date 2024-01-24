@@ -55,9 +55,5 @@ WebUI.setText(findTestObject('05-Chat/02-Sending chat messages/textarea__msg'), 
 
 WebUI.click(findTestObject('05-Chat/02-Sending chat messages/button_send'))
 
-WebUI.delay(GlobalVariable.delay_2s)
-
-WebUI.refresh()
-
-WebUI.delay(GlobalVariable.delay_2s)
+WebUI.delay(GlobalVariable.delay_3s)
 

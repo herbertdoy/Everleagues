@@ -11,14 +11,13 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//button[@type='button'])[27]</value>
+         <value>//button[@type = 'button' and @mattooltip = 'Schedule meeting' and @ng-reflect-message = 'Schedule meeting']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -26,6 +25,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
+      <webElementGuid>641d7f0c-7129-453f-8bb2-36046906aa38</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -33,6 +33,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
+      <webElementGuid>0ee95094-a6dd-43b3-b216-574f0cec99a2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -40,6 +41,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-focus-indicator mat-icon-button mat-button-base</value>
+      <webElementGuid>2c3d6a9f-f36f-4fe1-b526-f39097357bbb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,6 +49,7 @@
       <name>ng-reflect-disabled</name>
       <type>Main</type>
       <value>false</value>
+      <webElementGuid>e211d4cb-f958-45ee-b7a5-32197218e82a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,6 +57,7 @@
       <name>text</name>
       <type>Main</type>
       <value>calendar_today</value>
+      <webElementGuid>f45d5d8f-60dc-4c0b-a3c1-67ea86997951</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,6 +65,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;msgComposer&quot;)/div[1]/div[1]/div[1]/div[@class=&quot;message-control-container&quot;]/span[5]/button[@class=&quot;mat-focus-indicator mat-icon-button mat-button-base&quot;]</value>
+      <webElementGuid>a835c342-c809-48f4-959f-956ef1f53315</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -68,6 +73,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[27]</value>
+      <webElementGuid>1781292b-6030-4f0f-be2c-e8e176a4d83b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -75,6 +81,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='msgComposer']/div/div/div/div/span[5]/button</value>
+      <webElementGuid>1cf04741-f03d-49f7-bd2e-9121c63f848f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,6 +89,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Message...'])[1]/following::button[5]</value>
+      <webElementGuid>a6db92a2-e0af-4094-bf4b-9557b91cd80b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -89,6 +97,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='»'])[1]/following::button[5]</value>
+      <webElementGuid>aa5106df-5c81-4e9c-8eb7-bdeeb9826858</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -96,6 +105,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Search'])[1]/preceding::button[1]</value>
+      <webElementGuid>497d87fc-7913-4764-80fb-4c7ca63eb0e9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,6 +113,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Pick your emoji…'])[1]/preceding::button[2]</value>
+      <webElementGuid>f38ce2df-7e80-4788-aaf2-abe0d9d13be4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,6 +121,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//span[5]/button</value>
+      <webElementGuid>d2476979-278a-40a3-9fc5-db5e20d6ab6a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,5 +129,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = 'calendar_today' or . = 'calendar_today')]</value>
+      <webElementGuid>8b8bc462-e70c-41b8-829b-e3ade9945550</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

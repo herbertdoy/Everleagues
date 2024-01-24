@@ -194,7 +194,7 @@ WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.click(findTestObject('06-Teams/For 2FA/button_Verify_2FA'))
 
-WebUI.delay(GlobalVariable.delay_5s)
+WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.executeJavaScript('window.open();', [])
 

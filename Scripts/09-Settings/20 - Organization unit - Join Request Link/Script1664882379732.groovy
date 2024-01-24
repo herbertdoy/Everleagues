@@ -64,7 +64,7 @@ WebUI.verifyElementPresent(findTestObject('09-Settings/Organization unit/mat_car
 
 WebUI.delay(GlobalVariable.delay_2s)
 
-WebUI.navigateToUrl(GlobalVariable.URL_lab)
+WebUI.navigateToUrl('lab.everleagues.com')
 
-WebUI.delay(GlobalVariable.delay_3s)
+WebUI.delay(GlobalVariable.delay_2s)
 

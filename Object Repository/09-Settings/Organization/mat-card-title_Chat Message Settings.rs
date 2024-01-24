@@ -6,15 +6,19 @@
    <elementGuidId>aea085d7-5c97-49fc-9d1d-03054bc6bcdb</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//mat-card-title[@class = 'mat-card-title' and (text() = ' Chat Message Settings ' or . = ' Chat Message Settings ')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
-         <value>//mat-tab-body[@id='mat-tab-content-0-1']/div/section/div/mat-card/mat-card-title</value>
+         <value>//div[text()='Chat Message Settings']</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>mat-card-title.mat-card-title</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>mat-card-title</value>
-      <webElementGuid>b8b15923-f91f-41ef-ade0-ac1a6f5af3cd</webElementGuid>
+      <webElementGuid>40ff7b57-1956-4de4-9754-de2b20634bdf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-card-title</value>
-      <webElementGuid>fc3bab65-a35a-49d2-8a98-66ba95b28cdb</webElementGuid>
+      <webElementGuid>fb80057a-5509-4e41-8cfe-bf4bc99531f9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +42,7 @@
       <name>text</name>
       <type>Main</type>
       <value> Chat Message Settings </value>
-      <webElementGuid>ec2d9bad-1f54-4fe3-9e06-86ec3f817b74</webElementGuid>
+      <webElementGuid>d957f9c9-3c6e-4c70-ae96-8c63277826b7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +50,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-tab-content-0-1&quot;)/div[@class=&quot;mat-tab-body-content ng-tns-c361-57 ng-trigger ng-trigger-translateTab&quot;]/section[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;ng-tns-c597-41&quot;]/mat-card[@class=&quot;mat-card mat-focus-indicator ng-tns-c597-41&quot;]/mat-card-title[@class=&quot;mat-card-title&quot;]</value>
-      <webElementGuid>67baff3a-d566-4093-b1a3-6bad23797f5f</webElementGuid>
+      <webElementGuid>e357d3f8-e3ba-48db-8c66-f936de872ce2</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +58,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-tab-body[@id='mat-tab-content-0-1']/div/section/div/mat-card/mat-card-title</value>
-      <webElementGuid>3137f5ba-a84b-4714-b7c3-01491aa065f2</webElementGuid>
+      <webElementGuid>a1e370d6-1db5-4c12-886b-22d5cabca0c5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +66,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Settings'])[2]/following::mat-card-title[1]</value>
-      <webElementGuid>38964ec1-d090-4d85-88ee-3a0819cc8beb</webElementGuid>
+      <webElementGuid>2d9167ea-1499-4802-ac47-b322750f86f0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Profile'])[1]/following::mat-card-title[1]</value>
-      <webElementGuid>8d921b77-9d32-4d32-9477-d565d9a403e1</webElementGuid>
+      <webElementGuid>4c30f954-0dec-4746-82eb-0d6fc1c6cd5f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Enable chat message editing'])[1]/preceding::mat-card-title[1]</value>
-      <webElementGuid>b4244779-1137-4ab8-b6ac-85b117fec3c4</webElementGuid>
+      <webElementGuid>ccb5ae8f-7a4b-4b85-a613-f4ef2b78ab68</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Enable chat message deletion'])[1]/preceding::mat-card-title[1]</value>
-      <webElementGuid>75af789c-8b4c-49a7-a61d-4b98357048f3</webElementGuid>
+      <webElementGuid>79be87e3-3a8d-4b4f-9a68-40544de6d936</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Chat Message Settings']/parent::*</value>
-      <webElementGuid>190e95ae-d033-417d-a2a1-b474703c4e8d</webElementGuid>
+      <webElementGuid>6ec41150-1c72-4872-b345-00450a4413d2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +106,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//mat-card-title</value>
-      <webElementGuid>7c73dbef-114f-488d-a1c3-50694b77e768</webElementGuid>
+      <webElementGuid>0cc047c3-c85f-4645-98af-09308177a8c5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,6 +114,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//mat-card-title[(text() = ' Chat Message Settings ' or . = ' Chat Message Settings ')]</value>
-      <webElementGuid>2a2068c8-ef89-43f2-8d5b-4324d516b49d</webElementGuid>
+      <webElementGuid>6dccabd6-733c-4581-994d-21f698b384f6</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

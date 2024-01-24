@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@ng-reflect-ng-switch='false']/following-sibling::div[1]</value>
+         <value>//span[@ng-reflect-ng-switch='false']//span[1]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -22,6 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
+      <webElementGuid>b5204155-4586-48cd-8f69-9b76ac41ae2a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,6 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-select-arrow-wrapper ng-tns-c237-279</value>
+      <webElementGuid>7ececc54-9636-454d-813c-ca23e2dba54d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -36,6 +38,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-select-4&quot;)/div[@class=&quot;mat-select-trigger ng-tns-c237-279&quot;]/div[@class=&quot;mat-select-arrow-wrapper ng-tns-c237-279&quot;]</value>
+      <webElementGuid>f34eb31d-b0bd-4502-9c6a-e82868b2aad2</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -43,6 +46,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-select[@id='mat-select-4']/div/div[2]</value>
+      <webElementGuid>264c964b-e7f9-494a-965b-1974a688f172</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -50,6 +54,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Does not repeat'])[1]/following::div[1]</value>
+      <webElementGuid>732cf96a-2899-46f7-b743-a86d0879def5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -57,6 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='End Date'])[1]/following::div[21]</value>
+      <webElementGuid>92e53d22-ecc6-47ba-ae3e-1964d9116147</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -64,6 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Recurrence'])[1]/preceding::div[2]</value>
+      <webElementGuid>fa1e1116-dc5b-45e9-a40c-b91ff850c116</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,6 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Dummy button'])[1]/preceding::div[5]</value>
+      <webElementGuid>52551cab-fc23-4c3e-8af5-4ec791be8c97</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,5 +86,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//mat-select/div/div[2]</value>
+      <webElementGuid>0380b703-283f-4e22-bc9d-efe24b94d80c</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

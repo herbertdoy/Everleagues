@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//mat-card-title[text()=' Cloud Files ']</value>
+         <value>//div[text()='Cloud Files']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

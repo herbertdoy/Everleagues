@@ -10,12 +10,12 @@
          <value>//input[@ng-reflect-placeholder = 'State/Province' and @placeholder = 'State/Province']</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>#mat-input-11</value>
+         <key>XPATH</key>
+         <value>//input[@ng-reflect-placeholder = 'State / Province' and @placeholder = 'State / Province' and @data-placeholder = 'State / Province']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@data-placeholder='State/Province']</value>
+         <key>CSS</key>
+         <value>#mat-input-11</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -26,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>bc4dbf27-8398-4825-9ddd-b4fdfea2d822</webElementGuid>
+      <webElementGuid>082b0240-1754-45af-b954-10bd29360edc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -34,7 +34,7 @@
       <name>maxlength</name>
       <type>Main</type>
       <value>100</value>
-      <webElementGuid>4f32373f-8323-41d9-a5ca-7f030369b1ce</webElementGuid>
+      <webElementGuid>93f152dd-848f-4c59-9c4a-b58d1e14200a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,7 +42,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-input-element mat-form-field-autofill-control ng-tns-c110-48 cdk-text-field-autofill-monitored ng-untouched ng-pristine ng-valid</value>
-      <webElementGuid>6aad5128-f8d2-47ce-a31d-0083536df7d4</webElementGuid>
+      <webElementGuid>2f17d2b0-beab-4377-8544-ee87c10303d2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,7 +50,7 @@
       <name>ng-reflect-maxlength</name>
       <type>Main</type>
       <value>100</value>
-      <webElementGuid>ceaf95de-726a-4ebe-bb1a-73d3689350ed</webElementGuid>
+      <webElementGuid>af737efb-cef0-4cd3-a204-7b650d28d403</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -58,7 +58,7 @@
       <name>ng-reflect-placeholder</name>
       <type>Main</type>
       <value>State/Province</value>
-      <webElementGuid>93bd5c4d-2ff1-43f5-87c1-6a1b4fc48678</webElementGuid>
+      <webElementGuid>6c439c86-f5f5-48fd-81ca-c5202bf8c214</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -66,7 +66,7 @@
       <name>id</name>
       <type>Main</type>
       <value>mat-input-11</value>
-      <webElementGuid>02f3e078-4735-4498-becc-e0bcf1f91c8e</webElementGuid>
+      <webElementGuid>3ab24cc7-7578-452e-879a-1c8dc1db0a20</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -74,7 +74,7 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>State/Province</value>
-      <webElementGuid>26a9c7c5-8344-48e2-bb98-56d02c363156</webElementGuid>
+      <webElementGuid>418c5ee4-c028-4f0e-8457-c36e7615a621</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -82,7 +82,7 @@
       <name>aria-invalid</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>325b8e7b-dafa-49f9-9174-fe008aa74ba7</webElementGuid>
+      <webElementGuid>4d7efa1e-4260-4861-8f30-867b2e153fb1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -90,7 +90,7 @@
       <name>aria-required</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>daf6f389-4d1f-4bae-b268-f2e669ad3367</webElementGuid>
+      <webElementGuid>ac5cdde0-b1e6-4c43-ab98-d0438e0c5fcc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -98,7 +98,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-input-11&quot;)</value>
-      <webElementGuid>43d8c158-ce48-4313-9862-65507c0ae5f4</webElementGuid>
+      <webElementGuid>65fd0a6a-1dfd-4708-b158-e90d7520fabb</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -106,7 +106,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='mat-input-11']</value>
-      <webElementGuid>51c0192d-39b3-4dcd-96f7-3b79d5bd998e</webElementGuid>
+      <webElementGuid>e27c4c7d-0f82-44c4-afdb-873feb70c80a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -114,7 +114,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-tab-body[@id='mat-tab-content-0-0']/div/section/div[2]/mat-card/mat-card-content/div[3]/mat-form-field/div/div/div/input</value>
-      <webElementGuid>0edf50c3-43c3-41dc-84be-c98bdebac571</webElementGuid>
+      <webElementGuid>bd615ad6-0e17-48d3-8bbd-2286b91d9b1b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -122,7 +122,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/mat-card/mat-card-content/div[3]/mat-form-field/div/div/div/input</value>
-      <webElementGuid>480c156d-79eb-4854-8c2e-620fa479d8cf</webElementGuid>
+      <webElementGuid>b8ef50ba-84ed-4c6e-8eac-881685a0512e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -130,6 +130,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@id = 'mat-input-11' and @placeholder = 'State/Province']</value>
-      <webElementGuid>5df0e44a-4046-4e55-b893-7b7772bc7832</webElementGuid>
+      <webElementGuid>e8aad95c-9add-4320-bab6-33a43cd74f55</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -6,19 +6,19 @@
    <elementGuidId>f3042add-6609-4d15-b0af-9ef55ccce43f</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//mat-card-title[@class = 'mat-card-title' and (text() = ' Profile ' or . = ' Profile ')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
-         <value>//mat-tab-body[@id='mat-tab-content-0-0']/div/section/div/mat-card/mat-card-title</value>
+         <value>(//div[text()='Profile'])[2]</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>mat-card-title.mat-card-title</value>
       </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//mat-card-title[@class = 'mat-card-title' and (text() = ' Profile ' or . = ' Profile ')]</value>
-      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -26,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>mat-card-title</value>
-      <webElementGuid>aea85243-f876-435c-88a5-d1245511c85b</webElementGuid>
+      <webElementGuid>2b0c8d42-d1c8-4302-b889-fd166a315d21</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -34,7 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-card-title</value>
-      <webElementGuid>b48246a3-9076-4901-a129-2c21f447a0ce</webElementGuid>
+      <webElementGuid>387b3267-7ae7-43bd-8b49-a1e7217f50b9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -42,7 +42,7 @@
       <name>text</name>
       <type>Main</type>
       <value> Profile </value>
-      <webElementGuid>ff3cfa6d-5d13-4c0e-b4d8-018e6f25f4f5</webElementGuid>
+      <webElementGuid>2485416a-8720-4fc0-bafa-829f78b83f02</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,7 +50,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-tab-content-0-0&quot;)/div[@class=&quot;mat-tab-body-content ng-tns-c361-52 ng-trigger ng-trigger-translateTab&quot;]/section[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;ng-tns-c649-37&quot;]/mat-card[@class=&quot;mat-card mat-focus-indicator ng-tns-c649-37&quot;]/mat-card-title[@class=&quot;mat-card-title&quot;]</value>
-      <webElementGuid>f4254b37-0fd0-43c9-93a6-980e9dfb98ff</webElementGuid>
+      <webElementGuid>8f393873-6887-4843-84ef-e9cad6375c06</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -58,7 +58,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-tab-body[@id='mat-tab-content-0-0']/div/section/div/mat-card/mat-card-title</value>
-      <webElementGuid>5087fd04-19e6-47f1-97b0-b5e92e5bbd20</webElementGuid>
+      <webElementGuid>d8b1ec3f-f848-4b22-8327-dd438f36bd72</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -66,7 +66,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Settings'])[2]/following::mat-card-title[1]</value>
-      <webElementGuid>e1b77b68-e933-4ed1-b24e-a6530632d267</webElementGuid>
+      <webElementGuid>5ab354e8-92a3-489b-b9bc-5c2c492fa3d2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -74,7 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Profile'])[1]/following::mat-card-title[1]</value>
-      <webElementGuid>bdef84c2-58bc-49b4-9803-1132d93dcbb3</webElementGuid>
+      <webElementGuid>cfc2876f-87c3-4f57-9451-2e740f5cf110</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Name'])[1]/preceding::mat-card-title[1]</value>
-      <webElementGuid>f1e4aee9-c668-4620-ae05-4880e2ecd16d</webElementGuid>
+      <webElementGuid>ecde4d7b-de6d-48c2-a452-652d6811e513</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -90,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Industry'])[1]/preceding::mat-card-title[1]</value>
-      <webElementGuid>5e64791b-43d1-4bbd-890a-149781b6a62c</webElementGuid>
+      <webElementGuid>4d135b8b-a9d3-46d0-95b0-d935404018c9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,7 +98,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//mat-card-title</value>
-      <webElementGuid>b8c60386-ceb5-4b04-8ea5-808993d76106</webElementGuid>
+      <webElementGuid>91b01274-ecbd-41c8-86cd-1eb0f969ef95</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,6 +106,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//mat-card-title[(text() = ' Profile ' or . = ' Profile ')]</value>
-      <webElementGuid>5c8aeaad-9bab-4ba1-9bb1-b66979c206ed</webElementGuid>
+      <webElementGuid>671371bc-12a4-4bd4-a299-bb2058111ffd</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

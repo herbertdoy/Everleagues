@@ -6,19 +6,18 @@
    <elementGuidId>24f7171f-8b1c-4d5f-9004-cc97bac243c8</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//mat-tab-body[@id='mat-tab-content-0-0']/div/section/div[2]/mat-card/mat-card-title</value>
-      </entry>
-      <entry>
-         <key>CSS</key>
-         <value></value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>//mat-card-title[@class = 'mat-card-title' and (text() = 'Address' or . = 'Address')]</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[text()='Address']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -26,7 +25,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>mat-card-title</value>
-      <webElementGuid>83ccfdfc-4032-4492-ae12-b404c31ae09e</webElementGuid>
+      <webElementGuid>2c87c1de-6c41-4697-8d4b-af9ec33a6d9f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -34,7 +33,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-card-title</value>
-      <webElementGuid>98416ac9-0cf9-4f39-8443-1e7df0245f22</webElementGuid>
+      <webElementGuid>b40cc630-bc4e-465d-a460-55e80a7cb57f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -42,7 +41,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Address</value>
-      <webElementGuid>e6266f80-b4d8-41c3-9f12-cd1c682afc79</webElementGuid>
+      <webElementGuid>cebb021a-446e-4cd9-b518-9af944294482</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,7 +49,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-tab-content-0-0&quot;)/div[@class=&quot;mat-tab-body-content ng-tns-c361-52 ng-trigger ng-trigger-translateTab&quot;]/section[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;ng-tns-c649-37&quot;]/mat-card[@class=&quot;mat-card mat-focus-indicator ng-tns-c649-37&quot;]/mat-card-title[@class=&quot;mat-card-title&quot;]</value>
-      <webElementGuid>6695f3cc-0d6a-41a9-a6dd-c9313c0ff076</webElementGuid>
+      <webElementGuid>9e2924e1-165c-401a-ad40-09d9b1585bcf</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -58,7 +57,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-tab-body[@id='mat-tab-content-0-0']/div/section/div[2]/mat-card/mat-card-title</value>
-      <webElementGuid>8d1756d7-3274-4121-9b64-27bf3162d653</webElementGuid>
+      <webElementGuid>e98e575f-6913-4c3e-a9bf-ef50b692e090</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -66,7 +65,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Fax'])[1]/following::mat-card-title[1]</value>
-      <webElementGuid>30da9205-6a7a-4a3c-bd84-8abfbf429464</webElementGuid>
+      <webElementGuid>7cba3da4-1510-4f8a-a823-f793ff1dcde3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -74,7 +73,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Phone'])[1]/following::mat-card-title[1]</value>
-      <webElementGuid>ff638f2a-e77a-4675-ab9a-51ddb16fb173</webElementGuid>
+      <webElementGuid>175b4e1e-078c-4c32-88d9-ad53ef919895</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,7 +81,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Street'])[1]/preceding::mat-card-title[1]</value>
-      <webElementGuid>fc43536f-4acc-4b58-8b53-54c9282becd0</webElementGuid>
+      <webElementGuid>3051eae6-4dfe-4de2-b7d9-77f627979a6a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -90,7 +89,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='City'])[1]/preceding::mat-card-title[1]</value>
-      <webElementGuid>34532bc5-6599-44bd-8cd9-cee0bd599651</webElementGuid>
+      <webElementGuid>4979ffe0-b690-48ff-b789-d5ed3894132e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,7 +97,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Address']/parent::*</value>
-      <webElementGuid>b6a7eaeb-c5ce-41c2-a882-72938774cced</webElementGuid>
+      <webElementGuid>344ba8d8-93e6-44b7-9dd5-08eea1167ffc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,7 +105,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/mat-card/mat-card-title</value>
-      <webElementGuid>475a788c-a223-4689-ba23-b48e14d73d08</webElementGuid>
+      <webElementGuid>d6871b86-e9ac-4043-b597-ccfa04454e95</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -114,6 +113,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//mat-card-title[(text() = 'Address' or . = 'Address')]</value>
-      <webElementGuid>1c98f9ed-98f5-488b-ace7-a4a288aefee2</webElementGuid>
+      <webElementGuid>854f35f8-d8c7-4b1c-b1c7-659ed2ae6dc7</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -6,15 +6,23 @@
    <elementGuidId>1f0902db-2b55-4ed1-9536-0e3ca8a7fb2f</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#mat-dialog-0</value>
+         <key>BASIC</key>
+         <value>//mat-dialog-container[@role = 'dialog' and (text() = 'Edit Organization Unit
+            
+        Organization Unit Name *CancelSave' or . = 'Edit Organization Unit
+            
+        Organization Unit Name *CancelSave')]</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//mat-dialog-container[@id='mat-dialog-0']</value>
+         <value>//mat-dialog-container[@role='dialog']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#mat-dialog-0</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -22,7 +30,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>mat-dialog-container</value>
-      <webElementGuid>e7320f79-9d37-48fe-90e3-527c1c5daf78</webElementGuid>
+      <webElementGuid>685c144f-7931-4b67-8083-7835a0df7a1d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +38,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>-1</value>
-      <webElementGuid>3f66c428-036d-4b8c-8a6f-52d251f6e5be</webElementGuid>
+      <webElementGuid>0bc523ea-ec4c-4c40-b6b5-2733a128d6d6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +46,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-dialog-container cdk-dialog-container ng-tns-c39-45 ng-trigger ng-trigger-dialogContainer ng-star-inserted</value>
-      <webElementGuid>621210fc-af67-448d-9e21-47c28615444f</webElementGuid>
+      <webElementGuid>2617e2eb-5fe4-413f-aa61-9af1b03ddf64</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +54,7 @@
       <name>id</name>
       <type>Main</type>
       <value>mat-dialog-0</value>
-      <webElementGuid>2b169aa7-dd7d-4329-ad1a-f03b5d8aa3ec</webElementGuid>
+      <webElementGuid>802b6fe0-af79-464f-bcb3-a3baa3b72511</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +62,7 @@
       <name>role</name>
       <type>Main</type>
       <value>dialog</value>
-      <webElementGuid>9cb5a9e7-95a7-4cf1-bab2-c505beef2b99</webElementGuid>
+      <webElementGuid>bc0aa6b6-6e31-4fc4-9cc8-c51ec7bac3a2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +70,7 @@
       <name>aria-modal</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>721f4447-020a-4b01-8be4-f0c1d276441c</webElementGuid>
+      <webElementGuid>c137ef7e-f90b-4c1f-96b5-b0ee46b7684f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +78,7 @@
       <name>aria-labelledby</name>
       <type>Main</type>
       <value>mat-dialog-title-0</value>
-      <webElementGuid>5a7e51fd-2fc8-4ec9-a8e0-63e67d6d5da3</webElementGuid>
+      <webElementGuid>2c2da0d9-4f72-46f0-a953-f12c394c2790</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -80,7 +88,7 @@
       <value>Edit Organization Unit
             
         Organization Unit Name *CancelSave</value>
-      <webElementGuid>95c46d66-313f-4cab-8f6c-cdecc8623360</webElementGuid>
+      <webElementGuid>aae863ec-2195-4ad3-a60b-37bf62cc5564</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -88,7 +96,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-dialog-0&quot;)</value>
-      <webElementGuid>889bff2e-c30d-4255-98f3-30c03e367b54</webElementGuid>
+      <webElementGuid>38f5eea7-433d-4123-8308-181bd4cd9e9f</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -96,7 +104,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//mat-dialog-container[@id='mat-dialog-0']</value>
-      <webElementGuid>c4a9fd82-d85a-478b-9cee-afddc34a2f8d</webElementGuid>
+      <webElementGuid>78e9377c-c1db-40fd-8baa-3333797786cd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -104,7 +112,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='cdk-overlay-2']/mat-dialog-container</value>
-      <webElementGuid>961c86a4-0036-43e7-a617-1a141386dc94</webElementGuid>
+      <webElementGuid>a7512b40-c678-4f89-87d3-cd1f741014f1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -112,7 +120,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//mat-dialog-container</value>
-      <webElementGuid>9e35c556-4a1e-4a94-b0b5-b5f8a1215219</webElementGuid>
+      <webElementGuid>9725c704-1a24-4bcc-bc98-a0ed85e10388</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -124,6 +132,6 @@
         Organization Unit Name *CancelSave' or . = 'Edit Organization Unit
             
         Organization Unit Name *CancelSave')]</value>
-      <webElementGuid>f2a38e29-e816-4d91-ab2f-e062c5a0ee50</webElementGuid>
+      <webElementGuid>c5aacab3-c278-45ca-aafa-cb5791ab4b56</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

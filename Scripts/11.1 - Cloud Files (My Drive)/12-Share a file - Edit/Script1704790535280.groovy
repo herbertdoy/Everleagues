@@ -72,7 +72,7 @@ String my_clipboard = Toolkit.getDefaultToolkit().getSystemClipboard().getConten
 
 WebUI.navigateToUrl(my_clipboard)
 
-WebUI.delay(GlobalVariable.delay_2s)
+WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.closeWindowIndex(1)
 

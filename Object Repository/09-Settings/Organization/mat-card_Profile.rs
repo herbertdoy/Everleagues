@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//mat-card[(text() = ' Profile  create Name *IndustryOrganization Number' or . = ' Profile  create Name *IndustryOrganization Number')]</value>
+         <value>(//div[contains(@class,'grid grid-cols-1')]//div)[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

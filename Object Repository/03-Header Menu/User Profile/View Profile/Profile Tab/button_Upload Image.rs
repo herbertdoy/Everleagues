@@ -6,19 +6,19 @@
    <elementGuidId>991f6352-1bca-484d-a0fc-0b0755d2837c</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>div.action-container > button.mat-focus-indicator.mat-raised-button.mat-button-base</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>//*[@type = 'button' and (text() = 'Upload Image' or . = 'Upload Image')]</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//button[@type='button'])[13]</value>
+         <value>//button[(text() = 'Upload Image' or . = 'Upload Image')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.action-container > button.mat-focus-indicator.mat-raised-button.mat-button-base</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -26,6 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
+      <webElementGuid>ea7a3a19-ee2c-4c3c-8519-3c1da297a22a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -33,6 +34,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
+      <webElementGuid>54c35ae1-d000-4555-abc6-0717685ba4e3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -40,6 +42,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-focus-indicator mat-raised-button mat-button-base</value>
+      <webElementGuid>da3a5587-1684-4de5-b8dc-244ce0214329</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,6 +50,7 @@
       <name>ng-reflect-disabled</name>
       <type>Main</type>
       <value>false</value>
+      <webElementGuid>df559370-4589-4c37-9176-e0e5afa54024</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,6 +58,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Upload Image</value>
+      <webElementGuid>e21ded7a-9dd9-43f9-983b-ffee2601cb48</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,6 +66,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-dialog-1&quot;)/app-dialog-upload-profile-image[@class=&quot;ng-star-inserted&quot;]/section[@class=&quot;dialog-container&quot;]/form[@class=&quot;ng-untouched ng-valid ng-dirty&quot;]/div[@class=&quot;mat-dialog-actions dialog-action&quot;]/div[@class=&quot;action-container&quot;]/button[@class=&quot;mat-focus-indicator mat-raised-button mat-button-base&quot;]</value>
+      <webElementGuid>441654e5-1eee-43b2-86a0-e5f7ca0628ba</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -68,6 +74,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[13]</value>
+      <webElementGuid>a577bd6c-4665-4b69-8275-5ab5459da474</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -75,6 +82,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-dialog-container[@id='mat-dialog-1']/app-dialog-upload-profile-image/section/form/div[2]/div/button</value>
+      <webElementGuid>d838dc96-85ee-484b-8390-354c2edef2f2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,6 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Browse'])[1]/following::button[1]</value>
+      <webElementGuid>6364c735-d927-4996-8a06-15c3ddd57ba5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -89,6 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Select file..'])[1]/following::button[2]</value>
+      <webElementGuid>85028260-59e6-44cf-9396-0c74b47f30b3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -96,6 +106,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/preceding::button[1]</value>
+      <webElementGuid>d4f84870-8433-4360-8d25-9f33c0410537</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,5 +114,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//form/div[2]/div/button</value>
+      <webElementGuid>6a68d729-16de-4162-a86b-bd347c3e9731</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -10,7 +10,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@class='alert-new-notif']/following-sibling::div[1]</value>
+         <value>(//mat-tab-body[@ng-reflect-origin='1']//div)[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

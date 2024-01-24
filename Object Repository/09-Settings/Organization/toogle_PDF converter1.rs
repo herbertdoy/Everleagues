@@ -10,7 +10,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//label[@for='mat-slide-toggle-11-input']//span)[1]</value>
+         <value>(//label[@for='mat-slide-toggle-12-input']//span)[1]</value>
       </entry>
       <entry>
          <key>CSS</key>

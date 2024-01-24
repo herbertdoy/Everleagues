@@ -6,19 +6,19 @@
    <elementGuidId>e9939c5d-d31a-444a-874e-c857d3ab48a5</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//button[@type = 'button' and @ng-reflect-permission-type = 'OU_DELETE' and (text() = 'Delete Organization' or . = 'Delete Organization')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
-         <value>(//button[@type='button'])[9]</value>
+         <value>//button[@permission-type = 'OU_DELETE' and @ng-reflect-permission-type = 'OU_DELETE' and @ng-reflect-color = 'warn' and (text() = 'Delete Organization' or . = 'Delete Organization')]</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>button.mat-focus-indicator.ng-tns-c649-67.mat-raised-button.mat-button-base.mat-warn.cdk-focused.cdk-mouse-focused</value>
       </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//button[@type = 'button' and @ng-reflect-permission-type = 'OU_DELETE' and (text() = 'Delete Organization' or . = 'Delete Organization')]</value>
-      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -26,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>f447cf79-ea53-4e8e-b12f-2b4ab26f6e59</webElementGuid>
+      <webElementGuid>633ffd6e-4582-4e30-a7bf-0eb02e9cebfb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -34,7 +34,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>db749223-76a4-451f-8b22-e2ad1e0ad98a</webElementGuid>
+      <webElementGuid>3ee2af1f-b3b1-43a1-ba31-8926a8755c3a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,7 +42,7 @@
       <name>color</name>
       <type>Main</type>
       <value>warn</value>
-      <webElementGuid>22ce923d-c0c0-4c6d-8d5f-90cb510feaae</webElementGuid>
+      <webElementGuid>4fc3289d-84e1-4346-9410-dccf7a3d7f0f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,7 +50,7 @@
       <name>permission-type</name>
       <type>Main</type>
       <value>OU_DELETE</value>
-      <webElementGuid>70059be0-3514-467a-873f-5c71f0087df1</webElementGuid>
+      <webElementGuid>f18c8d56-cbf1-418f-b776-6980fcb3b3a8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -58,7 +58,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-focus-indicator ng-tns-c649-67 mat-raised-button mat-button-base mat-warn cdk-focused cdk-mouse-focused</value>
-      <webElementGuid>ba3d49b5-1966-4b27-8a36-aca1bcb9e179</webElementGuid>
+      <webElementGuid>c79aee25-b429-4164-9025-4ca8dba7eeb4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -66,7 +66,7 @@
       <name>ng-reflect-color</name>
       <type>Main</type>
       <value>warn</value>
-      <webElementGuid>e8835a63-a07b-4456-b55e-f6933f6618a8</webElementGuid>
+      <webElementGuid>991edfc3-9115-40a0-a8f5-f11a907dff2a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -74,7 +74,7 @@
       <name>ng-reflect-permission-type</name>
       <type>Main</type>
       <value>OU_DELETE</value>
-      <webElementGuid>802a7efd-5e74-440c-9d0d-916a06581e62</webElementGuid>
+      <webElementGuid>7cae6b45-c4f3-4565-b3fe-426fd2772b4a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -82,7 +82,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Delete Organization</value>
-      <webElementGuid>c803b951-c4d2-49cc-9698-811c1a440c56</webElementGuid>
+      <webElementGuid>84611171-1a48-48f8-b642-2146f1d6888c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -90,7 +90,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-tab-content-1-0&quot;)/div[@class=&quot;mat-tab-body-content ng-tns-c361-82 ng-trigger ng-trigger-translateTab&quot;]/div[@class=&quot;form-settings-submit ng-star-inserted&quot;]/button[@class=&quot;mat-focus-indicator ng-tns-c649-67 mat-raised-button mat-button-base mat-warn cdk-focused cdk-mouse-focused&quot;]</value>
-      <webElementGuid>fd0e5a2b-d083-424e-bbd9-7ff1b1b1b66c</webElementGuid>
+      <webElementGuid>668742c4-cd6d-490b-a071-092d81ad6cc5</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -98,7 +98,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[9]</value>
-      <webElementGuid>6affb7ae-4ce9-4637-b3c9-f3800d53d322</webElementGuid>
+      <webElementGuid>0664965c-1ccb-4c12-a1b5-b3944814adb2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,7 +106,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-tab-body[@id='mat-tab-content-1-0']/div/div/button[2]</value>
-      <webElementGuid>da4005d6-4209-4168-9e6e-fd6ec114c7c9</webElementGuid>
+      <webElementGuid>7964fa5a-d805-4b98-b4e4-166f07e03f9e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -114,7 +114,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Save'])[1]/following::button[1]</value>
-      <webElementGuid>3d90baaf-8995-40c1-9b1a-e97ade758fc5</webElementGuid>
+      <webElementGuid>f74c8f34-6b3d-406c-9b21-0e25555d76cd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -122,7 +122,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Country'])[1]/following::button[2]</value>
-      <webElementGuid>4adee11d-2aa8-4196-9853-206425f95374</webElementGuid>
+      <webElementGuid>d5544657-d5e4-4e68-a886-ab56a290f34c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -130,7 +130,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Hide Quick Shortcuts'])[1]/preceding::button[5]</value>
-      <webElementGuid>e84ba56b-128c-450b-8e78-13ef4c49136e</webElementGuid>
+      <webElementGuid>5f6a6eaf-2fc1-4173-9f93-ae7bb9de74b7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -138,7 +138,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/button[2]</value>
-      <webElementGuid>44d52c1c-d9fd-4361-9c20-1fa016ec2d31</webElementGuid>
+      <webElementGuid>3bac3878-2111-4446-81f3-8d39515a3d08</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -146,6 +146,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = 'Delete Organization' or . = 'Delete Organization')]</value>
-      <webElementGuid>f3dc76e7-c771-45ee-a502-3f18d477ab97</webElementGuid>
+      <webElementGuid>f4d1dda8-8f3a-486a-b11f-1872b9aadeca</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

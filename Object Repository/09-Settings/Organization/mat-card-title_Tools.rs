@@ -6,15 +6,18 @@
    <elementGuidId>889009a9-373a-4621-9d33-b14929410572</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//mat-card-title[@class = 'mat-card-title' and (text() = ' Tools ' or . = ' Tools ')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
-         <value>//mat-tab-body[@id='mat-tab-content-2-1']/div/section[3]/div/mat-card/mat-card-title</value>
+         <value>//div[text()='Tools']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -22,7 +25,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>mat-card-title</value>
-      <webElementGuid>73b4c7bb-6258-4e5d-ba58-66e059d3bb96</webElementGuid>
+      <webElementGuid>fdba6df1-ca60-41d6-92e1-1f42bb4bb684</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +33,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-card-title</value>
-      <webElementGuid>3bb9cbfa-61a5-43b1-a46b-6057e319da1b</webElementGuid>
+      <webElementGuid>6ab4c209-4f18-471f-be44-6fa6ba9a5837</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +41,7 @@
       <name>text</name>
       <type>Main</type>
       <value> Tools </value>
-      <webElementGuid>de1fd53d-d996-4308-ad3d-3f3fdbea3dfd</webElementGuid>
+      <webElementGuid>c7a7a543-c0b2-4b1b-a251-4b259bf4e8c0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +49,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-tab-content-2-1&quot;)/div[@class=&quot;mat-tab-body-content ng-tns-c361-78 ng-trigger ng-trigger-translateTab&quot;]/section[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;ng-tns-c588-62&quot;]/mat-card[@class=&quot;mat-card mat-focus-indicator ng-tns-c588-62&quot;]/mat-card-title[@class=&quot;mat-card-title&quot;]</value>
-      <webElementGuid>dea37fec-c7bb-4689-b752-3f752085be94</webElementGuid>
+      <webElementGuid>1285a2c2-906f-425f-9d0e-e6859f31cba2</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +57,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-tab-body[@id='mat-tab-content-2-1']/div/section[3]/div/mat-card/mat-card-title</value>
-      <webElementGuid>d249f789-f888-4a8c-ad40-680c2f9faa2a</webElementGuid>
+      <webElementGuid>d0bfdf74-d3fc-4b32-9577-14559be9fd28</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +65,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='By enabling this option, all join requests via URL will be automatically approved.'])[1]/following::mat-card-title[1]</value>
-      <webElementGuid>a5409eb3-484e-4434-971c-4d1089c843bf</webElementGuid>
+      <webElementGuid>bf752441-64bc-41cd-b3e3-8d77a5bd7fa8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +73,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Enable Auto Approve'])[1]/following::mat-card-title[1]</value>
-      <webElementGuid>61c7e1f0-2dc5-4a54-ab44-3a961b5d0e2b</webElementGuid>
+      <webElementGuid>ed6c6a3a-683c-4724-96dd-30a3f9c5f428</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +81,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Enable or disable tools by clicking on the toggle.'])[1]/preceding::mat-card-title[1]</value>
-      <webElementGuid>6ae619aa-87d9-404b-983c-0bc589cfe519</webElementGuid>
+      <webElementGuid>f2fa6b3c-a2c8-490d-bbd6-4180cb4ed95a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +89,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='ELNet'])[2]/preceding::mat-card-title[1]</value>
-      <webElementGuid>34cce1a2-77b9-429c-a763-e9982a34cb2e</webElementGuid>
+      <webElementGuid>8fef7a65-3742-4cc5-b80a-7ac1318281ae</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +97,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Tools']/parent::*</value>
-      <webElementGuid>e60a8e61-d589-4335-8169-dc01b989e4cb</webElementGuid>
+      <webElementGuid>9a79d4fa-5e0e-4051-93df-4cdfb6e92c69</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +105,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//section[3]/div/mat-card/mat-card-title</value>
-      <webElementGuid>ec9b3715-d326-4689-8489-d89e8e3ae417</webElementGuid>
+      <webElementGuid>eca82e86-8b9b-48be-8ff4-564531925c02</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,6 +113,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//mat-card-title[(text() = ' Tools ' or . = ' Tools ')]</value>
-      <webElementGuid>fd739369-cca2-4cde-b362-c76bf8e71b0e</webElementGuid>
+      <webElementGuid>b3f5bdaa-a31e-499b-987a-54e83b334d0d</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

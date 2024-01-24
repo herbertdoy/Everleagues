@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_minute(s) dropdown</name>
+   <tag></tag>
+   <elementGuidId>c25a6227-2c38-4665-9787-b68411e46538</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.mat-form-field-infix.ng-tns-c221-81</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[text()='minute(s)']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>dc99946c-163d-44b5-bd86-f032d261787e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-form-field-infix ng-tns-c221-81</value>
+      <webElementGuid>2f9b1cbb-3944-4b44-84df-771027e82a61</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>minute(s)</value>
+      <webElementGuid>677557f8-6fd5-47ad-afcc-aa18ddf59a14</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mat-dialog-0&quot;)/app-dialog-export-chat[@class=&quot;ng-star-inserted&quot;]/section[@class=&quot;dialog-container&quot;]/div[@class=&quot;mat-dialog-content&quot;]/form[@class=&quot;push-top-sm ng-valid ng-touched ng-dirty&quot;]/div[1]/mat-radio-group[@class=&quot;mat-radio-group ng-valid ng-dirty ng-touched&quot;]/div[@class=&quot;mb-0&quot;]/mat-form-field[@class=&quot;mat-form-field ng-tns-c221-81 mat-primary ng-star-inserted mat-form-field-type-mat-select mat-form-field-appearance-fill mat-form-field-can-float ng-untouched ng-pristine ng-valid mat-form-field-should-float&quot;]/div[@class=&quot;mat-form-field-wrapper ng-tns-c221-81&quot;]/div[@class=&quot;mat-form-field-flex ng-tns-c221-81&quot;]/div[@class=&quot;mat-form-field-infix ng-tns-c221-81&quot;]</value>
+      <webElementGuid>60f0bd51-7227-4a1f-bc5a-a2bc433a79d9</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//mat-dialog-container[@id='mat-dialog-0']/app-dialog-export-chat/section/div/form/div/mat-radio-group/div/mat-form-field/div/div/div</value>
+      <webElementGuid>952ddc48-ee85-47be-95bc-c33f30127b29</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Export Location'])[1]/following::div[11]</value>
+      <webElementGuid>b37e488c-01dc-42d1-b7ef-a9ac591d12b2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//mat-radio-group/div/mat-form-field/div/div/div</value>
+      <webElementGuid>9dd82192-353e-4bc6-89e8-8c0ccb705330</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'minute(s)' or . = 'minute(s)')]</value>
+      <webElementGuid>683d7ced-e65c-4256-8d08-7fc0c90878f9</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

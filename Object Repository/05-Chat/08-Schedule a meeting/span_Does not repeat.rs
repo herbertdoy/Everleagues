@@ -6,15 +6,19 @@
    <elementGuidId>0b6140fe-3d77-409b-989d-17924f626759</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//span[(text() = 'Does not repeat' or . = 'Does not repeat')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
-         <value>//mat-option[@id='mat-option-20']/span</value>
+         <value>(//mat-option[@role='option'])[1]</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>span.mat-option-text</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -22,6 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
+      <webElementGuid>59ae7aa2-d5ff-4fed-94d1-76e6bd0f11f2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,6 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-option-text</value>
+      <webElementGuid>755c33b0-71e8-44a6-83aa-7d59d5448d74</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -36,6 +42,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Does not repeat</value>
+      <webElementGuid>2c3510a8-7005-4d69-b7a1-16eb8da42f9f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,6 +50,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-option-20&quot;)/span[@class=&quot;mat-option-text&quot;]</value>
+      <webElementGuid>324b3469-a297-4790-a5aa-c796b0d74ad9</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -50,6 +58,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-option[@id='mat-option-20']/span</value>
+      <webElementGuid>4ecf055c-54d1-467c-868e-4e2bd41cec03</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -57,6 +66,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='New Chat'])[1]/following::span[1]</value>
+      <webElementGuid>b2c6ed1b-c4d1-43ea-a85c-1f035be551fa</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -64,6 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Meet disabled for chatrooms larger than 30 participants'])[1]/following::span[1]</value>
+      <webElementGuid>d2838081-4115-4547-9532-60c34fba42bc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,6 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Daily'])[1]/preceding::span[1]</value>
+      <webElementGuid>5c0b57ce-0223-4c35-a30a-51333e6c26c2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,6 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Weekly'])[1]/preceding::span[2]</value>
+      <webElementGuid>43fc62f5-5be2-4b1a-9cb1-f74c4b2ba3e9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,6 +98,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//mat-option/span</value>
+      <webElementGuid>f4d710cf-209a-4e1f-ab94-7331a4e03b4c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -92,5 +106,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'Does not repeat' or . = 'Does not repeat')]</value>
+      <webElementGuid>28ce3793-c283-47db-acbc-4ec6d6b7cd5e</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

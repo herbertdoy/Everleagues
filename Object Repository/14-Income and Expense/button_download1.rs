@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//mat-icon[text()='get_app'])[1]</value>
+         <value>//button[@mattooltip='Download']</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>10cfff63-7b12-495a-9842-b92f02519211</webElementGuid>
+      <webElementGuid>48674879-db81-4aa5-a9f9-3db43cb4330f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-focus-indicator mat-icon-button mat-button-base cdk-focused cdk-mouse-focused</value>
-      <webElementGuid>223de310-5b45-441a-b427-def133d2dc2d</webElementGuid>
+      <webElementGuid>852b271a-d81c-4d53-b974-a43dc0edca1a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value>get_app</value>
-      <webElementGuid>b008b311-f246-4cea-afe4-64bc0641a35b</webElementGuid>
+      <webElementGuid>f730c145-c7b2-4b5e-9e9f-f21940884eb9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/app-root[1]/app-main-page[@class=&quot;ng-tns-c481-5 ng-trigger ng-trigger-routerAnimation ng-star-inserted&quot;]/mat-sidenav-container[@class=&quot;mat-drawer-container mat-sidenav-container ng-tns-c481-5 mat-drawer-transition mat-drawer-container-has-open&quot;]/mat-sidenav-content[@class=&quot;mat-drawer-content mat-sidenav-content&quot;]/div[@class=&quot;wrapper&quot;]/app-iet-viewreport[@class=&quot;ng-star-inserted&quot;]/div[2]/ag-grid-angular[@class=&quot;ag-theme-balham&quot;]/div[@class=&quot;ag-root-wrapper ag-layout-normal ag-ltr&quot;]/div[@class=&quot;ag-root-wrapper-body ag-layout-normal&quot;]/div[@class=&quot;ag-root ag-unselectable ag-layout-normal ag-has-focus&quot;]/div[@class=&quot;ag-body-viewport ag-layout-normal ag-row-no-animation&quot;]/div[@class=&quot;ag-center-cols-clipper&quot;]/div[@class=&quot;ag-center-cols-viewport&quot;]/div[@class=&quot;ag-center-cols-container&quot;]/div[@class=&quot;ag-row ag-row-even ag-row-level-0 ag-row-position-absolute ag-row-first ag-row-last ag-row-focus ag-row-hover&quot;]/div[@class=&quot;ag-cell ag-cell-not-inline-editing ag-cell-with-height ag-cell-value ag-column-hover ag-cell-focus&quot;]/app-button-renderer[@class=&quot;ng-star-inserted&quot;]/button[@class=&quot;mat-focus-indicator mat-icon-button mat-button-base cdk-focused cdk-mouse-focused&quot;]</value>
-      <webElementGuid>64d8889b-53dc-4ac9-bec4-003207017861</webElementGuid>
+      <webElementGuid>f057425f-c46b-43ed-b1f7-de299ff36199</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Receipt Note'])[1]/following::button[2]</value>
-      <webElementGuid>c18f43eb-590d-40d3-9ed4-8422ce44a04f</webElementGuid>
+      <webElementGuid>b81efff0-51af-4718-87a3-9fa984ac8c4e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='$300.00'])[1]/following::button[2]</value>
-      <webElementGuid>bab315c1-9ce8-42a2-a1cc-69a389a609b0</webElementGuid>
+      <webElementGuid>f63849a3-929a-4934-8753-8b09798428ed</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[7]/app-button-renderer/button</value>
-      <webElementGuid>c1517b75-6a16-49c6-8e04-eebd249d3adf</webElementGuid>
+      <webElementGuid>04b9ce74-21cb-492e-a9b6-54099c72fd2f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,6 +78,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[(text() = 'get_app' or . = 'get_app')]</value>
-      <webElementGuid>b51a1523-d3db-4c9f-9291-881bb50fd7fe</webElementGuid>
+      <webElementGuid>00266917-cafe-414a-977e-b3c5e4ccef04</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

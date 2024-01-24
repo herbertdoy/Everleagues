@@ -17,9 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.delay(GlobalVariable.delay_2s)
+
 WebUI.scrollToElement(findTestObject('09-Settings/Organization/div_Settings'), 0)
 
-WebUI.delay(GlobalVariable.delay_3s)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('09-Settings/Organization/div_Settings'))
 
@@ -30,13 +32,11 @@ WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/mat-card-title_Chat Message Settings'))
 
-WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/mat-card_Chat Message Settings'))
-
 WebUI.click(findTestObject('09-Settings/Organization/toggle_Enable chat message editing'))
 
 WebUI.click(findTestObject('09-Settings/Organization/toggle_Enable chat message deletion'))
 
-WebUI.delay(GlobalVariable.delay_3s)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('09-Settings/Organization/toggle_Enable chat message editing'))
 
@@ -50,8 +50,6 @@ WebUI.delay(GlobalVariable.delay_2s)
 WebUI.delay(GlobalVariable.delay_2s)*/
 WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/mat-card-title_Membership'))
 
-WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/mat-card_Membership'))
-
 WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/div_By enabling this option, all join requests via URL will be automatically approved'))
 
 WebUI.click(findTestObject('09-Settings/Organization/toggle_Enable auto approve'))
@@ -62,13 +60,11 @@ WebUI.scrollToElement(findTestObject('09-Settings/Organization/mat-card-title_Cl
 
 WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/mat-card-title_Cloud files'))
 
-WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/mat-card-Cloud files'))
+WebUI.click(findTestObject('09-Settings/Organization/toggle_My Drive for employees'))
 
-WebUI.click(findTestObject('09-Settings/Organization/toggle_cloudfiles'))
+WebUI.click(findTestObject('09-Settings/Organization/toggle_My Drive for clients'))
 
-WebUI.click(findTestObject('09-Settings/Organization/cloud_files_client'))
-
-WebUI.click(findTestObject('09-Settings/Organization/cloud_files_external_users'))
+WebUI.click(findTestObject('09-Settings/Organization/toggle_My Drive for external'))
 
 //WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/div_By enabling this option, all join requests via URL will be automatically approved'))
 //WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/h4_Auto Approval Disabled for Free Limited Plan'))
@@ -80,6 +76,14 @@ WebUI.click(findTestObject('09-Settings/Organization/cloud_files_external_users'
 //WebUI.verifyElementVisible(findTestObject('09-Settings/Users/div_Subscriptions'))
 WebUI.delay(GlobalVariable.delay_2s)
 
+WebUI.click(findTestObject('09-Settings/Organization/toggle_My Drive for employees'))
+
+WebUI.click(findTestObject('09-Settings/Organization/toggle_My Drive for clients'))
+
+WebUI.click(findTestObject('09-Settings/Organization/toggle_My Drive for external'))
+
+WebUI.delay(GlobalVariable.delay_2s)
+
 //WebUI.click(findTestObject('03-Header Menu/div_Settings'))
 //WebUI.click(findTestObject('09-Settings/Users/div_Organization'))
 //WebUI.click(findTestObject('09-Settings/Organization/div_Settings'))//
@@ -89,47 +93,55 @@ WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/div_Enable o
 
 WebUI.click(findTestObject('09-Settings/Organization/toggle_EL Net'))
 
-WebUI.delay(GlobalVariable.delay_3s)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('09-Settings/Organization/toggle_EL Sign'))
 
-WebUI.delay(GlobalVariable.delay_3s)
-
-WebUI.click(findTestObject('09-Settings/Organization/toggle_EL HealthCheck'))
-
-WebUI.delay(GlobalVariable.delay_3s)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('09-Settings/Organization/toggle_Income and expense'))
 
-WebUI.delay(GlobalVariable.delay_3s)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('09-Settings/Organization/toggle_AI assistant'))
 
-WebUI.delay(GlobalVariable.delay_3s)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('09-Settings/Organization/toogle_PDF converter1'))
 
-WebUI.delay(GlobalVariable.delay_3s)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('09-Settings/Organization/toggle_EL Net'))
 
-WebUI.delay(GlobalVariable.delay_3s)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('09-Settings/Organization/toggle_EL Sign'))
 
-WebUI.delay(GlobalVariable.delay_3s)
-
-WebUI.click(findTestObject('09-Settings/Organization/toggle_EL HealthCheck'))
-
-WebUI.delay(GlobalVariable.delay_3s)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('09-Settings/Organization/toggle_Income and expense'))
 
-WebUI.delay(GlobalVariable.delay_3s)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('09-Settings/Organization/toggle_AI assistant'))
 
-WebUI.delay(GlobalVariable.delay_3s)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('09-Settings/Organization/toogle_PDF converter1'))
+
+WebUI.delay(GlobalVariable.delay_2s)
+
+WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/div_Retention'))
+
+WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/table_Rentention content'))
+
+WebUI.delay(GlobalVariable.delay_2s)
+
+WebUI.click(findTestObject('09-Settings/Organization/toggle_enable retention'))
+
+WebUI.delay(GlobalVariable.delay_2s)
+
+WebUI.click(findTestObject('09-Settings/Organization/toggle_enable retention'))
+
+WebUI.delay(GlobalVariable.delay_3s)
 

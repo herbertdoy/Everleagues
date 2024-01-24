@@ -6,15 +6,15 @@
    <elementGuidId>2e0bfc24-17e6-4f4e-93dd-e3139c9a2825</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//mat-card[(text() = 'AddressStreetCityZip / Postal CodeState/ProvinceCountry' or . = 'AddressStreetCityZip / Postal CodeState/ProvinceCountry')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
-         <value>(//mat-card[contains(@class,'mat-card mat-focus-indicator')])[3]</value>
+         <value>(//div[contains(@class,'sm:col-span-2 md:col-span-4')]/following-sibling::div)[1]</value>
       </entry>
       <entry>
          <key>CSS</key>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//mat-card[(text() = 'AddressStreetCityZip / Postal CodeState/ProvinceCountry' or . = 'AddressStreetCityZip / Postal CodeState/ProvinceCountry')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -25,7 +25,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>mat-card</value>
-      <webElementGuid>99d50d4b-b1b0-47b4-aa5b-81267950b296</webElementGuid>
+      <webElementGuid>70144f9a-9f07-4409-9532-c8833ef94f7e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -33,7 +33,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-card mat-focus-indicator ng-tns-c649-37</value>
-      <webElementGuid>c551cb6d-e039-4bb1-bd82-4d85e838d1eb</webElementGuid>
+      <webElementGuid>cd4b1a8d-8d2e-4654-b466-b080e91c30a3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -41,7 +41,7 @@
       <name>text</name>
       <type>Main</type>
       <value>AddressStreetCityZip / Postal CodeState/ProvinceCountry</value>
-      <webElementGuid>4f12d32d-4a27-47b1-809f-580c6fca5d43</webElementGuid>
+      <webElementGuid>9fb9a570-700a-4a6a-8dc6-19e136a709df</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,7 +49,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-tab-content-0-0&quot;)/div[@class=&quot;mat-tab-body-content ng-tns-c361-52 ng-trigger ng-trigger-translateTab&quot;]/section[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;ng-tns-c649-37&quot;]/mat-card[@class=&quot;mat-card mat-focus-indicator ng-tns-c649-37&quot;]</value>
-      <webElementGuid>2f7189dc-0aca-4c0e-805e-abb3ade181cd</webElementGuid>
+      <webElementGuid>c5f70b59-9f80-4729-8f01-a2d5be3b5b68</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -57,7 +57,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-tab-body[@id='mat-tab-content-0-0']/div/section/div[2]/mat-card</value>
-      <webElementGuid>f9e92564-b5b1-4958-afc5-3ddd45f94b66</webElementGuid>
+      <webElementGuid>1192e29a-f8bf-498a-b381-8690ad2f1192</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -65,7 +65,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Fax'])[1]/following::mat-card[1]</value>
-      <webElementGuid>5a16b41d-3cb3-4ea7-bb96-ba946f9d8fde</webElementGuid>
+      <webElementGuid>0eb161b7-50e5-4ca4-a4db-c8a2aeb365cc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -73,7 +73,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Phone'])[1]/following::mat-card[1]</value>
-      <webElementGuid>6422247a-26c8-4ef1-95d5-e77686cc252f</webElementGuid>
+      <webElementGuid>9461ca71-dec6-4106-a54c-bb366aa21823</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -81,7 +81,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/mat-card</value>
-      <webElementGuid>3f29831f-1337-49dc-be6f-464b73b0d7a2</webElementGuid>
+      <webElementGuid>bd5f7e95-1187-45b7-8b52-0705e2cd3b55</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -89,6 +89,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//mat-card[(text() = 'AddressStreetCityZip / Postal CodeState/ProvinceCountry' or . = 'AddressStreetCityZip / Postal CodeState/ProvinceCountry')]</value>
-      <webElementGuid>31e4523f-7707-4204-827d-5192a6a3a0f5</webElementGuid>
+      <webElementGuid>357db4ec-4440-4397-8437-9498ce60ad4e</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

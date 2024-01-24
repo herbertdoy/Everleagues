@@ -6,15 +6,19 @@
    <elementGuidId>8c984ccc-fe8c-4ea6-a760-c0325c27c090</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//div[(text() = 'Does not repeatRecurrence' or . = 'Does not repeatRecurrence')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
-         <value>//div[@id='msgComposer']/div/div/div[3]/div[3]/div[3]/mat-form-field/div/div</value>
+         <value>//mat-label[text()='Recurrence']</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>div.mat-form-field-flex.ng-tns-c231-273</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -22,6 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
+      <webElementGuid>3103bf66-9b4a-4774-9686-1957fa82ba9d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,6 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-form-field-flex ng-tns-c231-273</value>
+      <webElementGuid>c2c042b4-91d8-483e-b319-074d3f64be97</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -36,6 +42,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Does not repeatRecurrence</value>
+      <webElementGuid>9666e1c1-dee5-4f81-9506-9318e9be6e21</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,6 +50,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;msgComposer&quot;)/div[1]/div[1]/div[@class=&quot;calendar-content ng-star-inserted&quot;]/div[3]/div[@class=&quot;form-field-div&quot;]/mat-form-field[@class=&quot;mat-form-field ng-tns-c231-273 mat-primary mat-form-field-type-mat-select mat-form-field-appearance-outline mat-form-field-can-float mat-form-field-has-label mat-form-field-should-float&quot;]/div[@class=&quot;mat-form-field-wrapper ng-tns-c231-273&quot;]/div[@class=&quot;mat-form-field-flex ng-tns-c231-273&quot;]</value>
+      <webElementGuid>fda3c17d-08b0-4d25-a22b-8815cbb1cb63</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -50,6 +58,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='msgComposer']/div/div/div[3]/div[3]/div[3]/mat-form-field/div/div</value>
+      <webElementGuid>654006a4-8bf6-44e8-8222-400583dcf8e6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -57,6 +66,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='End Date'])[1]/following::div[9]</value>
+      <webElementGuid>04de6328-163e-4264-b3f9-51c3176fa5c2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -64,6 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Start Date'])[1]/following::div[27]</value>
+      <webElementGuid>8093af1b-1fbe-49ae-ace5-78a626069fd4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,6 +82,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/mat-form-field/div/div</value>
+      <webElementGuid>df3b45b3-8a3b-4a96-bc91-03972d0c1139</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,5 +90,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = 'Does not repeatRecurrence' or . = 'Does not repeatRecurrence')]</value>
+      <webElementGuid>50bd4455-2c6e-4387-aec2-21e4ede073a7</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

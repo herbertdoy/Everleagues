@@ -33,31 +33,31 @@ WebUI.verifyElementVisible(findTestObject('05-Chat/09-Hiding a chat/Group info')
 
 WebUI.delay(GlobalVariable.delay_1s)
 
-WebUI.click(findTestObject('05-Chat/10-Group Info/button_EDIT'))
+WebUI.click(findTestObject('05-Chat/11-Group Info/button_EDIT'))
 
-WebUI.setText(findTestObject('05-Chat/10-Group Info/input_groupName_edit'), GlobalVariable.edit_groupname)
+WebUI.setText(findTestObject('05-Chat/11-Group Info/input_groupName_edit'), GlobalVariable.edit_groupname)
 
 WebUI.delay(GlobalVariable.delay_1s)
 
-WebUI.click(findTestObject('05-Chat/10-Group Info/button_Save'))
+WebUI.click(findTestObject('05-Chat/11-Group Info/button_Save'))
 
 WebUI.delay(GlobalVariable.delay_2s)
 
-WebUI.click(findTestObject('05-Chat/10-Group Info/div_GTGG tester'))
+WebUI.click(findTestObject('05-Chat/11-Group Info/div_GTGG tester'))
 
-WebUI.verifyElementVisible(findTestObject('05-Chat/10-Group Info/button_Message'))
+WebUI.verifyElementVisible(findTestObject('05-Chat/11-Group Info/button_Message'))
 
-WebUI.verifyElementVisible(findTestObject('05-Chat/10-Group Info/button_Kick from group'))
-
-WebUI.delay(GlobalVariable.delay_2s)
-
-WebUI.click(findTestObject('05-Chat/10-Group Info/button_Kick from group'))
+WebUI.verifyElementVisible(findTestObject('05-Chat/11-Group Info/button_Kick from group'))
 
 WebUI.delay(GlobalVariable.delay_2s)
 
-WebUI.click(findTestObject('05-Chat/10-Group Info/div_Remove group'))
+WebUI.click(findTestObject('05-Chat/11-Group Info/button_Kick from group'))
 
 WebUI.delay(GlobalVariable.delay_2s)
+
+WebUI.click(findTestObject('05-Chat/11-Group Info/div_Remove group'))
+
+WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.closeBrowser()
 

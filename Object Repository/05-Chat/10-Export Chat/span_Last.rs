@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Last</name>
+   <tag></tag>
+   <elementGuidId>d0fecef4-22de-4a12-a2af-a517d5b353fa</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>span.mat-radio-label-content</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[(text() = ' Last' or . = ' Last')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>0149ca61-1d12-4eb3-ba63-0ba70d90247e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-radio-label-content</value>
+      <webElementGuid>3723d85b-fcee-4f78-8549-1057814bd465</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Last</value>
+      <webElementGuid>87d11544-794e-48fb-801a-bb4731132dfa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mat-radio-2&quot;)/label[@class=&quot;mat-radio-label&quot;]/span[@class=&quot;mat-radio-label-content&quot;]</value>
+      <webElementGuid>ec8e99f5-9b2e-41fc-b475-ca775c6db1ca</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//mat-radio-button[@id='mat-radio-2']/label/span[2]</value>
+      <webElementGuid>cd5e276d-f12c-4f6d-8e77-075332c9e012</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Export Location'])[1]/following::span[7]</value>
+      <webElementGuid>976b320e-d26c-41e2-bff8-581faf426310</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Default filename will be used if left empty'])[1]/following::span[8]</value>
+      <webElementGuid>d0a361ad-7197-4c4f-a644-d38427a87b4a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='minute(s)'])[1]/preceding::span[2]</value>
+      <webElementGuid>e3a60247-aacb-4f06-9540-5ac9f261f5b0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Last']/parent::*</value>
+      <webElementGuid>3d309958-37ac-4d56-bcbe-a2042c242eeb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//label/span[2]</value>
+      <webElementGuid>288f3ab6-c9e8-4f8e-a65b-65f1b62731d8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = ' Last' or . = ' Last')]</value>
+      <webElementGuid>b578d72c-ced9-4f27-a7a5-443eb443f516</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
