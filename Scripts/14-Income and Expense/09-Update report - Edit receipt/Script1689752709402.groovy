@@ -28,7 +28,7 @@ WebUI.click(findTestObject('14-Income and Expense/button_edit'))
 
 WebUI.verifyElementVisible(findTestObject('14-Income and Expense/mat-dialog-container_Edit receipt Modal'))
 
-WebUI.setText(findTestObject('14-Income and Expense/input_VendorName'), GlobalVariable.edit_vendor_name)
+WebUI.setText(findTestObject('14-Income and Expense/input_VendorName'), 'GG Automation Edit')
 
 WebUI.sendKeys(findTestObject('14-Income and Expense/input_VendorName'), Keys.chord(Keys.ESCAPE))
 

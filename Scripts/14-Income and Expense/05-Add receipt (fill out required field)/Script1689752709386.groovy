@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.setText(findTestObject('14-Income and Expense/input_VendorName'), GlobalVariable.vendor_name)
+WebUI.setText(findTestObject('14-Income and Expense/input_VendorName'), 'GG Vendor')
 
 WebUI.click(findTestObject('14-Income and Expense/input_AccountType'))
 

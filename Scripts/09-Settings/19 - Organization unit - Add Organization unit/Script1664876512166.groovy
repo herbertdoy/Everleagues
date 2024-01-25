@@ -162,7 +162,7 @@ WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('09-Settings/Organization unit/button_Select'))
 
-WebUI.setText(findTestObject('09-Settings/Organization unit/input_Parent Organization Unit Name_orgName'), GlobalVariable.org_unit)
+WebUI.setText(findTestObject('09-Settings/Organization unit/input_Parent Organization Unit Name_orgName'), 'Automation Organization unit')
 
 WebUI.delay(GlobalVariable.delay_2s)
 

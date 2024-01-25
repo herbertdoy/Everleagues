@@ -134,7 +134,7 @@ WebUI.click(findTestObject('09-Settings/Organization unit/button_Edit Organizati
 WebUI.verifyElementVisible(findTestObject('09-Settings/Organization unit/mat-dialog-container_Edit Organization Unit modal'), 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('09-Settings/Organization unit/input_Edit Organization Unit_orgName'), GlobalVariable.edit_org_unit)
+WebUI.setText(findTestObject('09-Settings/Organization unit/input_Edit Organization Unit_orgName'), 'Automation Organization unit EDIT')
 
 WebUI.delay(GlobalVariable.delay_2s)
 
@@ -151,7 +151,7 @@ WebUI.click(findTestObject('09-Settings/Organization unit/button_Edit Organizati
 
 //WebUI.verifyElementVisible(findTestObject('09-Settings/Organization unit/mat-dialog-container_Edit Organization Unit modal'), 
 //    FailureHandling.STOP_ON_FAILURE)
-WebUI.setText(findTestObject('09-Settings/Organization unit/input_Edit Organization Unit_orgName'), GlobalVariable.org_unit)
+WebUI.setText(findTestObject('09-Settings/Organization unit/input_Edit Organization Unit_orgName'), 'Automation Organization unit')
 
 WebUI.delay(GlobalVariable.delay_2s)
 

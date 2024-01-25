@@ -147,7 +147,7 @@ WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/snack-bar-co
 
 WebUI.click(findTestObject('09-Settings/Organization/input_name'))
 
-WebUI.setText(findTestObject('09-Settings/Organization/input_name'), GlobalVariable.name)
+WebUI.setText(findTestObject('09-Settings/Organization/input_name'), 'THIS IS AUTOMATION')
 
 WebUI.delay(GlobalVariable.delay_2s)
 
@@ -159,7 +159,7 @@ WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.scrollToElement(findTestObject('09-Settings/Organization/input_name'), 0)
 
-WebUI.setText(findTestObject('09-Settings/Organization/input_name'), GlobalVariable.org_name)
+WebUI.setText(findTestObject('09-Settings/Organization/input_name'), 'Automation Test Org')
 
 WebUI.delay(GlobalVariable.delay_2s)
 
