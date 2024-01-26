@@ -15,14 +15,14 @@
       <guid>ed5928c4-7011-44ae-b47c-4f9a8be55eba</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/12- AI assistant (beta)/12.3-AI image (beta)/01-Generate image using EL AI-Blank fields</testCaseId>
+      <testCaseId>Test Cases/12 - AI assistant (beta)/06 - AI image - Generate image using EL AI-Blank fields</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>cd526b69-1ad7-4153-a64a-dd7365fbf2f6</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/12- AI assistant (beta)/12.3-AI image (beta)/02-Generate image using EL AI</testCaseId>
+      <testCaseId>Test Cases/12 - AI assistant (beta)/07 - AI image - Generate image using EL AI</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

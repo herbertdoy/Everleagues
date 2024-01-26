@@ -6,12 +6,11 @@
    <elementGuidId>14f92b37-6a3e-464e-984b-e1998c051f8a</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//tree-node-children/div</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//span[text()='Automation Driver']</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

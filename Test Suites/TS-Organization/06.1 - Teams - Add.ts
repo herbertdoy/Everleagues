@@ -15,14 +15,14 @@
       <guid>c649e396-8ebe-431f-91d6-74c9d484685b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/06- Teams/01- Add Team- Public</testCaseId>
+      <testCaseId>Test Cases/06 - Teams/01- Add Team- Public</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>64a89423-40ae-438a-9419-de8b511a4be9</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/06- Teams/02-Add Team-Private</testCaseId>
+      <testCaseId>Test Cases/06 - Teams/02-Add Team-Private</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

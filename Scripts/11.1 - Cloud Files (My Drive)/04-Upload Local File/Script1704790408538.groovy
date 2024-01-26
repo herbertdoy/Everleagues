@@ -42,8 +42,7 @@ WebUI.delay(GlobalVariable.delay_3s)
 //WebUI.verifyElementVisible(findTestObject('11-Cloud Files/div_Upload completed clear'))
 //
 //WebUI.delay(GlobalVariable.delay_2s)
-
-WebUI.setText(findTestObject('11-Cloud Files/input_Search cloudfiles'), GlobalVariable.folder_name)
+WebUI.setText(findTestObject('11-Cloud Files/input_Search cloudfiles'), 'Automation folder')
 
 WebUI.sendKeys(findTestObject('11-Cloud Files/input_Search cloudfiles'), Keys.chord(Keys.ENTER))
 

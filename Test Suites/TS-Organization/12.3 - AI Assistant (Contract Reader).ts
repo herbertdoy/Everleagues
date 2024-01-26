@@ -15,14 +15,14 @@
       <guid>5c75b966-51f3-4fc1-a338-0e70d1d3aa74</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/12- AI assistant (beta)/12.5-Contract Reader/01-Verify content of contract page</testCaseId>
+      <testCaseId>Test Cases/12 - AI assistant (beta)/12 - Contract Reader - Verify content of contract page</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>522d7f4d-3388-402f-adbc-4ae9503a41c3</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/12- AI assistant (beta)/12.5-Contract Reader/02- Generate Summary</testCaseId>
+      <testCaseId>Test Cases/12 - AI assistant (beta)/13 - Contract Reader - Generate Summary</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

@@ -25,7 +25,7 @@ WebUI.click(findTestObject('11-Cloud Files/button_Rename'))
 
 WebUI.verifyElementVisible(findTestObject('11-Cloud Files/mat-dialog-container_RenameName nodal'))
 
-WebUI.setText(findTestObject('11-Cloud Files/input_Rename'), GlobalVariable.edit_folder_name)
+WebUI.setText(findTestObject('11-Cloud Files/input_Rename'), 'Automation folder EDIT')
 
 WebUI.click(findTestObject('09-Settings/Users/Active User/button_Save'))
 

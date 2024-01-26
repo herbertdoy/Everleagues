@@ -17,11 +17,25 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.setText(findTestObject('11-Cloud Files/input_driver_name'), GlobalVariable.input_driver_name)
+WebUI.setText(findTestObject('11-Cloud Files/input_driver_name'), 'Automation Driver')
 
 WebUI.click(findTestObject('11-Cloud Files/button_create_driver_name'))
 
 WebUI.delay(GlobalVariable.delay_3s)
+
+WebUI.verifyElementVisible(findTestObject('11-Cloud Files/button_driver_created'))
+
+WebUI.click(findTestObject('11-Cloud Files/button_driver_created'))
+
+WebUI.delay(GlobalVariable.delay_3s)
+
+WebUI.setText(findTestObject('11-Cloud Files/input_driver_name'), 'Automation Driver 2')
+
+WebUI.click(findTestObject('11-Cloud Files/button_create_driver_name'))
+
+WebUI.delay(GlobalVariable.delay_3s)
+
+WebUI.verifyElementVisible(findTestObject('11-Cloud Files/button_driver_created'))
 
 WebUI.click(findTestObject('11-Cloud Files/button_driver_created'))
 

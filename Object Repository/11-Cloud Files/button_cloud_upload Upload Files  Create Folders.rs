@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//button[contains(@class,'mat-focus-indicator mat-stroked-button')]</value>
+         <value>//button[@type = 'button' and (text() = 'cloud_upload  Upload Local File ' or . = 'cloud_upload  Upload Local File ')]</value>
       </entry>
       <entry>
          <key>BASIC</key>
@@ -26,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>1559ed42-f6ad-43a9-bf33-62f0dac76304</webElementGuid>
+      <webElementGuid>2ac717a8-8271-4dba-9fad-706653516fe0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -34,7 +34,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>cc43c75d-34ff-4d60-bfe9-45e32dd07c6a</webElementGuid>
+      <webElementGuid>9938467a-abaa-4f4a-ba96-6eebf10cdaf3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,7 +42,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-focus-indicator mat-stroked-button mat-button-base ng-star-inserted</value>
-      <webElementGuid>0ac1d110-ca1f-4873-a60c-232d6b2af7bc</webElementGuid>
+      <webElementGuid>6cd90f1a-cf86-4b8f-9637-5bc7c1b11966</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -50,7 +50,7 @@
       <name>text</name>
       <type>Main</type>
       <value>cloud_upload Upload Files &amp; Create Folders </value>
-      <webElementGuid>d29f1d95-3388-4999-8473-b1729727c958</webElementGuid>
+      <webElementGuid>def3de14-6d46-475a-a6f8-dd3b9b5ab085</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -58,7 +58,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/app-root[1]/app-main-page[@class=&quot;ng-tns-c481-0 ng-trigger ng-trigger-routerAnimation ng-star-inserted&quot;]/mat-sidenav-container[@class=&quot;mat-drawer-container mat-sidenav-container ng-tns-c481-0&quot;]/mat-sidenav-content[@class=&quot;mat-drawer-content mat-sidenav-content&quot;]/div[@class=&quot;wrapper&quot;]/app-storage[@class=&quot;ng-star-inserted&quot;]/file-explorer[1]/section[@class=&quot;file-explorer&quot;]/div[2]/button[@class=&quot;mat-focus-indicator mat-stroked-button mat-button-base ng-star-inserted&quot;]</value>
-      <webElementGuid>a8d7837e-2fad-4da2-8b32-323bbf473588</webElementGuid>
+      <webElementGuid>3b82b57f-e2e1-4aa4-a1b4-721988fcd07a</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -66,7 +66,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[6]</value>
-      <webElementGuid>bea58428-4711-4ffb-82c8-7c3f7bb647bf</webElementGuid>
+      <webElementGuid>114b21d2-0627-4256-ad08-164571f36c3e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -74,7 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='My Files'])[2]/following::button[1]</value>
-      <webElementGuid>3b91b2ad-9322-4f3c-a9a4-78aa7e8ee19d</webElementGuid>
+      <webElementGuid>6c030c38-1626-4e42-851c-29fdea0f88be</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Shared With Me'])[1]/following::button[1]</value>
-      <webElementGuid>ec1d490c-7b05-4e72-a0b7-25a90fd89451</webElementGuid>
+      <webElementGuid>9ee9dea5-8ae6-4a19-b831-f531bf0f6a34</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -90,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Right click on a folder to share. Right click anywhere else to upload.'])[1]/preceding::button[1]</value>
-      <webElementGuid>42013079-90fa-4663-80fd-152e8220ad96</webElementGuid>
+      <webElementGuid>92607de0-bff9-4cfa-9e07-cdd15dabda7c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,7 +98,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/button</value>
-      <webElementGuid>c85af9fe-6a8a-47bf-ad9a-2302b79cf8df</webElementGuid>
+      <webElementGuid>77df037f-bc37-4620-ae0d-54bd1415a8a6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,6 +106,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = 'cloud_upload Upload Files &amp; Create Folders ' or . = 'cloud_upload Upload Files &amp; Create Folders ')]</value>
-      <webElementGuid>19e3788f-3eab-4b4d-bbcb-fd451415b91f</webElementGuid>
+      <webElementGuid>cfa2cc01-4e5e-48ec-8a21-3bfc1a7cb1be</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

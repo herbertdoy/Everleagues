@@ -23,7 +23,8 @@ WebUI.navigateToUrl(GlobalVariable.URL_lab)
 
 WebUI.maximizeWindow()
 
-WebUI.callTestCase(findTestCase('01-Login and Forgot Password/04-Login(Valid Credentials-With Subscription)'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('01 - Login and Forgot Password/04-Login (Valid Credentials-Without Subscription)'), [:], 
+    FailureHandling.STOP_ON_FAILURE)
 
 //WebUI.setText(findTestObject('02-Side Icons(Organization)/input_Email Field'), 'testuser02@mailinator.com')
 //
@@ -82,11 +83,11 @@ WebUI.click(findTestObject('06-Teams/button_My Organizations'))
 
 WebUI.click(findTestObject('02-Side Icons(Organization)/button_Automation Test Org'))
 
-WebUI.delay(GlobalVariable.delay_4s)
+WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.verifyElementVisible(findTestObject('02-Side Icons(Organization)/span_Automation Test Org (1)'))
 
-WebUI.delay(GlobalVariable.delay_5s)
+WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.click(findTestObject('03-Header Menu/div_Cloud Files'))
 
@@ -116,7 +117,7 @@ WebUI.clickOffset(findTestObject('11-Cloud Files/input_driver_name'), 50, 50)
 
 WebUI.verifyElementVisible(findTestObject('11-Cloud Files/error_driver_name'))
 
-WebUI.verifyElementVisible(findTestObject('11-Cloud Files/button_create_driver_name'))
+WebUI.verifyElementNotClickable(findTestObject('11-Cloud Files/button_create_driver_name'))
 
 WebUI.delay(GlobalVariable.delay_3s)
 

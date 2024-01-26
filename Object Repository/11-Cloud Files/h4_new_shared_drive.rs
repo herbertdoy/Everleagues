@@ -6,12 +6,11 @@
    <elementGuidId>0472740e-dc64-4232-aa69-2de977241171</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//h2[@class = 'mat-dialog-title' and (text() = 'New Shared Drive' or . = 'New Shared Drive')]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//h4[text()='New Shared Drive']</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -6,19 +6,19 @@
    <elementGuidId>c5e71caa-268b-40b4-93d9-55451ddb7e59</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>td.mat-cell.cdk-cell.break-word.cdk-column-name.mat-column-name.ng-star-inserted</value>
+         <key>XPATH</key>
+         <value>(//span[text()='Automation Driver EDIT'])[2]</value>
       </entry>
       <entry>
          <key>BASIC</key>
          <value>//td[@role = 'cell' and (text() = ' Automation Driver EDIT ' or . = ' Automation Driver EDIT ')]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Last Modified'])[2]/following::td[3]</value>
+         <key>CSS</key>
+         <value>td.mat-cell.cdk-cell.break-word.cdk-column-name.mat-column-name.ng-star-inserted</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -26,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>td</value>
-      <webElementGuid>70b6ef8a-c5a2-47b4-9992-e5a1f7b4cdf5</webElementGuid>
+      <webElementGuid>4df7185e-2248-4d81-be95-5ff7fa4e426b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -34,7 +34,7 @@
       <name>role</name>
       <type>Main</type>
       <value>cell</value>
-      <webElementGuid>bc1fd59e-8786-4488-a1ee-5cb47580db8b</webElementGuid>
+      <webElementGuid>544faf96-2c6e-4bba-891e-55522af8b14b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,7 +42,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-cell cdk-cell break-word cdk-column-name mat-column-name ng-star-inserted</value>
-      <webElementGuid>47c80ab6-ed0e-4ee8-8a38-ef151399310b</webElementGuid>
+      <webElementGuid>bbc77ee9-69b4-42ff-8ba4-c995e0d0c77d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -50,7 +50,7 @@
       <name>text</name>
       <type>Main</type>
       <value> Automation Driver EDIT </value>
-      <webElementGuid>cc23abb2-5de3-4298-aea0-28c96a57e5a7</webElementGuid>
+      <webElementGuid>267dc676-69d6-499e-b2fe-fbab2d48dcd0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -58,7 +58,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/app-root[1]/app-main-page[@class=&quot;ng-tns-c503-0 ng-trigger ng-trigger-routerAnimation ng-star-inserted&quot;]/mat-sidenav-container[@class=&quot;mat-drawer-container mat-sidenav-container ng-tns-c503-0&quot;]/mat-sidenav-content[@class=&quot;mat-drawer-content mat-sidenav-content&quot;]/div[@class=&quot;wrapper&quot;]/app-storage[@class=&quot;ng-star-inserted&quot;]/mat-sidenav-container[@class=&quot;mat-drawer-container mat-sidenav-container&quot;]/mat-sidenav-content[@class=&quot;mat-drawer-content mat-sidenav-content storage-body&quot;]/app-storage-explorer[@class=&quot;ng-star-inserted&quot;]/section[1]/div[@class=&quot;table-container&quot;]/app-storage-table[1]/perfect-scrollbar[1]/div[@class=&quot;ps&quot;]/div[@class=&quot;ps-content&quot;]/table[@class=&quot;mat-table cdk-table mat-sort&quot;]/tbody[1]/tr[@class=&quot;mat-row cdk-row ng-star-inserted&quot;]/td[@class=&quot;mat-cell cdk-cell break-word cdk-column-name mat-column-name ng-star-inserted&quot;]</value>
-      <webElementGuid>15f86608-8005-4964-b695-6f5db2644e12</webElementGuid>
+      <webElementGuid>69dc6473-3e42-493c-a3c9-b99cfe2a1fe2</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -66,7 +66,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Last Modified'])[2]/following::td[3]</value>
-      <webElementGuid>3f268700-02d4-44d3-b8da-64144dcdf27e</webElementGuid>
+      <webElementGuid>be5993dd-c264-47b2-abab-0d6f0eae5ac3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -74,7 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Size'])[2]/following::td[3]</value>
-      <webElementGuid>f89b1c92-804a-417c-ae8a-df1502494e5d</webElementGuid>
+      <webElementGuid>b1dffb32-cda9-4b55-bcc3-1fecc02226ab</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Folder'])[1]/preceding::td[1]</value>
-      <webElementGuid>1dc74a58-98af-4f91-9100-e64e0699aa89</webElementGuid>
+      <webElementGuid>45eb3d0b-e90c-4db2-8687-59ac423ea2d5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -90,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::td[4]</value>
-      <webElementGuid>4d4e784c-2a68-40cd-a3c6-d631977bd383</webElementGuid>
+      <webElementGuid>83e52a1b-3ce3-4a8a-8f24-4081db5811e6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,7 +98,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td[3]</value>
-      <webElementGuid>1d3e10df-4123-4abc-8b77-2aaef67ea5a7</webElementGuid>
+      <webElementGuid>7d0e2304-9190-4a30-bdb6-4983c5aba97c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,6 +106,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//td[(text() = ' Automation Driver EDIT ' or . = ' Automation Driver EDIT ')]</value>
-      <webElementGuid>6c83f058-e881-4926-8191-030c57744e9e</webElementGuid>
+      <webElementGuid>74d24ad4-60f8-4de0-8c00-ab1cf98861a4</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -35,7 +35,7 @@ WebUI.verifyElementVisible(findTestObject('11-Cloud Files/mat-dialog-container_D
 
 WebUI.click(findTestObject('11-Cloud Files/button_Confirm'))
 
-WebUI.delay(GlobalVariable.delay_4s)
+WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.closeBrowser()
 

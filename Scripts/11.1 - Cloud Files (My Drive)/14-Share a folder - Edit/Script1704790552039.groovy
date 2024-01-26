@@ -51,6 +51,10 @@ WebUI.click(findTestObject('11-Cloud Files/span_delete Remove Access'))
 
 WebUI.click(findTestObject('11-Cloud Files/button_save2'))
 
+WebUI.verifyElementVisible(findTestObject('11-Cloud Files/snack-bar-container_Shared file access updated successfully.OK'))
+
+WebUI.delay(GlobalVariable.delay_3s)
+
 WebUI.click(findTestObject('11-Cloud Files/mat-icon_close'))
 
 //WebUI.verifyElementVisible(findTestObject('11-Cloud Files/snack-bar-container_Shared folder access updated successfully.OK'))
