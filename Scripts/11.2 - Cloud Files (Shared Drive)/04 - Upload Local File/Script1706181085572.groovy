@@ -19,6 +19,10 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.delay(GlobalVariable.delay_3s)
 
+WebUI.doubleClick(findTestObject('11-Cloud Files/td_Automation_Driver'))
+
+WebUI.delay(GlobalVariable.delay_3s)
+
 //WebUI.click(findTestObject('11-Cloud Files/button_cloud_upload Upload Files  Create Folders'))
 //CustomKeywords.'uploadpackage.Upload.uploadFile'(findTestObject('Object Repository/11-Cloud Files/button_cloud_uploadUpload Local File'), 
 //    'C:\\Users\\User\\Desktop\\EL automation\\qa.jpg')
@@ -28,7 +32,7 @@ WebUI.delay(GlobalVariable.delay_3s)
 //WebUI.delay(3)
 WebUI.click(findTestObject('11-Cloud Files/button_Upload'))
 
-CustomKeywords.'com.kms.katalon.keyword.uploadfile.UploadFile.uploadFile'(findTestObject('11-Cloud Files/button_cloud_upload Upload Files  Create Folders'), 
+CustomKeywords.'com.kms.katalon.keyword.uploadfile.UploadFile.uploadFile'(findTestObject('11-Cloud Files/button_cloud_uploadUpload Local File'), 
     GlobalVariable.upload_file)
 
 WebUI.delay(GlobalVariable.delay_2s)
@@ -41,9 +45,9 @@ WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.verifyElementVisible(findTestObject('11-Cloud Files/div_Upload completed clear'))
 
-WebUI.delay(GlobalVariable.delay_3s)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('11-Cloud Files/button_shared_drive'))
 
-WebUI.delay(GlobalVariable.delay_3s)
+WebUI.delay(GlobalVariable.delay_2s)
 

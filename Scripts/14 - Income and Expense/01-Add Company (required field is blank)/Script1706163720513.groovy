@@ -23,7 +23,7 @@ WebUI.navigateToUrl(GlobalVariable.URL_lab)
 
 WebUI.maximizeWindow()
 
-WebUI.callTestCase(findTestCase('01 - Login and Forgot Password/04-Login (Valid Credentials-Without Subscription)'), [:], 
+WebUI.callTestCase(findTestCase('01 - Login and Forgot Password/04 - Login(Valid Credentials-Without Subscription)'), [:], 
     FailureHandling.CONTINUE_ON_FAILURE)
 
 //WebUI.setText(findTestObject('02-Side Icons(Organization)/input_Email Field'), 'testuser02@mailinator.com')

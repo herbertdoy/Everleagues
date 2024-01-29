@@ -21,7 +21,7 @@ WebUI.scrollToElement(findTestObject('07-Directory/Connections/button_add_addres
 
 WebUI.delay(GlobalVariable.delay_2s)
 
-WebUI.click(findTestObject('07-Directory/Connections/button_add_address'))
+WebUI.doubleClick(findTestObject('07-Directory/Connections/button_add_address'))
 
 //WebUI.click(findTestObject('07-Directory/Connections/button_add_address'))
 //WebUI.click(findTestObject('07-Directory/Connections/button_add_address'))

@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//snack-bar-container[@role = 'status' and (text() = 'Shared file access updated successfully.OK' or . = 'Shared file access updated successfully.OK')]</value>
+         <value>//span[text()='Shared file access updated successfully.']</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
