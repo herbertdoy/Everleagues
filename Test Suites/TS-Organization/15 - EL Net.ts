@@ -15,21 +15,21 @@
       <guid>2f03111d-284f-4fa3-813b-1f1232b4e496</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/15 - ELNet/01-Verify ELNet content</testCaseId>
+      <testCaseId>Test Cases/15 - ELNet/01 - Verify ELNet content</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>f4de3270-98af-4a6c-8a12-2c3d811fb778</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/15 - ELNet/02-Click More information</testCaseId>
+      <testCaseId>Test Cases/15 - ELNet/02 - Click More information</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>ba3924b0-ab57-4a4b-9c11-f51d8fe9f5d1</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/15 - ELNet/03-Purchase ELNet Service</testCaseId>
+      <testCaseId>Test Cases/15 - ELNet/03 - Purchase ELNet Service</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

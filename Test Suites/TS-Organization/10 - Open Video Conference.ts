@@ -15,35 +15,35 @@
       <guid>6f15948d-714b-4a86-80f4-36e02b601253</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/10 - Open Video Conference/01-Blank Fields</testCaseId>
+      <testCaseId>Test Cases/10 - Open Video Conference/01 - Blank Fields</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>d42b8250-bef6-4296-9dac-c3116259b763</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/10 - Open Video Conference/02-Invalid email</testCaseId>
+      <testCaseId>Test Cases/10 - Open Video Conference/02 - Invalid email</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>0611a39e-52ad-430d-b8e7-15dc9d36c86e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/10 - Open Video Conference/03-Invalid phone number</testCaseId>
+      <testCaseId>Test Cases/10 - Open Video Conference/03 - Invalid phone number</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>81693fe5-0a3a-4cc5-b2ca-c371766bed07</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/10 - Open Video Conference/04-Schedule a Meeting(Now)</testCaseId>
+      <testCaseId>Test Cases/10 - Open Video Conference/04 - Schedule a Meeting(Now)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>a169484a-d81f-4b93-9197-091a167d52a6</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/10 - Open Video Conference/05-Schedule a Meeting(Schedule)</testCaseId>
+      <testCaseId>Test Cases/10 - Open Video Conference/05 - Schedule a Meeting(Schedule)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

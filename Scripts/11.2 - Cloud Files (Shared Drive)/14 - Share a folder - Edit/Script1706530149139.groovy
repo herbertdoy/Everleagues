@@ -76,11 +76,9 @@ WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('03-Header Menu/div_Cloud Files'))
 
-WebUI.scrollToElement(findTestObject('11-Cloud Files/a_My Drive'), 0)
+WebUI.scrollToElement(findTestObject('11-Cloud Files/a_Shared Drive'), 0)
 
-WebUI.click(findTestObject('11-Cloud Files/a_My Drive'))
-
-WebUI.click(findTestObject('11-Cloud Files/h4_MY DRIVE'))
+WebUI.click(findTestObject('11-Cloud Files/a_Shared Drive'))
 
 WebUI.delay(GlobalVariable.delay_2s)
 

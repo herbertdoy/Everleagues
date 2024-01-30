@@ -36,7 +36,7 @@
       <guid>6e52fb30-6001-4d9a-961f-3f7b28d57082</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/08 - Operations/04- Private Circle (Selecting a User)</testCaseId>
+      <testCaseId>Test Cases/08 - Operations/04 - Private Circle(Selecting a User)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
@@ -57,7 +57,7 @@
       <guid>69d1ba4d-66e7-4f8e-92cf-cc0e57230e03</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/08 - Operations/07- Deleting a private circle</testCaseId>
+      <testCaseId>Test Cases/08 - Operations/07 - Deleting a private circle</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

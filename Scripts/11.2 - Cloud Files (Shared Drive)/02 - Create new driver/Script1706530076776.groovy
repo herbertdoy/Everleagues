@@ -25,7 +25,7 @@ WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.verifyElementVisible(findTestObject('11-Cloud Files/button_driver_created'))
 
-WebUI.click(findTestObject('11-Cloud Files/button_driver_created'))
+WebUI.click(findTestObject('11-Cloud Files/button_new_drive'))
 
 WebUI.delay(GlobalVariable.delay_3s)
 

@@ -17,15 +17,29 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.rightClick(findTestObject('11-Cloud Files/div_Shared Drive'))
+//WebUI.openBrowser('')
+//
+//WebUI.navigateToUrl(GlobalVariable.URL_lab)
+//
+//WebUI.maximizeWindow()
+//
+//WebUI.callTestCase(findTestCase('01 - Login and Forgot Password/04 - Login(Valid Credentials-Without Subscription)'), [:], 
+//    FailureHandling.CONTINUE_ON_FAILURE)
+//
+//WebUI.delay(15)
+WebUI.doubleClick(findTestObject('11-Cloud Files/span_shared drive'))
+
+WebUI.refresh()
 
 WebUI.delay(GlobalVariable.delay_2s)
 
-WebUI.rightClick(findTestObject('11-Cloud Files/button_person_add  Manage Members'))
+WebUI.rightClick(findTestObject('11-Cloud Files/td_Automation Driver EDIT'))
+
+WebUI.click(findTestObject('11-Cloud Files/button_person_add  Manage Members'))
 
 WebUI.click(findTestObject('11-Cloud Files/input_Add Users'))
 
-WebUI.click(findTestObject('11-Cloud Files/mat-option_GG TESTER (testuser00005yopmail.com)'))
+WebUI.click(findTestObject('11-Cloud Files/mat-option_GG tester 2 (norvs26yopmail.com)2'))
 
 WebUI.delay(GlobalVariable.delay_2s)
 
