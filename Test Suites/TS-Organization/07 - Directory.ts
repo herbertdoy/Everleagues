@@ -21,14 +21,14 @@
    <testCaseLink>
       <guid>b0611487-db3f-4d2d-b0e3-399b7de1ea4e</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/07 - Directory/02 - Connections - Add New Contact(Fill out required field)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>c21b844a-4286-4ed7-a92d-9d064972ad36</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/07 - Directory/03 - Connections - Add New Contact(add phone number)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>

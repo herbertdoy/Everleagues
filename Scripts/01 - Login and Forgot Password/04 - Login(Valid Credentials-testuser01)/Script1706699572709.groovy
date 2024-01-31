@@ -23,19 +23,15 @@ WebUI.setEncryptedText(findTestObject('01-Login and Forgot Password/input_passwo
 
 WebUI.delay(GlobalVariable.delay_2s)
 
-WebUI.click(findTestObject('01-Login and Forgot Password/button_show pass button'))
-
-WebUI.delay(GlobalVariable.delay_2s)
-
 WebUI.click(findTestObject('01-Login and Forgot Password/button_Sign in'))
 
-WebUI.delay(GlobalVariable.delay_3s)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.executeJavaScript('window.open();', [])
 
 currentWindow = WebUI.getWindowIndex()
 
-WebUI.delay(GlobalVariable.delay_3s)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.switchToWindowIndex(currentWindow + 1)
 
@@ -62,12 +58,12 @@ WebUI.delay(GlobalVariable.delay_2s)
 //String code = WebUI.getText(findTestObject('Object Repository/06-Teams/For 2FA/2FA code'))
 String code = WebUI.getText(findTestObject('Yopmail/2FA code-Yopmail'))
 
-WebUI.delay(GlobalVariable.delay_3s)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.closeWindowTitle(GlobalVariable.Y_windowTitle)
 
 //WebUI.closeWindowTitle('Mailinator')
-WebUI.delay(GlobalVariable.delay_3s)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.switchToWindowIndex(0)
 

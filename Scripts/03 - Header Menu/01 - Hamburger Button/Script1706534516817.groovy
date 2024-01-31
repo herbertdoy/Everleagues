@@ -22,7 +22,7 @@ WebUI.navigateToUrl(GlobalVariable.URL_login)
 
 WebUI.maximizeWindow()
 
-WebUI.callTestCase(findTestCase('01 - Login and Forgot Password/04 - Login(Valid Credentials-Without Subscription)'), [:], 
+WebUI.callTestCase(findTestCase('01 - Login and Forgot Password/04 - Login(Valid Credentials-testuser01)'), [:], 
     FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.click(findTestObject('03-Header Menu/button_menu'))
