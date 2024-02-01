@@ -51,7 +51,6 @@ WebUI.click(findTestObject('11-Cloud Files/button_save2'))
 
 WebUI.verifyElementVisible(findTestObject('11-Cloud Files/snack-bar-container_Shared file access updated successfully.OK'))
 
-//WebUI.verifyElementVisible(findTestObject('11-Cloud Files/snack-bar-container_Shared folder access updated successfully.OK'))
 WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.click(findTestObject('11-Cloud Files/mat-icon_close'))
@@ -60,23 +59,23 @@ WebUI.rightClick(findTestObject('11-Cloud Files/td_qa EditPeople'))
 
 WebUI.click(findTestObject('11-Cloud Files/button_Share'))
 
-WebUI.delay(GlobalVariable.delay_3s)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('11-Cloud Files/mat-checkbox_Enable activity feed to all users in the share list'))
 
-WebUI.delay(GlobalVariable.delay_3s)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('11-Cloud Files/button_Copy Share Link'))
 
-WebUI.verifyElementPresent(findTestObject('09-Settings/Organization unit/snack-bar-container_Copy Link'), 0)
+WebUI.verifyElementPresent(findTestObject('11-Cloud Files/snack-bar_Link copied'), 0)
 
-WebUI.delay(GlobalVariable.delay_3s)
+WebUI.delay(GlobalVariable.delay_2s)
 
 String my_clipboard = Toolkit.getDefaultToolkit().getSystemClipboard().getContents(null).getTransferData(DataFlavor.stringFlavor)
 
 WebUI.navigateToUrl(my_clipboard)
 
-WebUI.delay(GlobalVariable.delay_3s)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.closeWindowIndex(1)
 
@@ -112,5 +111,5 @@ WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.refresh()
 
-WebUI.delay(GlobalVariable.delay_3s)
+WebUI.delay(GlobalVariable.delay_2s)
 

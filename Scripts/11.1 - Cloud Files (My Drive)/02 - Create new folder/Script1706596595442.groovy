@@ -21,7 +21,7 @@ WebUI.setText(findTestObject('11-Cloud Files/input_folderName'), 'Automation fol
 
 WebUI.click(findTestObject('11-Cloud Files/button_Create'))
 
-WebUI.delay(GlobalVariable.delay_3s)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('11-Cloud Files/button_create_new_folderNew Folder'))
 
@@ -33,7 +33,7 @@ WebUI.setText(findTestObject('11-Cloud Files/input_folderName'), 'Automation fol
 
 WebUI.click(findTestObject('11-Cloud Files/button_Create'))
 
-WebUI.delay(GlobalVariable.delay_3s)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('11-Cloud Files/mat-icon_refresh'))
 
@@ -41,5 +41,5 @@ WebUI.verifyElementVisible(findTestObject('11-Cloud Files/td_Automation folder')
 
 WebUI.verifyElementVisible(findTestObject('11-Cloud Files/td_Automation folder 2'))
 
-WebUI.delay(GlobalVariable.delay_3s)
+WebUI.delay(GlobalVariable.delay_2s)
 

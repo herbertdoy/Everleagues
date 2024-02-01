@@ -19,19 +19,10 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.click(findTestObject('08-Operations/Private Circle/Select User dropdown'))
 
-//WebUI.verifyElementVisible(findTestObject('08-Operations/Private Circle/mat-option_New Contact'))
 WebUI.verifyElementVisible(findTestObject('08-Operations/Private Circle/mat-option_GG TESTER'))
 
 WebUI.verifyElementVisible(findTestObject('08-Operations/Private Circle/mat-option_GG tester 2'))
 
-//WebUI.click(findTestObject('08-Operations/Private Circle/mat-option_New Contact'))
-//
-//WebUI.verifyElementVisible(findTestObject('08-Operations/Private Circle/Add New Contact modal'))
-//WebUI.setText(findTestObject('08-Operations/Private Circle/input_firstName'), 'GG Auto')
-//
-//WebUI.setText(findTestObject('08-Operations/Private Circle/input_lastName'), 'Contact')
-//
-//WebUI.click(findTestObject('08-Operations/Private Circle/button_Create'))
 WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('08-Operations/Private Circle/mat-option_GG TESTER'))
@@ -60,26 +51,7 @@ WebUI.verifyElementVisible(findTestObject('08-Operations/Private Circle/Successf
 
 WebUI.delay(GlobalVariable.delay_3s)
 
-//WebUI.click(findTestObject('08-Operations/Private Circle/Input_Select user'))
-//
-//WebUI.click(findTestObject('08-Operations/Private Circle/span_GG Tester 3'))
-//
-//WebUI.click(findTestObject('08-Operations/Private Circle/button_add'))
-//
-//WebUI.click(findTestObject('08-Operations/Private Circle/Select User dropdown'))
-//
-//WebUI.click(findTestObject('08-Operations/Private Circle/mat-option_GG TESTER'))
-//
-//WebUI.click(findTestObject('08-Operations/Private Circle/Relationship dropdown'))
-//
-//WebUI.click(findTestObject('08-Operations/Private Circle/mat-option_Others'))
-//
-//WebUI.click(findTestObject('08-Operations/Private Circle/button_Add modal'))
-//
-//WebUI.verifyElementVisible(findTestObject('08-Operations/Private Circle/Successfully added association'))
-//WebUI.delay(GlobalVariable.delay_3s)
 WebUI.verifyElementVisible(findTestObject('08-Operations/Private Circle/td_GG TESTER'))
 
-//WebUI.verifyElementVisible(findTestObject('08-Operations/Private Circle/td_GG Auto Contact'))
 WebUI.delay(GlobalVariable.delay_2s)
 

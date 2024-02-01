@@ -19,8 +19,6 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.setText(findTestObject('00-Signup and Activation/input_Email'), GlobalVariable.invalid_email)
 
-//WebUI.delay(GlobalVariable.delay_2s)
-//WebUI.click(findTestObject('00-Signup and Activation/input_firstName'))
 WebUI.verifyElementPresent(findTestObject('00-Signup and Activation/mat-error_valid email is required'), 0)
 
 WebUI.delay(GlobalVariable.delay_2s)

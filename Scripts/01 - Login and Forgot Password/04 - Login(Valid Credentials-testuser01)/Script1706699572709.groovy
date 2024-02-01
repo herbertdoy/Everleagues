@@ -35,12 +35,10 @@ WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.switchToWindowIndex(currentWindow + 1)
 
-//WebUI.navigateToUrl(GlobalVariable.URL_mailinator)
 WebUI.navigateToUrl(GlobalVariable.URL_yopmail)
 
 WebUI.delay(GlobalVariable.delay_2s)
 
-//WebUI.setText(findTestObject('Mailinator/input_LOGIN_search'), GlobalVariable.email_for_searchmailinator_testuser01)
 WebUI.setText(findTestObject('Yopmail/input_Enter your inbox here'), GlobalVariable.Y_email_withoutSubscription_testuser01)
 
 WebUI.delay(GlobalVariable.delay_2s)
@@ -51,18 +49,14 @@ WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('Yopmail/span_Everleagues Team'))
 
-//WebUI.click(findTestObject('Mailinator/gobutton'), FailureHandling.STOP_ON_FAILURE)
-//WebUI.click(findTestObject('Mailinator/Email - everleagues'))
 WebUI.delay(GlobalVariable.delay_2s)
 
-//String code = WebUI.getText(findTestObject('Object Repository/06-Teams/For 2FA/2FA code'))
 String code = WebUI.getText(findTestObject('Yopmail/2FA code-Yopmail'))
 
 WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.closeWindowTitle(GlobalVariable.Y_windowTitle)
 
-//WebUI.closeWindowTitle('Mailinator')
 WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.switchToWindowIndex(0)
@@ -74,7 +68,6 @@ WebUI.setText(findTestObject('Object Repository/06-Teams/For 2FA/input_Enter ver
 WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('06-Teams/For 2FA/button_Verify_2FA'))
-
-//WebUI.verifyElementPresent(findTestObject('01-Login and Forgot Password/h4_EVERLEAGUES (v0.11.16 build 324)'), 0) 
+ 
 WebUI.delay(GlobalVariable.delay_3s)
 

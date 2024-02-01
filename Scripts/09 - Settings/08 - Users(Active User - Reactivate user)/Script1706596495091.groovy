@@ -17,7 +17,6 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-//WebUI.verifyElementPresent(findTestObject('09-Settings/Users/Active User/div_GTGG tester 2'), 0)
 WebUI.click(findTestObject('09-Settings/Users/Active User/button_reactivateUser'))
 
 WebUI.verifyElementPresent(findTestObject('09-Settings/Users/Active User/h4_Reactivate User'), 0)

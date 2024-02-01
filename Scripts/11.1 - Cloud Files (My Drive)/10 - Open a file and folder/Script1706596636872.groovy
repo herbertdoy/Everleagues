@@ -17,17 +17,17 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.delay(GlobalVariable.delay_3s)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.rightClick(findTestObject('11-Cloud Files/td_qa EDIT'))
 
 WebUI.click(findTestObject('11-Cloud Files/button_Open'))
 
-WebUI.delay(GlobalVariable.delay_3s)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.switchToWindowIndex(1)
 
-WebUI.delay(GlobalVariable.delay_3s)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.closeWindowIndex(1)
 
@@ -35,7 +35,7 @@ WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.switchToWindowIndex(0)
 
-WebUI.delay(GlobalVariable.delay_3s)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.rightClick(findTestObject('11-Cloud Files/td_Automation folder EDIT'))
 
@@ -43,5 +43,5 @@ WebUI.click(findTestObject('11-Cloud Files/button_Open'))
 
 WebUI.click(findTestObject('11-Cloud Files/h4_MY DRIVE'))
 
-WebUI.delay(GlobalVariable.delay_3s)
+WebUI.delay(GlobalVariable.delay_2s)
 

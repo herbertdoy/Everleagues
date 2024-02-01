@@ -25,32 +25,6 @@ WebUI.maximizeWindow()
 
 WebUI.callTestCase(findTestCase('01 - Login and Forgot Password/04 - Login(Valid Credentials-testuser00005)'), [:], FailureHandling.STOP_ON_FAILURE)
 
-//WebUI.setText(findTestObject('02-Side Icons(Organization)/input_Email Field'), 'testuser02@mailinator.com')
-//WebUI.setEncryptedText(findTestObject('02-Side Icons(Organization)/input_Password Field'), '8yFRyszE6U6jvsCn51OQbg==')
-//WebUI.click(findTestObject('02-Side Icons(Organization)/button_Sign in'))
-//WebUI.delay(2)
-//WebUI.click(findTestObject('06-Teams/For 2FA/button_Confirm_2FA'))
-//WebUI.executeJavaScript('window.open();', [])
-//currentWindow = WebUI.getWindowIndex()
-//WebUI.delay(3)
-//WebUI.switchToWindowIndex(currentWindow + 1)
-//WebUI.navigateToUrl('https://www.mailinator.com/')
-//WebUI.delay(3)
-//WebUI.setText(findTestObject('Mailinator/input_LOGIN_search'), 'testuser02@mailinator.com')
-//WebUI.click(findTestObject('Mailinator/gobutton'), FailureHandling.STOP_ON_FAILURE)
-//WebUI.delay(3)
-//WebUI.click(findTestObject('Mailinator/Email - everleagues'))
-//WebUI.delay(3)
-//String code = WebUI.getText(findTestObject('Object Repository/06-Teams/For 2FA/2FA code'))
-//WebUI.delay(3)
-//WebUI.closeWindowTitle('Mailinator')
-//WebUI.delay(3)
-//WebUI.switchToWindowIndex(0)
-//WebUI.delay(3)
-//WebUI.setText(findTestObject('Object Repository/06-Teams/For 2FA/input_Enter verification code'), code)
-//WebUI.delay(3)
-//WebUI.click(findTestObject('06-Teams/For 2FA/button_Verify_2FA'))
-//WebUI.delay(5)
 WebUI.click(findTestObject('04-Add my Organizations/Free limited Plan/span_Add My Organization'))
 
 WebUI.verifyElementVisible(findTestObject('04-Add my Organizations/Free limited Plan/Add my org modal'))
@@ -65,8 +39,6 @@ WebUI.click(findTestObject('04-Add my Organizations/Free limited Plan/div_Servic
 
 WebUI.clickOffset(findTestObject('04-Add my Organizations/Free limited Plan/input_orgName'), 100, 100)
 
-//WebUI.sendKeys(findTestObject('04-Add my Organizations/Free limited Plan/div_Service Industry_select-arrow'), Keys.chord(
-//        Keys.ESCAPE))
 WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.verifyElementVisible(findTestObject('04-Add my Organizations/Free limited Plan/div_OrganizationName_error'))

@@ -19,6 +19,12 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.delay(GlobalVariable.delay_2s)
 
+WebUI.verifyElementVisible(findTestObject('11-Cloud Files/td_qa EditPeople'))
+
+WebUI.rightClick(findTestObject('11-Cloud Files/td_qa EditPeople'))
+
+WebUI.delay(GlobalVariable.delay_2s)
+
 WebUI.click(findTestObject('11-Cloud Files/button_download'))
 
 WebUI.delay(GlobalVariable.delay_3s)

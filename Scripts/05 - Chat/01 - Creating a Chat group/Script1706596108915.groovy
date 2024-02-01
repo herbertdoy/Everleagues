@@ -27,32 +27,6 @@ WebUI.callTestCase(findTestCase('01 - Login and Forgot Password/04 - Login(Valid
 
 WebUI.delay(GlobalVariable.delay_2s)
 
-//WebUI.setText(findTestObject('02-Side Icons(Organization)/input_Email Field'), 'testuser02@mailinator.com')
-//WebUI.setEncryptedText(findTestObject('02-Side Icons(Organization)/input_Password Field'), '8yFRyszE6U6jvsCn51OQbg==')
-//WebUI.click(findTestObject('02-Side Icons(Organization)/button_Sign in'))
-//WebUI.delay(2)
-//WebUI.click(findTestObject('06-Teams/For 2FA/button_Confirm_2FA'))
-//WebUI.executeJavaScript('window.open();', [])
-//currentWindow = WebUI.getWindowIndex()
-//WebUI.delay(3)
-//WebUI.switchToWindowIndex(currentWindow + 1)
-//WebUI.navigateToUrl('https://www.mailinator.com/')
-//WebUI.delay(3)
-//WebUI.setText(findTestObject('Mailinator/input_LOGIN_search'), 'testuser02@mailinator.com')
-//WebUI.click(findTestObject('Mailinator/gobutton'), FailureHandling.STOP_ON_FAILURE)
-//WebUI.delay(3)
-//WebUI.click(findTestObject('Mailinator/Email - everleagues'))
-//WebUI.delay(3)
-//String code = WebUI.getText(findTestObject('Object Repository/06-Teams/For 2FA/2FA code'))
-//WebUI.delay(3)
-//WebUI.closeWindowTitle('Mailinator')
-//WebUI.delay(3)
-//WebUI.switchToWindowIndex(0)
-//WebUI.delay(3)
-//WebUI.setText(findTestObject('Object Repository/06-Teams/For 2FA/input_Enter verification code'), code)
-//WebUI.delay(3)
-//WebUI.click(findTestObject('06-Teams/For 2FA/button_Verify_2FA'))
-//WebUI.delay(5)
 WebUI.click(findTestObject('02-Side Icons(Organization)/mat-icon_Side Menu double arrow icon'))
 
 WebUI.delay(GlobalVariable.delay_2s)
@@ -89,7 +63,6 @@ WebUI.delay(GlobalVariable.delay_1s)
 
 WebUI.verifyElementVisible(findTestObject('05-Chat/01- Creating a Chat group/span_Add group participant'))
 
-//WebUI.verifyElementNotClickable(findTestObject('05-Chat/01- Creating a Chat group/button_arrow_forward'), FailureHandling.CONTINUE_ON_FAILURE)
 WebUI.delay(GlobalVariable.delay_1s)
 
 WebUI.setText(findTestObject('05-Chat/01- Creating a Chat group/input_newGroupName'), 'Automation Chat')
@@ -108,7 +81,6 @@ WebUI.delay(GlobalVariable.delay_1s)
 
 WebUI.click(findTestObject('05-Chat/01- Creating a Chat group/button_arrow_forward'))
 
-//WebUI.verifyElementVisible(findTestObject('05-Chat/01- Creating a Chat group/div_Creating Chat'))
 WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.verifyElementVisible(findTestObject('05-Chat/01- Creating a Chat group/div_Automation Chat'))

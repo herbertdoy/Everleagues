@@ -25,62 +25,53 @@ WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('01-Login and Forgot Password/button_Sign in'))
 
-WebUI.delay(GlobalVariable.delay_3s)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('00-Signup and Activation/button_Confirm2'))
 
-WebUI.delay(GlobalVariable.delay_3s)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.executeJavaScript('window.open();', [])
 
 currentWindow = WebUI.getWindowIndex()
 
-WebUI.delay(GlobalVariable.delay_3s)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.switchToWindowIndex(currentWindow + 1)
 
 WebUI.navigateToUrl(GlobalVariable.URL_yopmail)
 
-//WebUI.navigateToUrl(GlobalVariable.URL_mailinator)
 WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.setText(findTestObject('Yopmail/input_Enter your inbox here'), GlobalVariable.Y_norvs26)
 
-//WebUI.setText(findTestObject('Mailinator/input_LOGIN_search'), 'testuser02@mailinator.com')
-//WebUI.setText(findTestObject('Mailinator/input_LOGIN_search'), GlobalVariable.email_for_searchmailinator_testuser05)
-//WebUI.click(findTestObject('Mailinator/gobutton'), FailureHandling.STOP_ON_FAILURE)
 WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('Yopmail/button_Next'))
 
-//WebUI.click(findTestObject('Mailinator/Email - everleagues'))
-WebUI.delay(GlobalVariable.delay_3s)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('Yopmail/span_Everleagues Team'))
 
 WebUI.delay(GlobalVariable.delay_2s)
 
-//String code = WebUI.getText(findTestObject('Object Repository/06-Teams/For 2FA/2FA code'))
 String code = WebUI.getText(findTestObject('Yopmail/2FA code-Yopmail'))
 
-WebUI.delay(GlobalVariable.delay_3s)
+WebUI.delay(GlobalVariable.delay_2s)
 
-//WebUI.closeWindowTitle('Mailinator')
 WebUI.closeWindowTitle(GlobalVariable.Y_windowTitle)
 
-WebUI.delay(GlobalVariable.delay_3s)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.switchToWindowIndex(0)
 
 WebUI.delay(GlobalVariable.delay_2s)
 
-//WebUI.click(findTestObject('06-Teams/For 2FA/button_Confirm_2FA'))
 WebUI.setText(findTestObject('Object Repository/06-Teams/For 2FA/input_Enter verification code'), code)
 
 WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('06-Teams/For 2FA/button_Verify_2FA'))
-
-//WebUI.verifyElementPresent(findTestObject('01-Login and Forgot Password/h4_EVERLEAGUES (v0.11.16 build 324)'), 0) 
+ 
 WebUI.delay(GlobalVariable.delay_2s)
 

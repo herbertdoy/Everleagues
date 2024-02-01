@@ -22,8 +22,7 @@ WebUI.navigateToUrl(GlobalVariable.URL_login)
 
 WebUI.maximizeWindow()
 
-WebUI.callTestCase(findTestCase('01 - Login and Forgot Password/04 - Login(Valid Credentials-testuser01)'), [:], 
-    FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.callTestCase(findTestCase('01 - Login and Forgot Password/04 - Login(Valid Credentials-testuser01)'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.click(findTestObject('03-Header Menu/button_menu'))
 
@@ -55,7 +54,7 @@ WebUI.verifyElementNotVisible(findTestObject('03-Header Menu/div_ELNet'), Failur
 
 WebUI.verifyElementNotVisible(findTestObject('03-Header Menu/div_Help'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(GlobalVariable.delay_3s)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('03-Header Menu/button_menu'))
 

@@ -59,9 +59,6 @@ WebUI.click(findTestObject('05-Chat/08-Schedule a meeting/span_Daily'), FailureH
 
 WebUI.delay(GlobalVariable.delay_2s)
 
-//WebUI.click(findTestObject('05-Chat/08-Schedule a meeting/button_done'))
-//WebUI.clickOffset(findTestObject('05-Chat/01- Creating a Chat group/div_Automation Chat'), 10, 10)
-//WebUI.delay(3)
 WebUI.setText(findTestObject('05-Chat/08-Schedule a meeting/input_meeting title'), GlobalVariable.meeting_title)
 
 WebUI.delay(GlobalVariable.delay_2s)

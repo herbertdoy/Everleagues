@@ -19,7 +19,6 @@ import org.openqa.selenium.Keys as Keys
 import java.awt.Toolkit as Toolkit
 import java.awt.datatransfer.DataFlavor as DataFlavor
 
-//WebUI.waitForElementClickable(findTestObject('09-Settings/Organization unit/div_GG TESTER'), 0)
 WebUI.click(findTestObject('09-Settings/Organization unit/button_chevron'))
 
 WebUI.delay(GlobalVariable.delay_2s)
@@ -28,8 +27,6 @@ WebUI.click(findTestObject('09-Settings/Organization unit/button_chevron'))
 
 WebUI.delay(GlobalVariable.delay_2s)
 
-//WebUI.waitForElementVisible(findTestObject('09-Settings/Organization unit/button_link'), 0)
-//WebUI.waitForElementClickable(findTestObject('09-Settings/Organization unit/button_link'), 0)
 WebUI.click(findTestObject('09-Settings/Organization unit/button_link'))
 
 WebUI.verifyElementPresent(findTestObject('09-Settings/Organization unit/h2_Join Request'), 0)
@@ -46,14 +43,8 @@ WebUI.click(findTestObject('09-Settings/Organization unit/button_COPY'))
 
 WebUI.verifyElementPresent(findTestObject('09-Settings/Organization unit/snack-bar-container_Copy Link'), 0)
 
-//WebUI.click(findTestObject('09-Settings/Organization unit/button_Ok'))
 WebUI.delay(GlobalVariable.delay_3s)
 
-//WebUI.executeJavaScript('window.open();', [])
-//currentWindow = WebUI.getWindowIndex()
-//WebUI.delay(3)
-//WebUI.switchToWindowIndex(currentWindow + 1)
-//WebUI.delay(3)
 String my_clipboard = Toolkit.getDefaultToolkit().getSystemClipboard().getContents(null).getTransferData(DataFlavor.stringFlavor)
 
 WebUI.navigateToUrl(my_clipboard)

@@ -29,7 +29,7 @@
       <guid>b4999235-c352-4c80-8df8-522eea738e82</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/04 - Add my Organizations/03- Free limited Plan(Positive Scenarios)</testCaseId>
+      <testCaseId>Test Cases/04 - Add my Organizations/03 - Free limited Plan(Positive Scenarios)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

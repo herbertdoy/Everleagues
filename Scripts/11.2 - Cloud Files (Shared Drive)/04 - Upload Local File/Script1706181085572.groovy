@@ -17,22 +17,15 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.delay(GlobalVariable.delay_3s)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.doubleClick(findTestObject('11-Cloud Files/td_Automation_Driver'))
 
-WebUI.delay(GlobalVariable.delay_3s)
+WebUI.delay(GlobalVariable.delay_2s)
 
-//WebUI.click(findTestObject('11-Cloud Files/button_cloud_upload Upload Files  Create Folders'))
-//CustomKeywords.'uploadpackage.Upload.uploadFile'(findTestObject('Object Repository/11-Cloud Files/button_cloud_uploadUpload Local File'), 
-//    'C:\\Users\\User\\Desktop\\EL automation\\qa.jpg')
-//WebUI.delay(2)
-//WebUI.verifyElementVisible(findTestObject('11-Cloud Files/mat-dialog-container_Upload local file modal'))
-//WebUI.click(findTestObject('09-Settings/Users/Active User/button_Cancel_restore'))
-//WebUI.delay(3)
 WebUI.click(findTestObject('11-Cloud Files/button_Upload'))
 
-CustomKeywords.'com.kms.katalon.keyword.uploadfile.UploadFile.uploadFile'(findTestObject('11-Cloud Files/button_cloud_uploadUpload Local File'), 
+CustomKeywords.'uploadpackage.Upload.uploadFile'(findTestObject('11-Cloud Files/button_cloud_uploadUpload Local File'), 
     GlobalVariable.upload_file)
 
 WebUI.delay(GlobalVariable.delay_2s)

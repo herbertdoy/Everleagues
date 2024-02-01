@@ -31,14 +31,11 @@ WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('08-Operations/Client Assignment/div_GTGG Tester 3'))
 
-//WebUI.verifyElementVisible(findTestObject('08-Operations/Client Assignment/Employees column'))
 WebUI.verifyElementVisible(findTestObject('08-Operations/Client Assignment/Employees column 2'))
 
 WebUI.verifyElementVisible(findTestObject('08-Operations/Client Assignment/Assigned Employees empty'))
 
 WebUI.delay(GlobalVariable.delay_2s)
-
-//WebUI.click(findTestObject('08-Operations/Client Assignment/div_GGtester2'))
 
 WebUI.click(findTestObject('08-Operations/Client Assignment/div_GG TESTER'))
 

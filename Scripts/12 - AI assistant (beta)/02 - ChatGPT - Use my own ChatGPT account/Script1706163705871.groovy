@@ -23,12 +23,11 @@ WebUI.click(findTestObject('12-AI Assistant(beta)/AI asst button-Side panel'))
 
 WebUI.click(findTestObject('12-AI Assistant(beta)/12.1-Chat GPT(beta)/Chat GPT (beta)'))
 
-WebUI.delay(GlobalVariable.delay_3s)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('12-AI Assistant(beta)/12.1-Chat GPT(beta)/Use my ownChatGPT account'))
 
-WebUI.delay(GlobalVariable.delay_3s)
-
+WebUI.delay(GlobalVariable.delay_2s)
 
 String url = WebUI.getUrl()
 
@@ -36,7 +35,7 @@ String url = WebUI.getUrl()
 //WebUI.verifyElementText(findTestObject('12-AI Assistant(beta)/12.1-Chat GPT(beta)/Open AI.com-ChatGPT heading text'), 'ChatGPT')//
 url.contains('https://chat.openai.com/')
 
-WebUI.delay(GlobalVariable.delay_3s)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.closeWindowIndex(1)
 

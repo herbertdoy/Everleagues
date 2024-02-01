@@ -27,7 +27,7 @@ WebUI.verifyElementVisible(findTestObject('11-Cloud Files/button_driver_created'
 
 WebUI.click(findTestObject('11-Cloud Files/button_new_drive'))
 
-WebUI.delay(GlobalVariable.delay_3s)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.setText(findTestObject('11-Cloud Files/input_driver_name'), 'Automation Driver 2')
 
@@ -39,5 +39,5 @@ WebUI.verifyElementVisible(findTestObject('11-Cloud Files/button_driver_created'
 
 WebUI.click(findTestObject('11-Cloud Files/button_driver_created'))
 
-WebUI.delay(GlobalVariable.delay_3s)
+WebUI.delay(GlobalVariable.delay_2s)
 

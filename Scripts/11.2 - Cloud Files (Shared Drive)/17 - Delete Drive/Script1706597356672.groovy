@@ -23,8 +23,7 @@ WebUI.navigateToUrl(GlobalVariable.URL_lab)
 
 WebUI.maximizeWindow()
 
-WebUI.callTestCase(findTestCase('01 - Login and Forgot Password/04 - Login(Valid Credentials-testuser01)'), [:], 
-    FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('01 - Login and Forgot Password/04 - Login(Valid Credentials-testuser01)'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('06-Teams/button_doublearrow'))
 
@@ -48,11 +47,15 @@ WebUI.rightClick(findTestObject('11-Cloud Files/span_Automation Driver EDIT'))
 
 WebUI.click(findTestObject('11-Cloud Files/button_Delete'))
 
+WebUI.click(findTestObject('11-Cloud Files/button_Confirm'))
+
 WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.rightClick(findTestObject('11-Cloud Files/span_Automation Driver 2'))
 
 WebUI.click(findTestObject('11-Cloud Files/button_Delete'))
+
+WebUI.click(findTestObject('11-Cloud Files/button_Confirm'))
 
 WebUI.verifyElementVisible(findTestObject('11-Cloud Files/span_Delete file successfully'))
 

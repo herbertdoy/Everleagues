@@ -23,13 +23,15 @@ String url = WebUI.getUrl()
 
 url.contains('https://openai.com/policies/usage-policies')
 
-WebUI.delay(GlobalVariable.delay_3s)
+WebUI.delay(GlobalVariable.delay_2s)
 
 //WebUI.verifyElementText(findTestObject('12-AI Assistant(beta)/12.4-Information/OPEN AI URL- Usage policies heading text assertion'), 
 //    'Usage policies')
 WebUI.closeWindowIndex(1)
 
-WebUI.delay(GlobalVariable.delay_3s)
+WebUI.delay(GlobalVariable.delay_2s)
 
-WebUI.closeBrowser()
+WebUI.switchToWindowIndex(0)
+
+WebUI.delay(GlobalVariable.delay_2s)
 

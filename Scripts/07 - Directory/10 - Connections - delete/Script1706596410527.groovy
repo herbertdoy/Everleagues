@@ -19,8 +19,6 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.delay(GlobalVariable.delay_2s)
 
-//WebUI.click(findTestObject('07-Directory/Connections/zContact Profile/GG edited'))
-
 WebUI.click(findTestObject('07-Directory/Connections/zContact Profile/button_delete'))
 
 WebUI.verifyElementVisible(findTestObject('07-Directory/Connections/zContact Profile/delete modal'))

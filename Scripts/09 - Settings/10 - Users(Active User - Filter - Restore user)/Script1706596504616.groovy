@@ -27,7 +27,6 @@ WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('09-Settings/Users/Active User/button_Filter Users'))
 
-//WebUI.verifyElementVisible(findTestObject('09-Settings/Users/Active User/div_GTGG tester 2'))
 WebUI.click(findTestObject('09-Settings/Users/Active User/button_replay'))
 
 WebUI.verifyElementVisible(findTestObject('09-Settings/Users/Active User/h4_Restore User'))

@@ -41,17 +41,14 @@ WebUI.click(findTestObject('09-Settings/Users/Active User/button_Save'))
 
 WebUI.delay(GlobalVariable.delay_2s)
 
-//WebUI.verifyElementPresent(findTestObject('09-Settings/Users/Active User/div_GTGG tester 2'), 0)
 WebUI.click(findTestObject('09-Settings/Users/Active User/button_ellipses'))
 
 WebUI.click(findTestObject('09-Settings/Users/Active User/button_Edit Role'))
 
-//WebUI.verifyElementPresent(findTestObject('09-Settings/Users/Active User/h4_Edit User Role'), 0)
 WebUI.click(findTestObject('09-Settings/Users/Active User/div_roleDropdown'))
 
 WebUI.click(findTestObject('09-Settings/Users/Active User/mat-option_CoWorker'))
 
-//WebUI.verifyElementPresent(findTestObject('09-Settings/Users/Active User/warning_when_changing_role'), 0)
 WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('09-Settings/Users/Active User/div_roleTypeDropdown'))

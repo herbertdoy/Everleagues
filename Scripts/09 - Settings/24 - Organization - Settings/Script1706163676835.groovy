@@ -27,7 +27,6 @@ WebUI.click(findTestObject('09-Settings/Organization/div_Settings'))
 
 WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/div_Settings page'))
 
-//WebUI.verifyElementVisible(findTestObject('09-Settings/Users/User Page'))
 WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/mat-card-title_Chat Message Settings'))
@@ -44,10 +43,6 @@ WebUI.click(findTestObject('09-Settings/Organization/toggle_Enable chat message 
 
 WebUI.delay(GlobalVariable.delay_2s)
 
-//WebUI.refresh(FailureHandling.STOP_ON_FAILURE)
-/*WebUI.click(findTestObject('09-Settings/Organization/div_Settings'))
-
-WebUI.delay(GlobalVariable.delay_2s)*/
 WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/mat-card-title_Membership'))
 
 WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/div_By enabling this option, all join requests via URL will be automatically approved'))
@@ -66,14 +61,6 @@ WebUI.click(findTestObject('09-Settings/Organization/toggle_My Drive for clients
 
 WebUI.click(findTestObject('09-Settings/Organization/toggle_My Drive for external'))
 
-//WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/div_By enabling this option, all join requests via URL will be automatically approved'))
-//WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/h4_Auto Approval Disabled for Free Limited Plan'))
-//WebUI.delay(1)
-//WebUI.click(findTestObject('09-Settings/Users/Active User/button_Cancel_restore'))
-//WebUI.click(findTestObject('09-Settings/Organization/toggle_Enable auto approve'))
-//WebUI.delay(3)
-//WebUI.click(findTestObject('09-Settings/Organization/button_Go to Subscription'))
-//WebUI.verifyElementVisible(findTestObject('09-Settings/Users/div_Subscriptions'))
 WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('09-Settings/Organization/toggle_My Drive for employees'))
@@ -84,9 +71,6 @@ WebUI.click(findTestObject('09-Settings/Organization/toggle_My Drive for externa
 
 WebUI.delay(GlobalVariable.delay_2s)
 
-//WebUI.click(findTestObject('03-Header Menu/div_Settings'))
-//WebUI.click(findTestObject('09-Settings/Users/div_Organization'))
-//WebUI.click(findTestObject('09-Settings/Organization/div_Settings'))//
 WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/mat-card-title_Tools'))
 
 WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/div_Enable or disable tools by clicking on the toggle'))

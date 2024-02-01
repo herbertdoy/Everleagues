@@ -17,8 +17,6 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-//WebUI.waitForElementVisible(findTestObject('09-Settings/Users/Active User/button_ellipses'), 0)
-//WebUI.waitForElementClickable(findTestObject('09-Settings/Users/Active User/button_ellipses'), 0)
 WebUI.click(findTestObject('09-Settings/Users/Active User/button_ellipses'))
 
 WebUI.delay(GlobalVariable.delay_3s)
@@ -42,15 +40,6 @@ WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('09-Settings/Organization unit/button_Delete Organization Unit'))
 
-//WebUI.click(findTestObject('09-Settings/Organization unit/button_Delete Organization Unit'))
-//
-//WebUI.verifyElementVisible(findTestObject('09-Settings/Organization unit/mat-dialog-container_Delete Organization Unit modal'), 
-//    FailureHandling.STOP_ON_FAILURE)
-//
-//WebUI.verifyElementVisible(findTestObject('09-Settings/Organization unit/h4_Delete Organization Unit'), FailureHandling.STOP_ON_FAILURE)
-//
-//WebUI.verifyElementVisible(findTestObject('09-Settings/Organization unit/span_Warning All resources associated with this root organization will be permanently deleted'), 
-//    FailureHandling.STOP_ON_FAILURE)
 WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('09-Settings/Users/Active User/button_Delete'))

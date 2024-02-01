@@ -25,7 +25,7 @@ WebUI.click(findTestObject('11-Cloud Files/button_download'))
 
 WebUI.verifyElementVisible(findTestObject('11-Cloud Files/div_Done downloading qaclear'))
 
-WebUI.delay(GlobalVariable.delay_3s)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.rightClick(findTestObject('11-Cloud Files/td_Automation folder EDIT'))
 

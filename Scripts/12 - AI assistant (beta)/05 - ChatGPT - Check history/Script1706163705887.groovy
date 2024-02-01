@@ -47,7 +47,19 @@ WebUI.click(findTestObject('12-AI Assistant(beta)/12.1-Chat GPT(beta)/Chat histo
 
 WebUI.verifyElementVisible(findTestObject('12-AI Assistant(beta)/12.1-Chat GPT(beta)/History-Generated answer assertion'))
 
-WebUI.delay(GlobalVariable.delay_3s)
+WebUI.delay(GlobalVariable.delay_2s)
 
-WebUI.closeBrowser()
+WebUI.refresh()
+
+WebUI.delay(GlobalVariable.delay_2s)
+
+WebUI.scrollToElement(findTestObject('12-AI Assistant(beta)/AI asst button-Side panel'), 30)
+
+WebUI.click(findTestObject('12-AI Assistant(beta)/AI asst button-Side panel'))
+
+WebUI.delay(GlobalVariable.delay_2s)
+
+WebUI.click(findTestObject('12-AI Assistant(beta)/12.1-Chat GPT(beta)/Chat GPT (beta)'))
+
+WebUI.delay(GlobalVariable.delay_2s)
 

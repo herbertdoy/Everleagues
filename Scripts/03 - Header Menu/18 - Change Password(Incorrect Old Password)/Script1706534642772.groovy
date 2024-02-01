@@ -35,9 +35,5 @@ WebUI.click(findTestObject('03-Header Menu/User Profile/Change Password/button_C
 
 WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/Change Password/mat-error_Failed to change password'))
 
-//WebUI.click(findTestObject('03-Header Menu/User Profile/Change Password/button_Cancel'))
-
-//WebUI.click(findTestObject('09-Settings/Users/Active User/button_Cancel_restore'))
-
 WebUI.delay(GlobalVariable.delay_2s)
 

@@ -17,8 +17,6 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-//WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/div_Contact Info'))
-//WebUI.delay(1)
 WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Contact Info/mat-icon_add address'))
 
 WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/View Profile/Contact Info/h4_Edit Address'))
@@ -61,7 +59,6 @@ WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/View Prof
 
 WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/View Profile/Contact Info/invalid state'))
 
-//WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/View Profile/Contact Info/invalid country'))
 WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Contact Info/input_street1'))
@@ -104,7 +101,6 @@ WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Contact Inf
 
 WebUI.delay(GlobalVariable.delay_2s)
 
-//WebUI.scrollToElement(findTestObject('03-Header Menu/User Profile/View Profile/Contact Info/mat-list_Address Added'), 0)
 WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/View Profile/Contact Info/mat-list_Address Added'))
 
 WebUI.delay(GlobalVariable.delay_2s)

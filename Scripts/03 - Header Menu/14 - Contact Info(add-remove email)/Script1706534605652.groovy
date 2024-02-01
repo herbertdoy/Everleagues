@@ -53,7 +53,6 @@ WebUI.sendKeys(findTestObject('03-Header Menu/User Profile/View Profile/Contact 
 
 WebUI.delay(GlobalVariable.delay_2s)
 
-//WebUI.scrollToElement(findTestObject('03-Header Menu/User Profile/View Profile/Contact Info/button_Save'), 5)
 WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Contact Info/button_Save'))
 
 WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/View Profile/Contact Info/Success Msg'))

@@ -48,9 +48,5 @@ WebUI.click(findTestObject('00-Signup and Activation/button_DO THIS LATER'))
 
 WebUI.delay(GlobalVariable.delay_2s)
 
-//WebUI.verifyElementVisible(findTestObject('00-Signup and Activation/mat-card_Create your first organization Card'))
-//WebUI.verifyElementVisible(findTestObject('00-Signup and Activation/mat-card_Still not sure where to start Card'))
-//WebUI.verifyElementVisible(findTestObject('00-Signup and Activation/mat-card_Welcome to Everleagues Card'))
-//WebUI.delay(2)
 WebUI.closeBrowser()
 

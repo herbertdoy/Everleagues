@@ -23,3 +23,5 @@ WebUI.click(findTestObject('12-AI Assistant(beta)/12.3- AI Image(beta)/Generate 
 
 WebUI.verifyElementVisible(findTestObject('12-AI Assistant(beta)/12.3- AI Image(beta)/div_generated_image'))
 
+WebUI.delay(GlobalVariable.delay_2s)
+

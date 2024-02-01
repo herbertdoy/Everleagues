@@ -29,8 +29,6 @@ WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Security Ta
 
 WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/View Profile/Security Tab (2FA)/2FA Phone Number modal'))
 
-//WebUI.sendKeys(findTestObject('03-Header Menu/User Profile/View Profile/Security Tab (2FA)/input_phone number'), Keys.chord(
-//      Keys.ENTER))
 WebUI.delay(GlobalVariable.delay_1s)
 
 WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Security Tab (2FA)/button_areacode_default'))

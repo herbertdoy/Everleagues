@@ -29,12 +29,6 @@ WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/View Prof
 
 WebUI.delay(GlobalVariable.delay_1s)
 
-//WebUI.verifyElementNotPresent(findTestObject('03-Header Menu/User Profile/View Profile/Security Tab (2FA)/button_edit'), 
-//    0)
-//WebUI.delay(1)
-//WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Security Tab (2FA)/2FA_toggle'))
-//WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/View Profile/Security Tab (2FA)/Success enable'))
-//WebUI.delay(GlobalVariable.delay_1s)
 WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Security Tab (2FA)/button_edit'))
 
 WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/View Profile/Security Tab (2FA)/2FA Phone Number modal'))
@@ -43,17 +37,12 @@ WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/View Prof
 
 WebUI.delay(GlobalVariable.delay_1s)
 
-//WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Security Tab (2FA)/button_area code'))
-
 WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Security Tab (2FA)/button_areacode_default'))
 
 WebUI.setText(findTestObject('03-Header Menu/User Profile/View Profile/Security Tab (2FA)/area code search'), 'PH')
 
 WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Security Tab (2FA)/button_Philippines 63'))
 
-//WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Security Tab (2FA)/input_phone number'), FailureHandling.STOP_ON_FAILURE)
-//WebUI.sendKeys(findTestObject('03-Header Menu/User Profile/View Profile/Security Tab (2FA)/input_phone number'), Keys.chord(
-//        Keys.ENTER))
 WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/View Profile/Security Tab (2FA)/Phone_Error'))

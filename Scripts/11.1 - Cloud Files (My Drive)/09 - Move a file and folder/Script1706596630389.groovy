@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.delay(GlobalVariable.delay_3s)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.rightClick(findTestObject('11-Cloud Files/td_Copy of qa EDIT'))
 
@@ -29,7 +29,7 @@ WebUI.click(findTestObject('11-Cloud Files/button_Move'))
 
 WebUI.verifyElementVisible(findTestObject('11-Cloud Files/div_ItemSuccessfullyMove'))
 
-WebUI.delay(GlobalVariable.delay_3s)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.rightClick(findTestObject('11-Cloud Files/td_Automation folder 2'))
 

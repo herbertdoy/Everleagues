@@ -25,57 +25,6 @@ WebUI.maximizeWindow()
 
 WebUI.callTestCase(findTestCase('01 - Login and Forgot Password/04 - Login(Valid Credentials-testuser00005)'), [:], FailureHandling.STOP_ON_FAILURE)
 
-//WebUI.setText(findTestObject('02-Side Icons(Organization)/input_Email Field'), 'testuser02@mailinator.com')
-//
-//WebUI.setEncryptedText(findTestObject('02-Side Icons(Organization)/input_Password Field'), '8yFRyszE6U6jvsCn51OQbg==')
-//
-//WebUI.click(findTestObject('02-Side Icons(Organization)/button_Sign in'))
-//
-//WebUI.delay(3)
-//
-//WebUI.click(findTestObject('06-Teams/For 2FA/button_Confirm_2FA'))
-//
-//WebUI.executeJavaScript('window.open();', [])
-//
-//currentWindow = WebUI.getWindowIndex()
-//
-//WebUI.delay(3)
-//
-//WebUI.switchToWindowIndex(currentWindow + 1)
-//
-//WebUI.navigateToUrl('https://www.mailinator.com/')
-//
-//WebUI.delay(3)
-//
-//WebUI.setText(findTestObject('Mailinator/input_LOGIN_search'), 'testuser02@mailinator.com')
-//
-//WebUI.click(findTestObject('Mailinator/gobutton'), FailureHandling.STOP_ON_FAILURE)
-//
-//WebUI.delay(3)
-//
-//WebUI.click(findTestObject('Mailinator/Email - everleagues'))
-//
-//WebUI.delay(3)
-//
-//String code = WebUI.getText(findTestObject('Object Repository/06-Teams/For 2FA/2FA code'))
-//
-//WebUI.delay(3)
-//
-//WebUI.closeWindowTitle('Mailinator')
-//
-//WebUI.delay(3)
-//
-//WebUI.switchToWindowIndex(0)
-//
-//WebUI.delay(3)
-//
-//WebUI.setText(findTestObject('Object Repository/06-Teams/For 2FA/input_Enter verification code'), code)
-//
-//WebUI.delay(3)
-//
-//WebUI.click(findTestObject('06-Teams/For 2FA/button_Verify_2FA'))
-//
-//WebUI.delay(5)
 WebUI.click(findTestObject('03-Header Menu/div_Directory'))
 
 WebUI.delay(GlobalVariable.delay_3s)
@@ -92,7 +41,6 @@ WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.verifyElementVisible(findTestObject('07-Directory/Connections/h4_CONNECTIONS'))
 
-//WebUI.verifyElementVisible(findTestObject('07-Directory/Connections/h5_Save your contacts here and throw your business cards away'))
 WebUI.verifyElementVisible(findTestObject('07-Directory/Connections/button_search'))
 
 WebUI.verifyElementVisible(findTestObject('07-Directory/Connections/button_add new contact'))
@@ -119,9 +67,6 @@ WebUI.sendKeys(findTestObject('07-Directory/Connections/input_lastName'), Keys.c
 
 WebUI.sendKeys(findTestObject('07-Directory/Connections/input_lastName'), Keys.chord(Keys.BACK_SPACE))
 
-//WebUI.clearText(findTestObject('07-Directory/Connections/input_firstName'))
-//
-//WebUI.clearText(findTestObject('07-Directory/Connections/input_lastName'))
 WebUI.click(findTestObject('07-Directory/Connections/input_Type_email'))
 
 WebUI.delay(GlobalVariable.delay_2s)
@@ -130,7 +75,5 @@ WebUI.click(findTestObject('07-Directory/Connections/button_Save'))
 
 WebUI.verifyElementVisible(findTestObject('07-Directory/Connections/span_First name cannot be empty'))
 
-//WebUI.verifyElementVisible(findTestObject('07-Directory/Connections/div_First Name Field is required'))
-//WebUI.verifyElementVisible(findTestObject('07-Directory/Connections/div_Last Name Field is required'))
 WebUI.delay(GlobalVariable.delay_2s)
 

@@ -19,7 +19,6 @@ import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 import java.util.Random as Random
 
-//def domainName = '@mailinator.com'
 def domainName = '@yopmail.com'
 
 def random = new Random()
@@ -46,45 +45,37 @@ WebUI.executeJavaScript('window.open();', [])
 
 currentWindow = WebUI.getWindowIndex()
 
-WebUI.delay(GlobalVariable.delay_3s)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.switchToWindowIndex(currentWindow + 1)
 
 WebUI.navigateToUrl(GlobalVariable.URL_yopmail)
 
-//WebUI.navigateToUrl(GlobalVariable.URL_mailinator)
-WebUI.delay(GlobalVariable.delay_3s)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.setText(findTestObject('Yopmail/input_Enter your inbox here'), emailAddress)
 
-WebUI.delay(GlobalVariable.delay_3s)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('Yopmail/button_Next'))
 
-WebUI.delay(GlobalVariable.delay_3s)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('Yopmail/span_Everleagues Team'))
 
-WebUI.delay(GlobalVariable.delay_3s)
+WebUI.delay(GlobalVariable.delay_2s)
 
-//WebUI.setText(findTestObject('Mailinator/input_LOGIN_search'), emailAddress)
-//WebUI.click(findTestObject('Mailinator/gobutton'), FailureHandling.STOP_ON_FAILURE)
-//WebUI.delay(GlobalVariable.delay_3s)
-//WebUI.click(findTestObject('Mailinator/Email - everleagues'))
-//WebUI.delay(GlobalVariable.delay_3s)
-//String code = WebUI.getText(findTestObject('Object Repository/06-Teams/For 2FA/2FA code'))
 String code = WebUI.getText(findTestObject('Yopmail/2FA code-Yopmail'))
 
-WebUI.delay(GlobalVariable.delay_3s)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.closeWindowTitle(GlobalVariable.Y_windowTitle)
 
-//WebUI.closeWindowTitle('Mailinator')
-WebUI.delay(GlobalVariable.delay_3s)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.switchToWindowIndex(0)
 
-WebUI.delay(GlobalVariable.delay_3s)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.setText(findTestObject('Object Repository/06-Teams/For 2FA/input_Enter verification code'), code)
 

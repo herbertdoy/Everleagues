@@ -23,60 +23,8 @@ WebUI.navigateToUrl(GlobalVariable.URL_lab)
 
 WebUI.maximizeWindow()
 
-WebUI.callTestCase(findTestCase('01 - Login and Forgot Password/04 - Login(Valid Credentials-testuser01)'), [:], 
-    FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.callTestCase(findTestCase('01 - Login and Forgot Password/04 - Login(Valid Credentials-testuser01)'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
-//WebUI.setText(findTestObject('02-Side Icons(Organization)/input_Email Field'), 'testuser02@mailinator.com')
-//
-//WebUI.setEncryptedText(findTestObject('02-Side Icons(Organization)/input_Password Field'), '8yFRyszE6U6jvsCn51OQbg==')
-//
-//WebUI.click(findTestObject('02-Side Icons(Organization)/button_Sign in'))
-//
-//WebUI.delay(2)
-//
-//WebUI.click(findTestObject('06-Teams/For 2FA/button_Confirm_2FA'))
-//
-//WebUI.executeJavaScript('window.open();', [])
-//
-//currentWindow = WebUI.getWindowIndex()
-//
-//WebUI.delay(3)
-//
-//WebUI.switchToWindowIndex(currentWindow + 1)
-//
-//WebUI.navigateToUrl('https://www.mailinator.com/')
-//
-//WebUI.delay(3)
-//
-//WebUI.setText(findTestObject('Mailinator/input_LOGIN_search'), 'testuser02@mailinator.com')
-//
-//WebUI.click(findTestObject('Mailinator/gobutton'), FailureHandling.STOP_ON_FAILURE)
-//
-//WebUI.delay(3)
-//
-//WebUI.click(findTestObject('Mailinator/Email - everleagues'))
-//
-//WebUI.delay(3)
-//
-//String code = WebUI.getText(findTestObject('Object Repository/06-Teams/For 2FA/2FA code'))
-//
-//WebUI.delay(3)
-//
-//WebUI.closeWindowTitle('Mailinator')
-//
-//WebUI.delay(3)
-//
-//WebUI.switchToWindowIndex(0)
-//
-//WebUI.delay(3)
-//
-//WebUI.setText(findTestObject('Object Repository/06-Teams/For 2FA/input_Enter verification code'), code)
-//
-//WebUI.delay(3)
-//
-//WebUI.click(findTestObject('06-Teams/For 2FA/button_Verify_2FA'))
-//
-//WebUI.delay(5)
 WebUI.click(findTestObject('06-Teams/button_doublearrow'))
 
 WebUI.click(findTestObject('06-Teams/button_My Organizations'))
@@ -101,7 +49,6 @@ WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('03-Header Menu/div_Open Video Conference'))
 
-//WebUI.verifyElementVisible(findTestObject('09-Settings/Users/User Page'))
 WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.verifyElementVisible(findTestObject('10-Open Video Conference/h5_Meeting Title'))
@@ -118,7 +65,7 @@ WebUI.click(findTestObject('10-Open Video Conference/input_Current Contacts_inpu
 
 WebUI.click(findTestObject('10-Open Video Conference/div_Now'))
 
-WebUI.delay(GlobalVariable.delay_3s)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.scrollToElement(findTestObject('10-Open Video Conference/h5_New Guests'), 0)
 
@@ -143,8 +90,6 @@ WebUI.click(findTestObject('10-Open Video Conference/input_emailPhonenumber'))
 WebUI.verifyElementVisible(findTestObject('10-Open Video Conference/mat-error_Field is required'))
 
 WebUI.clickOffset(findTestObject('10-Open Video Conference/input_Meeting Title'), 10, 10)
-
-//WebUI.verifyElementVisible(findTestObject('10-Open Video Conference/error_Enter a valid emailEnter a valid phone number (eg 13330001234)'))
 
 WebUI.clickOffset(findTestObject('10-Open Video Conference/input_Lastname'), 10, 10)
 
