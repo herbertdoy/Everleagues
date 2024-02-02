@@ -19,8 +19,6 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.click(findTestObject('12-AI Assistant(beta)/12.4-Information/Terms of use link'))
 
-//WebUI.verifyElementText(findTestObject('12-AI Assistant(beta)/12.4-Information/OPEN AI URL-Terms of use heading text assertion'), 
-//    'Terms of use')
 String url = WebUI.getUrl()
 
 url.contains('https://openai.com/policies/terms-of-use')

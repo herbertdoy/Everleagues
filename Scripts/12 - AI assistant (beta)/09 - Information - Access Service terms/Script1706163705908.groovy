@@ -19,8 +19,6 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.click(findTestObject('12-AI Assistant(beta)/12.4-Information/Service terms link'))
 
-//WebUI.verifyElementText(findTestObject('12-AI Assistant(beta)/12.4-Information/OPEN AI URL-Service terms heading text assertion'), 
-//    'Service terms')
 String url = WebUI.getUrl()
 
 url.contains('https://openai.com/policies/service-terms')

@@ -27,7 +27,6 @@ WebUI.verifyElementVisible(findTestObject('13-EL Sign/mat-dialog-container_confi
 
 WebUI.delay(GlobalVariable.delay_2s)
 
-//WebUI.click(findTestObject('13-EL Sign/span_Download'))
 WebUI.click(findTestObject('13-EL Sign/span_ELSign Tracking Id'))
 
 WebUI.click(findTestObject('13-EL Sign/span_Document Name'))

@@ -25,10 +25,8 @@ LocalDateTime now = LocalDateTime.now()
 
 LocalDateTime minus12Hours = now.minusHours(12)
 
-//DateTimeFormatter formatter = DateTimeFormatter.ISO_LOCAL_DATE_TIME
 DateTimeFormatter formatter = DateTimeFormatter.ofPattern('MM/dd/yyyy h:mm a')
 
-//String nowString = formatter.format(now)
 String formattedTime = minus12Hours.format(formatter)
 
 WebUI.comment(formattedTime)

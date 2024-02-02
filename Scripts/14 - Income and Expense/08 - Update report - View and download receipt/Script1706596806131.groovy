@@ -25,16 +25,12 @@ WebUI.scrollToElement(findTestObject('14-Income and Expense/label_Receipt'), 0)
 
 WebUI.verifyElementVisible(findTestObject('14-Income and Expense/label_Receipt'), FailureHandling.CONTINUE_ON_FAILURE)
 
-//WebUI.refresh()
 WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.scrollToElement(findTestObject('14-Income and Expense/button_CANCEL3'), 0)
 
 WebUI.click(findTestObject('14-Income and Expense/button_CANCEL3'), FailureHandling.CONTINUE_ON_FAILURE)
 
-//WebUI.refresh()
-//WebUI.scrollToElement(findTestObject('14-Income and Expense/button_CANCEL2'), 0)
-///WebUI.click(findTestObject('14-Income and Expense/button_CANCEL2'))
 WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.scrollToElement(findTestObject('03-Header Menu/div_Income and Expense'), 0)

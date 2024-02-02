@@ -17,8 +17,6 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-//WebUI.click(findTestObject('13-EL Sign/div_ELSignTrackID'))
-//WebUI.delay(3)
 WebUI.click(findTestObject('13-EL Sign/button_personADD SIGNER  FIELD'))
 
 WebUI.click(findTestObject('13-EL Sign/input_Search for a Signer'))

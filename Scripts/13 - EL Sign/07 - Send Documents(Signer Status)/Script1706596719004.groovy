@@ -17,8 +17,6 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-//WebUI.click(findTestObject('13-EL Sign/div_Send Documents'))
-//WebUI.delay(3)
 WebUI.click(findTestObject('13-EL Sign/button_person_add-SignerStatus'))
 
 WebUI.verifyElementVisible(findTestObject('13-EL Sign/mat-toolbar_Signers ELSign Status'))

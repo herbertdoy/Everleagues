@@ -45,7 +45,6 @@ WebUI.verifyElementVisible(findTestObject('11-Cloud Files/div_GTGG tester'))
 
 WebUI.click(findTestObject('11-Cloud Files/button_save2'))
 
-//WebUI.verifyElementVisible(findTestObject('11-Cloud Files/snack-bar-container_Shared folder access updated successfully.OK'))
 WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('11-Cloud Files/mat-icon_close'))
@@ -92,16 +91,5 @@ WebUI.scrollToElement(findTestObject('11-Cloud Files/a_Shared Drive'), 0)
 
 WebUI.click(findTestObject('11-Cloud Files/a_Shared Drive'))
 
-//WebUI.delay(GlobalVariable.delay_2s)
-//
-//WebUI.closeWindowIndex(1)
-//
-//WebUI.delay(GlobalVariable.delay_2s)
-//
-//WebUI.switchToWindowIndex(0)
-//
-//WebUI.delay(GlobalVariable.delay_2s)
-//
-//WebUI.refresh()
 WebUI.delay(GlobalVariable.delay_3s)
 

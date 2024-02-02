@@ -31,8 +31,6 @@ WebUI.delay(GlobalVariable.delay_2s)
 
 String url = WebUI.getUrl()
 
-//WebUI.verifyEqual(url, btnSrc)//
-//WebUI.verifyElementText(findTestObject('12-AI Assistant(beta)/12.1-Chat GPT(beta)/Open AI.com-ChatGPT heading text'), 'ChatGPT')//
 url.contains('https://chat.openai.com/')
 
 WebUI.delay(GlobalVariable.delay_2s)

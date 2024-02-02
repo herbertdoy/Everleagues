@@ -57,7 +57,6 @@ WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('11-Cloud Files/mat-icon_close'))
 
-//WebUI.verifyElementVisible(findTestObject('11-Cloud Files/snack-bar-container_Shared folder access updated successfully.OK'))
 WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.rightClick(findTestObject('11-Cloud Files/td_Driver'))

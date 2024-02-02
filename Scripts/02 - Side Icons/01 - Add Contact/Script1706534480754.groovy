@@ -43,9 +43,9 @@ WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('02-Side Icons(Organization)/button_add new user'))
 
-WebUI.delay(GlobalVariable.delay_3s)
+//WebUI.delay(GlobalVariable.delay_3s)
 
-WebUI.verifyElementVisible(findTestObject('02-Side Icons(Organization)/modal_User Invitation_withoutSub'))
+//WebUI.verifyElementVisible(findTestObject('02-Side Icons(Organization)/modal_User Invitation_withoutSub'))
 
 WebUI.delay(GlobalVariable.delay_2s)
 

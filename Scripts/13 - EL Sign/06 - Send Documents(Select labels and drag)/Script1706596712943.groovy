@@ -20,7 +20,6 @@ import org.openqa.selenium.Keys as Keys
 WebUI.dragAndDropToObject(findTestObject('13-EL Sign/button_createGG TESTERSign here'), findTestObject('13-EL Sign/documents'), 
     FailureHandling.STOP_ON_FAILURE)
 
-//WebUI.dragAndDropByOffset(findTestObject('13-EL Sign/button_createGG TESTERSign here'), 100, 100)
 WebUI.click(findTestObject('13-EL Sign/div_create-draggable'))
 
 WebUI.click(findTestObject('13-EL Sign/button_clear'))
@@ -42,38 +41,16 @@ WebUI.dragAndDropToObject(findTestObject('13-EL Sign/button_createGG TESTERSign 
 
 WebUI.delay(GlobalVariable.delay_2s)
 
-//WebUI.dragAndDropByOffset(findTestObject('13-EL Sign/button_createGG TESTERSign here'), 5, 10)//
-//WebUI.delay(GlobalVariable.delay_3s)//
-//WebUI.dragAndDropByOffset(findTestObject('13-EL Sign/button_calendarGG TESTERDate signed'), 3, 30)//
 WebUI.dragAndDropToObject(findTestObject('13-EL Sign/button_calendarGG TESTERDate signed'), findTestObject('13-EL Sign/document_readytotakedocument'), 
     FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(GlobalVariable.delay_2s)
 
-//WebUI.dragAndDropByOffset(findTestObject('13-EL Sign/button_person_pinGG TESTERInitial here'), 3, 60)//
 WebUI.dragAndDropToObject(findTestObject('13-EL Sign/button_person_pinGG TESTERInitial here'), findTestObject('13-EL Sign/document_digitaldocumentsallinoneplace'), 
     FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(GlobalVariable.delay_2s)
 
-//WebUI.delay(3)
-//
-//WebUI.click(findTestObject('13-EL Sign/button_createGG TESTERSign here'))
-//
-//WebUI.clickOffset(findTestObject('13-EL Sign/span_COMPLETE'), 100, 100)
-//
-//WebUI.click(findTestObject('13-EL Sign/button_calendarGG TESTERDate signed'))
-//
-//WebUI.clickOffset(findTestObject('13-EL Sign/span_COMPLETE'), 100, 100)
-//
-//WebUI.click(findTestObject('13-EL Sign/button_person_pinGG TESTERInitial here'))
-//
-//WebUI.clickOffset(findTestObject('13-EL Sign/span_COMPLETE'), 100, 100)
-//
-//WebUI.delay(3)
-//WebUI.dragAndDropByOffset(findTestObject('13-EL Sign/div_usericon-draggable'), 3, 30)
-//
-//WebUI.dragAndDropByOffset(findTestObject('13-EL Sign/div_calendar-draggable'), 3, 60)
 WebUI.click(findTestObject('13-EL Sign/span_COMPLETE'))
 
 WebUI.delay(GlobalVariable.delay_3s)

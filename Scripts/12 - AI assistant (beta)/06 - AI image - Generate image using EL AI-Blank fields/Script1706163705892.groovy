@@ -17,12 +17,6 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-//WebUI.scrollToElement(findTestObject('12-AI Assistant(beta)/AI asst button-Side panel'), 30)
-//
-//WebUI.click(findTestObject('12-AI Assistant(beta)/AI asst button-Side panel'))
-//
-//WebUI.verifyElementVisible(findTestObject('12-AI Assistant(beta)/AI asst button-Side panel'))
-//WebUI.delay(GlobalVariable.delay_2s)
 WebUI.click(findTestObject('12-AI Assistant(beta)/12.3- AI Image(beta)/AI Image (beta)'))
 
 WebUI.delay(GlobalVariable.delay_2s)
