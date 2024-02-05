@@ -25,7 +25,7 @@ WebUI.maximizeWindow()
 
 WebUI.callTestCase(findTestCase('01 - Login and Forgot Password/04 - Login(Valid Credentials-testuser01)'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('02-Side Icons(Organization)/mat-icon_Side Menu double arrow icon'))
+WebUI.click(findTestObject('06-Teams/button_doublearrow'))
 
 WebUI.delay(GlobalVariable.delay_2s)
 
@@ -44,9 +44,7 @@ WebUI.delay(GlobalVariable.delay_2s)
 WebUI.click(findTestObject('02-Side Icons(Organization)/button_add new user'))
 
 //WebUI.delay(GlobalVariable.delay_3s)
-
 //WebUI.verifyElementVisible(findTestObject('02-Side Icons(Organization)/modal_User Invitation_withoutSub'))
-
 WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('02-Side Icons(Organization)/div_Invite a single user option'))

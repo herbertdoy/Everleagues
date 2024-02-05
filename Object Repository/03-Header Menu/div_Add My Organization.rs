@@ -6,19 +6,19 @@
    <elementGuidId>6f27722f-f634-4643-818e-1a47ada9bf4c</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>div.ou-new-container</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Member since: 1/4/22'])[1]/following::div[1]</value>
+         <value>//span[text()='Add New Organization']</value>
       </entry>
       <entry>
          <key>BASIC</key>
          <value>//*[(text() = 'library_addAdd My Organization' or . = 'library_addAdd My Organization')]</value>
       </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.ou-new-container</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -26,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>0d9b6fa7-957e-42ab-9336-72d3937b7087</webElementGuid>
+      <webElementGuid>2eba3cb3-ca2f-4c13-9be9-a8b595bf7547</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -34,7 +34,7 @@
       <name>fxlayout</name>
       <type>Main</type>
       <value>row</value>
-      <webElementGuid>fa5d6ceb-3700-4e53-895b-10f2bb23b613</webElementGuid>
+      <webElementGuid>b5c5feef-082e-4c31-a971-623580d9fa9f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,7 +42,7 @@
       <name>fxlayoutalign</name>
       <type>Main</type>
       <value>start center</value>
-      <webElementGuid>5ec80213-72a9-4c77-b57e-872bba534308</webElementGuid>
+      <webElementGuid>67701cda-404e-4305-885f-899abfe0c8d8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,7 +50,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ou-new-container</value>
-      <webElementGuid>6f402c4f-d23f-4432-b6e7-5443b2ee4ef8</webElementGuid>
+      <webElementGuid>3a64c459-48e7-4c94-8fd3-70fd7a5a398e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -58,7 +58,7 @@
       <name>ng-reflect-fx-layout</name>
       <type>Main</type>
       <value>row</value>
-      <webElementGuid>b03cc61c-6681-4596-9552-db29aec1e6f1</webElementGuid>
+      <webElementGuid>56ac1a13-23cd-4f79-9b01-121339c88b6e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -66,7 +66,7 @@
       <name>ng-reflect-fx-layout-align</name>
       <type>Main</type>
       <value>start center</value>
-      <webElementGuid>81b45fbd-a79d-4b10-95f9-8e84149dd903</webElementGuid>
+      <webElementGuid>8e8ac13f-e1df-46f5-90f3-1e825618b811</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -74,7 +74,7 @@
       <name>text</name>
       <type>Main</type>
       <value>library_addAdd My Organization</value>
-      <webElementGuid>1c77cf4f-3081-4a56-87cf-545b4a3ff95d</webElementGuid>
+      <webElementGuid>31064dc2-9fa5-4ca9-bab1-328d379140e4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -82,7 +82,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/app-root[1]/app-main-page[@class=&quot;ng-tns-c463-3 ng-trigger ng-trigger-routerAnimation ng-star-inserted&quot;]/mat-sidenav-container[@class=&quot;mat-drawer-container mat-sidenav-container ng-tns-c463-3 mat-drawer-transition mat-drawer-container-has-open&quot;]/mat-sidenav[@class=&quot;mat-drawer mat-sidenav left-sidenav ng-tns-c174-4 ng-trigger ng-trigger-transform ng-star-inserted mat-drawer-side mat-drawer-opened&quot;]/div[@class=&quot;mat-drawer-inner-container ng-tns-c174-4&quot;]/header[@class=&quot;sidenav-header ng-tns-c174-4&quot;]/ui-current-ou[@class=&quot;ng-tns-c463-3&quot;]/div[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;ou-new-container&quot;]</value>
-      <webElementGuid>da0d6c7f-1f98-4e9b-a0e4-344c314c4abb</webElementGuid>
+      <webElementGuid>8f539876-8ca6-47e7-8d9a-e29329f0733a</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -90,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Member since: 1/4/22'])[1]/following::div[1]</value>
-      <webElementGuid>90c038cc-dda2-4de9-9401-3115bb02344c</webElementGuid>
+      <webElementGuid>851da6ef-8b83-45d2-8732-0c91f30d80bf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,7 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Joined as: Owner'])[1]/following::div[2]</value>
-      <webElementGuid>52ee7eb0-f896-40d0-b9bd-e42f9b4e623d</webElementGuid>
+      <webElementGuid>5f10df23-bfda-4201-bca8-3d4bb832e8dd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,7 +106,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Dashboard'])[1]/preceding::div[4]</value>
-      <webElementGuid>f0a5aba7-16ef-4d9f-be0a-d1b0cd221d27</webElementGuid>
+      <webElementGuid>98ab4af9-9791-4ff1-9066-c9ca32d8d89e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -114,6 +114,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/div[3]</value>
-      <webElementGuid>c3a0f4b9-d72b-4bcb-a5b6-cad661d8909c</webElementGuid>
+      <webElementGuid>1f6ae609-1998-4e3a-9bdf-88566c7846aa</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

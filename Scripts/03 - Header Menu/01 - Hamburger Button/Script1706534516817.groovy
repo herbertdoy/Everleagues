@@ -26,7 +26,7 @@ WebUI.callTestCase(findTestCase('01 - Login and Forgot Password/04 - Login(Valid
 
 WebUI.click(findTestObject('03-Header Menu/button_menu'))
 
-WebUI.delay(GlobalVariable.delay_3s)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.verifyElementNotVisible(findTestObject('03-Header Menu/div_Add My Organization'), FailureHandling.STOP_ON_FAILURE)
 
