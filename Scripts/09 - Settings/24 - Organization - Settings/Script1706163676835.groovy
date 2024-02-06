@@ -27,19 +27,27 @@ WebUI.click(findTestObject('09-Settings/Organization/div_Settings'))
 
 WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/div_Settings page'))
 
-WebUI.delay(GlobalVariable.delay_3s)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/mat-card-title_Chat Message Settings'))
 
 WebUI.click(findTestObject('09-Settings/Organization/toggle_Enable chat message editing'))
 
+WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/snack-bar-container_Chat message editing enabled.OK'))
+
 WebUI.click(findTestObject('09-Settings/Organization/toggle_Enable chat message deletion'))
+
+WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/snack-bar-container_Chat message deletion enabled.OK'))
 
 WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('09-Settings/Organization/toggle_Enable chat message editing'))
 
+WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/snack-bar-container_Chat message editing disabled.OK'))
+
 WebUI.click(findTestObject('09-Settings/Organization/toggle_Enable chat message deletion'))
+
+WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/snack-bar-container_Chat message deletion disabled.OK'))
 
 WebUI.delay(GlobalVariable.delay_2s)
 
@@ -57,17 +65,29 @@ WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/mat-card-tit
 
 WebUI.click(findTestObject('09-Settings/Organization/toggle_My Drive for employees'))
 
+WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/snack-bar-container_My Drive disabled for employees.OK'))
+
 WebUI.click(findTestObject('09-Settings/Organization/toggle_My Drive for clients'))
 
+WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/snack-bar-container_My Drive enabled for clients.OK'))
+
 WebUI.click(findTestObject('09-Settings/Organization/toggle_My Drive for external'))
+
+WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/snack-bar-container_My Drive enabled for external users.OK'))
 
 WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('09-Settings/Organization/toggle_My Drive for employees'))
 
+WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/snack-bar-container_My Drive enabled for employees.OK'))
+
 WebUI.click(findTestObject('09-Settings/Organization/toggle_My Drive for clients'))
 
+WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/snack-bar-container_My Drive disabled for clients.OK'))
+
 WebUI.click(findTestObject('09-Settings/Organization/toggle_My Drive for external'))
+
+WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/snack-bar-container_My Drive disabled for external users.OK'))
 
 WebUI.delay(GlobalVariable.delay_2s)
 
@@ -77,41 +97,61 @@ WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/div_Enable o
 
 WebUI.click(findTestObject('09-Settings/Organization/toggle_EL Net'))
 
+WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/snack-bar-container_ELNet tool disabled.OK'))
+
 WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('09-Settings/Organization/toggle_EL Sign'))
+
+WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/snack-bar-container_ELSign tool disabled.OK'))
 
 WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('09-Settings/Organization/toggle_Income and expense'))
 
+WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/snack-bar-container_Income and Expense tool disabled.OK'))
+
 WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('09-Settings/Organization/toggle_AI assistant'))
 
+WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/snack-bar-container_AI Assistant tool disabled.OK'))
+
 WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('09-Settings/Organization/toogle_PDF converter1'))
+
+WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/snack-bar-container_PDF Converter tool disabled.OK'))
 
 WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('09-Settings/Organization/toggle_EL Net'))
 
+WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/snack-bar-container_ELNet tool enabled.OK'))
+
 WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('09-Settings/Organization/toggle_EL Sign'))
+
+WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/snack-bar-container_ELSign tool enabled.OK'))
 
 WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('09-Settings/Organization/toggle_Income and expense'))
 
+WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/snack-bar-container_Income and Expense tool enabled.OK'))
+
 WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('09-Settings/Organization/toggle_AI assistant'))
 
+WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/snack-bar-container_AI Assistant tool enabled.OK'))
+
 WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('09-Settings/Organization/toogle_PDF converter1'))
+
+WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/snack-bar-container_PDF Converter tool enabled.OK'))
 
 WebUI.delay(GlobalVariable.delay_2s)
 

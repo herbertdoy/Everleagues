@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>snack-bar-container_AI Assistant tool disabled.OK</name>
+   <name>snack-bar-container_Successfully deleted teamOK</name>
    <tag></tag>
-   <elementGuidId>4584bca3-c329-4f10-b839-94ea34abf405</elementGuidId>
+   <elementGuidId>0fd1da9d-4b80-44de-bab6-c7c0bd7f0e87</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>snack-bar-container.mat-snack-bar-container.ng-tns-c50-144.ng-trigger.ng-trigger-state.mat-snack-bar-center.ng-star-inserted</value>
+         <value>snack-bar-container.mat-snack-bar-container.ng-tns-c50-85.ng-trigger.ng-trigger-state.mat-snack-bar-center.ng-star-inserted</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//snack-bar-container[(text() = 'AI Assistant tool disabled.OK' or . = 'AI Assistant tool disabled.OK')]</value>
+         <value>//snack-bar-container[(text() = 'Successfully deleted teamOK' or . = 'Successfully deleted teamOK')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,55 +22,55 @@
       <name>tag</name>
       <type>Main</type>
       <value>snack-bar-container</value>
-      <webElementGuid>ce0166b0-9039-4625-a2c1-281468b33e45</webElementGuid>
+      <webElementGuid>8bc6fe70-ace3-4bb1-b24b-d1325b65c146</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>mat-snack-bar-container ng-tns-c50-144 ng-trigger ng-trigger-state mat-snack-bar-center ng-star-inserted</value>
-      <webElementGuid>166d196a-2def-4ae1-88a1-b177b5848502</webElementGuid>
+      <value>mat-snack-bar-container ng-tns-c50-85 ng-trigger ng-trigger-state mat-snack-bar-center ng-star-inserted</value>
+      <webElementGuid>ee42fd29-6de4-4a35-86c0-332f9168d3d3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>AI Assistant tool disabled.OK</value>
-      <webElementGuid>9c8204ab-8677-4029-9bbc-c16d3c7485bb</webElementGuid>
+      <value>Successfully deleted teamOK</value>
+      <webElementGuid>e53336f0-78c1-4f31-996d-94b80c37cd88</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;cdk-overlay-44&quot;)/snack-bar-container[@class=&quot;mat-snack-bar-container ng-tns-c50-144 ng-trigger ng-trigger-state mat-snack-bar-center ng-star-inserted&quot;]</value>
-      <webElementGuid>265d7781-4970-41e0-8348-c15512b54810</webElementGuid>
+      <value>id(&quot;cdk-overlay-15&quot;)/snack-bar-container[@class=&quot;mat-snack-bar-container ng-tns-c50-85 ng-trigger ng-trigger-state mat-snack-bar-center ng-star-inserted&quot;]</value>
+      <webElementGuid>59797bd3-4817-4e60-b9a3-d2e4cc15f317</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='cdk-overlay-44']/snack-bar-container</value>
-      <webElementGuid>72a161ef-d780-498e-a234-3f7a31b58b8a</webElementGuid>
+      <value>//div[@id='cdk-overlay-15']/snack-bar-container</value>
+      <webElementGuid>0eebcee9-d9bc-43f2-92d6-b59bd480c4f7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='`'])[2]/following::snack-bar-container[1]</value>
-      <webElementGuid>986988be-17b6-42b1-a16e-89deb13537e4</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Delete Team'])[1]/following::snack-bar-container[1]</value>
+      <webElementGuid>6087d3cf-6220-41a5-839e-d7add1ad3340</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Alt'])[2]/following::snack-bar-container[1]</value>
-      <webElementGuid>9d1eb2b0-034d-4bf1-9720-9626f5e09acb</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Edit Team'])[1]/following::snack-bar-container[1]</value>
+      <webElementGuid>1ddf926c-0aa2-4cca-a7f4-1962cfb3b75a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,14 +78,14 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//snack-bar-container</value>
-      <webElementGuid>a2e67eac-0a70-463e-89b2-eeedfe947bc3</webElementGuid>
+      <webElementGuid>a0045573-b334-41d5-bc6a-80e6f542f7ea</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//snack-bar-container[(text() = 'AI Assistant tool disabled.OK' or . = 'AI Assistant tool disabled.OK')]</value>
-      <webElementGuid>0d808173-69b1-442f-a328-48243e102cfb</webElementGuid>
+      <value>//snack-bar-container[(text() = 'Successfully deleted teamOK' or . = 'Successfully deleted teamOK')]</value>
+      <webElementGuid>666b24e0-17fe-45b4-a046-52f54738534d</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

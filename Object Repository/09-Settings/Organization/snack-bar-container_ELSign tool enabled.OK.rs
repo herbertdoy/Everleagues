@@ -3,46 +3,34 @@
    <description></description>
    <name>snack-bar-container_ELSign tool enabled.OK</name>
    <tag></tag>
-   <elementGuidId>e68484c6-c5e7-45e6-acb2-c18fa410deeb</elementGuidId>
+   <elementGuidId>7c0a9d51-842f-4a8d-8411-151db892956a</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='cdk-overlay-17']/snack-bar-container</value>
+         <key>CSS</key>
+         <value>snack-bar-container.mat-snack-bar-container.ng-tns-c50-139.ng-trigger.ng-trigger-state.mat-snack-bar-center.ng-star-inserted</value>
       </entry>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
          <value>//snack-bar-container[(text() = 'ELSign tool enabled.OK' or . = 'ELSign tool enabled.OK')]</value>
       </entry>
-      <entry>
-         <key>CSS</key>
-         <value>snack-bar-container.mat-snack-bar-container.ng-tns-c41-118.ng-trigger.ng-trigger-state.mat-snack-bar-center.ng-star-inserted</value>
-      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>snack-bar-container</value>
-      <webElementGuid>c5b6ebbb-111e-488b-97e7-2f8480798f89</webElementGuid>
+      <webElementGuid>ce101ea5-212d-49e5-935c-ae93767e7921</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>mat-snack-bar-container ng-tns-c41-118 ng-trigger ng-trigger-state mat-snack-bar-center ng-star-inserted</value>
-      <webElementGuid>90d4db69-db5b-4398-859b-cb0cce5ca847</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>role</name>
-      <type>Main</type>
-      <value>status</value>
-      <webElementGuid>6eca96bf-2684-46f7-9937-513c05c00700</webElementGuid>
+      <value>mat-snack-bar-container ng-tns-c50-139 ng-trigger ng-trigger-state mat-snack-bar-center ng-star-inserted</value>
+      <webElementGuid>8123a896-537c-45e3-bc3f-7bcf0faa121f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -50,39 +38,39 @@
       <name>text</name>
       <type>Main</type>
       <value>ELSign tool enabled.OK</value>
-      <webElementGuid>eda5646f-d854-4f99-9e62-f644be88d0f4</webElementGuid>
+      <webElementGuid>c8d6cc3c-0935-40d9-903c-5ec29540bca4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;cdk-overlay-17&quot;)/snack-bar-container[@class=&quot;mat-snack-bar-container ng-tns-c41-118 ng-trigger ng-trigger-state mat-snack-bar-center ng-star-inserted&quot;]</value>
-      <webElementGuid>470c8829-c263-4a3a-8b4f-0d662392c9dc</webElementGuid>
+      <value>id(&quot;cdk-overlay-41&quot;)/snack-bar-container[@class=&quot;mat-snack-bar-container ng-tns-c50-139 ng-trigger ng-trigger-state mat-snack-bar-center ng-star-inserted&quot;]</value>
+      <webElementGuid>df707bd7-52e7-42cf-a8f8-3df290895ca9</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='cdk-overlay-17']/snack-bar-container</value>
-      <webElementGuid>8e9b9552-fdd1-4828-ae44-f95c87a0c4cc</webElementGuid>
+      <value>//div[@id='cdk-overlay-41']/snack-bar-container</value>
+      <webElementGuid>20eeaa66-b034-45c4-9408-0414ec3c6053</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Edit image'])[1]/following::snack-bar-container[1]</value>
-      <webElementGuid>60ea260d-ce6c-4c17-a60f-0df36b2f331a</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='`'])[2]/following::snack-bar-container[1]</value>
+      <webElementGuid>46f0f610-f0e1-4b10-9ded-fb0dc78deb0b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Client Assignment'])[2]/following::snack-bar-container[1]</value>
-      <webElementGuid>f2e4a86f-837e-47ce-8824-9bffd9422842</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Alt'])[2]/following::snack-bar-container[1]</value>
+      <webElementGuid>0f35b10f-d3d3-4e7c-b9ab-c69ea3aba6cc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -90,7 +78,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//snack-bar-container</value>
-      <webElementGuid>59db4cf9-cc68-4efb-ad13-b0d661f03281</webElementGuid>
+      <webElementGuid>8833dc44-b19e-42b3-89c5-7282d6fc201d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,6 +86,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//snack-bar-container[(text() = 'ELSign tool enabled.OK' or . = 'ELSign tool enabled.OK')]</value>
-      <webElementGuid>2ebbd6f3-bb65-4d0c-8e23-a046fb6652fa</webElementGuid>
+      <webElementGuid>2bd10dd6-3dce-42bc-b584-f4060e3a93da</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

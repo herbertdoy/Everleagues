@@ -3,46 +3,34 @@
    <description></description>
    <name>snack-bar-container_ELNet tool disabled.OK</name>
    <tag></tag>
-   <elementGuidId>26f70644-0b72-4ae3-91e1-6eaa3a2c7f59</elementGuidId>
+   <elementGuidId>a3859431-95b9-4198-a82e-a4a33d2866ec</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>snack-bar-container.mat-snack-bar-container.ng-tns-c41-94.ng-trigger.ng-trigger-state.mat-snack-bar-center.ng-star-inserted</value>
+         <value>snack-bar-container.mat-snack-bar-container.ng-tns-c50-135.ng-trigger.ng-trigger-state.mat-snack-bar-center.ng-star-inserted</value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>//snack-bar-container[(text() = 'ELNet tool disabled.OK' or . = 'ELNet tool disabled.OK')]</value>
       </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//snack-bar-container[@role = 'status' and (text() = 'ELNet tool disabled.OK' or . = 'ELNet tool disabled.OK')]</value>
-      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>snack-bar-container</value>
-      <webElementGuid>73ef77e5-ff1a-4ed5-8c1e-6d697457dd32</webElementGuid>
+      <webElementGuid>2ede5cd5-88c9-47d4-8916-f41397260bda</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>mat-snack-bar-container ng-tns-c41-94 ng-trigger ng-trigger-state mat-snack-bar-center ng-star-inserted</value>
-      <webElementGuid>dc2e0c2d-bd81-49b8-83f9-4e1f51e99379</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>role</name>
-      <type>Main</type>
-      <value>status</value>
-      <webElementGuid>ffd04ced-6002-4bb3-b724-7ba3b1192d9a</webElementGuid>
+      <value>mat-snack-bar-container ng-tns-c50-135 ng-trigger ng-trigger-state mat-snack-bar-center ng-star-inserted</value>
+      <webElementGuid>d06f7deb-f7bc-4bcc-8a62-fc48352417e0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -50,39 +38,39 @@
       <name>text</name>
       <type>Main</type>
       <value>ELNet tool disabled.OK</value>
-      <webElementGuid>ef527fff-f512-44b0-a931-240b1c99a780</webElementGuid>
+      <webElementGuid>b1af1ffa-bd5b-4f53-a472-8e043c8e6d7a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;cdk-overlay-10&quot;)/snack-bar-container[@class=&quot;mat-snack-bar-container ng-tns-c41-94 ng-trigger ng-trigger-state mat-snack-bar-center ng-star-inserted&quot;]</value>
-      <webElementGuid>3c580183-549a-4bf8-ada8-4ed74cde3090</webElementGuid>
+      <value>id(&quot;cdk-overlay-38&quot;)/snack-bar-container[@class=&quot;mat-snack-bar-container ng-tns-c50-135 ng-trigger ng-trigger-state mat-snack-bar-center ng-star-inserted&quot;]</value>
+      <webElementGuid>6e07c53e-b09e-444b-b381-5ff2382250c3</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='cdk-overlay-10']/snack-bar-container</value>
-      <webElementGuid>0c8b4e50-c82e-447a-b1bc-9ce633de174e</webElementGuid>
+      <value>//div[@id='cdk-overlay-38']/snack-bar-container</value>
+      <webElementGuid>ac578e7e-5b85-43e0-8abd-d3b5b0631df2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Edit image'])[1]/following::snack-bar-container[1]</value>
-      <webElementGuid>fd86c4e6-7cd7-4c61-a763-3ad871ca5d4f</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='`'])[2]/following::snack-bar-container[1]</value>
+      <webElementGuid>7e1df75a-c013-4a00-a3de-22b805c66ee2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Client Assignment'])[2]/following::snack-bar-container[1]</value>
-      <webElementGuid>3a4bb424-8d68-4426-a1db-7c024033f56a</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Alt'])[2]/following::snack-bar-container[1]</value>
+      <webElementGuid>9bcde9e1-9732-4e41-a7e6-a1bbbdb33f00</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -90,7 +78,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//snack-bar-container</value>
-      <webElementGuid>6f623b2c-22d7-4c6b-8644-aade61ff63e5</webElementGuid>
+      <webElementGuid>ff17a20e-ce45-476d-89b8-1da314767d7f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,6 +86,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//snack-bar-container[(text() = 'ELNet tool disabled.OK' or . = 'ELNet tool disabled.OK')]</value>
-      <webElementGuid>f0bd68af-67e8-4062-bc25-12f90e42c251</webElementGuid>
+      <webElementGuid>53e4ffe2-ac99-464e-bf50-6a1e54399a6a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

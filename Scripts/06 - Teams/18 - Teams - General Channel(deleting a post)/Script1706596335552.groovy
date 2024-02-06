@@ -137,5 +137,3 @@ WebUI.verifyElementVisible(findTestObject('06-Teams/05- Teams-General Channel/Su
 
 WebUI.delay(GlobalVariable.delay_2s)
 
-WebUI.closeBrowser()
-

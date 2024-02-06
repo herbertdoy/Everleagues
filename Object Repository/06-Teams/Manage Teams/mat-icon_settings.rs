@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>mat-icon_settings</name>
+   <tag></tag>
+   <elementGuidId>d7d3d5d0-0517-4f4f-be30-85bb5feb28ab</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.mat-focus-indicator.mat-tooltip-trigger.ng-tns-c637-164.mat-icon-button.mat-button-base.cdk-focused.cdk-mouse-focused > span.mat-button-wrapper > mat-icon.mat-icon.notranslate.material-icons.mat-ligature-font.mat-icon-no-color</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='General'])[3]/following::mat-icon[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>mat-icon</value>
+      <webElementGuid>68ece19d-2832-4de9-8002-051bac90e963</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>68e9afe0-4521-4c4f-879e-8eac555782d8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-icon notranslate material-icons mat-ligature-font mat-icon-no-color</value>
+      <webElementGuid>e0a030b3-4b65-4996-8fd3-158a85c69c09</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-hidden</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>775e26ea-eed1-4b9f-8263-b7b4835f51a6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-mat-icon-type</name>
+      <type>Main</type>
+      <value>font</value>
+      <webElementGuid>e92e9cad-e585-4a82-bb40-c26af04547c9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>settings</value>
+      <webElementGuid>e0c1c38b-7278-4a6b-a3e9-1280350eccb8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;light theme-default os-window fuse-splash-screen-hidden&quot;]/app-root[1]/app-main-page[@class=&quot;ng-tns-c505-0 ng-trigger ng-trigger-routerAnimation ng-star-inserted&quot;]/div[@class=&quot;absolute inset-0 flex flex-col min-w-0 overflow-hidden ng-tns-c505-0&quot;]/mat-sidenav-container[@class=&quot;mat-drawer-container mat-sidenav-container flex-auto h-full ng-tns-c505-0&quot;]/mat-sidenav-content[@class=&quot;mat-drawer-content mat-sidenav-content flex flex-col overflow-hidden&quot;]/div[@class=&quot;flex flex-col flex-auto w-full min-w-0&quot;]/div[@class=&quot;flex flex-col flex-auto ng-tns-c505-0&quot;]/app-teams[@class=&quot;ng-tns-c637-164 ng-star-inserted&quot;]/div[@class=&quot;teams-section flex flex-col w-full min-w-0 sm:absolute sm:inset-0 sm:overflow-hidden ng-tns-c637-164&quot;]/mat-drawer-container[@class=&quot;mat-drawer-container flex-auto sm:h-full ng-tns-c637-164&quot;]/mat-drawer[@class=&quot;mat-drawer sm:w-96 dark:bg-gray-900 ng-tns-c159-165 ng-trigger ng-trigger-transform mat-drawer-side mat-drawer-opened ng-star-inserted&quot;]/div[@class=&quot;mat-drawer-inner-container ng-tns-c159-165&quot;]/div[@class=&quot;drawer-content ng-tns-c159-165&quot;]/div[@class=&quot;drawer-footer ng-tns-c637-164&quot;]/mat-grid-list[@class=&quot;mat-grid-list ng-tns-c637-164&quot;]/div[1]/mat-grid-tile[@class=&quot;mat-grid-tile&quot;]/div[@class=&quot;mat-grid-tile-content&quot;]/div[1]/button[@class=&quot;mat-focus-indicator mat-tooltip-trigger ng-tns-c637-164 mat-icon-button mat-button-base cdk-focused cdk-mouse-focused&quot;]/span[@class=&quot;mat-button-wrapper&quot;]/mat-icon[@class=&quot;mat-icon notranslate material-icons mat-ligature-font mat-icon-no-color&quot;]</value>
+      <webElementGuid>14665af1-096e-49bb-8bf6-2e33e77de5ed</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='General'])[3]/following::mat-icon[2]</value>
+      <webElementGuid>99f3d919-77dc-4f58-b7e0-624af2ccb8fc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Manage Teams'])[1]/preceding::mat-icon[2]</value>
+      <webElementGuid>4a5411d7-4f65-40ce-9a43-be9c9e0a0a02</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Showing teams from all organization units'])[1]/preceding::mat-icon[2]</value>
+      <webElementGuid>783e1f25-6ce1-406d-aabd-a51c7d88765b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='settings']/parent::*</value>
+      <webElementGuid>caaddd1f-15ab-4be8-a49e-e1b9bc2228b7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//mat-grid-tile[2]/div/div/button/span/mat-icon</value>
+      <webElementGuid>5d956f15-5fd1-48e4-b1b6-d843990fc5af</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//mat-icon[(text() = 'settings' or . = 'settings')]</value>
+      <webElementGuid>e558043a-3680-463c-b5ce-bb0a10468fe2</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

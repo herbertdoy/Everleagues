@@ -3,46 +3,34 @@
    <description></description>
    <name>snack-bar-container_Income and Expense tool disabled.OK</name>
    <tag></tag>
-   <elementGuidId>24e855ec-1c8a-4e07-8d94-81bdcf4e4fe5</elementGuidId>
+   <elementGuidId>1e46e2de-bfd3-4883-9484-01725a18204f</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>snack-bar-container.mat-snack-bar-container.ng-tns-c41-130.ng-trigger.ng-trigger-state.mat-snack-bar-center.ng-star-inserted</value>
+         <value>snack-bar-container.mat-snack-bar-container.ng-tns-c50-141.ng-trigger.ng-trigger-state.mat-snack-bar-center.ng-star-inserted</value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>//snack-bar-container[(text() = 'Income and Expense tool disabled.OK' or . = 'Income and Expense tool disabled.OK')]</value>
       </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//snack-bar-container[@role = 'status' and (text() = 'Income and Expense tool disabled.OK' or . = 'Income and Expense tool disabled.OK')]</value>
-      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>snack-bar-container</value>
-      <webElementGuid>66cbd699-4496-42dc-84a6-0878d8ffd5ef</webElementGuid>
+      <webElementGuid>023ad568-a3fe-4c44-860e-f30df1b953a5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>mat-snack-bar-container ng-tns-c41-130 ng-trigger ng-trigger-state mat-snack-bar-center ng-star-inserted</value>
-      <webElementGuid>cce2c22e-3e48-47f1-a961-8b973f99ba73</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>role</name>
-      <type>Main</type>
-      <value>status</value>
-      <webElementGuid>7bf082fc-7ca6-4ef9-a6fd-65e52588fa73</webElementGuid>
+      <value>mat-snack-bar-container ng-tns-c50-141 ng-trigger ng-trigger-state mat-snack-bar-center ng-star-inserted</value>
+      <webElementGuid>4023b73c-2113-4539-a5ff-3f1c947d177f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -50,39 +38,39 @@
       <name>text</name>
       <type>Main</type>
       <value>Income and Expense tool disabled.OK</value>
-      <webElementGuid>f75dbf9b-35f0-499c-8f28-59eb2600624f</webElementGuid>
+      <webElementGuid>53b9f064-a2b0-48b6-90d4-98738ac8f60d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;cdk-overlay-20&quot;)/snack-bar-container[@class=&quot;mat-snack-bar-container ng-tns-c41-130 ng-trigger ng-trigger-state mat-snack-bar-center ng-star-inserted&quot;]</value>
-      <webElementGuid>d316badc-a92b-437c-9023-867669f24b4e</webElementGuid>
+      <value>id(&quot;cdk-overlay-42&quot;)/snack-bar-container[@class=&quot;mat-snack-bar-container ng-tns-c50-141 ng-trigger ng-trigger-state mat-snack-bar-center ng-star-inserted&quot;]</value>
+      <webElementGuid>ab44689a-4a6c-4f26-b9cf-43bfe0f05e79</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='cdk-overlay-20']/snack-bar-container</value>
-      <webElementGuid>2b2e63a6-9d9c-484d-ba75-98f983655743</webElementGuid>
+      <value>//div[@id='cdk-overlay-42']/snack-bar-container</value>
+      <webElementGuid>6b6847e7-2ddc-45b3-a787-77a778931287</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Edit image'])[1]/following::snack-bar-container[1]</value>
-      <webElementGuid>ff4732d6-66e2-47d7-a0e6-7549506e2aee</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='`'])[2]/following::snack-bar-container[1]</value>
+      <webElementGuid>d8f60b7a-238c-4d45-a5c6-b27c98419e55</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Client Assignment'])[2]/following::snack-bar-container[1]</value>
-      <webElementGuid>2dbe5b6c-810b-4a67-997d-c823103321a1</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Alt'])[2]/following::snack-bar-container[1]</value>
+      <webElementGuid>fdaacf0b-5dfe-48ee-841f-ad4368ecb0ce</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -90,7 +78,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//snack-bar-container</value>
-      <webElementGuid>a2d57b6f-1901-4565-810c-2fa3e4b8a0ef</webElementGuid>
+      <webElementGuid>6104bba4-1047-4927-a494-07c3c3cdc970</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,6 +86,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//snack-bar-container[(text() = 'Income and Expense tool disabled.OK' or . = 'Income and Expense tool disabled.OK')]</value>
-      <webElementGuid>d6a22c47-7cee-4095-b58c-a66f0a07f8d5</webElementGuid>
+      <webElementGuid>fcb6222f-8a4a-4a2f-b06a-8167435ac931</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

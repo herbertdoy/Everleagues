@@ -123,4 +123,11 @@
       <testCaseId>Test Cases/06 - Teams/18 - Teams - General Channel(deleting a post)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
+   <testCaseLink>
+      <guid>eb0c0677-e120-4dbb-ab06-709bd266dbcd</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/06 - Teams/19 - Teams - Manage Teams (Edit and Delete Team)</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
 </TestSuiteEntity>

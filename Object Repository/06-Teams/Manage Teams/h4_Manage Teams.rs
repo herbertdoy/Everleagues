@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>h4_Manage Teams</name>
+   <tag></tag>
+   <elementGuidId>c3ed3e67-8b8e-43ba-8050-684ff2ebb506</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//h4[(text() = 'Manage Teams' or . = 'Manage Teams')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//h4[@id='mat-dialog-title-13']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#mat-dialog-title-13</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h4</value>
+      <webElementGuid>1a19f3bf-246a-4918-a02c-d55e5bf1d567</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-dialog-title ng-tns-c651-168</value>
+      <webElementGuid>cfe20e91-6f51-4401-9a6b-e0741b24d6f7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>mat-dialog-title-13</value>
+      <webElementGuid>349f61ff-42df-4e75-b62b-9a8aad855f1a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Manage Teams</value>
+      <webElementGuid>5d9fde0c-0192-418a-bca0-b48c60988c95</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mat-dialog-title-13&quot;)</value>
+      <webElementGuid>8ddec575-775b-4a83-ab2e-b84238129661</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//h4[@id='mat-dialog-title-13']</value>
+      <webElementGuid>8d56f776-19b3-4172-9b0e-14e269743b52</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='General'])[3]/following::h4[1]</value>
+      <webElementGuid>086e3782-4133-4dcb-99cd-3ee4f6f9b7c3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Showing teams from all organization units'])[1]/preceding::h4[1]</value>
+      <webElementGuid>5a53517a-465d-422c-82aa-8344f2ae6011</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Name'])[1]/preceding::h4[1]</value>
+      <webElementGuid>80f7339d-3461-4847-81ee-9178e6868ef8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Manage Teams']/parent::*</value>
+      <webElementGuid>7d45d624-3c40-413d-8bb3-d35b06a941b0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//h4</value>
+      <webElementGuid>1a0955bb-de6c-4fa7-9772-fb1f20eaa39e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h4[@id = 'mat-dialog-title-13' and (text() = 'Manage Teams' or . = 'Manage Teams')]</value>
+      <webElementGuid>b11677a8-255e-475f-9f27-022c0e786890</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -6,12 +6,12 @@
    <elementGuidId>e523cc8d-f8f3-4af2-8341-42a2770beb99</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='cdk-overlay-4']/snack-bar-container</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>//span[(text() = 'Successfully changed group name' or . = 'Successfully changed group name')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//snack-bar-container[(text() = 'Successfully changed group nameOK' or . = 'Successfully changed group nameOK')]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -26,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>277eaa22-04c4-42c3-9663-db916d25e6c5</webElementGuid>
+      <webElementGuid>d62cc70d-bb1b-42aa-82df-4568d706b077</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -34,7 +34,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Successfully changed group name</value>
-      <webElementGuid>40443fdf-613c-456a-960c-11f8fe9ba8fb</webElementGuid>
+      <webElementGuid>22f22552-0732-43c2-8979-7bce463b8826</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,7 +42,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;cdk-overlay-21&quot;)/snack-bar-container[@class=&quot;mat-snack-bar-container ng-tns-c39-231 ng-trigger ng-trigger-state mat-snack-bar-center ng-star-inserted&quot;]/simple-snack-bar[@class=&quot;mat-simple-snackbar ng-star-inserted&quot;]/span[1]</value>
-      <webElementGuid>785abb93-aa44-49b1-be23-c93cbbc5d9ac</webElementGuid>
+      <webElementGuid>cb208aff-b134-4928-bf62-a50a5f8de0d0</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -50,7 +50,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='cdk-overlay-21']/snack-bar-container/simple-snack-bar/span</value>
-      <webElementGuid>e60cb5bd-b97d-47ae-ae22-b788684c1993</webElementGuid>
+      <webElementGuid>a1af5d8f-f3c8-4615-9e2e-2d613d4f1aa3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -58,7 +58,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='New Chat'])[1]/following::span[1]</value>
-      <webElementGuid>dbb6abe9-cf53-4520-8a5b-5df3ea9c02a5</webElementGuid>
+      <webElementGuid>253aef6b-ae65-4ccd-be05-7b4f1788f734</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -66,7 +66,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Meet disabled for chatrooms larger than 30 participants'])[1]/following::span[1]</value>
-      <webElementGuid>1ac6200c-121a-423a-b9ed-2201ae23979b</webElementGuid>
+      <webElementGuid>7eb46f45-e45d-4541-a861-ed43e731c4c5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -74,7 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='OK'])[1]/preceding::span[1]</value>
-      <webElementGuid>0f0d97c7-10e0-4e6c-928e-37cd4c6ecd95</webElementGuid>
+      <webElementGuid>1aeceb26-75ee-44d0-99b4-d29c588c4a05</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::span[2]</value>
-      <webElementGuid>017ae678-1f9f-405f-bdfc-9b456b79dd91</webElementGuid>
+      <webElementGuid>ab6ee4a1-7dc5-45e4-acfa-8ef3b49d9b09</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -90,7 +90,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//simple-snack-bar/span</value>
-      <webElementGuid>4c2b58ba-81dc-49fb-a798-647e2f6983b7</webElementGuid>
+      <webElementGuid>f02869f1-ccd2-4164-b31c-4bdb9f017b16</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,6 +98,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'Successfully changed group name' or . = 'Successfully changed group name')]</value>
-      <webElementGuid>b027feb3-34d9-4056-bb48-80a5d7660e36</webElementGuid>
+      <webElementGuid>bff7a291-2f77-48a6-bfa9-1c3dc6c2998c</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

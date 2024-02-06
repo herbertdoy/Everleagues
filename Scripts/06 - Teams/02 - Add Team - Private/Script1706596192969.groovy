@@ -47,6 +47,8 @@ WebUI.click(findTestObject('06-Teams/01-Add Team-Public/input_teamName'))
 
 WebUI.click(findTestObject('06-Teams/01-Add Team-Public/Org unit'))
 
+WebUI.click(findTestObject('06-Teams/01-Add Team-Public/Org unit'))
+
 WebUI.verifyElementVisible(findTestObject('06-Teams/01-Add Team-Public/h4_Select an organization unit'))
 
 WebUI.delay(GlobalVariable.delay_2s)

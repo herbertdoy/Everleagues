@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>snack-bar-container_AI Assistant tool disabled.OK</name>
+   <name>snack-bar-container_Chat message editing disabled.OK</name>
    <tag></tag>
-   <elementGuidId>4584bca3-c329-4f10-b839-94ea34abf405</elementGuidId>
+   <elementGuidId>4ef0f7ad-d321-47dd-906c-dda17d3ad996</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>snack-bar-container.mat-snack-bar-container.ng-tns-c50-144.ng-trigger.ng-trigger-state.mat-snack-bar-center.ng-star-inserted</value>
+         <value>snack-bar-container.mat-snack-bar-container.ng-tns-c50-72.ng-trigger.ng-trigger-state.mat-snack-bar-center.ng-star-inserted</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//snack-bar-container[(text() = 'AI Assistant tool disabled.OK' or . = 'AI Assistant tool disabled.OK')]</value>
+         <value>//snack-bar-container[(text() = 'Chat message editing disabled.OK' or . = 'Chat message editing disabled.OK')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,39 +22,39 @@
       <name>tag</name>
       <type>Main</type>
       <value>snack-bar-container</value>
-      <webElementGuid>ce0166b0-9039-4625-a2c1-281468b33e45</webElementGuid>
+      <webElementGuid>6fad9f9e-3a9e-443e-b47b-33a99836945e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>mat-snack-bar-container ng-tns-c50-144 ng-trigger ng-trigger-state mat-snack-bar-center ng-star-inserted</value>
-      <webElementGuid>166d196a-2def-4ae1-88a1-b177b5848502</webElementGuid>
+      <value>mat-snack-bar-container ng-tns-c50-72 ng-trigger ng-trigger-state mat-snack-bar-center ng-star-inserted</value>
+      <webElementGuid>57f045b8-d040-4f8f-b115-ce76357dd543</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>AI Assistant tool disabled.OK</value>
-      <webElementGuid>9c8204ab-8677-4029-9bbc-c16d3c7485bb</webElementGuid>
+      <value>Chat message editing disabled.OK</value>
+      <webElementGuid>b6ce01fa-87f5-4644-91e1-793044b73ea6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;cdk-overlay-44&quot;)/snack-bar-container[@class=&quot;mat-snack-bar-container ng-tns-c50-144 ng-trigger ng-trigger-state mat-snack-bar-center ng-star-inserted&quot;]</value>
-      <webElementGuid>265d7781-4970-41e0-8348-c15512b54810</webElementGuid>
+      <value>id(&quot;cdk-overlay-7&quot;)/snack-bar-container[@class=&quot;mat-snack-bar-container ng-tns-c50-72 ng-trigger ng-trigger-state mat-snack-bar-center ng-star-inserted&quot;]</value>
+      <webElementGuid>f409b5fc-383a-46ac-9a7a-f98fe2d55cdf</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='cdk-overlay-44']/snack-bar-container</value>
-      <webElementGuid>72a161ef-d780-498e-a234-3f7a31b58b8a</webElementGuid>
+      <value>//div[@id='cdk-overlay-7']/snack-bar-container</value>
+      <webElementGuid>7a537892-889a-44af-8640-8554746852ad</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='`'])[2]/following::snack-bar-container[1]</value>
-      <webElementGuid>986988be-17b6-42b1-a16e-89deb13537e4</webElementGuid>
+      <webElementGuid>d8f96755-5b00-44b2-bf7f-d4d48a8b1a5c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Alt'])[2]/following::snack-bar-container[1]</value>
-      <webElementGuid>9d1eb2b0-034d-4bf1-9720-9626f5e09acb</webElementGuid>
+      <webElementGuid>563eabd6-4f0f-496b-8615-d32e1f05c963</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,14 +78,14 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//snack-bar-container</value>
-      <webElementGuid>a2e67eac-0a70-463e-89b2-eeedfe947bc3</webElementGuid>
+      <webElementGuid>cc39e1eb-da51-461c-b03a-1bf821d48c60</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//snack-bar-container[(text() = 'AI Assistant tool disabled.OK' or . = 'AI Assistant tool disabled.OK')]</value>
-      <webElementGuid>0d808173-69b1-442f-a328-48243e102cfb</webElementGuid>
+      <value>//snack-bar-container[(text() = 'Chat message editing disabled.OK' or . = 'Chat message editing disabled.OK')]</value>
+      <webElementGuid>db3ac5c5-0545-467a-b2a6-d406b817be1c</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
