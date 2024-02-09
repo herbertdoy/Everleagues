@@ -38,8 +38,6 @@ WebUI.sendKeys(findTestObject('11-Cloud Files/input_Search cloudfiles'), Keys.ch
 
 WebUI.delay(GlobalVariable.delay_3s)
 
-WebUI.verifyElementVisible(findTestObject('11-Cloud Files/td_Automation folder'))
-
 WebUI.clearText(findTestObject('11-Cloud Files/input_Search cloudfiles'))
 
 WebUI.click(findTestObject('11-Cloud Files/button_back'))

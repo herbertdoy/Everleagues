@@ -23,6 +23,10 @@ WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('07-Directory/Connections/button_add_address'))
 
+WebUI.delay(GlobalVariable.delay_2s)
+
+WebUI.click(findTestObject('07-Directory/Connections/button_add_address'))
+
 WebUI.verifyElementVisible(findTestObject('07-Directory/Connections/Edit address modal'))
 
 WebUI.delay(GlobalVariable.delay_2s)

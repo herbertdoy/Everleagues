@@ -6,11 +6,11 @@
    <elementGuidId>decb4a3f-8bf9-44a5-8232-505dfef051bb</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>(//span[text()='Automation folder'])[2]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>(//td[@role='cell'])[2]</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

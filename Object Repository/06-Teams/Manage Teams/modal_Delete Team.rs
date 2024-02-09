@@ -11,10 +11,14 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//mat-dialog-container[@id = 'mat-dialog-0' and (text() = 'Delete Team Are you sure you want to delete team Auto Team Public edit? Warning! All resources associated with this team will be permanently deleted.DeleteCancel' or . = 'Delete Team Are you sure you want to delete team Auto Team Public edit? Warning! All resources associated with this team will be permanently deleted.DeleteCancel')]</value>
+         <value>//mat-dialog-container[@role='dialog']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//mat-dialog-container[@role = 'dialog' and (text() = 'Delete Team Are you sure you want to delete team Auto Team Public edit? Warning! All resources associated with this team will be permanently deleted.DeleteCancel' or . = 'Delete Team Are you sure you want to delete team Auto Team Public edit? Warning! All resources associated with this team will be permanently deleted.DeleteCancel')]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>mat-dialog-container</value>
-      <webElementGuid>ce296cd9-fd8c-49af-b412-8e16a3984748</webElementGuid>
+      <webElementGuid>9a5705f9-c5c0-4fe3-90bc-38e722ff8a0d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +34,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>-1</value>
-      <webElementGuid>c1963160-93fc-4329-bfc7-2f0413818ef3</webElementGuid>
+      <webElementGuid>353cfb47-df87-440c-8e6d-b850c3808cf3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +42,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-dialog-container cdk-dialog-container ng-tns-c39-76 ng-trigger ng-trigger-dialogContainer ng-star-inserted</value>
-      <webElementGuid>bdcc4017-694c-425c-8001-65e39f5098f8</webElementGuid>
+      <webElementGuid>3fd24cb6-673b-4c3a-acb1-aeebb800f450</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +50,7 @@
       <name>id</name>
       <type>Main</type>
       <value>mat-dialog-0</value>
-      <webElementGuid>5364ceaf-9a6a-4399-aa11-d716709e6948</webElementGuid>
+      <webElementGuid>7995b562-fde9-41c8-8dce-83249adc0463</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +58,7 @@
       <name>role</name>
       <type>Main</type>
       <value>dialog</value>
-      <webElementGuid>ac7187dd-4e6c-4ee6-859e-188b88684fc1</webElementGuid>
+      <webElementGuid>411988bc-7076-4cc3-bb0b-7ccde1f6bf8f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +66,7 @@
       <name>aria-modal</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>7957005f-8800-4fc2-8459-1b820a73f987</webElementGuid>
+      <webElementGuid>43ea40d1-ca40-4814-b7ff-f533286ea6b7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +74,7 @@
       <name>aria-labelledby</name>
       <type>Main</type>
       <value>mat-dialog-title-2</value>
-      <webElementGuid>458f5832-3861-446f-a7a0-761ffa775343</webElementGuid>
+      <webElementGuid>46992751-7ab9-4ecb-a52e-32f0c98841e1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -78,7 +82,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Delete Team Are you sure you want to delete team Auto Team Public edit? Warning! All resources associated with this team will be permanently deleted.DeleteCancel</value>
-      <webElementGuid>f4d93e5e-c59f-4c0d-bc86-98abea7d94da</webElementGuid>
+      <webElementGuid>8af0d49a-a3ba-424d-a31b-267e6c2d2ed8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -86,7 +90,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-dialog-0&quot;)</value>
-      <webElementGuid>e708970b-b39d-4a6c-84d1-6e0841dbef22</webElementGuid>
+      <webElementGuid>ede4dbee-d11d-471b-a728-be8759a2161e</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -94,7 +98,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//mat-dialog-container[@id='mat-dialog-0']</value>
-      <webElementGuid>ca924673-950d-4cbd-a04a-c809eb51058e</webElementGuid>
+      <webElementGuid>52d20630-5f8c-4895-ba01-a51481c9aac0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +106,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='cdk-overlay-10']/mat-dialog-container</value>
-      <webElementGuid>d89c677b-a2ac-4350-92db-16c7a5551cdc</webElementGuid>
+      <webElementGuid>41bb6e26-8133-4543-bdbc-29085d552717</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +114,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Delete Team'])[1]/following::mat-dialog-container[1]</value>
-      <webElementGuid>11ee373d-4ad8-4e84-ba32-130f4c865c03</webElementGuid>
+      <webElementGuid>504bec2e-dae3-4cd8-a1b5-c6e6b1bac283</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +122,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Edit Team'])[1]/following::mat-dialog-container[1]</value>
-      <webElementGuid>4a8dcae1-d643-4407-94a0-4690d14f825a</webElementGuid>
+      <webElementGuid>07ed228f-91ab-413c-ad7a-0f269348b817</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,7 +130,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//mat-dialog-container</value>
-      <webElementGuid>74881dc0-6c64-46b6-b623-b6f9c4ad1352</webElementGuid>
+      <webElementGuid>19bf385a-f21b-4948-b1e1-edab0a976338</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,6 +138,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//mat-dialog-container[@id = 'mat-dialog-0' and (text() = 'Delete Team Are you sure you want to delete team Auto Team Public edit? Warning! All resources associated with this team will be permanently deleted.DeleteCancel' or . = 'Delete Team Are you sure you want to delete team Auto Team Public edit? Warning! All resources associated with this team will be permanently deleted.DeleteCancel')]</value>
-      <webElementGuid>7906d459-8e57-4c7d-80eb-1a5dc4dfa9ce</webElementGuid>
+      <webElementGuid>bacfbb1e-0658-4677-8587-3bcbd490faa4</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
