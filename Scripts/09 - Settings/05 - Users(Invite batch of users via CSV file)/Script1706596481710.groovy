@@ -76,7 +76,7 @@ WebUI.click(findTestObject('09-Settings/Users/CSV Invite/button_Close'))
 
 WebUI.click(findTestObject('09-Settings/Users/CSV Invite/Invited Users tab'))
 
-WebUI.delay(GlobalVariable.delay_3s)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.verifyElementVisible(findTestObject('09-Settings/Users/CSV Invite/div_CTCSV test3'))
 

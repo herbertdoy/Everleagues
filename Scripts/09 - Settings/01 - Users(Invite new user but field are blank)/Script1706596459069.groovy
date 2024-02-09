@@ -67,7 +67,7 @@ WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('09-Settings/Users/add Invite a single user'))
 
-WebUI.clickOffset(findTestObject('09-Settings/Users/h2_Invite New User'), 100, 100)
+WebUI.verifyElementVisible(findTestObject('09-Settings/Users/h2_Invite New User'))
 
 WebUI.verifyElementVisible(findTestObject('09-Settings/Users/modal_Invite new user'))
 

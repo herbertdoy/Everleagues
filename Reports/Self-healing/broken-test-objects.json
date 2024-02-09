@@ -116,6 +116,55 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/05-Chat/03-05 - React and Reply/mat-icon_mood_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/01-Login and Forgot Password/input_email",
+      "brokenLocator": "//input[@data-placeholder\u003d\u0027Email\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//input[@id\u003d\u0027mat-input-0\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/01-Login and Forgot Password/input_email_attributes.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/07-Directory/Connections/zContact Profile/button_invite",
+      "brokenLocator": "//button[@mattooltip\u003d\u0027Create Invitation\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(//button[@type\u003d\u0027button\u0027])[10]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/07-Directory/Connections/zContact Profile/button_invite_attributes.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/08-Operations/Client Assignment/Employees column after assign",
+      "brokenLocator": "//div[(text() \u003d \u0027 Employees \n            \n        GTGG tester 2\u0027 or . \u003d \u0027 Employees \n            \n        GTGG tester 2\u0027)]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//app-client-assign-by-client/div[4]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/08-Operations/Client Assignment/Employees column after assign_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/08-Operations/Client Assignment/Assigned Employees - GG TESTER",
+      "brokenLocator": "//div[(text() \u003d \u0027 Assigned Employees \n            \n        GG TESTER\u0027 or . \u003d \u0027 Assigned Employees \n            \n        GG TESTER\u0027)]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027GG Tester 3\u0027])[1]/following::div[5]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/08-Operations/Client Assignment/Assigned Employees - GG TESTER_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/06-Teams/button_doublearrow",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "(//button[@type\u003d\u0027button\u0027])[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/06-Teams/button_doublearrow_XPATH.png"
     }
   ]
 }

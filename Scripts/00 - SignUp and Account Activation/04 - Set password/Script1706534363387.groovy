@@ -42,11 +42,11 @@ WebUI.verifyElementVisible(findTestObject('00-Signup and Activation/span_CREATE 
 
 WebUI.verifyElementVisible(findTestObject('00-Signup and Activation/span_INVITE YOUR FRIENDS  FAMILY'))
 
-WebUI.delay(GlobalVariable.delay_3s)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('00-Signup and Activation/button_DO THIS LATER'))
 
-WebUI.delay(GlobalVariable.delay_2s)
+WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.closeBrowser()
 

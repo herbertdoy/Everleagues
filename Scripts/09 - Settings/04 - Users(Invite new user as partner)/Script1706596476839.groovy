@@ -135,7 +135,7 @@ WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.switchToWindowIndex(0)
 
-WebUI.delay(GlobalVariable.delay_3s)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.setText(findTestObject('Object Repository/06-Teams/For 2FA/input_Enter verification code'), codetwo)
 
@@ -155,7 +155,7 @@ WebUI.switchToWindowIndex(currentWindow + 1)
 
 WebUI.navigateToUrl(GlobalVariable.URL_yopmail)
 
-WebUI.delay(GlobalVariable.delay_3s)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.setText(findTestObject('Yopmail/input_Enter your inbox here'), GlobalVariable.Y_autotester10)
 

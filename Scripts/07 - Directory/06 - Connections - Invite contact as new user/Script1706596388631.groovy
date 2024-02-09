@@ -31,7 +31,7 @@ WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('07-Directory/Connections/zContact Profile/Role'))
 
-WebUI.clickOffset(findTestObject('07-Directory/Connections/zContact Profile/h4_Invite New User'), 100, 100)
+WebUI.doubleClick(findTestObject('07-Directory/Connections/input_firstName'), FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyElementVisible(findTestObject('07-Directory/Connections/zContact Profile/Select a role error'))
 

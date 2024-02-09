@@ -41,13 +41,13 @@ WebUI.executeJavaScript('window.open();', [])
 
 currentWindow = WebUI.getWindowIndex()
 
-WebUI.delay(GlobalVariable.delay_3s)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.switchToWindowIndex(currentWindow + 1)
 
 WebUI.navigateToUrl(GlobalVariable.URL_yopmail)
 
-WebUI.delay(GlobalVariable.delay_3s)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.setText(findTestObject('Yopmail/input_Enter your inbox here'), GlobalVariable.Y_email_autotester04)
 
@@ -87,13 +87,13 @@ WebUI.executeJavaScript('window.open();', [])
 
 currentWindow = WebUI.getWindowIndex()
 
-WebUI.delay(GlobalVariable.delay_3s)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.switchToWindowIndex(currentWindow + 1)
 
 WebUI.navigateToUrl(GlobalVariable.URL_yopmail)
 
-WebUI.delay(GlobalVariable.delay_3s)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.setText(findTestObject('Yopmail/input_Enter your inbox here'), GlobalVariable.Y_email_autotester04)
 
@@ -107,15 +107,15 @@ WebUI.delay(GlobalVariable.delay_2s)
 
 String codetwo = WebUI.getText(findTestObject('Yopmail/2FA code-Yopmail'))
 
-WebUI.delay(GlobalVariable.delay_3s)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.closeWindowTitle(GlobalVariable.Y_windowTitle)
 
-WebUI.delay(GlobalVariable.delay_3s)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.switchToWindowIndex(0)
 
-WebUI.delay(GlobalVariable.delay_3s)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.setText(findTestObject('Object Repository/06-Teams/For 2FA/input_Enter verification code'), codetwo)
 
@@ -123,25 +123,25 @@ WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('06-Teams/For 2FA/button_Verify_2FA'))
 
-WebUI.delay(GlobalVariable.delay_3s)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.executeJavaScript('window.open();', [])
 
 currentWindow = WebUI.getWindowIndex()
 
-WebUI.delay(GlobalVariable.delay_3s)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.switchToWindowIndex(currentWindow + 1)
 
 WebUI.navigateToUrl(GlobalVariable.URL_yopmail)
 
-WebUI.delay(GlobalVariable.delay_3s)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.setText(findTestObject('Yopmail/input_Enter your inbox here'), GlobalVariable.Y_email_autotester04)
 
 WebUI.click(findTestObject('Yopmail/button_Next'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(GlobalVariable.delay_3s)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.closeWindowTitle('Everleagues')
 
@@ -151,7 +151,7 @@ WebUI.click(findTestObject('Yopmail/div_Invitation from GG Automation'))
 
 WebUI.click(findTestObject('Yopmail/a_Click here to join GG Automation on EverLeagues'))
 
-WebUI.delay(GlobalVariable.delay_3s)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.closeWindowTitle(GlobalVariable.Y_windowTitle)
 
@@ -161,9 +161,11 @@ WebUI.verifyElementVisible(findTestObject('09-Settings/Users/Co worker/Invite mo
 
 WebUI.click(findTestObject('09-Settings/Users/Co worker/button_Accept'))
 
-WebUI.delay(GlobalVariable.delay_3s)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.verifyElementVisible(findTestObject('09-Settings/Users/Co worker/div_Joined as CoWorker'))
+
+WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.closeBrowser()
 

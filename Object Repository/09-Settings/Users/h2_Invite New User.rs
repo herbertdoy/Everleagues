@@ -6,16 +6,16 @@
    <elementGuidId>843f61ee-b823-4556-8370-16d673a6a4c6</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//h2[@class = 'mat-dialog-title' and (text() = 'Invite New User' or . = 'Invite New User')]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#mat-dialog-title-30</value>
       </entry>
       <entry>
          <key>BASIC</key>
          <value>//h4[@class = 'mat-dialog-title' and (text() = 'Invite New User' or . = 'Invite New User')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//h2[text()=' Invite New User ']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -26,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>h4</value>
-      <webElementGuid>d89ba25d-bbe2-4fbe-adaa-150ecb43ec6b</webElementGuid>
+      <webElementGuid>47b986b3-77e8-458f-ab1a-60247fb5c6a6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -34,7 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-dialog-title</value>
-      <webElementGuid>f249a3ab-7993-4a22-b281-cb238aad1b98</webElementGuid>
+      <webElementGuid>83e4fc8a-32fa-434f-af63-47f6dfdb21f7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,7 +42,7 @@
       <name>id</name>
       <type>Main</type>
       <value>mat-dialog-title-30</value>
-      <webElementGuid>a314663c-5d94-4fc2-a9c3-b8fa21a9b469</webElementGuid>
+      <webElementGuid>1558d183-61b1-4c87-b4ef-859cb62e9568</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -50,7 +50,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Invite New User</value>
-      <webElementGuid>82015d49-f392-477f-afd1-269afc2cdba3</webElementGuid>
+      <webElementGuid>cd3d8607-562e-49f1-813b-f0398905d5d7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -58,7 +58,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-dialog-title-30&quot;)</value>
-      <webElementGuid>8de36413-3235-4a31-8346-3efc7aeb83f3</webElementGuid>
+      <webElementGuid>5425ffd6-e24b-400e-b98a-d0afa1d1cafc</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -66,7 +66,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//h4[@id='mat-dialog-title-30']</value>
-      <webElementGuid>8d849b70-5a5f-497c-8c27-b7619950851d</webElementGuid>
+      <webElementGuid>aefac258-0bc4-4096-bdb8-45541aa6ed3c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -74,7 +74,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-dialog-container[@id='mat-dialog-30']/app-dialog-add-user/section/h4</value>
-      <webElementGuid>ecce1f96-4851-4f5f-8dcf-187dabe387c4</webElementGuid>
+      <webElementGuid>a26a5793-53af-47c6-8592-6140844f0462</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='of 3'])[1]/following::h4[1]</value>
-      <webElementGuid>2debaa85-f7af-4be4-951b-a4008f6357de</webElementGuid>
+      <webElementGuid>ae9cd33a-4719-4ff2-b89d-28ace4edcd59</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -90,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Row per page:'])[1]/following::h4[1]</value>
-      <webElementGuid>a8ff32c2-840d-46d9-9d7a-35ab82b39d19</webElementGuid>
+      <webElementGuid>5880da20-23b3-4dd9-ab67-f7b979f410f5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,7 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='User'])[1]/preceding::h4[1]</value>
-      <webElementGuid>80a2158c-b8a5-4d96-9ddd-b5e0485dada6</webElementGuid>
+      <webElementGuid>144024c4-4b07-410f-8cd4-ecba626dc599</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,7 +106,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Additional Settings'])[1]/preceding::h4[1]</value>
-      <webElementGuid>efc436c8-140c-4106-a42f-7457cf87149f</webElementGuid>
+      <webElementGuid>50118d18-1636-4af6-a95d-522882a2192e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -114,7 +114,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Invite New User']/parent::*</value>
-      <webElementGuid>79166d90-fb21-4903-bf96-5f5864cfc9af</webElementGuid>
+      <webElementGuid>857a884f-fae6-4ca0-9592-108b339b4e58</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -122,7 +122,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//section/h4</value>
-      <webElementGuid>fcca6f8a-226b-4ac8-bc9f-905a6a753332</webElementGuid>
+      <webElementGuid>b1e32ed0-e261-4a76-b81d-efd2719902f5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -130,6 +130,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//h4[@id = 'mat-dialog-title-30' and (text() = 'Invite New User' or . = 'Invite New User')]</value>
-      <webElementGuid>e2d77453-9989-4060-aa0b-62defd308b2c</webElementGuid>
+      <webElementGuid>ce6921c7-d8fd-48e1-bcc5-9ce838fc41d6</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
