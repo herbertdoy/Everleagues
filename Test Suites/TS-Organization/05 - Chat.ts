@@ -40,52 +40,66 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
+      <guid>0b218071-b502-4e41-9441-7674995e19a5</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/05 - Chat/05 - Star and Unstar a Message</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>df06d7cb-51ca-42d7-94ee-ba8531a03685</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/05 - Chat/06 - Forward Message</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
       <guid>d4972afc-d338-4a4c-a193-9132b238bdb1</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/05 - Chat/05 - Reply on a message</testCaseId>
+      <testCaseId>Test Cases/05 - Chat/07 - Reply on a message</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>287cb5f7-701c-4e56-bc34-ffded13fbacd</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/05 - Chat/06 - Sending attached file</testCaseId>
+      <testCaseId>Test Cases/05 - Chat/08 - Sending attached file</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>28ded651-13d2-4340-9deb-4ff82fcdb7f1</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/05 - Chat/07 - Sending a video conference invite</testCaseId>
+      <testCaseId>Test Cases/05 - Chat/09 - Sending a video conference invite</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>e0898dee-c253-438a-9570-5b0383f36720</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/05 - Chat/08 - Schedule a meeting</testCaseId>
+      <testCaseId>Test Cases/05 - Chat/10 - Schedule a meeting</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>1a711185-62b5-4e39-904e-fd9bd2ad85af</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/05 - Chat/09 - Hiding a chat</testCaseId>
+      <testCaseId>Test Cases/05 - Chat/11 - Hiding a chat</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>c615b31d-d65b-4861-bcb8-7e6474368664</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/05 - Chat/10 - Export Chat</testCaseId>
+      <testCaseId>Test Cases/05 - Chat/12- Export Chat</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>68bf47ce-e440-4909-9f75-884bc7c0b461</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/05 - Chat/11 - Group Info</testCaseId>
+      <testCaseId>Test Cases/05 - Chat/13 - Group Info</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

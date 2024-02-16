@@ -37,6 +37,8 @@ WebUI.click(findTestObject('13-EL Sign/span_Signer Status'))
 
 WebUI.click(findTestObject('13-EL Sign/span_View'))
 
+WebUI.click(findTestObject('13-EL Sign/span_Download'))
+
 WebUI.click(findTestObject('13-EL Sign/span_Certificate'))
 
 WebUI.click(findTestObject('13-EL Sign/span_Delete'))

@@ -22,7 +22,7 @@
       <guid>9018bd0f-a078-455e-bd54-f9ce1bd91026</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/00 - SignUp and Account Activation/02 - Signup(Wrong email)</testCaseId>
+      <testCaseId>Test Cases/00 - SignUp and Account Activation/02 - Signup(Wrong and existing email)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
