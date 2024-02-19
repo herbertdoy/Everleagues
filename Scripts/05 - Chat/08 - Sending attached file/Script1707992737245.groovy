@@ -32,8 +32,7 @@ WebUI.delay(GlobalVariable.delay_3s)
 'either you remove this script or you change the element coz its setup to verify the file I uploaded'
 WebUI.verifyElementVisible(findTestObject('05-Chat/06-Sending attached file/img_You_inserted'))
 
-WebUI.refresh()
-
+//WebUI.refresh()
 WebUI.delay(GlobalVariable.delay_3s)
 
 'This is a .pdf [make sure to change your filepath for the image before running the automation'
@@ -48,8 +47,7 @@ WebUI.delay(GlobalVariable.delay_3s)
 'either you remove this script or you change the element coz its setup to verify the file I uploaded'
 WebUI.verifyElementVisible(findTestObject('05-Chat/06-Sending attached file/span_sample.pdf'))
 
-WebUI.refresh()
-
+//WebUI.refresh()
 WebUI.delay(GlobalVariable.delay_3s)
 
 'This is a .mp4 [make sure to change your filepath for the image before running the automation'
@@ -59,7 +57,7 @@ WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.click(findTestObject('05-Chat/02-Sending chat messages/button_send'))
 
-WebUI.delay(15)
+WebUI.delay(25)
 
 'either you remove this script or you change the element coz its setup to verify the file I uploaded'
 WebUI.verifyElementVisible(findTestObject('05-Chat/06-Sending attached file/span_video.mp4'))

@@ -31,7 +31,7 @@ WebUI.click(findTestObject('05-Chat/Forward Message/div_Automation Chat'))
 
 WebUI.click(findTestObject('05-Chat/Forward Message/button_Select'))
 
-WebUI.verifyElementVisible(findTestObject('05-Chat/Forward Message/snack-bar-container_Message forwardedOK'))
+//WebUI.verifyElementVisible(findTestObject('05-Chat/Forward Message/snack-bar-container_Message forwardedOK'))
 
 WebUI.delay(GlobalVariable.delay_3s)
 

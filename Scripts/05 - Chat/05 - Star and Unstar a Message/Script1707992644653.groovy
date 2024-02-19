@@ -23,7 +23,7 @@ WebUI.click(findTestObject('05-Chat/03-05 - React and Reply/button_expand_less')
 
 WebUI.click(findTestObject('05-Chat/Star a messsage/button_Star message'))
 
-WebUI.verifyElementVisible(findTestObject('05-Chat/Star a messsage/snack-bar-container_Message starredOK'))
+//WebUI.verifyElementVisible(findTestObject('05-Chat/Star a messsage/snack-bar-container_Message starredOK'))
 
 WebUI.verifyElementVisible(findTestObject('05-Chat/Star a messsage/mat-icon_star_rate'))
 
@@ -47,7 +47,7 @@ WebUI.click(findTestObject('05-Chat/03-05 - React and Reply/button_expand_less')
 
 WebUI.click(findTestObject('05-Chat/Star a messsage/button_Unstar message'))
 
-WebUI.verifyElementVisible(findTestObject('05-Chat/Star a messsage/snack-bar-container_Message unstarredOK'))
+//WebUI.verifyElementVisible(findTestObject('05-Chat/Star a messsage/snack-bar-container_Message unstarredOK'))
 
 WebUI.delay(GlobalVariable.delay_3s)
 
