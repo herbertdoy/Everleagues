@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
-   <description></description>
+   <description>Make sure that the page is empty</description>
    <name>09.4 - Settings (Organization unit)</name>
    <tag></tag>
    <isRerun>false</isRerun>

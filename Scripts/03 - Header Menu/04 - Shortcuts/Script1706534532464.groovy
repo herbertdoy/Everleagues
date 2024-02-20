@@ -21,11 +21,7 @@ WebUI.click(findTestObject('03-Header Menu/Shortcuts/mat-icon_Shortcut'))
 
 WebUI.delay(GlobalVariable.delay_2s)
 
-WebUI.verifyElementVisible(findTestObject('03-Header Menu/Shortcuts/div_Shortcut modal heading text'), FailureHandling.CONTINUE_ON_FAILURE)
-
-WebUI.delay(GlobalVariable.delay_2s)
-
-WebUI.verifyElementVisible(findTestObject('03-Header Menu/Shortcuts/table_Shortcut modal table'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyElementVisible(findTestObject('03-Header Menu/Shortcuts/div_Shortcuts'), FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.delay(GlobalVariable.delay_2s)
 

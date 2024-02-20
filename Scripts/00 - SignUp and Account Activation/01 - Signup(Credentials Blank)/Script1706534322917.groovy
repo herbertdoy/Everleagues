@@ -27,7 +27,7 @@ WebUI.click(findTestObject('00-Signup and Activation/span_Sign up'))
 
 WebUI.delay(GlobalVariable.delay_2s)
 
-WebUI.verifyElementVisible(findTestObject('00-Signup and Activation/form_Already have an account Log In'))
+WebUI.verifyElementVisible(findTestObject('00-Signup and Activation/div_Already have an account Log In'))
 
 WebUI.delay(GlobalVariable.delay_2s)
 

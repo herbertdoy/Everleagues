@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
-   <description></description>
+   <description>Make sure to delete the previous “GG Automation” organization, if not yet deleted</description>
    <name>04 - Add my Organizations</name>
    <tag></tag>
    <isRerun>false</isRerun>

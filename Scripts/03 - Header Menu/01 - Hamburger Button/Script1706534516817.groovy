@@ -46,6 +46,8 @@ WebUI.verifyElementNotVisible(findTestObject('03-Header Menu/div_Open Video Conf
 
 WebUI.verifyElementNotVisible(findTestObject('03-Header Menu/div_Cloud Files'), FailureHandling.STOP_ON_FAILURE)
 
+WebUI.verifyElementNotVisible(findTestObject('12-AI Assistant(beta)/AI asst button-Side panel'))
+
 WebUI.verifyElementNotVisible(findTestObject('03-Header Menu/div_ELSign'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementNotVisible(findTestObject('03-Header Menu/div_Income and Expense'), FailureHandling.STOP_ON_FAILURE)
@@ -77,6 +79,8 @@ WebUI.verifyElementVisible(findTestObject('03-Header Menu/div_Open Video Confere
 WebUI.verifyElementVisible(findTestObject('03-Header Menu/div_Cloud Files'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.scrollToElement(findTestObject('03-Header Menu/div_ELSign'), 0)
+
+WebUI.verifyElementVisible(findTestObject('12-AI Assistant(beta)/AI asst button-Side panel'))
 
 WebUI.verifyElementVisible(findTestObject('03-Header Menu/div_ELSign'), FailureHandling.STOP_ON_FAILURE)
 

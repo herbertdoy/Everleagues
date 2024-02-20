@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
-   <description></description>
+   <description>Manually add a subscription on GG Automation organization before running this test suite.</description>
    <name>09.1 - Settings (Users - Invite users)</name>
    <tag></tag>
    <isRerun>false</isRerun>

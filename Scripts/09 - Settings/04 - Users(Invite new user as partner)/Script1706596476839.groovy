@@ -93,11 +93,11 @@ WebUI.navigateToUrl(GlobalVariable.URL_lab)
 
 WebUI.maximizeWindow()
 
-WebUI.setText(findTestObject('02-Side Icons(Organization)/input_Email Field'), GlobalVariable.Y_autotester10)
+WebUI.setText(findTestObject('02-Side Icons/input_Email Field'), GlobalVariable.Y_autotester10)
 
-WebUI.setEncryptedText(findTestObject('02-Side Icons(Organization)/input_Password Field'), GlobalVariable.password)
+WebUI.setEncryptedText(findTestObject('02-Side Icons/input_Password Field'), GlobalVariable.password)
 
-WebUI.click(findTestObject('02-Side Icons(Organization)/button_Sign in'))
+WebUI.click(findTestObject('02-Side Icons/button_Sign in'))
 
 WebUI.delay(GlobalVariable.delay_2s)
 

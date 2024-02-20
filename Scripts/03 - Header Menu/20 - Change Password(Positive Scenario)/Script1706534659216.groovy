@@ -46,11 +46,11 @@ WebUI.navigateToUrl(GlobalVariable.URL_lab)
 WebUI.maximizeWindow()
 
 //WebUI.callTestCase(findTestCase('01 - Login and Forgot Password/04 - Login(Valid Credentials-testuser00005)'), [:], FailureHandling.CONTINUE_ON_FAILURE)
-WebUI.setText(findTestObject('02-Side Icons(Organization)/input_Email Field'), GlobalVariable.Y_email_withSubscription_testuser00005)
+WebUI.setText(findTestObject('02-Side Icons/input_Email Field'), GlobalVariable.Y_email_withSubscription_testuser00005)
 
-WebUI.setEncryptedText(findTestObject('02-Side Icons(Organization)/input_Password Field'), GlobalVariable.new_password)
+WebUI.setEncryptedText(findTestObject('02-Side Icons/input_Password Field'), GlobalVariable.new_password)
 
-WebUI.click(findTestObject('02-Side Icons(Organization)/button_Sign in'))
+WebUI.click(findTestObject('02-Side Icons/button_Sign in'))
 
 WebUI.delay(GlobalVariable.delay_2s)
 

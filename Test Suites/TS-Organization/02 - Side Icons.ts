@@ -15,7 +15,7 @@
       <guid>6cf55e12-84e9-4af7-a49a-d5c87d805c8d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/02 - Side Icons/01 - Add Contact</testCaseId>
+      <testCaseId>Test Cases/02 - Side Icons/01 - Invite New User</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>

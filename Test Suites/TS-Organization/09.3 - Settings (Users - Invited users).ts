@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
-   <description></description>
+   <description>Make sure to run the TS-Directory first</description>
    <name>09.3 - Settings (Users - Invited users)</name>
    <tag></tag>
    <isRerun>false</isRerun>

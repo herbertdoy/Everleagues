@@ -77,7 +77,7 @@ WebUI.setText(findTestObject('09-Settings/Users/input_email'), GlobalVariable.Y_
 
 WebUI.setEncryptedText(findTestObject('09-Settings/Users/Co worker/input_password'), GlobalVariable.password)
 
-WebUI.click(findTestObject('02-Side Icons(Organization)/button_Sign in'))
+WebUI.click(findTestObject('02-Side Icons/button_Sign in'))
 
 WebUI.delay(GlobalVariable.delay_2s)
 

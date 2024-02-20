@@ -61,7 +61,7 @@ WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('09-Settings/Users/button_add'))
 
-WebUI.verifyElementVisible(findTestObject('02-Side Icons(Organization)/modal_User Invitation_withSub'))
+WebUI.verifyElementVisible(findTestObject('02-Side Icons/modal_User Invitation_withSub'))
 
 WebUI.delay(GlobalVariable.delay_2s)
 

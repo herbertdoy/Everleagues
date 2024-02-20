@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
-   <description>Needs to add manually autotester00@yopmail.com and autotester03@yopmail.com before running this Test suite</description>
+   <description>Manually add the account autotester00@yopmail.com and autotester03@yopmail.com</description>
    <name>06.2 - Teams - Settings</name>
    <tag></tag>
    <isRerun>false</isRerun>

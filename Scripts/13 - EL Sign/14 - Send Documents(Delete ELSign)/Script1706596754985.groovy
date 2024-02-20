@@ -21,11 +21,11 @@ WebUI.click(findTestObject('13-EL Sign/div_Send Documents'))
 
 WebUI.delay(GlobalVariable.delay_2s)
 
-WebUI.verifyElementVisible(findTestObject('13-EL Sign/button_deleteELSign'))
+WebUI.click(findTestObject('13-EL Sign/button_deleteELSign'))
 
 WebUI.delay(GlobalVariable.delay_2s)
 
-WebUI.click(findTestObject('13-EL Sign/button_deleteELSign'))
+WebUI.click(findTestObject('13-EL Sign/button_Yes'))
 
 WebUI.delay(GlobalVariable.delay_3s)
 

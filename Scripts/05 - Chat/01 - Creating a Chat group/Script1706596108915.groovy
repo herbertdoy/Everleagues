@@ -27,19 +27,19 @@ WebUI.callTestCase(findTestCase('01 - Login and Forgot Password/04 - Login(Valid
 
 WebUI.delay(GlobalVariable.delay_2s)
 
-WebUI.click(findTestObject('02-Side Icons(Organization)/mat-icon_Side Menu double arrow icon'))
+WebUI.click(findTestObject('02-Side Icons/mat-icon_Side Menu double arrow icon'))
 
 WebUI.delay(GlobalVariable.delay_2s)
 
-WebUI.click(findTestObject('02-Side Icons(Organization)/button_My Organizations'))
+WebUI.click(findTestObject('02-Side Icons/button_My Organizations'))
 
 WebUI.delay(GlobalVariable.delay_2s)
 
-WebUI.click(findTestObject('02-Side Icons(Organization)/button_Automation Test Org'))
+WebUI.click(findTestObject('02-Side Icons/button_Automation Test Org'))
 
 WebUI.delay(GlobalVariable.delay_2s)
 
-WebUI.verifyElementVisible(findTestObject('02-Side Icons(Organization)/span_Automation Test Org (1)'))
+WebUI.verifyElementVisible(findTestObject('02-Side Icons/span_Automation Test Org (1)'))
 
 WebUI.click(findTestObject('05-Chat/01- Creating a Chat group/div_Chat'))
 
