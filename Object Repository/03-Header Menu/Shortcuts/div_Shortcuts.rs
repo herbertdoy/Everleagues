@@ -6,12 +6,28 @@
    <elementGuidId>c76acf51-e892-4df4-9fd9-1f15dc43e6b8</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='cdk-overlay-32']</value>
+         <key>BASIC</key>
+         <value>//div[(text() = ' Shortcuts 
+            
+        Invite New User
+            
+        2FA
+            
+        Client Assignment' or . = ' Shortcuts 
+            
+        Invite New User
+            
+        2FA
+            
+        Client Assignment')]</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>#cdk-overlay-32</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='cdk-overlay-32']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -22,15 +38,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>b211c2a2-6399-44e7-93a6-9f42282ae496</webElementGuid>
+      <webElementGuid>faddbdd4-23a9-41c3-a343-916eeca638bd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
       <value>cdk-overlay-32</value>
-      <webElementGuid>7741e9c7-c532-4959-8006-7814ee334560</webElementGuid>
+      <webElementGuid>8be905e5-dd18-47c9-bb38-083e474da068</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +54,7 @@
       <name>class</name>
       <type>Main</type>
       <value>cdk-overlay-pane</value>
-      <webElementGuid>536fc336-7dbb-441f-9b80-0a3d0a1bc26e</webElementGuid>
+      <webElementGuid>a1630463-e694-4fa6-a331-0d74cc1bd645</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -52,7 +68,7 @@
         2FA
             
         Client Assignment</value>
-      <webElementGuid>a15758bf-f764-4c16-a491-a7526b977616</webElementGuid>
+      <webElementGuid>80fa550c-7725-409e-b00f-027f38754bcc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -60,7 +76,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;cdk-overlay-32&quot;)</value>
-      <webElementGuid>bac66fe4-f433-42ec-a692-58d1fbf55d1d</webElementGuid>
+      <webElementGuid>be17e1a2-6d9c-4f04-8b50-7b38bb77e658</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -68,7 +84,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//div[@id='cdk-overlay-32']</value>
-      <webElementGuid>4fd3544e-f1ea-4580-a81a-5a2443f73b06</webElementGuid>
+      <webElementGuid>70ad939e-3514-4043-8ee3-c870757e003d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -76,7 +92,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Edit Org Unit'])[1]/following::div[4]</value>
-      <webElementGuid>3e345832-cc82-4e7f-8dd2-f2b2bb96eeaa</webElementGuid>
+      <webElementGuid>a858bbd9-71f4-4173-bb0e-011049cce89a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -84,7 +100,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Suspend User'])[1]/following::div[5]</value>
-      <webElementGuid>ffd86f10-2100-44cb-89b6-be5c4db06fad</webElementGuid>
+      <webElementGuid>a96d0c21-a17b-40d0-b5a6-ca22ebd0a3a0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -92,7 +108,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div[2]/div</value>
-      <webElementGuid>b2ed8dae-4fcf-4805-9c1a-be02c2aeb076</webElementGuid>
+      <webElementGuid>f577e77d-2b5b-4d8b-81b4-199287dc839b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -112,6 +128,6 @@
         2FA
             
         Client Assignment')]</value>
-      <webElementGuid>10ec3721-86cc-4201-96ad-dd14b427dec3</webElementGuid>
+      <webElementGuid>c8b72323-0e93-4874-949e-593dda3b2815</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

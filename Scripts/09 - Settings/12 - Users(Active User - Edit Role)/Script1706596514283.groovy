@@ -39,7 +39,7 @@ WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('09-Settings/Users/Active User/button_Save'))
 
-WebUI.delay(GlobalVariable.delay_2s)
+WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.click(findTestObject('09-Settings/Users/Active User/button_ellipses'))
 

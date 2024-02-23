@@ -29,6 +29,12 @@ WebUI.delay(GlobalVariable.delay_2s)
 WebUI.click(findTestObject('03-Header Menu/User Profile/Users Profile menu and notification button/p_Automation Test Org'), 
     FailureHandling.CONTINUE_ON_FAILURE)
 
+WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/Users Profile menu and notification button/div_ACTIVITY'), 
+    FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/Users Profile menu and notification button/div_archive-list'), 
+    FailureHandling.CONTINUE_ON_FAILURE)
+
 WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/Users Profile menu and notification button/div_Recent'), 
     FailureHandling.CONTINUE_ON_FAILURE)
 
@@ -49,10 +55,39 @@ WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/Users Pro
 
 WebUI.delay(GlobalVariable.delay_2s)
 
-WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/Users Profile menu and notification button/checkbox_Unread Only'), 
+WebUI.click(findTestObject('03-Header Menu/User Profile/Users Profile menu and notification button/checkbox_Unread Only'), 
+    FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.click(findTestObject('03-Header Menu/User Profile/Users Profile menu and notification button/checkbox_Unread Only'), 
     FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.delay(GlobalVariable.delay_2s)
+
+WebUI.click(findTestObject('03-Header Menu/User Profile/Users Profile menu and notification button/div_Archive'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/Users Profile menu and notification button/div_recent-list'), 
+    FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.delay(GlobalVariable.delay_2s)
+
+WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/Users Profile menu and notification button/input_search2'), 
+    FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/Users Profile menu and notification button/div_All'), 
+    FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.delay(GlobalVariable.delay_2s)
+
+WebUI.click(findTestObject('03-Header Menu/User Profile/Users Profile menu and notification button/button_calendar'))
+
+WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/Users Profile menu and notification button/mat-calendar'), 
+    FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.delay(GlobalVariable.delay_2s)
+
+WebUI.doubleClick(findTestObject('03-Header Menu/User Profile/Users Profile menu and notification button/div_User drop down menu button'))
+
+WebUI.delay(GlobalVariable.delay_1s)
 
 WebUI.click(findTestObject('03-Header Menu/User Profile/Users Profile menu and notification button/div_User drop down menu button'))
 

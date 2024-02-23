@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//button[@type='button'])[15]</value>
+         <value>(//button[@action-menu-desc='Edit Team'])[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>4712cfcf-ae7d-4589-8149-db396b5f087a</webElementGuid>
+      <webElementGuid>06fa70b2-cd67-43f1-a85d-c6e437ced2c1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +29,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>22ab2b18-2dfd-4d4b-98f1-78acd3498097</webElementGuid>
+      <webElementGuid>2f4c938f-dd2a-470d-9aa0-1281d0beac7f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-focus-indicator mat-tooltip-trigger mat-icon-button mat-button-base ng-tns-c652-169 ng-star-inserted</value>
-      <webElementGuid>983c28ec-14a1-4e54-9635-ee9259162c6f</webElementGuid>
+      <webElementGuid>089a7a5f-f364-437f-9202-2551be6ba5e7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +45,7 @@
       <name>ng-reflect-message</name>
       <type>Main</type>
       <value>Edit Team</value>
-      <webElementGuid>ad1d98c3-d304-4c1f-aad4-bf9bd5ca11c1</webElementGuid>
+      <webElementGuid>6368fa37-af7b-441f-acb5-92c384250d49</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +53,7 @@
       <name>action-menu-desc</name>
       <type>Main</type>
       <value>Edit Team</value>
-      <webElementGuid>c62e897d-c2ed-4b6d-8d59-258abb3f5db7</webElementGuid>
+      <webElementGuid>37efc394-72cf-4309-b232-8b96b3d0807c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +61,7 @@
       <name>aria-describedby</name>
       <type>Main</type>
       <value>cdk-describedby-message-axu-1-46</value>
-      <webElementGuid>433c7268-f0d1-4fd5-8fb0-173639ddbe12</webElementGuid>
+      <webElementGuid>0b2a2e52-6646-44d8-87a4-7eff21e6afd1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +69,7 @@
       <name>cdk-describedby-host</name>
       <type>Main</type>
       <value>axu-1</value>
-      <webElementGuid>b0d10fcf-2c20-483b-9f7e-df215f4e9492</webElementGuid>
+      <webElementGuid>d55244cb-48eb-48a6-938c-ae5cb5398883</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -78,7 +77,7 @@
       <name>text</name>
       <type>Main</type>
       <value>create</value>
-      <webElementGuid>38630530-23e8-4cad-9a3b-e820f8c4a5f6</webElementGuid>
+      <webElementGuid>620dce26-5573-478c-8cec-480689b9c868</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -86,7 +85,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[@class=&quot;light theme-default os-window fuse-splash-screen-hidden&quot;]/app-root[1]/app-main-page[@class=&quot;ng-tns-c505-0 ng-trigger ng-trigger-routerAnimation ng-star-inserted&quot;]/div[@class=&quot;absolute inset-0 flex flex-col min-w-0 overflow-hidden ng-tns-c505-0&quot;]/mat-sidenav-container[@class=&quot;mat-drawer-container mat-sidenav-container flex-auto h-full ng-tns-c505-0&quot;]/mat-sidenav-content[@class=&quot;mat-drawer-content mat-sidenav-content flex flex-col overflow-hidden&quot;]/div[@class=&quot;flex flex-col flex-auto w-full min-w-0&quot;]/div[@class=&quot;flex flex-col flex-auto ng-tns-c505-0&quot;]/app-teams[@class=&quot;ng-tns-c637-164 ng-star-inserted&quot;]/div[@class=&quot;teams-section flex flex-col w-full min-w-0 sm:absolute sm:inset-0 sm:overflow-hidden ng-tns-c637-164&quot;]/mat-drawer-container[@class=&quot;mat-drawer-container flex-auto sm:h-full ng-tns-c637-164 mat-drawer-transition&quot;]/mat-drawer-content[@class=&quot;mat-drawer-content flex flex-col&quot;]/div[@class=&quot;flex-auto px-2 py-2&quot;]/div[@class=&quot;ng-tns-c637-164&quot;]/app-org-team[@class=&quot;ng-tns-c651-168 ng-tns-c637-164 ng-trigger ng-trigger-routerAnimation ng-star-inserted&quot;]/section[@class=&quot;px-8 ng-tns-c651-168&quot;]/article[@class=&quot;ng-tns-c651-168&quot;]/div[@class=&quot;ng-tns-c651-168 ng-star-inserted&quot;]/div[@class=&quot;white-container ng-tns-c651-168&quot;]/div[@class=&quot;team-container-body ng-tns-c651-168&quot;]/mat-drawer-container[@class=&quot;mat-drawer-container ng-tns-c651-168&quot;]/mat-drawer-content[@class=&quot;mat-drawer-content&quot;]/app-team-table[@class=&quot;ng-tns-c652-169 ng-trigger ng-trigger-routerAnimation ng-star-inserted&quot;]/div[@class=&quot;container-body ng-tns-c652-169&quot;]/perfect-scrollbar[@class=&quot;pb-4 ng-tns-c652-169&quot;]/div[@class=&quot;ps&quot;]/div[@class=&quot;ps-content&quot;]/td-data-table[@class=&quot;ng-untouched ng-valid ng-dirty&quot;]/div[@class=&quot;td-data-table-scrollable&quot;]/table[@class=&quot;td-data-table&quot;]/tbody[@class=&quot;td-data-table-body&quot;]/tr[@class=&quot;td-data-table-row ng-star-inserted&quot;]/td[@class=&quot;td-data-table-cell ng-star-inserted&quot;]/div[@class=&quot;td-data-table-cell-content-wrapper&quot;]/div[@class=&quot;row-controls-wrapper ng-tns-c652-169 ng-star-inserted&quot;]/div[@class=&quot;row-controls ng-tns-c652-169&quot;]/table-button-list[@class=&quot;ng-tns-c652-169&quot;]/div[@class=&quot;button-list-container&quot;]/div[@class=&quot;mat-menu-wrapper el-action-menu&quot;]/button[@class=&quot;mat-focus-indicator mat-tooltip-trigger mat-icon-button mat-button-base ng-tns-c652-169 ng-star-inserted&quot;]</value>
-      <webElementGuid>398a62b4-92a7-402a-84e3-1f616231ab48</webElementGuid>
+      <webElementGuid>dd28f65c-36e5-4172-b8a3-9fa396e18f4f</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -94,7 +93,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[15]</value>
-      <webElementGuid>26810d62-f2de-4acb-b405-b34418d9d1ad</webElementGuid>
+      <webElementGuid>83b07f59-be9d-4a44-8e95-938d3c39eda3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='..'])[2]/following::button[1]</value>
-      <webElementGuid>db68bee4-bdee-4e9a-a01a-806e84186a82</webElementGuid>
+      <webElementGuid>07ad0aef-2f61-4d0e-9e8c-0949b5c94aee</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Active'])[2]/following::button[1]</value>
-      <webElementGuid>98fc07bf-c69f-4ae6-8fbc-be4aacbf2226</webElementGuid>
+      <webElementGuid>279fa758-2184-4168-bf8f-73b996c854ee</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +117,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Auto Team Private'])[2]/preceding::button[2]</value>
-      <webElementGuid>c7727ce4-8846-4577-b1da-aabe72fca94b</webElementGuid>
+      <webElementGuid>a1dead74-debb-4d1e-b290-c05c07d2b3f1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,7 +125,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Private'])[1]/preceding::button[2]</value>
-      <webElementGuid>7429d1da-5bd8-496f-a755-a786c55e726c</webElementGuid>
+      <webElementGuid>5a0d81f5-5a6e-40f3-9d73-21d783617a8d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,7 +133,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tr[2]/td[7]/div/div/div/table-button-list/div/div/button</value>
-      <webElementGuid>68390080-e8f7-413d-bbac-20ef9fd92e94</webElementGuid>
+      <webElementGuid>488e00fa-e85f-461a-8d15-30a5f19fbb4d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -142,6 +141,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = 'create' or . = 'create')]</value>
-      <webElementGuid>cee191d9-2759-4736-b0ae-8552bb082821</webElementGuid>
+      <webElementGuid>f8e97e50-d024-4126-a0c8-afd3596987be</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

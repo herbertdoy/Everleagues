@@ -6,26 +6,27 @@
    <elementGuidId>b9828046-252a-47b3-92dd-4d7f4119897a</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@type = 'button' and @ng-reflect-message = 'Hide Quick Shortcuts']</value>
+         <key>CSS</key>
+         <value>button.mat-focus-indicator.mat-icon-button.mat-button-base.cdk-focused.cdk-mouse-focused</value>
       </entry>
       <entry>
-         <key>CSS</key>
+         <key>BASIC</key>
+         <value>//button[@type = 'button' and @aria-label = 'Open calendar']</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//button[contains(@class,'mat-focus-indicator mat-tooltip-trigger')]/following-sibling::button)[3]</value>
+         <value>(//button[@type='button'])[7]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>f709c7fd-3d3f-498a-9cf6-134fd3b17a5a</webElementGuid>
+      <webElementGuid>d223ec73-347f-408b-aea8-dffd58b7559e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -33,15 +34,15 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>376b764a-3d50-4ff2-a083-bb9b99f23c08</webElementGuid>
+      <webElementGuid>a0b07a64-32f1-4fc1-8a3e-1448916ef992</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>mat-focus-indicator quickshortcut-btn ng-tns-c463-3 mat-icon-button mat-button-base</value>
-      <webElementGuid>5f1d94a9-c835-4604-81de-93246f84b471</webElementGuid>
+      <value>mat-focus-indicator mat-icon-button mat-button-base cdk-focused cdk-mouse-focused</value>
+      <webElementGuid>aeea366b-d50e-4815-acdd-e55164615588</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -64,11 +65,107 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[1]/app-root[1]/app-main-page[@class=&quot;ng-tns-c463-3 ng-trigger ng-trigger-routerAnimation ng-star-inserted&quot;]/mat-sidenav-container[@class=&quot;mat-drawer-container mat-sidenav-container ng-tns-c463-3&quot;]/mat-sidenav-content[@class=&quot;mat-drawer-content mat-sidenav-content&quot;]/div[@class=&quot;quickshortcut quickshortcut-expand&quot;]/div[@class=&quot;quickshortcut-icons ng-tns-c463-3 ng-star-inserted&quot;]/button[@class=&quot;mat-focus-indicator quickshortcut-btn ng-tns-c463-3 mat-icon-button mat-button-base&quot;]</value>
-      <webElementGuid>d997d3a4-80ac-421a-b349-38777c78ac31</webElementGuid>
+      <value>id(&quot;mat-tab-content-0-1&quot;)/div[@class=&quot;mat-tab-body-content ng-tns-c371-52 ng-trigger ng-trigger-translateTab&quot;]/activity-list[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;search-container&quot;]/div[@class=&quot;search-dropdown&quot;]/div[@class=&quot;ng-star-inserted&quot;]/mat-form-field[@class=&quot;mat-form-field activity-date ng-tns-c221-53 mat-primary mat-form-field-type-mat-date-range-input mat-form-field-appearance-outline mat-form-field-can-float mat-form-field-should-float ng-untouched ng-pristine ng-valid ng-star-inserted&quot;]/div[@class=&quot;mat-form-field-wrapper ng-tns-c221-53&quot;]/div[@class=&quot;mat-form-field-flex ng-tns-c221-53&quot;]/div[@class=&quot;mat-form-field-suffix ng-tns-c221-53 ng-star-inserted&quot;]/mat-datepicker-toggle[@class=&quot;mat-datepicker-toggle ng-tns-c221-53&quot;]/button[@class=&quot;mat-focus-indicator mat-icon-button mat-button-base cdk-focused cdk-mouse-focused&quot;]</value>
+      <webElementGuid>cc6b4ebd-6188-48e7-bb54-8b1b7931f5fb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-reflect-disabled</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>64c96766-a6c6-422a-b9ad-c37fd7697af8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-haspopup</name>
+      <type>Main</type>
+      <value>dialog</value>
+      <webElementGuid>5ea7c28a-cf07-48c1-8d80-892c2df72973</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-label</name>
+      <type>Main</type>
+      <value>Open calendar</value>
+      <webElementGuid>af38dd19-5a51-49d6-be5a-98f4bb937785</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>0</value>
+      <webElementGuid>dc151ca8-84c7-4f0e-a662-368533ac3547</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[7]</value>
+      <webElementGuid>99b8b068-9e3e-4087-a893-32f4b5a0eace</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//mat-tab-body[@id='mat-tab-content-0-1']/div/activity-list/div/div[2]/div[2]/div/mat-form-field/div/div/div[4]/mat-datepicker-toggle/button</value>
+      <webElementGuid>89842714-ba8a-42d4-a0df-c7b2e0a41246</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='–'])[1]/following::button[1]</value>
+      <webElementGuid>373eb3f6-4927-4bb9-9436-91ce977ae4d1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='All'])[1]/following::button[1]</value>
+      <webElementGuid>dcf5dfff-76af-464a-94b1-db362b0bcf2c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::button[5]</value>
+      <webElementGuid>d5beeba2-9505-456a-8018-83f86db2a6d8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Alt'])[1]/preceding::button[5]</value>
+      <webElementGuid>d60780de-1094-4569-986e-23b37ef8c019</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//mat-datepicker-toggle/button</value>
+      <webElementGuid>7b2273de-8b09-42ed-8ea0-61202df64bc0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button']</value>
+      <webElementGuid>420710b7-5800-4724-8461-5a16b7d40af3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>

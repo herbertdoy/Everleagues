@@ -29,7 +29,7 @@ WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('02-Side Icons/button_Show quick shortcuts'))
 
-WebUI.verifyElementNotPresent(findTestObject('02-Side Icons/button_2FA'), 0)
+WebUI.verifyElementVisible(findTestObject('02-Side Icons/button_2FA'), FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyElementVisible(findTestObject('02-Side Icons/button_add new user'))
 

@@ -155,7 +155,7 @@ WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/snack-bar-co
 
 WebUI.delay(GlobalVariable.delay_2s)
 
-WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/div_Retention'))
+WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/div_Data Retention'))
 
 WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/table_Rentention content'))
 
