@@ -28,6 +28,8 @@ WebUI.click(findTestObject('03-Header Menu/button_menu'))
 
 WebUI.delay(GlobalVariable.delay_2s)
 
+WebUI.verifyElementNotVisible(findTestObject('02-Side Icons/div_trending_upUpgrade Plan'), FailureHandling.STOP_ON_FAILURE)
+
 WebUI.verifyElementNotVisible(findTestObject('03-Header Menu/div_Add My Organization'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementNotVisible(findTestObject('03-Header Menu/div_Dashboard'), FailureHandling.STOP_ON_FAILURE)

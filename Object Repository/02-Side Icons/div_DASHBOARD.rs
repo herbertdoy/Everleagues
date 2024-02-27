@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_DASHBOARD</name>
+   <tag></tag>
+   <elementGuidId>4b91b499-b6c4-4000-b509-a3bd27ad5fb5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[text()='DASHBOARD']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.text-2xl.font-semibold.tracking-tight.leading-8.ng-tns-c505-6</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>2629e384-dc19-494f-b656-774fc62948e5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>text-2xl font-semibold tracking-tight leading-8 ng-tns-c505-6</value>
+      <webElementGuid>72aa012a-9450-4b2d-b871-75fc97114dc6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>DASHBOARD</value>
+      <webElementGuid>5e29052b-971e-44c1-9224-75d7d35a0b28</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;light theme-default os-window fuse-splash-screen-hidden&quot;]/app-root[1]/app-main-page[@class=&quot;ng-tns-c505-6 ng-trigger ng-trigger-routerAnimation ng-star-inserted&quot;]/div[@class=&quot;absolute inset-0 flex flex-col min-w-0 overflow-hidden ng-tns-c505-6&quot;]/mat-sidenav-container[@class=&quot;mat-drawer-container mat-sidenav-container flex-auto h-full ng-tns-c505-6 mat-drawer-transition mat-drawer-container-has-open&quot;]/mat-sidenav-content[@class=&quot;mat-drawer-content mat-sidenav-content flex flex-col overflow-hidden&quot;]/div[@class=&quot;flex flex-col flex-auto w-full min-w-0&quot;]/div[@class=&quot;relative flex flex-0 items-center w-full h-16 px-4 md:px-6 z-49 shadow dark:shadow-none dark:border-b ng-tns-c505-6&quot;]/div[@class=&quot;ng-tns-c505-6 ng-star-inserted&quot;]/div[@class=&quot;text-2xl font-semibold tracking-tight leading-8 ng-tns-c505-6&quot;]</value>
+      <webElementGuid>a6148f51-cfeb-47fb-8c7e-b902b658b915</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//mat-sidenav-content/div/div/div/div</value>
+      <webElementGuid>f72156a0-7b7e-4c27-8eb5-5772523584a6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'DASHBOARD' or . = 'DASHBOARD')]</value>
+      <webElementGuid>3a71633e-763e-442d-b683-73362ed4bfcc</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

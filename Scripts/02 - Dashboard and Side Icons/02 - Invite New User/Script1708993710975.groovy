@@ -17,30 +17,6 @@ import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl(GlobalVariable.URL_login)
-
-WebUI.maximizeWindow()
-
-WebUI.callTestCase(findTestCase('01 - Login and Forgot Password/04 - Login(Valid Credentials-testuser01)'), [:], FailureHandling.CONTINUE_ON_FAILURE)
-
-WebUI.click(findTestObject('06-Teams/button_doublearrow'))
-
-WebUI.delay(GlobalVariable.delay_2s)
-
-WebUI.click(findTestObject('02-Side Icons/button_My Organizations'))
-
-WebUI.delay(GlobalVariable.delay_2s)
-
-WebUI.click(findTestObject('02-Side Icons/button_Automation Test Org'))
-
-WebUI.delay(GlobalVariable.delay_2s)
-
-WebUI.verifyElementVisible(findTestObject('02-Side Icons/span_Automation Test Org (1)'))
-
-WebUI.delay(GlobalVariable.delay_2s)
-
 WebUI.click(findTestObject('02-Side Icons/button_add new user'))
 
 //WebUI.delay(GlobalVariable.delay_3s)

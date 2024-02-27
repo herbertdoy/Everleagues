@@ -73,17 +73,7 @@ WebUI.verifyElementVisible(findTestObject('07-Directory/Connections/zContact Pro
 
 WebUI.delay(GlobalVariable.delay_2s)
 
-WebUI.click(findTestObject('01-Login and Forgot Password/user-avatar_User menu drop'))
-
-WebUI.delay(GlobalVariable.delay_2s)
-
-WebUI.click(findTestObject('01-Login and Forgot Password/span_Sign Out'), FailureHandling.STOP_ON_FAILURE)
-
-WebUI.delay(GlobalVariable.delay_2s)
-
-WebUI.verifyElementPresent(findTestObject('01-Login and Forgot Password/mat-card_Login_Card'), 0)
-
-WebUI.delay(GlobalVariable.delay_2s)
+WebUI.callTestCase(findTestCase('01 - Login and Forgot Password/05 - Logout'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.closeBrowser()
 

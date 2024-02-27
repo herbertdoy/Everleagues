@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_trending_upUpgrade Plan</name>
+   <tag></tag>
+   <elementGuidId>98b9cae5-9289-43ae-b656-6ae4aea7164c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[(text() = 'trending_upUpgrade Plan' or . = 'trending_upUpgrade Plan')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.ou-new-container > div.ng-star-inserted</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>ae350542-5904-456f-b865-5551814e7943</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>fxlayout</name>
+      <type>Main</type>
+      <value>row</value>
+      <webElementGuid>8003c90b-4322-4745-8ca8-9d818dd7f3b2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>fxlayoutalign</name>
+      <type>Main</type>
+      <value>start center</value>
+      <webElementGuid>d0767a5f-2472-41a8-ac50-2b6f753cfb46</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-reflect-fx-layout</name>
+      <type>Main</type>
+      <value>row</value>
+      <webElementGuid>622f4921-d7c3-484c-8ad4-b2a23d43852d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-reflect-fx-layout-align</name>
+      <type>Main</type>
+      <value>start center</value>
+      <webElementGuid>4822bc47-cbb2-4691-8bf8-6aece2d1c1d6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ng-star-inserted</value>
+      <webElementGuid>f69b9229-ebfc-4b72-84a2-023d4178a02e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>trending_upUpgrade Plan</value>
+      <webElementGuid>73529663-03e0-47fc-99bd-59d47bff9fae</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;light theme-default os-window fuse-splash-screen-hidden&quot;]/app-root[1]/app-main-page[@class=&quot;ng-tns-c505-6 ng-trigger ng-trigger-routerAnimation ng-star-inserted&quot;]/div[@class=&quot;absolute inset-0 flex flex-col min-w-0 overflow-hidden ng-tns-c505-6&quot;]/mat-sidenav-container[@class=&quot;mat-drawer-container mat-sidenav-container flex-auto h-full ng-tns-c505-6 mat-drawer-transition mat-drawer-container-has-open&quot;]/mat-sidenav[@class=&quot;mat-drawer mat-sidenav light bgc-white ng-tns-c162-7 ng-trigger ng-trigger-transform ng-star-inserted mat-drawer-side mat-drawer-opened&quot;]/div[@class=&quot;mat-drawer-inner-container ng-tns-c162-7&quot;]/div[@class=&quot;sidenav-container ng-tns-c162-7&quot;]/header[@class=&quot;ng-tns-c505-6&quot;]/ui-current-ou[@class=&quot;ng-tns-c505-6&quot;]/div[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;ou-new-container&quot;]/div[@class=&quot;ng-star-inserted&quot;]</value>
+      <webElementGuid>13998f97-6575-4418-b65d-73aa7a6ab980</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div[3]/div[2]</value>
+      <webElementGuid>fcbbcbc1-bd5a-428f-92be-1b4f7a38c612</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'trending_upUpgrade Plan' or . = 'trending_upUpgrade Plan')]</value>
+      <webElementGuid>d1a2f663-92b2-4424-a7c6-1f8ec74256f6</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

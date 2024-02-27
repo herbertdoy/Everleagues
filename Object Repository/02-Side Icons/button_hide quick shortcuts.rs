@@ -6,19 +6,19 @@
    <elementGuidId>b9828046-252a-47b3-92dd-4d7f4119897a</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//button[@type = 'button' and @ng-reflect-message = 'Hide Quick Shortcuts' and @aria-label = 'Open calendar']</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>button.mat-focus-indicator.mat-icon-button.mat-button-base.cdk-focused.cdk-mouse-focused</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//button[@type = 'button' and @aria-label = 'Open calendar']</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
-         <value>(//button[@type='button'])[7]</value>
+         <value>//button[@type = 'button' and @ng-reflect-message = 'Hide Quick Shortcuts']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -26,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>d223ec73-347f-408b-aea8-dffd58b7559e</webElementGuid>
+      <webElementGuid>5e44353a-0b1c-452f-945e-c5737c8daffd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -34,7 +34,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>a0b07a64-32f1-4fc1-8a3e-1448916ef992</webElementGuid>
+      <webElementGuid>d041b2e7-1b6d-4ffc-8310-de67d56432b0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,7 +42,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-focus-indicator mat-icon-button mat-button-base cdk-focused cdk-mouse-focused</value>
-      <webElementGuid>aeea366b-d50e-4815-acdd-e55164615588</webElementGuid>
+      <webElementGuid>8127e3af-57c4-4acb-95f4-072d898dae1c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -50,7 +50,7 @@
       <name>ng-reflect-message</name>
       <type>Main</type>
       <value>Hide Quick Shortcuts</value>
-      <webElementGuid>3b065773-21ee-4544-a9b7-de83697698b4</webElementGuid>
+      <webElementGuid>373ec036-3bd3-4e59-b111-c9f71fc90604</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -58,7 +58,7 @@
       <name>aria-describedby</name>
       <type>Main</type>
       <value>cdk-describedby-message-1</value>
-      <webElementGuid>e6ab863a-7ac3-4f37-9057-2d1e82f56146</webElementGuid>
+      <webElementGuid>f48db9bd-c0fb-44e9-a54b-736ba5513eee</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -66,7 +66,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-tab-content-0-1&quot;)/div[@class=&quot;mat-tab-body-content ng-tns-c371-52 ng-trigger ng-trigger-translateTab&quot;]/activity-list[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;search-container&quot;]/div[@class=&quot;search-dropdown&quot;]/div[@class=&quot;ng-star-inserted&quot;]/mat-form-field[@class=&quot;mat-form-field activity-date ng-tns-c221-53 mat-primary mat-form-field-type-mat-date-range-input mat-form-field-appearance-outline mat-form-field-can-float mat-form-field-should-float ng-untouched ng-pristine ng-valid ng-star-inserted&quot;]/div[@class=&quot;mat-form-field-wrapper ng-tns-c221-53&quot;]/div[@class=&quot;mat-form-field-flex ng-tns-c221-53&quot;]/div[@class=&quot;mat-form-field-suffix ng-tns-c221-53 ng-star-inserted&quot;]/mat-datepicker-toggle[@class=&quot;mat-datepicker-toggle ng-tns-c221-53&quot;]/button[@class=&quot;mat-focus-indicator mat-icon-button mat-button-base cdk-focused cdk-mouse-focused&quot;]</value>
-      <webElementGuid>cc6b4ebd-6188-48e7-bb54-8b1b7931f5fb</webElementGuid>
+      <webElementGuid>d1376ebd-912b-487e-9256-3c85eec0196a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -74,7 +74,7 @@
       <name>ng-reflect-disabled</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>64c96766-a6c6-422a-b9ad-c37fd7697af8</webElementGuid>
+      <webElementGuid>c4572345-b7f0-4e8b-927b-ba22bf89d989</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -82,7 +82,7 @@
       <name>aria-haspopup</name>
       <type>Main</type>
       <value>dialog</value>
-      <webElementGuid>5ea7c28a-cf07-48c1-8d80-892c2df72973</webElementGuid>
+      <webElementGuid>9ca8b84a-ab86-4be6-bded-5246ec2da307</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -90,7 +90,7 @@
       <name>aria-label</name>
       <type>Main</type>
       <value>Open calendar</value>
-      <webElementGuid>af38dd19-5a51-49d6-be5a-98f4bb937785</webElementGuid>
+      <webElementGuid>14f40b58-12be-4b2f-be53-92a0aed34be9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -98,7 +98,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>dc151ca8-84c7-4f0e-a662-368533ac3547</webElementGuid>
+      <webElementGuid>9aae3710-331a-4ccf-96f3-632ec8343127</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -106,7 +106,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[7]</value>
-      <webElementGuid>99b8b068-9e3e-4087-a893-32f4b5a0eace</webElementGuid>
+      <webElementGuid>525d72b7-f788-4898-a3a1-898116116f9e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -114,7 +114,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-tab-body[@id='mat-tab-content-0-1']/div/activity-list/div/div[2]/div[2]/div/mat-form-field/div/div/div[4]/mat-datepicker-toggle/button</value>
-      <webElementGuid>89842714-ba8a-42d4-a0df-c7b2e0a41246</webElementGuid>
+      <webElementGuid>fd4e964b-0369-4de5-8ea0-e690f6c7ae66</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -122,7 +122,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='–'])[1]/following::button[1]</value>
-      <webElementGuid>373eb3f6-4927-4bb9-9436-91ce977ae4d1</webElementGuid>
+      <webElementGuid>0e2de1b1-6009-4994-95e4-dc88b6d13714</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -130,7 +130,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='All'])[1]/following::button[1]</value>
-      <webElementGuid>dcf5dfff-76af-464a-94b1-db362b0bcf2c</webElementGuid>
+      <webElementGuid>5a2f3644-e418-4560-be12-7d18a6fc1e7d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -138,7 +138,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::button[5]</value>
-      <webElementGuid>d5beeba2-9505-456a-8018-83f86db2a6d8</webElementGuid>
+      <webElementGuid>171db6c0-010d-4382-ba1b-781655fba180</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -146,7 +146,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Alt'])[1]/preceding::button[5]</value>
-      <webElementGuid>d60780de-1094-4569-986e-23b37ef8c019</webElementGuid>
+      <webElementGuid>d4b52399-0911-4571-83da-063ff0973459</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -154,7 +154,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//mat-datepicker-toggle/button</value>
-      <webElementGuid>7b2273de-8b09-42ed-8ea0-61202df64bc0</webElementGuid>
+      <webElementGuid>5134ca95-e9a1-4f7c-9492-a18609d055bd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -162,7 +162,7 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button']</value>
-      <webElementGuid>420710b7-5800-4724-8461-5a16b7d40af3</webElementGuid>
+      <webElementGuid>e0ab3dda-a8ef-4886-84e8-431710e3b680</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -170,7 +170,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[12]</value>
-      <webElementGuid>2365c9a5-e382-449d-8d97-fdb1cef75187</webElementGuid>
+      <webElementGuid>710d0507-5acc-49d8-87a2-46f1ffa3df13</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -178,7 +178,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='User Guide'])[1]/following::button[4]</value>
-      <webElementGuid>ffb1a96a-ee13-41bd-ad3a-589744492062</webElementGuid>
+      <webElementGuid>1a29d052-aa49-4669-ad46-9ce1441f34be</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -186,7 +186,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Dismiss'])[1]/following::button[5]</value>
-      <webElementGuid>6840f1ba-5d21-4c40-a196-07d4298cdb94</webElementGuid>
+      <webElementGuid>7a607ee0-fb39-42e6-9d86-3d303ad3a0d8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -194,7 +194,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::button[1]</value>
-      <webElementGuid>41b27d3a-a8b6-44df-a240-7be739de5718</webElementGuid>
+      <webElementGuid>4d7c1bea-0a2d-418d-83cc-eef317b9cde8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -202,7 +202,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Alt'])[1]/preceding::button[1]</value>
-      <webElementGuid>4a036148-c81c-4855-8005-5395480d0beb</webElementGuid>
+      <webElementGuid>b2453e77-75fe-4b58-a1cd-e51c4b6f6e9e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -210,6 +210,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//button[4]</value>
-      <webElementGuid>50f89ca5-222b-4c7c-9acc-2595137e6cce</webElementGuid>
+      <webElementGuid>892d4f24-d1d7-45b6-be8c-14fb07209470</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
