@@ -2,13 +2,23 @@
   "brokenTestObjects": [
     {
       "approved": true,
-      "testObjectId": "Object Repository/03-Header Menu/User Profile/Users Profile menu and notification button/div_ACTIVITY",
-      "brokenLocator": "//div[text()\u003d\u0027ACTIVITY\u0027]",
+      "testObjectId": "Object Repository/02-Side Icons/button_Dismiss",
+      "brokenLocator": "//button[@type \u003d \u0027button\u0027 and (text() \u003d \u0027Dismiss\u0027 or . \u003d \u0027Dismiss\u0027)]",
       "brokenLocatorMethod": "XPATH",
-      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027© All Rights Reserved\u0027])[1]/following::div[5]",
+      "proposedLocator": "(//button[@type\u003d\u0027button\u0027])[6]",
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
-      "pathToScreenshot": "Reports/Self-healing/Object Repository/03-Header Menu/User Profile/Users Profile menu and notification button/div_ACTIVITY_neighbor.png"
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/02-Side Icons/button_Dismiss_attributes.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/09-Settings/Users/Active User/span_Successfully restored user",
+      "brokenLocator": "//snack-bar-container[(text() \u003d \u0027Successfully restored userOK\u0027 or . \u003d \u0027Successfully restored userOK\u0027)]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Successfully restored user\u0027])[1]/following::span[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/09-Settings/Users/Active User/span_Successfully restored user_neighbor.png"
     }
   ]
 }

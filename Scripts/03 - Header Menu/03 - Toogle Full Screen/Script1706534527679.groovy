@@ -21,7 +21,3 @@ WebUI.click(findTestObject('03-Header Menu/Toggle Fullscreen/Toggle Fullscreen b
 
 WebUI.delay(2)
 
-WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.ESCAPE))
-
-WebUI.delay(2)
-

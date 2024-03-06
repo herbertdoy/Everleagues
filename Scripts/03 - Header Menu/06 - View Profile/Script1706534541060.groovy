@@ -24,6 +24,8 @@ WebUI.maximizeWindow()
 
 WebUI.callTestCase(findTestCase('01 - Login and Forgot Password/04 - Login(Valid Credentials-testuser00005)'), [:], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.delay(GlobalVariable.delay_1s)
+
 WebUI.click(findTestObject('03-Header Menu/User Profile/Users Profile menu and notification button/div_User drop down menu button'))
 
 WebUI.delay(GlobalVariable.delay_1s)

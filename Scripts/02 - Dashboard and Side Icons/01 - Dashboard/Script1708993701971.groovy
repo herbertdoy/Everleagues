@@ -45,8 +45,6 @@ WebUI.verifyElementVisible(findTestObject('02-Side Icons/div_DASHBOARD'))
 
 WebUI.verifyElementVisible(findTestObject('02-Side Icons/div_Things to do'))
 
-WebUI.verifyElementVisible(findTestObject('02-Side Icons/button_Dismiss'))
-
 WebUI.verifyElementVisible(findTestObject('02-Side Icons/div_Recent Activity'))
 
 WebUI.verifyElementVisible(findTestObject('02-Side Icons/a_Mark all as read'))

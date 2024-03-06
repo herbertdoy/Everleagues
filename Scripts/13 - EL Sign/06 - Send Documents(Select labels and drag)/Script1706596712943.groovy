@@ -53,7 +53,7 @@ WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('13-EL Sign/span_COMPLETE'))
 
-WebUI.delay(GlobalVariable.delay_3s)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.verifyElementVisible(findTestObject('13-EL Sign/th_Send ELSign Invite'))
 
@@ -61,15 +61,15 @@ WebUI.scrollToElement(findTestObject('13-EL Sign/div_Dear ReceiverName'), 0)
 
 WebUI.scrollToElement(findTestObject('13-EL Sign/th_Send ELSign Invite'), 0)
 
-WebUI.delay(GlobalVariable.delay_3s)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.setText(findTestObject('13-EL Sign/input_CC email'), GlobalVariable.Y_email_withoutSubscription_testuser01)
 
 WebUI.setText(findTestObject('13-EL Sign/input_Subject'), 'You have a new ELSign document TEST')
 
-WebUI.delay(GlobalVariable.delay_3s)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('13-EL Sign/button_sendSend Invite'))
 
-WebUI.delay(GlobalVariable.delay_3s)
+WebUI.delay(GlobalVariable.delay_2s)
 

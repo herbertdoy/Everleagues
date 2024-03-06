@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.click(findTestObject('13-EL Sign/button_visibility'))
 
-WebUI.delay(GlobalVariable.delay_3s)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.switchToWindowIndex(1)
 
@@ -27,7 +27,7 @@ WebUI.closeWindowIndex(1)
 
 WebUI.switchToWindowIndex(0)
 
-WebUI.delay(GlobalVariable.delay_3s)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('13-EL Sign/button_history'))
 
@@ -37,5 +37,5 @@ WebUI.verifyElementVisible(findTestObject('13-EL Sign/td_historyName'))
 
 WebUI.doubleClick(findTestObject('13-EL Sign/button_CANCEL2'))
 
-WebUI.delay(GlobalVariable.delay_3s)
+WebUI.delay(GlobalVariable.delay_2s)
 

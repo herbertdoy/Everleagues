@@ -54,6 +54,13 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
+      <guid>ac9fccd3-c39e-4aae-8309-f3399ae3530d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/01 - Login and Forgot Password/07 - Forgot Password(Wrong email)</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
       <guid>dda7aed7-0846-48ee-9d92-53bb4be45497</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
