@@ -24,6 +24,12 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/04 - Add my Organizations/02 - Free limited Plan(Used Org Alias)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>664cdd08-04a1-438d-b572-fec7b91b3dc8</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>b4999235-c352-4c80-8df8-522eea738e82</guid>
@@ -31,5 +37,17 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/04 - Add my Organizations/03 - Free limited Plan(Positive Scenarios)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>c1451d0f-43f8-438e-b0ad-21aa620cb75a</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>3fb61599-fc39-46ab-9eb9-2cbd707889ae</variableId>
+      </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.setText(findTestObject('06-Teams/05- Teams-General Channel/Input field_post'), 'This is automation')
+WebUI.setText(findTestObject('06-Teams/05- Teams-General Channel/Input field_post'), post)
 
 WebUI.click(findTestObject('06-Teams/05- Teams-General Channel/button_send'))
 
@@ -33,7 +33,7 @@ WebUI.click(findTestObject('06-Teams/05- Teams-General Channel/button_Edit Post'
 
 WebUI.verifyElementVisible(findTestObject('06-Teams/05- Teams-General Channel/h2_Edit post'))
 
-WebUI.setText(findTestObject('06-Teams/05- Teams-General Channel/Edit field'), 'Automation Edit ')
+WebUI.setText(findTestObject('06-Teams/05- Teams-General Channel/Edit field'), editPost)
 
 WebUI.click(findTestObject('06-Teams/05- Teams-General Channel/button_send edit'))
 
@@ -45,7 +45,7 @@ WebUI.click(findTestObject('06-Teams/05- Teams-General Channel/Bold select'))
 
 WebUI.click(findTestObject('06-Teams/05- Teams-General Channel/Input field_post'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.sendKeys(findTestObject('Object Repository/06-Teams/05- Teams-General Channel/Input field_post'), 'Bold')
+WebUI.sendKeys(findTestObject('Object Repository/06-Teams/05- Teams-General Channel/Input field_post'), bold)
 
 WebUI.click(findTestObject('06-Teams/05- Teams-General Channel/button_send'))
 
@@ -59,7 +59,7 @@ WebUI.click(findTestObject('06-Teams/05- Teams-General Channel/Italic Select'))
 
 WebUI.click(findTestObject('06-Teams/05- Teams-General Channel/Input field_post'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.sendKeys(findTestObject('Object Repository/06-Teams/05- Teams-General Channel/Input field_post'), 'Italic')
+WebUI.sendKeys(findTestObject('Object Repository/06-Teams/05- Teams-General Channel/Input field_post'), italic)
 
 WebUI.click(findTestObject('06-Teams/05- Teams-General Channel/button_send'))
 
@@ -73,7 +73,7 @@ WebUI.click(findTestObject('06-Teams/05- Teams-General Channel/Underline select'
 
 WebUI.click(findTestObject('06-Teams/05- Teams-General Channel/Input field_post'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.sendKeys(findTestObject('Object Repository/06-Teams/05- Teams-General Channel/Input field_post'), 'Underline')
+WebUI.sendKeys(findTestObject('Object Repository/06-Teams/05- Teams-General Channel/Input field_post'), underline)
 
 WebUI.click(findTestObject('06-Teams/05- Teams-General Channel/button_send'))
 
@@ -87,7 +87,7 @@ WebUI.click(findTestObject('06-Teams/05- Teams-General Channel/Strikethrough sel
 
 WebUI.click(findTestObject('06-Teams/05- Teams-General Channel/Input field_post'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.sendKeys(findTestObject('Object Repository/06-Teams/05- Teams-General Channel/Input field_post'), 'Strikethrough')
+WebUI.sendKeys(findTestObject('Object Repository/06-Teams/05- Teams-General Channel/Input field_post'), strikethrough)
 
 WebUI.click(findTestObject('06-Teams/05- Teams-General Channel/button_send'))
 
@@ -117,7 +117,7 @@ WebUI.click(findTestObject('06-Teams/05- Teams-General Channel/div_Header 4'))
 
 WebUI.click(findTestObject('06-Teams/05- Teams-General Channel/Input field_post'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.sendKeys(findTestObject('Object Repository/06-Teams/05- Teams-General Channel/Input field_post'), 'Four')
+WebUI.sendKeys(findTestObject('Object Repository/06-Teams/05- Teams-General Channel/Input field_post'), header4)
 
 WebUI.click(findTestObject('06-Teams/05- Teams-General Channel/button_send'))
 
@@ -133,7 +133,7 @@ WebUI.click(findTestObject('06-Teams/05- Teams-General Channel/div_Header 5'))
 
 WebUI.click(findTestObject('06-Teams/05- Teams-General Channel/Input field_post'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.sendKeys(findTestObject('Object Repository/06-Teams/05- Teams-General Channel/Input field_post'), 'Five')
+WebUI.sendKeys(findTestObject('Object Repository/06-Teams/05- Teams-General Channel/Input field_post'), header5)
 
 WebUI.click(findTestObject('06-Teams/05- Teams-General Channel/button_send'))
 

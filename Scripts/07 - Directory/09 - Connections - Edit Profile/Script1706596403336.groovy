@@ -25,13 +25,13 @@ WebUI.verifyElementVisible(findTestObject('07-Directory/Connections/zContact Pro
 
 WebUI.delay(GlobalVariable.delay_2s)
 
-WebUI.setText(findTestObject('07-Directory/Connections/zContact Profile/input_firstName'), 'GGedit')
+WebUI.setText(findTestObject('07-Directory/Connections/zContact Profile/input_firstName'), firstName)
 
-WebUI.setText(findTestObject('07-Directory/Connections/zContact Profile/input_lastName'), 'Autoedit')
+WebUI.setText(findTestObject('07-Directory/Connections/zContact Profile/input_lastName'), lastName)
 
 WebUI.scrollToElement(findTestObject('07-Directory/Connections/zContact Profile/notes'), 0)
 
-WebUI.setText(findTestObject('07-Directory/Connections/zContact Profile/notes'), 'Automation Notes')
+WebUI.setText(findTestObject('07-Directory/Connections/zContact Profile/notes'), notes)
 
 WebUI.scrollToElement(findTestObject('07-Directory/Connections/zContact Profile/button_save changes'), 0)
 

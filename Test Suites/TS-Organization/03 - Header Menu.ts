@@ -93,6 +93,12 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/03 - Header Menu/11 - Security Tab(Enabling 2FA)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>cf8ec6fb-430b-4b88-9e66-7d99379b2d65</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>da0fde06-c18a-456c-9c87-15d2e31e3fb6</guid>
@@ -114,6 +120,18 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/03 - Header Menu/14 - Contact Info(add-remove email)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>4b4c7b10-fae1-4381-954e-2422ab9e9058</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>675771e3-d9a8-4699-88b9-7674bb3972fe</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>35991d7d-bc8b-4f26-a9df-d737981578cf</guid>
@@ -121,6 +139,12 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/03 - Header Menu/15 - Contact Info(add-remove phone number)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>4d677ab3-790b-430e-9f50-633d765f1606</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>60d2c581-a492-4bc7-9c75-af0f29bc1995</guid>
@@ -128,6 +152,36 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/03 - Header Menu/16 - Contact Info(add-remove address)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>afe73ace-11bd-42d1-b937-140d66261cf4</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>64498739-f226-4e8e-b03d-d2410f8cbec1</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>fcfdb2d8-b3ce-44ce-8495-1fc9d2cc6fae</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>5370ab24-6151-433b-b9fb-d6bb12f30199</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>0db839e2-fcbb-442f-9e7f-55ebb2dddc64</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>457a194b-67c2-4161-a668-e40202deda74</guid>
@@ -149,6 +203,18 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/03 - Header Menu/19 - Change Password(old and new didnt match)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>e80d5bff-42d9-4536-8bf4-430f346adb9b</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>1a1b8c2f-f473-4dec-bb84-afca76a67fbb</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>f6639cc3-5f50-49c7-b0c2-786518822b45</guid>

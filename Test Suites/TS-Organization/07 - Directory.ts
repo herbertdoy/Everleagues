@@ -24,6 +24,18 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/07 - Directory/02 - Connections - Add New Contact(Fill out required field)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>4d643fb4-cb35-41cc-8406-f92ae6f35be9</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>6990bed6-b876-4f74-81f3-9e4e103d452b</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>c21b844a-4286-4ed7-a92d-9d064972ad36</guid>
@@ -31,6 +43,12 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/07 - Directory/03 - Connections - Add New Contact(add phone number)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>d2e55cd8-86bb-4cac-b210-736af34f76c7</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>fb3c2b97-1718-4e5e-b61c-bcabbe3427db</guid>
@@ -45,6 +63,36 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/07 - Directory/05 - Connections - Add New Contact(add address successfully and add new contact successfully)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>94fafb7f-fd4d-4212-9ca6-fccbc7ff4bde</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>a48a2d08-9bb1-416b-b1ed-0471802b6499</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>df873eb7-2fb1-4b35-abc4-41227752d2f4</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>b50632e5-7b1b-4ced-968e-5678f6715790</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>415ab2a7-93eb-443b-b43c-795579ae3e2f</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>7abdcbfe-f4a2-4a97-8981-4e08edd2b366</guid>
@@ -73,6 +121,24 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/07 - Directory/09 - Connections - Edit Profile</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>b0028864-2599-448e-be98-4943cd875759</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>630be5c8-a17f-4367-b490-3b24d36cafd5</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>ea1def07-2e72-487c-98a2-b5032c7cf241</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>3f73ba73-18d8-4312-ba59-a97d57147b05</guid>
@@ -87,6 +153,12 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/07 - Directory/11 - Connections - Search and Filter</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>f3210cc2-f20f-4724-8bdf-0525bf25ac05</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>af153021-7b1f-445a-92f6-a760e3f58b84</guid>
@@ -94,6 +166,12 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/07 - Directory/12 - Add new label</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>eab8cb5b-40d9-4ed7-9537-d9f21927b71f</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>bfc8b0a8-f628-4cf7-ab36-dd71cc54a0d9</guid>
@@ -101,6 +179,12 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/07 - Directory/13 - Edit a label</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>23a7af2e-f181-47db-8788-9375b53015da</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>a2f12a49-2833-403a-8b6d-8840f1b6263d</guid>

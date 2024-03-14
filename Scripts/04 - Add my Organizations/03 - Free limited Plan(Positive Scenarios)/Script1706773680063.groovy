@@ -17,9 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.setText(findTestObject('04-Add my Organizations/Free limited Plan/input_orgName'), 'GG Automation')
+WebUI.setText(findTestObject('04-Add my Organizations/Free limited Plan/input_orgName'), orgName)
 
-WebUI.setText(findTestObject('04-Add my Organizations/Free limited Plan/input_org alias'), 'GGAutoAliass')
+WebUI.setText(findTestObject('04-Add my Organizations/Free limited Plan/input_org alias'), orgAlias)
 
 WebUI.click(findTestObject('04-Add my Organizations/Free limited Plan/div_Service Industry_select-arrow'), FailureHandling.STOP_ON_FAILURE)
 

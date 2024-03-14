@@ -23,7 +23,7 @@ WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Contact Inf
 
 WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Contact Info/button_Philippines 63'))
 
-WebUI.setText(findTestObject('03-Header Menu/User Profile/View Profile/Contact Info/phone field'), '9211234567')
+WebUI.setText(findTestObject('03-Header Menu/User Profile/View Profile/Contact Info/phone field'), phoneNumber)
 
 WebUI.sendKeys(findTestObject('03-Header Menu/User Profile/View Profile/Contact Info/Positon Field'), Keys.chord(Keys.ENTER))
 

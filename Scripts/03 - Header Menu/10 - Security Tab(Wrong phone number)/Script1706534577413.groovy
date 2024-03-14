@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.setText(findTestObject('03-Header Menu/User Profile/View Profile/Security Tab (2FA)/input_phone number'), phoneNumber)
+WebUI.setText(findTestObject('03-Header Menu/User Profile/View Profile/Security Tab (2FA)/input_phone number'), XphoneNumber)
 
 WebUI.delay(GlobalVariable.delay_2s)
 

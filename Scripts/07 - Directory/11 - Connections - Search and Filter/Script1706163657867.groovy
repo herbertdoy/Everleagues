@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.click(findTestObject('07-Directory/Connections/input-Search'))
 
-WebUI.setText(findTestObject('07-Directory/Connections/input-Search'), 'tester 2')
+WebUI.setText(findTestObject('07-Directory/Connections/input-Search'), searchUser)
 
 WebUI.delay(2)
 

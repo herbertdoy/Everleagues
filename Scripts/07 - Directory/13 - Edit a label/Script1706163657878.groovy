@@ -27,7 +27,7 @@ WebUI.verifyElementNotClickable(findTestObject('07-Directory/Labels/button_Edit 
 
 WebUI.delay(GlobalVariable.delay_2s)
 
-WebUI.setText(findTestObject('07-Directory/Labels/input_Add New Label Name'), 'Label QA Edit')
+WebUI.setText(findTestObject('07-Directory/Labels/input_Add New Label Name'), editLabelName)
 
 WebUI.click(findTestObject('07-Directory/Labels/button_Edit Label'))
 

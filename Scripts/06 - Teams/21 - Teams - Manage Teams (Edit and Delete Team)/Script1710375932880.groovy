@@ -31,7 +31,7 @@ WebUI.click(findTestObject('06-Teams/Manage Teams/button_edit'))
 
 WebUI.click(findTestObject('06-Teams/03-Edit Team - Private/div_Settings'))
 
-WebUI.setText(findTestObject('06-Teams/Manage Teams/input_Settings_teamName'), 'Edit Auto Team Public')
+WebUI.setText(findTestObject('06-Teams/Manage Teams/input_Settings_teamName'), editTeamPublic)
 
 WebUI.delay(GlobalVariable.delay_2s)
 

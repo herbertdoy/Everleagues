@@ -75,15 +75,15 @@ WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Contact Inf
 
 WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/View Profile/Contact Info/h4_Edit Address'))
 
-WebUI.setText(findTestObject('03-Header Menu/User Profile/View Profile/Contact Info/input_street1'), '05 Test')
+WebUI.setText(findTestObject('03-Header Menu/User Profile/View Profile/Contact Info/input_street1'), street1)
 
-WebUI.setText(findTestObject('03-Header Menu/User Profile/View Profile/Contact Info/input_street2'), 'corner Automation')
+WebUI.setText(findTestObject('03-Header Menu/User Profile/View Profile/Contact Info/input_street2'), street2)
 
-WebUI.setText(findTestObject('03-Header Menu/User Profile/View Profile/Contact Info/input_postcode'), '54321')
+WebUI.setText(findTestObject('03-Header Menu/User Profile/View Profile/Contact Info/input_postcode'), postcode)
 
-WebUI.setText(findTestObject('03-Header Menu/User Profile/View Profile/Contact Info/input_city'), 'Test City')
+WebUI.setText(findTestObject('03-Header Menu/User Profile/View Profile/Contact Info/input_city'), city)
 
-WebUI.setText(findTestObject('03-Header Menu/User Profile/View Profile/Contact Info/input_state'), 'Test State')
+WebUI.setText(findTestObject('03-Header Menu/User Profile/View Profile/Contact Info/input_state'), state)
 
 WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Contact Info/input_country'), FailureHandling.STOP_ON_FAILURE)
 

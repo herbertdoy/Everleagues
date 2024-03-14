@@ -25,7 +25,7 @@ WebUI.verifyElementNotClickable(findTestObject('06-Teams/03-Edit Team - Private/
 
 WebUI.delay(GlobalVariable.delay_2s)
 
-WebUI.setText(findTestObject('06-Teams/03-Edit Team - Private/input_Edit Channel name'), 'Auto Channel Edit')
+WebUI.setText(findTestObject('06-Teams/03-Edit Team - Private/input_Edit Channel name'), GlobalVariable.editChannelName)
 
 WebUI.click(findTestObject('06-Teams/03-Edit Team - Private/button_Save'))
 

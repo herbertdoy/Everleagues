@@ -23,7 +23,7 @@ WebUI.click(findTestObject('07-Directory/Connections/button_Australia'))
 
 WebUI.delay(GlobalVariable.delay_2s)
 
-WebUI.setText(findTestObject('07-Directory/Connections/input_Type_phone'), '488827341')
+WebUI.setText(findTestObject('07-Directory/Connections/input_Type_phone'), phoneNumber)
 
 WebUI.delay(GlobalVariable.delay_2s)
 

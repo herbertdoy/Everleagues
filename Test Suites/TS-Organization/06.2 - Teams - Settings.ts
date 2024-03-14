@@ -115,6 +115,54 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/06 - Teams/19 - Teams - General Channel(Creating a post)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>d2bc3c33-9834-438c-830e-4a3ba7a21a91</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>b1ec8598-77ac-447c-bee2-6d38533e3b28</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>3a92b6e9-f733-4cfe-8af0-a08514d16dc2</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>648fd677-f6b6-494b-975e-e75c02e68436</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>b205494b-8fd1-4aa2-bf8c-8ec0cd155def</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>39e3940c-ac1d-4538-94e3-b7027fe09ba0</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>c433ea57-ccb3-43fb-b712-df29ac8935fb</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>77c1709e-46fd-4522-bc66-4d3ffe060807</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>74371b0e-d600-45ac-9310-fc4b29b345a3</guid>
@@ -129,5 +177,11 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/06 - Teams/21 - Teams - Manage Teams (Edit and Delete Team)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>86f6ade8-da94-427e-8cae-1ec3fc809f3c</variableId>
+      </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

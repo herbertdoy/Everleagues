@@ -31,7 +31,7 @@ WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/View Prof
 
 WebUI.delay(GlobalVariable.delay_1s)
 
-WebUI.setText(findTestObject('03-Header Menu/User Profile/View Profile/Contact Info/Positon Field'), 'Auto')
+WebUI.setText(findTestObject('03-Header Menu/User Profile/View Profile/Contact Info/Positon Field'), position)
 
 WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Contact Info/div_Email Type'))
 
@@ -47,7 +47,7 @@ WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Contact Inf
 
 WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Contact Info/mat-icon_add email button'))
 
-WebUI.setText(findTestObject('03-Header Menu/User Profile/View Profile/Contact Info/email field'), 'auto@automation.com')
+WebUI.setText(findTestObject('03-Header Menu/User Profile/View Profile/Contact Info/email field'), autoEmail)
 
 WebUI.sendKeys(findTestObject('03-Header Menu/User Profile/View Profile/Contact Info/email field'), Keys.chord(Keys.ENTER))
 

@@ -17,15 +17,15 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.setText(findTestObject('07-Directory/Connections/input_Edit Address_street1'), 'Auto street 1')
+WebUI.setText(findTestObject('07-Directory/Connections/input_Edit Address_street1'), street1)
 
-WebUI.setText(findTestObject('07-Directory/Connections/input_Street 1_street2'), 'Auto street 2')
+WebUI.setText(findTestObject('07-Directory/Connections/input_Street 1_street2'), street2)
 
-WebUI.setText(findTestObject('07-Directory/Connections/input_Street 2_postcode'), '54321')
+WebUI.setText(findTestObject('07-Directory/Connections/input_Street 2_postcode'), postcode)
 
-WebUI.setText(findTestObject('07-Directory/Connections/input_Zip  Postal Code_city'), 'Auto city')
+WebUI.setText(findTestObject('07-Directory/Connections/input_Zip  Postal Code_city'), city)
 
-WebUI.setText(findTestObject('07-Directory/Connections/input_City_state'), 'Auto state')
+WebUI.setText(findTestObject('07-Directory/Connections/input_City_state'), state)
 
 WebUI.click(findTestObject('07-Directory/Connections/input_State_country'), FailureHandling.STOP_ON_FAILURE)
 

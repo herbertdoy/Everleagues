@@ -39,7 +39,7 @@ WebUI.setText(findTestObject('03-Header Menu/User Profile/View Profile/Security 
 
 WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Security Tab (2FA)/button_Philippines 63'))
 
-WebUI.setText(findTestObject('03-Header Menu/User Profile/View Profile/Security Tab (2FA)/input_phone number'), '9212968902')
+WebUI.setText(findTestObject('03-Header Menu/User Profile/View Profile/Security Tab (2FA)/input_phone number'), CphoneNumber)
 
 WebUI.delay(GlobalVariable.delay_2s)
 

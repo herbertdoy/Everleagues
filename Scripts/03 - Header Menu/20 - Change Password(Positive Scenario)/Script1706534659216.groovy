@@ -80,7 +80,7 @@ String code = WebUI.getText(findTestObject('Yopmail/2FA code-Yopmail'))
 
 WebUI.delay(GlobalVariable.delay_2s)
 
-WebUI.closeWindowTitle('Inbox')
+WebUI.closeWindowTitle(GlobalVariable.Y_windowTitle)
 
 WebUI.delay(GlobalVariable.delay_2s)
 
