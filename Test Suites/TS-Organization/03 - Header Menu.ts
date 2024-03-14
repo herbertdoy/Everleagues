@@ -80,6 +80,12 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/03 - Header Menu/10 - Security Tab(Wrong phone number)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>349aceff-d5b0-4a14-82fe-7214c6f7e31e</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>5dbdec2d-bd10-4157-9457-a544e2a7e8d5</guid>

@@ -39,7 +39,7 @@ WebUI.delay(GlobalVariable.delay_1s)
 
 WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Security Tab (2FA)/button_areacode_default'))
 
-WebUI.setText(findTestObject('03-Header Menu/User Profile/View Profile/Security Tab (2FA)/area code search'), 'PH')
+WebUI.setText(findTestObject('03-Header Menu/User Profile/View Profile/Security Tab (2FA)/area code search'), GlobalVariable.area_Code)
 
 WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Security Tab (2FA)/button_Philippines 63'))
 

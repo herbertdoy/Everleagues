@@ -17,25 +17,39 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.setText(findTestObject('03-Header Menu/User Profile/View Profile/Security Tab (2FA)/input_phone number'), phoneNumber)
+WebUI.click(findTestObject('06-Teams/01-Add Team-Public/Org unit'))
+
+WebUI.verifyElementVisible(findTestObject('06-Teams/01-Add Team-Public/h4_Select an organization unit'))
 
 WebUI.delay(GlobalVariable.delay_2s)
 
-WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Security Tab (2FA)/button_Next'))
+WebUI.click(findTestObject('06-Teams/01-Add Team-Public/div_GG Automation'))
 
-WebUI.delay(GlobalVariable.delay_1s)
-
-WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/View Profile/Security Tab (2FA)/div_Failed to send SMS'))
+WebUI.click(findTestObject('06-Teams/01-Add Team-Public/button_Select'))
 
 WebUI.delay(GlobalVariable.delay_2s)
 
-WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Security Tab (2FA)/button_Cancel'))
+WebUI.verifyElementVisible(findTestObject('06-Teams/01-Add Team-Public/span_Member Visibility in Connections'))
 
-WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Security Tab (2FA)/2FA_toggle'))
+WebUI.verifyElementVisible(findTestObject('06-Teams/01-Add Team-Public/span_Allow members to create channels'))
+
+WebUI.verifyElementVisible(findTestObject('06-Teams/01-Add Team-Public/span_Allow members to do post creation'))
+
+WebUI.verifyElementVisible(findTestObject('06-Teams/01-Add Team-Public/span_Allow members to comment'))
 
 WebUI.delay(GlobalVariable.delay_2s)
 
-WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/View Profile/Security Tab (2FA)/Success disable'))
+WebUI.setText(findTestObject('06-Teams/01-Add Team-Public/input_teamName'), input_teamPublic)
+
+WebUI.scrollToElement(findTestObject('06-Teams/01-Add Team-Public/button_Create'), 0)
+
+WebUI.click(findTestObject('06-Teams/01-Add Team-Public/button_Create'))
+
+WebUI.verifyElementVisible(findTestObject('06-Teams/01-Add Team-Public/span_Successfully added new team'))
+
+WebUI.delay(GlobalVariable.delay_2s)
+
+WebUI.verifyElementVisible(findTestObject('06-Teams/01-Add Team-Public/span_Auto Team Public'))
 
 WebUI.delay(GlobalVariable.delay_2s)
 

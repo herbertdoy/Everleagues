@@ -17,25 +17,38 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.setText(findTestObject('03-Header Menu/User Profile/View Profile/Security Tab (2FA)/input_phone number'), phoneNumber)
+WebUI.click(findTestObject('06-Teams/Add Team'))
 
 WebUI.delay(GlobalVariable.delay_2s)
 
-WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Security Tab (2FA)/button_Next'))
+WebUI.verifyElementVisible(findTestObject('06-Teams/button_Public'))
 
-WebUI.delay(GlobalVariable.delay_1s)
-
-WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/View Profile/Security Tab (2FA)/div_Failed to send SMS'))
+WebUI.verifyElementVisible(findTestObject('06-Teams/button_Private'))
 
 WebUI.delay(GlobalVariable.delay_2s)
 
-WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Security Tab (2FA)/button_Cancel'))
-
-WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Security Tab (2FA)/2FA_toggle'))
+WebUI.click(findTestObject('06-Teams/button_Private'))
 
 WebUI.delay(GlobalVariable.delay_2s)
 
-WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/View Profile/Security Tab (2FA)/Success disable'))
+WebUI.verifyElementVisible(findTestObject('06-Teams/02-Add Team-Private/Add team- Private'))
+
+WebUI.verifyElementVisible(findTestObject('06-Teams/02-Add Team-Private/div_Settings'))
+
+WebUI.verifyElementVisible(findTestObject('06-Teams/02-Add Team-Private/div_Members'))
+
+WebUI.scrollToElement(findTestObject('06-Teams/01-Add Team-Public/button_Create'), 0)
+
+WebUI.verifyElementNotClickable(findTestObject('06-Teams/01-Add Team-Public/button_Create'))
 
 WebUI.delay(GlobalVariable.delay_2s)
+
+WebUI.setText(findTestObject('06-Teams/01-Add Team-Public/input_teamName'), '')
+
+WebUI.clickOffset(findTestObject('06-Teams/01-Add Team-Public/input_teamName'), 100, 100)
+
+WebUI.waitForElementVisible(findTestObject('06-Teams/01-Add Team-Public/Error Team name'), 0)
+
+WebUI.delay(GlobalVariable.delay_2s)
+
 
