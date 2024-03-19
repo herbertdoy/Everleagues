@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.setText(findTestObject('04-Add my Organizations/Free limited Plan/input_org alias'), alias)
+WebUI.setText(findTestObject('04-Add my Organizations/Free limited Plan/input_org alias'), orgAlias)
 
 WebUI.click(findTestObject('04-Add my Organizations/Free limited Plan/input_orgName'))
 
