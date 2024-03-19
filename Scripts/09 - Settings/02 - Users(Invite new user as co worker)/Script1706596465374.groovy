@@ -21,9 +21,9 @@ WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.setText(findTestObject('09-Settings/Users/input_email'), GlobalVariable.Y_email_autotester04)
 
-WebUI.setText(findTestObject('09-Settings/Users/input_firstName'), 'GG')
+WebUI.setText(findTestObject('09-Settings/Users/input_firstName'), firstname)
 
-WebUI.setText(findTestObject('09-Settings/Users/input_lastName'), 'Auto Contact 2')
+WebUI.setText(findTestObject('09-Settings/Users/input_lastName'), lastname)
 
 WebUI.click(findTestObject('09-Settings/Users/span_Role'))
 

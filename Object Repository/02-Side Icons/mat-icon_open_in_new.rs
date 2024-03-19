@@ -7,14 +7,15 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>/html/body/app-root/app-main-page/div/mat-sidenav-container/mat-sidenav-content/div[1]/div[3]/app-dashboard-page/section/div/active-dashboard/div/dashboard-section[2]/mat-card/mat-card-header/div[3]/div[2]</value>
+         <value>//*/text()[normalize-space(.)='Expand']/parent::*</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>mat-icon.mat-icon.notranslate.trailing-btn.material-icons.mat-ligature-font.mat-icon-no-color</value>
+         <value>.mat-icon.notranslate.trailing-btn.material-icons.mat-ligature-font.mat-icon-no-color</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>mat-icon</value>
-      <webElementGuid>13dd5a6a-9d00-4fb3-8200-c6dcd5ee8a82</webElementGuid>
+      <webElementGuid>2f47fc64-2d2d-41e0-8859-6ce996b7c04b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +31,7 @@
       <name>role</name>
       <type>Main</type>
       <value>img</value>
-      <webElementGuid>e7a1b878-1f8b-4b63-9272-95c7ddfaa3de</webElementGuid>
+      <webElementGuid>1f2daf36-f06f-4379-b550-52f2f0ce9dd6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +39,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-icon notranslate trailing-btn material-icons mat-ligature-font mat-icon-no-color</value>
-      <webElementGuid>0a6e243d-2ffc-47a2-9d24-b1cd114d68ad</webElementGuid>
+      <webElementGuid>bd06e43d-2852-4354-b814-e3c34eb2f8e0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +47,7 @@
       <name>aria-hidden</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>5c4f0e46-7e30-4abe-903e-ac0aa4729580</webElementGuid>
+      <webElementGuid>3514153b-352d-47c3-8542-71fbffca54b1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +55,7 @@
       <name>data-mat-icon-type</name>
       <type>Main</type>
       <value>font</value>
-      <webElementGuid>eb1ae976-9ab6-4bf6-aa55-ab704d39d383</webElementGuid>
+      <webElementGuid>abcec842-b6c8-4d46-ac96-2625aa2a3ff9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -62,7 +63,7 @@
       <name>text</name>
       <type>Main</type>
       <value>open_in_new</value>
-      <webElementGuid>e1cfd708-3201-457a-969b-4da87fa147dc</webElementGuid>
+      <webElementGuid>dace0cb8-64f3-4476-85b2-3c2077c9cb2e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +71,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[@class=&quot;light theme-default os-window fuse-splash-screen-hidden&quot;]/app-root[1]/app-main-page[@class=&quot;ng-tns-c505-6 ng-trigger ng-trigger-routerAnimation ng-star-inserted&quot;]/div[@class=&quot;absolute inset-0 flex flex-col min-w-0 overflow-hidden ng-tns-c505-6&quot;]/mat-sidenav-container[@class=&quot;mat-drawer-container mat-sidenav-container flex-auto h-full ng-tns-c505-6 mat-drawer-transition mat-drawer-container-has-open&quot;]/mat-sidenav-content[@class=&quot;mat-drawer-content mat-sidenav-content flex flex-col overflow-hidden&quot;]/div[@class=&quot;flex flex-col flex-auto w-full min-w-0&quot;]/div[@class=&quot;flex flex-col flex-auto ng-tns-c505-6&quot;]/app-dashboard-page[@class=&quot;ng-tns-c636-54 ng-trigger ng-trigger-routerAnimation ng-star-inserted&quot;]/section[@class=&quot;ng-tns-c636-54&quot;]/div[@class=&quot;ng-tns-c636-54 ng-star-inserted&quot;]/active-dashboard[@class=&quot;ng-tns-c636-54&quot;]/div[1]/dashboard-section[@class=&quot;vertical-section&quot;]/mat-card[@class=&quot;mat-card mat-focus-indicator section&quot;]/mat-card-header[@class=&quot;mat-card-header mat-header section-header&quot;]/div[@class=&quot;mark-unread-div&quot;]/div[2]/mat-icon[@class=&quot;mat-icon notranslate trailing-btn material-icons mat-ligature-font mat-icon-no-color&quot;]</value>
-      <webElementGuid>80451041-af57-44d4-9b6b-aa5816148f2d</webElementGuid>
+      <webElementGuid>d0a69a59-e0f9-487f-b739-b059a950bdc4</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -78,7 +79,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/mat-icon</value>
-      <webElementGuid>b0bff3d9-d781-4713-bb65-aaea1f047d88</webElementGuid>
+      <webElementGuid>da5f4e5a-99ec-4aaa-9009-c82228f088aa</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,6 +87,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//mat-icon[(text() = 'open_in_new' or . = 'open_in_new')]</value>
-      <webElementGuid>936edde3-d7d7-46dc-9b56-f3f208060b49</webElementGuid>
+      <webElementGuid>bb6eef62-48bf-4ede-bd70-92752698fdfb</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

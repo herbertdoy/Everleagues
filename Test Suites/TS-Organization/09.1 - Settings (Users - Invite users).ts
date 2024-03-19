@@ -24,6 +24,18 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/09 - Settings/02 - Users(Invite new user as co worker)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>6adc8ef0-d342-4aec-b71d-54b821b78d89</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>eac0490b-932f-44a7-9ad4-effe7075db4f</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>dc846fb0-367f-4ca9-8d0b-e04cb9ce97ee</guid>
@@ -31,6 +43,24 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/09 - Settings/03 - Users(Invite new user as client)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>8f79f34a-b0a3-434a-962f-47010493c3d9</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>ad269544-19f3-4f0b-ba6f-c0ad7d9f63e9</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>c1e4fc68-4b93-4e61-a18c-bad175fc8b87</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>0f72a27d-cb5d-491e-97cf-39376997a653</guid>
@@ -38,6 +68,18 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/09 - Settings/04 - Users(Invite new user as partner)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>7574380c-7d0f-441e-9d8f-f2d92e770fc7</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>c8cffd12-e8c1-45d6-93c6-62621974ff77</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>136c0cf1-ad3d-498e-9208-0189dbb76e43</guid>

@@ -57,9 +57,9 @@ WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.setText(findTestObject('09-Settings/Users/input_email'), GlobalVariable.Y_autotester009)
 
-WebUI.setText(findTestObject('09-Settings/Users/input_firstName'), 'GG')
+WebUI.setText(findTestObject('09-Settings/Users/input_firstName'), firstname)
 
-WebUI.setText(findTestObject('09-Settings/Users/input_lastName'), 'Client')
+WebUI.setText(findTestObject('09-Settings/Users/input_lastName'), lastname)
 
 WebUI.click(findTestObject('09-Settings/Users/span_Role'))
 
@@ -167,7 +167,7 @@ WebUI.switchToWindowIndex(0)
 
 WebUI.verifyElementVisible(findTestObject('09-Settings/Users/Client/Invite modal'))
 
-WebUI.setText(findTestObject('09-Settings/Users/Client/Company field'), 'QA Company')
+WebUI.setText(findTestObject('09-Settings/Users/Client/Company field'), companyname)
 
 WebUI.click(findTestObject('09-Settings/Users/Client/button_Accept'))
 

@@ -59,7 +59,7 @@ WebUI.setText(findTestObject('09-Settings/Users/input_email'), GlobalVariable.Y_
 
 WebUI.setText(findTestObject('09-Settings/Users/input_firstName'), GlobalVariable.first_name1)
 
-WebUI.setText(findTestObject('09-Settings/Users/input_lastName'), 'Partner')
+WebUI.setText(findTestObject('09-Settings/Users/input_lastName'), lastname)
 
 WebUI.click(findTestObject('09-Settings/Users/span_Role'))
 
@@ -167,7 +167,7 @@ WebUI.switchToWindowIndex(0)
 
 WebUI.verifyElementVisible(findTestObject('09-Settings/Users/Client/Invite modal'))
 
-WebUI.setText(findTestObject('09-Settings/Users/Client/Company field'), 'QA Company')
+WebUI.setText(findTestObject('09-Settings/Users/Client/Company field'), companyname)
 
 WebUI.click(findTestObject('09-Settings/Users/Client/button_Accept'))
 
