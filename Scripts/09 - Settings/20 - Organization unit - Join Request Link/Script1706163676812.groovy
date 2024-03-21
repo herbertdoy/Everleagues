@@ -47,7 +47,7 @@ WebUI.delay(GlobalVariable.delay_3s)
 
 String my_clipboard = Toolkit.getDefaultToolkit().getSystemClipboard().getContents(null).getTransferData(DataFlavor.stringFlavor)
 
-WebUI.navigateToUrl(my_clipboard)
+WebUI.navigateToUrl(clipboard)
 
 WebUI.delay(GlobalVariable.delay_3s)
 
@@ -55,7 +55,7 @@ WebUI.verifyElementPresent(findTestObject('09-Settings/Organization unit/mat_car
 
 WebUI.delay(GlobalVariable.delay_2s)
 
-WebUI.navigateToUrl('lab.everleagues.com')
+WebUI.navigateToUrl(lab_url)
 
 WebUI.delay(GlobalVariable.delay_2s)
 

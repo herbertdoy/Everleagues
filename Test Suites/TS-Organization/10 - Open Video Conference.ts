@@ -24,6 +24,12 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/10 - Open Video Conference/02 - Invalid email</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>87af54e2-f3a5-494a-abd2-2845837e0453</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>0611a39e-52ad-430d-b8e7-15dc9d36c86e</guid>
@@ -31,6 +37,12 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/10 - Open Video Conference/03 - Invalid phone number</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>3dba7bc8-39d8-4883-a1c3-0e192653c569</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>81693fe5-0a3a-4cc5-b2ca-c371766bed07</guid>
@@ -38,6 +50,30 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/10 - Open Video Conference/04 - Schedule a Meeting(Now)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>a97f70ee-871e-483d-b44a-d2d1bdf2fe2c</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>0e164382-f8c6-4b69-b5f2-e9b2acbee8f4</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>1b60fe72-0369-435d-b051-2daca59b805b</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>85cf10a8-fe6d-4f3e-bb2d-7e091e3a3455</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>a169484a-d81f-4b93-9197-091a167d52a6</guid>
@@ -45,5 +81,23 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/10 - Open Video Conference/05 - Schedule a Meeting(Schedule)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>4b077720-344b-4e85-996c-4e9e92950ead</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>836850b3-e373-4267-a971-0fde5f0d0a6e</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>bf53f469-3f3d-465a-b6df-85af36308a28</variableId>
+      </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

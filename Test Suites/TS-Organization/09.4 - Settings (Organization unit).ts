@@ -17,6 +17,12 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/09 - Settings/19 - Organization unit - Add Organization unit</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>8ed86cbe-53be-4412-b16d-fd610ddbba54</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>16f91311-484e-4c93-9448-9ff0b4d130f3</guid>
@@ -24,6 +30,18 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/09 - Settings/20 - Organization unit - Join Request Link</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>916a103e-18b6-430b-bd09-1a8ef87c4fb5</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>df310d85-6eea-4bb9-83b7-7c5a9db3e906</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>0db04406-35ab-4881-abe6-f7abd6fd0574</guid>
@@ -31,6 +49,18 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/09 - Settings/21 - Organization unit - Edit Oganization unit</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>77a1b73f-ad83-43f0-a5c2-4100b2596594</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>08041d8d-2a95-44a1-b26b-fe1b0f5f6611</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>2ccaba15-a8ef-4018-94e0-2cc10d9b5049</guid>

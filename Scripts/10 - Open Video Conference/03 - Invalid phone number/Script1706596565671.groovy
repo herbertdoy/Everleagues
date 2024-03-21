@@ -21,7 +21,7 @@ WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.verifyElementVisible(findTestObject('10-Open Video Conference/h5_New Guests'))
 
-WebUI.setText(findTestObject('10-Open Video Conference/input_emailPhonenumber'), '+123456789')
+WebUI.setText(findTestObject('10-Open Video Conference/input_emailPhonenumber'), invalid_phone)
 
 WebUI.verifyElementVisible(findTestObject('10-Open Video Conference/mat-error_Enter a valid phone number (eg 13330001234)'))
 

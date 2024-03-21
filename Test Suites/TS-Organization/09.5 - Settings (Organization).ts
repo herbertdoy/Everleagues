@@ -17,6 +17,66 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/09 - Settings/23 - Organization - Profile Settings</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>c22c309a-cd70-4d7b-a723-2536997455a4</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>bf9c2cd3-e5b1-4d78-811a-03de10b755c1</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>a7e15687-7c04-472d-9570-9b958595680f</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>cc6174d1-ed75-4812-828b-8b91ce69bab6</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>2e289ad9-ca63-45d7-95da-fbe61431cf27</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>4bb8db3d-b914-4709-931c-780dd7ca0ded</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>1730a614-ba89-4938-bf6a-05ac1d61ee1d</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>3fad7f9b-cdbd-4500-b1e6-a2da0aca6bd3</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>7b5611a1-03ae-4088-a2fd-5c2caec93b7a</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>6726a288-1108-4102-ab0d-5d98830e90a9</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>f022f123-a0d6-4638-ae90-5744ccfd5e4f</guid>

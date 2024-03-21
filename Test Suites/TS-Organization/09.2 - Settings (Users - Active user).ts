@@ -17,6 +17,12 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/09 - Settings/06 - Users(Active User - Search user)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>9230fea4-3371-467d-ad16-3bd9ee325495</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>a72d52e5-75ee-4b97-a518-d271b1911381</guid>

@@ -61,7 +61,7 @@ WebUI.click(findTestObject('09-Settings/Users/Invited Users/div_Invited Users'))
 
 WebUI.delay(GlobalVariable.delay_2s)
 
-WebUI.setText(findTestObject('09-Settings/Users/Active User/Search field'), 'test3')
+WebUI.setText(findTestObject('09-Settings/Users/Active User/Search field'), search_test3)
 
 WebUI.delay(GlobalVariable.delay_2s)
 

@@ -84,7 +84,7 @@ WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/snack-bar-co
 
 WebUI.click(findTestObject('09-Settings/Organization/input_name'))
 
-WebUI.setText(findTestObject('09-Settings/Organization/input_name'), 'THIS IS AUTOMATION')
+WebUI.setText(findTestObject('09-Settings/Organization/input_name'), name)
 
 WebUI.delay(GlobalVariable.delay_2s)
 
@@ -96,7 +96,7 @@ WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.scrollToElement(findTestObject('09-Settings/Organization/input_name'), 0)
 
-WebUI.setText(findTestObject('09-Settings/Organization/input_name'), 'Automation Test Org')
+WebUI.setText(findTestObject('09-Settings/Organization/input_name'), name_org)
 
 WebUI.delay(GlobalVariable.delay_2s)
 
@@ -112,13 +112,13 @@ WebUI.scrollToElement(findTestObject('09-Settings/Organization/mat-card_Address'
 
 WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/mat-card_Address'))
 
-WebUI.setText(findTestObject('09-Settings/Organization/input_Street'), '4711 Hardy Street')
+WebUI.setText(findTestObject('09-Settings/Organization/input_Street'), street_name)
 
-WebUI.setText(findTestObject('09-Settings/Organization/input_City'), 'Kelowna')
+WebUI.setText(findTestObject('09-Settings/Organization/input_City'), city_name)
 
-WebUI.setText(findTestObject('09-Settings/Organization/input_Zip'), 'V1Y 8H2')
+WebUI.setText(findTestObject('09-Settings/Organization/input_Zip'), zip_name)
 
-WebUI.setText(findTestObject('09-Settings/Organization/input_State'), 'British Columbia')
+WebUI.setText(findTestObject('09-Settings/Organization/input_State'), state_name)
 
 WebUI.click(findTestObject('09-Settings/Organization/input_Country'), FailureHandling.STOP_ON_FAILURE)
 
@@ -140,27 +140,27 @@ WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/mat-card_Con
 
 WebUI.setText(findTestObject('09-Settings/Organization/input_Email'), GlobalVariable.Y_email_withoutSubscription_testuser01)
 
-WebUI.setText(findTestObject('09-Settings/Organization/input_Web'), 'google.com')
+WebUI.setText(findTestObject('09-Settings/Organization/input_Web'), web_link)
 
 WebUI.click(findTestObject('09-Settings/Organization/button_Phone'))
 
 WebUI.click(findTestObject('09-Settings/Organization/button_93'))
 
-WebUI.setText(findTestObject('09-Settings/Organization/input_phone search'), 'PH')
+WebUI.setText(findTestObject('09-Settings/Organization/input_phone search'), phone_code)
 
 WebUI.click(findTestObject('09-Settings/Organization/button_Philippines 63'))
 
-WebUI.setText(findTestObject('09-Settings/Organization/input_phone'), '9211234567')
+WebUI.setText(findTestObject('09-Settings/Organization/input_phone'), phone_number)
 
 WebUI.click(findTestObject('09-Settings/Organization/button_fax'))
 
 WebUI.click(findTestObject('09-Settings/Organization/button_93'))
 
-WebUI.setText(findTestObject('09-Settings/Organization/input_phone search'), 'PH')
+WebUI.setText(findTestObject('09-Settings/Organization/input_phone search'), phone_code)
 
 WebUI.click(findTestObject('09-Settings/Organization/button_Philippines 63'))
 
-WebUI.setText(findTestObject('09-Settings/Organization/input_fax'), '9211234567')
+WebUI.setText(findTestObject('09-Settings/Organization/input_fax'), fax_number)
 
 WebUI.delay(GlobalVariable.delay_2s)
 

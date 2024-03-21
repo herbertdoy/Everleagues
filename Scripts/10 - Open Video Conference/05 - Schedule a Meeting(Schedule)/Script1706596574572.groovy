@@ -59,11 +59,11 @@ WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.verifyElementVisible(findTestObject('10-Open Video Conference/h5_New Guests'))
 
-WebUI.setText(findTestObject('10-Open Video Conference/input_Firstname'), 'Automation')
+WebUI.setText(findTestObject('10-Open Video Conference/input_Firstname'), firstname)
 
-WebUI.setText(findTestObject('10-Open Video Conference/input_Lastname'), 'Tester')
+WebUI.setText(findTestObject('10-Open Video Conference/input_Lastname'), lastname)
 
-WebUI.setText(findTestObject('10-Open Video Conference/input_emailPhonenumber'), '+1234567890')
+WebUI.setText(findTestObject('10-Open Video Conference/input_emailPhonenumber'), phone_number)
 
 WebUI.delay(GlobalVariable.delay_2s)
 

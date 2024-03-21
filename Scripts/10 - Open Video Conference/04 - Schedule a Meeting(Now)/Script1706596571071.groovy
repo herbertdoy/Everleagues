@@ -21,7 +21,7 @@ WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.verifyElementVisible(findTestObject('10-Open Video Conference/h5_Meeting Title'))
 
-WebUI.setText(findTestObject('10-Open Video Conference/input_Meeting Title'), 'Automation Meeting')
+WebUI.setText(findTestObject('10-Open Video Conference/input_Meeting Title'), meeting_title)
 
 WebUI.click(findTestObject('10-Open Video Conference/div_Now'))
 
@@ -45,21 +45,21 @@ WebUI.verifyElementVisible(findTestObject('10-Open Video Conference/h5_New Guest
 
 WebUI.delay(GlobalVariable.delay_2s)
 
-WebUI.setText(findTestObject('10-Open Video Conference/input_Firstname'), 'Automation')
+WebUI.setText(findTestObject('10-Open Video Conference/input_Firstname'), firstname)
 
-WebUI.setText(findTestObject('10-Open Video Conference/input_Lastname'), 'Tester')
+WebUI.setText(findTestObject('10-Open Video Conference/input_Lastname'), lastname)
 
-WebUI.setText(findTestObject('10-Open Video Conference/input_emailPhonenumber'), '+1234567890')
+WebUI.setText(findTestObject('10-Open Video Conference/input_emailPhonenumber'), phone_number)
 
 WebUI.click(findTestObject('10-Open Video Conference/button_remove_new guests'))
 
 WebUI.delay(GlobalVariable.delay_2s)
 
-WebUI.setText(findTestObject('10-Open Video Conference/input_Firstname'), 'Automation')
+WebUI.setText(findTestObject('10-Open Video Conference/input_Firstname'), firstname)
 
-WebUI.setText(findTestObject('10-Open Video Conference/input_Lastname'), 'Tester')
+WebUI.setText(findTestObject('10-Open Video Conference/input_Lastname'), lastname)
 
-WebUI.setText(findTestObject('10-Open Video Conference/input_emailPhonenumber'), '+1234567890')
+WebUI.setText(findTestObject('10-Open Video Conference/input_emailPhonenumber'), phone_number)
 
 WebUI.delay(GlobalVariable.delay_2s)
 

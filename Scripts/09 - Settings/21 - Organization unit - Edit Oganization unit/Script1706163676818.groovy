@@ -65,7 +65,7 @@ WebUI.click(findTestObject('09-Settings/Organization unit/button_Edit Organizati
 WebUI.verifyElementVisible(findTestObject('09-Settings/Organization unit/mat-dialog-container_Edit Organization Unit modal'), 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('09-Settings/Organization unit/input_Edit Organization Unit_orgName'), 'Automation Organization unit EDIT')
+WebUI.setText(findTestObject('09-Settings/Organization unit/input_Edit Organization Unit_orgName'), update_organizationUnit)
 
 WebUI.delay(GlobalVariable.delay_2s)
 
@@ -80,7 +80,7 @@ WebUI.click(findTestObject('09-Settings/Users/Active User/button_ellipses'))
 
 WebUI.click(findTestObject('09-Settings/Organization unit/button_Edit Organization Unit'))
 
-WebUI.setText(findTestObject('09-Settings/Organization unit/input_Edit Organization Unit_orgName'), 'Automation Organization unit')
+WebUI.setText(findTestObject('09-Settings/Organization unit/input_Edit Organization Unit_orgName'), automation_organization)
 
 WebUI.delay(GlobalVariable.delay_2s)
 

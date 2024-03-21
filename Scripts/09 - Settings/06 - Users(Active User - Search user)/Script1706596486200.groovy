@@ -61,7 +61,7 @@ WebUI.click(findTestObject('09-Settings/Users/Active User/div_Active Users'))
 
 WebUI.delay(GlobalVariable.delay_2s)
 
-WebUI.setText(findTestObject('09-Settings/Users/Active User/Search field'), 'partner')
+WebUI.setText(findTestObject('09-Settings/Users/Active User/Search field'), search_partner)
 
 WebUI.delay(GlobalVariable.delay_2s)
 
@@ -70,6 +70,7 @@ WebUI.verifyElementVisible(findTestObject('09-Settings/Users/Active User/td_GPGG
 WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.sendKeys(findTestObject('09-Settings/Users/Active User/Search field'), Keys.chord(Keys.CONTROL, 'a'))
+
 WebUI.sendKeys(findTestObject('09-Settings/Users/Active User/Search field'), Keys.chord(Keys.BACK_SPACE))
 
 WebUI.delay(GlobalVariable.delay_2s)

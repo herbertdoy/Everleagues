@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//button[contains(@class,'mat-focus-indicator mat-stroked-button')]/following-sibling::button)[3]</value>
+         <value>//mat-icon[@ng-reflect-svg-icon='heroicons_solid:duplicate']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
