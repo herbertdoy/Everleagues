@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.setText(findTestObject('14-Income and Expense/input_CompanyName'), 'Automation Company')
+WebUI.setText(findTestObject('14-Income and Expense/input_CompanyName'), company_name)
 
 WebUI.click(findTestObject('14-Income and Expense/dropdown_CompanyType'))
 

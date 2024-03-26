@@ -23,7 +23,7 @@ WebUI.click(findTestObject('11-Cloud Files/button_rename_driver'))
 
 WebUI.verifyElementVisible(findTestObject('11-Cloud Files/modal_rename-edit'))
 
-WebUI.setText(findTestObject('11-Cloud Files/input_rename_driver_new'), 'Automation Driver EDIT')
+WebUI.setText(findTestObject('11-Cloud Files/input_rename_driver_new'), update_driver)
 
 WebUI.click(findTestObject('09-Settings/Users/Active User/button_Save'))
 
@@ -39,7 +39,7 @@ WebUI.click(findTestObject('11-Cloud Files/button_Rename'))
 
 WebUI.verifyElementVisible(findTestObject('11-Cloud Files/mat-dialog-container_RenameName nodal'))
 
-WebUI.setText(findTestObject('11-Cloud Files/input_Rename'), 'qa EDIT')
+WebUI.setText(findTestObject('11-Cloud Files/input_Rename'), rename_filename)
 
 WebUI.click(findTestObject('09-Settings/Users/Active User/button_Save'))
 

@@ -24,6 +24,18 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/11.2 - Cloud Files (Shared Drive)/02 - Create new driver</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>d7e9febf-5f58-4de5-9d74-ce7e953feab1</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>ff0254e3-c889-4ab0-a554-9bbee8e084c1</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>8a1c93a1-abed-4cea-b06a-5ca45c51a438</guid>
@@ -31,6 +43,12 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/11.2 - Cloud Files (Shared Drive)/03 - Create existing driver name(Negative scenarios)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>58063cb0-3d82-4bcf-affa-dc81a2ec3426</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>4564adf2-36d0-444f-9262-d4e89dc9cd5a</guid>
@@ -45,6 +63,18 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/11.2 - Cloud Files (Shared Drive)/05 - Rename a drive and file</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>664ba548-13a7-488c-81cc-1bfe32cbb8ce</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>da7e8469-4be3-4ca0-91ff-d94cf30f3a41</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>57e97f1c-ddbe-407b-8b43-37e644436698</guid>
@@ -59,6 +89,12 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/11.2 - Cloud Files (Shared Drive)/07 - Duplicate a Folder (Negative scenario)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>b26727ed-f59f-4094-983c-606f74f25499</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>f7867e7b-59aa-42b0-b9c9-37ac5c5f5ff7</guid>

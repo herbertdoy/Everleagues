@@ -6,12 +6,11 @@
    <elementGuidId>84d64ce9-0861-4c5d-9b64-65a3b1452e83</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//span[@aria-label='🤑, money_mouth_face']//span[1]</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//div[@id='emoji-panel']/emoji-mart/section/section/emoji-category[3]/section/ngx-emoji[28]/span/span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,6 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
+      <webElementGuid>687b91c9-714e-4371-a591-f7d1324658c6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,6 +29,7 @@
       <name>ng-reflect-ng-style</name>
       <type>Main</type>
       <value>[object Object]</value>
+      <webElementGuid>606a6db1-0383-440a-bc4d-d48d25d49150</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -36,6 +37,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;msgComposer&quot;)/div[1]/div[1]/div[@class=&quot;emoji&quot;]/emoji-mart[1]/section[@class=&quot;emoji-mart&quot;]/section[@class=&quot;emoji-mart-scroll&quot;]/emoji-category[@class=&quot;ng-star-inserted&quot;]/section[@class=&quot;emoji-mart-category&quot;]/ngx-emoji[@class=&quot;ng-star-inserted&quot;]/span[@class=&quot;emoji-mart-emoji ng-star-inserted&quot;]/span[1]</value>
+      <webElementGuid>897f6dec-0bc0-47dd-9fbb-ad8dd72859c1</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -43,6 +45,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='msgComposer']/div/div/div[2]/emoji-mart/section/section/emoji-category[3]/section/ngx-emoji/span/span</value>
+      <webElementGuid>8524d75b-6249-4b66-8f08-74d0acc34095</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -50,6 +53,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Search'])[1]/following::span[23]</value>
+      <webElementGuid>1c6cb79a-4c31-46d2-8b2c-186dd1e537d9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -57,6 +61,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Message...'])[1]/following::span[50]</value>
+      <webElementGuid>8849af3c-68ee-4716-bd65-7cae69718785</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -64,6 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Grinning Face'])[1]/preceding::span[2823]</value>
+      <webElementGuid>1b946a86-f9aa-46f8-90d6-76e18d1a27a6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,6 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)=':grinning:'])[1]/preceding::span[2823]</value>
+      <webElementGuid>fa9fa5d1-2331-4501-bdbe-53bb1d3340c8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,5 +85,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//emoji-category[3]/section/ngx-emoji/span/span</value>
+      <webElementGuid>d82fbd91-f9a4-47be-8a3f-47ae6524c90f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

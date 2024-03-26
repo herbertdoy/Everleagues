@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.setText(findTestObject('14-Income and Expense/input_VendorName'), 'GG Vendor')
+WebUI.setText(findTestObject('14-Income and Expense/input_VendorName'), vendor_name)
 
 WebUI.click(findTestObject('14-Income and Expense/input_AccountType'))
 
@@ -27,9 +27,9 @@ WebUI.click(findTestObject('14-Income and Expense/button_Receipt Date'))
 
 WebUI.clickOffset(findTestObject('14-Income and Expense/button_Receipt Date'), 10, 10)
 
-WebUI.setText(findTestObject('14-Income and Expense/input_Amount'), '30000')
+WebUI.setText(findTestObject('14-Income and Expense/input_Amount'), add_amount)
 
-WebUI.setText(findTestObject('14-Income and Expense/input_AddANote'), 'Receipt Note')
+WebUI.setText(findTestObject('14-Income and Expense/input_AddANote'), add_note)
 
 CustomKeywords.'uploadpackage.Upload.uploadFile'(findTestObject('Object Repository/14-Income and Expense/div_Required_uploadfilecontainer'), 
     GlobalVariable.upload_pdf_file)

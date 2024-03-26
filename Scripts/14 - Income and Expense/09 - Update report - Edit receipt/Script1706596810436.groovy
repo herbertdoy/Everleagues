@@ -27,7 +27,7 @@ WebUI.click(findTestObject('14-Income and Expense/button_edit'))
 
 WebUI.verifyElementVisible(findTestObject('14-Income and Expense/mat-dialog-container_Edit receipt Modal'))
 
-WebUI.setText(findTestObject('14-Income and Expense/input_VendorName'), 'GG Automation Edit')
+WebUI.setText(findTestObject('14-Income and Expense/input_VendorName'), update_vendorName)
 
 WebUI.sendKeys(findTestObject('14-Income and Expense/input_VendorName'), Keys.chord(Keys.ESCAPE))
 
@@ -35,9 +35,9 @@ WebUI.click(findTestObject('14-Income and Expense/input_AccountType'))
 
 WebUI.click(findTestObject('14-Income and Expense/mat-option_2000-Furniture and Equipment'))
 
-WebUI.setText(findTestObject('14-Income and Expense/input_Amount'), '40000')
+WebUI.setText(findTestObject('14-Income and Expense/input_Amount'), update_amount)
 
-WebUI.setText(findTestObject('14-Income and Expense/input_AddANote'), 'Receipt Note Edit')
+WebUI.setText(findTestObject('14-Income and Expense/input_AddANote'), update_receiptNote)
 
 WebUI.delay(GlobalVariable.delay_2s)
 

@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.setText(findTestObject('13-EL Sign/input_documentTitle'), 'sample.pdf')
+WebUI.setText(findTestObject('13-EL Sign/input_documentTitle'), document_title)
 
 WebUI.click(findTestObject('13-EL Sign/button_UPLOAD'))
 

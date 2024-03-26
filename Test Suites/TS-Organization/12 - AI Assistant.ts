@@ -31,6 +31,12 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/12 - AI assistant (beta)/03 - ChatGPT - Ask EL Chat GPT</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>047c12f6-7b3c-407b-937e-4160e3bc58b5</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>241c6995-98ac-486d-9bbf-e9ee6eff0a55</guid>

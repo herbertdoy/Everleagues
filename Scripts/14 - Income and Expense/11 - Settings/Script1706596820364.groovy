@@ -29,7 +29,7 @@ WebUI.click(findTestObject('14-Income and Expense/button_settings'))
 
 WebUI.delay(GlobalVariable.delay_2s)
 
-WebUI.setText(findTestObject('14-Income and Expense/input_CompanyName'), 'Automation Company Edit')
+WebUI.setText(findTestObject('14-Income and Expense/input_CompanyName'), update_companyName)
 
 WebUI.click(findTestObject('14-Income and Expense/dropdown_CompanyType'))
 

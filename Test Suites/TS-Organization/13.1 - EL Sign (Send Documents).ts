@@ -24,6 +24,12 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/13 - EL Sign/02 - Send Documents(Upload a file-fill out required field)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>b290e8b5-8495-46c9-a6b9-8273fbfd99be</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>ee823e80-8858-42d2-9fe1-32fb61145150</guid>

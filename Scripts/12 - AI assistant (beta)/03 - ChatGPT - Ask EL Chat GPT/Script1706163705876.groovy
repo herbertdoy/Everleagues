@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.setText(findTestObject('12-AI Assistant(beta)/12.1-Chat GPT(beta)/Ask me anything input field'), '1+1')
+WebUI.setText(findTestObject('12-AI Assistant(beta)/12.1-Chat GPT(beta)/Ask me anything input field'), input_value)
 
 WebUI.click(findTestObject('12-AI Assistant(beta)/12.1-Chat GPT(beta)/Ask ChatGPT button'))
 

@@ -59,7 +59,7 @@ WebUI.verifyElementNotClickable(findTestObject('09-Settings/Users/CSV Invite/but
 
 WebUI.delay(GlobalVariable.delay_2s)
 
-CustomKeywords.'com.kms.katalon.keyword.uploadfile.UploadFile.uploadFile'(findTestObject('Object Repository/09-Settings/Users/CSV Invite/button_Choose File'), 
+CustomKeywords.'uploadpackage.Upload.uploadFile'(findTestObject('Object Repository/09-Settings/Users/CSV Invite/button_Choose File'), 
     GlobalVariable.upload_csv_file)
 
 WebUI.delay(GlobalVariable.delay_2s)

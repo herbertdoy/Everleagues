@@ -42,3 +42,5 @@ WebUI.clearText(findTestObject('11-Cloud Files/input_Search cloudfiles'))
 
 WebUI.click(findTestObject('11-Cloud Files/button_back'))
 
+WebUI.refresh()
+
