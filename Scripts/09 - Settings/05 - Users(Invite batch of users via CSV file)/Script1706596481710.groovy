@@ -57,7 +57,7 @@ WebUI.verifyElementVisible(findTestObject('09-Settings/Users/CSV Invite/modal_Im
 
 WebUI.verifyElementNotClickable(findTestObject('09-Settings/Users/CSV Invite/button_Import'))
 
-WebUI.delay(GlobalVariable.delay_2s)
+WebUI.delay(GlobalVariable.delay_3s)
 
 CustomKeywords.'uploadpackage.Upload.uploadFile'(findTestObject('Object Repository/09-Settings/Users/CSV Invite/button_Choose File'), 
     GlobalVariable.upload_csv_file)

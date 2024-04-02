@@ -6,16 +6,16 @@
    <elementGuidId>2856506e-9609-4158-a143-b186a278baae</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//button[@type = 'button' and (text() = 'Choose File' or . = 'Choose File')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
-         <value>//input[@accept='.csv']</value>
+         <value>(//button[contains(@class,'mat-focus-indicator mat-raised-button')]//span)[1]</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>button.mat-focus-indicator.mat-raised-button.mat-button-base.mat-primary.cdk-focused.cdk-mouse-focused</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//button[@type = 'button' and (text() = 'Choose File' or . = 'Choose File')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -26,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>70402aa5-06f4-4cc8-b836-0eefbae5c37b</webElementGuid>
+      <webElementGuid>7ad21849-c04b-48fc-bf97-37fbc1db097a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -34,7 +34,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>404f9e57-cf5c-4572-b8ac-f333c759c585</webElementGuid>
+      <webElementGuid>724b919e-0256-477b-8ccd-5277a852dbe8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,7 +42,7 @@
       <name>color</name>
       <type>Main</type>
       <value>primary</value>
-      <webElementGuid>5dc1a6f2-5a17-4648-bfd5-35fcb72459d9</webElementGuid>
+      <webElementGuid>af4dc154-089d-4c69-8c6f-64ec688b23a7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,7 +50,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-focus-indicator mat-raised-button mat-button-base mat-primary cdk-focused cdk-mouse-focused</value>
-      <webElementGuid>90d9f0aa-56f0-4e8f-aee1-cf8c44f4d454</webElementGuid>
+      <webElementGuid>30c6aa1e-e150-4ef6-8f19-61b828a54102</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -58,7 +58,7 @@
       <name>ng-reflect-color</name>
       <type>Main</type>
       <value>primary</value>
-      <webElementGuid>a2664e45-0241-4b2a-b5c1-9306478acb44</webElementGuid>
+      <webElementGuid>93ffaa36-d610-4ab6-a8b7-95179307bb2c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -66,7 +66,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Choose File</value>
-      <webElementGuid>ba604389-ef4d-49a1-a614-aad15ad5537d</webElementGuid>
+      <webElementGuid>b19649e1-258c-48c8-bdf9-0f322a4ae5f9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -74,7 +74,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-dialog-2&quot;)/app-dialog-csv-invite[@class=&quot;ng-star-inserted&quot;]/section[@class=&quot;dialog-container&quot;]/div[@class=&quot;mat-dialog-content ng-star-inserted&quot;]/div[@class=&quot;file-container&quot;]/div[1]/button[@class=&quot;mat-focus-indicator mat-raised-button mat-button-base mat-primary cdk-focused cdk-mouse-focused&quot;]</value>
-      <webElementGuid>71f3650f-7710-41d1-a93f-066dd3f38012</webElementGuid>
+      <webElementGuid>58100261-eceb-4c6a-a971-c1e943ad9263</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -82,7 +82,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[27]</value>
-      <webElementGuid>736ec83e-6bcc-4ec1-a0be-2e5806ecea68</webElementGuid>
+      <webElementGuid>2c84dc00-cff2-4be2-97f8-8236d5588330</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -90,7 +90,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-dialog-container[@id='mat-dialog-2']/app-dialog-csv-invite/section/div/div[2]/div/button</value>
-      <webElementGuid>255d7dfc-2b3c-4b2f-a2e0-58ef1f8d5ff2</webElementGuid>
+      <webElementGuid>0ac2a5a5-5df3-4e21-9946-7a8756d5c40c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,7 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='here'])[1]/following::button[1]</value>
-      <webElementGuid>dc1f1555-2501-43f4-b92c-3465abc25f09</webElementGuid>
+      <webElementGuid>9fa4b4f9-4d18-4fd3-a9cf-2ab6e9313de9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,7 +106,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Import CSV File'])[1]/following::button[1]</value>
-      <webElementGuid>7df75b7b-afe0-4a07-b2b5-bd369f884b74</webElementGuid>
+      <webElementGuid>7cb123e5-6440-4bfd-9f99-eec851e8b518</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -114,7 +114,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='No file chosen'])[1]/preceding::button[1]</value>
-      <webElementGuid>0cfbaa81-3074-4f85-b0b5-8d4aba1a1e5e</webElementGuid>
+      <webElementGuid>3de88f3d-62d0-4313-b9e3-6e05247230a0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -122,7 +122,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//section/div/div[2]/div/button</value>
-      <webElementGuid>783f082e-ce94-4b02-ac6f-8176af68112b</webElementGuid>
+      <webElementGuid>fd7e8cfa-efcc-42f3-8d7a-9a46afb3e75f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -130,6 +130,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = 'Choose File' or . = 'Choose File')]</value>
-      <webElementGuid>f80f15b7-ca4c-4868-b9eb-a1ec05425df3</webElementGuid>
+      <webElementGuid>5672a0de-d5bc-452e-af4b-45d3ea268e25</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
