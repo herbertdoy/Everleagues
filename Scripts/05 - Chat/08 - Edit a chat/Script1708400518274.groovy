@@ -25,7 +25,7 @@ WebUI.click(findTestObject('05-Chat/Edit chat/button_Edit'))
 
 WebUI.delay(GlobalVariable.delay_2s)
 
-WebUI.setText(findTestObject('05-Chat/Edit chat/textarea_editChatfield'), 'Testing automation EDIT')
+WebUI.setText(findTestObject('05-Chat/Edit chat/textarea_editChatfield'), update_text_message)
 
 WebUI.delay(GlobalVariable.delay_2s)
 

@@ -31,7 +31,7 @@ WebUI.verifyElementVisible(findTestObject('05-Chat/10-Export Chat/mat-hint_Defau
 
 WebUI.delay(GlobalVariable.delay_2s)
 
-WebUI.setText(findTestObject('05-Chat/10-Export Chat/input_Each export is limited to 100 messages_filename'), 'chat export')
+WebUI.setText(findTestObject('05-Chat/10-Export Chat/input_Each export is limited to 100 messages_filename'), export_name)
 
 WebUI.click(findTestObject('05-Chat/10-Export Chat/input_Default filename will be used if left empty_locationName'), FailureHandling.CONTINUE_ON_FAILURE)
 

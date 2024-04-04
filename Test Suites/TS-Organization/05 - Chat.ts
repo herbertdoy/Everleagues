@@ -17,6 +17,12 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/05 - Chat/01 - Creating a Chat group</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>6970665f-a3c3-41a3-84c8-24235704d991</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>609d7462-ad70-490e-95b8-62657ac5a4e1</guid>
@@ -24,6 +30,12 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/05 - Chat/02 - Sending chat messages</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>1e3df220-7efa-4570-b4d9-7c040bf42d4c</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>5c68afe3-1f3f-4c08-9185-8c5e69c7fba2</guid>
@@ -59,6 +71,12 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/05 - Chat/07 - Reply on a message</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>53e4997b-34c5-4352-915f-edd5a770773f</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>61c671da-0a7a-4ba1-99ec-9811627fcd6a</guid>
@@ -66,6 +84,12 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/05 - Chat/08 - Edit a chat</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>ef669cf3-41bf-4a92-9f3a-03326214aa17</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>f0e9da83-3040-4613-bf9d-25001abf4613</guid>
@@ -101,6 +125,18 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/05 - Chat/13 - Hiding a chat</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>4da9c259-eeb0-4a83-a4db-64b66bac3452</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>36b96ef2-fee3-463c-a59d-95b254b6755d</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>c615b31d-d65b-4861-bcb8-7e6474368664</guid>
@@ -108,6 +144,12 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/05 - Chat/14 - Export Chat</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>39986142-9d9c-485a-a335-001e2d9cf668</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>68bf47ce-e440-4909-9f75-884bc7c0b461</guid>
@@ -115,5 +157,11 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/05 - Chat/15 - Group Info</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>98fb27a3-bdaf-4d09-aac6-23d03a286ec3</variableId>
+      </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

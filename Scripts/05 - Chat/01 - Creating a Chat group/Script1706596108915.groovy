@@ -65,7 +65,7 @@ WebUI.verifyElementVisible(findTestObject('05-Chat/01- Creating a Chat group/spa
 
 WebUI.delay(GlobalVariable.delay_1s)
 
-WebUI.setText(findTestObject('05-Chat/01- Creating a Chat group/input_newGroupName'), 'Automation Chat')
+WebUI.setText(findTestObject('05-Chat/01- Creating a Chat group/input_newGroupName'), new_groupname)
 
 WebUI.click(findTestObject('05-Chat/01- Creating a Chat group/div_GTGG tester'))
 

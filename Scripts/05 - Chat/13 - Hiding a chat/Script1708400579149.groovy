@@ -43,7 +43,7 @@ WebUI.delay(GlobalVariable.delay_1s)
 
 WebUI.click(findTestObject('05-Chat/09-Hiding a chat/button_search'))
 
-WebUI.setText(findTestObject('05-Chat/09-Hiding a chat/input_search'), 'Auto')
+WebUI.setText(findTestObject('05-Chat/09-Hiding a chat/input_search'), search_groupname)
 
 WebUI.delay(GlobalVariable.delay_2s)
 
@@ -51,7 +51,7 @@ WebUI.click(findTestObject('05-Chat/02-Sending chat messages/div_AC'))
 
 WebUI.delay(GlobalVariable.delay_2s)
 
-WebUI.setText(findTestObject('05-Chat/02-Sending chat messages/textarea__msg'), 'Test auto')
+WebUI.setText(findTestObject('05-Chat/02-Sending chat messages/textarea__msg'), text_message)
 
 WebUI.click(findTestObject('05-Chat/02-Sending chat messages/button_send'))
 
