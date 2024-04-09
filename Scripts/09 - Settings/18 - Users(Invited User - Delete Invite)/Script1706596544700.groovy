@@ -44,6 +44,9 @@ WebUI.click(findTestObject('09-Settings/Users/Invited Users/button_deleteInvite'
 WebUI.click(findTestObject('09-Settings/Users/Active User/button_Delete'))
 
 WebUI.delay(GlobalVariable.delay_2s)
+WebUI.click(findTestObject('09-Settings/Users/Invited Users/button_deleteInvite'))
+
+WebUI.click(findTestObject('09-Settings/Users/Active User/button_Delete'))
 
 WebUI.delay(GlobalVariable.delay_3s)
 

@@ -58,6 +58,12 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/13 - EL Sign/06 - Send Documents(Select labels and drag)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>06d26be1-1536-4a77-ba3f-4870cf6c1245</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>6a5d3d25-6d58-44bd-84b3-5341c17bc75f</guid>

@@ -65,7 +65,7 @@ WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.setText(findTestObject('13-EL Sign/input_CC email'), GlobalVariable.Y_email_withoutSubscription_testuser01)
 
-WebUI.setText(findTestObject('13-EL Sign/input_Subject'), 'You have a new ELSign document TEST')
+WebUI.setText(findTestObject('13-EL Sign/input_Subject'), inputSubject)
 
 WebUI.delay(GlobalVariable.delay_2s)
 

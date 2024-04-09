@@ -17,6 +17,18 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/13 - EL Sign/10 - Received Documents(Sign a Document)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>8956e6fc-d673-4928-b129-2275ff06e57b</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>1adda78c-9422-4928-9266-fb28f66f9d80</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>d763bdb2-551f-45fd-b77b-c8410075d0b0</guid>

@@ -45,7 +45,7 @@ WebUI.verifyElementPresent(findTestObject('09-Settings/Organization unit/snack-b
 
 WebUI.delay(GlobalVariable.delay_3s)
 
-String my_clipboard = Toolkit.getDefaultToolkit().getSystemClipboard().getContents(null).getTransferData(DataFlavor.stringFlavor)
+String clipboard = Toolkit.getDefaultToolkit().getSystemClipboard().getContents(null).getTransferData(DataFlavor.stringFlavor)
 
 WebUI.navigateToUrl(clipboard)
 

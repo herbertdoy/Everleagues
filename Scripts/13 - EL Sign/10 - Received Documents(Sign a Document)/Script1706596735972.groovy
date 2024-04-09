@@ -81,7 +81,7 @@ WebUI.verifyElementVisible(findTestObject('13-EL Sign/mat-dialog-container_Initi
 
 WebUI.delay(GlobalVariable.delay_2s)
 
-WebUI.setText(findTestObject('13-EL Sign/input_Initial'), 'GT Initial')
+WebUI.setText(findTestObject('13-EL Sign/input_Initial'), initial)
 
 WebUI.delay(GlobalVariable.delay_2s)
 
@@ -95,7 +95,7 @@ WebUI.verifyElementVisible(findTestObject('13-EL Sign/mat-dialog-container_Signa
 
 WebUI.click(findTestObject('13-EL Sign/checkbox_type'))
 
-WebUI.setAlertText('GG TESTER Signature')
+WebUI.setAlertText(signature)
 
 WebUI.acceptAlert()
 
