@@ -55,7 +55,7 @@ WebUI.verifyElementPresent(findTestObject('09-Settings/Organization unit/mat_car
 
 WebUI.delay(GlobalVariable.delay_2s)
 
-WebUI.navigateToUrl(lab_url)
+WebUI.navigateToUrl(lab_URL)
 
 WebUI.delay(GlobalVariable.delay_2s)
 

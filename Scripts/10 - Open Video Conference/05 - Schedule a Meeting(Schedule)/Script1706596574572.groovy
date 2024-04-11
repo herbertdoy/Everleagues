@@ -23,7 +23,7 @@ WebUI.verifyElementVisible(findTestObject('10-Open Video Conference/h5_Meeting T
 
 WebUI.click(findTestObject('10-Open Video Conference/div_Schedule'))
 
-WebUI.setText(findTestObject('10-Open Video Conference/input_Meeting Title'), GlobalVariable.meeting_title)
+WebUI.setText(findTestObject('10-Open Video Conference/input_Meeting Title'), title_meeting)
 
 WebUI.delay(GlobalVariable.delay_2s)
 
