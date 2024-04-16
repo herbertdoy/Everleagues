@@ -32,7 +32,7 @@ WebUI.click(findTestObject('11-Cloud Files/button_Confirm'))
 
 WebUI.delay(GlobalVariable.delay_2s)
 
-WebUI.setText(findTestObject('11-Cloud Files/input_Search cloudfiles'), 'Automation folder')
+WebUI.setText(findTestObject('11-Cloud Files/input_Search cloudfiles'), search_folder)
 
 WebUI.sendKeys(findTestObject('11-Cloud Files/input_Search cloudfiles'), Keys.chord(Keys.ENTER))
 

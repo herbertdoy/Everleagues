@@ -24,6 +24,18 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/11.1 - Cloud Files (My Drive)/02 - Create new folder</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>f67391a0-c069-450f-92db-39f00af15976</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>3372536a-a9a8-456a-82dd-6e8a3849c3d4</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>8fbbbd52-7639-43cb-bd60-56341f78ede7</guid>
@@ -31,6 +43,12 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/11.1 - Cloud Files (My Drive)/03 - Create existing folder name(Negative scenario)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>5cb45229-4a3d-48ba-bb83-6af024500bd4</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>fcd2ef9e-ac18-49e3-afe0-a1e97b560af6</guid>
@@ -38,6 +56,12 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/11.1 - Cloud Files (My Drive)/04 - Upload Local File</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>1b9cdc35-f979-46b8-8bcd-81481059c136</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>d1cad906-9c38-4a11-8b7e-dc777edc52ce</guid>
@@ -45,6 +69,18 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/11.1 - Cloud Files (My Drive)/05 - Rename a folder and file</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>96a55f8b-23c3-435d-bf8d-3255b786fa36</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>a6de2a9c-ef80-47e3-80ed-3033beca125d</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>eb72949e-a5ca-4e7a-b492-c0b7df5f11b2</guid>

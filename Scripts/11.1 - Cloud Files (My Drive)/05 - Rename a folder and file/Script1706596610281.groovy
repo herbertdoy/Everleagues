@@ -25,7 +25,7 @@ WebUI.click(findTestObject('11-Cloud Files/button_Rename'))
 
 WebUI.verifyElementVisible(findTestObject('11-Cloud Files/mat-dialog-container_RenameName nodal'))
 
-WebUI.setText(findTestObject('11-Cloud Files/input_Rename'), 'Automation folder EDIT')
+WebUI.setText(findTestObject('11-Cloud Files/input_Rename'), update_folder)
 
 WebUI.click(findTestObject('09-Settings/Users/Active User/button_Save'))
 
@@ -39,7 +39,7 @@ WebUI.click(findTestObject('11-Cloud Files/button_Rename'))
 
 WebUI.verifyElementVisible(findTestObject('11-Cloud Files/mat-dialog-container_RenameName nodal'))
 
-WebUI.setText(findTestObject('11-Cloud Files/input_Rename'), 'qa EDIT')
+WebUI.setText(findTestObject('11-Cloud Files/input_Rename'), rename_file)
 
 WebUI.click(findTestObject('09-Settings/Users/Active User/button_Save'))
 

@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.click(findTestObject('11-Cloud Files/button_create_new_folderNew Folder'))
 
-WebUI.setText(findTestObject('11-Cloud Files/input_folderName'), 'Automation folder 2')
+WebUI.setText(findTestObject('11-Cloud Files/input_folderName'), new_folder_2)
 
 WebUI.click(findTestObject('11-Cloud Files/button_Create'))
 
