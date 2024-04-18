@@ -19,6 +19,10 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
+WebUI.refresh()
+
+WebUI.delay(GlobalVariable.delay_3s)
+
 WebUI.navigateToUrl(GlobalVariable.URL_lab)
 
 WebUI.maximizeWindow()
@@ -78,6 +82,10 @@ WebUI.callTestCase(findTestCase('01 - Login and Forgot Password/05 - Logout'), [
 WebUI.closeBrowser()
 
 WebUI.openBrowser('')
+
+WebUI.refresh()
+
+WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.navigateToUrl(GlobalVariable.URL_lab)
 

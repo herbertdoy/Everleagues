@@ -79,6 +79,10 @@ WebUI.closeBrowser()
 
 WebUI.openBrowser('')
 
+WebUI.refresh()
+
+WebUI.delay(GlobalVariable.delay_3s)
+
 WebUI.navigateToUrl(GlobalVariable.URL_lab)
 
 WebUI.maximizeWindow()
