@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='msgid-1714018565396']/ui-chat-message/div/div/div[3]/div[2]/button/span/mat-icon</value>
+         <value>//button[@type = 'button' and (text() = 'expand_less' or . = 'expand_less')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>3eb1a717-649a-44e4-9646-d43878372f57</webElementGuid>
+      <webElementGuid>3993ce9a-5cde-4778-9678-73abc748a1b4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>aria-haspopup</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>f4e77f93-4602-4996-9f0c-63fd1e74bc40</webElementGuid>
+      <webElementGuid>b620c818-3bfd-4d3d-9296-0ebff7f079f2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>9a3e2981-d9d8-4604-89f0-9df368c21f5d</webElementGuid>
+      <webElementGuid>d5861409-426f-4ed7-b2f7-07a7e9f1272e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-focus-indicator mat-menu-trigger mat-icon-button mat-button-base ng-star-inserted cdk-focused cdk-mouse-focused</value>
-      <webElementGuid>96c526e4-92d3-4b0b-b6d3-d286f240f4b4</webElementGuid>
+      <webElementGuid>39a62820-8f87-4425-8004-ac5107c91c5e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>ng-reflect-menu</name>
       <type>Main</type>
       <value>[object Object]</value>
-      <webElementGuid>f523bd87-69be-426d-8c50-99630f8bd48d</webElementGuid>
+      <webElementGuid>82661219-39ce-4eaf-9df5-f90ddc7f785e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -62,7 +62,7 @@
       <name>text</name>
       <type>Main</type>
       <value>expand_less</value>
-      <webElementGuid>eedc0cbe-9ce8-49f8-b135-6deec76f42c2</webElementGuid>
+      <webElementGuid>75b51b30-ee3e-4d1f-84d4-ed9c3de45309</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;msgid-1665998083630&quot;)/ui-chat-message[@class=&quot;ng-tns-c551-88&quot;]/div[@class=&quot;self ng-star-inserted&quot;]/div[@class=&quot;message&quot;]/div[@class=&quot;message-content ng-star-inserted&quot;]/div[@class=&quot;chat-controls&quot;]/button[@class=&quot;mat-focus-indicator mat-menu-trigger mat-icon-button mat-button-base ng-star-inserted cdk-focused cdk-mouse-focused&quot;]</value>
-      <webElementGuid>dbe247ae-a095-418e-b6af-db17374d1f9c</webElementGuid>
+      <webElementGuid>92e5d782-0bd4-4cdd-b31b-6b1c216637a5</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[14]</value>
-      <webElementGuid>6b91cb85-2d82-4218-ba1d-ee8abbec2d0d</webElementGuid>
+      <webElementGuid>e232ef1e-922c-4b72-8ba2-4703bf671517</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='msgid-1665998083630']/ui-chat-message/div/div/div[2]/div[2]/button</value>
-      <webElementGuid>b58e489d-3543-4891-8183-d9bd607b7f5a</webElementGuid>
+      <webElementGuid>3a75469b-0c83-4367-9607-b233d913e6d1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Testing automation'])[1]/following::button[1]</value>
-      <webElementGuid>a4584d71-19f9-4587-8967-d1f3c975642f</webElementGuid>
+      <webElementGuid>74a1baef-0fef-4307-b976-fb85fbae7458</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='You'])[2]/following::button[1]</value>
-      <webElementGuid>7c0b7778-d613-41e7-b4bc-4db00b9db35c</webElementGuid>
+      <webElementGuid>3a2b0ade-0686-4214-a3ec-64cd17f83f34</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +110,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='💖 1'])[1]/preceding::button[1]</value>
-      <webElementGuid>59dc22e1-d3c5-41e2-9cb2-855da5d24203</webElementGuid>
+      <webElementGuid>03fd3df1-c4bc-499b-8b34-7f353b2360fa</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +118,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='You'])[3]/preceding::button[1]</value>
-      <webElementGuid>7be35cfd-3699-4d73-9f77-7bd6a08eb464</webElementGuid>
+      <webElementGuid>ad25adc3-b4ec-44e9-b6fe-457d54c62338</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,7 +126,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/button</value>
-      <webElementGuid>149cc5ed-e548-4a65-a737-5fa1847c1044</webElementGuid>
+      <webElementGuid>17653b8d-573b-4579-bfbc-24c14f432748</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,6 +134,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = 'expand_less' or . = 'expand_less')]</value>
-      <webElementGuid>c2658f3c-073e-464f-931c-560663f2e4cd</webElementGuid>
+      <webElementGuid>b8b78460-f7e3-4261-849f-30885488718d</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
