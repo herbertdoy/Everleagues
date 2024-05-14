@@ -24,6 +24,18 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/01 - Login and Forgot Password/02 - Login(Wrong Email)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>219e425b-da7e-4a54-a174-9f26dec9fe9e</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>75092491-e101-4496-8170-c05467374d90</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>d97de9c6-78f3-4fec-bc41-52f897ee8810</guid>
@@ -31,6 +43,12 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/01 - Login and Forgot Password/03 - Login(Valid email, wrong pass)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>184c299c-a190-4231-87c5-41ae3343a717</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>882b7525-8955-49b6-b78b-01ae810dd393</guid>
@@ -59,6 +77,12 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/01 - Login and Forgot Password/07 - Forgot Password(Wrong email)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>d87fe297-2a02-4315-84d8-560551f3bd5c</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>dda7aed7-0846-48ee-9d92-53bb4be45497</guid>

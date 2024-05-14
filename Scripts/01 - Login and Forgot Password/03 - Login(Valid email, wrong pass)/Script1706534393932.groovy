@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.setText(findTestObject('01-Login and Forgot Password/input_email'), GlobalVariable.Y_email_withoutSubscription_testuser01)
 
-WebUI.setEncryptedText(findTestObject('01-Login and Forgot Password/input_password'), 'OxgQgnWTiECE3BxjMAl2ng==')
+WebUI.setEncryptedText(findTestObject('01-Login and Forgot Password/input_password'), input_wrongpassword)
 
 WebUI.delay(GlobalVariable.delay_2s)
 

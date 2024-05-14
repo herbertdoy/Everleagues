@@ -17,9 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.setText(findTestObject('01-Login and Forgot Password/input_email'), GlobalVariable.unregistered_email)
+WebUI.setText(findTestObject('01-Login and Forgot Password/input_email'), unregistered_email)
 
-WebUI.setEncryptedText(findTestObject('01-Login and Forgot Password/input_password'), 'pUQNV8a0dCQ=')
+WebUI.setEncryptedText(findTestObject('01-Login and Forgot Password/input_password'), input_password)
 
 WebUI.delay(GlobalVariable.delay_2s)
 

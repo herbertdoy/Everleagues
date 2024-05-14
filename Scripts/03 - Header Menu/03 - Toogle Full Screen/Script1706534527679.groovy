@@ -19,5 +19,5 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.click(findTestObject('03-Header Menu/Toggle Fullscreen/Toggle Fullscreen button'))
 
-WebUI.delay(2)
+WebUI.delay(GlobalVariable.delay_2s)
 
