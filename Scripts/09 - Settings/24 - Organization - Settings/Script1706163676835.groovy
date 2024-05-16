@@ -65,7 +65,7 @@ WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/mat-card-tit
 
 WebUI.click(findTestObject('09-Settings/Organization/toggle_My Drive for employees'))
 
-WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/snack-bar-container_My Drive disabled for employees.OK'))
+WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/snack-bar-container_My Drive enabled for employees.OK'))
 
 WebUI.click(findTestObject('09-Settings/Organization/toggle_My Drive for clients'))
 
@@ -79,7 +79,7 @@ WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('09-Settings/Organization/toggle_My Drive for employees'))
 
-WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/snack-bar-container_My Drive enabled for employees.OK'))
+WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/snack-bar-container_My Drive disabled for employees.OK'))
 
 WebUI.click(findTestObject('09-Settings/Organization/toggle_My Drive for clients'))
 
