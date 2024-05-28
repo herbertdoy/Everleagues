@@ -161,7 +161,7 @@ WebUI.verifyElementVisible(findTestObject('09-Settings/Users/Co worker/Invite mo
 
 WebUI.click(findTestObject('09-Settings/Users/Co worker/button_Accept'))
 
-WebUI.delay(GlobalVariable.delay_2s)
+WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.verifyElementVisible(findTestObject('09-Settings/Users/Co worker/div_Joined as CoWorker'))
 
