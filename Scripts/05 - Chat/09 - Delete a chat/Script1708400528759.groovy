@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.mouseOver(findTestObject('05-Chat/Edit chat/div_chat2'))
 
-WebUI.click(findTestObject('05-Chat/03-05 - React and Reply/button_expand_less'))
+WebUI.click(findTestObject('05-Chat/03-05 - React and Reply/button_expand_less(3)'))
 
 WebUI.click(findTestObject('05-Chat/Delete a message/button_Delete message'))
 

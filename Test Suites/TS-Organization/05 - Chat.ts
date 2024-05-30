@@ -104,6 +104,12 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/05 - Chat/10 - Sending attached file</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>beea74f0-ecbe-407a-a603-a64e9bca2324</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>28ded651-13d2-4340-9deb-4ff82fcdb7f1</guid>
