@@ -108,6 +108,12 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/06 - Teams/18 - Teams - General Channel(attaching Video)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>57d2ff12-f52d-4a51-9ca7-131032882fc2</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>2dde5dc5-9692-4b85-bdc3-cf44f5248e15</guid>
