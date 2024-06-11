@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.click(findTestObject('05-Chat/07-Sending a video conference invite/button_videocam'))
 
-WebUI.delay(GlobalVariable.delay_1s)
+WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.click(findTestObject('05-Chat/02-Sending chat messages/button_send'))
 

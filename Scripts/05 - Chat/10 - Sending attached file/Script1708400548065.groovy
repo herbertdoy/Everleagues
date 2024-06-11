@@ -57,7 +57,7 @@ WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('05-Chat/02-Sending chat messages/button_send'))
 
-WebUI.delay(delay_10secs)
+WebUI.delay(10)
 
 'either you remove this script or you change the element coz its setup to verify the file I uploaded'
 WebUI.verifyElementVisible(findTestObject('05-Chat/06-Sending attached file/span_video.mp4'))
