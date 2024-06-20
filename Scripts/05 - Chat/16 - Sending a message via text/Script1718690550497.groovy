@@ -17,23 +17,31 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('11-Cloud Files/button_clearNotif'))
+WebUI.refresh()
 
-WebUI.rightClick(findTestObject('11-Cloud Files/td_qa EDIT'))
-
-WebUI.click(findTestObject('11-Cloud Files/button_Share'))
-
-WebUI.verifyElementVisible(findTestObject('11-Cloud Files/mat-dialog-container_ShareFiles Modal'))
-
-WebUI.click(findTestObject('11-Cloud Files/input_Add Users'))
-
-WebUI.click(findTestObject('11-Cloud Files/mat-option_GTGG tester 2'))
-
-WebUI.click(findTestObject('11-Cloud Files/mat-option_GTGG tester'))
-
-WebUI.click(findTestObject('11-Cloud Files/button_Save  Add Users'))
-
-WebUI.verifyElementVisible(findTestObject('11-Cloud Files/snack-bar-container_Shared file access updated successfully.OK'))
+WebUI.click(findTestObject('05-Chat/send a sms/button_sms'))
 
 WebUI.delay(GlobalVariable.delay_3s)
+
+WebUI.verifyElementVisible(findTestObject('05-Chat/send a sms/modal_send_sms'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.click(findTestObject('05-Chat/send a sms/code_num'))
+
+WebUI.setText(findTestObject('05-Chat/send a sms/search_country'), 'PH')
+
+WebUI.click(findTestObject('05-Chat/send a sms/button_Philippines 63'))
+
+WebUI.click(findTestObject('05-Chat/send a sms/input_Send SMS_mat-input-8'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.click(findTestObject('05-Chat/send a sms/textarea_Phone Number_smsMessage'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.verifyElementVisible(findTestObject('05-Chat/send a sms/mat-error_Enter a valid phone number'))
+
+WebUI.setText(findTestObject('05-Chat/send a sms/input_Send SMS_mat-input-8'), '9213456743')
+
+WebUI.setText(findTestObject('05-Chat/send a sms/textarea_Phone Number_smsMessage'), 'send test via sms')
+
+WebUI.click(findTestObject('05-Chat/send a sms/button_Send'))
+
+WebUI.closeBrowser()
 

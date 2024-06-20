@@ -23,7 +23,7 @@ WebUI.click(findTestObject('11-Cloud Files/button_Share'))
 
 WebUI.verifyElementVisible(findTestObject('11-Cloud Files/mat-dialog-container_ShareFiles Modal'))
 
-WebUI.delay(GlobalVariable.delay_2s)
+WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.click(findTestObject('11-Cloud Files/mat-icon_close'))
 
@@ -39,7 +39,7 @@ WebUI.click(findTestObject('11-Cloud Files/mat-option_GTGG tester'))
 
 WebUI.click(findTestObject('10-Open Video Conference/mat-icon_cancel'))
 
-WebUI.delay(GlobalVariable.delay_2s)
+WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.click(findTestObject('11-Cloud Files/input_Add Users'))
 

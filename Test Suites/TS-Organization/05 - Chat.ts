@@ -170,4 +170,11 @@
          <variableId>98fb27a3-bdaf-4d09-aac6-23d03a286ec3</variableId>
       </variableLink>
    </testCaseLink>
+   <testCaseLink>
+      <guid>961187b6-1947-4d83-aa46-8d9e25e046df</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/05 - Chat/16 - Sending a message via text</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
 </TestSuiteEntity>

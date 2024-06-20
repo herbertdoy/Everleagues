@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>mat-error_Enter a valid phone number</name>
+   <tag></tag>
+   <elementGuidId>2e7089ba-7989-4cbb-ad6c-e62c6e8c6ffb</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#mat-error-2</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//mat-error[@id = 'mat-error-2' and (text() = 'Enter a valid phone number' or . = 'Enter a valid phone number')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>mat-error</value>
+      <webElementGuid>24b1ec99-bd03-49cf-8bd0-14eb2eced717</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-atomic</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>dbb86311-97ab-453e-bcc1-c513217c33c2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-error ng-tns-c221-67</value>
+      <webElementGuid>1604dd66-38a8-4faf-a140-abc426632f71</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-live</name>
+      <type>Main</type>
+      <value>polite</value>
+      <webElementGuid>0c1a370f-8224-41dc-b5fe-49d959aed5b4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>mat-error-2</value>
+      <webElementGuid>5a583e00-7ab4-47a2-9150-4eb1b85049ea</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Enter a valid phone number</value>
+      <webElementGuid>b5a3e038-3c0f-43e4-8d87-6f55310ed6b5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mat-error-2&quot;)</value>
+      <webElementGuid>65e29da1-7123-4e97-8dd4-72fadca3caf9</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//mat-error[@id='mat-error-2']</value>
+      <webElementGuid>649cc111-d071-43a9-9bf4-1116c9c853ec</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//mat-dialog-container[@id='mat-dialog-2']/app-sms-pop-up-content/section/form/div/div/mat-form-field/div/div[3]/div/mat-error</value>
+      <webElementGuid>4cd54f93-dbfe-4029-95b1-040deee8c66b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Phone Number'])[1]/following::mat-error[1]</value>
+      <webElementGuid>8a696d39-4521-4eaf-82a2-da89ba23c825</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Send SMS'])[2]/following::mat-error[1]</value>
+      <webElementGuid>2511c89f-b0ce-4add-b9f5-e9c3ac57d9d3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Send'])[1]/preceding::mat-error[1]</value>
+      <webElementGuid>bf506301-9bd8-4cfa-95aa-229547d55a4a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Close'])[1]/preceding::mat-error[1]</value>
+      <webElementGuid>9593036a-60aa-4ebe-921f-36a178b43ed2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Enter a valid phone number']/parent::*</value>
+      <webElementGuid>01d8ee77-f7ff-46b5-aa93-e02eb2eaa289</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//mat-error</value>
+      <webElementGuid>0d252ad6-2ba0-4886-9a8b-42338abe1b01</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//mat-error[@id = 'mat-error-2' and (text() = 'Enter a valid phone number' or . = 'Enter a valid phone number')]</value>
+      <webElementGuid>91768597-83c5-42d8-acbf-3d5c878d646a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
