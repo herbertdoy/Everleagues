@@ -27,5 +27,5 @@ WebUI.delay(10)
 
 WebUI.verifyElementVisible(findTestObject('05-Chat/07-Sending a video conference invite/div_Video Conference'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.delay(GlobalVariable.delay_2s)
+WebUI.delay(25)
 
