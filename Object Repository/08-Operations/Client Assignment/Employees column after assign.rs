@@ -7,11 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[(text() = ' Employees 
-            
-        GTGG tester 2' or . = ' Employees 
-            
-        GTGG tester 2')]</value>
+         <value>//span[(text() = 'GG tester 2' or . = 'GG tester 2')]</value>
       </entry>
       <entry>
          <key>BASIC</key>
@@ -29,7 +25,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>1c20d7aa-4b24-4ebd-8d6b-11fac0c06cac</webElementGuid>
+      <webElementGuid>4b35315c-6332-43b1-a23e-e171728c07ee</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +33,7 @@
       <name>fxflex</name>
       <type>Main</type>
       <value>20</value>
-      <webElementGuid>2f42a4bd-c3f9-483a-be37-fc6619672971</webElementGuid>
+      <webElementGuid>1cbdf180-5b1f-4f56-8826-fedb844dc3d0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +41,7 @@
       <name>fxflex.lt-lg</name>
       <type>Main</type>
       <value>25</value>
-      <webElementGuid>2289b6ea-dc20-456d-8335-1f54f373c988</webElementGuid>
+      <webElementGuid>88760710-0e5a-4462-a042-c0b4f0f3ca36</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +49,7 @@
       <name>class</name>
       <type>Main</type>
       <value>white-container</value>
-      <webElementGuid>54982a67-c12b-40cb-b294-523c450d6220</webElementGuid>
+      <webElementGuid>d997edf1-2354-4d08-8271-1dccbdce33eb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +57,7 @@
       <name>ng-reflect-fx-flex</name>
       <type>Main</type>
       <value>20</value>
-      <webElementGuid>5496d049-b44b-4c6b-b586-db474130128d</webElementGuid>
+      <webElementGuid>3cd9e022-b110-4640-b895-aa418c56e6dd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +65,7 @@
       <name>ng-reflect-fx-flex.lt-lg</name>
       <type>Main</type>
       <value>25</value>
-      <webElementGuid>334be879-7b06-4c1c-b372-04b7db9444fc</webElementGuid>
+      <webElementGuid>55d5954e-27bc-452e-b9cc-5c49d5ce1dfa</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -77,7 +73,7 @@
       <name>text</name>
       <type>Main</type>
       <value> Employees searchcancelGTGG tester 2</value>
-      <webElementGuid>ec083629-b8de-4b61-aaba-c4abcab4e173</webElementGuid>
+      <webElementGuid>9ea2a5c7-7a2d-4316-8bb9-bf5c510e4a16</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -85,7 +81,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-tab-content-5-1&quot;)/div[@class=&quot;mat-tab-body-content ng-tns-c361-406 ng-trigger ng-trigger-translateTab&quot;]/app-client-assign-by-client[@class=&quot;tab-container ng-star-inserted&quot;]/div[@class=&quot;white-container&quot;]</value>
-      <webElementGuid>d4382fdd-1081-43c6-9090-4e16ce41c4a2</webElementGuid>
+      <webElementGuid>f8f6e68a-636c-4190-bb76-4d6cbbf45d9d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -93,7 +89,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-tab-body[@id='mat-tab-content-5-1']/div/app-client-assign-by-client/div[4]</value>
-      <webElementGuid>3d82a0cd-268a-4928-8a1f-9cb5281a7bdd</webElementGuid>
+      <webElementGuid>747eb890-f588-47af-af6f-a38ed322ddfd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +97,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//app-client-assign-by-client/div[4]</value>
-      <webElementGuid>32784371-c0d0-4a5f-bd80-3c36ce31cd58</webElementGuid>
+      <webElementGuid>ea5a42c0-f777-4b4d-b080-e5d43b8a1a1a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,6 +105,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = ' Employees searchcancelGTGG tester 2' or . = ' Employees searchcancelGTGG tester 2')]</value>
-      <webElementGuid>d1c05dcc-ffeb-4890-902e-a42f50241e14</webElementGuid>
+      <webElementGuid>f05eaab6-67ad-483f-b54b-95a4caaa1873</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

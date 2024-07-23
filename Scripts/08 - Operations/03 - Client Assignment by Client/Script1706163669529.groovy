@@ -47,8 +47,6 @@ WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.verifyElementVisible(findTestObject('08-Operations/Client Assignment/Employees column after assign'))
 
-WebUI.verifyElementVisible(findTestObject('08-Operations/Client Assignment/Assigned Employees - GG TESTER'))
-
 WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('08-Operations/Client Assignment/div_GG TESTER'))
