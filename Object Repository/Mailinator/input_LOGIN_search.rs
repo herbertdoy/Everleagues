@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;search&quot;]</value>
+         <value>//input[@id='search']</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>9301f856-a4d0-47f9-88ec-61982a1b17c7</webElementGuid>
+      <webElementGuid>c739166d-15eb-4433-8cc8-7d0342de123e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>36b81311-26b1-4d90-be9f-d78fc691e7be</webElementGuid>
+      <webElementGuid>c3525352-eeef-459a-b48a-021bed8e2846</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>name</name>
       <type>Main</type>
       <value>search</value>
-      <webElementGuid>110de6e3-5e97-4f63-b71f-6cec03ae57ef</webElementGuid>
+      <webElementGuid>9809a1fb-2fd3-4755-887c-30a358c1617c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>id</name>
       <type>Main</type>
       <value>search-mobile</value>
-      <webElementGuid>923cd1a4-6087-41dd-9748-195f666d9c02</webElementGuid>
+      <webElementGuid>442b6bd0-d0ad-4588-b204-d1db549bc4b6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>Enter Public Mailinator Inbox</value>
-      <webElementGuid>d0965157-78b5-496c-8eef-6f1d52c3762b</webElementGuid>
+      <webElementGuid>769569ca-e975-416f-b1f9-1ca0694bdce4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>aria-label</name>
       <type>Main</type>
       <value>Enter public inbox</value>
-      <webElementGuid>9f7aef41-9d65-48db-8880-e2fcc87bee72</webElementGuid>
+      <webElementGuid>2f74d4a9-2237-4911-b067-a9b2b04504f1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;search-mobile&quot;)</value>
-      <webElementGuid>e4e43122-d0c4-4662-9fd1-38722719d032</webElementGuid>
+      <webElementGuid>99de327d-434b-4db1-b9ad-02a961478c05</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='search-mobile']</value>
-      <webElementGuid>e6c38f5b-b746-43b4-a3cd-390bad265638</webElementGuid>
+      <webElementGuid>7964c290-9c30-4b03-8236-20fc9d5c0000</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//header[@id='site-mobile-header']/div/div/div/div/div/input</value>
-      <webElementGuid>fa2602f7-593b-4c3f-904f-932abc1d1a9e</webElementGuid>
+      <webElementGuid>f47cd042-a47d-4135-8df5-77ca4aafb4ec</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,6 +94,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//header[2]/div/div/div/div/div/input</value>
-      <webElementGuid>70057887-feac-41b2-a812-70d51def274a</webElementGuid>
+      <webElementGuid>e24c1df6-593e-4858-a3ba-4ae43273e8c9</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

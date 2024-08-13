@@ -6,15 +6,15 @@
    <elementGuidId>d8fe46cd-d7cb-4bb7-82ee-c7727b0d005d</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//button[@type = 'button' and (text() = 'Confirm' or . = 'Confirm')]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>button.mat-focus-indicator.mat-raised-button.mat-button-base.mat-primary</value>
       </entry>
       <entry>
          <key>XPATH</key>
+         <value>//span[(text() = 'Confirm' or . = 'Confirm')]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
          <value>//button[@type = 'button' and (text() = 'Confirm' or . = 'Confirm')]</value>
       </entry>
    </selectorCollection>
@@ -26,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>6c59dca4-749d-411e-b4f5-59acd772aafe</webElementGuid>
+      <webElementGuid>4d386e4e-8d54-41d6-ae7d-a0f9a33c390a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -34,7 +34,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>d6b1243e-c32d-4ea7-893e-b324c040297e</webElementGuid>
+      <webElementGuid>fb5b9fff-6726-4282-b00c-30549dc43e42</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,7 +42,7 @@
       <name>color</name>
       <type>Main</type>
       <value>primary</value>
-      <webElementGuid>25e9c2ca-baa6-441d-9e72-c792b8180178</webElementGuid>
+      <webElementGuid>44626798-ba20-4bdb-9a00-a0d246238884</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,7 +50,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-focus-indicator mat-raised-button mat-button-base mat-primary</value>
-      <webElementGuid>1483f099-76a0-474a-b615-8052b6c4696e</webElementGuid>
+      <webElementGuid>4bce3325-75e0-4440-b870-a648e488c49a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -58,7 +58,7 @@
       <name>ng-reflect-color</name>
       <type>Main</type>
       <value>primary</value>
-      <webElementGuid>fc25b63f-8ad3-484f-96a3-cd48f793900e</webElementGuid>
+      <webElementGuid>da5bbbb0-3b91-4e7b-b34e-76eeed8321b0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -66,7 +66,7 @@
       <name>ng-reflect-disabled</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>ddf1cd81-1b1f-4d66-989c-2beefe1dbb7c</webElementGuid>
+      <webElementGuid>3193c096-67a4-4ef3-b866-f86645215e25</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -74,7 +74,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Confirm</value>
-      <webElementGuid>442a56d8-b026-4866-9c6d-aa9b46604771</webElementGuid>
+      <webElementGuid>aed1200f-ff05-452a-a100-574be597bace</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -82,7 +82,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/app-root[1]/app-verify-membership[1]/section[1]/article[1]/mat-card[@class=&quot;mat-card mat-focus-indicator&quot;]/mat-card-content[@class=&quot;mat-card-content text-center&quot;]/div[@class=&quot;ng-star-inserted&quot;]/form[@class=&quot;ng-dirty ng-touched ng-valid&quot;]/div[@class=&quot;push-top-lg&quot;]/div[@class=&quot;push-top-md&quot;]/button[@class=&quot;mat-focus-indicator mat-raised-button mat-button-base mat-primary&quot;]</value>
-      <webElementGuid>1a24f5c2-3cd3-48a7-ab22-4ecd78865180</webElementGuid>
+      <webElementGuid>06ae8b69-84d0-4f30-ad49-41a931e07297</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -90,7 +90,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//button[@type='button']</value>
-      <webElementGuid>7b1ce520-8a02-4a44-917d-195046d3b7c4</webElementGuid>
+      <webElementGuid>ab7755c5-0c6b-4670-a08c-c1b9bc7f04e4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,7 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='terms and conditions.'])[1]/following::button[1]</value>
-      <webElementGuid>c2765ae0-3567-452b-8457-d3efbce96eff</webElementGuid>
+      <webElementGuid>89520e85-af98-4964-b637-448b0faf5653</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,7 +106,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::button[1]</value>
-      <webElementGuid>e270724d-49ad-4c9d-85bb-faf4f9951166</webElementGuid>
+      <webElementGuid>c8ffdc8c-e248-4aa6-81ab-7d538ad5b4fb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -114,6 +114,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[6]/button</value>
-      <webElementGuid>42fa59fc-80ce-4774-b56a-98184b34a2fa</webElementGuid>
+      <webElementGuid>6edfeb46-3977-42c9-84d3-3f5d2317f27e</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -23,14 +23,14 @@ WebUI.navigateToUrl(GlobalVariable.URL_lab)
 
 WebUI.maximizeWindow()
 
-WebUI.callTestCase(findTestCase('01 - Login and Forgot Password/04 - Login(Valid Credentials-testuser01)'), [:], 
+WebUI.callTestCase(findTestCase('01 - Login and Forgot Password/04 - Login(Valid Credentials-testusercloudfiles)'), [:], 
     FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('06-Teams/button_doublearrow'))
+WebUI.click(findTestObject('11-Cloud Files/Arrow_btn'))
 
 WebUI.click(findTestObject('06-Teams/button_My Organizations'))
 
-WebUI.click(findTestObject('02-Side Icons/button_Automation Test Org'))
+WebUI.click(findTestObject('11-Cloud Files/button_Automation Test Org I'))
 
 WebUI.delay(GlobalVariable.delay_3s)
 

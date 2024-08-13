@@ -14,48 +14,64 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 
-WebUI.openBrowser('')
+WebUI.setText(findTestObject('01-Login and Forgot Password/input_email'), 'testusercloudfiles@yopmail.com')
 
-WebUI.navigateToUrl(GlobalVariable.URL_lab)
-
-WebUI.maximizeWindow()
-
-WebUI.callTestCase(findTestCase('01 - Login and Forgot Password/04 - Login(Valid Credentials-testuser00005)'), [:], FailureHandling.STOP_ON_FAILURE)
-WebUI.delay(GlobalVariable.delay_2s)
-
-WebUI.click(findTestObject('06-Teams/button_doublearrow'))
+WebUI.setEncryptedText(findTestObject('01-Login and Forgot Password/input_password2'), GlobalVariable.password)
 
 WebUI.delay(GlobalVariable.delay_2s)
 
-WebUI.click(findTestObject('02-Side Icons/button_My Organizations'))
+WebUI.click(findTestObject('01-Login and Forgot Password/button_Sign in'))
 
 WebUI.delay(GlobalVariable.delay_2s)
 
-WebUI.click(findTestObject('02-Side Icons/button_Automation Test Org'))
+WebUI.click(findTestObject('00-Signup and Activation/button_Confirm'))
 
 WebUI.delay(GlobalVariable.delay_2s)
 
-WebUI.verifyElementVisible(findTestObject('02-Side Icons/span_Automation Test Org (1)'))
+WebUI.executeJavaScript('window.open();', [])
+
+currentWindow = WebUI.getWindowIndex()
 
 WebUI.delay(GlobalVariable.delay_2s)
 
-WebUI.click(findTestObject('03-Header Menu/User Profile/Users Profile menu and notification button/div_User drop down menu button'))
+WebUI.switchToWindowIndex(currentWindow + 1)
 
-WebUI.delay(GlobalVariable.delay_1s)
-
-WebUI.click(findTestObject('03-Header Menu/User Profile/Users Profile menu and notification button/button_View Profile'))
+WebUI.navigateToUrl(GlobalVariable.URL_yopmail)
 
 WebUI.delay(GlobalVariable.delay_2s)
 
-WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/View Profile/div_Contact Info'))
-
-WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/View Profile/div_Profile'))
-
-WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/View Profile/div_Security'))
-
-WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/View Profile/div_Settings'))
+WebUI.setText(findTestObject('Yopmail/input_Enter your inbox here'), 'testusercloudfiles@yopmail.com')
 
 WebUI.delay(GlobalVariable.delay_2s)
+
+WebUI.click(findTestObject('Yopmail/button_Next'))
+
+WebUI.delay(GlobalVariable.delay_2s)
+
+WebUI.click(findTestObject('Yopmail/span_Everleagues Team'))
+
+WebUI.delay(GlobalVariable.delay_2s)
+
+String code = WebUI.getText(findTestObject('Yopmail/2FA code-Yopmail'))
+
+WebUI.delay(GlobalVariable.delay_2s)
+
+WebUI.closeWindowTitle(GlobalVariable.Y_windowTitle)
+
+WebUI.delay(GlobalVariable.delay_2s)
+
+WebUI.switchToWindowIndex(0)
+
+WebUI.delay(GlobalVariable.delay_2s)
+
+WebUI.setText(findTestObject('Object Repository/06-Teams/For 2FA/input_Enter verification code'), code)
+
+WebUI.delay(GlobalVariable.delay_2s)
+
+WebUI.click(findTestObject('06-Teams/For 2FA/button_Verify_2FA'))
+
+WebUI.delay(GlobalVariable.delay_3s)
 

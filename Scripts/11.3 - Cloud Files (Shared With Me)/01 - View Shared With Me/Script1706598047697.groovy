@@ -26,6 +26,17 @@ WebUI.maximizeWindow()
 
 WebUI.callTestCase(findTestCase('01 - Login and Forgot Password/04.1 - Login (For norvs email)'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
+WebUI.click(findTestObject('06-Teams/button_doublearrow'))
+
+WebUI.click(findTestObject('06-Teams/button_My Organizations'))
+
+WebUI.click(findTestObject('02-Side Icons/button_Automation Test Org'))
+
+WebUI.delay(GlobalVariable.delay_3s)
+
+WebUI.verifyElementVisible(findTestObject('02-Side Icons/span_Automation Test Org (1)'))
+
+WebUI.delay(GlobalVariable.delay_2s)
 WebUI.click(findTestObject('03-Header Menu/div_Cloud Files'))
 
 WebUI.click(findTestObject('11-Cloud Files/a_Shared With Me'))

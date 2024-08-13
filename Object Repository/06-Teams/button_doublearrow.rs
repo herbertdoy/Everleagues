@@ -7,14 +7,18 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//button[@type='button'])[2]</value>
+         <value>//div[@class='org-name-container']//button[1]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//button[@type = 'button' and @class = 'mat-focus-indicator mat-menu-trigger org-select mat-icon-button mat-button-base']</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>button.mat-focus-indicator.mat-menu-trigger.org-select.mat-icon-button.mat-button-base</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -22,6 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
+      <webElementGuid>4dc40111-4bfd-41eb-8fb2-1658b33be596</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,6 +34,7 @@
       <name>aria-haspopup</name>
       <type>Main</type>
       <value>true</value>
+      <webElementGuid>2d311f52-e0af-481e-a58e-6411d9ed4249</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -36,6 +42,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
+      <webElementGuid>15991063-d34c-4701-a638-396a948eeaa7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -43,6 +50,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-focus-indicator mat-menu-trigger org-select mat-icon-button mat-button-base</value>
+      <webElementGuid>a18f8bac-fcef-41cc-8736-1e1901f8efd2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,6 +58,7 @@
       <name>ng-reflect-menu</name>
       <type>Main</type>
       <value>[object Object]</value>
+      <webElementGuid>674db418-0115-4a33-8be9-1d9859e903e6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -57,6 +66,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/app-root[1]/app-main-page[@class=&quot;ng-tns-c479-3 ng-trigger ng-trigger-routerAnimation ng-star-inserted&quot;]/mat-sidenav-container[@class=&quot;mat-drawer-container mat-sidenav-container ng-tns-c479-3 mat-drawer-transition mat-drawer-container-has-open&quot;]/mat-sidenav[@class=&quot;mat-drawer mat-sidenav left-sidenav ng-tns-c174-4 ng-trigger ng-trigger-transform ng-star-inserted mat-drawer-side mat-drawer-opened&quot;]/div[@class=&quot;mat-drawer-inner-container ng-tns-c174-4&quot;]/header[@class=&quot;sidenav-header ng-tns-c174-4&quot;]/ui-current-ou[@class=&quot;ng-tns-c479-3&quot;]/div[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;org-name-container&quot;]/button[@class=&quot;mat-focus-indicator mat-menu-trigger org-select mat-icon-button mat-button-base&quot;]</value>
+      <webElementGuid>92b1f78e-e0b0-401d-8b24-2bb40ad3b66d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -64,6 +74,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[2]</value>
+      <webElementGuid>9b60c719-d174-446b-b8cd-d5297b0180cb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,6 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='GG Automation'])[1]/preceding::button[1]</value>
+      <webElementGuid>fcc9e13e-ae0a-4b10-a3dc-6d7e2549716b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,6 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='GA'])[1]/preceding::button[1]</value>
+      <webElementGuid>7377669a-ccd0-4f8a-9bbc-1c653e2759f7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,6 +98,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/button</value>
+      <webElementGuid>5727d3d0-1e54-4805-964a-53c9f257bc9d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -92,5 +106,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button']</value>
+      <webElementGuid>cbe75e0f-7d0f-45b8-a2a6-4ef7f3956c9b</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
