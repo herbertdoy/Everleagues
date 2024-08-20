@@ -6,12 +6,12 @@
    <elementGuidId>4917bac4-cbd1-4bc5-9dd3-87c41a5f5004</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>button.mat-focus-indicator.invite-button.mat-raised-button.mat-button-base.mat-primary</value>
+         <key>XPATH</key>
+         <value>//*/text()[normalize-space(.)='Save &amp; Add Users']/parent::*</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//button[(text() = 'Save &amp; Add Users' or . = 'Save &amp; Add Users')]</value>
+         <key>CSS</key>
+         <value>button.mat-focus-indicator.invite-button.mat-raised-button.mat-button-base.mat-primary</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>d97836bc-7943-4616-ada0-f60336f0dd31</webElementGuid>
+      <webElementGuid>2a87b796-6e37-4fe5-962f-2e648e4df409</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>fxflex</name>
       <type>Main</type>
       <value>100</value>
-      <webElementGuid>776919fa-936b-48e0-9bc7-ad5abb84c9ed</webElementGuid>
+      <webElementGuid>20c9a75f-9850-405c-b80b-9956e263f3d8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>color</name>
       <type>Main</type>
       <value>primary</value>
-      <webElementGuid>58a96fde-7452-4946-8dcb-d415298bc559</webElementGuid>
+      <webElementGuid>a4e26720-a7bb-4b7f-b2c4-32608588592d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-focus-indicator invite-button mat-raised-button mat-button-base mat-primary</value>
-      <webElementGuid>79842376-ab8d-4d0c-805d-44c19db63ca2</webElementGuid>
+      <webElementGuid>380b69cf-5909-4d28-b01f-9b3853980db1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>ng-reflect-color</name>
       <type>Main</type>
       <value>primary</value>
-      <webElementGuid>acb6018f-a212-4b26-8379-da4a2d902bca</webElementGuid>
+      <webElementGuid>c05754f2-2d43-40b7-8ae5-4eed86035b6a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>ng-reflect-fx-flex</name>
       <type>Main</type>
       <value>100</value>
-      <webElementGuid>7129ef61-4a50-4f88-bfe9-4e09f4758f8b</webElementGuid>
+      <webElementGuid>78622a9e-a189-4c08-9929-f3f913c305a0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>ng-reflect-disabled</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>db5ad92d-5085-4d6e-b9f4-727fd70f9a8d</webElementGuid>
+      <webElementGuid>b17dbcb3-81dd-4520-946c-e149ce154a5a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -78,23 +78,39 @@
       <name>text</name>
       <type>Main</type>
       <value>Save &amp; Add Users</value>
-      <webElementGuid>bbd43897-03e0-4fe6-af7f-dd3d06f65747</webElementGuid>
+      <webElementGuid>daa26862-43b7-4610-b845-fdef53823376</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;mat-dialog-0&quot;)/app-dialog-share-file-folder[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;white-container push-top-sm ng-star-inserted&quot;]/div[1]/div[@class=&quot;share-link&quot;]/div[1]/button[@class=&quot;mat-focus-indicator invite-button mat-raised-button mat-button-base mat-primary&quot;]</value>
-      <webElementGuid>c265dd54-2305-421d-b41f-d8786f9df99c</webElementGuid>
+      <value>id(&quot;mat-dialog-5&quot;)/app-dialog-share-file-folder[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;white-container push-top-sm ng-star-inserted&quot;]/div[1]/div[@class=&quot;share-link&quot;]/div[1]/button[@class=&quot;mat-focus-indicator invite-button mat-raised-button mat-button-base mat-primary&quot;]</value>
+      <webElementGuid>7f11d886-1fdc-4cf4-a0fd-71fd136530bf</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//mat-dialog-container[@id='mat-dialog-0']/app-dialog-share-file-folder/div[2]/div/div[6]/div/button</value>
-      <webElementGuid>5315d367-ddf9-4df8-b81a-912c4dedf22f</webElementGuid>
+      <value>//mat-dialog-container[@id='mat-dialog-5']/app-dialog-share-file-folder/div[2]/div/div[6]/div/button</value>
+      <webElementGuid>b68fa160-6a1c-42a8-9d22-f84aa7f6e843</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Enable activity feed to all users in the share list'])[1]/following::button[1]</value>
+      <webElementGuid>667d9875-0c5e-45b6-bc5d-1793c9533ce3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Viewer'])[2]/following::button[1]</value>
+      <webElementGuid>44ab4913-1df1-48f8-b8ed-64b918dae84c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +118,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[6]/div/button</value>
-      <webElementGuid>4ee737f2-7854-4797-a141-c87403c75c8f</webElementGuid>
+      <webElementGuid>1e6be782-fee5-4d93-a9a8-ef31c12c8502</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,6 +126,14 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[(text() = 'Save &amp; Add Users' or . = 'Save &amp; Add Users')]</value>
-      <webElementGuid>c870df85-2c4b-471e-acb3-9b65843df8dc</webElementGuid>
+      <webElementGuid>52895098-b82c-4f9b-8a8b-535882a8dda9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//mat-dialog-container[@id='mat-dialog-0']/app-dialog-share-file-folder/div[2]/div/div[6]/div/button</value>
+      <webElementGuid>1447b776-7232-48d4-af2d-e7decac43f4d</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

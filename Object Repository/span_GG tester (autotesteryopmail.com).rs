@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_GG tester (autotesteryopmail.com)</name>
+   <tag></tag>
+   <elementGuidId>fad11406-a899-44a1-be7c-288a089f7140</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>span.mat-option-text</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[(text() = ' GG tester (autotester@yopmail.com)' or . = ' GG tester (autotester@yopmail.com)')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>8629ac2d-8595-48d0-a610-bea773f1e889</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-option-text</value>
+      <webElementGuid>cd6a21d7-205a-48a0-9770-82baa46dfc04</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> GG tester (autotester@yopmail.com)</value>
+      <webElementGuid>c44449c9-640d-4f35-9be6-ea8a044beafb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mat-option-27&quot;)/span[@class=&quot;mat-option-text&quot;]</value>
+      <webElementGuid>45d33db1-0907-49b6-a904-253efbed99c3</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//mat-option[@id='mat-option-27']/span</value>
+      <webElementGuid>6f95e107-a838-420f-bdb8-7b45a3b24836</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Save'])[1]/following::span[3]</value>
+      <webElementGuid>72276b75-fc96-4f55-99f3-9c716d337574</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Enable activity feed to all users in the share list'])[1]/following::span[6]</value>
+      <webElementGuid>3c9d3c62-d9c8-4e76-a1bc-915d0e180dcc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='GG tester']/parent::*</value>
+      <webElementGuid>fada2b2a-df0d-4a7b-ae03-6c2e0ce05b16</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//mat-option/span</value>
+      <webElementGuid>a9663213-c565-4c8e-b800-077807ddc275</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = ' GG tester (autotester@yopmail.com)' or . = ' GG tester (autotester@yopmail.com)')]</value>
+      <webElementGuid>16c9d255-3e3f-4c96-b26f-c92b7d2dd0fe</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

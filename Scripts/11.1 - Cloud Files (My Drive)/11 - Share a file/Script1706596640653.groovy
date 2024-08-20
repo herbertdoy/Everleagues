@@ -31,6 +31,8 @@ WebUI.click(findTestObject('11-Cloud Files/mat-option_GTGG tester 2'))
 
 WebUI.click(findTestObject('11-Cloud Files/mat-option_GTGG tester'))
 
+WebUI.click(findTestObject('span_GG tester (autotesteryopmail.com)'))
+
 WebUI.click(findTestObject('11-Cloud Files/button_Save  Add Users'))
 
 WebUI.verifyElementVisible(findTestObject('11-Cloud Files/snack-bar-container_Shared file access updated successfully.OK'))

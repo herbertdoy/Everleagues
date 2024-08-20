@@ -10,23 +10,23 @@
          <value>//input[@type = 'text' and @name = 'groupName' and @placeholder = 'Group Name']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@data-placeholder='Group Name']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#mat-input-10</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@id='mat-input-10']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>297fbc07-0219-4f46-b731-d974795e6711</webElementGuid>
+      <webElementGuid>98aeb9dc-e0da-4fe3-bb7e-ffd9a90564f5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -34,15 +34,15 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>63e9b9bd-9a9c-479f-88a1-307d5f9c85e2</webElementGuid>
+      <webElementGuid>8710920b-b1bf-4001-a38f-19c5ff097bdd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>groupName</value>
-      <webElementGuid>c743a80a-59eb-4935-8223-799719e44345</webElementGuid>
+      <value>inputSearchContacts</value>
+      <webElementGuid>b28ec7b4-a70a-4348-9ae7-26e8d4888ae6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -57,8 +57,8 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>mat-input-element mat-form-field-autofill-control ng-tns-c231-135 cdk-text-field-autofill-monitored ng-valid ng-dirty ng-touched</value>
-      <webElementGuid>206d39ec-ba2d-4bda-a825-6a275ef4d58d</webElementGuid>
+      <value>mat-autocomplete-trigger mat-chip-input mat-input-element mat-form-field-autofill-control search-input ng-untouched ng-pristine ng-valid cdk-text-field-autofill-monitored</value>
+      <webElementGuid>45c2cb50-e3ac-4907-94cf-6e45aea8ee15</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -73,8 +73,8 @@
       <matchCondition>equals</matchCondition>
       <name>ng-reflect-name</name>
       <type>Main</type>
-      <value>groupName</value>
-      <webElementGuid>6247b552-7050-4c4a-b0cf-5851ba840e8d</webElementGuid>
+      <value>inputSearchContacts</value>
+      <webElementGuid>098f757e-f9bc-4c44-9583-9a8ec11dabd9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -82,7 +82,7 @@
       <name>ng-reflect-type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>aba3c350-d897-4e78-93ea-21a66b73c4c9</webElementGuid>
+      <webElementGuid>8454d9cb-32f8-46d5-8e0a-8eb8ba69cb1b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -109,12 +109,12 @@
       <webElementGuid>c8807ab7-84b4-46f1-8354-deb46ff36856</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
       <value>mat-input-10</value>
-      <webElementGuid>27b53f15-323b-420b-be76-d0b7081171b9</webElementGuid>
+      <webElementGuid>027bd263-d68c-4708-a39b-41b44ff66797</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -130,7 +130,7 @@
       <name>aria-invalid</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>4887fd17-5fce-4d51-b95e-0ad62f8a8866</webElementGuid>
+      <webElementGuid>4cb0f407-bdbc-4e79-9939-fec298d7b236</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -138,7 +138,7 @@
       <name>aria-required</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>e63c8532-0baa-4a42-b95d-8d73b32836c0</webElementGuid>
+      <webElementGuid>236dea44-a826-447a-a8e2-b2d3f6cc6cb4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -154,7 +154,63 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-input-10&quot;)</value>
-      <webElementGuid>dff2950f-b04f-4d72-8f25-8ca6c707f0bd</webElementGuid>
+      <webElementGuid>d86cd319-d27c-4ebf-b564-f1cbef61f523</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-reflect-autocomplete</name>
+      <type>Main</type>
+      <value>[object Object]</value>
+      <webElementGuid>19c58c07-d3e7-4081-a9a7-45334bf6a116</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-reflect-chip-list</name>
+      <type>Main</type>
+      <value>[object Object]</value>
+      <webElementGuid>2e638b27-a352-44b0-998d-be04fe292727</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>autocomplete</name>
+      <type>Main</type>
+      <value>off</value>
+      <webElementGuid>5553a041-7ae2-44c6-8ace-1ec903d0ce31</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>combobox</value>
+      <webElementGuid>67ba1f90-f994-4e2e-b686-edf001c27f00</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-autocomplete</name>
+      <type>Main</type>
+      <value>list</value>
+      <webElementGuid>86e368e4-1c36-4c1c-80e3-12e7e6139c4b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-expanded</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>22b96e10-99da-4ca5-8b69-f8128085616c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-haspopup</name>
+      <type>Main</type>
+      <value>listbox</value>
+      <webElementGuid>47df1535-e3c4-45ed-8352-7ada9955f474</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -162,7 +218,31 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='mat-input-10']</value>
-      <webElementGuid>75f4b57c-4530-4756-87a5-565f43f3af8f</webElementGuid>
+      <webElementGuid>266dcfbc-3db2-40e6-8e61-5da0862981f0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//mat-chip-list[@id='mat-chip-list-17']/div/input</value>
+      <webElementGuid>d06f985d-c01c-421f-bf8d-a84dda29c4bc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//mat-chip-list/div/input</value>
+      <webElementGuid>1f336993-c6b5-4dc0-be31-e685e81a854a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@type = 'text' and @name = 'inputSearchContacts' and @id = 'mat-input-10']</value>
+      <webElementGuid>fd695495-4623-4f24-97ce-34a8e6ea2824</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

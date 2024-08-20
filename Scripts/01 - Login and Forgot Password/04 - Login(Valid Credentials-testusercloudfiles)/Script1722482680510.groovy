@@ -17,7 +17,7 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 
-WebUI.setText(findTestObject('01-Login and Forgot Password/input_email'), 'testusercloudfiles@yopmail.com')
+WebUI.setText(findTestObject('01-Login and Forgot Password/input_email'), testusercloudfiles)
 
 WebUI.setEncryptedText(findTestObject('01-Login and Forgot Password/input_password2'), GlobalVariable.password)
 
@@ -43,7 +43,7 @@ WebUI.navigateToUrl(GlobalVariable.URL_yopmail)
 
 WebUI.delay(GlobalVariable.delay_2s)
 
-WebUI.setText(findTestObject('Yopmail/input_Enter your inbox here'), 'testusercloudfiles@yopmail.com')
+WebUI.setText(findTestObject('Yopmail/input_Enter your inbox here'), testusercloudfiles)
 
 WebUI.delay(GlobalVariable.delay_2s)
 
