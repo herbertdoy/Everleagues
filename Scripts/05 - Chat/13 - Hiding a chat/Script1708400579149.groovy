@@ -38,18 +38,7 @@ WebUI.refresh()
 WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('05-Chat/09-Hiding a chat/hide_automation_chat'))
-WebUI.click(findTestObject('05-Chat/09-Hiding a chat/ellipsis_chat setting'))
 
-WebUI.delay(GlobalVariable.delay_2s)
-
-WebUI.verifyElementVisible(findTestObject('05-Chat/09-Hiding a chat/button_Group info'))
-
-WebUI.verifyElementVisible(findTestObject('05-Chat/09-Hiding a chat/button_Hide chat'))
-
-WebUI.delay(GlobalVariable.delay_2s)
-
-WebUI.click(findTestObject('05-Chat/09-Hiding a chat/button_Hide chat'))
-WebUI.delay(GlobalVariable.delay_2s)
 WebUI.refresh()
 
 WebUI.verifyElementVisible(findTestObject('05-Chat/01- Creating a Chat group/div_No chat available'))

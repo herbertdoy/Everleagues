@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.click(findTestObject('05-Chat/02-Sending chat messages/div_AC'))
 
-WebUI.verifyElementVisible(findTestObject('05-Chat/02-Sending chat messages/button_chat'))
+WebUI.verifyElementVisible(findTestObject('05-Chat/01- Creating a Chat group/span_a_Chat'))
 
 WebUI.click(findTestObject('05-Chat/02-Sending chat messages/button_chat'))
 
