@@ -56,6 +56,8 @@ import org.openqa.selenium.Keys as Keys
 //WebUI.verifyElementVisible(findTestObject('11-Cloud Files/h4_MY DRIVE'))
 //WebUI.click(findTestObject('11-Cloud Files/a_My Drive'))
 //WebUI.delay(3)
+WebUI.doubleClick(findTestObject('11-Cloud Files/td_Automation Driver EDIT'))
+
 WebUI.rightClick(findTestObject('11-Cloud Files/td_Driver'))
 
 WebUI.click(findTestObject('11-Cloud Files/button_Share'))
