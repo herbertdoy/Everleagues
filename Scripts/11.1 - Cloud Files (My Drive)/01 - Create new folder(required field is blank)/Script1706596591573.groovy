@@ -42,6 +42,8 @@ WebUI.click(findTestObject('03-Header Menu/div_Cloud Files'))
 
 WebUI.scrollToElement(findTestObject('11-Cloud Files/a_My Drive'), 0)
 
+WebUI.verifyElementVisible(findTestObject('11-Cloud Files/div_Recent'))
+
 WebUI.verifyElementVisible(findTestObject('11-Cloud Files/a_My Drive'))
 
 WebUI.verifyElementVisible(findTestObject('11-Cloud Files/a_Shared Drive'))
@@ -55,6 +57,8 @@ WebUI.verifyElementVisible(findTestObject('11-Cloud Files/h4_CLOUD STORAGE'))
 WebUI.verifyElementVisible(findTestObject('11-Cloud Files/h4_MY DRIVE'))
 
 WebUI.delay(GlobalVariable.delay_2s)
+
+WebUI.click(findTestObject('11-Cloud Files/button_Got it'))
 
 WebUI.click(findTestObject('11-Cloud Files/button_create_new_folderNew Folder'))
 

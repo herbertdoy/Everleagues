@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Got it</name>
+   <tag></tag>
+   <elementGuidId>04e042e0-0eb6-469f-9bfa-bf717ea8aee1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[(text() = 'Got it' or . = 'Got it')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.mat-focus-indicator.mat-button.mat-button-base.mat-primary</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>432e4311-b25d-4bcb-bf31-8eb1d63af99b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>color</name>
+      <type>Main</type>
+      <value>primary</value>
+      <webElementGuid>07286743-604f-4899-af78-369254cc1441</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-focus-indicator mat-button mat-button-base mat-primary</value>
+      <webElementGuid>0b041994-461f-4107-af25-acf761baa234</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-reflect-color</name>
+      <type>Main</type>
+      <value>primary</value>
+      <webElementGuid>a9fa5cf8-419d-4163-9dca-64c154e89be7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Got it</value>
+      <webElementGuid>44a07ada-d7cb-407f-a9a3-78e48cef3d74</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;light theme-default os-window fuse-splash-screen-hidden&quot;]/app-root[1]/app-main-page[@class=&quot;ng-tns-c505-0 ng-trigger ng-trigger-routerAnimation ng-star-inserted&quot;]/div[@class=&quot;absolute inset-0 flex flex-col min-w-0 overflow-hidden ng-tns-c505-0&quot;]/mat-sidenav-container[@class=&quot;mat-drawer-container mat-sidenav-container flex-auto h-full ng-tns-c505-0&quot;]/mat-sidenav-content[@class=&quot;mat-drawer-content mat-sidenav-content flex flex-col overflow-hidden&quot;]/div[@class=&quot;flex flex-col flex-auto w-full min-w-0&quot;]/div[@class=&quot;flex flex-col flex-auto ng-tns-c505-0&quot;]/app-storage[@class=&quot;ng-star-inserted&quot;]/section[@class=&quot;storage-page&quot;]/div[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;storage-explorer&quot;]/app-storage-explorer[@class=&quot;ng-star-inserted&quot;]/section[1]/mat-card[@class=&quot;mat-card mat-focus-indicator ng-star-inserted&quot;]/mat-card-content[@class=&quot;mat-card-content&quot;]/button[@class=&quot;mat-focus-indicator mat-button mat-button-base mat-primary&quot;]</value>
+      <webElementGuid>594ac029-95bf-4ded-b4a7-8a5ac9cc7e4b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='My Drive'])[2]/following::button[1]</value>
+      <webElementGuid>e0766a7c-8915-4aa2-81ba-169d8c301620</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Advanced search'])[1]/preceding::button[3]</value>
+      <webElementGuid>4d3e3836-6214-4fad-acf3-1a717166a141</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//mat-card-content/button</value>
+      <webElementGuid>15f4ba33-d423-4110-a47d-48b38b5418a6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = 'Got it' or . = 'Got it')]</value>
+      <webElementGuid>9f21ab56-9755-4e83-b3df-5fab54952fe4</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -47,6 +47,8 @@ WebUI.click(findTestObject('11-Cloud Files/mat-option_GTGG tester 2'))
 
 WebUI.click(findTestObject('11-Cloud Files/mat-option_GTGG tester'))
 
+WebUI.click(findTestObject('span_GG tester (autotesteryopmail.com)'))
+
 WebUI.clickOffset(findTestObject('11-Cloud Files/button_Copy Share Link'), 10, 10)
 
 WebUI.click(findTestObject('11-Cloud Files/div_mat-checkbox-notify-user'))
