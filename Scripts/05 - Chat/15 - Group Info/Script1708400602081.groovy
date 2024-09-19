@@ -35,6 +35,10 @@ WebUI.delay(GlobalVariable.delay_1s)
 
 WebUI.click(findTestObject('05-Chat/11-Group Info/button_EDIT'))
 
+WebUI.delay(GlobalVariable.delay_2s)
+
+WebUI.click(findTestObject('05-Chat/11-Group Info/input_groupName_edit'))
+
 WebUI.setText(findTestObject('05-Chat/11-Group Info/input_groupName_edit'), update_group_name)
 
 WebUI.delay(GlobalVariable.delay_1s)
