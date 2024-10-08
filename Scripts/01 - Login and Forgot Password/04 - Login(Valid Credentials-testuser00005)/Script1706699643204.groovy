@@ -31,6 +31,8 @@ WebUI.click(findTestObject('01-Login and Forgot Password/button_Sign in'))
 
 WebUI.delay(GlobalVariable.delay_2s)
 
+//WebUI.click(findTestObject('00-Signup and Activation/button_Confirm'))
+
 WebUI.executeJavaScript('window.open();', [])
 
 currentWindow = WebUI.getWindowIndex()
@@ -72,6 +74,6 @@ WebUI.setText(findTestObject('Object Repository/06-Teams/For 2FA/input_Enter ver
 WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('06-Teams/For 2FA/button_Verify_2FA'))
- 
+
 WebUI.delay(GlobalVariable.delay_3s)
 

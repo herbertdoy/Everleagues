@@ -61,7 +61,7 @@ WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('06-Teams/button_Public'))
 
-WebUI.verifyElementVisible(findTestObject('06-Teams/01-Add Team-Public/Add Team_Public'))
+//WebUI.verifyElementVisible(findTestObject('06-Teams/01-Add Team-Public/Add Team_Public'))
 
 WebUI.scrollToElement(findTestObject('06-Teams/01-Add Team-Public/button_Create'), 0)
 

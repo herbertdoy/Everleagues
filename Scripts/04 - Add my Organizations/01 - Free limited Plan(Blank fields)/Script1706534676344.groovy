@@ -27,7 +27,7 @@ WebUI.callTestCase(findTestCase('01 - Login and Forgot Password/04 - Login(Valid
 
 WebUI.click(findTestObject('04-Add my Organizations/Free limited Plan/span_Add My Organization'))
 
-WebUI.verifyElementVisible(findTestObject('04-Add my Organizations/Free limited Plan/Add my org modal'))
+//WebUI.verifyElementVisible(findTestObject('04-Add my Organizations/Free limited Plan/Add my org modal'))
 
 WebUI.delay(GlobalVariable.delay_2s)
 

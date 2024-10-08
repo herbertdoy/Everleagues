@@ -6,16 +6,16 @@
    <elementGuidId>82f41dea-53f7-4df1-95b0-df871e17a42a</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//mat-dialog-container[@id = 'mat-dialog-0']</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
-         <value>/html/body/div[3]/div[2]/div/mat-dialog-container</value>
+         <value>//div[@id='cdk-overlay-0']/mat-dialog-container</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>#mat-dialog-0</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//mat-dialog-container[@id = 'mat-dialog-0']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -26,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>mat-dialog-container</value>
-      <webElementGuid>2b8415ba-d069-45fe-9aaf-193c74cf7568</webElementGuid>
+      <webElementGuid>8b19007c-ea68-4486-a9f5-02793da8925e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -34,7 +34,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>-1</value>
-      <webElementGuid>ed084453-7bbd-47de-b6d3-5b24c2792085</webElementGuid>
+      <webElementGuid>d7c07d25-be66-4446-97ae-8edd760bd823</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,7 +42,7 @@
       <name>aria-modal</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>ce01b1c5-ea6b-45fc-92d7-6a8b7fc1c0d2</webElementGuid>
+      <webElementGuid>18f2badf-2235-4b59-b3f4-63b8e05ed579</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,7 +50,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-dialog-container ng-tns-c31-35 ng-trigger ng-trigger-dialogContainer ng-star-inserted</value>
-      <webElementGuid>46db9796-ec53-4d25-8e5b-14fd9f9bd2ac</webElementGuid>
+      <webElementGuid>b091867a-ccac-4e8b-942e-331a6d80cd02</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -58,7 +58,7 @@
       <name>id</name>
       <type>Main</type>
       <value>mat-dialog-0</value>
-      <webElementGuid>48231b8c-2504-4f5c-8b33-4b3c720cfd91</webElementGuid>
+      <webElementGuid>fdb073aa-6a27-4574-a79b-0094e9a7e0c8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -66,7 +66,7 @@
       <name>role</name>
       <type>Main</type>
       <value>dialog</value>
-      <webElementGuid>a05dce4b-c799-4e7f-8c5f-59b5970b7dd9</webElementGuid>
+      <webElementGuid>2d12a0d6-0ed8-4294-9561-bd825e950095</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -74,7 +74,7 @@
       <name>aria-labelledby</name>
       <type>Main</type>
       <value>mat-dialog-title-0</value>
-      <webElementGuid>d1a794b4-748b-459f-acd3-4b7e35f26c7e</webElementGuid>
+      <webElementGuid>14aa703f-3246-49e7-bc8d-5fbe2419dbba</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -82,7 +82,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Add My OrganizationOrganization Name *Field is required Organization Alias *.everleagues.comService IndustryService Industry * Free Limited Planopen_in_newUsage limit Pay-As-You-Go Planopen_in_newPricing detailName on Card *Card numberExpirationCVCZip / Postal Code * Check here to indicate that you have read and agree to the Everleagues Software as a service (SaaS) subscription agreementCreate Cancel</value>
-      <webElementGuid>c34aab64-37a0-40f6-b260-97c2070790f3</webElementGuid>
+      <webElementGuid>0b66d44b-1c58-4913-97a0-821b2cee7df4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -90,7 +90,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-dialog-0&quot;)</value>
-      <webElementGuid>65d2ae37-3405-46eb-a7e8-979113be3c28</webElementGuid>
+      <webElementGuid>af0c09c4-5eef-4bfa-9912-692aac71eae8</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -98,7 +98,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//mat-dialog-container[@id='mat-dialog-0']</value>
-      <webElementGuid>6e3d4549-6d16-4dc2-91fb-88ea944c6223</webElementGuid>
+      <webElementGuid>89674753-76b3-4f52-8e4b-9f1fad58122c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,7 +106,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='cdk-overlay-0']/mat-dialog-container</value>
-      <webElementGuid>c4d1b58e-c220-4082-acdd-26c6b9249909</webElementGuid>
+      <webElementGuid>d95efb17-2eeb-4a40-964a-e7c1444d0ba6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -114,7 +114,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Client Assignment'])[2]/following::mat-dialog-container[1]</value>
-      <webElementGuid>8f3ca97e-60f6-4fdb-a771-30f1a1a06372</webElementGuid>
+      <webElementGuid>efc820f8-41b4-4c91-bff6-cd8e1322bcff</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -122,7 +122,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Hide Quick Shortcuts'])[1]/following::mat-dialog-container[1]</value>
-      <webElementGuid>61f7f106-1f23-490c-9d2f-ebeef160c604</webElementGuid>
+      <webElementGuid>e0d742fb-39a4-41e9-861d-306b2549aea3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -130,7 +130,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//mat-dialog-container</value>
-      <webElementGuid>07ebc875-29d3-4889-a6bc-5edcab94c3af</webElementGuid>
+      <webElementGuid>5be237bb-9d98-490d-978d-1cce0d1d9289</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -138,6 +138,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//mat-dialog-container[@id = 'mat-dialog-0' and (text() = 'Add My OrganizationOrganization Name *Field is required Organization Alias *.everleagues.comService IndustryService Industry * Free Limited Planopen_in_newUsage limit Pay-As-You-Go Planopen_in_newPricing detailName on Card *Card numberExpirationCVCZip / Postal Code * Check here to indicate that you have read and agree to the Everleagues Software as a service (SaaS) subscription agreementCreate Cancel' or . = 'Add My OrganizationOrganization Name *Field is required Organization Alias *.everleagues.comService IndustryService Industry * Free Limited Planopen_in_newUsage limit Pay-As-You-Go Planopen_in_newPricing detailName on Card *Card numberExpirationCVCZip / Postal Code * Check here to indicate that you have read and agree to the Everleagues Software as a service (SaaS) subscription agreementCreate Cancel')]</value>
-      <webElementGuid>b50e0f16-ed74-42b4-af8e-9e36e626361b</webElementGuid>
+      <webElementGuid>bcdc4cd2-c941-419a-a422-40ff7ec20c54</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
