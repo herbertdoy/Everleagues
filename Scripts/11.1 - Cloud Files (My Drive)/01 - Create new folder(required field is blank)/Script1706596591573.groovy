@@ -44,6 +44,8 @@ WebUI.scrollToElement(findTestObject('11-Cloud Files/a_My Drive'), 0)
 
 WebUI.verifyElementVisible(findTestObject('11-Cloud Files/div_Recent'))
 
+WebUI.verifyElementVisible(findTestObject('11-Cloud Files/div_Quick Access'))
+
 WebUI.verifyElementVisible(findTestObject('11-Cloud Files/a_My Drive'))
 
 WebUI.verifyElementVisible(findTestObject('11-Cloud Files/a_Shared Drive'))
