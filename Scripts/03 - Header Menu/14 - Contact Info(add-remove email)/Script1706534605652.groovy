@@ -35,7 +35,7 @@ WebUI.setText(findTestObject('03-Header Menu/User Profile/View Profile/Contact I
 
 WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Contact Info/div_Email Type'))
 
-WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/View Profile/Contact Info/span_Work'))
+WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/View Profile/Contact Info/mat-option_Work'))
 
 WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/View Profile/Contact Info/span_Personal'))
 

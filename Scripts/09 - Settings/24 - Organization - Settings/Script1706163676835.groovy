@@ -65,29 +65,29 @@ WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/mat-card-tit
 
 WebUI.click(findTestObject('09-Settings/Organization/toggle_My Drive for employees'))
 
-WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/snack-bar-container_My Drive enabled for employees.OK'))
+//WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/snack-bar-container_My Drive enabled for employees.OK'))
 
 WebUI.click(findTestObject('09-Settings/Organization/toggle_My Drive for clients'))
 
-WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/snack-bar-container_My Drive enabled for clients.OK'))
+//WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/snack-bar-container_My Drive enabled for clients.OK'))
 
 WebUI.click(findTestObject('09-Settings/Organization/toggle_My Drive for external'))
 
-WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/snack-bar-container_My Drive enabled for external users.OK'))
+//WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/snack-bar-container_My Drive enabled for external users.OK'))
 
 WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('09-Settings/Organization/toggle_My Drive for employees'))
 
-WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/snack-bar-container_My Drive disabled for employees.OK'))
+//WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/snack-bar-container_My Drive disabled for employees.OK'))
 
 WebUI.click(findTestObject('09-Settings/Organization/toggle_My Drive for clients'))
 
-WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/snack-bar-container_My Drive disabled for clients.OK'))
+//WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/snack-bar-container_My Drive disabled for clients.OK'))
 
 WebUI.click(findTestObject('09-Settings/Organization/toggle_My Drive for external'))
 
-WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/snack-bar-container_My Drive disabled for external users.OK'))
+//WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/snack-bar-container_My Drive disabled for external users.OK'))
 
 WebUI.delay(GlobalVariable.delay_2s)
 

@@ -17,11 +17,8 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-//WebUI.click(findTestObject('14-Income and Expense/button_UPDATE loop'))
-
-//WebUI.delay(GlobalVariable.delay_2s)
-//
-//WebUI.scrollToElement(findTestObject('14-Income and Expense/button_edit'), 0)
+WebUI.delay(GlobalVariable.delay_3s)
+WebUI.scrollToElement(findTestObject('14-Income and Expense/button_edit'), 0)
 
 WebUI.click(findTestObject('14-Income and Expense/button_edit'))
 

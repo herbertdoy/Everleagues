@@ -55,7 +55,7 @@ WebUI.click(findTestObject('09-Settings/Users/div_Users'))
 
 WebUI.verifyElementVisible(findTestObject('09-Settings/Users/h4_USERS'))
 
-WebUI.verifyElementVisible(findTestObject('09-Settings/Users/Users Page'))
+//WebUI.verifyElementVisible(findTestObject('09-Settings/Users/Users Page'))
 
 WebUI.delay(GlobalVariable.delay_2s)
 

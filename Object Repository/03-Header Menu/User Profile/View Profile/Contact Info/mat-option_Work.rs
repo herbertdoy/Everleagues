@@ -1,64 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>mat-option_External Contact</name>
+   <name>mat-option_Work</name>
    <tag></tag>
-   <elementGuidId>a89d2170-3b4a-4f7a-9dac-68c85101cd6d</elementGuidId>
+   <elementGuidId>3777c099-2330-4024-a160-b286ffcc5f73</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//mat-option[@id='mat-option-1']/span</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//mat-option[@role = 'option' and (text() = ' Partner ' or . = ' Partner ')]</value>
+         <value>//span[(text() = 'Work' or . = 'Work')]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#mat-option-0</value>
+         <value>#mat-option-1202</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>mat-option</value>
-      <webElementGuid>1b80f207-5b0b-401c-b124-83c0b3ed100e</webElementGuid>
+      <webElementGuid>136cc7d3-9e3c-4d2e-b184-e8fcdb9168ab</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>role</name>
       <type>Main</type>
       <value>option</value>
-      <webElementGuid>c92cacee-f36a-46ff-b08f-f94302b44617</webElementGuid>
+      <webElementGuid>ff0842a4-f4d0-4f1b-9633-0925dc37e76e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>Work</value>
+      <webElementGuid>0833c69c-c385-4f26-9ca1-17b9dba528f7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>mat-option mat-focus-indicator ng-tns-c246-70 ng-star-inserted</value>
-      <webElementGuid>88f5a749-617a-4eca-9c95-37b97822a56e</webElementGuid>
+      <value>mat-option mat-focus-indicator</value>
+      <webElementGuid>d50b8ac6-af84-4a8c-b706-7daffab654a5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>ng-reflect-value</name>
       <type>Main</type>
-      <value>a7f10a80-7d34-4967-993e-437321</value>
-      <webElementGuid>bb8d2a25-0928-47e8-a39b-8511a7f6f21f</webElementGuid>
+      <value>Work</value>
+      <webElementGuid>9f31ef86-aef5-47e8-b576-091b606c420b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>mat-option-0</value>
-      <webElementGuid>20289cbb-bc89-48ce-b766-4fdde453bc5c</webElementGuid>
+      <value>mat-option-1202</value>
+      <webElementGuid>8e0a2fcf-6d08-4c76-887b-77696c4a147f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -66,7 +70,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>da881c71-5352-4608-90bf-fbce8b762ec0</webElementGuid>
+      <webElementGuid>974aad32-f6d3-4941-9cf1-fa71c2b57916</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -74,47 +78,39 @@
       <name>aria-disabled</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>3e815bca-ffff-47b1-bf97-463df2d4fa3b</webElementGuid>
+      <webElementGuid>f8fd56de-f16f-4dab-a3d0-5e7150c6b245</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value> Partner </value>
-      <webElementGuid>edb2a921-76b5-4c06-a871-e3a1161e1230</webElementGuid>
+      <value>Work</value>
+      <webElementGuid>7bc364fd-9647-4b9b-a5bf-2e1626472128</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;mat-option-0&quot;)</value>
-      <webElementGuid>a0eb3ac3-0e58-47ad-b0ec-45930fe4c2af</webElementGuid>
+      <value>id(&quot;mat-option-1202&quot;)</value>
+      <webElementGuid>beeb8a7d-5dc9-4d82-a17f-54889eecc108</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//mat-option[@id='mat-option-0']</value>
-      <webElementGuid>2feece71-fc6e-40df-815a-23ac9cd85591</webElementGuid>
+      <value>//mat-option[@id='mat-option-1202']</value>
+      <webElementGuid>96a9e729-3201-4d01-9023-049260d45959</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='mat-select-0-panel']/mat-option</value>
-      <webElementGuid>0c56e209-5a16-40ad-8b9a-5bc41ce5abf2</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/following::mat-option[1]</value>
-      <webElementGuid>1d3a9f12-ffee-4bb4-819b-1be555a95b1b</webElementGuid>
+      <value>//div[@id='mat-autocomplete-7']/mat-option</value>
+      <webElementGuid>eb570251-ad23-4825-b8cd-e3c5111ad24b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -122,15 +118,23 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Save'])[1]/following::mat-option[1]</value>
-      <webElementGuid>b205711c-0bbc-4f84-9ab1-71877769111b</webElementGuid>
+      <webElementGuid>e223106a-0326-4dc5-98e7-97306bfbafb5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='CoWorker'])[4]/preceding::mat-option[1]</value>
-      <webElementGuid>18abe674-160f-4ae7-96e8-350899a909b9</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add'])[2]/following::mat-option[1]</value>
+      <webElementGuid>e29d0732-17b6-4c20-ad4b-0190b1ddca73</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Personal'])[1]/preceding::mat-option[1]</value>
+      <webElementGuid>d004cad0-1efb-4d82-b97a-8b6f0a0bdc08</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -138,14 +142,14 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//mat-option</value>
-      <webElementGuid>a1dbf638-dbc8-4d0a-90e5-18911b2cf716</webElementGuid>
+      <webElementGuid>e2b832b4-612b-4072-9180-505824f0157e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//mat-option[@id = 'mat-option-0' and (text() = ' Partner ' or . = ' Partner ')]</value>
-      <webElementGuid>bb757787-2ef1-4754-8bb9-8638b0d04b95</webElementGuid>
+      <value>//mat-option[@id = 'mat-option-1202' and (text() = 'Work' or . = 'Work')]</value>
+      <webElementGuid>1a6a4037-9ae9-4b50-bc84-2be71e3cbe18</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
