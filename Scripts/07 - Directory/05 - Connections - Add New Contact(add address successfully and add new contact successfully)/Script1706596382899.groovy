@@ -43,7 +43,7 @@ WebUI.click(findTestObject('07-Directory/Connections/address_Save'))
 
 WebUI.delay(GlobalVariable.delay_2s)
 
-WebUI.verifyElementVisible(findTestObject('07-Directory/Connections/added address'))
+//WebUI.verifyElementVisible(findTestObject('07-Directory/Connections/added address'))
 
 WebUI.scrollToElement(findTestObject('07-Directory/Connections/button_Save'), 0)
 

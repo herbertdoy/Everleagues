@@ -27,11 +27,17 @@ WebUI.doubleClick(findTestObject('07-Directory/Connections/input_Type_email'), F
 
 WebUI.setText(findTestObject('07-Directory/Connections/input_Type_email'), GlobalVariable.Y_autotester02)
 
+WebUI.click(findTestObject('07-Directory/Connections/zContact Profile/div_93'))
+
+WebUI.delay(GlobalVariable.delay_3s)
+
 WebUI.click(findTestObject('07-Directory/Connections/input_Type_phone'))
 
 WebUI.click(findTestObject('07-Directory/Connections/button_area code'))
 
 WebUI.delay(GlobalVariable.delay_2s)
+
+WebUI.click(findTestObject('07-Directory/Connections/input_company'))
 
 WebUI.setText(findTestObject('07-Directory/Connections/input_company'), company)
 

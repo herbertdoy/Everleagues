@@ -31,7 +31,7 @@ WebUI.click(findTestObject('01-Login and Forgot Password/button_Sign in'))
 
 WebUI.delay(GlobalVariable.delay_2s)
 
-WebUI.click(findTestObject('00-Signup and Activation/button_Confirm'))
+//WebUI.click(findTestObject('00-Signup and Activation/button_Confirm'))
 
 WebUI.executeJavaScript('window.open();', [])
 

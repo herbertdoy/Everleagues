@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//snack-bar-container[(text() = 'My Drive enabled for employees.OK' or . = 'My Drive enabled for employees.OK')]</value>
+         <value>//*/text()[normalize-space(.)='My Drive enabled for employees.']/parent::*</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>snack-bar-container</value>
-      <webElementGuid>9466a5c0-d924-4af5-bf10-e7dedee9e0fb</webElementGuid>
+      <webElementGuid>399e3ee2-664d-4e02-9808-cfe25d2f8283</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-snack-bar-container ng-tns-c50-128 ng-trigger ng-trigger-state mat-snack-bar-center ng-star-inserted</value>
-      <webElementGuid>7e593273-9ca4-4677-8bd1-39da25f26069</webElementGuid>
+      <webElementGuid>b1eaf8d0-60c3-49c6-b043-4975d3ab6f20</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value>My Drive enabled for employees.OK</value>
-      <webElementGuid>af461e9b-5897-4c06-8a37-53edb70a2a58</webElementGuid>
+      <webElementGuid>375e69ff-b467-41aa-b2ab-2e6ca282e892</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;cdk-overlay-31&quot;)/snack-bar-container[@class=&quot;mat-snack-bar-container ng-tns-c50-128 ng-trigger ng-trigger-state mat-snack-bar-center ng-star-inserted&quot;]</value>
-      <webElementGuid>d4731495-fedf-4c1e-ae4c-1ec93fad2628</webElementGuid>
+      <webElementGuid>c9fbb067-9527-45f5-91f9-005f014f73b3</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='cdk-overlay-31']/snack-bar-container</value>
-      <webElementGuid>1d8c6d93-03e0-4990-82f0-b80407ff1d7f</webElementGuid>
+      <webElementGuid>767a3978-d137-4eda-842f-eb5c3872bb80</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='`'])[2]/following::snack-bar-container[1]</value>
-      <webElementGuid>7fafbd9e-fd85-4e12-b592-b6a767f341e4</webElementGuid>
+      <webElementGuid>9a6f0e70-36eb-4cc2-b393-492089a85716</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Alt'])[2]/following::snack-bar-container[1]</value>
-      <webElementGuid>9f6f9a79-c311-4610-8b49-4f3b43bcae08</webElementGuid>
+      <webElementGuid>3b3c547d-52a0-4ebb-abe2-ed2b7aa019fa</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//snack-bar-container</value>
-      <webElementGuid>149741b3-1a52-4fbd-b44d-ff973e6fcde9</webElementGuid>
+      <webElementGuid>f0fb888a-b4d3-4832-9707-360319bdb245</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,6 +86,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//snack-bar-container[(text() = 'My Drive enabled for employees.OK' or . = 'My Drive enabled for employees.OK')]</value>
-      <webElementGuid>fdab09e9-78de-4e5f-872b-5b3317c975dc</webElementGuid>
+      <webElementGuid>b10a2c9a-78aa-4d5f-97e5-bc5bbadd32da</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

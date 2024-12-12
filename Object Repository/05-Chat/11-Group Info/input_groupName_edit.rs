@@ -6,16 +6,16 @@
    <elementGuidId>6537437e-37cc-4e67-b91d-92e3b5645c42</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#mat-input-10</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
-         <value>//input[@id='mat-input-1']</value>
+         <value>//input[@type = 'text' and @name = 'groupName' and @placeholder = 'Group Name' and @id = 'mat-input-1']</value>
       </entry>
       <entry>
          <key>BASIC</key>
          <value>//input[@type = 'text' and @name = 'groupName' and @placeholder = 'Group Name']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#mat-input-10</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -26,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>7ffa8df7-f0e8-479b-b269-c6889d3d6289</webElementGuid>
+      <webElementGuid>593886d4-4a99-41a6-a208-9ca04e7d1a6c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -34,7 +34,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>f2e95d53-7e5c-4875-93e8-7c531175812d</webElementGuid>
+      <webElementGuid>066ff4c3-11d4-4deb-9e23-c021da0ef17f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -42,7 +42,7 @@
       <name>name</name>
       <type>Main</type>
       <value>inputSearchContacts</value>
-      <webElementGuid>f648fbb6-79f8-4079-b0a9-3e7f2d4c0112</webElementGuid>
+      <webElementGuid>238675bc-14eb-471c-8d09-56fb71b3644e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,7 +50,7 @@
       <name>maxlength</name>
       <type>Main</type>
       <value>50</value>
-      <webElementGuid>e1056538-1a3c-4e13-9919-b881a312c855</webElementGuid>
+      <webElementGuid>1e3d2b42-7f69-4fd7-a9aa-7ee44bce9815</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -58,7 +58,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-autocomplete-trigger mat-chip-input mat-input-element mat-form-field-autofill-control search-input ng-untouched ng-pristine ng-valid cdk-text-field-autofill-monitored</value>
-      <webElementGuid>1ac58b20-475c-4d4f-a968-6f9e3da935f4</webElementGuid>
+      <webElementGuid>38b25c52-5e2c-45de-82b6-dce4639a5af5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -66,7 +66,7 @@
       <name>ng-reflect-maxlength</name>
       <type>Main</type>
       <value>50</value>
-      <webElementGuid>ab296c20-ece2-4eaf-b011-846c07dea5a2</webElementGuid>
+      <webElementGuid>dc23ec6e-c8f4-4642-9c3b-ef76f322b66b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -74,7 +74,7 @@
       <name>ng-reflect-name</name>
       <type>Main</type>
       <value>inputSearchContacts</value>
-      <webElementGuid>8b90229e-bfcb-4e43-bd97-181075c0c7e9</webElementGuid>
+      <webElementGuid>c9582082-152e-4de5-816d-158da55228b3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -82,7 +82,7 @@
       <name>ng-reflect-type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>808aea5d-7cb2-4149-91f6-5fd6f3677ef1</webElementGuid>
+      <webElementGuid>8a22975f-468c-40bd-8a79-b86c25edafa2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -90,7 +90,7 @@
       <name>ng-reflect-placeholder</name>
       <type>Main</type>
       <value>Group Name</value>
-      <webElementGuid>30d4eafc-f8d6-4d1a-b4fc-a1cb2a95dc3b</webElementGuid>
+      <webElementGuid>432bebf9-e153-4d6c-bf5f-9a5d36b70364</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -98,7 +98,7 @@
       <name>ng-reflect-is-disabled</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>0f0f66d5-5898-4d21-b6ba-2fbca94b7002</webElementGuid>
+      <webElementGuid>3106dfd4-324a-48e6-9c8e-0b3f5d52c9c7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -106,7 +106,7 @@
       <name>ng-reflect-disabled</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>59fe9f40-eb07-4baa-874e-e6b5847830c9</webElementGuid>
+      <webElementGuid>61ce3482-355d-4322-b7fa-6b4a5950de49</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -114,7 +114,7 @@
       <name>id</name>
       <type>Main</type>
       <value>mat-input-10</value>
-      <webElementGuid>c8a72298-6a2f-4124-91f9-80a023e5df02</webElementGuid>
+      <webElementGuid>2f345d96-7669-4fc9-bbcc-bac809102b3e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -122,7 +122,7 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>Group Name</value>
-      <webElementGuid>33c355d7-dfdb-4252-b3de-76df4d5a3b16</webElementGuid>
+      <webElementGuid>4d45fa5b-a158-4baa-bfee-3b10eaaf5f1d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -130,7 +130,7 @@
       <name>aria-invalid</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>0a2c72f4-c298-44e0-b401-78218e3289dd</webElementGuid>
+      <webElementGuid>63d195a8-8aac-499d-8783-bdb262a035cb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -138,7 +138,7 @@
       <name>aria-required</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>827bdab2-b8a3-4dc3-b4fd-1b727c9b7bb7</webElementGuid>
+      <webElementGuid>6053271a-cb33-4698-99cd-93c1eb224c67</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -146,7 +146,7 @@
       <name>ng-reflect-model</name>
       <type>Main</type>
       <value>Automation Chat</value>
-      <webElementGuid>b6073bd1-f104-44a0-bfe9-8ebf1803f258</webElementGuid>
+      <webElementGuid>db2d1d8c-2310-4b44-b6ba-750ba1e8d503</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -154,7 +154,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-input-10&quot;)</value>
-      <webElementGuid>eb20faba-a61a-489a-943b-fb8fcda54dcf</webElementGuid>
+      <webElementGuid>389a93f1-7c3f-4adb-b966-2f5890f82c32</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -162,7 +162,7 @@
       <name>ng-reflect-autocomplete</name>
       <type>Main</type>
       <value>[object Object]</value>
-      <webElementGuid>46bea218-523a-4b33-b492-3cd499666ebe</webElementGuid>
+      <webElementGuid>682f5c51-aea2-4e07-b286-f11870dbdb28</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -170,7 +170,7 @@
       <name>ng-reflect-chip-list</name>
       <type>Main</type>
       <value>[object Object]</value>
-      <webElementGuid>374b56f7-b658-4961-a5a3-1a0ff2eb56ed</webElementGuid>
+      <webElementGuid>ff8bbb4e-9247-494d-adfb-21c2639ef4c0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -178,7 +178,7 @@
       <name>autocomplete</name>
       <type>Main</type>
       <value>off</value>
-      <webElementGuid>0aa244d8-11f0-4d85-a310-0582fc95d462</webElementGuid>
+      <webElementGuid>a1dae6a0-969f-489d-804a-4811c36dd0b2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -186,7 +186,7 @@
       <name>role</name>
       <type>Main</type>
       <value>combobox</value>
-      <webElementGuid>2584da68-4dc4-4749-a03b-a56792f9a05c</webElementGuid>
+      <webElementGuid>b09aab6e-d5fe-4392-a2f0-c76369c77e19</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -194,7 +194,7 @@
       <name>aria-autocomplete</name>
       <type>Main</type>
       <value>list</value>
-      <webElementGuid>f0259fbc-ee3e-4ad7-a9f0-1360b7e20ae1</webElementGuid>
+      <webElementGuid>887024c3-5e1f-4f85-b36a-cb8b205672bb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -202,7 +202,7 @@
       <name>aria-expanded</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>82bb01ff-45dd-45c9-9a15-1eae3a518ea3</webElementGuid>
+      <webElementGuid>9e513c95-78db-4cf7-aeb7-1de9e71fe450</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -210,7 +210,7 @@
       <name>aria-haspopup</name>
       <type>Main</type>
       <value>listbox</value>
-      <webElementGuid>3df81076-f26b-47d6-ae92-38b6b873e241</webElementGuid>
+      <webElementGuid>6ec2ab28-1719-411e-aaba-6305b4965324</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -218,7 +218,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='mat-input-10']</value>
-      <webElementGuid>e1abea32-cdf4-4173-a35d-58c14f656bed</webElementGuid>
+      <webElementGuid>a429ccb9-b3a5-48b1-96ee-fb6aecb6b219</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -226,7 +226,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-chip-list[@id='mat-chip-list-17']/div/input</value>
-      <webElementGuid>04e6bafd-e318-4465-aa2f-690be41b36da</webElementGuid>
+      <webElementGuid>6eca1f32-3260-44c7-93e5-91de24a0208c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -234,7 +234,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//mat-chip-list/div/input</value>
-      <webElementGuid>20e225fa-edb2-466b-89d0-d14a3abe963a</webElementGuid>
+      <webElementGuid>67cfbbc6-9c53-48ca-bf62-d28ac5b01ed1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -242,7 +242,7 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'text' and @name = 'inputSearchContacts' and @id = 'mat-input-10']</value>
-      <webElementGuid>1a20b786-4ff0-45bb-a92b-e7bca6334fbd</webElementGuid>
+      <webElementGuid>c2605e76-85c1-47d7-b1c8-54b53c39607e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -250,7 +250,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//form/mat-form-field/div/div/div/input</value>
-      <webElementGuid>bb5ee0c2-b1a1-41f4-acc7-0d47d2560d7c</webElementGuid>
+      <webElementGuid>e4c66b11-2403-46f4-886b-ceb1c3226490</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -258,6 +258,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'text' and @name = 'groupName' and @id = 'mat-input-10' and @placeholder = 'Group Name']</value>
-      <webElementGuid>bc07c818-5f57-46cc-845e-9dfe3f985fa0</webElementGuid>
+      <webElementGuid>25d4729e-2b1f-4366-897b-e2db583c5934</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

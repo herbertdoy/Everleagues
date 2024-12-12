@@ -35,6 +35,8 @@ WebUI.click(findTestObject('09-Settings/Organization/toggle_Enable chat message 
 
 WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/snack-bar-container_Chat message editing enabled.OK'))
 
+WebUI.delay(GlobalVariable.delay_2s)
+
 WebUI.click(findTestObject('09-Settings/Organization/toggle_Enable chat message deletion'))
 
 WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/snack-bar-container_Chat message deletion enabled.OK'))
@@ -44,6 +46,8 @@ WebUI.delay(GlobalVariable.delay_2s)
 WebUI.click(findTestObject('09-Settings/Organization/toggle_Enable chat message editing'))
 
 WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/snack-bar-container_Chat message editing disabled.OK'))
+
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('09-Settings/Organization/toggle_Enable chat message deletion'))
 
@@ -65,35 +69,57 @@ WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/mat-card-tit
 
 WebUI.click(findTestObject('09-Settings/Organization/toggle_My Drive for employees'))
 
-//WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/snack-bar-container_My Drive enabled for employees.OK'))
+WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/snack-bar-container_My Drive enabled for employees.OK'))
+
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('09-Settings/Organization/toggle_My Drive for clients'))
 
-//WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/snack-bar-container_My Drive enabled for clients.OK'))
+WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/snack-bar-container_My Drive enabled for clients.OK'))
+
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('09-Settings/Organization/toggle_My Drive for external'))
 
-//WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/snack-bar-container_My Drive enabled for external users.OK'))
+WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/snack-bar-container_My Drive enabled for external users.OK'))
+
+WebUI.delay(GlobalVariable.delay_2s)
+
+WebUI.click(findTestObject('09-Settings/Organization/toggle_My Drive for vendors'))
+
+WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/span_My Drive enabled for vendors'))
 
 WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('09-Settings/Organization/toggle_My Drive for employees'))
 
-//WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/snack-bar-container_My Drive disabled for employees.OK'))
+WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/snack-bar-container_My Drive disabled for employees.OK'))
+
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('09-Settings/Organization/toggle_My Drive for clients'))
 
-//WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/snack-bar-container_My Drive disabled for clients.OK'))
+WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/snack-bar-container_My Drive disabled for clients.OK'))
+
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('09-Settings/Organization/toggle_My Drive for external'))
 
-//WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/snack-bar-container_My Drive disabled for external users.OK'))
+WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/snack-bar-container_My Drive disabled for external users.OK'))
+
+WebUI.delay(GlobalVariable.delay_2s)
+
+WebUI.click(findTestObject('09-Settings/Organization/toggle_My Drive for vendors'))
+
+WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/span_My Drive disabled for vendors'))
 
 WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/mat-card-title_Tools'))
 
 WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/div_Enable or disable tools by clicking on the toggle'))
+
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('09-Settings/Organization/toggle_EL Net'))
 

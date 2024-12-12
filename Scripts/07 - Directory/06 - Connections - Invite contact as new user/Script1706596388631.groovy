@@ -19,6 +19,8 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.delay(GlobalVariable.delay_2s)
 
+WebUI.click(findTestObject('07-Directory/Connections/div_added user'))
+
 WebUI.click(findTestObject('07-Directory/Connections/zContact Profile/button_invite'))
 
 WebUI.delay(GlobalVariable.delay_3s)

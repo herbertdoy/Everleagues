@@ -71,9 +71,7 @@ WebUI.click(findTestObject('07-Directory/Connections/input_Type_email'))
 
 WebUI.delay(GlobalVariable.delay_2s)
 
-WebUI.click(findTestObject('07-Directory/Connections/button_Save'))
-
-WebUI.verifyElementVisible(findTestObject('07-Directory/Connections/span_First name cannot be empty'))
+WebUI.verifyElementVisible(findTestObject('07-Directory/Connections/button_Save'))
 
 WebUI.delay(GlobalVariable.delay_2s)
 

@@ -6,19 +6,19 @@
    <elementGuidId>2f807e91-f3b2-4db6-9d4d-3b1867d08895</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//input[@type = 'tel' and @ng-reflect-type = 'tel']</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
-         <value>//input[@type='tel']</value>
+         <value>//input[@id='mat-input-15']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#mat-input-165</value>
+         <value>ngx-mat-intl-tel-input[ng-reflect-placeholder='Phone']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@type = 'tel' and @ng-reflect-type = 'tel']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>CSS</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -26,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>b85bfb6d-22be-4377-8732-1e5bb274a6c9</webElementGuid>
+      <webElementGuid>f836f348-ba56-4b92-a0a2-351f8f9aa3b4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -34,7 +34,7 @@
       <name>type</name>
       <type>Main</type>
       <value>tel</value>
-      <webElementGuid>d1dc1f30-76ce-43bc-b47d-76c37b733af6</webElementGuid>
+      <webElementGuid>6cd62e83-26c1-4605-8cfc-98fd791bedb1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,7 +42,7 @@
       <name>autocomplete</name>
       <type>Main</type>
       <value>off</value>
-      <webElementGuid>a642cf52-0dad-419c-9639-f46b634e75f1</webElementGuid>
+      <webElementGuid>a4781c7c-2b92-4e12-91b6-2649422777d3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,7 +50,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-input-element mat-form-field-autofill-control cdk-text-field-autofill-monitored ng-pristine ng-valid ng-touched</value>
-      <webElementGuid>bdada07b-a8d4-46a7-b507-e57f5e1afe46</webElementGuid>
+      <webElementGuid>d17afcbe-2821-4c73-90f0-83b711325bca</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -58,7 +58,7 @@
       <name>ng-reflect-type</name>
       <type>Main</type>
       <value>tel</value>
-      <webElementGuid>95eec688-6e81-4ef8-b04c-d9c2cfbd413b</webElementGuid>
+      <webElementGuid>bbbc6a31-5db4-4170-b57f-dd2b165789c0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -66,7 +66,7 @@
       <name>ng-reflect-disabled</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>6d385f37-084d-4653-a80f-5949e933e12c</webElementGuid>
+      <webElementGuid>13d6885f-5324-4aac-a356-7d07b8dbdbb9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -74,7 +74,7 @@
       <name>ng-reflect-is-disabled</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>a8dd90a1-e723-46cf-987a-3ae6de3a7059</webElementGuid>
+      <webElementGuid>ae87be5e-be23-472b-bed4-32933c5872c3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -82,7 +82,7 @@
       <name>id</name>
       <type>Main</type>
       <value>mat-input-165</value>
-      <webElementGuid>f6ea8fb1-26d7-45e2-8e6d-d53f64c01b44</webElementGuid>
+      <webElementGuid>66c08eda-2e87-455e-8d9f-10536405a81a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -90,7 +90,7 @@
       <name>aria-invalid</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>5a53a5bf-a3a5-4591-9586-a13bb74280c3</webElementGuid>
+      <webElementGuid>a3821e4b-fa4a-46d3-9cd6-393154b5db10</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -98,7 +98,7 @@
       <name>aria-required</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>52f246e5-f727-4c90-badb-471512d913d2</webElementGuid>
+      <webElementGuid>4e871f3c-25c0-47aa-836b-feb62ead0c78</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -106,7 +106,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-input-165&quot;)</value>
-      <webElementGuid>541ca488-27e0-462d-ac25-fa244d326305</webElementGuid>
+      <webElementGuid>d98d64aa-c7fe-4884-a176-61cd1f12321c</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -114,7 +114,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='mat-input-165']</value>
-      <webElementGuid>bd094d18-8271-4e52-a76d-a6d6dfda34c6</webElementGuid>
+      <webElementGuid>07aaf2fa-fdc4-4ad9-b554-31d946aa6081</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -122,7 +122,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//ngx-mat-intl-tel-input[@id='ngx-mat-intl-tel-input-15']/div/input</value>
-      <webElementGuid>d8427890-6341-4e4b-b951-8b8028cb8922</webElementGuid>
+      <webElementGuid>0de4b18e-0c4a-4f2b-8e3c-ee41fb0b3d71</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -130,7 +130,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//ngx-mat-intl-tel-input/div/input</value>
-      <webElementGuid>ca701a36-ff48-452f-a265-9538bca49570</webElementGuid>
+      <webElementGuid>04015b56-c5c5-439b-98df-dfc36c84928a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -138,6 +138,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'tel' and @id = 'mat-input-165']</value>
-      <webElementGuid>70011247-29c1-44c8-a077-8c2b04b8f932</webElementGuid>
+      <webElementGuid>ee801db3-75ab-4149-b6c7-d813137c85cc</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

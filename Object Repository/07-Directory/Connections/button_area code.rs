@@ -6,12 +6,12 @@
    <elementGuidId>8246ddb3-3c7e-4637-bcfd-f770e4d5152c</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>button.mat-focus-indicator.mat-menu-trigger.country-selector.mat-button.mat-button-base</value>
+         <key>XPATH</key>
+         <value>//ngx-mat-intl-tel-input/div/button/span/span</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//button[@type = 'button' and (text() = '+93' or . = '+93')]</value>
+         <key>CSS</key>
+         <value>button.mat-focus-indicator.mat-menu-trigger.country-selector.mat-button.mat-button-base</value>
       </entry>
       <entry>
          <key>BASIC</key>
@@ -26,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>256adb43-1b9a-4dd6-9028-359d87051fc7</webElementGuid>
+      <webElementGuid>1d44a9a4-d996-463f-b3ca-93492d2311ed</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -34,7 +34,7 @@
       <name>aria-haspopup</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>7f80fcc7-d3ac-4368-9b24-7d35e0f57216</webElementGuid>
+      <webElementGuid>3f6a8cd6-aad3-40b8-9962-7f8db9e2bfd3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -42,7 +42,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>43ea57e0-1953-4248-9872-fe59d3739fe6</webElementGuid>
+      <webElementGuid>cc65d66c-36ad-4719-81b4-d42a63d6b232</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,7 +50,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-focus-indicator mat-menu-trigger country-selector mat-button mat-button-base</value>
-      <webElementGuid>e2d05265-d559-4144-9354-47fdbc8e7b97</webElementGuid>
+      <webElementGuid>785c88e9-e52c-45f9-bc5f-da22bd34938e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -58,7 +58,7 @@
       <name>ng-reflect-menu</name>
       <type>Main</type>
       <value>[object Object]</value>
-      <webElementGuid>55554eb4-df06-4d07-b21d-04c48518fd7a</webElementGuid>
+      <webElementGuid>c53a168e-b5b3-4fa2-8bac-65a49f9f5e78</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -66,7 +66,7 @@
       <name>ng-reflect-disabled</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>de24a2e8-ed0b-4089-86ec-03221abee288</webElementGuid>
+      <webElementGuid>0d642cd6-773e-4d71-bdf6-170b0f11fe6e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -74,7 +74,7 @@
       <name>text</name>
       <type>Main</type>
       <value>+1</value>
-      <webElementGuid>5b8db2ca-1b1a-4e0e-b1c8-b661c59cf4d9</webElementGuid>
+      <webElementGuid>dfb80535-8443-4c41-93f6-d47bed311ef3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -82,7 +82,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;ngx-mat-intl-tel-input-15&quot;)/div[@class=&quot;ngx-mat-tel-input-container&quot;]/button[@class=&quot;mat-focus-indicator mat-menu-trigger country-selector mat-button mat-button-base&quot;]</value>
-      <webElementGuid>952319ba-769a-460e-82c7-d8248193705c</webElementGuid>
+      <webElementGuid>875b1355-935b-4926-ac35-75ccb255a392</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -90,7 +90,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[15]</value>
-      <webElementGuid>789347ff-8090-4872-b5bc-ae35e248e49a</webElementGuid>
+      <webElementGuid>9bf7dcdf-9b47-4e50-8375-c74a488474b9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,7 +98,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//ngx-mat-intl-tel-input[@id='ngx-mat-intl-tel-input-15']/div/button</value>
-      <webElementGuid>6889e252-cd24-4ab5-8417-99b0253bb1c4</webElementGuid>
+      <webElementGuid>ca5f37af-4772-45b9-9ff5-580e50542ead</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,7 +106,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Type'])[2]/following::button[1]</value>
-      <webElementGuid>cc1146f3-8f75-4945-abe2-51641eb9ed33</webElementGuid>
+      <webElementGuid>7c17fc69-6eb6-4d74-b2ff-cecbce91f25b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -114,7 +114,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Email'])[1]/following::button[2]</value>
-      <webElementGuid>b94f1318-a0d8-431d-a3d3-f4f19e102e77</webElementGuid>
+      <webElementGuid>af8ff632-256a-4b18-a661-5f1750aca8a2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -122,7 +122,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Address:'])[1]/preceding::button[2]</value>
-      <webElementGuid>85867b5a-9213-4cbc-9340-f84b1488b6e2</webElementGuid>
+      <webElementGuid>e696b7d8-e5bb-4585-b11a-6200db4f2ad2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -130,7 +130,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Company'])[1]/preceding::button[3]</value>
-      <webElementGuid>8d261e28-e13a-4d15-81f6-d46855b99a07</webElementGuid>
+      <webElementGuid>453dbad5-af66-49f6-afca-317225f5837f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -138,7 +138,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//ngx-mat-intl-tel-input/div/button</value>
-      <webElementGuid>36635b98-51e1-44fd-aa5d-d9bca7983a64</webElementGuid>
+      <webElementGuid>d7b59110-0ee1-40b6-b824-12d683616994</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -146,6 +146,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = '+1' or . = '+1')]</value>
-      <webElementGuid>0fea5b9c-9e75-4ab9-8e07-d28c5be3596d</webElementGuid>
+      <webElementGuid>4a424f0b-b619-4066-a91a-15660e97566e</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

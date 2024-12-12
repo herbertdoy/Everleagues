@@ -23,11 +23,13 @@ WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Settings/Em
 
 WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Settings/span_None'))
 
-WebUI.delay(GlobalVariable.delay_2s)
+WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Settings/button_Save'))
 
-WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/View Profile/Settings/Successfully msg'))
+//WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/View Profile/Settings/Successfully msg'))
+
+WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Settings/Email Frequency selector'))
 

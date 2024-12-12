@@ -37,11 +37,11 @@ WebUI.refresh()
 
 WebUI.delay(GlobalVariable.delay_2s)
 
-WebUI.click(findTestObject('05-Chat/09-Hiding a chat/hide_automation_chat'))
+//WebUI.click(findTestObject('05-Chat/09-Hiding a chat/hide_automation_chat'))
 
 WebUI.refresh()
 
-//WebUI.verifyElementVisible(findTestObject('05-Chat/01- Creating a Chat group/div_No chat available'))
+WebUI.verifyElementVisible(findTestObject('05-Chat/01- Creating a Chat group/div_No chat available'))
 
 WebUI.delay(GlobalVariable.delay_1s)
 

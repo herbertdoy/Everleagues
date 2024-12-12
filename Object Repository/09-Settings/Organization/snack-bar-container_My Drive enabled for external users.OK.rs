@@ -6,12 +6,12 @@
    <elementGuidId>2bb58791-5785-4f8b-8188-4174caa103c2</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>snack-bar-container.mat-snack-bar-container.ng-tns-c50-133.ng-trigger.ng-trigger-state.mat-snack-bar-center.ng-star-inserted</value>
+         <key>XPATH</key>
+         <value>//*/text()[normalize-space(.)='My Drive enabled for external users.']/parent::*</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//snack-bar-container[(text() = 'My Drive enabled for external users.OK' or . = 'My Drive enabled for external users.OK')]</value>
+         <key>CSS</key>
+         <value>snack-bar-container.mat-snack-bar-container.ng-tns-c50-133.ng-trigger.ng-trigger-state.mat-snack-bar-center.ng-star-inserted</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>snack-bar-container</value>
-      <webElementGuid>e1acd4f5-0ad4-49f2-a9b5-fbd0992800b1</webElementGuid>
+      <webElementGuid>37c5a529-57cd-4391-94a1-83ac935b376b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-snack-bar-container ng-tns-c50-133 ng-trigger ng-trigger-state mat-snack-bar-center ng-star-inserted</value>
-      <webElementGuid>fb3341ac-5bb2-4d9a-aa1b-660d3a49eb1f</webElementGuid>
+      <webElementGuid>88204e65-4e42-452c-bac0-2134bef88cba</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value>My Drive enabled for external users.OK</value>
-      <webElementGuid>5440d819-32b5-4696-8889-b6f7e4dec8fe</webElementGuid>
+      <webElementGuid>303aed5e-e31e-407e-96ef-44bc81935dc5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;cdk-overlay-36&quot;)/snack-bar-container[@class=&quot;mat-snack-bar-container ng-tns-c50-133 ng-trigger ng-trigger-state mat-snack-bar-center ng-star-inserted&quot;]</value>
-      <webElementGuid>18c66284-cf08-4271-84da-d6b73e38c652</webElementGuid>
+      <webElementGuid>5e3b5429-d497-4ac8-b0c3-f3538c37ece0</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='cdk-overlay-36']/snack-bar-container</value>
-      <webElementGuid>f78d9554-21dc-42eb-ba28-1710cc648c29</webElementGuid>
+      <webElementGuid>a584818c-c65c-41a0-9b40-0d8b337eb43d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='`'])[2]/following::snack-bar-container[1]</value>
-      <webElementGuid>ef094fca-ef6d-4c28-aa18-a5753a674c23</webElementGuid>
+      <webElementGuid>49a7e7d9-5f0a-42ed-abff-f5d16628eec1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Alt'])[2]/following::snack-bar-container[1]</value>
-      <webElementGuid>4d20fde5-6e05-4cab-958b-148fc0828eac</webElementGuid>
+      <webElementGuid>49a8c9c1-1ce9-4290-b7bc-caa9518c636d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//snack-bar-container</value>
-      <webElementGuid>cd008f40-b5b8-432b-9996-01cbf10d957b</webElementGuid>
+      <webElementGuid>00cf082d-d9d0-421b-a36e-97a186a3b8dc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,6 +86,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//snack-bar-container[(text() = 'My Drive enabled for external users.OK' or . = 'My Drive enabled for external users.OK')]</value>
-      <webElementGuid>3b2bc52b-491a-4a90-9f28-cd22539e2dda</webElementGuid>
+      <webElementGuid>2990b4a1-389b-4b4c-bbd9-1dc88336d54e</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

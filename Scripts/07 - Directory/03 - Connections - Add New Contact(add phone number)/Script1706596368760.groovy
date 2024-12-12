@@ -17,13 +17,17 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.click(findTestObject('07-Directory/Connections/input_Type_phone'))
+
+WebUI.click(findTestObject('07-Directory/Connections/button_area code'))
+
 WebUI.verifyElementVisible(findTestObject('07-Directory/Connections/area code modal'))
 
 WebUI.click(findTestObject('07-Directory/Connections/button_Australia'))
 
 WebUI.delay(GlobalVariable.delay_2s)
 
-WebUI.setText(findTestObject('07-Directory/Connections/input_Type_phone'), phoneNumber)
+WebUI.setText(findTestObject('07-Directory/Connections/input_phone_number'), phoneNumber)
 
 WebUI.delay(GlobalVariable.delay_2s)
 
