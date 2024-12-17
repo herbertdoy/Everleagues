@@ -15,18 +15,18 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//button[@role='menuitem'])[1]</value>
+         <value>(//button[@type='button'])[9]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>1e950d65-0dc0-437d-acf1-3d2e779e5b87</webElementGuid>
+      <webElementGuid>7732b684-8378-46fe-b652-986ee5c0b96e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -34,7 +34,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>ecfacb6b-8cc8-4976-9c8b-337205d73ab0</webElementGuid>
+      <webElementGuid>5b031f02-8b41-4e1d-81cc-df23fce7bb4f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,7 +42,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-focus-indicator mat-menu-item ng-star-inserted cdk-focused cdk-program-focused</value>
-      <webElementGuid>1baf7631-c9fb-43f4-b206-ae9e42326077</webElementGuid>
+      <webElementGuid>67da9d77-8ad9-424b-b118-257516753fd2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,7 +50,7 @@
       <name>role</name>
       <type>Main</type>
       <value>menuitem</value>
-      <webElementGuid>4d488fa8-c2e7-4584-8faa-e040cd2bdc44</webElementGuid>
+      <webElementGuid>0e6e51ff-d397-4144-afd4-25e9b8742207</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -58,7 +58,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>7842c24f-e509-4e42-9072-d4f1131f6fa7</webElementGuid>
+      <webElementGuid>7448657a-42a1-4e32-bb80-b2e689f72c60</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -66,26 +66,82 @@
       <name>aria-disabled</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>75fae5c6-142a-4170-b0f3-f4089e69afea</webElementGuid>
+      <webElementGuid>f0ed5150-0852-4f6c-a719-caacac55f72e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>open_withOpen </value>
-      <webElementGuid>9eda33a8-2e19-4dce-bab3-e5d77aff4417</webElementGuid>
+      <value>open_with  Open </value>
+      <webElementGuid>b57815c2-5b2a-499e-8696-10ec31647ba0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;mat-menu-panel-9&quot;)/div[@class=&quot;mat-menu-content ng-tns-c98-47&quot;]/div[1]/button[@class=&quot;mat-focus-indicator mat-menu-item ng-star-inserted cdk-focused cdk-program-focused&quot;]</value>
-      <webElementGuid>ceafcbf1-d585-47b1-972e-72fe4bca36a4</webElementGuid>
+      <value>id(&quot;mat-menu-panel-28&quot;)/div[@class=&quot;mat-menu-content ng-tns-c331-157&quot;]/div[1]/button[@class=&quot;mat-focus-indicator mat-menu-item ng-star-inserted cdk-focused cdk-program-focused&quot;]</value>
+      <webElementGuid>595ef11a-e5ac-406b-a78f-58b1f0d760ed</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[9]</value>
+      <webElementGuid>2b89cd69-beec-469b-9330-a25817b2af3f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='mat-menu-panel-28']/div/div/button</value>
+      <webElementGuid>177f9a0c-09f0-40ab-b0aa-e41df468888f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='My Drive'])[2]/following::button[5]</value>
+      <webElementGuid>dece7044-f4e5-428f-b595-60a76c4c9fcd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='testuser cloudfiles00'])[1]/following::button[5]</value>
+      <webElementGuid>6807cf4e-a893-4b3d-9c9d-094b89536b06</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Open']/parent::*</value>
+      <webElementGuid>1737cdd9-415a-44f0-ab72-5157e5608cbd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/div/div/button</value>
+      <webElementGuid>7e3ea511-4d06-487e-9f76-af3f9079d17a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = 'open_with  Open ' or . = 'open_with  Open ')]</value>
+      <webElementGuid>31f6207c-d278-4ddd-a679-357cb669a549</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
@@ -115,14 +171,6 @@
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Alt'])[2]/following::button[1]</value>
       <webElementGuid>7c8a5271-454d-4b5e-882d-3e4d28d9cf27</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Open']/parent::*</value>
-      <webElementGuid>dfb5992f-42a2-442c-9a9f-86077b4bff5c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
