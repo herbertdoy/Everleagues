@@ -6,12 +6,12 @@
    <elementGuidId>06dd64ea-5556-4799-b441-180e5860320a</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>td.mat-cell.cdk-cell.break-word.cdk-column-name.mat-column-name.ng-star-inserted</value>
+         <key>XPATH</key>
+         <value>//td[(text() = 'qa' or . = 'qa')]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Location'])[1]/following::td[2]</value>
+         <key>CSS</key>
+         <value>td.mat-cell.cdk-cell.break-word.cdk-column-name.mat-column-name.ng-star-inserted</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>td</value>
-      <webElementGuid>e0cb26cb-5787-480a-ae2f-e5db61725e57</webElementGuid>
+      <webElementGuid>b3593e47-eda9-4b24-94e5-a89fcaecc7b6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>role</name>
       <type>Main</type>
       <value>cell</value>
-      <webElementGuid>c99cb346-85c4-4939-83f4-f51abb71814a</webElementGuid>
+      <webElementGuid>cd1964b2-3aa5-47a5-beea-826453022d24</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-cell cdk-cell break-word cdk-column-name mat-column-name ng-star-inserted</value>
-      <webElementGuid>31d405b3-8692-4cf7-9445-44242496f570</webElementGuid>
+      <webElementGuid>b4bf4bf6-a5c3-4389-bd8f-10897dab7b0d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>text</name>
       <type>Main</type>
       <value>qa</value>
-      <webElementGuid>bde87b39-2897-4c48-8aa0-40eaea4e020f</webElementGuid>
+      <webElementGuid>f4810c05-c788-423d-9065-b9b031cce8e0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[@class=&quot;light theme-default os-window fuse-splash-screen-hidden&quot;]/app-root[1]/app-main-page[@class=&quot;ng-tns-c505-7 ng-trigger ng-trigger-routerAnimation ng-star-inserted&quot;]/div[@class=&quot;absolute inset-0 flex flex-col min-w-0 overflow-hidden ng-tns-c505-7&quot;]/mat-sidenav-container[@class=&quot;mat-drawer-container mat-sidenav-container flex-auto h-full ng-tns-c505-7&quot;]/mat-sidenav-content[@class=&quot;mat-drawer-content mat-sidenav-content flex flex-col overflow-hidden&quot;]/div[@class=&quot;flex flex-col flex-auto w-full min-w-0&quot;]/div[@class=&quot;flex flex-col flex-auto ng-tns-c505-7&quot;]/app-storage-record[@class=&quot;ng-star-inserted&quot;]/section[@class=&quot;storage-page&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;table-container&quot;]/app-storage-table[1]/perfect-scrollbar[@class=&quot;table-container&quot;]/div[@class=&quot;ps&quot;]/div[@class=&quot;ps-content&quot;]/table[@class=&quot;mat-table cdk-table mat-sort&quot;]/tbody[1]/tr[@class=&quot;mat-row cdk-row ng-star-inserted highlight&quot;]/td[@class=&quot;mat-cell cdk-cell break-word cdk-column-name mat-column-name ng-star-inserted&quot;]</value>
-      <webElementGuid>4d6ae087-5ffe-4ae0-a7c3-6bd0f21bd586</webElementGuid>
+      <webElementGuid>bf9e0afa-719d-4d60-ba26-bb7318faa72e</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Location'])[1]/following::td[2]</value>
-      <webElementGuid>64294e29-a6f0-40b9-b08c-6c969c331516</webElementGuid>
+      <webElementGuid>99757eac-518e-4ea3-9285-b301eb0e7d5a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Size'])[1]/following::td[2]</value>
-      <webElementGuid>92b1647d-12ed-4dc8-a1ce-3ba6110c6e09</webElementGuid>
+      <webElementGuid>29cb6773-fe59-4ede-a3b0-a290b8b47d77</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Uploaded'])[1]/preceding::td[2]</value>
-      <webElementGuid>f428868b-1049-4234-acaa-ea2ef0191eb0</webElementGuid>
+      <webElementGuid>1f18c422-c43b-4892-be40-1a925a073613</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td[2]</value>
-      <webElementGuid>83d883d4-5e8e-4182-a887-af231d9c2b3b</webElementGuid>
+      <webElementGuid>51eb7649-ff16-4312-8e78-be7730d92a99</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,6 +94,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//td[(text() = 'qa' or . = 'qa')]</value>
-      <webElementGuid>9a14ba48-7e19-4504-8b2f-fa8c5b667a0d</webElementGuid>
+      <webElementGuid>0936e7d4-a9c0-4900-a998-598213d2109a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

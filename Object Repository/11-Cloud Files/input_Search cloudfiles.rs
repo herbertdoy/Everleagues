@@ -6,16 +6,16 @@
    <elementGuidId>2d7dc91f-c368-47b8-8469-239cf7f83c1a</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>//input[@data-placeholder='Search in My Drive']</value>
+      </entry>
+      <entry>
          <key>BASIC</key>
          <value>//input[@type = 'text' and @ng-reflect-placeholder = 'Search in My Cloud Files' and @placeholder = 'Search in My Cloud Files']</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>#mat-input-0</value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//input[@data-placeholder='Search in My Files']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -26,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>1c94096e-0ba7-4800-994b-5c3007b196a1</webElementGuid>
+      <webElementGuid>908054b7-089c-40e6-9a1b-57f393fa1111</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -34,7 +34,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>b39ae658-e8cb-4a14-a240-e9325967e215</webElementGuid>
+      <webElementGuid>174f8b5f-4f97-4d58-9356-3502cf0e543f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,7 +42,7 @@
       <name>autocomplete</name>
       <type>Main</type>
       <value>off</value>
-      <webElementGuid>eb69842d-e0ad-45d3-8dfb-d0b8eb7f0ad7</webElementGuid>
+      <webElementGuid>1eb219dc-8a90-48a3-b9fe-8b9c2a44483c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,7 +50,7 @@
       <name>maxlength</name>
       <type>Main</type>
       <value>100</value>
-      <webElementGuid>b2dc5d05-b833-4f06-8d74-58b0b3edab8e</webElementGuid>
+      <webElementGuid>15c68eb2-a8f3-4fbf-80c9-a977cbd85350</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -58,7 +58,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-input-element mat-form-field-autofill-control search-textbox cdk-text-field-autofill-monitored ng-valid ng-touched ng-dirty</value>
-      <webElementGuid>7f84b1e9-306d-483c-86cc-1ea6ef67979d</webElementGuid>
+      <webElementGuid>315ecdb1-70b3-4047-afc6-049fc0255d58</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -66,7 +66,7 @@
       <name>ng-reflect-maxlength</name>
       <type>Main</type>
       <value>100</value>
-      <webElementGuid>310b7ed8-a447-4928-b329-e963f9d6d830</webElementGuid>
+      <webElementGuid>56b718ea-b8f0-4624-bca5-36ea18eb18a2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -74,7 +74,7 @@
       <name>ng-reflect-type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>e36d3781-8763-48aa-8fb8-b9a40d602f66</webElementGuid>
+      <webElementGuid>69c0ba1e-15e2-478e-a69c-6faab69641a9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -82,7 +82,7 @@
       <name>ng-reflect-placeholder</name>
       <type>Main</type>
       <value>Search in My Cloud Files</value>
-      <webElementGuid>5f9a8a8a-17ce-40d9-82e5-63315aad2134</webElementGuid>
+      <webElementGuid>8ecef562-de1f-4996-a444-6a4d41ffbc7c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -90,7 +90,7 @@
       <name>id</name>
       <type>Main</type>
       <value>mat-input-0</value>
-      <webElementGuid>238e4b28-980c-4720-84e8-6486da23af9b</webElementGuid>
+      <webElementGuid>55f67f20-8275-401c-97ec-2d29c1cfb37c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -98,7 +98,7 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>Search in My Cloud Files</value>
-      <webElementGuid>f9729be0-293f-4e66-a912-bcad7c75ad63</webElementGuid>
+      <webElementGuid>70c5b951-74ff-4f65-84a2-915abeb698da</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -106,7 +106,7 @@
       <name>aria-invalid</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>93406e31-26e3-4d9a-b072-4c4ba6e67ccf</webElementGuid>
+      <webElementGuid>08201749-4249-43eb-a884-3dff8648215e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -114,7 +114,7 @@
       <name>aria-required</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>98bc6053-d4a7-437c-b02b-6a4ec43d804c</webElementGuid>
+      <webElementGuid>947e1abc-4c58-4948-838e-dc80ccbba016</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -122,7 +122,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-input-0&quot;)</value>
-      <webElementGuid>b33d0492-fd4e-4734-86d2-582bdcb4f3ae</webElementGuid>
+      <webElementGuid>d4d90bef-2d6c-4c67-bf25-a41babd1ed0c</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -130,7 +130,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='mat-input-0']</value>
-      <webElementGuid>0bfa034c-74cd-4e66-926d-d9e3b8b55762</webElementGuid>
+      <webElementGuid>f628a647-e2c7-48db-b26d-cbb43fff520a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -138,7 +138,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//input[2]</value>
-      <webElementGuid>237f89ff-56cf-447d-8762-57baee71cd30</webElementGuid>
+      <webElementGuid>8470b291-49e4-4aa4-a1ab-7357836aee55</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -146,6 +146,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'text' and @id = 'mat-input-0' and @placeholder = 'Search in My Cloud Files']</value>
-      <webElementGuid>c70783c5-ffff-48e3-8897-83896ee71f26</webElementGuid>
+      <webElementGuid>29084479-61b8-44f5-b59c-178257dafcc0</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

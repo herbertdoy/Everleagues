@@ -153,13 +153,6 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>92348f0a-258a-40e9-8873-de30fc57f0ba</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/11.1 - Cloud Files (My Drive)/05 - Recent</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
       <guid>5b92b998-af78-4d00-8078-0bc14bf7738d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>

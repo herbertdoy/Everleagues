@@ -25,6 +25,8 @@ WebUI.click(findTestObject('11-Cloud Files/button_bookmark  Add to Quick Access'
 
 WebUI.click(findTestObject('11-Cloud Files/div_Quick Access'))
 
+WebUI.refresh()
+
 WebUI.verifyElementVisible(findTestObject('11-Cloud Files/qa_file'))
 
 WebUI.rightClick(findTestObject('11-Cloud Files/qa_file'))
@@ -68,10 +70,4 @@ WebUI.delay(GlobalVariable.delay_2s)
 WebUI.switchToWindowIndex(0)
 
 WebUI.delay(GlobalVariable.delay_2s)
-
-WebUI.rightClick(findTestObject('11-Cloud Files/qa_file'))
-
-WebUI.click(findTestObject('11-Cloud Files/button_delete  Remove'))
-
-WebUI.click(findTestObject('11-Cloud Files/button_Confirm'))
 

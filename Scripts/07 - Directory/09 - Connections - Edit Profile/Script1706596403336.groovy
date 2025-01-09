@@ -17,6 +17,8 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.click(findTestObject('07-Directory/Connections/zContact Profile/btn_close'))
+
 WebUI.click(findTestObject('07-Directory/Connections/div_added user'))
 
 WebUI.click(findTestObject('07-Directory/Connections/zContact Profile/button_edit profile'))

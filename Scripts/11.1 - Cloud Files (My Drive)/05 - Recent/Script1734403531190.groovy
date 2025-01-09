@@ -17,6 +17,8 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.click(findTestObject('03-Header Menu/div_Cloud Files'))
+
 WebUI.click(findTestObject('11-Cloud Files/div_Recent'))
 
 WebUI.verifyElementVisible(findTestObject('11-Cloud Files/qa_file'))
@@ -62,10 +64,4 @@ WebUI.delay(GlobalVariable.delay_2s)
 WebUI.switchToWindowIndex(0)
 
 WebUI.delay(GlobalVariable.delay_2s)
-
-WebUI.rightClick(findTestObject('11-Cloud Files/qa_file'))
-
-WebUI.click(findTestObject('11-Cloud Files/button_delete  Remove'))
-
-WebUI.click(findTestObject('11-Cloud Files/button_Confirm'))
 

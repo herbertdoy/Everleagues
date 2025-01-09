@@ -6,12 +6,12 @@
    <elementGuidId>cc7ce38b-afde-4b29-856e-8546da57b895</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#mat-tab-label-0-0</value>
+         <key>XPATH</key>
+         <value>//div[@id = 'mat-tab-label-0-0' and (text() = 'Chat' or . = 'Chat')]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='mat-tab-label-0-0']</value>
+         <key>CSS</key>
+         <value>#mat-tab-label-0-0</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>d0067132-fb78-4d48-9823-f606e0d4597d</webElementGuid>
+      <webElementGuid>5fc40f38-1e41-4f6e-a6c3-1350dd1cfad9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>role</name>
       <type>Main</type>
       <value>tab</value>
-      <webElementGuid>b59c3015-88ef-402c-aedf-1ef25fc9fd01</webElementGuid>
+      <webElementGuid>d1609955-0529-42c0-80c0-ef3a1aa13025</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-ripple mat-tab-label mat-focus-indicator mat-tab-label-active ng-star-inserted</value>
-      <webElementGuid>9aadfdea-b728-42be-88c6-8259702dc247</webElementGuid>
+      <webElementGuid>3a317b25-2d02-48c4-8914-fac4ee05ceaa</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>id</name>
       <type>Main</type>
       <value>mat-tab-label-0-0</value>
-      <webElementGuid>efbaec74-2f1f-48f2-b074-45a2a37e0041</webElementGuid>
+      <webElementGuid>d166244b-40ce-475c-b5ee-0c713d030d3f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>ng-reflect-disabled</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>6ea89800-5f26-44a4-b539-8b4acf56988c</webElementGuid>
+      <webElementGuid>76641195-3a64-42d1-a413-0cd276e7913d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>8af6bc59-a135-4367-9e7b-b59348fa4660</webElementGuid>
+      <webElementGuid>09c7167e-d827-451c-aa10-6e635c13962d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>aria-posinset</name>
       <type>Main</type>
       <value>1</value>
-      <webElementGuid>5f4f735c-b3ee-465d-a2b7-030e20a4d5eb</webElementGuid>
+      <webElementGuid>229fec50-503d-47b3-b7f6-a731c64d404a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>aria-setsize</name>
       <type>Main</type>
       <value>2</value>
-      <webElementGuid>38b2752f-7257-414f-9019-1ff4d09477e7</webElementGuid>
+      <webElementGuid>eb8c3b43-e234-4024-8e0f-53ae8246fc63</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>aria-controls</name>
       <type>Main</type>
       <value>mat-tab-content-0-0</value>
-      <webElementGuid>0ff71013-e995-4446-97f6-e7cea03cd377</webElementGuid>
+      <webElementGuid>ab7cfa55-3033-4663-8bdd-6b2b66e25731</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>aria-selected</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>61002a8a-f8f5-48a9-9538-933866f5e386</webElementGuid>
+      <webElementGuid>79ab0c14-4de7-4b13-a3ad-733e44c3b900</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>aria-disabled</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>9f1126eb-e7fd-4a66-b47b-582c80e1a63f</webElementGuid>
+      <webElementGuid>fb2ff681-591b-4c67-a1fb-61f3daf34a30</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -110,7 +110,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Chat</value>
-      <webElementGuid>2554a276-262b-4731-b7d2-0cb953a272a0</webElementGuid>
+      <webElementGuid>acc46e86-d98e-469d-a492-54688290f2d5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -118,7 +118,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-tab-label-0-0&quot;)</value>
-      <webElementGuid>df051c09-044e-49b0-ab5b-462ac8ab6dee</webElementGuid>
+      <webElementGuid>560aa7c7-bacf-43fc-ac0c-1f362a8c05bd</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -126,7 +126,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//div[@id='mat-tab-label-0-0']</value>
-      <webElementGuid>85efef0c-4f39-4778-9f5e-3858e779a6fb</webElementGuid>
+      <webElementGuid>4b979082-15fd-43ed-9d56-940af859ff72</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,7 +134,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='mainContainer']/mat-tab-group/mat-tab-header/div/div/div/div</value>
-      <webElementGuid>c68f2485-5d08-4d02-b7e2-f5b350830517</webElementGuid>
+      <webElementGuid>62495a15-1f56-4fe0-b410-3aea50d3c72a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -142,7 +142,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='GT'])[4]/following::div[6]</value>
-      <webElementGuid>3b616420-57f2-407d-a4bc-70e61d3e4931</webElementGuid>
+      <webElementGuid>06ce7aca-8eb0-4b84-9a35-dce6f35b82f2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -150,7 +150,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='GT'])[3]/following::div[8]</value>
-      <webElementGuid>c701768c-6c31-4f59-9e08-8b91fb80902d</webElementGuid>
+      <webElementGuid>eececd82-3c6a-435c-aed7-b3169b3c4d5a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -158,7 +158,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Files'])[1]/preceding::div[2]</value>
-      <webElementGuid>ba235393-b15d-46ad-85a5-0aab994be2c9</webElementGuid>
+      <webElementGuid>3aebf06b-98af-495e-adb0-4e68331d9d4e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -166,7 +166,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//mat-tab-header/div/div/div/div</value>
-      <webElementGuid>e5c802e8-ae8d-4e01-ac11-f60b2ce42e40</webElementGuid>
+      <webElementGuid>ed295fe9-45da-47a7-97e6-cf3c1cd3f71a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -174,6 +174,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[@id = 'mat-tab-label-0-0' and (text() = 'Chat' or . = 'Chat')]</value>
-      <webElementGuid>f9fe7bcc-97b4-4efb-bc87-470b015874f0</webElementGuid>
+      <webElementGuid>1b52d278-2324-4b82-a887-6ed06b07748f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
