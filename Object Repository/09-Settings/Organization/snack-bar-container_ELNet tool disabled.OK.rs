@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//snack-bar-container[(text() = 'ELNet tool disabled.OK' or . = 'ELNet tool disabled.OK')]</value>
+         <value>//span[(text() = 'ELNet tool disabled.' or . = 'ELNet tool disabled.')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>snack-bar-container</value>
-      <webElementGuid>2ede5cd5-88c9-47d4-8916-f41397260bda</webElementGuid>
+      <webElementGuid>d41023da-6398-4f6d-80d8-4540ca74aa37</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-snack-bar-container ng-tns-c50-135 ng-trigger ng-trigger-state mat-snack-bar-center ng-star-inserted</value>
-      <webElementGuid>d06f7deb-f7bc-4bcc-8a62-fc48352417e0</webElementGuid>
+      <webElementGuid>7b2f0b8e-bf70-40c4-adae-325e5c763d89</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value>ELNet tool disabled.OK</value>
-      <webElementGuid>b1af1ffa-bd5b-4f53-a472-8e043c8e6d7a</webElementGuid>
+      <webElementGuid>00816f45-9dba-4d83-8f3a-88a725603e3b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;cdk-overlay-38&quot;)/snack-bar-container[@class=&quot;mat-snack-bar-container ng-tns-c50-135 ng-trigger ng-trigger-state mat-snack-bar-center ng-star-inserted&quot;]</value>
-      <webElementGuid>6e07c53e-b09e-444b-b381-5ff2382250c3</webElementGuid>
+      <webElementGuid>b62c38d8-62a5-4b8a-b027-6a32ff769e7a</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='cdk-overlay-38']/snack-bar-container</value>
-      <webElementGuid>ac578e7e-5b85-43e0-8abd-d3b5b0631df2</webElementGuid>
+      <webElementGuid>c673fda9-a403-4287-9886-37b91eb59cca</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='`'])[2]/following::snack-bar-container[1]</value>
-      <webElementGuid>7e1df75a-c013-4a00-a3de-22b805c66ee2</webElementGuid>
+      <webElementGuid>0e14df3a-d5f1-4174-bcf4-160fcd065d2c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Alt'])[2]/following::snack-bar-container[1]</value>
-      <webElementGuid>9bcde9e1-9732-4e41-a7e6-a1bbbdb33f00</webElementGuid>
+      <webElementGuid>d8108148-6f37-4171-8e3d-de0a8455d6ab</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//snack-bar-container</value>
-      <webElementGuid>ff17a20e-ce45-476d-89b8-1da314767d7f</webElementGuid>
+      <webElementGuid>95c2b0d3-f9b1-45f2-8904-c1cbd09c4059</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,6 +86,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//snack-bar-container[(text() = 'ELNet tool disabled.OK' or . = 'ELNet tool disabled.OK')]</value>
-      <webElementGuid>53e4ffe2-ac99-464e-bf50-6a1e54399a6a</webElementGuid>
+      <webElementGuid>f879469f-4704-43e3-b821-a6e1fe4c91a6</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

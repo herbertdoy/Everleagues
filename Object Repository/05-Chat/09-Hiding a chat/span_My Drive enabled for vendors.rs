@@ -3,15 +3,15 @@
    <description></description>
    <name>span_My Drive enabled for vendors</name>
    <tag></tag>
-   <elementGuidId>a3aa36eb-a83a-4947-a446-9926236ffb3a</elementGuidId>
+   <elementGuidId>e0d26fb9-2b9d-42c3-8182-586e1d408023</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>XPATH</key>
-         <value>//span[(text() = 'My Drive enabled for vendors.' or . = 'My Drive enabled for vendors.')]</value>
-      </entry>
       <entry>
          <key>CSS</key>
          <value>span.mat-simple-snack-bar-content</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[(text() = 'My Drive enabled for vendors.' or . = 'My Drive enabled for vendors.')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>03c2f493-c6f7-4534-af64-c2aca401103c</webElementGuid>
+      <webElementGuid>9e7a731f-a989-407d-8507-6b525afcd701</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-simple-snack-bar-content</value>
-      <webElementGuid>43d5fd7b-af1a-41dc-9946-135f48c12ea0</webElementGuid>
+      <webElementGuid>546f1564-3b66-4625-a267-d54fa25013c6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value>My Drive enabled for vendors.</value>
-      <webElementGuid>676b2b85-a4fe-4940-b05e-3a10941566ab</webElementGuid>
+      <webElementGuid>7c31d771-aaf8-40fd-a041-dae58975a373</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;cdk-overlay-7&quot;)/snack-bar-container[@class=&quot;mat-snack-bar-container ng-tns-c41-96 ng-trigger ng-trigger-state mat-snack-bar-center ng-star-inserted&quot;]/div[@class=&quot;ng-tns-c41-96&quot;]/div[@class=&quot;ng-tns-c41-96&quot;]/simple-snack-bar[@class=&quot;mat-simple-snackbar ng-star-inserted&quot;]/span[@class=&quot;mat-simple-snack-bar-content&quot;]</value>
-      <webElementGuid>adb9400a-59da-4e10-8948-4c3eb5f21b7a</webElementGuid>
+      <webElementGuid>21cd6548-0a41-4e45-90d0-cdd8791e61cf</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='cdk-overlay-7']/snack-bar-container/div/div/simple-snack-bar/span</value>
-      <webElementGuid>e118cdfe-70ef-4e01-86bf-ecaa7d7247e3</webElementGuid>
+      <webElementGuid>49bee577-a469-40f9-b419-69f4b1197fc9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Enable data retention'])[1]/following::span[21]</value>
-      <webElementGuid>172ce63e-e381-4cc9-a800-11e2dcc52d15</webElementGuid>
+      <webElementGuid>64f23075-8c3f-4a94-92d8-9cfad1ee18f2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Data Retention'])[1]/following::span[22]</value>
-      <webElementGuid>e764970e-0c95-4e7e-901f-a5191033b890</webElementGuid>
+      <webElementGuid>e5dfdcbb-0737-4c9d-a53c-501b703d6619</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='OK'])[1]/preceding::span[1]</value>
-      <webElementGuid>810f3421-3401-4c1c-9b5f-c4e2b470b250</webElementGuid>
+      <webElementGuid>f8684602-abc8-4e2a-b3c1-9dc497085ad1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Shortcuts'])[1]/preceding::span[4]</value>
-      <webElementGuid>e8e42aa0-1b7c-4680-853b-0131027c39bc</webElementGuid>
+      <webElementGuid>5d85408f-4bce-43c1-8cfb-aee4148da280</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='My Drive enabled for vendors.']/parent::*</value>
-      <webElementGuid>7169b58e-87c1-48ef-a4f1-37404e792fa8</webElementGuid>
+      <webElementGuid>bec9f338-e23a-4bbf-b307-a6b96238f7ca</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//simple-snack-bar/span</value>
-      <webElementGuid>5455cca2-1266-494a-9d3f-2e6e09bcba3c</webElementGuid>
+      <webElementGuid>f1a28193-d50d-42bb-bbcb-8c21298e125a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,38 +110,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'My Drive enabled for vendors.' or . = 'My Drive enabled for vendors.')]</value>
-      <webElementGuid>798dda03-0628-4074-9993-764bf98c0b1b</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
-      <value>//div[@id='cdk-overlay-23']/snack-bar-container/div/div/simple-snack-bar/span</value>
-      <webElementGuid>f864fb1a-f9eb-43e5-bffd-b46a941940d4</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Client Assignment'])[2]/following::span[1]</value>
-      <webElementGuid>8679d153-dd67-4bd9-80e0-e7ff7d3e909f</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Invite New User'])[1]/following::span[1]</value>
-      <webElementGuid>6612d31f-af58-4e77-a18b-2ab91dbeae59</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::span[4]</value>
-      <webElementGuid>47970878-2ede-490c-b9c6-3e129e94fe1e</webElementGuid>
+      <webElementGuid>ce0a957b-cdc3-40a6-858c-d1010242e8ed</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

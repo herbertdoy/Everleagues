@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//*/text()[normalize-space(.)='My Drive enabled for external users.']/parent::*</value>
+         <value>//span[(text() = 'My Drive enabled for external users.' or . = 'My Drive enabled for external users.')]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>snack-bar-container</value>
-      <webElementGuid>37c5a529-57cd-4391-94a1-83ac935b376b</webElementGuid>
+      <webElementGuid>4b66ffa0-b403-4ade-bd8c-49c185d428b0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-snack-bar-container ng-tns-c50-133 ng-trigger ng-trigger-state mat-snack-bar-center ng-star-inserted</value>
-      <webElementGuid>88204e65-4e42-452c-bac0-2134bef88cba</webElementGuid>
+      <webElementGuid>27ecd016-36e1-4a07-b935-128b5ed4d927</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value>My Drive enabled for external users.OK</value>
-      <webElementGuid>303aed5e-e31e-407e-96ef-44bc81935dc5</webElementGuid>
+      <webElementGuid>869fa278-8d98-48a9-bcd1-eea9478bdbbe</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;cdk-overlay-36&quot;)/snack-bar-container[@class=&quot;mat-snack-bar-container ng-tns-c50-133 ng-trigger ng-trigger-state mat-snack-bar-center ng-star-inserted&quot;]</value>
-      <webElementGuid>5e3b5429-d497-4ac8-b0c3-f3538c37ece0</webElementGuid>
+      <webElementGuid>8c5d7a36-9a54-4283-b732-1134577faa1e</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='cdk-overlay-36']/snack-bar-container</value>
-      <webElementGuid>a584818c-c65c-41a0-9b40-0d8b337eb43d</webElementGuid>
+      <webElementGuid>1c0d86ba-7d2e-4d71-9ead-9ace68d64d27</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='`'])[2]/following::snack-bar-container[1]</value>
-      <webElementGuid>49a7e7d9-5f0a-42ed-abff-f5d16628eec1</webElementGuid>
+      <webElementGuid>24016000-b593-4b2b-86fc-da41f4fc7be6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Alt'])[2]/following::snack-bar-container[1]</value>
-      <webElementGuid>49a8c9c1-1ce9-4290-b7bc-caa9518c636d</webElementGuid>
+      <webElementGuid>8453cc36-b3ee-4837-84a0-08eeb7f08b05</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//snack-bar-container</value>
-      <webElementGuid>00cf082d-d9d0-421b-a36e-97a186a3b8dc</webElementGuid>
+      <webElementGuid>e1667a73-ece6-4b64-8f14-5ca283efa27b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,6 +86,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//snack-bar-container[(text() = 'My Drive enabled for external users.OK' or . = 'My Drive enabled for external users.OK')]</value>
-      <webElementGuid>2990b4a1-389b-4b4c-bbd9-1dc88336d54e</webElementGuid>
+      <webElementGuid>77b30247-a056-41e7-bfe8-2a8294307386</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

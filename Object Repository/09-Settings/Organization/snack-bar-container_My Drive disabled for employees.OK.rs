@@ -6,12 +6,12 @@
    <elementGuidId>c8f1f350-e1aa-4073-b6e7-71ebecf4da4a</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//*/text()[normalize-space(.)='My Drive disabled for employees.']/parent::*</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>snack-bar-container.mat-snack-bar-container.ng-tns-c50-127.ng-trigger.ng-trigger-state.mat-snack-bar-center.ng-star-inserted</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[(text() = 'My Drive disabled for employees.' or . = 'My Drive disabled for employees.')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>snack-bar-container</value>
-      <webElementGuid>f3295e91-5fc2-45f5-aadf-ab895a16ab5d</webElementGuid>
+      <webElementGuid>c3ce6fe9-955e-4b3f-b5f9-36ec9d51b4bb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-snack-bar-container ng-tns-c50-127 ng-trigger ng-trigger-state mat-snack-bar-center ng-star-inserted</value>
-      <webElementGuid>d865dea8-6622-4d2f-820d-bd77e3c584b4</webElementGuid>
+      <webElementGuid>2ee548fc-a8e5-46d3-8c48-6df41cc82dd7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value>My Drive disabled for employees.OK</value>
-      <webElementGuid>f1e434e3-eb9a-48ea-98cf-d3cd5d6b6e0b</webElementGuid>
+      <webElementGuid>80f06e18-8cdd-411f-b69c-c9439c890ff2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;cdk-overlay-30&quot;)/snack-bar-container[@class=&quot;mat-snack-bar-container ng-tns-c50-127 ng-trigger ng-trigger-state mat-snack-bar-center ng-star-inserted&quot;]</value>
-      <webElementGuid>896df6b9-8980-499e-ad67-e3880ee36710</webElementGuid>
+      <webElementGuid>36848aea-a976-4a31-93ee-0ea11ea69625</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='cdk-overlay-30']/snack-bar-container</value>
-      <webElementGuid>e6e6480a-6840-454d-9f8a-44509f1e9be3</webElementGuid>
+      <webElementGuid>61b8c523-479c-4f01-bc36-b51c9a78082e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='`'])[2]/following::snack-bar-container[1]</value>
-      <webElementGuid>c705b95a-8386-4a7c-921f-8e117ec325cf</webElementGuid>
+      <webElementGuid>12cfb78a-5306-4def-a06d-c7abfde77f51</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Alt'])[2]/following::snack-bar-container[1]</value>
-      <webElementGuid>73743b35-3322-498a-83a2-8f22825aa350</webElementGuid>
+      <webElementGuid>223f0e34-896e-4786-a56d-2b13a10127d3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//snack-bar-container</value>
-      <webElementGuid>89c2741d-e691-45aa-97ad-ef5e78085805</webElementGuid>
+      <webElementGuid>acd97f82-c9f2-4e04-baca-e72656146807</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,6 +86,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//snack-bar-container[(text() = 'My Drive disabled for employees.OK' or . = 'My Drive disabled for employees.OK')]</value>
-      <webElementGuid>ac111b91-8bbd-41a9-9db4-da117e573df9</webElementGuid>
+      <webElementGuid>52aac902-e54f-4ab9-a68f-d33a1a2a2bd9</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

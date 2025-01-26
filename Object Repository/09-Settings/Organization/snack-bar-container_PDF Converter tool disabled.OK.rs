@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//snack-bar-container[(text() = 'PDF Converter tool disabled.OK' or . = 'PDF Converter tool disabled.OK')]</value>
+         <value>//span[(text() = 'PDF Converter tool disabled.' or . = 'PDF Converter tool disabled.')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>snack-bar-container</value>
-      <webElementGuid>04c1d06f-663d-4aa1-901e-e6a667efdf0b</webElementGuid>
+      <webElementGuid>a3e727a6-80c3-4a7c-bc8e-16d9f696c1cd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-snack-bar-container ng-tns-c50-151 ng-trigger ng-trigger-state mat-snack-bar-center ng-star-inserted</value>
-      <webElementGuid>725754b9-bf76-4a23-b542-0ae43e2cd456</webElementGuid>
+      <webElementGuid>8d6fefd0-261e-48d0-9574-d49e7c833d01</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value>PDF Converter tool disabled.OK</value>
-      <webElementGuid>9e0d6bbc-46bc-4c01-9bd5-59038b2a1f80</webElementGuid>
+      <webElementGuid>9f1a53a5-4aef-4790-8bc8-eb58dae61852</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;cdk-overlay-46&quot;)/snack-bar-container[@class=&quot;mat-snack-bar-container ng-tns-c50-151 ng-trigger ng-trigger-state mat-snack-bar-center ng-star-inserted&quot;]</value>
-      <webElementGuid>373204a3-e79c-46fd-a1b9-3f701c7dc434</webElementGuid>
+      <webElementGuid>9850139b-4229-4731-88ce-26bc71266696</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='cdk-overlay-46']/snack-bar-container</value>
-      <webElementGuid>18278da5-5d48-4c95-9932-4b9f9ad82378</webElementGuid>
+      <webElementGuid>01ce15e7-f792-4e61-a24f-6e349796b33a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='`'])[2]/following::snack-bar-container[1]</value>
-      <webElementGuid>8bcb708b-e909-482a-a0cd-d8f3af2c11ba</webElementGuid>
+      <webElementGuid>d799399d-3eda-45c9-bcf7-548d5bc41b1d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Alt'])[2]/following::snack-bar-container[1]</value>
-      <webElementGuid>6ff86d65-70b3-4427-9671-65df59de1b83</webElementGuid>
+      <webElementGuid>4b499662-f69c-41c2-8092-fd71f8dcf78c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//snack-bar-container</value>
-      <webElementGuid>a500cca9-1be5-45f2-8696-d550559d819e</webElementGuid>
+      <webElementGuid>fdf7186c-4973-41a4-b84a-dddff27af39c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,6 +86,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//snack-bar-container[(text() = 'PDF Converter tool disabled.OK' or . = 'PDF Converter tool disabled.OK')]</value>
-      <webElementGuid>89384a36-6d7f-45aa-8858-0bef005f1075</webElementGuid>
+      <webElementGuid>ff0a167c-7f72-4433-a476-fb7a972aa27e</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//snack-bar-container[(text() = 'AI Assistant tool enabled.OK' or . = 'AI Assistant tool enabled.OK')]</value>
+         <value>//span[(text() = 'AI Assistant tool enabled.' or . = 'AI Assistant tool enabled.')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>snack-bar-container</value>
-      <webElementGuid>43280b1e-bc9a-4e57-b895-7c2bc05657ca</webElementGuid>
+      <webElementGuid>36236de3-418e-4c9d-8eef-59b0f0d76ebf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-snack-bar-container ng-tns-c50-145 ng-trigger ng-trigger-state mat-snack-bar-center ng-star-inserted</value>
-      <webElementGuid>3deb17b9-593e-4f08-ab30-6af359fe982d</webElementGuid>
+      <webElementGuid>87280f48-adc8-4124-9f12-58d79f1b786e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value>AI Assistant tool enabled.OK</value>
-      <webElementGuid>6d3293de-e388-4223-b983-53ce9f835a9c</webElementGuid>
+      <webElementGuid>5ce46c24-0256-42c9-bde0-09fd65273bac</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;cdk-overlay-45&quot;)/snack-bar-container[@class=&quot;mat-snack-bar-container ng-tns-c50-145 ng-trigger ng-trigger-state mat-snack-bar-center ng-star-inserted&quot;]</value>
-      <webElementGuid>abebe0b9-e5eb-4c47-9a6f-a0c0cc904bbe</webElementGuid>
+      <webElementGuid>666689ae-8602-4912-9016-6b58af3e7440</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='cdk-overlay-45']/snack-bar-container</value>
-      <webElementGuid>33c41da0-3d74-444f-a4b3-3ee155d51fe1</webElementGuid>
+      <webElementGuid>bf577510-7c00-4973-9406-6c2c212705c8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='`'])[2]/following::snack-bar-container[1]</value>
-      <webElementGuid>b4f94ee2-9a22-4c69-b5ab-764e28c68a3a</webElementGuid>
+      <webElementGuid>12e90baf-46b5-49f4-b7cf-c8f4f6798b3e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Alt'])[2]/following::snack-bar-container[1]</value>
-      <webElementGuid>8b9d75c5-f337-4ad2-a276-442f7684ae47</webElementGuid>
+      <webElementGuid>d4c87308-9cd9-4ccb-be59-af8ab73594f2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//snack-bar-container</value>
-      <webElementGuid>9efbe87c-725e-40cf-b3a6-6297252eac34</webElementGuid>
+      <webElementGuid>4aa8f537-2fc4-45ac-808f-09802e6fafb9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,6 +86,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//snack-bar-container[(text() = 'AI Assistant tool enabled.OK' or . = 'AI Assistant tool enabled.OK')]</value>
-      <webElementGuid>acb4dded-56ae-4706-9b5d-e66849cff643</webElementGuid>
+      <webElementGuid>714ce27e-49a0-4202-9407-477dd0291e13</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
