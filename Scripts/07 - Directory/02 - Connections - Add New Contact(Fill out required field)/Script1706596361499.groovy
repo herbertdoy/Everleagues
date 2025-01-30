@@ -37,6 +37,8 @@ WebUI.click(findTestObject('07-Directory/Connections/button_area code'))
 
 WebUI.delay(GlobalVariable.delay_2s)
 
+WebUI.doubleClick(findTestObject('07-Directory/Connections/input_Type_email'))
+
 WebUI.click(findTestObject('07-Directory/Connections/input_company'))
 
 WebUI.setText(findTestObject('07-Directory/Connections/input_company'), company)

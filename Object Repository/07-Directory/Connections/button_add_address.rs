@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//mat-dialog-container[@id='mat-dialog-0']/app-dialog-add-contact/section/form/div/div/div/input-contact-address/div/div[2]/span</value>
+         <value>//mat-dialog-container[@id='mat-dialog-1']/app-dialog-add-contact/section/form/div/div/div/input-contact-address/div/div[2]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -26,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>17f8fa80-428e-49ee-b59a-8d476f82f673</webElementGuid>
+      <webElementGuid>b69b4c73-c57c-4919-8873-1e1738fd5f12</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -34,7 +34,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>f105e6cc-2746-435c-8e3e-d6ba926cbbbe</webElementGuid>
+      <webElementGuid>07c89f51-88eb-401b-8d0a-c216d937c98f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,7 +42,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-focus-indicator mat-icon-button mat-button-base cdk-focused cdk-mouse-focused</value>
-      <webElementGuid>8b930a55-77a7-435c-b173-8340f3e3b7f1</webElementGuid>
+      <webElementGuid>24e18688-f129-418e-840d-8f6d5e30e72b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -50,7 +50,7 @@
       <name>text</name>
       <type>Main</type>
       <value>add_circle_outline</value>
-      <webElementGuid>49267063-085a-40ad-a634-88a8a4486daf</webElementGuid>
+      <webElementGuid>82a5ccf5-94bf-4230-96c0-cb0edaf5981d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -58,7 +58,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-dialog-1&quot;)/app-dialog-add-contact[@class=&quot;ng-star-inserted&quot;]/section[@class=&quot;dialog-container dialog-add-contact&quot;]/form[@class=&quot;ng-pristine ng-invalid ng-touched&quot;]/div[@class=&quot;mat-dialog-content&quot;]/perfect-scrollbar[1]/div[@class=&quot;ps ps--active-y ps--active-x&quot;]/div[@class=&quot;ps-content&quot;]/div[@class=&quot;container-body&quot;]/div[1]/input-contact-address[1]/div[@class=&quot;ng-star-inserted&quot;]/button[@class=&quot;mat-focus-indicator mat-icon-button mat-button-base cdk-focused cdk-mouse-focused&quot;]</value>
-      <webElementGuid>dd8a22fa-28b9-45b4-a68e-3689eaca4254</webElementGuid>
+      <webElementGuid>4221c64c-3281-4ac6-9a18-35b36c912965</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -66,7 +66,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[17]</value>
-      <webElementGuid>e7759688-9542-4641-9f1c-37e09095226a</webElementGuid>
+      <webElementGuid>e3c336e3-f771-4ce5-a162-23bb13e13616</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -74,7 +74,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-dialog-container[@id='mat-dialog-1']/app-dialog-add-contact/section/form/div/perfect-scrollbar/div/div/div/div/input-contact-address/div[2]/button</value>
-      <webElementGuid>bf32dbd5-9909-4b3a-a3bd-059c9914b775</webElementGuid>
+      <webElementGuid>98d41d98-f242-48dc-9247-36ad27772a29</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Address:'])[1]/following::button[1]</value>
-      <webElementGuid>94daecba-9ccf-42aa-bac0-2639952e068f</webElementGuid>
+      <webElementGuid>94b97173-76b8-4cfd-8b91-897892da6f41</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -90,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Type'])[2]/following::button[3]</value>
-      <webElementGuid>c924e691-e626-4733-a5bd-df5d3d83ed47</webElementGuid>
+      <webElementGuid>4deecb2b-8d5f-41db-8984-289a5d102a4e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,7 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Company'])[1]/preceding::button[1]</value>
-      <webElementGuid>c7062d28-3153-4c69-9c36-59808a1a1e38</webElementGuid>
+      <webElementGuid>0e587ece-3f2a-4831-8fed-34192eae3ac6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,7 +106,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Position'])[1]/preceding::button[1]</value>
-      <webElementGuid>606fce0a-4262-4db2-9578-31bb7eba8fd1</webElementGuid>
+      <webElementGuid>0d95dc5a-6166-4c8b-8f3c-773cee76ae23</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -114,7 +114,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/button</value>
-      <webElementGuid>fc2a0b03-37b3-4e1a-b7b3-dab208aacd9a</webElementGuid>
+      <webElementGuid>564da031-82c2-425c-b924-71742c0ef526</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -122,6 +122,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = 'add_circle_outline' or . = 'add_circle_outline')]</value>
-      <webElementGuid>f1894718-720c-4993-9d44-441c9f85392f</webElementGuid>
+      <webElementGuid>03733a4e-31ba-4e21-842e-0d79d533bbfd</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

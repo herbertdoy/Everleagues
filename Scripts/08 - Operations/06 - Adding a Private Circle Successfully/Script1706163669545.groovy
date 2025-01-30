@@ -19,6 +19,8 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.click(findTestObject('08-Operations/Private Circle/Select User dropdown'))
 
+WebUI.verifyElementVisible(findTestObject('08-Operations/Private Circle/span_New Contact'))
+
 WebUI.verifyElementVisible(findTestObject('08-Operations/Private Circle/mat-option_GG TESTER'))
 
 WebUI.verifyElementVisible(findTestObject('08-Operations/Private Circle/mat-option_GG tester 2'))
