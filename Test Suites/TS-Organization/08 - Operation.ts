@@ -33,31 +33,45 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
+      <guid>d76233ce-71f7-40b6-bbcd-8e1653d1e650</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/08 - Operations/04 - Vendor Assignment By Employee</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>7a295e01-2186-4253-9a4b-065f07768537</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/08 - Operations/05 - Vendor Assignment By Vendor</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
       <guid>6e52fb30-6001-4d9a-961f-3f7b28d57082</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/08 - Operations/04 - Private Circle(Selecting a User)</testCaseId>
+      <testCaseId>Test Cases/08 - Operations/06 - Private Circle(Selecting a User)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>f4c0d5f2-911f-472b-aa72-6c3c7f273045</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/08 - Operations/05 - Adding private circle but with blank fields</testCaseId>
+      <testCaseId>Test Cases/08 - Operations/07 - Adding private circle but with blank fields</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>09ddf8ef-a6fe-45d0-9b31-95b242bdab6d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/08 - Operations/06 - Adding a Private Circle Successfully</testCaseId>
+      <testCaseId>Test Cases/08 - Operations/08 - Adding a Private Circle Successfully</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>69d1ba4d-66e7-4f8e-92cf-cc0e57230e03</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/08 - Operations/07 - Deleting a private circle</testCaseId>
+      <testCaseId>Test Cases/08 - Operations/09 - Deleting a private circle</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

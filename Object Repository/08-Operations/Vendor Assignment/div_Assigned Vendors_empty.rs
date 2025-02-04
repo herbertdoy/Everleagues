@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Assigned Vendors_empty</name>
+   <tag></tag>
+   <elementGuidId>da52ac3e-cc62-40b3-8893-c4b507625af8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='GG tester 2'])[1]/following::div[6]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>e8fa97d1-22e5-469e-a49c-0a5f4ace6db6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>fxflex</name>
+      <type>Main</type>
+      <value>20</value>
+      <webElementGuid>e673d08e-1402-40ac-8946-1fc8fd1e22bb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>fxflex.lt-lg</name>
+      <type>Main</type>
+      <value>25</value>
+      <webElementGuid>40525195-4278-45fc-a02f-a67ccac23c07</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>white-container</value>
+      <webElementGuid>d4316d0c-e5a4-4361-a229-c81dc08f313c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-reflect-fx-flex</name>
+      <type>Main</type>
+      <value>20</value>
+      <webElementGuid>9fc3aaf1-786e-445e-bd0a-6b6705e17a7e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-reflect-fx-flex.lt-lg</name>
+      <type>Main</type>
+      <value>25</value>
+      <webElementGuid>1c4764f0-3bf4-4e86-b5bd-d113f75c5a72</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Assigned Vendors 
+            
+        </value>
+      <webElementGuid>fd9280da-8401-41f4-bd95-8e7acb4358d2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mat-tab-content-4-0&quot;)/div[@class=&quot;mat-tab-body-content ng-tns-c386-96 ng-trigger ng-trigger-translateTab&quot;]/app-vendor-assign-by-employee[@class=&quot;tab-container ng-tns-c649-91 ng-star-inserted&quot;]/div[@class=&quot;white-container&quot;]</value>
+      <webElementGuid>82e63f4d-1bc9-4563-b24e-c2bd1147927e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//mat-tab-body[@id='mat-tab-content-4-0']/div/app-vendor-assign-by-employee/div[2]</value>
+      <webElementGuid>0fef9573-ed98-4865-857c-62bb3b39f5fd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='GG TESTER'])[1]/following::div[5]</value>
+      <webElementGuid>fc44d8de-f28b-4b7b-a743-16caae3dbdbc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='GG tester 2'])[1]/following::div[6]</value>
+      <webElementGuid>606c882d-cbfa-4e74-b652-53d73787cfb8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//app-vendor-assign-by-employee/div[2]</value>
+      <webElementGuid>6ba28b6a-0805-4874-beba-4cd015c74a3c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = ' Assigned Vendors 
+            
+        ' or . = ' Assigned Vendors 
+            
+        ')]</value>
+      <webElementGuid>4700a101-8625-4374-9120-af22fd64e592</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
