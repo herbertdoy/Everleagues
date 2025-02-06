@@ -6,15 +6,15 @@
    <elementGuidId>6508d536-937a-442b-b0f1-2aad7da510fa</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//button[@type = 'button' and (text() = ' Delete Post ' or . = ' Delete Post ')]</value>
+      </entry>
+      <entry>
          <key>CSS</key>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//button[@role='menuitem'])[2]</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//button[@type = 'button' and (text() = ' Delete Post ' or . = ' Delete Post ')]</value>
+         <value>//*/text()[normalize-space(.)='Delete Post']/parent::*</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -25,7 +25,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>f7344ea2-01b4-465c-8da5-4b1c3b764efd</webElementGuid>
+      <webElementGuid>00b7d939-1bbb-40c8-9f23-1ed190d67aa5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -33,7 +33,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>3b5d2340-dff5-43f7-9120-e249b4b56966</webElementGuid>
+      <webElementGuid>c4a006b8-01ff-47ad-b940-b5bd15351d98</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -41,7 +41,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-focus-indicator mat-menu-item ng-tns-c98-52 cdk-focused cdk-mouse-focused</value>
-      <webElementGuid>78118f5c-f1d2-4aea-b158-550ea99e1acb</webElementGuid>
+      <webElementGuid>74674d79-e150-4c51-9883-9272072c7304</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,7 +49,7 @@
       <name>role</name>
       <type>Main</type>
       <value>menuitem</value>
-      <webElementGuid>32aeb4c5-f16e-4660-aeb4-00b82b7fdfb2</webElementGuid>
+      <webElementGuid>f5ece045-c478-49a3-8962-ab121791ea60</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -57,7 +57,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>48437d52-86bb-468f-af50-d6dbb41fbdf1</webElementGuid>
+      <webElementGuid>dbff4729-dd33-4b08-9ef1-63a29106e6bc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -65,7 +65,7 @@
       <name>aria-disabled</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>14dfe717-4ca5-4e36-857b-2dc24c049dcf</webElementGuid>
+      <webElementGuid>37e33c3f-f01c-46bc-b239-6f1e41892412</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -73,7 +73,7 @@
       <name>text</name>
       <type>Main</type>
       <value> Delete Post </value>
-      <webElementGuid>73ee4bd8-011d-4639-8a20-52510799dba2</webElementGuid>
+      <webElementGuid>d7732c6b-1fc0-46c2-9ae9-38ef90d4e3b5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -81,7 +81,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-menu-panel-10&quot;)/div[@class=&quot;mat-menu-content ng-tns-c98-52&quot;]/button[@class=&quot;mat-focus-indicator mat-menu-item ng-tns-c98-52 cdk-focused cdk-mouse-focused&quot;]</value>
-      <webElementGuid>dd453c4b-027c-41ae-8509-9ac2811d44d9</webElementGuid>
+      <webElementGuid>201e3fa9-a333-4c07-aa29-34eb38e5d993</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -89,7 +89,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[32]</value>
-      <webElementGuid>8c3f8b5d-148e-466e-b973-28f72009cdab</webElementGuid>
+      <webElementGuid>3cf44573-8d99-464d-a993-398708792349</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -97,7 +97,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='mat-menu-panel-10']/div/button[2]</value>
-      <webElementGuid>63058101-e436-4e60-a9c4-62bd0773bb58</webElementGuid>
+      <webElementGuid>aae19e38-6ebd-45cf-a222-64ea042b24e6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,7 +105,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Edit Post'])[1]/following::button[1]</value>
-      <webElementGuid>00ca9a84-dfeb-4216-bf76-3ee81c23bdb2</webElementGuid>
+      <webElementGuid>04ac346b-e6e3-4793-9f0e-3fd2aa604ab5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -113,7 +113,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Search Results'])[1]/following::button[8]</value>
-      <webElementGuid>e6050ae6-ae46-4f8a-a1c1-b8ec8ee22a0c</webElementGuid>
+      <webElementGuid>660ee060-89c0-4470-bbd3-45764504b88c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -121,7 +121,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Hide Quick Shortcuts'])[1]/preceding::button[1]</value>
-      <webElementGuid>b1444e33-b69a-4817-a5a2-f0bec1a0e857</webElementGuid>
+      <webElementGuid>86f76ec5-3488-4987-af3a-0e3d22bdbe3b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -129,7 +129,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Invite New User'])[1]/preceding::button[1]</value>
-      <webElementGuid>39f2a3bb-873a-4a75-90b9-ddd5f67056a6</webElementGuid>
+      <webElementGuid>99641def-c44f-4982-b7f4-015e04c1739c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -137,7 +137,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Delete Post']/parent::*</value>
-      <webElementGuid>25f70cbf-c1b4-4b81-9daf-a05425fb0e44</webElementGuid>
+      <webElementGuid>2091e245-af8a-45a4-84e8-701697ffb42b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -145,7 +145,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div/div/button[2]</value>
-      <webElementGuid>71546459-f7d2-4485-9b6c-a83fb00664a9</webElementGuid>
+      <webElementGuid>a38f37c0-bbc1-460b-83b4-e51ea3499b8c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -153,6 +153,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = ' Delete Post ' or . = ' Delete Post ')]</value>
-      <webElementGuid>511fd30e-d6d1-4807-905d-6a1b9c740e9f</webElementGuid>
+      <webElementGuid>f4fadcbc-fe48-4d46-b583-24cf3b789822</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

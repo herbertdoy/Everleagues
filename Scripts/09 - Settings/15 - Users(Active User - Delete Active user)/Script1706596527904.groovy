@@ -31,7 +31,7 @@ WebUI.click(findTestObject('09-Settings/Users/Active User/button_Delete'))
 
 WebUI.delay(GlobalVariable.delay_3s)
 
-WebUI.verifyElementPresent(findTestObject('09-Settings/Users/Active User/div_GTGG tester'), 0)
+WebUI.verifyElementPresent(findTestObject('08-Operations/Vendor Assignment/div_GVGG Vendor'), 0)
 
 WebUI.click(findTestObject('09-Settings/Users/Active User/button_ellipses'))
 
@@ -68,6 +68,20 @@ WebUI.click(findTestObject('09-Settings/Users/Active User/button_Delete'))
 WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.verifyElementPresent(findTestObject('09-Settings/Users/Active User/div_GPGG Partner'), 0)
+
+WebUI.click(findTestObject('09-Settings/Users/Active User/button_ellipses'))
+
+WebUI.click(findTestObject('09-Settings/Users/Active User/button_Delete User'))
+
+WebUI.delay(GlobalVariable.delay_2s)
+
+WebUI.click(findTestObject('09-Settings/Users/Active User/button_Delete'))
+
+WebUI.delay(GlobalVariable.delay_3s)
+
+WebUI.delay(GlobalVariable.delay_3s)
+
+WebUI.verifyElementPresent(findTestObject('09-Settings/Users/Active User/div_GTGG tester'), 0)
 
 WebUI.click(findTestObject('09-Settings/Users/Active User/button_ellipses'))
 
