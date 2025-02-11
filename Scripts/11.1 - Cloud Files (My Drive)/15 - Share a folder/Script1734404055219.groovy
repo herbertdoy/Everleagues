@@ -65,3 +65,5 @@ WebUI.verifyElementVisible(findTestObject('11-Cloud Files/snack-bar-container_Sh
 
 WebUI.delay(GlobalVariable.delay_2s)
 
+WebUI.click(findTestObject('11-Cloud Files/mat-icon_close'))
+
