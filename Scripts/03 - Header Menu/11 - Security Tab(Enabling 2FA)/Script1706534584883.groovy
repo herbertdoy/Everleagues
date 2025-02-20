@@ -25,6 +25,8 @@ WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/View Prof
 
 WebUI.delay(GlobalVariable.delay_1s)
 
+WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Security Tab (2FA)/2FA_toggle'))
+
 WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Security Tab (2FA)/button_edit'))
 
 WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/View Profile/Security Tab (2FA)/2FA Phone Number modal'))
@@ -56,6 +58,5 @@ WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Security Ta
 //WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Security Tab (2FA)/2FA_toggle'))
 //
 //WebUI.verifyElementVisible(findTestObject('03-Header Menu/User Profile/View Profile/Security Tab (2FA)/Success disable'))
-
 WebUI.delay(GlobalVariable.delay_2s)
 
