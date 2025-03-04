@@ -7,15 +7,15 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//mat-dialog-container[@id='mat-dialog-1']/app-dialog-add-contact/section/form/div/div/div/input-contact-address/div/div[2]</value>
-      </entry>
-      <entry>
-         <key>CSS</key>
-         <value>button.mat-focus-indicator.mat-icon-button.mat-button-base.cdk-focused.cdk-mouse-focused</value>
+         <value>//mat-dialog-container[@id='mat-dialog-0']/app-dialog-add-contact/section/form/div/div/div/input-contact-address/div/div[2]</value>
       </entry>
       <entry>
          <key>BASIC</key>
          <value>//button[@type = 'button' and (text() = 'add_circle_outline' or . = 'add_circle_outline')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.mat-focus-indicator.mat-icon-button.mat-button-base.cdk-focused.cdk-mouse-focused</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -26,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>b69b4c73-c57c-4919-8873-1e1738fd5f12</webElementGuid>
+      <webElementGuid>8eb30fa5-25c5-412c-bc35-0d14294e2ef8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -34,7 +34,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>07c89f51-88eb-401b-8d0a-c216d937c98f</webElementGuid>
+      <webElementGuid>57748cb5-b7fe-4dc2-87fd-27e68a151c5f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,7 +42,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-focus-indicator mat-icon-button mat-button-base cdk-focused cdk-mouse-focused</value>
-      <webElementGuid>24e18688-f129-418e-840d-8f6d5e30e72b</webElementGuid>
+      <webElementGuid>f90a550b-06cf-430e-90e6-631a323da57f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -50,7 +50,7 @@
       <name>text</name>
       <type>Main</type>
       <value>add_circle_outline</value>
-      <webElementGuid>82a5ccf5-94bf-4230-96c0-cb0edaf5981d</webElementGuid>
+      <webElementGuid>9ead0005-b0a7-4435-b7ae-80c06844a759</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -58,7 +58,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-dialog-1&quot;)/app-dialog-add-contact[@class=&quot;ng-star-inserted&quot;]/section[@class=&quot;dialog-container dialog-add-contact&quot;]/form[@class=&quot;ng-pristine ng-invalid ng-touched&quot;]/div[@class=&quot;mat-dialog-content&quot;]/perfect-scrollbar[1]/div[@class=&quot;ps ps--active-y ps--active-x&quot;]/div[@class=&quot;ps-content&quot;]/div[@class=&quot;container-body&quot;]/div[1]/input-contact-address[1]/div[@class=&quot;ng-star-inserted&quot;]/button[@class=&quot;mat-focus-indicator mat-icon-button mat-button-base cdk-focused cdk-mouse-focused&quot;]</value>
-      <webElementGuid>4221c64c-3281-4ac6-9a18-35b36c912965</webElementGuid>
+      <webElementGuid>d8b93a7b-9a39-47eb-8b05-00722fe7dfc6</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -66,7 +66,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[17]</value>
-      <webElementGuid>e3c336e3-f771-4ce5-a162-23bb13e13616</webElementGuid>
+      <webElementGuid>a4a4fb68-5341-488b-93c6-9570a962b324</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -74,7 +74,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-dialog-container[@id='mat-dialog-1']/app-dialog-add-contact/section/form/div/perfect-scrollbar/div/div/div/div/input-contact-address/div[2]/button</value>
-      <webElementGuid>98d41d98-f242-48dc-9247-36ad27772a29</webElementGuid>
+      <webElementGuid>402b33d4-effd-42a4-b467-d68d3e5ab714</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Address:'])[1]/following::button[1]</value>
-      <webElementGuid>94b97173-76b8-4cfd-8b91-897892da6f41</webElementGuid>
+      <webElementGuid>633597cb-cd17-4beb-9259-b6b822e72685</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -90,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Type'])[2]/following::button[3]</value>
-      <webElementGuid>4deecb2b-8d5f-41db-8984-289a5d102a4e</webElementGuid>
+      <webElementGuid>98ab5299-7b14-4fe2-8d19-7e9c1a93708c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,7 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Company'])[1]/preceding::button[1]</value>
-      <webElementGuid>0e587ece-3f2a-4831-8fed-34192eae3ac6</webElementGuid>
+      <webElementGuid>133a2f1e-65e3-4167-b8d6-fb7a9cbc5f9d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,7 +106,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Position'])[1]/preceding::button[1]</value>
-      <webElementGuid>0d95dc5a-6166-4c8b-8f3c-773cee76ae23</webElementGuid>
+      <webElementGuid>76725459-c9f1-4e16-aef5-0dea24b4ee52</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -114,7 +114,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/button</value>
-      <webElementGuid>564da031-82c2-425c-b924-71742c0ef526</webElementGuid>
+      <webElementGuid>fb1323a4-e941-4786-adb4-9dea0b7fd9a3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -122,6 +122,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = 'add_circle_outline' or . = 'add_circle_outline')]</value>
-      <webElementGuid>03733a4e-31ba-4e21-842e-0d79d533bbfd</webElementGuid>
+      <webElementGuid>c42081a1-8651-4230-89da-4aa63de68b6c</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

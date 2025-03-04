@@ -126,7 +126,7 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>1a711185-62b5-4e39-904e-fd9bd2ad85af</guid>
+      <guid>f359facc-9138-4a19-b12d-8840485d0a31</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/05 - Chat/13 - Hiding a chat</testCaseId>

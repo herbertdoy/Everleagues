@@ -29,6 +29,8 @@ WebUI.verifyElementVisible(findTestObject('07-Directory/Connections/div_Filter')
 
 WebUI.verifyElementVisible(findTestObject('07-Directory/Connections/span_All'))
 
+WebUI.verifyElementVisible(findTestObject('07-Directory/Connections/zContact Profile/span_Vendor'))
+
 WebUI.verifyElementVisible(findTestObject('07-Directory/Connections/span_External contact'))
 
 WebUI.verifyElementVisible(findTestObject('07-Directory/Connections/span_Co-Worker'))

@@ -35,7 +35,7 @@ WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('05-Chat/09-Hiding a chat/div_Automation Chat2'))
 
-WebUI.click(findTestObject('05-Chat/09-Hiding a chat/ellipsis_chat setting'))
+WebUI.click(findTestObject('05-Chat/09-Hiding a chat/ellipses_2'))
 
 WebUI.delay(GlobalVariable.delay_2s)
 
