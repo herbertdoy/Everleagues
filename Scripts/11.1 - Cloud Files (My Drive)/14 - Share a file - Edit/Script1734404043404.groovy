@@ -25,6 +25,18 @@ WebUI.rightClick(findTestObject('11-Cloud Files/td_qa EditPeople'))
 
 WebUI.click(findTestObject('11-Cloud Files/button_Share'))
 
+//WebUI.click(findTestObject('11-Cloud Files/input_Add Users'))
+//
+//WebUI.click(findTestObject('11-Cloud Files/mat-option_GTGG tester 2'))
+//
+//WebUI.click(findTestObject('11-Cloud Files/mat-option_GTGG tester'))
+//
+//WebUI.click(findTestObject('span_GG tester (autotesteryopmail.com)'))
+//
+//WebUI.click(findTestObject('11-Cloud Files/button_Save  Add Users'))
+
+WebUI.verifyElementVisible(findTestObject('11-Cloud Files/snack-bar-container_Shared file access updated successfully.OK'))
+
 WebUI.verifyElementVisible(findTestObject('11-Cloud Files/mat-dialog-container_View Share Files Modal'))
 
 WebUI.click(findTestObject('11-Cloud Files/div_dropdown'))
@@ -94,7 +106,6 @@ WebUI.click(findTestObject('03-Header Menu/div_Cloud Files'))
 //WebUI.switchToWindowIndex(0)
 //
 //WebUI.delay(GlobalVariable.delay_2s)
-
 WebUI.scrollToElement(findTestObject('11-Cloud Files/a_My Drive'), 0)
 
 WebUI.click(findTestObject('11-Cloud Files/a_My Drive'))
@@ -108,7 +119,6 @@ WebUI.click(findTestObject('11-Cloud Files/a_My Drive'))
 //WebUI.switchToWindowIndex(0)
 //
 //WebUI.delay(GlobalVariable.delay_2s)
-
 WebUI.refresh()
 
 WebUI.delay(GlobalVariable.delay_2s)
