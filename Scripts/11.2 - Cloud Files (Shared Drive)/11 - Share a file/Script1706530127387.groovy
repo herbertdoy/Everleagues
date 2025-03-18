@@ -1,4 +1,5 @@
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
+
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
@@ -17,6 +18,15 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.delay(GlobalVariable.delay_2s)
+
+WebUI.rightClick(findTestObject('11-Cloud Files/td_qa EDIT'))
+
+WebUI.click(findTestObject('11-Cloud Files/button_download'))
+
+WebUI.verifyElementVisible(findTestObject('11-Cloud Files/div_Done downloading qaclear'))
+
+WebUI.delay(GlobalVariable.delay_2s)
 WebUI.click(findTestObject('11-Cloud Files/button_clearNotif'))
 
 WebUI.rightClick(findTestObject('11-Cloud Files/td_qa EDIT'))

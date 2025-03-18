@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//a[contains(.,'Shared Drive')]</value>
+         <value>//div[(text() = 'Shared With Me ' or . = 'Shared With Me ')]</value>
       </entry>
       <entry>
          <key>BASIC</key>
