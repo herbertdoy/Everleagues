@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//label[@class='mat-checkbox-layout']//span)[1]</value>
+         <value>(//label[@class='mat-checkbox-layout']//span)[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>32a7af84-3b6d-46a1-bbcf-9d91c9aa8b25</webElementGuid>
+      <webElementGuid>17acc814-8d29-43f6-b44a-a394873c6856</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-checkbox-inner-container</value>
-      <webElementGuid>11c0f7dd-a52c-4b65-8677-f5a3911544bc</webElementGuid>
+      <webElementGuid>4f168743-3937-4b2a-8af3-258de66dd2a6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-checkbox-1&quot;)/label[@class=&quot;mat-checkbox-layout&quot;]/div[@class=&quot;mat-checkbox-inner-container&quot;]</value>
-      <webElementGuid>82e228f3-8606-424f-b5fb-f98fc43cc28a</webElementGuid>
+      <webElementGuid>6e70ec75-e4c1-4fde-8d41-3666a51baeee</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-checkbox[@id='mat-checkbox-1']/label/div</value>
-      <webElementGuid>211e6724-ddaa-4358-819e-ca60d26ab749</webElementGuid>
+      <webElementGuid>89f51b04-1148-485e-989e-b4bbdab20cba</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Confirm Password'])[1]/following::div[6]</value>
-      <webElementGuid>84948bfd-1e85-4d03-8961-875ba8f92684</webElementGuid>
+      <webElementGuid>1ec4d938-a776-4b42-ba5c-78bd722c537c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Password'])[1]/following::div[14]</value>
-      <webElementGuid>57c20554-7627-46ac-ab32-1ef78ccc0a49</webElementGuid>
+      <webElementGuid>5227a352-e085-45e5-9a30-8da17f43a84b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='terms and conditions.'])[1]/preceding::div[6]</value>
-      <webElementGuid>f25c2ac1-c4e7-4755-bebd-8d22e0c6f3e6</webElementGuid>
+      <webElementGuid>e488e7f4-fb08-4c7f-953b-7b1a64ccc4da</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,6 +78,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//label/div</value>
-      <webElementGuid>5aa36853-3d4a-4740-8474-7a22336f7f2c</webElementGuid>
+      <webElementGuid>e6b57f40-0d21-4de4-bdb4-f8fcadcb648c</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
