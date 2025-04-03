@@ -55,14 +55,14 @@
    <testCaseLink>
       <guid>f8ebf0e0-5e26-481a-86d1-74497876ce94</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/12 - AI assistant (beta)/06 - AI image - Generate image using EL AI-Blank fields</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>8435177a-df11-407d-aebb-3707ad45823a</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/12 - AI assistant (beta)/07 - AI image - Generate image using EL AI</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>

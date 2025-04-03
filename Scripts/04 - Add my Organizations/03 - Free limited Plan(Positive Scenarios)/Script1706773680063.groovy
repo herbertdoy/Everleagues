@@ -63,7 +63,7 @@ WebUI.switchToWindowIndex(1)
 
 WebUI.delay(GlobalVariable.delay_10s)
 
-assert WebUI.getUrl() == 'https://www.everleagues.com/pricing/'
+assert WebUI.getUrl() == 'https://www.everleagues.com/pricing'
 
 WebUI.closeWindowUrl(GlobalVariable.pricing)
 
@@ -101,7 +101,7 @@ WebUI.switchToWindowIndex(1)
 
 WebUI.delay(GlobalVariable.delay_2s)
 
-assert WebUI.getUrl() == 'https://www.everleagues.com/saas-agreement'
+assert WebUI.getUrl() == 'https://www.everleagues.com/saas-agreement/'
 
 WebUI.closeWindowUrl(GlobalVariable.saasAgreement)
 

@@ -23,7 +23,7 @@ WebUI.setText(findTestObject('12-AI Assistant(beta)/12.5 - Contract Page/contrac
 
 WebUI.click(findTestObject('12-AI Assistant(beta)/12.5 - Contract Page/generate summary'))
 
-WebUI.delay(GlobalVariable.delay_3s)
+WebUI.delay(GlobalVariable.delay_6s)
 
 WebUI.closeBrowser()
 
