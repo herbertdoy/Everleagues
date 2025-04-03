@@ -6,16 +6,16 @@
    <elementGuidId>05e2789a-00fa-4aae-8786-a1aff6f9d1b5</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//mat-icon[@data-mat-icon-name='paper-airplane']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>button.mat-focus-indicator.mat-icon-button.mat-button-base.ng-star-inserted.post-send</value>
       </entry>
       <entry>
          <key>BASIC</key>
          <value>//button[@type = 'button' and (text() = 'send' or . = 'send')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Cloud Files'])[2]/following::button[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -26,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>541c57c6-4c7d-4e1a-ae06-18c8a4c3e247</webElementGuid>
+      <webElementGuid>e49a542b-7c3f-431d-81b6-ade61e2561c3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -34,7 +34,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>15984395-fc92-4df8-bdf2-dfb4a7fa6c35</webElementGuid>
+      <webElementGuid>9fbdb9df-7290-44f5-9f11-61a56414810f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,7 +42,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-focus-indicator mat-icon-button mat-button-base ng-star-inserted post-send</value>
-      <webElementGuid>a9517f4d-826d-43db-b81b-8acb9e0359aa</webElementGuid>
+      <webElementGuid>0efbde0d-42ab-43d2-a283-0eeb862e9b5c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,7 +50,7 @@
       <name>ng-reflect-ng-class</name>
       <type>Main</type>
       <value>post-send</value>
-      <webElementGuid>649382c5-7b33-457d-b28a-104270912575</webElementGuid>
+      <webElementGuid>4d451d69-068c-4c4c-a21c-a9991dcae8af</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -58,7 +58,7 @@
       <name>ng-reflect-disabled</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>bfb743ba-6806-45ed-9a52-6d131ac66d10</webElementGuid>
+      <webElementGuid>55e0fcc1-9c10-452a-b84b-36123d5f061f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -66,7 +66,7 @@
       <name>text</name>
       <type>Main</type>
       <value>send</value>
-      <webElementGuid>8610b5f3-dece-4fc1-9358-8fa08069d61f</webElementGuid>
+      <webElementGuid>3123a71d-daaa-439c-b6a1-27ad0b8e8dcb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -74,7 +74,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/app-root[1]/app-main-page[@class=&quot;ng-tns-c479-5 ng-trigger ng-trigger-routerAnimation ng-star-inserted&quot;]/mat-sidenav-container[@class=&quot;mat-drawer-container mat-sidenav-container ng-tns-c479-5 mat-drawer-transition&quot;]/mat-sidenav-content[@class=&quot;mat-drawer-content mat-sidenav-content&quot;]/div[@class=&quot;wrapper&quot;]/app-teams[@class=&quot;ng-tns-c628-75 ng-star-inserted&quot;]/section[@class=&quot;teams-section ng-tns-c628-75&quot;]/div[@class=&quot;ng-tns-c628-75&quot;]/app-channel[@class=&quot;ng-tns-c629-92 ng-tns-c628-75 ng-trigger ng-trigger-routerAnimation ng-star-inserted&quot;]/section[@class=&quot;table-listing ng-tns-c629-92&quot;]/div[@class=&quot;ng-tns-c629-92 ng-star-inserted&quot;]/div[@class=&quot;ng-tns-c629-92&quot;]/div[@class=&quot;ng-tns-c629-92&quot;]/div[@class=&quot;ng-tns-c629-92&quot;]/app-markdown-composer[@class=&quot;ng-tns-c629-92 ng-star-inserted&quot;]/mat-card[@class=&quot;mat-card mat-focus-indicator markdown-composer&quot;]/div[2]/div[@class=&quot;el-post-footer&quot;]/div[2]/button[@class=&quot;mat-focus-indicator mat-icon-button mat-button-base ng-star-inserted post-send&quot;]</value>
-      <webElementGuid>216ef041-11bf-4dee-a9a8-ea783a9348e1</webElementGuid>
+      <webElementGuid>c919a10c-9c43-4bad-a2ba-4b827825a186</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -82,7 +82,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[16]</value>
-      <webElementGuid>693e0ff3-bada-4b2e-8242-61691a73846f</webElementGuid>
+      <webElementGuid>692d3268-e07c-4439-88c6-f5c19bcf33ce</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -90,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Heading'])[1]/following::button[4]</value>
-      <webElementGuid>8403f0b1-6fb4-4047-9f02-c96003e8329a</webElementGuid>
+      <webElementGuid>12bb9661-e78d-42a0-8d8b-12467d635f79</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,7 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Files'])[1]/following::button[4]</value>
-      <webElementGuid>e4bb6b6f-fd2d-4021-b8cf-609e8db89986</webElementGuid>
+      <webElementGuid>7f88c736-afd7-4cca-8c89-cfcd6c429d41</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,7 +106,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Search Results'])[1]/preceding::button[1]</value>
-      <webElementGuid>585fb012-f0a6-4cda-93b2-0f1d9ff55095</webElementGuid>
+      <webElementGuid>60da81d0-571b-46c4-adab-188639b69a1f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -114,7 +114,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Hide Quick Shortcuts'])[1]/preceding::button[7]</value>
-      <webElementGuid>a80a28b8-e453-4b80-9ffa-2bf95c06186b</webElementGuid>
+      <webElementGuid>a313e6a8-5953-41a6-8895-5d43e576e5c7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -122,7 +122,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//mat-card/div[2]/div/div[2]/button</value>
-      <webElementGuid>7c19cee4-fc9c-4080-b524-088f0e746fc6</webElementGuid>
+      <webElementGuid>df7bd212-7198-4a1e-a785-a91e93818d51</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -130,6 +130,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = 'send' or . = 'send')]</value>
-      <webElementGuid>cd15bf55-c0f5-4648-86c9-26d4222607d3</webElementGuid>
+      <webElementGuid>3d4206b6-7636-41f0-ab6e-0173538f0f1a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
