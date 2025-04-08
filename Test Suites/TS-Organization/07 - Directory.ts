@@ -12,17 +12,57 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>cec3b872-08bd-4c9d-827c-a850734e3f27</testSuiteGuid>
    <testCaseLink>
+      <guid>af153021-7b1f-445a-92f6-a760e3f58b84</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/07 - Directory/01 - Add new label</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>eab8cb5b-40d9-4ed7-9537-d9f21927b71f</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>14655b2a-47ae-4728-bc47-70db7d81a968</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/07 - Directory/02 - Search label and Negative scenarios</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>bfc8b0a8-f628-4cf7-ab36-dd71cc54a0d9</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/07 - Directory/03 - Edit a label</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>23a7af2e-f181-47db-8788-9375b53015da</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>a2f12a49-2833-403a-8b6d-8840f1b6263d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/07 - Directory/04 - Delete a label</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
       <guid>5cfbf730-47b1-4f6c-a585-fadaf3964040</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/07 - Directory/01 - Connections - Add New Contact(required field is blank)</testCaseId>
+      <testCaseId>Test Cases/07 - Directory/05 - Connections - Add New Contact(required field is blank)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>b0611487-db3f-4d2d-b0e3-399b7de1ea4e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/07 - Directory/02 - Connections - Add New Contact(Fill out required field)</testCaseId>
+      <testCaseId>Test Cases/07 - Directory/06 - Connections - Add New Contact(Fill out required field)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -41,7 +81,7 @@
       <guid>c21b844a-4286-4ed7-a92d-9d064972ad36</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/07 - Directory/03 - Connections - Add New Contact(add phone number)</testCaseId>
+      <testCaseId>Test Cases/07 - Directory/07 - Connections - Add New Contact(add phone number)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -54,14 +94,14 @@
       <guid>fb3c2b97-1718-4e5e-b61c-bcabbe3427db</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/07 - Directory/04 - Connections - Add New Contact(address required fields blank)</testCaseId>
+      <testCaseId>Test Cases/07 - Directory/08 - Connections - Add New Contact(address required fields blank)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>6e27074e-be74-4ff6-bdd5-760d5459ae7d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/07 - Directory/05 - Connections - Add New Contact(add address successfully and add new contact successfully)</testCaseId>
+      <testCaseId>Test Cases/07 - Directory/09 - Connections - Add New Contact(add address successfully and add new contact successfully)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -93,33 +133,63 @@
          <value></value>
          <variableId>415ab2a7-93eb-443b-b43c-795579ae3e2f</variableId>
       </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>abc63522-09ac-4f00-9303-dcb5b7795631</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>046ace02-71d5-4afb-b964-1b92b9a3195e</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>ff7a4350-6788-457c-9b7c-91e092c4ead4</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>db5a28cf-4280-4038-a3fb-18c8a392cb9b</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>088bb6d8-60d1-4ca8-9fa7-dbeaac5a9252</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>7abdcbfe-f4a2-4a97-8981-4e08edd2b366</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/07 - Directory/06 - Connections - Invite contact as new user</testCaseId>
+      <testCaseId>Test Cases/07 - Directory/10 - Connections - Invite contact as new user</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>7b36dfd9-37a9-47b2-9ca5-100373ac88b3</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/07 - Directory/07 - Connections - Delete invitation</testCaseId>
+      <testCaseId>Test Cases/07 - Directory/11 - Connections - Delete invitation</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>5d816b3e-d286-405e-a1a9-ee9c225030c8</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/07 - Directory/08 - Connections - Resend invitation</testCaseId>
+      <testCaseId>Test Cases/07 - Directory/12 - Connections - Resend invitation</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>8929caf2-40b7-42fd-8e72-1e8b809dec7a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/07 - Directory/09 - Connections - Edit Profile</testCaseId>
+      <testCaseId>Test Cases/07 - Directory/13 - Connections - Edit Profile</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -139,58 +209,42 @@
          <value></value>
          <variableId>ea1def07-2e72-487c-98a2-b5032c7cf241</variableId>
       </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>06a62fe6-8600-4f0b-b50a-14556805fbb7</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>2a5c7b64-73d8-44c2-a220-9d6e9335ec7c</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>56f1e8a9-f883-409b-b2a1-a4391df40c3f</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>81120010-3be3-43d4-bf14-68fed1503a1c</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>1bf94935-a52b-40c2-829f-e0f2b5450798</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>3f73ba73-18d8-4312-ba59-a97d57147b05</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/07 - Directory/10 - Connections - delete</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>2541d7e0-efff-49aa-92d1-54526f69caa7</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/07 - Directory/11 - Connections - Search and Filter</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>f3210cc2-f20f-4724-8bdf-0525bf25ac05</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>af153021-7b1f-445a-92f6-a760e3f58b84</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/07 - Directory/12 - Add new label</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>eab8cb5b-40d9-4ed7-9537-d9f21927b71f</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>bfc8b0a8-f628-4cf7-ab36-dd71cc54a0d9</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/07 - Directory/13 - Edit a label</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>23a7af2e-f181-47db-8788-9375b53015da</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>a2f12a49-2833-403a-8b6d-8840f1b6263d</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/07 - Directory/14 - Delete a label</testCaseId>
+      <testCaseId>Test Cases/07 - Directory/14 - Connections - delete</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

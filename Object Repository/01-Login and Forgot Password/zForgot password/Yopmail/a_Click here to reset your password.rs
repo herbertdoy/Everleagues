@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Click here to reset your password</name>
+   <tag></tag>
+   <elementGuidId>37384cc2-545f-4889-9d31-ef6d9ac28859</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>a</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='mail']/div/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>9ac02bc7-2b2d-4ea8-bfa4-49ca2e5b56d8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>https://xukp7.app.goo.gl/?link=https://everleagues.com/4441373931413745354634393444423942383641343135334338363141334233@r&amp;apn=com.everleague.app&amp;isi=1316297335&amp;ibi=com.everleague.app&amp;dfl=https://lab.everleagues.com/forgot-password/reset?token=4441373931413745354634393444423942383641343135334338363141334233</value>
+      <webElementGuid>2c505e98-36ce-4e9b-891b-7623849c6af0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Click here to reset your password.</value>
+      <webElementGuid>fe1b72b1-5484-4c2b-abbf-d8f14cab50e2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mail&quot;)/div[1]/a[1]</value>
+      <webElementGuid>4e34b22d-90e0-41bf-a9d1-3515e1c8e1d0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/01-Login and Forgot Password/zForgot password/Yopmail/iframe_Undo_ifmail</value>
+      <webElementGuid>87b60466-2c1e-45a3-af2b-c5cecfbf7fa1</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='mail']/div/a</value>
+      <webElementGuid>dbffe234-eb56-4fb2-8bde-ca8ab432294b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Click here to reset your password.')]</value>
+      <webElementGuid>08f6dcc5-e00f-45a0-8c36-06152f3b3e43</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)=''])[1]/following::a[1]</value>
+      <webElementGuid>6c882336-1bbb-4dd1-868d-448c3be51203</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('id(', '&quot;', 'mail', '&quot;', ')/div[1]/a[1]')])[1]/preceding::a[1]</value>
+      <webElementGuid>363d61c5-33fc-480c-b162-3209eb71ddad</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Click here to reset your password.']/parent::*</value>
+      <webElementGuid>9eecc54f-0981-453b-8881-4b8da2469a56</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, 'https://xukp7.app.goo.gl/?link=https://everleagues.com/4441373931413745354634393444423942383641343135334338363141334233@r&amp;apn=com.everleague.app&amp;isi=1316297335&amp;ibi=com.everleague.app&amp;dfl=https://lab.everleagues.com/forgot-password/reset?token=4441373931413745354634393444423942383641343135334338363141334233')]</value>
+      <webElementGuid>59f050f4-7195-464b-b953-d719ed63120d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a</value>
+      <webElementGuid>375d47b4-4367-4332-8018-1c30e644d9fd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'https://xukp7.app.goo.gl/?link=https://everleagues.com/4441373931413745354634393444423942383641343135334338363141334233@r&amp;apn=com.everleague.app&amp;isi=1316297335&amp;ibi=com.everleague.app&amp;dfl=https://lab.everleagues.com/forgot-password/reset?token=4441373931413745354634393444423942383641343135334338363141334233' and (text() = 'Click here to reset your password.' or . = 'Click here to reset your password.')]</value>
+      <webElementGuid>3eb53d7b-694d-49da-8d85-59df785ac901</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

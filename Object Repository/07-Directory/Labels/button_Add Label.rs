@@ -6,16 +6,16 @@
    <elementGuidId>561b2dca-8540-4386-8c81-929cbfe72cb0</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+         <value>button.mat-focus-indicator.mat-raised-button.mat-button-base.cdk-focused.cdk-mouse-focused</value>
+      </entry>
+      <entry>
          <key>BASIC</key>
          <value>//button[@type = 'submit' and (text() = 'Add Label' or . = 'Add Label')]</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//button[@ng-reflect-color='primary'])[2]</value>
-      </entry>
-      <entry>
-         <key>CSS</key>
-         <value>button.mat-focus-indicator.mat-raised-button.mat-button-base.cdk-focused.cdk-mouse-focused</value>
+         <value>//button[@type='submit']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -26,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>8f9bc0f3-e1fb-4aa9-bd9b-5cdaa9f949d9</webElementGuid>
+      <webElementGuid>bf409d02-e628-4ab0-ae76-baeb0ca3f958</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -34,7 +34,7 @@
       <name>type</name>
       <type>Main</type>
       <value>submit</value>
-      <webElementGuid>4289a24c-4b99-47a6-a563-7835060acaa9</webElementGuid>
+      <webElementGuid>0e0dbe7a-41ff-4d33-8ded-12c1fd643a8c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,7 +42,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-focus-indicator mat-raised-button mat-button-base cdk-focused cdk-mouse-focused</value>
-      <webElementGuid>40ac02b6-aa27-4778-ae74-7980ddab33fd</webElementGuid>
+      <webElementGuid>dd987bde-d68e-47ef-938b-6f1f9d9eae29</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,7 +50,7 @@
       <name>ng-reflect-disabled</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>6b6a28b3-1dae-41c6-8a92-c65f01a72966</webElementGuid>
+      <webElementGuid>0691d77c-eb37-489f-a7f3-fe657d5008ce</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -58,7 +58,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Add Label</value>
-      <webElementGuid>3ec4689c-1ff1-419c-ad48-86b15722685b</webElementGuid>
+      <webElementGuid>718fd055-7f3c-4298-a520-17826a6d43fd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -66,7 +66,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-dialog-3&quot;)/app-dialog-add-label[@class=&quot;ng-star-inserted&quot;]/section[@class=&quot;dialog-container&quot;]/form[@class=&quot;ng-touched ng-dirty ng-valid&quot;]/div[@class=&quot;mat-dialog-actions dialog-action&quot;]/div[@class=&quot;action-container&quot;]/button[@class=&quot;mat-focus-indicator mat-raised-button mat-button-base cdk-focused cdk-mouse-focused&quot;]</value>
-      <webElementGuid>f93f7b8d-d77d-4290-a64e-a1228f00c1eb</webElementGuid>
+      <webElementGuid>b6d1e89e-bce7-4717-96c8-f5b92bc9048d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -74,7 +74,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//button[@type='submit']</value>
-      <webElementGuid>91433c89-fc07-43dc-a9f6-e2d5c1b64a1e</webElementGuid>
+      <webElementGuid>5b7eafe7-f1e1-4502-ac1c-06c201040472</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,7 +82,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-dialog-container[@id='mat-dialog-3']/app-dialog-add-label/section/form/div[2]/div/button</value>
-      <webElementGuid>4dab3ba3-d888-4d52-8d40-36398a24e3e3</webElementGuid>
+      <webElementGuid>030f5b00-2d82-4d75-98c4-8de7552e2f1f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -90,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Label Name'])[1]/following::button[1]</value>
-      <webElementGuid>3116f466-8ed5-4329-bbcf-229d5a7c05f7</webElementGuid>
+      <webElementGuid>6b3f8400-2aa8-4992-a54b-f11b31031722</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,7 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Add New Label'])[1]/following::button[1]</value>
-      <webElementGuid>1ae9b316-b0c3-4a38-8cde-def7561767bc</webElementGuid>
+      <webElementGuid>80d21af6-d22f-42c8-babd-0369c90b276d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,7 +106,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/preceding::button[1]</value>
-      <webElementGuid>c725d2b8-fcb1-4102-9aa7-573ef7adc6ae</webElementGuid>
+      <webElementGuid>36b83fee-0374-4543-86c0-6be667a58ec8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -114,7 +114,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/button</value>
-      <webElementGuid>dc752b24-a5f2-411b-9b23-8a2693e65d18</webElementGuid>
+      <webElementGuid>9bcd58cc-2245-43aa-b5b4-1c57ae81ca08</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -122,6 +122,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'submit' and (text() = 'Add Label' or . = 'Add Label')]</value>
-      <webElementGuid>a6b2f7a5-234d-441e-8ed7-019bb2d62760</webElementGuid>
+      <webElementGuid>b821cb52-c1e6-48dd-a687-0e7eae9d12ad</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

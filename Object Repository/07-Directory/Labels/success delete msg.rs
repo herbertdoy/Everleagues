@@ -6,16 +6,16 @@
    <elementGuidId>1948c43d-cd56-4619-a3fb-fc43c7af0e70</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//snack-bar-container[(text() = 'Successfully deleted labelOK' or . = 'Successfully deleted labelOK')]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>snack-bar-container.mat-snack-bar-container.ng-tns-c41-97.ng-trigger.ng-trigger-state.mat-snack-bar-center.ng-star-inserted</value>
       </entry>
       <entry>
          <key>BASIC</key>
          <value>//snack-bar-container[@role = 'status' and (text() = 'Successfully deleted labelOK' or . = 'Successfully deleted labelOK')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[normalize-space(text())='Successfully deleted label']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -26,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>snack-bar-container</value>
-      <webElementGuid>b6f129e3-c9e5-4965-8a3f-d569855b7def</webElementGuid>
+      <webElementGuid>c48e7b6c-19f4-4762-8bb1-79b1697234f6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -34,7 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-snack-bar-container ng-tns-c41-97 ng-trigger ng-trigger-state mat-snack-bar-center ng-star-inserted</value>
-      <webElementGuid>769b8545-ecca-4a46-a222-f30a711bb70a</webElementGuid>
+      <webElementGuid>d85081b1-4ec0-463b-beeb-3abf3c051820</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -42,7 +42,7 @@
       <name>role</name>
       <type>Main</type>
       <value>status</value>
-      <webElementGuid>92d46991-1e02-402d-8c66-9757085280e9</webElementGuid>
+      <webElementGuid>fb0d9831-71fc-4f84-80e7-79ac9d8b823e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -50,7 +50,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Successfully deleted labelOK</value>
-      <webElementGuid>c0ebd8bb-11b8-45ee-a24c-13535cd1422a</webElementGuid>
+      <webElementGuid>79561928-5b97-4e82-a6d6-30838643c464</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -58,7 +58,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;cdk-overlay-28&quot;)/snack-bar-container[@class=&quot;mat-snack-bar-container ng-tns-c41-97 ng-trigger ng-trigger-state mat-snack-bar-center ng-star-inserted&quot;]</value>
-      <webElementGuid>6c70ae9c-bc7d-4d52-8d08-427218080361</webElementGuid>
+      <webElementGuid>fa839c70-f307-454f-bf66-df48ce3e49b2</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -66,7 +66,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='cdk-overlay-28']/snack-bar-container</value>
-      <webElementGuid>9540cfaf-c125-4b9b-8a94-632c28c22ef1</webElementGuid>
+      <webElementGuid>9c5b7a64-0eb0-42c7-bc4f-49692648d508</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -74,7 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Successfully deleted label'])[1]/following::snack-bar-container[1]</value>
-      <webElementGuid>6f9b3cbd-c7ff-471b-8a69-f98f839044dd</webElementGuid>
+      <webElementGuid>26217024-fb29-4bba-823a-b3cc2dc0b960</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='of 0'])[1]/following::snack-bar-container[1]</value>
-      <webElementGuid>f51bbce8-1a67-4fa4-b3d1-c313c600cad6</webElementGuid>
+      <webElementGuid>274243aa-1db4-4b7c-a8a2-e0d54375cd6b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -90,7 +90,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//snack-bar-container</value>
-      <webElementGuid>a1604f7b-f197-4bc5-8af0-d74fc062209e</webElementGuid>
+      <webElementGuid>f2937c63-fdd7-4365-9a65-a48fb2626e46</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,6 +98,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//snack-bar-container[(text() = 'Successfully deleted labelOK' or . = 'Successfully deleted labelOK')]</value>
-      <webElementGuid>d28af545-6567-47c9-8f44-6c5a4f081dd0</webElementGuid>
+      <webElementGuid>84b76592-71fe-4490-8993-8a84c4e4820c</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

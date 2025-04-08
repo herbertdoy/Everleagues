@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Country</name>
+   <tag></tag>
+   <elementGuidId>e9f65532-434f-45f6-8243-c2e12ca27f7d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//mat-form-field[6]/div/div/div[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.mat-form-field-infix.ng-tns-c236-88</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>81fc625c-9cbb-4ff9-a034-c3c29a700e59</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-form-field-infix ng-tns-c236-88</value>
+      <webElementGuid>4926121a-50b9-41a7-9ca4-36442017f5df</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Country</value>
+      <webElementGuid>09960e50-eb98-424c-a542-5476fd2a401d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mat-dialog-2&quot;)/app-dialog-profile-address[@class=&quot;ng-star-inserted&quot;]/section[@class=&quot;dialog-container&quot;]/form[@class=&quot;ng-pristine ng-invalid ng-touched&quot;]/div[@class=&quot;mat-dialog-content&quot;]/div[1]/mat-form-field[@class=&quot;mat-form-field ng-tns-c236-88 mat-primary ng-star-inserted mat-form-field-type-mat-select mat-form-field-appearance-fill mat-form-field-can-float mat-form-field-has-label ng-pristine ng-valid mat-form-field-hide-placeholder ng-touched&quot;]/div[@class=&quot;mat-form-field-wrapper ng-tns-c236-88&quot;]/div[@class=&quot;mat-form-field-flex ng-tns-c236-88&quot;]/div[@class=&quot;mat-form-field-infix ng-tns-c236-88&quot;]</value>
+      <webElementGuid>60efb19e-a0bf-423d-94e1-6967f62a0513</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//mat-dialog-container[@id='mat-dialog-2']/app-dialog-profile-address/section/form/div/div/mat-form-field[6]/div/div/div[2]</value>
+      <webElementGuid>98ed5618-4728-4f84-9dd7-9eca2f676745</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='State'])[2]/following::div[8]</value>
+      <webElementGuid>6b5713df-db45-4bc7-9f12-21cbbfa0646e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='City'])[2]/following::div[16]</value>
+      <webElementGuid>6c08e80e-2caf-49ed-9ccb-92f16dc0d8f6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Address Type'])[1]/preceding::div[9]</value>
+      <webElementGuid>b05118a4-3eb1-4211-9d4e-8ffc5b3157ac</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//mat-form-field[6]/div/div/div[2]</value>
+      <webElementGuid>f69e708d-5bf2-4be3-802d-0be10977d1ea</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Country' or . = 'Country')]</value>
+      <webElementGuid>9b9db117-a539-4de5-ae99-e54cd754f6bb</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

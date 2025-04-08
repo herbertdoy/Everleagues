@@ -33,10 +33,23 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
+      <guid>3e28f232-89b5-4cfc-88dd-def7ba47ea25</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/00 - SignUp and Account Activation/04 - Set Password(Negative scenario)</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>d93be59f-2d2a-4272-a91c-6c47b7748a2b</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
       <guid>80858b10-bbe5-4474-a1d0-c85a5e5774ed</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/00 - SignUp and Account Activation/04 - Set password</testCaseId>
+      <testCaseId>Test Cases/00 - SignUp and Account Activation/05 - Set password(Positive scenario)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

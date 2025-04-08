@@ -7,14 +7,14 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='mat-input-16']</value>
+         <value>//input[@type='tel']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
       </entry>
       <entry>
          <key>CSS</key>
          <value>#mat-input-24</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

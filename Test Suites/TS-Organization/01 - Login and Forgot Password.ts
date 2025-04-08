@@ -92,10 +92,24 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>142c97a2-adeb-426a-8143-11245bc36e92</guid>
+      <guid>aae749f1-e48a-4d9a-8a7e-22a93cf46b35</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/01 - Login and Forgot Password/04 - Login(Valid Credentials-testuser00005)</testCaseId>
+      <testCaseId>Test Cases/01 - Login and Forgot Password/09 - Forgot Password(Incorrect format of password)</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>005be645-6ffc-4eec-a065-e6475052b356</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/01 - Login and Forgot Password/11 - Forgot Password(Mismatch password)</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>965cf7ac-536a-42df-8878-8d4e6db92650</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/01 - Login and Forgot Password/10 - Forgot Password(Match password)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
