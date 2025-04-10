@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_deletePhone</name>
+   <name>btn_plusButton</name>
    <tag></tag>
-   <elementGuidId>ce1a8e28-48a8-4e2d-a297-20d2cfa18d68</elementGuidId>
+   <elementGuidId>520aea89-f303-4586-85ab-ef8e90d193db</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//button[@mattooltip='Delete Phone'])[2]</value>
+         <value>/html/body/app-root/app-main-page/div/mat-sidenav-container/mat-sidenav-content/div[1]/div[3]/app-org-ou/div/div/p-treetable/div/div/table/tbody/tr[1]/td[3]/div/div/table-button-list/div/div/button[1]</value>
       </entry>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

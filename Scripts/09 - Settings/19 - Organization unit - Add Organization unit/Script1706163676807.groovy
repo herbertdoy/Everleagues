@@ -109,3 +109,39 @@ WebUI.verifyElementPresent(findTestObject('09-Settings/Organization unit/span_Su
 
 WebUI.delay(GlobalVariable.delay_2s)
 
+WebUI.click(findTestObject('09-Settings/Organization unit/btn_plusButton'))
+
+WebUI.delay(GlobalVariable.delay_2s)
+
+WebUI.setText(findTestObject('09-Settings/Organization unit/input_Parent Organization Unit Name_orgName'), oganizaztionUnitTwo)
+
+WebUI.click(findTestObject('09-Settings/Users/Active User/button_Save'))
+
+WebUI.delay(GlobalVariable.delay_2s)
+
+//WebUI.verifyElementPresent(findTestObject('09-Settings/Organization unit/td_OrganizationUnitTwo'), 0)
+
+//WebUI.delay(GlobalVariable.delay_2s)
+
+WebUI.click(findTestObject('09-Settings/Organization unit/btn_plusButton2'))
+
+WebUI.delay(GlobalVariable.delay_2s)
+
+WebUI.setText(findTestObject('09-Settings/Organization unit/input_Parent Organization Unit Name_orgName'), orgunit3)
+
+WebUI.click(findTestObject('09-Settings/Users/Active User/button_Save'))
+
+WebUI.delay(GlobalVariable.delay_2s)
+
+//WebUI.verifyElementPresent(findTestObject('09-Settings/Organization unit/td_org3'), 0)
+
+//WebUI.delay(GlobalVariable.delay_2s)
+
+WebUI.click(findTestObject('09-Settings/Organization unit/chevron_down'))
+
+WebUI.delay(GlobalVariable.delay_2s)
+
+WebUI.click(findTestObject('09-Settings/Organization unit/chevron_right'))
+
+WebUI.delay(GlobalVariable.delay_2s)
+

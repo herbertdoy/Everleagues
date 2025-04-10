@@ -12,6 +12,25 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>616406d9-f76e-4d2a-a2c6-c1e7de3abd2d</testSuiteGuid>
    <testCaseLink>
+      <guid>4df13faf-2606-4480-884c-1e90845d28f3</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/09 - Settings/26 - Users(Invite new user as Vendor)</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>813cd492-2d42-4684-b2b2-9d3a642caed6</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>34fb8caf-98c7-4587-85fa-9000b4f77ea8</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
       <guid>9a6d0323-256d-428d-9c34-81bf40e62f65</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>

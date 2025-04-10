@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_deletePhone</name>
+   <name>td_OrganizationUnitTwo</name>
    <tag></tag>
-   <elementGuidId>ce1a8e28-48a8-4e2d-a297-20d2cfa18d68</elementGuidId>
+   <elementGuidId>cf2e2315-d49d-4c40-bb56-3cda47544cea</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//button[@mattooltip='Delete Phone'])[2]</value>
+         <value>(//td[normalize-space()='Automation Organization Unit Two'])[1]</value>
       </entry>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

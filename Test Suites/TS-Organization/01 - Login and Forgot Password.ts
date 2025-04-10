@@ -102,14 +102,14 @@
       <guid>005be645-6ffc-4eec-a065-e6475052b356</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/01 - Login and Forgot Password/11 - Forgot Password(Mismatch password)</testCaseId>
+      <testCaseId>Test Cases/01 - Login and Forgot Password/10 - Forgot Password(Mismatch password)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>965cf7ac-536a-42df-8878-8d4e6db92650</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/01 - Login and Forgot Password/10 - Forgot Password(Match password)</testCaseId>
+      <testCaseId>Test Cases/01 - Login and Forgot Password/11 - Forgot Password(Match password)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

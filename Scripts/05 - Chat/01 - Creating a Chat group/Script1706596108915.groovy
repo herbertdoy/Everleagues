@@ -27,7 +27,9 @@ WebUI.callTestCase(findTestCase('01 - Login and Forgot Password/04 - Login(Valid
 
 WebUI.delay(GlobalVariable.delay_2s)
 
-WebUI.click(findTestObject('02-Side Icons/mat-icon_Side Menu double arrow icon'))
+WebUI.click(findTestObject('06-Teams/button_doublearrow'))
+
+//WebUI.click(findTestObject('02-Side Icons/mat-icon_Side Menu double arrow icon'))
 
 WebUI.delay(GlobalVariable.delay_2s)
 

@@ -31,5 +31,9 @@ WebUI.click(findTestObject('05-Chat/Delete a message/button_Delete'))
 
 WebUI.delay(GlobalVariable.delay_2s)
 
+WebUI.verifyElementVisible(findTestObject('05-Chat/snackbar/deleteMessage'))
+
+WebUI.delay(GlobalVariable.delay_2s)
+
 WebUI.verifyElementVisible(findTestObject('05-Chat/Delete a message/div_deleted message'))
 

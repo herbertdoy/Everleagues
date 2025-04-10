@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_deletePhone</name>
+   <name>div_deletedDisplayMessage</name>
    <tag></tag>
-   <elementGuidId>ce1a8e28-48a8-4e2d-a297-20d2cfa18d68</elementGuidId>
+   <elementGuidId>3629ed6a-67a9-4c8f-9dcc-e4993b1d606d</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//button[@mattooltip='Delete Phone'])[2]</value>
+         <value>(//div[@class='message-invalid ng-star-inserted'])[1]</value>
       </entry>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

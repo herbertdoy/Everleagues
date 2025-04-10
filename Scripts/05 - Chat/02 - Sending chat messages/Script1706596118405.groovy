@@ -51,6 +51,10 @@ WebUI.verifyElementVisible(findTestObject('05-Chat/02-Sending chat messages/Symb
 
 WebUI.delay(GlobalVariable.delay_1s)
 
+WebUI.mouseOver(findTestObject('05-Chat/02-Sending chat messages/textarea__msg'))
+
+WebUI.delay(GlobalVariable.delay_1s)
+
 WebUI.click(findTestObject('05-Chat/02-Sending chat messages/Money Face'))
 
 WebUI.click(findTestObject('05-Chat/02-Sending chat messages/button_send'))
@@ -58,6 +62,12 @@ WebUI.click(findTestObject('05-Chat/02-Sending chat messages/button_send'))
 WebUI.delay(GlobalVariable.delay_1s)
 
 WebUI.verifyElementVisible(findTestObject('05-Chat/02-Sending chat messages/money face in chat'))
+
+WebUI.delay(GlobalVariable.delay_1s)
+
+WebUI.setText(findTestObject('05-Chat/02-Sending chat messages/textarea__msg'), starredMessage)
+
+WebUI.click(findTestObject('05-Chat/02-Sending chat messages/button_send'))
 
 WebUI.delay(GlobalVariable.delay_2s)
 

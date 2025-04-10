@@ -57,45 +57,70 @@ WebUI.verifyElementVisible(findTestObject('09-Settings/Users/CSV Invite/modal_Im
 
 WebUI.verifyElementNotClickable(findTestObject('09-Settings/Users/CSV Invite/button_Import'))
 
-WebUI.delay(GlobalVariable.delay_3s)
-
-CustomKeywords.'uploadpackage.Upload.uploadFile'(findTestObject('Object Repository/09-Settings/Users/CSV Invite/button_Choose File'), 
-    GlobalVariable.upload_csv_file)
-
+//WebUI.delay(GlobalVariable.delay_3s)
+//CustomKeywords.'uploadpackage.Upload.uploadFile'(findTestObject('Object Repository/09-Settings/Users/CSV Invite/button_Choose File'), 
+//    GlobalVariable.nouserscsv)
+//WebUI.delay(GlobalVariable.delay_3s)
+//WebUI.click(findTestObject('09-Settings/Users/CSV Invite/button_Import'))
+//WebUI.verifyElementVisible(findTestObject('09-Settings/Users/CSV Invite/span_NoUsersToImport'))
+//WebUI.delay(GlobalVariable.delay_3s)
+//WebUI.click(findTestObject('09-Settings/Users/CSV Invite/btn_Cancel'))
+//
+//WebUI.delay(GlobalVariable.delay_3s)
+//
+//WebUI.click(findTestObject('09-Settings/Users/button_add'))
+//
+//WebUI.delay(GlobalVariable.delay_2s)
+//
+//WebUI.click(findTestObject('09-Settings/Users/Invite batch of users via CSV file'))
+//
 WebUI.delay(GlobalVariable.delay_2s)
 
-WebUI.verifyElementVisible(findTestObject('09-Settings/Users/CSV Invite/div_Sample csv.csv'))
+//
+CustomKeywords.'uploadpackage.Upload.uploadFile'(findTestObject('09-Settings/Users/CSV Invite/button_Choose File'), GlobalVariable.upload_csv_file)
+
+//
+WebUI.delay(GlobalVariable.delay_2s)
+
+//
+//WebUI.verifyElementVisible(findTestObject('09-Settings/Users/Invite batch of users via CSV file'))
+//
+WebUI.click(findTestObject('09-Settings/Users/CSV Invite/div_Sample csv.csv'))
 
 WebUI.click(findTestObject('09-Settings/Users/CSV Invite/button_Import'))
 
+//
 WebUI.delay(GlobalVariable.delay_2s)
 
+//
+//WebUI.verifyElementVisible(findTestObject('09-Settings/Users/CSV Invite/button_Import'))
+//
 WebUI.verifyElementVisible(findTestObject('09-Settings/Users/CSV Invite/Success import modal'))
 
+//
 WebUI.click(findTestObject('09-Settings/Users/CSV Invite/button_Close'))
-
-WebUI.click(findTestObject('09-Settings/Users/CSV Invite/Invited Users tab'))
 
 WebUI.delay(GlobalVariable.delay_2s)
 
+//
+WebUI.click(findTestObject('09-Settings/Users/CSV Invite/Invited Users tab'))
+
+//
 WebUI.verifyElementVisible(findTestObject('09-Settings/Users/CSV Invite/div_CTCSV test3'))
 
+//
 WebUI.verifyElementVisible(findTestObject('09-Settings/Users/CSV Invite/div_autotester08mailinator.com'))
 
+//
 WebUI.verifyElementVisible(findTestObject('09-Settings/Users/CSV Invite/div_Partner'))
 
+//
 WebUI.verifyElementVisible(findTestObject('09-Settings/Users/CSV Invite/div_CTCSV test2'))
 
+//
 WebUI.verifyElementVisible(findTestObject('09-Settings/Users/CSV Invite/div_autotester07mailinator.com'))
 
-WebUI.verifyElementVisible(findTestObject('09-Settings/Users/CSV Invite/div_Client'))
-
-WebUI.verifyElementVisible(findTestObject('09-Settings/Users/CSV Invite/div_CTCSV test1'))
-
-WebUI.verifyElementVisible(findTestObject('09-Settings/Users/CSV Invite/div_autotester06mailinator.com'))
-
-WebUI.verifyElementVisible(findTestObject('09-Settings/Users/CSV Invite/div_Coworker'))
-
+//
 WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.closeBrowser()

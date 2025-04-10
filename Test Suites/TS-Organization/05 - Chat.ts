@@ -36,6 +36,12 @@
          <value></value>
          <variableId>1e3df220-7efa-4570-b4d9-7c040bf42d4c</variableId>
       </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>7a0c9397-52d5-41a6-8ce6-5f887e3866dd</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>5c68afe3-1f3f-4c08-9185-8c5e69c7fba2</guid>
@@ -55,8 +61,14 @@
       <guid>0b218071-b502-4e41-9441-7674995e19a5</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/05 - Chat/05 - Star and Unstar a Message</testCaseId>
+      <testCaseId>Test Cases/05 - Chat/05 - Star Message(Unstar, Edit and delete)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>58294c1e-d100-4af4-9484-e85174eb9ced</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>df06d7cb-51ca-42d7-94ee-ba8531a03685</guid>

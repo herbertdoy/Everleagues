@@ -17,6 +17,18 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.delay(GlobalVariable.delay_3s)
+
+WebUI.click(findTestObject('09-Settings/Organization unit/ellipses_Org3'))
+
+WebUI.delay(GlobalVariable.delay_3s)
+
+WebUI.click(findTestObject('09-Settings/Organization unit/button_Delete Organization Unit'))
+
+WebUI.click(findTestObject('09-Settings/Users/Active User/button_Delete'))
+
+WebUI.delay(GlobalVariable.delay_3s)
+
 WebUI.click(findTestObject('09-Settings/Users/Active User/button_ellipses'))
 
 WebUI.delay(GlobalVariable.delay_3s)
@@ -46,6 +58,18 @@ WebUI.click(findTestObject('09-Settings/Users/Active User/button_Delete'))
 
 WebUI.verifyElementVisible(findTestObject('09-Settings/Organization unit/snack-bar-container_Successfully deleted organization unitOK'), 
     FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(GlobalVariable.delay_3s)
+
+WebUI.click(findTestObject('09-Settings/Users/Active User/button_ellipses'))
+
+WebUI.delay(GlobalVariable.delay_2s)
+
+WebUI.click(findTestObject('09-Settings/Organization unit/button_Delete Organization Unit'))
+
+WebUI.delay(GlobalVariable.delay_2s)
+
+WebUI.click(findTestObject('09-Settings/Users/Active User/button_Delete'))
 
 WebUI.delay(GlobalVariable.delay_3s)
 
