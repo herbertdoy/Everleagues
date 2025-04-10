@@ -53,5 +53,5 @@ WebUI.scrollToElement(findTestObject('14-Income and Expense/button_Done'), 0)
 
 WebUI.verifyElementNotClickable(findTestObject('14-Income and Expense/button_Done'))
 
-WebUI.delay(GlobalVariable.delay_2s)
+WebUI.delay(GlobalVariable.delay_3s)
 

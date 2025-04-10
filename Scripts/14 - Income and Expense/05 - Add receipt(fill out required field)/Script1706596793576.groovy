@@ -19,6 +19,10 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.setText(findTestObject('14-Income and Expense/input_VendorName'), vendor_name)
 
+WebUI.click(findTestObject('14-Income and Expense/input_Amount'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.delay(GlobalVariable.delay_2s)
+
 WebUI.click(findTestObject('14-Income and Expense/input_AccountType'))
 
 WebUI.click(findTestObject('14-Income and Expense/mat-option_5090-Other income'))

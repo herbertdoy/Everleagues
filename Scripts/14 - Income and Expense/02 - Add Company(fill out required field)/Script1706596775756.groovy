@@ -35,5 +35,5 @@ WebUI.delay(GlobalVariable.delay_1s)
 
 WebUI.click(findTestObject('14-Income and Expense/button_BEGIN'))
 
-WebUI.delay(GlobalVariable.delay_2s)
+WebUI.delay(GlobalVariable.delay_3s)
 

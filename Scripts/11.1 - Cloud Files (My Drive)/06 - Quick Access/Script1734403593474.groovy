@@ -71,3 +71,5 @@ WebUI.switchToWindowIndex(0)
 
 WebUI.delay(GlobalVariable.delay_2s)
 
+WebUI.closeBrowser()
+

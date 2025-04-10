@@ -43,3 +43,21 @@ WebUI.verifyElementVisible(findTestObject('11-Cloud Files/td_Automation folder 2
 
 WebUI.delay(GlobalVariable.delay_2s)
 
+WebUI.rightClick(findTestObject('11-Cloud Files/div_coudFilesTable'))
+
+WebUI.delay(GlobalVariable.delay_2s)
+
+WebUI.click(findTestObject('11-Cloud Files/btn_NewFolder'))
+
+WebUI.delay(GlobalVariable.delay_2s)
+
+WebUI.setText(findTestObject('11-Cloud Files/input_folderName'), folder_withSpecialCharac)
+
+WebUI.click(findTestObject('11-Cloud Files/button_Create'))
+
+WebUI.delay(GlobalVariable.delay_2s)
+
+WebUI.verifyElementVisible(findTestObject('11-Cloud Files/td_specialCharac'))
+
+WebUI.delay(GlobalVariable.delay_2s)
+

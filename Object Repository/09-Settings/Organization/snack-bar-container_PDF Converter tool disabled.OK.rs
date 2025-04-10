@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//span[(text() = 'PDF Converter tool disabled.' or . = 'PDF Converter tool disabled.')]</value>
+         <value>//span[normalize-space(text())='PDF Converter tool disabled.']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>snack-bar-container</value>
-      <webElementGuid>a3e727a6-80c3-4a7c-bc8e-16d9f696c1cd</webElementGuid>
+      <webElementGuid>0bb827ca-b545-48b1-8026-3a74db97d04e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-snack-bar-container ng-tns-c50-151 ng-trigger ng-trigger-state mat-snack-bar-center ng-star-inserted</value>
-      <webElementGuid>8d6fefd0-261e-48d0-9574-d49e7c833d01</webElementGuid>
+      <webElementGuid>5244afdb-e8a2-4bce-9ad3-4e0eab64c383</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value>PDF Converter tool disabled.OK</value>
-      <webElementGuid>9f1a53a5-4aef-4790-8bc8-eb58dae61852</webElementGuid>
+      <webElementGuid>87c635f7-c182-4eb5-b81a-9303613c3e98</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;cdk-overlay-46&quot;)/snack-bar-container[@class=&quot;mat-snack-bar-container ng-tns-c50-151 ng-trigger ng-trigger-state mat-snack-bar-center ng-star-inserted&quot;]</value>
-      <webElementGuid>9850139b-4229-4731-88ce-26bc71266696</webElementGuid>
+      <webElementGuid>7daa0c28-b5f0-4d95-b39c-c08590b5f435</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='cdk-overlay-46']/snack-bar-container</value>
-      <webElementGuid>01ce15e7-f792-4e61-a24f-6e349796b33a</webElementGuid>
+      <webElementGuid>50394f3f-df5c-408f-9656-b9ca79b5f02b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='`'])[2]/following::snack-bar-container[1]</value>
-      <webElementGuid>d799399d-3eda-45c9-bcf7-548d5bc41b1d</webElementGuid>
+      <webElementGuid>5020c9c2-2257-408e-902d-2bc5ca694880</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Alt'])[2]/following::snack-bar-container[1]</value>
-      <webElementGuid>4b499662-f69c-41c2-8092-fd71f8dcf78c</webElementGuid>
+      <webElementGuid>b579cff4-205f-4201-991a-ebae59429f4b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//snack-bar-container</value>
-      <webElementGuid>fdf7186c-4973-41a4-b84a-dddff27af39c</webElementGuid>
+      <webElementGuid>9342627c-3285-4048-81ef-66aca1948f8a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,6 +86,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//snack-bar-container[(text() = 'PDF Converter tool disabled.OK' or . = 'PDF Converter tool disabled.OK')]</value>
-      <webElementGuid>ff0a167c-7f72-4433-a476-fb7a972aa27e</webElementGuid>
+      <webElementGuid>cc33c3c9-bec8-4050-8d0c-741eb3136140</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

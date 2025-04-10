@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//span[(text() = 'ELSign tool disabled.' or . = 'ELSign tool disabled.')]</value>
+         <value>//span[normalize-space(text())='ELSign tool disabled.']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>snack-bar-container</value>
-      <webElementGuid>4c101b05-1c23-4ce2-b183-92a85d94226d</webElementGuid>
+      <webElementGuid>8ca20f40-5c49-424a-ba09-291b8171598d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-snack-bar-container ng-tns-c50-138 ng-trigger ng-trigger-state mat-snack-bar-center ng-star-inserted</value>
-      <webElementGuid>c9ebeaf4-6c84-40a3-9fe5-336b03e1b346</webElementGuid>
+      <webElementGuid>a527d1cc-cbc4-479e-9b43-5199ebf6f925</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value>ELSign tool disabled.OK</value>
-      <webElementGuid>0bdb05d4-f6e1-49bd-976c-619d47afdbb0</webElementGuid>
+      <webElementGuid>5cde53c6-94d0-425f-8bb2-5aef303c72c2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;cdk-overlay-40&quot;)/snack-bar-container[@class=&quot;mat-snack-bar-container ng-tns-c50-138 ng-trigger ng-trigger-state mat-snack-bar-center ng-star-inserted&quot;]</value>
-      <webElementGuid>2697fb7c-3160-4eb7-a70a-31b9167e3fe1</webElementGuid>
+      <webElementGuid>ea5e7be0-068f-4c67-8440-2eb31bb247fb</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='cdk-overlay-40']/snack-bar-container</value>
-      <webElementGuid>decf1bfd-7c75-4f82-abc8-203488a2bfe3</webElementGuid>
+      <webElementGuid>caaf85c7-8349-4ce0-bce3-c23fd6fc48b9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='`'])[2]/following::snack-bar-container[1]</value>
-      <webElementGuid>77d1ba74-26ab-4700-ada5-c63ac92e51e2</webElementGuid>
+      <webElementGuid>cb740243-2ba9-4fdd-9aa1-2e52e46f9e5b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Alt'])[2]/following::snack-bar-container[1]</value>
-      <webElementGuid>a5b9b238-d296-482b-94ec-4a06f577f13c</webElementGuid>
+      <webElementGuid>de10dafe-0057-4802-8380-730e0b243229</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//snack-bar-container</value>
-      <webElementGuid>4c32b09f-14ae-4c62-acb3-a3203f60192b</webElementGuid>
+      <webElementGuid>1a6dae43-aa73-4bdb-a226-667dca86599f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,6 +86,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//snack-bar-container[(text() = 'ELSign tool disabled.OK' or . = 'ELSign tool disabled.OK')]</value>
-      <webElementGuid>056135e3-9ca6-478d-b0c7-000364a13cfa</webElementGuid>
+      <webElementGuid>2b90e3c9-c799-4cc2-b48e-02f8a66c75a6</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

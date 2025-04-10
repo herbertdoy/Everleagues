@@ -90,6 +90,8 @@ WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('09-Settings/Users/Active User/button_Save'))
 
+WebUI.delay(GlobalVariable.delay_1s)
+
 WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/snack-bar-container_Settings savedOK'))
 
 WebUI.delay(GlobalVariable.delay_2s)
@@ -130,7 +132,25 @@ WebUI.scrollToElement(findTestObject('09-Settings/Users/Active User/button_Save'
 
 WebUI.click(findTestObject('09-Settings/Users/Active User/button_Save'))
 
+WebUI.delay(GlobalVariable.delay_1s)
+
 WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/snack-bar-container_Settings savedOK'))
+
+WebUI.delay(GlobalVariable.delay_2s)
+
+WebUI.setText(findTestObject('09-Settings/Organization/input_Street'), street_nameEdit)
+
+WebUI.setText(findTestObject('09-Settings/Organization/input_City'), city_nameEdit)
+
+WebUI.setText(findTestObject('09-Settings/Organization/input_Zip'), zip_nameEdit)
+
+WebUI.setText(findTestObject('09-Settings/Organization/input_State'), state_nameEdit)
+
+WebUI.delay(GlobalVariable.delay_2s)
+
+WebUI.scrollToElement(findTestObject('09-Settings/Users/Active User/button_Save'), 0)
+
+WebUI.click(findTestObject('09-Settings/Users/Active User/button_Save'))
 
 WebUI.delay(GlobalVariable.delay_3s)
 
@@ -166,7 +186,23 @@ WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('09-Settings/Users/Active User/button_Save'))
 
+WebUI.delay(GlobalVariable.delay_1s)
+
 WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/snack-bar-container_Settings savedOK'))
+
+WebUI.delay(GlobalVariable.delay_2s)
+
+WebUI.setText(findTestObject('09-Settings/Organization/input_Email'), emailEdit)
+
+WebUI.setText(findTestObject('09-Settings/Organization/input_Web'), web_linkEdit)
+
+WebUI.setText(findTestObject('09-Settings/Organization/input_phone'), phoneNumberEdit)
+
+WebUI.setText(findTestObject('09-Settings/Organization/input_fax'), faxEdit)
+
+WebUI.delay(GlobalVariable.delay_2s)
+
+WebUI.click(findTestObject('09-Settings/Users/Active User/button_Save'))
 
 WebUI.delay(GlobalVariable.delay_2s)
 

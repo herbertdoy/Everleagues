@@ -23,10 +23,13 @@ WebUI.navigateToUrl(GlobalVariable.URL_lab)
 
 WebUI.maximizeWindow()
 
+//WebUI.callTestCase(findTestCase('01 - Login and Forgot Password/04 - Login(Valid Credentials-testuser01)'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+
 WebUI.callTestCase(findTestCase('01 - Login and Forgot Password/04 - Login(Valid Credentials-testusercloudfiles)'), [:], 
     FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.delay(GlobalVariable.delay_2s)
 
-WebUI.click(findTestObject('11-Cloud Files/Arrow_btn'))
+WebUI.click(findTestObject('06-Teams/button_doublearrow'))
 
 WebUI.click(findTestObject('06-Teams/button_My Organizations'))
 
@@ -54,7 +57,11 @@ WebUI.verifyElementVisible(findTestObject('11-Cloud Files/a_Shared With Me'))
 
 WebUI.click(findTestObject('11-Cloud Files/a_My Drive'))
 
+WebUI.delay(GlobalVariable.delay_2s)
+
 WebUI.verifyElementVisible(findTestObject('11-Cloud Files/h4_CLOUD STORAGE'))
+
+WebUI.waitForElementVisible(findTestObject('11-Cloud Files/h4_MY DRIVE'), 0)
 
 WebUI.verifyElementVisible(findTestObject('11-Cloud Files/h4_MY DRIVE'))
 

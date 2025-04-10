@@ -32,6 +32,62 @@ WebUI.click(findTestObject('11-Cloud Files/button_Confirm'))
 
 WebUI.delay(GlobalVariable.delay_2s)
 
+WebUI.closeBrowser()
+
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl(GlobalVariable.URL_lab)
+
+WebUI.maximizeWindow()
+
+WebUI.callTestCase(findTestCase('01 - Login and Forgot Password/04 - Login(Valid Credentials-testusercloudfiles)'), [:],
+	FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.delay(GlobalVariable.delay_2s)
+
+WebUI.click(findTestObject('06-Teams/button_doublearrow'))
+
+WebUI.click(findTestObject('06-Teams/button_My Organizations'))
+
+WebUI.click(findTestObject('11-Cloud Files/button_Automation Test Org I'))
+
+WebUI.delay(GlobalVariable.delay_3s)
+
+WebUI.verifyElementVisible(findTestObject('02-Side Icons/span_Automation Test Org (1)'))
+
+WebUI.delay(GlobalVariable.delay_2s)
+
+WebUI.click(findTestObject('03-Header Menu/div_Cloud Files'))
+
+WebUI.scrollToElement(findTestObject('11-Cloud Files/a_My Drive'), 0)
+
+WebUI.click(findTestObject('11-Cloud Files/a_My Drive'))
+
+//WebUI.delay(GlobalVariable.delay_2s)
+
+WebUI.delay(GlobalVariable.delay_2s)
+
+WebUI.doubleClick(findTestObject('11-Cloud Files/td_specialCharac'))
+
+WebUI.delay(GlobalVariable.delay_2s)
+
+WebUI.click(findTestObject('11-Cloud Files/btn_cloud'))
+
+CustomKeywords.'uploadpackage.Upload.uploadFile'(findTestObject('11-Cloud Files/btn_UploadLocalFolder'), GlobalVariable.upload_file)
+
+//WebUI.rightClick(findTestObject('11-Cloud Files/div_coudFilesTable'))
+//
+//CustomKeywords.'com.kms.katalon.keyword.uploadfile.UploadFile.uploadFile'(findTestObject('11-Cloud Files/btn_UploadLocalFolder'), 
+//    GlobalVariable.subFolder)
+WebUI.delay(GlobalVariable.delay_2s)
+
+WebUI.verifyAlertPresent(1)
+
+WebUI.delay(GlobalVariable.delay_2s)
+
+WebUI.acceptAlert()
+
+WebUI.delay(GlobalVariable.delay_2s)
+
 WebUI.setText(findTestObject('11-Cloud Files/input_Search cloudfiles'), search_folder)
 
 WebUI.sendKeys(findTestObject('11-Cloud Files/input_Search cloudfiles'), Keys.chord(Keys.ENTER))
