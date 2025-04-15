@@ -17,29 +17,51 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.setText(findTestObject('07-Directory/Labels/input_search field'), labeltwo)
+WebUI.delay(GlobalVariable.delay_2s)
+
+WebUI.click(findTestObject('09-Settings/Users/div_Users'))
 
 WebUI.delay(GlobalVariable.delay_2s)
 
-WebUI.verifyElementPresent(findTestObject('07-Directory/Labels/span_LabelTwo'), 0)
-
-WebUI.clearText(findTestObject('07-Directory/Labels/input_search field'))
-
-WebUI.refresh()
+WebUI.click(findTestObject('09-Settings/Users/Active User/btn_Edit'))
 
 WebUI.delay(GlobalVariable.delay_2s)
 
-WebUI.click(findTestObject('07-Directory/Labels/plus_add label'))
+WebUI.verifyElementVisible(findTestObject('09-Settings/Users/Active User/h2_Edit User Org Unit'))
 
-WebUI.setText(findTestObject('07-Directory/Labels/input_Add New Label Name'), labeltwo)
+WebUI.click(findTestObject('09-Settings/Users/Active User/mat-icon_edit'))
 
-WebUI.click(findTestObject('07-Directory/Labels/button_Add Label'))
+WebUI.click(findTestObject('09-Settings/Users/Active User/toggle_arrowicon'))
 
-WebUI.verifyElementVisible(findTestObject('07-Directory/Labels/span_label already exist'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('09-Settings/Users/Active User/span_automationOrgUnit'))
 
 WebUI.delay(GlobalVariable.delay_2s)
 
-WebUI.click(findTestObject('07-Directory/Labels/btn_cancel'))
+WebUI.click(findTestObject('09-Settings/Users/Active User/btn_select'))
+
+WebUI.delay(GlobalVariable.delay_2s)
+
+WebUI.verifyElementVisible(findTestObject('09-Settings/Users/Active User/mat_hint_warning'))
+
+WebUI.click(findTestObject('09-Settings/Users/Active User/btn_save'))
+
+WebUI.verifyElementVisible(findTestObject('09-Settings/Users/Active User/snackbar_changeorg'))
+
+WebUI.delay(GlobalVariable.delay_2s)
+
+WebUI.click(findTestObject('09-Settings/Users/Active User/btn_Edit'))
+
+WebUI.click(findTestObject('09-Settings/Users/Active User/mat-icon_edit'))
+
+WebUI.delay(GlobalVariable.delay_2s)
+
+WebUI.click(findTestObject('09-Settings/Users/Active User/span_GG utomation'))
+
+WebUI.delay(GlobalVariable.delay_2s)
+
+WebUI.click(findTestObject('09-Settings/Users/Active User/btn_select'))
+
+WebUI.click(findTestObject('09-Settings/Users/Active User/btn_save'))
 
 WebUI.delay(GlobalVariable.delay_2s)
 

@@ -73,7 +73,7 @@ WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('07-Directory/Labels/plus_add label'))
 
-WebUI.setText(findTestObject('07-Directory/Labels/input_Add New Label Name'), 'Label two')
+WebUI.setText(findTestObject('07-Directory/Labels/input_Add New Label Name'), labeltwo)
 
 WebUI.click(findTestObject('07-Directory/Labels/button_Add Label'))
 

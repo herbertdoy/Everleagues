@@ -22,7 +22,7 @@
       <guid>5c580602-912e-4721-b18f-44cc0c871804</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/01 - Login and Forgot Password/02 - Login(Wrong Email)</testCaseId>
+      <testCaseId>Test Cases/01 - Login and Forgot Password/02 - Login(Unregistered Email)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -35,6 +35,19 @@
          <type>DEFAULT</type>
          <value></value>
          <variableId>75092491-e101-4496-8170-c05467374d90</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>56398883-b917-48ee-8dcd-4cf1085be0ef</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/01 - Login and Forgot Password/12 - Login(Invalid email and pass)</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>33c92183-7cb7-46a7-892c-9fef4b79c373</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
@@ -109,7 +122,7 @@
       <guid>965cf7ac-536a-42df-8878-8d4e6db92650</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/01 - Login and Forgot Password/11 - Forgot Password(Match password)</testCaseId>
+      <testCaseId>Test Cases/01 - Login and Forgot Password/11 - Forgot Password(Reset password)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

@@ -17,29 +17,19 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.setText(findTestObject('07-Directory/Labels/input_search field'), labeltwo)
+WebUI.clearText(findTestObject('01-Login and Forgot Password/input_email'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.setText(findTestObject('01-Login and Forgot Password/input_email'), GlobalVariable.invalid_email)
+
+WebUI.setText(findTestObject('01-Login and Forgot Password/input_password'), invalidPassword)
 
 WebUI.delay(GlobalVariable.delay_2s)
 
-WebUI.verifyElementPresent(findTestObject('07-Directory/Labels/span_LabelTwo'), 0)
-
-WebUI.clearText(findTestObject('07-Directory/Labels/input_search field'))
-
-WebUI.refresh()
+WebUI.click(findTestObject('01-Login and Forgot Password/button_Sign in'))
 
 WebUI.delay(GlobalVariable.delay_2s)
 
-WebUI.click(findTestObject('07-Directory/Labels/plus_add label'))
-
-WebUI.setText(findTestObject('07-Directory/Labels/input_Add New Label Name'), labeltwo)
-
-WebUI.click(findTestObject('07-Directory/Labels/button_Add Label'))
-
-WebUI.verifyElementVisible(findTestObject('07-Directory/Labels/span_label already exist'), FailureHandling.CONTINUE_ON_FAILURE)
-
-WebUI.delay(GlobalVariable.delay_2s)
-
-WebUI.click(findTestObject('07-Directory/Labels/btn_cancel'))
+WebUI.verifyElementPresent(findTestObject('01-Login and Forgot Password/div_InvalidEmailFormat'), 0)
 
 WebUI.delay(GlobalVariable.delay_2s)
 

@@ -15,7 +15,7 @@
       <guid>4df13faf-2606-4480-884c-1e90845d28f3</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/09 - Settings/26 - Users(Invite new user as Vendor)</testCaseId>
+      <testCaseId>Test Cases/08 - Operations/10 - Users(Invite new user as Vendor)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>

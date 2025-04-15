@@ -17,29 +17,19 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.setText(findTestObject('07-Directory/Labels/input_search field'), labeltwo)
+WebUI.setText(findTestObject('09-Settings/Users/input_email'), GlobalVariable.Y_email_withSubscription_testuser00005)
+
+WebUI.setText(findTestObject('09-Settings/Users/input_firstName'), firstname)
+
+WebUI.setText(findTestObject('09-Settings/Users/input_lastName'), lastname)
+
+WebUI.click(findTestObject('09-Settings/Users/span_Role'))
+
+WebUI.click(findTestObject('09-Settings/Users/span_CoWorker'))
+
+WebUI.click(findTestObject('09-Settings/Users/button_Send Invitation'))
 
 WebUI.delay(GlobalVariable.delay_2s)
 
-WebUI.verifyElementPresent(findTestObject('07-Directory/Labels/span_LabelTwo'), 0)
-
-WebUI.clearText(findTestObject('07-Directory/Labels/input_search field'))
-
-WebUI.refresh()
-
-WebUI.delay(GlobalVariable.delay_2s)
-
-WebUI.click(findTestObject('07-Directory/Labels/plus_add label'))
-
-WebUI.setText(findTestObject('07-Directory/Labels/input_Add New Label Name'), labeltwo)
-
-WebUI.click(findTestObject('07-Directory/Labels/button_Add Label'))
-
-WebUI.verifyElementVisible(findTestObject('07-Directory/Labels/span_label already exist'), FailureHandling.CONTINUE_ON_FAILURE)
-
-WebUI.delay(GlobalVariable.delay_2s)
-
-WebUI.click(findTestObject('07-Directory/Labels/btn_cancel'))
-
-WebUI.delay(GlobalVariable.delay_2s)
+WebUI.verifyElementVisible(findTestObject('09-Settings/Users/span_alreadyInvited'))
 

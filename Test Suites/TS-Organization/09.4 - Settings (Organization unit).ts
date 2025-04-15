@@ -75,6 +75,13 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
+      <guid>fdefa6f9-f6da-407a-b436-0a22754001a6</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/09 - Settings/27 - Users(Active User - Edit organization unit)</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
       <guid>2ccaba15-a8ef-4018-94e0-2cc10d9b5049</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>

@@ -41,6 +41,8 @@ WebUI.click(findTestObject('08-Operations/Client Assignment/div_GG TESTER'))
 
 WebUI.click(findTestObject('08-Operations/Client Assignment/button_ Assign'))
 
+WebUI.delay(GlobalVariable.delay_1s)
+
 WebUI.verifyElementVisible(findTestObject('08-Operations/Client Assignment/span_Updated assignment'))
 
 WebUI.delay(GlobalVariable.delay_3s)

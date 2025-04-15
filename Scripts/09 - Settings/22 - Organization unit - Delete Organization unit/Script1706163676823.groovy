@@ -19,6 +19,12 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.delay(GlobalVariable.delay_3s)
 
+WebUI.scrollToElement(findTestObject('09-Settings/Users/div_Organization Units'), 0)
+
+WebUI.click(findTestObject('09-Settings/Users/div_Organization Units'))
+
+WebUI.delay(GlobalVariable.delay_3s)
+
 WebUI.click(findTestObject('09-Settings/Organization unit/ellipses_Org3'))
 
 WebUI.delay(GlobalVariable.delay_3s)

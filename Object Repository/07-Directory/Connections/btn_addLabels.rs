@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btn_addLabels</name>
+   <tag></tag>
+   <elementGuidId>7468c764-aab7-4407-b4ea-4991b1a4abab</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/app-root/app-main-page/div/mat-sidenav-container/mat-sidenav-content/div[1]/div[3]/app-directory-contacts/div/mat-drawer-container/mat-drawer/div/div/perfect-scrollbar/div/div[1]/div/app-directory-contact-profile/form/div/div[2]/div/div[3]/div[1]/div[2]/div/span</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

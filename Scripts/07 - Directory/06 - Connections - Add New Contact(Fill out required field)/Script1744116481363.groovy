@@ -55,7 +55,7 @@ WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('07-Directory/Connections/btn_createNewLabel'))
 
-WebUI.setText(findTestObject('07-Directory/Labels/input_Add New Label Name'), 'QA Label')
+WebUI.setText(findTestObject('07-Directory/Labels/input_Add New Label Name'), qalabel)
 
 WebUI.click(findTestObject('07-Directory/Labels/button_Add Label'))
 
@@ -65,7 +65,7 @@ WebUI.verifyElementPresent(findTestObject('07-Directory/Connections/span_LabelQA
 
 WebUI.delay(GlobalVariable.delay_2s)
 
-WebUI.setText(findTestObject('07-Directory/Connections/zContact Profile/notes'), 'QA notes')
+WebUI.setText(findTestObject('07-Directory/Connections/zContact Profile/notes'), notes)
 
 WebUI.delay(GlobalVariable.delay_2s)
 
