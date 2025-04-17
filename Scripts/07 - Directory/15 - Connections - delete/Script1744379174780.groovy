@@ -39,11 +39,11 @@ WebUI.click(findTestObject('07-Directory/Connections/btn_deleteLabel3'))
 
 WebUI.delay(GlobalVariable.delay_2s)
 
-WebUI.click(findTestObject('07-Directory/Connections/btn_deleteLabel4'))
-
-WebUI.click(findTestObject('07-Directory/Connections/btn_deleteLabel3'))
-
-WebUI.delay(GlobalVariable.delay_2s)
+//WebUI.click(findTestObject('07-Directory/Connections/btn_deleteLabel4'))
+//
+//WebUI.click(findTestObject('07-Directory/Connections/btn_deleteLabel3'))
+//
+//WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.closeBrowser()
 

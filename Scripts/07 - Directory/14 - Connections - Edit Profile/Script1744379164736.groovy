@@ -47,9 +47,11 @@ WebUI.delay(GlobalVariable.delay_2s)
 
 CustomKeywords.'uploadpackage.Upload.uploadFile'(findTestObject('07-Directory/Connections/upload'), GlobalVariable.upload_file)
 
-WebUI.delay(GlobalVariable.delay_10s)
+WebUI.delay(20)
 
 WebUI.click(findTestObject('07-Directory/Connections/btn_uploadImage'))
+
+WebUI.waitForElementVisible(findTestObject('07-Directory/Connections/successMessage_changeContactProfile'), 0)
 
 WebUI.verifyElementVisible(findTestObject('07-Directory/Connections/successMessage_changeContactProfile'))
 

@@ -45,6 +45,27 @@ WebUI.click(findTestObject('05-Chat/10-Export Chat/button_Create New Folder'))
 
 WebUI.delay(GlobalVariable.delay_2s)
 
+//def random = new Random()
+//
+//def randomString = Long.toHexString(random.nextLong())
+//
+//def exportFolder = 'aExport' + randomString
+//KeywordUtil.logInfo('Generated password: ' + password)
+WebUI.setText(findTestObject('05-Chat/10-Export Chat/input_exportLoc'), locName)
+
+WebUI.delay(GlobalVariable.delay_2s)
+
+WebUI.click(findTestObject('05-Chat/10-Export Chat/button_Select'))
+
+//WebUI.click(findTestObject('05-Chat/10-Export Chat/div_exportFolder'))
+WebUI.delay(GlobalVariable.delay_2s)
+
+WebUI.scrollToElement(findTestObject('05-Chat/10-Export Chat/span_Export Folder'), 0)
+
+WebUI.click(findTestObject('05-Chat/10-Export Chat/span_Export Folder'))
+
+WebUI.delay(GlobalVariable.delay_2s)
+
 WebUI.click(findTestObject('05-Chat/10-Export Chat/button_Select'))
 
 WebUI.delay(GlobalVariable.delay_2s)
@@ -84,6 +105,98 @@ WebUI.delay(GlobalVariable.delay_2s)
 WebUI.click(findTestObject('05-Chat/10-Export Chat/button_Export'))
 
 WebUI.verifyElementVisible(findTestObject('05-Chat/10-Export Chat/span_Exporting chat. We will send you a notification once it is completed'))
+
+WebUI.delay(GlobalVariable.delay_2s)
+
+WebUI.click(findTestObject('05-Chat/09-Hiding a chat/ellipsis_chat setting'))
+
+WebUI.delay(GlobalVariable.delay_2s)
+
+WebUI.click(findTestObject('05-Chat/10-Export Chat/button_Export Chat'))
+
+WebUI.delay(GlobalVariable.delay_2s)
+
+WebUI.click(findTestObject('05-Chat/10-Export Chat/input_Default filename will be used if left empty_locationName'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.delay(GlobalVariable.delay_2s)
+
+WebUI.click(findTestObject('05-Chat/10-Export Chat/span_MyDrive'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.click(findTestObject('05-Chat/10-Export Chat/button_Select'))
+
+WebUI.delay(GlobalVariable.delay_2s)
+
+WebUI.click(findTestObject('05-Chat/10-Export Chat/button_Export'))
+
+WebUI.delay(GlobalVariable.delay_2s)
+
+WebUI.click(findTestObject('05-Chat/09-Hiding a chat/ellipsis_chat setting'))
+
+WebUI.delay(GlobalVariable.delay_2s)
+
+WebUI.click(findTestObject('05-Chat/10-Export Chat/button_Export Chat'))
+
+WebUI.delay(GlobalVariable.delay_2s)
+
+WebUI.click(findTestObject('05-Chat/10-Export Chat/input_Default filename will be used if left empty_locationName'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.delay(GlobalVariable.delay_2s)
+
+WebUI.click(findTestObject('05-Chat/10-Export Chat/toggle_sharedDrive'))
+
+WebUI.click(findTestObject('05-Chat/10-Export Chat/span_chatExport'))
+
+WebUI.delay(GlobalVariable.delay_2s)
+
+WebUI.click(findTestObject('05-Chat/10-Export Chat/button_Select'))
+
+WebUI.delay(GlobalVariable.delay_2s)
+
+WebUI.click(findTestObject('05-Chat/10-Export Chat/button_Export'))
+
+WebUI.delay(GlobalVariable.delay_2s)
+
+WebUI.scrollToElement(findTestObject('05-Chat/10-Export Chat/div_replyForScroll'), 0)
+
+WebUI.delay(GlobalVariable.delay_2s)
+
+WebUI.mouseOver(findTestObject('05-Chat/10-Export Chat/chevron_file'))
+
+WebUI.click(findTestObject('05-Chat/10-Export Chat/chevron_file'))
+
+WebUI.delay(GlobalVariable.delay_2s)
+
+WebUI.click(findTestObject('05-Chat/10-Export Chat/btn_SavetoCloudStorage'))
+
+WebUI.delay(GlobalVariable.delay_2s)
+
+WebUI.click(findTestObject('05-Chat/10-Export Chat/span_MyDrive'))
+
+WebUI.delay(GlobalVariable.delay_2s)
+
+WebUI.click(findTestObject('05-Chat/10-Export Chat/button_Select'))
+
+WebUI.waitForElementVisible(findTestObject('05-Chat/snackbar/span_saveToDrive'), 0)
+
+WebUI.verifyElementVisible(findTestObject('05-Chat/snackbar/span_saveToDrive'))
+
+WebUI.delay(GlobalVariable.delay_2s)
+
+WebUI.click(findTestObject('05-Chat/10-Export Chat/a_Files'))
+
+WebUI.delay(GlobalVariable.delay_2s)
+
+WebUI.click(findTestObject('05-Chat/10-Export Chat/btn_filesDownload'))
+
+WebUI.delay(GlobalVariable.delay_2s)
+
+WebUI.click(findTestObject('05-Chat/10-Export Chat/btn_filesExport'))
+
+WebUI.delay(GlobalVariable.delay_2s)
+
+WebUI.click(findTestObject('05-Chat/10-Export Chat/span_MyDrive'))
+
+WebUI.click(findTestObject('05-Chat/10-Export Chat/button_Select'))
 
 WebUI.delay(GlobalVariable.delay_3s)
 

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btn_filesDownload</name>
+   <tag></tag>
+   <elementGuidId>90746178-7e14-449e-8aeb-d944b87ed9e6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/app-root/app-main-page/div/mat-sidenav-container/mat-sidenav-content/div[1]/div[3]/app-chat/section/mat-card/mat-card-content/mat-sidenav-container/mat-sidenav-content/div/mat-tab-group/div/mat-tab-body[2]/div/div/file-table/div/div/perfect-scrollbar/div/div[1]/table/tbody/tr[1]/td[4]/div/button</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

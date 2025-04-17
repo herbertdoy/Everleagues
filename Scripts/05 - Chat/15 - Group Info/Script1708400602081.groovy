@@ -66,3 +66,5 @@ WebUI.click(findTestObject('05-Chat/11-Group Info/div_Remove group'))
 //WebUI.verifyElementVisible(findTestObject('05-Chat/11-Group Info/Successfully removed group msg'))
 WebUI.delay(GlobalVariable.delay_3s)
 
+WebUI.closeBrowser()
+

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btn_filesExport</name>
+   <tag></tag>
+   <elementGuidId>6c523c32-ff23-41f8-b071-1673ef8d89a1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/app-root/app-main-page/div/mat-sidenav-container/mat-sidenav-content/div[1]/div[3]/app-chat/section/mat-card/mat-card-content/mat-sidenav-container/mat-sidenav-content/div/mat-tab-group/div/mat-tab-body[2]/div/div/file-table/div/div/perfect-scrollbar/div/div[1]/table/tbody/tr[1]/td[5]/div/button</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

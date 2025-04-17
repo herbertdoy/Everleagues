@@ -53,5 +53,7 @@ WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('07-Directory/Connections/zContact Profile/button_Send Invitation'))
 
+WebUI.waitForElementVisible(findTestObject('07-Directory/Connections/zContact Profile/Successfully invited user'), 0)
+
 WebUI.verifyElementVisible(findTestObject('07-Directory/Connections/zContact Profile/Successfully invited user'))
 

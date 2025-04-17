@@ -17,6 +17,10 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.click(findTestObject('09-Settings/Users/button_add'))
+
+WebUI.click(findTestObject('09-Settings/Users/add Invite a single user'))
+
 WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.setText(findTestObject('09-Settings/Users/input_email'), GlobalVariable.Y_email_autotester04)

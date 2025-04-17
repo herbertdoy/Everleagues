@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_exportFolder</name>
+   <tag></tag>
+   <elementGuidId>c8884556-76f2-4126-aabb-a68bc907066e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[4]/div[4]/div/mat-dialog-container/app-storage-picker/section/div/div[1]/div/perfect-scrollbar/div/div[1]/div/div[2]/tree-root/tree-viewport/div/div/tree-node-collection/div/tree-node[2]/div/tree-node-children/div/tree-node-collection/div/tree-node[35]/div/tree-node-wrapper/div/div</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

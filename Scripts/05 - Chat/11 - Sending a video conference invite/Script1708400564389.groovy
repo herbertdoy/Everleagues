@@ -25,7 +25,9 @@ WebUI.click(findTestObject('05-Chat/02-Sending chat messages/button_send'))
 
 WebUI.delay(10)
 
+WebUI.scrollToElement(findTestObject('05-Chat/07-Sending a video conference invite/div_Video Conference'), 0)
+
 WebUI.verifyElementVisible(findTestObject('05-Chat/07-Sending a video conference invite/div_Video Conference'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.delay(25)
+WebUI.delay(20)
 

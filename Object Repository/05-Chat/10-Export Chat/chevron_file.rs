@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>chevron_file</name>
+   <tag></tag>
+   <elementGuidId>0b6d7329-467f-43a7-b663-f432b3db2e82</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/app-root/app-main-page/div/mat-sidenav-container/mat-sidenav-content/div[1]/div[3]/app-chat/section/mat-card/mat-card-content/mat-sidenav-container/mat-sidenav-content/div/mat-tab-group/div/mat-tab-body[1]/div/app-chat-room/div[1]/perfect-scrollbar/div/div[1]/div[2]/div[1]/div/div[6]/ui-chat-message/div/div/div[2]/span[3]/mat-icon</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

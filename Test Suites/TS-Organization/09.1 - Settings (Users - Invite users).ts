@@ -59,7 +59,7 @@
    <testCaseLink>
       <guid>dc846fb0-367f-4ca9-8d0b-e04cb9ce97ee</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/09 - Settings/03 - Users(Invite new user as client)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -84,7 +84,7 @@
    <testCaseLink>
       <guid>0f72a27d-cb5d-491e-97cf-39376997a653</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/09 - Settings/04 - Users(Invite new user as partner)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -103,7 +103,7 @@
    <testCaseLink>
       <guid>136c0cf1-ad3d-498e-9208-0189dbb76e43</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/09 - Settings/05 - Users(Invite batch of users via CSV file)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
