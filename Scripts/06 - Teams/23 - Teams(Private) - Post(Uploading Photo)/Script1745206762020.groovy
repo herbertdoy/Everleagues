@@ -17,19 +17,29 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.scrollToElement(findTestObject('06-Teams/05- Teams-General Channel/Input field_post'), 0)
+
 WebUI.setText(findTestObject('06-Teams/05- Teams-General Channel/Input field_post'), post)
 
 WebUI.delay(GlobalVariable.delay_2s)
 
-WebUI.uploadFile(findTestObject('06-Teams/05- Teams-General Channel/button_attache_file'), GlobalVariable.upload_mp4_file)
+WebUI.uploadFile(findTestObject('06-Teams/05- Teams-General Channel/button_add image'), GlobalVariable.upload_file)
 
-WebUI.verifyElementVisible(findTestObject('06-Teams/05- Teams-General Channel/added video'))
+WebUI.scrollToElement(findTestObject('06-Teams/05- Teams-General Channel/added image'), 0)
+
+WebUI.verifyElementVisible(findTestObject('06-Teams/05- Teams-General Channel/added image'))
+
+WebUI.delay(GlobalVariable.delay_2s)
+
+WebUI.scrollToElement(findTestObject('06-Teams/05- Teams-General Channel/button_send'), 0)
 
 WebUI.click(findTestObject('06-Teams/05- Teams-General Channel/button_send'))
 
-WebUI.delay(25)
+WebUI.verifyElementVisible(findTestObject('06-Teams/05- Teams-General Channel/added new post msg'))
 
-WebUI.verifyElementVisible(findTestObject('06-Teams/05- Teams-General Channel/posted video'))
+WebUI.delay(GlobalVariable.delay_3s)
+
+WebUI.verifyElementVisible(findTestObject('06-Teams/05- Teams-General Channel/posted image'))
 
 WebUI.delay(GlobalVariable.delay_3s)
 

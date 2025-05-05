@@ -17,19 +17,51 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl(GlobalVariable.URL_lab)
+
+WebUI.maximizeWindow()
+
+WebUI.callTestCase(findTestCase('01 - Login and Forgot Password/04 - Login(Valid Credentials-testuser00005)'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('06-Teams/button_doublearrow'))
+
+WebUI.click(findTestObject('06-Teams/button_My Organizations'))
+
+WebUI.click(findTestObject('06-Teams/button_GG Automation'))
+
+WebUI.delay(GlobalVariable.delay_2s)
+
+WebUI.verifyElementVisible(findTestObject('06-Teams/span_GG Automation'))
+
+WebUI.delay(GlobalVariable.delay_2s)
+
+WebUI.click(findTestObject('03-Header Menu/div_Teams'))
+
+WebUI.delay(GlobalVariable.delay_2s)
+
+WebUI.verifyElementVisible(findTestObject('06-Teams/h4_TEAMS'))
+
+WebUI.delay(GlobalVariable.delay_2s)
+
+WebUI.click(findTestObject('06-Teams/div_General2'))
+
+WebUI.delay(GlobalVariable.delay_2s)
+
 WebUI.setText(findTestObject('06-Teams/05- Teams-General Channel/Input field_post'), post)
 
 WebUI.delay(GlobalVariable.delay_2s)
 
-WebUI.uploadFile(findTestObject('06-Teams/05- Teams-General Channel/button_attache_file'), GlobalVariable.upload_mp4_file)
+WebUI.uploadFile(findTestObject('06-Teams/05- Teams-General Channel/button_attache_file'), GlobalVariable.upload_pdf_file)
 
-WebUI.verifyElementVisible(findTestObject('06-Teams/05- Teams-General Channel/added video'))
+WebUI.verifyElementVisible(findTestObject('06-Teams/05- Teams-General Channel/added PDF'))
 
 WebUI.click(findTestObject('06-Teams/05- Teams-General Channel/button_send'))
 
-WebUI.delay(25)
+WebUI.verifyElementVisible(findTestObject('06-Teams/05- Teams-General Channel/added new post msg'))
 
-WebUI.verifyElementVisible(findTestObject('06-Teams/05- Teams-General Channel/posted video'))
+WebUI.verifyElementVisible(findTestObject('06-Teams/05- Teams-General Channel/posted pdf'))
 
 WebUI.delay(GlobalVariable.delay_3s)
 

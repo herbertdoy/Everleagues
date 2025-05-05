@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.mouseOver(findTestObject('05-Chat/03-05 - React and Reply/div_chat'))
 
-WebUI.click(findTestObject('05-Chat/03-05 - React and Reply/button_expand_less'))
+WebUI.click(findTestObject('05-Chat/03-05 - React and Reply/btn_expandless'))
 
 WebUI.click(findTestObject('05-Chat/03-05 - React and Reply/button_Reply'))
 
@@ -33,7 +33,7 @@ WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.mouseOver(findTestObject('05-Chat/03-05 - React and Reply/div_chat'))
 
-WebUI.click(findTestObject('05-Chat/03-05 - React and Reply/button_expand_less'))
+WebUI.click(findTestObject('05-Chat/03-05 - React and Reply/btn_expandless'))
 
 WebUI.click(findTestObject('05-Chat/03-05 - React and Reply/button_Reply'))
 

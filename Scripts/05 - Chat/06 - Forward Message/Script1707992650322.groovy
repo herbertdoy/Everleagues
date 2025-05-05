@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.mouseOver(findTestObject('05-Chat/03-05 - React and Reply/div_chat'))
 
-WebUI.click(findTestObject('05-Chat/03-05 - React and Reply/button_expand_less'))
+WebUI.click(findTestObject('05-Chat/03-05 - React and Reply/btn_expandless'))
 
 WebUI.click(findTestObject('05-Chat/Forward Message/button_Forward message'))
 
@@ -34,6 +34,10 @@ WebUI.click(findTestObject('05-Chat/Forward Message/button_Select'))
 WebUI.delay(GlobalVariable.delay_1s)
 
 WebUI.verifyElementVisible(findTestObject('05-Chat/snackbar/forwardMessage'))
+
+WebUI.delay(GlobalVariable.delay_2s)
+
+WebUI.refresh()
 
 //WebUI.verifyElementVisible(findTestObject('05-Chat/Forward Message/snack-bar-container_Message forwardedOK'))
 WebUI.delay(GlobalVariable.delay_3s)

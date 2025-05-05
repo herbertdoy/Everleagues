@@ -55,6 +55,18 @@ WebUI.verifyElementVisible(findTestObject('06-Teams/Manage Teams/snack-bar-conta
 
 WebUI.delay(GlobalVariable.delay_2s)
 
+WebUI.verifyElementVisible(findTestObject('06-Teams/mat-dialog_channelRemovedModal'))
+
+WebUI.click(findTestObject('06-Teams/btn_Confirm'))
+
+WebUI.delay(GlobalVariable.delay_2s)
+
+WebUI.click(findTestObject('06-Teams/btn_settings'))
+
+WebUI.click(findTestObject('06-Teams/03-Edit Team - Private/button_menu'))
+
+WebUI.delay(GlobalVariable.delay_2s)
+
 WebUI.click(findTestObject('06-Teams/Manage Teams/button_delete-private'))
 
 WebUI.click(findTestObject('06-Teams/Manage Teams/button_Delete'))

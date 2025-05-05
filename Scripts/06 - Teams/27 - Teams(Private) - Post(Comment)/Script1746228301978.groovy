@@ -17,19 +17,39 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.setText(findTestObject('06-Teams/05- Teams-General Channel/Input field_post'), post)
+WebUI.click(findTestObject('06-Teams/btn_reply'))
 
 WebUI.delay(GlobalVariable.delay_2s)
 
-WebUI.uploadFile(findTestObject('06-Teams/05- Teams-General Channel/button_attache_file'), GlobalVariable.upload_mp4_file)
+WebUI.setText(findTestObject('06-Teams/textarea_comment'), comment_Private)
 
-WebUI.verifyElementVisible(findTestObject('06-Teams/05- Teams-General Channel/added video'))
+WebUI.scrollToElement(findTestObject('06-Teams/btn_send'), 0)
 
-WebUI.click(findTestObject('06-Teams/05- Teams-General Channel/button_send'))
+WebUI.click(findTestObject('06-Teams/btn_send'))
 
-WebUI.delay(25)
+WebUI.delay(GlobalVariable.delay_2s)
 
-WebUI.verifyElementVisible(findTestObject('06-Teams/05- Teams-General Channel/posted video'))
+WebUI.verifyElementVisible(findTestObject('06-Teams/span_AutomationComment'))
 
-WebUI.delay(GlobalVariable.delay_3s)
+WebUI.delay(GlobalVariable.delay_2s)
+
+WebUI.uploadFile(findTestObject('06-Teams/btn_uploadFile'), GlobalVariable.upload_pdf_file)
+
+WebUI.scrollToElement(findTestObject('06-Teams/btn_send'), 0)
+
+WebUI.click(findTestObject('06-Teams/btn_send'))
+
+WebUI.delay(GlobalVariable.delay_2s)
+
+WebUI.uploadFile(findTestObject('06-Teams/btn_uploadImage'), GlobalVariable.upload_file)
+
+WebUI.click(findTestObject('06-Teams/btn_send'))
+
+WebUI.delay(GlobalVariable.delay_2s)
+
+WebUI.scrollToElement(findTestObject('06-Teams/btn_SeeMoreCom'), 0)
+
+WebUI.click(findTestObject('06-Teams/btn_SeeMoreCom'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.delay(GlobalVariable.delay_2s)
 

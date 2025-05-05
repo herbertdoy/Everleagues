@@ -67,6 +67,8 @@ WebUI.click(findTestObject('05-Chat/02-Sending chat messages/button_send'))
 
 WebUI.delay(GlobalVariable.delay_2s)
 
+WebUI.scrollToElement(findTestObject('05-Chat/08-Schedule a meeting/span_Automation Meeting'), 0)
+
 WebUI.verifyElementVisible(findTestObject('05-Chat/08-Schedule a meeting/span_Automation Meeting'))
 
 WebUI.delay(GlobalVariable.delay_3s)

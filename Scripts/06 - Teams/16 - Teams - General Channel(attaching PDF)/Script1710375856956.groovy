@@ -49,6 +49,10 @@ WebUI.click(findTestObject('06-Teams/05- Teams-General Channel/div_General'))
 
 WebUI.delay(GlobalVariable.delay_2s)
 
+WebUI.setText(findTestObject('06-Teams/05- Teams-General Channel/Input field_post'), post)
+
+WebUI.delay(GlobalVariable.delay_2s)
+
 WebUI.uploadFile(findTestObject('06-Teams/05- Teams-General Channel/button_attache_file'), GlobalVariable.upload_pdf_file)
 
 WebUI.verifyElementVisible(findTestObject('06-Teams/05- Teams-General Channel/added PDF'))

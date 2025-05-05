@@ -61,6 +61,120 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
+      <guid>01e76e55-99df-4335-a4c0-ef59716c2e12</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/06 - Teams/22 - Teams(Private) - Post(attaching PDF)</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>a2c4eb33-f300-4fc9-a972-ad5c2fc7e7ee</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>ec87459e-8b8e-4971-b8d9-ed8ed5cd8bbd</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/06 - Teams/27 - Teams(Private) - Post(Comment)</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>bfa7e4c8-4273-4108-8c42-ead9e53f3e19</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>74019db5-0235-4a7a-9c35-a4dc39f86c10</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/06 - Teams/23 - Teams(Private) - Post(Uploading Photo)</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>f17241af-d2a7-4552-809f-3cf74cbd266a</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>9e81245c-3014-4ce8-856f-d47d8be28496</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/06 - Teams/24 - Teams(Private) - Post(Attaching Video)</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>44ab0349-3b78-43d8-960b-6af6114378cd</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>c8aacb04-b646-4280-93da-03532d8c4f4a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/06 - Teams/25 - Teams(Private) - Post(Creating a post)</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>71798a30-61cb-4bf9-9f60-f81572857e99</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>c551504a-efa9-4a55-a389-b31416828561</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>209ab16c-ed84-4cb0-9316-362e8654e5b5</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>14a0a4c5-f157-4246-9e79-337477b6b427</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>52d52e63-aee7-4e33-be2f-17a265e0fbec</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>28cc2ef2-3fd7-4681-a688-e4f147fe45c1</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>d577d8d6-b649-4f62-9ab0-6bfa34936167</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>be6d83fb-8354-4232-a260-c5927e0ddd9f</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>ccdc9923-6a1e-4afc-a987-5e3819f64f44</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/06 - Teams/26 - Teams(Private) - Post(deleting a post)</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
       <guid>f87db814-79ff-4228-a83b-fde6cb422a86</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -94,6 +208,12 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/06 - Teams/16 - Teams - General Channel(attaching PDF)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>f55a02cb-5371-4d1f-a48e-12ffbc618258</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>056c8af4-5e9e-446c-a9bd-d7572be61990</guid>
@@ -101,6 +221,12 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/06 - Teams/17 - Teams - General Channel(Uploading Photo)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>3294a54e-bd09-4af1-b1bd-505ccfcb4dba</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>2248ece3-e4a6-469a-bd79-9b17fcee8755</guid>
@@ -112,7 +238,7 @@
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>57d2ff12-f52d-4a51-9ca7-131032882fc2</variableId>
+         <variableId>bd598f7d-0a60-49b8-9f83-2e98fec09e08</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>

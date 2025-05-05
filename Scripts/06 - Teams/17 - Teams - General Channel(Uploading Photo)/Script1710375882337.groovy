@@ -17,6 +17,10 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.setText(findTestObject('06-Teams/05- Teams-General Channel/Input field_post'), post)
+
+WebUI.delay(GlobalVariable.delay_2s)
+
 WebUI.uploadFile(findTestObject('06-Teams/05- Teams-General Channel/button_add image'), GlobalVariable.upload_file)
 
 WebUI.verifyElementVisible(findTestObject('06-Teams/05- Teams-General Channel/added image'))
