@@ -59,6 +59,8 @@ WebUI.waitForElementVisible(findTestObject('06-Teams/05- Teams-General Channel/a
 
 WebUI.verifyElementVisible(findTestObject('06-Teams/05- Teams-General Channel/added new post msg'))
 
+WebUI.delay(GlobalVariable.delay_2s)
+
 WebUI.verifyElementVisible(findTestObject('06-Teams/05- Teams-General Channel/Bold'))
 
 WebUI.delay(GlobalVariable.delay_2s)
@@ -75,6 +77,8 @@ WebUI.waitForElementVisible(findTestObject('06-Teams/05- Teams-General Channel/a
 
 WebUI.verifyElementVisible(findTestObject('06-Teams/05- Teams-General Channel/added new post msg'))
 
+WebUI.delay(GlobalVariable.delay_2s)
+
 WebUI.verifyElementVisible(findTestObject('06-Teams/05- Teams-General Channel/Italic'))
 
 WebUI.delay(GlobalVariable.delay_2s)
@@ -90,6 +94,8 @@ WebUI.click(findTestObject('06-Teams/05- Teams-General Channel/button_send'))
 WebUI.waitForElementVisible(findTestObject('06-Teams/05- Teams-General Channel/added new post msg'), 0)
 
 WebUI.verifyElementVisible(findTestObject('06-Teams/05- Teams-General Channel/added new post msg'))
+
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.verifyElementVisible(findTestObject('06-Teams/05- Teams-General Channel/Underline'))
 
