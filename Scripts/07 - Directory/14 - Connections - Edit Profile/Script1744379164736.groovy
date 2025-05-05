@@ -45,9 +45,14 @@ WebUI.verifyElementVisible(findTestObject('07-Directory/Connections/zContact Pro
 
 WebUI.delay(GlobalVariable.delay_2s)
 
-CustomKeywords.'uploadpackage.Upload.uploadFile'(findTestObject('07-Directory/Connections/upload'), GlobalVariable.upload_file)
+WebUI.click(findTestObject('07-Directory/Connections/upload1'))
 
-WebUI.delay(20)
+WebUI.delay(GlobalVariable.delay_2s)
+
+WebUI.uploadFile(findTestObject('07-Directory/Connections/btn_browse'), GlobalVariable.upload_file)
+
+//CustomKeywords.'uploadpackage.Upload.uploadFile'(findTestObject('07-Directory/Connections/upload'), GlobalVariable.upload_file)
+WebUI.delay(10)
 
 WebUI.click(findTestObject('07-Directory/Connections/btn_uploadImage'))
 

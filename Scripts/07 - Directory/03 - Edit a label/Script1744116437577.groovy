@@ -35,6 +35,8 @@ WebUI.click(findTestObject('07-Directory/Labels/button_Edit Label'))
 
 WebUI.delay(GlobalVariable.delay_1s)
 
+WebUI.waitForElementVisible(findTestObject('07-Directory/Labels/edit success msg'), 0)
+
 WebUI.verifyElementVisible(findTestObject('07-Directory/Labels/edit success msg'))
 
 WebUI.delay(GlobalVariable.delay_2s)

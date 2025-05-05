@@ -25,17 +25,7 @@ WebUI.verifyElementVisible(findTestObject('06-Teams/05- Teams-General Channel/de
 
 WebUI.click(findTestObject('06-Teams/05- Teams-General Channel/button_Delete'))
 
-WebUI.verifyElementVisible(findTestObject('06-Teams/05- Teams-General Channel/Successfully deleted post msg'))
-
-WebUI.delay(GlobalVariable.delay_2s)
-
-WebUI.click(findTestObject('06-Teams/05- Teams-General Channel/ellipsis 1'))
-
-WebUI.click(findTestObject('06-Teams/05- Teams-General Channel/button_Delete Post'))
-
-WebUI.verifyElementVisible(findTestObject('06-Teams/05- Teams-General Channel/delete post box'))
-
-WebUI.click(findTestObject('06-Teams/05- Teams-General Channel/button_Delete'))
+WebUI.waitForElementVisible(findTestObject('06-Teams/05- Teams-General Channel/Successfully deleted post msg'), 0)
 
 WebUI.verifyElementVisible(findTestObject('06-Teams/05- Teams-General Channel/Successfully deleted post msg'))
 
@@ -49,17 +39,7 @@ WebUI.verifyElementVisible(findTestObject('06-Teams/05- Teams-General Channel/de
 
 WebUI.click(findTestObject('06-Teams/05- Teams-General Channel/button_Delete'))
 
-WebUI.verifyElementVisible(findTestObject('06-Teams/05- Teams-General Channel/Successfully deleted post msg'))
-
-WebUI.delay(GlobalVariable.delay_2s)
-
-WebUI.click(findTestObject('06-Teams/05- Teams-General Channel/ellipsis 1'))
-
-WebUI.click(findTestObject('06-Teams/05- Teams-General Channel/button_Delete Post'))
-
-WebUI.verifyElementVisible(findTestObject('06-Teams/05- Teams-General Channel/delete post box'))
-
-WebUI.click(findTestObject('06-Teams/05- Teams-General Channel/button_Delete'))
+WebUI.waitForElementVisible(findTestObject('06-Teams/05- Teams-General Channel/Successfully deleted post msg'), 0)
 
 WebUI.verifyElementVisible(findTestObject('06-Teams/05- Teams-General Channel/Successfully deleted post msg'))
 
@@ -73,17 +53,7 @@ WebUI.verifyElementVisible(findTestObject('06-Teams/05- Teams-General Channel/de
 
 WebUI.click(findTestObject('06-Teams/05- Teams-General Channel/button_Delete'))
 
-WebUI.verifyElementVisible(findTestObject('06-Teams/05- Teams-General Channel/Successfully deleted post msg'))
-
-WebUI.delay(GlobalVariable.delay_2s)
-
-WebUI.click(findTestObject('06-Teams/05- Teams-General Channel/ellipsis 1'))
-
-WebUI.click(findTestObject('06-Teams/05- Teams-General Channel/button_Delete Post'))
-
-WebUI.verifyElementVisible(findTestObject('06-Teams/05- Teams-General Channel/delete post box'))
-
-WebUI.click(findTestObject('06-Teams/05- Teams-General Channel/button_Delete'))
+WebUI.waitForElementVisible(findTestObject('06-Teams/05- Teams-General Channel/Successfully deleted post msg'), 0)
 
 WebUI.verifyElementVisible(findTestObject('06-Teams/05- Teams-General Channel/Successfully deleted post msg'))
 
@@ -97,17 +67,7 @@ WebUI.verifyElementVisible(findTestObject('06-Teams/05- Teams-General Channel/de
 
 WebUI.click(findTestObject('06-Teams/05- Teams-General Channel/button_Delete'))
 
-WebUI.verifyElementVisible(findTestObject('06-Teams/05- Teams-General Channel/Successfully deleted post msg'))
-
-WebUI.delay(GlobalVariable.delay_2s)
-
-WebUI.click(findTestObject('06-Teams/05- Teams-General Channel/ellipsis 1'))
-
-WebUI.click(findTestObject('06-Teams/05- Teams-General Channel/button_Delete Post'))
-
-WebUI.verifyElementVisible(findTestObject('06-Teams/05- Teams-General Channel/delete post box'))
-
-WebUI.click(findTestObject('06-Teams/05- Teams-General Channel/button_Delete'))
+WebUI.waitForElementVisible(findTestObject('06-Teams/05- Teams-General Channel/Successfully deleted post msg'), 0)
 
 WebUI.verifyElementVisible(findTestObject('06-Teams/05- Teams-General Channel/Successfully deleted post msg'))
 
@@ -121,6 +81,8 @@ WebUI.verifyElementVisible(findTestObject('06-Teams/05- Teams-General Channel/de
 
 WebUI.click(findTestObject('06-Teams/05- Teams-General Channel/button_Delete'))
 
+WebUI.waitForElementVisible(findTestObject('06-Teams/05- Teams-General Channel/Successfully deleted post msg'), 0)
+
 WebUI.verifyElementVisible(findTestObject('06-Teams/05- Teams-General Channel/Successfully deleted post msg'))
 
 WebUI.delay(GlobalVariable.delay_2s)
@@ -132,6 +94,64 @@ WebUI.click(findTestObject('06-Teams/05- Teams-General Channel/button_Delete Pos
 WebUI.verifyElementVisible(findTestObject('06-Teams/05- Teams-General Channel/delete post box'))
 
 WebUI.click(findTestObject('06-Teams/05- Teams-General Channel/button_Delete'))
+
+WebUI.waitForElementVisible(findTestObject('06-Teams/05- Teams-General Channel/Successfully deleted post msg'), 0)
+
+WebUI.verifyElementVisible(findTestObject('06-Teams/05- Teams-General Channel/Successfully deleted post msg'))
+
+WebUI.delay(GlobalVariable.delay_2s)
+
+WebUI.click(findTestObject('06-Teams/05- Teams-General Channel/ellipsis 1'))
+
+WebUI.click(findTestObject('06-Teams/05- Teams-General Channel/button_Delete Post'))
+
+WebUI.verifyElementVisible(findTestObject('06-Teams/05- Teams-General Channel/delete post box'))
+
+WebUI.click(findTestObject('06-Teams/05- Teams-General Channel/button_Delete'))
+
+WebUI.waitForElementVisible(findTestObject('06-Teams/05- Teams-General Channel/Successfully deleted post msg'), 0)
+
+WebUI.verifyElementVisible(findTestObject('06-Teams/05- Teams-General Channel/Successfully deleted post msg'))
+
+WebUI.delay(GlobalVariable.delay_2s)
+
+WebUI.click(findTestObject('06-Teams/05- Teams-General Channel/ellipsis 1'))
+
+WebUI.click(findTestObject('06-Teams/05- Teams-General Channel/button_Delete Post'))
+
+WebUI.verifyElementVisible(findTestObject('06-Teams/05- Teams-General Channel/delete post box'))
+
+WebUI.click(findTestObject('06-Teams/05- Teams-General Channel/button_Delete'))
+
+WebUI.waitForElementVisible(findTestObject('06-Teams/05- Teams-General Channel/Successfully deleted post msg'), 0)
+
+WebUI.verifyElementVisible(findTestObject('06-Teams/05- Teams-General Channel/Successfully deleted post msg'))
+
+WebUI.delay(GlobalVariable.delay_2s)
+
+WebUI.click(findTestObject('06-Teams/05- Teams-General Channel/ellipsis 1'))
+
+WebUI.click(findTestObject('06-Teams/05- Teams-General Channel/button_Delete Post'))
+
+WebUI.verifyElementVisible(findTestObject('06-Teams/05- Teams-General Channel/delete post box'))
+
+WebUI.click(findTestObject('06-Teams/05- Teams-General Channel/button_Delete'))
+
+WebUI.waitForElementVisible(findTestObject('06-Teams/05- Teams-General Channel/Successfully deleted post msg'), 0)
+
+WebUI.verifyElementVisible(findTestObject('06-Teams/05- Teams-General Channel/Successfully deleted post msg'))
+
+WebUI.delay(GlobalVariable.delay_2s)
+
+WebUI.click(findTestObject('06-Teams/05- Teams-General Channel/ellipsis 1'))
+
+WebUI.click(findTestObject('06-Teams/05- Teams-General Channel/button_Delete Post'))
+
+WebUI.verifyElementVisible(findTestObject('06-Teams/05- Teams-General Channel/delete post box'))
+
+WebUI.click(findTestObject('06-Teams/05- Teams-General Channel/button_Delete'))
+
+WebUI.waitForElementVisible(findTestObject('06-Teams/05- Teams-General Channel/Successfully deleted post msg'), 0)
 
 WebUI.verifyElementVisible(findTestObject('06-Teams/05- Teams-General Channel/Successfully deleted post msg'))
 

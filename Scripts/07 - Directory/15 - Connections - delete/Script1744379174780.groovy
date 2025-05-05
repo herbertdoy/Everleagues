@@ -25,6 +25,8 @@ WebUI.verifyElementVisible(findTestObject('07-Directory/Connections/zContact Pro
 
 WebUI.click(findTestObject('07-Directory/Connections/zContact Profile/button_Deletemsg'))
 
+WebUI.waitForElementVisible(findTestObject('07-Directory/Connections/zContact Profile/success delete msg'), 0)
+
 WebUI.verifyElementVisible(findTestObject('07-Directory/Connections/zContact Profile/success delete msg'))
 
 WebUI.delay(GlobalVariable.delay_2s)
@@ -44,6 +46,5 @@ WebUI.delay(GlobalVariable.delay_2s)
 //WebUI.click(findTestObject('07-Directory/Connections/btn_deleteLabel3'))
 //
 //WebUI.delay(GlobalVariable.delay_2s)
-
 WebUI.closeBrowser()
 

@@ -35,6 +35,8 @@ WebUI.setText(findTestObject('06-Teams/03-Edit Team - Private/input_Edit Channel
 
 WebUI.click(findTestObject('06-Teams/03-Edit Team - Private/button_Save'))
 
+WebUI.waitForElementVisible(findTestObject('06-Teams/03-Edit Team - Private/Successfully edited channel'), 0)
+
 WebUI.verifyElementVisible(findTestObject('06-Teams/03-Edit Team - Private/Successfully edited channel'))
 
 WebUI.delay(GlobalVariable.delay_2s)

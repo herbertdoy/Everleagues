@@ -43,6 +43,8 @@ WebUI.setText(findTestObject('06-Teams/03-Edit Team - Private/input_channel name
 
 WebUI.click(findTestObject('06-Teams/03-Edit Team - Private/button_Add'))
 
+WebUI.waitForElementVisible(findTestObject('06-Teams/03-Edit Team - Private/Successfully added channel to team'), 0)
+
 WebUI.verifyElementVisible(findTestObject('06-Teams/03-Edit Team - Private/Successfully added channel to team'))
 
 WebUI.delay(GlobalVariable.delay_2s)

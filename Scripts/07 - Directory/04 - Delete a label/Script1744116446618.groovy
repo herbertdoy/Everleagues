@@ -27,9 +27,11 @@ WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('07-Directory/Labels/button_Delete Label'))
 
-WebUI.delay(GlobalVariable.delay_1s)
+WebUI.waitForElementVisible(findTestObject('07-Directory/Labels/success delete msg'), 0)
 
 WebUI.verifyElementVisible(findTestObject('07-Directory/Labels/success delete msg'))
+
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.verifyElementVisible(findTestObject('07-Directory/Labels/Labels page'))
 

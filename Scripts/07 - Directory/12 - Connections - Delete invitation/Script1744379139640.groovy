@@ -37,6 +37,9 @@ WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('07-Directory/Connections/button_Confirm'))
 
+WebUI.waitForElementVisible(findTestObject('07-Directory/Connections/snack-bar-container_Successfully delete invitation requestOK'), 
+    0)
+
 WebUI.verifyElementVisible(findTestObject('07-Directory/Connections/snack-bar-container_Successfully delete invitation requestOK'))
 
 WebUI.delay(GlobalVariable.delay_2s)

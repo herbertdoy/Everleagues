@@ -63,6 +63,8 @@ WebUI.setText(findTestObject('07-Directory/Labels/input_Add New Label Name'), la
 
 WebUI.click(findTestObject('07-Directory/Labels/button_Add Label'))
 
+WebUI.waitForElementVisible(findTestObject('07-Directory/Labels/success msg label'), 0)
+
 WebUI.verifyElementVisible(findTestObject('07-Directory/Labels/success msg label'))
 
 WebUI.delay(GlobalVariable.delay_2s)

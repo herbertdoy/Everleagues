@@ -51,6 +51,8 @@ WebUI.verifyElementVisible(findTestObject('06-Teams/Manage Teams/modal_Delete Te
 
 WebUI.click(findTestObject('06-Teams/Manage Teams/button_Delete'))
 
+WebUI.waitForElementVisible(findTestObject('06-Teams/Manage Teams/snack-bar-container_Successfully deleted teamOK'), 0)
+
 WebUI.verifyElementVisible(findTestObject('06-Teams/Manage Teams/snack-bar-container_Successfully deleted teamOK'))
 
 WebUI.delay(GlobalVariable.delay_2s)
