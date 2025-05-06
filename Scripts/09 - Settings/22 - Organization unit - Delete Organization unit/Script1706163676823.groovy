@@ -62,6 +62,9 @@ WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('09-Settings/Users/Active User/button_Delete'))
 
+WebUI.waitForElementVisible(findTestObject('09-Settings/Organization unit/snack-bar-container_Successfully deleted organization unitOK'), 
+    0)
+
 WebUI.verifyElementVisible(findTestObject('09-Settings/Organization unit/snack-bar-container_Successfully deleted organization unitOK'), 
     FailureHandling.STOP_ON_FAILURE)
 
