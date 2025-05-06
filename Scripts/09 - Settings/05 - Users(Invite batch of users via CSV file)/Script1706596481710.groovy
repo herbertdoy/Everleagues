@@ -53,6 +53,8 @@ WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('09-Settings/Users/Invite batch of users via CSV file'))
 
+WebUI.delay(GlobalVariable.delay_2s)
+
 WebUI.verifyElementVisible(findTestObject('09-Settings/Users/CSV Invite/modal_Import CSV File'))
 
 WebUI.verifyElementNotClickable(findTestObject('09-Settings/Users/CSV Invite/button_Import'))
@@ -92,6 +94,8 @@ WebUI.click(findTestObject('09-Settings/Users/CSV Invite/button_Import'))
 //
 WebUI.delay(GlobalVariable.delay_2s)
 
+WebUI.waitForElementVisible(findTestObject('09-Settings/Users/CSV Invite/Success import modal'), 0)
+
 //
 //WebUI.verifyElementVisible(findTestObject('09-Settings/Users/CSV Invite/button_Import'))
 //
@@ -104,6 +108,8 @@ WebUI.delay(GlobalVariable.delay_2s)
 
 //
 WebUI.click(findTestObject('09-Settings/Users/CSV Invite/Invited Users tab'))
+
+WebUI.delay(GlobalVariable.delay_2s)
 
 //
 WebUI.verifyElementVisible(findTestObject('09-Settings/Users/CSV Invite/div_CTCSV test3'))

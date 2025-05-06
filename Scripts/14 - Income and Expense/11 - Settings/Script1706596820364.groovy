@@ -19,6 +19,8 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.click(findTestObject('14-Income and Expense/button_settings'))
 
+WebUI.delay(GlobalVariable.delay_2s)
+
 WebUI.verifyElementVisible(findTestObject('14-Income and Expense/mat-dialog-container_Edit CompanyModal'))
 
 WebUI.click(findTestObject('14-Income and Expense/button_CANCEL'))

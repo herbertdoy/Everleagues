@@ -19,11 +19,15 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.click(findTestObject('08-Operations/Private_Circle'))
 
+WebUI.delay(GlobalVariable.delay_2s)
+
 WebUI.verifyElementVisible(findTestObject('08-Operations/Private Circle/Private Circle page'))
 
 WebUI.click(findTestObject('08-Operations/Private Circle/Input_Select user'))
 
 WebUI.click(findTestObject('08-Operations/Private Circle/span_GG Tester 3'))
+
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.verifyElementVisible(findTestObject('08-Operations/Private Circle/div_Showing GG Tester 3s private circle'))
 

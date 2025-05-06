@@ -19,17 +19,25 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.click(findTestObject('08-Operations/Private Circle/button_add'))
 
+WebUI.delay(GlobalVariable.delay_2s)
+
 WebUI.verifyElementVisible(findTestObject('08-Operations/Private Circle/Add New Circle modal'))
 
 WebUI.verifyElementNotClickable(findTestObject('08-Operations/Private Circle/button_Add modal'))
 
 WebUI.click(findTestObject('08-Operations/Private Circle/Select User dropdown'))
 
+WebUI.delay(GlobalVariable.delay_2s)
+
 WebUI.clickOffset(findTestObject('08-Operations/Private Circle/h4_Add New Circle Association'), 100, 100)
 
 WebUI.click(findTestObject('08-Operations/Private Circle/Relationship dropdown'))
 
+WebUI.delay(GlobalVariable.delay_2s)
+
 WebUI.clickOffset(findTestObject('08-Operations/Private Circle/h4_Add New Circle Association'), 100, 100)
+
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.verifyElementVisible(findTestObject('08-Operations/Private Circle/Select User Field is required'))
 

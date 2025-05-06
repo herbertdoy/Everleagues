@@ -31,5 +31,7 @@ WebUI.click(findTestObject('09-Settings/Users/button_Send Invitation'))
 
 WebUI.delay(GlobalVariable.delay_2s)
 
+WebUI.waitForElementVisible(findTestObject('09-Settings/Users/span_alreadyInvited'), 0)
+
 WebUI.verifyElementVisible(findTestObject('09-Settings/Users/span_alreadyInvited'))
 

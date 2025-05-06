@@ -19,9 +19,13 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.click(findTestObject('08-Operations/Private Circle/button_delete'))
 
+WebUI.delay(GlobalVariable.delay_2s)
+
 WebUI.verifyElementVisible(findTestObject('08-Operations/Private Circle/delete private circle modal'))
 
 WebUI.click(findTestObject('08-Operations/Private Circle/button_Delete modal'))
+
+WebUI.waitForElementVisible(findTestObject('08-Operations/Private Circle/Successfully deleted label'), 0)
 
 WebUI.verifyElementVisible(findTestObject('08-Operations/Private Circle/Successfully deleted label'))
 

@@ -41,6 +41,8 @@ WebUI.scrollToElement(findTestObject('03-Header Menu/div_ELSign'), 0)
 
 WebUI.click(findTestObject('03-Header Menu/div_ELSign'))
 
+WebUI.delay(GlobalVariable.delay_2s)
+
 WebUI.verifyElementVisible(findTestObject('03-Header Menu/div_ELSign'))
 
 WebUI.verifyElementVisible(findTestObject('13-EL Sign/h4_ELSign'))

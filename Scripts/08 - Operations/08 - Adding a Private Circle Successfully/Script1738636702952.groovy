@@ -19,6 +19,8 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.click(findTestObject('08-Operations/Private Circle/Select User dropdown'))
 
+WebUI.delay(GlobalVariable.delay_2s)
+
 WebUI.verifyElementVisible(findTestObject('08-Operations/Private Circle/span_New Contact'))
 
 WebUI.verifyElementVisible(findTestObject('08-Operations/Private Circle/mat-option_GG TESTER'))
@@ -32,6 +34,8 @@ WebUI.click(findTestObject('08-Operations/Private Circle/mat-option_GG TESTER'))
 WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('08-Operations/Private Circle/Relationship dropdown'))
+
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.verifyElementVisible(findTestObject('08-Operations/Private Circle/mat-option_Spouse'))
 
@@ -48,6 +52,8 @@ WebUI.click(findTestObject('08-Operations/Private Circle/mat-option_Others'))
 WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('08-Operations/Private Circle/button_Add modal'))
+
+WebUI.waitForElementVisible(findTestObject('08-Operations/Private Circle/Successfully added association'), 0)
 
 WebUI.verifyElementVisible(findTestObject('08-Operations/Private Circle/Successfully added association'))
 

@@ -19,6 +19,8 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.click(findTestObject('09-Settings/Users/Invited Users/button_resendInvitation'))
 
+WebUI.waitForElementVisible(findTestObject('09-Settings/Users/Invited Users/span_Successfully resent invite'), 0)
+
 WebUI.verifyElementVisible(findTestObject('09-Settings/Users/Invited Users/span_Successfully resent invite'))
 
 WebUI.delay(GlobalVariable.delay_3s)

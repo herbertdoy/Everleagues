@@ -29,6 +29,8 @@ WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('09-Settings/Organization unit/button_link'))
 
+WebUI.delay(GlobalVariable.delay_2s)
+
 WebUI.verifyElementPresent(findTestObject('09-Settings/Organization unit/h2_Join Request'), 0)
 
 WebUI.verifyElementPresent(findTestObject('09-Settings/Organization unit/mat-dialog-container_Join Request modal'), 0)
@@ -40,6 +42,8 @@ WebUI.verifyElementPresent(findTestObject('09-Settings/Organization unit/div_Par
 WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('09-Settings/Organization unit/button_COPY'))
+
+WebUI.waitForElementVisible(findTestObject('09-Settings/Organization unit/snack-bar-container_Copy Link'), 0)
 
 WebUI.verifyElementPresent(findTestObject('09-Settings/Organization unit/snack-bar-container_Copy Link'), 0)
 

@@ -19,11 +19,15 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.click(findTestObject('09-Settings/Users/Active User/button_reactivateUser'))
 
+WebUI.delay(GlobalVariable.delay_3s)
+
 WebUI.verifyElementPresent(findTestObject('09-Settings/Users/Active User/h4_Reactivate User'), 0)
 
 WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.click(findTestObject('09-Settings/Users/Active User/button_Reactivate'))
+
+WebUI.waitForElementVisible(findTestObject('09-Settings/Users/Active User/span_Successfully reactivated user'), 0)
 
 WebUI.verifyElementPresent(findTestObject('09-Settings/Users/Active User/span_Successfully reactivated user'), 0)
 

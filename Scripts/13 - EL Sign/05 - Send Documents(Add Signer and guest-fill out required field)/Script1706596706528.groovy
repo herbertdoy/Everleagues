@@ -19,6 +19,8 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.click(findTestObject('13-EL Sign/button_personADD SIGNER  FIELD'))
 
+WebUI.delay(GlobalVariable.delay_2s)
+
 WebUI.click(findTestObject('13-EL Sign/input_Search for a Signer'))
 
 WebUI.click(findTestObject('13-EL Sign/mat-option_GG Tester_testuser00005yopmail.com'), FailureHandling.STOP_ON_FAILURE)
@@ -34,6 +36,8 @@ WebUI.click(findTestObject('13-EL Sign/button_personADD SIGNER  FIELD'))
 WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('13-EL Sign/button_ADD GUEST'))
+
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.verifyElementVisible(findTestObject('13-EL Sign/mat-dialog-container_New GuestModal'))
 

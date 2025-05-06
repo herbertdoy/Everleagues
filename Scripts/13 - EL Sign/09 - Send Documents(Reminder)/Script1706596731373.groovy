@@ -19,6 +19,8 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.click(findTestObject('13-EL Sign/button_reminder'))
 
+WebUI.delay(GlobalVariable.delay_2s)
+
 WebUI.verifyElementVisible(findTestObject('13-EL Sign/mat-dialog-container-reminderModal'))
 
 WebUI.verifyElementVisible(findTestObject('13-EL Sign/h6_Schedule ELSign receiver reminder'))
@@ -28,6 +30,8 @@ WebUI.doubleClick(findTestObject('13-EL Sign/button_CANCEL3'))
 WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('13-EL Sign/button_reminder'))
+
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('13-EL Sign/checkbox_recipients'))
 

@@ -105,6 +105,8 @@ WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('09-Settings/Users/Active User/button_Save'))
 
+WebUI.waitForElementVisible(findTestObject('09-Settings/Organization unit/span_Successfully added organization unit'), 0)
+
 WebUI.verifyElementPresent(findTestObject('09-Settings/Organization unit/span_Successfully added organization unit'), 0)
 
 WebUI.delay(GlobalVariable.delay_2s)
@@ -120,9 +122,7 @@ WebUI.click(findTestObject('09-Settings/Users/Active User/button_Save'))
 WebUI.delay(GlobalVariable.delay_2s)
 
 //WebUI.verifyElementPresent(findTestObject('09-Settings/Organization unit/td_OrganizationUnitTwo'), 0)
-
 //WebUI.delay(GlobalVariable.delay_2s)
-
 WebUI.click(findTestObject('09-Settings/Organization unit/btn_plusButton2'))
 
 WebUI.delay(GlobalVariable.delay_2s)
@@ -134,9 +134,7 @@ WebUI.click(findTestObject('09-Settings/Users/Active User/button_Save'))
 WebUI.delay(GlobalVariable.delay_2s)
 
 //WebUI.verifyElementPresent(findTestObject('09-Settings/Organization unit/td_org3'), 0)
-
 //WebUI.delay(GlobalVariable.delay_2s)
-
 WebUI.click(findTestObject('09-Settings/Organization unit/chevron_down'))
 
 WebUI.delay(GlobalVariable.delay_2s)

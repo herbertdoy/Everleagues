@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>btn_UploadLocalFolder</name>
+   <name>btn_uploadLocalfile2</name>
    <tag></tag>
-   <elementGuidId>b4bb88cc-9fe5-4103-ac1e-623fff6a521f</elementGuidId>
+   <elementGuidId>0d1688c8-e074-4360-9235-15ae78e0437f</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//input[@type='file'])[2]</value>
+         <value>(//input[@type='file'])[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

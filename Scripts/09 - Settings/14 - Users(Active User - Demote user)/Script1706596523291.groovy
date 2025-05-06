@@ -21,11 +21,15 @@ WebUI.click(findTestObject('09-Settings/Users/Active User/button_ellipses'))
 
 WebUI.click(findTestObject('09-Settings/Users/Active User/button_Demote Admin'))
 
+WebUI.delay(GlobalVariable.delay_2s)
+
 WebUI.verifyElementPresent(findTestObject('09-Settings/Users/Active User/h4_User Admin Settings'), 0)
 
 WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('09-Settings/Users/Active User/button_Demote'))
+
+WebUI.waitForElementVisible(findTestObject('09-Settings/Users/Active User/span_Successfully demoted admin'), 0)
 
 WebUI.verifyElementPresent(findTestObject('09-Settings/Users/Active User/span_Successfully demoted admin'), 0)
 

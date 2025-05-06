@@ -23,11 +23,15 @@ WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('13-EL Sign/span_COMPLETE'))
 
+WebUI.waitForElementVisible(findTestObject('13-EL Sign/snack-bar-container_Please add signer and field'), 0)
+
 WebUI.verifyElementVisible(findTestObject('13-EL Sign/snack-bar-container_Please add signer and field'))
 
 WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('13-EL Sign/button_personADD SIGNER  FIELD'))
+
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.verifyElementVisible(findTestObject('13-EL Sign/mat-dialog-container_AddSignerModal'))
 

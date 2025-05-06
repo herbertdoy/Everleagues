@@ -39,6 +39,8 @@ WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('03-Header Menu/div_Settings'))
 
+WebUI.delay(GlobalVariable.delay_2s)
+
 WebUI.verifyElementVisible(findTestObject('09-Settings/Users/div_Organization'))
 
 WebUI.verifyElementVisible(findTestObject('09-Settings/Users/div_Organization Units'))
@@ -52,6 +54,8 @@ WebUI.verifyElementVisible(findTestObject('09-Settings/Users/div_Users'))
 WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('09-Settings/Users/div_Users'))
+
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.verifyElementVisible(findTestObject('09-Settings/Users/h4_USERS'))
 

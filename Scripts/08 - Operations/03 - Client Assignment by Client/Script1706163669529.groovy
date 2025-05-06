@@ -21,6 +21,8 @@ WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('08-Operations/Client Assignment/div_By Client'))
 
+WebUI.delay(GlobalVariable.delay_2s)
+
 WebUI.verifyElementVisible(findTestObject('08-Operations/Client Assignment/By Client modal'))
 
 WebUI.verifyElementNotClickable(findTestObject('08-Operations/Client Assignment/button_ Assign'))
@@ -31,6 +33,8 @@ WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('08-Operations/Client Assignment/div_GTGG Tester 3'))
 
+WebUI.delay(GlobalVariable.delay_2s)
+
 WebUI.verifyElementVisible(findTestObject('08-Operations/Client Assignment/Employees column 2'))
 
 WebUI.verifyElementVisible(findTestObject('08-Operations/Client Assignment/Assigned Employees empty'))
@@ -40,6 +44,8 @@ WebUI.delay(GlobalVariable.delay_2s)
 WebUI.click(findTestObject('08-Operations/Client Assignment/div_GG TESTER'))
 
 WebUI.click(findTestObject('08-Operations/Client Assignment/button_ Assign'))
+
+WebUI.waitForElementVisible(findTestObject('08-Operations/Client Assignment/span_Updated assignment'), 0)
 
 WebUI.verifyElementVisible(findTestObject('08-Operations/Client Assignment/span_Updated assignment'))
 
@@ -52,6 +58,8 @@ WebUI.delay(GlobalVariable.delay_2s)
 WebUI.click(findTestObject('08-Operations/Client Assignment/div_GG TESTER'))
 
 WebUI.click(findTestObject('08-Operations/Client Assignment/button_Unassign'))
+
+WebUI.waitForElementVisible(findTestObject('08-Operations/Client Assignment/span_Updated assignment'), 0)
 
 WebUI.verifyElementVisible(findTestObject('08-Operations/Client Assignment/span_Updated assignment'))
 

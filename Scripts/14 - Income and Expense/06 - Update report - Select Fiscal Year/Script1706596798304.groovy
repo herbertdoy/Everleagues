@@ -19,6 +19,8 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.click(findTestObject('14-Income and Expense/button_UPDATE'))
 
+WebUI.delay(GlobalVariable.delay_2s)
+
 WebUI.verifyElementVisible(findTestObject('14-Income and Expense/h6-Automation Company'))
 
 WebUI.click(findTestObject('14-Income and Expense/button_BACK'))

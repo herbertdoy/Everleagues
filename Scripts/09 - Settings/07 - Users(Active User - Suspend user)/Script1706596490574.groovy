@@ -25,11 +25,15 @@ WebUI.click(findTestObject('09-Settings/Users/Active User/button_Cancel_restore'
 
 WebUI.click(findTestObject('09-Settings/Users/Active User/button_suspendUser'))
 
+WebUI.delay(GlobalVariable.delay_2s)
+
 WebUI.verifyElementPresent(findTestObject('09-Settings/Users/Active User/h4_Suspend User'), 0)
 
 WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('09-Settings/Users/Active User/button_Suspend'))
+
+WebUI.waitForElementVisible(findTestObject('09-Settings/Users/Active User/span_Successfully suspended user'), 0)
 
 WebUI.verifyElementPresent(findTestObject('09-Settings/Users/Active User/span_Successfully suspended user'), 0)
 

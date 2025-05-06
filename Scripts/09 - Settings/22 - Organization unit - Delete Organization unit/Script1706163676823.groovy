@@ -41,6 +41,8 @@ WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.click(findTestObject('09-Settings/Organization unit/button_Delete Organization Unit'))
 
+WebUI.delay(GlobalVariable.delay_3s)
+
 WebUI.verifyElementVisible(findTestObject('09-Settings/Organization unit/h4_Delete Organization Unit'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementVisible(findTestObject('09-Settings/Organization unit/mat-dialog-container_Delete Organization Unit'), 

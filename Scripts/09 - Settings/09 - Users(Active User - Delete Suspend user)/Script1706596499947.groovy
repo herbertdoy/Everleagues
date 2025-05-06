@@ -19,11 +19,15 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.click(findTestObject('09-Settings/Users/Active User/button_suspendUser'))
 
+WebUI.delay(GlobalVariable.delay_2s)
+
 WebUI.verifyElementPresent(findTestObject('09-Settings/Users/Active User/h4_Suspend User'), 0)
 
 WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('09-Settings/Users/Active User/button_Suspend'))
+
+WebUI.waitForElementVisible(findTestObject('09-Settings/Users/Active User/span_Successfully suspended user'), 0)
 
 WebUI.verifyElementPresent(findTestObject('09-Settings/Users/Active User/span_Successfully suspended user'), 0)
 
@@ -31,11 +35,15 @@ WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('09-Settings/Users/Active User/button_xDeleteuser'))
 
+WebUI.delay(GlobalVariable.delay_2s)
+
 WebUI.verifyElementPresent(findTestObject('09-Settings/Users/Active User/h4_Delete User'), 0)
 
 WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('09-Settings/Users/Active User/button_Delete'))
+
+WebUI.waitForElementVisible(findTestObject('09-Settings/Users/Active User/span_Successfully deleted user'), 0)
 
 WebUI.verifyElementPresent(findTestObject('09-Settings/Users/Active User/span_Successfully deleted user'), 0)
 

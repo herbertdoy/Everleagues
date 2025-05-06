@@ -43,6 +43,8 @@ WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('09-Settings/Users/div_Organization'))
 
+WebUI.delay(GlobalVariable.delay_2s)
+
 WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/h4_ORGANIZATION SETTINGS'))
 
 WebUI.click(findTestObject('09-Settings/Organization/div_Profile'))
@@ -80,6 +82,9 @@ WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('03-Header Menu/User Profile/View Profile/Profile Tab/button_Upload Image'))
 
+WebUI.waitForElementVisible(findTestObject('09-Settings/Organization/snack-bar-container_Successfully changed organization imageOK'), 
+    0)
+
 WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/snack-bar-container_Successfully changed organization imageOK'))
 
 WebUI.click(findTestObject('09-Settings/Organization/input_name'))
@@ -91,6 +96,8 @@ WebUI.delay(GlobalVariable.delay_2s)
 WebUI.click(findTestObject('09-Settings/Users/Active User/button_Save'))
 
 WebUI.delay(GlobalVariable.delay_1s)
+
+WebUI.waitForElementVisible(findTestObject('09-Settings/Organization/snack-bar-container_Settings savedOK'), 0)
 
 WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/snack-bar-container_Settings savedOK'))
 
@@ -133,6 +140,8 @@ WebUI.scrollToElement(findTestObject('09-Settings/Users/Active User/button_Save'
 WebUI.click(findTestObject('09-Settings/Users/Active User/button_Save'))
 
 WebUI.delay(GlobalVariable.delay_1s)
+
+WebUI.waitForElementVisible(findTestObject('09-Settings/Organization/snack-bar-container_Settings savedOK'), 0)
 
 WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/snack-bar-container_Settings savedOK'))
 
@@ -187,6 +196,8 @@ WebUI.delay(GlobalVariable.delay_2s)
 WebUI.click(findTestObject('09-Settings/Users/Active User/button_Save'))
 
 WebUI.delay(GlobalVariable.delay_1s)
+
+WebUI.waitForElementVisible(findTestObject('09-Settings/Organization/snack-bar-container_Settings savedOK'), 0)
 
 WebUI.verifyElementVisible(findTestObject('09-Settings/Organization/snack-bar-container_Settings savedOK'))
 

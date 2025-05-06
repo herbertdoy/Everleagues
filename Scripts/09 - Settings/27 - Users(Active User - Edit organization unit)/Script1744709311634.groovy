@@ -45,6 +45,8 @@ WebUI.verifyElementVisible(findTestObject('09-Settings/Users/Active User/mat_hin
 
 WebUI.click(findTestObject('09-Settings/Users/Active User/btn_save'))
 
+WebUI.waitForElementVisible(findTestObject('09-Settings/Users/Active User/snackbar_changeorg'), 0)
+
 WebUI.verifyElementVisible(findTestObject('09-Settings/Users/Active User/snackbar_changeorg'))
 
 WebUI.delay(GlobalVariable.delay_2s)

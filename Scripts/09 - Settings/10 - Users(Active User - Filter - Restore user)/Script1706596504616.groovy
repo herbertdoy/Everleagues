@@ -19,6 +19,8 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.click(findTestObject('09-Settings/Users/Active User/button_Filter Users'))
 
+WebUI.delay(GlobalVariable.delay_2s)
+
 WebUI.verifyElementVisible(findTestObject('09-Settings/Users/Active User/span_Show deleted user'))
 
 WebUI.click(findTestObject('09-Settings/Users/Active User/div_show-deleted-user-toggle-bar'))
@@ -29,9 +31,13 @@ WebUI.click(findTestObject('09-Settings/Users/Active User/button_Filter Users'))
 
 WebUI.click(findTestObject('09-Settings/Users/Active User/button_replay'))
 
+WebUI.delay(GlobalVariable.delay_2s)
+
 WebUI.verifyElementVisible(findTestObject('09-Settings/Users/Active User/h4_Restore User'))
 
 WebUI.click(findTestObject('09-Settings/Users/Active User/button_Restore'))
+
+WebUI.waitForElementVisible(findTestObject('09-Settings/Users/Active User/span_Successfully restored user'), 0)
 
 WebUI.verifyElementVisible(findTestObject('09-Settings/Users/Active User/span_Successfully restored user'))
 

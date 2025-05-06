@@ -27,6 +27,8 @@ WebUI.callTestCase(findTestCase('01 - Login and Forgot Password/04 - Login(Valid
 
 WebUI.click(findTestObject('03-Header Menu/div_Operation'))
 
+WebUI.delay(GlobalVariable.delay_2s)
+
 WebUI.verifyElementVisible(findTestObject('08-Operations/Client_Assignment'))
 
 WebUI.verifyElementVisible(findTestObject('08-Operations/Private_Circle'))
@@ -35,6 +37,8 @@ WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('08-Operations/Client_Assignment'))
 
+WebUI.delay(GlobalVariable.delay_2s)
+
 WebUI.verifyElementVisible(findTestObject('08-Operations/Client Assignment/div_Client Assignment'))
 
 WebUI.verifyElementVisible(findTestObject('08-Operations/Client Assignment/Client Assignment Page 2'))
@@ -42,6 +46,8 @@ WebUI.verifyElementVisible(findTestObject('08-Operations/Client Assignment/Clien
 WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('08-Operations/Client Assignment/Org unit edit'))
+
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.verifyElementVisible(findTestObject('08-Operations/Client Assignment/Select org unit modal'))
 

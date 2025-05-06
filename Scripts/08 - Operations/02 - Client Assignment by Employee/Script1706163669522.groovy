@@ -27,6 +27,8 @@ WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('08-Operations/Client Assignment/div_GG TESTER 2'))
 
+WebUI.delay(GlobalVariable.delay_2s)
+
 WebUI.verifyElementVisible(findTestObject('08-Operations/Client Assignment/Clients column'))
 
 WebUI.verifyElementVisible(findTestObject('08-Operations/Client Assignment/Assigned Clients empty'))
@@ -38,6 +40,9 @@ WebUI.click(findTestObject('08-Operations/Client Assignment/div_GTGG Tester 3'))
 WebUI.verifyElementClickable(findTestObject('08-Operations/Client Assignment/button_ Assign'))
 
 WebUI.click(findTestObject('08-Operations/Client Assignment/button_ Assign'))
+
+WebUI.waitForElementVisible(findTestObject('08-Operations/Client Assignment/snack-bar-container_Updated assignmentOK'), 
+    0)
 
 WebUI.verifyElementVisible(findTestObject('08-Operations/Client Assignment/snack-bar-container_Updated assignmentOK'))
 
@@ -54,6 +59,9 @@ WebUI.click(findTestObject('08-Operations/Client Assignment/div_GTGG Tester 3'))
 WebUI.verifyElementClickable(findTestObject('08-Operations/Client Assignment/button_Unassign'))
 
 WebUI.click(findTestObject('08-Operations/Client Assignment/button_Unassign'))
+
+WebUI.waitForElementVisible(findTestObject('08-Operations/Client Assignment/snack-bar-container_Updated assignmentOK'), 
+    0)
 
 WebUI.verifyElementVisible(findTestObject('08-Operations/Client Assignment/snack-bar-container_Updated assignmentOK'))
 

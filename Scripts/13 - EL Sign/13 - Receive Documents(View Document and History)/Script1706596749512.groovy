@@ -39,6 +39,8 @@ WebUI.verifyElementVisible(findTestObject('13-EL Sign/div_statusSigned'))
 
 WebUI.click(findTestObject('13-EL Sign/button_history'))
 
+WebUI.delay(GlobalVariable.delay_2s)
+
 WebUI.verifyElementVisible(findTestObject('13-EL Sign/mat-dialog-container-historyModal'))
 
 WebUI.verifyElementVisible(findTestObject('13-EL Sign/td_historyName'))

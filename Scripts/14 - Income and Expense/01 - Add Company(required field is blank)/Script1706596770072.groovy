@@ -23,8 +23,7 @@ WebUI.navigateToUrl(GlobalVariable.URL_lab)
 
 WebUI.maximizeWindow()
 
-WebUI.callTestCase(findTestCase('01 - Login and Forgot Password/04 - Login(Valid Credentials-testuser01)'), [:], 
-    FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.callTestCase(findTestCase('01 - Login and Forgot Password/04 - Login(Valid Credentials-testuser01)'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.click(findTestObject('06-Teams/button_doublearrow'))
 
@@ -42,6 +41,8 @@ WebUI.scrollToElement(findTestObject('03-Header Menu/div_Income and Expense'), 0
 
 WebUI.click(findTestObject('03-Header Menu/div_Income and Expense'))
 
+WebUI.delay(GlobalVariable.delay_2s)
+
 WebUI.verifyElementVisible(findTestObject('14-Income and Expense/div_IncomeAndExpense'))
 
 WebUI.verifyElementVisible(findTestObject('14-Income and Expense/label_Income Expense Tracker'))
@@ -55,6 +56,8 @@ WebUI.click(findTestObject('14-Income and Expense/mat-icon_clear'))
 WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('14-Income and Expense/button_ADD COMPANY'))
+
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.verifyElementVisible(findTestObject('14-Income and Expense/mat-dialog-container_Add CompanyModal'))
 

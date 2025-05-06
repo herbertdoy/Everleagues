@@ -21,6 +21,8 @@ WebUI.click(findTestObject('09-Settings/Users/Active User/button_ellipses'))
 
 WebUI.click(findTestObject('09-Settings/Users/Active User/button_Edit Role'))
 
+WebUI.delay(GlobalVariable.delay_2s)
+
 WebUI.verifyElementPresent(findTestObject('09-Settings/Users/Active User/h4_Edit User Role'), 0)
 
 WebUI.click(findTestObject('09-Settings/Users/Active User/div_roleDropdown'))
@@ -58,6 +60,8 @@ WebUI.click(findTestObject('09-Settings/Users/Active User/mat-option_None'))
 WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('09-Settings/Users/Active User/button_Save'))
+
+WebUI.waitForElementVisible(findTestObject('09-Settings/Users/Active User/span_Successfully changed user role'), 0)
 
 WebUI.verifyElementPresent(findTestObject('09-Settings/Users/Active User/span_Successfully changed user role'), 0)
 

@@ -43,6 +43,8 @@ WebUI.scrollToElement(findTestObject('03-Header Menu/div_ELSign'), 0)
 
 WebUI.click(findTestObject('03-Header Menu/div_ELSign'))
 
+WebUI.delay(GlobalVariable.delay_2s)
+
 WebUI.verifyElementVisible(findTestObject('03-Header Menu/div_ELSign'))
 
 WebUI.verifyElementVisible(findTestObject('13-EL Sign/h4_ELSign'))
@@ -77,6 +79,8 @@ WebUI.click(findTestObject('13-EL Sign/div_date'))
 
 WebUI.click(findTestObject('13-EL Sign/div_initial'))
 
+WebUI.delay(GlobalVariable.delay_2s)
+
 WebUI.verifyElementVisible(findTestObject('13-EL Sign/mat-dialog-container_InitialModal'))
 
 WebUI.delay(GlobalVariable.delay_2s)
@@ -90,6 +94,8 @@ WebUI.click(findTestObject('13-EL Sign/button_Save3'))
 WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('13-EL Sign/div_signature'))
+
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.verifyElementVisible(findTestObject('13-EL Sign/mat-dialog-container_SignatureSettingsModal'))
 

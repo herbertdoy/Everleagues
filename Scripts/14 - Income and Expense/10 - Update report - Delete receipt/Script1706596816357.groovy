@@ -19,6 +19,8 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.click(findTestObject('14-Income and Expense/button_delete_forever'))
 
+WebUI.delay(GlobalVariable.delay_2s)
+
 WebUI.verifyElementVisible(findTestObject('14-Income and Expense/mat-dialog-container_ReceiptDeleteConfirmationModal'))
 
 WebUI.click(findTestObject('14-Income and Expense/button_No'))
@@ -26,6 +28,8 @@ WebUI.click(findTestObject('14-Income and Expense/button_No'))
 WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('14-Income and Expense/button_delete_forever'))
+
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.verifyElementVisible(findTestObject('14-Income and Expense/mat-dialog-container_ReceiptDeleteConfirmationModal'))
 

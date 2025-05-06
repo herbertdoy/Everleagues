@@ -25,6 +25,8 @@ WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('14-Income and Expense/button_addReceipt'))
 
+WebUI.delay(GlobalVariable.delay_2s)
+
 WebUI.verifyElementVisible(findTestObject('14-Income and Expense/mat-dialog-container_Add ReceiptModal'))
 
 WebUI.click(findTestObject('14-Income and Expense/input_VendorName'))
