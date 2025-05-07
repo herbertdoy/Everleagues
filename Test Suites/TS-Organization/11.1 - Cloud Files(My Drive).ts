@@ -57,6 +57,13 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
+      <guid>1fbccd6b-aa32-4ce1-8cd1-60beed9e1211</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/11.1 - Cloud Files (My Drive)/18 - Upload Folder and Upload folder that contains other subfolders</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
       <guid>fcd2ef9e-ac18-49e3-afe0-a1e97b560af6</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -68,20 +75,6 @@
          <value></value>
          <variableId>1b9cdc35-f979-46b8-8bcd-81481059c136</variableId>
       </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>b6880fe1-08f3-49cb-93fa-99db2caabfca</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/11.1 - Cloud Files (My Drive)/05 - Recent</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>ba0fd21d-c3ed-42c1-a4d7-65c9fff2d9f8</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/11.1 - Cloud Files (My Drive)/06 - Quick Access</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>d1cad906-9c38-4a11-8b7e-dc777edc52ce</guid>

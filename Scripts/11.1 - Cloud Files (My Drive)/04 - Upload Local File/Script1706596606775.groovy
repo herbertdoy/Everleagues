@@ -38,24 +38,6 @@ WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('11-Cloud Files/btn_cloud'))
 
-WebUI.uploadFile(findTestObject('11-Cloud Files/btn_UploadLocalFolder'), GlobalVariable.subFolder)
-
-//WebUI.rightClick(findTestObject('11-Cloud Files/div_coudFilesTable'))
-//
-//CustomKeywords.'com.kms.katalon.keyword.uploadfile.UploadFile.uploadFile'(findTestObject('11-Cloud Files/btn_UploadLocalFolder'), 
-//    GlobalVariable.subFolder)
-WebUI.delay(GlobalVariable.delay_2s)
-
-WebUI.refresh()
-
-WebUI.delay(GlobalVariable.delay_2s)
-
-WebUI.doubleClick(findTestObject('11-Cloud Files/td_specialCharac'))
-
-WebUI.delay(GlobalVariable.delay_2s)
-
-WebUI.click(findTestObject('11-Cloud Files/btn_cloud'))
-
 String path1 = GlobalVariable.upload_file
 
 String path2 = GlobalVariable.upload_pdf_file
