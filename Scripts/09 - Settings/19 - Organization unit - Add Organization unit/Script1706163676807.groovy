@@ -29,6 +29,8 @@ WebUI.click(findTestObject('06-Teams/button_doublearrow'))
 
 WebUI.click(findTestObject('06-Teams/button_My Organizations'))
 
+WebUI.waitForElementVisible(findTestObject('06-Teams/button_GG Automation'), 0)
+
 WebUI.click(findTestObject('06-Teams/button_GG Automation'))
 
 WebUI.delay(GlobalVariable.delay_2s)

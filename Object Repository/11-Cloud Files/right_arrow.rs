@@ -7,11 +7,11 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//span[contains(@class,'toggle-children-wrapper toggle-children-wrapper-collapsed')])[1]</value>
+         <value>(//span[@class='toggle-children'])[2]
+</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

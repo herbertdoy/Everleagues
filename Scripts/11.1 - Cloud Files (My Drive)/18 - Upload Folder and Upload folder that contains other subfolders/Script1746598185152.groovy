@@ -25,6 +25,8 @@ WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.rightClick(findTestObject('11-Cloud Files/div_table'))
 
+WebUI.delay(GlobalVariable.delay_3s)
+
 WebUI.uploadFile(findTestObject('11-Cloud Files/btn_UploadLocalFolder'), GlobalVariable.subFolder)
 
 WebUI.delay(GlobalVariable.delay_2s)

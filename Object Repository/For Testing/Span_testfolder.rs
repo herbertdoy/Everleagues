@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_automationOrgUnit</name>
+   <name>Span_testfolder</name>
    <tag></tag>
-   <elementGuidId>a89ef1e3-49e9-4eb1-9855-fb603cffe5bd</elementGuidId>
+   <elementGuidId>d569c744-57d0-4927-848a-30ba7c6e93b7</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>//td[contains(.,'TestFolder')]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>(//tree-node[@class='ng-star-inserted']/following-sibling::tree-node)[2]</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

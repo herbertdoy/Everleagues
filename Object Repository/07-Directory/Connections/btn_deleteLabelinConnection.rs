@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>/html/body/div[4]/div[2]/div/div/div[2]/div/div[1]/mat-form-field/div/div[1]/div[2]/button[2]</value>
+         <value>(//button[contains(@class,'mat-focus-indicator mat-icon-button')])[3]</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
