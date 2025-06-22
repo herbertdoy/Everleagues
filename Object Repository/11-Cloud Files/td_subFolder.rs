@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_automationOrgUnit</name>
+   <name>td_subFolder</name>
    <tag></tag>
-   <elementGuidId>a89ef1e3-49e9-4eb1-9855-fb603cffe5bd</elementGuidId>
+   <elementGuidId>6ae06cd9-ad96-4cf4-a543-dfb45c360d91</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//tree-node-content[@ng-reflect-index='1'])[2]</value>
+         <value>//td[contains(.,'SubFolder')]</value>
       </entry>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

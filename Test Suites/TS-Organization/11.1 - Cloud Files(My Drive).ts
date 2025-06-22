@@ -60,27 +60,14 @@
       <guid>1fbccd6b-aa32-4ce1-8cd1-60beed9e1211</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/11.1 - Cloud Files (My Drive)/18 - Upload Folder and Upload folder that contains other subfolders</testCaseId>
+      <testCaseId>Test Cases/11.1 - Cloud Files (My Drive)/18 - Upload Folder(Right Click)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>fcd2ef9e-ac18-49e3-afe0-a1e97b560af6</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/11.1 - Cloud Files (My Drive)/04 - Upload Local File</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>1b9cdc35-f979-46b8-8bcd-81481059c136</variableId>
-      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>d1cad906-9c38-4a11-8b7e-dc777edc52ce</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/11.1 - Cloud Files (My Drive)/07 - Rename a folder and file</testCaseId>
+      <testCaseId>Test Cases/11.1 - Cloud Files (My Drive)/07 - Rename a folder</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -93,6 +80,45 @@
          <type>DEFAULT</type>
          <value></value>
          <variableId>a6de2a9c-ef80-47e3-80ed-3033beca125d</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>fcd2ef9e-ac18-49e3-afe0-a1e97b560af6</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/11.1 - Cloud Files (My Drive)/04 - Upload Local File(Cloud button)</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>1b9cdc35-f979-46b8-8bcd-81481059c136</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>d6ae8ac6-de57-42fe-9ec2-daed56dd3832</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/11.1 - Cloud Files (My Drive)/22 - Rename a File</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>14abadd1-f30c-4f1b-962b-f70d767cb4cc</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>f92e96b9-f7f2-4bcf-aea2-aad7582c0aae</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/11.1 - Cloud Files (My Drive)/19 - Upload multiple files</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>b21ce049-ac25-46f7-8a8a-8255f006e282</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
@@ -117,6 +143,20 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
+      <guid>809c81df-3efe-48c8-b172-a5081a72b333</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/11.1 - Cloud Files (My Drive)/21 - Upload folder (Cloud button)</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>63861745-c573-47fc-8a33-7db48bfbbdba</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/11.1 - Cloud Files (My Drive)/23 - Upload Local File(Right click)</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
       <guid>a5552b4c-178c-4d39-9beb-d61e7ecaf621</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -129,6 +169,19 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/11.1 - Cloud Files (My Drive)/12 - Open a file and folder</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>bf4dfe00-722b-44b2-9552-69b4d2573641</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/11.1 - Cloud Files (My Drive)/20 - Upload folder that contains other folders</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>a141326e-af01-4025-8bcc-80b7e1d01c3f</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>4c5fa9f6-f50a-43da-8dfb-a05affffec80</guid>
@@ -159,9 +212,9 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>5b92b998-af78-4d00-8078-0bc14bf7738d</guid>
+      <guid>a78191c6-86a0-425e-810b-4bfd6dfe98ac</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/11.1 - Cloud Files (My Drive)/17 - Delete a file and folder</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>

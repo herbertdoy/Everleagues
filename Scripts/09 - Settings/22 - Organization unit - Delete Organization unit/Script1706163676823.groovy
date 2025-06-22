@@ -19,6 +19,10 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.delay(GlobalVariable.delay_3s)
 
+WebUI.click(findTestObject('03-Header Menu/div_Settings'))
+
+WebUI.delay(GlobalVariable.delay_2s)
+
 WebUI.scrollToElement(findTestObject('09-Settings/Users/div_Organization Units'), 0)
 
 WebUI.click(findTestObject('09-Settings/Users/div_Organization Units'))

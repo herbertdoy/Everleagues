@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_automationOrgUnit</name>
+   <name>spanTree_automationFolder</name>
    <tag></tag>
-   <elementGuidId>a89ef1e3-49e9-4eb1-9855-fb603cffe5bd</elementGuidId>
+   <elementGuidId>e7513cc3-c500-4fe2-b372-8166937149af</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//tree-node-content[@ng-reflect-index='1'])[2]</value>
+         <value>//span[normalize-space(text())='Automation folder']</value>
       </entry>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

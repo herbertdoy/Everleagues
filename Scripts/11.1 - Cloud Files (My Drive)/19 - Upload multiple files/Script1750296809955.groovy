@@ -19,25 +19,37 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.delay(GlobalVariable.delay_2s)
 
-WebUI.click(findTestObject('11-Cloud Files/td_qa EDIT'))
-
-WebUI.click(findTestObject('11-Cloud Files/button_Duplicate'))
-
-WebUI.waitForElementVisible(findTestObject('11-Cloud Files/div_ItemsDuplicatedSuccessfully'), 0)
-
-WebUI.verifyElementVisible(findTestObject('11-Cloud Files/div_ItemsDuplicatedSuccessfully'))
-
-WebUI.verifyElementVisible(findTestObject('11-Cloud Files/td_Copy of qa EDIT'))
+WebUI.doubleClick(findTestObject('11-Cloud Files/td_specialCharac'))
 
 WebUI.delay(GlobalVariable.delay_2s)
 
-WebUI.rightClick(findTestObject('11-Cloud Files/td_qa EDIT'))
+WebUI.click(findTestObject('11-Cloud Files/btn_cloud'))
 
-WebUI.click(findTestObject('11-Cloud Files/btn_duplicate2'))
+String path1 = GlobalVariable.upload_file
 
-WebUI.waitForElementVisible(findTestObject('11-Cloud Files/div_ItemsDuplicatedSuccessfully'), 0)
+String path2 = GlobalVariable.upload_pdf_file
 
-WebUI.verifyElementVisible(findTestObject('11-Cloud Files/div_ItemsDuplicatedSuccessfully'))
+String finalPath = (path1 + '\n') + path2
+
+WebUI.uploadFile(findTestObject('11-Cloud Files/btn_uploadLocalfile2'), finalPath)
+
+WebUI.click(findTestObject('11-Cloud Files/button_Confirm'))
 
 WebUI.delay(GlobalVariable.delay_2s)
+
+WebUI.click(findTestObject('11-Cloud Files/div_My Drive'))
+
+WebUI.delay(GlobalVariable.delay_2s)
+
+WebUI.setText(findTestObject('11-Cloud Files/input_Search cloudfiles'), search_folder)
+
+WebUI.sendKeys(findTestObject('11-Cloud Files/input_Search cloudfiles'), Keys.chord(Keys.ENTER))
+
+WebUI.delay(GlobalVariable.delay_3s)
+
+WebUI.clearText(findTestObject('11-Cloud Files/input_Search cloudfiles'))
+
+WebUI.click(findTestObject('11-Cloud Files/button_back'))
+
+WebUI.refresh()
 

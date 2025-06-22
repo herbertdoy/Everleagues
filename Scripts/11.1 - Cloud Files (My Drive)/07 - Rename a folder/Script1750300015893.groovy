@@ -19,25 +19,17 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.delay(GlobalVariable.delay_2s)
 
-WebUI.click(findTestObject('11-Cloud Files/td_qa EDIT'))
+WebUI.rightClick(findTestObject('11-Cloud Files/td_Automation folder'))
 
-WebUI.click(findTestObject('11-Cloud Files/button_Duplicate'))
+WebUI.click(findTestObject('11-Cloud Files/button_Rename'))
 
-WebUI.waitForElementVisible(findTestObject('11-Cloud Files/div_ItemsDuplicatedSuccessfully'), 0)
+WebUI.verifyElementVisible(findTestObject('11-Cloud Files/mat-dialog-container_RenameName nodal'))
 
-WebUI.verifyElementVisible(findTestObject('11-Cloud Files/div_ItemsDuplicatedSuccessfully'))
+WebUI.setText(findTestObject('11-Cloud Files/input_Rename'), update_folder)
 
-WebUI.verifyElementVisible(findTestObject('11-Cloud Files/td_Copy of qa EDIT'))
+WebUI.click(findTestObject('09-Settings/Users/Active User/button_Save'))
 
-WebUI.delay(GlobalVariable.delay_2s)
-
-WebUI.rightClick(findTestObject('11-Cloud Files/td_qa EDIT'))
-
-WebUI.click(findTestObject('11-Cloud Files/btn_duplicate2'))
-
-WebUI.waitForElementVisible(findTestObject('11-Cloud Files/div_ItemsDuplicatedSuccessfully'), 0)
-
-WebUI.verifyElementVisible(findTestObject('11-Cloud Files/div_ItemsDuplicatedSuccessfully'))
+WebUI.verifyElementVisible(findTestObject('11-Cloud Files/snack-bar-container_Successfully changed nameOK_New'))
 
 WebUI.delay(GlobalVariable.delay_2s)
 

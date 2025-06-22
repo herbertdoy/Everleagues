@@ -23,6 +23,10 @@ WebUI.click(findTestObject('09-Settings/Users/div_Users'))
 
 WebUI.delay(GlobalVariable.delay_2s)
 
+WebUI.refresh()
+
+WebUI.delay(GlobalVariable.delay_2s)
+
 WebUI.click(findTestObject('09-Settings/Users/Active User/btn_Edit'))
 
 WebUI.delay(GlobalVariable.delay_2s)

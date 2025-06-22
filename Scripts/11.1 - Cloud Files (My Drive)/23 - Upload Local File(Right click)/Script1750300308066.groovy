@@ -19,46 +19,19 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.delay(GlobalVariable.delay_2s)
 
-WebUI.click(findTestObject('11-Cloud Files/button_cloud_upload Upload Files  Create Folders'))
+WebUI.doubleClick(findTestObject('11-Cloud Files/td_automationFolder2'))
 
-CustomKeywords.'uploadpackage.Upload.uploadFile'(findTestObject('11-Cloud Files/button_cloud_uploadUpload Local File'), 
-    GlobalVariable.upload_file)
+WebUI.delay(GlobalVariable.delay_2s)
+
+WebUI.rightClick(findTestObject('11-Cloud Files/div_table'))
+
+WebUI.delay(GlobalVariable.delay_2s)
+
+WebUI.uploadFile(findTestObject('11-Cloud Files/btn_uploadLocalfile2'), GlobalVariable.upload_file)
 
 WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.verifyElementVisible(findTestObject('11-Cloud Files/mat-dialog-container_Upload local file modal'))
 
 WebUI.click(findTestObject('11-Cloud Files/button_Confirm'))
-
-WebUI.delay(GlobalVariable.delay_2s)
-
-WebUI.doubleClick(findTestObject('11-Cloud Files/td_specialCharac'))
-
-WebUI.delay(GlobalVariable.delay_2s)
-
-WebUI.click(findTestObject('11-Cloud Files/btn_cloud'))
-
-String path1 = GlobalVariable.upload_file
-
-String path2 = GlobalVariable.upload_pdf_file
-
-String finalPath = (path1 + '\n') + path2
-
-WebUI.uploadFile(findTestObject('11-Cloud Files/btn_uploadLocalfile2'), finalPath)
-
-WebUI.click(findTestObject('11-Cloud Files/button_Confirm'))
-
-WebUI.delay(GlobalVariable.delay_2s)
-
-WebUI.setText(findTestObject('11-Cloud Files/input_Search cloudfiles'), search_folder)
-
-WebUI.sendKeys(findTestObject('11-Cloud Files/input_Search cloudfiles'), Keys.chord(Keys.ENTER))
-
-WebUI.delay(GlobalVariable.delay_3s)
-
-WebUI.clearText(findTestObject('11-Cloud Files/input_Search cloudfiles'))
-
-WebUI.click(findTestObject('11-Cloud Files/button_back'))
-
-WebUI.refresh()
 

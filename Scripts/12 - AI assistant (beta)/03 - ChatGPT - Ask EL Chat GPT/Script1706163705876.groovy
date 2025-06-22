@@ -21,7 +21,9 @@ WebUI.setText(findTestObject('12-AI Assistant(beta)/12.1-Chat GPT(beta)/Ask me a
 
 WebUI.click(findTestObject('12-AI Assistant(beta)/12.1-Chat GPT(beta)/Ask ChatGPT button'))
 
-WebUI.delay(GlobalVariable.delay_3s)
+WebUI.delay(GlobalVariable.delay_6s)
+
+WebUI.waitForElementVisible(findTestObject('12-AI Assistant(beta)/12.1-Chat GPT(beta)/Generated answer assertion'), 0)
 
 WebUI.verifyElementVisible(findTestObject('12-AI Assistant(beta)/12.1-Chat GPT(beta)/Generated answer assertion'), FailureHandling.STOP_ON_FAILURE)
 

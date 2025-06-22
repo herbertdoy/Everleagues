@@ -19,25 +19,31 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.delay(GlobalVariable.delay_2s)
 
-WebUI.click(findTestObject('11-Cloud Files/td_qa EDIT'))
-
-WebUI.click(findTestObject('11-Cloud Files/button_Duplicate'))
-
-WebUI.waitForElementVisible(findTestObject('11-Cloud Files/div_ItemsDuplicatedSuccessfully'), 0)
-
-WebUI.verifyElementVisible(findTestObject('11-Cloud Files/div_ItemsDuplicatedSuccessfully'))
-
-WebUI.verifyElementVisible(findTestObject('11-Cloud Files/td_Copy of qa EDIT'))
+WebUI.doubleClick(findTestObject('11-Cloud Files/td_specialCharac'))
 
 WebUI.delay(GlobalVariable.delay_2s)
 
-WebUI.rightClick(findTestObject('11-Cloud Files/td_qa EDIT'))
+WebUI.rightClick(findTestObject('11-Cloud Files/div_table'))
 
-WebUI.click(findTestObject('11-Cloud Files/btn_duplicate2'))
+WebUI.delay(GlobalVariable.delay_3s)
 
-WebUI.waitForElementVisible(findTestObject('11-Cloud Files/div_ItemsDuplicatedSuccessfully'), 0)
+WebUI.uploadFile(findTestObject('11-Cloud Files/btn_UploadLocalFolder'), GlobalVariable.Folder)
 
-WebUI.verifyElementVisible(findTestObject('11-Cloud Files/div_ItemsDuplicatedSuccessfully'))
+WebUI.waitForElementPresent(findTestObject('11-Cloud Files/span_folderIsBeingUploaded'), 0)
+
+WebUI.verifyElementPresent(findTestObject('11-Cloud Files/span_folderIsBeingUploaded'), 0)
+
+WebUI.waitForElementPresent(findTestObject('11-Cloud Files/b_successfullyUpload'), 0)
+
+WebUI.verifyElementPresent(findTestObject('11-Cloud Files/b_successfullyUpload'), 0)
+
+WebUI.waitForElementPresent(findTestObject('11-Cloud Files/span_Folder'), 0)
+
+WebUI.verifyElementPresent(findTestObject('11-Cloud Files/span_Folder'), 0)
+
+WebUI.delay(GlobalVariable.delay_2s)
+
+WebUI.click(findTestObject('11-Cloud Files/div_My Drive'))
 
 WebUI.delay(GlobalVariable.delay_2s)
 

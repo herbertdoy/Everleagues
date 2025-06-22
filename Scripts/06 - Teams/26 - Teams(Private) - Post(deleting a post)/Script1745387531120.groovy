@@ -41,6 +41,8 @@ WebUI.verifyElementVisible(findTestObject('06-Teams/05- Teams-General Channel/de
 
 WebUI.click(findTestObject('06-Teams/05- Teams-General Channel/button_Delete'))
 
+WebUI.delay(GlobalVariable.delay_2s)
+
 WebUI.waitForElementVisible(findTestObject('06-Teams/05- Teams-General Channel/Successfully deleted post msg'), 0)
 
 WebUI.verifyElementVisible(findTestObject('06-Teams/05- Teams-General Channel/Successfully deleted post msg'))

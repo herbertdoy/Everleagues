@@ -19,29 +19,16 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.delay(GlobalVariable.delay_2s)
 
-WebUI.rightClick(findTestObject('11-Cloud Files/td_Automation folder'))
+WebUI.click(findTestObject('11-Cloud Files/button_cloud_upload Upload Files  Create Folders'))
 
-WebUI.click(findTestObject('11-Cloud Files/button_Rename'))
-
-WebUI.verifyElementVisible(findTestObject('11-Cloud Files/mat-dialog-container_RenameName nodal'))
-
-WebUI.setText(findTestObject('11-Cloud Files/input_Rename'), update_folder)
-
-WebUI.click(findTestObject('09-Settings/Users/Active User/button_Save'))
-
-WebUI.verifyElementVisible(findTestObject('11-Cloud Files/snack-bar-container_Successfully changed nameOK_New'))
+CustomKeywords.'uploadpackage.Upload.uploadFile'(findTestObject('11-Cloud Files/button_cloud_uploadUpload Local File'), 
+    GlobalVariable.upload_file)
 
 WebUI.delay(GlobalVariable.delay_2s)
 
-WebUI.rightClick(findTestObject('11-Cloud Files/td_qa'))
+WebUI.verifyElementVisible(findTestObject('11-Cloud Files/mat-dialog-container_Upload local file modal'))
 
-WebUI.click(findTestObject('11-Cloud Files/button_Rename'))
+WebUI.click(findTestObject('11-Cloud Files/button_Confirm'))
 
-WebUI.verifyElementVisible(findTestObject('11-Cloud Files/mat-dialog-container_RenameName nodal'))
 
-WebUI.setText(findTestObject('11-Cloud Files/input_Rename'), rename_file)
-
-WebUI.click(findTestObject('09-Settings/Users/Active User/button_Save'))
-
-WebUI.verifyElementVisible(findTestObject('11-Cloud Files/snack-bar-container_Successfully changed nameOK_New'))
 

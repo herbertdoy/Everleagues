@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_automationOrgUnit</name>
+   <name>btn_uploadLocalFolder2</name>
    <tag></tag>
-   <elementGuidId>a89ef1e3-49e9-4eb1-9855-fb603cffe5bd</elementGuidId>
+   <elementGuidId>79cba13a-d35c-4b74-baa5-b3c9bfabb60f</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//tree-node-content[@ng-reflect-index='1'])[2]</value>
+         <value>(//button[@role='menuitem'])[2]</value>
       </entry>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
