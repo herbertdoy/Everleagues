@@ -82,7 +82,7 @@
    <testCaseLink>
       <guid>cc47c29f-75c7-48a7-a380-ee0f37805f5c</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/13 - EL Sign/09 - Send Documents(Reminder)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>

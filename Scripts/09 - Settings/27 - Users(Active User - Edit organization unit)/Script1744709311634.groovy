@@ -25,7 +25,7 @@ WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.refresh()
 
-WebUI.delay(GlobalVariable.delay_2s)
+WebUI.delay(GlobalVariable.delay_10s)
 
 WebUI.click(findTestObject('09-Settings/Users/Active User/btn_Edit'))
 

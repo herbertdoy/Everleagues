@@ -28,6 +28,8 @@ WebUI.verifyElementVisible(findTestObject('13-EL Sign/mat-dialog-container_Do yo
 
 WebUI.click(findTestObject('13-EL Sign/button_No'))
 
+WebUI.delay(GlobalVariable.delay_2s)
+
 WebUI.click(findTestObject('13-EL Sign/button_clear'))
 
 WebUI.delay(GlobalVariable.delay_2s)
@@ -63,7 +65,7 @@ WebUI.scrollToElement(findTestObject('13-EL Sign/th_Send ELSign Invite'), 0)
 
 WebUI.delay(GlobalVariable.delay_2s)
 
-WebUI.setText(findTestObject('13-EL Sign/input_CC email'), GlobalVariable.Y_email_withoutSubscription_testuser01)
+WebUI.setText(findTestObject('13-EL Sign/input_CC email'), GlobalVariable.Y_email_withSubscription_testuser00005)
 
 WebUI.setText(findTestObject('13-EL Sign/input_Subject'), inputSubject)
 

@@ -51,3 +51,7 @@ WebUI.click(findTestObject('13-EL Sign/button_SAVE2'))
 
 WebUI.delay(GlobalVariable.delay_2s)
 
+WebUI.click(findTestObject('13-EL Sign/span_COMPLETE'))
+
+WebUI.delay(GlobalVariable.delay_2s)
+

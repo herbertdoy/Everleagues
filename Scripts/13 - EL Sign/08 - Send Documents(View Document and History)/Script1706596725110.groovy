@@ -41,3 +41,5 @@ WebUI.doubleClick(findTestObject('13-EL Sign/button_CANCEL2'))
 
 WebUI.delay(GlobalVariable.delay_2s)
 
+WebUI.closeBrowser()
+

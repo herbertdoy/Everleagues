@@ -23,7 +23,7 @@ WebUI.navigateToUrl(GlobalVariable.URL_lab)
 
 WebUI.maximizeWindow()
 
-WebUI.callTestCase(findTestCase('01 - Login and Forgot Password/04 - Login(Valid Credentials-testuser00005)'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('01 - Login and Forgot Password/04 - Login(Valid Credentials-testuser01)'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('06-Teams/button_doublearrow'))
 
@@ -50,6 +50,8 @@ WebUI.verifyElementVisible(findTestObject('13-EL Sign/h4_ELSign'))
 WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('13-EL Sign/div_Send Documents'))
+
+WebUI.click(findTestObject('13-EL Sign/btn_elSignDocuments'))
 
 CustomKeywords.'uploadpackage.Upload.uploadFile'(findTestObject('Object Repository/13-EL Sign/div_Drag and drop or Upload PDF or Word document here'), 
     GlobalVariable.upload_pdf_file)
