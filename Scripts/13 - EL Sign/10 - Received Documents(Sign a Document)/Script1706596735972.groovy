@@ -77,9 +77,11 @@ WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('13-EL Sign/div_date'))
 
+WebUI.delay(GlobalVariable.delay_3s)
+
 WebUI.click(findTestObject('13-EL Sign/div_initial'))
 
-WebUI.delay(GlobalVariable.delay_2s)
+WebUI.delay(GlobalVariable.delay_3s)
 
 WebUI.verifyElementVisible(findTestObject('13-EL Sign/mat-dialog-container_InitialModal'))
 
@@ -120,6 +122,14 @@ WebUI.click(findTestObject('13-EL Sign/button_save Save Settings'))
 
 WebUI.delay(GlobalVariable.delay_2s)
 
+WebUI.click(findTestObject('13-EL Sign/btn_NXT2'))
+
+WebUI.click(findTestObject('13-EL Sign/btn_NXT2'))
+
+WebUI.click(findTestObject('13-EL Sign/btn_NXT2'))
+
+WebUI.delay(GlobalVariable.delay_2s)
+
 WebUI.click(findTestObject('13-EL Sign/button_completenavigate_next'))
 
 WebUI.delay(GlobalVariable.delay_2s)
@@ -141,6 +151,14 @@ WebUI.delay(GlobalVariable.delay_2s)
 WebUI.switchToWindowIndex(0)
 
 WebUI.click(findTestObject('13-EL Sign/button_EDIT'))
+
+WebUI.delay(GlobalVariable.delay_2s)
+
+WebUI.click(findTestObject('13-EL Sign/btn_NXT2'))
+
+WebUI.click(findTestObject('13-EL Sign/btn_NXT2'))
+
+WebUI.click(findTestObject('13-EL Sign/btn_NXT2'))
 
 WebUI.delay(GlobalVariable.delay_2s)
 

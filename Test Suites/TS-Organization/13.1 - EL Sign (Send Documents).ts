@@ -80,6 +80,32 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
+      <guid>3d75dbc6-6c7a-44ce-af93-fedf3165e469</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/13 - EL Sign/15 - Send Documents(Upload a file-Word Document)</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>604b4be9-835b-429d-b9cf-86b216cb9e6f</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>a95991bf-f6b6-4737-a9c2-9288f8c72637</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/13 - EL Sign/16 - Send Documents(Add Signer, Select Labels and drag)</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>986030a8-e14a-4f2d-830c-0aca16e308a2</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
       <guid>cc47c29f-75c7-48a7-a380-ee0f37805f5c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>

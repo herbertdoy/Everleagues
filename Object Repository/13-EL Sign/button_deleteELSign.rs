@@ -7,14 +7,18 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//ag-grid-angular[@id='ezSignDocsGrid']/div/div/div/div[3]/div[2]/div/div/div/div[2]/app-deletebutton-renderer/button</value>
+         <value>(//button[@mattooltip='Delete ELSign tracker'])[1]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//button[@color = 'accent' and @mattooltip = 'Delete ELSign tracker' and (text() = 'delete' or . = 'delete')]</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>button.mat-focus-indicator.mat-icon-button.mat-button-base.mat-accent.cdk-focused.cdk-mouse-focused</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>e91f7d66-05bd-45a4-b035-6cf8cf300c0b</webElementGuid>
+      <webElementGuid>00d88f29-5c9b-4b56-b7dd-2da57b9cfccd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +34,7 @@
       <name>color</name>
       <type>Main</type>
       <value>accent</value>
-      <webElementGuid>66205796-473a-419d-b45d-8420449a6d4c</webElementGuid>
+      <webElementGuid>14072127-24d2-4da1-9e57-624b11a50ab5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +42,7 @@
       <name>mattooltip</name>
       <type>Main</type>
       <value>Delete ELSign tracker</value>
-      <webElementGuid>adccbbb6-1a95-4c02-bab8-4e6545097b15</webElementGuid>
+      <webElementGuid>0435673c-0577-4dae-bba0-fa220896106d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +50,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-focus-indicator mat-icon-button mat-button-base mat-accent cdk-focused cdk-mouse-focused</value>
-      <webElementGuid>42effe1b-3b97-4e6b-880e-a82c6251cc5f</webElementGuid>
+      <webElementGuid>afa8f4a4-f1a3-44aa-bcad-2d5868c6051e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +58,7 @@
       <name>ng-reflect-color</name>
       <type>Main</type>
       <value>accent</value>
-      <webElementGuid>4fc0914d-9039-4408-93a2-c0fd416f1551</webElementGuid>
+      <webElementGuid>226aec34-5a13-4ce1-a8b1-d62ded9bfa24</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +66,7 @@
       <name>ng-reflect-message</name>
       <type>Main</type>
       <value>Delete ELSign tracker</value>
-      <webElementGuid>70463ead-03e3-447b-baae-143672aacf21</webElementGuid>
+      <webElementGuid>33ab45f8-3f17-4fee-9b01-861fb3063248</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +74,7 @@
       <name>aria-describedby</name>
       <type>Main</type>
       <value>cdk-describedby-message-30</value>
-      <webElementGuid>e60fc245-4737-4c74-aa0c-16d5318a752b</webElementGuid>
+      <webElementGuid>53de5bd4-fe18-4e37-801e-f20118596b73</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -78,7 +82,7 @@
       <name>text</name>
       <type>Main</type>
       <value>delete</value>
-      <webElementGuid>1ea1d6d8-6fc5-4a58-b24e-762dcaa4eb59</webElementGuid>
+      <webElementGuid>a6f584a3-7490-4abc-908d-a15234fd0271</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -86,7 +90,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;ezSignDocsGrid&quot;)/div[@class=&quot;ag-root-wrapper ag-layout-auto-height ag-ltr&quot;]/div[@class=&quot;ag-root-wrapper-body ag-layout-auto-height&quot;]/div[@class=&quot;ag-root ag-unselectable ag-layout-auto-height ag-has-focus&quot;]/div[@class=&quot;ag-body-viewport ag-layout-auto-height ag-row-no-animation&quot;]/div[@class=&quot;ag-center-cols-clipper&quot;]/div[@class=&quot;ag-center-cols-viewport&quot;]/div[@class=&quot;ag-center-cols-container&quot;]/div[@class=&quot;ag-row ag-row-even ag-row-level-0 ezsign-history-grid ag-row-position-absolute ag-row-first ag-row-last ag-row-focus ag-row-hover&quot;]/div[@class=&quot;ag-cell ag-cell-not-inline-editing ag-cell-with-height ag-cell-value ag-column-hover ag-cell-focus&quot;]/app-deletebutton-renderer[@class=&quot;ng-star-inserted&quot;]/button[@class=&quot;mat-focus-indicator mat-icon-button mat-button-base mat-accent cdk-focused cdk-mouse-focused&quot;]</value>
-      <webElementGuid>817e2760-cdd0-48c3-91df-3aeedcb89f55</webElementGuid>
+      <webElementGuid>09f9fbce-759f-4e05-9a3f-4c492683904c</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -94,7 +98,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//ag-grid-angular[@id='ezSignDocsGrid']/div/div/div/div[3]/div[2]/div/div/div/div[2]/app-deletebutton-renderer/button</value>
-      <webElementGuid>970ee329-8545-479c-ae44-1b145631d167</webElementGuid>
+      <webElementGuid>f65a8237-ff64-484c-8e28-0dd58cd39b9d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +106,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Last Modified'])[1]/following::button[1]</value>
-      <webElementGuid>daea3215-6480-4221-b1fe-6a099582fc5d</webElementGuid>
+      <webElementGuid>d7bb7a04-0605-44de-8373-b23e3818ca34</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +114,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Reminder'])[1]/following::button[1]</value>
-      <webElementGuid>3f53e714-855e-44f3-b71e-1c830dd2ace3</webElementGuid>
+      <webElementGuid>61ee32e0-af18-47c2-9b3c-fb080df0604f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +122,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='ELS2301031043'])[1]/preceding::button[3]</value>
-      <webElementGuid>81568dfb-f8fc-4242-a309-c79219fe5d84</webElementGuid>
+      <webElementGuid>56244879-5b7e-400c-8c9d-0256a7751998</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,7 +130,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='sample.pdf'])[1]/preceding::button[4]</value>
-      <webElementGuid>569c1358-76c9-45bf-8ced-8dc310effde9</webElementGuid>
+      <webElementGuid>16eeeb1b-8abb-4e70-814e-8892acee8d36</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,7 +138,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//app-deletebutton-renderer/button</value>
-      <webElementGuid>1bfd8ba7-8d30-4718-80af-aaa306e8f127</webElementGuid>
+      <webElementGuid>8827d4df-dbb5-4675-ae22-9e48bf2a1337</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -142,6 +146,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[(text() = 'delete' or . = 'delete')]</value>
-      <webElementGuid>6f00a150-6578-40ca-a3ce-e1ea679f0637</webElementGuid>
+      <webElementGuid>0cff40aa-e571-4eb8-9882-e576003adc84</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
