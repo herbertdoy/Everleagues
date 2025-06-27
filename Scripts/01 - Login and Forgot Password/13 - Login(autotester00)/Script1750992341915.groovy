@@ -17,13 +17,35 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl(GlobalVariable.URL_lab)
+
+WebUI.maximizeWindow()
+
+WebUI.callTestCase(findTestCase('01 - Login and Forgot Password/04 - Login(Valid Credentials-testuser00005)'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(GlobalVariable.delay_2s)
+
+WebUI.click(findTestObject('06-Teams/button_doublearrow'))
+
+WebUI.click(findTestObject('06-Teams/button_My Organizations'))
+
+WebUI.click(findTestObject('06-Teams/button_GG Automation'))
+
+WebUI.delay(GlobalVariable.delay_2s)
+
+WebUI.verifyElementVisible(findTestObject('06-Teams/span_GG Automation'))
+
+WebUI.delay(GlobalVariable.delay_2s)
+
 WebUI.click(findTestObject('09-Settings/Users/button_add'))
 
 WebUI.click(findTestObject('09-Settings/Users/add Invite a single user'))
 
 WebUI.delay(GlobalVariable.delay_2s)
 
-WebUI.setText(findTestObject('09-Settings/Users/input_email'), GlobalVariable.Y_email_autotester04)
+WebUI.setText(findTestObject('09-Settings/Users/input_email'), autotester00)
 
 WebUI.setText(findTestObject('09-Settings/Users/input_firstName'), firstname)
 
@@ -35,9 +57,7 @@ WebUI.click(findTestObject('09-Settings/Users/span_CoWorker'))
 
 WebUI.click(findTestObject('09-Settings/Users/button_Send Invitation'))
 
-WebUI.delay(GlobalVariable.delay_3s)
-
-WebUI.waitForElementVisible(findTestObject('07-Directory/Connections/zContact Profile/Successfully invited user'), 0)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.verifyElementVisible(findTestObject('07-Directory/Connections/zContact Profile/Successfully invited user'))
 
@@ -55,7 +75,7 @@ WebUI.navigateToUrl(GlobalVariable.URL_yopmail)
 
 WebUI.delay(GlobalVariable.delay_2s)
 
-WebUI.setText(findTestObject('Yopmail/input_Enter your inbox here'), GlobalVariable.Y_email_autotester04)
+WebUI.setText(findTestObject('Yopmail/input_Enter your inbox here'), autotester00)
 
 WebUI.click(findTestObject('Yopmail/button_Next'), FailureHandling.STOP_ON_FAILURE)
 
@@ -79,7 +99,7 @@ WebUI.click(findTestObject('09-Settings/Users/Co worker/button_Yes'))
 
 WebUI.delay(GlobalVariable.delay_2s)
 
-WebUI.setText(findTestObject('09-Settings/Users/input_email'), GlobalVariable.Y_email_autotester04)
+WebUI.setText(findTestObject('09-Settings/Users/input_email'), autotester00)
 
 WebUI.setEncryptedText(findTestObject('09-Settings/Users/Co worker/input_password'), GlobalVariable.password)
 
@@ -101,7 +121,7 @@ WebUI.navigateToUrl(GlobalVariable.URL_yopmail)
 
 WebUI.delay(GlobalVariable.delay_2s)
 
-WebUI.setText(findTestObject('Yopmail/input_Enter your inbox here'), GlobalVariable.Y_email_autotester04)
+WebUI.setText(findTestObject('Yopmail/input_Enter your inbox here'), autotester00)
 
 WebUI.click(findTestObject('Yopmail/button_Next'), FailureHandling.STOP_ON_FAILURE)
 
@@ -143,7 +163,7 @@ WebUI.navigateToUrl(GlobalVariable.URL_yopmail)
 
 WebUI.delay(GlobalVariable.delay_2s)
 
-WebUI.setText(findTestObject('Yopmail/input_Enter your inbox here'), GlobalVariable.Y_email_autotester04)
+WebUI.setText(findTestObject('Yopmail/input_Enter your inbox here'), autotester00)
 
 WebUI.click(findTestObject('Yopmail/button_Next'), FailureHandling.STOP_ON_FAILURE)
 

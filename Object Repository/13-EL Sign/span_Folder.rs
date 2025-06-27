@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>btn_uploadLocalFolder2</name>
+   <name>span_Folder</name>
    <tag></tag>
-   <elementGuidId>79cba13a-d35c-4b74-baa5-b3c9bfabb60f</elementGuidId>
+   <elementGuidId>4da6ef11-0d46-4b8c-80ba-9c55f3a8dbfb</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//button[@role='menuitem'])[3]</value>
+         <value>(//span[@ng-reflect-message='Folder'])[3]</value>
       </entry>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

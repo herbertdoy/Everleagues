@@ -12,6 +12,62 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>f9c1d0a9-c2ae-462e-bc31-2aca6c5889d3</testSuiteGuid>
    <testCaseLink>
+      <guid>5076ff89-43f0-4db8-bd24-f65d38444e1e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/01 - Login and Forgot Password/13 - Login(autotester00)</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>f2e4d6e5-d00f-4f69-8fa7-b3abde52aabc</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>245dad4a-dc62-4981-ba19-ba402da04503</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>00554ac1-24f2-4056-8d9f-727fcce58986</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>1015dee9-4b07-4359-b8b9-1acd7edec41e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/01 - Login and Forgot Password/14 - Login(autotester03)</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>0b545953-94f5-4607-b68f-e5ba9488f7ee</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>8318c109-3bc0-477c-9b5a-503df8c5b950</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>bb0ae821-f24b-4862-be19-10cf5bb815d0</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>2916f301-9113-43d7-b637-91eed7d12d73</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
       <guid>c649e396-8ebe-431f-91d6-74c9d484685b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>

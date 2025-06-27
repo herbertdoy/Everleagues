@@ -45,3 +45,7 @@ WebUI.click(findTestObject('11-Cloud Files/h4_MY DRIVE'))
 
 WebUI.delay(GlobalVariable.delay_2s)
 
+WebUI.click(findTestObject('11-Cloud Files/btn_clearNotif'))
+
+WebUI.delay(GlobalVariable.delay_2s)
+

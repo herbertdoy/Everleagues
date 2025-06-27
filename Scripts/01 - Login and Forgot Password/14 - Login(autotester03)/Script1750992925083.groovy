@@ -17,13 +17,49 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.openBrowser('')
+
+WebUI.refresh()
+
+WebUI.delay(GlobalVariable.delay_3s)
+
+WebUI.navigateToUrl(GlobalVariable.URL_lab)
+
+WebUI.maximizeWindow()
+
+WebUI.callTestCase(findTestCase('01 - Login and Forgot Password/04 - Login(Valid Credentials-testuser00005)'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('06-Teams/button_doublearrow'))
+
+WebUI.click(findTestObject('06-Teams/button_My Organizations'))
+
+WebUI.click(findTestObject('06-Teams/button_GG Automation'))
+
+WebUI.delay(GlobalVariable.delay_2s)
+
+WebUI.verifyElementVisible(findTestObject('06-Teams/span_GG Automation'))
+
+WebUI.delay(GlobalVariable.delay_2s)
+
+WebUI.click(findTestObject('03-Header Menu/div_Settings'))
+
+WebUI.delay(GlobalVariable.delay_2s)
+
+WebUI.scrollToElement(findTestObject('09-Settings/Users/div_Users'), 0)
+
+WebUI.click(findTestObject('09-Settings/Users/div_Users'))
+
+WebUI.delay(GlobalVariable.delay_2s)
+
 WebUI.click(findTestObject('09-Settings/Users/button_add'))
+
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('09-Settings/Users/add Invite a single user'))
 
 WebUI.delay(GlobalVariable.delay_2s)
 
-WebUI.setText(findTestObject('09-Settings/Users/input_email'), GlobalVariable.Y_email_autotester04)
+WebUI.setText(findTestObject('09-Settings/Users/input_email'), autotester03)
 
 WebUI.setText(findTestObject('09-Settings/Users/input_firstName'), firstname)
 
@@ -31,57 +67,33 @@ WebUI.setText(findTestObject('09-Settings/Users/input_lastName'), lastname)
 
 WebUI.click(findTestObject('09-Settings/Users/span_Role'))
 
-WebUI.click(findTestObject('09-Settings/Users/span_CoWorker'))
+WebUI.click(findTestObject('09-Settings/Users/span_Client'))
 
 WebUI.click(findTestObject('09-Settings/Users/button_Send Invitation'))
 
-WebUI.delay(GlobalVariable.delay_3s)
-
-WebUI.waitForElementVisible(findTestObject('07-Directory/Connections/zContact Profile/Successfully invited user'), 0)
+WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.verifyElementVisible(findTestObject('07-Directory/Connections/zContact Profile/Successfully invited user'))
 
 WebUI.delay(GlobalVariable.delay_2s)
 
-WebUI.executeJavaScript('window.open();', [])
+WebUI.callTestCase(findTestCase('01 - Login and Forgot Password/05 - Logout'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
-currentWindow = WebUI.getWindowIndex()
+WebUI.closeBrowser()
 
-WebUI.delay(GlobalVariable.delay_2s)
+WebUI.openBrowser('')
 
-WebUI.switchToWindowIndex(currentWindow + 1)
+WebUI.refresh()
 
-WebUI.navigateToUrl(GlobalVariable.URL_yopmail)
+WebUI.delay(GlobalVariable.delay_3s)
 
-WebUI.delay(GlobalVariable.delay_2s)
+WebUI.navigateToUrl(GlobalVariable.URL_lab)
 
-WebUI.setText(findTestObject('Yopmail/input_Enter your inbox here'), GlobalVariable.Y_email_autotester04)
+WebUI.maximizeWindow()
 
-WebUI.click(findTestObject('Yopmail/button_Next'), FailureHandling.STOP_ON_FAILURE)
+WebUI.setText(findTestObject('02-Side Icons/input_Email Field'), autotester03)
 
-WebUI.delay(GlobalVariable.delay_2s)
-
-WebUI.closeWindowTitle('Everleagues')
-
-WebUI.switchToWindowIndex(0)
-
-WebUI.click(findTestObject('Yopmail/div_Invitation from GG Automation'))
-
-WebUI.click(findTestObject('Yopmail/a_Click here to join GG Automation on EverLeagues'))
-
-WebUI.closeWindowTitle(GlobalVariable.Y_windowTitle)
-
-WebUI.switchToWindowIndex(0)
-
-WebUI.verifyElementVisible(findTestObject('09-Settings/Users/Co worker/Logout before proceed modal'))
-
-WebUI.click(findTestObject('09-Settings/Users/Co worker/button_Yes'))
-
-WebUI.delay(GlobalVariable.delay_2s)
-
-WebUI.setText(findTestObject('09-Settings/Users/input_email'), GlobalVariable.Y_email_autotester04)
-
-WebUI.setEncryptedText(findTestObject('09-Settings/Users/Co worker/input_password'), GlobalVariable.password)
+WebUI.setEncryptedText(findTestObject('02-Side Icons/input_Password Field'), GlobalVariable.password)
 
 WebUI.click(findTestObject('02-Side Icons/button_Sign in'))
 
@@ -101,7 +113,7 @@ WebUI.navigateToUrl(GlobalVariable.URL_yopmail)
 
 WebUI.delay(GlobalVariable.delay_2s)
 
-WebUI.setText(findTestObject('Yopmail/input_Enter your inbox here'), GlobalVariable.Y_email_autotester04)
+WebUI.setText(findTestObject('Yopmail/input_Enter your inbox here'), autotester03)
 
 WebUI.click(findTestObject('Yopmail/button_Next'), FailureHandling.STOP_ON_FAILURE)
 
@@ -143,7 +155,7 @@ WebUI.navigateToUrl(GlobalVariable.URL_yopmail)
 
 WebUI.delay(GlobalVariable.delay_2s)
 
-WebUI.setText(findTestObject('Yopmail/input_Enter your inbox here'), GlobalVariable.Y_email_autotester04)
+WebUI.setText(findTestObject('Yopmail/input_Enter your inbox here'), autotester03)
 
 WebUI.click(findTestObject('Yopmail/button_Next'), FailureHandling.STOP_ON_FAILURE)
 
@@ -157,19 +169,19 @@ WebUI.click(findTestObject('Yopmail/div_Invitation from GG Automation'))
 
 WebUI.click(findTestObject('Yopmail/a_Click here to join GG Automation on EverLeagues'))
 
-WebUI.delay(GlobalVariable.delay_2s)
-
 WebUI.closeWindowTitle(GlobalVariable.Y_windowTitle)
 
 WebUI.switchToWindowIndex(0)
 
-WebUI.verifyElementVisible(findTestObject('09-Settings/Users/Co worker/Invite modal'))
+WebUI.verifyElementVisible(findTestObject('09-Settings/Users/Client/Invite modal'))
 
-WebUI.click(findTestObject('09-Settings/Users/Co worker/button_Accept'))
+WebUI.setText(findTestObject('09-Settings/Users/Client/Company field'), companyname)
 
-WebUI.delay(GlobalVariable.delay_3s)
+WebUI.click(findTestObject('09-Settings/Users/Client/button_Accept'))
 
-WebUI.verifyElementVisible(findTestObject('09-Settings/Users/Co worker/div_Joined as CoWorker'))
+WebUI.delay(GlobalVariable.delay_2s)
+
+WebUI.verifyElementVisible(findTestObject('09-Settings/Users/Client/div_Joined as CLIENT'))
 
 WebUI.delay(GlobalVariable.delay_3s)
 
