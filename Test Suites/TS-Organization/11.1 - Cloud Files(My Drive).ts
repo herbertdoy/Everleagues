@@ -171,19 +171,6 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>bf4dfe00-722b-44b2-9552-69b4d2573641</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/11.1 - Cloud Files (My Drive)/20 - Upload folder that contains other folders</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>a141326e-af01-4025-8bcc-80b7e1d01c3f</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
       <guid>4c5fa9f6-f50a-43da-8dfb-a05affffec80</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -210,6 +197,19 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/11.1 - Cloud Files (My Drive)/16 - Share a folder - Edit</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>bf4dfe00-722b-44b2-9552-69b4d2573641</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/11.1 - Cloud Files (My Drive)/20 - Upload folder that contains other folders</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>a141326e-af01-4025-8bcc-80b7e1d01c3f</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>a78191c6-86a0-425e-810b-4bfd6dfe98ac</guid>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
-   <description>Manually add the account autotester00@yopmail.com as co worker and autotester03@yopmail.com as client</description>
+   <description>should have users autotester00@yopmail.com as co worker and autotester03@yopmail.com as client</description>
    <name>06.2 - Teams - Settings</name>
    <tag></tag>
    <isRerun>false</isRerun>

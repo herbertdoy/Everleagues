@@ -124,11 +124,15 @@ WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('13-EL Sign/btn_NXT2'))
 
-WebUI.click(findTestObject('13-EL Sign/btn_NXT2'))
+WebUI.delay(GlobalVariable.delay_6s)
 
-WebUI.click(findTestObject('13-EL Sign/btn_NXT2'))
+WebUI.click(findTestObject('13-EL Sign/btn_NXT3'))
 
-WebUI.delay(GlobalVariable.delay_2s)
+WebUI.delay(GlobalVariable.delay_6s)
+
+WebUI.click(findTestObject('13-EL Sign/btn_NXT3'))
+
+WebUI.delay(GlobalVariable.delay_6s)
 
 WebUI.click(findTestObject('13-EL Sign/button_completenavigate_next'))
 
