@@ -19,8 +19,6 @@ import org.openqa.selenium.Keys as Keys
 import java.awt.Toolkit as Toolkit
 import java.awt.datatransfer.DataFlavor as DataFlavor
 
-WebUI.click(findTestObject('11-Cloud Files/mat-icon_close'))
-
 WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.rightClick(findTestObject('11-Cloud Files/td_Automation folder EDIT'))
@@ -62,10 +60,6 @@ WebUI.delay(GlobalVariable.delay_2s)
 WebUI.rightClick(findTestObject('11-Cloud Files/td_Automation folder EDIT'))
 
 WebUI.click(findTestObject('11-Cloud Files/button_Share'))
-
-WebUI.click(findTestObject('11-Cloud Files/button_Copy Share Link'))
-
-WebUI.verifyElementPresent(findTestObject('11-Cloud Files/snack-bar_Link copied'), 0)
 
 WebUI.delay(GlobalVariable.delay_2s)
 

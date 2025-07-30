@@ -45,13 +45,11 @@ WebUI.delay(GlobalVariable.delay_2s)
 //WebUI.doubleClick(findTestObject('13-EL Sign/span_Folder'))
 //
 //WebUI.delay(GlobalVariable.delay_2s)
-
 WebUI.rightClick(findTestObject('11-Cloud Files/div_table2'))
 
 WebUI.delay(GlobalVariable.delay_2s)
 
-CustomKeywords.'com.kms.katalon.keyword.uploadfile.UploadFile.uploadFile'(findTestObject('11-Cloud Files/btn_UploadLocalFolder'), 
-    GlobalVariable.subFolder)
+WebUI.uploadFile(findTestObject('11-Cloud Files/btn_UploadLocalFolder'), GlobalVariable.subFolder)
 
 //WebUI.rightClick(findTestObject('11-Cloud Files/div_table2'))
 //WebUI.uploadFile(findTestObject('11-Cloud Files/btn_UploadLocalFolder'), GlobalVariable.subFolder)

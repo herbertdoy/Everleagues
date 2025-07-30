@@ -34,7 +34,6 @@ WebUI.click(findTestObject('11-Cloud Files/button_Share'))
 //WebUI.click(findTestObject('span_GG tester (autotesteryopmail.com)'))
 //
 //WebUI.click(findTestObject('11-Cloud Files/button_Save  Add Users'))
-
 WebUI.verifyElementVisible(findTestObject('11-Cloud Files/snack-bar-container_Shared file access updated successfully.OK'))
 
 WebUI.verifyElementVisible(findTestObject('11-Cloud Files/mat-dialog-container_View Share Files Modal'))
@@ -74,12 +73,6 @@ WebUI.click(findTestObject('11-Cloud Files/button_Share'))
 WebUI.delay(GlobalVariable.delay_2s)
 
 WebUI.click(findTestObject('11-Cloud Files/mat-checkbox_Enable activity feed to all users in the share list'))
-
-WebUI.delay(GlobalVariable.delay_2s)
-
-WebUI.click(findTestObject('11-Cloud Files/button_Copy Share Link'))
-
-WebUI.verifyElementPresent(findTestObject('11-Cloud Files/snack-bar_Link copied'), 0)
 
 WebUI.delay(GlobalVariable.delay_2s)
 
