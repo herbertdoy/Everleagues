@@ -17,3 +17,29 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.doubleClick(findTestObject('11-Cloud Files/td_subFolder'))
+
+WebUI.rightClick(findTestObject('11-Cloud Files/td_automation_folder'))
+
+WebUI.scrollToElement(findTestObject('11-Cloud Files/tags_btn'), 0)
+
+WebUI.click(findTestObject('11-Cloud Files/tags_btn'))
+
+WebUI.delay(GlobalVariable.delay_1s)
+
+WebUI.setText(findTestObject('11-Cloud Files/input_add tags'), inputTags)
+
+WebUI.click(findTestObject('11-Cloud Files/saveTags_btn'))
+
+WebUI.verifyElementVisible(findTestObject('11-Cloud Files/currentTags'))
+
+WebUI.delay(GlobalVariable.delay_1s)
+
+WebUI.click(findTestObject('11-Cloud Files/closeModalTags'))
+
+WebUI.delay(GlobalVariable.delay_1s)
+
+WebUI.verifyTextPresent(inputTags, true)
+
+WebUI.delay(GlobalVariable.delay_2s)
+

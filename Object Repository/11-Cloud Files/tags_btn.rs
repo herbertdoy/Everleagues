@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>btn_browse</name>
+   <name>tags_btn</name>
    <tag></tag>
-   <elementGuidId>8b2456a0-7baf-435f-922d-92c2d68290b4</elementGuidId>
+   <elementGuidId>42f4db21-4d7f-4851-b0b9-08b958f79671</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//button[contains(.,'folderBrowse')]</value>
+         <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>//button[contains(.,'label Tags')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

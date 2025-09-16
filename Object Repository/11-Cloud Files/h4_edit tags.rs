@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>btn_browse</name>
+   <name>h4_edit tags</name>
    <tag></tag>
-   <elementGuidId>8b2456a0-7baf-435f-922d-92c2d68290b4</elementGuidId>
+   <elementGuidId>b551e3af-7f3f-48de-af74-eaf9f489d267</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//button[contains(.,'folderBrowse')]</value>
+         <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>//h4[normalize-space(text())='Edit Tags']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

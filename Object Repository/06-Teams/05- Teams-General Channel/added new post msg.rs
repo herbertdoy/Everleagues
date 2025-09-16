@@ -6,16 +6,16 @@
    <elementGuidId>ab4546af-21d7-47df-9182-ebb39a4c3cf3</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>snack-bar-container.mat-snack-bar-container.ng-tns-c41-121.ng-trigger.ng-trigger-state.mat-snack-bar-center.ng-star-inserted</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>//snack-bar-container[@role = 'status' and (text() = 'Added new postOK' or . = 'Added new postOK')]</value>
       </entry>
       <entry>
+         <key>CSS</key>
+         <value>snack-bar-container.mat-snack-bar-container.ng-tns-c41-121.ng-trigger.ng-trigger-state.mat-snack-bar-center.ng-star-inserted</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
-         <value>//snack-bar-container[(text() = 'Added new postOK' or . = 'Added new postOK')]</value>
+         <value>//simple-snack-bar[contains(.,'Added new postOK')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -26,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>snack-bar-container</value>
-      <webElementGuid>72dec5f4-5e95-4fb8-80d1-a97fa220c4bb</webElementGuid>
+      <webElementGuid>7075f3c0-138b-4d3c-a36e-2fba8e794b6d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -34,7 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-snack-bar-container ng-tns-c41-121 ng-trigger ng-trigger-state mat-snack-bar-center ng-star-inserted</value>
-      <webElementGuid>8fdba641-9d09-40f2-98a4-8ed63b299410</webElementGuid>
+      <webElementGuid>15fc90fa-b793-4ed4-91a9-bdfc43066f05</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -42,7 +42,7 @@
       <name>role</name>
       <type>Main</type>
       <value>status</value>
-      <webElementGuid>1a944cce-a216-45c1-9e48-54d65515c947</webElementGuid>
+      <webElementGuid>fefc6baa-d4f9-4ffb-b154-433b82ab2f4e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -50,7 +50,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Added new postOK</value>
-      <webElementGuid>8d226683-9db9-4af7-af38-657b974acf24</webElementGuid>
+      <webElementGuid>ad52888d-778a-49ec-ada4-a97495b893fc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -58,7 +58,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;cdk-overlay-38&quot;)/snack-bar-container[@class=&quot;mat-snack-bar-container ng-tns-c41-121 ng-trigger ng-trigger-state mat-snack-bar-center ng-star-inserted&quot;]</value>
-      <webElementGuid>43f78357-6c64-4d62-8f39-9be1e01a6135</webElementGuid>
+      <webElementGuid>a90ff8f8-b2c0-4c7b-86f2-c3376efb6a91</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -66,7 +66,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='cdk-overlay-38']/snack-bar-container</value>
-      <webElementGuid>c8e0aa1d-6d85-4e70-8fa3-17481928239e</webElementGuid>
+      <webElementGuid>81dea826-65ac-462b-a0f3-9c73d0768017</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -74,7 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Added new post'])[1]/following::snack-bar-container[1]</value>
-      <webElementGuid>02630622-ac66-46b1-be41-96491e1c5efe</webElementGuid>
+      <webElementGuid>6cbf9eda-2c72-4b93-ba13-40659b0a4d57</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Search Results'])[1]/following::snack-bar-container[1]</value>
-      <webElementGuid>43ef260f-9e1a-4783-a33c-a950ccf06253</webElementGuid>
+      <webElementGuid>b4d7faaf-c2e8-4a71-8d1b-fa88ced9f82a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -90,7 +90,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//snack-bar-container</value>
-      <webElementGuid>503fe414-1368-4eb7-bd11-6d5b9115a277</webElementGuid>
+      <webElementGuid>be431d77-3b17-419d-80bd-8463274fba2c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,6 +98,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//snack-bar-container[(text() = 'Added new postOK' or . = 'Added new postOK')]</value>
-      <webElementGuid>c015a6e5-8080-47f8-8123-191ec706bb2d</webElementGuid>
+      <webElementGuid>564baf6b-0777-4752-b71c-fb0bfe7c40fb</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>btn_browse</name>
+   <name>td_automation_folder</name>
    <tag></tag>
-   <elementGuidId>8b2456a0-7baf-435f-922d-92c2d68290b4</elementGuidId>
+   <elementGuidId>830492aa-12e9-41fe-8b5d-f7fbf61391d3</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//button[contains(.,'folderBrowse')]</value>
+         <value>//td[contains(.,'Automation folder')]</value>
       </entry>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

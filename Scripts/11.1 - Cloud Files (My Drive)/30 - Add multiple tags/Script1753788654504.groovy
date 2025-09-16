@@ -17,3 +17,37 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.acceptAlert()
+
+WebUI.rightClick(findTestObject('11-Cloud Files/qa_file'))
+
+WebUI.scrollToElement(findTestObject('11-Cloud Files/tags_btn'), 0)
+
+WebUI.click(findTestObject('11-Cloud Files/tags_btn'))
+
+WebUI.verifyElementVisible(findTestObject('11-Cloud Files/h4_edit tags'))
+
+WebUI.delay(GlobalVariable.delay_1s)
+
+WebUI.setText(findTestObject('11-Cloud Files/input_add tags'), inputTag1)
+
+WebUI.click(findTestObject('11-Cloud Files/saveTags_btn'))
+
+WebUI.setText(findTestObject('11-Cloud Files/input_add tags'), inputTag2)
+
+WebUI.click(findTestObject('11-Cloud Files/saveTags_btn'))
+
+WebUI.verifyElementVisible(findTestObject('11-Cloud Files/currentTags'))
+
+WebUI.delay(GlobalVariable.delay_1s)
+
+WebUI.delay(GlobalVariable.delay_1s)
+
+WebUI.click(findTestObject('11-Cloud Files/closeModalTags'))
+
+WebUI.verifyTextPresent(inputTag1, true)
+
+WebUI.verifyTextPresent(inputTag2, true)
+
+WebUI.delay(GlobalVariable.delay_2s)
+

@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>btn_browse</name>
+   <name>saveTags_btn</name>
    <tag></tag>
-   <elementGuidId>8b2456a0-7baf-435f-922d-92c2d68290b4</elementGuidId>
+   <elementGuidId>403e6b29-e509-49cf-a656-eaa29c76060d</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//button[contains(.,'folderBrowse')]</value>
+         <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>//span[normalize-space(text())='Save']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

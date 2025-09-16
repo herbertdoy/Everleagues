@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>btn_browse</name>
+   <name>verifyTags</name>
    <tag></tag>
-   <elementGuidId>8b2456a0-7baf-435f-922d-92c2d68290b4</elementGuidId>
+   <elementGuidId>68d5df22-7513-488a-9d28-261effb5950d</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//button[contains(.,'folderBrowse')]</value>
+         <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>//mat-chip[@ng-reflect-message='tags1']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

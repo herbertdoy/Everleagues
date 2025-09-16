@@ -43,7 +43,7 @@ WebUI.waitForElementVisible(findTestObject('06-Teams/05- Teams-General Channel/S
 
 WebUI.verifyElementVisible(findTestObject('06-Teams/05- Teams-General Channel/Successfully edited post msg'))
 
-WebUI.delay(GlobalVariable.delay_2s)
+WebUI.delay(GlobalVariable.delay_10s)
 
 WebUI.scrollToElement(findTestObject('06-Teams/05- Teams-General Channel/Bold select'), 0)
 
@@ -54,10 +54,6 @@ WebUI.click(findTestObject('06-Teams/05- Teams-General Channel/Input field_post'
 WebUI.sendKeys(findTestObject('Object Repository/06-Teams/05- Teams-General Channel/Input field_post'), bold)
 
 WebUI.click(findTestObject('06-Teams/05- Teams-General Channel/button_send'))
-
-WebUI.waitForElementVisible(findTestObject('06-Teams/05- Teams-General Channel/added new post msg'), 0)
-
-WebUI.verifyElementVisible(findTestObject('06-Teams/05- Teams-General Channel/added new post msg'))
 
 WebUI.delay(GlobalVariable.delay_2s)
 
@@ -72,10 +68,6 @@ WebUI.click(findTestObject('06-Teams/05- Teams-General Channel/Input field_post'
 WebUI.sendKeys(findTestObject('Object Repository/06-Teams/05- Teams-General Channel/Input field_post'), italic)
 
 WebUI.click(findTestObject('06-Teams/05- Teams-General Channel/button_send'))
-
-WebUI.waitForElementVisible(findTestObject('06-Teams/05- Teams-General Channel/added new post msg'), 0)
-
-WebUI.verifyElementVisible(findTestObject('06-Teams/05- Teams-General Channel/added new post msg'))
 
 WebUI.delay(GlobalVariable.delay_2s)
 

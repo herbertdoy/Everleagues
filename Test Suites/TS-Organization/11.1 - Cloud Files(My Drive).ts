@@ -171,6 +171,19 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
+      <guid>9d81b195-bcd8-4862-9de7-827340eccae6</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/11.1 - Cloud Files (My Drive)/27 - Tag a File</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>96a67c5c-e186-4478-af04-481a127aa47d</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
       <guid>4c5fa9f6-f50a-43da-8dfb-a05affffec80</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -217,5 +230,18 @@
       <isRun>false</isRun>
       <testCaseId>Test Cases/11.1 - Cloud Files (My Drive)/17 - Delete a file and folder</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>d472d9ac-7ff4-49eb-82e5-48d9d3b255b1</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/11.1 - Cloud Files (My Drive)/28 - Tag a Folder</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>cf3e502c-b8e3-45cf-898f-caf8587d29b9</variableId>
+      </variableLink>
    </testCaseLink>
 </TestSuiteEntity>
