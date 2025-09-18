@@ -6,12 +6,12 @@
    <elementGuidId>f28b63a7-ab51-4b16-81bd-0cb2ba7ebd8e</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>button.mat-focus-indicator.td-file-input.mat-raised-button.mat-button-base.cdk-focused.cdk-mouse-focused</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>//*[@type = 'button' and (text() = 'folderBrowse' or . = 'folderBrowse')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.mat-focus-indicator.td-file-input.mat-raised-button.mat-button-base.cdk-focused.cdk-mouse-focused</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -26,6 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
+      <webElementGuid>71e90eb0-a490-4425-b864-213a1611da8d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -33,6 +34,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
+      <webElementGuid>9924e303-4f61-478d-89cc-db0cbf306f6c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -40,6 +42,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-focus-indicator td-file-input mat-raised-button mat-button-base cdk-focused cdk-mouse-focused</value>
+      <webElementGuid>ad9fa03f-e012-43d4-91b2-dc6cb2dc62f2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,6 +50,7 @@
       <name>ng-reflect-multiple</name>
       <type>Main</type>
       <value>true</value>
+      <webElementGuid>582a8604-3f51-4061-937e-145d52def417</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,6 +58,7 @@
       <name>ng-reflect-disabled</name>
       <type>Main</type>
       <value>false</value>
+      <webElementGuid>3b9cba70-1836-44ff-b931-05d0d765aabc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -61,6 +66,7 @@
       <name>text</name>
       <type>Main</type>
       <value>folderBrowse</value>
+      <webElementGuid>96ab4210-8887-43f7-88a9-8958c50c5381</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -68,6 +74,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-dialog-1&quot;)/app-dialog-upload-profile-image[@class=&quot;ng-star-inserted&quot;]/section[@class=&quot;dialog-container&quot;]/form[@class=&quot;ng-untouched ng-valid ng-dirty&quot;]/div[@class=&quot;mat-dialog-content&quot;]/div[@class=&quot;push-top-md&quot;]/div[@class=&quot;input-file-container&quot;]/td-file-input[@class=&quot;push-left-sm ng-untouched ng-valid ng-dirty&quot;]/div[1]/button[@class=&quot;mat-focus-indicator td-file-input mat-raised-button mat-button-base cdk-focused cdk-mouse-focused&quot;]</value>
+      <webElementGuid>3cf4822d-7abe-4e78-b83c-784ae5102bfb</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -75,6 +82,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[12]</value>
+      <webElementGuid>b48b471f-502f-4298-91b8-1d800e97f027</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,6 +90,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-dialog-container[@id='mat-dialog-1']/app-dialog-upload-profile-image/section/form/div/div[2]/div[2]/td-file-input/div/button</value>
+      <webElementGuid>cb39518b-2400-44ab-8263-67bc96418d45</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -89,6 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Select file..'])[1]/following::button[1]</value>
+      <webElementGuid>75ec1bb3-198f-44cc-b7c3-397577ccf6a8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -96,6 +106,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Upload User Image'])[1]/following::button[1]</value>
+      <webElementGuid>28c2ecaf-33f3-4c54-853f-d37ea4db393b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,6 +114,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Upload Image'])[1]/preceding::button[1]</value>
+      <webElementGuid>5b8016a3-f7c1-4820-95b2-7917916c2836</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,5 +122,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td-file-input/div/button</value>
+      <webElementGuid>e4ab21ad-e02a-4776-9d0f-772106972008</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

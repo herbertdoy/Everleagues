@@ -6,12 +6,11 @@
    <elementGuidId>f939c9c3-4c73-4e06-af97-64fffdddfd49</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@fxlayoutalign = 'start center' and (text() = 'GTGG tester 2' or . = 'GTGG tester 2')]</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//span[normalize-space(text())='GG TESTER']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

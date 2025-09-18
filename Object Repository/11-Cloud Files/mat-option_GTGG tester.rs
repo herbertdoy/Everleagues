@@ -6,16 +6,16 @@
    <elementGuidId>356bfeea-2983-40f1-9388-947a1ebb3bef</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>div[role=&quot;listbox&quot;] mat-option:last-child() .mat-option-text .contact-email</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>//div[@fxlayoutalign = 'start center' and (text() = 'GTGG tester' or . = 'GTGG tester')]</value>
       </entry>
       <entry>
+         <key>CSS</key>
+         <value>div[role=&quot;listbox&quot;] mat-option:last-child() .mat-option-text .contact-email</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
-         <value>(//mat-option[@ng-reflect-value='[object Object]'])[2]</value>
+         <value>(//mat-option[@ng-reflect-value='[object Object]'])[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -26,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>50d94a41-836d-40e6-8243-945604d3a695</webElementGuid>
+      <webElementGuid>0505b82b-01c7-4eed-a506-1fbf0a812609</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -34,7 +34,7 @@
       <name>fxlayoutalign</name>
       <type>Main</type>
       <value>start center</value>
-      <webElementGuid>76fdf67a-6e8b-44da-af5f-48e28aced886</webElementGuid>
+      <webElementGuid>ac25f4aa-f01a-4c79-9917-c8decbf8dbf4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,7 +42,7 @@
       <name>ng-reflect-fx-layout-align</name>
       <type>Main</type>
       <value>start center</value>
-      <webElementGuid>06cc78a9-f8cc-4e72-a314-affba4651877</webElementGuid>
+      <webElementGuid>2ee8fed2-c96c-4aa5-a5b0-036521398093</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -50,7 +50,7 @@
       <name>text</name>
       <type>Main</type>
       <value>GTGG tester</value>
-      <webElementGuid>084747a6-f128-4dc3-b7cf-78ce713b8051</webElementGuid>
+      <webElementGuid>4c6b0553-7ccd-4398-af5d-96e947945ed2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -58,7 +58,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-dialog-3&quot;)/app-dialog-share-file-folder[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;white-container push-top-sm ng-star-inserted&quot;]/div[1]/div[@class=&quot;container-body&quot;]/mat-list[@class=&quot;mat-list mat-list-base content&quot;]/mat-list-item[@class=&quot;mat-list-item mat-focus-indicator ng-star-inserted&quot;]/div[@class=&quot;mat-list-item-content&quot;]/div[3]</value>
-      <webElementGuid>260450c3-9f77-4d52-b897-624d1c0520d7</webElementGuid>
+      <webElementGuid>32d60fce-c516-48a0-8a51-578b812aa633</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -66,7 +66,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-dialog-container[@id='mat-dialog-3']/app-dialog-share-file-folder/div[2]/div/div[3]/mat-list/mat-list-item[2]/div/div[3]</value>
-      <webElementGuid>5b3accb4-5b2d-4a2f-bf6d-bd5e8f010c29</webElementGuid>
+      <webElementGuid>9a93f0e4-9239-4714-b6f2-de9c1f6ff9a7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -74,7 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Viewer'])[2]/following::div[10]</value>
-      <webElementGuid>f81209dc-603e-4aad-b769-ded002c9926f</webElementGuid>
+      <webElementGuid>bb0b304a-a942-47db-b072-63f3c871f05b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='GG tester 2'])[1]/following::div[19]</value>
-      <webElementGuid>1ec84744-fe33-4203-97ab-cfa5666a5a2f</webElementGuid>
+      <webElementGuid>2a2a74e7-bac7-4041-8f1c-55792a634dfb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -90,7 +90,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//mat-list-item[2]/div/div[3]</value>
-      <webElementGuid>f2305c14-f6a6-46fa-8335-603f4e1c4bce</webElementGuid>
+      <webElementGuid>ab6ab598-8b65-4c78-98f8-5996ca330844</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,6 +98,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = 'GTGG tester' or . = 'GTGG tester')]</value>
-      <webElementGuid>89718240-3f94-48bc-b872-2fe6e2e8d6e2</webElementGuid>
+      <webElementGuid>a6086473-4a2c-465e-95cf-013842dde4fc</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -6,11 +6,11 @@
    <elementGuidId>7c10f84c-56a9-435d-b52d-866bdbee105a</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[(text() = 'Shared With Me ' or . = 'Shared With Me ')]</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>//div[(text() = 'Shared Drive ' or . = 'Shared Drive ')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
